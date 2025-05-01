@@ -19,7 +19,7 @@ define petrovich = Character('Петрович', color="#7a7a7a")
 
 
 # Игра начинается здесь:
-label start:
+label start_game:
 
 
 
@@ -219,7 +219,7 @@ label start:
         # scene black with Fade(3.0) # Плавное затемнение
         # stop music fadeout 2.0
 
-        jump chapter1_lab_morning
+        call chapter1_lab_morning
         return
 
 
@@ -327,7 +327,7 @@ label start:
 
         narrator "Неон осталась одна посреди разгромленного утреннего спокойствия, смешанных чувств и сломанной клавиатуры. Доклад. Да, точно. Нужно сосредоточиться."
 
-        jump chapter1_lab_noon
+        call chapter1_lab_noon
 
         return
 
@@ -411,7 +411,7 @@ label start:
         narrator "Рука замерла над бумагой. Первая буква... И вдруг перед глазами возникла совсем другая картина..."
 
         # Конец первой части chapter1_lab_noon.
-        jump chapter1_flashback_start
+        call chapter1_flashback_start
         return
 
     label chapter1_flashback_start:

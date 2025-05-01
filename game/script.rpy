@@ -4,5 +4,5 @@
         "Прототип":
             call start_prototype
         "Игра":
-            call start
+            call start_game
     return

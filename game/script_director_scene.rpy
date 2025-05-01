@@ -185,7 +185,7 @@ label start_prototype:
         narrator "Документ в мониторе двоился, а голова начала кружиться сама по себе..."
         neon "Ч-что..."
 
-        jump chapter1_lab_morning
+        call chapter1_lab_morning
         return
 
     label chapter1_lab_morning:
@@ -287,7 +287,7 @@ label start_prototype:
         alex "Если ты его, конечно, сегодня хочешь показать."
         alex "В общем, созвонимся."
 
-        jump chapter1_lab_noon
+        call chapter1_lab_noon
 
         # Далее Арка ходьбы Неон по всему предприятию, поиск вдохновления для своего доклада, расскрытие некоторых секретов.
         return
@@ -391,7 +391,7 @@ label start_prototype:
         narrator "Неон вышла из тихой комнаты и уверенным шагом направилась по коридору – туда, где располагался главный конференц-зал."
         # Можно закончить сцену на виде идущей Неон или на двери конференц-зала
 
-        jump chapter1_meeting_start
+        call chapter1_meeting_start
         return
 
         label chapter1_meeting_start:
