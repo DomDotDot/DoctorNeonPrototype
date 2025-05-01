@@ -19,12 +19,12 @@ define fcs = Character('Система Управление Полётом', col
 # Игра начинается здесь:
 label start_prototype:
 
-    label prologue:
+    label debug_prologue:
 
         # Пролог введётся с перспективы записи пилота на микрофон с черного ящика, а также отчёта системы управления.
         # Пилот - Доктор Неон, но пролог это специально скрывает.
 
-        narrator "asdasd, темнота. Видны лишь искры от фюзеляжа челнока."
+        narrator "Тряска, темнота. Видны лишь искры от фюзеляжа челнока."
         narrator "Эти искры заполняли темноту в иллюминаторе челнока, давай блески по металлическим предметам кабинам."
 
         fcs "Внимание - повреждение системы стабилизации."
@@ -82,9 +82,11 @@ label start_prototype:
 
         narrator_nvl "Несколько месяцев до индицента..."
         nvl clear
+
+        call debug_chapter1_lab_night
         return
 
-    label chapter1_lab_night:
+    label debug_chapter1_lab_night:
 
         # Установка сеттинга, Описание Доктор Неон. Личность всё ещё скрывается. Неон - олицетворение греха Гордыни, фамильярства.
         narrator "Лаборатория. Стены были кафельными, придавая чувство стерильности."
@@ -185,10 +187,10 @@ label start_prototype:
         narrator "Документ в мониторе двоился, а голова начала кружиться сама по себе..."
         neon "Ч-что..."
 
-        call chapter1_lab_morning
+        call debug_chapter1_lab_morning
         return
 
-    label chapter1_lab_morning:
+    label debug_chapter1_lab_morning:
 
         #Утро следующего дня. Неон проспала. Звучит её будильник с телефона, в то время, в которое она обычно просыпается, дабы подготовиться к работе.
 
@@ -287,12 +289,12 @@ label start_prototype:
         alex "Если ты его, конечно, сегодня хочешь показать."
         alex "В общем, созвонимся."
 
-        call chapter1_lab_noon
+        call debug_chapter1_lab_noon
 
         # Далее Арка ходьбы Неон по всему предприятию, поиск вдохновления для своего доклада, расскрытие некоторых секретов.
         return
 
-    label chapter1_lab_noon:
+    label debug_chapter1_lab_noon:
 
         # Неон в своем офисе, сразу после ухода Алекс.
         # scene lab_morning # Фон тот же, но можно добавить эффект полуденного света из окна
@@ -391,10 +393,10 @@ label start_prototype:
         narrator "Неон вышла из тихой комнаты и уверенным шагом направилась по коридору – туда, где располагался главный конференц-зал."
         # Можно закончить сцену на виде идущей Неон или на двери конференц-зала
 
-        call chapter1_meeting_start
+        call debug_chapter1_meeting_start
         return
 
-        label chapter1_meeting_start:
+        label debug_chapter1_meeting_start:
             return
 
     return
