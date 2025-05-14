@@ -4,3 +4,6 @@ tl
 errors.txt
 log.txt
 cache
+traceback.txt
+.gitignore
+game/cache
