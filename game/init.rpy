@@ -3,6 +3,7 @@
 define neon = Character('Неон', color="#1f4bc4", image="neon")
 define mark = Character('Марк', color="#967230", image="mark")
 define alex = Character('Алекс', color="#b41f5d", image="alex")
+define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True)
 
     # Вспомогательные персонажи
 define narrator = Character(None, what_size=15)
@@ -12,6 +13,7 @@ define unknown = Character('Неизвестный', color="#ffffff")
 define unknown_f = Character('Неизвестная', color="#ffffff")
 define fcs = Character('Система Управление Полётом', color="#a30e0e")
 
+    # Второстепенные персонажи
 define petrovich = Character('Петрович', color="#7a7a7a", image="petrovich")
 
 define ceo = Character('Господин Бауманн (CEO)', color="#305a96", image="ceo_boss") # Генеральный директор
@@ -20,15 +22,30 @@ define cro = Character('Доктор Захаров (CRO)', color="#753636", ima
 define bully1 = Character('Задира 1', color="#b32424", image="bully")
 define bully2 = Character('Задира 2', color="#b32424", image="bully")
 
+define anna = Character('Анна', color="#d96411", image="anna")
+define sophie = Character('Софи', color="#d1c682", image="sophie")
+
+define headteacher = Character('Завуч', color="#808080", image="headteacher")
 
 # Кастомные стили
 style thoughts:
-    italic True
+        italic True
 style yell:
-    size 40
+        size 40
 
 init:
     transform flip:
-        xzoom -1.0
+            xzoom -1.0
     transform restore_flip:
-        xzoom 1.0
+            xzoom 1.0
+
+# Переменные:
+
+default oganesson_name_revealed = False
+default oganesson_display_name = "Опекунша (размыто)"
+
+# Технические функции
+
+label reveal_oganesson_name:
+    $ oganesson_name_revealed = True
+    $ oganesson_display_name = "Оганесон"

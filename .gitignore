@@ -7,3 +7,7 @@ cache
 traceback.txt
 .gitignore
 game/cache
+game/cache/shaders.txt
+game/cache/screens.rpyb
+game/cache/py3analysis.rpyb
+game/cache/bytecode-39.rpyb
