@@ -11,12 +11,14 @@ label chapter_0_prologue_rpy:
         # play sound "sounds/black_box_start.ogg" # Пример звука
         pause 1.0
 
-        scene bg scene_prologue_spacepod
+        scene bg prologue_spacepod
+
+        play music "music/BGM/Imminense.ogg" fadein 2.0 fadeout 0.5
         narrator "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
         narrator "Где-то сквозь грохот пробивается скрежет рвущегося металла."
 
         # show screen shake(magnitude=5, duration=0.5)
-
+        
         fcs "Внимание! Множественные повреждения! Отказ системы стабилизации!"
 
         # Голос пилота - сдавленный, панический
@@ -56,8 +58,9 @@ label chapter_0_prologue_rpy:
         stop sound
         # play sound "sounds/crash_impact.ogg"
         # play sound "sounds/post_crash_static.ogg" loop
-        pause 2.0
 
+
+        play music "music/BGM/Unlocked.ogg" fadein 2.0 fadeout 0.5
         narrator_nvl "Мир исчез. Заменился давлением, выжимающим воздух из легких. Ощущением, будто тело впечатало в кресло с силой пресса."
         narrator_nvl "В ушах — непрекращающийся, высокий звон. Он поглотил все остальные звуки, даже собственный крик."
         narrator_nvl "Потом пришла тьма. Не просто отсутствие света, а ватная, глухая пустота. Ничего."
@@ -67,6 +70,7 @@ label chapter_0_prologue_rpy:
 
         narrator "На записи слышен тихий стон, полный боли."
 
+        show neon eyehurt
         unknown_f "(тихо) Н-ннгх... Больно..."
 
         narrator "Звуки борьбы, слабого движения. Похоже, пострадавший пытается что-то сделать."
@@ -87,4 +91,5 @@ label chapter_0_prologue_rpy:
         scene black with Dissolve(1.0)
         narrator_nvl "Несколько месяцев до инцидента..."
         nvl clear
-        stop sound
+        stop sound fadeout 1.0
+        stop music fadeout 1.0
