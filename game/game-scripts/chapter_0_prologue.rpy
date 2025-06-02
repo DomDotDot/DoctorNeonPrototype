@@ -11,7 +11,7 @@ label chapter_0_prologue_rpy:
         # play sound "sounds/black_box_start.ogg" # Пример звука
         pause 1.0
 
-
+        scene bg scene_prologue_spacepod
         narrator "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
         narrator "Где-то сквозь грохот пробивается скрежет рвущегося металла."
 

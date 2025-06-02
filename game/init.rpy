@@ -39,6 +39,11 @@ init:
     transform restore_flip:
             xzoom 1.0
 
+init python:
+
+    renpy.music.register_channel("ambient", mixer="music", loop=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True)
+    renpy.music.register_channel("ui_sfx", mixer="sfx", loop=False, tight=True)
+
 # Переменные:
 
 default oganesson_name_revealed = False
