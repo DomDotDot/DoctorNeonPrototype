@@ -1,5 +1,4 @@
 saves
-tl
 .vscode
 errors.txt
 log.txt
@@ -11,3 +10,7 @@ game/cache/shaders.txt
 game/cache/screens.rpyb
 game/cache/py3analysis.rpyb
 game/cache/bytecode-39.rpyb
+*.rpyc
+!spec/*.rpyc
+.rpyc
+renpy_warp
