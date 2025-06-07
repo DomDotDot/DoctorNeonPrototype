@@ -14,3 +14,8 @@ game/cache/bytecode-39.rpyb
 !spec/*.rpyc
 .rpyc
 renpy_warp
+game/tl/None/common.rpymc
+game/screens.rpyc
+game/options.rpyc
+game/init.rpyc
+game/gui.rpyc

@@ -1,0 +1,2398 @@
+﻿# TODO: Translation updated at 2025-06-07 16:07
+
+# game/game-scripts/script_director_scene.rpy:9
+translate english_us debug_prologue_36415c95:
+
+    # narrator "Тряска, темнота. Видны лишь искры от фюзеляжа челнока."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:10
+translate english_us debug_prologue_e7c2924a:
+
+    # narrator "Эти искры заполняли темноту в иллюминаторе челнока, давай блески по металлическим предметам кабинам."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:12
+translate english_us debug_prologue_e369c35a:
+
+    # fcs "Внимание - повреждение системы стабилизации."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:14
+translate english_us debug_prologue_97e954ba:
+
+    # unknown "Черт, только не сейчас!"
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:15
+translate english_us debug_prologue_3a486d5a:
+
+    # unknown "Где... где, черт возьми, тут отключение автопилота?!"
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:17
+translate english_us debug_prologue_c21d4a89:
+
+    # narrator "Слышен звук разряженного воздуха, направленный на спускаемый аппарат."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:18
+translate english_us debug_prologue_e467e2e4:
+
+    # narrator "Такое чувство, что его вот-вот разорвет."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:19
+translate english_us debug_prologue_86f33a09:
+
+    # narrator "От сильной паники и стресса в голосе пилота, невозможно было судить, мужчина это или женщина."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:21
+translate english_us debug_prologue_e2a71935:
+
+    # fcs "Вход в зону стратосферы завершен."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:22
+translate english_us debug_prologue_8aa40928:
+
+    # fcs "Фаза аэродинамического торможения завершилась неудачно."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:23
+translate english_us debug_prologue_56b202af:
+
+    # fcs "Опасность - критическая скорость падения."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:24
+translate english_us debug_prologue_77b5c93c:
+
+    # fcs "Выполняется преждевременный сброс парашютов."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:26
+translate english_us debug_prologue_2a4c4a23:
+
+    # unknown "Ну давай, давай-же, быстрее!"
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:28
+translate english_us debug_prologue_917a8f60:
+
+    # narrator "Настолько быстро двигался аппарат, что от напора воздуха пилот не услышил сброса парашютов."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:29
+translate english_us debug_prologue_3156e9f1:
+
+    # narrator "Внедоумении он был до тех пор, пока система не объявила новое предупреждение."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:31
+translate english_us debug_prologue_7fd5f84c:
+
+    # fcs "Полный сброс парашютов завершилась неудачно."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:32
+translate english_us debug_prologue_e0afe320:
+
+    # fcs "Три из четырёх парашютов раскрылись удачно."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:34
+translate english_us debug_prologue_74f2d350:
+
+    # narrator "Предательски было слышно частое дыхание пилота. Намекая на панику."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:35
+translate english_us debug_prologue_1c6e1652:
+
+    # narrator "Челнок хоть и начал ощутимое замедление, но не раскрытый парашют создал неровномерную центробежность."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:36
+translate english_us debug_prologue_15702eb7:
+
+    # narrator "Ещё сильнее укачивая и так сильно разогнавшийся аппарат."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:37
+translate english_us debug_prologue_0c76b90a:
+
+    # narrator "Вскоре, раздалось разочаровывающее оповещение."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:38
+translate english_us debug_prologue_9c5fdc03:
+
+    # narrator "Его повторение и интонация оказывала давление, страх."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:40
+translate english_us debug_prologue_7458e6bd:
+
+    # fcs "СТОЛКНОВЕНИЕ. СТОЛКНОВЕНИЕ."
+    fcs ""
+
+# game/game-scripts/script_director_scene.rpy:43
+translate english_us debug_prologue_096cda59:
+
+    # narrator_nvl "Чувство, будто тебя придавило сиденьем, а кишки вышли наружу."
+    narrator_nvl ""
+
+# game/game-scripts/script_director_scene.rpy:44
+translate english_us debug_prologue_c90a82d9:
+
+    # narrator_nvl "Звон ушах длился будто вечность. Он затмевал любой другой шум."
+    narrator_nvl ""
+
+# game/game-scripts/script_director_scene.rpy:45
+translate english_us debug_prologue_11a78eae:
+
+    # narrator_nvl "А дальше была пустота. Тьма. Абсолютно ничего не происходило."
+    narrator_nvl ""
+
+# game/game-scripts/script_director_scene.rpy:46
+translate english_us debug_prologue_1835b55e:
+
+    # narrator_nvl "Ноги не слушались, будто не свои, а руки дрожали неостанавливаясь."
+    narrator_nvl ""
+
+# game/game-scripts/script_director_scene.rpy:47
+translate english_us debug_prologue_511ac694:
+
+    # narrator_nvl "Лишь были ощутимы запахи. Различимые запахи железа, гари."
+    narrator_nvl ""
+
+# game/game-scripts/script_director_scene.rpy:48
+translate english_us debug_prologue_f66de335:
+
+    # nvl clear
+    # unknown "Нннх!"
+    nvl clear
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:52
+translate english_us debug_prologue_2c8ad737:
+
+    # narrator "Что-то борматал пострадавший, корчясь от боли."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:53
+translate english_us debug_prologue_e0726584:
+
+    # narrator "А боль... Боль пульсировала в голове."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:54
+translate english_us debug_prologue_3637ec6e:
+
+    # narrator "Глаза всё не открывались."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:56
+translate english_us debug_prologue_f7b1f400:
+
+    # unknown "Выбраться... отсюда..."
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:58
+translate english_us debug_prologue_169b553f:
+
+    # narrator "Пострадавший еле-еле дотянулся до затворок люка, открыв его."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:60
+translate english_us debug_prologue_f90d63c4:
+
+    # unknown "А-ах!"
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:62
+translate english_us debug_prologue_9bfefac1:
+
+    # narrator "Но голова резко заболела, как будто тысяча иголок резко вонзились прямо в мозг."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:63
+translate english_us debug_prologue_2201971d:
+
+    # narrator "Неизвестный упал в бессознание."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:65
+translate english_us debug_prologue_97cf477a:
+
+    # narrator_nvl "Несколько месяцев до индицента..."
+    narrator_nvl ""
+
+# game/game-scripts/script_director_scene.rpy:66
+translate english_us debug_prologue_76b2fe88:
+
+    # nvl clear
+    nvl clear
+
+# game/game-scripts/script_director_scene.rpy:74
+translate english_us debug_chapter1_lab_night_82e461d1:
+
+    # narrator "Лаборатория. Стены были кафельными, придавая чувство стерильности."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:75
+translate english_us debug_chapter1_lab_night_a4b7e59c:
+
+    # narrator "В конце комнаты виднелась большая панорама, выходящая на улицу."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:76
+translate english_us debug_chapter1_lab_night_ae859293:
+
+    # narrator "На улице было уже темно, но тусклый свет Луны всё ещё позволял увидеть окружения снаружи."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:77
+translate english_us debug_chapter1_lab_night_1397ebab:
+
+    # narrator "Снаружи виднелись большие антенные тарелки, направленные в даль космического неба. А за ними виднелись хребты десных гор, перекрывающий горизонт."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:78
+translate english_us debug_chapter1_lab_night_296d60a2:
+
+    # narrator "В небе то и дело мигали красные точки. Это сигнальные огни вышек."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:79
+translate english_us debug_chapter1_lab_night_952c10af:
+
+    # narrator "Внутри, огромный офис. белый, яркий свет свисал с высокого потолка, а нам виднелась система принудительной вентиляции"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:80
+translate english_us debug_chapter1_lab_night_bc521b5f:
+
+    # narrator "Под аккомпанемент гула машин и стука печатающий/записывающих аналоговых установок сидела женская фигура на кресле офисного стола."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:81
+translate english_us debug_chapter1_lab_night_b8f70382:
+
+    # narrator "Густые и объемные волосы. Синие, как лазурит. Её волосы прямые, аккуратно подстриженные, доходят чуть ниже плеч."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:82
+translate english_us debug_chapter1_lab_night_ff34d5ef:
+
+    # narrator "Малого роста, одета в лабораторном халате, а под ним черная водолазка."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:83
+translate english_us debug_chapter1_lab_night_5a2a3253:
+
+    # narrator "Она с интузиазмом, печатала на своем компьютере что-то. Видимо, отчёты. Нервно поглядывая на прибор слева от неё."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:86
+translate english_us debug_chapter1_lab_night_fb6710d2:
+
+    # unknown_f "Скоро... скоро завершится."
+    unknown_f ""
+
+# game/game-scripts/script_director_scene.rpy:87
+translate english_us debug_chapter1_lab_night_92d1c4a9:
+
+    # unknown_f "Потерпи ещё чуть-чуть..."
+    unknown_f ""
+
+# game/game-scripts/script_director_scene.rpy:89
+translate english_us debug_chapter1_lab_night_530a28d3:
+
+    # narrator "Судорожно говорила она, будто от процесса завершения зависит её карьера или даже цель жизни."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:91
+translate english_us debug_chapter1_lab_night_7c3a1a06:
+
+    # unknown_f "Агрх! Эти дурацкие отчёты... Да кому они вообще нужны?"
+    unknown_f ""
+
+# game/game-scripts/script_director_scene.rpy:92
+translate english_us debug_chapter1_lab_night_02c6096f:
+
+    # unknown_f "Тем более от рутинных вещах..."
+    unknown_f ""
+
+# game/game-scripts/script_director_scene.rpy:94
+translate english_us debug_chapter1_lab_night_7654147e:
+
+    # narrator "Жаловалась она, растрепывая волосы. Жаждя новых открытий, возможностей."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:95
+translate english_us debug_chapter1_lab_night_83240db7:
+
+    # narrator "Внезапно, раздался стук в дверь."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:96
+translate english_us debug_chapter1_lab_night_753a1555:
+
+    # narrator "*Тук-тук*"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:98
+translate english_us debug_chapter1_lab_night_2f537b1a:
+
+    # unknown_f "Входи."
+    unknown_f ""
+
+# game/game-scripts/script_director_scene.rpy:100
+translate english_us debug_chapter1_lab_night_e106b191:
+
+    # narrator "Она не посмотрела, кто стучиться в её дверь. Она была занята осчётностью."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:101
+translate english_us debug_chapter1_lab_night_2b8086fe:
+
+    # narrator "Судя по фамильярности в речи, она уже знала кто стучиться."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:102
+translate english_us debug_chapter1_lab_night_417f0367:
+
+    # narrator "Единственный, кто мог в теории быть в ночную смену вместе с ней это..."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:105
+translate english_us debug_chapter1_lab_night_c224c68e:
+
+    # unknown "Доктор Неон? Вы всё еще здесь?"
+    unknown ""
+
+# game/game-scripts/script_director_scene.rpy:107
+translate english_us debug_chapter1_lab_night_4998d0db:
+
+    # narrator "Это был парень с черными, короткими волосами. Выше Неон на голову. Он также одевал с собой лабораторный халат. Под ним белая рубашка и черный галстук."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:109
+translate english_us debug_chapter1_lab_night_69d2b975:
+
+    # neon "Ах... Да, я ещё здесь, Марк. Что тебе? Разве я не сказала идти домой?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:111
+translate english_us debug_chapter1_lab_night_b62a44c7:
+
+    # mark "Что вы? Конечно помню."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:112
+translate english_us debug_chapter1_lab_night_415d1daa:
+
+    # mark "Я за вас волнуюсь, вы так уже третью неделю сидите. Пора отдохну-"
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:114
+translate english_us debug_chapter1_lab_night_a18fc512:
+
+    # narrator "Марк был перебит резким высказыванием Неон"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:116
+translate english_us debug_chapter1_lab_night_6ed15d1d:
+
+    # neon "Я знаю когда мне пора отдохнуть, а когда нет, Марк."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:117
+translate english_us debug_chapter1_lab_night_e74bca8c:
+
+    # neon "Ладно, давай так: я прошу тебя. Иди домой."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:118
+translate english_us debug_chapter1_lab_night_c012fb4f:
+
+    # neon "Ты - ассистент, а пока-что мне твоя помощь не требуется. Я компетента, я смогу это сделать сама."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:119
+translate english_us debug_chapter1_lab_night_815bbe2a:
+
+    # neon "Я не говорю, что ты бесполезен. Нет, мне просто хочется это сделать самой. Хорошо?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:121
+translate english_us debug_chapter1_lab_night_02acdf08:
+
+    # mark "Ладно..."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:122
+translate english_us debug_chapter1_lab_night_0668d9aa:
+
+    # narrator "Грустным видом сказал Марк."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:123
+translate english_us debug_chapter1_lab_night_852772a3:
+
+    # mark "Но хотя-бы... давайте выпьем? Я принес нам обоим газировку."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:124
+translate english_us debug_chapter1_lab_night_25b000fa:
+
+    # narrator "Не дожидаясь согласия Неон, он вскольз подошел к ней, перед этим стоя всё это время у двери."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:126
+translate english_us debug_chapter1_lab_night_83a5ed14:
+
+    # neon "Ну что с тобой поделать?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:130
+translate english_us debug_chapter1_lab_night_5258a53f:
+
+    # narrator "Неон невербально согласилась, желая перекусить после столь долгой рутинной работы и ожидания."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:131
+translate english_us debug_chapter1_lab_night_d715f408:
+
+    # narrator "Марк открыл свою алюминиевую банку, издав характерный пщик. Доктор Неон он передал уже банку в открытом виде."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:132
+translate english_us debug_chapter1_lab_night_30e6615e:
+
+    # neon "Я поражаюсь твоему настойству, Марк."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:133
+translate english_us debug_chapter1_lab_night_8b389deb:
+
+    # narrator "Неон сделала глоток."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:134
+translate english_us debug_chapter1_lab_night_b4dd0dfa:
+
+    # neon "Иногда мне кажется, что ты когда нибудь пойдешь в руководители. Будешь управлять людьми."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:136
+translate english_us debug_chapter1_lab_night_48c53603:
+
+    # mark "Ха-ха! Пожалуйста, не льстите! Обычный лаборант... что сказать..."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:137
+translate english_us debug_chapter1_lab_night_a58a2c7c:
+
+    # narrator "Марк нервно отвёл взгляд, облокотившийсь на стенку своей спиной."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:138
+translate english_us debug_chapter1_lab_night_9a346f0d:
+
+    # mark "Ну так, что у вас там с сигналом, Доктор Неон?"
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:139
+translate english_us debug_chapter1_lab_night_524255e1:
+
+    # mark "Неужели что-то не получается?"
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:141
+translate english_us debug_chapter1_lab_night_8ccbe0e3:
+
+    # neon "Нет, всё с ним впорядке... Просто оборудование старое, долгая расшифровка."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:143
+translate english_us debug_chapter1_lab_night_a3b2428d:
+
+    # mark "А давно они калибровку проводили? Может с этим связанно."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:144
+translate english_us debug_chapter1_lab_night_d5eed13f:
+
+    # mark "Может, сервера устарели?"
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:146
+translate english_us debug_chapter1_lab_night_5e394c8f:
+
+    # neon "Да... давно не было калибровки... Вообще, у меня много претензий к нашему начальству..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:148
+translate english_us debug_chapter1_lab_night_ec46b2f6:
+
+    # mark "Ого. А не расскажите по-подробнее?"
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:150
+translate english_us debug_chapter1_lab_night_d1468994:
+
+    # neon "То же мне нашелся, сыщик."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:151
+translate english_us debug_chapter1_lab_night_b5538e17:
+
+    # narrator "Ребячески сказала Неон."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:152
+translate english_us debug_chapter1_lab_night_39251640:
+
+    # neon "Ладно, извини. Но мне кажется, тебе пора. Я свою газировку уже выпила."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:153
+translate english_us debug_chapter1_lab_night_d83f962e:
+
+    # narrator "Неон выкинула в корзину банку, под её столом."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:155
+translate english_us debug_chapter1_lab_night_3fce3dbb:
+
+    # mark "Ах, да. Ладно, было приятно с вами поболтать. До завтра."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:156
+translate english_us debug_chapter1_lab_night_78d8436c:
+
+    # narrator "Марк подошел к двери, и вышел из офиса."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:157
+translate english_us debug_chapter1_lab_night_58da74a3:
+
+    # neon "Пока."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:158
+translate english_us debug_chapter1_lab_night_84f13dd0:
+
+    # narrator "Дождавшийсь некоторого времени, после ухода Марка, она вновь посмотрела на монитор прогресса."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:159
+translate english_us debug_chapter1_lab_night_2944b802:
+
+    # narrator "Это был монитор, по загрузке и дешифрования сигналов и шумов из дальнего космоса."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:160
+translate english_us debug_chapter1_lab_night_0433b6d1:
+
+    # narrator "Именно этого и хочет Неон - найти доказательства внеземной жизни, их отголоски, воплощенные этим сигналом."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:161
+translate english_us debug_chapter1_lab_night_0a68b810:
+
+    # narrator "Как раз к этому и близиться шкала. Она близка к прорыву!"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:162
+translate english_us debug_chapter1_lab_night_26a36cbd:
+
+    # narrator "Через часа-два дешифровка завершиться, и его нужно будет прослушать, написать доклад на следующее собрание."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:163
+translate english_us debug_chapter1_lab_night_965ae0eb:
+
+    # narrator "В этот момент Неон физически нельзя заснуть. Пропустить хоть день, и доклад не будет окончен. Тут важно время."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:165
+translate english_us debug_chapter1_lab_night_1bc8f303:
+
+    # neon "Ааах!"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:166
+translate english_us debug_chapter1_lab_night_111881be:
+
+    # narrator "Зевает Неон."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:167
+translate english_us debug_chapter1_lab_night_8bf88f4f:
+
+    # neon "Ладно, ещё час дешифровки... пойду писать осчёт..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:168
+translate english_us debug_chapter1_lab_night_79a7aa37:
+
+    # narrator "Но во время печатанья пальцы как будто спадали на нижние клавиши, промахиваясь по нужным клавишам."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:169
+translate english_us debug_chapter1_lab_night_eebb3bfe:
+
+    # narrator "Документ в мониторе двоился, а голова начала кружиться сама по себе..."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:170
+translate english_us debug_chapter1_lab_night_477314ed:
+
+    # neon "Ч-что..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:179
+translate english_us debug_chapter1_lab_morning_c9ec5123:
+
+    # narrator "Звучание вибрирующего будильника из телефона. Неон просыпается."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:181
+translate english_us debug_chapter1_lab_morning_a24a341b:
+
+    # neon "Агрх!?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:183
+translate english_us debug_chapter1_lab_morning_588a81f5:
+
+    # narrator "Возбужденно воскликнула Неон, она была в недоумении."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:184
+translate english_us debug_chapter1_lab_morning_e4216921:
+
+    # narrator "Клавиатура была залита слюной."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:185
+translate english_us debug_chapter1_lab_morning_eefb5a2c:
+
+    # narrator "Сначала, она посмотрела на свой экран компьютера. Это был документ, прописанный полной неразбирихой из каши символов. Похоже, она уснула у компьютера, плюхнувшийсь головой в клавиатуру!"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:186
+translate english_us debug_chapter1_lab_morning_14e919c5:
+
+    # neon "Черт, походу клаву сломала..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:187
+translate english_us debug_chapter1_lab_morning_e4f23eb4:
+
+    # narrator "Вздохнувши сказала Неон. Но это второстепенная проблема. Подумала она, резко вспомнив о сигнале."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:189
+translate english_us debug_chapter1_lab_morning_8ec91477:
+
+    # neon "Ах да, точно. Сейчас посмотрим..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:190
+translate english_us debug_chapter1_lab_morning_b4fcccba:
+
+    # neon "Да! Да! Да!!!"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:191
+translate english_us debug_chapter1_lab_morning_7723d3b1:
+
+    # narrator "Чуть ли не начала прыгать на столе Неон от восхищения, парочь позабыв о сломанном оборудовании компании."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:192
+translate english_us debug_chapter1_lab_morning_8dd063ed:
+
+    # neon "Наконец-то! Молодец, Неон! Ты смогла!"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:193
+translate english_us debug_chapter1_lab_morning_8e71025e:
+
+    # narrator "Предела радости Неон не было края. Она как ребенок, который получил от родителей мороженное."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:195
+translate english_us debug_chapter1_lab_morning_6a916ab5:
+
+    # neon "Сейчас загрузим на носитель..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:196
+translate english_us debug_chapter1_lab_morning_525385d9:
+
+    # narrator "Носителем была личная USB флешка Неон."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:197
+translate english_us debug_chapter1_lab_morning_8226dcf7:
+
+    # narrator "Хоть и компания строго-настрого запрещала проносить любые внешние накопители на территорию предприятия, но ей было на этот запрет наплевать."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:198
+translate english_us debug_chapter1_lab_morning_b532cd13:
+
+    # narrator "Ей было удобно брать с собой накопитель, ведь в конце рабочего дня их надо сдавать в инвентарь, а ей срочно нужен доступ в ночные смены, как вчера."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:199
+translate english_us debug_chapter1_lab_morning_83b70164:
+
+    # narrator "Но всё это теперь не важно. Прорыв в науке был важнее, и даже если вскроется, что её персональная флешка была использована, её исследования затемнят эту полосу. Она точно станет обладателем Нобелевской премии!"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:200
+translate english_us debug_chapter1_lab_morning_0a7dfc7c:
+
+    # narrator "Но появилась тень сомнения..."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:203
+translate english_us debug_chapter1_lab_morning_cf42f490:
+
+    # neon "Так, стоп. Я что, нажала на кнопку подтверждения во сне?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:204
+translate english_us debug_chapter1_lab_morning_3dd5d408:
+
+    # narrator "Сказала она, имев ввиду окно подтверждения об экране успешного завершения процесса расшифровки сигнала."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:205
+translate english_us debug_chapter1_lab_morning_e254833b:
+
+    # neon "Погоди... а может всё таки-"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:206
+translate english_us debug_chapter1_lab_morning_0ab4819a:
+
+    # narrator "Был слышен сильный грохот в районе входа в офис."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:207
+translate english_us debug_chapter1_lab_morning_74931adc:
+
+    # narrator "Он был настолько громким, что голова Неон выпрямилась, зрачки стали больше, на лице был виден испуг и шок, а сама она резко повернула шею в сторону двери."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:208
+translate english_us debug_chapter1_lab_morning_4bb4324a:
+
+    # narrator "Это была Алекс - женщина лет двадцати пяти. С блондинистыми, длинными волосами в кудри. Она не носила лабораторный халат, как это делают все другие. Она была в красном джемпере на молнии."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:209
+translate english_us debug_chapter1_lab_morning_5c246047:
+
+    # narrator "Вошла Алекс в офис'по-хозяйски' Как-будто это её рабочее место."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:210
+translate english_us debug_chapter1_lab_morning_e8d71843:
+
+    # narrator "Так и было, Алекс и Неон работали в одном офисе и на одних должностях, пока предприятие не произвело оптимизацию рабочего пространства и сокращение."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:211
+translate english_us debug_chapter1_lab_morning_d16871bc:
+
+    # narrator "Алекс посадили на первый этаж в офис с открытой планировкой и перевод в должность архивариуса."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:212
+translate english_us debug_chapter1_lab_morning_ecaf6ddb:
+
+    # narrator "Алекс и Неон были подружками, проведя много часов в этом офисе с самого начала их карьерного пути."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:213
+translate english_us debug_chapter1_lab_morning_ee0fe9d7:
+
+    # narrator "Они вместе делились о своих проблемах, вместе ходили обедать, покрывали друг друга во время больничных."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:214
+translate english_us debug_chapter1_lab_morning_e642a77b:
+
+    # narrator "У Неон двоякое чувство насчёт Алекс. Да, они подруги и до сих пор не могут прекратить общение, даже после перевода Алекс в другой офис."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:215
+translate english_us debug_chapter1_lab_morning_07a1f321:
+
+    # narrator "Но в плане работы, для Неон, Алекс была попрощайкой."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:216
+translate english_us debug_chapter1_lab_morning_c9a87f56:
+
+    # narrator "Неон всегда ненавидела, что Алекс держится на этом месте до сих пор благодаряя ей."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:217
+translate english_us debug_chapter1_lab_morning_d327c49d:
+
+    # narrator "Нет, в ней не было какой-то зависти к Алекс, что она получает зарплату за счёт неё. Это чистая ярость за свои труды."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:218
+translate english_us debug_chapter1_lab_morning_07ccb85a:
+
+    # narrator "У неё это всегда сидело это в горле, в подавленном состоянии."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:219
+translate english_us debug_chapter1_lab_morning_574e72d4:
+
+    # narrator "Она не хотела причинать вред той, кто стал для неё подругой все эти ужасные годы переработок."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:221
+translate english_us debug_chapter1_lab_morning_da9f3fe2:
+
+    # alex "Ого, я пришла послушать пение птичек за окном, а ты оказывается тут, Неон!"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:222
+translate english_us debug_chapter1_lab_morning_ef17a854:
+
+    # alex "Хотя, чего тут ожидать? Ключи ведь не на вахте..."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:225
+translate english_us debug_chapter1_lab_morning_b84f77ed:
+
+    # neon "Саш, зачем так пугать...? Я же так сейчас могу и на тот свет отойти..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:227
+translate english_us debug_chapter1_lab_morning_d8e750ae:
+
+    # narrator "Проигнорировав вопрос Неон, Алекс сказала:"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:228
+translate english_us debug_chapter1_lab_morning_694a289b:
+
+    # alex "Ты опять сидела тут до утра, ага?"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:229
+translate english_us debug_chapter1_lab_morning_d5e9a9e7:
+
+    # alex "Совсем себя не любишь. Уже видны мешки под глазами!"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:230
+translate english_us debug_chapter1_lab_morning_d0686c0f:
+
+    # alex "Тебя так ни один парень не в любиться, а тебе только двадцать два ещё. Вся молодость ещё впереди!"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:232
+translate english_us debug_chapter1_lab_morning_aab53e95:
+
+    # narrator "Неон отреагировала на это дружеской с ухмылкой."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:233
+translate english_us debug_chapter1_lab_morning_9e95f56f:
+
+    # neon "Ха-ха-ха! Парень? Серьезно? Мне карьеру строить, не до них сейчас."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:234
+translate english_us debug_chapter1_lab_morning_a5fb6c70:
+
+    # neon "И ты так говоришь, будто старше меня на поколение, не смеши меня так, окей?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:236
+translate english_us debug_chapter1_lab_morning_67792fbb:
+
+    # alex "Эх, не понимаешь ты своего счастья, Неон."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:237
+translate english_us debug_chapter1_lab_morning_a9ae300b:
+
+    # narrator "Алекс, обидчиво закатив глаза, губы отдавали некой ноткой печали."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:238
+translate english_us debug_chapter1_lab_morning_3c21dea3:
+
+    # narrator "Вздохнув, Алекс быстро перевоплотилась, с радостной улыбкой, начала новую тему."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:240
+translate english_us debug_chapter1_lab_morning_2192c407:
+
+    # alex "В общем, ты говорила, что сегодня закончишь с сигналом. Как оно?"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:241
+translate english_us debug_chapter1_lab_morning_40da0476:
+
+    # narrator "Как речь заговорила о работе, Неон выпрямилась и стала более отвечать хлоднокровно."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:242
+translate english_us debug_chapter1_lab_morning_000e3605:
+
+    # neon "Всё штатно, только он смутило..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:244
+translate english_us debug_chapter1_lab_morning_cee6db99:
+
+    # alex "Что?"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:246
+translate english_us debug_chapter1_lab_morning_a3537e5b:
+
+    # neon "Хотя... нет."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:247
+translate english_us debug_chapter1_lab_morning_256d3083:
+
+    # neon "Я заснула у рабочего стола и похоже, сломала клавиатуру..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:249
+translate english_us debug_chapter1_lab_morning_7aa3028d:
+
+    # alex "Ну и как ты умудрилась сломать её?"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:251
+translate english_us debug_chapter1_lab_morning_c9715bf4:
+
+    # neon "..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:252
+translate english_us debug_chapter1_lab_morning_6e4fc339:
+
+    # neon "Слюной."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:253
+translate english_us debug_chapter1_lab_morning_991e1aeb:
+
+    # narrator "Неон сказала это слово быстро, осознав насколько это постыдно прозвучало"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:255
+translate english_us debug_chapter1_lab_morning_dfb89745:
+
+    # narrator "Когда Алекс услышала этот анекдот, она чуть не взорвалась от смеху. Она показала свою естественную натуру."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:256
+translate english_us debug_chapter1_lab_morning_31714dee:
+
+    # alex "ПХА-ХА-ХА-ХА-ХА!"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:257
+translate english_us debug_chapter1_lab_morning_1b66bbd2:
+
+    # alex "Ты реально тупа отрубилась тут, на клавиатуре, и забрызгала всё своей слюной?"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:258
+translate english_us debug_chapter1_lab_morning_1068f3c3:
+
+    # alex "Ха-ха-ха... ха..., Фух..."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:259
+translate english_us debug_chapter1_lab_morning_805a376b:
+
+    # alex "Ладно... ха... ты сделала мой день. Теперь я спокойна."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:260
+translate english_us debug_chapter1_lab_morning_7145cd40:
+
+    # alex "Ты - до сих пор ты, Неон. За эти годы никак не изменилась. Такая-же неряха, как и всегда."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:261
+translate english_us debug_chapter1_lab_morning_4c61b572:
+
+    # neon "Но я действитель-"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:262
+translate english_us debug_chapter1_lab_morning_71e1da4e:
+
+    # narrator "Алекс перебила Неон, не выслушивая её оправдания."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:263
+translate english_us debug_chapter1_lab_morning_a348d084:
+
+    # alex "Не стоит, я понимаю. Все хотят спать после трудной ночной смены."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:264
+translate english_us debug_chapter1_lab_morning_e10fa045:
+
+    # alex "А если серьезно, то тебя Босс за такое, наверное, убьёт. Без обид."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:265
+translate english_us debug_chapter1_lab_morning_69a2db56:
+
+    # alex "Тем более, как я поняла, отчётность вовремя ты не сдашь и не сможешь без клавиатуры."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:266
+translate english_us debug_chapter1_lab_morning_b2d52f20:
+
+    # narrator "Достав телефон, она сверилась с календарем в своем экране блокировки"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:267
+translate english_us debug_chapter1_lab_morning_40bfc464:
+
+    # alex "Собрание как раз сегодня."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:268
+translate english_us debug_chapter1_lab_morning_678a5543:
+
+    # alex "Ладно, я как твоя подруга обязана тебе помочь."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:269
+translate english_us debug_chapter1_lab_morning_41ef2fc6:
+
+    # alex "Раз уж сегодня я рано пришла, скинь копию мне по факсу, я тебе его доделую"
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:270
+translate english_us debug_chapter1_lab_morning_64a56408:
+
+    # alex "Ну, а ты пока напиши доклад о своем открытии в бумажном виде."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:271
+translate english_us debug_chapter1_lab_morning_405f41d1:
+
+    # alex "Если ты его, конечно, сегодня хочешь показать."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:272
+translate english_us debug_chapter1_lab_morning_a21450b2:
+
+    # alex "В общем, созвонимся."
+    alex ""
+
+# game/game-scripts/script_director_scene.rpy:285
+translate english_us debug_chapter1_lab_noon_0320842d:
+
+    # narrator "Энергичный уход Алекс оставил за собой вихрь смешанных чувств и звенящую тишину, нарушаемую лишь тихим гулом оборудования."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:286
+translate english_us debug_chapter1_lab_noon_b1de707f:
+
+    # narrator "Неон с тоской посмотрела на бесполезную клавиатуру, затем на свои разрозненные заметки – ключ к новой эре астрономии, записанный на случайных клочках бумаги."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:287
+translate english_us debug_chapter1_lab_noon_aa827f15:
+
+    # narrator "Собрание. Через несколько часов. А она безоружна перед лицом ученого совета."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:288
+translate english_us debug_chapter1_lab_noon_a2e01a77:
+
+    # neon "(Тихо, с горечью) Писать... от руки..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:290
+translate english_us debug_chapter1_lab_noon_a8b66f91:
+
+    # narrator "Эта мысль казалась абсурдной в стенах ультрасовременного исследовательского центра, затерянного в сердце Альп."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:291
+translate english_us debug_chapter1_lab_noon_c40baca1:
+
+    # narrator "Здесь, где каждый атом был на учете, где данные передавались со скоростью света, ей предстояло излагать свое революционное открытие, как средневековый монах."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:292
+translate english_us debug_chapter1_lab_noon_7a6fd2a8:
+
+    # narrator "Она порылась в ящиках стола – царстве хаоса, где соседствовали сломанные инструменты, стопки пыльных распечаток и окаменевшие пакетики от чая."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:293
+translate english_us debug_chapter1_lab_noon_1cc3b13a:
+
+    # narrator "Нашлась лишь пачка стандартной офисной бумаги, слегка помятая с одного края, и простая шариковая ручка с логотипом какого-то фармацевтического симпозиума, на котором она была года три назад"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:294
+translate english_us debug_chapter1_lab_noon_37276ce1:
+
+    # narrator "Ручка писала бледно и с проплешинами."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:295
+translate english_us debug_chapter1_lab_noon_b7e2ab8f:
+
+    # neon "(Вздыхает) Идеально. Для исторического документа."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:296
+translate english_us debug_chapter1_lab_noon_33a28224:
+
+    # narrator "Она выглянула в панорамное окно. Снежные вершины гор сияли под высоким солнцем, а гигантские антенны комплекса казались серебряными иглами, пронзающимин ярко-синее небо."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:297
+translate english_us debug_chapter1_lab_noon_403de4f1:
+
+    # narrator "Величественный вид, но сейчас он только подчеркивал ее чувство изоляции и срочности."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:299
+translate english_us debug_chapter1_lab_noon_bf1f9dc1:
+
+    # narrator "Нужно найти Марка. Он наверняка знает, где раздобыть что-то приличнее этой ручки. И вообще, куда он пропал?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:300
+translate english_us debug_chapter1_lab_noon_ee410c92:
+
+    # narrator "Собрав свои бумаги и злополучную ручку, Неон решительно вышла из офиса. Первым делом она направилась к небольшой лаборатории в конце коридора, которую иногда использовал Марк."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:301
+translate english_us debug_chapter1_lab_noon_d92fe3a1:
+
+    # narrator "Дверь была не заперта. Внутри – порядок, чисто вымытые колбы на стойке, выключенные приборы. Но Марка не было. Лишь слабый, едва уловимый запах озона."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:302
+translate english_us debug_chapter1_lab_noon_9ffaa98e:
+
+    # narrator "Коридор Сектора 7 встретил ее тишиной и стерильностью."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:303
+translate english_us debug_chapter1_lab_noon_60f9a5e6:
+
+    # narrator "Белые наливные полы, панели со скрытой подсветкой, ряды одинаковых дверей с сенсорными замками. Бесшумно проехал мимо робот-уборщик. В углу под потолком мигнул красный огонек камеры наблюдения – Большой Брат не дремлет."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:305
+translate english_us debug_chapter1_lab_noon_f41cfa99:
+
+    # narrator "Нужно спуститься в общую зону. Может, Марк там? Или хотя бы кофе найдется."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:307
+translate english_us debug_chapter1_lab_noon_2e6cfda8:
+
+    # narrator "Лифт прибыл почти мгновенно. Внутри играла тихая, нейтральная музыка."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:308
+translate english_us debug_chapter1_lab_noon_d0ae0a58:
+
+    # narrator "На дисплее бегущей строкой шли новости комплекса: 'Плановая дезинфекция в гидропонном блоке', 'Лекция по технике безопасности завтра в 14:00', 'Сотрудникам напоминаем о необходимости своевременной сдачи отчетов'."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:309
+translate english_us debug_chapter1_lab_noon_29320be3:
+
+    # narrator "Неон нажала кнопку 'Уровень 1: Кафетерий / Зона отдыха'. Мимо промелькнули индикаторы других этажей: 'Уровень 3: Жилой блок', 'Уровень 2: Основные лаборатории', 'Суб-уровень 1: Энергоблок'."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:310
+translate english_us debug_chapter1_lab_noon_0bd1c6e6:
+
+    # narrator "Целый мир, скрытый в толще горы. Мир, посвященный одной цели – познанию."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:317
+translate english_us debug_chapter1_lab_noon_bee3acc5:
+
+    # narrator "Кафетерий на первом уровне был больше и светлее, чем ожидала Неон. Большие окна выходили на внутренний двор с небольшим садом, сейчас засыпанным снегом. Пахло кофе, выпечкой и чем-то неопределенно-столовским."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:318
+translate english_us debug_chapter1_lab_noon_df9cb15e:
+
+    # narrator "Людей было больше, чем она предполагала – видимо, не одна она решила сделать перерыв перед дневной сменой или после утренней."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:319
+translate english_us debug_chapter1_lab_noon_d119bbd8:
+
+    # narrator "За столиком у окна она увидела знакомую фигуру – Петрович, охранник из старой гвардии, который работал здесь, кажется, с самого основания комплекса."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:321
+translate english_us debug_chapter1_lab_noon_f73c8f5a:
+
+    # narrator "Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:322
+translate english_us debug_chapter1_lab_noon_e5d90945:
+
+    # petrovich "(Заметив ее) А, Неон! Какими судьбами? Думал, вы в своей башне из слоновой кости безвылазно сидите."
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:323
+translate english_us debug_chapter1_lab_noon_7f9cf378:
+
+    # neon "(С легкой улыбкой) Добрый день, Петрович. Иногда и гениям нужен кофеин. Да и... ищу кое-кого."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:324
+translate english_us debug_chapter1_lab_noon_9d9c6ac0:
+
+    # petrovich "Кого, если не секрет? Тут народ разный ходит."
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:325
+translate english_us debug_chapter1_lab_noon_09cb5c82:
+
+    # neon "(Забирая стаканчик) Ассистента моего, Марка. Не пробегал тут случайно?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:327
+translate english_us debug_chapter1_lab_noon_d75c0388:
+
+    # petrovich "(Поскреб подбородок) Марк... Марк... А, этот шустрый парень? Видел его с часок назад. Он не сюда шел, а наверх, к лифтам в административное крыло. С папкой какой-то под мышкой. Выглядел так, будто у него земля под ногами горит."
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:328
+translate english_us debug_chapter1_lab_noon_391aac03:
+
+    # neon "(Настороженно) К администрации? Странно... Он ничего не говорил."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:329
+translate english_us debug_chapter1_lab_noon_2d0963bb:
+
+    # petrovich "Может, премию выписывать пошел? Или наоборот, на ковер вызвали. У них там наверху свои игры."
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:330
+translate english_us debug_chapter1_lab_noon_efcc71dd:
+
+    # petrovich "А вы-то как? Все звезды считаете?"
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:331
+translate english_us debug_chapter1_lab_noon_3e22c681:
+
+    # neon "(Отпивая кофе) Вроде того. Сегодня как раз большое собрание, буду докладывать."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:332
+translate english_us debug_chapter1_lab_noon_29ea558b:
+
+    # petrovich "О, ученый совет! Держитесь там, Неона. Они ребята серьезные, но вы девушка умная, прорветесь. Помню, как они беднягу профессора Циглера гоняли с его теорией о темной материи... Эх, времена были."
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:333
+translate english_us debug_chapter1_lab_noon_63a58dea:
+
+    # neon "(Благодарно кивает) Спасибо за поддержку, Петрович. Ладно, пойду я... доклад готовить."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:334
+translate english_us debug_chapter1_lab_noon_13991ae1:
+
+    # petrovich "Удачи!"
+    petrovich ""
+
+# game/game-scripts/script_director_scene.rpy:335
+translate english_us debug_chapter1_lab_noon_446afa63:
+
+    # neon "Спасибо!"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:337
+translate english_us debug_chapter1_lab_noon_ebf38224:
+
+    # narrator "Неон еще раз окинула взглядом кафетерий. Марка нигде не было. Зато были другие лица – знакомые и не очень."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:338
+translate english_us debug_chapter1_lab_noon_f13b369f:
+
+    # narrator "Вот группа инженеров оживленно спорит над распечаткой схемы. Вот биолог из соседнего отдела рассеянно размешивает сахар в чае, глядя в пустоту. Обычная жизнь научного муравейника."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:344
+translate english_us debug_chapter1_lab_noon_5f3a5419:
+
+    # narrator "Она снова погрузилась в лабиринт коридоров. Этот комплекс был огромен. Построенный еще во времена холодной войны как секретный объект, он разросся, обзавелся новыми корпусами и лабораториями."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:345
+translate english_us debug_chapter1_lab_noon_5a1da2a0:
+
+    # narrator "Она шла мимо дверей с табличками: 'Квантовая оптика', 'Робототехника и ИИ', 'Ксеноботаника'. За толстыми стеклами виднелись сложные установки, стеллажи с образцами, люди в защитных костюмах."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:346
+translate english_us debug_chapter1_lab_noon_44e6b422:
+
+    # narrator "Доступ сюда был строго регламентирован. Ее ключ-карта открывала двери только в ее сектор, общие зоны и библиотеку. Административное крыло, где видели Марка, было для нее закрыто."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:347
+translate english_us debug_chapter1_lab_noon_4023ffa9:
+
+    # narrator "Наконец, она достигла тихого крыла, где располагался информационный центр и библиотека."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:351
+translate english_us debug_chapter1_lab_noon_4a9b2fa4:
+
+    # narrator "Библиотека оказалась просторной и почти пустой. Высокие стеллажи из темного дерева уходили под потолок, уставленные толстыми томами научных журналов и монографий. Пахло пылью, старой бумагой и немного озоном от работающих терминалов."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:352
+translate english_us debug_chapter1_lab_noon_8014d7ee:
+
+    # narrator "Неон выбрала стол в самом дальнем углу, под старой лампой с зеленым абажуром, напоминавшей ей о студенческих временах."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:353
+translate english_us debug_chapter1_lab_noon_d0cd6edd:
+
+    # narrator "Тишина здесь была почти абсолютной, густой и обволакивающей. Идеальное место, чтобы сосредоточиться. Или чтобы утонуть в воспоминаниях."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:355
+translate english_us debug_chapter1_lab_noon_c57af74a:
+
+    # narrator "Она положила на стол стопку бумаги, свои заметки, дешевую ручку. Сделала глубокий вдох, пытаясь унять легкую дрожь в руках – смесь волнения и кофеина."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:356
+translate english_us debug_chapter1_lab_noon_c069e78a:
+
+    # narrator "Перед ней лежал чистый лист. Белый, как снег на вершинах за окном. Белый, как неизвестность, которую ей предстояло заполнить словами."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:358
+translate english_us debug_chapter1_lab_noon_adfb82f9:
+
+    # narrator "Она сняла колпачок с ручки. Чернила на кончике выглядели блекло."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:359
+translate english_us debug_chapter1_lab_noon_6c8acd94:
+
+    # neon "С чего начать? С самого начала. 'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:371
+translate english_us debug_chapter1_flashback_start_df87d4be:
+
+    # narrator "Рука замерла над бумагой. Первая буква... И вдруг дешевая ручка в ее пальцах показалась до боли знакомой."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:372
+translate english_us debug_chapter1_flashback_start_ffb5d280:
+
+    # narrator "Примерно такие же были у них в университете. Их выдавали бесплатно на конференциях первокурсников в Цюрихе. Только там они были синие, с неуклюжим логотипом ETH Zurich."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:377
+translate english_us debug_chapter1_flashback_start_48569a4f:
+
+    # narrator "Огромный лекционный зал, гул сотен голосов перед началом. Запах старого дерева, мела и ожиданий. Она сидит где-то на галерке, судорожно перелистывая конспект по квантовой механике."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:378
+translate english_us debug_chapter1_flashback_start_5a6f2a49:
+
+    # narrator "Профессор Штайнер, седовласый и строгий, как альпийская вершина, уже у доски, выводит сложнейшие уравнения."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:379
+translate english_us debug_chapter1_flashback_start_8c0224dc:
+
+    # narrator "Неон тогда была младше, волосы еще не такого насыщенного синего цвета, скорее темно-индиго. Она грызла кончик такой же дешевой ручки, пытаясь ухватить суть."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:380
+translate english_us debug_chapter1_flashback_start_fce4d21b:
+
+    # narrator "Вокруг – другие студенты. Сосредоточенные, зевающие, перешептывающиеся. Конкуренты и будущие коллеги."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:381
+translate english_us debug_chapter1_flashback_start_9b7d1e0d:
+
+    # narrator "Тогда казалось, что сложнее этих лекций и экзаменов нет ничего на свете. Как она ошибалась..."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:382
+translate english_us debug_chapter1_flashback_start_178d68d7:
+
+    # narrator "Иногда, сидя вот так, в полумраке зала, ей казалось, что рядом кто-то есть. Невидимый наблюдатель. Просто теплое, ободряющее чувство. Она списывала это на нервы и недосып."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:389
+translate english_us debug_chapter1_flashback_start_3a3e421e:
+
+    # narrator "Неон моргнула, возвращаясь в тишину библиотеки. Ручка оставила на бумаге первую строчку: 'Доклад об обнаружении и анализе...'."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:390
+translate english_us debug_chapter1_flashback_start_e36ad592:
+
+    # narrator "Она потерла виски. Воспоминания нахлынули неожиданно."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:391
+translate english_us debug_chapter1_flashback_start_d6e3afea:
+
+    # narrator "Она снова сосредоточилась на докладе, выводя следующую фразу: '...аномального когерентного сигнала из сектора Дельта-4'."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:392
+translate english_us debug_chapter1_flashback_start_29ae0707:
+
+    # narrator "Дельта-4. Такой далекий, такой чужой уголок космоса. Не то что улицы Цюриха, исхоженные вдоль и поперек."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:399
+translate english_us debug_chapter1_flashback_start_f3b863e1:
+
+    # narrator "Вечер. Моросит мелкий дождь. Неон бредет по Банхофштрассе после занятий, с тяжелым рюкзаком за плечами. В руках – пакет из 'Coop' с самым необходимым: йогурт, мюсли, сыр 'Грюйер', неизменный шоколад 'Lindt'."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:400
+translate english_us debug_chapter1_flashback_start_51c34360:
+
+    # narrator "Витрины магазинов сияют огнями, отражаясь в мокром асфальте. Мимо проезжают бесшумные трамваи."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:401
+translate english_us debug_chapter1_flashback_start_4074fd7f:
+
+    # narrator "Она вспоминает, как делила крохотную квартирку с двумя подругами – Анной и Софи. Вечные споры, чья очередь мыть посуду, совместные посиделки с дешевым вином и обсуждение планов на будущее."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:402
+translate english_us debug_chapter1_flashback_start_0a9f85ce:
+
+    # narrator "Анна мечтала работать в CERN, Софи – уехать в Калифорнию и основать стартап. А Неон... Неон уже тогда смотрела на звезды."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:403
+translate english_us debug_chapter1_flashback_start_534e3aef:
+
+    # narrator "Иногда, идя по этим знакомым улицам, у нее возникало странное чувство дежавю. Будто она уже видела этот перекресток, этот фонтан, но не здесь, а где-то еще, в другой жизни. Или во сне."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:404
+translate english_us debug_chapter1_flashback_start_93c5305d:
+
+    # narrator "Она отмахивалась от этих мыслей. Швейцария – ее родина, ее дом. Она родилась здесь, в небольшой деревне в горах, и переехала в Цюрих учиться."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:411
+translate english_us debug_chapter1_flashback_start_07f9d6bb:
+
+    # narrator "Неон перевернула страницу своих заметок. Структура сигнала. Вот что главное."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:412
+translate english_us debug_chapter1_flashback_start_7d600134:
+
+    # narrator "Она снова начала писать, увлеченная работой. Ручка послушно скользила по бумаге, выводя графики – насколько это было возможно от руки – и таблицы."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:413
+translate english_us debug_chapter1_flashback_start_f3415025:
+
+    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...{/thoughts}'"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:414
+translate english_us debug_chapter1_flashback_start_46aba4da:
+
+    # narrator "Почему именно это? Почему космос, сигналы, поиски внеземного разума?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:421
+translate english_us debug_chapter1_flashback_start_c7a1984b:
+
+    # narrator "Маленькая девочка с темно-синими, почти черными волосами сидит у окна своей комнаты. За окном – не альпийские вершины, а что-то другое... пейзаж смутный, нечеткий, как старая фотография."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:422
+translate english_us debug_chapter1_flashback_start_32a79160:
+
+    # narrator "Но небо... Небо чистое, усыпанное мириадами звезд. Она смотрит на них часами, затаив дыхание."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:423
+translate english_us debug_chapter1_flashback_start_831f3584:
+
+    # narrator "Рядом с ней кто-то сидит. Кто-то теплый и родной. Бабушка? Мама? Лица не разобрать, только ощущение спокойствия и тихого, любящего голоса, рассказывающего о далеких мирах."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:424
+translate english_us debug_chapter1_flashback_start_a1e9e7ac:
+
+    # unknown_f "Смотри, Неон... там, далеко-далеко... есть Солнце, но другие, другие планеты. И может быть, там тоже кто-то смотрит на наше Солнце и думает: одни ли мы во Вселенной?"
+    unknown_f ""
+
+# game/game-scripts/script_director_scene.rpy:425
+translate english_us debug_chapter1_flashback_start_aa294925:
+
+    # narrator "Иногда ей снились странные сны. Яркие вспышки света, похожие на северное сияние, но других цветов – пронзительно-красного, зеленого, фиолетового. И сложные, светящиеся символы, которые казались ей одновременно чужими и знакомыми."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:426
+translate english_us debug_chapter1_flashback_start_c48290c6:
+
+    # narrator "Она пыталась их рисовать днем, но они моментально ускользали, оставляя лишь чувство тайны."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:427
+translate english_us debug_chapter1_flashback_start_6f2d9c9c:
+
+    # narrator "Этот голос, эти звезды, эти сны... все это сплелось в одно – неодолимое желание узнать, что там, за пределами Земли. Найти ответ."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:428
+translate english_us debug_chapter1_flashback_start_a4674f8a:
+
+    # narrator "Но память о том, *кто* сидел рядом, *где* - это был как ясный сон. Осталось только общее восприятие и необъяснимое чувство."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:434
+translate english_us debug_chapter1_flashback_start_c7a51301:
+
+    # narrator "Неон писала: '...устойчивая повторяемость паттерна указывает на неслучайный характер источника...'"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:435
+translate english_us debug_chapter1_flashback_start_ee835009:
+
+    # narrator "Неслучайный. Как и ее собственный путь сюда, в сердце Альп, к этому открытию. Хотя иногда ей казалось, что вся ее жизнь до этого момента была чередой случайностей и серых будней."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:436
+translate english_us debug_chapter1_flashback_start_3a02569d:
+
+    # narrator "Особенно там, в той маленькой деревушке у подножия гор, где прошло ее детство и юность. До Цюриха. До звезд."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:443
+translate english_us debug_chapter1_flashback_start_f23bff8d:
+
+    # neon "Я иду домой из школы. Небольшая региональная школа, где все друг друга знают, и где мои синие волосы – предмет постоянных насмешек или любопытных взглядов."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:444
+translate english_us debug_chapter1_flashback_start_037088f3:
+
+    # narrator "Под ногами хлюпает грязь, перемешанная с талым снегом. Небо затянуто низкими серыми тучами. Горы где-то там, вдалеке, но отсюда их почти не видно, они скрыты пеленой."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:445
+translate english_us debug_chapter1_flashback_start_79c04390:
+
+    # neon "В сумке – учебники физики и математики, которые я проглатываю запоем, и пара книг из библиотеки – научная фантастика, единственное окно в другой мир."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:446
+translate english_us debug_chapter1_flashback_start_2471ab07:
+
+    # neon "Дома меня ждет... тишина. Или телевизор, который смотрит она."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:448
+translate english_us debug_chapter1_flashback_start_f3873114:
+
+    # neon "Бабушка? Мачеха? Я до сих пор не уверена, кем она мне приходится. Женщина, которая меня вырастила после... а после чего? Я не помню родителей. Совсем. Как будто их и не было."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:449
+translate english_us debug_chapter1_flashback_start_de0ee8a2:
+
+    # neon "Ее лицо в моих воспоминаниях – как на старой, выцветшей фотографии, подернутой рябью. Черно-белое пятно. Иногда мне кажется, я слышу ее голос – ровный, безэмоциональный, но слов разобрать не могу, только шум, как от плохо настроенного радио."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:450
+translate english_us debug_chapter1_flashback_start_bf7bcac3:
+
+    # neon "Она никогда не говорила о прошлом. Ни о моем, ни о своем. Она просто... была. Кормила, одевала, следила, чтобы я делала уроки. Без тепла, но и без явной злобы. Простое, отстраненное присутствие."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:452
+translate english_us debug_chapter1_flashback_start_cf5d38e6:
+
+    # neon "Я прохожу мимо местной церкви с облупившейся штукатуркой, мимо единственного магазина, где пахнет хлебом и сыром. Обычная жизнь. Удушающе обычная."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:453
+translate english_us debug_chapter1_flashback_start_16dedfc0:
+
+    # neon "Друзей по интересам у меня нет. Девочки обсуждают мальчиков и одежду, мальчики – футбол и мопеды. Мне это неинтересно. Я смотрю на них, и мне кажется, что между нами стеклянная стена."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:454
+translate english_us debug_chapter1_flashback_start_81a4c67d:
+
+    # neon "Иногда по ночам мне снятся кошмары. Не просто плохие сны, а что-то давящее, темное. Ощущение падения, крики, которые я не могу издать, и снова – искаженные лица знакомых мне людей, рябь, шум."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:455
+translate english_us debug_chapter1_flashback_start_7a6fea6d:
+
+    # neon "Я просыпаюсь в холодном поту, сердце колотится. И тогда я иду к окну моей комнаты."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:456
+translate english_us debug_chapter1_flashback_start_a926dad3:
+
+    # neon "Ночью, когда тучи рассеиваются, небо здесь невероятно чистое. Звезды. Миллиарды звезд. Они кажутся такими близкими, такими... родными."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:457
+translate english_us debug_chapter1_flashback_start_ae62ba5f:
+
+    # neon "Я смотрю на Орион, на Плеяды, на Млечный Путь. И чувство тоски и неправильности немного отступает. Там, наверху – мой настоящий дом. Я это чувствую. Почему – не знаю. Просто чувствую."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:458
+translate english_us debug_chapter1_flashback_start_008f306f:
+
+    # neon "Именно тогда я решила: я вырвусь отсюда. Я буду изучать их. Звезды. Космос. Я найду ответы."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:465
+translate english_us debug_chapter1_flashback_start_61b62226:
+
+    # narrator "Неон глубоко вздохнула, отгоняя холодные тени прошлого. Она здесь. Она вырвалась. И она нашла... не ответ, но первый ключ к разгадке."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:466
+translate english_us debug_chapter1_flashback_start_6e9925a4:
+
+    # narrator "Она снова посмотрела на исписанный лист. 'Первичный анализ исключает известные астрофизические феномены...'"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:467
+translate english_us debug_chapter1_flashback_start_c03c73cb:
+
+    # narrator "Как тогда, в Цюрихе, когда они с Анной и Софи до хрипоты спорили о своих проектах, сидя на крохотной кухне их съемной квартиры."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:474
+translate english_us debug_chapter1_flashback_start_fa1acef2:
+
+    # narrator "Час ночи. Кухня завалена учебниками и распечатками. Пахнет дешевым кофе и пиццей, которую они заказали пару часов назад. За окном – огни Цюриха."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:475
+translate english_us debug_chapter1_flashback_start_7d1dc388:
+
+    # narrator "Анна, высокая, рыжеволосая, с вечно горящими глазами, жестикулирует так активно, что чуть не смахивает стопку книг со стола."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:477
+translate english_us debug_chapter1_flashback_start_85676eb3:
+
+    # anna "Я тебе говорю, Неон, твой поиск сигналов SETI – это, конечно, романтично. Но шансы - один на миллиард! А вот бозон Хиггса – вот он, почти в руках! Данные с коллайдера такие многообещающие!"
+    anna ""
+
+# game/game-scripts/script_director_scene.rpy:480
+translate english_us debug_chapter1_flashback_start_c950df92:
+
+    # narrator "Софи, прагматичная блондинка с коротким каре, поправляет очки и скептически смотрит на Анну."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:482
+translate english_us debug_chapter1_flashback_start_244b4854:
+
+    # sophie "Многообещающие? Анна, ты так говоришь уже полгода. А воз и ныне там. Мой алгоритм для анализа финансовых рынков, вот что реально принесет результат. И деньги. Большие деньги."
+    sophie ""
+
+# game/game-scripts/script_director_scene.rpy:483
+translate english_us debug_chapter1_flashback_start_fa635f51:
+
+    # sophie "А ты, Неон... молодец, конечно, что веришь. Но может, стоит подумать о чем-то более... земном? Аспирантура по астрофизике – это прекрасно, но что потом? Место в обсерватории с мизерной зарплатой?"
+    sophie ""
+
+# game/game-scripts/script_director_scene.rpy:484
+translate english_us debug_chapter1_flashback_start_b4457a34:
+
+    # sophie "Или, может, преподаватель в региональной школе? А тебе оно надо?"
+    sophie ""
+
+# game/game-scripts/script_director_scene.rpy:486
+translate english_us debug_chapter1_flashback_start_aafdd55a:
+
+    # neon "{=thoughts}Я сижу напротив них, обхватив руками кружку с остывшим чаем. Мне двадцать. Я полна амбиций и сомнений одновременно.{/thoughts}"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:487
+translate english_us debug_chapter1_flashback_start_fe9ab978:
+
+    # neon "Это не просто романтика, Анна. Это фундаментальный вопрос. Одни ли мы? И даже если шанс один на миллиард, кто-то должен искать. Вдруг повезет именно мне?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:488
+translate english_us debug_chapter1_flashback_start_8daf67f9:
+
+    # neon "А деньги, Софи... они важны, конечно. Но неужели открыть новую частицу или найти братьев по разуму не стоит больше любых денег?"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:490
+translate english_us debug_chapter1_flashback_start_6ef71ec0:
+
+    # sophie "(Вздыхает) Открытие - это хорошо, но кушать хочется всегда. Ладно, девочки, я спать. Завтра семинар по машинному обучению в восемь утра. Не шумите тут со своими вселенными."
+    sophie ""
+
+# game/game-scripts/script_director_scene.rpy:491
+translate english_us debug_chapter1_flashback_start_fb0d82c1:
+
+    # narrator "Софи уходит в свою комнату. Неон с Анной еще некоторое время сидим молча, глядя в окно."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:492
+translate english_us debug_chapter1_flashback_start_6a60d005:
+
+    # anna "(Тихо) Ты правда веришь, что найдешь что-то?"
+    anna ""
+
+# game/game-scripts/script_director_scene.rpy:493
+translate english_us debug_chapter1_flashback_start_5ae67872:
+
+    # neon "(Глядя на звезды за окном) Я не знаю. Но я должна пытаться. Это... как будто зов."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:494
+translate english_us debug_chapter1_flashback_start_66e81d96:
+
+    # anna "Ну, если найдешь – не забудь упомянуть меня в своей Нобелевской речи."
+    anna ""
+
+# game/game-scripts/script_director_scene.rpy:495
+translate english_us debug_chapter1_flashback_start_fbd395e5:
+
+    # neon "(Улыбаясь) Обязательно."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:502
+translate english_us debug_chapter1_flashback_start_33b4eab3:
+
+    # narrator "Неон постучала ручкой по столу. Нобелевская речь... Кто бы мог подумать тогда, что это станет так реально?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:503
+translate english_us debug_chapter1_flashback_start_21155016:
+
+    # narrator "Она улыбнулась своим мыслям, но улыбка быстро угасла. Анна сейчас действительно работает в CERN. Софи, кажется, уехала в Лондон и занимается финтехом. А она... она здесь."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:504
+translate english_us debug_chapter1_flashback_start_b0b473d7:
+
+    # narrator "Она снова сосредоточилась на докладе. Нужно было описать методологию анализа, исключение помех, проверку данных."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:505
+translate english_us debug_chapter1_flashback_start_b1ef3b3a:
+
+    # narrator "И снова – это странное чувство. Дежавю. Будто она уже проходила через что-то подобное. Не написание доклада, а... ожидание чего-то важного. Предчувствие."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:506
+translate english_us debug_chapter1_flashback_start_db702b0b:
+
+    # narrator "И снова – легкий шум в ушах, как помехи на старой записи, когда она пыталась вспомнить лицо той женщины из детства."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:508
+translate english_us debug_chapter1_flashback_start_202c0928:
+
+    # narrator "Даже сейчас, окруженная чудесами науки и техники, она иногда чувствовала себя той же девчонкой с синими волосами, смотрящей на звезды из окна своей комнаты в глухой провинции.."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:509
+translate english_us debug_chapter1_flashback_start_c8a44ecd:
+
+    # narrator "Но теперь у нее был шанс это изменить."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:510
+translate english_us debug_chapter1_flashback_start_e250551a:
+
+    # narrator "Она решительно встряхнула головой. Хватит копаться в прошлом. Сейчас важно настоящее. Важно донести свое открытие до этих скептиков из ученого совета."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:511
+translate english_us debug_chapter1_flashback_start_00a556c9:
+
+    # narrator "Она снова взялась за ручку, но теперь писала с новой, почти отчаянной решимостью. Нужно было закончить."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:513
+translate english_us debug_chapter1_flashback_start_9df142ba:
+
+    # narrator "Неон яростно писала, выплескивая на бумагу все свои расчеты и выводы. Воспоминания придали ей сил, но и оставили легкий привкус горечи и недосказанности."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:514
+translate english_us debug_chapter1_flashback_start_50404674:
+
+    # narrator "Она чувствовала, как нарастает волнение перед собранием. Нужно быть безупречной. Нужно доказать."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:515
+translate english_us debug_chapter1_flashback_start_cb55bcf3:
+
+    # narrator "Ручка царапала бумагу. Почерк становился все более неровным, торопливым. Она взглянула на часы – время поджимало."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:516
+translate english_us debug_chapter1_flashback_start_7616415d:
+
+    # narrator "'...основываясь на вышеизложенных данных, мы с высокой степенью вероятности можем утверждать об искусственном происхождении сигнала...'"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:517
+translate english_us debug_chapter1_flashback_start_415ae82b:
+
+    # narrator "Она обвела эту фразу несколько раз. Ключевой момент."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:518
+translate english_us debug_chapter1_flashback_start_070b3885:
+
+    # narrator "Осталось сформулировать заключение и возможные направления для дальнейших исследований."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:520
+translate english_us debug_chapter1_flashback_start_c1800b0c:
+
+    # narrator "Мелькнула мысль о Марке и его странном визите к начальству. И об Алекс, которая сейчас корпит над ее рутинными отчетами. Все казалось каким-то неправильным, смещенным."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:521
+translate english_us debug_chapter1_flashback_start_1000db13:
+
+    # narrator "Но времени на рефлексию не было. Только вперед. К собранию."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:522
+translate english_us debug_chapter1_flashback_start_42d1d40a:
+
+    # narrator "Она поставила последнюю точку в своём докладе."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:523
+translate english_us debug_chapter1_flashback_start_d04574a3:
+
+    # narrator "Все казалось каким-то неправильным, смещенным с привычной оси. Но времени на рефлексию не оставалось. Только вперед. К собранию."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:525
+translate english_us debug_chapter1_flashback_start_ca4110fe:
+
+    # narrator "Наконец, она поставила последнюю точку. Дрожащей рукой отложила ручку."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:527
+translate english_us debug_chapter1_flashback_start_a0917ac3:
+
+    # narrator "Перед ней лежало несколько листов бумаги, густо исписанных ее угловатым почерком. Это было все, что отделяло ее от триумфа или полного провала."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:528
+translate english_us debug_chapter1_flashback_start_db14fb90:
+
+    # narrator "Она быстро пробежала глазами текст, морщась на особенно корявые места. Сможет ли она сама это разобрать, когда придет время говорить? Смогут ли *они* это понять?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:529
+translate english_us debug_chapter1_flashback_start_01299236:
+
+    # narrator "Неон собрала листы, стараясь придать им хоть какой-то вид, сложила их вдвое. Встала, чувствуя, как затекли ноги и спина."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:530
+translate english_us debug_chapter1_flashback_start_bf3f35c6:
+
+    # narrator "Библиотека все так же хранила тишину, но теперь эта тишина казалась Неон напряженной, как натянутая струна."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:533
+translate english_us debug_chapter1_flashback_start_0516b761:
+
+    # narrator "Она вышла из библиотеки и направилась к лифтам, ведущим на верхние уровни – туда, где располагался административный блок и главные конференц-залы."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:536
+translate english_us debug_chapter1_flashback_start_ccf8463f:
+
+    # narrator "Коридоры здесь были шире, отделка – дороже. Вместо линолеума – ковровые дорожки, вместо пластиковых панелей – отделка под дерево. Тишина здесь была другой – не производственной, а властной."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:537
+translate english_us debug_chapter1_flashback_start_9d9982ac:
+
+    # narrator "Она прошла мимо застекленных кабинетов с табличками: 'Финансовый директор', 'Отдел кадров', 'Юридическая служба'. Сотрудники в строгих костюмах мелькали за стеклами, не обращая на нее внимания."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:538
+translate english_us debug_chapter1_flashback_start_21ee0f73:
+
+    # narrator "Вот и он – большой зал заседаний номер один. Обычно здесь проходили общие собрания или встречи с важными гостями. Странно, что для обычного ученого совета выбрали его."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:539
+translate english_us debug_chapter1_flashback_start_e4e1f750:
+
+    # narrator "Тяжелая дубовая дверь с медной табличкой 'Конференц-зал №1'. Неон на мгновение замерла перед ней, собираясь с духом. Сделала глубокий вдох, стараясь унять бешено колотящееся сердце."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:540
+translate english_us debug_chapter1_flashback_start_c59fec3b:
+
+    # narrator "Сейчас или никогда."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:546
+translate english_us debug_meeting_start_774ee511:
+
+    # narrator "Неон открывает, вдохнувший вглубь своей груди воздух дверь одного из конференц кабинета."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:547
+translate english_us debug_meeting_start_dd798ec0:
+
+    # narrator "Этот конференц предназначался для проведений конференций с инвесторами компании. Неужели это не ученый совет? Планы поменялись? Почему её не предупредили? Что-то здесь не то."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:548
+translate english_us debug_meeting_start_2ff06549:
+
+    # narrator "Она входит в кабинет. Это огромный зал с овальным столом по середине. В конце комнаты - белая доска для показа презентаций на прожекторе."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:549
+translate english_us debug_meeting_start_f41df02e:
+
+    # narrator "Именно это и насторожило Неон. Ладно, если бы это было научное заседание, но для инвесторского заседания нужна электронная презентация для упрощенного понимания, которой вовсе нет."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:550
+translate english_us debug_meeting_start_ed8e0db4:
+
+    # narrator "Просто представьте, какого было бы сидеть в окружении инвесторов, своего босса и других сотрудников с какой-то доисторической бумажкой. Как будто это представление импровизатора в подземном переходе. Не тот уровень."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:551
+translate english_us debug_meeting_start_4df510a4:
+
+    # narrator "Она моментально ощутила себя лишней, неуверенной?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:552
+translate english_us debug_meeting_start_07850c9b:
+
+    # narrator "Но Неон бегло посмотрела на участников заседания."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:553
+translate english_us debug_meeting_start_8c37965b:
+
+    # narrator "Генеральный директор - толстячок, ну типичный босс-гандон, но вместо стереотивного жирного урода он казался Неон довольно сдержанным, но естественно, он действовал в угоду получения прибыли с компании, тут, видимо, никак."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:554
+translate english_us debug_meeting_start_9ee77244:
+
+    # narrator "Далее - руководитель исследований, непосредственно начальник Неон. Сидел рядом с Генеральным Директором. Обычная ситуация. Но что необычно - это другие акционеры вокруг них - совет директоров."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:555
+translate english_us debug_meeting_start_78c8c92c:
+
+    # narrator "Серьёзно? Подумала Неон. Видимо, это не ошибка. Это заседание инвесторов."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:556
+translate english_us debug_meeting_start_4f7b11ba:
+
+    # narrator "Но зачем?! Кто просил? Кто-то предоставил открытие, способное заинтересовать инвесторов и привлечь прибыль в компанию? О чём думал директор и начальник Неон приглашая их?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:557
+translate english_us debug_meeting_start_3acbddd9:
+
+    # narrator "В зале также сидели и другие ученые. Алекс, естественно, тут нет."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:558
+translate english_us debug_meeting_start_6899c59d:
+
+    # narrator "Неон в расстряности до сих пор стояла у входа в зал, будто ожидая приглашения."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:560
+translate english_us debug_meeting_start_74395830:
+
+    # ceo "Доктор Неон! Мы ради что вы пришли. Мы как раз вас ждали."
+    ceo ""
+
+# game/game-scripts/script_director_scene.rpy:561
+translate english_us debug_meeting_start_516bbe78:
+
+    # ceo "Шарипов Евсеевич для вас занял место, пожалуйста, присаживайтесь."
+    ceo ""
+
+# game/game-scripts/script_director_scene.rpy:563
+translate english_us debug_meeting_start_e688722d:
+
+    # narrator "Шарипов Евсеевич? Это же фамилия и отчество Марка. Что он тут делает?"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:564
+translate english_us debug_meeting_start_d432bff2:
+
+    # narrator "В момент раздумий, Марк повернулся к Неон. Он сидел сзади от неё, на начальных креслах от входа. Поэтому, она его не видела."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:565
+translate english_us debug_meeting_start_b6b6be80:
+
+    # narrator "С какой-то странной улыбкой, он похлопал по свободному стулу и другой рукой показал и тыкал на него указательным пальцем, намекая сюда сесть. Так Неон и сделала, закрыв аккуратно перед этим дверь."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:567
+translate english_us debug_meeting_start_8ae825d5:
+
+    # cro "И так, начинаем второе квартальное заседние в изучении внеземных сигналов..."
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:568
+translate english_us debug_meeting_start_5f59efc1:
+
+    # narrator "Марк, шепотом в ухо Неон перебивал что говорил её руководитель."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:570
+translate english_us debug_meeting_start_2d894be2:
+
+    # mark "Доктор Неон, при всём уважении. Можно я выступлю первым, пожалуйста?"
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:571
+translate english_us debug_meeting_start_0aeb5478:
+
+    # mark "Я, просто, уже готов. И мне сегодня выезжать в город после собрания, я прощу вас."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:573
+translate english_us debug_meeting_start_25d7299a:
+
+    # narrator "Совсем потеряв мысли насчёт собрания и о чём оно будет, Неон отвечает шепотом Марку."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:575
+translate english_us debug_meeting_start_b38e0dbb:
+
+    # neon "Выступление? Не знала что у тебя есть какие-то исследования."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:576
+translate english_us debug_meeting_start_d45b403d:
+
+    # neon "Ну ладно. Я буду рада услышать, что ты там открыл."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:577
+translate english_us debug_meeting_start_c27cf1e3:
+
+    # neon "И кстати... Марк. Почему это инвесторское собрание? Разве не планировалось-"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:579
+translate english_us debug_meeting_start_2aebe8bb:
+
+    # cro "...Шарипов Евсеевич, вы готовы выступить в качестве защиты с презентацией к совету директоров, по поводу вашего нового открытия? "
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:580
+translate english_us debug_meeting_start_cf2c2eb6:
+
+    # narrator "Марк уже не слышал вопрос Неон, он его проигнорировал, обращая внимания на руководителя исследований."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:582
+translate english_us debug_meeting_start_d8540c0a:
+
+    # mark "Да, конечно, сэр."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:584
+translate english_us debug_meeting_start_941f7ef7:
+
+    # narrator "Неон вздохнула с легкостью, что наконец-то Марк пробьётся в люди, в ученые."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:585
+translate english_us debug_meeting_start_f5f5b153:
+
+    # narrator "Но кто потом будет помогать Неон в качестве ассистента, кто займёт его место? Она уже представила его, будто он убедил всех инвесторов в его открытии, и инвестриовании проекта."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:586
+translate english_us debug_meeting_start_18058de1:
+
+    # narrator "У Неон появилась вновь тоска, будто теперь её бросят, а инвестиции в её сфере снова обрежут, ведь она не могла представить что сейчас будет выступать перед инвесторами"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:587
+translate english_us debug_meeting_start_035fc335:
+
+    # narrator "Но она не отчаялась. Неон была уверена, что её открытие - настоящие, живые сигналы ничто по сравнению с открытием Марка. Да и он сам-то кто? Просто на асперантуре у Неон. Открытие явно уровня новичка."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:588
+translate english_us debug_meeting_start_d428f774:
+
+    # narrator "Она так думала. до тех пор, пока не услышала его слова."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:590
+translate english_us debug_meeting_start_eb19605b:
+
+    # mark "Коллеги, я рад сообщить, что мне удалось расшифровать сигнал, который, с высокой долей вероятности, имеет внеземное происхождение."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:592
+translate english_us debug_meeting_start_b0bb1996:
+
+    # narrator "Марк подключает свой ноутбук к проектору, и на экране появляется знакомый до боли график."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:593
+translate english_us debug_meeting_start_b5e8cba1:
+
+    # narrator "Неон замирает, кровь стынет в её жилах. Она узнает свои собственные данные, свои выводы, месяцы своей работы, представленные Марком как его собственное открытие."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:595
+translate english_us debug_meeting_start_91682ba0:
+
+    # neon "Но..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:596
+translate english_us debug_meeting_start_405f208b:
+
+    # extend " но это же..."
+    extend ""
+
+# game/game-scripts/script_director_scene.rpy:598
+translate english_us debug_meeting_start_88fc0e39:
+
+    # narrator "Голос Неон дрожит от шока и возмущения. Все взгляды обращаются к ней."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:600
+translate english_us debug_meeting_start_4e488032:
+
+    # ceo "Да, Доктор Неон? Вы хотели что-то добавить?"
+    ceo ""
+
+# game/game-scripts/script_director_scene.rpy:602
+translate english_us debug_meeting_start_00b40f7e:
+
+    # narrator "Неон вскакивает со стула, указывая на экран. Её лицо пылает от гнева, а её лицо красное как помидор. От злости."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:604
+translate english_us debug_meeting_start_cbdd7a47:
+
+    # neon "Это моя работа!"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:605
+translate english_us debug_meeting_start_d153b621:
+
+    # extend "Я расшифровала этот сигнал!"
+    extend ""
+
+# game/game-scripts/script_director_scene.rpy:606
+translate english_us debug_meeting_start_1aed6ef0:
+
+    # extend "Как он оказался у Марка?!"
+    extend ""
+
+# game/game-scripts/script_director_scene.rpy:608
+translate english_us debug_meeting_start_67f3b6ee:
+
+    # mark "Доктор Неон, я понимаю твоё удивление, но уверяю вас, это результат моих исследований."
+    mark ""
+
+# game/game-scripts/script_director_scene.rpy:610
+translate english_us debug_meeting_start_cc37ad21:
+
+    # narrator "Марк смотрит на Неон с притворным сочувствием, его ухмылка едва заметно дрогнула."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:612
+translate english_us debug_meeting_start_f36e6549:
+
+    # "Босс" "Доктор Неон, это серьёзное обвинение. У вас есть доказательства?"
+    "Босс" ""
+
+# game/game-scripts/script_director_scene.rpy:614
+translate english_us debug_meeting_start_9ba34f21:
+
+    # neon "Я..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:615
+translate english_us debug_meeting_start_4287eb49:
+
+    # extend " я собиралась представить эти данные сегодня."
+    extend ""
+
+# game/game-scripts/script_director_scene.rpy:616
+translate english_us debug_meeting_start_2848874a:
+
+    # neon "Но... но... я не смогла завершить презентацию в этот день..."
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:617
+translate english_us debug_meeting_start_26526149:
+
+    # neon "И я думала, что это обычное заседание учен-"
+    neon ""
+
+# game/game-scripts/script_director_scene.rpy:619
+translate english_us debug_meeting_start_48aa817b:
+
+    # cro "Доктор Неон! Прощу вас воздержаться от многословий. Вы перебиваете выступающего!"
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:620
+translate english_us debug_meeting_start_a8989551:
+
+    # cro "Тем более, у вас нет доказательств."
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:621
+translate english_us debug_meeting_start_d2fdee5a:
+
+    # cro "Вы поставили на подпись свои отчеты о ваших исследованиях? Сегодня до обеда был дедлайн. Правильно. нет."
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:622
+translate english_us debug_meeting_start_1bf38abd:
+
+    # cro "Так-что даже я не могу сказать чем вы занимались, Доктор Неон."
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:623
+translate english_us debug_meeting_start_058c70d7:
+
+    # narrator "Начальник задал паузу и по ушам пробежалось эхо его слов, будто давал секунду на размышление, или же думал как бы ещё унизить Неон."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:624
+translate english_us debug_meeting_start_f83bf672:
+
+    # cro "И тем более. Вы упомянули что вы смогли завершить презентацию."
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:625
+translate english_us debug_meeting_start_371d75d9:
+
+    # cro "Я вижу, вы пришли с помятой бумажкой. Что это? Ваш доклад? Вы знаете где вообще сейчас находитесь?"
+    cro ""
+
+# game/game-scripts/script_director_scene.rpy:627
+translate english_us debug_meeting_start_520a8b42:
+
+    # narrator "Ген. директор решил деэскалировать ситуацию"
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:628
+translate english_us debug_meeting_start_23186cb0:
+
+    # ceo "Олег, хватит, пожалуйста. Мы всё таки на собрании директоров. Давайте лучше послушаем Шарипова."
+    ceo ""
+
+# game/game-scripts/script_director_scene.rpy:629
+translate english_us debug_meeting_start_5bc1cc52:
+
+    # ceo "Он сегодня заходит ко мне, утром. Показал сигналы о внеземном происхождении и я решил созвать совет директоров по этому поводу, поэтому, это очень важно."
+    ceo ""
+
+# game/game-scripts/script_director_scene.rpy:630
+translate english_us debug_meeting_start_f410890c:
+
+    # ceo "Шарипов, мы вас слушаем."
+    ceo ""
+
+# game/game-scripts/script_director_scene.rpy:632
+translate english_us debug_meeting_start_c596422a:
+
+    # narrator "Вот как? Подумала Неон. Неон не только не имела презентации для должного выступления, но и вся её изюменка доклада - это просто пшик в воздух. Ибо Марк её украл."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:633
+translate english_us debug_meeting_start_0c9779c0:
+
+    # narrator "Теперь понятно, куда уходил Марк утром и зачем он заходил к директору. И понятно. почему он хотел выступить первым... Одно не понятно... как он получил данные? И такие актуальные..."
+    narrator ""
+
+# game/game-scripts/script_director_scene.rpy:634
+translate english_us debug_meeting_start_92a16f4b:
+
+    # narrator "Всё собрание для Неон происходило в режиме белого шума, её там будто не было. Её уши просто захламились помехами, будто она сама стала приёмником сигналов. Но только уже принимающие совсем неверные сигналы."
+    narrator ""
+
