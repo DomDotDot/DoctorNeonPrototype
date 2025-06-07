@@ -6,7 +6,7 @@ define alex = Character('Алекс', color="#b41f5d", image="alex")
 define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True)
 
     # Вспомогательные персонажи
-define narrator = Character(None, what_size=15)
+define narrator = Character(None, what_size=20)
 define narrator_nvl = Character(None, kind=nvl)
 
 define unknown = Character('Неизвестный', color="#ffffff")
@@ -31,13 +31,27 @@ define headteacher = Character('Завуч', color="#808080", image="headteacher
 style thoughts:
         italic True
 style yell:
-        size 40
+        size 60
+style whisper:
+        size 20
 
 init:
     transform flip:
             xzoom -1.0
     transform restore_flip:
             xzoom 1.0
+    transform midright:
+        xalign 0.85
+    transform midleft:
+        xalign 0.25
+    transform enter_from_left(target_pos):
+        xalign -1.0
+        yalign 1.0
+        linear 0.7
+    transform enter_from_right(target_pos):
+        xalign -1.0
+        yalign 1.0
+        linear 0.25
 
 init python:
 
