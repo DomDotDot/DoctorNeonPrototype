@@ -121,7 +121,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 45
 
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а
@@ -196,6 +196,7 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
+
 
 
 ## Для совершения покупок в приложении требуется лицензионный ключ Google Play.

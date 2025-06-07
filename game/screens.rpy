@@ -347,6 +347,71 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+## Языки
+
+# 2. ЭКРАН ВЫБОРА ЯЗЫКА
+screen language_selection_screen():
+# modal True не даст нажать на что-то "под" этим экраном
+    modal True 
+    zorder 150
+    tag menu # Важно для корректной работы стилей и переходов меню
+
+    frame:
+        style_prefix "language_select"
+        xalign 0.5
+        yalign 0.5
+        background "#000a" # Слегка прозрачный фон
+        padding (50, 50)
+
+        vbox:
+            xalign 0.5
+            spacing 20
+
+            # Текст лучше написать на нескольких языках сразу
+            text "Select Language / Выберите Язык:" xalign 0.5 size 30
+
+            null height 10 # Отступ
+
+            # Создаем кнопки для каждого языка из списка LANGUAGE_LIST
+            for name, code in LANGUAGE_LIST:
+                # Action: 
+                # 1. Language(code) - устанавливает и сохраняет язык в persistent.language
+                # 2. Return() - закрывает экран, т.к. мы вызвали его через 'call screen'
+                textbutton name action [Language(code), Return()]
+
+# Стили для экрана (необязательно, но полезно)
+style language_select_frame:
+    background Frame("gui/frame.png", 25, 25) # используем стандартную рамку GUI
+    padding (40, 40)
+
+style language_select_button:
+    properties gui.button_properties("button")
+    xalign 0.5
+    size 28
+ 
+style language_select_button_text:
+    properties gui.text_properties("button_text")
+    size 28
+
+# 3. SPLASHSCREEN (Выполняется ДО главного меню)
+default persistent.language = None
+
+label splashscreen:
+    scene black # покажем черный экран
+    with Pause(0.1) # небольшая пауза
+
+    # Проверяем: был ли язык уже выбран ранее?
+    if persistent.language is None:
+        # Если нет (первый запуск), показываем экран и ЖДЕМ выбора (call screen)
+        call screen language_selection_screen
+        # После того как игрок нажмет кнопку (Action Return()), выполнение продолжится отсюда
+    
+    # Если persistent.language был установлен, или если игрок только что выбрал язык на экране,
+    # игра просто продолжит загрузку и покажет главное меню на нужном языке.
+    # Небольшой переход
+    with dissolve 
+    return # <-- Завершение splashscreen, переход к главному меню
+
 screen main_menu():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
@@ -754,6 +819,12 @@ screen preferences():
                 ## Дополнительные vbox'ы типа "radio_pref" или "check_pref"
                 ## могут быть добавлены сюда для добавления новых настроек.
 
+                vbox:
+                    style_prefix "radio"
+                    label _("✍️📜")
+                    textbutton "Русский" action Language(None)
+                    textbutton "English (US)" action Language("english_us")
+
             null height (4 * gui.pref_spacing)
 
             hbox:
@@ -804,6 +875,8 @@ screen preferences():
                         textbutton _("Без звука"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
+
+                    
 
 
 style pref_label is gui_label
