@@ -308,6 +308,9 @@ screen navigation():
 
         textbutton _("Настройки") action ShowMenu("preferences")
 
+        if renpy.get_screen("main_menu"):
+            textbutton _("Галерея CG") action ShowMenu("gallery")
+
         if _in_replay:
 
             textbutton _("Завершить повтор") action EndReplay(confirm=True)
@@ -831,15 +834,15 @@ screen preferences():
                 style_prefix "slider"
                 box_wrap True
 
-                vbox:
+                #vbox:
 
-                    label _("Скорость текста")
+                    #label _("Скорость текста")
 
-                    bar value Preference("text speed")
+                    #bar value Preference("text speed")
 
-                    label _("Скорость авточтения")
+                    #label _("Скорость авточтения")
 
-                    bar value Preference("auto-forward time")
+                    #bar value Preference("auto-forward time")
 
                 vbox:
 
@@ -868,6 +871,14 @@ screen preferences():
 
                             if config.sample_voice:
                                 textbutton _("Тест") action Play("voice", config.sample_voice)
+
+                        label _("Громкость фоновых звуков")
+
+                        hbox:
+                            bar value Preference("ambient volume")
+
+                            if config.sample_voice:
+                                textbutton _("Тест") action Play("sound", config.sample_voice)
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing

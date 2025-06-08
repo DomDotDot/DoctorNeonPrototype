@@ -1,12 +1,12 @@
 # Определение персонажей игры.
     # Ключевые персонажи
 define neon = Character('Неон', color="#1f4bc4", image="neon")
-define mark = Character('Марк', color="#967230", image="mark")
-define alex = Character('Алекс', color="#b41f5d", image="alex")
-define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True)
+define mark = Character('Марк', color="#967230", image="mark", what_slow_cps_multiplier=0.85)
+define alex = Character('Алекс', color="#b41f5d", image="alex", what_slow_cps_multiplier=1.25)
+define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True, what_slow_cps_multiplier=0.75)
 
     # Вспомогательные персонажи
-define narrator = Character(None, what_size=20)
+define narrator = Character(None, what_size=25)
 define narrator_nvl = Character(None, kind=nvl)
 
 define unknown = Character('Неизвестный', color="#ffffff")
@@ -34,6 +34,7 @@ style yell:
         size 60
 style whisper:
         size 20
+        italic True
 
 init:
     transform flip:
@@ -57,6 +58,21 @@ init python:
 
     renpy.music.register_channel("ambient", mixer="music", loop=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True)
     renpy.music.register_channel("ui_sfx", mixer="sfx", loop=False, tight=True)
+
+init python:
+    def slow_punctuation(str_to_test):
+        return (str_to_test
+            .replace("... ", "...{w=1.5} ")
+            .replace(", ", ",{w=0.5} ")
+            .replace(". ", ".{w=1.0} ")
+            .replace("! ", "!{w=1.0} ")
+            .replace("? ", "?{w=1.0} ")
+            .replace(": ", ":{w=0.5} ")
+            .replace("— ", "—{w=0.25} ")
+            .replace(" —", " —{w=0.25} ")
+            .replace("-", "-{w=0.25}")
+            )
+    config.say_menu_text_filter = slow_punctuation
 
 # Переменные:
 
