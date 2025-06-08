@@ -54,8 +54,12 @@ screen gallery():
 
             ### CGs ###
             # Provide button name, a list of images to display, and alternatively a path to a custom thumbnail
-            gallery_items.append(GalleryItem("trees", ["cg trees"]))
-            gallery_items.append(GalleryItem("gres", ["cg gres", "cg gres side"], "images/cg/cg gres thumbnail.jpg"))
+            gallery_items.append(GalleryItem("Кафетерия", ["cg cg1"]))
+            
+            gallery_items.append(GalleryItem("Доклад", ["cg cg2_1", "cg cg2_2"]))
+
+            gallery_items.append(GalleryItem("Фрагмент Воспоминаний 1", ["cg cg3_1"]))
+            # gallery_items.append(GalleryItem("gres", ["cg gres", "cg gres side"], "images/cg/cg gres thumbnail.jpg"))
 
             for item in gallery_items:
                 g.button(item.name)
