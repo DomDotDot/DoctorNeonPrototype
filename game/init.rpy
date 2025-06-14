@@ -1,31 +1,31 @@
 # Определение персонажей игры.
     # Ключевые персонажи
-define neon = Character('Неон', color="#1f4bc4", image="neon")
-define mark = Character('Марк', color="#967230", image="mark", what_slow_cps_multiplier=0.85)
-define alex = Character('Алекс', color="#b41f5d", image="alex", what_slow_cps_multiplier=1.25)
-define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True, what_slow_cps_multiplier=0.75)
+define neon = Character('Неон', color="#1f4bc4", image="neon", ctc="ctc_blink", ctc_position="nestled")
+define marcus = Character('Маркус', color="#967230", image="marcus", what_slow_cps_multiplier=0.85, ctc="ctc_blink", ctc_position="nestled")
+define alex = Character('Алекс', color="#b41f5d", image="alex", what_slow_cps_multiplier=1.25, ctc="ctc_blink", ctc_position="nestled")
+define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True, what_slow_cps_multiplier=0.75, ctc="ctc_blink", ctc_position="nestled")
 
     # Вспомогательные персонажи
-define narrator = Character(None, what_size=25)
+define narrator = Character(None, what_size=25, ctc="ctc_blink", ctc_position="nestled")
 define narrator_nvl = Character(None, kind=nvl)
 
-define unknown = Character('Неизвестный', color="#ffffff")
-define unknown_f = Character('Неизвестная', color="#ffffff")
+define unknown = Character('Неизвестный', color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
+define unknown_f = Character('Неизвестная', color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
 define fcs = Character('Система Управление Полётом', color="#a30e0e")
 
     # Второстепенные персонажи
-define petrovich = Character('Петрович', color="#7a7a7a", image="petrovich")
+define petrovich = Character('Петрович', color="#7a7a7a", image="petrovich", ctc="ctc_blink", ctc_position="nestled")
 
-define ceo = Character('Господин Бауманн (CEO)', color="#305a96", image="ceo_boss") # Генеральный директор
-define cro = Character('Доктор Захаров (CRO)', color="#753636", image="cro_boss") # Руководитель исследований
+define ceo = Character('Господин Бауманн (CEO)', color="#305a96", image="ceo_boss", ctc="ctc_blink", ctc_position="nestled") # Генеральный директор
+define cro = Character('Доктор Грубенманн (CRO)', color="#753636", image="cro_boss", ctc="ctc_blink", ctc_position="nestled") # Руководитель исследований
 
-define bully1 = Character('Задира 1', color="#b32424", image="bully")
-define bully2 = Character('Задира 2', color="#b32424", image="bully")
+define bully1 = Character('Задира 1', color="#b32424", image="bully", ctc="ctc_blink", ctc_position="nestled")
+define bully2 = Character('Задира 2', color="#b32424", image="bully", ctc="ctc_blink", ctc_position="nestled")
 
-define anna = Character('Анна', color="#d96411", image="anna")
-define sophie = Character('Софи', color="#d1c682", image="sophie")
+define anna = Character('Анна', color="#d96411", image="anna", ctc="ctc_blink", ctc_position="nestled")
+define sophie = Character('Софи', color="#d1c682", image="sophie", ctc="ctc_blink", ctc_position="nestled")
 
-define headteacher = Character('Завуч', color="#808080", image="headteacher")
+define headteacher = Character('Завуч', color="#808080", image="headteacher", ctc="ctc_blink", ctc_position="nestled")
 
 # Кастомные стили
 style thoughts:
@@ -42,17 +42,23 @@ init:
     transform restore_flip:
             xzoom 1.0
     transform midright:
-        xalign 0.85
+        xcenter 0.75
     transform midleft:
-        xalign 0.25
+        xcenter 0.25
     transform enter_from_left(target_pos):
-        xalign -1.0
-        yalign 1.0
+        xcenter -1.0
+        ycenter 1.0
         linear 0.7
     transform enter_from_right(target_pos):
-        xalign -1.0
-        yalign 1.0
+        xcenter -1.0
+        ycenter 1.0
         linear 0.25
+
+image ctc_blink:
+    "gui/ctc.png"
+    linear 0.75 alpha 1.0
+    linear 0.75 alpha 0.0
+    repeat
 
 init python:
 
