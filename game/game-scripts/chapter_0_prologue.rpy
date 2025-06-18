@@ -1,4 +1,6 @@
 label chapter_0_prologue_rpy:
+    call screen chapter_screen("Глава 0", "Пролог")
+
 
     label prologue:
 
@@ -10,7 +12,7 @@ label chapter_0_prologue_rpy:
         scene black
         # play sound "sounds/black_box_start.ogg" # Пример звука
         pause 1.0
-
+        
         scene bg prologue_spacepod
 
         play music "music/BGM/Imminense.ogg" fadein 2.0 fadeout 0.5
@@ -20,7 +22,6 @@ label chapter_0_prologue_rpy:
         # show screen shake(magnitude=5, duration=0.5)
         
         fcs "Внимание! Множественные повреждения! Отказ системы стабилизации!"
-
         # Голос пилота - сдавленный, панический
         unknown_f "{=yell}Дерьмо! {/yell}" with vpunch
         extend "Только не сейчас! "
