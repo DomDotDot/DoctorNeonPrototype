@@ -24,8 +24,6 @@ label zurich_university_flashback:
         Просто теплое, ободряющее чувство. Она списывала это на нервы или недосып.
         """
 
-label zurich_streets_flashback:
-
         # Новый флешбэк: повседневная жизнь
         # play sound "sounds/flashback_swoosh.ogg"
         scene bg chapter_1_zurich_street_evening with dissolve
@@ -59,7 +57,6 @@ label zurich_streets_flashback:
         Вечные споры, чья очередь мыть посуду, совместные посиделки с дешевым вином и обсуждение планов на будущее.
         """
 
-label zurich_apartments_flashback:
         # Флешбэк: Квартира в Цюрихе (Иммерсивный, с диалогом)
         # play sound "sounds/flashback_swoosh.ogg"
         scene bg chapter_1_zurich_apartment_flashback with dissolve # Фон: Маленькая кухня, ночь, пустые чашки из-под кофе, разбросанные книги

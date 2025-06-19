@@ -20,8 +20,6 @@ label start_game:
                 call chapter_2_rpy
         "Пока":
             call end
-    return
-
 
     label end:
         "Продолжение следует."

@@ -14,13 +14,12 @@ define unknown_f = Character('Неизвестная', color="#ffffff", ctc="ctc
 define fcs = Character('Система Управление Полётом', color="#a30e0e")
 
     # Второстепенные персонажи
-define petrovich = Character('Петрович', color="#7a7a7a", image="petrovich", ctc="ctc_blink", ctc_position="nestled")
+define hans = Character('Ханс', color="#7a7a7a", image="hans", ctc="ctc_blink", ctc_position="nestled")
 
 define ceo = Character('Господин Бауманн (CEO)', color="#305a96", image="ceo_boss", ctc="ctc_blink", ctc_position="nestled") # Генеральный директор
 define cro = Character('Доктор Грубенманн (CRO)', color="#753636", image="cro_boss", ctc="ctc_blink", ctc_position="nestled") # Руководитель исследований
 
-define bully1 = Character('Задира 1', color="#b32424", image="bully", ctc="ctc_blink", ctc_position="nestled")
-define bully2 = Character('Задира 2', color="#b32424", image="bully", ctc="ctc_blink", ctc_position="nestled")
+define bully1 = Character('Задира', color="#b32424", image="bully", ctc="ctc_blink", ctc_position="nestled")
 
 define anna = Character('Анна', color="#d96411", image="anna", ctc="ctc_blink", ctc_position="nestled")
 define sophie = Character('Софи', color="#d1c682", image="sophie", ctc="ctc_blink", ctc_position="nestled")
