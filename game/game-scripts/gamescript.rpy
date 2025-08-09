@@ -1,28 +1,26 @@
 # Игра начинается здесь:
 label start_game:
 
+    call AI_cg_royalty_free from _call_AI_cg_royalty_free
+
     label chapter_0_prologue:
-        call chapter_0_prologue_rpy
+        call chapter_0_prologue_rpy from _call_chapter_0_prologue_rpy
 
     label chapter_1:
-        call chapter_1_rpy
+        call chapter_1_rpy from _call_chapter_1_rpy
 
     
     menu:
-        "
-        Я знаю, что клиффхэнгеры могут расстраивать, поэтому сейчас я дам вам прочесть фрагмент второй главы.
-        
-        Пожалуйста, обратите внимание, что глава 2 находится на ранней стадии разработки. Если вы не чувствуете разочарования, то лучше воздержаться от начала игры.
-        "
+        "Я знаю, что клиффхэнгеры могут расстраивать, поэтому сейчас я дам вам прочесть фрагмент второй главы. Пожалуйста, обратите внимание, что глава 2 находится на ранней стадии разработки. Если вы не чувствуете разочарования, то лучше воздержаться от начала игры."
         
         "Играть в Главу 2 (В РАЗРАБОТКЕ)":
             label chapter_2:
-                call chapter_2_rpy
+                call chapter_2_rpy from _call_chapter_2_rpy
         "Пока":
-            call end
+            call end from _call_end
 
     label end:
         "Продолжение следует."
-        return
+        $ MainMenu(confirm=False)()
     
 return

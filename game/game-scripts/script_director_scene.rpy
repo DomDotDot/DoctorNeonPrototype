@@ -65,7 +65,7 @@ label start_prototype:
         narrator_nvl "Несколько месяцев до индицента..."
         nvl clear
 
-        call debug_chapter1_lab_night
+        call debug_chapter1_lab_night from _call_debug_chapter1_lab_night
         return
 
     label debug_chapter1_lab_night:
@@ -169,7 +169,7 @@ label start_prototype:
         narrator "Документ в мониторе двоился, а голова начала кружиться сама по себе..."
         neon "Ч-что..."
 
-        call debug_chapter1_lab_morning
+        call debug_chapter1_lab_morning from _call_debug_chapter1_lab_morning
         return
 
     label debug_chapter1_lab_morning:
@@ -271,7 +271,7 @@ label start_prototype:
         alex "Если ты его, конечно, сегодня хочешь показать."
         alex "В общем, созвонимся."
 
-        call debug_chapter1_lab_noon
+        call debug_chapter1_lab_noon from _call_debug_chapter1_lab_noon
 
         # Далее Арка ходьбы Неон по всему предприятию, поиск вдохновления для своего доклада, расскрытие некоторых секретов.
         return
@@ -359,7 +359,7 @@ label start_prototype:
         neon "С чего начать? С самого начала. 'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'..."
 
         # Конец первой части chapter1_lab_noon.
-        call debug_chapter1_flashback_start
+        call debug_chapter1_flashback_start from _call_debug_chapter1_flashback_start
         return
 
     label debug_chapter1_flashback_start:
@@ -538,7 +538,7 @@ label start_prototype:
         narrator "Вот и он – большой зал заседаний номер один. Обычно здесь проходили общие собрания или встречи с важными гостями. Странно, что для обычного ученого совета выбрали его."
         narrator "Тяжелая дубовая дверь с медной табличкой 'Конференц-зал №1'. Неон на мгновение замерла перед ней, собираясь с духом. Сделала глубокий вдох, стараясь унять бешено колотящееся сердце."
         narrator "Сейчас или никогда."
-        call meeting_start # Переход к сцене собрания
+        call meeting_start from _call_meeting_start # Переход к сцене собрания
         return
 
     label debug_meeting_start:
