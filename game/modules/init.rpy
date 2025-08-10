@@ -1,12 +1,19 @@
 # Определение персонажей игры.
     # Ключевые персонажи
-define neon = Character(_('Неон'), color="#1f4bc4", image="neon", ctc="ctc_blink", ctc_position="nestled")
-define marcus = Character(_('Маркус'), color="#967230", image="marcus", what_slow_cps_multiplier=0.85, ctc="ctc_blink", ctc_position="nestled")
+define neon = Character(_('Неон'), color="#1f4bc4", image="neon", ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "neon")
+layeredimage neon:
+    at sprite_highlight('neon')
+
+define marcus = Character(_('Маркус'), color="#967230", image="marcus", what_slow_cps_multiplier=0.85, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "marcus" )
+layeredimage marcus:
+    at sprite_highlight('marcus')
+
+
 define alex = Character(_('Алекс'), color="#b41f5d", image="alex", what_slow_cps_multiplier=1.25, ctc="ctc_blink", ctc_position="nestled")
 define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True, what_slow_cps_multiplier=0.75, ctc="ctc_blink", ctc_position="nestled")
 
     # Вспомогательные персонажи
-define narrator = Character(None, what_size=25, ctc="ctc_blink", ctc_position="nestled")
+define narrator = Character(None, what_size=25, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = None)
 define narrator_nvl = Character(None, kind=nvl)
 
 define unknown = Character(_('Неизвестный'), color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
