@@ -52,7 +52,7 @@ translate english_us chapter1_lab_night_ef037af2:
 translate english_us chapter1_lab_night_731abfd2:
 
     # narrator "Халат, некогда белоснежный, носил следы бессонных ночей и, кажется, случайных капель кофе. Под ним виднелся воротник черной водолазки."
-    narrator "The once-pristine white coat bore the marks of sleepless nights and, it seemed, a few stray drops of coffee. Beneath it, the collar of a black turtleneck was visible."
+    narrator "The once-pristine white coat bore the marcuss of sleepless nights and, it seemed, a few stray drops of coffee. Beneath it, the collar of a black turtleneck was visible."
 
 # game/game-scripts/chapters/chapter_1.rpy:9
 translate english_us chapter1_lab_night_c7adc8d0:

@@ -1194,12 +1194,12 @@ translate None strings:
     new "Копирует файл traceback.txt в буфер обмена как BBCode для форумов типа https://lemmasoft.renai.us/."
 
     # renpy/common/_errorhandling.rpym:682
-    old "Copy Markdown"
-    new "Скопировать как Markdown"
+    old "Copy marcusdown"
+    new "Скопировать как marcusdown"
 
     # renpy/common/_errorhandling.rpym:684
-    old "Copies the traceback.txt file to the clipboard as Markdown for Discord."
-    new "Копирует файл traceback.txt в буфер обмена как Markdown для Дискорда."
+    old "Copies the traceback.txt file to the clipboard as marcusdown for Discord."
+    new "Копирует файл traceback.txt в буфер обмена как marcusdown для Дискорда."
 
     # renpy/common/_errorhandling.rpym:716
     old "An exception has occurred."

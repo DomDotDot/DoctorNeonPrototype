@@ -389,14 +389,14 @@ translate english_us debug_chapter1_lab_night_69d2b975:
 # game/game-scripts/script_director_scene.rpy:111
 translate english_us debug_chapter1_lab_night_b62a44c7:
 
-    # mark "Что вы? Конечно помню."
-    mark ""
+    # marcus "Что вы? Конечно помню."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:112
 translate english_us debug_chapter1_lab_night_415d1daa:
 
-    # mark "Я за вас волнуюсь, вы так уже третью неделю сидите. Пора отдохну-"
-    mark ""
+    # marcus "Я за вас волнуюсь, вы так уже третью неделю сидите. Пора отдохну-"
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:114
 translate english_us debug_chapter1_lab_night_a18fc512:
@@ -431,8 +431,8 @@ translate english_us debug_chapter1_lab_night_815bbe2a:
 # game/game-scripts/script_director_scene.rpy:121
 translate english_us debug_chapter1_lab_night_02acdf08:
 
-    # mark "Ладно..."
-    mark ""
+    # marcus "Ладно..."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:122
 translate english_us debug_chapter1_lab_night_0668d9aa:
@@ -443,8 +443,8 @@ translate english_us debug_chapter1_lab_night_0668d9aa:
 # game/game-scripts/script_director_scene.rpy:123
 translate english_us debug_chapter1_lab_night_852772a3:
 
-    # mark "Но хотя-бы... давайте выпьем? Я принес нам обоим газировку."
-    mark ""
+    # marcus "Но хотя-бы... давайте выпьем? Я принес нам обоим газировку."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:124
 translate english_us debug_chapter1_lab_night_25b000fa:
@@ -491,8 +491,8 @@ translate english_us debug_chapter1_lab_night_b4dd0dfa:
 # game/game-scripts/script_director_scene.rpy:136
 translate english_us debug_chapter1_lab_night_48c53603:
 
-    # mark "Ха-ха! Пожалуйста, не льстите! Обычный лаборант... что сказать..."
-    mark ""
+    # marcus "Ха-ха! Пожалуйста, не льстите! Обычный лаборант... что сказать..."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:137
 translate english_us debug_chapter1_lab_night_a58a2c7c:
@@ -503,14 +503,14 @@ translate english_us debug_chapter1_lab_night_a58a2c7c:
 # game/game-scripts/script_director_scene.rpy:138
 translate english_us debug_chapter1_lab_night_9a346f0d:
 
-    # mark "Ну так, что у вас там с сигналом, Доктор Неон?"
-    mark ""
+    # marcus "Ну так, что у вас там с сигналом, Доктор Неон?"
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:139
 translate english_us debug_chapter1_lab_night_524255e1:
 
-    # mark "Неужели что-то не получается?"
-    mark ""
+    # marcus "Неужели что-то не получается?"
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:141
 translate english_us debug_chapter1_lab_night_8ccbe0e3:
@@ -521,14 +521,14 @@ translate english_us debug_chapter1_lab_night_8ccbe0e3:
 # game/game-scripts/script_director_scene.rpy:143
 translate english_us debug_chapter1_lab_night_a3b2428d:
 
-    # mark "А давно они калибровку проводили? Может с этим связанно."
-    mark ""
+    # marcus "А давно они калибровку проводили? Может с этим связанно."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:144
 translate english_us debug_chapter1_lab_night_d5eed13f:
 
-    # mark "Может, сервера устарели?"
-    mark ""
+    # marcus "Может, сервера устарели?"
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:146
 translate english_us debug_chapter1_lab_night_5e394c8f:
@@ -539,8 +539,8 @@ translate english_us debug_chapter1_lab_night_5e394c8f:
 # game/game-scripts/script_director_scene.rpy:148
 translate english_us debug_chapter1_lab_night_ec46b2f6:
 
-    # mark "Ого. А не расскажите по-подробнее?"
-    mark ""
+    # marcus "Ого. А не расскажите по-подробнее?"
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:150
 translate english_us debug_chapter1_lab_night_d1468994:
@@ -569,8 +569,8 @@ translate english_us debug_chapter1_lab_night_d83f962e:
 # game/game-scripts/script_director_scene.rpy:155
 translate english_us debug_chapter1_lab_night_3fce3dbb:
 
-    # mark "Ах, да. Ладно, было приятно с вами поболтать. До завтра."
-    mark ""
+    # marcus "Ах, да. Ладно, было приятно с вами поболтать. До завтра."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:156
 translate english_us debug_chapter1_lab_night_78d8436c:
@@ -1271,8 +1271,8 @@ translate english_us debug_chapter1_lab_noon_f73c8f5a:
 # game/game-scripts/script_director_scene.rpy:322
 translate english_us debug_chapter1_lab_noon_e5d90945:
 
-    # petrovich "(Заметив ее) А, Неон! Какими судьбами? Думал, вы в своей башне из слоновой кости безвылазно сидите."
-    petrovich ""
+    # hans "(Заметив ее) А, Неон! Какими судьбами? Думал, вы в своей башне из слоновой кости безвылазно сидите."
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:323
 translate english_us debug_chapter1_lab_noon_7f9cf378:
@@ -1283,8 +1283,8 @@ translate english_us debug_chapter1_lab_noon_7f9cf378:
 # game/game-scripts/script_director_scene.rpy:324
 translate english_us debug_chapter1_lab_noon_9d9c6ac0:
 
-    # petrovich "Кого, если не секрет? Тут народ разный ходит."
-    petrovich ""
+    # hans "Кого, если не секрет? Тут народ разный ходит."
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:325
 translate english_us debug_chapter1_lab_noon_09cb5c82:
@@ -1295,8 +1295,8 @@ translate english_us debug_chapter1_lab_noon_09cb5c82:
 # game/game-scripts/script_director_scene.rpy:327
 translate english_us debug_chapter1_lab_noon_d75c0388:
 
-    # petrovich "(Поскреб подбородок) Марк... Марк... А, этот шустрый парень? Видел его с часок назад. Он не сюда шел, а наверх, к лифтам в административное крыло. С папкой какой-то под мышкой. Выглядел так, будто у него земля под ногами горит."
-    petrovich ""
+    # hans "(Поскреб подбородок) Марк... Марк... А, этот шустрый парень? Видел его с часок назад. Он не сюда шел, а наверх, к лифтам в административное крыло. С папкой какой-то под мышкой. Выглядел так, будто у него земля под ногами горит."
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:328
 translate english_us debug_chapter1_lab_noon_391aac03:
@@ -1307,14 +1307,14 @@ translate english_us debug_chapter1_lab_noon_391aac03:
 # game/game-scripts/script_director_scene.rpy:329
 translate english_us debug_chapter1_lab_noon_2d0963bb:
 
-    # petrovich "Может, премию выписывать пошел? Или наоборот, на ковер вызвали. У них там наверху свои игры."
-    petrovich ""
+    # hans "Может, премию выписывать пошел? Или наоборот, на ковер вызвали. У них там наверху свои игры."
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:330
 translate english_us debug_chapter1_lab_noon_efcc71dd:
 
-    # petrovich "А вы-то как? Все звезды считаете?"
-    petrovich ""
+    # hans "А вы-то как? Все звезды считаете?"
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:331
 translate english_us debug_chapter1_lab_noon_3e22c681:
@@ -1325,8 +1325,8 @@ translate english_us debug_chapter1_lab_noon_3e22c681:
 # game/game-scripts/script_director_scene.rpy:332
 translate english_us debug_chapter1_lab_noon_29ea558b:
 
-    # petrovich "О, ученый совет! Держитесь там, Неона. Они ребята серьезные, но вы девушка умная, прорветесь. Помню, как они беднягу профессора Циглера гоняли с его теорией о темной материи... Эх, времена были."
-    petrovich ""
+    # hans "О, ученый совет! Держитесь там, Неона. Они ребята серьезные, но вы девушка умная, прорветесь. Помню, как они беднягу профессора Циглера гоняли с его теорией о темной материи... Эх, времена были."
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:333
 translate english_us debug_chapter1_lab_noon_63a58dea:
@@ -1337,8 +1337,8 @@ translate english_us debug_chapter1_lab_noon_63a58dea:
 # game/game-scripts/script_director_scene.rpy:334
 translate english_us debug_chapter1_lab_noon_13991ae1:
 
-    # petrovich "Удачи!"
-    petrovich ""
+    # hans "Удачи!"
+    hans ""
 
 # game/game-scripts/script_director_scene.rpy:335
 translate english_us debug_chapter1_lab_noon_446afa63:
@@ -2123,14 +2123,14 @@ translate english_us debug_meeting_start_5f59efc1:
 # game/game-scripts/script_director_scene.rpy:570
 translate english_us debug_meeting_start_2d894be2:
 
-    # mark "Доктор Неон, при всём уважении. Можно я выступлю первым, пожалуйста?"
-    mark ""
+    # marcus "Доктор Неон, при всём уважении. Можно я выступлю первым, пожалуйста?"
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:571
 translate english_us debug_meeting_start_0aeb5478:
 
-    # mark "Я, просто, уже готов. И мне сегодня выезжать в город после собрания, я прощу вас."
-    mark ""
+    # marcus "Я, просто, уже готов. И мне сегодня выезжать в город после собрания, я прощу вас."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:573
 translate english_us debug_meeting_start_25d7299a:
@@ -2171,8 +2171,8 @@ translate english_us debug_meeting_start_cf2c2eb6:
 # game/game-scripts/script_director_scene.rpy:582
 translate english_us debug_meeting_start_d8540c0a:
 
-    # mark "Да, конечно, сэр."
-    mark ""
+    # marcus "Да, конечно, сэр."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:584
 translate english_us debug_meeting_start_941f7ef7:
@@ -2207,8 +2207,8 @@ translate english_us debug_meeting_start_d428f774:
 # game/game-scripts/script_director_scene.rpy:590
 translate english_us debug_meeting_start_eb19605b:
 
-    # mark "Коллеги, я рад сообщить, что мне удалось расшифровать сигнал, который, с высокой долей вероятности, имеет внеземное происхождение."
-    mark ""
+    # marcus "Коллеги, я рад сообщить, что мне удалось расшифровать сигнал, который, с высокой долей вероятности, имеет внеземное происхождение."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:592
 translate english_us debug_meeting_start_b0bb1996:
@@ -2273,8 +2273,8 @@ translate english_us debug_meeting_start_1aed6ef0:
 # game/game-scripts/script_director_scene.rpy:608
 translate english_us debug_meeting_start_67f3b6ee:
 
-    # mark "Доктор Неон, я понимаю твоё удивление, но уверяю вас, это результат моих исследований."
-    mark ""
+    # marcus "Доктор Неон, я понимаю твоё удивление, но уверяю вас, это результат моих исследований."
+    marcus ""
 
 # game/game-scripts/script_director_scene.rpy:610
 translate english_us debug_meeting_start_cc37ad21:

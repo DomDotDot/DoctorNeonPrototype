@@ -19,8 +19,6 @@ define hans = Character(_('Ханс'), color="#7a7a7a", image="hans", ctc="ctc_b
 define ceo = Character(_('Господин Бауманн (CEO)'), color="#305a96", image="ceo_boss", ctc="ctc_blink", ctc_position="nestled") # Генеральный директор
 define cro = Character(_('Доктор Грубенманн (CRO)'), color="#753636", image="cro_boss", ctc="ctc_blink", ctc_position="nestled") # Руководитель исследований
 
-define bully1 = Character(_('Задира'), color="#b32424", image="bully", ctc="ctc_blink", ctc_position="nestled")
-
 define anna = Character(_('Анна'), color="#d96411", image="anna", ctc="ctc_blink", ctc_position="nestled")
 define sophie = Character(_('Софи'), color="#d1c682", image="sophie", ctc="ctc_blink", ctc_position="nestled")
 

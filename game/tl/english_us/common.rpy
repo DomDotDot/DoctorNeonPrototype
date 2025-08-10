@@ -1196,12 +1196,12 @@ translate english_us strings:
     new "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
 
     # renpy/common/_errorhandling.rpym:682
-    old "Copy Markdown"
-    new "Copy Markdown"
+    old "Copy marcusdown"
+    new "Copy marcusdown"
 
     # renpy/common/_errorhandling.rpym:684
-    old "Copies the traceback.txt file to the clipboard as Markdown for Discord."
-    new "Copies the traceback.txt file to the clipboard as Markdown for Discord."
+    old "Copies the traceback.txt file to the clipboard as marcusdown for Discord."
+    new "Copies the traceback.txt file to the clipboard as marcusdown for Discord."
 
     # renpy/common/_errorhandling.rpym:716
     old "An exception has occurred."

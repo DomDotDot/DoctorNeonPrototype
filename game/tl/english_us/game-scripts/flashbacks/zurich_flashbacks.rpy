@@ -172,7 +172,7 @@ translate english_us zurich_university_flashback_70337829:
 translate english_us zurich_university_flashback_83bf4604:
 
     # sophie "Мой алгоритм для анализа финансовых рынков, вот что реально принесет результат. И деньги. Большие деньги."
-    sophie "My algorithm for analyzing financial markets, now {i}that's{/i} what will actually bring results. And money. Big money."
+    sophie "My algorithm for analyzing financial marcusets, now {i}that's{/i} what will actually bring results. And money. Big money."
 
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:85
 translate english_us zurich_university_flashback_e3b9528b:
