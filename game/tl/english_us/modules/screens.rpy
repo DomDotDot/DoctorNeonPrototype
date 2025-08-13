@@ -132,7 +132,7 @@ translate english_us strings:
 
     # game/screens.rpy:810
     old "Полный"
-    new "Fulscreen"
+    new "Fullscreen"
 
     # game/screens.rpy:815
     old "Всего текста"
