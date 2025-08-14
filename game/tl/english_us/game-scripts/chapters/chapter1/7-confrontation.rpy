@@ -4,5 +4,5 @@
 translate english_us confrontation_path_1175f04e:
 
     # narrator "Маркус, немного удивился, не ожидая, что Неон назовёт его по официальному имени, но тут же выпрямился и преградил им путь."
-    narrator ""
+    narrator "Marcus, a little surprised, not expecting Neon to call him by his proper name, but immediately straightened up and blocked their path."
 

@@ -40,41 +40,41 @@ translate english_us chapter1_lab_noon_library_c83aefa1:
 translate english_us chapter1_lab_noon_library_564d907b:
 
     # narrator "Перед ней лежал чистый лист. \n Белый, как снег на вершинах за окном. \n Белый, как неизвестность, которую ей предстояло заполнить словами."
-    narrator ""
+    narrator "Before her lay a blank sheet of paper. \n White, like the snow on the peaks outside the window. \n White, like the unknown she was about to fill with words."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:26
 translate english_us chapter1_lab_noon_library_adfb82f9:
 
     # narrator "Она сняла колпачок с ручки. Чернила на кончике выглядели блекло."
-    narrator ""
+    narrator "She took the cap off the pen. The ink on the tip looked faint."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:28
 translate english_us chapter1_lab_noon_library_f53bc53f:
 
     # neon "{=thoughts}С чего начать?{/thoughts}"
-    neon ""
+    neon "{=thoughts}Where to begin?{/thoughts}"
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:29
 translate english_us chapter1_lab_noon_library_36a5f827:
 
     # neon "{=thoughts}'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'... {/thoughts}"
-    neon ""
+    neon "{=thoughts}'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4'... {/thoughts}"
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:34
 translate english_us chapter1_lab_noon_library_df87d4be:
 
     # narrator "Рука замерла над бумагой. Первая буква... И вдруг дешевая ручка в ее пальцах показалась до боли знакомой."
-    narrator ""
+    narrator "Her hand hovered over the paper. The first letter... And suddenly, the cheap pen in her fingers felt painfully familiar."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:34
 translate english_us chapter1_lab_noon_library_ea76749e:
 
     # narrator "Примерно такие же были у них в университете. Их выдавали бесплатно на конференциях первокурсников в Цюрихе."
-    narrator ""
+    narrator "They had almost the same ones at university. They gave them out for free at the freshman conferences in Zurich."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:34
 translate english_us chapter1_lab_noon_library_03659481:
 
     # narrator "Только там они были синие, с неуклюжим логотипом ETH Zurich."
-    narrator ""
+    narrator "Except those were blue, with the clumsy ETH Zurich logo."
 
