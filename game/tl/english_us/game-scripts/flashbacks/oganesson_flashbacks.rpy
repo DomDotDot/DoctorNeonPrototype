@@ -286,7 +286,7 @@ translate english_us oganesson_rural_flashback_d07f14eb:
 translate english_us oganesson_rural_flashback_e7bf7a59:
 
     # narrator "...потом я оказалась дома. С ней. С опекуншей."
-    narrator "...then I was at home. With her. With my guardian."
+    narrator "...then I was at home. With her. With my trustee."
 
 # game/game-scripts/flashbacks/oganesson_flashbacks.rpy:121
 translate english_us oganesson_rural_flashback_24dcd828:
@@ -382,7 +382,7 @@ translate english_us oganesson_school_flashback_abd3fd66:
 translate english_us oganesson_school_flashback_fcbdf93d:
 
     # narrator "Иногда это молчание становилось слишком громким. Тогда меня и моего опекуна вызывали 'на беседу'."
-    narrator "Sometimes, the silence became too loud. That's when my guardian and I would be called in for a 'chat'."
+    narrator "Sometimes, the silence became too loud. That's when my trustee and I would be called in for a 'chat'."
 
 # game/game-scripts/flashbacks/oganesson_flashbacks.rpy:193
 translate english_us oganesson_school_flashback_d50c689e:
@@ -394,7 +394,7 @@ translate english_us oganesson_school_flashback_d50c689e:
 translate english_us oganesson_school_flashback_a03c070b:
 
     # narrator "Я сижу на стуле, глядя в пол. Рядом — она. Моя опекунша. Я чувствую ее холодное, отстраненное присутствие, но не смею поднять на нее взгляд."
-    narrator "I'm sitting in a chair, staring at the floor. She's next to me. My guardian. I can feel her cold, detached presence, but I don't dare look up at her."
+    narrator "I'm sitting in a chair, staring at the floor. She's next to me. My trustee. I can feel her cold, detached presence, but I don't dare look up at her."
 
 # game/game-scripts/flashbacks/oganesson_flashbacks.rpy:197
 translate english_us oganesson_school_flashback_65dc994e:

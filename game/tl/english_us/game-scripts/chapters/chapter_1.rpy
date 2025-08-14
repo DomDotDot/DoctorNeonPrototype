@@ -2764,7 +2764,7 @@ translate english_us confrontation_path_52d52c6a:
 translate english_us confrontation_path_825bceaa:
 
     # narrator "Голос завуча. Голос опекунши. Голос тех, кто всегда говорил ей, что она 'не такая'"
-    narrator "The voice of the vice principal. The voice of her guardian. The voices of everyone who had ever told her she was 'not normal'."
+    narrator "The voice of the vice principal. The voice of her trustee. The voices of everyone who had ever told her she was 'not normal'."
 
 # game/game-scripts/chapters/chapter_1.rpy:1235
 translate english_us confrontation_path_f5f64e39:
