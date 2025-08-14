@@ -4,9 +4,9 @@ translate english_us strings:
 
     # game/modules/global-variables.rpy:7
     old "Trustee"
-    new ""
+    new "Trustee"
 
     # game/modules/global-variables.rpy:18
     old "Oganesson"
-    new ""
+    new "Oganesson"
 

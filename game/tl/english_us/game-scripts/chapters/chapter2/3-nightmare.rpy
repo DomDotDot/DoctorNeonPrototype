@@ -276,3 +276,101 @@ translate english_us nightmare_sequence_0280aab9:
     # narrator "А меня выбрасывает из сна, как пробку из бутылки. Вспышка синего света..."
     narrator ""
 
+# TODO: Translation updated at 2025-08-14 04:22
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:53
+translate english_us nightmare_sequence_fc3b9ee1:
+
+    # narrator "Она была высокой и темной, как сама ночь. Ее лицо было скрыто глубокой тенью, словно она была не человеком, а сгустком мрака, принявшим человеческую форму."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:53
+translate english_us nightmare_sequence_b6251298:
+
+    # narrator "Длинные черные волосы развевались, хотя на парковке не было ветра. Она была одета во что-то темное, длинное, похожее на старинное пальто, и это одеяние, казалось, поглощало свет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:53
+translate english_us nightmare_sequence_b989cfc0:
+
+    # narrator "В руке она держала что-то длинное и тонкое, тускло поблескивающее в слабом свете ламп. Катану."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:64
+translate english_us nightmare_sequence_7534e88a:
+
+    # narrator "Фигура в темном пальто проходит мимо меня, не обращая внимания. Ее движения плавные, почти нечеловеческие."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:64
+translate english_us nightmare_sequence_0cf4a5f5:
+
+    # narrator "Теперь обе они стоят передо мной — Алекс, неподвижная и скрытая тенью, и она, чье присутствие ощущается тяжелым и неотвратимым. И я слышу ее голос."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:64
+translate english_us nightmare_sequence_ea7accbd:
+
+    # narrator "Это не был шум помех, как в моих детских воспоминаниях. Это был холодный, ровный, женский голос. В нем не было ни злобы, ни радости. Только абсолютная, ледяная уверенность."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:74
+translate english_us nightmare_sequence_e8567b9b:
+
+    # unknown_f "Вечно ты создаешь проблемы. Вечно все делаешь не так."
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:75
+translate english_us nightmare_sequence_afd53a96:
+
+    # unknown_f "Привязанности... они делают тебя слабой. За тобой всегда приходится подчищать..."
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:76
+translate english_us nightmare_sequence_98b08cef:
+
+    # unknown_f "Видимо, такова твоя природа. Причинять боль тем, кто рядом."
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:87
+translate english_us nightmare_sequence_456b3289:
+
+    # narrator "Она поворачивается ко мне. Лицо все еще скрыто тенью, но я чувствую на себе ее пустой, холодный взгляд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:87
+translate english_us nightmare_sequence_ae6011cf:
+
+    # narrator "Она медленно делает шаг ко мне, Ее голос становится вкрадчивым, почти заботливым, но от этой 'заботы' становится только страшнее."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:93
+translate english_us nightmare_sequence_dc3251ef:
+
+    # unknown_f "Забудь о них, дитя. Забудь обо всем, что ты знаешь и чем дорожишь. Все это – лишь источник твоей боли."
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:94
+translate english_us nightmare_sequence_a5893871:
+
+    # unknown_f "И может тогда... тебя перестанут мучить сомнения. Ты снова станешь чистой. Пустой. Послушной."
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:105
+translate english_us nightmare_sequence_9935964f:
+
+    # narrator "Фигура вздрагивает. Улыбка исчезает с ее лица, сменяясь удивлением, а затем – явным, холодным раздражением. Холодное, как сталь ее клинка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:105
+translate english_us nightmare_sequence_e79a7ba9:
+
+    # narrator "Она опускает меч и смотрит куда-то вверх, словно ее ритуал был грубо прерван."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:114
+translate english_us nightmare_sequence_0d50ea0f:
+
+    # oganesson "Но мы еще не закончили. От самой себя не убежишь..."
+    oganesson ""
+

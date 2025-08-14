@@ -4,9 +4,9 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter3/chapter-3.rpy:3
     old "Глава 3"
-    new ""
+    new "Chapter 3"
 
     # game/game-scripts/chapters/chapter3/chapter-3.rpy:3
     old "Эскапизм"
-    new ""
+    new "Escapism"
 

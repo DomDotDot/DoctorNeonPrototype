@@ -130,7 +130,7 @@ translate english_us chapter2_act1_false_memories_904e4e56:
 translate english_us chapter2_act1_false_memories_a3b65d61:
 
     # narrator "Абонент временно недоступен, перезвоните позже. The subscriber is not available now please call back later."
-    narrator ""
+    narrator "The subscriber is not available now please call back later"
 
 # game/game-scripts/chapters/chapter2/1-false-memories.rpy:68
 translate english_us chapter2_act1_false_memories_457ba1bb:

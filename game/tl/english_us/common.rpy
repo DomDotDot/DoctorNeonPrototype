@@ -1519,45 +1519,45 @@ translate english_us strings:
 
     # renpy/common/000statements.rpy:28
     old "Click to play the video."
-    new ""
+    new "Click to play the video."
 
     # renpy/common/00accessibility.rpy:180
     old "Mono Audio"
-    new ""
+    new "Mono Audio"
 
     # renpy/common/00accessibility.rpy:246
     old "Kerning"
-    new ""
+    new "Kerning"
 
     # renpy/common/00accessibility.rpy:288
     old "Self-Voicing and Audio"
-    new ""
+    new "Self-Voicing and Audio"
 
     # renpy/common/00accessibility.rpy:292
     old "Text"
-    new ""
+    new "Text"
 
     # renpy/common/00preferences.rpy:602
     old "mono audio"
-    new ""
+    new "mono audio"
 
     # renpy/common/00preferences.rpy:611
     old "font kerning"
-    new ""
+    new "font kerning"
 
     # renpy/common/00updater.rpy:1935
     old "An error has occurred:"
-    new ""
+    new "An error has occurred"
 
     # renpy/common/00updater.rpy:1992
     old "An error occurred when trying to download game data:"
-    new ""
+    new "An error occurred when trying to download game data"
 
     # renpy/common/_errorhandling.rpym:765
     old "Copy Markdown"
-    new ""
+    new "Copy Markdown"
 
     # renpy/common/_errorhandling.rpym:767
     old "Copies the traceback.txt file to the clipboard as Markdown for Discord."
-    new ""
+    new "Copies the traceback.txt file to the clipboard as Markdown for Discord."
 
