@@ -4,7 +4,9 @@ define neon = Character(_('Неон'), color="#1f4bc4", image="neon", ctc="ctc_b
 layeredimage neon:
     at sprite_highlight('neon')
 
-define marcus = Character(_('Маркус'), color="#967230", image="marcus", what_slow_cps_multiplier=0.85, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "marcus" )
+define argon = Character('Аргон', color="#457632", image="argon", what_slow_cps_multiplier=0.65, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "argon")
+
+define marcus = Character(_('Маркус'), color="#967230", image="marcus", what_slow_cps_multiplier=0.85, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "marcus")
 layeredimage marcus:
     at sprite_highlight('marcus')
 
@@ -33,6 +35,8 @@ define sophie = Character(_('Софи'), color="#d1c682", image="sophie", ctc="c
 define headteacher = Character(_('Завуч'), color="#808080", image="headteacher", ctc="ctc_blink", ctc_position="nestled")
 
 define guts = Character('Гатс', color="#8b4513", image="guts", ctc="ctc_blink", ctc_position="nestled")
+define rico = Character('Рико', color="#a56a44") # Переопределяем Рико для диалогов
+define boss = Character('Босс', color="#b22222")
 
 define akane = Character('Мама', color="#e87a90", ctc="ctc_blink", ctc_position="nestled")
 define father = Character('Папа', color="#5a7a8d", ctc="ctc_blink", ctc_position="nestled")
