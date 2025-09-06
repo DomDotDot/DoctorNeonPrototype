@@ -139,6 +139,15 @@ label ch3_explore_chem_lab:
     # play sound "sounds/vehicles_arriving_factory_distant.ogg"
     # play sound "sounds/shouts_boss_arrived.ogg"
     narrator "Нужно было торопиться."
+
+    # Проверка, все ли собрано
+    if has_sugar and has_yeast:
+        narrator "У меня есть все ингредиенты."
+        jump ch3_distillation_start
+    else:
+        narrator "У меня еще не все ингредиенты. Нужно возвращаться к поискам."
+        jump ch3_explore_factory
+
 return
 
 label ch3_distillation_start:
@@ -161,13 +170,4 @@ label ch3_distillation_start:
 
     # Конец интерактивной части. Переход к нарративной части следующей главы/акта.
 return
-
-
-    # Проверка, все ли собрано
-    if has_sugar and has_yeast:
-        narrator "У меня есть все ингредиенты."
-        jump ch3_distillation_start
-    else:
-        narrator "У меня еще не все ингредиенты. Нужно возвращаться к поискам."
-        jump ch3_explore_factory
   
