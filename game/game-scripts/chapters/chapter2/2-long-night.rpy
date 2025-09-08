@@ -57,11 +57,13 @@ label chapter2_act2_long_night:
 
                 Еще несколько километров... и все. Машина начала дергаться, двигатель захлебывался.
                 """
+
+
                 # play sound "sounds/car_engine_sputtering_dying.ogg" # Звук глохнущего двигателя
                 narrator "С последним натужным вздохом мотор заглох. Машина, проехав по инерции еще пару метров, замерла посреди лесной дороги, в самом сердце тьмы."
                 # stop sound # Остановить все звуки, кроме дождя
 
-                # scene forest_road_night_rain_stopped_car with Dissolve(1.0) # Фон: вид снаружи на заглохшую машину в лесу
+                show cg cg10 with Dissolve(2.0) # Фон: вид снаружи на заглохшую машину в лесу
                 # music "sounds/loneliness_and_fear_theme.ogg" loop
 
                 narrator """
