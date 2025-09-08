@@ -27,14 +27,14 @@ translate english_us AI_cg_royalty_free_30e52b5d:
 # game/game-scripts/disclaimer.rpy:4
 translate english_us AI_cg_royalty_free_fdcaa632:
 
-    # "Чтобы «оживить» мир и героев, я использовал современные технологии - все фоны, спрайты персонажей и иллюстрации (CG) были созданы с помощью нейросетей (AI). Это стало для меня тем самым мостиком, который позволил визуализировать то, что я придумал."
-    "To bring the world and characters to life, I used modern technology—all the backgrounds, character sprites, and illustrations (CGs) were created with the help of AI. This technology served as the bridge that allowed me to visualize the world I had imagined."
+    # "Чтобы «оживить» мир и героев, я использовал современные технологии — все фоны, спрайты персонажей и иллюстрации (CG) были созданы с помощью нейросетей (AI). Это стало для меня тем самым мостиком, который позволил визуализировать то, что я придумал."
+    "To bring the world and characters to life, I used modern technology. All the backgrounds, character sprites, and illustrations (CGs) were created with the help of AI. This technology served as the bridge that allowed me to visualize the world I had imagined."
 
 # game/game-scripts/disclaimer.rpy:4
 translate english_us AI_cg_royalty_free_bbfd8d8d:
 
-    # "При этом всё остальное - сюжет, диалоги, характеры персонажей и сама идея - это полностью моя авторская работа, в которую я вложил душу."
-    "That being said, everything else—the plot, dialogue, characters, and the core idea—is entirely my own original work, something I've poured my heart and soul into."
+    # "При этом всё остальное — сюжет, диалоги, характеры персонажей и сама идея — это полностью моя авторская работа, в которую я вложил душу."
+    "That being said, everything else, like the plot, dialogue, characters, and the core idea is entirely my own original work, something I've poured my heart and soul into."
 
 # game/game-scripts/disclaimer.rpy:4
 translate english_us AI_cg_royalty_free_d7b02162:

@@ -21,7 +21,7 @@ label chapter2_act5_anomic_arrival:
                 """
                 # play sound "sounds/heavy_metal_door_slam_echo.ogg" # Звук захлопывающейся тяжелой двери с эхом
                 narrator "Тяжелая металлическая дверь за ее спиной захлопнулась, и щелкнул замок. Она оказалась в ловушке."
-                narrator "Неон обвела взглядом завод. Лобби, стойка регистрации - Ее новый мир."
+                narrator "Неон обвела взглядом завод. Лобби, стойка регистрации — Ее новый мир."
                 # scene lab_anomic_interior_close_up_neon with Dissolve(1.0) # Крупный план лица Неон
 
 

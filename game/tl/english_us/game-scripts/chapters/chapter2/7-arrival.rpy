@@ -57,6 +57,6 @@ translate english_us chapter2_act5_anomic_arrival_39115ded:
 # game/game-scripts/chapters/chapter2/7-arrival.rpy:24
 translate english_us chapter2_act5_anomic_arrival_5fe90f66:
 
-    # narrator "Неон обвела взглядом завод. Лобби, стойка регистрации - Ее новый мир."
+    # narrator "Неон обвела взглядом завод. Лобби, стойка регистрации — Ее новый мир."
     narrator ""
 

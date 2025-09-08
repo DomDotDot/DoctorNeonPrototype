@@ -147,7 +147,7 @@ translate english_us zurich_university_flashback_7d1dc388:
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:74
 translate english_us zurich_university_flashback_e8fa0396:
 
-    # anna "Я тебе говорю, Неон, твой поиск сигналов SETI – это, конечно, романтично. Но шансы - один на миллиард!"
+    # anna "Я тебе говорю, Неон, твой поиск сигналов SETI – это, конечно, романтично. Но шансы — один на миллиард!"
     anna "I'm telling you, Neon, this whole SETI thing is romantic, sure. But the odds are a billion to one!"
 
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:74
@@ -231,7 +231,7 @@ translate english_us zurich_university_flashback_46c85afb:
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:119
 translate english_us zurich_university_flashback_160ed975:
 
-    # sophie "Открытие - это хорошо, но кушать хочется всегда."
+    # sophie "Открытие — это хорошо, но кушать хочется всегда."
     sophie "Discoveries are all well and good, but you still have to eat."
 
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:119

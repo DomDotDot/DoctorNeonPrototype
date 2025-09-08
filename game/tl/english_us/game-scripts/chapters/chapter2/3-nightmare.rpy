@@ -99,7 +99,7 @@ translate english_us nightmare_sequence_0c2c5ce5:
 # game/game-scripts/chapters/chapter2/3-nightmare.rpy:52
 translate english_us nightmare_sequence_1425cc4a:
 
-    # narrator "Это была она, это я точно помню - моя опекунша. Но теперь, ее образ более четкий, хотя лицо все еще подернуто рябью."
+    # narrator "Это была она, это я точно помню — моя опекунша. Но теперь, ее образ более четкий, хотя лицо все еще подернуто рябью."
     narrator ""
 
 # game/game-scripts/chapters/chapter2/3-nightmare.rpy:52
@@ -147,7 +147,7 @@ translate english_us nightmare_sequence_d641e721:
 # game/game-scripts/chapters/chapter2/3-nightmare.rpy:65
 translate english_us nightmare_sequence_b8b62953:
 
-    # narrator "Она открывает рот и начинает говорить, обращаясь к Неон. Но её голос - как шум помех, в ней слышно нотки разочарования и презрения"
+    # narrator "Она открывает рот и начинает говорить, обращаясь к Неон. Но её голос — как шум помех, в ней слышно нотки разочарования и презрения"
     narrator ""
 
 # game/game-scripts/chapters/chapter2/3-nightmare.rpy:75

@@ -1,0 +1,607 @@
+gui.rpy
+gui.rpyc
+options.rpy
+options.rpy.new
+options.rpyc
+screens.rpy
+screens.rpyc
+script.rpy
+script.rpy.bak
+script.rpyc
+audio\ambient\InHer.ogg
+audio\ambient\ResonanceHumming.ogg
+audio\ambient\Target.ogg
+audio\ambient\staff-canteen-background.ogg
+audio\music\BGM\BeautyInChaos.ogg
+audio\music\BGM\BigShot.ogg
+audio\music\BGM\Depersonalization-Backstage.ogg
+audio\music\BGM\DramaQueen.ogg
+audio\music\BGM\EmotionalMovement.ogg
+audio\music\BGM\FadeToSorrow.ogg
+audio\music\BGM\HRT.ogg
+audio\music\BGM\IFindSolaceInCosmos.ogg
+audio\music\BGM\Imminense.ogg
+audio\music\BGM\Initiation_Inactive.ogg
+audio\music\BGM\MySunshine.ogg
+audio\music\BGM\Promising.ogg
+audio\music\BGM\Purge.ogg
+audio\music\BGM\Realization.ogg
+audio\music\BGM\Rewrite-PottedOne.ogg
+audio\music\BGM\Rewrite-Remembrance.ogg
+audio\music\BGM\SweetestDreams.ogg
+audio\music\BGM\SweetestDreams_Backtrack.ogg
+audio\music\BGM\Swell.ogg
+audio\music\BGM\Thoughtful.ogg
+audio\music\BGM\Unlocked.ogg
+audio\music\BGM\emergency_alert.ogg
+audio\music\BGM\Unused\AfternoonTemperancePiano.ogg
+audio\music\BGM\Unused\AntiCitizen.ogg
+audio\music\BGM\Unused\BuzzWords.ogg
+audio\music\BGM\Unused\CorporateCompetition.ogg
+audio\music\BGM\Unused\Detective.ogg
+audio\music\BGM\Unused\DyingWish.ogg
+audio\music\BGM\Unused\DyingWishPiano.ogg
+audio\music\BGM\Unused\DyingWishViolin.ogg
+audio\music\BGM\Unused\EveryoneAgainst.ogg
+audio\music\BGM\Unused\EyesSpeakForMouth.ogg
+audio\music\BGM\Unused\Feeling.ogg
+audio\music\BGM\Unused\GodSmilesEvenForYou.ogg
+audio\music\BGM\Unused\Goosebumps.ogg
+audio\music\BGM\Unused\GuardDown.ogg
+audio\music\BGM\Unused\Hegemony.ogg
+audio\music\BGM\Unused\Initiation_Active.ogg
+audio\music\BGM\Unused\InspirationInLight.ogg
+audio\music\BGM\Unused\InstrumentalOffworld.ogg
+audio\music\BGM\Unused\MASTER_BOOT_RECORD-ANSI.SYS.ogg
+audio\music\BGM\Unused\MoonAndDeath.ogg
+audio\music\BGM\Unused\NightClub.ogg
+audio\music\BGM\Unused\NightMare.ogg
+audio\music\BGM\Unused\PeacefulLight.ogg
+audio\music\BGM\Unused\Precinct.ogg
+audio\music\BGM\Unused\ReConfig.ogg
+audio\music\BGM\Unused\RiseAndAshes.ogg
+audio\music\BGM\Unused\Sabotage.ogg
+audio\music\BGM\Unused\SyndicateIntroduction.ogg
+audio\music\BGM\Unused\TheyAreHere.ogg
+audio\music\BGM\Unused\TradingCompany.ogg
+audio\music\BGM\Unused\TrustMySelf.ogg
+audio\music\BGM\Unused\Unfurled.ogg
+audio\music\BGM\Unused\Viper.ogg
+audio\music\BGM\Unused\YouAreNotWhatIRemember.ogg
+audio\music\BGM\Unused\dark-tension-248083.ogg
+audio\music\Songs\Offworld.ogg
+audio\music\Songs\WhenLightAreGone.ogg
+audio\sfx\Chair_Hit.mp3
+audio\sfx\abonent-ne-abonent.mp3
+audio\sfx\ear-ringing.mp3
+audio\sfx\instant_static.mp3
+audio\sfx\marcus_oof.mp3
+audio\sfx\next-chapter.mp3
+audio\sfx\old_next-chapter.mp3
+audio\sfx\short-logo.mp3
+audio\sfx\sound_sample.mp3
+audio\voice\escaping_facility_grounds_c1f78dab.ogg
+audio\voice\voice_sample.ogg
+cache\bytecode-312.rpyb
+cache\bytecode-39.rpyb
+cache\py3analysis.rpyb
+cache\screens.rpyb
+cache\shaders.txt
+fonts\WDXLLubrifontTC-Regular.ttf
+game-scripts\disclaimer.rpy.disabled
+game-scripts\disclaimer.rpyc.bak
+game-scripts\gamescript.rpyc.bak
+game-scripts\launch.rpy
+game-scripts\launch.rpyc
+game-scripts\script_director_scene.rpy.disabled
+game-scripts\script_director_scene.rpyc.bak
+game-scripts\chapters\chapter_0_prologue.rpyc.bak
+game-scripts\chapters\chapter_1.rpyc.bak
+game-scripts\chapters\chapter_2.rpyc.bak
+game-scripts\chapters\chapters_script.txt
+game-scripts\chapters\chapter0\1-prologue.rpy
+game-scripts\chapters\chapter0\1-prologue.rpyc
+game-scripts\chapters\chapter0\chapter-0.rpy
+game-scripts\chapters\chapter0\chapter-0.rpyc
+game-scripts\chapters\chapter1\1-lab-night.rpy
+game-scripts\chapters\chapter1\1-lab-night.rpyc
+game-scripts\chapters\chapter1\10-escape-mid.rpy
+game-scripts\chapters\chapter1\10-escape-mid.rpyc
+game-scripts\chapters\chapter1\11-escape-end.rpy
+game-scripts\chapters\chapter1\11-escape-end.rpyc
+game-scripts\chapters\chapter1\2-lab-morning.rpy
+game-scripts\chapters\chapter1\2-lab-morning.rpyc
+game-scripts\chapters\chapter1\3-lab-noon.rpy
+game-scripts\chapters\chapter1\3-lab-noon.rpyc
+game-scripts\chapters\chapter1\3.1-library.rpy
+game-scripts\chapters\chapter1\3.1-library.rpyc
+game-scripts\chapters\chapter1\3.2-library-desk.rpy
+game-scripts\chapters\chapter1\3.2-library-desk.rpyc
+game-scripts\chapters\chapter1\4-meeting-start.rpy
+game-scripts\chapters\chapter1\4-meeting-start.rpyc
+game-scripts\chapters\chapter1\5-meeting-end.rpy
+game-scripts\chapters\chapter1\5-meeting-end.rpyc
+game-scripts\chapters\chapter1\6-security-post.rpy
+game-scripts\chapters\chapter1\6-security-post.rpyc
+game-scripts\chapters\chapter1\7-confrontation.rpy
+game-scripts\chapters\chapter1\7-confrontation.rpyc
+game-scripts\chapters\chapter1\8-attack-scene.rpy
+game-scripts\chapters\chapter1\8-attack-scene.rpyc
+game-scripts\chapters\chapter1\9-escape-start.rpy
+game-scripts\chapters\chapter1\9-escape-start.rpyc
+game-scripts\chapters\chapter1\chapter-1.rpy
+game-scripts\chapters\chapter1\chapter-1.rpyc
+game-scripts\chapters\chapter1\chapter_1.rpy.disabled
+game-scripts\chapters\chapter2\1-false-memories.rpy
+game-scripts\chapters\chapter2\1-false-memories.rpyc
+game-scripts\chapters\chapter2\2-long-night.rpy
+game-scripts\chapters\chapter2\2-long-night.rpyc
+game-scripts\chapters\chapter2\3-nightmare.rpy
+game-scripts\chapters\chapter2\3-nightmare.rpyc
+game-scripts\chapters\chapter2\4-facing-reality.rpy
+game-scripts\chapters\chapter2\4-facing-reality.rpyc
+game-scripts\chapters\chapter2\5-desperate-measures.rpy
+game-scripts\chapters\chapter2\5-desperate-measures.rpyc
+game-scripts\chapters\chapter2\6-anomic.rpy
+game-scripts\chapters\chapter2\6-anomic.rpyc
+game-scripts\chapters\chapter2\7-arrival.rpy
+game-scripts\chapters\chapter2\7-arrival.rpyc
+game-scripts\chapters\chapter2\chapter-2.rpy
+game-scripts\chapters\chapter2\chapter-2.rpyc
+game-scripts\chapters\chapter2\chapter_2.rpy.disabled
+game-scripts\chapters\chapter2\chapter_2.rpyc.bak
+game-scripts\chapters\chapter3\1-start.rpy
+game-scripts\chapters\chapter3\1-start.rpyc
+game-scripts\chapters\chapter3\10-end.rpy
+game-scripts\chapters\chapter3\10-end.rpyc
+game-scripts\chapters\chapter3\2.1-main-hall.rpy
+game-scripts\chapters\chapter3\2.1-main-hall.rpyc
+game-scripts\chapters\chapter3\2.1.1-bouncer-actions.rpy
+game-scripts\chapters\chapter3\2.1.1-bouncer-actions.rpyc
+game-scripts\chapters\chapter3\2.2-left-wing.rpy
+game-scripts\chapters\chapter3\2.2-left-wing.rpyc
+game-scripts\chapters\chapter3\2.3-gate.rpy
+game-scripts\chapters\chapter3\2.3-gate.rpyc
+game-scripts\chapters\chapter3\2.4-cabinet.rpy
+game-scripts\chapters\chapter3\2.4-cabinet.rpyc
+game-scripts\chapters\chapter3\2.5-stairs.rpy
+game-scripts\chapters\chapter3\2.5-stairs.rpyc
+game-scripts\chapters\chapter3\2.6-long-hall.rpy
+game-scripts\chapters\chapter3\2.6-long-hall.rpyc
+game-scripts\chapters\chapter3\4-argon.rpy
+game-scripts\chapters\chapter3\4-argon.rpyc
+game-scripts\chapters\chapter3\5-distillation.rpy
+game-scripts\chapters\chapter3\5-distillation.rpyc
+game-scripts\chapters\chapter3\6-briefing.rpy
+game-scripts\chapters\chapter3\6-briefing.rpyc
+game-scripts\chapters\chapter3\7-path-sorting-station.rpy
+game-scripts\chapters\chapter3\7-path-sorting-station.rpyc
+game-scripts\chapters\chapter3\8-sorting-station.rpy
+game-scripts\chapters\chapter3\8-sorting-station.rpyc
+game-scripts\chapters\chapter3\9-argon-apartment-old.rpy
+game-scripts\chapters\chapter3\9-argon-apartment-old.rpyc
+game-scripts\chapters\chapter3\chapter-3.rpy
+game-scripts\chapters\chapter3\chapter-3.rpyc
+game-scripts\chapters\chapter3\drafts\2-main-hall.rpy.disabled
+game-scripts\chapters\chapter3\drafts\3-bouncer.rpy.disabled
+game-scripts\flashbacks\krypton_flashbacks.rpyc.bak
+game-scripts\flashbacks\oganesson_flashbacks1.rpyc.bak
+game-scripts\flashbacks\zurich_flashbacks.rpyc.bak
+game-scripts\flashbacks\krypton\krypton_flashbacks.rpy
+game-scripts\flashbacks\krypton\krypton_flashbacks.rpyc
+game-scripts\flashbacks\neon\zurich_flashbacks.rpy
+game-scripts\flashbacks\neon\zurich_flashbacks.rpyc
+game-scripts\flashbacks\neon\childhood\1-dream-fragment.rpy
+game-scripts\flashbacks\neon\childhood\1-dream-fragment.rpyc
+game-scripts\flashbacks\neon\childhood\2-dream-fragment.rpy
+game-scripts\flashbacks\neon\childhood\2-dream-fragment.rpyc
+game-scripts\flashbacks\neon\childhood\3-dream-fragment.rpy
+game-scripts\flashbacks\neon\childhood\3-dream-fragment.rpyc
+game-scripts\flashbacks\neon\childhood\4-dream-fragment.rpy
+game-scripts\flashbacks\neon\childhood\4-dream-fragment.rpyc
+game-scripts\flashbacks\oganesson\oganesson_flashbacks1.rpy
+game-scripts\flashbacks\oganesson\oganesson_flashbacks1.rpyc
+gui\bubble.png
+gui\ctc.png
+gui\frame.png
+gui\game_menu.png
+gui\main_menu.png
+gui\namebox.png
+gui\notify.png
+gui\nvl.png
+gui\renpy-logo.png
+gui\skip.png
+gui\textbox.png
+gui\thoughtbubble.png
+gui\window_icon.png
+gui\bar\bottom.png
+gui\bar\bottom.png.1.bak
+gui\bar\left.png
+gui\bar\left.png.1.bak
+gui\bar\right.png
+gui\bar\right.png.1.bak
+gui\bar\top.png
+gui\bar\top.png.1.bak
+gui\button\check_foreground.png
+gui\button\check_foreground.png.1.bak
+gui\button\check_selected_foreground.png
+gui\button\check_selected_foreground.png.1.bak
+gui\button\choice_hover_background.png
+gui\button\choice_idle_background.png
+gui\button\hover_background.png
+gui\button\hover_background.png.1.bak
+gui\button\idle_background.png
+gui\button\idle_background.png.1.bak
+gui\button\quick_hover_background.png
+gui\button\quick_idle_background.png
+gui\button\radio_foreground.png
+gui\button\radio_foreground.png.1.bak
+gui\button\radio_selected_foreground.png
+gui\button\radio_selected_foreground.png.1.bak
+gui\button\slot_hover_background.png
+gui\button\slot_hover_background.png.1.bak
+gui\button\slot_idle_background.png
+gui\button\slot_idle_background.png.1.bak
+gui\overlay\confirm.png
+gui\overlay\game_menu.png
+gui\overlay\main_menu.png
+gui\phone\nvl.png
+gui\phone\textbox.png
+gui\phone\bar\bottom.png
+gui\phone\bar\bottom.png.1.bak
+gui\phone\bar\left.png
+gui\phone\bar\left.png.1.bak
+gui\phone\bar\right.png
+gui\phone\bar\right.png.1.bak
+gui\phone\bar\top.png
+gui\phone\bar\top.png.1.bak
+gui\phone\button\check_foreground.png
+gui\phone\button\check_foreground.png.1.bak
+gui\phone\button\check_selected_foreground.png
+gui\phone\button\check_selected_foreground.png.1.bak
+gui\phone\button\choice_hover_background.png
+gui\phone\button\choice_idle_background.png
+gui\phone\button\hover_background.png
+gui\phone\button\hover_background.png.1.bak
+gui\phone\button\idle_background.png
+gui\phone\button\idle_background.png.1.bak
+gui\phone\button\radio_foreground.png
+gui\phone\button\radio_foreground.png.1.bak
+gui\phone\button\radio_selected_foreground.png
+gui\phone\button\radio_selected_foreground.png.1.bak
+gui\phone\button\slot_hover_background.png
+gui\phone\button\slot_hover_background.png.1.bak
+gui\phone\button\slot_idle_background.png
+gui\phone\button\slot_idle_background.png.1.bak
+gui\phone\overlay\game_menu.png
+gui\phone\overlay\main_menu.png
+gui\phone\scrollbar\horizontal_hover_bar.png
+gui\phone\scrollbar\horizontal_hover_bar.png.1.bak
+gui\phone\scrollbar\horizontal_hover_thumb.png
+gui\phone\scrollbar\horizontal_hover_thumb.png.1.bak
+gui\phone\scrollbar\horizontal_idle_bar.png
+gui\phone\scrollbar\horizontal_idle_bar.png.1.bak
+gui\phone\scrollbar\horizontal_idle_thumb.png
+gui\phone\scrollbar\horizontal_idle_thumb.png.1.bak
+gui\phone\scrollbar\vertical_hover_bar.png
+gui\phone\scrollbar\vertical_hover_bar.png.1.bak
+gui\phone\scrollbar\vertical_hover_thumb.png
+gui\phone\scrollbar\vertical_hover_thumb.png.1.bak
+gui\phone\scrollbar\vertical_idle_bar.png
+gui\phone\scrollbar\vertical_idle_bar.png.1.bak
+gui\phone\scrollbar\vertical_idle_thumb.png
+gui\phone\scrollbar\vertical_idle_thumb.png.1.bak
+gui\phone\slider\horizontal_hover_bar.png
+gui\phone\slider\horizontal_hover_bar.png.1.bak
+gui\phone\slider\horizontal_hover_thumb.png
+gui\phone\slider\horizontal_hover_thumb.png.1.bak
+gui\phone\slider\horizontal_idle_bar.png
+gui\phone\slider\horizontal_idle_bar.png.1.bak
+gui\phone\slider\horizontal_idle_thumb.png
+gui\phone\slider\horizontal_idle_thumb.png.1.bak
+gui\phone\slider\vertical_hover_bar.png
+gui\phone\slider\vertical_hover_bar.png.1.bak
+gui\phone\slider\vertical_hover_thumb.png
+gui\phone\slider\vertical_hover_thumb.png.1.bak
+gui\phone\slider\vertical_idle_bar.png
+gui\phone\slider\vertical_idle_bar.png.1.bak
+gui\phone\slider\vertical_idle_thumb.png
+gui\phone\slider\vertical_idle_thumb.png.1.bak
+gui\scrollbar\horizontal_hover_bar.png
+gui\scrollbar\horizontal_hover_bar.png.1.bak
+gui\scrollbar\horizontal_hover_thumb.png
+gui\scrollbar\horizontal_hover_thumb.png.1.bak
+gui\scrollbar\horizontal_idle_bar.png
+gui\scrollbar\horizontal_idle_bar.png.1.bak
+gui\scrollbar\horizontal_idle_thumb.png
+gui\scrollbar\horizontal_idle_thumb.png.1.bak
+gui\scrollbar\vertical_hover_bar.png
+gui\scrollbar\vertical_hover_bar.png.1.bak
+gui\scrollbar\vertical_hover_thumb.png
+gui\scrollbar\vertical_hover_thumb.png.1.bak
+gui\scrollbar\vertical_idle_bar.png
+gui\scrollbar\vertical_idle_bar.png.1.bak
+gui\scrollbar\vertical_idle_thumb.png
+gui\scrollbar\vertical_idle_thumb.png.1.bak
+gui\slider\horizontal_hover_bar.png
+gui\slider\horizontal_hover_bar.png.1.bak
+gui\slider\horizontal_hover_thumb.png
+gui\slider\horizontal_hover_thumb.png.1.bak
+gui\slider\horizontal_idle_bar.png
+gui\slider\horizontal_idle_bar.png.1.bak
+gui\slider\horizontal_idle_thumb.png
+gui\slider\horizontal_idle_thumb.png.1.bak
+gui\slider\vertical_hover_bar.png
+gui\slider\vertical_hover_bar.png.1.bak
+gui\slider\vertical_hover_thumb.png
+gui\slider\vertical_hover_thumb.png.1.bak
+gui\slider\vertical_idle_bar.png
+gui\slider\vertical_idle_bar.png.1.bak
+gui\slider\vertical_idle_thumb.png
+gui\slider\vertical_idle_thumb.png.1.bak
+images\backgrounds\bg chapter_1_admin_approach.jpg
+images\backgrounds\bg chapter_1_conference_hall_investors.jpg
+images\backgrounds\bg chapter_1_lab_cafeteria.jpg
+images\backgrounds\bg chapter_1_lab_corridor_1.jpg
+images\backgrounds\bg chapter_1_lab_corridor_2.jpg
+images\backgrounds\bg chapter_1_lab_corridor_3.jpg
+images\backgrounds\bg chapter_1_lab_day.jpg
+images\backgrounds\bg chapter_1_lab_elevator.jpg
+images\backgrounds\bg chapter_1_lab_emergency_staircase.jpg
+images\backgrounds\bg chapter_1_lab_library.jpg
+images\backgrounds\bg chapter_1_lab_night.jpg
+images\backgrounds\bg chapter_1_lab_parkinglot.jpg
+images\backgrounds\bg chapter_1_lab_service_basement.jpg
+images\backgrounds\bg chapter_1_rural_flashback.jpg
+images\backgrounds\bg chapter_1_security_post_interior.jpg
+images\backgrounds\bg chapter_1_zurich_apartment_flashback.jpg
+images\backgrounds\bg chapter_1_zurich_street_evening.jpg
+images\backgrounds\bg chapter_2_facing_reality-forest.jpg
+images\backgrounds\bg chapter_2_facing_reality-town_arrival.jpg
+images\backgrounds\bg chapter_2_false_memories-alex_call.jpg
+images\backgrounds\bg chapter_2_false_memories-crash.jpg
+images\backgrounds\bg chapter_2_false_memories-escape.jpg
+images\backgrounds\bg chapter_2_false_memories-highway_night.jpg
+images\backgrounds\bg chapter_2_false_memories-highway_night_police.jpg
+images\backgrounds\bg chapter_2_long_night-forest-drive.jpg
+images\backgrounds\bg chapter_2_nightmare-parking_lot.jpg
+images\backgrounds\bg prologue_spacepod.jpg
+images\backgrounds\unused\bg chapter_1_lab_day.png
+images\backgrounds\unused\bg chapter_1_lab_night.png
+images\cg\cg cg1.jpg
+images\cg\cg cg10.jpg
+images\cg\cg cg11_1-1.jpg
+images\cg\cg cg11_1-2.jpg
+images\cg\cg cg11_2.jpg
+images\cg\cg cg11_3.jpg
+images\cg\cg cg12_1.jpg
+images\cg\cg cg12_2.jpg
+images\cg\cg cg2_1.jpg
+images\cg\cg cg2_2.jpg
+images\cg\cg cg2_3.jpg
+images\cg\cg cg2_4.jpg
+images\cg\cg cg2_5.jpg
+images\cg\cg cg3_1.jpg
+images\cg\cg cg4_1.jpg
+images\cg\cg cg5_1.jpg
+images\cg\cg cg5_2.jpg
+images\cg\cg cg5_3.jpg
+images\cg\cg cg6_1.jpg
+images\cg\cg cg6_2.jpg
+images\cg\cg cg6_3.jpg
+images\cg\cg cg7_1.jpg
+images\cg\cg cg7_2.jpg
+images\cg\cg cg7_3.jpg
+images\cg\cg cg7_5.jpg
+images\cg\cg cg7_5_1.jpg
+images\cg\cg cg7_6.jpg
+images\cg\cg cg7_8.jpg
+images\cg\cg cg7_9.jpg
+images\cg\cg cg8_1.jpg
+images\cg\cg cg8_2.jpg
+images\cg\cg cg9.jpg
+images\cg\unused\cg cg1.jpg
+images\cg\unused\cg cg4_1.jpg
+images\cg\unused\cg cg5_3.jpg
+images\cg\unused\cg cg7_7.jpg
+images\cg\unused\cg cg8_1.jpg
+images\cg\unused\cg cg8_2.jpg
+images\cg\unused\cg cg_4_2.jpg
+images\cg\unused\cg_unused_1.jpg
+images\gallery_overlay\gallery_background_overlay.png
+images\gallery_overlay\gallery_idle_overlay.png
+images\gallery_overlay\gallery_locked.jpg
+images\sprites\alex\alex concerned.png
+images\sprites\alex\alex happy.png
+images\sprites\alex\alex serious.png
+images\sprites\anna\anna excitement.png
+images\sprites\argon\argon painter_apathy.png
+images\sprites\argon\argon painter_cautious.png
+images\sprites\argon\argon painter_determination.png
+images\sprites\argon\argon suit_apathy.png
+images\sprites\argon\argon suit_determination.png
+images\sprites\argon\argon suit_surprised.png
+images\sprites\fuel_warning\fuel_warning.jpg
+images\sprites\guts\guts construction neutral.png
+images\sprites\guts\guts neutral.png
+images\sprites\hans\hans normal.png
+images\sprites\helium\helium death-alternative.png
+images\sprites\helium\helium death.png
+images\sprites\helium\helium defeat.png
+images\sprites\helium\helium neutral.png
+images\sprites\helium\helium realization.png
+images\sprites\krypton\krypton awaken_interested.png
+images\sprites\krypton\krypton awaken_interested_glow.png
+images\sprites\krypton\krypton awaken_playful.png
+images\sprites\krypton\krypton awaken_playful_glow.png
+images\sprites\krypton\krypton gratitude.png
+images\sprites\krypton\krypton smile.png
+images\sprites\marcus\marcus lab_neutral.png
+images\sprites\marcus\marcus lab_smug.png
+images\sprites\marcus\marcus suit_happy.png
+images\sprites\marcus\marcus suit_hurt.png
+images\sprites\marcus\marcus suit_panic.png
+images\sprites\marcus\marcus suit_sinister.png
+images\sprites\marcus\marcus suit_smug.png
+images\sprites\neon\neon dazed.png
+images\sprites\neon\neon eyehurt.png
+images\sprites\neon\neon frustrated.png
+images\sprites\neon\neon frustrated_power.png
+images\sprites\neon\neon irritated.png
+images\sprites\neon\neon long_neutral.png
+images\sprites\neon\neon neutral.png
+images\sprites\neon\neon pouty.png
+images\sprites\neon\neon proud.png
+images\sprites\neon\neon shadowed.png
+images\sprites\neon\neon shy.png
+images\sprites\neon\neon surprised.png
+images\sprites\neon\neon suspicious.png
+images\sprites\neon\neon young_surprised.png
+images\sprites\neon\old neon young_neutral.png
+images\sprites\oganesson\oganesson irritated.png
+images\sprites\oganesson\oganesson neutral.png
+images\sprites\oganesson\oganesson semi-reveal.png
+images\sprites\oganesson\oganesson shadowed.png
+images\sprites\oganesson\oganesson smirk.png
+images\sprites\oganesson\oganesson_old neutral.png
+images\sprites\oganesson\oganesson_old shadowed.png
+images\sprites\sophie\sophie neutral.png
+libs\01auto-highlight.rpy
+libs\01auto-highlight.rpyc
+libs\gallery.rpy
+libs\gallery.rpyc
+libs\renpy_warp_2.1.2_bfed3160.rpe.py
+modules\01auto-highlight.rpyc.bak
+modules\chapter-title.rpy
+modules\chapter-title.rpyc
+modules\characters.rpy
+modules\characters.rpyc
+modules\extras.rpy
+modules\extras.rpyc
+modules\gallery.rpyc.bak
+modules\global-variables.rpy
+modules\global-variables.rpyc
+modules\gui.rpyc.bak
+modules\init.rpy
+modules\init.rpyc
+modules\language_setup.rpy
+modules\language_setup.rpyc
+modules\options.rpyc.bak
+modules\punctuation.rpy
+modules\punctuation.rpyc
+modules\renpy_warp_1.34.0_76860b81.rpe.py
+modules\screens.rpyc.bak
+modules\sound-channels.rpy
+modules\sound-channels.rpyc
+modules\styles.rpy
+modules\styles.rpyc
+saves\3-1-LT1.save
+saves\3-2-LT1.save
+saves\_reload-2-LT1.save
+saves\_tracesave-1-LT1.save
+saves\_tracesave-10-LT1.save
+saves\_tracesave-2-LT1.save
+saves\_tracesave-3-LT1.save
+saves\_tracesave-4-LT1.save
+saves\_tracesave-5-LT1.save
+saves\_tracesave-6-LT1.save
+saves\_tracesave-7-LT1.save
+saves\_tracesave-8-LT1.save
+saves\_tracesave-9-LT1.save
+saves\auto-1-LT1.save
+saves\auto-10-LT1.save
+saves\auto-2-LT1.save
+saves\auto-3-LT1.save
+saves\auto-4-LT1.save
+saves\auto-5-LT1.save
+saves\auto-6-LT1.save
+saves\auto-7-LT1.save
+saves\auto-8-LT1.save
+saves\auto-9-LT1.save
+saves\navigation.json
+saves\persistent
+tl\english_us\common.rpy
+tl\english_us\common.rpyc
+tl\english_us\options.rpy
+tl\english_us\options.rpyc
+tl\english_us\script.rpy
+tl\english_us\script.rpyc
+tl\english_us\audio\voice\escaping_facility_grounds_c1f78dab.ogg
+tl\english_us\game-scripts\disclaimer.rpy
+tl\english_us\game-scripts\disclaimer.rpyc
+tl\english_us\game-scripts\gamescript.rpy
+tl\english_us\game-scripts\gamescript.rpyc
+tl\english_us\game-scripts\script_director_scene.rpy.disabled
+tl\english_us\game-scripts\script_director_scene.rpyc.bak
+tl\english_us\game-scripts\chapters\chapter_0_prologue.rpy
+tl\english_us\game-scripts\chapters\chapter_0_prologue.rpyc
+tl\english_us\game-scripts\chapters\chapter_1.rpy
+tl\english_us\game-scripts\chapters\chapter_1.rpyc
+tl\english_us\game-scripts\chapters\chapter_2.rpy
+tl\english_us\game-scripts\chapters\chapter_2.rpyc
+tl\english_us\game-scripts\chapters\chapter0\1-prologue.rpy
+tl\english_us\game-scripts\chapters\chapter0\1-prologue.rpyc
+tl\english_us\game-scripts\chapters\chapter1\1-lab-night.rpy
+tl\english_us\game-scripts\chapters\chapter1\1-lab-night.rpyc
+tl\english_us\game-scripts\chapters\chapter1\2-lab-morning.rpy
+tl\english_us\game-scripts\chapters\chapter1\2-lab-morning.rpyc
+tl\english_us\game-scripts\chapters\chapter1\3-lab-noon.rpy
+tl\english_us\game-scripts\chapters\chapter1\3-lab-noon.rpyc
+tl\english_us\game-scripts\chapters\chapter1\3.1-library.rpy
+tl\english_us\game-scripts\chapters\chapter1\3.1-library.rpyc
+tl\english_us\game-scripts\chapters\chapter1\3.2-library-desk.rpy
+tl\english_us\game-scripts\chapters\chapter1\3.2-library-desk.rpyc
+tl\english_us\game-scripts\chapters\chapter1\4-meeting-start.rpy
+tl\english_us\game-scripts\chapters\chapter1\4-meeting-start.rpyc
+tl\english_us\game-scripts\chapters\chapter1\5-meeting-end.rpy
+tl\english_us\game-scripts\chapters\chapter1\5-meeting-end.rpyc
+tl\english_us\game-scripts\chapters\chapter1\6-security-post.rpy
+tl\english_us\game-scripts\chapters\chapter1\6-security-post.rpyc
+tl\english_us\game-scripts\chapters\chapter1\7-confrontation.rpy
+tl\english_us\game-scripts\chapters\chapter1\7-confrontation.rpyc
+tl\english_us\game-scripts\chapters\chapter2\1-false-memories.rpy
+tl\english_us\game-scripts\chapters\chapter2\1-false-memories.rpyc
+tl\english_us\game-scripts\chapters\chapter2\2-long-night.rpy
+tl\english_us\game-scripts\chapters\chapter2\2-long-night.rpyc
+tl\english_us\game-scripts\chapters\chapter2\3-nightmare.rpy
+tl\english_us\game-scripts\chapters\chapter2\3-nightmare.rpyc
+tl\english_us\game-scripts\chapters\chapter2\4-facing-reality.rpy
+tl\english_us\game-scripts\chapters\chapter2\4-facing-reality.rpyc
+tl\english_us\game-scripts\chapters\chapter2\5-desperate-measures.rpy
+tl\english_us\game-scripts\chapters\chapter2\5-desperate-measures.rpyc
+tl\english_us\game-scripts\chapters\chapter2\6-anomic.rpy
+tl\english_us\game-scripts\chapters\chapter2\6-anomic.rpyc
+tl\english_us\game-scripts\chapters\chapter2\7-arrival.rpy
+tl\english_us\game-scripts\chapters\chapter2\7-arrival.rpyc
+tl\english_us\game-scripts\chapters\chapter3\chapter-3.rpy
+tl\english_us\game-scripts\chapters\chapter3\chapter-3.rpyc
+tl\english_us\game-scripts\flashbacks\oganesson_flashbacks.rpy
+tl\english_us\game-scripts\flashbacks\oganesson_flashbacks.rpyc
+tl\english_us\game-scripts\flashbacks\zurich_flashbacks.rpy
+tl\english_us\game-scripts\flashbacks\zurich_flashbacks.rpyc
+tl\english_us\game-scripts\flashbacks\krypton\krypton_flashbacks.rpy
+tl\english_us\game-scripts\flashbacks\krypton\krypton_flashbacks.rpyc
+tl\english_us\game-scripts\flashbacks\neon\childhood\1-dream-fragment.rpy
+tl\english_us\game-scripts\flashbacks\neon\childhood\1-dream-fragment.rpyc
+tl\english_us\game-scripts\flashbacks\neon\childhood\2-dream-fragment.rpy
+tl\english_us\game-scripts\flashbacks\neon\childhood\2-dream-fragment.rpyc
+tl\english_us\game-scripts\flashbacks\neon\childhood\3-dream-fragment.rpy
+tl\english_us\game-scripts\flashbacks\neon\childhood\3-dream-fragment.rpyc
+tl\english_us\game-scripts\flashbacks\neon\childhood\4-dream-fragment.rpy
+tl\english_us\game-scripts\flashbacks\neon\childhood\4-dream-fragment.rpyc
+tl\english_us\game-scripts\flashbacks\oganesson\oganesson_flashbacks1.rpy
+tl\english_us\game-scripts\flashbacks\oganesson\oganesson_flashbacks1.rpyc
+tl\english_us\libs\01auto-highlight.rpy
+tl\english_us\libs\01auto-highlight.rpyc
+tl\english_us\libs\gallery.rpy
+tl\english_us\libs\gallery.rpyc
+tl\english_us\modules\extras.rpy
+tl\english_us\modules\extras.rpyc
+tl\english_us\modules\global-variables.rpy
+tl\english_us\modules\global-variables.rpyc
+tl\english_us\modules\init.rpy
+tl\english_us\modules\init.rpyc
+tl\english_us\modules\screens.rpy
+tl\english_us\modules\screens.rpyc
+tl\None\common.rpym
+tl\None\common.rpymc

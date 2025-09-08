@@ -295,12 +295,12 @@ translate english_us strings:
 # game/game-scripts/chapters/chapter_0_prologue.rpy:97
 translate english_us prologue_bab5ed7e:
 
-    # narrator_nvl "В ушах - непрекращающийся, высокий звон. Он поглотил все остальные звуки, даже собственный крик. {nw}"
+    # narrator_nvl "В ушах — непрекращающийся, высокий звон. Он поглотил все остальные звуки, даже собственный крик. {nw}"
     narrator_nvl "A high-pitched, incessant ringing in my ears drowned out everything else, even my own scream. {nw}"
 
 # game/game-scripts/chapters/chapter_0_prologue.rpy:99
 translate english_us prologue_2f885a8e:
 
-    # narrator_nvl "Тело - чужое. Ноги не ощущаются, руки мелко дрожат сами по себе. {nw}"
+    # narrator_nvl "Тело — чужое. Ноги не ощущаются, руки мелко дрожат сами по себе. {nw}"
     narrator_nvl "My body felt alien. I couldn't feel my legs; my hands trembled on their own. {nw}"
 
