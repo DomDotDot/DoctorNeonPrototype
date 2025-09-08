@@ -1,6 +1,6 @@
 # Определение персонажей игры.
     # Ключевые персонажи
-define neon = Character(_('Неон'), color="#1f4bc4", image="neon", ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "neon")
+define neon = Character(_('Неон'), color="#1f4bc4", image="neon", ctc="ctc_neon", ctc_position="nestled", callback = name_callback, cb_name = "neon")
 layeredimage neon:
     at sprite_highlight('neon')
 

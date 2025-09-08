@@ -128,6 +128,7 @@ define config.end_game_transition = None
 define config.window = "auto"
 
 
+
 ## Переходы, используемые при показе и скрытии диалогового окна
 
 define config.window_show_transition = Dissolve(.2)

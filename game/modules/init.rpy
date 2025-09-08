@@ -21,7 +21,13 @@ init:
 return
 
 image ctc_blink:
-    "gui/ctc.png"
+    "gui/ctc_general.png"
     linear 0.75 alpha 1.0
     linear 0.75 alpha 0.0
     repeat
+
+image ctc_neon:
+    "gui/ctc_neon.png"
+    alpha 0.0
+    linear 2
+    linear 0.25 alpha 1.0
