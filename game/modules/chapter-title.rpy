@@ -26,7 +26,7 @@ screen chapter_screen(chapter_text, title_text):
     # Здесь мы запускаем таймер на 4 секунды.
     # По истечении времени экран скроется с анимацией растворения (dissolve).
     #on "show":
-    timer 4.0 action [Hide('chapter_screen', transition=dissolve), Return()]
+    timer 5.0 action [Hide('chapter_screen', transition=dissolve), Return()]
     
     # Добавляем сплошной черный фон на весь экран
     frame:
