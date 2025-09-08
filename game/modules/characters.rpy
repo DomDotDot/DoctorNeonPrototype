@@ -18,6 +18,7 @@ define oganesson_young = Character('Тетя-гостья', color="#56515d", ima
     # Вспомогательные персонажи
 define narrator = Character(None, what_size=25, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = None)
 define narrator_nvl = Character(None, kind=nvl)
+define dashboard = Character(_('Приборная Панель') , image="fuel_warning")
 
 define unknown = Character(_('Неизвестный'), color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
 define unknown_f = Character(_('Неизвестная'), color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
