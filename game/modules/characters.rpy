@@ -22,13 +22,13 @@ define dashboard = Character(_('Приборная Панель') , image="fuel_
 
 define unknown = Character(_('Неизвестный'), color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
 define unknown_f = Character(_('Неизвестная'), color="#ffffff", ctc="ctc_blink", ctc_position="nestled")
-define fcs = Character(_('Система Управление Полётом'), color="#a30e0e", voice_tag="fcs")
+define fcs = Character(_('АБСУ'), color="#a30e0e", voice_tag="fcs")
 
     # Второстепенные персонажи
 define hans = Character(_('Ханс'), color="#7a7a7a", image="hans", ctc="ctc_blink", ctc_position="nestled")
 
-define ceo = Character(_('Господин Бауманн (CEO)'), color="#305a96", image="ceo_boss", ctc="ctc_blink", ctc_position="nestled") # Генеральный директор
-define cro = Character(_('Доктор Грубенманн (CRO)'), color="#753636", image="cro_boss", ctc="ctc_blink", ctc_position="nestled") # Руководитель исследований
+define ceo = Character(_('Г-н Бауманн'), color="#305a96", image="ceo_boss", ctc="ctc_blink", ctc_position="nestled") # Генеральный директор
+define cro = Character(_('Д-р Грубенманн'), color="#753636", image="cro_boss", ctc="ctc_blink", ctc_position="nestled") # Руководитель исследований
 
 define anna = Character(_('Анна'), color="#d96411", image="anna", ctc="ctc_blink", ctc_position="nestled")
 define sophie = Character(_('Софи'), color="#d1c682", image="sophie", ctc="ctc_blink", ctc_position="nestled")

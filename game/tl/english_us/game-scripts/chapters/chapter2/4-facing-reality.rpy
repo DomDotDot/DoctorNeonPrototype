@@ -135,7 +135,7 @@ translate english_us chapter2_act3_facing_reality_de07a9f3:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:60
 translate english_us chapter2_act3_facing_reality_5e7f510c:
 
-    # narrator "Внутри, под потолком, висел старый, пузатый телевизор, по которому шли утренние новости. Неон замерла у витрины, вглядываясь в экран. Что-то заставило ее остановиться."
+    # narrator "Внутри, под потолком, висел старый, пузатый телевизор, по которому шли утренние Диктор. Неон замерла у витрины, вглядываясь в экран. Что-то заставило ее остановиться."
     narrator ""
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:61
@@ -147,8 +147,8 @@ translate english_us chapter2_act3_facing_reality_77888c2c:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:64
 translate english_us chapter2_act3_facing_reality_5629259c:
 
-    # "Диктор Новостей" "(Голос из телевизора) ...повторяем, полиция кантона продолжает поиски доктора Неон, подозреваемой в жестоком нападении на коллегу в научном комплексе 'Гелиос'..."
-    "Диктор Новостей" ""
+    # "Диктор" "(Голос из телевизора) ...повторяем, полиция кантона продолжает поиски доктора Неон, подозреваемой в жестоком нападении на коллегу в научном комплексе 'Гелиос'..."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:66
 translate english_us chapter2_act3_facing_reality_eca04620:
@@ -165,14 +165,14 @@ translate english_us chapter2_act3_facing_reality_0324eb67:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:70
 translate english_us chapter2_act3_facing_reality_3da40f89:
 
-    # "Диктор Новостей" "...также ведутся поиски ее возможной сообщницы, Александры Вайт, сотрудницы архивного отдела, которая пропала с территории комплекса в то же время."
-    "Диктор Новостей" ""
+    # "Диктор" "...также ведутся поиски ее возможной сообщницы, Александры Вайт, сотрудницы архивного отдела, которая пропала с территории комплекса в то же время."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:70
 translate english_us chapter2_act3_facing_reality_daed4157:
 
-    # "Диктор Новостей" "Последний раз ее видели, когда она... (голос диктора на мгновение запинается) ...оказывала сопротивление службе безопасности.\""
-    "Диктор Новостей" ""
+    # "Диктор" "Последний раз ее видели, когда она... (голос диктора на мгновение запинается) ...оказывала сопротивление службе безопасности.\""
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:77
 translate english_us chapter2_act3_facing_reality_e6bf3679:

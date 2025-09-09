@@ -63,14 +63,14 @@ translate english_us chapter2_act2_long_night_b9c007b7:
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:35
 translate english_us chapter2_act2_long_night_1956ea94:
 
-    # "Диктор Новостей" "(Голос из радио, чуть искаженный помехами) ...и к главным новостям этого часа."
-    "Диктор Новостей" ""
+    # "Диктор" "(Голос из радио, чуть искаженный помехами) ...и к главным новостям этого часа."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:35
 translate english_us chapter2_act2_long_night_07785d0a:
 
-    # "Диктор Новостей" "Сегодня вечером в высокогорном исследовательском комплексе 'Гелиос' произошло чрезвычайное происшествие. По предварительным данным, совершено нападение на одного из ведущих ассистентов проекта."
-    "Диктор Новостей" ""
+    # "Диктор" "Сегодня вечером в высокогорном исследовательском комплексе 'Гелиос' произошло чрезвычайное происшествие. По предварительным данным, совершено нападение на одного из ведущих ассистентов проекта."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:41
 translate english_us chapter2_act2_long_night_4ede2f99:
@@ -81,8 +81,8 @@ translate english_us chapter2_act2_long_night_4ede2f99:
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:42
 translate english_us chapter2_act2_long_night_a95904cc:
 
-    # "Диктор Новостей" "Состояние пострадавшего оценивается как критическое. В нападении подозревается сотрудница комплекса, доктор Неон..."
-    "Диктор Новостей" ""
+    # "Диктор" "Состояние пострадавшего оценивается как критическое. В нападении подозревается сотрудница комплекса, доктор Неон..."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:43
 translate english_us chapter2_act2_long_night_3870f70a:
@@ -93,20 +93,20 @@ translate english_us chapter2_act2_long_night_3870f70a:
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:45
 translate english_us chapter2_act2_long_night_56ef130f:
 
-    # "Диктор Новостей" "...которой удалось скрыться с места преступления на автомобиле Mazda красного цвета."
-    "Диктор Новостей" ""
+    # "Диктор" "...которой удалось скрыться с места преступления на автомобиле Mazda красного цвета."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:45
 translate english_us chapter2_act2_long_night_f9f8f3cd:
 
-    # "Диктор Новостей" "Полиция кантона распространила фоторобот подозреваемой, составленный по записям с камер наблюдения."
-    "Диктор Новостей" ""
+    # "Диктор" "Полиция кантона распространила фоторобот подозреваемой, составленный по записям с камер наблюдения."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:45
 translate english_us chapter2_act2_long_night_ed3a603f:
 
-    # "Диктор Новостей" "Граждан просят проявлять бдительность и при обнаружении подозреваемой немедленно сообщать в правоохранительные органы."
-    "Диктор Новостей" ""
+    # "Диктор" "Граждан просят проявлять бдительность и при обнаружении подозреваемой немедленно сообщать в правоохранительные органы."
+    "Диктор" ""
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:53
 translate english_us chapter2_act2_long_night_6e344877:
