@@ -18,6 +18,8 @@ init:
             xcenter -1.0
             ycenter 1.0
             linear 0.25
+
+        $ flash = Fade(0.5, 0, 0.5, color="#FFFFFF")
 return
 
 image ctc_blink:

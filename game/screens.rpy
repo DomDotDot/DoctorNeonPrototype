@@ -75,6 +75,8 @@ style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
+    
+
 
 
 ################################################################################
@@ -262,7 +264,7 @@ screen quick_menu():
 ## время, если только игрок не скроет интерфейс.
 init python:
     config.overlay_screens.append("quick_menu")
-
+    
 default quick_menu = True
 
 style quick_button is default
