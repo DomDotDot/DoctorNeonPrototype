@@ -102,7 +102,7 @@ label zurich_university_flashback:
         Мне двадцать. Я полна амбиций и сомнений одновременно.
         """
 
-        show neon neutral
+        show neon young_surprised with dissolve
         neon """
         Это не просто романтика, Анна. Это фундаментальный вопрос. \n
         Одни ли мы?
@@ -133,5 +133,5 @@ label zurich_university_flashback:
         neon "Я не знаю. Но я должна пытаться. Это... как будто зов."
 
         anna "Ну, если найдешь – не забудь упомянуть меня в своей Нобелевской речи."
-        neon @ proud "Обязательно."
+        neon "Обязательно."
 return
