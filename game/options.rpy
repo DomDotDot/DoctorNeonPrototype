@@ -12,7 +12,7 @@
 ##
 ## Символы "_()", окружающие название, отмечают его как пригодное для перевода.
 
-define config.name = _("The Brightest Neon")
+define config.name = _("The Brightest Neon - Semitone Resonance")
 
 
 ## Определяет, показывать ли заголовок, данный выше, на экране главного меню.
