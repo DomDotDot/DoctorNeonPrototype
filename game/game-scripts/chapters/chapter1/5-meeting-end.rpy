@@ -42,7 +42,7 @@ label chapter1_meeting_aftermath_hallway:
         """
         scene bg chapter_1_admin_approach with fade
         show neon frustrated at midleft
-        show alex concerned at center
+        show alex worried at center
 
         neon "А эти... эти жирные коты из совета директоров ему поверили! И мой собственный начальник... он меня просто уничтожил!"
         alex "Тише, Неон, тише... Господи, какой кошмар..."

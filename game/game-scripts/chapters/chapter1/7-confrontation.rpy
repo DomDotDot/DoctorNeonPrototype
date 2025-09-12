@@ -19,7 +19,7 @@ label confrontation_path:
         """
 
         show alex concerned
-        show neon neutral
+        show neon suspicious
         show marcus suit_happy at left with dissolve
 
         marcus " Неон. Алекс. Какая встреча. Решили прогуляться?"
@@ -42,7 +42,7 @@ label confrontation_path:
 
         marcus suit_smug "Куда это вы так спешите? К директору? С чем вы к нему пойдете?"
 
-        neon "Узнаешь. У тебя же были дела? Ну так вот, иди."
+        neon irritated "Узнаешь. У тебя же были дела? Ну так вот, иди."
 
         narrator "Видя, что они не собираются останавливаться, Маркус запаниковал. Его спокойствие испарилось."
         stop music fadeout 60.0
@@ -53,7 +53,8 @@ label confrontation_path:
         
         Думаешь, ваше видео что-то изменит?!
         """
-
+        
+        show alex serious
         neon "..."
 
         narrator "Алекс подняла телефон, на экране которого была видна миниатюра записи. Этого было достаточно."
@@ -101,7 +102,13 @@ label confrontation_path:
 
         play ambient "ambient/Target.ogg" fadein 5.0
 
-        marcus "Вечно как не от мира сего, {b}Синяя ворона{/b}! Таким, как ты, здесь не место!"
+        marcus "Вечно как не от мира сего, {b}Синяя ворона{/b}!"
+        show neon surprised zorder 5
+        show black with { "master" : Dissolve(10.0) }
+        with { "effect": dissolve }
+        pause 1.0
+
+        marcus "Таким, как ты, здесь не место!"
         
         
         show neon surprised
@@ -111,9 +118,9 @@ label confrontation_path:
         # Эффект: Короткая, резкая вспышка. На долю секунды на лице Маркуса проступает лицо задиры из флешбэка.
         # with Flash(1.0, 0.2, 1.0, color="#FFFFFF")
 
-        hide alex with easeoutright
+        hide alex with dissolve
         narrator """
-        Это слово. \n
+        Это слово. Это дурацское слово...\n
         Это презрение. \n 
         Это было не про карьеру. \n
         Это было про нее саму. \n
@@ -131,15 +138,24 @@ label confrontation_path:
 
         Она посмотрела на Маркуса уже не как на коллегу-предателя, а как на воплощение всего того, что ее мучило годами.
 
-        Ее взгляд упал на тяжелые металлические стулья, стоящие вдоль стены.
+        Ее взгляд упал на тяжелые металлические стулья вдоль... чего-то...
+
+        Неон уже не понимает где она сама находится. Она видит только красный цвет вокруг себя и слышит только бешено колотящееся сердце в ушах.
+
+        А стулья, эти тяжелые металлические стулья, кажутся ей единственным оружием в этом мире, способным нанести удар по самому сердцу ее мучителя.
         """
-        show neon frustrated with Dissolve(2.0)
+        show bg chapter_1_lab_corridor_3
+        hide black with { "master" : Dissolve(7.0) }
+        with { "effect": dissolve }
+        show neon frustrated
+
         neon "Мне... никогда... больше не будут... указывать какая я!"
         narrator "Она шагнула к одному из стульев. Алекс, увидев выражение ее лица, испуганно отшатнулась."
         show alex serious at right with easeinright
         alex "Неон... Стой! Не делай глупостей!"
         show neon frustrated_power with { "master" : Dissolve(5.0) }
         with { "effect": dissolve }
+        
         narrator """
         Но Неон уже не слышала ее. Она схватилась за спинку стула.
         
