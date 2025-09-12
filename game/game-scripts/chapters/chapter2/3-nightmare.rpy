@@ -6,6 +6,7 @@ label nightmare_sequence:
 
                 # Сон: Лиминальное пространство парковки
                 scene bg chapter_2_nightmare-parking_lot with dissolve # Фон: та же парковка, но искаженная, пустая, бесконечная. Свет от ламп тусклый и неправильный, отбрасывает слишком длинные тени.
+                play music "music/BGM/InHer.ogg" fadein 10.0 volume 0.25
                 # play sound "sounds/liminal_parking_ambience_echo.ogg" loop # Звуки: гул, эхо шагов (ее собственных), далекие, неразборчивые шепоты
 
                 narrator """
@@ -34,7 +35,6 @@ label nightmare_sequence:
 
                 narrator "...и в тот момент, когда мои пальцы почти касаются ее, фигура резко разворачивается. Но это не Алекс."
 
-                play music "music/BGM/NightMare.ogg" fadein 5.0
                 show cg cg11_1-1 with dissolve
 
                 narrator "Это охранник. Его лицо – просто темное, пульсирующее пятно. Он хватает мою руку стальной хваткой."
