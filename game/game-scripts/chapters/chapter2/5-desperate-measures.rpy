@@ -1,7 +1,7 @@
 label chapter2_act4_desperate_measures:
 
                 # Неон стоит на улице маленького городка, осознав свое положение.
-                # scene small_town_street_despair with Dissolve(1.0) # Фон: та же улица, но теперь она кажется более враждебной
+                scene bg chapter_2_facing_reality-town_alley with fade
                 # music "sounds/cold_realization_theme.ogg" loop
 
                 narrator """
