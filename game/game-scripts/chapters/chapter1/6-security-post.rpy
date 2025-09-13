@@ -1,7 +1,7 @@
 label chapter1_security_post_scene:
 
         # Неон и Алекс у поста охраны
-        scene bg chapter_1_security_post_interior # Фон: пост охраны, мониторы
+        scene bg chapter_1_security_post_interior with fade # Фон: пост охраны, мониторы
         
         show neon neutral at flip 
         show alex concerned at flip
