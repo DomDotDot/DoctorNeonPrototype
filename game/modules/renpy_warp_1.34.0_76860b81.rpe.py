@@ -82,14 +82,14 @@ def socket_listener(websocket):
             """)
             py_exec(script)
 
-        elif payload["type"] == "jump_to_label":
+        elif payload["type"] == "call_to_label":
             label = payload["label"]
 
             script = textwrap.dedent(f"""
                 if renpy.context_nesting_level() > 0:
-                    renpy.jump_out_of_context('{label}')
+                    renpy.call_out_of_context('{label}')
                 else:
-                    renpy.jump('{label}')
+                    renpy.call('{label}')
             """)
 
             py_exec(script)

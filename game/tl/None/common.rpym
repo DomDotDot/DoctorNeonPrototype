@@ -1494,8 +1494,8 @@ translate None strings:
     new "unwatchall: глобальное прекращение наблюдения"
 
     # renpy/common/00console.rpy:1020
-    old "jump <label>: jumps to label"
-    new "jump <label>: прыжок на метку"
+    old "call <label>: calls to label"
+    new "call <label>: прыжок на метку"
 
     # renpy/common/00console.rpy:1036
     old "short: Shorten the representation of objects on the console (default)."

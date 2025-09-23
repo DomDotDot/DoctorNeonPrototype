@@ -97,7 +97,7 @@ label escaping_facility_grounds:
         Это был ее последний шанс. Она резко свернула с дороги, направляя машину прямо на этот забор.
         """
         # play sound "sounds/car_swerve_offroad_again.ogg"
-        show cg cg7_6
+        show cg cg7_6 with fade
         narrator "Передние колеса подпрыгнули на бордюре. Раздался скрежет и треск – Mazda протаранила сетчатое ограждение, сминая его и вырываясь на узкую полоску земли за пределами официальной территории, но еще не на шоссе."
         # play sound "sounds/fence_crash_metal_tearing.ogg"
 
@@ -160,5 +160,8 @@ label escaping_facility_grounds:
         """
 
         nvl clear
+        stop music fadeout 5.0
+        stop ambient fadeout 5.0
+        stop sound fadeout 5.0
         pause 4.0
 return

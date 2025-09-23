@@ -1,5 +1,7 @@
 label chapter2_act5_anomic_arrival:
                 # Финальная сцена главы
+                scene bg chapter_2_anomic-van-inside with Fade(2.0, 0.25, 0.25)
+                queue music "music/BGM/MoonAndDeath.ogg" fadein 5.0 noloop volume 0.5
                 # scene factory_anomic_dawn with Fade(5.0) # Медленное проявление: рассвет над заводом в Аномике
                 # music "sounds/anomic_factory_theme.ogg" loop # Гнетущая, индустриальная тема
                 
@@ -8,6 +10,9 @@ label chapter2_act5_anomic_arrival:
                 # stop music fadeout 1.0
                 narrator "Они приехали. Перед ней возвышался огромный, ржавый скелет промышленного завода. Он стоял посреди умирающего города Аномик, окутанный остатками ночного тумана. На трубах и стенах виднелись следы коррозии."
                 guts "Приехали. Добро пожаловать в твой новый дом. И на твою новую работу."
+
+                show cg cg17 with fade
+
                 narrator """
                 Неон вышла из фургона, чувствуя, как холодный утренний воздух обжигает кожу. Гатс молча вел ее через территорию завода, мимо ржавых машин и полуразрушенных зданий.
 
@@ -20,11 +25,20 @@ label chapter2_act5_anomic_arrival:
                 Ее провели через проходную и завели в одну из лабораторий внутри завода. Здесь было чище, чем снаружи, но запах химии и отчаяния был еще сильнее.
                 """
                 # play sound "sounds/heavy_metal_door_slam_echo.ogg" # Звук захлопывающейся тяжелой двери с эхом
-                narrator "Тяжелая металлическая дверь за ее спиной захлопнулась, и щелкнул замок. Она оказалась в ловушке."
-                narrator "Неон обвела взглядом завод. Лобби, стойка регистрации — Ее новый мир."
-                # scene lab_anomic_interior_close_up_neon with Dissolve(1.0) # Крупный план лица Неон
 
+                show black with Dissolve(0.5)
+                show neon neutral zorder 5 at center with { "master" : Dissolve(5.0) }
+                with { "effect": dissolve }
 
+                narrator """
+                Тяжелая металлическая дверь за ее спиной захлопнулась, и щелкнул замок.
+
+                Она оказалась в ловушке.
+
+                Неон обвела взглядом завод. Лобби, стойка регистрации — это теперь Её новый мир.
+                """
 
                 # Конец Главы 2
+                stop ambient fadeout 5.0
+                stop sound fadeout 5.0
 return

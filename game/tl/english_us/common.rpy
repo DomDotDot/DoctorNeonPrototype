@@ -2,7 +2,6 @@
 
 translate english_us strings:
 
-
     # renpy/common/00accessibility.rpy:28
     old "Self-voicing disabled."
     new "Self-voicing disabled."
@@ -1496,8 +1495,8 @@ translate english_us strings:
     new "unwatchall: stop watching all expressions"
 
     # renpy/common/00console.rpy:1020
-    old "jump <label>: jumps to label"
-    new "jump <label>: jumps to label"
+    old "call <label>: calls to label"
+    new "call <label>: calls to label"
 
     # renpy/common/00console.rpy:1036
     old "short: Shorten the representation of objects on the console (default)."

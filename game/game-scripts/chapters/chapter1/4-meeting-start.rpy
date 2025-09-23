@@ -168,6 +168,7 @@ label chapter1_meeting_start:
 
         show neon surprised at midleft with easeinleft
         show marcus suit_smug at midright with dissolve # Маркус с ухмылкой
+        
         marcus """
         Доктор Неон, я понимаю ваше волнение. Возможно, вы работали над схожей проблемой.
 

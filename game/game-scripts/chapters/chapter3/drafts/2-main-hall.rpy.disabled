@@ -16,10 +16,10 @@ label ch3_hall_explore:
             
             Я подошла ближе. Ключ-карта. С фотографией улыбающегося рабочего. Кто-то бежал отсюда в такой спешке, что обронил свой пропуск.
             """
-            jump ch3_hall_explore
+            call ch3_hall_explore
 
         "Подойти к вышибале.":
-            jump ch3_provoke_verbal
+            call ch3_provoke_verbal
 
         "Осмотреть распределительный щиток.":
             narrator """
@@ -28,7 +28,7 @@ label ch3_hall_explore:
             Кажется, он все еще был под напряжением – от него исходил тихий, низкий гул.
             """
             $ has_examined_panel = True
-            jump ch3_hall_explore
+            call ch3_hall_explore
 
         "Осмотреть металлический шкафчик.":
             narrator """
@@ -39,7 +39,7 @@ label ch3_hall_explore:
             Он выглядел так, будто развалится от одного сильного толчка.
             """
             $ has_examined_cabinet = True
-            jump ch3_hall_explore
+            call ch3_hall_explore
 
         "Прислушаться к разговору у двери." if provocation_count < 2:
             # Этот вариант доступен, пока Неон не привлекла слишком много внимания
@@ -55,4 +55,4 @@ label ch3_hall_explore:
             Порядок, конечно, идеальный, но шаг влево, шаг вправо – и ты в тюрьме. Не для таких, как мы, это место.
             """
             narrator "Веритас-Сити... Город-академия. Чистый, безопасный, недостижимый. Другая вселенная."
-            jump ch3_hall_explore
+            call ch3_hall_explore

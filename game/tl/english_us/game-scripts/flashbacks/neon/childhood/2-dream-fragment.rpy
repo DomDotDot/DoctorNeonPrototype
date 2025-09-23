@@ -101,4 +101,3 @@ translate english_us dream_sequence_japan_2_c6204da0:
 
     # narrator "Она резко разворачивается и выходит в сад."
     narrator ""
-

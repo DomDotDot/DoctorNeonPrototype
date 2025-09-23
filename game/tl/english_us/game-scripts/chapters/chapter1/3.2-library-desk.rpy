@@ -197,4 +197,3 @@ translate english_us chapter1_lab_noon_library_desk_0516b761:
 
     # narrator "Она вышла из библиотеки и направилась к лифтам, ведущим на верхние уровни – туда, где располагался административный блок и главные конференц-залы."
     narrator "She left the library and headed for the elevators leading to the upper levels—to the administrative wing and the main conference rooms."
-

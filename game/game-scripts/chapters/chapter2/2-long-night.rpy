@@ -1,5 +1,11 @@
 label chapter2_act2_long_night:
 
+                scene bg chapter_2_long_night-forest-drive with Dissolve(5.0)
+                stop sound
+                play sound "ambient/car-driving_gravel.mp3" fadein 5.0 fadeout 15.0 loop
+
+                narrator "Экран телефона погас, экономя последние проценты заряда. Теперь она ехала вслепую, в лесную тьму, под проливным дождем, на трех с половиной колесах, все дальше от цивилизации и все глубже в пучину отчаяния."
+
                 # Неон едет по лесной дороге
                 # scene forest_road_night_rain with Dissolve(1.0) # Фон: вид из машины на темную, грязную лесную дорогу в ливень
                 # music "sounds/forest_rain_despair_theme.ogg" loop
@@ -61,7 +67,7 @@ label chapter2_act2_long_night:
 
                 # play sound "sounds/car_engine_sputtering_dying.ogg" # Звук глохнущего двигателя
                 narrator "С последним натужным вздохом мотор заглох. Машина, проехав по инерции еще пару метров, замерла посреди лесной дороги, в самом сердце тьмы."
-                # stop sound # Остановить все звуки, кроме дождя
+                stop sound
 
                 show cg cg10 with Dissolve(2.0) # Фон: вид снаружи на заглохшую машину в лесу
                 # music "sounds/loneliness_and_fear_theme.ogg" loop
@@ -79,5 +85,6 @@ label chapter2_act2_long_night:
 
                 Погруженная в холодное, липкое отчаяние, она провалилась в беспокойный, рваный сон.
                 """
+                stop ambient fadeout 10.0
 return
 

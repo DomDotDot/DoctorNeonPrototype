@@ -1,8 +1,8 @@
 label ch3_long_corridor:
     # Неон в темном коридоре за шкафчиком
-    # scene factory_corridor_dark with Dissolve(1.0) # Фон: темный, узкий служебный коридор
+    scene bg chapter_3_long-hall-hall with fade # Фон: темный, узкий служебный коридор
     # music "sounds/exploration_tense_theme.ogg" loop # Музыка: напряженное исследование
-
+    play music "music/BGM/GreyPaint.ogg" fadein 15.0 fadeout 15.0 volume 0.125
     narrator """
     Коридор, открывшийся за воротами, делал небольшой изгиб влево, а затем резко поворачивал направо.
 
@@ -21,43 +21,53 @@ label ch3_long_corridor:
     Но из-под одной двери пробивалась тонкая полоска тусклого света.
     """
 
-label ch3_explore_long_corridor:
-    menu:
-        "Открыть и войти в комнату с металлической дверью":
+    menu ch3_explore_long_corridor:
+        "Открыть и войти в комнату с металлической дверью" if not has_equipment_idea:
             narrator "Я подошла к приоткрытой двери, и осторожно толкнула дверь. Она была не заперта."
-            jump chapter3_part2
+            jump ch3_part2_the_cage
         "Осмотреть армированную дверь.":
             if not chemlab_door_unlocked:
-                narrator "На двери блестит панель кодового замка. Нужен 4-значный код."
+                narrator "На двери блестит панель кодового замка. Нужен четырёхзначный код."
                 menu:
                     "Попробовать ввести код.":
-                        # Экран ввода кода
-                        $ code_attempt = renpy.input("Введите 4-значный код:", length=4, allow="0123456789")
-                        
-                        if code_attempt == "1984":
-                            # play sound "sounds/keypad_success.ogg"
-                            narrator "Я ввела код. Раздался щелчок, и на панели загорелся зеленый огонек. Дверь открыта."
-                            $ chemlab_door_unlocked = True
-                            jump ch3_long_corridor
+                        if found_code_clue:
+                            # Экран ввода кода
+                            $ code_attempt = renpy.input("Введите четырёхзначный  код:", length=4, allow="0123456789")
+                            
+                            if code_attempt == "1984":
+                                # play sound "sounds/keypad_success.ogg"
+                                narrator "Щелчок! Зеленый огонек. Я была права. Дверь в Хим. лабораторию открыта."
+                                $ chemlab_door_unlocked = True
+                                jump ch3_explore_long_corridor
+                            else:
+                                # play sound "sounds/keypad_fail.ogg"
+                                narrator "Неправильный код. Панель мигнула красным. Хм, значит, я ошиблась в догадке, или ввожу не то."
+                                jump ch3_explore_long_corridor
                         else:
-                            # play sound "sounds/keypad_fail.ogg"
-                            narrator "Неправильный код. Панель мигнула красным."
-                            jump ch3_long_corridor
+                            neon "{=thoughts}Я понятия не имею, какой здесь может быть код. Просто тыкать наугад бессмысленно. Подсказка должна быть где-то здесь.{/thoughts}"
+                            jump ch3_explore_long_corridor
                     
                     "Отойти.":
-                        jump ch3_long_corridor
+                        jump ch3_explore_long_corridor
             else:
-                narrator "Дверь в химлабораторию открыта."
-                jump ch3_long_corridor
+                narrator "Дверь в Хим. лабораторию открыта."
+                jump ch3_explore_long_corridor
 
-        "Войти в химлабораторию." if chemlab_door_unlocked:
-            jump ch3_explore_chem_lab
-        
-        "Идти в южное крыло (Пищевой цех).":
+        "Войти в Хим. лабораторию." if chemlab_door_unlocked:
+            if has_equipment_idea:
+                jump ch3_explore_chem_lab
+            else:
+                narrator "Мне незачем туда идти."
+                jump ch3_explore_long_corridor
+
+        "Идти в южное крыло (Пищевой цех)." if has_equipment_idea:
             jump ch3_explore_food_wing
+        
+        "Идти на первый этаж (Административное крыло)." if has_equipment_idea:
+            jump ch3_explore_admin_wing
 
-        "Вернуться к Аргону.":
+        "Вернуться к Художнику." if has_equipment_idea:
             jump ch3_ingredient_hunt
 
-
-    return
+        "Вернуться в Холл":
+            jump ch3_hall_explore

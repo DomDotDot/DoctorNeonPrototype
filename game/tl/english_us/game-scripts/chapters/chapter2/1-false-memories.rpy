@@ -288,7 +288,7 @@ translate english_us chapter2_act1_false_memories_d48671b8:
 translate english_us chapter2_act1_false_memories_55d8012a:
 
     # "Навигатор" "Через два километра держитесь правее, затем продолжайте движение по шоссе Е27. Внимание: впереди платный участок дороги и стационарный пост дорожной полиции."
-    "Навигатор" "In two kilometers, keep right, then continue on Highway E27. Warning: Toll section and permanent police checkpoint ahead."
+    "GPS" "In two kilometers, keep right, then continue on Highway E27. Warning: Toll section and permanent police checkpoint ahead."
 
 # game/game-scripts/chapters/chapter2/1-false-memories.rpy:135
 translate english_us chapter2_act1_false_memories_db52c5a0:
@@ -354,7 +354,7 @@ translate english_us chapter2_act1_false_memories_bdf5ce2d:
 translate english_us chapter2_act1_false_memories_d7f27500:
 
     # "Навигатор" "GPS-сигнал потерян."
-    "Навигатор" "GPS signal lost."
+    "GPS" "GPS signal lost."
 
 # game/game-scripts/chapters/chapter2/1-false-memories.rpy:166
 translate english_us chapter2_act1_false_memories_1242c1fb:
@@ -362,4 +362,34 @@ translate english_us chapter2_act1_false_memories_1242c1fb:
     # narrator "Экран телефона погас, экономя последние проценты заряда. Теперь она ехала вслепую, в лесную тьму, под проливным дождем, на трех с половиной колесах, все дальше от цивилизации и все глубже в пучину отчаяния."
     narrator "The phone screen went dark, conserving the last few percent of its battery. Now she was driving blind, into the forest's darkness, in a torrential downpour, on three and a half wheels, further and further from civilization and deeper into the abyss of despair."
 
+# TODO: Translation updated at 2025-09-22 22:26
 
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:40
+translate english_us chapter2_act1_false_memories_2fe31052:
+
+    # narrator "Ледяной ветер врывался в салон через зияющую дыру на месте заднего стекла. Холод пробирал до костей."
+    narrator "An icy wind tore into the car through the gaping hole where the rear window used to be. The cold chilled her to the bone."
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:40
+translate english_us chapter2_act1_false_memories_1ac6055b:
+
+    # narrator "Она не могла позволить себе думать о том, что произошло. О Маркусе. Об Алекс. О том, что она сделала."
+    narrator "She couldn't let herself think about what had happened. About Marcus. About Alex. About what she had done."
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:62
+translate english_us chapter2_act1_false_memories_5d432617:
+
+    # narrator "Дрожащими пальцами она достала телефон. Батарея – девять процентов. Она нашла контакт 'Алекс' и нажала вызов."
+    narrator "With trembling fingers, she pulled out her phone. Battery—nine percent. She found the contact 'Alex' and pressed call."
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:98
+translate english_us chapter2_act1_false_memories_76b2fe88:
+
+    # nvl clear
+    nvl clear
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:102
+translate english_us chapter2_act1_false_memories_12aa37b2:
+
+    # narrator "Она повторяла это про себя, как мантру, но холодный страх продолжал сжимать сердце."
+    narrator "She repeated it to herself like a mantra, but a cold fear continued to grip her heart."

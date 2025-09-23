@@ -1,6 +1,8 @@
 label chapter2_act1_false_memories:
 
                 scene bg chapter_2_false_memories-crash with Dissolve(0.125)
+                # play music "music/BGM/DeepThere.ogg" fadein 15.0 fadeout 15.0 volume 0.5
+
                 narrator """
                 Сознание вернулось резким, болезненным рывком. Голова гудела, а в ушах стоял непрекращающийся звон. Ослепляющий свет фар сменился миганием оранжевых аварийных огней грузовика.
 
@@ -32,7 +34,8 @@ label chapter2_act1_false_memories:
 
                 scene bg chapter_2_false_memories-escape with Dissolve(10.0) # Фон: ночное шоссе, вид из машины, начинается дождь
                 # play sound "sounds/car_driving_damaged_tire.ogg" loop # Звук езды на спущенном колесе
-                # play sound "sounds/rain_light_on_windshield.ogg" loop # Звук легкого дождя
+                play ambient "ambient/raining_inside_car.mp3" fadein 20.0 fadeout 5.0
+
 
                 narrator """
                 Она неслась по темному шоссе, уносясь прочь от хаоса.
@@ -41,7 +44,7 @@ label chapter2_act1_false_memories:
 
                 Ледяной ветер врывался в салон через зияющую дыру на месте заднего стекла. Холод пробирал до костей.
                 
-                Она не могла позволить себе думать о том, что произошло. О Маркусе. О Алекс. О том, что она сделала.
+                Она не могла позволить себе думать о том, что произошло. О Маркусе. Об Алекс. О том, что она сделала.
 
                 """
                 neon "Зато... обзор сзади стал лучше..."
@@ -54,11 +57,12 @@ label chapter2_act1_false_memories:
                 # play sound "sounds/car_engine_stop.ogg"
                 # music "sounds/anxious_solitude_theme.ogg" loop fadein 1.0
                 scene bg chapter_2_false_memories-alex_call with fade
+                play music "music/BGM/Unreachable.ogg" fadein 5.0 fadeout 15.0 volume 0.5 noloop
 
                 narrator """
                 Тишина. Только стук дождя и ее собственное прерывистое дыхание. Первым делом – Алекс.
 
-                Дрожащими пальцами она достала телефон. Батарея – 9 процентов. Она нашла контакт 'Алекс' и нажала вызов.
+                Дрожащими пальцами она достала телефон. Батарея – девять процентов. Она нашла контакт 'Алекс' и нажала вызов.
                 """
 
                 # play sound "sounds/phone_dialing_tone.ogg"
@@ -108,8 +112,8 @@ label chapter2_act1_false_memories:
                 
                 Внезапно впереди, на противоположной полосе, показались мигающие сине-красные огни. Они приближались. Быстро.
                 """
-
-                scene bg chapter_2_false_memories-highway_night_police with fade
+                play sound "sfx/police_sirens_distant.mp3" fadein 15.0 loop
+                scene bg chapter_2_false_memories-highway_night_police with dissolve
                 # play sound "sounds/sirens_approaching_fast_opposite_lane.ogg"
 
                 narrator """
@@ -125,7 +129,9 @@ label chapter2_act1_false_memories:
                 
                 Машину занесло, но она удержала ее на самой кромке обочины, почти в тени деревьев.
                 """
-                # play sound "sounds/tires_skid_wet_road_short.ogg"
+                
+                play sound "sfx/police_sirens_passby.mp3" fadein 5.0 fadeout 5.0
+
                 narrator"""
                 Она съежилась в кресле, стараясь стать невидимой. Полицейская машина с воем пронеслась мимо, в сторону гор, в сторону комплекса.
 
@@ -165,14 +171,11 @@ label chapter2_act1_false_memories:
 
                 # stop music fadeout 1.0
                 narrator "Она свернула с гладкого асфальта на грязную, разбитую колею. Машину тут же начало трясти еще сильнее. Дождь усилился, превратившись в ливень."
+                play ambient "ambient/raining_inside_car_driving.mp3" fadein 5.0 fadeout 5.0
                 # play music "sounds/forest_rain_despair_theme.ogg" loop
                 # play sound "sounds/rain_heavy_on_car.ogg" loop
                 # play sound "sounds/car_driving_mud_slow.ogg" loop
                 narrator "Навигатор тут же начал перестраивать маршрут, но вскоре сигнал GPS пропал в густом лесу и под плотными тучами."
                 # play sound "sounds/gps_voice_signal_lost.ogg" # Звук "GPS-сигнал потерян"
                 "Навигатор" "GPS-сигнал потерян."
-                
-                scene bg chapter_2_long_night-forest-drive with Dissolve(5.0)
-
-                narrator "Экран телефона погас, экономя последние проценты заряда. Теперь она ехала вслепую, в лесную тьму, под проливным дождем, на трех с половиной колесах, все дальше от цивилизации и все глубже в пучину отчаяния."
 return

@@ -1,0 +1,37 @@
+# Переменные:
+
+init python:
+    #oganesson_name_revealed = False
+    #argon_name_revealed = False
+    #fake_argon_name_revealed = False
+
+    if _preferences.language == "english_us":
+        oganesson_display_name = _("Trustee")
+        argon_display_name = _("???")
+    else:
+        oganesson_display_name = _("Опекунша")
+        argon_display_name = _("???")
+
+
+# Технические функции
+
+label reveal_oganesson_name:
+
+    if _preferences.language == "english_us":
+        $ oganesson_display_name = _("Oganesson")
+    else:
+        $ oganesson_display_name = _("Оганесон")
+
+label reveal_argon_name:
+
+    if _preferences.language == "english_us":
+        $ argon_display_name = _("Argon")
+    else:
+        $ argon_display_name = _("Аргон")
+
+label reveal_fake_argon_name:
+
+    if _preferences.language  == "english_us":
+        $ argon_display_name = _("Boris")
+    else:
+        $ argon_display_name = _("Борис")

@@ -470,3 +470,106 @@ translate english_us krypton_firstmeet_flashback_cd43e5ca:
     # narrator "Пауза. Девушка улыбается, и в ее глазах появляется искорка понимания."
     narrator "She pauses. The girl smiles, and a twinkle of understanding appears in her gaze."
 
+# TODO: Translation updated at 2025-09-22 22:26
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:97
+translate english_us krypton_firstmeet_flashback_4c5a4bc3:
+
+    # neon "Ты играешь ее как короткую передышку, чтобы набрать воздуха. А это не передышка. Это часть музыки."
+    neon "You're playing it like a short pause to catch your breath. But it's not a pause. It's part of the music."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:105
+translate english_us krypton_firstmeet_flashback_af7e3164:
+
+    # "???" "Фермата?..."
+    "???" "A fermata?..."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:105
+translate english_us krypton_firstmeet_flashback_c2043b21:
+
+    # "???" "Но... это же просто знак, чтобы подержать ноту дольше. Молчание."
+    "???" "But... isn't that just a symbol to hold a note longer? A silence."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:105
+translate english_us krypton_firstmeet_flashback_f9057adb:
+
+    # "???" "Мой преподаватель всегда говорил, что главное – это чистота звука, а не тишина."
+    "???" "My instructor always said the purity of the sound is what matters, not the silence."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:113
+translate english_us krypton_firstmeet_flashback_adc7ca9d:
+
+    # neon "Тишина – это то, что придает звуку форму и вес. Твоя музыка потому и 'не звучит', что в ней нет веса тишины."
+    neon "Silence is what gives sound its shape and weight. The reason your music doesn't 'resonate' is because it lacks the weight of that silence."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:119
+translate english_us krypton_firstmeet_flashback_d18ce34c:
+
+    # "???" "А вы... вы слышите то, что между ними."
+    "???" "And you... you hear what's in between the notes."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:119
+translate english_us krypton_firstmeet_flashback_76c49d31:
+
+    # "???" "А вас как зва...- {nw}"
+    "???" "And what's your na...- {nw}"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:132
+translate english_us krypton_firstmeet_flashback_f383208c:
+
+    # "???" "Неон... красивое имя. Как свет. А я... ...- {nw}"
+    "???" "Neon... that's a beautiful name. Like a light. And I'm... ...- {nw}"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:158
+translate english_us krypton_firstmeet_flashback_c9152a32:
+
+    # narrator "В порыве радости она хватает Неон за руку. Для Неон, не привыкшей к контакту, это было неожиданно, но вовсе не неприятно."
+    narrator "In a burst of joy, she grabbed Neon's hand. For Neon, who wasn't used to physical contact, it was unexpected, but not unpleasant in the slightest."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:166
+translate english_us krypton_firstmeet_flashback_ab4450f8:
+
+    # narrator "Я посмотрела на наши сцепленные руки. На ее лицо, сияющее от счастья. И впервые за много лет... я улыбнулась. Ни криво, ни сдержанно, а по-настоящему."
+    narrator "I looked down at our clasped hands. At her face, beaming with happiness. And for the first time in years... I smiled. Not a smirk, not a reserved smile, but a real one."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:173
+translate english_us krypton_firstmeet_flashback_2720b512:
+
+    # "???" "Гравитация? Ты хочешь сказать, я к тебе притягиваюсь?"
+    "???" "Gravity? Are you saying I'm drawn to you?"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:177
+translate english_us krypton_firstmeet_flashback_ea53aee7:
+
+    # neon "Все тела во вселенной притягиваются друг к другу."
+    neon "All bodies in the universe are drawn to one another."
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
+translate english_us krypton_firstmeet_flashback_0fd2c997:
+
+    # neon "{=thoughts}Это был сон. Просто сон от удара. {/thoughts}"
+    neon "{=thoughts}It was a dream. Just a dream from the crash. {/thoughts}"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
+translate english_us krypton_firstmeet_flashback_b401e6e6:
+
+    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас. {/thoughts}"
+    neon "{=thoughts}I have to focus on reality. On who's important right now. {/thoughts}"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
+translate english_us krypton_firstmeet_flashback_95fdcaf6:
+
+    # neon "{=thoughts}Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? {/thoughts}"
+    neon "{=thoughts}Alex... Right... Alex... I left her back there. Why did I run away? {/thoughts}"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
+translate english_us krypton_firstmeet_flashback_f34cedab:
+
+    # neon "{=thoughts}Она бы не сбежала. Она... моя подруга. {/thoughts}"
+    neon "{=thoughts}She wouldn't have run. She's... my friend. {/thoughts}"
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
+translate english_us krypton_firstmeet_flashback_0488e8f4:
+
+    # neon "{=thoughts} Я должна... вернуться... помочь... {/thoughts}"
+    neon "{=thoughts} I have to... go back... help her... {/thoughts}"

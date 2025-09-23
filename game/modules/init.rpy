@@ -7,16 +7,18 @@ init:
         transform restore_flip:
                 xzoom 1.0
         transform midright:
-            xcenter 0.75
+            xalign 0.75
+            yalign 1.0
         transform midleft:
-            xcenter 0.25
+            xalign 0.25
+            yalign 1.0
         transform enter_from_left(target_pos):
-            xcenter -1.0
-            ycenter 1.0
+            xalign -1.0
+            yalign 1.0
             linear 0.7
         transform enter_from_right(target_pos):
-            xcenter -1.0
-            ycenter 1.0
+            xalign -1.0
+            yalign 1.0
             linear 0.25
 
         $ flash = Fade(0.5, 0, 0.5, color="#FFFFFF")

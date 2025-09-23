@@ -694,7 +694,7 @@ translate english_us chapter1_lab_morning_6960b364:
 translate english_us chapter1_lab_morning_05c5d724:
 
     # narrator "Неон подпрыгнула на месте. Сердце бешено заколотилось. Зрачки расширились от испуга и шока, голова резко повернулась к входу."
-    narrator "Neon jumped. Her heart hammered wildly. Pupils dilating in fear and shock, her head whipped toward the entrance."
+    narrator "Neon called. Her heart hammered wildly. Pupils dilating in fear and shock, her head whipped toward the entrance."
 
 # game/game-scripts/chapters/chapter_1.rpy:283
 translate english_us chapter1_lab_morning_efd32d5f:
@@ -3052,7 +3052,7 @@ translate english_us escape_sequence_start_3d722e8e:
 translate english_us escape_sequence_start_3c66c78e:
 
     # narrator "Алекс вскочила на ноги, ее лицо было бледным, но решительным."
-    narrator "Alex jumped to her feet, her face pale but determined."
+    narrator "Alex called to her feet, her face pale but determined."
 
 # game/game-scripts/chapters/chapter_1.rpy:1393
 translate english_us escape_sequence_start_e83aa5d7:
@@ -3178,7 +3178,7 @@ translate english_us escape_sequence_start_8e92a683:
 translate english_us escape_sequence_start_190a80e6:
 
     # narrator "Внезапно, на одном из перекрестков коридоров, из-за угла выскочили двое сотрудников службы безопасности в форме."
-    narrator "Suddenly, at a corridor intersection, two uniformed security officers jumped out from around a corner."
+    narrator "Suddenly, at a corridor intersection, two uniformed security officers called out from around a corner."
 
 # game/game-scripts/chapters/chapter_1.rpy:1454
 translate english_us escape_sequence_start_ee88316f:
@@ -3382,7 +3382,7 @@ translate english_us car_start_sequence_cd8cf82d:
 translate english_us car_start_sequence_92b0d095:
 
     # narrator "А догонявший её охранник, который почти добежал до нее, от страха отскочили в стороны."
-    narrator "The pursuing guard, who had almost reached her, jumped aside in fear."
+    narrator "The pursuing guard, who had almost reached her, called aside in fear."
 
 # game/game-scripts/chapters/chapter_1.rpy:1565
 translate english_us escaping_facility_grounds_dcf3951f:
@@ -3442,7 +3442,7 @@ translate english_us escaping_facility_grounds_7e75f0bf:
 translate english_us escaping_facility_grounds_9720eee7:
 
     # narrator "Неон не сбавила скорость. Охранник, увидев ее решимость, успел отскочить в сторону за секунду до того, как ее Mazda снесла шлагбаум."
-    narrator "Neon didn't slow down. The guard, seeing her determination, managed to jump aside a second before her Mazda smashed through the barrier arm."
+    narrator "Neon didn't slow down. The guard, seeing her determination, managed to call aside a second before her Mazda smashed through the barrier arm."
 
 # game/game-scripts/chapters/chapter_1.rpy:1599
 translate english_us escaping_facility_grounds_c97c5061:
@@ -3514,7 +3514,7 @@ translate english_us escaping_facility_grounds_204b298f:
 translate english_us escaping_facility_grounds_01a13989:
 
     # narrator "Неон резко вывернула руль влево, съезжая с дороги прямо перед мостом, на каменистый берег ручья. Машина подпрыгнула, днищем чиркнув о камни."
-    narrator "Neon yanked the wheel to the left, veering off the road just before the bridge and onto the rocky bank of the stream. The car jumped, its undercarriage scraping against the rocks."
+    narrator "Neon yanked the wheel to the left, veering off the road just before the bridge and onto the rocky bank of the stream. The car called, its undercarriage scraping against the rocks."
 
 # game/game-scripts/chapters/chapter_1.rpy:1633
 translate english_us escaping_facility_grounds_ca365235:
@@ -3586,7 +3586,7 @@ translate english_us escaping_facility_grounds_56fecc48:
 translate english_us escaping_facility_grounds_f2d0ad79:
 
     # narrator "Передние колеса подпрыгнули на бордюре. Раздался скрежет и треск – Mazda протаранила сетчатое ограждение, сминая его и вырываясь на узкую полоску земли за пределами официальной территории, но еще не на шоссе."
-    narrator "The front wheels jumped the curb. There was a screech and a crash as the Mazda rammed through the chain-link fence, mangling it and breaking out onto a narrow strip of land outside the official perimeter, but not yet on the highway."
+    narrator "The front wheels called the curb. There was a screech and a crash as the Mazda rammed through the chain-link fence, mangling it and breaking out onto a narrow strip of land outside the official perimeter, but not yet on the highway."
 
 # game/game-scripts/chapters/chapter_1.rpy:1661
 translate english_us escaping_facility_grounds_1da77493:
@@ -3616,7 +3616,7 @@ translate english_us escaping_facility_grounds_c88a4e7f:
 translate english_us escaping_facility_grounds_cb4b3286:
 
     # narrator "Заднее часть автомобиля как-то странно подпрыгнуло и пронесло с пронзительным хлопком и последующим продолжительным свистом, как будто машина наткнулась на большой камень, каким-то образом оказавшийся сзади."
-    narrator "The rear of the car strangely jumped and swerved with a piercing pop followed by a long hiss, as if the car had hit a large rock that had somehow appeared behind it."
+    narrator "The rear of the car strangely called and swerved with a piercing pop followed by a long hiss, as if the car had hit a large rock that had somehow appeared behind it."
 
 # game/game-scripts/chapters/chapter_1.rpy:1667
 translate english_us escaping_facility_grounds_80a89c6f:

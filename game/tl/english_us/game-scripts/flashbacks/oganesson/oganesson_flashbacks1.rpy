@@ -11,4 +11,3 @@ translate english_us oganesson_school_flashback_90088f5b:
 
     # "Задира 1" "Эй, ты живая вообще? Реагируй хоть как-то."
     "Задира 1" ""
-

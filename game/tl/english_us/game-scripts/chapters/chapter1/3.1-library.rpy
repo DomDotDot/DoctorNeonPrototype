@@ -4,37 +4,37 @@
 translate english_us chapter1_lab_noon_library_8fa25f17:
 
     # narrator "Библиотека оказалась просторной и почти пустой."
-    narrator ""
+    narrator "The library was spacious and nearly empty."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:6
 translate english_us chapter1_lab_noon_library_fb27d03b:
 
     # narrator "Высокие стеллажи из темного дерева уходили под потолок, уставленные толстыми томами научных журналов и монографий. Пахло пылью, старой бумагой."
-    narrator ""
+    narrator "Tall, dark wood shelves reached to the ceiling, filled with thick volumes of scientific journals and monographs. It smelled of dust and old paper."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:6
 translate english_us chapter1_lab_noon_library_8014d7ee:
 
     # narrator "Неон выбрала стол в самом дальнем углу, под старой лампой с зеленым абажуром, напоминавшей ей о студенческих временах."
-    narrator ""
+    narrator "Neon chose a table in the farthest corner, under an old lamp with a green shade that reminded her of her student days."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:6
 translate english_us chapter1_lab_noon_library_ca1c72b6:
 
     # narrator "Тишина здесь была почти абсолютной, густой и обволакивающей. Идеальное место, чтобы сосредоточиться."
-    narrator ""
+    narrator "The silence here was nearly absolute, thick and enveloping. The perfect place to concentrate."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:6
 translate english_us chapter1_lab_noon_library_e5c090f4:
 
     # narrator "Она положила на стол стопку бумаги, свои заметки, дешевую ручку."
-    narrator ""
+    narrator "She placed the stack of paper, her notes, and the cheap pen on the table."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:6
 translate english_us chapter1_lab_noon_library_c83aefa1:
 
     # narrator "Сделала глубокий вдох, пытаясь унять легкую дрожь в руках – смесь волнения и кофеина."
-    narrator ""
+    narrator "She took a deep breath, trying to still the slight tremor in her hands—a mix of nerves and caffeine."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:6
 translate english_us chapter1_lab_noon_library_564d907b:
@@ -77,4 +77,3 @@ translate english_us chapter1_lab_noon_library_03659481:
 
     # narrator "Только там они были синие, с неуклюжим логотипом ETH Zurich."
     narrator "Except those were blue, with the clumsy ETH Zurich logo."
-

@@ -346,4 +346,3 @@ translate english_us strings:
     old "Громкость фоновых звуков"
     new "Ambient Volume"
 
-

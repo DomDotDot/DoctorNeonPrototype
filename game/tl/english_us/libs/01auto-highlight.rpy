@@ -36,3 +36,19 @@ translate english_us b9327469:
     # "Transforms"
     ""
 
+translate english_us strings:
+    old "old:1758610390.2041187_49"
+    new "new:1758610390.2041187_49"
+
+    old " Transforms "
+    new " Transforms "
+
+    old " General Note "
+    new " General Note "
+
+    old " Setup (IMPORTANT) "
+    new " Setup (IMPORTANT) "
+
+    old " Variables "
+    new " Variables "
+

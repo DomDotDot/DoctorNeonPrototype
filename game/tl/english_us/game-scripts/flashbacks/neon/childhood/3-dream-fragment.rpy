@@ -35,4 +35,3 @@ translate english_us dream_sequence_japan_3_bda8a343:
 
     # narrator "Я начинаю плакать от чувства вины."
     narrator ""
-
