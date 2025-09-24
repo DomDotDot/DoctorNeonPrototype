@@ -30,7 +30,7 @@ translate english_us confrontation_path_c2d45c60:
 translate english_us confrontation_path_f3c15405:
 
     # narrator "Маркус заговорил все быстрее, его голос становился все громче и резче."
-    narrator ""
+    narrator "Marcus spoke faster and faster, his voice growing louder and sharper."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:79
 translate english_us confrontation_path_87f1ac43:

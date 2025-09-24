@@ -4,11 +4,11 @@ translate english_us strings:
 
     # game/libs/gallery.rpy:98
     old "Previous"
-    new ""
+    new "Previous"
 
     # game/libs/gallery.rpy:101
     old "Next"
-    new ""
+    new "Next"
 
 translate english_us strings:
     old "old:1758610390.2081199_50"

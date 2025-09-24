@@ -10,13 +10,13 @@ translate english_us krypton_firstmeet_flashback_f01abcb9:
 translate english_us krypton_firstmeet_flashback_87f1ba57:
 
     # "Задира 1" "Эй, Мальвина! Опять головой в чернильницу упала?"
-    "Задира 1" "Hey, Blueberry! Fall head-first into an inkwell again?"
+    "Bully 1" "Hey, Blueberry! Fall head-first into an inkwell again?"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:10
 translate english_us krypton_firstmeet_flashback_f2cbeb47:
 
     # "Задира 2" "Да ты что, это же не чернила, а краска для волос! Ха-ха-ха!"
-    "Задира 2" "Nah, man, that's not ink, it's hair dye! Ha-ha-ha!"
+    "Bully 2" "Nah, man, that's not ink, it's hair dye! Ha-ha-ha!"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:12
 translate english_us krypton_firstmeet_flashback_1b0c5e07:
@@ -232,7 +232,7 @@ translate english_us krypton_firstmeet_flashback_0694b63c:
 translate english_us krypton_firstmeet_flashback_eafbf967:
 
     # "???" "Неон... красивое имя. Как свет. А я- {nw}"
-    "???" "Neon... a beautiful name. Like light. And I'm—{nw}"
+    "???" "Neon... a beautiful name. Just like light! So my na-{nw}"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:127
 translate english_us krypton_firstmeet_flashback_c995273a:
@@ -310,7 +310,7 @@ translate english_us krypton_firstmeet_flashback_587e4283:
 translate english_us krypton_firstmeet_flashback_b049a29e:
 
     # "???" "Нет, это все благодаря тебе!"
-    "???" "No, it's all thanks to you!"
+    "???" "No-no! It's all thanks to you!"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:157
 translate english_us krypton_firstmeet_flashback_cb5c0260:
@@ -488,7 +488,7 @@ translate english_us krypton_firstmeet_flashback_af7e3164:
 translate english_us krypton_firstmeet_flashback_c2043b21:
 
     # "???" "Но... это же просто знак, чтобы подержать ноту дольше. Молчание."
-    "???" "But... isn't that just a symbol to hold a note longer? A silence."
+    "???" "But... isn't that just a symbol to hold a note longer? Like... silence?"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:105
 translate english_us krypton_firstmeet_flashback_f9057adb:
@@ -512,13 +512,13 @@ translate english_us krypton_firstmeet_flashback_d18ce34c:
 translate english_us krypton_firstmeet_flashback_76c49d31:
 
     # "???" "А вас как зва...- {nw}"
-    "???" "And what's your na...- {nw}"
+    "???" "So... what's your na...- {nw}"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:132
 translate english_us krypton_firstmeet_flashback_f383208c:
 
     # "???" "Неон... красивое имя. Как свет. А я... ...- {nw}"
-    "???" "Neon... that's a beautiful name. Like a light. And I'm... ...- {nw}"
+    "???" "Neon... that's a beautiful name. Just ike a light! So my name... ...- {nw}"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:158
 translate english_us krypton_firstmeet_flashback_c9152a32:
@@ -536,13 +536,13 @@ translate english_us krypton_firstmeet_flashback_ab4450f8:
 translate english_us krypton_firstmeet_flashback_2720b512:
 
     # "???" "Гравитация? Ты хочешь сказать, я к тебе притягиваюсь?"
-    "???" "Gravity? Are you saying I'm drawn to you?"
+    "???" "Gravity? Are you saying I'm attracted to you?"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:177
 translate english_us krypton_firstmeet_flashback_ea53aee7:
 
     # neon "Все тела во вселенной притягиваются друг к другу."
-    neon "All bodies in the universe are drawn to one another."
+    neon "All bodies in the universe are attracted to one another."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
 translate english_us krypton_firstmeet_flashback_0fd2c997:

@@ -654,4 +654,17 @@ translate english_us chapter2_act3_facing_reality_5783f7bf:
 translate english_us chapter2_act3_facing_reality_76b2fe88:
 
     # nvl clear
-    nvl clear
+    nvl clear# TODO: Translation updated at 2025-09-24 09:19
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:9
+translate english_us chapter2_act3_facing_reality_fd1b2b3f:
+
+    # narrator "Она вспомнила угрожающий образ таинствнной женщины из сна."
+    narrator "She remembered the menacing image of the mysterious woman from the dream."
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:24
+translate english_us chapter2_act3_facing_reality_00a84c47:
+
+    # narrator_nvl "Я всегда была... трусихой."
+    narrator_nvl "I've always been. .. a scaredy-cat."
+

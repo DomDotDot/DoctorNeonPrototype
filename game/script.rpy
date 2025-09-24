@@ -6,28 +6,28 @@
         stop voice fadeout 1.0
     
         label chapter_0_prologue:
-                call chapter_0_prologue_rpy
+                call chapter_0_prologue_rpy from _call_chapter_0_prologue_rpy
 
 
 
         label chapter_1:
-                call chapter_1_rpy
+                call chapter_1_rpy from _call_chapter_1_rpy
 
 
 
         label chapter_2:
-                call chapter_2_rpy
+                call chapter_2_rpy from _call_chapter_2_rpy
 
 
 
         label chapter_3:
-                menu:
-                        "Я знаю, что клиффхэнгеры могут расстраивать, поэтому сейчас я дам вам прочесть фрагмент третьей главы. Пожалуйста, обратите внимание, что глава 3 находится на ранней стадии разработки. Лучше воздержаться от начала игры."
-                        
-                        "Играть в Главу 3 (В РАЗРАБОТКЕ)":
-                                call chapter_3_rpy
-                        "Пока":
-                                call end from _call_end
+                call chapter_3_rpy from _call_chapter_3_rpy
+
+
+        
+        label chapter_4:
+                call chapter_4_rpy from _call_chapter_4_rpy
+
 
 
 

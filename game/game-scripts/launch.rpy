@@ -30,7 +30,7 @@ label splashscreen:
     
         if renpy.pause(8.5):
     
-            call skip_splash
+            call skip_splash from _call_skip_splash
 
     scene black
     with fade

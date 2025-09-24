@@ -12,8 +12,8 @@ translate english_us strings:
     old "The Brightest Neon"
     new "The Brightest Neon"
 
-    old "The Brightest Neon - Semitone Resonance"
-    new "The Brightest Neon - Полутонный Резонанс"
+    old "The Brightest Neon - Полутонный Резонанс"
+    new "The Brightest Neon - Semitone Resonance"
 
     # game/options.rpy:32
     old "\n\nСпасибо за игру в этот прототип. Это моя первая визуальная новелла, и я многому научился в процессе её создания. Я надеюсь, что вам понравится история и персонажи, и я с нетерпением жду возможности поделиться с вами остальной частью истории в будущем.\n\n\n\n________________________________________\n\n\n\nАвтор и разработчик: Dot\n\n\n\n________________________________________\n\n\n\nРоялти-фри Музыка и звуковые эффекты:\n\n\n\n1. Purge Protocol (by ksho) - https://www.youtube.com/@kshowashere\n\n\n\n\n\n\n\nLicensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/\n\n________________________________________"
@@ -28,4 +28,12 @@ translate english_us strings:
 
     old "DoctorNeonPrototype-1744495698"
     new "DoctorNeonPrototype-1744495698"
+
+# TODO: Translation updated at 2025-09-23 11:36
+
+translate english_us strings:
+
+    # game/options.rpy:15
+    old "The Brightest Neon - Semitone Resonance"
+    new "The Brightest Neon - Semitone Resonance"
 

@@ -40,7 +40,7 @@ translate english_us dream_sequence_japan_1_f31f6436:
 translate english_us dream_sequence_japan_1_1749bd1e:
 
     # akane "Осторожно, Неон, не разлей."
-    akane "Careful, Neon, don't spill it."
+    akane "Please, careful, Neon, don't spill it."
 
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:25
 translate english_us dream_sequence_japan_1_2f199487:
@@ -94,7 +94,7 @@ translate english_us dream_sequence_japan_1_8d6e0395:
 translate english_us dream_sequence_japan_1_3d8c763b:
 
     # oganesson_young "Ты уже большая девочка, Неон. Скоро пойдешь в школу. Будешь учиться усердно, хорошо?"
-    oganesson_young "You're a big girl now, Neon. You'll be starting school soon. You'll study hard, alright?"
+    oganesson_young "You're a such big girl now, Neon. You'll be starting school soon. You'll study hard, alright?"
 
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:44
 translate english_us dream_sequence_japan_1_1fdd07aa:
@@ -150,7 +150,7 @@ translate english_us dream_sequence_japan_1_2b9350d3:
 translate english_us dream_sequence_japan_1_60360d58:
 
     # akane "Вот, Неон, выпей. Чай холодный, сегодня такой жаркий день!"
-    akane "Here, Neon, drink this. The tea is cold, and it's such a hot day today!"
+    akane "Here, Neon, have a drink. The tea is nice and cold, it's so hot today!"
 
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:26
 translate english_us dream_sequence_japan_1_aa2d290e:
