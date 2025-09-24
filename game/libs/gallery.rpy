@@ -56,7 +56,7 @@ screen gallery():
             # Provide button name, a list of images to display, and alternatively a path to a custom thumbnail
             gallery_items.append(GalleryItem("Кафетерия", ["cg cg1"]))
         
-            gallery_items.append(GalleryItem("Доклад", ["cg cg2_1", "cg cg2_2", "cg cg2_3", "cg cg2_4", "cg cg2_5"]))
+            gallery_items.append(GalleryItem("Доклад", ["cg cg2_1", "cg cg2_3", "cg cg2_4", "cg cg2_5"]))
 
             gallery_items.append(GalleryItem("Фрагмент Воспоминаний Детства 1", ["cg cg3_1"]))
 
@@ -69,6 +69,34 @@ screen gallery():
             gallery_items.append(GalleryItem("Побег", ["cg cg7_1", "cg cg7_2", "cg cg7_3", "cg cg7_5_1", "cg cg7_5", "cg cg7_6", "cg cg7_8", "cg cg7_9"]))
 
             gallery_items.append(GalleryItem("Фрагмент Воспоминаний Детства 4", ["cg cg8_1", "cg cg8_2"]))
+
+            gallery_items.append(GalleryItem("Маршрут Перестроен", ["cg cg9"]))
+
+            gallery_items.append(GalleryItem("Ночная Мазда", ["cg cg10"]))
+
+            gallery_items.append(GalleryItem("Звук снова победил тишину", ["cg cg11_1-1", "cg cg11_2", "cg cg11_3-1"]))
+
+            gallery_items.append(GalleryItem("РАЗЫСКИВАЕТСЯ", ["cg cg12_1", "cg cg12_1-1", "cg cg12_2"]))
+
+            gallery_items.append(GalleryItem("Уют Дома", ["cg cg13_1", "cg cg13_21"]))
+
+            gallery_items.append(GalleryItem("Промзона", ["cg cg14"]))
+
+            gallery_items.append(GalleryItem("Путь в Никуда", ["cg cg15_1", "cg cg15_2"]))
+
+            gallery_items.append(GalleryItem("Идиллия", ["cg cg16"]))
+
+            gallery_items.append(GalleryItem("Разрушение Идиллии", ["cg cg17"]))
+
+            gallery_items.append(GalleryItem("Разговоры на костре", ["cg cg18"]))
+
+            gallery_items.append(GalleryItem("Анализы", ["cg cg19"]))
+
+            gallery_items.append(GalleryItem("Сортировочная Станция", ["cg cg20_1", "cg cg20_2", "cg cg20_3"]))
+
+            gallery_items.append(GalleryItem("Детская площадка", ["cg cg22"]))
+
+            gallery_items.append(GalleryItem("Я и мой Папа - Аргон!", ["cg cg23"]))
             # gallery_items.append(GalleryItem("gres", ["cg gres", "cg gres side"], "images/cg/cg gres thumbnail.jpg"))
 
             for item in gallery_items:
