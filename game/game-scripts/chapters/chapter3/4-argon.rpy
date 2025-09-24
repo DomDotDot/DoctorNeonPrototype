@@ -41,7 +41,11 @@ label ch3_part2_the_cage:
     # Появление Аргона
     # music "sounds/argon_theme_main.ogg" loop # Главная музыкальная тема Аргона
     
-    
+    if _preferences.language == "english_us":
+        $ argon_display_name = "???"
+    else:
+        $ argon_display_name = "???"
+
     argon "Думаешь, если говорить с пустотой, она тебе ответит?"
 
     show argon painter_apathy at left with dissolve # Аргон появляется из тени

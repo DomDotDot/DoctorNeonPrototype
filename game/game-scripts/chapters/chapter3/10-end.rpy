@@ -5,7 +5,7 @@ label chapter3_on_train:
     # Аргон и Неон в товарном вагоне.
     scene black with fade
     queue music "music/BGM/SelfAffirmation.ogg" fadein 5.0 loop volume 0.25 # Музыка: монотонный, меланхоличный стук колес
-    # play sound "sounds/train_wheels_clatter_loop.ogg" loop # Звук: стук колес
+    play ambient "ambient/freight-train.mp3" fadein 2.0
 
     narrator """
     Мы снова вернулись на опустевшую станцию.
@@ -154,4 +154,6 @@ label chapter3_on_train:
     stop music fadeout 5.0
     stop ambient fadeout 5.0
     stop sound fadeout 5.0
+
+    scene black with Dissolve(5.0)
     return

@@ -83,7 +83,10 @@ label ch3_path_to_station:
     ...Борис. Зови меня Борис.
     """
 
-    $ argon_display_name = _("Борис")
+    if _preferences.language == "english_us":
+        $ argon_display_name = "Boris"
+    else:
+        $ argon_display_name = "Борис"
 
     argon "Ты думаешь, они поверят в твою невиновность, даже если ты докажешь, что Марк вор?"
  
@@ -103,6 +106,7 @@ label ch3_path_to_station:
 
     # Прибытие на станцию
     scene black with Dissolve(5.0)
+    play music "music/BGM/FM-Modul.ogg" fadein 5.0 fadeout 10.0 volume 0.5
     # stop sound # Останавливаем звук фургона
     # music "sounds/sorting_station_tense_ambient.ogg" loop # Музыка для станции: напряженная, тихая, с индустриальными звуками
     rico "Стоп. Здесь."

@@ -4,6 +4,7 @@ define neon = Character(_('Неон'), color="#1f4bc4", image="neon", ctc="ctc_n
 layeredimage neon:
     at sprite_highlight('neon')
 
+
 define argon = Character("[argon_display_name]", color="#457632", image="argon", dynamic=True, what_slow_cps_multiplier=0.65, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "argon")
 
 define marcus = Character(_('Маркус'), color="#967230", image="marcus", what_slow_cps_multiplier=0.85, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = "marcus")
@@ -12,6 +13,8 @@ layeredimage marcus:
 
 
 define alex = Character(_('Алекс'), color="#b41f5d", image="alex", what_slow_cps_multiplier=1.25, ctc="ctc_blink", ctc_position="nestled")
+
+define oganesson_display_name = _("Опекунша")
 define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True, what_slow_cps_multiplier=0.75, ctc="ctc_blink", ctc_position="nestled")
 define oganesson_young = Character(_('Тетя-гостья'), color="#390482", image="oganesson", what_slow_cps_multiplier=0.80, ctc="ctc_blink", ctc_position="nestled") # Имя скрыто для Неон
 

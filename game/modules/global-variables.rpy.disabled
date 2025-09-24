@@ -7,10 +7,8 @@ init python:
 
     if _preferences.language == "english_us":
         oganesson_display_name = _("Trustee")
-        argon_display_name = _("???")
     else:
         oganesson_display_name = _("Опекунша")
-        argon_display_name = _("???")
 
 
 # Технические функции

@@ -91,7 +91,10 @@ label chapter3_breather:
     narrator "Я осторожно поставила рамку на место и, сжав кулаки, вернулась в гостиную."
 
     # Возвращение в гостиную
-    $ argon_display_name = _("Аргон")
+    if _preferences.language == "english_us":
+        $ argon_display_name = "Argon"
+    else:
+        $ argon_display_name = "Аргон"
 
     scene bg chapter_3_argon-apartment-old-lounge with fade
     show argon suit_determination with dissolve
