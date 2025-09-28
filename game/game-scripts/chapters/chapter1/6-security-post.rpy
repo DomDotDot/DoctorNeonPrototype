@@ -1,7 +1,8 @@
 label chapter1_security_post_scene:
 
+
         # Неон и Алекс у поста охраны
-        scene bg chapter_1_security_post_interior with fade # Фон: пост охраны, мониторы
+        scene bg chapter_1_security_post_interior with fade
         
         show neon neutral at flip 
         show alex concerned at flip
@@ -56,7 +57,8 @@ label chapter1_security_post_scene:
         hans "Тише, тише. Делайте свое дело быстро. И чтобы я об этом больше не слышал."
 
         narrator "Ханс начал что-то набирать на клавиатуре. На одном из мониторов появилось изображение коридора у офиса Неон. Он запустил ускоренную перемотку."
-        # show screen security_footage (image="images/corridor_footage_placeholder.png") # Показать экран с "записью"
+
+        # show screen security_footage (image="images/corridor_footager.png") # Показать экран с "записью"
         narrator """
         Ночь. Пустой коридор. Вот мелькнул робот-уборщик. Вот прошла Неон, возвращаясь в офис поздно вечером.
 
@@ -72,5 +74,4 @@ label chapter1_security_post_scene:
         narrator "Ханс, не поворачиваясь, кашлянул."
         hans "Так, девушки, просмотр окончен. Архив закрыт. Ничего не видел, ничего не знаю."
         # hide screen security_footage
-        # stop music fadeout 1.0
 return

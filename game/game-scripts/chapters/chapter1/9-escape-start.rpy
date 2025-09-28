@@ -1,8 +1,6 @@
 label escape_sequence_start:
 
         # Неон и Алекс в коридоре после нападения
-        # scene corridor_admin_approach # Тот же фон, но можно добавить эффект дрожания камеры или размытия по краям, чтобы показать шок Неон
-        # play music "sounds/escape_tense_theme.ogg" loop # Музыка для побега
         
         show neon dazed with dissolve
         
@@ -62,8 +60,8 @@ label escape_sequence_start:
 
         Они выбежали на еще один служебный коридор – холодный, бетонный, с трубами, идущими вдоль стен. Вдалеке завыла сирена.
         """
-
         # play sound "sounds/alarm_siren_distant_start.ogg" loop # Звук сирены, сначала тихий
+
         scene bg chapter_1_lab_service_basement with dissolve # Фон: подвальный коридор
 
         alex "Черт! Они уже подняли тревогу! Быстрее!"
@@ -96,17 +94,12 @@ label escape_sequence_start:
         # play sound "sounds/scuffle_sounds_short.ogg" # Звуки короткой потасовки
         # hide security_guard1
         # hide security_guard2
-        # hide alex_casual # Алекс исчезает из вида
 
         narrator """
         Неон на мгновение застыла, видя, как Алекс борется с двумя мужчинами, но инстинкт самосохранения и отчаянный взгляд подруги заставили ее бежать дальше.
 
         Чувство вины перед Алекс добавилось к уже невыносимому грузу на ее душе. Но она бежала. Бежала, как никогда в жизни.
         """
-
-        # Звук сирены становится громче
-        # stop sound # Остановить предыдущую сирену, если она была тише
-        # play sound "sounds/alarm_siren_louder.ogg" loop # Более громкая сирена
 
         narrator """
         Наконец, впереди показалась тяжелая металлическая дверь с надписью 'Выход на Парковку Р2'.
@@ -115,7 +108,6 @@ label escape_sequence_start:
         """
 
         scene bg chapter_1_lab_parkinglot with dissolve # Фон: подземная парковка, закатные лучи из вентиляционных шахт или въезда
-        # music "sounds/parking_garage_tension.ogg" loop fadein 1.0 # Новая музыка для парковки, напряженная, с эхом
 
         narrator """
         Парковка была полупустой. Тусклый свет люминесцентных ламп смешивался с последними лучами заходящего солнца, проникавшими через широкие въездные ворота в дальнем конце и вентиляционные решетки под потолком.

@@ -2,12 +2,9 @@ label chapter2_act5_anomic_arrival:
                 # Финальная сцена главы
                 scene bg chapter_2_anomic-van-inside with Fade(2.0, 0.25, 0.25)
                 queue music "music/BGM/MoonAndDeath.ogg" fadein 5.0 noloop volume 0.5
-                # scene factory_anomic_dawn with Fade(5.0) # Медленное проявление: рассвет над заводом в Аномике
-                # music "sounds/anomic_factory_theme.ogg" loop # Гнетущая, индустриальная тема
                 
                 narrator "Она проснулась от резкого толчка. Фургон остановился. Дверь с грохотом отъехала в сторону, впуская внутрь холодный, влажный воздух и багровый свет рассвета."
                 # play sound "sounds/van_sliding_door_open_heavy.ogg"
-                # stop music fadeout 1.0
                 narrator "Они приехали. Перед ней возвышался огромный, ржавый скелет промышленного завода. Он стоял посреди умирающего города Аномик, окутанный остатками ночного тумана. На трубах и стенах виднелись следы коррозии."
                 guts "Приехали. Добро пожаловать в твой новый дом. И на твою новую работу."
 

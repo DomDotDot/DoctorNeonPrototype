@@ -1,5 +1,3 @@
-# --- Глава 4, Часть 4: Передышка и Новый План ---
-
 label chapter3_breather:
 
     # Аргон и Неон идут по улицам Аномика.
@@ -26,7 +24,6 @@ label chapter3_breather:
 
     Мы подошли к одному из подъездов. Цифра '3' на табличке была почти не видна из-за грязи и коррозии. Дверь была сорвана с петель.
     """
-    # scene anomic_stairwell_dark with Dissolve(0.5) # Фон: темный, обшарпанный подъезд
     narrator "Внутри пахло сыростью и запустением. Мы поднимались по темной лестнице, наши шаги отдавались гулким эхом. На стенах – обрывки старых обоев и выцветшие тени детских рисунков."
 
     # В квартире Аргона
@@ -100,7 +97,6 @@ label chapter3_breather:
     show argon suit_determination with dissolve
     show neon suspicious at left with dissolve
     show neon at flip
-    # music "sounds/aftermath_calm_theme.ogg" loop
     narrator "Аргон стоял у окна, как ни в чем не бывало, глядя на туманные огни Аномика."
 
     show argon at flip

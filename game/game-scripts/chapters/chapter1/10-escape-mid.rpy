@@ -1,8 +1,5 @@
 label car_start_sequence:
 
-        # Неон у своей машины на парковке
-        # scene parking_garage_dim # Тот же фон
-        # music "sounds/parking_garage_tension.ogg" # Музыка продолжается
         # play sound "sounds/car_remote_unlock_beep.ogg" # Звук снятия с сигнализации
 
         narrator """
@@ -18,6 +15,7 @@ label car_start_sequence:
 
         Она судорожно вставила ключ в замок зажигания. Руки тряслись так, что она не сразу попала.
         """
+
         # play sound "sounds/keys_fumbling.ogg"
         narrator "Поворот ключа. Приборная панель ожила, загорелись индикаторы."
         # play sound "sounds/car_ignition_acc_on.ogg"
@@ -46,6 +44,4 @@ label car_start_sequence:
         narrator "Машина дернулась и с визгом шин рванула с места, едва не задев парковочную колонну."
         # play sound "sounds/tires_squeal_short.ogg"
         narrator "А догонявший её охранник, который почти добежал до нее, от страха отскочили в стороны."
-
-        # Переход к сцене выезда с территории
 return

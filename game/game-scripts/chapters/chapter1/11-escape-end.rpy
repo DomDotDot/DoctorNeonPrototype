@@ -1,8 +1,6 @@
 label escaping_facility_grounds:
 
         # Неон выезжает с парковки
-        # scene car_interior_neon_driving_fast with Dissolve(0.5)
-        # music "sounds/car_chase_intense_theme.ogg" loop
         # play sound "sounds/car_engine_driving_interior.ogg" loop
 
         narrator """
@@ -14,7 +12,6 @@ label escaping_facility_grounds:
        
         Из динамиков в потолке тоннеля уже раздавался искаженный голос системы оповещения:
         """
-        #play sound "sfx/Intercom-announcement_1.mp3"
         stop ambient fadeout 5.0
         play music "music/BGM/Purge.ogg" fadein 10.0 fadeout 10.0
 
@@ -26,6 +23,7 @@ label escaping_facility_grounds:
 
         neon "Черт..."
         narrator "Она вылетела из подземного уровня на поверхность. Закат окрасил небо в тревожные багрово-оранжевые тона. Горные пики отбрасывали длинные тени на территорию комплекса."
+        
         show cg cg7_2 with fade # Фон: наземная территория комплекса, закат
 
         narrator """
@@ -33,7 +31,7 @@ label escaping_facility_grounds:
         
         Сейчас шлагбаум был опущен, а рядом с будкой стоял охранник, уже предупрежденный по рации.
         """
-        # show screen car_view_checkpoint_surface_manned (image="images/checkpoint_surface_manned.png")
+
         narrator "Неон не сбавила скорость. Охранник, увидев ее решимость, успел отскочить в сторону за секунду до того, как ее Mazda снесла шлагбаум."
         # play sound "sounds/barrier_crash_metal_loud.ogg" # Шлагбаум металлический, звук громче
         # play sound "sounds/shout_security_alarmed_angry.ogg"
@@ -44,9 +42,6 @@ label escaping_facility_grounds:
         
         В зеркале заднего вида она увидела, как со стороны одного из гаражей выезжает тяжелый внедорожник службы безопасности – черный, массивный, похожий на Хамви.
         """
-
-
-        # play sound "sounds/heavy_vehicle_engine_start_distant.ogg" # Звук заводящегося тяжелого внедорожника
         narrator "Погоня началась."
 
         narrator """
@@ -61,9 +56,7 @@ label escaping_facility_grounds:
         # play sound "sounds/humvee_engine_pursuit_closer.ogg" loop # Звук преследующего Хамви
 
         narrator "Впереди показался мост – узкий, однополосный, с низкими каменными ограждениями. Под ним шумел весенний ручей, несущий талые воды с гор."
-        # scene facility_bridge_stream with Dissolve(0.5) # Фон: мост через ручей
         narrator "И тут она увидела их. На другой стороне моста, блокируя выезд, стоял еще один такой же внедорожник охраны. Засада."
-        # show screen car_view_bridge_ambush (image="images/bridge_ambush_humvees.png")
         show cg cg7_5_1 with fade
         neon "Черт! Они перекрыли путь!"
         narrator """
@@ -102,10 +95,9 @@ label escaping_facility_grounds:
         # play sound "sounds/fence_crash_metal_tearing.ogg"
 
         narrator "Она оказалась на крутом, заросшем травой склоне, ведущем вниз, к шоссе, которое виднелось метрах в пятидесяти ниже."
-        # scene hillside_escape_to_highway with Dissolve(0.5) # Фон: машина на крутом склоне, внизу шоссе
         narrator "Машина неуправляемо покатилась вниз, подпрыгивая на кочках, ветки кустов хлестали по лобовому стеклу. Неон отчаянно крутила руль, пытаясь не перевернуться."
         # play sound "sounds/car_rolling_down_hill_branches.ogg"
-        # Ей продырявили колесо.
+
         show cg cg7_8 with fade
         narrator """
         Сзади, с территории комплекса, эхом доносились какие-то короткие, злые хлопки. Фейерверки?
@@ -116,6 +108,8 @@ label escaping_facility_grounds:
 
         Но сейчас Неон не думала об этом, сейчас главное для неё вырулить, справиться с управлением, убеж- {nw}
         """
+        # Ей продырявили колесо.
+
         stop music
         # play sound "sounds/gunshots_close_multiple_whizzing_ricochet.ogg" # Добавить звук рикошета для большей опасности
         scene black with dissolve
@@ -140,8 +134,6 @@ label escaping_facility_grounds:
         # play sound "sounds/massive_object_crash_nearby_multiple_impacts.ogg" # Звук падения тяжелого груза: несколько ударов, грохот, возможно, звук ломающегося дерева/металла контейнеров
         # play sound "sounds/glass_shattering_widespread.ogg" # Звук множества бьющихся стекол
 
-        # Музыка резко обрывается с искажением
-        # stop music abrupt_with_distortion # Резко обрываем музыку с эффектом искажения
         # play sound "sounds/aftermath_ringing_ears_muffled_sounds.ogg" loop # Звук тишины со звоном в ушах, все остальные звуки приглушены, как под водой
         narrator_nvl """
         Время растянулось, превратившись в вязкую, удушающую массу. А затем – хаос звуков.

@@ -4,7 +4,6 @@ label ch3_chase_start:
         narrator "Нужно еще что-то сделать, чтобы вывести его из себя."
         jump ch3_hall_explore
 
-    # music "sounds/chase_theme_factory.ogg" loop
     narrator "Он бежал на меня, как разъяренный бык. Нужно было решать, куда бежать!"
 
     menu:
@@ -51,7 +50,6 @@ label ch3_chase_start:
 # --- ЗАВЕРШЕНИЕ СЦЕНЫ ---
 
 label ch3_bouncer_success:
-    # Комбинация концовок из V1 и V2
     "Вышибала" """
     Ну ладно... черт с тобой.
 

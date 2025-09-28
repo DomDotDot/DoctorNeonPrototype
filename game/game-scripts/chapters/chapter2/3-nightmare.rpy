@@ -2,10 +2,9 @@ label nightmare_sequence:
 
                 # Неон проваливается в сон в холодной машине.
                 scene black with Fade(10.0, 0.5, 0.5) # Медленное затемнение
-                # music "sounds/nightmare_liminal_space_theme.ogg" loop # Новая музыка для сна: тихая, гулкая, с эмбиентными звуками и редкими диссонирующими нотами
 
                 # Сон: Лиминальное пространство парковки
-                scene bg chapter_2_nightmare-parking_lot with dissolve # Фон: та же парковка, но искаженная, пустая, бесконечная. Свет от ламп тусклый и неправильный, отбрасывает слишком длинные тени.
+                scene bg chapter_2_nightmare-parking_lot with dissolve # Фон: та же парковка из реальности, но искаженная, пустая, бесконечная. Свет от ламп тусклый и неправильный, отбрасывает слишком длинные тени.
                 play music "music/BGM/InHer.ogg" fadein 10.0 volume 0.25
                 # play sound "sounds/liminal_parking_ambience_echo.ogg" loop # Звуки: гул, эхо шагов (ее собственных), далекие, неразборчивые шепоты
 
@@ -16,8 +15,6 @@ label nightmare_sequence:
 
                 И вот, впереди, в круге тусклого света, я вижу силуэт. Алекс.
                 """
-
-                # show alex_dream_figure_still at center # Спрайт Алекс: стоит неподвижно, спиной или боком, лицо в глубокой тени
 
                 narrator "Она просто стоит. Неподвижно. Как будто ждет. Облегчение смешивается с тревогой. Я ускоряю шаг, почти бегу к ней."
                 show neon surprised at flip with fade
@@ -45,7 +42,6 @@ label nightmare_sequence:
                 А голос... ...голос искажен, с эхом, как будто он идет отовсюду сразу.
                 """
 
-                # show alex_dream_figure_watching at right # Алекс наблюдает
                 alex "Ты бросила меня, Неон."
                 alex "Ты всегда всех бросаешь и убегаешь. Зачем ты это делаешь?"
 
@@ -59,7 +55,6 @@ label nightmare_sequence:
                 И в этот момент из самой густой тени парковки медленно выходит третья фигура.
                 """
  
-                # show oganesson_dream_figure at left with easeinleft
                 narrator """
                 Она была высокой и темной, как сама ночь. Ее лицо было скрыто глубокой тенью, словно она была не человеком, а сгустком мрака, принявшим человеческую форму.
 
@@ -102,8 +97,6 @@ label nightmare_sequence:
                 Фигуры Алекс и охранника беззвучно распадаются на частицы темного дыма и исчезают, словно их никогда и не было.
                 """
                 # play sound "sounds/dream_figures_disperse_swoosh.ogg"
-                # hide security_guard_dream_figure
-                # hide alex_dream_figure_watching
 
                 narrator """
                 Она поворачивается ко мне. Лицо все еще скрыто тенью, но я чувствую на себе ее пустой, холодный взгляд.
@@ -151,23 +144,8 @@ label nightmare_sequence:
                 unknown_f "Но мы еще не закончили. От самой себя не убежишь... Неон..."
 
                 narrator "Ее фигура начинает мерцать и таять, растворяясь в тенях парковки..."
-                # hide oganesson_dream_figure with Dissolve(1.0)
                 narrator "А меня выбрасывает из сна, как пробку из бутылки. Вспышка синего света..."
-                # play sound "sounds/neon_gas_flash_dream_intense.ogg"
-                # scene black with Flash(1.0, color=(0.1, 0.8, 1.0))
-
-                # Утро
-                # scene forest_road_morning_misty with Fade(3.0) # Фон: утро, туман, сырой лес, машина
-                # play sound "sounds/morning_forest_ambience_birds_drips.ogg" loop # Звуки утреннего леса, капель
-                # music "sounds/cold_realization_theme.ogg" loop
-                
-                # scene black with Flash(1.0, color=(0.1, 0.8, 1.0)) # Вспышка синего цвета
-
-                # Утро
-                # scene forest_road_morning_misty with Fade(3.0) # Фон: утро, туман, сырой лес, машина
-                # play sound "sounds/morning_forest_ambience_birds_drips.ogg" loop # Звуки утреннего леса, капель
-                # music "sounds/cold_realization_theme.ogg" loop
-
-                scene black with flash
+                    
+                scene black with Fade(1.5, 0.5, 1.5, color=(0.1, 0.8, 1.0))
                 pause 2.0
 return

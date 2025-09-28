@@ -75,8 +75,6 @@ label dream_sequence_japan_2:
     show oganesson young_kimono hurt with { "master" : Dissolve(5.0) }
     with { "effect": dissolve }
 
-    # Пауза. Абсолютная, звенящая тишина.
-    # play sound "sounds/dream_absolute_silence.ogg" # Эффект тишины
     narrator "Улыбка сползает с лица тёти. В ее глазах на мгновение появляется не гнев, а глубокая, почти животная боль. Мама только что нанесла удар по ее самому больному месту."
 
     oganesson_young young_kimono hurt "Ты... ты не должна была этого говорить."

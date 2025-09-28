@@ -1,7 +1,6 @@
 label marcus_attack_scene:
 
         # Неон со стулом, Маркус в ужасе, Алекс пытается вмешаться
-        # scene corridor_admin_approach # Тот же фон
         show alex at midright with easeinright
         narrator "Алекс издала сдавленный крик, пытаясь схватить Неон за руку, но та, не заметив ее, с нечеловеческой силой отбросила подругу в сторону, испуганно глядя на происходящее."
         show alex worried

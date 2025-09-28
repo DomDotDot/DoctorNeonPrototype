@@ -1,8 +1,8 @@
 label chapter1_meeting_aftermath_hallway:
 
+
+
         # Появляется Алекс
-        # show alex_casual at left with easeinleft # Алекс в обычной одежде, с папками
-        # music "sounds/alex_theme_neutral.ogg" loop fadein 1.0 # Смена музыки
         show cg cg5_2 with fade
         play music "music/BGM/Swell.ogg" fadein 1.0 fadeout 5.0 # Музыка для расследования
         alex "Эй?! Неон?! Ты чего тут сидишь? Все нормально?"
@@ -27,8 +27,8 @@ label chapter1_meeting_aftermath_hallway:
 
         Увидев их, Неон почувствовала, как внутри что-то оборвалось. Бессмысленная работа. Все бессмысленно.
         """
+
         show cg cg5_3 with fade
-        # show marcus_suit_triumphant in distance # Маркус в отдалении, окруженный людьми
         narrator """
         Спустя какое-то время дверь конференц-зала открылась.
         
@@ -60,5 +60,4 @@ label chapter1_meeting_aftermath_hallway:
         neon surprised "Да! Точно! Ханс! Он сегодня на смене!"
 
         alex "Пойдем. Может, он сможет помочь. Вдвоем мы его уговорим."
-        # stop music fadeout 1.0
 return

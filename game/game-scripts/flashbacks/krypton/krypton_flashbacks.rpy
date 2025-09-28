@@ -1,6 +1,5 @@
 label krypton_firstmeet_flashback:
 
-        # play sound "sounds/flashback_swoosh_deep.ogg" # Другой звук для глубокого погружения
         scene bg chapter_1_rural_flashback with fade # Фон: Унылая дорога в деревне, возможно, осень или ранняя весна
         play music "music/BGM/FadeToSorrow.ogg" fadein 1.0 # Меланхоличная музыка
 
@@ -10,7 +9,7 @@ label krypton_firstmeet_flashback:
         "Задира 2""Да ты что, это же не чернила, а краска для волос! Ха-ха-ха!"
 
         narrator """
-        Я не оборачиваюсь. Просто крепче сжимаю лямку рюкзака. Привыкла.
+        Я не оборачиваюсь. Просто крепче сжимаю лямку рюкзака. Привыкла. Для меня они просто шум
 
         Под ногами хлюпает грязь, перемешанная с талым снегом. Небо затянуто низкими серыми тучами. Горы где-то там, вдалеке, но отсюда их почти не видно.
 
@@ -44,7 +43,6 @@ label krypton_firstmeet_flashback:
         """
         
         # Флешбэк: мотивация
-        # play sound "sounds/flashback_swoosh.ogg"
         stop music fadeout 5.0
         play ambient "music/BGM/SweetestDreams_Backtrack.ogg" fadein 5.0 fadeout 5.0
         show cg cg4_1 with Fade(5.0, 0.5, 5.0) # Фон: детская комната ночью
@@ -73,8 +71,6 @@ label krypton_firstmeet_flashback:
         narrator """
         'Станем друзьями'... Эти слова... Откуда они? В памяти всплывает другой образ. Коридоры университета. Чужой город. Одиночество. И... музыка.
         """
-
-        ### УЛУЧШЕНИЕ 3: ЖИВОЙ ДИАЛОГ ПРИ ПЕРВОЙ ВСТРЕЧЕ ###
 
         narrator """
         Тихая мелодия, которую кто-то напевал себе под нос в пустом репетиционном зале. Знакомая... до боли. Я тихо заглянула внутрь.

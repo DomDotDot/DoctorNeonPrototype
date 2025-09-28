@@ -55,7 +55,6 @@ label chapter2_act1_false_memories:
                 Свернув на менее оживленную дорогу, она заехала на обочину под сенью деревьев и заглушила двигатель.
                 """
                 # play sound "sounds/car_engine_stop.ogg"
-                # music "sounds/anxious_solitude_theme.ogg" loop fadein 1.0
                 scene bg chapter_2_false_memories-alex_call with fade
                 play music "music/BGM/Unreachable.ogg" fadein 5.0 fadeout 15.0 volume 0.5 noloop
 
@@ -114,7 +113,6 @@ label chapter2_act1_false_memories:
                 """
                 play sound "sfx/police_sirens_distant.mp3" fadein 15.0 loop
                 scene bg chapter_2_false_memories-highway_night_police with dissolve
-                # play sound "sounds/sirens_approaching_fast_opposite_lane.ogg"
 
                 narrator """
                 Паника. Первая инстинктивная мысль – прижаться к обочине, пропустить.
@@ -141,9 +139,9 @@ label chapter2_act1_false_memories:
                 """
 
                 narrator "Переведя дух, она продолжила путь. Но теперь каждая тень казалась засадой, каждый свет фар – погоней. Паранойя стала ее вторым водителем."
-                # play sound "sounds/gps_voice_female_calm.ogg" # Звук голоса навигатора
 
                 "Навигатор" "Через два километра держитесь правее, затем продолжайте движение по шоссе Е27. Внимание: впереди платный участок дороги и стационарный пост дорожной полиции."
+                #TODO: Войс-актинг для навигатора.
 
                 narrator """
                 
@@ -172,9 +170,6 @@ label chapter2_act1_false_memories:
                 # stop music fadeout 1.0
                 narrator "Она свернула с гладкого асфальта на грязную, разбитую колею. Машину тут же начало трясти еще сильнее. Дождь усилился, превратившись в ливень."
                 play ambient "ambient/raining_inside_car_driving.mp3" fadein 5.0 fadeout 5.0
-                # play music "sounds/forest_rain_despair_theme.ogg" loop
-                # play sound "sounds/rain_heavy_on_car.ogg" loop
-                # play sound "sounds/car_driving_mud_slow.ogg" loop
                 narrator "Навигатор тут же начал перестраивать маршрут, но вскоре сигнал GPS пропал в густом лесу и под плотными тучами."
                 # play sound "sounds/gps_voice_signal_lost.ogg" # Звук "GPS-сигнал потерян"
                 "Навигатор" "GPS-сигнал потерян."

@@ -3,8 +3,6 @@ label chapter2_act4_desperate_measures:
                 # Неон стоит на улице маленького городка, осознав свое положение.
                 scene bg chapter_2_facing_reality-town_alley with fade
                 play music "music/BGM/LDCelts.ogg" fadein 5.0 fadeout 5.0 volume 0.5
-                # music "sounds/cold_realization_theme.ogg" loop
-
                 narrator """
                 Она отвернулась от витрины, от своего собственного лица, смотрящего на нее с укором. Каждый прохожий, каждый автомобиль, каждый звук теперь казался угрозой.
                 
@@ -145,7 +143,6 @@ label chapter2_act4_desperate_measures:
                 show cg cg14 with fade # Фон: промзона на окраине города
                 stop music fadeout 10.0
                 play ambient "ambient/wind-howly-ear.mp3" fadein 5.0
-                # music "sounds/tense_walk_theme.ogg" loop # Музыка напряженной ходьбы
                 narrator """
                 Она шла пешком. Промышленная окраина встретила ее ржавыми заборами, увенчанными колючей проволокой, и скелетами заброшенных цехов.
                 
@@ -160,7 +157,6 @@ label chapter2_act4_desperate_measures:
                 Тишина прерывалась редким скрипом металла, треском старого бетона под ногами. Вдалеке виднелся главный склад.
                 """
 
-                # play sound "sounds/wind_howling_abandoned_place.ogg" loop
                 scene bg chapter_2_desperate_measures-hangar with fade
                 show neon neutral zorder 2 at right with easeinright
 
@@ -208,8 +204,6 @@ label chapter2_act4_desperate_measures:
                 neon "... ...Я согласна."
 
                 # Финал Акта 3, переход к Путешествию в Аномик
-                # scene black with Fade(1.0)
-                # stop music fadeout 1.0
                 narrator "Он кивнул, не меняя выражения лица, и указал на старый фургон, стоявший в дальнем, самом темном углу склада. Она и не заметила его раньше."
                 unknown "Садись. Путь будет долгий."
                 stop ambient fadeout 5.0

@@ -2,11 +2,8 @@ label ch3_briefing_scene:
 
     # Художник и Неон в лаборатории, после приказа Босса.
     scene bg chapter_3_long-hall-hall with fade
-    # music "sounds/exploration_mysterious_theme.ogg"
-    # show argon_at_door
 
     narrator "Двое громил Гатса уже ждали нас в коридоре. Без лишних слов они сопроводили нас обратно в главный холл – то самое место, откуда я сбежала всего несколько часов назад."
-    # music "sounds/factory_oppressive_ambient.ogg" loop fadein 1.0 # Возвращаем гнетущую музыку холла
     scene bg chapter_3_start-mainhall with fade
 
     show neon neutral at midright with dissolve
@@ -17,8 +14,7 @@ label ch3_briefing_scene:
     
     Десяток бандитов в разномастной одежде проверяли оружие, переговаривались, курили. В центре, у импровизированного стола из ящиков, стоял сам Босс.
     """
-    # show boss_figure at center # Появляется фигура Босса
-    # show guts_figure beside boss # Гатс рядом с Боссом
+
     narrator """
     Он был невысоким, но крепко сбитым мужчиной в дорогом, хоть и слегка помятом костюме, который выглядел совершенно чужеродно на фоне этой разрухи.
     
@@ -45,8 +41,6 @@ label ch3_briefing_scene:
     """
     narrator "Он указал на меня и Художника"
 
-    
-    # show neon_and_argon_sprites # Показать спрайты Неон и Аргона, стоящих перед Боссом
     boss """
     Ты. Ты работал на этом заводе. Знаешь станцию как свои пять пальцев. Проведешь группу к вагону самым тихим путем. Без сюрпризов.
     """

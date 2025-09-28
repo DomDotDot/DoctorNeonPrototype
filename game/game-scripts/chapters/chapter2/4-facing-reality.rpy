@@ -4,7 +4,6 @@ label chapter2_act3_facing_reality:
                 play music "music/BGM/FogHorns.ogg" fadein 5.0 fadeout 5.0 volume 0.25
                 scene bg chapter_2_facing_reality-forest with Dissolve(6.0)
                 # play sound "sounds/morning_forest_ambience_birds_drips.ogg" loop
-                # music "sounds/cold_realization_theme.ogg" loop
 
                 narrator """
                 Неон проснулась от собственного сдавленного крика. Раскат грома из сна все еще отдавался в ушах.
@@ -35,8 +34,7 @@ label chapter2_act3_facing_reality:
                 Найти способ выжить, да...
                 """
                 nvl clear
-                # Неон идет по лесной дороге
-                # scene forest_path_misty_morning with Dissolve(1.0) # Фон: лесная тропа в тумане
+
                 narrator """
                 Туман был густым, молочным. Он скрывал деревья, превращая лес в призрачный лабиринт. Но в нем было и своеобразное утешение.
 
@@ -67,8 +65,7 @@ label chapter2_act3_facing_reality:
                 
                 Она увидела свет в окне небольшого магазина. 'Газеты, журналы, табак'. Единственное работающее заведение на всей улице.
                 """
-                show cg cg12_1-1 with fade
-                # scene town_kiosk_exterior_misty with Dissolve(1.0) # Фон: экстерьер газетного киоска
+                show cg cg12_1-1 with fade # Фон: экстерьер газетного киоска
                 narrator "Внутри, под потолком, висел старый, пузатый телевизор, по которому шли утренние новости. Неон замерла у витрины, вглядываясь в экран. Что-то заставило ее остановиться."
                 narrator "Голос диктора звучал глухо, приглушенно, словно издалека, но она отчетливо слышала каждое слово."
                 # play sound "sounds/tv_news_broadcast_muffled.ogg" # Приглушенный звук новостей
@@ -79,7 +76,6 @@ label chapter2_act3_facing_reality:
                 narrator "И тут же, следом, показали еще одну фотографию какой-то девушки со светлыми кудрявыми волосами."
 
                 show cg cg12_1 with dissolve
-                # show screen tv_news_alex_photo (image="images/alex_photo_on_tv.png") # Показать фото Алекс на "экране"
 
                 "Диктор" """
                 ...также ведутся поиски ее возможной сообщницы, Александры Вайт, сотрудницы архивного отдела, которая пропала с территории комплекса в то же время.
@@ -99,12 +95,9 @@ label chapter2_act3_facing_reality:
                 """
 
                 # play sound "sfx/heartbeat_panic.mp3" loop
-                # play music "music/BGM/Sorrow.ogg" fadein 5.0 fadeout 15.0 # Смена музыки на более трагичную и личную
                 show cg cg12_2 with dissolve
 
                 narrator "Она отшатнулась от витрины, задыхаясь. Воздуха не хватало. Она оперлась рукой о холодное, влажное стекло, пытаясь устоять на ногах. Ее взгляд упал на свое же отражение."
-
-                #show cg cg_neon_reflection_breakdown with Dissolve(1.0) # CG: Крупный план отражения Неон в витрине.
 
                 narrator """
                 Из темноты стекла на нее смотрело чудовище.
@@ -131,7 +124,6 @@ label chapter2_act3_facing_reality:
                 Алекс где-то там. из-за нее.
                 """
 
-                # stop sound fadeout 1.0 # Остановить сердцебиение
                 # play sound "sfx/body_slide_down_wall.mp3" # Звук сползания по стене
 
                 narrator """
@@ -167,7 +159,6 @@ label chapter2_act3_facing_reality:
 
                 play sound "sfx/memory_glitch_static.mp3" volume 0.5
                 with vpunch
-                # Можно на долю секунды показать на экране рябь или искаженный черно-белый спрайт Криптон.
 
                 narrator "Резкая, колющая боль в висках. Перед глазами на мгновение мелькнул чужой образ — черно-белые волосы, пианино, ощущение легкости...? И тут же исчез, вытесненный пустотой."
 
@@ -185,7 +176,7 @@ label chapter2_act3_facing_reality:
                 narrator "Именно в этот момент ее слезы окончательно высохли. На смену горю и отчаянию пришла ледяная, почти математическая ясность."
 
                 # Звук: искаженный, полный боли крик, как будто из глубины души
-                play sound "sfx/neon_scream_rage.mp3"
+                # play sound "sfx/neon_scream_rage.mp3"
 
                 neon "Я..."
                 neon "{=yell}Я такая дура!" with vpunch

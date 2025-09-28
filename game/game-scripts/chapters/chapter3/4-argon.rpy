@@ -2,8 +2,6 @@ label ch3_part2_the_cage:
 
     # Сцена "Логово Художника"
     scene bg chapter_3_argon-room with fade  # Фон: комната Аргона
-    # music "sounds/argon_lair_theme_calm.ogg" loop # Музыка: спокойная, меланхоличная, возможно с нотками одинокой гитары или пианино
-    # stop sound # Остановить крики вышибалы, он остался позади
 
     # play sound "sounds/door_creak_slow_gentle.ogg"
 
@@ -39,7 +37,6 @@ label ch3_part2_the_cage:
     """
     
     # Появление Аргона
-    # music "sounds/argon_theme_main.ogg" loop # Главная музыкальная тема Аргона
     
     if _preferences.language == "english_us":
         $ argon_display_name = "???"
@@ -162,6 +159,5 @@ label ch3_part2_the_cage:
     В его глазах впервые за все время разговора появилась живая эмоция. Надежда? Нет — желание. Это был мой крючок.
     """
 
-    # Конец расширенного диалога, переход к ультиматуму
     jump ch3_part3_chemistry_and_cooperation
     return

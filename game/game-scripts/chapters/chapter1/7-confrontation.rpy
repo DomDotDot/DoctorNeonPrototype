@@ -1,9 +1,10 @@
 label confrontation_path:
 
+
+
         # Неон и Алекс выходят от поста охраны
         scene bg chapter_1_lab_corridor_3 with fade
         play music "music/BGM/Promising.ogg" fadeout 5.0
-        # play music "sounds/determination_theme.ogg" loop fadein 1.0
         show alex happy at right with easeinright
         show neon proud at center with easeinright
 
@@ -116,14 +117,10 @@ label confrontation_path:
 
         marcus "Таким, как ты, здесь не место!"
         
-        
         show neon surprised
         narrator "Синяя ворона."
         
         # play sound "sounds/flashback_trigger_school.ogg"
-        # Эффект: Короткая, резкая вспышка. На долю секунды на лице Маркуса проступает лицо задиры из флешбэка.
-        # with Flash(1.0, 0.2, 1.0, color="#FFFFFF")
-
         hide alex with dissolve
         narrator """
         Это слово. Это дурацское слово...\n
@@ -155,7 +152,12 @@ label confrontation_path:
         with { "effect": dissolve }
         show neon frustrated
 
-        neon "Мне... никогда... больше не будут... указывать какая я!"
+        neon "{=whisper} Заткнись..."
+        marcus "Что? Не расслышал. Говори громче."
+        neon "Заткнись... ЗАТКНИСЬ. ПРОСТО ЗАТКНИСЬ!"
+        neon "Я УСТАЛА. УСТАЛА БЫТЬ ДЛЯ ВСЕХ ПУСТЫМ МЕСТОМ!"
+        neon "Мне... МНЕ НИКОГДА БОЛЬШЕ НЕ БУДУТ УКАЗЫВАТЬ КАКАЯ Я!"
+
         narrator "Она шагнула к одному из стульев. Алекс, увидев выражение ее лица, испуганно отшатнулась."
         show alex serious at right with easeinright
         alex "Неон... Стой! Не делай глупостей!"
@@ -173,7 +175,7 @@ label confrontation_path:
         
         play music "music/BGM/DramaQueen.ogg" fadein 10.0 volume 0.75
         # play sound "sounds/metal_scrape_loud.ogg"
-        # play sound "sounds/neon_roar_effort.ogg" # Звук усилия/рыка Неон
+        # play sound "sounds/neon_roar_effort.ogg"
 
         marcus suit_panic "Ты... Ты что, совсем рехнулась?! Положи стул!"
 

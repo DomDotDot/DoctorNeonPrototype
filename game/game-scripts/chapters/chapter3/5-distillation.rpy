@@ -1,11 +1,5 @@
     
-# --- Глава 3, Часть 3: Квест "Самогонщик-Гений" ---
-
 label ch3_part3_chemistry_and_cooperation:
-
-    # Художник и Неон в его комнате.
-    # scene argon_room_interior
-    # music "sounds/argon_theme_main.ogg" loop
 
     narrator "В его серых глазах мелькнул огонек – смесь недоверия и алчного интереса. Он отставил кисть и полностью повернулся ко мне."
     argon "Чистый спирт? Из... ничего? Ты думаешь, я поверю в твою магию, девочка?"
@@ -30,8 +24,6 @@ label ch3_part3_chemistry_and_cooperation:
 # --- Начало интерактивной части квеста ---
 
 label ch3_ingredient_hunt:
-
-    # Флаги для отслеживания найденных ингредиентов
 
     menu:
         "Спросить Художника про САХАР.":
@@ -85,8 +77,7 @@ label ch3_explore_food_wing:
         neon "Я уже здесь была."
         scene bg chapter_3_long-hall-hall with fade
         jump ch3_explore_long_corridor
-    
-    # music "sounds/exploration_sad_theme.ogg" loop
+
     narrator """
     Южное крыло встретило меня запахом ржавчины и сладковатого тлена.
 
@@ -144,7 +135,7 @@ label ch3_explore_chem_lab:
     
     scene bg chapter_3_distilation-chemwing with fade
     show neon neutral at right with dissolve
-    # music "sounds/exploration_mysterious_theme.ogg" loop
+
     narrator """
     Хим. лаборатория на третьем этаже была почти нетронута. Видимо, мародеры боялись связываться с реактивами. 
     
@@ -173,7 +164,6 @@ return
 
 label ch3_distillation_start:
     # play sound "sounds/intercom_crackle.ogg"
-    # guts_intercom = Character('Голос из динамика', voice=guts_voice)
     narrator "Но было уже поздно. Динамик интеркома в лаборатории зашипел и ожил. На этот раз голос был другим. Более низким, властным. Голос Босса."
     
     boss "Эй, вы двое, 'эксперты'! Мои люди сказали, что вы разбрелись по заводу. Кончайте свои игры. В главный холл. Живо!"
@@ -189,5 +179,5 @@ label ch3_distillation_start:
     
     narrator "Наш план побега провалился, не успев начаться. Нас вели прямо в логово льва. Но, может быть... это и к лучшему?"
 
-    # Конец интерактивной части. Переход к нарративной части следующей главы/акта.
+    # Конец интерактивной части. Переход к нарративной части следующей главы.
   

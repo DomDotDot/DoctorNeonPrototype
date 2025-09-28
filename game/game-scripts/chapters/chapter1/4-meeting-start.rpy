@@ -1,7 +1,8 @@
 label chapter1_meeting_start:
 
-        scene bg chapter_1_admin_approach with fade # Коридор, ведущий к административному блоку, более солидный вид
-        play music "music/BGM/BigShot.ogg" fadein 2.5 fadeout 5.0 # Новая, более интенсивная напряженная музыка
+        scene bg chapter_1_admin_approach with fade
+        play music "music/BGM/BigShot.ogg" fadein 2.5 fadeout 5.0
+
         narrator """
         Коридоры здесь были шире, отделка – дороже. Вместо линолеума – ковровые дорожки, вместо пластиковых панелей – отделка под дерево.
         
@@ -27,9 +28,9 @@ label chapter1_meeting_start:
 
         narrator "Собрав всю волю в кулак, Неон толкнула тяжелую дверь и шагнула внутрь."
         # play sound "sounds/heavy_door_open.ogg"
-        scene bg chapter_1_conference_hall_investors with fade # Показываем большой конференц-зал
+        scene bg chapter_1_conference_hall_investors with fade
 
-        queue music "music/BGM/HRT.ogg" noloop fadein 2.5 volume 0.5 # Тихая, напряженная музыка для зала заседаний
+        queue music "music/BGM/HRT.ogg" noloop fadein 2.5 volume 0.5
         queue music "music/BGM/Initiation_Inactive.ogg" loop fadein 2.5 volume 0.5
 
         narrator """
@@ -75,7 +76,8 @@ label chapter1_meeting_start:
 
         И тут один из сидевших ближе к входу, спиной к ней, обернулся. Это был Маркус.
         """
-        show marcus suit_happy at right with dissolve # Маркус в костюме, а не в халате
+
+        show marcus suit_happy at right with dissolve
         narrator """
         Он был не в обычном лабораторном халате, а в строгом деловом костюме, который сидел на нем идеально. На его лице играла самодовольная улыбка.
         
@@ -137,12 +139,14 @@ label chapter1_meeting_start:
         но и успешно расшифровать сложный когерентный сигнал, который, по всем признакам, имеет искусственное внеземное происхождение!
         """
         # play sound "sounds/projector_on.ogg"
+
         narrator """
         Маркус подключил свой ноутбук к проекционной системе. 
 
         На экране вспыхнул график. До боли знакомый график спектрального анализа, который Неон изучала последние недели, снился ей по ночам.
         """
-        # show screen signal_graph (image="images/neon_signal_graph.png") # Показываем график на экране
+        # show screen signal_graph (image="images/neon_signal_graph.png") # График на экране
+        
         narrator """
         Неон застыла. Воздух застрял в легких. Кровь отхлынула от лица, а потом бросилась обратно, обжигая щеки.
 
@@ -167,7 +171,7 @@ label chapter1_meeting_start:
         neon frustrated "Это моя работа! Я расшифровала этот сигнал! Это мои расчеты! Как они оказались у него?!"
 
         show neon surprised at midleft with easeinleft
-        show marcus suit_smug at midright with dissolve # Маркус с ухмылкой
+        show marcus suit_smug at midright with dissolve
         
         marcus """
         Доктор Неон, я понимаю ваше волнение. Возможно, вы работали над схожей проблемой.
@@ -233,9 +237,10 @@ label chapter1_meeting_start:
         Она сидела, раздавленная, обманутая, опустошенная. Ее открытие, ее мечта – все было растоптано.
         """
 
+
+
         # Неон сидит в коридоре после того, как покинула собрание
-        show cg cg5_1 with fade # Фон: коридор с диваном у конференц-зала
-        # play music "sounds/despair_theme.ogg" loop fadein 1.0 # Музыка отчаяния
+        show cg cg5_1 with fade
 
         narrator """
         Неон не помнила, как вышла из зала. Кажется, она просто встала и, не глядя ни на кого, пошла к двери, когда поняла, что ее присутствие там – фарс, издевательство.

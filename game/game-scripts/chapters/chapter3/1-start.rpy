@@ -51,8 +51,6 @@ label chapter3_part1_start:
     # Неон в холле завода.
     scene bg chapter_3_start-mainhall with Dissolve(5.0) # Фон: грязный, заброшенный холл завода
     queue music "music/BGM/Revpad.ogg" fadein 5.0 loop volume 0.5
-    # music "sounds/factory_oppressive_ambient.ogg" loop # Музыка: гнетущая, индустриальная, с гулом и скрипами
-    # play sound "sounds/distant_machinery_groan.ogg" loop volume 0.3 # Звук: далекий скрежет и стоны старого завода
     show neon neutral at right with dissolve
 
     narrator """
@@ -67,16 +65,12 @@ label chapter3_part1_start:
     Он стоял, скрестив руки на груди, и молча смотрел в стену. Живая стена, преграждающая мне путь к свободе.
     """
     
-    # Голос из интеркома
-    # play sound "sounds/intercom_crackle.ogg"
     show guts neutral at left with dissolve
     guts "Осмотрелась, ученая? Хорошо. Босс скоро будет."
     
     neon "Здесь... своеобразная атмосфера..."
 
     guts "Ничего. Мы привыкали и ты привыкнешь. Если доживешь. Жди здесь до следующих приказов. И не делай глупостей."
-
-    # play sound "sounds/intercom_crackle_off.ogg"
 
     narrator """
     Голос Гатса прозвучал как смертный приговор.

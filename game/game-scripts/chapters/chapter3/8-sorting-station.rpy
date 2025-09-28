@@ -1,5 +1,3 @@
-# --- Глава 3, Часть 1: Задание на Сортировочной Станции ---
-
 label chapter3_the_heist_start:
 
     # Группа на сортировочной станции.
@@ -23,7 +21,6 @@ label chapter3_the_heist_start:
     # play sound "sounds/wagon_door_slide_heavy.ogg"
 
     show cg cg19 with fade # Фон: темный интерьер вагона
-    # music "sounds/tense_interior_wagon_theme.ogg" loop
     narrator "Рико включил фонарик, его луч выхватил из темноты ряды больших металлических контейнеров, помеченных какими-то символами."
     # play sound "sounds/flashlight_click_on.ogg"
     rico "Вот этот. 'Доктор', твой выход. У тебя пять минут."
@@ -42,7 +39,6 @@ label chapter3_the_heist_start:
     neon "Состав соответствует заявленному. Чистота высокая. Товар качественный."
 
     rico "Отлично. Ребята, начинаем разгрузку! Живо!"
-    # stop music
     # play sound "sounds/thugs_begin_unloading.ogg" # Звуки начала разгрузки, перетаскивания ящиков
 
     narrator """
@@ -53,12 +49,11 @@ label chapter3_the_heist_start:
     И именно в этот момент, когда все, казалось, шло по плану, ночь взорвалась.
     """
 
-    # "Шухер"
     # play sound "sounds/shout_security_ambush.ogg" # Громкий крик "Стоять! Охрана станции!"
     # play sound "sounds/spotlight_turn_on_whirr.ogg" # Звук включения мощных прожекторов
     scene bg chapter_3_sorting-station-escape with dissolve # Сцена озаряется светом прожекторов
     play music "music/BGM/CrumpledShucks.ogg" fadein 5.0 fadeout 10.0 volume 0.25
-    # music "sounds/action_gunfight_theme.ogg" loop
+
     narrator "Станцию внезапно залил яркий, слепящий свет прожекторов. Со всех сторон раздались крики и свистки."
     "Командир Охраны" "Стоять! Охрана станции! Бросай оружие!"
     narrator "И тут же началась беспорядочная стрельба. Бандиты Гатса, застигнутые врасплох, открыли ответный огонь."
@@ -73,11 +68,8 @@ label chapter3_the_heist_start:
     Мы с Борисом упали на пол, прижатые огнем. Мы остались одни. В ловушке. Идеальные козлы отпущения, которых можно будет сдать или пристрелить, заметая следы.
     """
 
-# --- Глава 3, Часть 2: Побег со Станции ---
-
 label chapter3_escape:
     # Неон и Аргон в вагоне под огнем
-    # music "sounds/action_gunfight_theme.ogg" loop
     # play sound "sounds/bullets_ricocheting_metal.ogg" loop # Звуки пуль, бьющих по вагону
 
     neon "Они нас здесь убьют! Или свои, или чужие! Нужно бежать!"
@@ -91,7 +83,6 @@ label chapter3_escape:
     show cg cg20_1 with fade
     # play sound "sounds/wagon_door_slide_struggle.ogg"
     narrator "Мы выпрыгнули наружу, в темноту, подальше от света прожекторов, и побежали. Побежали вдоль железнодорожных путей, спотыкаясь о шпалы и камни."
-    # scene train_tracks_night_escape with Dissolve(0.5) # Фон: бег по путям ночью
     
     narrator """
     Сзади раздавались крики и выстрелы. Кажется, охрана станции заметила нас.
@@ -115,7 +106,6 @@ label chapter3_escape:
 
     Я развернулась и побежала назад, к нему.
     """
-    # music "sounds/neon_resolve_heroic_theme.ogg" loop # Смена музыки на героическую/решительную
 
     # Проявление Силы
     narrator """
@@ -134,7 +124,6 @@ label chapter3_escape:
     С ревом, который, казалось, исходил не из моих легких, а из самой земли, я дернула Бориса на себя. Он поднялся так легко, будто был пушинкой.
     """
     # play sound "sounds/struggle_to_lift_sounds.ogg"
-    # play sound "sounds/neon_power_activate_argon.ogg" # Звук активации силы: низкий, вибрирующий гул (для Аргона)
     narrator """
     Мы поковыляли дальше, я почти несла его на себе. Но наша скорость была слишком мала.
 
@@ -143,17 +132,12 @@ label chapter3_escape:
     scene black with { "master" : Dissolve(0.25) }
     with { "effect": dissolve }
     narrator "Тупик."
-    
-    # Конец второй части.
 
-
-# --- Глава 3, Часть 3: Откровение и Спасение ---
 
 label chapter3_revelation:
 
     # Неон и Аргон загнаны в тупик между вагонами.
     show cg cg20_3 with fade # Фон: узкий проход между двумя вагонами, тупик
-    # music "sounds/neon_resolve_heroic_theme.ogg" # Музыка все еще напряженная
     # play sound "sounds/pursuers_approaching_both_sides.ogg" loop # Звуки приближающихся с двух сторон преследователей
 
     narrator """
@@ -165,8 +149,6 @@ label chapter3_revelation:
 
     Из темноты вышли фигуры. Охранники. Они держали нас на прицеле. Человек пять или шесть.
     """
-
-    # show security_guards_surrounding at left and right # Появляются охранники с обеих сторон
     
     "Капитан Охраны" "Стоять! Руки за голову! На землю, живо!"
 
@@ -182,10 +164,9 @@ label chapter3_revelation:
     show argon painter_cautious zorder 2 at midright with dissolve
     show neon frustrated zorder 1 at midleft with dissolve
 
-    argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы ты... ...я должен спасти..."
+    argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
 
     # Применение Силы Аргона
-    # stop music
     # play sound "sounds/argon_power_focus_hum.ogg" # Тихий, нарастающий гул – звук фокусировки его силы
     show argon painter_determination with dissolve
     narrator """

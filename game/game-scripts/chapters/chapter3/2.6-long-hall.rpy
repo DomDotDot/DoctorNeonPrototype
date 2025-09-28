@@ -1,7 +1,6 @@
 label ch3_long_corridor:
     # Неон в темном коридоре за шкафчиком
     scene bg chapter_3_long-hall-hall with fade # Фон: темный, узкий служебный коридор
-    # music "sounds/exploration_tense_theme.ogg" loop # Музыка: напряженное исследование
     play music "music/BGM/GreyPaint.ogg" fadein 15.0 fadeout 15.0 volume 0.125
     narrator """
     Коридор, открывшийся за воротами, делал небольшой изгиб влево, а затем резко поворачивал направо.

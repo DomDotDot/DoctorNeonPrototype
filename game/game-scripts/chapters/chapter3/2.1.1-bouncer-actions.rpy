@@ -21,7 +21,6 @@ label ch3_bouncer_talk_menu:
         "Вернуться.":
             jump ch3_hall_explore
 
-### НОВОЕ: Цепочка обычных диалогов ###
 label ch3_bouncer_plead:
     if bouncer_talk_count == 0:
         neon shy "Послушайте, мне нужно выйти. Пожалуйста."
