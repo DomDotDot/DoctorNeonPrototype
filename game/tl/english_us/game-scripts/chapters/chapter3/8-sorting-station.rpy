@@ -492,3 +492,11 @@ translate english_us chapter3_escape_5601ea30:
     # narrator "Я была моложе, адреналин гнал меня вперед, адреналин гнал меня вперед. Я вырвалась на несколько шагов, оглядываясь, чтобы убедиться, что Борис не отстает."
     narrator "I was younger, and adrenaline pushed me forward. I pulled ahead by a few steps, glancing back to make sure Boris was keeping up."
 
+# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:167
+translate english_us chapter3_revelation_b8a649b0:
+
+    # argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
+    argon ""
+

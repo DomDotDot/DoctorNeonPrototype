@@ -572,4 +572,11 @@ translate english_us krypton_firstmeet_flashback_f34cedab:
 translate english_us krypton_firstmeet_flashback_0488e8f4:
 
     # neon "{=thoughts} Я должна... вернуться... помочь... {/thoughts}"
-    neon "{=thoughts} I have to... go back... help her... {/thoughts}"
+    neon "{=thoughts} I have to... go back... help her... {/thoughts}"# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
+translate english_us krypton_firstmeet_flashback_96af5d2f:
+
+    # narrator "Я не оборачиваюсь. Просто крепче сжимаю лямку рюкзака. Привыкла. Для меня они просто шум"
+    narrator ""
+

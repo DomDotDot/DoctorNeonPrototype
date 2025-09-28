@@ -77,3 +77,71 @@ translate english_us chapter1_lab_noon_library_03659481:
 
     # narrator "Только там они были синие, с неуклюжим логотипом ETH Zurich."
     narrator "Except those were blue, with the clumsy ETH Zurich logo."
+# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:8
+translate english_us chapter1_lab_noon_library_28ea8d75:
+
+    # narrator "Храм тишины посреди вечного, низкочастотного гула комплекса — «шума» как бы выразилась Неон, который Неон научилась ненавидеть."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:8
+translate english_us chapter1_lab_noon_library_bf872de5:
+
+    # narrator "Она села за стол. Перед ней — стопка бумаги и дешевая ручка. Ее единственные инструменты в войне против хаоса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:28
+translate english_us chapter1_lab_noon_library_142b8f35:
+
+    # neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Не то.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:32
+translate english_us chapter1_lab_noon_library_75a0b83b:
+
+    # narrator "Она закрыла глаза, пытаясь снова услышать его."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:32
+translate english_us chapter1_lab_noon_library_4c2a43ca:
+
+    # narrator "Этот сигнал. Он не был похож на другие. Вселенная полна {b}шума{/b}: рев квазаров, барабанная дробь пульсаров, белый шум реликтового излучения.Это был предсказуемый, понятный хаос."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:32
+translate english_us chapter1_lab_noon_library_e4bcc306:
+
+    # narrator "Но {i}этот{/i} сигнал... он был другим. В нем была... структура. Почти что музыка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:32
+translate english_us chapter1_lab_noon_library_767a27ed:
+
+    # narrator "Словно кто-то играл симфонию, нона струнах пространства-времени, а затем наступила оглушительная {b}тишина{/b}. Пауза. И именно некую паузу, эту пустоту между строк, она и пыталась расшифровать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:32
+translate english_us chapter1_lab_noon_library_e20438be:
+
+    # narrator "Это была не просто работа. Это стало сво рода одержимостью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:32
+translate english_us chapter1_lab_noon_library_849a7769:
+
+    # narrator "Попыткой понять, откуда в ее душе это странное, почти забытое чувство... целостности, которое возникало каждый раз, когда она слышала его эхо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:46
+translate english_us chapter1_lab_noon_library_79f6b70a:
+
+    # narrator "Она встряхнула головой, отгоняя наваждение. Хватит поэзии. Нужны факты. Она решительно вывела первую строчку: 'Доклад об анализе аномального сигнала...'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:46
+translate english_us chapter1_lab_noon_library_7fd8a7bf:
+
+    # narrator "Ручка замерла. Дешевый пластик. Почти такая же была у нее в университете. И снова, как укол, всплыл образ из утреннего сна."
+    narrator ""
+

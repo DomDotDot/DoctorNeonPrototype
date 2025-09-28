@@ -426,4 +426,11 @@ translate english_us chapter2_act5_journey_to_anomic_0e8f4b96:
 translate english_us chapter2_act5_journey_to_anomic_ce2dc5c6:
 
     # narrator "Под покачивание фургона, глядя на зловещие клубы тумана за окном, она снова провалилась в сон."
-    narrator "Lulled by the rocking of the van, gazing at the sinister plumes of fog outside the window, she fell asleep again."
+    narrator "Lulled by the rocking of the van, gazing at the sinister plumes of fog outside the window, she fell asleep again."# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:118
+translate english_us chapter2_act5_journey_to_anomic_5d5fde98:
+
+    # narrator "Даже через закрытые окна фургона Неон почувствовала слабый, но тошнотворный запах – смесь гнили, и чего-то едкого, химического."
+    narrator ""
+

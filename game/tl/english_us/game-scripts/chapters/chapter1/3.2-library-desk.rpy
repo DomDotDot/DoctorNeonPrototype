@@ -197,3 +197,89 @@ translate english_us chapter1_lab_noon_library_desk_0516b761:
 
     # narrator "Она вышла из библиотеки и направилась к лифтам, ведущим на верхние уровни – туда, где располагался административный блок и главные конференц-залы."
     narrator "She left the library and headed for the elevators leading to the upper levels—to the administrative wing and the main conference rooms."
+# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
+translate english_us chapter1_lab_noon_library_desk_e0a5d748:
+
+    # narrator "Неон резко встряхнула головой, отгоняя наваждение. Воспоминание, у которого не было лица. Еще один обрывок шума."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
+translate english_us chapter1_lab_noon_library_desk_9c90b796:
+
+    # narrator "Сейчас это неважно. Важно донести свое открытие до этих скептиков из ученого совета."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:67
+translate english_us chapter1_lab_noon_library_desk_131e3038:
+
+    # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
+translate english_us chapter1_lab_noon_library_desk_6694c64d:
+
+    # narrator "Доказательством того, что Вселенная — это не просто бесконечный, хаотичный шум случайных событий."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
+translate english_us chapter1_lab_noon_library_desk_d0bb7f06:
+
+    # narrator "Что где-то в этой оглушающей какофонии взрывающихся звезд и умирающих галактик существует структура. Смысл. Музыка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
+translate english_us chapter1_lab_noon_library_desk_f09689eb:
+
+    # narrator "Этот сигнал из сектора Дельта-4 и был ею."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
+translate english_us chapter1_lab_noon_library_desk_de82d6f5:
+
+    # narrator "Теперь ее рука не дрожала. Она писала с лихорадочной, почти одержимой точностью. Каждая буква, выведенная на бумаге, была актом борьбы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
+translate english_us chapter1_lab_noon_library_desk_a807ab56:
+
+    # narrator "Нужно было закончить. Нужно доказать"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:83
+translate english_us chapter1_lab_noon_library_desk_cabe7c0b:
+
+    # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...{/thoughts}'"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
+translate english_us chapter1_lab_noon_library_desk_e273bd79:
+
+    # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный **шум**...{/thoughts}'"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
+translate english_us chapter1_lab_noon_library_desk_660070fc:
+
+    # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об **искусственном** происхождении сигнала...{/thoughts}'"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_09e6bb7d:
+
+    # narrator "Искусственном. Созданном. Не хаотичном. Это было ключевое слово. Ее оправдание. Ее спасение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:94
+translate english_us chapter1_lab_noon_library_desk_3225c621:
+
+    # narrator "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:94
+translate english_us chapter1_lab_noon_library_desk_e56cfe42:
+
+    # narrator "Осталась только она и эти исписанные листы. Идеальный порядок. Тишина."
+    narrator ""
+

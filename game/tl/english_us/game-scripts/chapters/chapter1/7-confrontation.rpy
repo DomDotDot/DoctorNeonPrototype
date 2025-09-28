@@ -96,4 +96,35 @@ translate english_us confrontation_path_7e56df8b:
 translate english_us confrontation_path_db555a89:
 
     # narrator "А стулья, эти тяжелые металлические стулья, кажутся ей единственным оружием в этом мире, способным нанести удар по самому сердцу ее мучителя."
-    narrator "And the only possible weapon in this world, the chairs, those heavy metal chairs, seem to her to deliver a blistering blow to the very heart of her tormentor."
+    narrator "And the only possible weapon in this world, the chairs, those heavy metal chairs, seem to her to deliver a blistering blow to the very heart of her tormentor."# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:155
+translate english_us confrontation_path_ba3786cf:
+
+    # neon "{=whisper} Заткнись..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:156
+translate english_us confrontation_path_e0751056:
+
+    # marcus "Что? Не расслышал. Говори громче."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:157
+translate english_us confrontation_path_96829c09:
+
+    # neon "Заткнись... ЗАТКНИСЬ. ПРОСТО ЗАТКНИСЬ!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:158
+translate english_us confrontation_path_14249989:
+
+    # neon "Я УСТАЛА. УСТАЛА БЫТЬ ДЛЯ ВСЕХ ПУСТЫМ МЕСТОМ!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:159
+translate english_us confrontation_path_9b6dd43c:
+
+    # neon "Мне... МНЕ НИКОГДА БОЛЬШЕ НЕ БУДУТ УКАЗЫВАТЬ КАКАЯ Я!"
+    neon ""
+

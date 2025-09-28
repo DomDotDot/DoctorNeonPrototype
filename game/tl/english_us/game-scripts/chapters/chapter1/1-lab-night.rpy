@@ -115,3 +115,65 @@ translate english_us chapter1_lab_night_6426eb9c:
 
     # neon suspicious "Ч-что за... я же только что... {nw}"
     neon suspicious "W-what the... I just... {nw}"
+# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
+translate english_us chapter1_lab_night_01d5cced:
+
+    # narrator "Ночь. Лаборатория. Тишина. Мужчина в белом халате суетится перед дверью, держа некий планшет в руках."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
+translate english_us chapter1_lab_night_baf8cb0e:
+
+    # narrator "Его лицо скрыто тенью, но движения выдают легкое волнение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
+translate english_us chapter1_lab_night_10c0ca9e:
+
+    # narrator "За дверью раздается приглушенный голос женщины, которая, судя по всему, работает допоздна."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:18
+translate english_us chapter1_lab_night_d983af95:
+
+    # narrator "Он проверяет что-то на экране скалясь в улыбке а, затем, удовлетворенный, стучится в дверь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
+translate english_us chapter1_lab_night_b99a32d6:
+
+    # narrator "Её голос прозвучал раздраженно, но без какой либо злобы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
+translate english_us chapter1_lab_night_f93fa598:
+
+    # narrator "Внутри, за массивным столом, сидит женщина. Ее синие волосы растрепаны, глаза красные от недосыпа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
+translate english_us chapter1_lab_night_6ddc78e4:
+
+    # narrator "Она уставилась на монитор перед собой, где горит шкала прогресса дешифровки – почти сто процентов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:35
+translate english_us chapter1_lab_night_c6244299:
+
+    # narrator "Она явно ждала этого визита, хоть и не желала его. "
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:141
+translate english_us chapter1_lab_night_eac9e88c:
+
+    # neon suspicious "С чего такой интерес к техническим деталям, Маркус? Решил мою работу делать?"
+    neon suspicious ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:145
+translate english_us chapter1_lab_night_b718848e:
+
+    # marcus "Что вы, доктор! Просто... беспокоюсь об успехе проекта."
+    marcus ""
+

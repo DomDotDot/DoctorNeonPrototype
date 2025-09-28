@@ -90,4 +90,119 @@ translate english_us chapter1_lab_morning_a002815e:
 translate english_us chapter1_lab_morning_0d596b1d:
 
     # alex smile "И отчеты ты сегодня, значит, не сдашь? Клавиатуры-то нет."
-    alex smile "So I guess you won't be turning in your reports today? Since you don't have a keyboard."
+    alex smile "So I guess you won't be turning in your reports today? Since you don't have a keyboard."# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:46
+translate english_us chapter1_lab_morning_f1d21647:
+
+    # narrator "Единственный, кто расшифровал этот сигнал. Минимум - мировое признание! Она видела это как явь..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:68
+translate english_us chapter1_lab_morning_251eb0b3:
+
+    # narrator "Сон...? Ах, да. Сон. Девушка с волосами цвета снега и ночи. Ее смех. Прогулка в парке..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:68
+translate english_us chapter1_lab_morning_ae6f9865:
+
+    # narrator "Неон потерла виски. Кто она? Почему этот образ кажется таким реальным, таким... важным? Это просто сон, бред от недосыпа. Но почему тогда от этого 'сна' на душе так пусто и холодно?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:68
+translate english_us chapter1_lab_morning_893f1b86:
+
+    # narrator "Словно из нее вырвали что-то важное, а она даже не помнит, что именно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:122
+translate english_us chapter1_lab_morning_1436ef06:
+
+    # alex pity "Ты уже неделю не выходила из комплекса! Там, внизу, есть жизнь!"
+    alex pity ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:133
+translate english_us chapter1_lab_morning_d977cc6b:
+
+    # neon shy "И... моя жизнь – здесь, Алекс. В этих цифрах. Все остальное – для меня просто шум."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:141
+translate english_us chapter1_lab_morning_092fdfce:
+
+    # neon irritated "Так-что прекрати уже говорить так, будто ты моя бабушка, ладно? Мы почти ровесницы."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:143
+translate english_us chapter1_lab_morning_98222b5d:
+
+    # alex "Эх, Неон, Неон... Не ценишь ты простых женских радостей."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:203
+translate english_us chapter1_lab_morning_7c194328:
+
+    # alex concerned "А собрание как раз сегодня, через три часа... М-да..."
+    alex concerned ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:205
+translate english_us chapter1_lab_morning_8824bef2:
+
+    # narrator "Алекс понажимала ещё что-то на телефоне, после чего посмотрела на Неон с какой-то грустью в глазах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:209
+translate english_us chapter1_lab_morning_2fcd8c0f:
+
+    # alex "Ой..."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:211
+translate english_us chapter1_lab_morning_2bc688d0:
+
+    # neon surprised "Что?"
+    neon surprised ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:213
+translate english_us chapter1_lab_morning_9d71386c:
+
+    # alex "Сегодня, ещё один департамент переводят на удалёнку."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:213
+translate english_us chapter1_lab_morning_43474762:
+
+    # alex "Говорят, что ещё один сектор попал в ту самую аномальную зону сегодня ночью..."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:213
+translate english_us chapter1_lab_morning_6f7c2e73:
+
+    # alex "Это уже третий город в этом месяце. Так часто стали происходить эти странные закрытия городов."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:213
+translate english_us chapter1_lab_morning_907b3ae7:
+
+    # alex "Похоже, что скоро все будут работать из дома. Даже мы с тобой. Надеюсь, это до нас недоберется..."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:225
+translate english_us chapter1_lab_morning_f254bc33:
+
+    # alex happy "Ладно, пофиг. Пока у меня есть ты - мне ничего не страшно!"
+    alex happy ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:225
+translate english_us chapter1_lab_morning_d7a059c2:
+
+    # alex happy "Раз уж я все равно тут торчу, скидывай мне свои рутинные отчеты по сети. Я их добью у себя в архиве, делать все равно нечего."
+    alex happy ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:233
+translate english_us chapter1_lab_morning_eac4bbda:
+
+    # alex "В общем, давай, действуй Хе-хе. Созвонимся позже!"
+    alex ""
+

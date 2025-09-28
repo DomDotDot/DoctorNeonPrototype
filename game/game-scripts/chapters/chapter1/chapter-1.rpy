@@ -5,7 +5,7 @@ label chapter_1_rpy:
 
     call chapter1_lab_night from _call_chapter1_lab_night
 
-    call chapter1_krypton_baddream
+    call chapter1_krypton_baddream from _call_chapter1_krypton_baddream
 
     call chapter1_lab_morning from _call_chapter1_lab_morning
     call chapter1_lab_noon from _call_chapter1_lab_noon

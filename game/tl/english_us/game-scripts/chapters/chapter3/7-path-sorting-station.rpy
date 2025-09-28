@@ -322,4 +322,11 @@ translate english_us ch3_path_to_station_73615587:
 translate english_us ch3_path_to_station_3d2ba130:
 
     # narrator "Может быть, он видел во мне не просто 'упорство', а отголосок чего-то, что он сам давно потерял. Надежды? Или, может, кого-то, кто тоже так отчаянно боролся..."
-    narrator "Maybe he saw in me not just 'persistence,' but an echo of something he himself had long since lost. Hope? Or maybe someone who had also fought so desperately..."
+    narrator "Maybe he saw in me not just 'persistence,' but an echo of something he himself had long since lost. Hope? Or maybe someone who had also fought so desperately..."# TODO: Translation updated at 2025-09-28 18:21
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:10
+translate english_us ch3_path_to_station_ffa866c0:
+
+    # narrator "Он цеплялся за ноги холодной, влажной дымкой и нес с собой едва уловимый запах гнили."
+    narrator ""
+
