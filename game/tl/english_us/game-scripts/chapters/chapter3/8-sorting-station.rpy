@@ -498,5 +498,5 @@ translate english_us chapter3_escape_5601ea30:
 translate english_us chapter3_revelation_b8a649b0:
 
     # argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
-    argon ""
+    argon "Kid... you came back for me. Ready to die here. You, at least... ...I have to save..."
 

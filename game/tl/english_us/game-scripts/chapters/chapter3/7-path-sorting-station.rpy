@@ -328,5 +328,5 @@ translate english_us ch3_path_to_station_3d2ba130:
 translate english_us ch3_path_to_station_ffa866c0:
 
     # narrator "Он цеплялся за ноги холодной, влажной дымкой и нес с собой едва уловимый запах гнили."
-    narrator ""
+    narrator "It clung to our legs like a cold, damp mist, carrying a faint scent of rot."
 
