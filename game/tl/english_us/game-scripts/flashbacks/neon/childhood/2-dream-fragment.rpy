@@ -190,4 +190,11 @@ translate english_us dream_sequence_japan_2_40075c4b:
 translate english_us dream_sequence_japan_2_c6204da0:
 
     # narrator "Она резко разворачивается и выходит в сад."
-    narrator "She turns abruptly and walks out into our garden."
+    narrator "She turns abruptly and walks out into our garden."# TODO: Translation updated at 2025-09-29 21:57
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_2_86ca06dd:
+
+    # akane "У меня есть что терять. В отличие от тебя!"
+    akane "I have something to lose. Unlike you!"
+

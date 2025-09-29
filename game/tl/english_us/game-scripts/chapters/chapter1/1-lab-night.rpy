@@ -121,59 +121,73 @@ translate english_us chapter1_lab_night_6426eb9c:
 translate english_us chapter1_lab_night_01d5cced:
 
     # narrator "Ночь. Лаборатория. Тишина. Мужчина в белом халате суетится перед дверью, держа некий планшет в руках."
-    narrator ""
+    narrator "Night. Laboratory and silence. A man in a white coat is bustling in front of the door, holding some kind of tablet in his hands."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
 translate english_us chapter1_lab_night_baf8cb0e:
 
     # narrator "Его лицо скрыто тенью, но движения выдают легкое волнение."
-    narrator ""
+    narrator "His face is subttly hidden in shadow, but his movements betray slight nervousness."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
 translate english_us chapter1_lab_night_10c0ca9e:
 
     # narrator "За дверью раздается приглушенный голос женщины, которая, судя по всему, работает допоздна."
-    narrator ""
+    narrator "Something muffled can be heard behind the door, something or someone that seems to be working late."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:18
 translate english_us chapter1_lab_night_d983af95:
 
     # narrator "Он проверяет что-то на экране скалясь в улыбке а, затем, удовлетворенный, стучится в дверь."
-    narrator ""
+    narrator "His hands are busy checking something on the screen, a smile creeping onto his lips, before he knocks on the door."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
 translate english_us chapter1_lab_night_b99a32d6:
 
     # narrator "Её голос прозвучал раздраженно, но без какой либо злобы."
-    narrator ""
+    narrator "Voice of her's sounds irritated, but filled with no malice."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
 translate english_us chapter1_lab_night_f93fa598:
 
     # narrator "Внутри, за массивным столом, сидит женщина. Ее синие волосы растрепаны, глаза красные от недосыпа."
-    narrator ""
+    narrator "Inside the room and behind of a massive desk, feminine figure is sitting. Her blue hair is disheveled, her eyes red from lack of sleep."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
 translate english_us chapter1_lab_night_6ddc78e4:
 
     # narrator "Она уставилась на монитор перед собой, где горит шкала прогресса дешифровки – почти сто процентов."
-    narrator ""
+    narrator "She peer her eyes at the monitor in front of her, where a decryption progress bar is glowing – almost one hundred percent."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:35
 translate english_us chapter1_lab_night_c6244299:
 
     # narrator "Она явно ждала этого визита, хоть и не желала его. "
-    narrator ""
+    narrator "His visit was clearly expected, though not exactly welcomed."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:141
 translate english_us chapter1_lab_night_eac9e88c:
 
     # neon suspicious "С чего такой интерес к техническим деталям, Маркус? Решил мою работу делать?"
-    neon suspicious ""
+    neon suspicious "What's up with the sudden interest in delicacies, Marcus? Decided to do my job for me?"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:145
 translate english_us chapter1_lab_night_b718848e:
 
     # marcus "Что вы, доктор! Просто... беспокоюсь об успехе проекта."
-    marcus ""
+    marcus "No-no, Doctor! I just... care about the success of the project."
+
+# TODO: Translation updated at 2025-09-29 21:57
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:24
+translate english_us chapter1_lab_night_e7aca606:
+
+    # narrator "Её голос прозвучал раздраженно, но без какой-либо злобы."
+    narrator "Voice of her's sounds irritated, but filled with no malice."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:106
+translate english_us chapter1_lab_night_41fc8b77:
+
+    # narrator "Маркус нервно отвел взгляд, опираясь спиной об ближайший стеллаж с оборудованием."
+    narrator "Marcus nervously looked away, leaning his back against the nearest equipment rack."
 

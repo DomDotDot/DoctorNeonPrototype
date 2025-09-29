@@ -668,3 +668,11 @@ translate english_us chapter2_act3_facing_reality_00a84c47:
     # narrator_nvl "Я всегда была... трусихой."
     narrator_nvl "I've always been. .. a scaredy-cat."
 
+# TODO: Translation updated at 2025-09-29 21:57
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:8
+translate english_us chapter2_act3_facing_reality_c333fe38:
+
+    # narrator "Она вспомнила угрожающий образ таинственной женщины из сна."
+    narrator "Her memory flashed back to the menacing image of the mysterious woman from the nightmare."
+

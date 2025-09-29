@@ -203,83 +203,93 @@ translate english_us chapter1_lab_noon_library_desk_0516b761:
 translate english_us chapter1_lab_noon_library_desk_e0a5d748:
 
     # narrator "Неон резко встряхнула головой, отгоняя наваждение. Воспоминание, у которого не было лица. Еще один обрывок шума."
-    narrator ""
+    narrator "A sharp shake of her head dispelled the illusion. A memory without a face. Another fragment of noise."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
 translate english_us chapter1_lab_noon_library_desk_9c90b796:
 
     # narrator "Сейчас это неважно. Важно донести свое открытие до этих скептиков из ученого совета."
-    narrator ""
+    narrator "Not important now. What matters is getting her discovery across to those skeptics on the scientific council."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:67
 translate english_us chapter1_lab_noon_library_desk_131e3038:
 
     # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок.{/thoughts}"
-    neon ""
+    neon "{=thoughts} Focus. Order. Need order.{/thoughts}"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
 translate english_us chapter1_lab_noon_library_desk_6694c64d:
 
     # narrator "Доказательством того, что Вселенная — это не просто бесконечный, хаотичный шум случайных событий."
-    narrator ""
+    narrator "Order as proof that the Universe is not just an infinite, chaotic noise of random events."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
 translate english_us chapter1_lab_noon_library_desk_d0bb7f06:
 
     # narrator "Что где-то в этой оглушающей какофонии взрывающихся звезд и умирающих галактик существует структура. Смысл. Музыка."
-    narrator ""
+    narrator "That somewhere in this deafening cacophony of exploding stars and dying galaxies, there is structure. Meaning. Music."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
 translate english_us chapter1_lab_noon_library_desk_f09689eb:
 
     # narrator "Этот сигнал из сектора Дельта-4 и был ею."
-    narrator ""
+    narrator "Delta-4 sector signal exactly that."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
 translate english_us chapter1_lab_noon_library_desk_de82d6f5:
 
     # narrator "Теперь ее рука не дрожала. Она писала с лихорадочной, почти одержимой точностью. Каждая буква, выведенная на бумаге, была актом борьбы."
-    narrator ""
+    narrator "Her hand no longer was frozen. She wrote with a feverish, almost obsessed precision. Each letter inscribed on the paper was an act of defiance."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
 translate english_us chapter1_lab_noon_library_desk_a807ab56:
 
     # narrator "Нужно было закончить. Нужно доказать"
-    narrator ""
+    narrator "Finish. Prove it."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:83
 translate english_us chapter1_lab_noon_library_desk_cabe7c0b:
 
     # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...{/thoughts}'"
-    neon ""
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
-translate english_us chapter1_lab_noon_library_desk_e273bd79:
-
-    # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный **шум**...{/thoughts}'"
-    neon ""
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
-translate english_us chapter1_lab_noon_library_desk_660070fc:
-
-    # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об **искусственном** происхождении сигнала...{/thoughts}'"
-    neon ""
+    neon "'{=thoughts} ...the repetition of the pattern indicates a non-random nature...{/thoughts}'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 translate english_us chapter1_lab_noon_library_desk_09e6bb7d:
 
     # narrator "Искусственном. Созданном. Не хаотичном. Это было ключевое слово. Ее оправдание. Ее спасение."
-    narrator ""
+    narrator "Non-chaotic. Artificially created. That was the key word. Her justification and her salvation."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:94
 translate english_us chapter1_lab_noon_library_desk_3225c621:
 
     # narrator "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
-    narrator ""
+    narrator "Finnaly, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:94
 translate english_us chapter1_lab_noon_library_desk_e56cfe42:
 
     # narrator "Осталась только она и эти исписанные листы. Идеальный порядок. Тишина."
-    narrator ""
+    narrator "What's left was just her and these written sheets. Perfect order and silence."
+
+# TODO: Translation updated at 2025-09-29 23:02
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
+translate english_us chapter1_lab_noon_library_desk_3752c552:
+
+    # narrator "Воспоминание, у которого не было лица. Еще один обрывок шума."
+    narrator "Fragments of past without a face. Another piece of white noise."
+
+# TODO: Translation updated at 2025-09-29 23:06
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
+translate english_us chapter1_lab_noon_library_desk_b83c1f91:
+
+    # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный шум...{/thoughts}'"
+    neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...{/thoughts}'"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
+translate english_us chapter1_lab_noon_library_desk_0430adbc:
+
+    # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об искусственном происхождении сигнала...{/thoughts}'"
+    neon "'{=thoughts} ...with a high degree of probability, we can assert the artificial origin of the signal...{/thoughts}'"
 

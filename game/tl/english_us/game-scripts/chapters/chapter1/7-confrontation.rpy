@@ -102,29 +102,43 @@ translate english_us confrontation_path_db555a89:
 translate english_us confrontation_path_ba3786cf:
 
     # neon "{=whisper} Заткнись..."
-    neon ""
+    neon "{=whisper} Just shut up..."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:156
 translate english_us confrontation_path_e0751056:
 
     # marcus "Что? Не расслышал. Говори громче."
-    marcus ""
+    marcus "Huh? Didn't hear you. Speak up."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:157
 translate english_us confrontation_path_96829c09:
 
     # neon "Заткнись... ЗАТКНИСЬ. ПРОСТО ЗАТКНИСЬ!"
-    neon ""
+    neon "Just shut up... SHUT UP. JUST SHUT UP!"
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:158
 translate english_us confrontation_path_14249989:
 
     # neon "Я УСТАЛА. УСТАЛА БЫТЬ ДЛЯ ВСЕХ ПУСТЫМ МЕСТОМ!"
-    neon ""
+    neon "I AM WORN OUT. WORN OUT OF BEING A NOBODY TO EVERYONE!"
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:159
 translate english_us confrontation_path_9b6dd43c:
 
     # neon "Мне... МНЕ НИКОГДА БОЛЬШЕ НЕ БУДУТ УКАЗЫВАТЬ КАКАЯ Я!"
-    neon ""
+    neon "NO ONE... NO ONE WILL EVER TELL ME WHO I AM EVER AGAIN!"
+
+# TODO: Translation updated at 2025-09-29 21:57
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:50
+translate english_us confrontation_path_efd6b095:
+
+    # marcus suit_panic "Думаешь, этот старый хрыч не позвонил мне сразу, как вы ушли?!"
+    marcus suit_panic "You think that old geezer didn't call me the second you left?!"
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:125
+translate english_us confrontation_path_9caf7e6f:
+
+    # narrator "Это слово. Это дурацкое слово...\n Это презрение. \n Это было не про карьеру. \n Это было про нее саму. \n Это был голос из прошлого."
+    narrator "That word. That stupid word...\n That contempt. \n This wasn't about her career. \n This was about her. \n It was a voice from the past."
 

@@ -226,3 +226,11 @@ translate english_us dream_sequence_japan_1_b2984722:
     # akane "{=whisper}Все будет хорошо, ■■■■■. Ты должна быть сильной, хорошо? Обещай мне.{/whisper}"
     akane "{=whisper}Everything will be alright, ■■■■■. You have to be strong, okay? Promise me.{/whisper}"
 
+# TODO: Translation updated at 2025-09-29 21:57
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:33
+translate english_us dream_sequence_japan_1_5d5823e9:
+
+    # narrator "В саду появляется гостья. Высокая, серьезная женщина в строгом, но в красивом кимоно. Мама называет ее подругой. Для меня она просто 'тетя', которая часто приходит к нам."
+    narrator "A visitor appears in the garden. A tall, serious woman in a formal yet beautiful kimono. Mom calls her a friend. To me, she's just 'Auntie,' who visits us often."
+

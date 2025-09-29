@@ -432,5 +432,5 @@ translate english_us chapter2_act5_journey_to_anomic_ce2dc5c6:
 translate english_us chapter2_act5_journey_to_anomic_5d5fde98:
 
     # narrator "Даже через закрытые окна фургона Неон почувствовала слабый, но тошнотворный запах – смесь гнили, и чего-то едкого, химического."
-    narrator ""
+    narrator "Closed windows didn't help; Neon could still smell a faint but nauseating odor—a mix of rot and something acrid, chemical."
 
