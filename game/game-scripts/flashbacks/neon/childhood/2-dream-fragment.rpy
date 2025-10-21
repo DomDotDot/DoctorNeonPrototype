@@ -81,4 +81,5 @@ label dream_sequence_japan_2:
     narrator "Она резко разворачивается и выходит в сад."
 
     play sound "sfx/door-slam.mp3"
+    scene black with Dissolve(0.1)
 return
