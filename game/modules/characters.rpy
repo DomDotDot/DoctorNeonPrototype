@@ -12,14 +12,17 @@ layeredimage marcus:
     at sprite_highlight('marcus')
 
 
-define alex = Character(_('Алекс'), color="#b41f5d", image="alex", what_slow_cps_multiplier=1.25, ctc="ctc_blink", ctc_position="nestled")
+define alex = Character(_('Алекс'), color="#b41f5d", image="alex", what_slow_cps_multiplier=1.11, ctc="ctc_blink", ctc_position="nestled")
 
 define oganesson_display_name = _("Опекунша")
 define oganesson = Character("[oganesson_display_name]", color="#663399", image="oganesson", dynamic=True, what_slow_cps_multiplier=0.75, ctc="ctc_blink", ctc_position="nestled")
 define oganesson_young = Character(_('Тетя-гостья'), color="#390482", image="oganesson", what_slow_cps_multiplier=0.80, ctc="ctc_blink", ctc_position="nestled") # Имя скрыто для Неон
 
+define lily = Character(_('Лили'), color="#c16a19", image="lily", ctc="ctc_blink", ctc_position="nestled")
+define seraphina = Character(_('Серафина'), color="#F2DBBB", image="seraphina", what_slow_cps_multiplier=1.11, ctc="ctc_seraphina", ctc_position="nestled")
+
     # Вспомогательные персонажи
-define narrator = Character(None, what_size=25, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = None)
+define narrator = Character(None, what_size=27.5, ctc="ctc_blink", ctc_position="nestled", callback = name_callback, cb_name = None)
 define narrator_nvl = Character(None, kind=nvl)
 define dashboard = Character(_('Приборная Панель') , image="fuel_warning")
 
@@ -45,3 +48,8 @@ define boss = Character(_('Босс'), color="#b22222")
 
 define akane = Character(_('Мама'), color="#e87a90", image="akane", ctc="ctc_blink", ctc_position="nestled")
 define father = Character(_('Папа'), color="#5a7a8d", ctc="ctc_blink", ctc_position="nestled")
+
+define student1 = Character(_('Студентка 1'), color="#d4ad4b", image="student1", ctc="ctc_blink", ctc_position="nestled")
+define student2 = Character(_('Студентка 2'), color="#33dad4", image="student2", ctc="ctc_blink", ctc_position="nestled")
+
+define meryl = Character(_('Мэрил Кендрик'), color="#e87a90", image="meryl", ctc="ctc_blink", ctc_position="nestled")
