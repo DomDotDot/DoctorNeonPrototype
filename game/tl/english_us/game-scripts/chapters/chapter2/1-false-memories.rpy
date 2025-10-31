@@ -392,4 +392,11 @@ translate english_us chapter2_act1_false_memories_76b2fe88:
 translate english_us chapter2_act1_false_memories_12aa37b2:
 
     # narrator "Она повторяла это про себя, как мантру, но холодный страх продолжал сжимать сердце."
-    narrator "She repeated it to herself like a mantra, but a cold fear continued to grip her heart."
+    narrator "She repeated it to herself like a mantra, but a cold fear continued to grip her heart."# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:101
+translate english_us chapter2_act1_false_memories_e7d197d5:
+
+    # narrator "Дорога извивалась бесконечным серпантином, спускаясь с гор все ниже, в плотный, влажный воздух долин. Каждый поворот приближал ее к уровню, где, как она слышала и читала, начиналась 'опасная зона'."
+    narrator ""
+

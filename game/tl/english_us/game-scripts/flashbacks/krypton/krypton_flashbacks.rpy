@@ -580,3 +580,47 @@ translate english_us krypton_firstmeet_flashback_96af5d2f:
     # narrator "Я не оборачиваюсь. Просто крепче сжимаю лямку рюкзака. Привыкла. Для меня они просто шум"
     narrator ""
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:174
+translate english_us krypton_firstmeet_flashback_48697ff0:
+
+    # "???" "Тела во вселенной, говоришь? Хм... А давай завтра сходим в планетарий? Я хочу увидеть звезды поближе!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:175
+translate english_us krypton_firstmeet_flashback_0e45b520:
+
+    # neon "С удовольствием."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:209
+translate english_us krypton_firstmeet_flashback_d26e1353:
+
+    # narrator "А потом... я оказалась дома. С опекуншей. А девушка... нет... что-то женское... оно исчезло. Словно эьлшл и не было. Словно я это выдумала."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:210
+translate english_us krypton_firstmeet_flashback_98c6afe7:
+
+    # narrator "Мы... нет... Я хотела сходить в планетарий... точно... Я хотела увидеть звезды поближе. Моя мечта... То, что говорила моя мама из снов... Да... Я хочу смотреть и изучать звезды..."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:211
+translate english_us krypton_firstmeet_flashback_ff622813:
+
+    # narrator "Все эти книги по научной фантастике в моей комнате... Я читала их, чтобы почувствовать связь с чем-то большим. С чем-то настоящим... Видимо, такова моя природа..."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_ff189ae8:
+
+    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас... девушка...? {/thoughts}"
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_c1a4c29c:
+
+    # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? {/thoughts}"
+    neon ""
+

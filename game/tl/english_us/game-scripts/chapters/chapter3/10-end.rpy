@@ -352,4 +352,23 @@ translate english_us chapter3_on_train_9951d8f2:
 translate english_us chapter3_on_train_efb8ff96:
 
     # narrator "Эскапизм закончился. Начался поиск."
-    narrator "The escapism was over. The search had begun."
+    narrator "The escapism was over. The search had begun."# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:55
+translate english_us chapter3_on_train_540e9732:
+
+    # argon "Тот человек умер. Давно."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:99
+translate english_us chapter3_on_train_7d3bb639:
+
+    # narrator "Глухо, почти шепотом, гляда на свои руки, он продолжил."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:111
+translate english_us chapter3_on_train_b77bf3ad:
+
+    # argon "И теперь... ...теперь мольберт сломан."
+    argon ""
+

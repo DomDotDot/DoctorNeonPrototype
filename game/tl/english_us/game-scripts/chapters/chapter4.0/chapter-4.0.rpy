@@ -10,3 +10,15 @@ translate english_us strings:
     old "Ковчег на мели - Продолжение следует"
     new "Ark Aground - To Be Continued"
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter4.0/chapter-4.0.rpy:3
+    old "Глава 4.0"
+    new ""
+
+    # game/game-scripts/chapters/chapter4.0/chapter-4.0.rpy:3
+    old "Ковчег на мели"
+    new ""
+

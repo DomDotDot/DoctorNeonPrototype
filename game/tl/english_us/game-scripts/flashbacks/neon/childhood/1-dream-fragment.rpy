@@ -234,3 +234,11 @@ translate english_us dream_sequence_japan_1_5d5823e9:
     # narrator "В саду появляется гостья. Высокая, серьезная женщина в строгом, но в красивом кимоно. Мама называет ее подругой. Для меня она просто 'тетя', которая часто приходит к нам."
     narrator "A visitor appears in the garden. A tall, serious woman in a formal yet beautiful kimono. Mom calls her a friend. To me, she's just 'Auntie,' who visits us often."
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:62
+translate english_us dream_sequence_japan_1_4526c3e5:
+
+    # akane worried "{=whisper}Не бойся, ■■■■■. Это... друзья тети. Они здесь по важному делу.{/whisper}"
+    akane worried ""
+

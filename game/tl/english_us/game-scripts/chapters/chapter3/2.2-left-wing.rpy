@@ -120,4 +120,11 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:55
     old "Вернуться в главный холл."
-    new "Return to the main hall."
+    new "Return to the main hall."# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:39
+translate english_us ch3_left_wing_thug_talk_3a17fd1a:
+
+    # "Бандит 1" "...и смотри, когда солнце поднимется выше, на улицу ни ногой. Босс предупредил, сегодня туман будет злой. Ветер с равнин, говорят, поднимет всю дрянь наверх. Держитесь подальше от южных окраин, там уже дышать нечем."
+    "Бандит 1" ""
+

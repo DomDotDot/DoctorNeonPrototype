@@ -676,3 +676,49 @@ translate english_us chapter2_act3_facing_reality_c333fe38:
     # narrator "Она вспомнила угрожающий образ таинственной женщины из сна."
     narrator "Her memory flashed back to the menacing image of the mysterious woman from the nightmare."
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:36
+translate english_us chapter2_act3_facing_reality_8730e976:
+
+    # nvl clear
+    # narrator "Туман был густым, молочным. Он был холодным , но чистым, не таким, о котором говорила... А кто говорил...?"
+    nvl clear
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
+translate english_us chapter2_act3_facing_reality_6c51ff04:
+
+    # narrator "Память снова ускользала, будто забывая что-то важное, но неуловимое."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
+translate english_us chapter2_act3_facing_reality_b26d99f7:
+
+    # narrator "Будто кто-то говорил ей о тумане, предупреждал об его опасности, но теперь этот голос был лишь эхом в голове, потерянным в густой мгле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
+translate english_us chapter2_act3_facing_reality_916a9ff3:
+
+    # narrator "Будто я не верила этому голосу... Но теперь хотела бы верить, хотела бы услышать его снова... Кто.. кто... это был...?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
+translate english_us chapter2_act3_facing_reality_63045179:
+
+    # narrator "Я шла по лесу, голову я держала низко, скорее не для привлечения внимания, а из-за холода и усталости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
+translate english_us chapter2_act3_facing_reality_7163272b:
+
+    # narrator "Туман скрывал деревья, превращая лес в призрачный лабиринт. Но в нем было и своеобразное утешение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
+translate english_us chapter2_act3_facing_reality_b89b116c:
+
+    # narrator "Ее мысли были прагматичными. Эмоции, казалось, замерзли вместе с телом."
+    narrator ""
+

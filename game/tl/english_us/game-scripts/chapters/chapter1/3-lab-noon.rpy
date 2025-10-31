@@ -118,3 +118,17 @@ translate english_us chapter1_lab_noon_c85dca6e:
     # narrator "Пахло кофе, выпечкой и чем-то столовским."
     narrator "Coffee, pastries, and something cafeteria-like filled the air."
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:5
+translate english_us chapter1_lab_noon_a00aecb9:
+
+    # narrator "Энергичный уход Алекс оставил за собой вихрь смешанных чувств и звенящую тишину."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:14
+translate english_us chapter1_lab_noon_e3684d15:
+
+    # narrator "Эта мысль казалась абсурдной в стенах такого исследовательского центра, затерянного в сердце Альп, на высоте, где воздух всегда был чистым и разреженным."
+    narrator ""
+

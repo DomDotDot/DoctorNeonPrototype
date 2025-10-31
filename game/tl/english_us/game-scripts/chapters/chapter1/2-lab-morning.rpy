@@ -232,3 +232,29 @@ translate english_us chapter1_lab_morning_711a50d8:
     # alex "Похоже, что скоро все будут работать из дома. Даже мы с тобой. Надеюсь, это до нас не доберется..."
     alex "It looks like soon everyone will be working from home. Even us. I hope they won't reach us..."
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:213
+translate english_us chapter1_lab_morning_5569d5a1:
+
+    # alex "Говорят, что ещё один сектор в низине попал в ту самую аномальную зону сегодня ночью. Похоже, он снова поднимается..."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:223
+translate english_us chapter1_lab_morning_72e8a1de:
+
+    # neon "Саш, сколько я уже говорила. Ты в это реально веришь? Это же неофициальные слухи. Где-то в мессенджерах люди панику разводят. Верить им нельзя."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:225
+translate english_us chapter1_lab_morning_879199e2:
+
+    # alex "Э-это правда! Ну почему ты мне не веришь? Мы же друзья!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:227
+translate english_us chapter1_lab_morning_1b85b1a6:
+
+    # narrator "Неон вздохнула. Ей не хотелось ссориться с Алекс, но и игнорировать ее опасения тоже не выходило. Переубедить Алекс не получилось."
+    narrator ""
+

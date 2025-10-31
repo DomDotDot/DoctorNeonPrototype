@@ -198,3 +198,17 @@ translate english_us dream_sequence_japan_2_86ca06dd:
     # akane "У меня есть что терять. В отличие от тебя!"
     akane "I have something to lose. Unlike you!"
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:46
+translate english_us dream_sequence_japan_2_0b432eda:
+
+    # oganesson_young young_kimono resentment "Мои предки умирали, пытаясь укротить то, от чего твои прятались за стенами ритуалов."
+    oganesson_young young_kimono resentment ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:46
+translate english_us dream_sequence_japan_2_203a3771:
+
+    # oganesson_young young_kimono resentment "И теперь, когда мы стоим на пороге величайшего открытия, ты предлагаешь мне снова спрятаться? Последовать вашему пути... в небытие?"
+    oganesson_young young_kimono resentment ""
+

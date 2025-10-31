@@ -500,3 +500,11 @@ translate english_us chapter3_revelation_b8a649b0:
     # argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
     argon "Kid... you came back for me. Ready to die here. You, at least... ...I have to save..."
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:213
+translate english_us chapter3_revelation_3d611763:
+
+    # narrator "Через мгновение мы снова остались одни в тишине, и лишь далекимие отголоски перестрелки слышны."
+    narrator ""
+

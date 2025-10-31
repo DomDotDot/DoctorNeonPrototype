@@ -52,3 +52,27 @@ translate english_us strings:
     old "oganesson"
     new "oganesson"
 
+# TODO: Translation updated at 2025-10-31 05:10
+
+translate english_us strings:
+
+    # game/modules/characters.rpy:21
+    old "Лили"
+    new ""
+
+    # game/modules/characters.rpy:22
+    old "Серафина"
+    new ""
+
+    # game/modules/characters.rpy:52
+    old "Студентка 1"
+    new ""
+
+    # game/modules/characters.rpy:53
+    old "Студентка 2"
+    new ""
+
+    # game/modules/characters.rpy:55
+    old "Мэрил Кендрик"
+    new ""
+
