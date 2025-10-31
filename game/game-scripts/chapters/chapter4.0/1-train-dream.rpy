@@ -1,19 +1,18 @@
 label chapter4_0_train_dream:
 
     # Атмосфера: Раннее, туманное утро. Товарный вагон.
-    scene bg chapter_4_traindream_interior with Dissolve(3.0)
-    play ambient "ambient/VeritasWind.ogg" fadein 5.0 volume 0.45 loop
-    play sound "ambient/freight-train.mp3" fadein 2.0 volume 0.5
+
 
     # Резкое пробуждение.
     # Звук хлопка двери резко переходит в ритмичный, тяжелый стук колес по рельсам.
-    scene bg chapter_4_traindream_interior with vpunch
 
-    narrator """
-    Дверь с оглушительным треском захлопнулась прямо перед моим лицом. Я резко вскидываюсь, сердце колотится в горле. Холодный пот на лбу.
+    narrator "Дверь с оглушительным треском захлопнулась прямо перед моим лицом. Я резко вскидываюсь, сердце колотится в горле. Холодный пот на лбу."
+    
+    scene bg chapter_4_train-dream-start with fade
+    play ambient "ambient/VeritasWind.ogg" fadein 5.0 volume 0.45 loop
+    play sound "ambient/freight-train.mp3" fadein 2.0 volume 0.5
 
-    Это был всего лишь сон. А хлопок двери — не более чем монотонный, безжалостный стук колес по стыкам рельсов. Стук, который уносит меня все дальше от прошлого.
-    """
+    narrator "Это был всего лишь сон. А хлопок двери — не более чем монотонный, безжалостный стук колес по стыкам рельсов. Стук, который уносит меня все дальше от прошлого."
 
     show neon neutral at right with dissolve
     show argon suit_determination at left with dissolve
