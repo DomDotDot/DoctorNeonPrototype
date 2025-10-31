@@ -19,3 +19,5 @@ game/screens.rpyc
 game/options.rpyc
 game/init.rpyc
 game/gui.rpyc
+game/cache/screens.rpyb
+game/cache/shaders.txt
