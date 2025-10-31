@@ -191,20 +191,20 @@ translate english_us dream_sequence_japan_1_687e17e0:
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:62
 translate english_us dream_sequence_japan_1_f60ba367:
 
-    # akane worried "{=whisper}Не бойся, Неон. Это... друзья тети. Они здесь по важному делу.{/whisper}"
-    akane worried "{=whisper}Don't be afraid, Neon. They are... Auntie's friends. They're here on important business.{/whisper}"
+    # akane worried "{=whisper}Не бойся, Неон. Это... друзья тети. Они здесь по важному делу."
+    akane worried "{=whisper}Don't be afraid, Neon. They are... Auntie's friends. They're here on important business."
 
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:64
 translate english_us dream_sequence_japan_1_9163bbea:
 
-    # akane "{=whisper}Все будет хорошо, Неон. Ты должна быть сильной, хорошо? Обещай мне.{/whisper}"
-    akane "{=whisper}Everything will be alright, Neon. You have to be strong, okay? Promise me.{/whisper}"
+    # akane "{=whisper}Все будет хорошо, Неон. Ты должна быть сильной, хорошо? Обещай мне."
+    akane "{=whisper}Everything will be alright, Neon. You have to be strong, okay? Promise me."
 
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:65
 translate english_us dream_sequence_japan_1_22dc122c:
 
-    # neon "{=whisper}Обещаю, мама.{/whisper}"
-    neon "{=whisper}I promise, Mom.{/whisper}"
+    # neon "{=whisper}Обещаю, мама."
+    neon "{=whisper}I promise, Mom."
 
 # TODO: Translation updated at 2025-09-29 18:51
 
@@ -223,8 +223,8 @@ translate english_us dream_sequence_japan_1_819d4a46:
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:64
 translate english_us dream_sequence_japan_1_b2984722:
 
-    # akane "{=whisper}Все будет хорошо, ■■■■■. Ты должна быть сильной, хорошо? Обещай мне.{/whisper}"
-    akane "{=whisper}Everything will be alright, ■■■■■. You have to be strong, okay? Promise me.{/whisper}"
+    # akane "{=whisper}Все будет хорошо, ■■■■■. Ты должна быть сильной, хорошо? Обещай мне."
+    akane "{=whisper}Everything will be alright, ■■■■■. You have to be strong, okay? Promise me."
 
 # TODO: Translation updated at 2025-09-29 21:57
 
@@ -239,6 +239,6 @@ translate english_us dream_sequence_japan_1_5d5823e9:
 # game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:62
 translate english_us dream_sequence_japan_1_4526c3e5:
 
-    # akane worried "{=whisper}Не бойся, ■■■■■. Это... друзья тети. Они здесь по важному делу.{/whisper}"
+    # akane worried "{=whisper}Не бойся, ■■■■■. Это... друзья тети. Они здесь по важному делу."
     akane worried ""
 

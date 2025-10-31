@@ -51,14 +51,14 @@ translate english_us chapter1_lab_noon_library_adfb82f9:
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:28
 translate english_us chapter1_lab_noon_library_f53bc53f:
 
-    # neon "{=thoughts}С чего начать?{/thoughts}"
-    neon "{=thoughts}Where to begin?{/thoughts}"
+    # neon "{=thoughts}С чего начать?"
+    neon "{=thoughts}Where to begin?"
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:29
 translate english_us chapter1_lab_noon_library_36a5f827:
 
-    # neon "{=thoughts}'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'... {/thoughts}"
-    neon "{=thoughts}'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4'... {/thoughts}"
+    # neon "{=thoughts}'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'... "
+    neon "{=thoughts}'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4'... "
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:34
 translate english_us chapter1_lab_noon_library_df87d4be:
@@ -94,8 +94,8 @@ translate english_us chapter1_lab_noon_library_bf872de5:
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:28
 translate english_us chapter1_lab_noon_library_142b8f35:
 
-    # neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Не то.{/thoughts}"
-    neon "{=thoughts} Where to begin? 'Report on the Detection of an Anomalous Signal...' No. Something else.{/thoughts}"
+    # neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Не то."
+    neon "{=thoughts} Where to begin? 'Report on the Detection of an Anomalous Signal...' No. Something else."
 
 # game/game-scripts/chapters/chapter1/3.1-library.rpy:32
 translate english_us chapter1_lab_noon_library_75a0b83b:

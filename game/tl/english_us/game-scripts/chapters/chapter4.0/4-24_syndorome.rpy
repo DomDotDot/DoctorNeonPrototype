@@ -57,7 +57,7 @@ translate english_us chapter4_0_24syndrome_d60cd1fc:
 # game/game-scripts/chapters/chapter4.0/4-24_syndorome.rpy:33
 translate english_us chapter4_0_24syndrome_ddb65344:
 
-    # neon "{=thoughts}План А: просто спросить. Шанс почти нулевой, но это отправная точка.{/thoughts}"
+    # neon "{=thoughts}План А: просто спросить. Шанс почти нулевой, но это отправная точка."
     neon ""
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndorome.rpy:34
@@ -117,7 +117,7 @@ translate english_us chapter4_0_24syndrome_cb057391:
 # game/game-scripts/chapters/chapter4.0/4-24_syndorome.rpy:55
 translate english_us chapter4_0_24syndrome_b08368e2:
 
-    # neon "{=thoughts}План Б: получить номер квартиры и найти способ попасть внутрь без прямого контакта.{/thoughts}"
+    # neon "{=thoughts}План Б: получить номер квартиры и найти способ попасть внутрь без прямого контакта."
     neon ""
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndorome.rpy:59
@@ -141,7 +141,7 @@ translate english_us chapter4_0_24syndrome_664e775c:
 # game/game-scripts/chapters/chapter4.0/4-24_syndorome.rpy:67
 translate english_us chapter4_0_24syndrome_09f3d82b:
 
-    # neon "{=thoughts}Система... В любой системе есть лазейки. Не в коде безопасности, а в рутине. В том, что все принимают как должное.{/thoughts}"
+    # neon "{=thoughts}Система... В любой системе есть лазейки. Не в коде безопасности, а в рутине. В том, что все принимают как должное."
     neon ""
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndorome.rpy:71

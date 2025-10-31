@@ -255,8 +255,8 @@ translate english_us zurich_university_flashback_fb0d82c1:
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:131
 translate english_us zurich_university_flashback_f19bc527:
 
-    # anna "{=whisper}Ты правда веришь, что найдешь что-то?{/whisper}"
-    anna "{=whisper}Do you really think you'll find something?{/whisper}"
+    # anna "{=whisper}Ты правда веришь, что найдешь что-то?"
+    anna "{=whisper}Do you really think you'll find something?"
 
 # game/game-scripts/flashbacks/zurich_flashbacks.rpy:133
 translate english_us zurich_university_flashback_0ab5e509:

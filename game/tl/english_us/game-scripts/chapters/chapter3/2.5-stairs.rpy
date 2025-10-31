@@ -15,8 +15,8 @@ translate english_us ch3_stairs_ab9d5614:
 # game/game-scripts/chapters/chapter3/2.5-stairs.rpy:10
 translate english_us ch3_stairs_fbd34bad:
 
-    # neon "{=thoughts}Возможно, оттуда я смогу сбежать... Но не пока этот громила стоит внизу. Он заметит меня в ту же секунду. Мне нужно отвлечь его внимание. Устроить что-то, что заставит его сорваться с места...{/thoughts}"
-    neon "{=thoughts}Maybe I can escape from there... But not while that brute is standing downstairs. He'll spot me in a second. I need to distract him. Cause a scene, something to make him leave his post...{/thoughts}"
+    # neon "{=thoughts}Возможно, оттуда я смогу сбежать... Но не пока этот громила стоит внизу. Он заметит меня в ту же секунду. Мне нужно отвлечь его внимание. Устроить что-то, что заставит его сорваться с места..."
+    neon "{=thoughts}Maybe I can escape from there... But not while that brute is standing downstairs. He'll spot me in a second. I need to distract him. Cause a scene, something to make him leave his post..."
 
 # game/game-scripts/chapters/chapter3/2.5-stairs.rpy:11
 translate english_us ch3_stairs_03c35cad:

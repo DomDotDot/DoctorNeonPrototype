@@ -65,8 +65,8 @@ translate english_us chapter1_lab_noon_e28be967:
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:32
 translate english_us chapter1_lab_noon_0a404e21:
 
-    # neon "{=thoughts}Нужно найти Маркуса. Он поможет с оборудованием. И, может, отвлечет от этих мыслей. И вообще, куда он пропал?!{/thoughts}"
-    neon "{=thoughts}Marcus might be handy. He can help with the equipment. And maybe distract me from these thoughts. Where did he disappear to, anyway?!{/thoughts}"
+    # neon "{=thoughts}Нужно найти Маркуса. Он поможет с оборудованием. И, может, отвлечет от этих мыслей. И вообще, куда он пропал?!"
+    neon "{=thoughts}Marcus might be handy. He can help with the equipment. And maybe distract me from these thoughts. Where did he disappear to, anyway?!"
 
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:35
 translate english_us chapter1_lab_noon_ba66a039:

@@ -106,7 +106,7 @@ translate english_us ch3_left_wing_thug_talk_7f26f625:
 translate english_us ch3_left_wing_thug_talk_6fce0609:
 
     # neon "{=thoughts}Веритас-Сити... Город-академия. Чистый, безопасный, недостижимый. Другая вселенная. Я понимаю, что разговор с ними бесполезен."
-    neon "{=thoughts}Veritas City... The academy city. Clean, safe, unattainable. A different universe. I realize talking to them is pointless.{/thoughts}"
+    neon "{=thoughts}Veritas City... The academy city. Clean, safe, unattainable. A different universe. I realize talking to them is pointless."
 
 translate english_us strings:
 

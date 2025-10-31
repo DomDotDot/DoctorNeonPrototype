@@ -4,14 +4,14 @@ label chapter4_0_garden:
 
     scene bg chapter_4_veritas_streets_night with Dissolve(1.0)
     play music "music/BGM/FloraUndergrowth.ogg" loop # Более меланхоличная версия ночной темы.
-    play ambient "ambient/city_night_distant_sirens.mp3" loop
+    # play ambient "ambient/city_night_distant_sirens.mp3" loop
 
     narrator """
     Я вышла из 'Celeste Plaza', сжимая в руке старый смартфон Сары. Ночь была глубокой и холодной.
     
     Город, такой яркий днем, теперь казался темным и враждебным. Яркие огни небоскребов лишь подчеркивали мрак пустых улиц."
     """
-    show neon tired_walking at center with dissolve # Спрайт идущей, уставшей Неон
+    
     
     narrator """
     Я шла без цели. Ноги гудели от усталости. Целый день на ногах, от промышленных окраин до этого сияющего центра. И к чему я пришла?
@@ -48,7 +48,7 @@ label chapter4_0_garden:
 
     scene bg chapter_4_botanical_garden_interior_night with fade
     stop ambient
-    play ambient "ambient/garden_night_crickets_water.mp3" loop
+    # play ambient "ambient/garden_night_crickets_water.mp3" loop
 
     narrator """
     Внутри было тепло и влажно. Пахло землей, цветами и жизнью. Тихий шелест листьев, журчание небольшого ручья.
@@ -93,7 +93,7 @@ label chapter4_0_garden:
     На ладони — странные, тонкие раны, похожие на трещины. Они не кровоточили. Я смотрела на них, и ужас из сна смешался с реальностью. Что это? Что я сделала?
     """
     
-    neon "{=thoughts}Это... это не от цветка. У него нет шипов. Откуда эти раны?{/thoughts}"
+    neon "{=thoughts}Это... это не от цветка. У него нет шипов. Откуда эти раны?"
     
     narrator "Паника начала подступать к горлу. И тут я услышала его. Тихий, мелодичный напев. И легкий цокот каблуков по каменной плитке."
 

@@ -12,7 +12,7 @@ label ch3_guts_office_door:
         
         Он меня не заметил.
         """
-        neon "{=thoughts}Черт. Он там. Сейчас не время.{/thoughts}"
+        neon "{=thoughts}Черт. Он там. Сейчас не время."
         narrator "Я тихо прикрыла дверь. Нужно, чтобы он отвлекся и ушел."
         jump ch3_hall_explore
     else:
@@ -47,7 +47,7 @@ label ch3_guts_office_door:
             # play sound "sounds/intercom_crackle_off.ogg"
 
             # play sound "sounds/distant_roar_rage.ogg"
-            neon "{=thoughts}Сработало! Пора бежать!{/thoughts}"
+            neon "{=thoughts}Сработало! Пора бежать!"
             $ provocation_count = 3
             jump ch3_chase_start
         "Уйти.":

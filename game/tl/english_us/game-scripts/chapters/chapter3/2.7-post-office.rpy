@@ -27,8 +27,8 @@ translate english_us ch3_guts_office_door_2ac5dc02:
 # game/game-scripts/chapters/chapter3/2.7-post-office.rpy:17
 translate english_us ch3_guts_office_door_b9aee063:
 
-    # neon "{=thoughts}Черт. Он там. Сейчас не время.{/thoughts}"
-    neon "{=thoughts}Damn. He's in there. Now's not the time.{/thoughts}"
+    # neon "{=thoughts}Черт. Он там. Сейчас не время."
+    neon "{=thoughts}Damn. He's in there. Now's not the time."
 
 # game/game-scripts/chapters/chapter3/2.7-post-office.rpy:18
 translate english_us ch3_guts_office_door_be570407:
@@ -105,8 +105,8 @@ translate english_us ch3_guts_office_inside_301aaf2c:
 # game/game-scripts/chapters/chapter3/2.7-post-office.rpy:52
 translate english_us ch3_guts_office_inside_2512df1c:
 
-    # neon "{=thoughts}Сработало! Пора бежать!{/thoughts}"
-    neon "{=thoughts}It worked! Time to run!{/thoughts}"
+    # neon "{=thoughts}Сработало! Пора бежать!"
+    neon "{=thoughts}It worked! Time to run!"
 
 translate english_us strings:
 

@@ -135,7 +135,7 @@ translate english_us chapter4_0_garden_dc0966ae:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:96
 translate english_us chapter4_0_garden_0f8e9658:
 
-    # neon "{=thoughts}Это... это не от цветка. У него нет шипов. Откуда эти раны?{/thoughts}"
+    # neon "{=thoughts}Это... это не от цветка. У него нет шипов. Откуда эти раны?"
     neon ""
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:98

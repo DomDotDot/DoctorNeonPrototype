@@ -75,8 +75,8 @@ translate english_us prologue_e1dce6e3:
 # game/game-scripts/chapters/chapter_0_prologue.rpy:105
 translate english_us prologue_2b7b3371:
 
-    # unknown_f "{=whisper}Н-ннгх... Больно...{/whisper}"
-    unknown_f "{=whisper}N-nngh... It hurts...{/whisper}"
+    # unknown_f "{=whisper}Н-ннгх... Больно..."
+    unknown_f "{=whisper}N-nngh... It hurts..."
 
 # game/game-scripts/chapters/chapter_0_prologue.rpy:118
 translate english_us prologue_78a83cc3:
@@ -107,8 +107,8 @@ translate english_us prologue_952e4643:
 # game/game-scripts/chapters/chapter_0_prologue.rpy:26
 translate english_us prologue_ab1180e0:
 
-    # unknown_f "{=yell}Дерьмо! {/yell}" with vpunch
-    unknown_f "{=yell}Shit! {/yell}" with vpunch
+    # unknown_f "{=yell}Дерьмо! " with vpunch
+    unknown_f "{=yell}Shit! " with vpunch
 
 # game/game-scripts/chapters/chapter_0_prologue.rpy:27
 translate english_us prologue_e4e35800:
@@ -119,8 +119,8 @@ translate english_us prologue_e4e35800:
 # game/game-scripts/chapters/chapter_0_prologue.rpy:29
 translate english_us prologue_376ac4ce:
 
-    # extend "{=yell}Ну же! {/yell}" with vpunch
-    extend "{=yell}C'mon! {/yell}" with vpunch
+    # extend "{=yell}Ну же! " with vpunch
+    extend "{=yell}C'mon! " with vpunch
 
 # game/game-scripts/chapters/chapter_0_prologue.rpy:31
 translate english_us prologue_c1faf5e2:
@@ -173,8 +173,8 @@ translate english_us prologue_71f2baf8:
 # game/game-scripts/chapters/chapter_0_prologue.rpy:56
 translate english_us prologue_ea5c3994:
 
-    # unknown_f "{=yell}Быстрее! {/yell}" with vpunch
-    unknown_f "{=yell}Hurry! {/yell}" with vpunch
+    # unknown_f "{=yell}Быстрее! " with vpunch
+    unknown_f "{=yell}Hurry! " with vpunch
 
 # game/game-scripts/chapters/chapter_0_prologue.rpy:58
 translate english_us prologue_487343b8:
@@ -259,8 +259,8 @@ translate english_us prologue_998d396a:
 # game/game-scripts/chapters/chapter_0_prologue.rpy:123
 translate english_us prologue_44858b5e:
 
-    # unknown_f "{=yell}А-ах!{/yell}"
-    unknown_f "{=yell}A-agh!{/yell}"
+    # unknown_f "{=yell}А-ах!"
+    unknown_f "{=yell}A-agh!"
 
 # game/game-scripts/chapters/chapter_0_prologue.rpy:125
 translate english_us prologue_d2a2e6e4:

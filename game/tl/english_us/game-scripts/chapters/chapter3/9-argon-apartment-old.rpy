@@ -165,20 +165,20 @@ translate english_us chapter3_breather_6a72008e:
 # game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:87
 translate english_us chapter3_breather_df8c38dd:
 
-    # neon "{=thoughts}Зачем? Зачем так ВРАТЬ?{/thoughts}"
-    neon "{=thoughts}Why? Why would he LIE like that?{/thoughts}"
+    # neon "{=thoughts}Зачем? Зачем так ВРАТЬ?"
+    neon "{=thoughts}Why? Why would he LIE like that?"
 
 # game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:88
 translate english_us chapter3_breather_eddd14c0:
 
-    # neon "{=thoughts}Мне вечно все врут, подставляют... Сначала коллеги в лаборатории, потом Гатс, теперь он... Неужели я так наивно выгляжу, простушкой, которую можно водить за нос?{/thoughts}"
-    neon "{=thoughts}Everyone is always lying to me, setting me up... First my colleagues at the lab, then Guts, now him... Do I really look that naive, like some simpleton you can lead by the nose?{/thoughts}"
+    # neon "{=thoughts}Мне вечно все врут, подставляют... Сначала коллеги в лаборатории, потом Гатс, теперь он... Неужели я так наивно выгляжу, простушкой, которую можно водить за нос?"
+    neon "{=thoughts}Everyone is always lying to me, setting me up... First my colleagues at the lab, then Guts, now him... Do I really look that naive, like some simpleton you can lead by the nose?"
 
 # game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:89
 translate english_us chapter3_breather_e6bd3f0c:
 
-    # neon "{=thoughts}Я не знаю, кто этот Аргон мне. Враг или друг, но то, что он лжет даже о своем имени - это факт.{/thoughts}"
-    neon "{=thoughts}I don't know what this Argon is to me. Enemy or friend, but the fact that he's even lying about his own name is a certainty.{/thoughts}"
+    # neon "{=thoughts}Я не знаю, кто этот Аргон мне. Враг или друг, но то, что он лжет даже о своем имени - это факт."
+    neon "{=thoughts}I don't know what this Argon is to me. Enemy or friend, but the fact that he's even lying about his own name is a certainty."
 
 # game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:91
 translate english_us chapter3_breather_7dc7cab8:

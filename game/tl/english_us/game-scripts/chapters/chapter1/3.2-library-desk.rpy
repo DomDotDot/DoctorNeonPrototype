@@ -27,8 +27,8 @@ translate english_us chapter1_lab_noon_library_desk_814daea3:
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:18
 translate english_us chapter1_lab_noon_library_desk_f706866b:
 
-    # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?{/thoughts}"
-    neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?{/thoughts}"
+    # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?"
+    neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:20
 translate english_us chapter1_lab_noon_library_desk_60654845:
@@ -45,8 +45,8 @@ translate english_us chapter1_lab_noon_library_desk_cec91677:
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:27
 translate english_us chapter1_lab_noon_library_desk_f3415025:
 
-    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...{/thoughts}'"
-    neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...{/thoughts}'"
+    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...'"
+    neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:29
 translate english_us chapter1_lab_noon_library_desk_9e38632c:
@@ -214,8 +214,8 @@ translate english_us chapter1_lab_noon_library_desk_9c90b796:
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:67
 translate english_us chapter1_lab_noon_library_desk_131e3038:
 
-    # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок.{/thoughts}"
-    neon "{=thoughts} Focus. Order. Need order.{/thoughts}"
+    # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок."
+    neon "{=thoughts} Focus. Order. Need order."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
 translate english_us chapter1_lab_noon_library_desk_6694c64d:
@@ -250,8 +250,8 @@ translate english_us chapter1_lab_noon_library_desk_a807ab56:
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:83
 translate english_us chapter1_lab_noon_library_desk_cabe7c0b:
 
-    # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...{/thoughts}'"
-    neon "'{=thoughts} ...the repetition of the pattern indicates a non-random nature...{/thoughts}'"
+    # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...'"
+    neon "'{=thoughts} ...the repetition of the pattern indicates a non-random nature...'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 translate english_us chapter1_lab_noon_library_desk_09e6bb7d:
@@ -284,12 +284,12 @@ translate english_us chapter1_lab_noon_library_desk_3752c552:
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
 translate english_us chapter1_lab_noon_library_desk_b83c1f91:
 
-    # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный шум...{/thoughts}'"
-    neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...{/thoughts}'"
+    # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный шум...'"
+    neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
 translate english_us chapter1_lab_noon_library_desk_0430adbc:
 
-    # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об искусственном происхождении сигнала...{/thoughts}'"
-    neon "'{=thoughts} ...with a high degree of probability, we can assert the artificial origin of the signal...{/thoughts}'"
+    # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об искусственном происхождении сигнала...'"
+    neon "'{=thoughts} ...with a high degree of probability, we can assert the artificial origin of the signal...'"
 

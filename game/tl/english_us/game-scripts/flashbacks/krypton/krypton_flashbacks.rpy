@@ -547,32 +547,32 @@ translate english_us krypton_firstmeet_flashback_ea53aee7:
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
 translate english_us krypton_firstmeet_flashback_0fd2c997:
 
-    # neon "{=thoughts}Это был сон. Просто сон от удара. {/thoughts}"
-    neon "{=thoughts}It was a dream. Just a dream from the crash. {/thoughts}"
+    # neon "{=thoughts}Это был сон. Просто сон от удара. "
+    neon "{=thoughts}It was a dream. Just a dream from the crash. "
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
 translate english_us krypton_firstmeet_flashback_b401e6e6:
 
-    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас. {/thoughts}"
-    neon "{=thoughts}I have to focus on reality. On who's important right now. {/thoughts}"
+    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас. "
+    neon "{=thoughts}I have to focus on reality. On who's important right now. "
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
 translate english_us krypton_firstmeet_flashback_95fdcaf6:
 
-    # neon "{=thoughts}Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? {/thoughts}"
-    neon "{=thoughts}Alex... Right... Alex... I left her back there. Why did I run away? {/thoughts}"
+    # neon "{=thoughts}Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? "
+    neon "{=thoughts}Alex... Right... Alex... I left her back there. Why did I run away? "
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
 translate english_us krypton_firstmeet_flashback_f34cedab:
 
-    # neon "{=thoughts}Она бы не сбежала. Она... моя подруга. {/thoughts}"
-    neon "{=thoughts}She wouldn't have run. She's... my friend. {/thoughts}"
+    # neon "{=thoughts}Она бы не сбежала. Она... моя подруга. "
+    neon "{=thoughts}She wouldn't have run. She's... my friend. "
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:218
 translate english_us krypton_firstmeet_flashback_0488e8f4:
 
-    # neon "{=thoughts} Я должна... вернуться... помочь... {/thoughts}"
-    neon "{=thoughts} I have to... go back... help her... {/thoughts}"# TODO: Translation updated at 2025-09-28 18:21
+    # neon "{=thoughts} Я должна... вернуться... помочь... "
+    neon "{=thoughts} I have to... go back... help her... "# TODO: Translation updated at 2025-09-28 18:21
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
 translate english_us krypton_firstmeet_flashback_96af5d2f:
@@ -615,12 +615,12 @@ translate english_us krypton_firstmeet_flashback_ff622813:
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_ff189ae8:
 
-    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас... девушка...? {/thoughts}"
+    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас... девушка...? "
     neon ""
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_c1a4c29c:
 
-    # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? {/thoughts}"
+    # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? "
     neon ""
 

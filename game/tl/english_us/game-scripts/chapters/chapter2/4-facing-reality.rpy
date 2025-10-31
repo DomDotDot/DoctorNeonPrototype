@@ -45,20 +45,20 @@ translate english_us chapter2_act3_facing_reality_2bdca272:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:8
 translate english_us chapter2_act3_facing_reality_4d12501d:
 
-    # narrator "{=thoughts}Бред. Просто кошмар, вызванный стрессом.{/thoughts}"
-    narrator "{=thoughts}Nonsense. Just a stress-induced nightmare.{/thoughts}"
+    # narrator "{=thoughts}Бред. Просто кошмар, вызванный стрессом."
+    narrator "{=thoughts}Nonsense. Just a stress-induced nightmare."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:8
 translate english_us chapter2_act3_facing_reality_d804efee:
 
-    # narrator "{=thoughts}Она всегда была... сложной. Властной. Требовала контроля. Мое подсознание просто гиперболизировало этот образ до абсурда...{/thoughts}"
-    narrator "{=thoughts}She was always... difficult. Overbearing. Demanded control. My subconscious just exaggerated that image to an absurd degree...{/thoughts}"
+    # narrator "{=thoughts}Она всегда была... сложной. Властной. Требовала контроля. Мое подсознание просто гиперболизировало этот образ до абсурда..."
+    narrator "{=thoughts}She was always... difficult. Overbearing. Demanded control. My subconscious just exaggerated that image to an absurd degree..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:8
 translate english_us chapter2_act3_facing_reality_ef119461:
 
-    # narrator "{=thoughts}Нужно двигаться. Скрыться. Найти способ выжить, да...{/thoughts}"
-    narrator "{=thoughts}I need to move. Hide. Find a way to survive, yes...{/thoughts}"
+    # narrator "{=thoughts}Нужно двигаться. Скрыться. Найти способ выжить, да..."
+    narrator "{=thoughts}I need to move. Hide. Find a way to survive, yes..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:8
 translate english_us chapter2_act3_facing_reality_c2d1e6ec:
@@ -291,8 +291,8 @@ translate english_us chapter2_act3_facing_reality_69624f24:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:133
 translate english_us chapter2_act3_facing_reality_6cc64847:
 
-    # neon "{=thoughts}Я должна ее спасти... Точно. Алекс...{/thoughts}"
-    neon "{=thoughts}I have to save her... That's right. Alex...{/thoughts}"
+    # neon "{=thoughts}Я должна ее спасти... Точно. Алекс..."
+    neon "{=thoughts}I have to save her... That's right. Alex..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:135
 translate english_us chapter2_act3_facing_reality_557d3396:
@@ -309,14 +309,14 @@ translate english_us chapter2_act3_facing_reality_43322ef5:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:138
 translate english_us chapter2_act3_facing_reality_1cdefe30:
 
-    # neon "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?{/thoughts}"
-    neon "{=thoughts}Why... Why couldn't I remember her until now? Why was I so... calm?{/thoughts}"
+    # neon "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?"
+    neon "{=thoughts}Why... Why couldn't I remember her until now? Why was I so... calm?"
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:139
 translate english_us chapter2_act3_facing_reality_890db17e:
 
-    # neon "{=thoughts}Ну почему...{/thoughts}"
-    neon "{=thoughts}Why...{/thoughts}"
+    # neon "{=thoughts}Ну почему..."
+    neon "{=thoughts}Why..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:142
 translate english_us chapter2_act3_facing_reality_77a517a4:
@@ -327,8 +327,8 @@ translate english_us chapter2_act3_facing_reality_77a517a4:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:144
 translate english_us chapter2_act3_facing_reality_9eaab8da:
 
-    # neon "{=thoughts}Как... я... могла...{/thoughts}"
-    neon "{=thoughts}How... could... I...{/thoughts}"
+    # neon "{=thoughts}Как... я... могла..."
+    neon "{=thoughts}How... could... I..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:148
 translate english_us chapter2_act3_facing_reality_18eade0c:
@@ -345,8 +345,8 @@ translate english_us chapter2_act3_facing_reality_19032989:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:156
 translate english_us chapter2_act3_facing_reality_e350408f:
 
-    # neon "{=thoughts}Н-ннгх... Голова... Что... что за...{/thoughts}"
-    neon "{=thoughts}N-nngh... My head... What... what the...{/thoughts}"
+    # neon "{=thoughts}Н-ннгх... Голова... Что... что за..."
+    neon "{=thoughts}N-nngh... My head... What... what the..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:158
 translate english_us chapter2_act3_facing_reality_06c7574d:
@@ -363,8 +363,8 @@ translate english_us chapter2_act3_facing_reality_f09c87a6:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:162
 translate english_us chapter2_act3_facing_reality_9c6d89fd:
 
-    # neon "{=thoughts}Она меня спасала... а я ее забыла. Я просто... вычеркнула ее.{/thoughts}"
-    neon "{=thoughts}She was saving me... and I forgot her. I just... erased her.{/thoughts}"
+    # neon "{=thoughts}Она меня спасала... а я ее забыла. Я просто... вычеркнула ее."
+    neon "{=thoughts}She was saving me... and I forgot her. I just... erased her."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:164
 translate english_us chapter2_act3_facing_reality_d7ce1897:
@@ -393,8 +393,8 @@ translate english_us chapter2_act3_facing_reality_d8ed01c3:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:172
 translate english_us chapter2_act3_facing_reality_175a3fc0:
 
-    # extend "{=yell} НЕ ТАК?!{/yell}" with vpunch
-    extend "{=yell} WRONG WITH ME?!{/yell}" with vpunch
+    # extend "{=yell} НЕ ТАК?!" with vpunch
+    extend "{=yell} WRONG WITH ME?!" with vpunch
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:174
 translate english_us chapter2_act3_facing_reality_d22b1c01:
@@ -545,8 +545,8 @@ translate english_us chapter2_act3_facing_reality_a18c496c:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:52
 translate english_us chapter2_act3_facing_reality_0cc6a2b5:
 
-    # neon "{=thoughts} В тумане... меня хотя бы не так хорошо видно...{/thoughts}"
-    neon "{=thoughts} In the fog... at least it's harder to see me...{/thoughts}"
+    # neon "{=thoughts} В тумане... меня хотя бы не так хорошо видно..."
+    neon "{=thoughts} In the fog... at least it's harder to see me..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:80
 translate english_us chapter2_act3_facing_reality_b86e3a46:
@@ -587,8 +587,8 @@ translate english_us chapter2_act3_facing_reality_3158123a:
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:162
 translate english_us chapter2_act3_facing_reality_c72b4fa2:
 
-    # neon eyehurt "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?{/thoughts}"
-    neon eyehurt "{=thoughts}Why... Why couldn't I remember her until now? Why was I so... calm?{/thoughts}"
+    # neon eyehurt "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?"
+    neon eyehurt "{=thoughts}Why... Why couldn't I remember her until now? Why was I so... calm?"
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:180
 translate english_us chapter2_act3_facing_reality_afd5b761:

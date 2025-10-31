@@ -75,8 +75,8 @@ translate english_us chapter1_lab_night_743b6736:
 # game/game-scripts/chapters/chapter_1.rpy:35
 translate english_us chapter1_lab_night_e4f5e00b:
 
-    # unknown_f "{=whisper}Скоро... вот-вот... еще чуть-чуть...{/whisper}"
-    unknown_f "{=whisper}Soon... almost there... just a little longer...{/whisper}"
+    # unknown_f "{=whisper}Скоро... вот-вот... еще чуть-чуть..."
+    unknown_f "{=whisper}Soon... almost there... just a little longer..."
 
 # game/game-scripts/chapters/chapter_1.rpy:37
 translate english_us chapter1_lab_night_171ee41f:
@@ -99,8 +99,8 @@ translate english_us chapter1_lab_night_46d2f53f:
 # game/game-scripts/chapters/chapter_1.rpy:43
 translate english_us chapter1_lab_night_008d673e:
 
-    # unknown_f "{=yell}Агрх!{/yell}"
-    unknown_f "{=yell}Argh!{/yell}"
+    # unknown_f "{=yell}Агрх!"
+    unknown_f "{=yell}Argh!"
 
 # game/game-scripts/chapters/chapter_1.rpy:44
 translate english_us chapter1_lab_night_e9be8a65:
@@ -447,8 +447,8 @@ translate english_us chapter1_lab_night_b8125eed:
 # game/game-scripts/chapters/chapter_1.rpy:175
 translate english_us chapter1_lab_night_0e3b8d95:
 
-    # neon "{=whisper}Пока...{/whisper}"
-    neon "{=whisper}Bye...{/whisper}"
+    # neon "{=whisper}Пока..."
+    neon "{=whisper}Bye..."
 
 # game/game-scripts/chapters/chapter_1.rpy:176
 translate english_us chapter1_lab_night_92498e38:
@@ -1407,14 +1407,14 @@ translate english_us chapter1_lab_noon_adfb82f9:
 # game/game-scripts/chapters/chapter_1.rpy:608
 translate english_us chapter1_lab_noon_f53bc53f:
 
-    # neon "{=thoughts}С чего начать?{/thoughts}"
-    neon "{=thoughts}Where to begin?{/thoughts}"
+    # neon "{=thoughts}С чего начать?"
+    neon "{=thoughts}Where to begin?"
 
 # game/game-scripts/chapters/chapter_1.rpy:609
 translate english_us chapter1_lab_noon_36a5f827:
 
-    # neon "{=thoughts}'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'... {/thoughts}"
-    neon "{=thoughts}'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4'... {/thoughts}"
+    # neon "{=thoughts}'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4'... "
+    neon "{=thoughts}'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4'... "
 
 # game/game-scripts/chapters/chapter_1.rpy:614
 translate english_us chapter1_lab_noon_df87d4be:
@@ -1461,8 +1461,8 @@ translate english_us chapter1_lab_noon_814daea3:
 # game/game-scripts/chapters/chapter_1.rpy:640
 translate english_us chapter1_lab_noon_f706866b:
 
-    # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?{/thoughts}"
-    neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?{/thoughts}"
+    # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?"
+    neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?"
 
 # game/game-scripts/chapters/chapter_1.rpy:642
 translate english_us chapter1_lab_noon_60654845:
@@ -1479,8 +1479,8 @@ translate english_us chapter1_lab_noon_cec91677:
 # game/game-scripts/chapters/chapter_1.rpy:649
 translate english_us chapter1_lab_noon_f3415025:
 
-    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...{/thoughts}'"
-    neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...{/thoughts}'"
+    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...'"
+    neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...'"
 
 # game/game-scripts/chapters/chapter_1.rpy:651
 translate english_us chapter1_lab_noon_9e38632c:
@@ -1845,14 +1845,14 @@ translate english_us chapter1_meeting_start_b51f84fd:
 # game/game-scripts/chapters/chapter_1.rpy:821
 translate english_us chapter1_meeting_start_2d78d93b:
 
-    # marcus "{=whisper} Доктор Неон, при всем моем глубочайшем уважении... не будете ли вы возражать, если я выступлю первым? {/whisper}"
-    marcus "{=whisper} Doctor Neon, with all due respect... would you mind if I presented first? {/whisper}"
+    # marcus "{=whisper} Доктор Неон, при всем моем глубочайшем уважении... не будете ли вы возражать, если я выступлю первым? "
+    marcus "{=whisper} Doctor Neon, with all due respect... would you mind if I presented first? "
 
 # game/game-scripts/chapters/chapter_1.rpy:821
 translate english_us chapter1_meeting_start_fb26f539:
 
-    # marcus "{=whisper} У меня все готово, а мне сегодня еще нужно успеть в город по неотложным делам. {/whisper}"
-    marcus "{=whisper} I have everything prepared, and I need to get into town for an urgent matter later today. {/whisper}"
+    # marcus "{=whisper} У меня все готово, а мне сегодня еще нужно успеть в город по неотложным делам. "
+    marcus "{=whisper} I have everything prepared, and I need to get into town for an urgent matter later today. "
 
 # game/game-scripts/chapters/chapter_1.rpy:826
 translate english_us chapter1_meeting_start_3afb91df:

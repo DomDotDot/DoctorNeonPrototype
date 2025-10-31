@@ -23,7 +23,7 @@ label chapter4_0_academy:
     """
 
     narrator "Эта мысль кольнула неожиданной болью. Здесь, в этом царстве стерильности, я впервые остро почувствовала, как мне не хватает ее живого, теплого хаоса."
-    neon "{=thoughts}Интересно, она в порядке? Я должна попробовать ей позвонить как нибудь... Позже. Когда буду одна.{/thoughts}"
+    neon "{=thoughts}Интересно, она в порядке? Я должна попробовать ей позвонить как нибудь... Позже. Когда буду одна."
 
     show neon neutral at right with dissolve
     show argon suit_determination at left with dissolve
@@ -371,7 +371,7 @@ label chapter4_0_academy:
     
     # Звук: Щелчок, как будто пазл сложился.
     #play sound "sfx/idea_click.mp3"
-    show neon determined with dissolve
+    # show neon determined with dissolve
     
     neon "Celeste Plaza..."
     

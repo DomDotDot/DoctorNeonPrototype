@@ -51,7 +51,7 @@ translate english_us chapter4_0_academy_52eb3d3c:
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:26
 translate english_us chapter4_0_academy_8ef049a7:
 
-    # neon "{=thoughts}Интересно, она в порядке? Я должна попробовать ей позвонить как нибудь... Позже. Когда буду одна.{/thoughts}"
+    # neon "{=thoughts}Интересно, она в порядке? Я должна попробовать ей позвонить как нибудь... Позже. Когда буду одна."
     neon ""
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:31

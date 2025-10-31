@@ -99,8 +99,8 @@ translate english_us ch3_hall_explore_3b71e30c:
 # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:53
 translate english_us ch3_hall_explore_af775b64:
 
-    # neon "{=thoughts}Жирные линии находятся над цифрами {b}1{/b}, {b}9{/b}, {b}8{/b} и {b}4{/b}. Остальные линии тонкие. Это не ошибка печати. Это шифр. Евгений Петров, старший химик...{/thoughts}"
-    neon "{=thoughts}The thick lines are above the numbers {b}1{/b}, {b}9{/b}, {b}8{/b}, and {b}4{/b}. The rest of the lines are thin. This isn't a printing error. It's a cipher. Evgeny Petrov, senior chemist...{/thoughts}"
+    # neon "{=thoughts}Жирные линии находятся над цифрами {b}1{/b}, {b}9{/b}, {b}8{/b} и {b}4{/b}. Остальные линии тонкие. Это не ошибка печати. Это шифр. Евгений Петров, старший химик..."
+    neon "{=thoughts}The thick lines are above the numbers {b}1{/b}, {b}9{/b}, {b}8{/b}, and {b}4{/b}. The rest of the lines are thin. This isn't a printing error. It's a cipher. Evgeny Petrov, senior chemist..."
 
 # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:54
 translate english_us ch3_hall_explore_ef4cf4ab:

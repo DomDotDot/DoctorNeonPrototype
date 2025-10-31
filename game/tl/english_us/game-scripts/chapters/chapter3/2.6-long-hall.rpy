@@ -75,8 +75,8 @@ translate english_us ch3_explore_long_corridor_68640958:
 # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:47
 translate english_us ch3_explore_long_corridor_2f516ae8:
 
-    # neon "{=thoughts}Я понятия не имею, какой здесь может быть код. Просто тыкать наугад бессмысленно. Подсказка должна быть где-то здесь.{/thoughts}"
-    neon "{=thoughts}I have no idea what the code could be. Guessing randomly is pointless. There must be a clue somewhere.{/thoughts}"
+    # neon "{=thoughts}Я понятия не имею, какой здесь может быть код. Просто тыкать наугад бессмысленно. Подсказка должна быть где-то здесь."
+    neon "{=thoughts}I have no idea what the code could be. Guessing randomly is pointless. There must be a clue somewhere."
 
 # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:53
 translate english_us ch3_explore_long_corridor_c7a1834f:

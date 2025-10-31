@@ -132,7 +132,7 @@ label zurich_university_flashback:
         show neon at restore_flip with dissolve
         narrator "Софи уходит в свою комнату. Неон с Анной еще некоторое время сидим молча, глядя в окно."
 
-        anna "{=whisper}Ты правда веришь, что найдешь что-то?{/whisper}"
+        anna "{=whisper}Ты правда веришь, что найдешь что-то?"
 
         neon "Я не знаю. Но я должна пытаться. Это... как будто зов."
 

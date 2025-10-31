@@ -10,10 +10,10 @@ label prologue:
         narrator "Где-то сквозь грохот пробивается скрежет рвущегося металла."
 
         fcs "Внимание! Множественные повреждения! Отказ системы стабилизации!"
-        unknown_f "{=yell}Дерьмо! {/yell}" with vpunch
+        unknown_f "{=yell}Дерьмо! " with vpunch
         extend "Только не сейчас! "
         unknown_f "Автопилот... как выключить?! "
-        extend "{=yell}Ну же! {/yell}" with vpunch
+        extend "{=yell}Ну же! " with vpunch
 
         narrator """
         Слышно прерывистое, тяжелое дыхание.
@@ -42,7 +42,7 @@ label prologue:
         """
 
         unknown_f "Ну! Ну давай же, твою мать! "
-        unknown_f "{=yell}Быстрее! {/yell}" with vpunch
+        unknown_f "{=yell}Быстрее! " with vpunch
 
         narrator "Ожидаемого рывка или звука раскрытия куполов не последовало. Лишь несмолкающий рев и тряска."
 
@@ -92,7 +92,7 @@ label prologue:
         narrator "На записи слышен тихий стон, полный боли."
 
         show neon eyehurt
-        unknown_f "{=whisper}Н-ннгх... Больно...{/whisper}"
+        unknown_f "{=whisper}Н-ннгх... Больно..."
 
         narrator """
         Звуки борьбы, слабого движения.
@@ -110,7 +110,7 @@ label prologue:
         narrator "Слышен скрежет металла о металл – попытка открыть люк. Звук слабого щелчка – замок поддался."
         # play sound "sounds/hatch_open_struggle.ogg"
 
-        unknown_f "{=yell}А-ах!{/yell}"
+        unknown_f "{=yell}А-ах!"
 
         narrator """
         Резкий, болезненный выдох. Звук падения чего-то мягкого обратно в кресло.

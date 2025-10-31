@@ -1547,7 +1547,7 @@ translate english_us debug_chapter1_flashback_start_7d600134:
 # game/game-scripts/script_director_scene.rpy:413
 translate english_us debug_chapter1_flashback_start_f3415025:
 
-    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...{/thoughts}'"
+    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...'"
     neon ""
 
 # game/game-scripts/script_director_scene.rpy:414
@@ -1769,7 +1769,7 @@ translate english_us debug_chapter1_flashback_start_b4457a34:
 # game/game-scripts/script_director_scene.rpy:486
 translate english_us debug_chapter1_flashback_start_aafdd55a:
 
-    # neon "{=thoughts}Я сижу напротив них, обхватив руками кружку с остывшим чаем. Мне двадцать. Я полна амбиций и сомнений одновременно.{/thoughts}"
+    # neon "{=thoughts}Я сижу напротив них, обхватив руками кружку с остывшим чаем. Мне двадцать. Я полна амбиций и сомнений одновременно."
     neon ""
 
 # game/game-scripts/script_director_scene.rpy:487

@@ -11,7 +11,7 @@ label chapter1_lab_night:
         За дверью раздается приглушенный голос женщины, которая, судя по всему, работает допоздна.
         """
 
-        unknown_f "{=yell}Агрх!{/yell}"
+        unknown_f "{=yell}Агрх!"
         unknown_f "Эти дурацкие отчеты... Кому они сдались?"
         unknown_f "Бумажная рутина, когда на кону целая Вселенная!"
 
@@ -160,7 +160,7 @@ label chapter1_lab_night:
     
         hide marcus with easeoutleft
 
-        neon "{=whisper}Пока...{/whisper}"
+        neon "{=whisper}Пока..."
         narrator """
         Неон проводила его взглядом, затем дождалась, пока стихнут его шаги в коридоре.
 
