@@ -2,7 +2,7 @@ label chapter4_0_arkaground:
 
     # --- АКТ I: ПРИБЫТИЕ И ИЗНАНКА ВЕРИТАСА ---
 
-    scene bg chapter_4_veritas_station with Dissolve(1.0)
+    scene bg chapter_4_ark-aground-veritas-station with Dissolve(3.0)
 
     narrator "Стук колес замедлился, переходя в протяжный, усталый скрип"
     argon "Сейчас. Прыгай по моей команде. Старайся сгруппироваться."
@@ -13,8 +13,12 @@ label chapter4_0_arkaground:
     narrator "Мы спрыгнули на гравий. Поезд, не заметив нас, медленно растворился в дымке, оставив нас в оглушающей тишине."
 
     
-    scene bg chapter_4_old_quarter_street with fade
-    narrator "Мы шли по Старому Кварталу. Призраку. Этот район просто... умер от забвения. Аргон остановился перед обшарпанным трехэтажным зданием. 'Художественные Товары'."
+    scene bg chapter_4_ark-aground-old-street with fade
+    narrator """
+    Мы шли по Старому Кварталу. Призраку. Этот район просто... умер от забвения.
+    
+    Аргон остановился перед обшарпанным четырёхэтажным зданием. 'Художественные Товары'.
+    """
 
     # --- АКТ II: КОВЧЕГ НА МЕЛИ ---
     play music "music/BGM/ElectricityInAir.ogg" fadein 5.0 volume 0.33 noloop
@@ -48,7 +52,7 @@ label chapter4_0_arkaground:
     Только в честную, но безнадежную реальность.
     """
     
-    scene bg chapter_4_arkaground_interior with fade
+    scene bg chapter_4_ark-aground-base with fade
     stop ambient fadeout 0.5
 
     narrator "Мы вошли внутрь. Пыль. Запах старой краски и одиночества. Накрытые белыми простынями холсты стояли, как надгробия. Это место было законсервировано во времени."
