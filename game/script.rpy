@@ -28,6 +28,9 @@
         label chapter_4:
                 call chapter_4_rpy from _call_chapter_4_rpy
 
+        label chapter_4_5:
+                call chapter_4_5_rpy
+
 
 
 
