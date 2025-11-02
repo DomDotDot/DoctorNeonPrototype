@@ -29,3 +29,35 @@ translate english_us prologue_af9f640a:
 
     # fcs "Перегрузка 13G..."
     fcs "13G overload..."
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter0/1-prologue.rpy:13
+translate english_us prologue_8b644715:
+
+    # unknown_f "{=yell}Дерьмо! " with vpunch
+    unknown_f "" with vpunch
+
+# game/game-scripts/chapters/chapter0/1-prologue.rpy:16
+translate english_us prologue_856f9dbc:
+
+    # extend "{=yell}Ну же! " with vpunch
+    extend "" with vpunch
+
+# game/game-scripts/chapters/chapter0/1-prologue.rpy:45
+translate english_us prologue_9b74d748:
+
+    # unknown_f "{=yell}Быстрее! " with vpunch
+    unknown_f "" with vpunch
+
+# game/game-scripts/chapters/chapter0/1-prologue.rpy:95
+translate english_us prologue_16c89680:
+
+    # unknown_f "{=whisper}Н-ннгх... Больно..."
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter0/1-prologue.rpy:113
+translate english_us prologue_9ff77c50:
+
+    # unknown_f "{=yell}А-ах!"
+    unknown_f ""
+
