@@ -684,43 +684,43 @@ translate english_us chapter2_act3_facing_reality_8730e976:
     # nvl clear
     # narrator "Туман был густым, молочным. Он был холодным , но чистым, не таким, о котором говорила... А кто говорил...?"
     nvl clear
-    narrator ""
+    narrator "The fog was thick, milky. It was cold, but pure, not the kind that she talked about... Wait... Who 'She'?"
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
 translate english_us chapter2_act3_facing_reality_6c51ff04:
 
     # narrator "Память снова ускользала, будто забывая что-то важное, но неуловимое."
-    narrator ""
+    narrator "Memory slipped away again, as if forgetting something important yet elusive."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
 translate english_us chapter2_act3_facing_reality_b26d99f7:
 
     # narrator "Будто кто-то говорил ей о тумане, предупреждал об его опасности, но теперь этот голос был лишь эхом в голове, потерянным в густой мгле."
-    narrator ""
+    narrator "Like someone had told her about the fog, warned her of its dangers, but now that voice was just an echo in her head, lost in that thick mist."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
 translate english_us chapter2_act3_facing_reality_916a9ff3:
 
     # narrator "Будто я не верила этому голосу... Но теперь хотела бы верить, хотела бы услышать его снова... Кто.. кто... это был...?"
-    narrator ""
+    narrator "It's like... i didn't take that voice seriously... But now I wish I had, wish I could hear it again... Who... who was it...?"
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
 translate english_us chapter2_act3_facing_reality_63045179:
 
     # narrator "Я шла по лесу, голову я держала низко, скорее не для привлечения внимания, а из-за холода и усталости."
-    narrator ""
+    narrator "I was walking through the forest, keeping my head low, not so much to avoid attention, but because of the cold and fatigue."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
 translate english_us chapter2_act3_facing_reality_7163272b:
 
     # narrator "Туман скрывал деревья, превращая лес в призрачный лабиринт. Но в нем было и своеобразное утешение."
-    narrator ""
+    narrator "Thick fog concealed the trees, turning the forest into a ghostly labyrinth. But there was a strange comfort in it."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:38
 translate english_us chapter2_act3_facing_reality_b89b116c:
 
     # narrator "Ее мысли были прагматичными. Эмоции, казалось, замерзли вместе с телом."
-    narrator ""
+    narrator "Neon's thoughts were pragmatic. Her emotions seemed to have frozen along with her body."
 
 # TODO: Translation updated at 2025-11-03 01:28
 
@@ -728,47 +728,47 @@ translate english_us chapter2_act3_facing_reality_b89b116c:
 translate english_us chapter2_act3_facing_reality_9c3285d4:
 
     # neon "{=thoughts} В тумане... меня хотя бы не так хорошо видно..."
-    neon ""
+    neon "{=thoughts} At least it's harder to see me..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:155
 translate english_us chapter2_act3_facing_reality_d60e8885:
 
     # neon "{=thoughts}Я должна ее спасти... Точно. Алекс..."
-    neon ""
+    neon "{=thoughts}I have to save her... That's right. Her... Alex..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:160
 translate english_us chapter2_act3_facing_reality_33c47199:
 
     # neon eyehurt "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?"
-    neon eyehurt ""
+    neon eyehurt "{=thoughts}Why... Why couldn't I remember her until now? Why was I so... calm about it?"
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:161
 translate english_us chapter2_act3_facing_reality_b57f0e3d:
 
     # neon "{=thoughts}Ну почему..."
-    neon ""
+    neon "{=thoughts}Just why..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:166
 translate english_us chapter2_act3_facing_reality_6bc75309:
 
     # neon "{=thoughts}Как... я... могла..."
-    neon ""
+    neon "{=thoughts}How... could... I..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:175
 translate english_us chapter2_act3_facing_reality_3fb6a007:
 
     # neon "{=thoughts}Н-ннгх... Голова... Что... что за..."
-    neon ""
+    neon "{=thoughts}N-nngh... My head... What... what the..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:184
 translate english_us chapter2_act3_facing_reality_4b0917ca:
 
     # neon "{=thoughts}Она меня спасала... а я ее забыла. Я просто... вычеркнула ее."
-    neon ""
+    neon "{=thoughts}How i could forget her... She was saving me... and I just... erased her from my mind."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:194
 translate english_us chapter2_act3_facing_reality_3064a86b:
 
     # extend "{=yell} НЕ ТАК?!" with vpunch
-    extend "" with vpunch
+    extend "{=yell} WRONG WITH ME?!" with vpunch
 

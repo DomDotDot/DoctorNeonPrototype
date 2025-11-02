@@ -398,5 +398,5 @@ translate english_us chapter2_act1_false_memories_12aa37b2:
 translate english_us chapter2_act1_false_memories_e7d197d5:
 
     # narrator "Дорога извивалась бесконечным серпантином, спускаясь с гор все ниже, в плотный, влажный воздух долин. Каждый поворот приближал ее к уровню, где, как она слышала и читала, начиналась 'опасная зона'."
-    narrator ""
+    narrator "The road twisted and turned in an endless series of serpentine bends, descending lower and lower from the mountains into the dense, humid air of the valleys. Each turn brought her closer to the level where, as she had heard and read, the ‘hazard zone’ began."
 

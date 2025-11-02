@@ -440,71 +440,71 @@ translate english_us chapter2_act5_journey_to_anomic_5d5fde98:
 translate english_us chapter2_act5_journey_to_anomic_bb881203:
 
     # guts "То что ты видишь - это то, почему мир стал таким, какой он есть. Мы зовем его 'Пожирающий Туман'. Или 'Ржавая Смерть'. Кому как нравится. Он заполнил все низменности, все равнины."
-    guts ""
+    guts "What you're seeing is the reason the world's gone straight to hell. We call it the 'Devouring Fog.' Or the 'Rust Plague.' Take your pick. It's filled all the lowlands, all the valleys."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:99
 translate english_us chapter2_act5_journey_to_anomic_30e899bb:
 
     # guts "Мы живем на склонах, Неон. В долинах. А вы, высотники, вроде тех, кто сидит в твоем жалком 'Гелиосе', смотрят на нас сверху вниз и делают вид, что всего этого внизу не существует, их не касается."
-    guts ""
+    guts "We live on the valley slopes, Neon. And you, highrisers like those in your pathetic 'Helios,' look down on us and pretend none of this down here affects you."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:112
 translate english_us chapter2_act5_journey_to_anomic_625274ad:
 
     # neon "Высотники...?"
-    neon ""
+    neon "High... risers...?"
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:113
 translate english_us chapter2_act5_journey_to_anomic_9628ce02:
 
     # guts "Ага. Те, кто живет на плато, выше трех тысяч метров."
-    guts ""
+    guts "Yeah. Those who live on the altitude, above three thousand meters."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:113
 translate english_us chapter2_act5_journey_to_anomic_4c17dc29:
 
     # guts "Вы не знаете, что такое кашлять по утрам желтой дрянью. Для вас это просто 'аномальная зона' на карте."
-    guts ""
+    guts "You will never know what it's like to cough up that yellow crap in the morning. For you, it's just an 'hazard zone' on a map."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:113
 translate english_us chapter2_act5_journey_to_anomic_2d462f60:
 
     # guts "Привыкай. Ты больше не высотница. Ты упала. Добро пожаловать в долину."
-    guts ""
+    guts "Welcome to the valley. You're no longer a highriser. You've fallen. Get used to it."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:122
 translate english_us chapter2_act5_journey_to_anomic_40f57bbf:
 
     # narrator "И тут меня осенило. Она вспомнила рассказы Алекса о 'аномальных зонах', о 'эвакуации'."
-    narrator ""
+    narrator "And the memories hit me again. She recalled Alex's stories about 'hazard zones,' about 'evacuations.'"
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:122
 translate english_us chapter2_act5_journey_to_anomic_cba9027d:
 
     # narrator "Алекс упоминала что-то подобное, но я не придала этому значения, думая, что это просто страхи параноиков, раздуваемые слухами, желтой прессой и мессенджерами."
-    narrator ""
+    narrator "Alex had mentioned something like this, but I hadn't paid it much mind, thinking it was just paranoid fears fueled by rumors, yellow press, and messengers."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:128
 translate english_us chapter2_act5_journey_to_anomic_75bfa772:
 
     # guts "Ладно, раз уж ты теперь с нами..."
-    guts ""
+    guts "Fine, Fine, since you're with us now..."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:128
 translate english_us chapter2_act5_journey_to_anomic_9c9ae8e8:
 
     # guts "Вот этот туман - это прародитель всех бед. Он жрет все – металл, бетон, легкие. Города, которые он накрывает, умирают."
-    guts ""
+    guts "That shit's the source of all our problems. It eats everything. Metal, concrete, lungs. Any city it covers just... dies."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:150
 translate english_us chapter2_act5_journey_to_anomic_4b96725f:
 
     # narrator "Неон смотрела на это апокалиптическое зрелище, завороженная и напуганная. Всё таки Алекс была права – мир менялся. И не в лучшую сторону."
-    narrator ""
+    narrator "Neon watched the apocalyptic spectacle, mesmerized and frightened. After all, Alex had been right. The world was changing. And not for good"
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:150
 translate english_us chapter2_act5_journey_to_anomic_3c0bf7ab:
 
     # narrator "Об 'аномальных зонах', об 'эвакуации'. Но я не думала, что это так близко... Так много. Теперь я понимаю, почему Алекс так боялась."
-    narrator ""
+    narrator "About ‘hazard zones’, about ‘evacuation’. But I didn't think it was that damn real... Now I realize why Alex was so afraid."
 
