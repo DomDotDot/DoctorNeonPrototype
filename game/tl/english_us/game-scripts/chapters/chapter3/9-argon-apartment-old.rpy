@@ -340,4 +340,23 @@ translate english_us chapter3_breather_5d72f178:
 translate english_us chapter3_breather_7ee5d856:
 
     # narrator "Выбора не было. Неон кивнула."
-    narrator "There was no choice. Neon nodded."
+    narrator "There was no choice. Neon nodded."# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:84
+translate english_us chapter3_breather_5b5baf0e:
+
+    # neon "{=thoughts}Зачем? Зачем так ВРАТЬ?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:85
+translate english_us chapter3_breather_0d8fe8e6:
+
+    # neon "{=thoughts}Мне вечно все врут, подставляют... Сначала коллеги в лаборатории, потом Гатс, теперь он... Неужели я так наивно выгляжу, простушкой, которую можно водить за нос?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:86
+translate english_us chapter3_breather_3973cfd1:
+
+    # neon "{=thoughts}Я не знаю, кто этот Аргон мне. Враг или друг, но то, что он лжет даже о своем имени - это факт."
+    neon ""
+

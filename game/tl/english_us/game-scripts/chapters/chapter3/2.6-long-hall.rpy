@@ -126,4 +126,11 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:72
     old "Вернуться в Холл"
-    new "Return to the Hall"
+    new "Return to the Hall"# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:46
+translate english_us ch3_explore_long_corridor_ad468eb0:
+
+    # neon "{=thoughts}Я понятия не имею, какой здесь может быть код. Просто тыкать наугад бессмысленно. Подсказка должна быть где-то здесь."
+    neon ""
+

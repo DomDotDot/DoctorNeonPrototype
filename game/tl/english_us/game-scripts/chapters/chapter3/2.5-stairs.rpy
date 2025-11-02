@@ -31,3 +31,11 @@ translate english_us ch3_stairs_b8d0e541:
     narrator "The plan remains the same: anger the giant downstairs and make him abandon his post."
 
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter3/2.5-stairs.rpy:9
+translate english_us ch3_stairs_b223387b:
+
+    # neon "{=thoughts}Возможно, оттуда я смогу сбежать... Но не пока этот громила стоит внизу. Он заметит меня в ту же секунду. Мне нужно отвлечь его внимание. Устроить что-то, что заставит его сорваться с места..."
+    neon ""
+

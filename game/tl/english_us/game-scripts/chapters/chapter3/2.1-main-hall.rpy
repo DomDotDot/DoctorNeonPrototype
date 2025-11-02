@@ -145,3 +145,11 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:76
     old "Подняться по лестнице наверх."
     new "Go up the stairs."
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:50
+translate english_us ch3_hall_explore_fcdb3047:
+
+    # neon "{=thoughts}Жирные линии находятся над цифрами {b}1{/b}, {b}9{/b}, {b}8{/b} и {b}4{/b}. Остальные линии тонкие. Это не ошибка печати. Это шифр. Евгений Петров, старший химик..."
+    neon ""
+
