@@ -60,3 +60,11 @@ translate english_us zurich_university_flashback_82c6cd01:
     # neon "Очень странное чувство... Не знаю, как его объяснить. Как будто оно меня само зовет."
     neon "Very strange feeling... I don't know how to explain it. As if it's calling me."
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:135
+translate english_us zurich_university_flashback_0ac91984:
+
+    # anna "{=whisper}Ты правда веришь, что найдешь что-то?"
+    anna ""
+

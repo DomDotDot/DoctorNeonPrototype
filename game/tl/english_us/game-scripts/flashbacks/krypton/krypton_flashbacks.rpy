@@ -624,3 +624,35 @@ translate english_us krypton_firstmeet_flashback_c1a4c29c:
     # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? "
     neon ""
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_69cca03a:
+
+    # neon "{=thoughts}Это был сон. Просто сон от удара."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_82c2243f:
+
+    # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас... девушка...?"
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_bbb09878:
+
+    # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала?"
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_d9697aa1:
+
+    # neon "{=thoughts}Она бы не сбежала. Она... моя подруга."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
+translate english_us krypton_firstmeet_flashback_6d2978ac:
+
+    # neon "{=thoughts} Я должна... вернуться... помочь..."
+    neon ""
+

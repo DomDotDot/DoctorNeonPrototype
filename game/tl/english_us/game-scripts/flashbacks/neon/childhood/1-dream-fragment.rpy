@@ -242,3 +242,23 @@ translate english_us dream_sequence_japan_1_4526c3e5:
     # akane worried "{=whisper}Не бойся, ■■■■■. Это... друзья тети. Они здесь по важному делу."
     akane worried ""
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:62
+translate english_us dream_sequence_japan_1_01283267:
+
+    # akane worried "{=whisper}Не бойся, ■■■■■. Это... друзья тети. Они здесь по важному делу."
+    akane worried ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:64
+translate english_us dream_sequence_japan_1_51edaeda:
+
+    # akane "{=whisper}Все будет хорошо, ■■■■■. Ты должна быть сильной, хорошо? Обещай мне."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_1_51bd816e:
+
+    # neon "{=whisper}Обещаю, мама."
+    neon ""
+
