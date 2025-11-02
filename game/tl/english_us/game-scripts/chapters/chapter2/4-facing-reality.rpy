@@ -722,3 +722,53 @@ translate english_us chapter2_act3_facing_reality_b89b116c:
     # narrator "Ее мысли были прагматичными. Эмоции, казалось, замерзли вместе с телом."
     narrator ""
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:56
+translate english_us chapter2_act3_facing_reality_9c3285d4:
+
+    # neon "{=thoughts} В тумане... меня хотя бы не так хорошо видно..."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:155
+translate english_us chapter2_act3_facing_reality_d60e8885:
+
+    # neon "{=thoughts}Я должна ее спасти... Точно. Алекс..."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:160
+translate english_us chapter2_act3_facing_reality_33c47199:
+
+    # neon eyehurt "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?"
+    neon eyehurt ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:161
+translate english_us chapter2_act3_facing_reality_b57f0e3d:
+
+    # neon "{=thoughts}Ну почему..."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:166
+translate english_us chapter2_act3_facing_reality_6bc75309:
+
+    # neon "{=thoughts}Как... я... могла..."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:175
+translate english_us chapter2_act3_facing_reality_3fb6a007:
+
+    # neon "{=thoughts}Н-ннгх... Голова... Что... что за..."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:184
+translate english_us chapter2_act3_facing_reality_4b0917ca:
+
+    # neon "{=thoughts}Она меня спасала... а я ее забыла. Я просто... вычеркнула ее."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:194
+translate english_us chapter2_act3_facing_reality_3064a86b:
+
+    # extend "{=yell} НЕ ТАК?!" with vpunch
+    extend "" with vpunch
+
