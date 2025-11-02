@@ -70,13 +70,15 @@ translate english_us chapter1_meeting_start_5a6e35d0:
 translate english_us chapter1_meeting_start_e54b8944:
 
     # narrator "Белый шум в ушах начал меняться, обретая знакомые, ненавистные нотки... тишина школьного класса перед началом урока, нарушаемая только перешептываниями."
-    narrator "The white noise in her ears began to change, taking on familiar, hateful tones... the silence of a classroom before the lesson, broken only by whispers."# TODO: Translation updated at 2025-10-31 05:10
+    narrator "The white noise in her ears began to change, taking on familiar, hateful tones... the silence of a classroom before the lesson, broken only by whispers."
+    
+    # TODO: Translation updated at 2025-10-31 05:10
 
 # game/game-scripts/chapters/chapter1/4-meeting-start.rpy:245
 translate english_us chapter1_meeting_start_c58809de:
 
     # narrator "Белый шум в ушах начал меняться, обретая знакомые, ненавистные нотки... тишина школьного класса перед началом урока, лишь нечастые перешептывания одноклассников"
-    narrator ""
+    narrator "The white noise in her ears began to change, taking on familiar, hateful tones... the silence of a classroom before the lesson, broken only by whispers of my classmates."
 
 # TODO: Translation updated at 2025-11-03 01:28
 
@@ -84,11 +86,11 @@ translate english_us chapter1_meeting_start_c58809de:
 translate english_us chapter1_meeting_start_4ce91796:
 
     # marcus "{=whisper} Доктор Неон, при всем моем глубочайшем уважении... не будете ли вы возражать, если я выступлю первым?"
-    marcus ""
+    marcus "{=whisper} Doctor Neon, with all the utmost respect... would you object if I were to speak there first?"
 
 # game/game-scripts/chapters/chapter1/4-meeting-start.rpy:99
 translate english_us chapter1_meeting_start_e94bad99:
 
     # marcus "{=whisper} У меня все готово, а мне сегодня еще нужно успеть в город по неотложным делам."
-    marcus ""
+    marcus "I'm all set, and I still need to go into town on urgent business today."
 

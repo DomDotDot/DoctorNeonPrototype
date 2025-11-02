@@ -299,35 +299,35 @@ translate english_us chapter1_lab_noon_library_desk_0430adbc:
 translate english_us chapter1_lab_noon_library_desk_56b43dfb:
 
     # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?"
-    neon ""
+    neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:29
 translate english_us chapter1_lab_noon_library_desk_a7546648:
 
     # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...'"
-    neon ""
+    neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:67
 translate english_us chapter1_lab_noon_library_desk_1f6da8cb:
 
     # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок."
-    neon ""
+    neon "{=thoughts}Focus, Neon. I need an order, a pattern."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:83
 translate english_us chapter1_lab_noon_library_desk_ca8f13e5:
 
     # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...'"
-    neon ""
+    neon "'{=thoughts} ...the repetition of the pattern indicates a non-random nature...'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
 translate english_us chapter1_lab_noon_library_desk_68750a04:
 
     # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный шум...'"
-    neon ""
+    neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...'"
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
 translate english_us chapter1_lab_noon_library_desk_59b92779:
 
     # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об искусственном происхождении сигнала...'"
-    neon ""
+    neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...'"
 

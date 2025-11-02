@@ -35,29 +35,29 @@ translate english_us prologue_af9f640a:
 translate english_us prologue_8b644715:
 
     # unknown_f "{=yell}Дерьмо! " with vpunch
-    unknown_f "" with vpunch
+    unknown_f "{=yell}Fuck! " with vpunch
 
 # game/game-scripts/chapters/chapter0/1-prologue.rpy:16
 translate english_us prologue_856f9dbc:
 
     # extend "{=yell}Ну же! " with vpunch
-    extend "" with vpunch
+    extend "{=yell}C'mon, C'mon, C'mon! " with vpunch
 
 # game/game-scripts/chapters/chapter0/1-prologue.rpy:45
 translate english_us prologue_9b74d748:
 
     # unknown_f "{=yell}Быстрее! " with vpunch
-    unknown_f "" with vpunch
+    unknown_f "{=yell}Go! Go! Go! " with vpunch
 
 # game/game-scripts/chapters/chapter0/1-prologue.rpy:95
 translate english_us prologue_16c89680:
 
     # unknown_f "{=whisper}Н-ннгх... Больно..."
-    unknown_f ""
+    unknown_f "{=whisper}Ugh... my head..."
 
 # game/game-scripts/chapters/chapter0/1-prologue.rpy:113
 translate english_us prologue_9ff77c50:
 
     # unknown_f "{=yell}А-ах!"
-    unknown_f ""
+    unknown_f "{=yell}U-ugh!"
 

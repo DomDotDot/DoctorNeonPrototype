@@ -171,5 +171,5 @@ translate english_us chapter1_lab_noon_library_5896e7ed:
 translate english_us chapter1_lab_noon_library_9bc466bc:
 
     # neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Не то."
-    neon ""
+    neon "{=thoughts} Where do I begin? 'Report on the Detection of an Anomalous Signal...' No-no. Something else."
 
