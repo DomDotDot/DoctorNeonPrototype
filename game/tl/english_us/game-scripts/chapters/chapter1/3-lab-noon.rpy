@@ -132,3 +132,11 @@ translate english_us chapter1_lab_noon_e3684d15:
     # narrator "Эта мысль казалась абсурдной в стенах такого исследовательского центра, затерянного в сердце Альп, на высоте, где воздух всегда был чистым и разреженным."
     narrator ""
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:32
+translate english_us chapter1_lab_noon_0cc4efdb:
+
+    # neon "{=thoughts}Нужно найти Маркуса. Он поможет с оборудованием. И, может, отвлечет от этих мыслей. И вообще, куда он пропал?!"
+    neon ""
+

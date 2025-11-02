@@ -78,3 +78,17 @@ translate english_us chapter1_meeting_start_c58809de:
     # narrator "Белый шум в ушах начал меняться, обретая знакомые, ненавистные нотки... тишина школьного класса перед началом урока, лишь нечастые перешептывания одноклассников"
     narrator ""
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:99
+translate english_us chapter1_meeting_start_4ce91796:
+
+    # marcus "{=whisper} Доктор Неон, при всем моем глубочайшем уважении... не будете ли вы возражать, если я выступлю первым?"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:99
+translate english_us chapter1_meeting_start_e94bad99:
+
+    # marcus "{=whisper} У меня все готово, а мне сегодня еще нужно успеть в город по неотложным делам."
+    marcus ""
+

@@ -165,3 +165,11 @@ translate english_us chapter1_lab_noon_library_5896e7ed:
     # narrator "Это была не просто работа. Это стало своего рода одержимостью."
     narrator "That's like an obsession, not just a job."
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:28
+translate english_us chapter1_lab_noon_library_9bc466bc:
+
+    # neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Не то."
+    neon ""
+

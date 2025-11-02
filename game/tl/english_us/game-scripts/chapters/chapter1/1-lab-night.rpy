@@ -191,3 +191,17 @@ translate english_us chapter1_lab_night_41fc8b77:
     # narrator "Маркус нервно отвел взгляд, опираясь спиной об ближайший стеллаж с оборудованием."
     narrator "Marcus nervously looked away, leaning his back against the nearest equipment rack."
 
+# TODO: Translation updated at 2025-11-03 01:28
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:14
+translate english_us chapter1_lab_night_5e670b2d:
+
+    # unknown_f "{=yell}Агрх!"
+    unknown_f ""
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:163
+translate english_us chapter1_lab_night_0913c192:
+
+    # neon "{=whisper}Пока..."
+    neon ""
+
