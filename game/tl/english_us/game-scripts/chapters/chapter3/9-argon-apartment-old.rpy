@@ -346,17 +346,17 @@ translate english_us chapter3_breather_7ee5d856:
 translate english_us chapter3_breather_5b5baf0e:
 
     # neon "{=thoughts}Зачем? Зачем так ВРАТЬ?"
-    neon ""
+    neon "{=thoughts}Why? Why would he LIE like that?"
 
 # game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:85
 translate english_us chapter3_breather_0d8fe8e6:
 
     # neon "{=thoughts}Мне вечно все врут, подставляют... Сначала коллеги в лаборатории, потом Гатс, теперь он... Неужели я так наивно выгляжу, простушкой, которую можно водить за нос?"
-    neon ""
+    neon "{=thoughts}Everyone is always lying to me, setting me up... First my colleagues at the lab, then Guts, now him... Do I really look that naive, like some simpleton you can lead by the nose?"
 
 # game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:86
 translate english_us chapter3_breather_3973cfd1:
 
     # neon "{=thoughts}Я не знаю, кто этот Аргон мне. Враг или друг, но то, что он лжет даже о своем имени - это факт."
-    neon ""
+    neon "{=thoughts}I don't know what this Argon is to me. Enemy or friend, but the fact that he's even lying about his own name is a certainty."
 

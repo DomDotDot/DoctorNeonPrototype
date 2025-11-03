@@ -506,5 +506,5 @@ translate english_us chapter3_revelation_b8a649b0:
 translate english_us chapter3_revelation_3d611763:
 
     # narrator "Через мгновение мы снова остались одни в тишине, и лишь далекимие отголоски перестрелки слышны."
-    narrator ""
+    narrator "A moment later, we were alone again in the silence, broken only by the distant echoes of the firefight."
 

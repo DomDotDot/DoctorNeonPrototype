@@ -126,5 +126,5 @@ translate english_us strings:
 translate english_us ch3_left_wing_thug_talk_3a17fd1a:
 
     # "Бандит 1" "...и смотри, когда солнце поднимется выше, на улицу ни ногой. Босс предупредил, сегодня туман будет злой. Ветер с равнин, говорят, поднимет всю дрянь наверх. Держитесь подальше от южных окраин, там уже дышать нечем."
-    "Бандит 1" ""
+    "Бандит 1" "...and look, when the sun gets higher, don't you step a foot outside. Boss said the Fog's gonna be nasty today. They say the wind from the valleys will blow all that junk up. Stay away from the southern outskirts, nothing to breathe there anymore."
 

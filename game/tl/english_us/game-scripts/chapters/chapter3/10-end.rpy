@@ -358,17 +358,17 @@ translate english_us chapter3_on_train_efb8ff96:
 translate english_us chapter3_on_train_540e9732:
 
     # argon "Тот человек умер. Давно."
-    argon ""
+    argon "That man is dead. He died a long time ago."
 
 # game/game-scripts/chapters/chapter3/10-end.rpy:99
 translate english_us chapter3_on_train_7d3bb639:
 
     # narrator "Глухо, почти шепотом, гляда на свои руки, он продолжил."
-    narrator ""
+    narrator "Muffled, almost whispering, looking at his hands, he resumed."
 
 # game/game-scripts/chapters/chapter3/10-end.rpy:111
 translate english_us chapter3_on_train_b77bf3ad:
 
     # argon "И теперь... ...теперь мольберт сломан."
-    argon ""
+    argon "And now... ...now the easel is broken."
 

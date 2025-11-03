@@ -132,5 +132,5 @@ translate english_us strings:
 translate english_us ch3_explore_long_corridor_ad468eb0:
 
     # neon "{=thoughts}Я понятия не имею, какой здесь может быть код. Просто тыкать наугад бессмысленно. Подсказка должна быть где-то здесь."
-    neon ""
+    neon "{=thoughts}I have no idea what the code could be. Guessing randomly is pointless. There must be a clue somewhere."
 

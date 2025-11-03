@@ -37,5 +37,5 @@ translate english_us ch3_stairs_b8d0e541:
 translate english_us ch3_stairs_b223387b:
 
     # neon "{=thoughts}Возможно, оттуда я смогу сбежать... Но не пока этот громила стоит внизу. Он заметит меня в ту же секунду. Мне нужно отвлечь его внимание. Устроить что-то, что заставит его сорваться с места..."
-    neon ""
+    neon "{=thoughts}Maybe I can escape from there... But not while that brute is standing downstairs. He'll spot me in a second. I need to distract him. Cause a scene, something to make him leave his post..."
 

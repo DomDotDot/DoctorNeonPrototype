@@ -122,11 +122,11 @@ translate english_us strings:
 translate english_us ch3_guts_office_door_a068d9d9:
 
     # neon "{=thoughts}Черт. Он там. Сейчас не время."
-    neon ""
+    neon "{=thoughts}Damn. He's in there. Now's not the time."
 
 # game/game-scripts/chapters/chapter3/2.7-post-office.rpy:50
 translate english_us ch3_guts_office_inside_c5529d6c:
 
     # neon "{=thoughts}Сработало! Пора бежать!"
-    neon ""
+    neon "{=thoughts}It worked! Time to run!"
 
