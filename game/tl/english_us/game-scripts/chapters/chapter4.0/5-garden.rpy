@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-11-03 01:28
+﻿# TODO: Translation updated at 2025-11-03 03:33
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:9
 translate english_us chapter4_0_garden_1bf05e34:
@@ -666,37 +666,37 @@ translate english_us chapter4_0_garden_dialogue_d1785f72:
     # narrator "И она, словно энергичный вихрь, исчезла в тенях сада, оставив за собой лишь брошенную лейку и тонкий аромат духов."
     narrator ""
 
-# game/game-scripts/chapters/chapter4.0/5-garden.rpy:319
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:323
 translate english_us chapter4_0_garden_dialogue_eaba0ea7:
 
     # narrator "А я осталась одна, сжимая в одной руке билет, в другой — холодный цветок."
     narrator ""
 
-# game/game-scripts/chapters/chapter4.0/5-garden.rpy:319
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:323
 translate english_us chapter4_0_garden_dialogue_f0fcb066:
 
     # narrator "Я посмотрела наверх, на черное окно космоса, на далекие созвездия."
     narrator ""
 
-# game/game-scripts/chapters/chapter4.0/5-garden.rpy:327
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
 translate english_us chapter4_0_garden_dialogue_4680c3a8:
 
     # neon neutral "{=thoughts}Возможно... возможно, я и правда смогу найти ее, и тогда... я увижу в этих созвездиях Селесту..."
     neon neutral ""
 
-# game/game-scripts/chapters/chapter4.0/5-garden.rpy:327
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
 translate english_us chapter4_0_garden_dialogue_090dbcc1:
 
     # neon neutral "{=thoughts}Прости, Аргон. Я знаю, это выглядит так, будто я тебя бросаю. Но я верю... я должна верить, что это не так."
     neon neutral ""
 
-# game/game-scripts/chapters/chapter4.0/5-garden.rpy:327
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
 translate english_us chapter4_0_garden_dialogue_25380c37:
 
     # neon neutral "{=thoughts}Обещание найти Лили все еще в силе. Но все нити ведут к Селесте. Она — эпицентр. Она — ключ. Если я найду ее, я найду и ответ на твой вопрос."
     neon neutral ""
 
-# game/game-scripts/chapters/chapter4.0/5-garden.rpy:327
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
 translate english_us chapter4_0_garden_dialogue_7503c8aa:
 
     # neon neutral "{=thoughts}Это единственный путь. Я докажу тебе, что была права."
