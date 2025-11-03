@@ -66,5 +66,5 @@ translate english_us zurich_university_flashback_82c6cd01:
 translate english_us zurich_university_flashback_0ac91984:
 
     # anna "{=whisper}Ты правда веришь, что найдешь что-то?"
-    anna ""
+    anna "{=whisper}Do you really believe you'll find something? I mean, out there?"
 

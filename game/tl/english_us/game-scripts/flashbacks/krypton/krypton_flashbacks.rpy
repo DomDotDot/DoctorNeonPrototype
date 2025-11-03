@@ -578,7 +578,7 @@ translate english_us krypton_firstmeet_flashback_0488e8f4:
 translate english_us krypton_firstmeet_flashback_96af5d2f:
 
     # narrator "Я не оборачиваюсь. Просто крепче сжимаю лямку рюкзака. Привыкла. Для меня они просто шум"
-    narrator ""
+    narrator "I don't look back. Just grip the strap of my backpack tighter. I'm used to it. For me, they're just noise."
 
 # TODO: Translation updated at 2025-10-31 05:10
 
@@ -586,43 +586,43 @@ translate english_us krypton_firstmeet_flashback_96af5d2f:
 translate english_us krypton_firstmeet_flashback_48697ff0:
 
     # "???" "Тела во вселенной, говоришь? Хм... А давай завтра сходим в планетарий? Я хочу увидеть звезды поближе!"
-    "???" ""
+    "???" "Stellar bodies, you say? Hmm... How about we go to the planetarium tomorrow? I want to see those  stars you talk about up close!"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:175
 translate english_us krypton_firstmeet_flashback_0e45b520:
 
     # neon "С удовольствием."
-    neon ""
+    neon "Of course."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:209
 translate english_us krypton_firstmeet_flashback_d26e1353:
 
     # narrator "А потом... я оказалась дома. С опекуншей. А девушка... нет... что-то женское... оно исчезло. Словно эьлшл и не было. Словно я это выдумала."
-    narrator ""
+    narrator "And then... I was back home. With my trustee. And the girl... or rather... something feminine... it was gone. As if she had never existed. As if I had made it all up."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:210
 translate english_us krypton_firstmeet_flashback_98c6afe7:
 
     # narrator "Мы... нет... Я хотела сходить в планетарий... точно... Я хотела увидеть звезды поближе. Моя мечта... То, что говорила моя мама из снов... Да... Я хочу смотреть и изучать звезды..."
-    narrator ""
+    narrator "We... i mean... I wanted to go to the planetarium... right... I wanted to see the stars up close. My dream... The thing my mom used to say in my dreams... Yes... I want to look at and study the stars..."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:211
 translate english_us krypton_firstmeet_flashback_ff622813:
 
     # narrator "Все эти книги по научной фантастике в моей комнате... Я читала их, чтобы почувствовать связь с чем-то большим. С чем-то настоящим... Видимо, такова моя природа..."
-    narrator ""
+    narrator "All those science fiction books in my room... I read them to feel a connection to something bigger. To something real... Apparently, that's just my nature after all..."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_ff189ae8:
 
     # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас... девушка...? "
-    neon ""
+    neon "{=thoughts}I need to think about what's real now. About who's important right now for me... the girl...? "
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_c1a4c29c:
 
     # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала? "
-    neon ""
+    neon "{=thoughts} The girl... Alex... Right... Alex... I left her back there. Why did I run away by the way?"
 
 # TODO: Translation updated at 2025-11-03 01:28
 
@@ -630,29 +630,29 @@ translate english_us krypton_firstmeet_flashback_c1a4c29c:
 translate english_us krypton_firstmeet_flashback_69cca03a:
 
     # neon "{=thoughts}Это был сон. Просто сон от удара."
-    neon ""
+    neon "{=thoughts}It was a dream. Just a dream from the traffic accident."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_82c2243f:
 
     # neon "{=thoughts}Нужно думать о реальности. О том, кто важен сейчас... девушка...?"
-    neon ""
+    neon "{=thoughts}I need to think about what's real now. About who's important for me right now... the girl...?"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_bbb09878:
 
     # neon "{=thoughts}Девушка... Алекс... Точно... Алекс... Я оставила ее там. Зачем я сбежала?"
-    neon ""
+    neon "{=thoughts} The girl... Alex... Right... Alex... I left her back there. Why did I run away by the way?"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_d9697aa1:
 
     # neon "{=thoughts}Она бы не сбежала. Она... моя подруга."
-    neon ""
+    neon "{=thoughts}She wouldn't run away... She is... my friend."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:219
 translate english_us krypton_firstmeet_flashback_6d2978ac:
 
     # neon "{=thoughts} Я должна... вернуться... помочь..."
-    neon ""
+    neon "{=thoughts}My friend... I have to... go back... help her..."
 
