@@ -4,9 +4,9 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter4.5/chapter-4.5.rpy:3
     old "Глава 4.5"
-    new ""
+    new "Chapter 4.5"
 
     # game/game-scripts/chapters/chapter4.5/chapter-4.5.rpy:3
     old "Из Изгнанницы В Созвездие - Продолжение следует"
-    new ""
+    new "From Exile to Constellation - To be continued"
 

@@ -4,9 +4,9 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter4.0/chapter-4.0.rpy:3
     old "Глава 4.0"
-    new ""
+    new "Chapter 4.0"
 
     # game/game-scripts/chapters/chapter4.0/chapter-4.0.rpy:3
     old "Ковчег на мели"
-    new ""
+    new "Ark Aground"
 
