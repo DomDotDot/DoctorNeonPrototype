@@ -58,21 +58,21 @@ translate english_us strings:
 
     # game/modules/characters.rpy:21
     old "Лили"
-    new ""
+    new "Lily"
 
     # game/modules/characters.rpy:22
     old "Серафина"
-    new ""
+    new "Seraphina"
 
     # game/modules/characters.rpy:52
     old "Студентка 1"
-    new ""
+    new "Female Student 1"
 
     # game/modules/characters.rpy:53
     old "Студентка 2"
-    new ""
+    new "Female Student 2"
 
     # game/modules/characters.rpy:55
     old "Мэрил Кендрик"
-    new ""
+    new "Meryl Kendrick"
 

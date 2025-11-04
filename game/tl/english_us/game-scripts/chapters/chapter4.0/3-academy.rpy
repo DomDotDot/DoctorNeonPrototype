@@ -40,7 +40,7 @@ translate english_us chapter4_0_academy_25da6f76:
 translate english_us chapter4_0_academy_7af0848e:
 
     # neon "{=thoughts}Она всегда смеялась над моим 'творческим беспорядком'. Говорила, что мне нужен кто-то, кто будет следить за порядком в моей жизни."
-    neon "{=thoughts}She always laughed at my 'organized chaos.' Said I needed someone to keep my life in order."
+    neon "{=thoughts}She always laughed at my 'organized chaos.' She said I needed someone to keep my life in order."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:25
 translate english_us chapter4_0_academy_52eb3d3c:
@@ -166,7 +166,7 @@ translate english_us chapter4_0_academy_9f0b3929:
 translate english_us chapter4_0_academy_63b95f18:
 
     # argon "Забыла? Знакомый, о котором я тебе говорил. Он прошлый строитель этого города, переселенный из Аномика. Рассказывал мне об этом месте."
-    argon "Forgot? The acquaintance I told you about. He used to be a construction worker here, relocated from Anomik. Told me about this place."
+    argon "Forgot? The acquaintance I told you about. He used to be a construction worker here, relocated from Anomic. Told me about this place."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:81
 translate english_us chapter4_0_academy_72fbc91d:
@@ -208,7 +208,7 @@ translate english_us chapter4_0_academy_4d9194bd:
 translate english_us chapter4_0_academy_73d3037f:
 
     # student2 "Конечно иду! Она лучшая! После ее песен хочется жить!"
-    student2 "Of course I'm going! She's the best! Her songs just make you want to live!"
+    student2 "Of course I'm going! She's the best! Her songs just make you feel alive!"
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
 translate english_us chapter4_0_academy_538c9d7d:
@@ -316,7 +316,7 @@ translate english_us chapter4_0_academy_03e7e5e9:
 translate english_us chapter4_0_academy_60764403:
 
     # student1 "Наша подруга, Клара, вдруг прогуляла два дня. Прямо перед экзаменом"
-    student1 "Our friend, Klara, suddenly skipped two days of school. Right before an exam."
+    student1 "Our friend, Clara, suddenly skipped two days of school. Right before an exam."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:154
 translate english_us chapter4_0_academy_54279f6b:
@@ -376,13 +376,13 @@ translate english_us chapter4_0_academy_777ec7b9:
 translate english_us chapter4_0_academy_322d6c2c:
 
     # argon "Пригород? Она из Аномика."
-    argon "The Suburbs? She's from Anomik."
+    argon "The Suburbs? She's from Anomic."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:184
 translate english_us chapter4_0_academy_dd8bdf1a:
 
     # narrator "Девушки переглянулись. Их лица помрачнели от услышанного слова 'Аномик'."
-    narrator "The girls exchanged a look. Their faces darkened at the word 'Anomik'."
+    narrator "The girls exchanged a look. Their faces darkened at the word 'Anomic'."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:186
 translate english_us chapter4_0_academy_4166bf2a:
@@ -448,12 +448,12 @@ translate english_us chapter4_0_academy_1e479edf:
 translate english_us chapter4_0_academy_a7baf892:
 
     # narrator "Вот она — Серафина. Яркая, улыбающаяся блондинка, одетая в сверкающее платье, приветственно машущая рукой."
-    narrator "And there she was—Seraphina. A bright, smiling blonde in a sparkling dress, waving a friendly hello."
+    narrator "And there she was Seraphina. A bright, smiling blonde in a sparkling dress, waving a friendly hello."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:216
 translate english_us chapter4_0_academy_853b6cf6:
 
-    # neon "А вы не слышали о другой исполнительнице? Пианистке. Ее звали Селеста."
+    # neon "А вы не слышали о другой исполнительнице? Пианистке. Ее звали Селестия."
     neon "Have you heard of another performer? A pianist. Her name was Celeste."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:218
@@ -465,7 +465,7 @@ translate english_us chapter4_0_academy_116d5761:
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:219
 translate english_us chapter4_0_academy_dc7a3351:
 
-    # student1 "А, эта... Селеста? Ну да, была такая."
+    # student1 "А, эта... Селестия? Ну да, была такая."
     student1 "Oh, her... Celeste? Yeah, I guess there was someone like that."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:219
@@ -502,7 +502,7 @@ translate english_us chapter4_0_academy_6e9beade:
 translate english_us chapter4_0_academy_94b731e6:
 
     # student2 "Ой, реклама вылезла... Подождите пять секунд, пожалуйста."
-    student2 "Oops, an ad popped up... Please wait five seconds."
+    student2 "Oops, an ad popped up... Please wait just a bit."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:236
 translate english_us chapter4_0_academy_5b07051a:
@@ -568,7 +568,7 @@ translate english_us chapter4_0_academy_b6151f84:
 translate english_us chapter4_0_academy_e9121bac:
 
     # narrator "Они помахали нам и скрылись в толпе. А я... а мы c Аргоном остались стоять перед гигантским, молчаливым стадионом."
-    narrator "They waved to us and disappeared into the crowd. And I... Argon and I were left standing in front of the giant, silent stadium."
+    narrator "They waved to us and disappeared into the crowd. And I... I mean... We were left standing in front of the giant, silent stadium."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:270
 translate english_us chapter4_0_academy_a6682de5:
@@ -592,7 +592,7 @@ translate english_us chapter4_0_academy_8ccad957:
 translate english_us chapter4_0_academy_8cf4ead0:
 
     # narrator "Теперь это стало моим. Глубоко личным. Врата в прошлое открылись, призрак девушки с волосами цвета снега и ночи."
-    narrator "Now, it was mine. Deeply personal. The gate to the past had opened, revealing the ghost of a girl with hair the color of snow and night."
+    narrator "Now, it was mine. Deeply personal. The gate to the past had opened, revealing the ghost of a girl with hair the color of snow and night that i saw earlier."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:272
 translate english_us chapter4_0_academy_f21bc791:
@@ -603,13 +603,13 @@ translate english_us chapter4_0_academy_f21bc791:
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:290
 translate english_us chapter4_0_academy_db2cc061:
 
-    # narrator "Я не могла сдержать волну эмоций. Все, что я узнала, все указывало на одно: Селеста была реальна."
+    # narrator "Я не могла сдержать волну эмоций. Все, что я узнала, все указывало на одно: Селестия была реальна."
     narrator "I couldn't hold back the wave of emotions. Everything I'd learned, it all pointed to one thing: Celeste was real."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:291
 translate english_us chapter4_0_academy_7145ca48:
 
-    # neon "А-Аргон, я... я думаю, что Селеста — это к-ключ. К Лили."
+    # neon "А-Аргон, я... я думаю, что Селестия — это к-ключ. К Лили."
     neon "A-Argon, I... I think Celeste is the k-key. To Lily."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:291
@@ -669,7 +669,7 @@ translate english_us chapter4_0_academy_eabb6579:
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:317
 translate english_us chapter4_0_academy_037abd45:
 
-    # neon "Эту девушку, Селесту."
+    # neon "Эту девушку, Селестию."
     neon "That girl, Celeste."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:317
@@ -712,7 +712,7 @@ translate english_us chapter4_0_academy_99a54a3a:
 translate english_us chapter4_0_academy_6d4b66ae:
 
     # argon "Реальные следы: ее одноклассников, ее возможное место жительства, а не гоняться за призраками из твоей головы!"
-    argon "Real clues: her classmates, where she might have lived, not chasing ghosts from your head!"
+    argon "Like, finding real clues: her classmates, where she might have lived, not chasing ghosts from your head!"
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:341
 translate english_us chapter4_0_academy_5ce80e9c:
@@ -748,7 +748,7 @@ translate english_us chapter4_0_academy_5631895e:
 translate english_us chapter4_0_academy_d38e75d0:
 
     # neon irritated "Хорошо. Ты прав Это твоя проблема. А я тебе лишь помогала."
-    neon irritated "Fine. You're right. This is your problem. I was just helping you."
+    neon irritated "Fine. You're right. This is your problem. And I was just helping you."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:353
 translate english_us chapter4_0_academy_22b62ffd:
@@ -765,7 +765,7 @@ translate english_us chapter4_0_academy_dc1a32f2:
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:360
 translate english_us chapter4_0_academy_f13c044d:
 
-    # argon "А ты... ищи свою Селесту. Удачи."
+    # argon "А ты... ищи свою Селестию. Удачи."
     argon "And you... go find your Celeste. Good luck."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:366
@@ -831,7 +831,7 @@ translate english_us chapter4_0_academy_ab65586e:
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:406
 translate english_us chapter4_0_academy_afac84db:
 
-    # neon "{=thoughts}Если Селеста была настолько популярна, что в ее честь назвали жилой комплекс, значит, она была их 'лицом'."
+    # neon "{=thoughts}Если Селестия была настолько популярна, что в ее честь назвали жилой комплекс, значит, она была их 'лицом'."
     neon "{=thoughts}If Celeste was so popular that they named a residential complex after her, it means she was their 'face'."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:406
@@ -862,4 +862,53 @@ translate english_us chapter4_0_academy_aa53d3cc:
 translate english_us chapter4_0_academy_cf18a530:
 
     # narrator "У меня не было карты. Но у меня была гипотеза. И цель. Я пошла в сторону самых ярких огней, в самый престижный район города. Искать здание с именем моей забытой подруги."
-    narrator "I didn't have a map. But I had a hypothesis. And a goal. I started walking toward the brightest lights, toward the most prestigious district in the city. To find the building with my forgotten friend's name on it."
+    narrator "I didn't have a map. But I had a hypothesis. And a goal. I started walking toward the brightest lights, toward the most prestigious district in the city. To find the building with my forgotten friend's name on it."# TODO: Translation updated at 2025-11-04 02:56
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:216
+translate english_us chapter4_0_academy_a640e287:
+
+    # neon "А вы не слышали о другой исполнительнице? Пианистке. Ее звали Селестия."
+    neon "Have you heard of another performer? A pianist. Her name was Celestia."
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:219
+translate english_us chapter4_0_academy_c0a388db:
+
+    # student1 "А, эта... Селестия? Ну да, была такая."
+    student1 "Oh, her... Celestia? Yeah, I guess there was someone like that."
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:242
+translate english_us chapter4_0_academy_9bd5c885:
+
+    # narrator "Это была старая новостная статья. Заголовок гласил: {size=+10}{b}'Композитор Вашей Души' или просто Разбитое Сердце? Крах Селестии.{/b}{/size}"
+    narrator "It was an old news article. The headline read: {size=+10}{b}'Composer of Your Soul' or Just a Broken Heart? The Fall of Celestia.{/b}{/size}"
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:290
+translate english_us chapter4_0_academy_1abd225e:
+
+    # narrator "Я не могла сдержать волну эмоций. Все, что я узнала, все указывало на одно: Селестия была реальна."
+    narrator "I couldn't hold back the wave of emotions. Everything I'd learned, it all pointed to one thing: Celestia was real."
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:291
+translate english_us chapter4_0_academy_93eaefda:
+
+    # neon "А-Аргон, я... я думаю, что Селестия — это к-ключ. К Лили."
+    neon "A-Argon, I... I think Celestia is the k-key. To Lily."
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:317
+translate english_us chapter4_0_academy_4e8f8c80:
+
+    # neon "Эту девушку, Селестию."
+    neon "That girl, Celestia."
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:360
+translate english_us chapter4_0_academy_b8abac58:
+
+    # argon "А ты... ищи свою Селестию. Удачи."
+    argon "And you... go find your Celestia. Good luck."
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:406
+translate english_us chapter4_0_academy_97061664:
+
+    # neon "{=thoughts}Если Селестия была настолько популярна, что в ее честь назвали жилой комплекс, значит, она была их 'лицом'."
+    neon "{=thoughts}If Celestia was so popular that they named a residential complex after her, it means she was their 'face'."
+

@@ -16,7 +16,7 @@ translate english_us chapter4_0_arkaground_6ce37687:
 translate english_us chapter4_0_arkaground_2d27e643:
 
     # narrator "Мир за дверью был серо-белой пеленой. Туман здесь был другим, не желтым и ядовитым, как в Аномике. Этот был чистым, но плотным и холодным, как саван."
-    narrator "The world outside the door was a gray-and-white veil. The fog here was different, not yellow and toxic like in Anomik. This fog was clean, but thick and cold as a shroud."
+    narrator "The world outside the door was a gray-and-white veil. The fog here was different, not yellow and toxic like in Anomic. This fog was clean, but thick and cold as a shroud."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:13
 translate english_us chapter4_0_arkaground_a2a565e4:
@@ -94,7 +94,7 @@ translate english_us chapter4_0_arkaground_2e904c6f:
 translate english_us chapter4_0_arkaground_2e1b3235:
 
     # argon "Это была последняя ниточка. Последняя глупая надежда, что однажды она вернется... и я смогу отдать ей ключ."
-    argon "It was the last thread. The last stupid hope that one day she'd come back... and I could give her the key."
+    argon "It was the last thread. The last stupid hope that one day she'd come back... and I could pass her the key."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:43
 translate english_us chapter4_0_arkaground_2c159432:
@@ -178,7 +178,7 @@ translate english_us chapter4_0_arkaground_ab7dfd77:
 translate english_us chapter4_0_arkaground_b914f98a:
 
     # neon "Рассказывай."
-    neon "Talk."
+    neon "Speak."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:86
 translate english_us chapter4_0_arkaground_2dcf1ce2:
@@ -261,7 +261,7 @@ translate english_us chapter4_0_arkaground_99b74c72:
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
 translate english_us chapter4_0_arkaground_50230422:
 
-    # argon "Вечно тыкала мне в лицо своим смартфоном: 'Папа, смотри! Это Селеста! Она гений! Я хочу быть, как она! Я поеду в Веритас и встречусь с ней!'"
+    # argon "Вечно тыкала мне в лицо своим смартфоном: 'Папа, смотри! Это Селестия! Она гений! Я хочу быть, как она! Я поеду в Веритас и встречусь с ней!'"
     argon "Always shoving her phone in my face: 'Dad, look! This is Celeste! She's a genius! I want to be just like her! I'm going to go to Veritas and meet her!'"
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
@@ -279,7 +279,7 @@ translate english_us chapter4_0_arkaground_dfab3d46:
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
 translate english_us chapter4_0_arkaground_caed004c:
 
-    # argon "Что ее 'гений' Селеста — просто картинка на экране."
+    # argon "Что ее 'гений' Селестия — просто картинка на экране."
     argon "That her 'genius' Celeste was just a picture on a screen."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
@@ -346,7 +346,7 @@ translate english_us chapter4_0_arkaground_5dbd42d0:
 translate english_us chapter4_0_arkaground_fa235118:
 
     # argon "Это чувство... зависть. Черная, липкая."
-    argon "This feeling... envy. Black, sticky."
+    argon "This feeling... envy. Black and sticky."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:145
 translate english_us chapter4_0_arkaground_c3769648:
@@ -429,7 +429,7 @@ translate english_us chapter4_0_arkaground_619e21b8:
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:186
 translate english_us chapter4_0_arkaground_dad94ca0:
 
-    # neon "Селеста..."
+    # neon "Селестия..."
     neon "Celeste..."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:187
@@ -495,7 +495,7 @@ translate english_us chapter4_0_arkaground_5de13604:
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
 translate english_us chapter4_0_arkaground_f2b4525f:
 
-    # neon "Мы не знаем, училась ли там Лили. Мы не знаем, что стало с Селестой."
+    # neon "Мы не знаем, училась ли там Лили. Мы не знаем, что стало с Селестией."
     neon "We don't know if Lily studied there. We don't know what happened to Celeste."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
@@ -532,4 +532,29 @@ translate english_us chapter4_0_arkaground_3ffe9444:
 translate english_us chapter4_0_arkaground_aedaec23:
 
     # narrator "Он поднялся. Впервые за долгое время мы были не просто двумя беглецами. Мы были партнерами с общей, ясной целью."
-    narrator "He stood up. For the first time in a long while, we weren't just two fugitives. We were partners with a common, clear goal."
+    narrator "He stood up. For the first time in a long while, we weren't just two fugitives. We were partners with a common, clear goal."# TODO: Translation updated at 2025-11-04 02:56
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
+translate english_us chapter4_0_arkaground_2f4c27ef:
+
+    # argon "Вечно тыкала мне в лицо своим смартфоном: 'Папа, смотри! Это Селестия! Она гений! Я хочу быть, как она! Я поеду в Веритас и встречусь с ней!'"
+    argon "Always shoving her phone in my face: 'Dad, look! This is Celestia! She's a genius! I want to be just like her! I'm going to go to Veritas and meet her!'"
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
+translate english_us chapter4_0_arkaground_ef3ddb81:
+
+    # argon "Что ее 'гений' Селестия — просто картинка на экране."
+    argon "That her 'genius' Celestia was just a picture on a screen."
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:186
+translate english_us chapter4_0_arkaground_22f90333:
+
+    # neon "Селестия..."
+    neon "Celestia...?"
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_481104fe:
+
+    # neon "Мы не знаем, училась ли там Лили. Мы не знаем, что стало с Селестией."
+    neon "We don't know if Lily studied there. We don't know what happened to Celestia."
+

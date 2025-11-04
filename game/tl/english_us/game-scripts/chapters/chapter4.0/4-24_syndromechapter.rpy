@@ -39,7 +39,7 @@ translate english_us chapter4_0_24syndrome_32685f68:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:25
 translate english_us chapter4_0_24syndrome_f8bd5e58:
 
-    # narrator "Это было место, где возможно жила Селеста. Элитный жилой комплекс для самых богатых и влиятельных. Если моя гипотеза верна, то она действительно была популярной."
+    # narrator "Это было место, где возможно жила Селестия. Элитный жилой комплекс для самых богатых и влиятельных. Если моя гипотеза верна, то она действительно была популярной."
     narrator "This was where Celeste might have lived. An elite residential complex for the wealthiest and most influential. If my hypothesis was correct, she must have been really popular."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:25
@@ -81,7 +81,7 @@ translate english_us chapter4_0_24syndrome_465e784a:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:44
 translate english_us chapter4_0_24syndrome_49f0cf68:
 
-    # neon "Добрый вечер. Я ищу Селесту. Она проживает здесь?"
+    # neon "Добрый вечер. Я ищу Селестию. Она проживает здесь?"
     neon "Good evening. I'm looking for Celeste. Does she live here?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:46
@@ -171,7 +171,7 @@ translate english_us chapter4_0_24syndrome_7efd21c7:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:73
 translate english_us chapter4_0_24syndrome_de0cd683:
 
-    # narrator "В графе 'Номер квартиры/Имя', я, затаив дыхание, написала: 'Селеста'."
+    # narrator "В графе 'Номер квартиры/Имя', я, затаив дыхание, написала: 'Селестия'."
     narrator "In the 'Apartment Number/Name' field, holding my breath, I typed: 'Celeste'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:73
@@ -189,7 +189,7 @@ translate english_us chapter4_0_24syndrome_db810d6e:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:89
 translate english_us chapter4_0_24syndrome_883ffa55:
 
-    # "Курьер" "Доставка для 'Селеста'."
+    # "Курьер" "Доставка для 'Селестия'."
     "Courier" "Delivery for 'Celeste'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:91
@@ -214,7 +214,7 @@ translate english_us chapter4_0_24syndrome_443abadc:
 translate english_us chapter4_0_24syndrome_5053c201:
 
     # narrator "Семьнадцать, третья квартира..."
-    narrator "Seventeen... oh three..."
+    narrator "One, Seven, Zero, Three.."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:101
 translate english_us chapter4_0_24syndrome_2e435f8f:
@@ -231,7 +231,7 @@ translate english_us chapter4_0_24syndrome_5dcbe7db:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:107
 translate english_us chapter4_0_24syndrome_b587b8c3:
 
-    # "Консьерж" "Алло? Да, это 'The Celeste Plaza'. Да, снова доставка для 'Селеста'."
+    # "Консьерж" "Алло? Да, это 'The Celeste Plaza'. Да, снова доставка для 'Селестия'."
     "Concierge" "Hello? Yes, this is The Celeste Plaza. Yes, another delivery for 'Celeste'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:108
@@ -261,7 +261,7 @@ translate english_us chapter4_0_24syndrome_55e1ad82:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:116
 translate english_us chapter4_0_24syndrome_5431ff78:
 
-    # neon "Интересно... что сказать Селесте?"
+    # neon "Интересно... что сказать Селестии?"
     neon "I wonder... what will I say to Celeste?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:117
@@ -351,13 +351,13 @@ translate english_us chapter4_0_24syndrome_4998cb12:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:156
 translate english_us chapter4_0_24syndrome_6c606d31:
 
-    # neon happy "Селеста! Это я, Неон. Ты ведь меня помни-"
+    # neon happy "Селестия! Это я, Неон. Ты ведь меня помни-"
     neon happy "Celeste! It's me, Neon. You remember me, don't you—"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:161
 translate english_us chapter4_0_24syndrome_8fb6896f:
 
-    # narrator "...но слова замерли на полуслове. На пороге стояла не Селеста."
+    # narrator "...но слова замерли на полуслове. На пороге стояла не Селестия."
     narrator "...but the words died in my throat. It wasn't Celeste standing in the doorway."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:161
@@ -387,7 +387,7 @@ translate english_us chapter4_0_24syndrome_3f0236fe:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:174
 translate english_us chapter4_0_24syndrome_1bd4b829:
 
-    # "Женщина" "Селеста? Опять... Опять вы, фанаты?! Сколько можно?!"
+    # "Женщина" "Селестия? Опять... Опять вы, фанаты?! Сколько можно?!"
     "Woman" "Celeste? Again... Are you fans again?! How many more of you are there?!"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:174
@@ -525,7 +525,7 @@ translate english_us chapter4_0_24syndrome_ab3b2258:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:234
 translate english_us chapter4_0_24syndrome_0361e130:
 
-    # neon "Да. Селеста. Мы... потеряли связь много лет назад."
+    # neon "Да. Селестия. Мы... потеряли связь много лет назад."
     neon "Yes. Celeste. We... lost touch many years ago."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:234
@@ -574,7 +574,7 @@ translate english_us chapter4_0_24syndrome_154ffe6d:
 translate english_us chapter4_0_24syndrome_a3c279ec:
 
     # neon "Рояль... вы решили его оставить?"
-    neon "The piano... you decided to keep it?"
+    neon "That piano... you decided to keep it?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:257
 translate english_us chapter4_0_24syndrome_e8e1dfe3:
@@ -646,7 +646,7 @@ translate english_us chapter4_0_24syndrome_2b132da4:
 translate english_us chapter4_0_24syndrome_3ea6fce6:
 
     # meryl "Только... только то, что незадолго до этого ее лучшая подруга, Клара, тоже так пропала. Тоже на два дня."
-    meryl "Only... only that shortly before this, her best friend, Klara, also disappeared like this. Also for two days."
+    meryl "Only... only that shortly before this, her best friend, Clara, also disappeared like this. Also for two days."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
 translate english_us chapter4_0_24syndrome_dd9c1e40:
@@ -658,7 +658,7 @@ translate english_us chapter4_0_24syndrome_dd9c1e40:
 translate english_us chapter4_0_24syndrome_7b468104:
 
     # meryl "А потом Клара просто вернулась, как ни в чем не бывало. Сказала, что 'просто устала и хотела побыть одна'."
-    meryl "And then Klara just came back, like nothing happened. Said she was 'just tired and wanted to be alone'."
+    meryl "And then Clara just came back, like nothing happened. Said she was 'just tired and wanted to be alone'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
 translate english_us chapter4_0_24syndrome_d5c2e52b:
@@ -670,7 +670,7 @@ translate english_us chapter4_0_24syndrome_d5c2e52b:
 translate english_us chapter4_0_24syndrome_8018b339:
 
     # meryl "Сара говорила мне... она говорила, что Клара стала... другой. Холодной. Будто от нее осталась только оболочка."
-    meryl "Sarah told me... she said Klara was... different. Cold. Like she was just a shell of her former self."
+    meryl "Sarah told me... she said Clara was... different. Cold. Like she was just a shell of her former self."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:291
 translate english_us chapter4_0_24syndrome_43dfe424:
@@ -693,19 +693,19 @@ translate english_us chapter4_0_24syndrome_04020e22:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:299
 translate english_us chapter4_0_24syndrome_c1e9b356:
 
-    # neon "Мэрил... вы не думали, что это может быть связано с... с Селестой?"
+    # neon "Мэрил... вы не думали, что это может быть связано с... с Селестией?"
     neon "Meryl... have you considered that this might be connected to... to Celeste?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:305
 translate english_us chapter4_0_24syndrome_53f664a8:
 
-    # meryl "Селеста? Нет... Нет, что вы? Это невозможно."
+    # meryl "Селестия? Нет... Нет, что вы? Это невозможно."
     meryl "Celeste? No... No, of course not. That's impossible."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:305
 translate english_us chapter4_0_24syndrome_2cdcdf1f:
 
-    # meryl "Селеста пропала много лет назад. И никто не знает, что с ней стало."
+    # meryl "Селестия пропала много лет назад. И никто не знает, что с ней стало."
     meryl "Celeste disappeared years ago. And no one knows what happened to her."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:305
@@ -747,7 +747,7 @@ translate english_us chapter4_0_24syndrome_75a2ae32:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:323
 translate english_us chapter4_0_24syndrome_143cb3a5:
 
-    # neon "Но... вы сказали, что Селеста жила здесь до вас. Вы не знаете, что с ней произошло?"
+    # neon "Но... вы сказали, что Селестия жила здесь до вас. Вы не знаете, что с ней произошло?"
     neon "But... you said Celeste lived here before you. You don't know what happened to her?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:324
@@ -760,7 +760,7 @@ translate english_us chapter4_0_24syndrome_6eef0019:
 translate english_us chapter4_0_24syndrome_39c3868f:
 
     # meryl "Как будто кто-то играл на рояле. Я проверяла — никого не было или это моё воображение."
-    meryl "Like someone was playing the piano. I'd check—no one was ever there. Or maybe it was my imagination."
+    meryl "Like someone was playing the piano. I'd check and no one was ever there. Or maybe it was my imagination."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:330
 translate english_us chapter4_0_24syndrome_652fcb68:
@@ -975,11 +975,132 @@ translate english_us chapter4_0_24syndrome_3e32a58d:
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:389
 translate english_us chapter4_0_24syndrome_01124cf6:
 
-    # narrator "Может, хоть Селеста приведет меня к ней? Может, если я разгадаю загадку прошлого, я смогу исправить ошибки настоящего?"
+    # narrator "Может, хоть Селестия приведет меня к ней? Может, если я разгадаю загадку прошлого, я смогу исправить ошибки настоящего?"
     narrator "Maybe Celeste can lead me to her? Maybe if I solve the mystery of the past, I can fix the mistakes of the present?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:389
 translate english_us chapter4_0_24syndrome_809141c7:
 
-    # narrator "Я найду их всех. Селеста, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена."
-    narrator "I'll find them all. Celeste, like a guiding star, will lead me to them. I'm sure of it."
+    # narrator "Я найду их всех. Селестия, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена."
+    narrator "I'll find them all. Celeste, like a guiding star, will lead me to them. I'm sure of it."# TODO: Translation updated at 2025-11-04 02:56
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:25
+translate english_us chapter4_0_24syndrome_a4685344:
+
+    # narrator "Это было место, где возможно жила Селестия. Элитный жилой комплекс для самых богатых и влиятельных. Если моя гипотеза верна, то она действительно была популярной."
+    narrator "This was where Celestia might have lived. An elite residential complex for the wealthiest and most influential. If my hypothesis was correct, she must have been really popular."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:44
+translate english_us chapter4_0_24syndrome_0fcb9f19:
+
+    # neon "Добрый вечер. Я ищу Селестию. Она проживает здесь?"
+    neon "Good evening. I'm looking for Celestia. Does she live here?"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:73
+translate english_us chapter4_0_24syndrome_22f850cd:
+
+    # narrator "В графе 'Номер квартиры/Имя', я, затаив дыхание, написала: 'Селестия'."
+    narrator "In the 'Apartment Number/Name' field, holding my breath, I typed: 'Celestia'."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:89
+translate english_us chapter4_0_24syndrome_4a9b906d:
+
+    # "Курьер" "Доставка для 'Селестия'."
+    "Курьер" "Delivery for 'Celestia'."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:107
+translate english_us chapter4_0_24syndrome_470f83b9:
+
+    # "Консьерж" "Алло? Да, это 'The Celeste Plaza'. Да, снова доставка для 'Селестии'."
+    "Консьерж" "Hello? Yes, this is The Celeste Plaza. Yes, another delivery for 'Celestia'."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:116
+translate english_us chapter4_0_24syndrome_0dded4c0:
+
+    # neon "Интересно... что сказать Селестии?"
+    neon "I wonder... what will I say to Celestia?"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:140
+translate english_us chapter4_0_24syndrome_853fead8:
+
+    # narrator "Коридор был тихим и роскошным. Мягкий ковер, приглушенный свет. Я подошла к двери с номером '1703'. Моей двери. Двери моей Селестии."
+    narrator "The hallway was quiet and luxurious. Soft carpet, dim lighting. I approached the door with the number '1703'. My door. My Celestia's door."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:156
+translate english_us chapter4_0_24syndrome_b0c2253e:
+
+    # neon happy "Селестия! Это я, Неон. Ты ведь меня помни-"
+    neon happy "Celestia! It's me, Neon. You remember me, don't you—"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:161
+translate english_us chapter4_0_24syndrome_ce746677:
+
+    # narrator "...но слова замерли на полуслове. На пороге стояла не Селестия."
+    narrator "...but the words died in my throat. It wasn't Celestia standing in the doorway."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:174
+translate english_us chapter4_0_24syndrome_ed601de2:
+
+    # "Женщина" "Селестия? Опять... Опять вы, фанаты?! Сколько можно?!"
+    "Женщина" "Celestia? Again... Are you fans again?! How many more of you are there?!"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:234
+translate english_us chapter4_0_24syndrome_09a11f26:
+
+    # neon "Да. Селестия. Мы... потеряли связь много лет назад."
+    neon "Yes. Celestia. We... lost touch many years ago."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:299
+translate english_us chapter4_0_24syndrome_9677e1ee:
+
+    # neon "Мэрил... вы не думали, что это может быть связано с... с Селестией?"
+    neon "Meryl... have you considered that this might be connected to... to Celestia?"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:305
+translate english_us chapter4_0_24syndrome_fc9c78c9:
+
+    # meryl "Селестия? Нет... Нет, что вы? Это невозможно."
+    meryl "Celestia? No... No, of course not. That's impossible."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:305
+translate english_us chapter4_0_24syndrome_2fca1c97:
+
+    # meryl "Селестия пропала много лет назад. И никто не знает, что с ней стало."
+    meryl "Celestia disappeared years ago. And no one knows what happened to her."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:323
+translate english_us chapter4_0_24syndrome_1cf51e19:
+
+    # neon "Но... вы сказали, что Селестия жила здесь до вас. Вы не знаете, что с ней произошло?"
+    neon "But... you said Celestia lived here before you. You don't know what happened to her?"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:347
+translate english_us chapter4_0_24syndrome_d3aa8c39:
+
+    # neon "Нет, как я и сказала, я приехала сюда в поисках Селестии. Но..."
+    neon "No, like I said, I came here looking for Celestia. But..."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:361
+translate english_us chapter4_0_24syndrome_e8a2390e:
+
+    # narrator "Ради Селестии. Ради Лили. Ради Аргон. Ради Сары. Ради Мэрил, Ради меня самой."
+    narrator "For Celestia. For Lily. For Argon. For Sarah. For Meryl. For myself."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:389
+translate english_us chapter4_0_24syndrome_abe0e381:
+
+    # narrator "Призрака моей подруги. Селестии. Той, что я видела лишь во снах, чье отсутствие ощущалось как фантомная боль."
+    narrator "The ghost of my friend. Celestia. The one I'd only seen in dreams, whose absence felt like a phantom limb."
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:389
+translate english_us chapter4_0_24syndrome_29f897ec:
+
+    # narrator "Может, хоть Селестия приведет меня к ней? Может, если я разгадаю загадку прошлого, я смогу исправить ошибки настоящего?"
+    narrator "Maybe Celestia can lead me to her? Maybe if I solve the mystery of the past, I can fix the mistakes of the present?"
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:389
+translate english_us chapter4_0_24syndrome_ebf07193:
+
+    # narrator "Я найду их всех. Селестия, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена."
+    narrator "I'll find them all. Celestia, like a guiding star, will lead me to them. I'm sure of it."
+

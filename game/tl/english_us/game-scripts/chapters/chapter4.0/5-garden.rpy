@@ -232,7 +232,7 @@ translate english_us chapter4_0_garden_dialogue_1ccd861b:
 translate english_us chapter4_0_garden_dialogue_473c2636:
 
     # seraphina "Ты, наверное, новенькая в городе?"
-    seraphina "You must be new in town, huh?"
+    seraphina "You must be new in town, ya?"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:152
 translate english_us chapter4_0_garden_dialogue_eb152856:
@@ -291,19 +291,19 @@ translate english_us chapter4_0_garden_dialogue_8f36a9cd:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:169
 translate english_us chapter4_0_garden_dialogue_9fd218c8:
 
-    # neon neutral "Хорошо, твой секрет в безопасности. Но за секрет — секрет. Я здесь, потому что ищу свою подругу. Селесту. Она... пропала."
+    # neon neutral "Хорошо, твой секрет в безопасности. Но за секрет — секрет. Я здесь, потому что ищу свою подругу. Селестию. Она... пропала."
     neon neutral "Alright, your secret is safe. But a secret for a secret. I'm here because I'm looking for my friend. Celeste. She's... missing."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:175
 translate english_us chapter4_0_garden_dialogue_277a58f7:
 
-    # narrator "При имени 'Селеста' все ее кокетство испарилось. Милое лицо стало волнительным, почти напуганным. В ее глазах на мгновение вспыхнул огонь."
+    # narrator "При имени 'Селестия' все ее кокетство испарилось. Милое лицо стало волнительным, почти напуганным. В ее глазах на мгновение вспыхнул огонь."
     narrator "At the name 'Celeste,' all her flirtatiousness vanished. Her sweet face became agitated, almost frightened. A fire flashed in her eyes for a moment."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:176
 translate english_us chapter4_0_garden_dialogue_604e4428:
 
-    # seraphina shocked "Селеста?! Та самая пианистка? Та… С... с необычными волосами?"
+    # seraphina shocked "Селестия?! Та самая пианистка? Та… С... с необычными волосами?"
     seraphina shocked "Celeste?! The pianist? The one... with the... unusual hair?"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:178
@@ -465,7 +465,7 @@ translate english_us chapter4_0_garden_dialogue_2102767c:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:242
 translate english_us chapter4_0_garden_dialogue_2bb9f663:
 
-    # seraphina surprised "Слушай... ты говорила о Селесте."
+    # seraphina surprised "Слушай... ты говорила о Селестии."
     seraphina surprised "Listen... you were talking about Celeste."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:244
@@ -681,7 +681,7 @@ translate english_us chapter4_0_garden_dialogue_f0fcb066:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
 translate english_us chapter4_0_garden_dialogue_4680c3a8:
 
-    # neon neutral "{=thoughts}Возможно... возможно, я и правда смогу найти ее, и тогда... я увижу в этих созвездиях Селесту..."
+    # neon neutral "{=thoughts}Возможно... возможно, я и правда смогу найти ее, и тогда... я увижу в этих созвездиях Селестию..."
     neon neutral "{=thoughts}Maybe... maybe I really can find her, and then... I'll see Celeste in those constellations..."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
@@ -693,7 +693,7 @@ translate english_us chapter4_0_garden_dialogue_090dbcc1:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
 translate english_us chapter4_0_garden_dialogue_25380c37:
 
-    # neon neutral "{=thoughts}Обещание найти Лили все еще в силе. Но все нити ведут к Селесте. Она — эпицентр. Она — ключ. Если я найду ее, я найду и ответ на твой вопрос."
+    # neon neutral "{=thoughts}Обещание найти Лили все еще в силе. Но все нити ведут к Селестии. Она — эпицентр. Она — ключ. Если я найду ее, я найду и ответ на твой вопрос."
     neon neutral "{=thoughts}My promise to find Lily still stands. But all the threads lead to Celeste. She's the epicenter. She's the key. If I find her, I'll find the answer to your question, too."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
@@ -701,4 +701,54 @@ translate english_us chapter4_0_garden_dialogue_7503c8aa:
 
     # neon neutral "{=thoughts}Это единственный путь. Я докажу тебе, что была права."
     neon neutral "{=thoughts}This is the only way. I'll prove to you that I was right."
+
+# TODO: Translation updated at 2025-11-04 02:56
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:20
+translate english_us chapter4_0_garden_27b55932:
+
+    # neon "{=thoughts}А что насчет Селестии? Тупик. Полный тупик."
+    neon "{=thoughts}And what about Celestia? A dead end. A complete dead end."
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:169
+translate english_us chapter4_0_garden_dialogue_435c6762:
+
+    # neon neutral "Хорошо, твой секрет в безопасности. Но за секрет — секрет. Я здесь, потому что ищу свою подругу. Селестию. Она... пропала."
+    neon neutral "Alright, your secret is safe. But a secret for a secret. I'm here because I'm looking for my friend. Celestia. She's... missing."
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:175
+translate english_us chapter4_0_garden_dialogue_d1a5528c:
+
+    # narrator "При имени 'Селестия' все ее кокетство испарилось. Милое лицо стало волнительным, почти напуганным. В ее глазах на мгновение вспыхнул огонь."
+    narrator "At the name 'Celestia,' all her flirtatiousness vanished. Her sweet face became agitated, almost frightened. A fire flashed in her eyes for a moment."
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:176
+translate english_us chapter4_0_garden_dialogue_d144f4fe:
+
+    # seraphina shocked "Селестия?! Та самая пианистка? Та… С... с необычными волосами?"
+    seraphina shocked "Celestia?! The pianist? The one... with the... unusual hair?"
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:242
+translate english_us chapter4_0_garden_dialogue_3a80fba7:
+
+    # seraphina surprised "Слушай... ты говорила о Селестии."
+    seraphina surprised "Listen... you were talking about Celestia."
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:303
+translate english_us chapter4_0_garden_dialogue_50732802:
+
+    # seraphina "А потом... когда все уйдут... я расскажу тебе все, что знаю о драме Селестии."
+    seraphina "And then... when everyone's gone... I'll tell you everything I know about Celestia's drama."
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
+translate english_us chapter4_0_garden_dialogue_370a6cdd:
+
+    # neon neutral "{=thoughts}Возможно... возможно, я и правда смогу найти ее, и тогда... я увижу в этих созвездиях Селестию..."
+    neon neutral "{=thoughts}Maybe... maybe I really can find her, and then... I'll see Celestia in those constellations..."
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:330
+translate english_us chapter4_0_garden_dialogue_f06910be:
+
+    # neon neutral "{=thoughts}Обещание найти Лили все еще в силе. Но все нити ведут к Селестии. Она — эпицентр. Она — ключ. Если я найду ее, я найду и ответ на твой вопрос."
+    neon neutral "{=thoughts}My promise to find Lily still stands. But all the threads lead to Celestia. She's the epicenter. She's the key. If I find her, I'll find the answer to your question, too."
 

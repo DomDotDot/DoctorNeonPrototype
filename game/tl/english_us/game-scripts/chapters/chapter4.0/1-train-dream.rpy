@@ -106,7 +106,7 @@ translate english_us chapter4_0_train_dream_e36f1216:
 translate english_us chapter4_0_train_dream_bb43f7cf:
 
     # neon "{=thoughts}Мой разум — это единственное, что у меня осталось. Моя последняя крепость. Я не могу пустить туда кого-то еще. Даже его."
-    neon "{=thoughts}My mind is the only thing I have left. My last fortress. I can't let anyone else in. Not even him."
+    neon "{=thoughts}My mind is the only thing I have left. My last bastion. I can't let anyone else in. Not even him."
 
 # game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:52
 translate english_us chapter4_0_train_dream_47e8b57b:
@@ -172,7 +172,7 @@ translate english_us chapter4_0_train_dream_e09ab7cd:
 translate english_us chapter4_0_train_dream_49f53ec4:
 
     # narrator "Я смотрю на него, затем на проносящиеся за окном серые, туманные силуэты промышленных зданий. Готова ли я? У меня нет выбора."
-    narrator "I look at him, then at the gray, misty silhouettes of industrial buildings flying past the window. Am I ready? I don't have a choice."
+    narrator "I look at him, then at the gray, misty silhouettes of industrial buildings flying past the horizon. Am I ready? I don't have a choice."
 
 # game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:84
 translate english_us chapter4_0_train_dream_6bda763e:
