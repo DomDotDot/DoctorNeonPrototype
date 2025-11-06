@@ -4,8 +4,10 @@
 init:
         transform flip:
                 xzoom -1.0
+                yalign 1.0
         transform restore_flip:
                 xzoom 1.0
+                yalign 1.0
         transform midright:
             xalign 0.75
             yalign 1.0

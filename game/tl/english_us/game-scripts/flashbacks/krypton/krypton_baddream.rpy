@@ -4,7 +4,7 @@
 translate english_us chapter1_krypton_baddream_12ab6656:
 
     # narrator "Перед глазами Неон мелькал образ женщины с длинными светлыми и черными волосами, смеющейся и как будто зовущей ее."
-    narrator "A vision of a woman with long WHITE and black hair flashed before Neon's eyes, laughing and seemingly calling her."
+    narrator "A vision of a woman with long white and black hair flashed before Neon's eyes, laughing and seemingly calling her."
 
 # game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:8
 translate english_us chapter1_krypton_baddream_d543b766:

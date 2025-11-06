@@ -3,8 +3,11 @@ label chapter1_krypton_baddream:
     narrator """
     Перед глазами Неон мелькал образ женщины с длинными светлыми и черными волосами, смеющейся и как будто зовущей ее.
     """
-    show krypton gratitude with Dissolve(2.5)
+    show krypton smile with Dissolve(2.5)
 
     "???" "Неон. Слышишь звонок? Пары закончились. Пошли сегодня в парк?"
+
+    show krypton gratitude
+
     "???" "Сегодня как раз хорошая погода для прогулки."
 return
