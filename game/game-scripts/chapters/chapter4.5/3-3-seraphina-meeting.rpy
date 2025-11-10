@@ -1,4 +1,4 @@
-label chapter4_5_office_confrontation:
+label chapter4_5_concert_end:
 
     scene bg chapter_4_veritas_expo_corridor with fade
     play music "music/BGM/NarcissismV2_Tense.ogg" loop
@@ -311,3 +311,5 @@ label chapter4_5_office_confrontation:
     
     # play sound "sfx/heels_on_marble_approaching_slow.mp3"
     scene black with fade
+
+return

@@ -1,4 +1,4 @@
-label chapter4_5_fan_meeting:
+label chapter4_5_concert_mid:
 
     scene bg chapter_4_veritas_expo_bridge_night with fade
     play music "music/BGM/Veritas_Expo_Ambience.ogg" loop
@@ -155,3 +155,5 @@ label chapter4_5_fan_meeting:
     """
     
     seraphina "Пойдем? Я арендовала здесь офис. Только для нас двоих."
+
+return
