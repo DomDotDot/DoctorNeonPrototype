@@ -2,7 +2,7 @@ label chapter4_5_boulevard_night:
 
     scene bg chapter_4_veritas_night_market with fade
     play music "music/BGM/Veritas_Market_Lively.ogg" loop
-    play ambient "ambient/crowd_night_market.mp3" loop
+    play ambient "ambient/crowd_night_market.opus" loop
 
     narrator """
         'Бульвар Мечтателей'. Ночью он превратился в огромную, сияющую ярмарку.

@@ -142,7 +142,7 @@ label chapter2_act4_desperate_measures:
                 # Путь к складу
                 show cg cg14 with fade # Фон: промзона на окраине города
                 stop music fadeout 10.0
-                play ambient "ambient/wind-howly-ear.mp3" fadein 5.0
+                play ambient "ambient/wind-howly-ear.opus" fadein 5.0
                 narrator """
                 Она шла пешком. Промышленная окраина встретила ее ржавыми заборами, увенчанными колючей проволокой, и скелетами заброшенных цехов.
                 

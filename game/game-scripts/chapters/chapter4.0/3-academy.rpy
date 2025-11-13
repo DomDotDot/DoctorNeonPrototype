@@ -2,7 +2,7 @@ label chapter4_0_academy:
 
     # Атмосфера: Центр Веритас-Сити. Яркий, солнечный день. Давящий порядок.
     scene bg chapter_4_academy-veritas1 with Dissolve(1.0)
-    play ambient "ambient/city-ambience-traffic.mp3" fadein 15.0 volume 0.25
+    play ambient "ambient/city-ambience-traffic.opus" fadein 15.0 volume 0.25
 
     narrator """
     Мы вышли из серости Старого Квартала в ослепительную чистоту центра.
@@ -252,7 +252,7 @@ label chapter4_0_academy:
     with { "effect": dissolve }
     show neon eyehurt with dissolve
     stop music fadeout 2.0
-    play ambient "ambient/AllConsumingFog.ogg" noloop fadein 10.0 fadeout 10.0  volume 0.5
+    play ambient "ambient/AllConsumingFog.opus" noloop fadein 10.0 fadeout 10.0  volume 0.5
     
     narrator """
     Мир на мгновение качнулся. Боль в висках. И оглушающее чувство потери.

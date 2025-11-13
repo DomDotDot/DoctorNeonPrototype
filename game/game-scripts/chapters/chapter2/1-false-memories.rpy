@@ -34,7 +34,7 @@ label chapter2_act1_false_memories:
 
                 scene bg chapter_2_false_memories-escape with Dissolve(10.0) # Фон: ночное шоссе, вид из машины, начинается дождь
                 # play sound "sounds/car_driving_damaged_tire.ogg" loop # Звук езды на спущенном колесе
-                play ambient "ambient/raining_inside_car.mp3" fadein 20.0 fadeout 5.0
+                play ambient "ambient/raining_inside_car.opus" fadein 20.0 fadeout 5.0
 
 
                 narrator """
@@ -169,7 +169,7 @@ label chapter2_act1_false_memories:
 
                 # stop music fadeout 1.0
                 narrator "Она свернула с гладкого асфальта на грязную, разбитую колею. Машину тут же начало трясти еще сильнее. Дождь усилился, превратившись в ливень."
-                play ambient "ambient/raining_inside_car_driving.mp3" fadein 5.0 fadeout 5.0
+                play ambient "ambient/raining_inside_car_driving.opus" fadein 5.0 fadeout 5.0
                 narrator "Навигатор тут же начал перестраивать маршрут, но вскоре сигнал GPS пропал в густом лесу и под плотными тучами."
                 # play sound "sounds/gps_voice_signal_lost.ogg" # Звук "GPS-сигнал потерян"
                 "Навигатор" "GPS-сигнал потерян."

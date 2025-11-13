@@ -183,7 +183,7 @@ label krypton_firstmeet_flashback:
         """
 
         # Музыка становится интенсивнее, в нее вплетается нарастающий гул.
-        play sound "ambient/ResonanceHumming.ogg" loop fadein 10.0 volume 0.25
+        play sound "ambient/ResonanceHumming.opus" loop fadein 10.0 volume 0.25
 
         narrator """
         Это не был звук, и это не была тишина. Это было что-то третье. Ощущение идеальной гармонии. 

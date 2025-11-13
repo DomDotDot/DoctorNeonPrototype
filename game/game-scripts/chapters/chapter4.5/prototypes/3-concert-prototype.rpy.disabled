@@ -12,7 +12,7 @@
     
     scene bg chapter_4_veritas_stadium_entrance_evening with fade
     # play music "music/BGM/VeritasCity_ConcertBuildup.ogg" loop
-    # play ambient "ambient/large_crowd_excited_murmur.mp3" loop
+    # play ambient "ambient/large_crowd_excited_murmur.opus" loop
     
     narrator """
     Вечером я была у стадиона. Огромное здание гудело, как растревоженный улей.
@@ -69,7 +69,7 @@
 
     scene bg chapter_4_veritas_stadium_hall with fade
     # stop ambient
-    # play ambient "ambient/stadium_pre_show_hush.mp3"
+    # play ambient "ambient/stadium_pre_show_hush.opus"
     
     narrator """
     Мы заняли свои места. Огромный зал, похожий на амфитеатр, был забит до отказа. Тысячи глаз были устремлены на сцену.

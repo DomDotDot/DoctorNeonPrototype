@@ -71,7 +71,7 @@ label chapter1_lab_noon:
         # Сцена в кафетерии
         scene bg chapter_1_lab_cafeteria with Fade(1.0, 0, 1.0)
         stop music fadeout 2.0
-        play ambient "ambient/staff-canteen-background.ogg" fadein 2.0
+        play ambient "ambient/staff-canteen-background.opus" fadein 2.0
         narrator """
         Кафетерий на первом уровне был больше и светлее, чем ожидала Неон. 
 

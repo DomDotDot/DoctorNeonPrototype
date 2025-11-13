@@ -4,7 +4,7 @@ label chapter4_0_24syndrome:
 
     show cg cg26_1 with fade
     play music "music/BGM/FirstTheme.ogg" fadein 5.0 fadeout 5.0 # Ночная тема Веритаса: спокойная, эмбиентная, но с нотками тревоги и одиночества.
-    # play ambient "ambient/city-night-quiet.mp3" loop fadein 10.0 fadeout 10.0
+    # play ambient "ambient/city-night-quiet.opus" loop fadein 10.0 fadeout 10.0
 
     narrator """
     Путь в 'небеса' оказался долгим. Я шла пешком несколько часов.
@@ -201,7 +201,7 @@ label chapter4_0_24syndrome:
 
     scene bg chapter_4_24_syndrome-apartment-living with fade # Новый фон: элегантная, но безжизненная гостиная.
     play music "music/BGM/OVERCAST-EYES.ogg" fadein 5.0 fadeout 5.0 volume 0.25 # Музыка становится тише, интимнее.
-    play ambient "ambient/apartment_quiet_ticking_clock.mp3" loop
+    play ambient "ambient/apartment_quiet_ticking_clock.opus" loop
 
     narrator """
     Я ожидала увидеть либо стерильный порядок, либо полный хаос. Но квартира была... другим. Она была похожа на музей.

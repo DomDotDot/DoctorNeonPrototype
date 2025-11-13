@@ -2,7 +2,7 @@ label chapter2_act2_long_night:
 
                 scene bg chapter_2_long_night-forest-drive with Dissolve(5.0)
                 stop sound
-                play sound "ambient/car-driving_gravel.mp3" fadein 5.0 fadeout 15.0 loop
+                play sound "ambient/car-driving_gravel.opus" fadein 5.0 fadeout 15.0 loop
 
                 narrator "Экран телефона погас, экономя последние проценты заряда. Теперь она ехала вслепую, в лесную тьму, под проливным дождем, на трех с половиной колесах, все дальше от цивилизации и все глубже в пучину отчаяния."
 

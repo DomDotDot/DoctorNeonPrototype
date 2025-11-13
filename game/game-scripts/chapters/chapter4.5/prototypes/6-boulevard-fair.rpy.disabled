@@ -2,7 +2,7 @@ label chapter4_5_night_market-proto:
     
     scene bg chapter_4_veritas_boulevard_night with fade
     play music "music/BGM/Veritas_NightMarket_Theme.ogg" loop
-    play ambient "ambient/night_market_crowd_chatter.mp3" loop
+    play ambient "ambient/night_market_crowd_chatter.opus" loop
 
     narrator """
         План был прост и дерзок. Проникнуть в общежитие ночью. Но сначала нужно было дождаться глубокой ночи, когда патрули станут реже.

@@ -103,7 +103,7 @@ label confrontation_path:
 
         marcus suit_sinister "Да... Да кто тебя вообще слушать будет? По-посмотри на себя!"
 
-        play ambient "ambient/Target.ogg" fadein 5.0
+        play ambient "ambient/Target.opus" fadein 5.0
 
         marcus """
         Вечно усталая. Вечно рассеянная. Вечно недовольная.

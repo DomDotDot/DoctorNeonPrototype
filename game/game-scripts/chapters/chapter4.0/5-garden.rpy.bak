@@ -4,7 +4,7 @@ label chapter4_0_garden:
 
     show cg cg27_1 with Dissolve(5.0)
     play music "music/BGM/FloraUndergrowth.ogg" loop # Более меланхоличная версия ночной темы.
-    # play ambient "ambient/city_night_distant_sirens.mp3" loop
+    # play ambient "ambient/city_night_distant_sirens.opus" loop
 
     narrator """
     Я вышла из 'Celeste Plaza', сжимая в руке старый смартфон Сары. Ночь была глубокой и холодной.
@@ -47,7 +47,7 @@ label chapter4_0_garden:
 
     show cg cg27_2 with fade
     stop ambient
-    # play ambient "ambient/garden_night_crickets_water.mp3" loop
+    # play ambient "ambient/garden_night_crickets_water.opus" loop
 
     narrator """
     Внутри было тепло и влажно. Пахло землей, цветами и жизнью. Тихий шелест листьев, журчание небольшого ручья.
