@@ -53,3 +53,5 @@ define student1 = Character(_('Студентка 1'), color="#d4ad4b", image="s
 define student2 = Character(_('Студентка 2'), color="#33dad4", image="student2", ctc="ctc_blink", ctc_position="nestled")
 
 define meryl = Character(_('Мэрил Кендрик'), color="#e87a90", image="meryl", ctc="ctc_blink", ctc_position="nestled")
+define akari = Character(_('Учительница Акари'), color="#1885c8fd", image="akari", ctc="ctc_blink", ctc_position="nestled")
+define narl = Character(_('Нари'), color="#1c9121", image="nari", ctc="ctc_blink", ctc_position="nestled")
