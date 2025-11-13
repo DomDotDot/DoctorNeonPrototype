@@ -1,6 +1,6 @@
     # --- Сцена в кафе ---
-    
-    scene bg chapter_4_veritas_cafe_interior_night with dissolve
+label chapter4_5_lily_cafe:
+    #scene bg chapter_4_veritas_cafe_interior_night with dissolve
     
     narrator """
         Мы снова оказались в 'Сахарной Комете'.
@@ -170,3 +170,4 @@
         
         Я сделала шаг назад, но сделала его добровольно.
     """
+return

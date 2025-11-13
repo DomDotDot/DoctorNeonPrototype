@@ -1,4 +1,4 @@
-label chapter4_5_kai_ito_perspective:
+label chapter4_5_kai_ito_perspective-proto:
     
     # Резкая смена перспективы. Музыка становится легче, почти как в школьном аниме.
     play music "music/BGM/Veritas_Academy_SliceOfLife.ogg" loop

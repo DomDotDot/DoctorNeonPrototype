@@ -1,4 +1,6 @@
     # ВОЗВРАЩЕНИЕ ПЕРСПЕКТИВЫ
+
+label chapter4_5_dorm_way:
     
     scene bg chapter_4_veritas_streets_night with fade
     play music "music/BGM/VeritasCity_NightTheme_Melancholy.ogg" loop
@@ -25,7 +27,7 @@
     
     narrator "Я смотрела на экран, и холодное осознание начало проступать сквозь туман усталости. Это не просто пропажи. Это уже смерти. И система делает все, чтобы скрыть правду."
 
-    label chapter4_5_dorm_investigation:
+label chapter4_5_dorm_investigation:
 
     scene bg chapter_4_veritas_dorm_exterior_night with fade
     play music "music/BGM/Veritas_Dorm_Suspense.ogg" loop
@@ -125,7 +127,7 @@
     
     narrator "Я включила фонарик на своем телефоне. Луч вырвал из темноты сцену, которая навсегда выжжется в моей памяти."
     
-    scene bg chapter_4_veritas_dorm_sara_room_body with dissolve
+    #scene bg chapter_4_veritas_dorm_sara_room_body with dissolve
     
     narrator """
         На диване, в расслабленной, почти ленивой позе, сидела девушка в форме Академии. Сара Кендрик.

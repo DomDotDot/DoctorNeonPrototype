@@ -1,4 +1,4 @@
-label chapter4_5_pre_concert:
+#label chapter4_5_pre_concert-proto:
 
     narrator """
     Я съела омлет и выпила весь кофе до последней капли. К сладкому десерту я так и не притронулась. Слишком приторно. Слишком... много.
@@ -32,7 +32,7 @@ label chapter4_5_pre_concert:
     Я послушно положила смартфон Сары в лоток и прошла через рамку. Стандартная процедура. Никаких вопросов. Я снова была невидимкой.
     """
     
-label chapter4_5_student_encounter:
+#label chapter4_5_student_encounter:
 
     scene bg chapter_4_veritas_stadium_corridor with dissolve
     
@@ -65,7 +65,7 @@ label chapter4_5_student_encounter:
     
     narrator "Она схватила меня за руку и потащила в сторону входа в главный зал."
     
-label chapter4_5_concert_begins:
+#label chapter4_5_concert_begins:
 
     scene bg chapter_4_veritas_stadium_hall with fade
     # stop ambient
@@ -134,7 +134,7 @@ label chapter4_5_concert_begins:
     Но я видела. Видела этот пустой, завороженный взгляд, который она снова и снова бросала на сцену.
     """
 
-label chapter4_5_concert_end:
+#label chapter4_5_concert_end:
 
     # stop music
     # play sound "sfx/concert_end_applause_cheers.mp3"

@@ -1,4 +1,4 @@
-label chapter4_5_fan_meeting:
+label chapter4_5_fan_meeting-proto:
 
     scene bg chapter_4_veritas_expo_bridge with fade
     # play music "music/BGM/VeritasCity_NightTheme_Calm.ogg" loop

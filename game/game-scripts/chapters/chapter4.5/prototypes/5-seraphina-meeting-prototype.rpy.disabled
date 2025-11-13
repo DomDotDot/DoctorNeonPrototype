@@ -1,4 +1,4 @@
-label chapter4_5_office_scene:
+#label chapter4_5_office_scene-proto:
 
     scene bg chapter_4_veritas_expo_corridor with fade
     # play sound "sfx/heels_on_marble_approaching.mp3" loop
