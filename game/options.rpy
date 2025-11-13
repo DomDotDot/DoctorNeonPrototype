@@ -207,6 +207,12 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('development-sketches/**', 'dev')
+    build.classify('promoimages/**', 'dev')
+    build.classify('game/disabled/**', 'dev')
+    build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
+    build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
+    build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
 
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 
@@ -231,4 +237,4 @@ init python:
 ## Имя пользователя и название проекта, ассоциированные с проектом на itch.io,
 ## разделённые дробью.
 
-# define build.itch_project = "renpytom/test-project"
+define build.itch_project = "dotprod/bright-neon-semitone-resonance"
