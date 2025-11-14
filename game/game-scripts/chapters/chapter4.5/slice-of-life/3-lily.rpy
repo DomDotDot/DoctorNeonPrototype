@@ -132,6 +132,6 @@ label chapter4_5_lily_flashback:
         Я тонула. В тишине. В одиночестве.
     """
     
-    "Лили" "{=thoughts}Спасите... кто-нибудь... папа...{/thoughts}"
+    "Лили" "{=thoughts}Спасите... кто-нибудь... папа... Я не хочу...{/thoughts}"
     
     scene black with fade
