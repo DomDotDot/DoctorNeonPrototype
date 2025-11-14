@@ -23,5 +23,7 @@ label chapter_4_5_rpy:
     
     call chapter4_5_lily_cafe
 
+    call dream_sequence_japan_4
+
 
 return
