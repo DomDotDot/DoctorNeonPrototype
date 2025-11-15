@@ -1,7 +1,7 @@
 label chapter4_5_garden_aftermath:
 
     scene bg chapter_4_botanical_garden_interior_night with Dissolve(1.0)
-    play music "music/BGM/FloraUndergrowth.ogg" loop
+    play music "music/BGM/FloraUndergrowth.opus" loop
 
     narrator """
     Четыре часа. Или пять? Время потеряло свой счет.

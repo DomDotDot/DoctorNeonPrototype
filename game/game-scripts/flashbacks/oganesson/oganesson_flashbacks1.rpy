@@ -2,13 +2,13 @@
 label oganesson_school_flashback:
         # Начало перехода во флешбэк
         # stop music fadeout 2.0
-        # play sound "sounds/school_ambience_quiet.ogg" # Звук тихого гула, шепота
+        # play sound "sounds/school_ambience_quiet.opus" # Звук тихого гула, шепота
         # Эффект: Экран медленно теряет фокус, как будто Неон "уходит в себя"
         # with vpunch # Легкая встряска, как будто воспоминание прорывается
 
-        # play sound "sounds/flashback_swoosh_deep.ogg"
+        # play sound "sounds/flashback_swoosh_deep.opus"
         show cg cg6_1 with dissolve # Показываем пустой класс, вид со стороны ученика
-        play music "music/BGM/Realization.ogg" fadein 1.5 # Новая, меланхоличная, давящая музыка
+        play music "music/BGM/Realization.opus" fadein 1.5 # Новая, меланхоличная, давящая музыка
 
         narrator """
         Мне тринадцать. Я сижу за своей партой. Урок еще не начался.

@@ -3,7 +3,7 @@ label chapter4_0_24syndrome:
     # --- АКТ I: НЕПРИСТУПНАЯ КРЕПОСТЬ ---
 
     show cg cg26_1 with fade
-    play music "music/BGM/FirstTheme.ogg" fadein 5.0 fadeout 5.0 # Ночная тема Веритаса: спокойная, эмбиентная, но с нотками тревоги и одиночества.
+    play music "music/BGM/FirstTheme.opus" fadein 5.0 fadeout 5.0 # Ночная тема Веритаса: спокойная, эмбиентная, но с нотками тревоги и одиночества.
     # play ambient "ambient/city-night-quiet.opus" loop fadein 10.0 fadeout 10.0
 
     narrator """
@@ -111,7 +111,7 @@ label chapter4_0_24syndrome:
     narrator "Я просто подошла к панели лифтов и нажала кнопку вызова. Лифт прибыл. Я вошла внутрь. Семнадцатый этаж."
 
     show cg cg26_5 with fade
-    play music "music/BGM/OneWayTrip.ogg" fadein 1.0 fadeout 5.0 noloop
+    play music "music/BGM/OneWayTrip.opus" fadein 1.0 fadeout 5.0 noloop
 
     neon "Интересно... что сказать Селестии?"
     narrator "Лифт медленно поднимался. Сердце колотилось. Семнадцатый этаж. Моя цель была так близка."
@@ -200,7 +200,7 @@ label chapter4_0_24syndrome:
 # --- АКТ IV: ЧАЙ С ПРИЗРАКАМИ ---
 
     scene bg chapter_4_24_syndrome-apartment-living with fade # Новый фон: элегантная, но безжизненная гостиная.
-    play music "music/BGM/OVERCAST-EYES.ogg" fadein 5.0 fadeout 5.0 volume 0.25 # Музыка становится тише, интимнее.
+    play music "music/BGM/OVERCAST-EYES.opus" fadein 5.0 fadeout 5.0 volume 0.25 # Музыка становится тише, интимнее.
     play ambient "ambient/apartment_quiet_ticking_clock.opus" loop
 
     narrator """

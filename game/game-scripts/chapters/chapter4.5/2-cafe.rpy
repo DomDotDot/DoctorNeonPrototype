@@ -1,7 +1,7 @@
 label chapter4_5_cafe_scene:
     
     # Музыка меняется на более напряженную, "городскую"
-    # play music "music/BGM/VeritasCity_ChaseTheme.ogg" loop
+    # play music "music/BGM/VeritasCity_ChaseTheme.opus" loop
     
     scene bg chapter_4_veritas_side_street_morning with fade
     
@@ -22,7 +22,7 @@ label chapter4_5_cafe_scene:
     """
     
     # Музыка сменяется на более спокойную, но все еще тревожную
-    # play music "music/BGM/VeritasCity_CafeTheme.ogg" loop fadein 2.0
+    # play music "music/BGM/VeritasCity_CafeTheme.opus" loop fadein 2.0
     
     scene bg chapter_4_veritas_cafe_exterior with dissolve
     

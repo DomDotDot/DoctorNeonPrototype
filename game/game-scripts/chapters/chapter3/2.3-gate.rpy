@@ -21,7 +21,7 @@ label ch3_gate_menu:
             jump ch3_gate_menu
 
         "Попытаться открыть ворота." if inspected_gate_mechanism and not factory_gate_open:
-            # play sound "sounds/metal_grate_struggle_fail.ogg" # Звук безуспешной попытки сдвинуть решетку
+            # play sound "sounds/metal_grate_struggle_fail.opus" # Звук безуспешной попытки сдвинуть решетку
             narrator """
             Я ухватываюсь за створку и тяну. Раздается протяжный скрип металла, створка сдвигается на пару сантиметров и застревает.
 
@@ -32,7 +32,7 @@ label ch3_gate_menu:
             jump ch3_gate_menu
         
         "Использовать канистру со смазкой." if inspected_gate_mechanism and has_motor_oil:
-            # play sound "sounds/oil_can_pouring.ogg"
+            # play sound "sounds/oil_can_pouring.opus"
             narrator """
             Механизм расположен слишком высоко, просто так не дотянуться. Но прутья ворот могут послужить лестницей.
             
@@ -48,7 +48,7 @@ label ch3_gate_menu:
             
             На этот раз она поддается.
             """
-            # play sound "sounds/metal_grate_creak_start.ogg" # Звук: начало скрипа
+            # play sound "sounds/metal_grate_creak_start.opus" # Звук: начало скрипа
             narrator """
             С оглушительным, протестующим визгом ржавчины, решетка медленно, по сантиметру, начала поддаваться. 
             
@@ -56,7 +56,7 @@ label ch3_gate_menu:
 
             Сжав кулаки, я решительно шагаю вперед.
             """
-            # play sound "sounds/metal_grate_screech_open_heavy.ogg" # Звук: тяжелый, громкий скрип открывающейся решетки
+            # play sound "sounds/metal_grate_screech_open_heavy.opus" # Звук: тяжелый, громкий скрип открывающейся решетки
             neon "Я найду выход из этого проклятого места!"
             $ factory_gate_open = True
             jump ch3_long_corridor

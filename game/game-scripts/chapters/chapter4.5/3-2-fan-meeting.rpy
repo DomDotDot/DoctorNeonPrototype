@@ -1,7 +1,7 @@
 label chapter4_5_concert_mid:
 
     scene bg chapter_4_veritas_expo_bridge_night with fade
-    play music "music/BGM/Veritas_Expo_Ambience.ogg" loop
+    play music "music/BGM/Veritas_Expo_Ambience.opus" loop
 
     narrator """
         Служебный вход, который указала мне Кэрол, вел на стеклянный мост, соединяющий стадион с соседним зданием.

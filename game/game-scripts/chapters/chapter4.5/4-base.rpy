@@ -1,7 +1,7 @@
 label chapter4_5_argon_rescue:
     
     scene bg chapter_4_arkaground_interior with fade
-    play music "music/BGM/WitheredFlower_Tense.ogg" loop
+    play music "music/BGM/WitheredFlower_Tense.opus" loop
 
     narrator """
         Сознание вернулось резким, болезненным рывком.

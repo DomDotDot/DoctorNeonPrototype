@@ -2,8 +2,8 @@ label chapter3_breather:
 
     # Аргон и Неон идут по улицам Аномика.
     # scene anomic_streets_night_foggy with Dissolve(1.0) # Фон: ночные, пустые улицы Аномика, желтый туман
-    # music "sounds/aftermath_calm_theme.ogg" loop # Тихая, меланхоличная музыка
-    # play sound "sounds/footsteps_debris_echo.ogg" loop # Звуки шагов по мусору, с эхом
+    # music "sounds/aftermath_calm_theme.opus" loop # Тихая, меланхоличная музыка
+    # play sound "sounds/footsteps_debris_echo.opus" loop # Звуки шагов по мусору, с эхом
 
     scene black with fade
 
@@ -28,9 +28,9 @@ label chapter3_breather:
 
     # В квартире Аргона
     narrator "Он остановился у двери на четвертом этаже и, покопавшись в кармане, достал ключ. Старый, обычный ключ. Он с трудом провернул его в заржавевшем замке."
-    # play sound "sounds/old_lock_turn_struggle.ogg"
+    # play sound "sounds/old_lock_turn_struggle.opus"
     scene bg chapter_3_argon-apartment-old-corridor with fade
-    play music "music/BGM/WitheredFlower.ogg" fadein 15.0 fadeout 5.0
+    play music "music/BGM/WitheredFlower.opus" fadein 15.0 fadeout 5.0
 
     argon "Заходи. Можешь обувь не снимать. Здесь уже некому пачкать."
     narrator """
@@ -45,7 +45,7 @@ label chapter3_breather:
     Затем я заглянула в другую комнату. И замерла.
     """
     scene bg chapter_3_argon-apartment-old-lily-room with fade
-    # music "sounds/lili_theme_memory.ogg" loop # Новая музыкальная тема: тихая, светлая, но грустная
+    # music "sounds/lili_theme_memory.opus" loop # Новая музыкальная тема: тихая, светлая, но грустная
 
     narrator """
     Эта комната была... другой. Она тоже была пыльной, но в ней чувствовалась жизнь. Или ее призрак.

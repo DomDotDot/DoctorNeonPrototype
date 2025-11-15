@@ -1,8 +1,8 @@
 label zurich_university_flashback:
        
-        # play sound "sounds/flashback_swoosh.ogg" # Звук перехода во флешбэк
+        # play sound "sounds/flashback_swoosh.opus" # Звук перехода во флешбэк
         show cg cg3_1 with dissolve
-        # music "sounds/student_years_theme.ogg" loop fadein 1.0 # Музыка для воспоминаний
+        # music "sounds/student_years_theme.opus" loop fadein 1.0 # Музыка для воспоминаний
 
         narrator """
         Огромный лекционный зал, гул сотен голосов перед началом.
@@ -27,9 +27,9 @@ label zurich_university_flashback:
         """
 
         # Новый флешбэк: повседневная жизнь
-        # play sound "sounds/flashback_swoosh.ogg"
+        # play sound "sounds/flashback_swoosh.opus"
         scene bg chapter_1_zurich_street_evening with dissolve
-        # music "sounds/student_years_theme.ogg" loop fadein 1.0
+        # music "sounds/student_years_theme.opus" loop fadein 1.0
 
         narrator """
         Но мир не заканчивался лишь за дверями аудитории.
@@ -60,9 +60,9 @@ label zurich_university_flashback:
         """
 
         # Флешбэк: Квартира в Цюрихе (Иммерсивный, с диалогом)
-        # play sound "sounds/flashback_swoosh.ogg"
+        # play sound "sounds/flashback_swoosh.opus"
         scene bg chapter_1_zurich_apartment_flashback with dissolve # Фон: Маленькая кухня, ночь, пустые чашки из-под кофе, разбросанные книги
-        # music "sounds/student_years_theme_lively.ogg" loop fadein 1.0 # Более живая версия студенческой темы
+        # music "sounds/student_years_theme_lively.opus" loop fadein 1.0 # Более живая версия студенческой темы
 
         narrator """
         Час ночи. Кухня завалена учебниками и распечатками.

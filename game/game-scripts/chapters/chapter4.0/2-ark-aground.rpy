@@ -21,7 +21,7 @@ label chapter4_0_arkaground:
     """
 
     # --- АКТ II: КОВЧЕГ НА МЕЛИ ---
-    play music "music/BGM/ElectricityInAir.ogg" fadein 5.0 volume 0.33 noloop
+    play music "music/BGM/ElectricityInAir.opus" fadein 5.0 volume 0.33 noloop
 
     # play sound "sfx/old_lock_turn_struggle.mp3"
     neon "Это... и есть твое убежище?"
@@ -59,7 +59,7 @@ label chapter4_0_arkaground:
     argon "Ты - единственная кому я сейчас доверил свою надежду за столько лет."
 
     stop music fadeout 25.0
-    play music "music/BGM/FathersAndDaughters.ogg" fadein 25.0 fadeout 15.0 volume 0.25
+    play music "music/BGM/FathersAndDaughters.opus" fadein 25.0 fadeout 15.0 volume 0.25
     
     narrator """
     Мы сидели в тишине. Пыль танцевала в лучах света, пробивающихся сквозь грязное окно.

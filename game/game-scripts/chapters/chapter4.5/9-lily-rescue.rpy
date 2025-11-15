@@ -175,7 +175,7 @@ label chapter4_5_lily_cafe:
     # --- Переход к студии ---
     
     scene bg chapter_4_veritas_streets_night_rain with fade
-    play music "music/BGM/Veritas_Night_Rain.ogg" loop
+    play music "music/BGM/Veritas_Night_Rain.opus" loop
     play ambient "ambient/rain_on_pavement_city.mp3" loop
     
     narrator """
@@ -215,7 +215,7 @@ label chapter4_5_lily_cafe:
     narrator "Лили щелкнула выключателем. Комнату залил теплый, желтый свет от гирлянды лампочек, протянутой под потолком."
     
     # Музыка сменяется на более тихую, "интимную", но с нотками тревоги.
-    # play music "music/BGM/Lilis_Lullaby.ogg" loop
+    # play music "music/BGM/Lilis_Lullaby.opus" loop
     
     lily """
     

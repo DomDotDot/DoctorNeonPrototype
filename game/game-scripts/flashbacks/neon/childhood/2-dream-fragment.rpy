@@ -2,7 +2,7 @@ label dream_sequence_japan_2:
     
     
     scene black with Dissolve(5.0)
-    play music "music/BGM/GodSmilesEvenForYou.ogg" fadein 5.0 fadeout 5.0
+    play music "music/BGM/GodSmilesEvenForYou.opus" fadein 5.0 fadeout 5.0
     narrator """
     Я смотрю на них через щель в бумажной двери-сёдзи. Я не понимаю слов, но я чувствую их вес. Холодный и тяжелый.
 

@@ -5,8 +5,8 @@ label nightmare_sequence:
 
                 # Сон: Лиминальное пространство парковки
                 scene bg chapter_2_nightmare-parking_lot with dissolve # Фон: та же парковка из реальности, но искаженная, пустая, бесконечная. Свет от ламп тусклый и неправильный, отбрасывает слишком длинные тени.
-                play music "music/BGM/InHer.ogg" fadein 10.0 volume 0.25
-                # play sound "sounds/liminal_parking_ambience_echo.ogg" loop # Звуки: гул, эхо шагов (ее собственных), далекие, неразборчивые шепоты
+                play music "music/BGM/InHer.opus" fadein 10.0 volume 0.25
+                # play sound "sounds/liminal_parking_ambience_echo.opus" loop # Звуки: гул, эхо шагов (ее собственных), далекие, неразборчивые шепоты
 
                 narrator """
                 Я снова на парковке. Но она другая. Бесконечная. Бетонные колонны уходят вдаль, теряясь в тумане. Лампы на потолке гудят, но почти не дают света. Тишина давит на уши.
@@ -26,7 +26,7 @@ label nightmare_sequence:
                 narrator "Я подбегаю ближе. Пытаюсь заговорить, но звука нет. Она не оборачивается. Лицо скрыто в тени, его невозможно разглядеть."
                 show neon at center with easeinright
                 narrator "Я протягиваю руку, чтобы коснуться ее плеча, чтобы убедиться, что она настоящая..."
-                # play sound "sounds/dream_grab_whoosh.ogg" # Звук резкого движения во сне
+                # play sound "sounds/dream_grab_whoosh.opus" # Звук резкого движения во сне
 
                 show alex at restore_flip
 
@@ -35,7 +35,7 @@ label nightmare_sequence:
                 show cg cg11_1-1 with dissolve
 
                 narrator "Это охранник. Его лицо – просто темное, пульсирующее пятно. Он хватает мою руку стальной хваткой."
-                # play sound "sounds/dream_grab_impact_heavy.ogg"
+                # play sound "sounds/dream_grab_impact_heavy.opus"
 
                 narrator """
                 Я пытаюсь вырваться, но он держит крепко. И тут я вижу ее снова. Настоящую Алекс. Она стоит чуть поодаль, за спиной охранника, и просто смотрит. Ее лицо тоже скрыто тенью.
@@ -77,7 +77,7 @@ label nightmare_sequence:
 
                 Это был холодный, ровный, женский голос. В нем не было ни злобы, ни радости. Только абсолютная, ледяная уверенность.
                 """
-                # play sound "sounds/katana_unsheath_dream.ogg" # Звук извлечения катаны, медленный, с эхом
+                # play sound "sounds/katana_unsheath_dream.opus" # Звук извлечения катаны, медленный, с эхом
                 unknown_f """
                 
                 Вечно ты создаешь проблемы. Вечно все делаешь не так.
@@ -96,7 +96,7 @@ label nightmare_sequence:
                 
                 Фигуры Алекс и охранника беззвучно распадаются на частицы темного дыма и исчезают, словно их никогда и не было.
                 """
-                # play sound "sounds/dream_figures_disperse_swoosh.ogg"
+                # play sound "sounds/dream_figures_disperse_swoosh.opus"
 
                 narrator """
                 Она поворачивается ко мне. Лицо все еще скрыто тенью, но я чувствую на себе ее пустой, холодный взгляд.
@@ -129,7 +129,7 @@ label nightmare_sequence:
 
                 Но вдруг снаружи, за пределами этого кошмара, гремит раскат грома.
                 """
-                # play sound "sounds/thunder_clap_muffled_dream.ogg" # Гром, приглушенный, как будто из реального мира
+                # play sound "sounds/thunder_clap_muffled_dream.opus" # Гром, приглушенный, как будто из реального мира
                 stop music
 
                 narrator """

@@ -5,7 +5,7 @@ label ch3_path_to_station:
     # После брифинга. Группа идет по заводу.
     scene bg chapter_3_path-to-station with fade # Фон: ночной двор завода, тусклый свет прожекторов, туман
 
-    # play sound "sounds/night_factory_ambience_wind_metal.ogg" loop # Звуки: вой ветра, скрип металла, далекий гул
+    # play sound "sounds/night_factory_ambience_wind_metal.opus" loop # Звуки: вой ветра, скрип металла, далекий гул
 
     narrator """
     Мы вышли из холла не в день, а в глубокую, холодную ночь.
@@ -60,7 +60,7 @@ label ch3_path_to_station:
 
     narrator "Любопытно. Вот и все объяснение. Я не знала, верить ему или нет. Но сейчас он был моим единственным союзником в этом змеином гнезде."
     scene bg chapter_2_anomic-van-inside with fade # Фон: интерьер фургона, ночная поездка
-    # play sound "sounds/van_driving_interior_slow.ogg" loop # Звук медленной, осторожной езды
+    # play sound "sounds/van_driving_interior_slow.opus" loop # Звук медленной, осторожной езды
 
     narrator """
     Мы добрались до фургона. Нас снова запихнули в грузовой отсек.
@@ -106,7 +106,7 @@ label ch3_path_to_station:
 
     # Прибытие на станцию
     scene black with Dissolve(5.0)
-    play music "music/BGM/FM-Modul.ogg" fadein 5.0 fadeout 10.0 volume 0.5
+    play music "music/BGM/FM-Modul.opus" fadein 5.0 fadeout 10.0 volume 0.5
     rico "Стоп. Здесь."
     narrator "Фургон остановился. Мы оказались на огромной, тускло освещенной сортировочной станции."
 

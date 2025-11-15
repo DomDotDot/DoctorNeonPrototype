@@ -93,7 +93,7 @@ label ch3_explore_food_wing:
     
     Он отсырел и затвердел, поэтому его и не унесли мародеры. Мне придется отбивать куски, но это он. Источник сахара есть.
     """
-    # play sound "sounds/sugar_bag_cut_thump.ogg"
+    # play sound "sounds/sugar_bag_cut_thump.opus"
     $ has_sugar = True
     narrator "Я взяла несколько крупных кусков, завернув их в найденную тряпку."
     scene bg chapter_3_long-hall-hall with fade
@@ -107,7 +107,7 @@ label ch3_explore_admin_wing:
         scene bg chapter_3_long-hall-hall with fade
         jump ch3_explore_long_corridor
 
-    # music "sounds/exploration_creepy_theme.ogg" loop
+    # music "sounds/exploration_creepy_theme.opus" loop
     narrator """
     Административный корпус выглядел как декорация к фильму о конце света. Бумаги, устилающие пол, превратились в серую труху. В кабинетах стояли опрокинутые столы, разбитые мониторы.
 
@@ -121,7 +121,7 @@ label ch3_explore_admin_wing:
     
     Неоткрытая металлическая коробка. Внутри, в вате, лежали ампулы и... вот оно! Большая банка с надписью 'Пивные дрожжи. Витаминная добавка для рабочих'.
     """
-    # play sound "sounds/metal_box_open_pills_rattle.ogg"
+    # play sound "sounds/metal_box_open_pills_rattle.opus"
     $ has_yeast = True
     narrator "Видимо, их добавляли в рацион для поддержания сил. Идеально. Дрожжи есть."
     scene bg chapter_3_long-hall-hall with fade
@@ -147,8 +147,8 @@ label ch3_explore_chem_lab:
     
     Пока я собирала оборудование, снаружи, со стороны главного входа, послышался шум моторов. А затем – громкие, властные голоса. Гатс вернулся. И, кажется, не один.
     """
-    # play sound "sounds/vehicles_arriving_factory_distant.ogg"
-    # play sound "sounds/shouts_boss_arrived.ogg"
+    # play sound "sounds/vehicles_arriving_factory_distant.opus"
+    # play sound "sounds/shouts_boss_arrived.opus"
     narrator "Нужно было торопиться."
 
     # Проверка, все ли собрано
@@ -163,7 +163,7 @@ label ch3_explore_chem_lab:
 return
 
 label ch3_distillation_start:
-    # play sound "sounds/intercom_crackle.ogg"
+    # play sound "sounds/intercom_crackle.opus"
     narrator "Но было уже поздно. Динамик интеркома в лаборатории зашипел и ожил. На этот раз голос был другим. Более низким, властным. Голос Босса."
     
     boss "Эй, вы двое, 'эксперты'! Мои люди сказали, что вы разбрелись по заводу. Кончайте свои игры. В главный холл. Живо!"

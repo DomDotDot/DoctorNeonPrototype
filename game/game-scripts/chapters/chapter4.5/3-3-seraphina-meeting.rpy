@@ -1,7 +1,7 @@
 label chapter4_5_concert_end:
 
     scene bg chapter_4_veritas_expo_corridor with fade
-    play music "music/BGM/NarcissismV2_Tense.ogg" loop
+    play music "music/BGM/NarcissismV2_Tense.opus" loop
 
     narrator """
         Серафина повела меня за собой, крепко держа за руку, ее холодные пальцы крепко сжимали мои. Мы шли вглубь выставочного центра, мимо пустых, темных павильонов.
@@ -294,7 +294,7 @@ label chapter4_5_concert_end:
     narrator "Я слышала шок, растерянность и непонимание в ее голосе, полного отчаяния."
     
     scene bg chapter_4_veritas_expo_bridge_night with fade
-    play music "music/BGM/FloraUndergrowth.ogg" loop
+    play music "music/BGM/FloraUndergrowth.opus" loop
 
     narrator """
         Я снова шла по застекленному мосту обратно, к выходу. К Аргону. Город сменился "золотым часом", желтым закатом. Небо на западе окрасилось в оранжевые и желтые тона.

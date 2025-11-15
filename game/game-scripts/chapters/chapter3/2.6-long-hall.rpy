@@ -1,7 +1,7 @@
 label ch3_long_corridor:
     # Неон в темном коридоре за шкафчиком
     scene bg chapter_3_long-hall-hall with fade # Фон: темный, узкий служебный коридор
-    play music "music/BGM/GreyPaint.ogg" fadein 15.0 fadeout 15.0 volume 0.125
+    play music "music/BGM/GreyPaint.opus" fadein 15.0 fadeout 15.0 volume 0.125
     narrator """
     Коридор, открывшийся за воротами, делал небольшой изгиб влево, а затем резко поворачивал направо.
 
@@ -34,12 +34,12 @@ label ch3_long_corridor:
                             $ code_attempt = renpy.input("Введите четырёхзначный  код:", length=4, allow="0123456789")
                             
                             if code_attempt == "1984":
-                                # play sound "sounds/keypad_success.ogg"
+                                # play sound "sounds/keypad_success.opus"
                                 narrator "Щелчок! Зеленый огонек. Я была права. Дверь в Хим. лабораторию открыта."
                                 $ chemlab_door_unlocked = True
                                 jump ch3_explore_long_corridor
                             else:
-                                # play sound "sounds/keypad_fail.ogg"
+                                # play sound "sounds/keypad_fail.opus"
                                 narrator "Неправильный код. Панель мигнула красным. Хм, значит, я ошиблась в догадке, или ввожу не то."
                                 jump ch3_explore_long_corridor
                         else:

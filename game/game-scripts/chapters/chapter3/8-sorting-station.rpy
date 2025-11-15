@@ -2,7 +2,7 @@ label chapter3_the_heist_start:
 
     # Группа на сортировочной станции.
     # scene sorting_station_night_exterior
-    # music "sounds/sorting_station_tense_ambient.ogg" loop
+    # music "sounds/sorting_station_tense_ambient.opus" loop
 
     narrator """
     Мы двигались, как призраки, в лабиринте из ржавой стали. Борис вел нас уверенно, его знание этого места было нашим единственным преимуществом. 
@@ -16,13 +16,13 @@ label chapter3_the_heist_start:
 
     rico "Двое – на ту сторону. Остальные – со мной. 'Эксперты', за мной."
     narrator "Один из бандитов ловко вскрыл замок на массивной двери вагона."
-    # play sound "sounds/wagon_lock_break_click.ogg"
+    # play sound "sounds/wagon_lock_break_click.opus"
     narrator "Дверь с тяжелым, протестующим скрипом отъехала в сторону, открывая темное, пахнущее пылью и химией нутро."
-    # play sound "sounds/wagon_door_slide_heavy.ogg"
+    # play sound "sounds/wagon_door_slide_heavy.opus"
 
     show cg cg19 with fade # Фон: темный интерьер вагона
     narrator "Рико включил фонарик, его луч выхватил из темноты ряды больших металлических контейнеров, помеченных какими-то символами."
-    # play sound "sounds/flashlight_click_on.ogg"
+    # play sound "sounds/flashlight_click_on.opus"
     rico "Вот этот. 'Доктор', твой выход. У тебя пять минут."
     narrator """
     Я поставила кейс, который дал мне Гатс, на пол и открыла его. Руки слегка дрожали, но я заставила их подчиняться. Блеф должен продолжаться.
@@ -39,7 +39,7 @@ label chapter3_the_heist_start:
     neon "Состав соответствует заявленному. Чистота высокая. Товар качественный."
 
     rico "Отлично. Ребята, начинаем разгрузку! Живо!"
-    # play sound "sounds/thugs_begin_unloading.ogg" # Звуки начала разгрузки, перетаскивания ящиков
+    # play sound "sounds/thugs_begin_unloading.opus" # Звуки начала разгрузки, перетаскивания ящиков
 
     narrator """
     Бандиты начали таскать тяжелые контейнеры из вагона к фургону, который Рико подогнал поближе. 
@@ -49,15 +49,15 @@ label chapter3_the_heist_start:
     И именно в этот момент, когда все, казалось, шло по плану, ночь взорвалась.
     """
 
-    # play sound "sounds/shout_security_ambush.ogg" # Громкий крик "Стоять! Охрана станции!"
-    # play sound "sounds/spotlight_turn_on_whirr.ogg" # Звук включения мощных прожекторов
+    # play sound "sounds/shout_security_ambush.opus" # Громкий крик "Стоять! Охрана станции!"
+    # play sound "sounds/spotlight_turn_on_whirr.opus" # Звук включения мощных прожекторов
     scene bg chapter_3_sorting-station-escape with dissolve # Сцена озаряется светом прожекторов
-    play music "music/BGM/CrumpledShucks.ogg" fadein 5.0 fadeout 10.0 volume 0.25
+    play music "music/BGM/CrumpledShucks.opus" fadein 5.0 fadeout 10.0 volume 0.25
 
     narrator "Станцию внезапно залил яркий, слепящий свет прожекторов. Со всех сторон раздались крики и свистки."
     "Командир Охраны" "Стоять! Охрана станции! Бросай оружие!"
     narrator "И тут же началась беспорядочная стрельба. Бандиты Гатса, застигнутые врасплох, открыли ответный огонь."
-    # play sound "sounds/gunfire_chaotic_exchange.ogg" loop # Звуки хаотичной перестрелки
+    # play sound "sounds/gunfire_chaotic_exchange.opus" loop # Звуки хаотичной перестрелки
 
     rico "Засада! Валим отсюда! Каждый сам за себя!"
     narrator """
@@ -70,7 +70,7 @@ label chapter3_the_heist_start:
 
 label chapter3_escape:
     # Неон и Аргон в вагоне под огнем
-    # play sound "sounds/bullets_ricocheting_metal.ogg" loop # Звуки пуль, бьющих по вагону
+    # play sound "sounds/bullets_ricocheting_metal.opus" loop # Звуки пуль, бьющих по вагону
 
     neon "Они нас здесь убьют! Или свои, или чужие! Нужно бежать!"
     narrator """
@@ -81,7 +81,7 @@ label chapter3_escape:
 
     narrator "Мы подползли к противоположной двери вагона. Борис с огромным усилием сдвинул ее ровно настолько, чтобы мы могли выскользнуть."
     show cg cg20_1 with fade
-    # play sound "sounds/wagon_door_slide_struggle.ogg"
+    # play sound "sounds/wagon_door_slide_struggle.opus"
     narrator "Мы выпрыгнули наружу, в темноту, подальше от света прожекторов, и побежали. Побежали вдоль железнодорожных путей, спотыкаясь о шпалы и камни."
     
     narrator """
@@ -93,8 +93,8 @@ label chapter3_escape:
 
     И тут, прямо у меня на глазах, он споткнулся о торчащую шпалу и с глухим стуком рухнул на землю.
     """
-    # play sound "sounds/body_fall_heavy_gravel.ogg"
-    # play sound "sounds/argon_pain_grunt.ogg"
+    # play sound "sounds/body_fall_heavy_gravel.opus"
+    # play sound "sounds/argon_pain_grunt.opus"
     show cg cg20_2 with dissolve
     narrator "Лучи фонарей преследователей заплясали на рельсах, приближаясь."
     argon "Беги, Неон! Не останавливайся! Уходи!"
@@ -123,7 +123,7 @@ label chapter3_escape:
 
     С ревом, который, казалось, исходил не из моих легких, а из самой земли, я дернула Бориса на себя. Он поднялся так легко, будто был пушинкой.
     """
-    # play sound "sounds/struggle_to_lift_sounds.ogg"
+    # play sound "sounds/struggle_to_lift_sounds.opus"
     narrator """
     Мы поковыляли дальше, я почти несла его на себе. Но наша скорость была слишком мала.
 
@@ -138,7 +138,7 @@ label chapter3_revelation:
 
     # Неон и Аргон загнаны в тупик между вагонами.
     show cg cg20_3 with fade # Фон: узкий проход между двумя вагонами, тупик
-    # play sound "sounds/pursuers_approaching_both_sides.ogg" loop # Звуки приближающихся с двух сторон преследователей
+    # play sound "sounds/pursuers_approaching_both_sides.opus" loop # Звуки приближающихся с двух сторон преследователей
 
     narrator """
     Мы оказались в ловушке. С одной стороны — ржавая цистерна, с другой — приближающиеся фонари.
@@ -167,7 +167,7 @@ label chapter3_revelation:
     argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
 
     # Применение Силы Аргона
-    # play sound "sounds/argon_power_focus_hum.ogg" # Тихий, нарастающий гул – звук фокусировки его силы
+    # play sound "sounds/argon_power_focus_hum.opus" # Тихий, нарастающий гул – звук фокусировки его силы
     show argon painter_determination with dissolve
     narrator """
     Борис мягко высвободил свою руку из моей. Он сделал шаг вперед, выходя из тени, под лучи фонарей.
@@ -200,7 +200,7 @@ label chapter3_revelation:
     
     Они опустили оружие. Командир потряс головой, как будто приходя в себя от сна, и его взгляд стал сфокусированным, но направленным в пустоту мимо нас.
     """
-    # play sound "sounds/mind_control_subtle_effect.ogg" # Тонкий звуковой эффект воздействия на разум
+    # play sound "sounds/mind_control_subtle_effect.opus" # Тонкий звуковой эффект воздействия на разум
     
     "Капитан Охраны" """
     Это не те, кого мы ищем.

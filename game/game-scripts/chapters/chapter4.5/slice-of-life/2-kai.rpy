@@ -1,7 +1,7 @@
 label chapter4_5_kai_ito_interlude:
 
     # Экран темнеет. Музыка меняется на легкую, повседневную, "слайс-оф-лайф" тему.
-    # play music "music/BGM/Veritas_Academy_DailyLife.ogg" loop
+    # play music "music/BGM/Veritas_Academy_DailyLife.opus" loop
     
     # ПЕРЕКЛЮЧЕНИЕ ПЕРСПЕКТИВЫ
     

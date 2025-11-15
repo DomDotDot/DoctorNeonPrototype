@@ -1,7 +1,7 @@
 label chapter4_5_nari_flashback:
 
     # Музыка: тихая, меланхоличная мелодия на акустической гитаре.
-    play music "music/BGM/Nari_Theme.ogg" loop
+    play music "music/BGM/Nari_Theme.opus" loop
 
     narrator """
         Это наша студия. Я до сих пор помню каждую деталь.
@@ -135,7 +135,7 @@ label chapter4_5_nari_flashback:
     """
 
     scene bg chapter_4_veritas_outskirts_fog with fade
-    play music "music/BGM/Entity_Theme.ogg" loop
+    play music "music/BGM/Entity_Theme.opus" loop
     
     narrator """
         Я не знала, куда иду. Просто шла, ведомая этим колючим чувством потери.

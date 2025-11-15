@@ -3,7 +3,7 @@ label chapter4_0_garden:
     # --- АКТ I: ДОРОГА В ТУПИК ---
 
     show cg cg27_1 with Dissolve(5.0)
-    play music "music/BGM/FloraUndergrowth.ogg" loop # Более меланхоличная версия ночной темы.
+    play music "music/BGM/FloraUndergrowth.opus" loop # Более меланхоличная версия ночной темы.
     # play ambient "ambient/city_night_distant_sirens.opus" loop
 
     narrator """
@@ -103,7 +103,7 @@ label chapter4_0_garden_dialogue:
     # ...Сцена пробуждения Неон и обнаружения раны...
     # Музыкальная тема Серафины начинает тихо играть.
 
-    play music "music/BGM/NarcissismShort.ogg" fadein 5.0
+    play music "music/BGM/NarcissismShort.opus" fadein 5.0
 
     neon "{=thoughts}Уже ночь! Кто вообще в такое время в саду..?"
     hide neon

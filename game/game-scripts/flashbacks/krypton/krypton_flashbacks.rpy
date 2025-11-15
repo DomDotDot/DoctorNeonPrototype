@@ -1,7 +1,7 @@
 label krypton_firstmeet_flashback:
 
         scene bg chapter_1_rural_flashback with fade # Фон: Унылая дорога в деревне, возможно, осень или ранняя весна
-        play music "music/BGM/FadeToSorrow.ogg" fadein 1.0 # Меланхоличная музыка
+        play music "music/BGM/FadeToSorrow.opus" fadein 1.0 # Меланхоличная музыка
 
         narrator "Я иду домой из школы. Небольшая региональная школа, где все друг друга знают, и где мои синие волосы – предмет постоянных насмешек или любопытных взглядов."
 
@@ -44,7 +44,7 @@ label krypton_firstmeet_flashback:
         
         # Флешбэк: мотивация
         stop music fadeout 5.0
-        play ambient "music/BGM/SweetestDreams_Backtrack.ogg" fadein 5.0 fadeout 5.0
+        play ambient "music/BGM/SweetestDreams_Backtrack.opus" fadein 5.0 fadeout 5.0
         show cg cg4_1 with Fade(5.0, 0.5, 5.0) # Фон: детская комната ночью
 
         narrator """
@@ -65,7 +65,7 @@ label krypton_firstmeet_flashback:
         И когда они ответят, вы станете друзьями.
         """
         stop ambient fadeout 10.0
-        play music "music/BGM/SweetestDreams.ogg" fadein 5.0 fadeout 5.0
+        play music "music/BGM/SweetestDreams.opus" fadein 5.0 fadeout 5.0
         scene black with fade
 
         narrator """
@@ -86,7 +86,7 @@ label krypton_firstmeet_flashback:
 
         neon "Ты слишком торопишься в паузах. Словно боишься их."
 
-        play ambient "music/BGM/EmotionalMovement.ogg" fadein 10.0
+        play ambient "music/BGM/EmotionalMovement.opus" fadein 10.0
 
         "???" "Ой! Я... я не знала, что здесь кто-то есть. Простите, я, наверное, ужасно играю."
 

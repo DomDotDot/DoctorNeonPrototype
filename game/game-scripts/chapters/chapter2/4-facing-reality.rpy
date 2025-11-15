@@ -1,9 +1,9 @@
 label chapter2_act3_facing_reality:
 
                 # Утро после кошмара. Неон просыпается в машине.
-                play music "music/BGM/FogHorns.ogg" fadein 5.0 fadeout 5.0 volume 0.25
+                play music "music/BGM/FogHorns.opus" fadein 5.0 fadeout 5.0 volume 0.25
                 scene bg chapter_2_facing_reality-forest with Dissolve(6.0)
-                # play sound "sounds/morning_forest_ambience_birds_drips.ogg" loop
+                # play sound "sounds/morning_forest_ambience_birds_drips.opus" loop
 
                 narrator """
                 Неон проснулась от собственного сдавленного крика. Раскат грома из сна все еще отдавался в ушах.
@@ -58,7 +58,7 @@ label chapter2_act3_facing_reality:
 
                 # Неон выходит к окраине небольшого городка
                 scene bg chapter_2_facing_reality-town_arrival with fade # Фон: окраина городка, туман
-                # play sound "sounds/small_town_ambience_distant_dog_bark.ogg" loop # Звуки: далекий лай собаки, скрип вывески, звук первого утреннего поезда
+                # play sound "sounds/small_town_ambience_distant_dog_bark.opus" loop # Звуки: далекий лай собаки, скрип вывески, звук первого утреннего поезда
                 narrator """
                 Она вышла к небольшому, сонному городку, затерянному в низменности. Здесь туман был еще плотнее.
                 
@@ -78,7 +78,7 @@ label chapter2_act3_facing_reality:
                 show cg cg12_1-1 with fade # Фон: экстерьер газетного киоска
                 narrator "Внутри, под потолком, висел старый, пузатый телевизор, по которому шли утренние новости. Неон замерла у витрины, вглядываясь в экран. Что-то заставило ее остановиться."
                 narrator "Голос диктора звучал глухо, приглушенно, словно издалека, но она отчетливо слышала каждое слово."
-                # play sound "sounds/tv_news_broadcast_muffled.ogg" # Приглушенный звук новостей
+                # play sound "sounds/tv_news_broadcast_muffled.opus" # Приглушенный звук новостей
 
                 "Диктор" "(Голос из телевизора) ...повторяем, полиция кантона продолжает поиски доктора Неон, подозреваемой в жестоком нападении на коллегу в научном комплексе 'Гелиос'..."
 
@@ -92,7 +92,7 @@ label chapter2_act3_facing_reality:
                 
                 Последний раз ее видели, когда она... (голос диктора на мгновение запинается) ...оказывала сопротивление службе безопасности.
                 """
-                # play sound "sounds/flashback_trigger_memory_return.ogg" with vpunch # Резкий звук возвращения памяти
+                # play sound "sounds/flashback_trigger_memory_return.opus" with vpunch # Резкий звук возвращения памяти
 
                 narrator """
                 Алекс. Александра Вайт. Имя ударило по ней, как разряд тока. Туман в ее голове не просто рассеялся — он взорвался, высвободив лавину воспоминаний.
@@ -146,7 +146,7 @@ label chapter2_act3_facing_reality:
                 Беззвучно, сотрясаясь всем телом, глотая слезы и отчаяние.
                 """
 
-                play music "music/BGM/Unlocked.ogg" fadein 5.0 fadeout 10.0
+                play music "music/BGM/Unlocked.opus" fadein 5.0 fadeout 10.0
                 pause 3.0
 
                 narrator "Осталась только оглушающая, холодная тишина. И понимание."
@@ -219,7 +219,7 @@ label chapter2_act3_facing_reality:
 
                 narrator "Она тяжело дышала, ее грудь ходила ходуном. Колени дрожали. Ярость медленно иссякла, оставив после себя только холодную, острую решимость."
 
-                play music "music/BGM/DyingWishPiano.ogg" fadein 10.0 fadeout 0.5 noloop
+                play music "music/BGM/DyingWishPiano.opus" fadein 10.0 fadeout 0.5 noloop
                 show neon dazed
                 show cg cg12_1 with Dissolve(0.25)
 

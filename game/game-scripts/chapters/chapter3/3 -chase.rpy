@@ -24,9 +24,9 @@ label ch3_chase_start:
             
             В последний момент я резко присела, проскальзывая мимо шкафа.
             """
-            # play sound "sounds/body_slide_floor.ogg"
+            # play sound "sounds/body_slide_floor.opus"
             narrator "Вышибала, замахнувшись для удара, промахнулся. Его огромный кулак со всей силы врезался в дверцу шкафчика."
-            # play sound "sounds/metal_punch_dent_door_bust.ogg"
+            # play sound "sounds/metal_punch_dent_door_bust.opus"
             narrator "Раздался оглушительный треск металла. Дверца, не выдержав такого удара, отлетела в сторону."
             jump ch3_bouncer_success
 
@@ -57,7 +57,7 @@ label ch3_bouncer_success:
     
     А иначе ты будешь как этот шкаф.
     """
-    # play sound "sounds/kick_metal.ogg" with vpunch
+    # play sound "sounds/kick_metal.opus" with vpunch
     narrator "Он брезгливо пнул шкаф носком тяжелого ботинка и, бормоча ругательства, вернулся на свой пост у входа."
     
     $ locker_broken = True

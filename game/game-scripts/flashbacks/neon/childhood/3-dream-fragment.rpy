@@ -2,9 +2,9 @@ label dream_sequence_japan_3:
 
 
     # Инцидент в Саду: Невинность и Ужас
-    #play music "music/BGM/DreamIncidentTheme.ogg" loop
+    #play music "music/BGM/DreamIncidentTheme.opus" loop
     # scene japanese_garden_day_dream_tense with Dissolve(1.0) # Тот же сад, но теперь цвета приглушены, атмосфера напряженная
-    # music "sounds/dream_incident_theme.ogg" loop
+    # music "sounds/dream_incident_theme.opus" loop
     show cg cg28_1 with Dissolve(5.0)
     narrator """
     'Мама обидела тетю. Надо ее утешить'. Эта мысль кажется мне единственно правильной. Она простая и чистая.
@@ -62,7 +62,7 @@ label dream_sequence_japan_3:
     show cg cg28_5 with fade
 
     oganesson_young "Твоя мать... она пользуется тобой неправильно..."
-    # play sound "sounds/dream_flower_disintegrate_silence_wave.ogg" # Звук распада цветка
+    # play sound "sounds/dream_flower_disintegrate_silence_wave.opus" # Звук распада цветка
     narrator """
     Я не понимаю, что значат эти слова. Я слышу только холод в ее голосе.
 

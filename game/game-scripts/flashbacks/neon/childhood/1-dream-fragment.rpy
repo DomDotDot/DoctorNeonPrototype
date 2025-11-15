@@ -7,7 +7,7 @@ label dream_sequence_japan_1:
                 narrator "Сон увлек ее глубже, чем раньше. Прочь из холодного фургона, прочь из дождливой Швейцарии. Он унес ее в место, которого она не помнила, но которое ее душа, казалось, знала всегда."
 
                 # Начало сна: "Тепло и безопасность"
-                play music "music/BGM/Rewrite-Reply.ogg" fadein 5.0 volume 0.125
+                play music "music/BGM/Rewrite-Reply.opus" fadein 5.0 volume 0.125
                 scene bg chapter_2_dream-sequence-japan_1-sakura with Dissolve(5.0) # Фон: Яркий, залитый солнцем японский сад. Веранда ("энгава"), цветущая сакура.
 
                 narrator """
@@ -44,9 +44,9 @@ label dream_sequence_japan_1:
                 # Появление "Странных Гостей" и изменение атмосферы
                 show cg cg16 with fade
                 stop music fadeout 15.0
-                queue music "music/BGM/MoonAndDeath.ogg" noloop fadein 2.5 volume 0.125
+                queue music "music/BGM/MoonAndDeath.opus" noloop fadein 2.5 volume 0.125
                 # stop sound # Резко обрывается звук цикад
-                # music "sounds/dream_tension_begins.ogg" loop fadein 1.0 # Музыка сменяется на напряженную
+                # music "sounds/dream_tension_begins.opus" loop fadein 1.0 # Музыка сменяется на напряженную
                 narrator """
                 Но в какой-то момент идиллия рушится. В сад входят другие люди.
                 

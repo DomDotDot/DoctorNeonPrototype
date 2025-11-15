@@ -4,7 +4,7 @@ label confrontation_path:
 
         # Неон и Алекс выходят от поста охраны
         scene bg chapter_1_lab_corridor_3 with fade
-        play music "music/BGM/Promising.ogg" fadeout 5.0
+        play music "music/BGM/Promising.opus" fadeout 5.0
         show alex happy at right with easeinright
         show neon proud at center with easeinright
 
@@ -120,7 +120,7 @@ label confrontation_path:
         show neon surprised
         narrator "Синяя ворона."
         
-        # play sound "sounds/flashback_trigger_school.ogg"
+        # play sound "sounds/flashback_trigger_school.opus"
         hide alex with dissolve
         narrator """
         Это слово. Это дурацкое слово...\n
@@ -173,9 +173,9 @@ label confrontation_path:
         """
         $renpy.music.set_volume(0.25, channel='ambient')
         
-        play music "music/BGM/DramaQueen.ogg" fadein 10.0 volume 0.75
-        # play sound "sounds/metal_scrape_loud.ogg"
-        # play sound "sounds/neon_roar_effort.ogg"
+        play music "music/BGM/DramaQueen.opus" fadein 10.0 volume 0.75
+        # play sound "sounds/metal_scrape_loud.opus"
+        # play sound "sounds/neon_roar_effort.opus"
 
         marcus suit_panic "Ты... Ты что, совсем рехнулась?! Положи стул!"
 

@@ -1,7 +1,7 @@
 label chapter4_5_concert_start:
 
     scene bg chapter_4_veritas_streets_night with fade
-    play music "music/BGM/VeritasCity_NightTheme.ogg" loop
+    play music "music/BGM/VeritasCity_NightTheme.opus" loop
 
     narrator """
         Я вышла из кафе на гудящие вечерние улицы. Кофе взбодрил тело, но разум все еще был в тумане одержимости.
@@ -86,7 +86,7 @@ label chapter4_5_concert_start:
     student2 "Ой, сейчас начнется! Быстрее! Идемте!"
     
     scene bg chapter_4_veritas_concert_hall with fade
-    play music "music/BGM/Seraphina_Concert_Ambience.ogg" loop
+    play music "music/BGM/Seraphina_Concert_Ambience.opus" loop
 
     narrator """
         Зал был огромен. Настоящий стадион, превращенный в храм для одного божества. Тысячи людей, как единый организм, гудели в предвкушении. Тысячи глаз были устремлены на сцену.
@@ -112,7 +112,7 @@ label chapter4_5_concert_start:
     Она называется... 'Angel Eyes'.
     """
     
-    # play music "music/BGM/Seraphina_AngelEyes.ogg" loop
+    # play music "music/BGM/Seraphina_AngelEyes.opus" loop
     
     narrator """
         Зазвучала музыка. Нежная, обволакивающая мелодия и чистый, высокий голос Серафины.

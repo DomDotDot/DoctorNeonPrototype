@@ -3,7 +3,7 @@ label ch3_part2_the_cage:
     # Сцена "Логово Художника"
     scene bg chapter_3_argon-room with fade  # Фон: комната Аргона
 
-    # play sound "sounds/door_creak_slow_gentle.ogg"
+    # play sound "sounds/door_creak_slow_gentle.opus"
 
     narrator """
     Комната была чьим-то убежищем. На полу лежал старый матрас, рядом – стопки книг в потрепанных обложках: философия, история искусств, технические руководства. В углу – гора пустых бутылок из-под пива.

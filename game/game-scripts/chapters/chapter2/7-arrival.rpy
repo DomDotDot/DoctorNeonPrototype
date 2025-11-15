@@ -1,10 +1,10 @@
 label chapter2_act5_anomic_arrival:
                 # Финальная сцена главы
                 scene bg chapter_2_anomic-van-inside with Fade(2.0, 0.25, 0.25)
-                queue music "music/BGM/MoonAndDeath.ogg" fadein 5.0 noloop volume 0.5
+                queue music "music/BGM/MoonAndDeath.opus" fadein 5.0 noloop volume 0.5
                 
                 narrator "Она проснулась от резкого толчка. Фургон остановился. Дверь с грохотом отъехала в сторону, впуская внутрь холодный, влажный воздух и багровый свет рассвета."
-                # play sound "sounds/van_sliding_door_open_heavy.ogg"
+                # play sound "sounds/van_sliding_door_open_heavy.opus"
                 narrator "Они приехали. Перед ней возвышался огромный, ржавый скелет промышленного завода. Он стоял посреди умирающего города Аномик, окутанный остатками ночного тумана. На трубах и стенах виднелись следы коррозии."
                 guts "Приехали. Добро пожаловать в твой новый дом. И на твою новую работу."
 
@@ -21,7 +21,7 @@ label chapter2_act5_anomic_arrival:
 
                 Ее провели через проходную и завели в одну из лабораторий внутри завода. Здесь было чище, чем снаружи, но запах химии и отчаяния был еще сильнее.
                 """
-                # play sound "sounds/heavy_metal_door_slam_echo.ogg" # Звук захлопывающейся тяжелой двери с эхом
+                # play sound "sounds/heavy_metal_door_slam_echo.opus" # Звук захлопывающейся тяжелой двери с эхом
 
                 show black with Dissolve(0.5)
                 show neon neutral zorder 5 at center with { "master" : Dissolve(5.0) }

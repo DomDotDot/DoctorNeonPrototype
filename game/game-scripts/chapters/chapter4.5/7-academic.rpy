@@ -1,7 +1,7 @@
 label chapter4_5_morning_after:
 
     scene bg chapter_4_arkaground_interior_morning with fade
-    play music "music/BGM/WitheredFlower_Tense.ogg" loop
+    play music "music/BGM/WitheredFlower_Tense.opus" loop
 
     narrator """
         Пронзительный сигнал будильника вырвал меня из беспокойного сна. 6:30 утра.
@@ -64,7 +64,7 @@ label chapter4_5_morning_after:
     """
     
     scene bg chapter_4_veritas_streets_early_morning with fade
-    play music "music/BGM/WitheredFlower_Tense.ogg" loop
+    play music "music/BGM/WitheredFlower_Tense.opus" loop
 
     narrator """
         Я шла по пустым, серым улицам просыпающегося Веритаса.
@@ -139,7 +139,7 @@ label chapter4_5_morning_after:
     """
 
     scene bg chapter_4_veritas_academy_parking with fade
-    play music "music/BGM/Veritas_Morning_Theme.ogg" loop
+    play music "music/BGM/Veritas_Morning_Theme.opus" loop
     
     narrator """
         Солидный черный седан без номеров подъехал ровно в назначенное время. Стекло опустилось.
@@ -218,7 +218,7 @@ label chapter4_5_morning_after:
 label chapter4_5_classroom_intro:
 
     scene bg chapter_4_veritas_academy_corridor_morning with fade
-    play music "music/BGM/Veritas_Academy_SliceOfLife.ogg" loop
+    play music "music/BGM/Veritas_Academy_SliceOfLife.opus" loop
 
     narrator """
         Меня встретил мужчина средних лет в безупречном костюме — директор.

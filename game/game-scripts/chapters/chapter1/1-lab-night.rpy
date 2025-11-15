@@ -1,7 +1,7 @@
 label chapter1_lab_night:
 
         scene black with fade
-        play music "music/BGM/IFindSolaceInCosmos.ogg" fadein 1.0
+        play music "music/BGM/IFindSolaceInCosmos.opus" fadein 1.0
 
         narrator """
         Ночь. Лаборатория. Тишина. Мужчина в белом халате суетится перед дверью, держа некий планшет в руках.

@@ -2,8 +2,8 @@ label dream_sequence_japan_4:
     
     # Финал Сна: "Спасение"
     # scene house_on_fire_dream with Black(0.5) # Резкий переход
-    # play sound "sounds/fire_chaos_dream_sounds.ogg" loop # Звуки пожара, криков, треска
-    # music "sounds/dream_tragedy_theme.ogg" loop
+    # play sound "sounds/fire_chaos_dream_sounds.opus" loop # Звуки пожара, криков, треска
+    # music "sounds/dream_tragedy_theme.opus" loop
 
 
     label dream_sequence_japan_4_awakening:
@@ -19,8 +19,8 @@ label dream_sequence_japan_4:
     """
     
     scene bg house_on_fire_dream with Dissolve(1.0)
-    play music "music/BGM/Dream_Tragedy_Theme.ogg" loop
-    play ambient "ambient/fire_chaos_dream_sounds.ogg" loop
+    play music "music/BGM/Dream_Tragedy_Theme.opus" loop
+    play ambient "ambient/fire_chaos_dream_sounds.opus" loop
     
     narrator """
         Ночь. Мой дом горит.
@@ -77,7 +77,7 @@ label dream_sequence_japan_4:
         Я вижу ее катану, с которой стекает кровь. Я вижу, что ее темное кимоно стало еще темнее от чужой, запекшейся крови.
     """
 
-    narrator_dream """
+    narrator """
         И в этот момент осознания... мой собственный сон начинает искажаться.
         
         Как помехи на старом экране.

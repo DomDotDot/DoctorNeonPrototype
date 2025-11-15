@@ -2,7 +2,7 @@ label chapter2_act4_desperate_measures:
 
                 # Неон стоит на улице маленького городка, осознав свое положение.
                 scene bg chapter_2_facing_reality-town_alley with fade
-                play music "music/BGM/LDCelts.ogg" fadein 5.0 fadeout 5.0 volume 0.5
+                play music "music/BGM/LDCelts.opus" fadein 5.0 fadeout 5.0 volume 0.5
                 narrator """
                 Она отвернулась от витрины, от своего собственного лица, смотрящего на нее с укором. Каждый прохожий, каждый автомобиль, каждый звук теперь казался угрозой.
                 
@@ -13,7 +13,7 @@ label chapter2_act4_desperate_measures:
                 Пахло сыростью, гниющими листьями в сточных канавах и чем-то кислым из переполненных мусорных баков.
                 """
 
-                # play sound "sounds/back_alley_ambience_detailed.ogg" loop # Более детальные звуки: капли, ветер в переулке, далекий гул города
+                # play sound "sounds/back_alley_ambience_detailed.opus" loop # Более детальные звуки: капли, ветер в переулке, далекий гул города
 
                 narrator """
                 Она видела их. Людей, которые жили в этих тенях. Тех, кто научился жить, не отбрасывая ее.

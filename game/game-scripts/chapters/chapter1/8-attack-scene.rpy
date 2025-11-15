@@ -5,8 +5,8 @@ label marcus_attack_scene:
         narrator "Алекс издала сдавленный крик, пытаясь схватить Неон за руку, но та, не заметив ее, с нечеловеческой силой отбросила подругу в сторону, испуганно глядя на происходящее."
         show alex worried
         hide alex with easeoutright
-        # play sound "sounds/body_thump_wall.ogg"
-        # play sound "sounds/alex_gasp_pain.ogg"
+        # play sound "sounds/body_thump_wall.opus"
+        # play sound "sounds/alex_gasp_pain.opus"
 
         narrator """
         В глазах Неон не было ничего, кроме слепой, испепеляющей ярости. Ее лицо исказилось, превратившись в маску безумия.
@@ -20,7 +20,7 @@ label marcus_attack_scene:
         marcus "Вышло недоразумение! Я... это была шутка! Хаха! Да ладно тебе, Неон!"
 
         narrator "Но слова уже не имели значения. Неон издала низкий, гортанный рык, больше похожий на звериный, чем на человеческий."
-        # play sound "sounds/neon_feral_roar.ogg"
+        # play sound "sounds/neon_feral_roar.opus"
         play sound "sfx/Chair_Hit.mp3"
         narrator """
         Она занесла тяжелый металлический стул над головой.  
@@ -78,7 +78,7 @@ label marcus_attack_scene:
         show neon surprised with { "master" : Dissolve(2.0) }
         with { "effect": dissolve }
         narrator "Неон стояла над ним, тяжело дыша. Стул со стуком выпал из ее ослабевших рук за её спину."
-        # play sound "sounds/metal_chair_drop_floor.ogg"
+        # play sound "sounds/metal_chair_drop_floor.opus"
 
         narrator """
         Красная пелена ярости медленно начала спадать с ее глаз, уступая место холодному, звенящему ужасу от содеянного.
@@ -91,5 +91,5 @@ label marcus_attack_scene:
         """
 
         hans "Эй! Я слышу грохот! Что у вас там происходит?!"
-        # play sound "sounds/hans_shout_closer.ogg"
+        # play sound "sounds/hans_shout_closer.opus"
 return

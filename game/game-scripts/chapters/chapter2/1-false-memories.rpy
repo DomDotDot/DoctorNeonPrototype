@@ -1,7 +1,7 @@
 label chapter2_act1_false_memories:
 
                 scene bg chapter_2_false_memories-crash with Dissolve(0.125)
-                # play music "music/BGM/DeepThere.ogg" fadein 15.0 fadeout 15.0 volume 0.5
+                # play music "music/BGM/DeepThere.opus" fadein 15.0 fadeout 15.0 volume 0.5
 
                 narrator """
                 Сознание вернулось резким, болезненным рывком. Голова гудела, а в ушах стоял непрекращающийся звон. Ослепляющий свет фар сменился миганием оранжевых аварийных огней грузовика.
@@ -10,7 +10,7 @@ label chapter2_act1_false_memories:
 
                 Из кабины доносились яростные крики водителя. Неон не понимала слов, но в них слышался страх и гнев.
                 """
-                # play sound "sounds/truck_driver_shouting_panicked_foreign_echo.ogg"
+                # play sound "sounds/truck_driver_shouting_panicked_foreign_echo.opus"
 
                 narrator """
                 Она выжила. Но надолго ли?
@@ -20,9 +20,9 @@ label chapter2_act1_false_memories:
 
                 narrator "Она судорожно повернула ключ. Двигатель, на удивление, завелся с первого раза, взревев от протеста."
 
-                # play sound "sounds/car_engine_start_rough.ogg"
+                # play sound "sounds/car_engine_start_rough.opus"
                 # stop music fadeout 1.0
-                # play music "sounds/escape_renewed_desperate.ogg" loop
+                # play music "sounds/escape_renewed_desperate.opus" loop
 
                 narrator """
                 Не обращая внимания на крики водителя фуры, она вдавила педаль газа в пол. 
@@ -33,7 +33,7 @@ label chapter2_act1_false_memories:
                 """
 
                 scene bg chapter_2_false_memories-escape with Dissolve(10.0) # Фон: ночное шоссе, вид из машины, начинается дождь
-                # play sound "sounds/car_driving_damaged_tire.ogg" loop # Звук езды на спущенном колесе
+                # play sound "sounds/car_driving_damaged_tire.opus" loop # Звук езды на спущенном колесе
                 play ambient "ambient/raining_inside_car.opus" fadein 20.0 fadeout 5.0
 
 
@@ -54,9 +54,9 @@ label chapter2_act1_false_memories:
                 
                 Свернув на менее оживленную дорогу, она заехала на обочину под сенью деревьев и заглушила двигатель.
                 """
-                # play sound "sounds/car_engine_stop.ogg"
+                # play sound "sounds/car_engine_stop.opus"
                 scene bg chapter_2_false_memories-alex_call with fade
-                play music "music/BGM/Unreachable.ogg" fadein 5.0 fadeout 15.0 volume 0.5 noloop
+                play music "music/BGM/Unreachable.opus" fadein 5.0 fadeout 15.0 volume 0.5 noloop
 
                 narrator """
                 Тишина. Только стук дождя и ее собственное прерывистое дыхание. Первым делом – Алекс.
@@ -64,7 +64,7 @@ label chapter2_act1_false_memories:
                 Дрожащими пальцами она достала телефон. Батарея – девять процентов. Она нашла контакт 'Алекс' и нажала вызов.
                 """
 
-                # play sound "sounds/phone_dialing_tone.ogg"
+                # play sound "sounds/phone_dialing_tone.opus"
 
                 narrator "Длинные, мучительные гудки. И вот, на экране телефона появились цифры длительности разговора."
                 neon "Алло, Алекс?"
@@ -72,7 +72,7 @@ label chapter2_act1_false_memories:
                 play sound "sfx/abonent-ne-abonent.mp3"
                 narrator "Абонент временно недоступен, перезвоните позже. The subscriber is not available now please call back later."
                 narrator "Короткие гудки отклоненного вызова.."
-                # play sound "sounds/phone_call_no_answer.ogg"
+                # play sound "sounds/phone_call_no_answer.opus"
                 narrator """
                 
                 Неон позвонила Еще раз и ещё раз. Снова гудки и тишина.
@@ -171,6 +171,6 @@ label chapter2_act1_false_memories:
                 narrator "Она свернула с гладкого асфальта на грязную, разбитую колею. Машину тут же начало трясти еще сильнее. Дождь усилился, превратившись в ливень."
                 play ambient "ambient/raining_inside_car_driving.opus" fadein 5.0 fadeout 5.0
                 narrator "Навигатор тут же начал перестраивать маршрут, но вскоре сигнал GPS пропал в густом лесу и под плотными тучами."
-                # play sound "sounds/gps_voice_signal_lost.ogg" # Звук "GPS-сигнал потерян"
+                # play sound "sounds/gps_voice_signal_lost.opus" # Звук "GPS-сигнал потерян"
                 "Навигатор" "GPS-сигнал потерян."
 return

@@ -1,7 +1,7 @@
 label escaping_facility_grounds:
 
         # Неон выезжает с парковки
-        # play sound "sounds/car_engine_driving_interior.ogg" loop
+        # play sound "sounds/car_engine_driving_interior.opus" loop
 
         narrator """
         Неон неслась по подземной парковке. Знакомый маршрут. Каждый день она проезжала здесь, направляясь домой или на работу.
@@ -13,7 +13,7 @@ label escaping_facility_grounds:
         Из динамиков в потолке тоннеля уже раздавался искаженный голос системы оповещения:
         """
         stop ambient fadeout 5.0
-        play music "music/BGM/Purge.ogg" fadein 10.0 fadeout 10.0
+        play music "music/BGM/Purge.opus" fadein 10.0 fadeout 10.0
 
         fcs """
         {cps=20}Внимание всем постам! Красный автомобиль Mazda, номерной знак{/cps} {cps=1.5}ZG-34812,{/cps} {cps=20}покинул парковку Р2 без разрешения.
@@ -33,8 +33,8 @@ label escaping_facility_grounds:
         """
 
         narrator "Неон не сбавила скорость. Охранник, увидев ее решимость, успел отскочить в сторону за секунду до того, как ее Mazda снесла шлагбаум."
-        # play sound "sounds/barrier_crash_metal_loud.ogg" # Шлагбаум металлический, звук громче
-        # play sound "sounds/shout_security_alarmed_angry.ogg"
+        # play sound "sounds/barrier_crash_metal_loud.opus" # Шлагбаум металлический, звук громче
+        # play sound "sounds/shout_security_alarmed_angry.opus"
         show cg cg7_3 with fade
 
         narrator """
@@ -53,7 +53,7 @@ label escaping_facility_grounds:
 
         Внедорожник охраны неотступно следовал за ней, его мощный двигатель ревел, сокращая дистанцию на прямых участках.
         """
-        # play sound "sounds/humvee_engine_pursuit_closer.ogg" loop # Звук преследующего Хамви
+        # play sound "sounds/humvee_engine_pursuit_closer.opus" loop # Звук преследующего Хамви
 
         narrator "Впереди показался мост – узкий, однополосный, с низкими каменными ограждениями. Под ним шумел весенний ручей, несущий талые воды с гор."
         narrator "И тут она увидела их. На другой стороне моста, блокируя выезд, стоял еще один такой же внедорожник охраны. Засада."
@@ -64,15 +64,15 @@ label escaping_facility_grounds:
         
         Неон резко вывернула руль влево, съезжая с дороги прямо перед мостом, на каменистый берег ручья. Машина подпрыгнула, днищем чиркнув о камни.
         """
-        # play sound "sounds/car_offroad_gravel_stones.ogg"
-        # play sound "sounds/car_bottom_scrape_metal.ogg"
+        # play sound "sounds/car_offroad_gravel_stones.opus"
+        # play sound "sounds/car_bottom_scrape_metal.opus"
         narrator "Это было безумие, но другого выхода не было. Она попытается проехать вдоль ручья, под мостом, и выскочить с другой стороны, обойдя засаду."
 
         narrator "Ее маленькая Mazda отчаянно боролась с бездорожьем. Камни летели из-под колес. Внедорожники охраны остановились на дороге у моста – им здесь было не проехать."
-        # play sound "sounds/shouts_security_frustrated.ogg" # Крики охраны, возможно, по рации
+        # play sound "sounds/shouts_security_frustrated.opus" # Крики охраны, возможно, по рации
         show cg cg7_5 with fade
         narrator "Неон проехала под мостом. Вода ручья была неглубокой, но течение сильным. Машину немного сносило."
-        # play sound "sounds/water_splashing_driving_stream.ogg"
+        # play sound "sounds/water_splashing_driving_stream.opus"
         narrator "Она выбралась на другой берег, снова на дорогу, уже за спиной у второго внедорожника. Они не ожидали такого маневра!"
 
         narrator "Теперь, Неон направилась к главному КПП. Он был уже виден вдалеке – массивные ворота, здание охраны, несколько шлагбаумов."
@@ -89,14 +89,14 @@ label escaping_facility_grounds:
 
         Это был ее последний шанс. Она резко свернула с дороги, направляя машину прямо на этот забор.
         """
-        # play sound "sounds/car_swerve_offroad_again.ogg"
+        # play sound "sounds/car_swerve_offroad_again.opus"
         show cg cg7_6 with fade
         narrator "Передние колеса подпрыгнули на бордюре. Раздался скрежет и треск – Mazda протаранила сетчатое ограждение, сминая его и вырываясь на узкую полоску земли за пределами официальной территории, но еще не на шоссе."
-        # play sound "sounds/fence_crash_metal_tearing.ogg"
+        # play sound "sounds/fence_crash_metal_tearing.opus"
 
         narrator "Она оказалась на крутом, заросшем травой склоне, ведущем вниз, к шоссе, которое виднелось метрах в пятидесяти ниже."
         narrator "Машина неуправляемо покатилась вниз, подпрыгивая на кочках, ветки кустов хлестали по лобовому стеклу. Неон отчаянно крутила руль, пытаясь не перевернуться."
-        # play sound "sounds/car_rolling_down_hill_branches.ogg"
+        # play sound "sounds/car_rolling_down_hill_branches.opus"
 
         show cg cg7_8 with fade
         narrator """
@@ -111,15 +111,15 @@ label escaping_facility_grounds:
         # Ей продырявили колесо.
 
         stop music
-        # play sound "sounds/gunshots_close_multiple_whizzing_ricochet.ogg" # Добавить звук рикошета для большей опасности
+        # play sound "sounds/gunshots_close_multiple_whizzing_ricochet.opus" # Добавить звук рикошета для большей опасности
         scene black with dissolve
         narrator """
         Резко, она перевернулась и вылетела боком на темное полотно шоссе.
 
         Прямо под слепящие огни чего-то огромного, неумолимо несущегося из сумрака.
         """
-        # play sound "sounds/car_final_thump_onto_road_heavy.ogg" # Более тяжелый звук падения на дорогу
-        # play sound "sounds/truck_engine_close_monstrous_roar.ogg" # Рев двигателя фуры как рев монстра
+        # play sound "sounds/car_final_thump_onto_road_heavy.opus" # Более тяжелый звук падения на дорогу
+        # play sound "sounds/truck_engine_close_monstrous_roar.opus" # Рев двигателя фуры как рев монстра
         show cg cg7_9 with fade
         narrator """
         Два безжалостных глаза-прожектора впились в нее, парализуя волю.
@@ -129,12 +129,12 @@ label escaping_facility_grounds:
         Инстинкт заставил ее зажмуриться, вскинуть руки, но это было все равно что пытаться остановить лавину ладонями.
         """
         scene black with Fade(1.5, 0.5, 1.5, color=(1.0,1.0,0.9)) # Яркая, чуть желтоватая вспышка, дольше, затем черный экран
-        # play sound "sounds/truck_horn_DEAFENING_panic_echo.ogg" # ОГЛУШИТЕЛЬНЫЙ гудок фуры с эффектом эха, как будто внутри черепа
-        # play sound "sounds/tires_skid_VIOLENT_tearing_metal.ogg" # ИСТЕРЗАННЫЙ визг тормозов, смешанный со звуком рвущегося металла (от самой фуры)
-        # play sound "sounds/massive_object_crash_nearby_multiple_impacts.ogg" # Звук падения тяжелого груза: несколько ударов, грохот, возможно, звук ломающегося дерева/металла контейнеров
-        # play sound "sounds/glass_shattering_widespread.ogg" # Звук множества бьющихся стекол
+        # play sound "sounds/truck_horn_DEAFENING_panic_echo.opus" # ОГЛУШИТЕЛЬНЫЙ гудок фуры с эффектом эха, как будто внутри черепа
+        # play sound "sounds/tires_skid_VIOLENT_tearing_metal.opus" # ИСТЕРЗАННЫЙ визг тормозов, смешанный со звуком рвущегося металла (от самой фуры)
+        # play sound "sounds/massive_object_crash_nearby_multiple_impacts.opus" # Звук падения тяжелого груза: несколько ударов, грохот, возможно, звук ломающегося дерева/металла контейнеров
+        # play sound "sounds/glass_shattering_widespread.opus" # Звук множества бьющихся стекол
 
-        # play sound "sounds/aftermath_ringing_ears_muffled_sounds.ogg" loop # Звук тишины со звоном в ушах, все остальные звуки приглушены, как под водой
+        # play sound "sounds/aftermath_ringing_ears_muffled_sounds.opus" loop # Звук тишины со звоном в ушах, все остальные звуки приглушены, как под водой
         narrator_nvl """
         Время растянулось, превратившись в вязкую, удушающую массу. А затем – хаос звуков.
 

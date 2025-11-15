@@ -1,7 +1,7 @@
 label chapter1_lab_morning:
 
         scene bg chapter_1_lab_day with Fade(0.5, 0.0, 0.5)
-        # play sound "sounds/phone_alarm_vibrating.ogg" loop
+        # play sound "sounds/phone_alarm_vibrating.opus" loop
 
         narrator "Оглушительная трель будильника ворвалась в тишину, выдернув Неон из вязкой темноты сна. Она вскинула голову с резким, сдавленным вскриком."
 
@@ -74,8 +74,8 @@ label chapter1_lab_morning:
 
         Мысль не успела оформиться. Тишину лаборатории разорвал оглушительный грохот – как будто кто-то с ноги вышиб дверь.
         """
-        # play sound "sounds/door_slam_loud.ogg"
-        play music "music/BGM/Rewrite-PottedOne.ogg" fadein 2.0 volume 0.25
+        # play sound "sounds/door_slam_loud.opus"
+        play music "music/BGM/Rewrite-PottedOne.opus" fadein 2.0 volume 0.25
 
         show neon surprised
         narrator """
@@ -172,7 +172,7 @@ label chapter1_lab_morning:
         narrator "Неон отвела взгляд, чувствуя, как щеки заливает краска."
 
         narrator "На секунду повисла тишина. А потом Алекс взорвалась хохотом. Громким, заразительным, без малейшего стеснения."
-        # play sound "sounds/alex_laugh.ogg"
+        # play sound "sounds/alex_laugh.opus"
         show alex at midleft with easeinleft
         alex happy """
         ПХА-ХА-ХА-ХА-ХА! СЛЮНОЙ?! Серьёзно?!

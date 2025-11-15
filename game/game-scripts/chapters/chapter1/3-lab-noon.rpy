@@ -1,6 +1,6 @@
 label chapter1_lab_noon:
 
-        # play music "sounds/ambient_lab_contemplative.ogg" loop fadein 1.0 # Смена музыки на более спокойную, задумчивую
+        # play music "sounds/ambient_lab_contemplative.opus" loop fadein 1.0 # Смена музыки на более спокойную, задумчивую
 
         narrator """
         Энергичный уход Алекс оставил за собой вихрь смешанных чувств и звенящую тишину.

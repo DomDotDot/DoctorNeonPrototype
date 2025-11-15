@@ -4,8 +4,8 @@ label chapter2_act5_journey_to_anomic:
                 scene bg chapter_2_anomic-van-inside with fade # Фон: интерьер грузового отсека фургона, день
                 show neon neutral at right
                 show guts construction_neutral at left
-                play music "music/BGM/NightFlare.ogg" fadein 5.0 fadeout 5.0
-                # play sound "sounds/van_driving_interior_bumpy.ogg" loop # Звук дребезжащего фургона
+                play music "music/BGM/NightFlare.opus" fadein 5.0 fadeout 5.0
+                # play sound "sounds/van_driving_interior_bumpy.opus" loop # Звук дребезжащего фургона
 
                 narrator """
                 Фургон был старым и пах смесью бензина, ржавчины и чего-то кислого.

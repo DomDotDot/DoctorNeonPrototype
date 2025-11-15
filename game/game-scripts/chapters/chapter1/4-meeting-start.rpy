@@ -1,7 +1,7 @@
 label chapter1_meeting_start:
 
         scene bg chapter_1_admin_approach with fade
-        play music "music/BGM/BigShot.ogg" fadein 2.5 fadeout 5.0
+        play music "music/BGM/BigShot.opus" fadein 2.5 fadeout 5.0
 
         narrator """
         Коридоры здесь были шире, отделка – дороже. Вместо линолеума – ковровые дорожки, вместо пластиковых панелей – отделка под дерево.
@@ -27,11 +27,11 @@ label chapter1_meeting_start:
         """
 
         narrator "Собрав всю волю в кулак, Неон толкнула тяжелую дверь и шагнула внутрь."
-        # play sound "sounds/heavy_door_open.ogg"
+        # play sound "sounds/heavy_door_open.opus"
         scene bg chapter_1_conference_hall_investors with fade
 
-        queue music "music/BGM/HRT.ogg" noloop fadein 2.5 volume 0.5
-        queue music "music/BGM/Initiation_Inactive.ogg" loop fadein 2.5 volume 0.5
+        queue music "music/BGM/HRT.opus" noloop fadein 2.5 volume 0.5
+        queue music "music/BGM/Initiation_Inactive.opus" loop fadein 2.5 volume 0.5
 
         narrator """
         Ее глазам предстал не привычный зал для научных семинаров, а просторное, официально обставленное помещение
@@ -87,7 +87,7 @@ label chapter1_meeting_start:
         """
 
         show neon surprised at midleft with easeinleft
-        # play sound "sounds/light_door_close.ogg"
+        # play sound "sounds/light_door_close.opus"
 
         cro """Акхем! Итак, коллеги, объявляю внеочередное заседание совета директоров и ведущих научных сотрудников открытым
 
@@ -138,7 +138,7 @@ label chapter1_meeting_start:
         Для меня огромная честь сообщить вам, что в ходе моих независимых исследований мне удалось не только зафиксировать, 
         но и успешно расшифровать сложный когерентный сигнал, который, по всем признакам, имеет искусственное внеземное происхождение!
         """
-        # play sound "sounds/projector_on.ogg"
+        # play sound "sounds/projector_on.opus"
 
         narrator """
         Маркус подключил свой ноутбук к проекционной системе. 
@@ -166,7 +166,7 @@ label chapter1_meeting_start:
 
         
         narrator "Неон вскочила со стула, ее стул с неприятным скрипом отодвинулся назад. Она указала дрожащей рукой на экран. Лицо ее пылало."
-        # play sound "sounds/chair_scrape.ogg"
+        # play sound "sounds/chair_scrape.opus"
 
         neon frustrated "Это моя работа! Я расшифровала этот сигнал! Это мои расчеты! Как они оказались у него?!"
 

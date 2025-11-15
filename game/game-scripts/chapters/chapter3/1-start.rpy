@@ -50,7 +50,7 @@ label chapter3_part1_start:
 
     # Неон в холле завода.
     scene bg chapter_3_start-mainhall with Dissolve(5.0) # Фон: грязный, заброшенный холл завода
-    queue music "music/BGM/Revpad.ogg" fadein 5.0 loop volume 0.5
+    queue music "music/BGM/Revpad.opus" fadein 5.0 loop volume 0.5
     show neon neutral at right with dissolve
 
     narrator """

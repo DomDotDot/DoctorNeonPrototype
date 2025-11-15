@@ -1,7 +1,7 @@
 label chapter4_5_akari_arrest:
 
     scene bg chapter_4_veritas_akari_apartment_exterior with fade
-    play music "music/BGM/Veritas_SWAT_Theme.ogg" loop
+    play music "music/BGM/Veritas_SWAT_Theme.opus" loop
 
     narrator """
         Мы приехали быстро. Никаких сирен, никаких мигалок.

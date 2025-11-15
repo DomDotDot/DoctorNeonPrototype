@@ -5,7 +5,7 @@ label prologue:
         
         scene bg prologue_spacepod
 
-        play music "music/BGM/Imminense.ogg" fadein 2.0 fadeout 0.5
+        play music "music/BGM/Imminense.opus" fadein 2.0 fadeout 0.5
         narrator "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
         narrator "Где-то сквозь грохот пробивается скрежет рвущегося металла."
 
@@ -46,7 +46,7 @@ label prologue:
 
         narrator "Ожидаемого рывка или звука раскрытия куполов не последовало. Лишь несмолкающий рев и тряска."
 
-        # play sound "sounds/system_error.ogg"
+        # play sound "sounds/system_error.opus"
 
         fcs """
         ОШИБКА СБРОСА. Раскрыто парашютов: 3 из 4.
@@ -70,18 +70,18 @@ label prologue:
         Он бьет по нервам, не оставляя надежды.
         """
 
-        # play sound "sounds/collision_alarm.ogg" loop
+        # play sound "sounds/collision_alarm.opus" loop
 
         fcs "СТОЛКНОВЕНИЕ НЕИЗБЕЖНО. \nСТОЛКНОВЕНИЕ НЕИЗБЕЖНО."
         fcs "СТОЛКНОВЕНИЕ НЕИ-{nw}"
 
         scene black
         stop sound
-        # play sound "sounds/crash_impact.ogg"
-        # play sound "sounds/post_crash_static.ogg" loop
+        # play sound "sounds/crash_impact.opus"
+        # play sound "sounds/post_crash_static.opus" loop
 
 
-        play music "music/BGM/Unlocked.ogg" fadein 2.0 fadeout 0.5
+        play music "music/BGM/Unlocked.opus" fadein 2.0 fadeout 0.5
         narrator_nvl "Мир исчез. Заменился давлением, выжимающим воздух из легких. Ощущением, будто тело впечатало в кресло с силой пресса. {nw}"
         narrator_nvl "В ушах — непрекращающийся, высокий звон. Он поглотил все остальные звуки, даже собственный крик. {nw}"
         narrator_nvl "Потом пришла тьма. Не просто отсутствие света, а ватная, глухая пустота. Ничего. {nw}"
@@ -108,7 +108,7 @@ label prologue:
         unknown_f "Выбраться... надо... выбраться..."
 
         narrator "Слышен скрежет металла о металл – попытка открыть люк. Звук слабого щелчка – замок поддался."
-        # play sound "sounds/hatch_open_struggle.ogg"
+        # play sound "sounds/hatch_open_struggle.opus"
 
         unknown_f "{=yell}А-ах!"
 
@@ -117,7 +117,7 @@ label prologue:
 
         На записи воцаряется тишина, с треском помех и далеким потрескиванием огня.
         """
-        # play sound "sounds/body_thump.ogg"
+        # play sound "sounds/body_thump.opus"
         pause 3.0
 
         scene black with Dissolve(1.0)

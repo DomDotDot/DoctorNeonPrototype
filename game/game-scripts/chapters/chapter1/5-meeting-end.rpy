@@ -4,7 +4,7 @@ label chapter1_meeting_aftermath_hallway:
 
         # Появляется Алекс
         show cg cg5_2 with fade
-        play music "music/BGM/Swell.ogg" fadein 1.0 fadeout 5.0 # Музыка для расследования
+        play music "music/BGM/Swell.opus" fadein 1.0 fadeout 5.0 # Музыка для расследования
         alex "Эй?! Неон?! Ты чего тут сидишь? Все нормально?"
 
         narrator "Неон испугалась, очнувшись посреди коридора на мягком диване. Она заснула?"

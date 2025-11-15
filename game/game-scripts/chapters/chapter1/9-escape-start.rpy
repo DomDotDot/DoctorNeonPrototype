@@ -9,8 +9,8 @@ label escape_sequence_start:
 
         Голос Ханса, кричащий из-за двери, становился все громче, к нему добавился звук шагов. Уже слышен лязг ключей в замке двери, ведущей на лестничную клетку.
         """
-        # play sound "sounds/hans_shout_louder.ogg"
-        # play sound "sounds/footsteps_running_approaching.ogg"
+        # play sound "sounds/hans_shout_louder.opus"
+        # play sound "sounds/footsteps_running_approaching.opus"
         
         narrator "Алекс вскочила на ноги, ее лицо было бледным, но решительным."
 
@@ -30,7 +30,7 @@ label escape_sequence_start:
 
         narrator "Инстинкт самосохранения, подстегнутый паникой в голосе Алекс, взял верх. Неон, все еще на ватных ногах, позволила утащить себя за собой."
 
-        # play sound "sfx/door_open_loud.ogg"
+        # play sound "sfx/door_open_loud.opus"
         hans "Какого черта?! Охрану на Уровень 1! И врача! Немедленно!"
 
         narrator "Крик Ханса за спиной подхлестнул их, как удар хлыста. Они бросились к лифтам."
@@ -60,7 +60,7 @@ label escape_sequence_start:
 
         Они выбежали на еще один служебный коридор – холодный, бетонный, с трубами, идущими вдоль стен. Вдалеке завыла сирена.
         """
-        # play sound "sounds/alarm_siren_distant_start.ogg" loop # Звук сирены, сначала тихий
+        # play sound "sounds/alarm_siren_distant_start.opus" loop # Звук сирены, сначала тихий
 
         scene bg chapter_1_lab_service_basement with dissolve # Фон: подвальный коридор
 
@@ -76,7 +76,7 @@ label escape_sequence_start:
 
         # show security_guard1 at right with easeinright
         # show security_guard2 at right with easeinright
-        # play sound "sounds/shout_security_stop.ogg" # Крик охраны "Стоять!"
+        # play sound "sounds/shout_security_stop.opus" # Крик охраны "Стоять!"
 
         narrator """
         Охранники преградили им путь.
@@ -90,8 +90,8 @@ label escape_sequence_start:
 
         narrator "Прежде чем Неон успела возразить, Алекс развернулась и с криком бросилась на охранников, пытаясь создать суматоху, выиграть для Неон драгоценные секунды."
 
-        # play sound "sounds/alex_shout_distraction.ogg"
-        # play sound "sounds/scuffle_sounds_short.ogg" # Звуки короткой потасовки
+        # play sound "sounds/alex_shout_distraction.opus"
+        # play sound "sounds/scuffle_sounds_short.opus" # Звуки короткой потасовки
         # hide security_guard1
         # hide security_guard2
 

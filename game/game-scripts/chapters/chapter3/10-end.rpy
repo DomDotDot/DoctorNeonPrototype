@@ -2,7 +2,7 @@ label chapter3_on_train:
 
     # Аргон и Неон в товарном вагоне.
     scene black with fade
-    queue music "music/BGM/SelfAffirmation.ogg" fadein 5.0 loop volume 0.25 # Музыка: монотонный, меланхоличный стук колес
+    queue music "music/BGM/SelfAffirmation.opus" fadein 5.0 loop volume 0.25 # Музыка: монотонный, меланхоличный стук колес
     play sound "ambient/freight-train.opus" fadein 2.0 volume 0.5 loop
 
     narrator """

@@ -3,7 +3,7 @@
 label chapter4_5_dorm_way:
     
     scene bg chapter_4_veritas_streets_night with fade
-    play music "music/BGM/VeritasCity_NightTheme_Melancholy.ogg" loop
+    play music "music/BGM/VeritasCity_NightTheme_Melancholy.opus" loop
     show neon neutral at right
     show argon suit_apathy at left
     
@@ -30,7 +30,7 @@ label chapter4_5_dorm_way:
 label chapter4_5_dorm_investigation:
 
     scene bg chapter_4_veritas_dorm_exterior_night with fade
-    play music "music/BGM/Veritas_Dorm_Suspense.ogg" loop
+    play music "music/BGM/Veritas_Dorm_Suspense.opus" loop
 
     narrator """
         Территория Академии Веритас ночью была похожа на ухоженное, но безжизненное кладбище.
