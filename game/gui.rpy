@@ -483,3 +483,74 @@ init python:
 
         gui.nvl_button_width = 1860
         gui.nvl_button_xpos = 30
+
+
+
+# Файл: main_menu_custom.rpy (или gui.rpy)
+
+style main_menu_vbox:
+    # Расположение основного блока кнопок
+    xalign 0.5
+    yalign 0.5
+    yoffset 50 # Сдвигаем чуть ниже центра
+    spacing 15
+
+style main_menu_button is button:
+    # Задаем размер кнопок, чтобы они были одинаковыми
+    xsize 300
+    ysize 100
+    # Выравнивание
+    xalign 0
+    yalign 0.125
+
+# Стиль текста кнопок
+style main_menu_button_text is button_text:
+    size 30
+    color "#08608f"
+    hover_color "#0f63c9" # Цвет текста при наведении
+    # idle_color - цвет в обычном состоянии
+    # selected_idle_color - цвет выбранной кнопки
+    # selected_hover_color - цвет выбранной кнопки при наведении
+
+# Теперь самое интересное - свечение.
+# Проще всего сделать это, подменив фон кнопки.
+# Вам понадобятся 2 файла: button_idle.png и button_hover.png
+style main_menu_button:
+    # Фон в обычном состоянии (может быть полупрозрачным)
+    background "gui/main_menu/button_idle.png"
+    # Фон при наведении мыши (с эффектом свечения)
+    hover_background "gui/main_menu/button_hover.png"
+    # Выравнивание текста внутри кнопки
+    text_align 0.5
+    # Убираем стандартные отступы, если нужно
+    #padding (0, 0)
+    #left_padding 0
+    #right_padding 0
+
+# Стили для саб-меню
+style sub_menu_frame:
+    background Frame("gui/frame.png", 25, 25, tile=True) # Стандартная рамка
+    # Или просто цвет: background "#000a"
+    xalign 0.5
+    yalign 0.5
+    xsize 600
+    padding (40, 40)
+
+style sub_menu_vbox:
+    xalign 0.5
+    spacing 15
+
+style sub_menu_label is label:
+    xalign 0.5
+    bottom_margin 20
+
+style sub_menu_label_text is label_text:
+    size 40
+    color gui.accent_color
+
+style sub_menu_button is main_menu_button:
+    # Наследуем все свойства от main_menu_button, но можем переопределить
+    xsize 350 # Делаем кнопки в саб-меню чуть меньше
+    
+style sub_menu_button_text is main_menu_button_text:
+    size 28
