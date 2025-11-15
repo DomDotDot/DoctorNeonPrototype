@@ -238,7 +238,7 @@ translate english_us nightmare_sequence_3fe5c393:
 translate english_us nightmare_sequence_1e5df93a:
 
     # narrator "Фигура Оганессон вздрагивает. Улыбка исчезает с ее лица, сменяясь удивлением, а затем – явным, холодным раздражением."
-    narrator "Oganesson's figure flinches. The smile vanishes from her face, replaced by surprise, and then by a clear, cold irritation."
+    narrator "Her figure flinches. The smile vanishes from her face, replaced by surprise, and then by a clear, cold irritation."
 
 # game/game-scripts/chapters/chapter2/3-nightmare.rpy:109
 translate english_us nightmare_sequence_398c30df:
