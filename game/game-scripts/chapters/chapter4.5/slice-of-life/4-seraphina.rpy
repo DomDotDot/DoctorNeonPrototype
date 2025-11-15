@@ -1,4 +1,4 @@
- label chapter4_5_seraphina_flashback:
+label chapter4_5_seraphina_flashback:
     # --- Начало Флешбэка ---
     
     scene black with Dissolve(0.5)
