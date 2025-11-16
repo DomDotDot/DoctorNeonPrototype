@@ -492,7 +492,7 @@ style main_menu_vbox:
     # Расположение основного блока кнопок
     xalign 0.5
     yalign 0.5
-    yoffset 50 # Сдвигаем чуть ниже центра
+    yoffset 150 # Сдвигаем чуть ниже центра
     spacing 15
 
 style main_menu_button is button:
@@ -559,3 +559,83 @@ style sub_menu_button is main_menu_button:
     
 style sub_menu_button_text is main_menu_button_text:
     size 28
+
+
+#################################
+## Стили для новых экранов настроек
+#################################
+
+# Основное окно-рамка
+style settings_frame:
+    background "#000b" # Черный, почти непрозрачный фон
+    xalign 0.5
+    yalign 0.5
+    xsize 1000 # Ширина окна
+    padding (40, 40)
+    modal True
+
+# Заголовок окна ("Текст и Графика", "Звук")
+style settings_title is label:
+    xalign 0.5
+    bottom_margin 30
+
+style settings_title_text is label_text:
+    size 45
+    color gui.accent_color # Используем акцентный цвет из GUI
+    text_align 0.5
+
+# Кнопка "Назад"
+style settings_back_button is main_menu_button: # Наследуем от главной кнопки меню
+
+    xsize 300 # Можно сделать ее поменьше
+    ysize 50
+    background None 
+    hover_background None
+    xalign 0.5 # Прижимаем к правому краю контейнера (vbox)
+    yalign 0.5 # Прижимаем к низу контейнера (vbox)
+
+# Стили для кнопок-переключателей (Оконный/Полный, Пропуск)
+style settings_check_label is label:
+    xalign 0
+
+style settings_check_label_text is label_text:
+    size 24
+    color "#cccccc"
+    bottom_margin 5
+
+style settings_check_button is button:
+    properties gui.button_properties("check_button")
+    foreground "gui/button/check_[prefix_]foreground.png"
+    xsize 400
+
+style settings_check_button_text is button_text:
+    properties gui.text_properties("check_button")
+    size 22
+
+# Стили для слайдеров (громкость, скорость текста)
+style settings_slider_label is settings_check_label:
+    text_align 1
+    
+
+style settings_slider_label_text is settings_check_label_text:
+    size 24
+    color "#ffffff"
+    bottom_margin 5
+
+style settings_slider_bar is bar:
+    xfill True 
+    ysize 12 # Делаем слайдер тоньше
+    left_bar Solid("#08608f")
+    right_bar Solid("#333") # Фон для "пустой" части слайдера
+    thumb Solid("#0f63c9") # Ползунок
+    thumb_shadow None
+    thumb_offset 6 # Чтобы ползунок был по центру
+
+# Маленькая кнопка "Тест" рядом со слайдером
+style settings_test_button is button:
+    xsize 100
+    ysize 35
+    left_margin 15
+    
+style settings_test_button_text is button_text:
+    size 20

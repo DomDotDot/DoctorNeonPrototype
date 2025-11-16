@@ -8,7 +8,7 @@
 
         # Определяем изображения и музыку для удобства.
         # Это позволяет легко менять файлы, не копаясь в коде экранов.
-        image main_menu_logo = "gui/main_menu/logo.png"
+        image main_menu_logo = "gui/main_menu/logo2.png"
 
         image main_menu_bg_default = "gui/main_menu/background_default.jpg"
         image main_menu_bg_unlocked_1 = "gui/main_menu/background_unlocked_1.jpg"
@@ -19,7 +19,7 @@
         define main_menu_music_default = "audio/music/BGM/NightMare.opus"
         define main_menu_music_unlocked_1 = "audio/music/BGM/FearForUnreal.opus"
         define main_menu_music_unlocked_2 = "audio/music/BGM/WitheredFlower.opus"
-        define main_menu_music_unlocked_3 = "audio/music/MeBGMnu/Sorrowless.opus"
+        define main_menu_music_unlocked_3 = "audio/music/BGM/Sorrowless.opus"
         define main_menu_music_unlocked_4 = "audio/music/BGM/BuzzingGoodbye.opus"
 
 
@@ -49,19 +49,18 @@
 
         label chapter_3:
                 call chapter_3_rpy from _call_chapter_3_rpy
-                $ persistent.main_menu_level = 3
 
 
         
         label chapter_4:
                 call chapter_4_rpy from _call_chapter_4_rpy
+                $ persistent.main_menu_level = 3
 
 
 
         label chapter_4_5:
-                $ persistent.main_menu_level = 4
                 call chapter_4_5_rpy
-
+                $ persistent.main_menu_level = 4
 
         label chapter_5:
                 call chapter_5_rpy
