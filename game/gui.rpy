@@ -500,17 +500,21 @@ style main_menu_button is button:
     xsize 300
     ysize 100
     # Выравнивание
-    xalign 0
-    yalign 0.125
+    xalign 0.5
+    yalign 0.5
 
 # Стиль текста кнопок
 style main_menu_button_text is button_text:
     size 30
-    color "#08608f"
-    hover_color "#0f63c9" # Цвет текста при наведении
+    color "#e8e8e8"
+    hover_color "#ffffff" # Цвет текста при наведении
     # idle_color - цвет в обычном состоянии
     # selected_idle_color - цвет выбранной кнопки
     # selected_hover_color - цвет выбранной кнопки при наведении
+    # Горизонтальное выравнивание текста по центру кнопки
+    xalign 0.5
+    # Вертикальное выравнивание текста по центру кнопки
+    yalign 0.5
 
 # Теперь самое интересное - свечение.
 # Проще всего сделать это, подменив фон кнопки.
@@ -521,11 +525,12 @@ style main_menu_button:
     # Фон при наведении мыши (с эффектом свечения)
     hover_background "gui/main_menu/button_hover.png"
     # Выравнивание текста внутри кнопки
-    text_align 0.5
     # Убираем стандартные отступы, если нужно
     #padding (0, 0)
     #left_padding 0
     #right_padding 0
+    xmargin 0
+    ymargin 0
 
 # Стили для саб-меню
 style sub_menu_frame:

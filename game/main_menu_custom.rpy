@@ -8,6 +8,10 @@ init python:
             renpy.music.play(main_menu_music_unlocked_1, fadein=1.0)
         elif persistent.main_menu_level == 2:
             renpy.music.play(main_menu_music_unlocked_2, fadein=1.0)
+        elif persistent.main_menu_level == 3:
+            renpy.music.play(main_menu_music_unlocked_3, fadein=1.0)
+        elif persistent.main_menu_level == 4:
+            renpy.music.play(main_menu_music_unlocked_4, fadein=1.0)
 
 ################################################################################
 ## 1. Главное меню (Полная замена стандартного)
@@ -26,6 +30,10 @@ screen main_menu():
         add "main_menu_bg_unlocked_1"
     elif persistent.main_menu_level == 2:
         add "main_menu_bg_unlocked_2"
+    elif persistent.main_menu_level == 3:
+        add "main_menu_bg_unlocked_3"
+    elif persistent.main_menu_level == 4:
+        add "main_menu_bg_unlocked_4"
     
     # Баннер-логотип сверху
     add "main_menu_logo" xalign 0.5 ypos 25
@@ -74,19 +82,19 @@ screen settings_menu():
             textbutton _("Назад") action ShowMenu("main_menu") style "sub_menu_button"
 
 # Экран выбора языка (если у вас его еще нет)
-screen language_selection_screen():
-    modal True
-    tag menu
-    
-    use game_menu(_("Выбор языка")):
-        vbox:
-            xalign 0.5
-            yalign 0.5
-            spacing 15
+    #screen language_selection_screen():
+        #modal True
+        #tag menu
+        
+        #use game_menu(_("Выбор языка")):
+            #vbox:
+                #xalign 0.5
+                #yalign 0.5
+                #spacing 15
 
-            # Пример:
-            textbutton "Русский" action [Language(None), Return()]
-            textbutton "English" action [Language("english_us"), Return()]
+                # Пример:
+                #textbutton "Русский" action [Language(None), Return()]
+                #textbutton "English" action [Language("english_us"), Return()]
 
 
 ################################################################################

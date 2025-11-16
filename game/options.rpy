@@ -144,7 +144,10 @@ define config.window_hide_transition = Dissolve(.2)
 ## секунду.
 
 default preferences.text_cps = 35
-
+default preferences.volume.main = 1
+default preferences.volume.music = 0.5
+default preferences.volume.sfx = 0.5
+default preferences.volume.voice = 0.5
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а
 ## от 0 до 30 — вполне допустимый диапазон.

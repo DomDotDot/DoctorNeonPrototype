@@ -13,10 +13,14 @@
         image main_menu_bg_default = "gui/main_menu/background_default.jpg"
         image main_menu_bg_unlocked_1 = "gui/main_menu/background_unlocked_1.jpg"
         image main_menu_bg_unlocked_2 = "gui/main_menu/background_unlocked_2.jpg"
+        image main_menu_bg_unlocked_3 = "gui/main_menu/background_unlocked_3.jpg"
+        image main_menu_bg_unlocked_4 = "gui/main_menu/background_unlocked_4.jpg"
 
-        define main_menu_music_default = "audio/music/Menu/Depersonalization-Backstage.opus"
-        define main_menu_music_unlocked_1 = "audio/music/Menu/SilentGirl.mp3"
-        define main_menu_music_unlocked_2 = "audio/music/Menu/SilentGirl.mp3"
+        define main_menu_music_default = "audio/music/BGM/NightMare.opus"
+        define main_menu_music_unlocked_1 = "audio/music/BGM/FearForUnreal.opus"
+        define main_menu_music_unlocked_2 = "audio/music/BGM/WitheredFlower.opus"
+        define main_menu_music_unlocked_3 = "audio/music/MeBGMnu/Sorrowless.opus"
+        define main_menu_music_unlocked_4 = "audio/music/BGM/BuzzingGoodbye.opus"
 
 
         stop music fadeout 1.0
@@ -39,11 +43,13 @@
 
         label chapter_2:
                 call chapter_2_rpy from _call_chapter_2_rpy
+                $ persistent.main_menu_level = 2
 
 
 
         label chapter_3:
                 call chapter_3_rpy from _call_chapter_3_rpy
+                $ persistent.main_menu_level = 3
 
 
         
@@ -53,9 +59,8 @@
 
 
         label chapter_4_5:
+                $ persistent.main_menu_level = 4
                 call chapter_4_5_rpy
-                $ persistent.main_menu_level = 2
-
 
 
         label chapter_5:
