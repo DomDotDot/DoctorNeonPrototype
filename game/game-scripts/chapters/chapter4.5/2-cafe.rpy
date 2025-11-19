@@ -3,7 +3,7 @@ label chapter4_5_cafe_scene:
     # Музыка меняется на более напряженную, "городскую"
     # play music "music/BGM/VeritasCity_ChaseTheme.opus" loop
     
-    scene bg chapter_4_veritas_side_street_morning with fade
+    scene bg chapter_4-5_veritas-alleway-morning with fade
     
     narrator """
     Я бежала.
@@ -24,7 +24,7 @@ label chapter4_5_cafe_scene:
     # Музыка сменяется на более спокойную, но все еще тревожную
     # play music "music/BGM/VeritasCity_CafeTheme.opus" loop fadein 2.0
     
-    scene bg chapter_4_veritas_cafe_exterior with dissolve
+    #scene bg chapter_4_veritas_cafe_exterior with dissolve
     
     narrator """
     Я нашла его на одной из боковых улиц. Небольшое, уютное кафе под вывеской 'Сахарная Комета'.
@@ -34,7 +34,7 @@ label chapter4_5_cafe_scene:
     Собрав всю волю в кулак, я вошла внутрь.
     """
     
-    scene bg chapter_4_veritas_cafe_interior with fade
+    show cg cg30_1 with fade
     show neon neutral at right with dissolve
     
     narrator """
@@ -87,6 +87,8 @@ label chapter4_5_cafe_scene:
     Это казалось... довольно забавным совпадением. Просто деталь. Девичьи разговоры. Я не придала этому значения. В моем мире данные имели структуру, а не вкус.
     """
 
+    show cg cg30_2 with dissolve
+
     "Официантка" "Ваш 'Галактический завтрак', Сара! Приятного аппетита!"
 
     narrator """
@@ -96,6 +98,8 @@ label chapter4_5_cafe_scene:
     """
 
     "Официантка" "Мы тут посмотрели... Вы, оказывается, наш постоянный клиент! Заглядываете к нам почти каждый день! В честь этого, примите от заведения небольшой комплимент — наш фирменный десерт 'Медовый Астероид'"
+
+    show cg cg30_3 with dissolve
 
     narrator """
     Она с улыбкой поставила передо мной вторую тарелку.
@@ -114,6 +118,8 @@ label chapter4_5_cafe_scene:
     neon "{=thoughts}Как и все остальные девушки из Академии...}"
     
     neon "Нет-нет, что вы... Очень... аппетитно выглядит. Спасибо."
+
+    show cg cg30_4 with dissolve
     
     narrator """
     Официантка, довольная, ушла. А я осталась сидеть перед этим десертом.
