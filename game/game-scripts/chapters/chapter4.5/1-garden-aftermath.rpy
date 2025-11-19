@@ -1,6 +1,6 @@
 label chapter4_5_garden_aftermath:
 
-    scene bg chapter_4_botanical_garden_interior_night with Dissolve(1.0)
+    scene bg chapter_4-5_garden-bonatic-interior-morning with Dissolve(1.0)
     play music "music/BGM/FloraUndergrowth.opus" loop
 
     narrator """
@@ -71,6 +71,8 @@ label chapter4_5_garden_aftermath:
     neon "У выхода, говорите? А... не могли бы вы меня проводить? К выходу, в смысле. Я, кажется, сама не помню, как сюда попала... Да... неловко.. хе-хе..."
 
     "Сотрудник Сада" "Конечно, без проблем! Идемте за мной."
+
+    scene bg chapter_4-5_garden-bonatic-entrance with fade
 
     narrator """
     Мы шли по извилистым дорожкам, спускались по стеклянным лестницам. Оказывается, я забралась на самый верхний, четвертый ярус сада.
