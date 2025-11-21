@@ -46,9 +46,9 @@ label splashscreen:
 
         call screen content_warning
         
-        call screen splash_settings
+        #call screen splash_settings
 
-        call screen preferences
+        #call screen preferences
 
         ## This screen will not appear in subsequent launches of the game when
         ## the following variable becomes true.

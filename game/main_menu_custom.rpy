@@ -243,13 +243,13 @@ screen graphics_settings_screen():
                     style_prefix "settings_slider"
                     spacing 20
 
-                    label _("Скорость текста")
-                    bar value Preference("text speed")
+                    label _("")
+                    #bar value Preference("text speed")
 
                     null height 20
 
-                    label _("Скорость авточтения")
-                    bar value Preference("auto-forward time")
+                    label _("")
+                    #bar value Preference("auto-forward time")
             
             # Отступ перед кнопкой "Назад"
             null yfill True
