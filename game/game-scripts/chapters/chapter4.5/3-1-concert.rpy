@@ -184,8 +184,8 @@ label chapter4_5_concert_start:
     """
     scene black with Fade(2.5, 1, 0.5)
 
-    show carol sitting entranced at left
-    show neon suspicious at right
+    show carol sitting entranced at left with dissolve
+    show neon flustered imagining at right with dissolve
     
     narrator """
         И то, что я увидела, заставило меня забыть о музыке.
