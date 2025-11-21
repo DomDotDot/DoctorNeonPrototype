@@ -35,7 +35,6 @@ label chapter4_5_cafe_scene:
     """
     
     show cg cg30_1 with fade
-    show neon neutral at right with dissolve
     
     narrator """
     Я села за самый дальний столик в углу, спиной к стене, лицом к выходу. Привычка беглеца.
