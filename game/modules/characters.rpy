@@ -57,4 +57,4 @@ define carol = Character(_('Кэрол'), color="#33dad4", image="carol", ctc="c
 define meryl = Character(_('Мэрил Кендрик'), color="#e87a90", image="meryl", ctc="ctc_blink", ctc_position="nestled")
 define akari = Character(_('Учительница Акари'), color="#1885c8fd", image="akari", ctc="ctc_blink", ctc_position="nestled")
 define kai = Character(_('Кай'), color="#5d19c9fd", image="kai", ctc="ctc_blink", ctc_position="nestled")
-define narl = Character(_('Нари'), color="#1c9121", image="nari", ctc="ctc_blink", ctc_position="nestled")
+define nari = Character(_('Нари'), color="#863b97", image="nari", ctc="ctc_blink", ctc_position="nestled")
