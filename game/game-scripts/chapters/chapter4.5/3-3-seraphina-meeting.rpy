@@ -1,6 +1,6 @@
 label chapter4_5_concert_end:
 
-    scene bg chapter_4_veritas_expo_corridor with fade
+    show cg cg32_5 with fade
     play music "music/BGM/NarcissismV2_Tense.opus" loop
 
     narrator """
