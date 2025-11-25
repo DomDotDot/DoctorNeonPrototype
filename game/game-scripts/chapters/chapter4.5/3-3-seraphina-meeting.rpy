@@ -515,8 +515,6 @@ label chapter4_5_concert_end:
     """
     show cg cg33_4 as ghost_cg at dizzy_ghost_anim
 
-    show layer master:
-        ease 2.0 matrixcolor TintMatrix("#ffdddd") * SaturationMatrix(0.7)
     
     narrator "Мир поплыл перед глазами."
 
