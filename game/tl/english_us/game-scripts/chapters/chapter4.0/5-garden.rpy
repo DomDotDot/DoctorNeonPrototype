@@ -327,20 +327,20 @@ translate english_us chapter4_0_garden_dialogue_ea9ee062:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
 translate english_us chapter4_0_garden_dialogue_d92336cf:
 
-    # seraphina neutral2 "Неон... ведь так?"
-    seraphina neutral2 "Neon... right?"
+    # seraphina neutral "Неон... ведь так?"
+    seraphina neutral "Neon... right?"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
 translate english_us chapter4_0_garden_dialogue_32543d45:
 
-    # seraphina neutral2 "Ты мне нравишься!"
-    seraphina neutral2 "I like you!"
+    # seraphina neutral "Ты мне нравишься!"
+    seraphina neutral "I like you!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
 translate english_us chapter4_0_garden_dialogue_50107b8b:
 
-    # seraphina neutral2 "Подойди-ка сюда."
-    seraphina neutral2 "Come over here."
+    # seraphina neutral "Подойди-ка сюда."
+    seraphina neutral "Come over here."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:195
 translate english_us chapter4_0_garden_dialogue_127dbea8:
@@ -369,8 +369,8 @@ translate english_us chapter4_0_garden_dialogue_3134a75f:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:204
 translate english_us chapter4_0_garden_dialogue_86dc991f:
 
-    # seraphina neutral2 "Подойди, не бойся!"
-    seraphina neutral2 "Come on, don't be scared!"
+    # seraphina neutral "Подойди, не бойся!"
+    seraphina neutral "Come on, don't be scared!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:206
 translate english_us chapter4_0_garden_dialogue_36e125e6:
@@ -429,8 +429,8 @@ translate english_us chapter4_0_garden_dialogue_5a832881:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:227
 translate english_us chapter4_0_garden_dialogue_d2a21e3a:
 
-    # seraphina neutral2 "Вот! Держи!"
-    seraphina neutral2 "Here! Take this!"
+    # seraphina neutral "Вот! Держи!"
+    seraphina neutral "Here! Take this!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:228
 translate english_us chapter4_0_garden_dialogue_43d99bb9:
@@ -591,26 +591,26 @@ translate english_us chapter4_0_garden_dialogue_d2022867:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_000f6a50:
 
-    # seraphina neutral2 "Неон, я так рада, что встретила тебя! Но я, увы, ничем не могу помочь в поисках."
-    seraphina neutral2 "Neon, I'm so glad I met you! But unfortunately, I can't help you with your search."
+    # seraphina neutral "Неон, я так рада, что встретила тебя! Но я, увы, ничем не могу помочь в поисках."
+    seraphina neutral "Neon, I'm so glad I met you! But unfortunately, I can't help you with your search."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_1d4c6c9f:
 
-    # seraphina neutral2 "Хотя... знаешь что? У меня завтра концерт!"
-    seraphina neutral2 "Although... you know what? My concert is tomorrow!"
+    # seraphina neutral "Хотя... знаешь что? У меня завтра концерт!"
+    seraphina neutral "Although... you know what? My concert is tomorrow!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_b34b9765:
 
-    # seraphina neutral2 "Я дам тебе билет и пропуск за кулисы!"
-    seraphina neutral2 "I'll give you a ticket and a backstage pass!"
+    # seraphina neutral "Я дам тебе билет и пропуск за кулисы!"
+    seraphina neutral "I'll give you a ticket and a backstage pass!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_12dc1e40:
 
-    # seraphina neutral2 "После шоу у меня будет небольшая фан-встреча. Познакомимся поближе, поболтаем."
-    seraphina neutral2 "After the show, I'm having a little fan meet-and-greet. We can get to know each other better, chat."
+    # seraphina neutral "После шоу у меня будет небольшая фан-встреча. Познакомимся поближе, поболтаем."
+    seraphina neutral "After the show, I'm having a little fan meet-and-greet. We can get to know each other better, chat."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:301
 translate english_us chapter4_0_garden_dialogue_a8a287e9:
@@ -639,8 +639,8 @@ translate english_us chapter4_0_garden_dialogue_67fefbf6:
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:307
 translate english_us chapter4_0_garden_dialogue_1fd0475b:
 
-    # seraphina neutral2 "Я предупрежу охрану! А это — твой пропуск."
-    seraphina neutral2 "I'll let security know! And this—is your pass."
+    # seraphina neutral "Я предупрежу охрану! А это — твой пропуск."
+    seraphina neutral "I'll let security know! And this—is your pass."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:308
 translate english_us chapter4_0_garden_dialogue_c7dfd12c:
