@@ -122,8 +122,8 @@ label chapter4_0_academy:
     """
 
     scene bg chapter_4_academy-veritas-academy-gate with Dissolve(2.5)
-    show student1 neutral with dissolve
-    show student2 neutral at left with dissolve
+    show amy neutral with dissolve
+    show carol neutral at left with dissolve
     show neon proud at right with easeinright
     narrator "Мы подошли к девушкам. Я постаралась изобразить самую дружелюбную и немного потерянную улыбку."
 
