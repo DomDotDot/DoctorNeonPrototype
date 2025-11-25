@@ -47,4 +47,6 @@ image ctc_seraphina:
 
         easein_quint 1.0 zoom 0.85
         easeout_quint 0.5 zoom 1.0
+        easein_quint 0.25 zoom 0.85
+        easeout_quint 0.5 zoom 1.0
         repeat
