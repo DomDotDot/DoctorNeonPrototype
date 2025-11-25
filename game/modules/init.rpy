@@ -39,8 +39,12 @@ image ctc_neon:
     linear 0.25 alpha 1.0
 
 image ctc_seraphina:
-    "images/ctc/ctc_seraphina.png"
-    anchor (-2, -2)
-    ease 1.5 zoom 0.85
-    easeout 1.5 zoom 1.0
-    repeat
+        "images/ctc/ctc_seraphina.png"
+        anchor (0.5, 0.5)
+        align (0.5, 0.5)
+        yoffset 6  
+        xoffset 14
+
+        easein_quint 1.0 zoom 0.85
+        easeout_quint 0.5 zoom 1.0
+        repeat
