@@ -1,6 +1,6 @@
 label chapter4_5_concert_end:
 
-    show cg cg32_5 with fade
+    show cg cg33_1 with fade
     play music "music/BGM/NarcissismV2_Tense.opus" loop
 
     narrator """
@@ -11,7 +11,7 @@ label chapter4_5_concert_end:
         Мы прошли мимо выставочных павильонов, свернули в служебный коридор.
     """
 
-    scene bg chapter_4_veritas_office_door with dissolve
+    show black with fade
     
     narrator """
         Она остановилась у неприметной двери без номера. Она ловко открыла ее ключ-картой..
@@ -21,7 +21,7 @@ label chapter4_5_concert_end:
 
     seraphina "Сюда! Прошу!"
     
-    scene bg chapter_4_veritas_office_interior with fade
+    scene bg chapter_4-5_veritas-expo-office with dissolve
 
     narrator "Я шагнула внутрь."
 
@@ -31,6 +31,7 @@ label chapter4_5_concert_end:
 
     # play sound "sfx/office_door_close_lock.mp3"
 
+    show cg cg33_2 with fade
     
     seraphina flustered """ 
     Фух... Наконец-то!
@@ -56,7 +57,7 @@ label chapter4_5_concert_end:
     Когда на тебя смотрят тысячи глаз, и ты должна быть идеальной, доступной, но недосягаемой для всех одновременно... Это так выматывает...
     """
 
-    scene bg chapter_4-5_veritas-expo-office with fade 
+    scene bg chapter_4-5_veritas-expo-office with fade
 
     narrator "Она отошла к небольшому бару в углу комнаты, отряхнув свое идеальное платье"
     narrator "Это был небольшой, но стильный офис. Панорамное окно с видом на здания города, диван, пара кресел, маленький столик с электрочайником."
