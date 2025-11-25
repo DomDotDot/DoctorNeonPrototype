@@ -497,21 +497,38 @@ label chapter4_5_concert_end:
     """
     
     narrator "Я слышала шок, растерянность и непонимание в ее голосе, полного отчаяния."
+
+    scene black with dissolve
     
-    scene bg chapter_4_veritas_expo_bridge_night with fade
+    show cg cg33_4 at dizzy_sway with dissolve
+    show cg cg33_4 as ghost_cg at dizzy_ghost_anim_light
     play music "music/BGM/FloraUndergrowth.opus" loop
 
     narrator """
-        Я снова шла по застекленному мосту обратно, к выходу. К Аргону. Город сменился "золотым часом", желтым закатом. Небо на западе окрасилось в оранжевые и желтые тона.
+        Я снова шла по застекленному мосту обратно, к выходу. К Аргону. Город сменился 'золотым часом', желтым закатом. Небо на западе окрасилось в оранжевые и желтые тона.
         
         В выставочном центре не было ни души.
         
         И тут меня накрыло. Резкая слабость, головокружение. Ноги стали ватными.
         
         Я оперлась о перила, глядя на парк внизу. Там, на скамейке, сидела счастливая парочка, обнявшись.
-        
-        Мир поплыл перед глазами.
-        
+    """
+    show cg cg33_4 as ghost_cg at dizzy_ghost_anim
+
+    show layer master:
+        ease 2.0 matrixcolor TintMatrix("#ffdddd") * SaturationMatrix(0.7)
+    
+    narrator "Мир поплыл перед глазами."
+
+    scene black with { "master" : Dissolve(10.0) }
+    with { "effect": dissolve }
+    stop sound fadeout 10.0
+
+    show layer master:
+        matrixcolor IdentityMatrix()
+
+
+    narrator"""    
         Я сползла по стеклу на пол, теряя сознание.
 
         Последнее, что я услышала, — это тихий, размеренный стук каблуков по кафелю, приближающийся из дальнего конца коридора.
