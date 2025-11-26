@@ -536,6 +536,5 @@ label chapter4_5_concert_end:
     "???" "Наконец-то..."
     
     # play sound "sfx/heels_on_marble_approaching_slow.mp3"
-    scene black with fade
 
 return
