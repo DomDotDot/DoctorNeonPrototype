@@ -5,7 +5,7 @@ label chapter4_5_kai_ito_interlude:
     
     # ПЕРЕКЛЮЧЕНИЕ ПЕРСПЕКТИВЫ
     
-    scene bg chapter_4_veritas_academy_gate_day with fade
+    scene bg chapter_4_academy-veritas-academy-gate-2 with fade
     
     narrator """
     Меня зовут Кай Ито.
@@ -19,6 +19,11 @@ label chapter4_5_kai_ito_interlude:
     Они не знают, что мой 'правый глаз' видит потоки энергии, не знают, что я чувствую искажения в ауре этого мира.
     
     Вот, например, она.
+    """
+
+    show cg cg36_1 with dissolve
+
+    narrator """
 
     Наша 'айдол' С ее огненно-рыжими волосами и изумрудными глазами. Она, как всегда, была в центре внимания.
     
@@ -33,6 +38,11 @@ label chapter4_5_kai_ito_interlude:
     Так противно. Это маска, скрывающая ее истинную сущность. Типичный троп из аниме.
 
     Но кто мне поверит? Да и некому говорить...
+    """
+
+    scene bg chapter_4-5_kaii-flashback with fade
+
+    narrator """
 
     Биология. Самый скучный предмет. Я сижу за своей задней партой у окна, и наблюдаю за облаками.
     
@@ -81,11 +91,14 @@ label chapter4_5_kai_ito_interlude:
     hide kai
     hide akari
 
-    narrator """
-    В классе повисла тишина. Даже Акари-сенсей удивленно моргнула. Она не ожидала такого точного ответа.
+    narrator "В классе повисла тишина. Даже Акари-сенсей удивленно моргнула. Она не ожидала такого точного ответа."
     
-    Урок закончился. Когда все начали выходить, она подозвала меня.
-    """
+
+    
+    scene bg chapter_4-5_kaii-flashback-sunset with Dissolve(5.0)
+
+    narrator "Урок закончился. Когда все начали выходить, она подозвала меня."
+
 
     show akari neutral at right with dissolve
     show kai neutral at left with dissolve
