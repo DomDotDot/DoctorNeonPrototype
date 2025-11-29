@@ -2,12 +2,12 @@
 
 label chapter4_5_dorm_way:
     
-    scene bg chapter_4_veritas_streets_night with fade
+    scene black
     play music "music/BGM/VeritasCity_NightTheme_Melancholy.opus" loop
-    show neon neutral at right
-    show argon suit_apathy at left
     
     neon "Аргон, тише! Смотри, там что-то про Академию!"
+
+    scene bg chapter_4-5-veritas-central with fade
     
     narrator "Мы шли по одной из центральных площадей, обсуждая план проникновения в общежитие. На огромном голографическом экране, где обычно крутили рекламу, шел экстренный выпуск новостей."
 
@@ -24,9 +24,13 @@ label chapter4_5_dorm_way:
     
     Вероятно, это связано с какими-то личными, семейными проблемами, о которых мы не знали...
     """
+
+    show argon suit_apathy at left with dissolve
     
     argon "Лучший ученик. Куча друзей. Врут. И даже не краснеют."
     
+    show neon neutral at right with dissolve
+
     neon "Но... зачем?"
     
     argon "Репутация, Неон. В этом городе репутация — это все. Проще объявить парня самоубийцей с 'семейными проблемами', чем признать, что в их идеальной Академии не всё так однозначно."
@@ -35,7 +39,7 @@ label chapter4_5_dorm_way:
 
 label chapter4_5_dorm_investigation:
 
-    scene bg chapter_4_veritas_dorm_exterior_night with fade
+    scene bg chapter_4-5_veritas-dorm-exterior with fade
     play music "music/BGM/Veritas_Dorm_Suspense.opus" loop
 
     narrator """
@@ -46,11 +50,19 @@ label chapter4_5_dorm_investigation:
         Мы без труда нашли четвертый корпус общежития. Огромное, современное здание из стекла и бетона, больше похожее на отель, чем на студенческую общагу.
     """
     
-    scene bg chapter_4_veritas_dorm_lobby with dissolve
+    scene bg chapter_4-5_veritas-dorm-lobby with dissolve
+
+    show neon neutral at flip 
+
+    neon "Вот и ресепшен. Похоже, тут круглосуточная охрана и консьерж."
+    
+    show argon suit_apathy at center with dissolve
     
     narrator "Внутри, за стойкой ресепшена, сидела молоденькая девушка-консьерж, уткнувшись в книгу."
     
     argon "{=whisper}Стой здесь. Я разберусь.{/whisper}"
+
+    hide argon suit_apathy with easeoutright
     
     narrator """
         Аргон уверенно подошел к стойке.
@@ -76,7 +88,7 @@ label chapter4_5_dorm_investigation:
     
     narrator "Мы прошли мимо нее к лифтам. Я старалась не дышать."
     
-    scene bg chapter_4_veritas_dorm_corridor with fade
+    scene black with fade
     
     narrator "Четвертый этаж. Длинный, тихий коридор, устланный мягким ковром. Каждая дверь вела в отдельные апартаменты. Роскошь, о которой в Аномике не могли и мечтать."
     
@@ -90,7 +102,7 @@ label chapter4_5_dorm_investigation:
         Внутри было темно.
     """
     
-    scene bg chapter_4_veritas_dorm_sara_room_dark with fade
+    scene bg chapter_4-5_veritas-dorm-room with dissolve
     
     narrator """
         Мы вошли внутрь.
@@ -133,6 +145,8 @@ label chapter4_5_dorm_investigation:
     
     narrator "Я включила фонарик на своем телефоне. Луч вырвал из темноты сцену, которая навсегда выжжется в моей памяти."
     
+    show cg cg36-1 with Fade(0.125, 0.125, 1.5)
+    show cg cg36-1 as ghost_cg at dizzy_ghost_anim_light169
     #scene bg chapter_4_veritas_dorm_sara_room_body with dissolve
     
     narrator """
@@ -165,6 +179,8 @@ label chapter4_5_dorm_investigation:
 
     narrator "Он отшатнулся, прикрыв рот рукой. Я же, парализованная ужасом, не могла отвести взгляд."
     narrator "Аргон смотрел на высушенное тело девушки, и я видела, как его лицо исказилось от боли. Он видел не Сару. Он видел Лили."
+
+    scene bg chapter_4-5_veritas-dorm-room with dissolve
 
     argon "{=whisper}С ней... с ней могли сделать то же самое...{/whisper}"
     
@@ -304,6 +320,8 @@ label chapter4_5_dorm_investigation:
     argon "Всё...?"
     
     neon "Я... я готова. Пора идти."
+
+    scene black with fade
     
     narrator "Он медленно обернулся. Он не смотрел на тело. Он смотрел на меня. В его глазах была не жалость. А ужас. Он ужасался не тому, что я сделала. А тому, что я смогла это сделать."
     

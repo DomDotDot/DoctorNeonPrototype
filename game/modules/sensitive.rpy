@@ -10,5 +10,5 @@ image bg bedroom = ConditionSwitch(
 # То же самое для CG (персонажей)
 image cg cg36-1 = ConditionSwitch(
     "persistent.sensitive_mode", "images/cg/cg cg36-1a.jpg",
-    "True", "images/cg/cg cg36-1b.jpg"
+    "True", "images/cg/cg cg-36-1b.jpg"
 )

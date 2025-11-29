@@ -11,9 +11,49 @@ transform dizzy_sway:
         ease 4.0 yoffset -10
         repeat
 
+transform dizzy_sway169:
+    anchor (0,0)
+    subpixel True # Для плавности движения
+    parallel:
+        ease 3.0 xoffset 15
+        ease 3.0 xoffset -15
+        repeat
+    parallel:
+        ease 4.0 yoffset 10
+        ease 4.0 yoffset -10
+        repeat
+
 
 transform dizzy_ghost_anim_light:
     anchor (0.125, 0.125)
+    alpha 0.0             # Начинаем с невидимого
+    
+    # Блок движения (вправо-вниз, потом влево-вверх)
+    block:
+        parallel:
+            # Появляется и исчезает
+            ease 1.0 alpha 0.4 
+            ease 1.0 alpha 0.0
+        parallel:
+            # Плывет вправо-вниз
+            ease 2.0 xoffset 20 yoffset 10
+        
+        # Мгновенный возврат в центр (пока он прозрачный)
+        xoffset 0 yoffset 0
+        
+        parallel:
+            # Снова появляется
+            ease 1.0 alpha 0.4
+            ease 1.0 alpha 0.0
+        parallel:
+            # Плывет в ДРУГУЮ сторону (влево-вверх)
+            ease 2.0 xoffset -20 yoffset -10
+            
+        xoffset 0 yoffset 0
+        repeat
+
+transform dizzy_ghost_anim_light169:
+    anchor (0,0)
     alpha 0.0             # Начинаем с невидимого
     
     # Блок движения (вправо-вниз, потом влево-вверх)
