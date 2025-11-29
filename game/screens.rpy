@@ -806,6 +806,11 @@ screen preferences():
                     label _("✍️📜")
                     textbutton "Русский" action Language(None)
                     textbutton "English (US)" action Language("english_us")
+                vbox:
+                    style_prefix "check"
+                    textbutton _("Включение Чувствительнного контента (18+)"):
+                        action ToggleField(persistent, "sensitive_mode")
+                        tooltip _("Включает отображение откровенных сцен.")
 
             null height (4 * gui.pref_spacing)
 
