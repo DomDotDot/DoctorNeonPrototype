@@ -240,14 +240,13 @@ screen graphics_settings_screen():
 
                 # --- Правая колонка ---
                 vbox:
-                    vbox:
                     style_prefix "settings_check" # Используем тот же стиль кнопок
                     spacing 15 # Расстояние такое же, как слева
 
                     label _("Контент")
                     
                     # Кнопка-тумблер. Она будет подсвечена, если режим ВКЛЮЧЕН.
-                    textbutton _("Чувствительный контент (18+)"):
+                    textbutton _("Включение Чувствительнного контента (18+)"):
                         action ToggleField(persistent, "sensitive_mode")
                         tooltip _("Включает отображение откровенных сцен.")
 
