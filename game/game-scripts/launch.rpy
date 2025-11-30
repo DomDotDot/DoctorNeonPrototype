@@ -46,6 +46,8 @@ label splashscreen:
 
         call screen content_warning
         
+        call screen content_warning_screen with dissolve
+        
         #call screen splash_settings
 
         #call screen preferences
