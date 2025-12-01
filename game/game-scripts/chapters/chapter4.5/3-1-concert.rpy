@@ -213,7 +213,7 @@ label chapter4_5_concert_start:
     
     neon surprised "{=whisper}Эй... ты в порядке?{/whisper}"
 
-    stop music fadeout 0.125
+    stop ambience fadeout 0.125
     show carol sitting flustered with dissolve
 
     narrator """
