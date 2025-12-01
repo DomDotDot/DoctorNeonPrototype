@@ -8,6 +8,8 @@ label dream_sequence_japan_4:
 
     label dream_sequence_japan_4_awakening:
 
+    play music "music/BGM/ExtinguishedFlame.mp3"
+
     # (Начало сцены — Неон "растворяется" после поцелуя Лили)
     
     narrator """
