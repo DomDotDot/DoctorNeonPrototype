@@ -1,7 +1,7 @@
 label chapter4_5_garden_aftermath:
 
     scene bg chapter_4-5_garden-bonatic-interior-morning with Dissolve(1.0)
-    play music "music/BGM/FloraUndergrowth.opus" loop
+    play music "music/BGM/EyesoftheForest.opus" loop
 
     narrator """
     Четыре часа. Или пять? Время потеряло свой счет.
@@ -73,6 +73,7 @@ label chapter4_5_garden_aftermath:
     "Сотрудник Сада" "Конечно, без проблем! Идемте за мной."
 
     scene bg chapter_4-5_garden-bonatic-entrance with fade
+    play music "music/BGM/ChaosMind.mp3" fadein 5.0 fadeout 5.0
 
     narrator """
     Мы шли по извилистым дорожкам, спускались по стеклянным лестницам. Оказывается, я забралась на самый верхний, четвертый ярус сада.
