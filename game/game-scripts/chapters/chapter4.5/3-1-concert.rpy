@@ -151,7 +151,7 @@ label chapter4_5_concert_start:
         Она называется... 'Angel Eyes'.
     """
     
-    # play music "music/BGM/Seraphina_AngelEyes.opus" loop
+    play music "music/BGM/AngelEyes.mp3" loop
     
     narrator """
         Зазвучала музыка. Нежная, обволакивающая мелодия и чистый, высокий голос Серафины.
@@ -182,7 +182,13 @@ label chapter4_5_concert_start:
 
         Я искоса посмотрела на свою спутницу, чтобы спросить её о том же самом.
     """
-    scene black with Fade(2.5, 1, 0.5)
+    $ renpy.music.set_volume(0.75, delay=2.5, channel="music")
+    scene black with Fade(1, 1, 0.5)
+
+    $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
+    # Опционально: можно немного снизить громкость, так как за стеной обычно тише
+
+    play ambience "music/BGM/Unlocked.opus" fadein 10.0 volume 1
 
     show carol sitting entranced at left with dissolve
     show neon flustered imagining at right with dissolve
@@ -207,6 +213,7 @@ label chapter4_5_concert_start:
     
     neon surprised "{=whisper}Эй... ты в порядке?{/whisper}"
 
+    stop music fadeout 0.125
     show carol sitting flustered with dissolve
 
     narrator """
@@ -234,6 +241,9 @@ label chapter4_5_concert_start:
         
         А я больше не могла сосредоточиться на музыке. Я смотрела на сцену, на сияющую фигуру Серафины, и чувствовала, как по спине пробегает холод.
     """
+
+    $ renpy.music.set_audio_filter("music", None)
+    $ renpy.music.set_volume(1.0, delay=0.5, channel="music")
     
     # Музыка заканчивается, звучат овации
     # play sound "sfx/concert_end_applause.mp3" loop
