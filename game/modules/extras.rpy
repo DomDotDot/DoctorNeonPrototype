@@ -101,7 +101,7 @@ screen content_warning_screen():
             # Разделительная черта (красная)
             add Solid("#ff3333") xsize 800 ysize 2 xalign 0.5 alpha 0.5
 
-            text "Данная визуальная новелла содержит материалы, предназначенные исключительно для взрослой аудитории." xalign 0.5
+            text _("Данная визуальная новелла содержит материалы, предназначенные исключительно для взрослой аудитории.") xalign 0.5
             
             null height 20
 
@@ -158,9 +158,9 @@ screen content_warning_screen():
 
                         # Заголовок состояния
                         if persistent.sensitive_mode:
-                            text "РЕЖИМ 18+: ВКЛЮЧЕН" color "#ff3333" size 40 bold True
+                            text _("РЕЖИМ 18+: ВКЛЮЧЕН") color "#ff3333" size 40 bold True
                         else:
-                            text "РЕЖИМ 18+: ВЫКЛЮЧЕН" color "#aaaaaa" size 40 bold True
+                            text _("РЕЖИМ 18+: ВЫКЛЮЧЕН") color "#aaaaaa" size 40 bold True
 
                         # Пояснение (критически важно для понимания)
                         text "Нажмите, чтобы переключить (влияет только на CG)" color "#888888" size 20
