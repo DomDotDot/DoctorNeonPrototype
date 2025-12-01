@@ -3,11 +3,11 @@
 label chapter4_5_dorm_way:
     
     scene black
-    play music "music/BGM/VeritasCity_NightTheme_Melancholy.opus" loop
     
     neon "Аргон, тише! Смотри, там что-то про Академию!"
 
     scene bg chapter_4-5-veritas-central with fade
+    play music "music/BGM/CityIntroSequence.mp3" loop
     
     narrator "Мы шли по одной из центральных площадей, обсуждая план проникновения в общежитие. На огромном голографическом экране, где обычно крутили рекламу, шел экстренный выпуск новостей."
 
