@@ -45,3 +45,47 @@ translate english_us strings:
     old "presplash"
     new "presplash"
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+translate english_us strings:
+
+    # game/modules/extras.rpy:99
+    old "ВНИМАНИЕ: КОНТЕНТ 18+"
+    new "WARNING: ADULT CONTENT (18+)"
+
+    # game/modules/extras.rpy:108
+    old "{b}Игра затрагивает следующие темы:{/b}"
+    new "Game contains such themes:"
+
+    # game/modules/extras.rpy:110
+    old "• {b}Жестокое насилие и кровь:{/b} Сцены физической расправы, использование холодного и огнестрельного оружия, детальные описания травм."
+    new "• {b}Violence and blood:{/b} Scenes of physical violence, use of cold weapons and firearms, detailed descriptions of injuries."
+
+    # game/modules/extras.rpy:112
+    old "• {b}Боди-хоррор и Инсектофобия:{/b} Детальные описания и изображения изуродованных тел, паразитирование насекомых в человеческом теле, трипофобия. Элементы боди-хоррора."
+    new "• Body horror and insectophobia: Detailed descriptions and images of mutilated bodies, insects parasitizing the human body, trypophobia. Elements of body horror."
+
+    # game/modules/extras.rpy:114
+    old "• {b}Психологическое насилие:{/b} Газлайтинг, манипуляции, потеря контроля над телом и разумом, темы/упоминание суицида и селфхарма."
+    new "• Psychological abuse: Gaslighting, manipulation, loss of control over body and mind, themes/mentions of suicide and self-harm."
+
+    # game/modules/extras.rpy:116
+    old "• {b}Сексуальный подтекст и Недобровольные действия:{/b} Сцены с намеками на принуждение, домогательства, употребление веществ, лишающих воли, и фетишизированного насилия. Фан-сервис и нетрадиционные отношения."
+    new "• Sexual undertones and involuntary actions: Scenes with hints of coercion, harassment, use of substances that impair judgment, and fetishized violence. Fan service and non-traditional relationships."
+
+    # game/modules/extras.rpy:118
+    old "• {b}Прочее:{/b} Ненормативная лексика, употребление алкоголя, осквернение тел умерших."
+    new "• {b}Other:{/b} Profanity, alcohol consumption, desecration of dead bodies."
+
+    # game/modules/extras.rpy:168
+    old "ВАЖНО: Настройка «Режим 18+» скрывает только откровенные и особо жестокие иллюстрации (CG). Текстовое повествование остается неизменным и может вызвать дискомфорт независимо от настроек графики."
+    new "IMPORTANT: The “18+ Mode” setting only hides explicit and particularly violent illustrations (CG). The text narrative remains unchanged and may cause discomfort regardless of the graphics settings."
+
+    # game/modules/extras.rpy:170
+    old "Если вам нет 18 лет или вы чувствительны к подобным темам - пожалуйста, воздержитесь от игры."
+    new "f you are under 18 years of age or sensitive to such topics, please refrain from playing."
+
+    # game/modules/extras.rpy:176
+    old "ПОДТВЕРДИТЬ И НАЧАТЬ"
+    new "CONFIRM AND PLAY"
+
