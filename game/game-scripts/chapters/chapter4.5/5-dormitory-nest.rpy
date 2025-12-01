@@ -7,7 +7,7 @@ label chapter4_5_dorm_way:
     neon "Аргон, тише! Смотри, там что-то про Академию!"
 
     scene bg chapter_4-5-veritas-central with fade
-    play music "music/BGM/CityIntroSequence.mp3" loop
+    play music "music/BGM/CityIntroSequence.mp3" noloop
     
     narrator "Мы шли по одной из центральных площадей, обсуждая план проникновения в общежитие. На огромном голографическом экране, где обычно крутили рекламу, шел экстренный выпуск новостей."
 
@@ -40,7 +40,7 @@ label chapter4_5_dorm_way:
 label chapter4_5_dorm_investigation:
 
     scene bg chapter_4-5_veritas-dorm-exterior with fade
-    play music "music/BGM/Veritas_Dorm_Suspense.opus" loop
+    play music "music/BGM/Veritas_Dorm_Suspense.opus" noloop
 
     narrator """
         Территория Академии Веритас ночью была похожа на ухоженное, но безжизненное кладбище.

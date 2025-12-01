@@ -1,7 +1,7 @@
 label chapter4_5_garden_aftermath:
 
     scene bg chapter_4-5_garden-bonatic-interior-morning with Dissolve(1.0)
-    play music "music/BGM/EyesoftheForest.opus" loop
+    play music "music/BGM/EyesoftheForest.opus" fadein 10.0
 
     narrator """
     Четыре часа. Или пять? Время потеряло свой счет.
@@ -72,8 +72,7 @@ label chapter4_5_garden_aftermath:
 
     "Сотрудник Сада" "Конечно, без проблем! Идемте за мной."
 
-    scene bg chapter_4-5_garden-bonatic-entrance with fade
-    play music "music/BGM/ChaosMind.mp3" fadein 5.0 fadeout 5.0
+    scene black with fade
 
     narrator """
     Мы шли по извилистым дорожкам, спускались по стеклянным лестницам. Оказывается, я забралась на самый верхний, четвертый ярус сада.
@@ -84,6 +83,9 @@ label chapter4_5_garden_aftermath:
     
     'Ладно, неважно', — сказала я себе мысленно и, попрощавшись с садовником, шагнула к выходу.
     """
+
+    scene bg chapter_4-5_garden-bonatic-entrance with fade
+    play music "music/BGM/ChaosMind.mp3" fadein 5.0 fadeout 5.0
 
     "Сотрудник Сада" "Эй! Дамочка, постойте."
 
@@ -117,11 +119,11 @@ label chapter4_5_garden_aftermath:
     Я не гражданка. У меня нет работы. Я — никто. Но говорить ему это было опасно.
     """
 
-    neon "Работа? Ха-ха... не... нет... У меня нет работы, пока-что Я... лучше пойду."
+    neon "Работа? Ха-ха... не... нет... У меня нет работы, пока-что. Я... лучше пойду."
 
     "Сотрудник Сада" "Нет работы?! Вы... студентка, так?"
 
-    neon "Нет, я не студентка... если вы про Академию Веритас... Досвидание"
+    neon "Нет, я не студентка... если вы про Академию Веритас... Досвидание."
 
     narrator "Мне стало не по себе. Я быстро прошла через турникет и направилась к двери."
     

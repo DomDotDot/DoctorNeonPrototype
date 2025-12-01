@@ -1,7 +1,7 @@
 label chapter4_5_concert_start:
 
     scene bg chapter_4-5_veritas-alleway-noon with fade
-    play music "music/BGM/Prerogative.mp3" loop
+    play music "music/BGM/Prerogative.mp3" volume 0.5
 
     narrator """
         Я вышла из кафе на гудящие дневные улицы. Кофе взбодрил тело, но разум все еще был в тумане одержимости.
@@ -19,7 +19,9 @@ label chapter4_5_concert_start:
         Но все они были просто фоновым шумом. Главным был сигнал. И этот сигнал вел на концерт.
         """
     
+    stop music fadeout 5.0
     scene bg chapter_4-5_veritas-stadium-entrance with dissolve
+    play ambient "ambient/security-pass.mp3" fadein 5.0 fadeout 5.0
 
     narrator """
         У входа на стадион гудела многотысячная толпа. Яркие голографические афиши с улыбающейся Серафиной сменяли друг друга на стенах.
@@ -45,6 +47,7 @@ label chapter4_5_concert_start:
         Я прошла. Сердце бешено колотилось. Еще один барьер пройден. Никаких вопросов. Я снова была невидимкой.
     """
 
+    play ambient "ambient/concert-crowd1.mp3" fadein 5.0 fadeout 5.0
     narrator "Я шла по гулким коридорам стадиона, ведомая одной-единственной мыслью: 'Скорее бы все закончилось. Скорее бы поговорить с ней'."
     
     # play sound "sfx/body_bump_oof.mp3" with hpunch
@@ -56,22 +59,29 @@ label chapter4_5_concert_start:
     neon "Извините, я..."
 
     narrator "Я подняла голову и увидела знакомое лицо. Это была одна из студенток, с которыми мы говорили вчера. Та, что без хвостика."
+
+    show carol neutral1 at midright with dissolve
     
     student2 "Ой, это же вы! Та, что искала... подругу! Нашли?"
 
     narrator "Завершив свой вопрос, она не дожидаясь ответа начала задавать новый, не давая мне ответить."
 
+    show neon surprised at midleft with dissolve
+
     student2 "И вы все-таки пошли?! Ничего себе! А как вы достали билет? Их же раскупили за три месяца до анонса!"
 
     narrator "Ее удивление было искренним. Я лишь пожала плечами."
+    
 
-    neon "Скажем так, мне повезло. А где... ваша подруга? Ну, та, что с хвостиком."
+    neon neutral "Скажем так, мне повезло. А где... ваша подруга? Ну, та, что с хвостиком."
 
-    student2 "А, Эми? Представляете, написала час назад, что ужасно себя чувствует и не придет. Так обидно! Она так ждала этот концерт..."
+    student2 thinking "А, Эми? Представляете, написала час назад, что ужасно себя чувствует и не придет. Так обидно! Она так ждала этот концерт..."
     
     narrator "'Заболела'. Обычная история. Люди болеют. Но что-то в ее словах заставило меня почувствовать легкий холодок."
     
-    student2 "Ну ладно, раз уж мы тут вместе, пойдемте! У меня отличные места!"
+    student2 neutral "Ну ладно, раз уж мы тут вместе, пойдемте! У меня отличные места!"
+
+    scene black with Fade(2.5, 0.5, 0.5)
     
     narrator """
         Мы пошли по коридору. Она что-то весело щебетала о Серафине, а я почти ее не слушала.
@@ -86,7 +96,8 @@ label chapter4_5_concert_start:
     student2 "Ой, сейчас начнется! Быстрее! Идемте!"
     
     scene bg chapter_4-5_veritas-stadium-concert with fade
-    play music "music/BGM/Seraphina_Concert_Ambience.opus" loop
+    play ambient "ambient/before-concert.mp3" fadein 5.0 fadeout 5.0 volume 2
+    play sound "ambient/revolving-stage.mp3" fadein 5.0 fadeout 5.0 volume 0.125
 
     narrator """
         Зал был огромен. Настоящий стадион, превращенный в храм для одного божества. Тысячи людей, как единый организм, гудели в предвкушении. Тысячи глаз были устремлены на сцену.
@@ -103,6 +114,9 @@ label chapter4_5_concert_start:
         
         А потом толпа взревела.
     """
+    stop ambient fadeout 2.5
+    play sound "sfx/crowd-fan-excited.mp3" fadein 1.5
+
     # play sound "sfx/concert_lights_down_crowd_roar.mp3"
     show cg cg31_2 with dissolve
 
@@ -131,6 +145,9 @@ label chapter4_5_concert_start:
     Вы готовы подарить мне свои сердца?!
     """
 
+    play sound "sfx/crowd-fan-wohoo.mp3" fadein 1.5
+    play ambient "sfx/crowd-fan-cheer.mp3" fadein 1.5 noloop
+
     show cg cg31_4 with dissolve
     
     narrator """
@@ -150,7 +167,8 @@ label chapter4_5_concert_start:
         
         Она называется... 'Angel Eyes'.
     """
-    
+
+    play sound "sfx/crowd-fan-cheer.mp3" fadein 1.5
     play music "music/BGM/AngelEyes.mp3" loop
     
     narrator """
@@ -188,7 +206,7 @@ label chapter4_5_concert_start:
     $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
     # Опционально: можно немного снизить громкость, так как за стеной обычно тише
 
-    play ambience "music/BGM/Unlocked.opus" fadein 10.0 volume 1
+    play ambient "music/BGM/Unlocked.opus" fadein 10.0 volume 1
 
     show carol sitting entranced at left with dissolve
     show neon flustered imagining at right with dissolve
@@ -213,7 +231,7 @@ label chapter4_5_concert_start:
     
     neon surprised "{=whisper}Эй... ты в порядке?{/whisper}"
 
-    stop ambience fadeout 0.125
+    stop ambient fadeout 0.125
     show carol sitting flustered with dissolve
 
     narrator """
@@ -249,6 +267,9 @@ label chapter4_5_concert_start:
     # play sound "sfx/concert_end_applause.mp3" loop
     stop music fadeout 2.0
     show cg cg31_4 with dissolve
+
+    play sound "sfx/crowd-fan-clap2.mp3" fadein 1.5
+    play ambient "sfx/crowd-fan-clap1.mp3" noloop fadein 1.5
     
     narrator "Концерт закончился оглушительными овациями. Серафина, улыбаясь и посылая воздушные поцелуи, поблагодарила публику."
     
@@ -260,9 +281,12 @@ label chapter4_5_concert_start:
     А всех остальных — увидимся на увидимся на Комик-Коне Веритаса в следующем месяце, я готовлю для вас кое-что невероятное! Помните, ваше присутствие — это ваша любовь! Люблю вас!
     """
     
+    play sound "sfx/crowd-fan-excited" fadein 1.5
+    play ambient "sfx/crowd-fan-clap1.mp3" noloop fadein 1.5
     narrator "Она подмигнула толпе, и скрылась за кулисами. В зале вспыхнул яркий свет, вырывая меня из полумрака."
 
     scene bg chapter_4-5_veritas-stadium-concert with fade
+    play music "music/BGM/Prerogative.mp3" volume 0.5 fadein 2.5
 
     show carol sitting unease at left with dissolve
     show neon neutral at right with dissolve

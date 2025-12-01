@@ -223,7 +223,7 @@ label chapter4_5_nari_flashback:
     """
     
     show cg cg35_2 with fade
-    $ renpy.music.set_audio_filter("music", None)
+    $ renpy.music.set_audio_filter("music", None, replace=True)
 
     narrator """
         Она была одета в бежевый, уютный кардиган. Кардиган Серафины. Тот самый, который я так любила, потому что он пах её духами цветов.

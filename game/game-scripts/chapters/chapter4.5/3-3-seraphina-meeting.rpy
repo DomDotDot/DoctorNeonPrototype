@@ -1,7 +1,7 @@
 label chapter4_5_concert_end:
 
     show cg cg33_1 with fade
-    play music "music/BGM/NarcissismV2_Tense.opus" loop
+    #play music "music/BGM/NarcissismV2_Tense.opus" loop
 
     narrator """
         Серафина повела меня за собой, крепко держа за руку, ее холодные пальцы крепко сжимали мои. Мы шли вглубь выставочного центра, мимо пустых, темных павильонов.
@@ -13,6 +13,8 @@ label chapter4_5_concert_end:
 
     show black with fade
     
+    play sound "sfx/keycard-accepted.mp3"
+
     narrator """
         Она остановилась у неприметной двери без номера. Она ловко открыла ее ключ-картой..
         
@@ -27,17 +29,22 @@ label chapter4_5_concert_end:
 
     narrator "Как только я вошла, Серафина проскользнула следом и не успела я оглядеться, как дверь за моей спиной с громким щелчком захлопнулась."
 
+    play sound "sfx/door-slam1.mp3"
+    stop music fadeout 0.75
+
     narrator "Она прислонилась к двери спиной и устало выдохнула."
 
     # play sound "sfx/office_door_close_lock.mp3"
 
     show cg cg33_2 with fade
-    
+
     seraphina flustered """ 
     Фух... Наконец-то!
 
     Мы одни...
     """
+
+    play music "music/BGM/GRAYHEARTS.mp3" fadein 7.5
 
     narrator """
         Она прислонилась спиной к двери, приложив руку ко лбу.
@@ -47,7 +54,6 @@ label chapter4_5_concert_end:
         Она подбежала ко мне и, взяв мои руки, заглянула в глаза с виноватой улыбкой.
     """
 
-    play music "music/BGM/GRAYHEARTS.mp3" with fadein 2.5
 
     seraphina """
     Прости-прости-прости!
@@ -83,6 +89,7 @@ label chapter4_5_concert_end:
     Нам обеим нужно расслабиться~
     """
     
+    
     narrator """
     Ее голос был мягким, заботливым. Но я почувствовала... странное давление.
     
@@ -95,21 +102,26 @@ label chapter4_5_concert_end:
     Да, спасибо. Было бы неплохо.
     """
 
+    play sound "sfx/teacup-moving.mp3"
+
     narrator """
         Я согласилась не из-за этого странного 'шепота', а потому что хотела как можно скорее перейти к делу.
 
         Она с радостью засуетилась у чайника.
     
-        Пока она возилась с чайником, я осмотрелась. Дорогой офис. Все стерильно, безлично. Арендовано."
+        Пока она возилась с чайником, я осмотрелась. Дорогой офис. Все стерильно, безлично. Арендовано.
 
         А я села в кресло, пытаясь унять странное чувство тревоги.
         
         Ее голос был искренним, полным жалоб. Она пыталась вызвать сочувствие, расположить к себе. Но я ждала. Ждала, когда она перейдет к главному.
-        
-        Она поставила передо мной чашку. Я сделала глоток. Сладкий, с нотками жасмина, но с едва уловимым горьким послевкусием. Как ее слова.
         """
+    narrator"Она поставила передо мной чашку. Я сделала глоток. Сладкий, с нотками жасмина, но с едва уловимым горьким послевкусием. Как ее слова."
+
+    play sound "sfx/teacup-slide.mp3"
 
     neon "Спасибо. Серафина, о Селестии..."
+
+    play sound "sfx/teacup-pullout.mp3"
 
     narrator "Но меня перебивает Серафина, садясь в кресло напротив, вздыхая"
 
@@ -214,7 +226,8 @@ label chapter4_5_concert_end:
 
     show seraphina envious4 with { "master" : Dissolve(60.0) }
     with { "effect": dissolve }
-    
+    play sound "sfx/mosquito.mp3"
+
     narrator """
         Именно в этот момент я услышала его. Раздражающее, тонкое жужжание. Где-то над моим ухом.
         
@@ -224,6 +237,7 @@ label chapter4_5_concert_end:
         
         Но оно не улетало, продолжая назойливо виться у самого уха. 'Потусторонний шум', — промелькнула мысль.
     """
+    play sound "sfx/mosquito.mp3"
     
     seraphina neutral """
     Ох, не обращай внимания!
@@ -247,6 +261,8 @@ label chapter4_5_concert_end:
 
     seraphina neutral "Ну вот видишь! Мой пластырь тебе всё-таки помог! Ну? Скажи... ...Ну?"
 
+    play sound "sfx/mosquito.mp3"
+
     neon "Что сказать?"
 
     seraphina @ wink "Ну то, что я молодец! Что ещё?"
@@ -255,6 +271,7 @@ label chapter4_5_concert_end:
 
     neon "{=thoughts}Она ведет себя как ребенок, требующий похвалы. Это странно. Это... манипуляция. Она хочет не дружбы, она хочет одобрения. Внимания.{/thoughts}"
 
+    play sound "sfx/mosquito.mp3"
     narrator """
         И тут я снова его услышала.
         
@@ -265,24 +282,35 @@ label chapter4_5_concert_end:
         Он был не просто над ухом. Он был... в ухе.
 
         Серафина продолжала что-то говорить, но я уже не могла разобрать слов.
-
+    """
+    play sound "sfx/mosquito.mp3"
+    narrator """
         Я увидела ее. Крошечную, почти невидимую мошку, которая летела не хаотично, а целеустремленно, прямо мне в ушной канал.
         
         Это не было инстинктивным поведением для насекомого, а атака.
         """
+
+    play sound "sfx/teacup-put.mp3"
+
     narrator """
     Серафина улыбалась, глядя мне прямо в глаза, попивая свой чай, но в ее взгляде была какая-то странная, холодная решимость.
     """
-
+    
     seraphina """
     А знаешь? Неон... Мне кажется мы поладим.
     
     Мне очень хочется твоего т- {nw}
     """
 
-    scene black with Dissolve(0.125)
+    play sound "sfx/hand-slap.mp3" volume 5
+    stop music fadeout 0.0625
+    scene black with Dissolve(0.0625)
+    
 
     narrator "Рефлекс сработал быстрее мысли. И я резко хлопнула ладонью по уху, когда мошка подлетела совсем близко."
+    play sound "sfx/teacup-crash.mp3"
+
+    play music "music/BGM/LostConnection.mp3" fadein 5.0
     
     # play sound "sfx/insect_squash_smack.mp3"
     
@@ -315,7 +343,10 @@ label chapter4_5_concert_end:
     Она тут же поправилась, лицом испуганной девочки, она хватаяа ртом воздух.
     """
 
+    stop music fadeout 0.25
     scene bg chapter_4-5_veritas-expo-office with Dissolve(0.0625)
+    play music "music/BGM/OVERCAST-EYES.opus" fadein 2.5
+
     show seraphina flustered
 
     seraphina """
@@ -500,11 +531,11 @@ label chapter4_5_concert_end:
     
     narrator "Я слышала шок, растерянность и непонимание в ее голосе, полного отчаяния."
 
-    scene black with dissolve
+    play sound "sfx/door-slam1.mp3"
+    scene black with Dissolve(0.125)
     
     show cg cg33_4 at dizzy_sway with dissolve
     show cg cg33_4 as ghost_cg at dizzy_ghost_anim_light
-    play music "music/BGM/FloraUndergrowth.opus" loop
 
     narrator """
         Я снова шла по застекленному мосту обратно, к выходу. К Аргону. Город сменился 'золотым часом', желтым закатом. Небо на западе окрасилось в оранжевые и желтые тона.
@@ -522,7 +553,7 @@ label chapter4_5_concert_end:
 
     scene black with { "master" : Dissolve(10.0) }
     with { "effect": dissolve }
-    stop sound fadeout 10.0
+    stop music fadeout 20.0
 
     show layer master:
         matrixcolor IdentityMatrix()
@@ -534,8 +565,13 @@ label chapter4_5_concert_end:
         Последнее, что я услышала, — это тихий, размеренный стук каблуков по кафелю, приближающийся из дальнего конца коридора.
 
     """
+    play sound "sfx/heels-slow.mp3" volume 3
+    $ renpy.music.set_audio_filter("music", renpy.audio.filter.Reverb(0.5), replace=True)
 
     "???" "Наконец-то..."
+    
+    scene black with Dissolve(3)
+    $ renpy.music.set_audio_filter("music", None)
     
     # play sound "sfx/heels_on_marble_approaching_slow.mp3"
 

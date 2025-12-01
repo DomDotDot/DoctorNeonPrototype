@@ -103,7 +103,7 @@ label chapter4_0_garden_dialogue:
     # ...Сцена пробуждения Неон и обнаружения раны...
     # Музыкальная тема Серафины начинает тихо играть.
 
-    play music "music/BGM/NarcissismShort.opus" fadein 5.0
+    play music "music/BGM/Narcissism.opus" fadein 5.0
 
     neon "{=thoughts}Уже ночь! Кто вообще в такое время в саду..?"
     hide neon

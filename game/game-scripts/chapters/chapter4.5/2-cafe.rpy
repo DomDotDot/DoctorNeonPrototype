@@ -35,7 +35,7 @@ label chapter4_5_cafe_scene:
     """
     
     show cg cg30_1 with fade
-    play music "music/BGM/TandemDate.mp3" with fadein 2.5
+    play music "music/BGM/TandemDate.mp3" fadein 2.5
     
     narrator """
     Я села за самый дальний столик в углу, спиной к стене, лицом к выходу. Привычка беглеца.
