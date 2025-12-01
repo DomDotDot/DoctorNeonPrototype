@@ -28,7 +28,7 @@
 
         stop music fadeout 1.0
         stop sound fadeout 1.0
-        stop ambience fadeout 1.0
+        stop ambient fadeout 1.0
         stop voice fadeout 1.0
 
 
