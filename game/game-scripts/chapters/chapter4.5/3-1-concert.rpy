@@ -1,7 +1,7 @@
 label chapter4_5_concert_start:
 
     scene bg chapter_4-5_veritas-alleway-noon with fade
-    play music "music/BGM/VeritasCity_NightTheme.opus" loop
+    play music "music/BGM/Prerogative.mp3" loop
 
     narrator """
         Я вышла из кафе на гудящие дневные улицы. Кофе взбодрил тело, но разум все еще был в тумане одержимости.
