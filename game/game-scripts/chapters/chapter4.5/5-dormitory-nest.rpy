@@ -103,6 +103,8 @@ label chapter4_5_dorm_investigation:
     """
     
     scene bg chapter_4-5_veritas-dorm-room with dissolve
+    play ambient "ambient/Wind-inside.mp3" fadein 5.0 volume 0.125
+
     
     narrator """
         Мы вошли внутрь.
@@ -111,7 +113,9 @@ label chapter4_5_dorm_investigation:
         
         Шторы метались на сквозняке, и пластиковые жалюзи на них тихо, но назойливо цокали, ударяясь о раму.
     """
-    
+
+    play music "music/BGM/Limp.mp3" fadein 5.0
+
     neon "{=whisper}Зачем кому-то оставлять окно открытым в такую погоду?{/whisper}"
     
     narrator """
@@ -123,7 +127,8 @@ label chapter4_5_dorm_investigation:
         
         Тихое, но всепроникающее. Как в офисе у Серафины, но теперь это был не один назойливый звук, а целый хор. Тысячи крошечных, невидимых в темноте существ витали в воздухе.
     """
-    
+    stop ambient fadeout 0.0625
+
     narrator """
         Аргон щелкнул выключателем у двери. Никакой реакции.
         
@@ -146,7 +151,7 @@ label chapter4_5_dorm_investigation:
     narrator "Я включила фонарик на своем телефоне. Луч вырвал из темноты сцену, которая навсегда выжжется в моей памяти."
     
     show cg cg36-1 with Fade(0.125, 0.125, 1.5)
-    show cg cg36-1 as ghost_cg at dizzy_ghost_anim_light169
+    #show cg cg36-1 as ghost_cg at dizzy_ghost_anim_light169
     #scene bg chapter_4_veritas_dorm_sara_room_body with dissolve
     
     narrator """
@@ -314,7 +319,9 @@ label chapter4_5_dorm_investigation:
         
         Но это было необходимо.
     """
-    
+
+    stop music fadeout 25.0
+
     narrator "Я застегнула сумку и повернулась к Аргону. Он все еще стоял лицом к стене. Его плечи были напряжены."
 
     argon "Всё...?"
