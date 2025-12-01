@@ -1,7 +1,7 @@
 label chapter4_5_argon_rescue:
     
     scene bg chapter_4-5_ark-aground-base-night with fade
-    play music "music/BGM/WitheredFlower_Tense.opus" loop
+    play music "music/BGM/ThinkingProcesses.mp3"
 
     narrator """
         Сознание вернулось резким, болезненным рывком.
