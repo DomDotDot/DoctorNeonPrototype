@@ -9,7 +9,7 @@ label chapter4_5_lily_flashback:
     """
 
     # Музыка: та же тихая, меланхоличная мелодия Нари, но теперь в ней слышны тревожные нотки.
-    play music "music/BGM/Nari_Theme_Corrupted.opus" loop
+    play music "music/BGM/Tide.mp3" loop
     scene bg chapter_4_veritas_studio_day with fade
 
     narrator """
