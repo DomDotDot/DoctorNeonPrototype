@@ -2,7 +2,7 @@ label chapter4_5_nari_flashback:
 
     # Музыка: тихая, меланхоличная мелодия на акустической гитаре.
     scene bg chapter_4-5_nari-flashback with Fade(0.125, 2.5, 2.5)
-    play music "music/BGM/Nari_Theme.opus" loop
+    play music "music/BGM/OverlookedLittleShine.mp3" fadein 5.0
 
     narrator """
         Это наша студия. И мой дом.
