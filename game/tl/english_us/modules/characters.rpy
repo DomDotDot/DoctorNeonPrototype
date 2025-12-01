@@ -76,3 +76,31 @@ translate english_us strings:
     old "Мэрил Кендрик"
     new "Meryl Kendrick"
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+translate english_us strings:
+
+    # game/modules/characters.rpy:54
+    old "Эми"
+    new "Amy"
+
+    # game/modules/characters.rpy:55
+    old "Кэрол"
+    new "Carol"
+
+    # game/modules/characters.rpy:58
+    old "Учительница Акари"
+    new "Akari-sensei"
+
+    # game/modules/characters.rpy:59
+    old "Кай"
+    new "Kai"
+
+    # game/modules/characters.rpy:60
+    old "Нари"
+    new "Nari"
+
+    # game/modules/characters.rpy:61
+    old "Сущность"
+    new "Spirit"
+
