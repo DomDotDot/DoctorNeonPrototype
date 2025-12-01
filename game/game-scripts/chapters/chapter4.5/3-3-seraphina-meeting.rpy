@@ -47,6 +47,8 @@ label chapter4_5_concert_end:
         Она подбежала ко мне и, взяв мои руки, заглянула в глаза с виноватой улыбкой.
     """
 
+    play music "music/BGM/GRAYHEARTS.mp3" with fadein 2.5
+
     seraphina """
     Прости-прости-прости!
     
