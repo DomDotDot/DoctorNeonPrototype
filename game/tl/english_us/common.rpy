@@ -1560,3 +1560,11 @@ translate english_us strings:
     old "Copies the traceback.txt file to the clipboard as Markdown for Discord."
     new "Copies the traceback.txt file to the clipboard as Markdown for Discord."
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+translate english_us strings:
+
+    # renpy/common/00updater.rpy:887
+    old "The update source does not support RPU updates."
+    new "The update source does not support RPU updates."
+
