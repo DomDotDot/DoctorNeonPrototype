@@ -36,3 +36,15 @@ translate english_us strings:
     old "preferences"
     new "preferences"
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+translate english_us strings:
+
+    # game/screens.rpy:811
+    old "Включение Чувствительнного контента (18+)"
+    new "Enable Sensitive Content (18+)"
+
+    # game/screens.rpy:813
+    old "Включает отображение откровенных сцен."
+    new "Turns on adult-only scenes."
+
