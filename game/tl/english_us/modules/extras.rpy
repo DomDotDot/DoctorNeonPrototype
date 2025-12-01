@@ -83,9 +83,29 @@ translate english_us strings:
 
     # game/modules/extras.rpy:170
     old "Если вам нет 18 лет или вы чувствительны к подобным темам - пожалуйста, воздержитесь от игры."
-    new "f you are under 18 years of age or sensitive to such topics, please refrain from playing."
+    new "If you are under 18 years of age or sensitive to such topics, please refrain from playing."
 
     # game/modules/extras.rpy:176
     old "ПОДТВЕРДИТЬ И НАЧАТЬ"
     new "CONFIRM AND PLAY"
+
+# TODO: Translation updated at 2025-12-01 23:47
+
+translate english_us strings:
+
+    # game/modules/extras.rpy:104
+    old "Данная визуальная новелла содержит материалы, предназначенные исключительно для взрослой аудитории."
+    new "This visual novel contains material intended exclusively for adult audiences."
+
+# TODO: Translation updated at 2025-12-01 23:49
+
+translate english_us strings:
+
+    # game/modules/extras.rpy:161
+    old "РЕЖИМ 18+: ВКЛЮЧЕН"
+    new "“18+ MODE” ENABLED"
+
+    # game/modules/extras.rpy:163
+    old "РЕЖИМ 18+: ВЫКЛЮЧЕН"
+    new "“18+ MODE” DISABLED"
 
