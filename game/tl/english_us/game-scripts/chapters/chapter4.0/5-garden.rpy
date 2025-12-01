@@ -752,3 +752,95 @@ translate english_us chapter4_0_garden_dialogue_f06910be:
     # neon neutral "{=thoughts}Обещание найти Лили все еще в силе. Но все нити ведут к Селестии. Она — эпицентр. Она — ключ. Если я найду ее, я найду и ответ на твой вопрос."
     neon neutral "{=thoughts}My promise to find Lily still stands. But all the threads lead to Celestia. She's the epicenter. She's the key. If I find her, I'll find the answer to your question, too."
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:146
+translate english_us chapter4_0_garden_dialogue_2ed9c4e9:
+
+    # seraphina thinking "Странно, что ты обо мне не слышала."
+    seraphina thinking ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:146
+translate english_us chapter4_0_garden_dialogue_fef56a74:
+
+    # seraphina thinking "Ты, наверное, новенькая в городе?"
+    seraphina thinking ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
+translate english_us chapter4_0_garden_dialogue_31215713:
+
+    # seraphina neutral "Неон... ведь так?"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
+translate english_us chapter4_0_garden_dialogue_f4d4f198:
+
+    # seraphina neutral "Ты мне нравишься!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
+translate english_us chapter4_0_garden_dialogue_cb8a3e8a:
+
+    # seraphina neutral "Подойди-ка сюда."
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:204
+translate english_us chapter4_0_garden_dialogue_fa4244dc:
+
+    # seraphina neutral "Подойди, не бойся!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:215
+translate english_us chapter4_0_garden_dialogue_9544cf51:
+
+    # seraphina worried "Странно... Никогда такого не видела..."
+    seraphina worried ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:215
+translate english_us chapter4_0_garden_dialogue_64500e4b:
+
+    # seraphina worried "Оно такое... холодное. И притягивает..."
+    seraphina worried ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:227
+translate english_us chapter4_0_garden_dialogue_af6e0f5b:
+
+    # seraphina neutral "Вот! Держи!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:230
+translate english_us chapter4_0_garden_dialogue_cb2cb341:
+
+    # seraphina "Видишь, какая я добрая? Хи-хи!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_b0e727ee:
+
+    # seraphina neutral "Неон, я так рада, что встретила тебя! Но я, увы, ничем не могу помочь в поисках."
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_5d4803ec:
+
+    # seraphina neutral "Хотя... знаешь что? У меня завтра концерт!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_bbc5220a:
+
+    # seraphina neutral "Я дам тебе билет и пропуск за кулисы!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_bc8c4aeb:
+
+    # seraphina neutral "После шоу у меня будет небольшая фан-встреча. Познакомимся поближе, поболтаем."
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:307
+translate english_us chapter4_0_garden_dialogue_d890f481:
+
+    # seraphina neutral "Я предупрежу охрану! А это — твой пропуск."
+    seraphina neutral ""
+

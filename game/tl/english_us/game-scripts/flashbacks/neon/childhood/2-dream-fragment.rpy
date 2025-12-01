@@ -212,3 +212,11 @@ translate english_us dream_sequence_japan_2_203a3771:
     # oganesson_young young_kimono resentment "И теперь, когда мы стоим на пороге величайшего открытия, ты предлагаешь мне снова спрятаться? Последовать вашему пути... в небытие?"
     oganesson_young young_kimono resentment "And now, when we stand on the threshold of the greatest discovery, you're telling me to hide again? To follow your destiny... into oblivion?"
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:35
+translate english_us dream_sequence_japan_2_95ab6d8b:
+
+    # oganesson_young young_kimono neutral "Я видела, на что способны эти 'разломы'. Я видела миры в их глубине. Для меня - это потенциал."
+    oganesson_young young_kimono neutral ""
+

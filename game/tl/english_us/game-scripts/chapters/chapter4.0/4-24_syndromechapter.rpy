@@ -1104,3 +1104,11 @@ translate english_us chapter4_0_24syndrome_ebf07193:
     # narrator "Я найду их всех. Селестия, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена."
     narrator "I'll find them all. Celestia, like a guiding star, will lead me to them. I'm sure of it."
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:299
+translate english_us chapter4_0_24syndrome_87cf6366:
+
+    # neon "{=thoughts}Тот же паттерн. Пропажа на два дня. Возвращение. Это не просто прогулы... а что-то иное."
+    neon ""
+

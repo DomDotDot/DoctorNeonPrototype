@@ -262,3 +262,29 @@ translate english_us dream_sequence_japan_1_51bd816e:
     # neon "{=whisper}Обещаю, мама."
     neon "{=whisper}I promise, Mom."
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:25
+translate english_us dream_sequence_japan_1_cbb57017:
+
+    # akane "Осторожно, ■■■■■■, не разлей."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:39
+translate english_us dream_sequence_japan_1_79b89dad:
+
+    # oganesson_young "■■■■■■, держи."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:62
+translate english_us dream_sequence_japan_1_1cc4946b:
+
+    # akane worried "{=whisper}Не бойся, ■■■■■■. Это... друзья тети. Они здесь по важному делу."
+    akane worried ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:64
+translate english_us dream_sequence_japan_1_f4f0da15:
+
+    # akane "{=whisper}Все будет хорошо, ■■■■■■. Ты должна быть сильной, хорошо? Обещай мне."
+    akane ""
+

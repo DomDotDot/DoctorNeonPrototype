@@ -656,3 +656,17 @@ translate english_us krypton_firstmeet_flashback_6d2978ac:
     # neon "{=thoughts} Я должна... вернуться... помочь..."
     neon "{=thoughts}My friend... I have to... go back... help her..."
 
+# TODO: Translation updated at 2025-12-01 23:32
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:93
+translate english_us krypton_firstmeet_flashback_eda9267c:
+
+    # neon "Ты играешь ее как короткую передышку, чтобы набрать воздуха. Для тебя это передышка, а должно восприниматься как часть музыки."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:188
+translate english_us krypton_firstmeet_flashback_a5b67c62:
+
+    # narrator "Это был не звук, и это не была тишина. Это было что-то третье. Ощущение идеальной гармонии."
+    narrator ""
+

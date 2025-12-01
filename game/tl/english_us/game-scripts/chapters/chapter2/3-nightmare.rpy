@@ -458,4 +458,11 @@ translate english_us nightmare_sequence_4bb0fa4e:
 translate english_us nightmare_sequence_5ae7828e:
 
     # unknown_f "Но мы еще не закончили. От самой себя не убежишь... Неон..."
-    unknown_f "But we're not finished. You can't run from yourself... Neon..."
+    unknown_f "But we're not finished. You can't run from yourself... Neon..."# TODO: Translation updated at 2025-12-01 23:32
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:71
+translate english_us nightmare_sequence_91173069:
+
+    # narrator "Это был холодный, ровный, женский голос. В нем не было ни злобы, ни радости. Только абсолютная, ледяная уверенность."
+    narrator ""
+
