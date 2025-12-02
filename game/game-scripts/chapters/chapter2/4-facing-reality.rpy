@@ -104,7 +104,7 @@ label chapter2_act3_facing_reality:
                 Чувство вины, которое она испытывала во сне, вернулось с удесятеренной силой, но теперь оно было реальным, осязаемым, удушающим.
                 """
 
-                # play sound "sfx/heartbeat_panic.mp3" loop
+                # play sound "sfx/heartbeat_panic.opus" loop
                 show cg cg12_2 with dissolve
 
                 narrator "Она отшатнулась от витрины, задыхаясь. Воздуха не хватало. Она оперлась рукой о холодное, влажное стекло, пытаясь устоять на ногах. Ее взгляд упал на свое же отражение."
@@ -134,7 +134,7 @@ label chapter2_act3_facing_reality:
                 Алекс где-то там. из-за нее.
                 """
 
-                # play sound "sfx/body_slide_down_wall.mp3" # Звук сползания по стене
+                # play sound "sfx/body_slide_down_wall.opus" # Звук сползания по стене
 
                 narrator """
                 Ноги подкосились. Неон медленно сползла по стеклянной витрине вниз, на мокрый, грязный тротуар.
@@ -160,14 +160,14 @@ label chapter2_act3_facing_reality:
                 neon eyehurt "{=thoughts}Почему... Почему я так долго ее не вспоминала? Почему я была так... спокойна?"
                 neon "{=thoughts}Ну почему..."
 
-                # play sound "sfx/memory_glitch_static.mp3" volume 0.5
+                # play sound "sfx/memory_glitch_static.opus" volume 0.5
                 narrator "Алекс, ее смех, ее забота — все это возвращалось волнами, сталкиваясь с ужасом осознания, что этот образ был забыт. Забыты последние часы их общения. Она помнила предательство Маркуса, но не помнила, как бросила Алекс."
 
                 neon "{=thoughts}Как... я... могла..."
 
                 narrator "Мысль оборвалась на полуслове. Как будто наткнулась на невидимую стену в ее сознании."
 
-                # play sound "sfx/memory_glitch_static.mp3" volume 0.5
+                # play sound "sfx/memory_glitch_static.opus" volume 0.5
                 with vpunch
 
                 narrator "Резкая, колющая боль в висках. Перед глазами на мгновение мелькнул чужой образ — черно-белые волосы, пианино, ощущение легкости...? И тут же исчез, вытесненный пустотой."
@@ -186,7 +186,7 @@ label chapter2_act3_facing_reality:
                 narrator "Именно в этот момент ее слезы окончательно высохли. На смену горю и отчаянию пришла ледяная, почти математическая ясность."
 
                 # Звук: искаженный, полный боли крик, как будто из глубины души
-                # play sound "sfx/neon_scream_rage.mp3"
+                # play sound "sfx/neon_scream_rage.opus"
 
                 neon "Я..."
                 neon "{=yell}Я такая дура!" with vpunch

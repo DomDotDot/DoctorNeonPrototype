@@ -9,7 +9,7 @@ default persistent.firstlaunch = False
 label splashscreen:
 
     ## Here begins our splashscreen animation.
-    play sound "sfx/short-logo.mp3" volume 0.25
+    play sound "sfx/short-logo.opus" volume 0.25
     show splash_anim_1
     show text "{size=30}Made with Ren'Py [renpy.version_only]{/s}":
         xalign 0.5 yalign 0.8 alpha 0.0

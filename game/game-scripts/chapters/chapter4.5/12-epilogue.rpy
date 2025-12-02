@@ -85,7 +85,7 @@ label chapter4_5_epilogue:
     
     neon "Нет. Он просто показал свое истинное лицо."
     
-    # play sound "sfx/phone_ring_modern.mp3"
+    # play sound "sfx/phone_ring_modern.opus"
     
     narrator "В этот момент зазвонил телефон Сары. На экране высветилось: 'Мэрил Кендрик'."
     

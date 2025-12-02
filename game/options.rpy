@@ -75,7 +75,7 @@ define config.defer_tl_scripts = True
 ## Чтобы разрешить игроку тестировать громкость на звуковом или голосовом
 ## каналах, раскомментируйте строчку и настройте пример звука для прослушивания.
 
-define config.sample_sound = "audio/sfx/sound_sample.mp3"
+define config.sample_sound = "audio/sfx/sound_sample.opus"
 define config.sample_voice = "audio/voice/voice_sample.ogg"
 
 

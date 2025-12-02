@@ -36,7 +36,7 @@ label chapter4_5_boulevard_night:
         Девушка чуть ли не подпрыгнула от радости, схватила пакет и, пританцовывая, двинулась вглубь бульвара.
     """
     
-    # play sound "sfx/payment_success_chime.mp3"
+    # play sound "sfx/payment_success_chime.opus"
 
 
     neon "Аргон... это разве не Клара? Та, что вернулась 'пустой'?"
@@ -155,7 +155,7 @@ label chapter4_5_boulevard_night:
 
     narrator "Он протянул дрожащую руку и коснулся ее плеча. Нежно, боясь, что она исчезнет. И тут она взорвалась."
 
-    # play sound "sfx/slap_loud.mp3" with vpunch
+    # play sound "sfx/slap_loud.opus" with vpunch
     
     narrator "Реакция была мгновенной. Она с криком вскочила и с размаху влепила ему пощечину. Звук пощечины был оглушительным."
 
@@ -182,7 +182,7 @@ label chapter4_5_boulevard_night:
 
     lily "ПОМОГИТЕ! НАСИЛУЮТ!"
 
-    # play sound "sfx/scream_high_pitch_singer.mp3"
+    # play sound "sfx/scream_high_pitch_singer.opus"
     
     narrator """
         Этот крик... Это точно не был крик испуганной девочки.

@@ -72,7 +72,7 @@ narrator """
     Она висела в воздухе, на рваной, мокрой бумаге, словно вес перестал существовать. Словно гравитация в этой точке взяла выходной.
 """
 
-# play sound "sfx/water_splash_bowl.mp3"
+# play sound "sfx/water_splash_bowl.opus"
 
 narrator """
     Я быстро перенесла рыбу в миску. Плеск воды развеял наваждение. Рыба снова стала тяжелой и начала плавать.
@@ -99,7 +99,7 @@ oganesson_young "{=whisper}Интересно... Очень интересно."
 # Сцена 3: Фейерверк (Вечер)
 
 scene bg chapter_5_japan_festival_night_fireworks with fade
-# play sound "sfx/hanabi_boom_distant.mp3"
+# play sound "sfx/hanabi_boom_distant.opus"
 
 narrator """
     Вечером начались *ханаби* — фейерверки.

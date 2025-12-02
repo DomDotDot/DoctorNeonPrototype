@@ -80,7 +80,7 @@ label chapter4_0_garden:
     $ renpy.music.set_volume(1.0, delay=2.0, channel='music')
     $ renpy.music.set_volume(1.0, delay=2.0, channel='ambient')
     
-    # play sound "sfx/sharp_prick_sound.mp3" with vpunch
+    # play sound "sfx/sharp_prick_sound.opus" with vpunch
     
     narrator "Я проснулась от резкого, острого укола в ладони. Я вскрикнула, отдернув руку."
     
@@ -121,7 +121,7 @@ label chapter4_0_garden_dialogue:
     neon "Эй... ты кто?"
     narrator "Голос прозвучал хрипло. Я медленно подошла ближе, все еще сжимая в руке раненую ладонь."
 
-    # play sound "sfx/water_can_drop.mp3"
+    # play sound "sfx/water_can_drop.opus"
 
     scene bg chapter_4_garden-bonatic-interior with Dissolve(1.0)
     show neon surprised at left with dissolve

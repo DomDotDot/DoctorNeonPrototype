@@ -36,7 +36,7 @@ label chapter4_0_24syndrome:
     # --- ПРОВАЛ ПЛАНА А ---
 
     show cg cg26_3 with fade
-    # play sound "sfx/sliding_glass_door_open.mp3"
+    # play sound "sfx/sliding_glass_door_open.opus"
     narrator "Двери бесшумно разъехались. Внутри было тихо и прохладно. Консьерж, мужчина средних лет с безупречной прической, поднял на меня бровь."
     
     "Консьерж" "Добрый вечер. Чем могу помочь?"
@@ -55,7 +55,7 @@ label chapter4_0_24syndrome:
     """
     neon "{=thoughts}План Б: получить номер квартиры и найти способ попасть внутрь без прямого контакта."
     
-    # play sound "sfx/sliding_glass_door_close.mp3"
+    # play sound "sfx/sliding_glass_door_close.opus"
     show cg cg26_2 with fade
 
     narrator """
@@ -132,7 +132,7 @@ label chapter4_0_24syndrome:
     narrator "Лифт остановился. Двери разъехались. Я вышла в тихий, роскошный коридор."
     neon "Что ж, Неон. Вот ты и здесь."
     
-    # play sound "sfx/elevator_ding.mp3"
+    # play sound "sfx/elevator_ding.opus"
     scene bg chapter_4_24_syndrome-apartment-hall with fade
     show neon neutral at flip
     show neon neutral at left
@@ -143,7 +143,7 @@ label chapter4_0_24syndrome:
     Рука дрожала, волнующе я позвонила в звонок.
     """
     
-    # play sound "sfx/doorbell.mp3"
+    # play sound "sfx/doorbell.opus"
     narrator """
     Прошла минута. Никакого ответа. Я позвонила еще раз. Тишина. Может, никого нет дома?
 

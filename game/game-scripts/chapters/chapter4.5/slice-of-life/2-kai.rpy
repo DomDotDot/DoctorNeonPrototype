@@ -172,7 +172,7 @@ label chapter4_5_kai_ito_interlude:
     # Резкое затемнение
     scene black with fade
     # Звук дверного звонка
-    # play sound "sfx/doorbell.mp3"
+    # play sound "sfx/doorbell.opus"
     
     narrator """
     Вечер. Звонок в дверь. Я подбежал к глазку, сердце колотилось.

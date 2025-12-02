@@ -200,7 +200,7 @@ label krypton_firstmeet_flashback:
         stop sound
         # Звук резонанса достигает пика и переходит во вспышку.
 
-        play sound "sfx/instant_static.mp3" volume 0.125
+        play sound "sfx/instant_static.opus" volume 0.125
         with vpunch     
         scene black
 
@@ -213,7 +213,7 @@ label krypton_firstmeet_flashback:
 
         scene black with Fade(1.0, 0.5, 0.5)
         stop music fadeout 1.0
-        play sound "sfx/ear-ringing.mp3" fadein 60 volume 0.03125
+        play sound "sfx/ear-ringing.opus" fadein 60 volume 0.03125
 
 
         neon """

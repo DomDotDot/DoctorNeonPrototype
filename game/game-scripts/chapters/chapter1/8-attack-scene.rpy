@@ -21,7 +21,7 @@ label marcus_attack_scene:
 
         narrator "Но слова уже не имели значения. Неон издала низкий, гортанный рык, больше похожий на звериный, чем на человеческий."
         # play sound "sounds/neon_feral_roar.opus"
-        play sound "sfx/Chair_Hit.mp3"
+        play sound "sfx/Chair_Hit.opus"
         narrator """
         Она занесла тяжелый металлический стул над головой.  
         
@@ -42,7 +42,7 @@ label marcus_attack_scene:
         Она видела перед собой не человека, а символ всех своих страданий.
         """
 
-        play sound "SFX/marcus_oof.mp3"
+        play sound "SFX/marcus_oof.opus"
         show marcus suit_hurt with hpunch
 
         narrator """

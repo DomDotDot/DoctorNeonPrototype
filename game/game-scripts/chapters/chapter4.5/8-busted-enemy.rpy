@@ -19,7 +19,7 @@ label chapter4_5_akari_arrest:
     
     narrator "Квартира Акари. 42-й этаж. Двое оперативников установили на дверь какое-то устройство. Тихий щелчок, и замок поддался."
     
-    # play sound "sfx/door_breach_silent.mp3"
+    # play sound "sfx/door_breach_silent.opus"
     
     narrator "Взлом. Мы ворвались внутрь."
     

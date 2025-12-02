@@ -251,7 +251,7 @@ label chapter4_5_lily_studio:
     
     scene bg chapter_4_veritas_streets_night_rain with fade
     play music "music/BGM/Veritas_Night_Rain.opus" loop
-    play ambient "ambient/rain_on_pavement_city.mp3" loop
+    play ambient "ambient/rain_on_pavement_city.opus" loop
     
     narrator """
         На улице начался дождь.
@@ -431,7 +431,7 @@ label chapter4_5_lily_studio:
 
     narrator "Пчела взлетела с ее рукава и, сделав круг, села мне на шею. Я почувствовала острое, обжигающее жжение. И пчела тут же испарилась."
     
-    # play sound "sfx/bee_sting_magic.mp3"
+    # play sound "sfx/bee_sting_magic.opus"
     
     narrator "Но боль... она не прошла. Она мутировала."
 

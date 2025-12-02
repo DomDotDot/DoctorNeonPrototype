@@ -1,7 +1,7 @@
 label chapter4_5_concert_start:
 
     scene bg chapter_4-5_veritas-alleway-noon with fade
-    play music "music/BGM/Prerogative.mp3" volume 0.5
+    play music "music/BGM/Prerogative.opus" volume 0.5
 
     narrator """
         Я вышла из кафе на гудящие дневные улицы. Кофе взбодрил тело, но разум все еще был в тумане одержимости.
@@ -21,7 +21,7 @@ label chapter4_5_concert_start:
     
     stop music fadeout 5.0
     scene bg chapter_4-5_veritas-stadium-entrance with dissolve
-    play ambient "ambient/security-pass.mp3" fadein 5.0 fadeout 5.0
+    play ambient "ambient/security-pass.opus" fadein 5.0 fadeout 5.0
 
     narrator """
         У входа на стадион гудела многотысячная толпа. Яркие голографические афиши с улыбающейся Серафиной сменяли друг друга на стенах.
@@ -47,10 +47,10 @@ label chapter4_5_concert_start:
         Я прошла. Сердце бешено колотилось. Еще один барьер пройден. Никаких вопросов. Я снова была невидимкой.
     """
 
-    play ambient "ambient/concert-crowd1.mp3" fadein 5.0 fadeout 5.0
+    play ambient "ambient/concert-crowd1.opus" fadein 5.0 fadeout 5.0
     narrator "Я шла по гулким коридорам стадиона, ведомая одной-единственной мыслью: 'Скорее бы все закончилось. Скорее бы поговорить с ней'."
     
-    # play sound "sfx/body_bump_oof.mp3" with hpunch
+    # play sound "sfx/body_bump_oof.opus" with hpunch
     
     narrator "Я шла по течению, ища указатели к главному залу, задумавшись, не глядя перед собой, врезалась в кого-то... Мы обе тихо ойкнули и отшатнулись."
 
@@ -96,8 +96,8 @@ label chapter4_5_concert_start:
     student2 "Ой, сейчас начнется! Быстрее! Идемте!"
     
     scene bg chapter_4-5_veritas-stadium-concert with fade
-    play ambient "ambient/before-concert.mp3" fadein 5.0 fadeout 5.0 volume 2
-    play sound "ambient/revolving-stage.mp3" fadein 5.0 fadeout 5.0 volume 0.125
+    play ambient "ambient/before-concert.opus" fadein 5.0 fadeout 5.0 volume 2
+    play sound "ambient/revolving-stage.opus" fadein 5.0 fadeout 5.0 volume 0.125
 
     narrator """
         Зал был огромен. Настоящий стадион, превращенный в храм для одного божества. Тысячи людей, как единый организм, гудели в предвкушении. Тысячи глаз были устремлены на сцену.
@@ -115,9 +115,9 @@ label chapter4_5_concert_start:
         А потом толпа взревела.
     """
     stop ambient fadeout 2.5
-    play sound "sfx/crowd-fan-excited.mp3" fadein 1.5
+    play sound "sfx/crowd-fan-excited.opus" fadein 1.5
 
-    # play sound "sfx/concert_lights_down_crowd_roar.mp3"
+    # play sound "sfx/concert_lights_down_crowd_roar.opus"
     show cg cg31_2 with dissolve
 
 
@@ -145,8 +145,8 @@ label chapter4_5_concert_start:
     Вы готовы подарить мне свои сердца?!
     """
 
-    play sound "sfx/crowd-fan-wohoo.mp3" fadein 1.5
-    play ambient "sfx/crowd-fan-cheer.mp3" fadein 1.5 noloop
+    play sound "sfx/crowd-fan-wohoo.opus" fadein 1.5
+    play ambient "sfx/crowd-fan-cheer.opus" fadein 1.5 noloop
 
     show cg cg31_4 with dissolve
     
@@ -168,8 +168,8 @@ label chapter4_5_concert_start:
         Она называется... 'Angel Eyes'.
     """
 
-    play sound "sfx/crowd-fan-cheer.mp3" fadein 1.5
-    play music "music/BGM/AngelEyes.mp3" loop
+    play sound "sfx/crowd-fan-cheer.opus" fadein 1.5
+    play music "music/BGM/AngelEyes.opus" loop
     
     narrator """
         Зазвучала музыка. Нежная, обволакивающая мелодия и чистый, высокий голос Серафины.
@@ -264,12 +264,12 @@ label chapter4_5_concert_start:
     $ renpy.music.set_volume(1.0, delay=0.5, channel="music")
     
     # Музыка заканчивается, звучат овации
-    # play sound "sfx/concert_end_applause.mp3" loop
+    # play sound "sfx/concert_end_applause.opus" loop
     stop music fadeout 2.0
     show cg cg31_4 with dissolve
 
-    play sound "sfx/crowd-fan-clap2.mp3" fadein 1.5
-    play ambient "sfx/crowd-fan-clap1.mp3" noloop fadein 1.5
+    play sound "sfx/crowd-fan-clap2.opus" fadein 1.5
+    play ambient "sfx/crowd-fan-clap1.opus" noloop fadein 1.5
     
     narrator "Концерт закончился оглушительными овациями. Серафина, улыбаясь и посылая воздушные поцелуи, поблагодарила публику."
     
@@ -282,11 +282,11 @@ label chapter4_5_concert_start:
     """
     
     play sound "sfx/crowd-fan-excited" fadein 1.5
-    play ambient "sfx/crowd-fan-clap1.mp3" noloop fadein 1.5
+    play ambient "sfx/crowd-fan-clap1.opus" noloop fadein 1.5
     narrator "Она подмигнула толпе, и скрылась за кулисами. В зале вспыхнул яркий свет, вырывая меня из полумрака."
 
     scene bg chapter_4-5_veritas-stadium-concert with fade
-    play music "music/BGM/Prerogative.mp3" volume 0.5 fadein 2.5
+    play music "music/BGM/Prerogative.opus" volume 0.5 fadein 2.5
 
     show carol sitting unease at left with dissolve
     show neon neutral at right with dissolve

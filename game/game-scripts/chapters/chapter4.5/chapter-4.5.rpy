@@ -1,5 +1,5 @@
 label chapter_4_5_rpy:
-    play sound "sfx/next-chapter.mp3"
+    play sound "sfx/next-chapter.opus"
     call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"), _("Акт I - Не сотвори себе кумира"))
 
     call chapter4_5_garden_aftermath from _call_chapter4_5_garden_aftermath

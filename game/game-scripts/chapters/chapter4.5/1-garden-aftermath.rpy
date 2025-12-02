@@ -107,7 +107,7 @@ label chapter4_5_garden_aftermath:
     """
 
     scene bg chapter_4-5_garden-bonatic-entrance with fade
-    play music "music/BGM/ChaosMind.mp3" fadein 5.0 fadeout 5.0
+    play music "music/BGM/ChaosMind.opus" fadein 5.0 fadeout 5.0
 
     "Сотрудник Сада" "Эй! Дамочка, постойте."
 

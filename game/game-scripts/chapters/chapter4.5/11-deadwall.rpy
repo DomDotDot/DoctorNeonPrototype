@@ -197,7 +197,7 @@ label chapter4_5_finale:
         Я попыталась увернуться, но поскользнулась на мокром асфальте.
     """
 
-    # play sound "sfx/body_thud_wet.mp3"
+    # play sound "sfx/body_thud_wet.opus"
     
     narrator """
         Мы рухнули на землю. Она оказалась сверху, прижав мои руки коленями.
@@ -313,7 +313,7 @@ label chapter4_5_finale:
         Ложь никогда не станет правдой.
     """
     
-    # play sound "sfx/neon_power_burst.mp3"
+    # play sound "sfx/neon_power_burst.opus"
     
     narrator """
         Я почувствовала прилив силы. Той самой, что спасла меня в поезде.
@@ -440,7 +440,7 @@ label chapter4_5_finale:
 
     seraphina "А...?"
     
-    # play sound "sfx/body_thud_wet_soft.mp3"
+    # play sound "sfx/body_thud_wet_soft.opus"
     
     narrator """
         Она упала на ноги, но не удержалась и пошатнулась. Она стояла, шатаясь на ветру, как пустой пакет.
@@ -526,8 +526,8 @@ label chapter4_5_finale:
         Она падала в свет фар несущейся машины, когда в её глазах вспыхнул последний отблеск жизни, закрывающийся перед осознанием собственной смерти.
     """
     
-    # play sound "sfx/tires_skid_heavy.mp3"
-    # play sound "sfx/body_thud_wet.mp3"
+    # play sound "sfx/tires_skid_heavy.opus"
+    # play sound "sfx/body_thud_wet.opus"
     
     narrator """ 
         Оглушительный визг тормозов. Глухой, мокрый удар.

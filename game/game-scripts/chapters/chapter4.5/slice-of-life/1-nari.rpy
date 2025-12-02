@@ -2,7 +2,7 @@ label chapter4_5_nari_flashback:
 
     # Музыка: тихая, меланхоличная мелодия на акустической гитаре.
     scene bg chapter_4-5_nari-flashback with Fade(0.125, 2.5, 2.5)
-    play music "music/BGM/OverlookedLittleShine.mp3" fadein 5.0
+    play music "music/BGM/OverlookedLittleShine.opus" fadein 5.0
 
     narrator """
         Это наша студия. И мой дом.
@@ -139,8 +139,8 @@ label chapter4_5_nari_flashback:
 
     narrator "Я обещала. И я сдержала слово. Я носила ее даже тогда, когда я стала другой..."
     
-    # play sound "sfx/thunder_distant.mp3"
-    # play sound "sfx/door_knock_urgent.mp3"
+    # play sound "sfx/thunder_distant.opus"
+    # play sound "sfx/door_knock_urgent.opus"
     
     narrator """
         В дверь постучали. Громко, отчаянно, будто кто-то пытался выломать ее.
@@ -209,7 +209,7 @@ label chapter4_5_nari_flashback:
     """
 
     scene bg chapter_4-5_nari-flashback_morning with dissolve
-    play music "music/BGM/LunarGuitar.mp3" loop
+    play music "music/BGM/LunarGuitar.opus" loop
     $ renpy.music.set_audio_filter("music", renpy.audio.filter.Lowpass(150), replace=True)
 
     narrator """

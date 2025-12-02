@@ -4,8 +4,8 @@ label chapter4_5_awakening_and_finale:
 
     scene white with Dissolve(2.0)
     # Звук: Резкий, оглушающий звук пробуждения силы Неон переходит в рев огня и треск горящего дерева.
-    play sound "sfx/absolute_silence_awaken.mp3" fadeout 2.0
-    play ambient "ambient/fire_crackling_room.mp3" loop
+    play sound "sfx/absolute_silence_awaken.opus" fadeout 2.0
+    play ambient "ambient/fire_crackling_room.opus" loop
 
     narrator """
         Я открыла глаза.
@@ -117,7 +117,7 @@ label chapter4_5_awakening_and_finale:
     # --- Акт 2: Встреча в Дожде ---
     
     scene bg chapter_4_old_quarter_street_rain with fade
-    play ambient "ambient/heavy_rain_city_night.mp3" loop
+    play ambient "ambient/heavy_rain_city_night.opus" loop
     
     narrator """
         На улице бушевал ливень. Холодные капли смывали с моего лица сажу и пот.
@@ -207,7 +207,7 @@ label chapter4_5_awakening_and_finale:
     
     narrator "И в этой тягучей тишине прогремел выстрел. Сухой, оглушительный, чужеродный. Разорвав шум дождя."
 
-    # play sound "sfx/gunshot_revolver_close.mp3"
+    # play sound "sfx/gunshot_revolver_close.opus"
     
     narrator """
         Мир вернулся в нормальную скорость.

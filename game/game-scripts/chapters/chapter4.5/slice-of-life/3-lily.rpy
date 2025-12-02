@@ -9,7 +9,7 @@ label chapter4_5_lily_flashback:
     """
 
     # Музыка: та же тихая, меланхоличная мелодия Нари, но теперь в ней слышны тревожные нотки.
-    play music "music/BGM/Tide.mp3" loop
+    play music "music/BGM/Tide.opus" loop
     scene bg chapter_4_veritas_studio_day with fade
 
     narrator """
@@ -125,7 +125,7 @@ label chapter4_5_lily_flashback:
         Пальцы дрожали. Я нажала кнопку вызова, приложив телефон к уху. Нари стояла рядом, молча, и ждала.
     """
     
-    # play sound "sfx/phone_dialing_tone.mp3"
+    # play sound "sfx/phone_dialing_tone.opus"
     
     "Аргон" "(Голос в телефоне, уставший, полный тревоги) ...Лили? Лили, это ты?!"
     

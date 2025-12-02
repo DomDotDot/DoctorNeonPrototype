@@ -48,7 +48,7 @@ label chapter4_0_academy:
     Никто не остановился, чтобы помочь. Люди просто обтекали его, как камень в ручье, на их лицах было брезгливое безразличие.
     """
     
-    play sound "sfx/two-cars-passing.mp3"
+    play sound "sfx/two-cars-passing.opus"
 
     show neon surprised
     neon "Почему... почему никто не поможет? Ты же сказал, что здесь все в гармонии?"
@@ -76,7 +76,7 @@ label chapter4_0_academy:
     argon "А что касается 'гармонии', я и не врал. Веритас — это действительно город порядка. Просто порядок здесь не людей, а системы."
 
     neon "Откуда ты это всё знаешь? Ты же тут не был."
-    play sound "sfx/two-cars-passing.mp3"
+    play sound "sfx/two-cars-passing.opus"
 
     argon """
     Забыла? Знакомый, о котором я тебе говорил. Он прошлый строитель этого города, переселенный из Аномика. Рассказывал мне об этом месте.
@@ -247,7 +247,7 @@ label chapter4_0_academy:
     """
 
     # Звук: Резкий, короткий звон в ушах.
-    # play sound "sfx/memory_glitch_static.mp3" volume 0.5
+    # play sound "sfx/memory_glitch_static.opus" volume 0.5
     show black with { "master" : Dissolve(10.0) }
     with { "effect": dissolve }
     show neon eyehurt with dissolve
@@ -386,7 +386,7 @@ label chapter4_0_academy:
     narrator "Смартфон. Статья. Что там было? Заголовок, фотография... и что-то еще."
     
     # Крупный план: Неон напряженно думает. Можно показать на экране размытое изображение статьи.
-    # play sound "sfx/memory_recall_focus.mp3"
+    # play sound "sfx/memory_recall_focus.opus"
     
     narrator """
     Я прокручивала в голове изображение, как ученый, изучающий снимок с телескопа.
@@ -397,7 +397,7 @@ label chapter4_0_academy:
     """
     
     # Звук: Щелчок, как будто пазл сложился.
-    #play sound "sfx/idea_click.mp3"
+    #play sound "sfx/idea_click.opus"
     # show neon determined with dissolve
     
     neon "Celeste Plaza..."

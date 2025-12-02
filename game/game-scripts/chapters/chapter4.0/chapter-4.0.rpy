@@ -1,5 +1,5 @@
 label chapter_4_rpy:
-    play sound "sfx/next-chapter.mp3"
+    play sound "sfx/next-chapter.opus"
     call screen chapter_screen(_("Глава 4.0"), _("Ковчег на мели"))
 
     call dream_sequence_japan_2 from _call_dream_sequence_japan_2

@@ -74,7 +74,7 @@ label chapter4_5_morning_after:
         Я остановилась, прислонившись к холодной стене какого-то здания. Достала телефон Сары. Нашла номер Мэрил. Пальцы дрожали, когда я нажимала кнопку вызова.
     """
     
-    # play sound "sfx/phone_dialing_echo.mp3"
+    # play sound "sfx/phone_dialing_echo.opus"
     
     narrator "Гудки. Длинные, мучительные. Я уже думала, она не ответит."
 
@@ -231,7 +231,7 @@ label chapter4_5_classroom_intro:
     narrator "Он провел меня по светлым, гулким коридорам и подвел к двери с табличкой 'Класс 3-Б'. Урок уже начался."
 
     
-    # play sound "sfx/classroom_door_slide_open.mp3"
+    # play sound "sfx/classroom_door_slide_open.opus"
     
     narrator "Директор постучал и открыл дверь. Тридцать пар глаз мгновенно устремились на меня."
     

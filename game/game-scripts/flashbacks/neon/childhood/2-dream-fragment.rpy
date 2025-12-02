@@ -86,6 +86,6 @@ label dream_sequence_japan_2:
     oganesson_young young_kimono hurt "Ты... ты не должна была этого говорить."
     narrator "Она резко разворачивается и выходит в сад."
 
-    play sound "sfx/door-slam.mp3"
+    play sound "sfx/door-slam.opus"
     scene black with Dissolve(0.1)
 return

@@ -69,7 +69,7 @@ label chapter2_act1_false_memories:
                 narrator "Длинные, мучительные гудки. И вот, на экране телефона появились цифры длительности разговора."
                 neon "Алло, Алекс?"
                 narrator "Сказала, она, но женский голос, не похожий на Алекс, перебил её."
-                play sound "sfx/abonent-ne-abonent.mp3"
+                play sound "sfx/abonent-ne-abonent.opus"
                 narrator "Абонент временно недоступен, перезвоните позже. The subscriber is not available now please call back later."
                 narrator "Короткие гудки отклоненного вызова.."
                 # play sound "sounds/phone_call_no_answer.opus"
@@ -111,7 +111,7 @@ label chapter2_act1_false_memories:
                 
                 Внезапно впереди, на противоположной полосе, показались мигающие сине-красные огни. Они приближались. Быстро.
                 """
-                play sound "sfx/police_sirens_distant.mp3" fadein 15.0 loop
+                play sound "sfx/police_sirens_distant.opus" fadein 15.0 loop
                 scene bg chapter_2_false_memories-highway_night_police with dissolve
 
                 narrator """
@@ -128,7 +128,7 @@ label chapter2_act1_false_memories:
                 Машину занесло, но она удержала ее на самой кромке обочины, почти в тени деревьев.
                 """
                 
-                play sound "sfx/police_sirens_passby.mp3" fadein 5.0 fadeout 5.0
+                play sound "sfx/police_sirens_passby.opus" fadein 5.0 fadeout 5.0
 
                 narrator"""
                 Она съежилась в кресле, стараясь стать невидимой. Полицейская машина с воем пронеслась мимо, в сторону гор, в сторону комплекса.

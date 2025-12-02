@@ -13,7 +13,7 @@ label chapter4_5_concert_end:
 
     show black with fade
     
-    play sound "sfx/keycard-accepted.mp3"
+    play sound "sfx/keycard-accepted.opus"
 
     narrator """
         Она остановилась у неприметной двери без номера. Она ловко открыла ее ключ-картой..
@@ -29,12 +29,12 @@ label chapter4_5_concert_end:
 
     narrator "Как только я вошла, Серафина проскользнула следом и не успела я оглядеться, как дверь за моей спиной с громким щелчком захлопнулась."
 
-    play sound "sfx/door-slam1.mp3"
+    play sound "sfx/door-slam1.opus"
     stop music fadeout 0.75
 
     narrator "Она прислонилась к двери спиной и устало выдохнула."
 
-    # play sound "sfx/office_door_close_lock.mp3"
+    # play sound "sfx/office_door_close_lock.opus"
 
     show cg cg33_2 with fade
 
@@ -44,7 +44,7 @@ label chapter4_5_concert_end:
     Мы одни...
     """
 
-    play music "music/BGM/GRAYHEARTS.mp3" fadein 7.5
+    play music "music/BGM/GRAYHEARTS.opus" fadein 7.5
 
     narrator """
         Она прислонилась спиной к двери, приложив руку ко лбу.
@@ -102,7 +102,7 @@ label chapter4_5_concert_end:
     Да, спасибо. Было бы неплохо.
     """
 
-    play sound "sfx/teacup-moving.mp3"
+    play sound "sfx/teacup-moving.opus"
 
     narrator """
         Я согласилась не из-за этого странного 'шепота', а потому что хотела как можно скорее перейти к делу.
@@ -117,11 +117,11 @@ label chapter4_5_concert_end:
         """
     narrator"Она поставила передо мной чашку. Я сделала глоток. Сладкий, с нотками жасмина, но с едва уловимым горьким послевкусием. Как ее слова."
 
-    play sound "sfx/teacup-slide.mp3"
+    play sound "sfx/teacup-slide.opus"
 
     neon "Спасибо. Серафина, о Селестии..."
 
-    play sound "sfx/teacup-pullout.mp3"
+    play sound "sfx/teacup-pullout.opus"
 
     narrator "Но меня перебивает Серафина, садясь в кресло напротив, вздыхая"
 
@@ -226,7 +226,7 @@ label chapter4_5_concert_end:
 
     show seraphina envious4 with { "master" : Dissolve(60.0) }
     with { "effect": dissolve }
-    play sound "sfx/mosquito.mp3"
+    play sound "sfx/mosquito.opus"
 
     narrator """
         Именно в этот момент я услышала его. Раздражающее, тонкое жужжание. Где-то над моим ухом.
@@ -237,7 +237,7 @@ label chapter4_5_concert_end:
         
         Но оно не улетало, продолжая назойливо виться у самого уха. 'Потусторонний шум', — промелькнула мысль.
     """
-    play sound "sfx/mosquito.mp3"
+    play sound "sfx/mosquito.opus"
     
     seraphina neutral """
     Ох, не обращай внимания!
@@ -261,7 +261,7 @@ label chapter4_5_concert_end:
 
     seraphina neutral "Ну вот видишь! Мой пластырь тебе всё-таки помог! Ну? Скажи... ...Ну?"
 
-    play sound "sfx/mosquito.mp3"
+    play sound "sfx/mosquito.opus"
 
     neon "Что сказать?"
 
@@ -271,7 +271,7 @@ label chapter4_5_concert_end:
 
     neon "{=thoughts}Она ведет себя как ребенок, требующий похвалы. Это странно. Это... манипуляция. Она хочет не дружбы, она хочет одобрения. Внимания.{/thoughts}"
 
-    play sound "sfx/mosquito.mp3"
+    play sound "sfx/mosquito.opus"
     narrator """
         И тут я снова его услышала.
         
@@ -283,14 +283,14 @@ label chapter4_5_concert_end:
 
         Серафина продолжала что-то говорить, но я уже не могла разобрать слов.
     """
-    play sound "sfx/mosquito.mp3"
+    play sound "sfx/mosquito.opus"
     narrator """
         Я увидела ее. Крошечную, почти невидимую мошку, которая летела не хаотично, а целеустремленно, прямо мне в ушной канал.
         
         Это не было инстинктивным поведением для насекомого, а атака.
         """
 
-    play sound "sfx/teacup-put.mp3"
+    play sound "sfx/teacup-put.opus"
 
     narrator """
     Серафина улыбалась, глядя мне прямо в глаза, попивая свой чай, но в ее взгляде была какая-то странная, холодная решимость.
@@ -302,25 +302,25 @@ label chapter4_5_concert_end:
     Мне очень хочется твоего т- {nw}
     """
 
-    play sound "sfx/hand-slap.mp3" volume 5
+    play sound "sfx/hand-slap.opus" volume 5
     stop music fadeout 0.0625
     scene black with Dissolve(0.0625)
     
 
     narrator "Рефлекс сработал быстрее мысли. И я резко хлопнула ладонью по уху, когда мошка подлетела совсем близко."
-    play sound "sfx/teacup-crash.mp3"
+    play sound "sfx/teacup-crash.opus"
 
-    play music "music/BGM/LostConnection.mp3" fadein 5.0
+    play music "music/BGM/LostConnection.opus" fadein 5.0
     
-    # play sound "sfx/insect_squash_smack.mp3"
+    # play sound "sfx/insect_squash_smack.opus"
     
     narrator "Я посмотрела на ладонь. На ней не было ничего. Ни мухи, ни пятнышка. Будто я хлопнула по пустому воздуху. Но жужжание... оно точно прекратилось."
     neon "{=thoughts}Странно... я была уверена, что попала...{/thoughts}"
 
     narrator "И тут раздался звук, который был напротив, он был гораздо страшнее. Нечеловеческий."
     
-    # play sound "sfx/cup_shatter_porcelain.mp3"
-    # play sound "sfx/seraphina_pain_gasp.mp3"
+    # play sound "sfx/cup_shatter_porcelain.opus"
+    # play sound "sfx/seraphina_pain_gasp.opus"
 
     narrator """
         Она сидела, грациозно закинув ногу на ногу, и элегантно подносила чашку к губам.
@@ -531,7 +531,7 @@ label chapter4_5_concert_end:
     
     narrator "Я слышала шок, растерянность и непонимание в ее голосе, полного отчаяния."
 
-    play sound "sfx/door-slam1.mp3"
+    play sound "sfx/door-slam1.opus"
     scene black with Dissolve(0.125)
     
     show cg cg33_4 at dizzy_sway with dissolve
@@ -565,7 +565,7 @@ label chapter4_5_concert_end:
         Последнее, что я услышала, — это тихий, размеренный стук каблуков по кафелю, приближающийся из дальнего конца коридора.
 
     """
-    play sound "sfx/heels-slow.mp3" volume 3
+    play sound "sfx/heels-slow.opus" volume 3
     $ renpy.music.set_audio_filter("music", renpy.audio.filter.Reverb(0.5), replace=True)
 
     "???" "Наконец-то..."
@@ -573,6 +573,6 @@ label chapter4_5_concert_end:
     scene black with Dissolve(3)
     $ renpy.music.set_audio_filter("music", None)
     
-    # play sound "sfx/heels_on_marble_approaching_slow.mp3"
+    # play sound "sfx/heels_on_marble_approaching_slow.opus"
 
 return

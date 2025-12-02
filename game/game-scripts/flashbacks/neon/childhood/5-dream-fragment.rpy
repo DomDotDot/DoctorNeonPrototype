@@ -82,7 +82,7 @@ label dream_sequence_japan_5:
 
     oganesson_young "Не волнуйся. Она будет жить. И она будет послушной. Куда послушнее тебя."
 
-    # play sound "sfx/sword_stab_flesh.mp3"
+    # play sound "sfx/sword_stab_flesh.opus"
     scene black with vpunch
     stop music
 

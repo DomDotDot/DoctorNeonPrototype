@@ -8,7 +8,7 @@ label dream_sequence_japan_4:
 
     label dream_sequence_japan_4_awakening:
 
-    play music "music/BGM/ExtinguishedFlame.mp3"
+    play music "music/BGM/ExtinguishedFlame.opus"
 
     # (Начало сцены — Неон "растворяется" после поцелуя Лили)
     
@@ -195,7 +195,7 @@ label dream_sequence_japan_4:
     
     # Резкая вспышка синего света.
     scene white with flash
-    play sound "sfx/absolute_silence_awaken.mp3"
+    play sound "sfx/absolute_silence_awaken.opus"
     
     # (Переход к сцене пробуждения)
 return

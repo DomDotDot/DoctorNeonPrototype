@@ -7,7 +7,7 @@ label chapter4_5_dorm_way:
     neon "Аргон, тише! Смотри, там что-то про Академию!"
 
     scene bg chapter_4-5-veritas-central with fade
-    play music "music/BGM/CityIntroSequence.mp3" noloop
+    play music "music/BGM/CityIntroSequence.opus" noloop
     
     narrator "Мы шли по одной из центральных площадей, обсуждая план проникновения в общежитие. На огромном голографическом экране, где обычно крутили рекламу, шел экстренный выпуск новостей."
 
@@ -103,7 +103,7 @@ label chapter4_5_dorm_investigation:
     """
     
     scene bg chapter_4-5_veritas-dorm-room with dissolve
-    play ambient "ambient/Wind-inside.mp3" fadein 5.0 volume 0.125
+    play ambient "ambient/Wind-inside.opus" fadein 5.0 volume 0.125
 
     
     narrator """
@@ -114,7 +114,7 @@ label chapter4_5_dorm_investigation:
         Шторы метались на сквозняке, и пластиковые жалюзи на них тихо, но назойливо цокали, ударяясь о раму.
     """
 
-    play music "music/BGM/Limp.mp3" fadein 5.0
+    play music "music/BGM/Limp.opus" fadein 5.0
 
     neon "{=whisper}Зачем кому-то оставлять окно открытым в такую погоду?{/whisper}"
     
@@ -144,7 +144,7 @@ label chapter4_5_dorm_investigation:
     narrator "Я сделала несколько шагов вперед, пытаясь разглядеть что-то в лунном свете. И замерла. За спинкой дивана виднелся силуэт. Кто-то сидел там. Неподвижно."
     narrator "То, что я увидела, заставило меня отшатнуться назад. Я споткнулась, из горла вырвался сдавленный, похожий на хрип вскрик. Я врезалась спиной во что-то твердое — в грудь Аргона."
     
-    # play sound "sfx/neon_gasp_fear.mp3"
+    # play sound "sfx/neon_gasp_fear.opus"
     
     argon "{=whisper}Неон, что там?! Ради всего святого...{/whisper}"
     
@@ -278,7 +278,7 @@ label chapter4_5_dorm_investigation:
         Мои руки дрожали, когда я протянула их к телу.
     """
     
-    # play sound "sfx/single_bee_buzz_panic.mp3"
+    # play sound "sfx/single_bee_buzz_panic.opus"
     
     narrator """
         Я вздрогнула, но не отступила.

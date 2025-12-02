@@ -9,7 +9,7 @@ label chapter4_0_arkaground:
     narrator "Мир за дверью был серо-белой пеленой. Туман здесь был другим, не желтым и ядовитым, как в Аномике. Этот был чистым, но плотным и холодным, как саван."
     stop sound fadeout 20.0
 
-    # play sound "sfx/jump_from_train.mp3" with hpunch
+    # play sound "sfx/jump_from_train.opus" with hpunch
     narrator "Мы спрыгнули на гравий. Поезд, не заметив нас, медленно растворился в дымке, оставив нас в оглушающей тишине."
 
     
@@ -23,7 +23,7 @@ label chapter4_0_arkaground:
     # --- АКТ II: КОВЧЕГ НА МЕЛИ ---
     play music "music/BGM/ElectricityInAir.opus" fadein 5.0 volume 0.33 noloop
 
-    # play sound "sfx/old_lock_turn_struggle.mp3"
+    # play sound "sfx/old_lock_turn_struggle.opus"
     neon "Это... и есть твое убежище?"
 
     argon "Это... должен был быть ее подарок."

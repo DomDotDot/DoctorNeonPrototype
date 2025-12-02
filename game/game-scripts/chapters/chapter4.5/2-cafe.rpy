@@ -35,7 +35,7 @@ label chapter4_5_cafe_scene:
     """
     
     show cg cg30_1 with fade
-    play music "music/BGM/TandemDate.mp3" fadein 2.5
+    play music "music/BGM/TandemDate.opus" fadein 2.5
     
     narrator """
     Я села за самый дальний столик в углу, спиной к стене, лицом к выходу. Привычка беглеца.
@@ -57,7 +57,7 @@ label chapter4_5_cafe_scene:
     Когда она ушла, я дрожащей рукой взяла телефон Сары. Нашла приложение 'Veritas ID', приложила его к сенсору на столе.
     """
     
-    # play sound "sfx/payment_success_chime.mp3"
+    # play sound "sfx/payment_success_chime.opus"
     
     narrator """
     Раздался тихий, мелодичный звон. На экране стола высветилось: 'Заказ принят. Сара Кендрик, ID 774-АЕ-9. Приятного аппетита!'

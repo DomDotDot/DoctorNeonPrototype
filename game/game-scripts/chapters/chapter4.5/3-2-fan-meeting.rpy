@@ -1,7 +1,7 @@
 label chapter4_5_concert_mid:
 
     scene bg chapter_4-5_veritas-stadium-skybridge with fade
-    play ambient "ambient/concert-crowd1.mp3" fadein 5.0 fadeout 5.0
+    play ambient "ambient/concert-crowd1.opus" fadein 5.0 fadeout 5.0
     
     narrator """
         Служебный вход, который указала мне Кэрол, вел на стеклянный мост, соединяющий стадион с соседним зданием.
@@ -51,7 +51,7 @@ label chapter4_5_concert_mid:
     """
     stop ambient fadeout 2.5
     scene bg chapter_4-5_veritas-expo-hall with Dissolve(2.5)
-    play ambient "ambient/FanConference.mp3" fadein 2.5
+    play ambient "ambient/FanConference.opus" fadein 2.5
     $ renpy.music.set_audio_filter("ambient", None)
     
     narrator """
@@ -92,12 +92,12 @@ label chapter4_5_concert_mid:
 
     stop ambient fadeout 10.0
     show cg cg32_2 with { "master" : Dissolve(80.0) }
-    play music "music/BGM/TenderHearts.ogg" fadein 10.0
+    play music "music/BGM/TenderHearts.opus" fadein 10.0
 
     "Фанатка 1" "Серафина, ты была просто невероятна! Я плакала на сегодняшнем выступлении!"
     seraphina neutral "Ох, спасибо тебе, милая! Я вкладываю в каждую ноту всю свою душу, чтобы она долетела до таких сердец, как твое!"
 
-    play sound "sfx/fan-ovation.mp3" fadein 2.5
+    play sound "sfx/fan-ovation.opus" fadein 2.5
 
     "Фанатка 2" "Серафина! А правда, что у тебя скоро будет коллаборация с тем известным дизайнером?"
     "Фанатка 3" "А какой твой любимый десерт? Мы хотим прислать тебе что-нибудь!"
@@ -116,7 +116,7 @@ label chapter4_5_concert_mid:
     Но не присылайте слишком много, а то я не влезу в свои костюмы! Хи-хи!
     """
 
-    play sound "sfx/fans-laugh.mp3" fadein 2.5 volume 2.5
+    play sound "sfx/fans-laugh.opus" fadein 2.5 volume 2.5
 
     narrator """
         Она засмеялась, и фанатки восторженно засмеялись вместе с ней.
@@ -157,7 +157,7 @@ label chapter4_5_concert_mid:
         Мне стало не по себе, вспомнив обещание данное Аргону... тяжелым грузом легло на плечи. Но я должна. Я должна узнать о Селестии, чтобы начать уже помощь ему.
     """
     
-    # play sound "sfx/memory_glitch_static.mp3" with vpunch
+    # play sound "sfx/memory_glitch_static.opus" with vpunch
     
     narrator """
         Фотосессия закончилась. Девушки, щебеча и делясь впечатлениями, начали расходиться.
@@ -195,9 +195,9 @@ label chapter4_5_concert_mid:
     """
 
     show cg cg32_4 with fade
-    play music "music/BGM/NarcissismShort.mp3" fadein 10.0 fadeout 10.0
+    play music "music/BGM/NarcissismShort.opus" fadein 10.0 fadeout 10.0
     
-    # play sound "sfx/light_jump_heels.mp3"
+    # play sound "sfx/light_jump_heels.opus"
     
     narrator """
         От резкого движения воздух подхватил легкую ткань ее платья. Пышная юбка взметнулась вверх, открывая чуть больше, чем следовало.
@@ -227,7 +227,7 @@ label chapter4_5_concert_mid:
     scene bg chapter_4-5_veritas-expo-hall-ground-sunset with fade
     show neon surprised at right with dissolve
     
-    # play sound "sfx/heels_on_marble_approaching.mp3" loop
+    # play sound "sfx/heels_on_marble_approaching.opus" loop
     
     narrator """
         Ее смех прозвучал в тишине атриума неестественно громко и резко.
@@ -237,7 +237,7 @@ label chapter4_5_concert_mid:
         Стук ее высоких каблуков по мраморному полу был единственным звуком в оглушающей тишине.
     """
 
-    play sound "sfx/heels-slow.mp3" volume 3
+    play sound "sfx/heels-slow.opus" volume 3
 
     narrator"""
         Цок... цок... цок...
@@ -268,7 +268,7 @@ label chapter4_5_concert_mid:
         А затем ее хватка стала сильнее.
     """
     
-    # play sound "sfx/flower_stem_snap.mp3"
+    # play sound "sfx/flower_stem_snap.opus"
     
     narrator """
         Я услышала тихий, влажный хруст.
