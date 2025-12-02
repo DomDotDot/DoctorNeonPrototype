@@ -3,7 +3,7 @@ label chapter4_0_garden:
     # --- АКТ I: ДОРОГА В ТУПИК ---
 
     show cg cg27_1 with Dissolve(5.0)
-    play music "music/BGM/FloraUndergrowth.ogg" loop # Более меланхоличная версия ночной темы.
+    play music "music/BGM/FloraUndergrowth.opus" loop # Более меланхоличная версия ночной темы.
     # play ambient "ambient/city_night_distant_sirens.opus" loop
 
     narrator """
@@ -103,7 +103,7 @@ label chapter4_0_garden_dialogue:
     # ...Сцена пробуждения Неон и обнаружения раны...
     # Музыкальная тема Серафины начинает тихо играть.
 
-    play music "music/BGM/NarcissismShort.ogg" fadein 5.0
+    play music "music/BGM/Narcissism.opus" fadein 5.0
 
     neon "{=thoughts}Уже ночь! Кто вообще в такое время в саду..?"
     hide neon
@@ -137,13 +137,13 @@ label chapter4_0_garden_dialogue:
 
 
     narrator "Она замолкла на мгновение, глядя на меня с любопытством и легкой настороженностью, кокетливо наклонив голову."
-    show seraphina neutral2 at right with dissolve
+    show seraphina neutral at right with dissolve
 
     "Девушка" "Ты меня не знаешь?! Я — Серафина!"
 
-    seraphina """
-    Самая популярная певица в Веритасе!
+    seraphina "Самая популярная певица в Веритасе!"
     
+    seraphina thinking """
     Странно, что ты обо мне не слышала.
 
     Ты, наверное, новенькая в городе?
@@ -182,7 +182,7 @@ label chapter4_0_garden_dialogue:
     """
 
     narrator "Внезапно, лицо Серафины снова просветлело. Она расплылась в такой теплой, искренней улыбке, что у меня на сердце потеплело."
-    seraphina neutral2 """
+    seraphina neutral """
     Неон... ведь так?
     
     Ты мне нравишься!
@@ -201,7 +201,7 @@ label chapter4_0_garden_dialogue:
     Я... я хотела сказать, что у нас, кажется, много общего!
     """
     
-    seraphina neutral2 "Подойди, не бойся!"
+    seraphina neutral "Подойди, не бойся!"
 
     narrator "Я подошла ближе. Она осторожно, почти благоговейно, взяла мою руку."
     seraphina "Так вот..."
@@ -212,7 +212,7 @@ label chapter4_0_garden_dialogue:
 
     neon shy "Я... сама не знаю. Проснулась с этим."
 
-    seraphina surprised """
+    seraphina worried """
     Странно... Никогда такого не видела...
 
     Оно такое... холодное. И притягивает...
@@ -224,13 +224,13 @@ label chapter4_0_garden_dialogue:
     
     narrator "Она развернулась, подошла к голубой школьной сумке, небрежно брошенной у скамейки. Присела, ее дорогое платье испачкалось о влажную землю. Она быстро нашла то, что искала."
 
-    seraphina neutral2 "Вот! Держи!"
+    seraphina neutral "Вот! Держи!"
     narrator "Она протянула мне розовый пластырь с милым котиком. Не дожидаясь моего ответа, она аккуратно наклеила его на мою ладонь."
     show neon surprised
     seraphina """
     Теперь все будет хорошо!
 
-    Видишь, какая я добрая? Хи-хи!"
+    Видишь, какая я добрая? Хи-хи!
     """
     
     narrator """
@@ -288,7 +288,7 @@ label chapter4_0_garden_dialogue:
     
     seraphina surprised "Но ладно, проехали..."
     
-    seraphina neutral2 """
+    seraphina neutral """
     Неон, я так рада, что встретила тебя! Но я, увы, ничем не могу помочь в поисках.
 
     Хотя... знаешь что? У меня завтра концерт!
@@ -304,7 +304,7 @@ label chapter4_0_garden_dialogue:
     seraphina wink "Идет?"
     narrator "Подмигнув, она не дала мне ответить. Она быстро вложила мне в руку билет, прикрыв его своей ладонью."
     
-    seraphina neutral2 "Я предупрежу охрану! А это — твой пропуск."
+    seraphina neutral "Я предупрежу охрану! А это — твой пропуск."
     narrator "Она сорвала с клумбы идеальную белую лилию и протянула ее мне."
     seraphina """
     Когда концерт закончится, покажи этот цветок охраннику у служебного входа. Он будет тебя ждать.

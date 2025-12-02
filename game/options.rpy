@@ -217,6 +217,7 @@ init python:
     build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
     build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
     build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
+    build.classify('image-assets/**', 'dev')
 
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 

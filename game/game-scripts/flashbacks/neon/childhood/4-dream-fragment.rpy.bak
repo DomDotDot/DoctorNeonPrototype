@@ -102,7 +102,7 @@ label dream_sequence_japan_4:
     
     lily "(Голос становится другим, более молодым, испуганным — это голос Лили) ...я не хотела... я просто хотела петь..."
 
-    call chapter4_5_lily_flashback from _call_chapter4_5_lily_flashback
+    call chapter4_5_lily_flashback
 
     lily "...исчезать..."
 

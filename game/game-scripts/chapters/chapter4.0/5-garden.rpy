@@ -70,7 +70,7 @@ label chapter4_0_garden:
     # === НАЧАЛО ФРАГМЕНТА СНА (3-dream-fragment.rpy) ===
     # Здесь можно использовать `call dream_sequence_japan_3`
     
-    call dream_sequence_japan_3
+    call dream_sequence_japan_3 from _call_dream_sequence_japan_3
 
 
     # --- АКТ IV: ПРОБУЖДЕНИЕ И ВСТРЕЧА (КЛИФФХЭНГЕР) ---

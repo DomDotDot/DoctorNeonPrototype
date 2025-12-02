@@ -496,7 +496,7 @@ label chapter4_5_finale:
     # === ФЛЕШБЭК ===
     scene bg chapter_4_veritas_streets_night_blur with Dissolve(0.2)
 
-    call chapter4_5_seraphina_flashback from _call_chapter4_5_seraphina_flashback
+    call chapter4_5_seraphina_flashback
     
     scene bg chapter_4_old_quarter_street_rain with Dissolve(0.2)
     # =======================================

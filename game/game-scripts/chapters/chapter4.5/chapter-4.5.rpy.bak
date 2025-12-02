@@ -1,6 +1,6 @@
 label chapter_4_5_rpy:
     play sound "sfx/next-chapter.mp3"
-    call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"))
+    call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"), _("Акт I - Не сотвори себе кумира"))
 
     call chapter4_5_garden_aftermath
     call chapter4_5_cafe_scene
@@ -16,6 +16,9 @@ label chapter_4_5_rpy:
     call chapter4_5_kai_ito_interlude
 
     call chapter4_5_dorm_way
+
+    call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"), _("Акт II - И никакого изображения того, что на небе вверху"))
+
     call chapter4_5_boulevard_night
 
     call chapter4_5_morning_after
@@ -23,5 +26,8 @@ label chapter_4_5_rpy:
     
     call chapter4_5_lily_cafe
 
+    call dream_sequence_japan_4
+    call chapter4_5_finale
+    call chapter4_5_epilogue
 
 return
