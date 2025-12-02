@@ -20,7 +20,7 @@ translate english_us chapter4_5_garden_aftermath_c98eae9d:
 translate english_us chapter4_5_garden_aftermath_74e6b2b8:
 
     # narrator "Видела, как первые лучи утреннего солнца зажигают пылинки в воздухе, превращая их в танцующее золото."
-    narrator "I watched the first rays of the morning sun ignite the dust motes in the air, turning them into dancing gold."
+    narrator "I watched the first rays of the morning sun spark the dust motes in the air, turning them into dancing gold."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
 translate english_us chapter4_5_garden_aftermath_c2bc5ef0:

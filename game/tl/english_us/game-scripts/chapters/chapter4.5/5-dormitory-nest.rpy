@@ -34,13 +34,13 @@ translate english_us chapter4_5_dorm_way_93c09740:
 translate english_us chapter4_5_dorm_way_30d31a19:
 
     # "Директор Акад." "Кай был одним из наших лучших учеников. Отличник, душa компании, у него было множество друзей. Мы все шокированы этой трагедией."
-    "Директор Акад." "Kai was one of our best students. An honors student, the life of the party, he had many friends. We are all shocked by this tragedy."
+    "Aсad. Director" "Kai was one of our best students. An honors student, the life of the party, he had many friends. We are all shocked by this tragedy."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:22
 translate english_us chapter4_5_dorm_way_cd613d59:
 
     # "Директор Акад." "Вероятно, это связано с какими-то личными, семейными проблемами, о которых мы не знали..."
-    "Директор Акад." "It is likely related to some personal, family issues we were unaware of..."
+    "Acad. Director" "It is likely related to some personal, family issues we were unaware of..."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:30
 translate english_us chapter4_5_dorm_way_2b65e61c:

@@ -264,15 +264,15 @@ translate english_us strings:
 
     # game/screens.rpy:1119
     old "Делает снимок экрана."
-    new "Screenshots the screen"
+    new "Screenshot"
 
     # game/screens.rpy:1123
     old "Включает поддерживаемый {a=https://www.renpy.org/l/voicing}синтезатор речи{/a}."
-    new "Turns of self-voice acting {a=https://www.renpy.org/l/voicing}{/a}."
+    new "Turns of self-voicing {a=https://www.renpy.org/l/voicing}{/a}."
 
     # game/screens.rpy:1127
     old "Открывает меню специальных возможностей."
-    new "Opens Accessability Menu"
+    new "Opens Accessibiltiy Menu"
 
     # game/screens.rpy:1133
     old "Левый клик"

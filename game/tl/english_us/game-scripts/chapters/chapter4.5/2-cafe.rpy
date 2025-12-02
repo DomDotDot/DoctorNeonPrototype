@@ -124,37 +124,37 @@ translate english_us chapter4_5_cafe_scene_f564f6f4:
 translate english_us chapter4_5_cafe_scene_d9ec8abc:
 
     # "Студентка А" "Ты видела десерт о котором говоила Она? 'Розовая Небула'! Говорят, он божественный! Мы просто обязаны его попробовать после концерта!"
-    "Студентка А" "Did you see that dessert She was talking about? 'Pink Nebula'! They say it's divine! We totally have to try it after the concert!"
+    "Female Student А" "Did you see that dessert She was talking about? 'Pink Nebula'! They say it's divine! We totally have to try it after the concert!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:76
 translate english_us chapter4_5_cafe_scene_326de81d:
 
     # "Студентка Б" "Обязательно! Я слышала, Она сама участвовала в разработке рецепта. Представляешь, Она такая же сладкоежка, как и мы!"
-    "Студентка Б" "Absolutely! I heard She helped develop the recipe herself. Imagine that, She has a sweet tooth just like us!"
+    "Female Student Б" "Absolutely! I heard She helped develop the recipe herself. Imagine that, She has a sweet tooth just like us!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_b8e28763:
 
     # "Студентка В" "Все девчонки из нашего общежития на него подсели. Клара вчера три порции съела!"
-    "Студентка В" "All the girls in our dorm are hooked on it. Clara ate three servings yesterday!"
+    "Female Student В" "All the girls in our dorm are hooked on it. Clara ate three servings yesterday!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_e0117c8a:
 
     # "Студентка В" "Говорит, помогает ей... э-э... 'сосредоточиться' перед экзаменами."
-    "Студентка В" "Says it helps her... uh... 'focus' before exams."
+    "Female Student В" "Says it helps her... uh... 'focus' before exams."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_a88485e2:
 
     # "Студентка В" "Странно, конечно. Но ладно."
-    "Студентка В" "Weird, sure. But whatever."
+    "Female Student В" "Weird, sure. But whatever."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:86
 translate english_us chapter4_5_cafe_scene_1d363a8d:
 
     # "Студентка А" "Ха-ха, 'сосредоточиться'! Просто вкусно! Да ладно, кто вообще не любит сладкое?"
-    "Студентка А" "Haha, 'focus'! It's just tasty! Come on, who doesn't love sweets?"
+    "Female Student А" "Haha, 'focus'! It's just tasty! Come on, who doesn't love sweets?"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:88
 translate english_us chapter4_5_cafe_scene_98aceb85:

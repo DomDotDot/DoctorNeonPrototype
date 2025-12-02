@@ -412,7 +412,7 @@ translate english_us chapter4_5_argon_rescue_fb1e1cbe:
 translate english_us chapter4_5_argon_rescue_2c00e7c9:
 
     # neon "И, наконец, Сара Кендрик. Её мать сказала, что она пропала. Телефон, которым я пользуюсь."
-    neon "And finally, Sarah Kendrick. Her mother said she was missing. The phone I'm using."
+    neon "And finally, Sarah Kendrick. Her mother reported her missing. I'm currently holding her phone."
 
 # game/game-scripts/chapters/chapter4.5/4-base.rpy:164
 translate english_us chapter4_5_argon_rescue_2cfaa672:
