@@ -1012,7 +1012,7 @@ translate english_us chapter4_0_24syndrome_4a9b906d:
 translate english_us chapter4_0_24syndrome_470f83b9:
 
     # "Консьерж" "Алло? Да, это 'The Celeste Plaza'. Да, снова доставка для 'Селестии'."
-    "Консьерж" "Hello? Yes, this is The Celeste Plaza. Yes, another delivery for 'Celestia'."
+    "Concierge" "Hello? Yes, this is The Celeste Plaza. Yes, another delivery for 'Celestia'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:116
 translate english_us chapter4_0_24syndrome_0dded4c0:
@@ -1042,7 +1042,7 @@ translate english_us chapter4_0_24syndrome_ce746677:
 translate english_us chapter4_0_24syndrome_ed601de2:
 
     # "Женщина" "Селестия? Опять... Опять вы, фанаты?! Сколько можно?!"
-    "Женщина" "Celestia? Again... Are you fans again?! How many more of you are there?!"
+    "Woman" "Celestia? Again... Are you fans again?! How many more of you are there?!"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:234
 translate english_us chapter4_0_24syndrome_09a11f26:

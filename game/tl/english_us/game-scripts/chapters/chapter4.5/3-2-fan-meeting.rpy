@@ -45,14 +45,14 @@ translate english_us chapter4_5_concert_mid_2ab47ed2:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
 translate english_us chapter4_5_concert_mid_9a9ab0b1:
 
-    # narrator "У двойных матовых дверей в конце коридора меня встретил охранник. Высокий, в идеальной форме, с холодным, оценивающим взглядом."
+    # narrator "У двойных матовых дверей в конце коридора меня встретил Guard. Высокий, в идеальной форме, с холодным, оценивающим взглядом."
     narrator "At the double frosted doors at the end of the corridor, a guard met me. Tall, in a perfect uniform, with a cold, appraising gaze."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:29
 translate english_us chapter4_5_concert_mid_0b8b185e:
 
-    # "Охранник" "Ваш VIP-пропуск, мэм."
-    "Охранник" "Your VIP pass, ma'am."
+    # "Guard" "Ваш VIP-пропуск, мэм."
+    "Guard" "Your VIP pass, ma'am."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:31
 translate english_us chapter4_5_concert_mid_014e4b30:
@@ -99,8 +99,8 @@ translate english_us chapter4_5_concert_mid_ff5f893c:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:43
 translate english_us chapter4_5_concert_mid_82ef60b7:
 
-    # "Охранник" "Понял. Проходите, Неон."
-    "Охранник" "Understood. Go ahead, Neon."
+    # "Guard" "Понял. Проходите, Неон."
+    "Guard" "Understood. Go ahead, Neon."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:45
 translate english_us chapter4_5_concert_mid_5164c5a6:
@@ -213,8 +213,8 @@ translate english_us chapter4_5_concert_mid_11898d45:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:97
 translate english_us chapter4_5_concert_mid_6d59c5fe:
 
-    # "Фанатка 1" "Серафина, ты была просто невероятна! Я плакала на сегодняшнем выступлении!"
-    "Фанатка 1" "Seraphina, you were just incredible! I cried during today's performance!"
+    # "Fan Girl 1" "Серафина, ты была просто невероятна! Я плакала на сегодняшнем выступлении!"
+    "Fan Girl 1" "Seraphina, you were just incredible! I cried during today's performance!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:98
 translate english_us chapter4_5_concert_mid_096900e3:
@@ -225,14 +225,14 @@ translate english_us chapter4_5_concert_mid_096900e3:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:102
 translate english_us chapter4_5_concert_mid_19d4b843:
 
-    # "Фанатка 2" "Серафина! А правда, что у тебя скоро будет коллаборация с тем известным дизайнером?"
-    "Фанатка 2" "Seraphina! Is it true you're doing a collab with that famous designer soon?"
+    # "Fan Girl 2" "Серафина! А правда, что у тебя скоро будет коллаборация с тем известным дизайнером?"
+    "Fan Girl 2" "Seraphina! Is it true you're doing a collab with that famous designer soon?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:103
 translate english_us chapter4_5_concert_mid_a9590910:
 
-    # "Фанатка 3" "А какой твой любимый десерт? Мы хотим прислать тебе что-нибудь!"
-    "Фанатка 3" "And what's your favorite dessert? We want to send you something!"
+    # "Fan Girl 3" "А какой твой любимый десерт? Мы хотим прислать тебе что-нибудь!"
+    "Fan Girl 3" "And what's your favorite dessert? We want to send you something!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:105
 translate english_us chapter4_5_concert_mid_0a546fd8:
@@ -291,8 +291,8 @@ translate english_us chapter4_5_concert_mid_c5d3aeb5:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:129
 translate english_us chapter4_5_concert_mid_6e54d7c9:
 
-    # "Фанатка 4" "Серафина, можно вопрос посерьезнее? Каково это — быть голосом нашего поколения? Чувствуешь ли ты ответственность?"
-    "Фанатка 4" "Seraphina, can I ask a serious question? What's it like—being the voice of our generation? Do you feel the responsibility?"
+    # "Fan Girl 4" "Серафина, можно вопрос посерьезнее? Каково это — быть голосом нашего поколения? Чувствуешь ли ты ответственность?"
+    "Fan Girl 4" "Seraphina, can I ask a serious question? What's it like—being the voice of our generation? Do you feel the responsibility?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:131
 translate english_us chapter4_5_concert_mid_6dc29dd9:
@@ -375,14 +375,14 @@ translate english_us chapter4_5_concert_mid_03b26798:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:170
 translate english_us chapter4_5_concert_mid_8eba69a9:
 
-    # "Фанатка 1" "Ой, а вы здесь все время стояли? Мы вас даже не заметили!"
-    "Фанатка 1" "Oh, were you standing here the whole time? We didn't even notice you!"
+    # "Fan Girl 1" "Ой, а вы здесь все время стояли? Мы вас даже не заметили!"
+    "Fan Girl 1" "Oh, were you standing here the whole time? We didn't even notice you!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:171
 translate english_us chapter4_5_concert_mid_53da0e64:
 
-    # "Фанатка 2" "Почему вы не подошли? Разве вы не хотели увидеть Серафину поближе? Или задать вопрос?"
-    "Фанатка 2" "Why didn't you come over? Didn't you want to see Seraphina closer up? Or ask a question?"
+    # "Fan Girl 2" "Почему вы не подошли? Разве вы не хотели увидеть Серафину поближе? Или задать вопрос?"
+    "Fan Girl 2" "Why didn't you come over? Didn't you want to see Seraphina closer up? Or ask a question?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:173
 translate english_us chapter4_5_concert_mid_ef2f94cb:
@@ -405,8 +405,8 @@ translate english_us chapter4_5_concert_mid_5a5caf47:
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:180
 translate english_us chapter4_5_concert_mid_9aa20c0c:
 
-    # "Фанатка 1" "Странная вы... Ну, ладно, пока!"
-    "Фанатка 1" "You're weird... Well, okay, bye!"
+    # "Fan Girl 1" "Странная вы... Ну, ладно, пока!"
+    "Fan Girl 1" "You're weird... Well, okay, bye!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:182
 translate english_us chapter4_5_concert_mid_1e4532f2:

@@ -1089,8 +1089,8 @@ translate english_us chapter4_5_nari_flashback_996e6cd1:
 # game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:477
 translate english_us chapter4_5_nari_flashback_c1d25ade:
 
-    # "Нари" "Что? Какая тьма?"
-    "Нари" "What? What darkness?"
+    # nari "Что? Какая тьма?"
+    nari "What? What darkness?"
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:481
 translate english_us chapter4_5_nari_flashback_808c2fbc:

@@ -70,7 +70,7 @@ translate english_us chapter4_5_cafe_scene_804eba76:
 translate english_us chapter4_5_cafe_scene_025a823d:
 
     # "Официантка" "Доброе утро! Что будете заказывать?"
-    "Официантка" "Good morning! What can I get for you?"
+    "Waitress" "Good morning! What can I get for you?"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:48
 translate english_us chapter4_5_cafe_scene_7148c915:
@@ -82,7 +82,7 @@ translate english_us chapter4_5_cafe_scene_7148c915:
 translate english_us chapter4_5_cafe_scene_10d9dfd2:
 
     # "Официантка" "Конечно! Наш завтрак — это то, что нужно! Оплата по ID на столике. Взгляните!"
-    "Официантка" "Of course! Our breakfast is exactly what you need! Payment by ID on the table. Take a look!"
+    "Waitress" "Of course! Our breakfast is exactly what you need! Payment by ID on the table. Take a look!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:54
 translate english_us chapter4_5_cafe_scene_4d574c1d:
@@ -178,12 +178,12 @@ translate english_us chapter4_5_cafe_scene_bb89474b:
 translate english_us chapter4_5_cafe_scene_810ccbc0:
 
     # "Официантка" "Ваш 'Галактический завтрак', Сара! Приятного аппетита!"
-    "Официантка" "Your 'Galactic Breakfast', Sarah! Enjoy!"
+    "Waitress" "Your 'Galactic Breakfast', Sarah! Enjoy!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
 translate english_us chapter4_5_cafe_scene_3ca5f665:
 
-    # narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет.. Но официантка не уходила."
+    # narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет.. Но Waitress не уходила."
     narrator "My order arrived. Hot, aromatic coffee and a huge plate with something resembling an omelet... But the waitress didn't leave."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
@@ -196,7 +196,7 @@ translate english_us chapter4_5_cafe_scene_8a588c91:
 translate english_us chapter4_5_cafe_scene_8c7ff9ed:
 
     # "Официантка" "Мы тут посмотрели... Вы, оказывается, наш постоянный клиент! Заглядываете к нам почти каждый день! В честь этого, примите от заведения небольшой комплимент — наш фирменный десерт 'Медовый Астероид'"
-    "Официантка" "We were looking... turns out you're a regular! You pop in almost every day! To celebrate, please accept a little treat on the house — our signature dessert, 'Honey Asteroid'."
+    "Waitress" "We were looking... turns out you're a regular! You pop in almost every day! To celebrate, please accept a little treat on the house — our signature dessert, 'Honey Asteroid'."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:110
 translate english_us chapter4_5_cafe_scene_9c5029d7:
@@ -231,8 +231,8 @@ translate english_us chapter4_5_cafe_scene_f20dbaeb:
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:122
 translate english_us chapter4_5_cafe_scene_18d08f76:
 
-    # "Официантка" "Вам... не нравится? Это наш хит! Особенно среди студенток."
-    "Официантка" "You... don't like it? It's our hit item! Especially among students."
+    # "Waitress" "Вам... не нравится? Это наш хит! Особенно среди студенток."
+    "Waitress" "You... don't like it? It's our hit item! Especially among students."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:124
 translate english_us chapter4_5_cafe_scene_791262b4:

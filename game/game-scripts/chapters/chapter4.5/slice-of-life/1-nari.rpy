@@ -474,7 +474,7 @@ label chapter4_5_nari_flashback:
 
     illusion "Ого... Какая плотная Тьма..."
 
-    "Нари" "Что? Какая тьма?"
+    nari "Что? Какая тьма?"
 
     show illusion thinking
 

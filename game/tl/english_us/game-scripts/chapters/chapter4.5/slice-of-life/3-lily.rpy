@@ -459,26 +459,26 @@ translate english_us chapter4_5_lily_flashback_8b3643c2:
 # game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:202
 translate english_us chapter4_5_lily_flashback_072b8dfb:
 
-    # "Нари" "(Голос — шипящий, искаженный, полный триумфа)"
-    "Нари" ""
+    # nari "(Голос — шипящий, искаженный, полный триумфа)"
+    nari ""
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:202
 translate english_us chapter4_5_lily_flashback_c3496a6f:
 
-    # "Нари" "Наконец-то... Твое тело... твой талант... все это будет моим!"
-    "Нари" ""
+    # nari "Наконец-то... Твое тело... твой талант... все это будет моим!"
+    nari ""
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:202
 translate english_us chapter4_5_lily_flashback_8c0a2b98:
 
-    # "Нари" "И тогда... тогда Серафина наконец-то меня заметит!"
-    "Нари" ""
+    # nari "И тогда... тогда Серафина наконец-то меня заметит!"
+    nari ""
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:202
 translate english_us chapter4_5_lily_flashback_41ab9939:
 
-    # "Нари" "Да и фигурка у тебя что надо. Не то что эта... временная оболочка. Ну-ка, открой ротик..."
-    "Нари" ""
+    # nari "Да и фигурка у тебя что надо. Не то что эта... временная оболочка. Ну-ка, открой ротик..."
+    nari ""
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:212
 translate english_us chapter4_5_lily_flashback_10fb214f:

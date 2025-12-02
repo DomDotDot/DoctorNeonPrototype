@@ -15,14 +15,14 @@ translate english_us chapter4_5_dorm_way_f0890201:
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:14
 translate english_us chapter4_5_dorm_way_af5114bd:
 
-    # "Ведущая новостей" "...и снова трагедия в элитной Академии Веритас."
-    "Ведущая новостей" "...and another tragedy at the elite Veritas Academy."
+    # "News Anchor" "...и снова трагедия в элитной Академии Веритас."
+    "News Anchor" "...and another tragedy at the elite Veritas Academy."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:14
 translate english_us chapter4_5_dorm_way_315d5e75:
 
-    # "Ведущая новостей" "Сегодня в своей квартире был найден мертвым студент второго курса, Кай Ито. По предварительным версии следствия, причиной смерти стало самоубийство."
-    "Ведущая новостей" "Today, second-year student Kai Ito was found dead in his apartment. Preliminary investigation suggests the cause of death was suicide."
+    # "News Anchor" "Сегодня в своей квартире был найден мертвым студент второго курса, Кай Ито. По предварительным версии следствия, причиной смерти стало самоубийство."
+    "News Anchor" "Today, second-year student Kai Ito was found dead in his apartment. Preliminary investigation suggests the cause of death was suicide."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:20
 translate english_us chapter4_5_dorm_way_93c09740:
@@ -129,8 +129,8 @@ translate english_us chapter4_5_dorm_investigation_e811460b:
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:77
 translate english_us chapter4_5_dorm_investigation_46afde17:
 
-    # "Консьержка" "Простите... вы... что-то хотели?"
-    "Консьержка" "Excuse me... did you... want something?"
+    # "Concierge" "Простите... вы... что-то хотели?"
+    "Concierge" "Excuse me... did you... want something?"
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:79
 translate english_us chapter4_5_dorm_investigation_fdbfca0b:
@@ -141,8 +141,8 @@ translate english_us chapter4_5_dorm_investigation_fdbfca0b:
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:81
 translate english_us chapter4_5_dorm_investigation_8f94f3ac:
 
-    # "Консьержка" "Студенты... Да... конечно. Но сейчас уже двадцать три часа ночи. Комендантский час..."
-    "Консьержка" "Students... Yes... of course. But it's already twenty-three hundred hours. Curfew..."
+    # "Concierge" "Студенты... Да... конечно. Но сейчас уже двадцать три часа ночи. Комендантский час..."
+    "Concierge" "Students... Yes... of course. But it's already twenty-three hundred hours. Curfew..."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:83
 translate english_us chapter4_5_dorm_investigation_da7cb6b2:
@@ -159,8 +159,8 @@ translate english_us chapter4_5_dorm_investigation_ed2e2476:
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:87
 translate english_us chapter4_5_dorm_investigation_d36437c9:
 
-    # "Консьержка" "А, да. Точно. Пять вечера. Простите, заработалась. Проходите."
-    "Консьержка" "Ah, yes. Right. Five PM. Sorry, overworked. Go ahead."
+    # "Concierge" "А, да. Точно. Пять вечера. Простите, заработалась. Проходите."
+    "Concierge" "Ah, yes. Right. Five PM. Sorry, overworked. Go ahead."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:89
 translate english_us chapter4_5_dorm_investigation_0af13b35:

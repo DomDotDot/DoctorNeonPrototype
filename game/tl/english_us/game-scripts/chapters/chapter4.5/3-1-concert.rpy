@@ -69,8 +69,8 @@ translate english_us chapter4_5_concert_start_d51a7dce:
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:36
 translate english_us chapter4_5_concert_start_2b932813:
 
-    # "Охранник" "Билеты и ID, пожалуйста. Личные вещи на сканер."
-    "Охранник" "Tickets and ID, please. Personal items on the scanner."
+    # "Guard" "Билеты и ID, пожалуйста. Личные вещи на сканер."
+    "Guard" "Tickets and ID, please. Personal items on the scanner."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:38
 translate english_us chapter4_5_concert_start_6ded5656:
