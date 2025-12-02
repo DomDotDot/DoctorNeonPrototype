@@ -23,7 +23,7 @@ label ch3_hall_explore:
             $ hall_examined = True
             jump ch3_hall_explore
         
-        "Осмотреть стойку регистрации." if hall_examined and not has_keycard:
+        "Осмотреть стойку регистрации." (id="chk_keycard_opt") if hall_examined and not has_keycard:
             narrator """
             Я подошла к стойке. На полу, среди разбросанных бумаг и мусора, что-то блеснуло под слоем пыли.
             

@@ -118,10 +118,6 @@ translate english_us strings:
     old "Осмотреть стойку регистрации."
     new "Examine the reception desk."
 
-    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:39
-    old "Осмотреть ключ-карту."
-    new "Examine the keycard."
-
     # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:61
     old "Поговорить с вышибалой."
     new "Talk to the Bouncer."
@@ -153,3 +149,13 @@ translate english_us ch3_hall_explore_fcdb3047:
     # neon "{=thoughts}Жирные линии находятся над цифрами {b}1{/b}, {b}9{/b}, {b}8{/b} и {b}4{/b}. Остальные линии тонкие. Это не ошибка печати. Это шифр. Евгений Петров, старший химик..."
     neon "{=thoughts}The thick lines are above the numbers {b}1{/b}, {b}9{/b}, {b}8{/b}, and {b}4{/b}. The rest of the lines are thin. This isn't a printing error. It's a cipher. Evgeny Petrov, senior chemist..."
 
+# TODO: Translation updated at 2025-12-03 01:18
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:38
+    old "Осмотреть ключ-карту."
+    new ""
+
+translate english chk_keycard_opt:
+    "Inspect the keycard."
