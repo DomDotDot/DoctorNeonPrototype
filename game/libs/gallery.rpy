@@ -2,7 +2,7 @@ init python:
 
     ### CONFIG ###
     # file extension of the CGs, used in creating automatic thumbnails
-    cg_format = ".jpg" 
+    cg_format = ".webp" 
     # path to CGs
     cg_path = "images/cg/" 
     # number of columns of thumbnails in the gallery grid
@@ -97,7 +97,7 @@ screen gallery():
             gallery_items.append(GalleryItem("Детская площадка", ["cg cg22"]))
 
             gallery_items.append(GalleryItem("Я и мой Папа - Аргон!", ["cg cg23"]))
-            # gallery_items.append(GalleryItem("gres", ["cg gres", "cg gres side"], "images/cg/cg gres thumbnail.jpg"))
+            # gallery_items.append(GalleryItem("gres", ["cg gres", "cg gres side"], "images/cg/cg gres thumbnail.webp"))
 
             for item in gallery_items:
                 g.button(item.name)
