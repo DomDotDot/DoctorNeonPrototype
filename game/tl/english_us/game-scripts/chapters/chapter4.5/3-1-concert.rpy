@@ -810,4 +810,11 @@ translate english_us chapter4_5_concert_start_3535d124:
 translate english_us chapter4_5_concert_start_7d73fbfb:
 
     # narrator "Я шла навстречу своей судьбе, уверенная, что где-то там, за спиной, меня прикрывает мой лучший друг."
-    narrator "I walked toward my fate, confident that somewhere out there, watching my back, was my best friend."
+    narrator "I walked toward my fate, confident that somewhere out there, watching my back, was my best friend."# TODO: Translation updated at 2025-12-03 00:48
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:158
+translate english_us chapter4_5_concert_start_8193e650:
+
+    # narrator "Она словно материализовалась из ниоткуда. Cветло-голубое платье сияло в луче прожектора, делая ее похожей на сошедшего с небес ангела."
+    narrator "She seemed to materialize out of nowhere. Her light-blue dress shone in the spotlight, making her look like an angel descended from heaven."
+

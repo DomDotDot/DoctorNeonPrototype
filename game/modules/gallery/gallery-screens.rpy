@@ -66,7 +66,7 @@ screen gallery():
                             outlines [(2, "#000", 0, 0)]
 
                         action Show("gallery_view", item=item)
-                        hovered Play("audio", "sfx/cursor-hover.wav") 
+                        hovered Play("audio", "audio/sfx/cursor-hover.wav") 
 
                 else:
                     add "gallery_locked_thumb"

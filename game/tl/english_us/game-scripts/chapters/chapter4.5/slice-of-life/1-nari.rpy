@@ -1190,3 +1190,11 @@ translate english_us chapter4_5_nari_flashback_a69828b6:
     # nari "Что? Какая тьма?"
     nari "What? What darkness?"
 
+# TODO: Translation updated at 2025-12-03 00:48
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:503
+translate english_us chapter4_5_nari_flashback_8b7e2ef1:
+
+    # narrator "Я вспомнила приоткрытую дверь балкона. Вспомнила, как Серафина обнимает Лили."
+    narrator "I remembered the slightly open balcony door. Remembered Seraphina hugging Lily."
+

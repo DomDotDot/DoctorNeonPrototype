@@ -308,4 +308,27 @@ translate english_us strings:
 
     # game/modules/gallery/gallery-setup.rpy:250
     old "Улей"
-    new "Hive"
+    new "Hive"# TODO: Translation updated at 2025-12-03 00:48
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-setup.rpy:80
+    old "Кафетерия Гелиос"
+    new "Helios Cafeteria"
+
+    # game/modules/gallery/gallery-setup.rpy:91
+    old "Цюрих"
+    new "Zurich"
+
+    # game/modules/gallery/gallery-setup.rpy:122
+    old "Цвета Белого снега и Черной Ночи"
+    new "The Colors of Winter White and Black Night"
+
+# TODO: Translation updated at 2025-12-03 00:50
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-setup.rpy:99
+    old "Разгромлен"
+    new "Devastated"
+

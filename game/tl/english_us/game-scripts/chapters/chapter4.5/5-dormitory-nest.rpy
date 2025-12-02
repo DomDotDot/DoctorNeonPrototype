@@ -736,4 +736,17 @@ translate english_us chapter4_5_dorm_investigation_f998c879:
 translate english_us chapter4_5_dorm_investigation_3cc910e1:
 
     # narrator "Он медленно обернулся. Он не смотрел на тело. Он смотрел на меня. В его глазах была не жалость. А ужас. Он ужасался не тому, что я сделала. А тому, что я смогла это сделать."
-    narrator "He turned slowly. He didn't look at the body. He looked at me. In his eyes was not pity. But horror. He wasn't horrified by what I did. But by the fact that I could do it."
+    narrator "He turned slowly. He didn't look at the body. He looked at me. In his eyes was not pity. But horror. He wasn't horrified by what I did. But by the fact that I could do it."# TODO: Translation updated at 2025-12-03 00:48
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:255
+translate english_us chapter4_5_dorm_investigation_9a1c8cdb:
+
+    # narrator "Я посмотрела на форму, в которую было одето... это. Белая блузка, зеленая юбка. Пропуск в мир, который нас отторгал."
+    narrator "I looked at the uniform worn by... this. White blouse, green skirt. A pass into a world that rejected us."
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:313
+translate english_us chapter4_5_dorm_investigation_465970d6:
+
+    # narrator "Аккуратно, стараясь больше не прикасаться к телу, я сложила в нее форму. Пиджак. Юбка. Галстук."
+    narrator "Carefully, trying not to touch the body again, I packed the uniform into it. Jacket. Skirt. Tie."
+

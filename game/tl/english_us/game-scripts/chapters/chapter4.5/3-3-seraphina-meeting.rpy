@@ -1204,4 +1204,11 @@ translate english_us chapter4_5_concert_end_fffc8757:
 translate english_us chapter4_5_concert_end_2934381b:
 
     # "???" "Наконец-то..."
-    "???" "Finally..."
+    "???" "Finally..."# TODO: Translation updated at 2025-12-03 00:48
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:78
+translate english_us chapter4_5_concert_end_cc0ec8bb:
+
+    # narrator "Это был небольшой, но стильный офис. Панорамное окно с видом на здания города, диван, пара кресел, маленький столик с чайником."
+    narrator "It was a small but stylish office. A panoramic window overlooking the city buildings, a sofa, a couple of armchairs, a small table with a traditional kettle."
+
