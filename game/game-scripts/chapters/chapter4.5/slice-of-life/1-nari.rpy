@@ -98,6 +98,10 @@ label chapter4_5_nari_flashback:
 
     Она показала на свою шею. Там был черный бархатный чокер с вырезом в форме сердца.
     """
+
+    scene bg chapter_4-5_nari-flashback with dissolve
+
+    show seraphina young-chocker_neutral at left with dissolve
     
     seraphina "Ну как, мне идет?"
 
@@ -110,6 +114,8 @@ label chapter4_5_nari_flashback:
     
     Мне неловко. Это так... по-детски.
     """
+
+    show nari hairpin blushing at right with dissolve
 
     nari """
         Глупости какие... Она же такая детская.
@@ -169,7 +175,7 @@ label chapter4_5_nari_flashback:
     scene bg chapter_4-5_nari-flashback with fade
 
     show lily coat frozen at center with dissolve
-    show seraphina young_neutral at left with dissolve
+    show seraphina young-chocker_neutral at left with dissolve
     show nari neutral at right with dissolve
 
     narrator """
@@ -216,6 +222,8 @@ label chapter4_5_nari_flashback:
         Утром я проснулась от звуков гитары. Нежных, сложных переборов. Но в студии была только одна гитара. Моя.
 
         Не мои простые, выученные аккорды. Это была переливающаяся мелодия, полная тоски и надежды. Но она звучала не из комнаты. Она доносилась с улицы.
+        
+        Заколка, которая подарила мне Серафина я положила под свою подушку ещё вчера.
         
         Я встала и тихо подошла к балконной двери. Она была приоткрыта.
 
