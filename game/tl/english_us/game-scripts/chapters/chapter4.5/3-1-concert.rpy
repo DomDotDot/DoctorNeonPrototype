@@ -731,3 +731,83 @@ translate english_us chapter4_5_concert_start_5b89c116:
 
     # narrator "Я встала с кресла, с печальным выдохом. Моя часть этого шоу закончилась. Начиналась ее."
     narrator "I got up from the seat with a sad sigh. My part of this show was over. Hers was just beginning."
+    
+# TODO: Translation updated at 2025-12-02 19:30
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:6
+translate english_us chapter4_5_concert_start_1a0e14f1:
+
+    # narrator "Я вышла из кафе на гудящие дневные улицы. Кофе взбодрил тело, но разум все еще цеплялся за эти крохи спокойствия."
+    narrator "I stepped out of the cafe onto the buzzing daytime streets. The coffee had woken up my body, but my mind was still clinging to those crumbs of peace."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:6
+translate english_us chapter4_5_concert_start_3f17596e:
+
+    # narrator "Странный привкус остался во рту. Не от кофе. От воспоминаний."
+    narrator "A strange aftertaste lingered in my mouth. Not from the coffee. From the memories."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:12
+translate english_us chapter4_5_concert_start_30efd8e4:
+
+    # neon "{=thoughts}Алекс..."
+    neon "{=thoughts}Alex..."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:12
+translate english_us chapter4_5_concert_start_134bd384:
+
+    # neon "{=thoughts}Каждый раз, когда я её вспоминаю, становится так больно, будто она была... частью меня. И я эту часть отрезала."
+    neon "{=thoughts}Every time I think of her, it hurts so much, like she was... a part of me. And I cut that part off."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:12
+translate english_us chapter4_5_concert_start_d640fff6:
+
+    # neon "{=thoughts}Я не хочу думать о ней. Я не могу. Я не хочу гадать о её судьбе... Пожалуйста. Пусть с ней все будет хорошо."
+    neon "{=thoughts}I don't want to think about her. I can't. I don't want to guess at her fate... Please. Let her be okay."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:20
+translate english_us chapter4_5_concert_start_44b47582:
+
+    # narrator "Я сжала кулак, в котором лежал билет на концерт. Билет в новую жизнь."
+    narrator "I clenched my fist around the concert ticket. A ticket to a new life."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:22
+translate english_us chapter4_5_concert_start_74e5cacc:
+
+    # neon "{=thoughts}Точно... Я не трусиха."
+    neon "{=thoughts}Right... I'm not a coward."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:22
+translate english_us chapter4_5_concert_start_d6042578:
+
+    # neon "{=thoughts}Я спасла Аргона. Я найду Лили. Я разберусь с этим городом."
+    neon "{=thoughts}I saved Argon. I'll find Lily. I'll figure this city out."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:22
+translate english_us chapter4_5_concert_start_008eb665:
+
+    # neon "{=thoughts}И когда мы снова встретимся... а мы встретимся... я всё ей расскажу."
+    neon "{=thoughts}And when we meet again... and we {i}will{/i} meet... I'll tell her everything."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:22
+translate english_us chapter4_5_concert_start_e7769b77:
+
+    # neon "{=thoughts}Я расскажу, как я помогала другим. Как я не сбежала. Она поймет."
+    neon "{=thoughts}I'll tell her how I helped others. How I didn't run away. She'll understand."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:22
+translate english_us chapter4_5_concert_start_358dbb8a:
+
+    # neon "{=thoughts}Она же всегда была крутой. Самой сильной. Она точно меня уже ищет. Я не сомневаюсь. Она не могла просто исчезнуть."
+    neon "{=thoughts}She was always the cool one. The strongest one. She's definitely looking for me right now. I have no doubt. She couldn't just disappear."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:34
+translate english_us chapter4_5_concert_start_3535d124:
+
+    # narrator "Эта мысль согрела меня лучше любого кофе. Я ухватилась за нее, как за спасательный круг, и, ускорив шаг, направилась к стадиону."
+    narrator "That thought warmed me better than any coffee. I grabbed onto it like a lifeline, picked up my pace, and headed for the stadium."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:34
+translate english_us chapter4_5_concert_start_7d73fbfb:
+
+    # narrator "Я шла навстречу своей судьбе, уверенная, что где-то там, за спиной, меня прикрывает мой лучший друг."
+    narrator "I walked toward my fate, confident that somewhere out there, watching my back, was my best friend."

@@ -286,4 +286,46 @@ translate english_us chapter4_5_cafe_scene_d6dd6353:
 translate english_us chapter4_5_cafe_scene_d8383301:
 
     # narrator "Наконец-то..."
-    narrator "Finally..."
+    narrator "Finally..."# TODO: Translation updated at 2025-12-02 19:30
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
+translate english_us chapter4_5_cafe_scene_1753bd41:
+
+    # narrator "Я чувствовала себя пришельцем... Я вспомнила, как сидела вот так же в нашей лаборатории. С ней. Она ела пончик и смеялась над моим отчетом."
+    narrator "I felt like an alien... I remembered sitting just like this in our lab. With her. She was eating a donut and laughing at my report."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:138
+translate english_us chapter4_5_cafe_scene_5cf3dfc3:
+
+    # neon "{=thoughts}Где она сейчас? Ест ли она? Или..."
+    neon "{=thoughts}Where is she now? Is she eating? Or..."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:140
+translate english_us chapter4_5_cafe_scene_aec4bedd:
+
+    # narrator "Я резко отставила чашку. Кофе показался слишком горьким."
+    narrator "I set the cup down sharply. The coffee tasted too bitter."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:140
+translate english_us chapter4_5_cafe_scene_0619489e:
+
+    # narrator "'У меня миссия'"
+    narrator "'I have a mission,'"
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:140
+translate english_us chapter4_5_cafe_scene_b06b0ab3:
+
+    # narrator "Напомнила я себе."
+    narrator "I reminded myself."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:140
+translate english_us chapter4_5_cafe_scene_5e267403:
+
+    # narrator "'Я здесь ради Сары. Ради Лили. Я не могу позволить себе отвлекаться на призраков'."
+    narrator "'I'm here for Sarah. For Lily. I can't afford to get distracted by ghosts.'"
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:151
+translate english_us chapter4_5_cafe_scene_40b50393:
+
+    # narrator "Я ела медленно, растягивая каждую минуту этой иллюзии нормальной жизни, ожидая примерное время до начала концерта."
+    narrator "I ate slowly, dragging out every minute of this illusion of a normal life, killing time until the concert started."

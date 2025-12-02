@@ -844,3 +844,29 @@ translate english_us chapter4_0_garden_dialogue_d890f481:
     # seraphina neutral "Я предупрежу охрану! А это — твой пропуск."
     seraphina neutral ""
 
+# TODO: Translation updated at 2025-12-02 19:30
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:204
+translate english_us chapter4_0_garden_dialogue_8e72c7ce:
+
+    # neon "{=thoughts}Она такая... яркая. Энергичная. Как... красная вспышка в сером коридоре."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:206
+translate english_us chapter4_0_garden_dialogue_e57be3ea:
+
+    # narrator "На секунду лицо Серафины наложилось на другое лицо. Светлые кудри, красный джемпер, широкая улыбка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:208
+translate english_us chapter4_0_garden_dialogue_4bc68ed3:
+
+    # neon "{=thoughts}Почему я вижу её в каждом добром человеке?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:208
+translate english_us chapter4_0_garden_dialogue_ce71bd43:
+
+    # neon "{=thoughts}Это проклятие. Я должна перестать искать её в других. Она осталась там. Я ушла."
+    neon ""
+

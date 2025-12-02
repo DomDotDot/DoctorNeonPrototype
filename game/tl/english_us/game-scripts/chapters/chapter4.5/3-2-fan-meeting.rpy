@@ -250,7 +250,7 @@ translate english_us chapter4_5_concert_mid_bac7e88d:
 translate english_us chapter4_5_concert_mid_3f8899b8:
 
     # seraphina "Насчет коллаборации — это пока большой-большой секрет! Но следите за новостями!"
-    seraphina "About the collab—that's a big, big secret for now! But stay tuned!"
+    seraphina "About the collab thing. That's a big, big secret for now! But stay tuned!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:109
 translate english_us chapter4_5_concert_mid_3b05dde6:

@@ -1176,3 +1176,17 @@ translate english_us chapter4_5_nari_flashback_87296f12_1:
     # nari "...Да."
     nari "...Yes."
 
+# TODO: Translation updated at 2025-12-02 19:30
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:221
+translate english_us chapter4_5_nari_flashback_c45c4950:
+
+    # narrator "Заколка, которая подарила мне Серафина я положила под свою подушку ещё вчера."
+    narrator "I put the hairpin that Seraphina gave me under my bed pillow yesterday."
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:485
+translate english_us chapter4_5_nari_flashback_a69828b6:
+
+    # nari "Что? Какая тьма?"
+    nari "What? What darkness?"
+

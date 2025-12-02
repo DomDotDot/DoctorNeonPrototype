@@ -268,7 +268,7 @@ translate english_us chapter4_5_concert_end_89a0bf28:
 translate english_us chapter4_5_concert_end_bb547919:
 
     # seraphina looking-down "Не 'Серафиной-айдолом', а просто... собой."
-    seraphina looking-down "Not 'Seraphina the Idol', but just... myself."
+    seraphina looking-down "Not 'Seraphina the Idol', but just... 'Seraphina Myself'."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:128
 translate english_us chapter4_5_concert_end_c5800c59:
@@ -328,7 +328,7 @@ translate english_us chapter4_5_concert_end_f7f9d9c8:
 translate english_us chapter4_5_concert_end_76dc8593:
 
     # narrator "Она затягивает. Каждое ее слово, каждый жест — все это кажется способом оттянуть момент, когда придется говорить о Селестии. Но зачем?"
-    narrator "She's stalling. Every word, every gesture—it all seems like a way to delay the moment when she has to talk about Celestia. But why?"
+    narrator "She's stalling. Every word, every gesture, it all seems like a way to delay the moment when she has to talk about Celestia. But why?"
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:167
 translate english_us chapter4_5_concert_end_6481340a:
@@ -346,7 +346,7 @@ translate english_us chapter4_5_concert_end_23d63bfc:
 translate english_us chapter4_5_concert_end_0f210c2c:
 
     # seraphina looking-away "Тяжело — это не то слово."
-    seraphina looking-away "Hard isn't the word."
+    seraphina looking-away "Not exactly 'Hard'."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:177
 translate english_us chapter4_5_concert_end_1bfe1f66:
@@ -502,7 +502,7 @@ translate english_us chapter4_5_concert_end_386e7c29:
 translate english_us chapter4_5_concert_end_052ee958:
 
     # seraphina neutral "Фанатки — они такие. Иногда слишком увлекаются."
-    seraphina neutral "Fangirls—they're like that. Sometimes they get too carried away."
+    seraphina neutral "Fangirls... they're like that. Sometimes they get too carried away."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:242
 translate english_us chapter4_5_concert_end_b9fe7afb:
@@ -562,7 +562,7 @@ translate english_us chapter4_5_concert_end_410461fa:
 translate english_us chapter4_5_concert_end_d636d09a:
 
     # neon "Спасибо... ты молодец."
-    neon "Thanks... you're great."
+    neon "Thanks... you're good... girl..."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:272
 translate english_us chapter4_5_concert_end_d4ee785b:
@@ -874,7 +874,7 @@ translate english_us chapter4_5_concert_end_a81dc5e6:
 translate english_us chapter4_5_concert_end_9680434d:
 
     # seraphina "Неон, прости меня, пожалуйста... Я знаю, это низко. Использовать твою боль, чтобы затащить тебя сюда."
-    seraphina "Neon, please forgive me... I know it's low. Using your pain to drag you here."
+    seraphina "Neon, please forgive me... I know it's cheap. Using your pain to drag you here."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:411
 translate english_us chapter4_5_concert_end_6583200a:

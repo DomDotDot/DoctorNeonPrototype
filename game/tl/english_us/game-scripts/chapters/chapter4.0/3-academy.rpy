@@ -912,3 +912,35 @@ translate english_us chapter4_0_academy_97061664:
     # neon "{=thoughts}Если Селестия была настолько популярна, что в ее честь назвали жилой комплекс, значит, она была их 'лицом'."
     neon "{=thoughts}If Celestia was so popular that they named a residential complex after her, it means she was their 'face'."
 
+# TODO: Translation updated at 2025-12-02 19:30
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
+translate english_us chapter4_0_academy_7a0341bd:
+
+    # narrator "Их беззаботный смех..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
+translate english_us chapter4_0_academy_3ac0f1af:
+
+    # narrator "Он был таким же легким и заразительным, как у..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
+translate english_us chapter4_0_academy_07a0d146:
+
+    # narrator "Нет. Не надо имен. Это просто смех. Просто школьницы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:122
+translate english_us chapter4_0_academy_be041cc7:
+
+    # neon "{=thoughts}Если бы она была здесь, она бы уже подружилась с ними за пять минут. Она умела это делать. Не то что я...\""
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:122
+translate english_us chapter4_0_academy_c5d1d63b:
+
+    # neon "{=thoughts}Но я... я должна просить их о помощи. Я должна попытаться... Возможно, так я могу искупить свою вину перед ней..."
+    neon ""
+
