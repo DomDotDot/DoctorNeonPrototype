@@ -322,6 +322,7 @@ screen navigation():
             textbutton _("Главное меню") action MainMenu()
 
         textbutton _("Об игре") action ShowMenu("about")
+        textbutton _("Галерея CG") action ShowMenu("gallery")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 

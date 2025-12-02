@@ -13,7 +13,7 @@ init python:
     # recommended sizes:
     # 290 for 1280x720 resolution
     # 400 for 1920x1080 resolution
-    thumbnail_x = 290
+    thumbnail_x = 400
     ### END OF CONFIG ###
 
     max_page = max_x * max_y
@@ -47,7 +47,7 @@ image gallery_background_overlay:
     "images/gallery_overlay/gallery_background_overlay.png"
     zoom gallery_resolution_scaling
 
-screen gallery():
+screen gallery1():
 
     python:
         if len(gallery_items) == 0:
