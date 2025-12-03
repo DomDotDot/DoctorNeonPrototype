@@ -218,5 +218,5 @@ translate english_us dream_sequence_japan_2_203a3771:
 translate english_us dream_sequence_japan_2_95ab6d8b:
 
     # oganesson_young young_kimono neutral "Я видела, на что способны эти 'разломы'. Я видела миры в их глубине. Для меня - это потенциал."
-    oganesson_young young_kimono neutral ""
+    oganesson_young young_kimono neutral "I've seen what these 'rifts' are capable of. I've seen worlds within their depths. For me it is a potential."
 

@@ -464,5 +464,5 @@ translate english_us nightmare_sequence_5ae7828e:
 translate english_us nightmare_sequence_91173069:
 
     # narrator "Это был холодный, ровный, женский голос. В нем не было ни злобы, ни радости. Только абсолютная, ледяная уверенность."
-    narrator ""
+    narrator "It was a cold, even, female voice. There was no malice or joy in it. Only absolute, icy certainty."
 

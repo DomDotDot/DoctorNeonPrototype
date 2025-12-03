@@ -758,91 +758,91 @@ translate english_us chapter4_0_garden_dialogue_f06910be:
 translate english_us chapter4_0_garden_dialogue_2ed9c4e9:
 
     # seraphina thinking "Странно, что ты обо мне не слышала."
-    seraphina thinking ""
+    seraphina thinking "It's weird you haven't heard of me."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:146
 translate english_us chapter4_0_garden_dialogue_fef56a74:
 
     # seraphina thinking "Ты, наверное, новенькая в городе?"
-    seraphina thinking ""
+    seraphina thinking "You must be new in town, ya?"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
 translate english_us chapter4_0_garden_dialogue_31215713:
 
     # seraphina neutral "Неон... ведь так?"
-    seraphina neutral ""
+    seraphina neutral "Neon... right?"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
 translate english_us chapter4_0_garden_dialogue_f4d4f198:
 
     # seraphina neutral "Ты мне нравишься!"
-    seraphina neutral ""
+    seraphina neutral "I adore you!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
 translate english_us chapter4_0_garden_dialogue_cb8a3e8a:
 
     # seraphina neutral "Подойди-ка сюда."
-    seraphina neutral ""
+    seraphina neutral "Come over here."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:204
 translate english_us chapter4_0_garden_dialogue_fa4244dc:
 
     # seraphina neutral "Подойди, не бойся!"
-    seraphina neutral ""
+    seraphina neutral "Come on, don't be scared!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:215
 translate english_us chapter4_0_garden_dialogue_9544cf51:
 
     # seraphina worried "Странно... Никогда такого не видела..."
-    seraphina worried ""
+    seraphina worried "Weird... I've never seen anything like it..."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:215
 translate english_us chapter4_0_garden_dialogue_64500e4b:
 
     # seraphina worried "Оно такое... холодное. И притягивает..."
-    seraphina worried ""
+    seraphina worried "It's so... cold. And alluring..."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:227
 translate english_us chapter4_0_garden_dialogue_af6e0f5b:
 
     # seraphina neutral "Вот! Держи!"
-    seraphina neutral ""
+    seraphina neutral "Here! Take this!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:230
 translate english_us chapter4_0_garden_dialogue_cb2cb341:
 
     # seraphina "Видишь, какая я добрая? Хи-хи!"
-    seraphina ""
+    seraphina "See how nice I am? Tee-hee!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_b0e727ee:
 
     # seraphina neutral "Неон, я так рада, что встретила тебя! Но я, увы, ничем не могу помочь в поисках."
-    seraphina neutral ""
+    seraphina neutral "Neon, I'm so glad I met you! But unfortunately, I can't help you with your search."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_5d4803ec:
 
     # seraphina neutral "Хотя... знаешь что? У меня завтра концерт!"
-    seraphina neutral ""
+    seraphina neutral "Although... you know what? My concert is tomorrow!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_bbc5220a:
 
     # seraphina neutral "Я дам тебе билет и пропуск за кулисы!"
-    seraphina neutral ""
+    seraphina neutral "I'll give you a ticket and a backstage pass!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
 translate english_us chapter4_0_garden_dialogue_bc8c4aeb:
 
     # seraphina neutral "После шоу у меня будет небольшая фан-встреча. Познакомимся поближе, поболтаем."
-    seraphina neutral ""
+    seraphina neutral "After the show, I'm having a little fan meet-and-greet. We can get to know each other better, chat."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:307
 translate english_us chapter4_0_garden_dialogue_d890f481:
 
     # seraphina neutral "Я предупрежу охрану! А это — твой пропуск."
-    seraphina neutral ""
+    seraphina neutral "I'll let security know! And this—is your pass."
 
 # TODO: Translation updated at 2025-12-02 19:30
 
@@ -850,23 +850,23 @@ translate english_us chapter4_0_garden_dialogue_d890f481:
 translate english_us chapter4_0_garden_dialogue_8e72c7ce:
 
     # neon "{=thoughts}Она такая... яркая. Энергичная. Как... красная вспышка в сером коридоре."
-    neon ""
+    neon "{=thoughts}She's so... vibrant. Energetic. Like... a burst of red in a gray hallway."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:206
 translate english_us chapter4_0_garden_dialogue_e57be3ea:
 
     # narrator "На секунду лицо Серафины наложилось на другое лицо. Светлые кудри, красный джемпер, широкая улыбка."
-    narrator ""
+    narrator "For a second, Seraphina's face overlapped with another face. The blonde curls, the red jumper, the broad smile."
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:208
 translate english_us chapter4_0_garden_dialogue_4bc68ed3:
 
     # neon "{=thoughts}Почему я вижу её в каждом добром человеке?"
-    neon ""
+    neon "{=thoughts}Why do I always find her in every kind person?"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:208
 translate english_us chapter4_0_garden_dialogue_ce71bd43:
 
     # neon "{=thoughts}Это проклятие. Я должна перестать искать её в других. Она осталась там. Я ушла."
-    neon ""
+    neon "{=thoughts}It's a damn curse. I have to quit channeling her in others. She stayed there. I had to leave."
 

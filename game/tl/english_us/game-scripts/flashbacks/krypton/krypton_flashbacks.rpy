@@ -662,11 +662,11 @@ translate english_us krypton_firstmeet_flashback_6d2978ac:
 translate english_us krypton_firstmeet_flashback_eda9267c:
 
     # neon "Ты играешь ее как короткую передышку, чтобы набрать воздуха. Для тебя это передышка, а должно восприниматься как часть музыки."
-    neon ""
+    neon "You play it like a short breath, just to catch your wind. For you, it's a part of the break, but it should be perceived as part of the music."
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:188
 translate english_us krypton_firstmeet_flashback_a5b67c62:
 
     # narrator "Это был не звук, и это не была тишина. Это было что-то третье. Ощущение идеальной гармонии."
-    narrator ""
+    narrator "It wasn't sound, and it wasn't silence either. It was something else entirely. A feeling of perfect harmony."
 

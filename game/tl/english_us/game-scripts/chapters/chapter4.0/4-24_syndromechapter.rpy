@@ -1110,5 +1110,5 @@ translate english_us chapter4_0_24syndrome_ebf07193:
 translate english_us chapter4_0_24syndrome_87cf6366:
 
     # neon "{=thoughts}Тот же паттерн. Пропажа на два дня. Возвращение. Это не просто прогулы... а что-то иное."
-    neon ""
+    neon "{=thoughts}The same pattern. Missing for two days. Then they return. This isn't just skipping school. This is... something else."
 

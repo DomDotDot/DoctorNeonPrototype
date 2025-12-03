@@ -918,29 +918,29 @@ translate english_us chapter4_0_academy_97061664:
 translate english_us chapter4_0_academy_7a0341bd:
 
     # narrator "Их беззаботный смех..."
-    narrator ""
+    narrator "Their carefree laughter... "
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
 translate english_us chapter4_0_academy_3ac0f1af:
 
     # narrator "Он был таким же легким и заразительным, как у..."
-    narrator ""
+    narrator "It was as light and infectious as..."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
 translate english_us chapter4_0_academy_07a0d146:
 
     # narrator "Нет. Не надо имен. Это просто смех. Просто школьницы."
-    narrator ""
+    narrator "No. No need for names. This is just a laugh. Just schoolgirls."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:122
 translate english_us chapter4_0_academy_be041cc7:
 
     # neon "{=thoughts}Если бы она была здесь, она бы уже подружилась с ними за пять минут. Она умела это делать. Не то что я...\""
-    neon ""
+    neon "{=thoughts}If she was here, she'd already be friends with them and would've gotten all the Academy gossip in five minutes. She knew how to connect with people. Unlike me..."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:122
 translate english_us chapter4_0_academy_c5d1d63b:
 
     # neon "{=thoughts}Но я... я должна просить их о помощи. Я должна попытаться... Возможно, так я могу искупить свою вину перед ней..."
-    neon ""
+    neon "{=thoughts}But I... I have to ask them for help. I have to try... Maybe this is how I can atone for what I did to her...?"
 
