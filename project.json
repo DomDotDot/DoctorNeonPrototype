@@ -1,6 +1,7 @@
 {
   "build_update": false,
   "packages": [
+    "linux",
     "win"
   ],
   "add_from": true,
