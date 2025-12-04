@@ -56,14 +56,13 @@ init python:
 define base = Character(None,
     ctc="ctc_blink",
     ctc_position="nestled",
-    what_slow_cps_multiplier=1.0 # Значение по умолчанию
+    what_slow_cps_multiplier=1.0, # Значение по умолчанию
     callback=name_callback
 )
 
 # Шаблон для ключевых персонажей (с колбэком)
 # Наследуется от base, но добавляет callback
-define main = Character(kind=base_char,
-    callback=name_callback
+define main = Character(kind=base,
 )
 
 
@@ -72,17 +71,17 @@ define main = Character(kind=base_char,
 
 # Неон: наследует main, но переопределяет ctc на свой уникальный
 define neon = Character(_('Неон'),
-    kind=main,
+    kind=base,
     image="neon",
-    color="c_neon", 
+    color=c_neon, 
     ctc="ctc_neon",
     cb_name="neon"
 )
 
 define argon = Character("[argon_display_name]", 
-    kind=main, 
+    kind=base, 
     image="argon", 
-    color="c_argon", 
+    color=c_argon, 
     dynamic=True, 
     what_slow_cps_multiplier=0.65, 
     cb_name="argon"
@@ -90,46 +89,44 @@ define argon = Character("[argon_display_name]",
 
 define oganesson_display_name = _("Опекунша")
 define oganesson = Character("[oganesson_display_name]",
-    kind=main,
+    kind=base,
     image="oganesson",
     color=c_oganesson, 
     dynamic=True,
-    what_slow_cps_multiplier=0.75
+    what_slow_cps_multiplier=0.75,
     cb_name="oganesson"
 )
 define oganesson_young = Character(_('Тетя-гостья'),
-    kind=main,
+    kind=base,
     image="oganesson",
     color=c_ogan_young, 
-    what_slow_cps_multiplier=0.80
+    what_slow_cps_multiplier=0.80,
     cb_name="oganesson"
 )
 
 define radon = Character(_('Радон'),
-    kind=main,
+    kind=base,
     image="nari",
     color=c_radon,
     cb_name="nari"
 )
 
 define helium = Character(_('Гелий'),
-    kind=main,
+    kind=base,
     image="helium",
     color=c_helium,
-    cb_name="helium"
     cb_name="helium"
 )
 
 define krypton = Character(_('Криптон'),
-    kind=main,
+    kind=base,
     image="krypton",
     color=c_krypton,
-    cb_name="krypton"
     cb_name="krypton"
 )
 
 define xenon = Character(_('Ксенон'),
-    kind=main,
+    kind=base,
     image="xenon",
     color=c_xenon,
     cb_name="xenon"
@@ -141,63 +138,63 @@ define xenon = Character(_('Ксенон'),
 
     # --- Семья и Близкие ---
 
-    define akane = Character(_('Мама'),
-        kind=base,
-        image="akane",
-        color=c_akane
-        cb_name="xenon"
-    )
+define akane = Character(_('Мама'),
+    kind=base,
+    image="akane",
+    color=c_akane,
+    cb_name="akane"
+)
 
-    define celeste = Character(_('Селестия'),
-        kind=main,
-        image="celeste",
-        color=c_celeste,
-        cb_name="celeste"
-    )
+define celeste = Character(_('Селестия'),
+    kind=base,
+    image="celeste",
+    color=c_celeste,
+    cb_name="celeste"
+)
 
     # --- Гелиос ---
 
-    define marcus = Character(_('Маркус'), 
-        kind=main,
-        image="marcus",
-        color=c_marcus, 
-        what_slow_cps_multiplier=0.85,
-        cb_name="marcus"
-        cb_name="xenon"
-    )
+define marcus = Character(_('Маркус'), 
+    kind=base,
+    image="marcus",
+    color=c_marcus, 
+    what_slow_cps_multiplier=0.85,
+    cb_name="marcus"
+)
 
-    define alex = Character(_('Алекс'),
-        kind=base,
-        image="alex",
-        color=c_alex, 
-        what_slow_cps_multiplier=1.11
-        cb_name="xenon"
-    )
+define alex = Character(_('Алекс'),
+    kind=base,
+    image="alex",
+    color=c_alex, 
+    what_slow_cps_multiplier=1.11,
+    cb_name="alex"
+)
     
     # --- Веритас-сити ---
 
-    define lily = Character(_('Лили'),
-        kind=base,
-        image="lily",
-        color=c_lily
-        cb_name="xenon"
-    )
+define lily = Character(_('Лили'),
+    kind=base,
+    image="lily",
+    color=c_lily,
+    cb_name="lily"
+)
 
-    define seraphina = Character(_('Серафина'),
-        kind=main,
-        image="seraphina",
-        color=c_seraphina, 
-        what_slow_cps_multiplier=1.11,
-        ctc="ctc_seraphina"
-        cb_name="xenon"
-    )
+define seraphina = Character(_('Серафина'),
+    kind=base,
+    image="seraphina",
+    color=c_seraphina, 
+    what_slow_cps_multiplier=1.11,
+    ctc="ctc_seraphina",
+    cb_name="seraphina"
+)
 
-    define nari = Character(_('Нари'),
-        kind=main,
-        image="nari",
-        color=c_nari,
-        ctc="ctc_nari"
-    )
+define nari = Character(_('Нари'),
+    kind=base,
+    image="nari",
+    color=c_nari,
+    ctc="ctc_nari",
+    cb_name="nari"
+)
 
 
 
@@ -205,43 +202,43 @@ define xenon = Character(_('Ксенон'),
 
     # --- Семья и Опекуны ---
 
-    define father = Character(_('Папа'), kind=base, color=c_father)
+define father = Character(_('Папа'), kind=base, color=c_father)
 
     # --- Гелиос и Цюрих ---
 
-    define hans = Character(_('Ханс'), kind=base, image="hans", color=c_hans)
-    define anna = Character(_('Анна'), kind=base, image="anna", color=c_anna)
-    define sophie = Character(_('Софи'), kind=base, image="sophie", color=c_sophie)
+define hans = Character(_('Ханс'), kind=base, image="hans", color=c_hans, cb_name="hans")
+define anna = Character(_('Анна'), kind=base, image="anna", color=c_anna, cb_name="anna")
+define sophie = Character(_('Софи'), kind=base, image="sophie", color=c_sophie, cb_name="sophie")
 
-    define ceo = Character(_('Г-н Бауманн'), kind=base, image="ceo_boss", color=c_ceo)
-    define cro = Character(_('Д-р Грубенманн'), kind=base, image="cro_boss", color=c_cro)
+define ceo = Character(_('Г-н Бауманн'), kind=base, image="ceo_boss", color=c_ceo)
+define cro = Character(_('Д-р Грубенманн'), kind=base, image="cro_boss", color=c_cro)
 
-    define headteacher = Character(_('Завуч'), kind=base, image="headteacher", color=c_headteach)
+define headteacher = Character(_('Завуч'), kind=base, image="headteacher", color=c_headteach)
 
     # --- Веритас-сити ---
 
-    define meryl = Character(_('Мэрил Кендрик'), kind=base, image="meryl", color=c_meryl)
-    define akari = Character(_('Учительница Акари'), kind=base, image="akari", color=c_akari)
-    define kai = Character(_('Кай'), kind=base, image="kai", color=c_kai)
-    define illusion = Character(_('Сущность'), kind=base, image="ilusion", color=c_nari)
+define meryl = Character(_('Мэрил Кендрик'), kind=base, image="meryl", color=c_meryl, cb_name="meryl")
+define akari = Character(_('Учительница Акари'), kind=base, image="akari", color=c_akari, cb_name="akari")
+define kai = Character(_('Кай'), kind=base, image="kai", color=c_kai, cb_name="kai")
+define illusion = Character(_('Сущность'), kind=base, image="ilusion", color=c_nari, cb_name="ilusion")
 
 
         # --- Студенты ---
-        define student1 = Character(_('Студентка 1'), kind=base, image="amy", color=c_student1)
-        define amy = Character(_('Эми'), kind=base, image="amy", color=c_student1)
+define student1 = Character(_('Студентка 1'), kind=base, image="amy", color=c_student1, cb_name="amy")
+define amy = Character(_('Эми'), kind=base, image="amy", color=c_student1, cb_name="amy")
 
-        define student2 = Character(_('Студентка 2'), kind=base, image="carol", color=c_student2)
-        define carol = Character(_('Кэрол'), kind=base, image="carol", color=c_student2)
+define student2 = Character(_('Студентка 2'), kind=base, image="carol", color=c_student2, cb_name="carol")
+define carol = Character(_('Кэрол'), kind=base, image="carol", color=c_student2, cb_name="carol")
 
     # --- Аномик ---
 
-    define guts = Character(_('Гатс'), kind=base, image="guts", color=c_guts, what_slow_cps_multiplier=0.70)
-    define rico = Character(_('Рико'), kind=base, color=c_rico)
-    define boss = Character(_('Босс'), kind=base, color=c_boss)
+define guts = Character(_('Гатс'), kind=base, image="guts", color=c_guts, what_slow_cps_multiplier=0.70, cb_name="guts")
+define rico = Character(_('Рико'), kind=base, color=c_rico)
+define boss = Character(_('Босс'), kind=base, color=c_boss)
 
 
 # --- Системные и Неизвестные ---
-define narrator = Character(None, kind=main, what_size=27.5, cb_name=None)
+define narrator = Character(None, kind=base, what_size=27.5, cb_name=None)
 define narrator_nvl = Character(None, kind=nvl)
 
 define unknown = Character(_('Неизвестный'), kind=base, color=c_white)
