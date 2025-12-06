@@ -68,3 +68,59 @@ translate english_us zurich_university_flashback_0ac91984:
     # anna "{=whisper}Ты правда веришь, что найдешь что-то?"
     anna "{=whisper}Do you really believe you'll find something? I mean, out there?"
 
+# TODO: Translation updated at 2025-12-04 20:40
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:34
+translate english_us zurich_university_flashback_fd555fc0:
+
+    # narrator "Анна мечтала работать в CERN,"
+    narrator "Anna dreamed of working at CERN,"
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:34
+translate english_us zurich_university_flashback_0ecdcb3a:
+
+    # narrator "Софи – уехать в Калифорнию и основать стартап."
+    narrator "Sophie wanted to move to California and launch a startup."
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:34
+translate english_us zurich_university_flashback_4863b856:
+
+    # narrator "А Неон... Неон уже тогда смотрела на звезды."
+    narrator "And Neon... Neon was already looking up at the stars back then."
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:78
+translate english_us zurich_university_flashback_6e75ade3:
+
+    # anna "А вот бозон Хиггса – вот он, почти в руках!"
+    anna "But the Higgs boson... it's right there, almost within reach!"
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:78
+translate english_us zurich_university_flashback_a0509083:
+
+    # anna "Данные с коллайдера такие многообещающие!"
+    anna "The data from the collider looks so promising!"
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:90
+translate english_us zurich_university_flashback_0268456f:
+
+    # sophie "Многообещающие? Анна, ты так говоришь уже полгода. А воз и ныне там."
+    sophie "Promising? Anna, you've been saying that for six months. Yet we're still stuck at square one."
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:111
+translate english_us zurich_university_flashback_dd3e7ed1:
+
+    # neon "Это не просто романтика, Анна. Для меня - это фундаментальный вопрос."
+    neon "It's not just romanticism, Anna. For me, it's a fundamental question."
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:120
+translate english_us zurich_university_flashback_74188e26:
+
+    # neon "А деньги, Софи... они важны, конечно."
+    neon "And money, Sophie... sure, it matters."
+
+# game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:120
+translate english_us zurich_university_flashback_8b8b9c32:
+
+    # neon "Но неужели открыть новую частицу или найти братьев по разуму не стоит больше любых денег?"
+    neon "But isn't discovering a new particle or finding intelligent life out there worth more than any amount of money?"
+
