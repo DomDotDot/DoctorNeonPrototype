@@ -46,7 +46,7 @@ init -1 python:
             "file": "voice_en.zip", 
             "version": "v0.5.3", 
             "folder": "tl/english_us/audio",
-            "check_file": "tl/english_us/audio/escaping_facility_grounds_c1f78dab.ogg",
+            "check_file": "tl/english_us/audio/voice/escaping_facility_grounds_c1f78dab.ogg",
             "title": "Озвучка персонажей",
             "desc": "Полная озвучка диалогов (Английский).\n~250 КБ"
         },
