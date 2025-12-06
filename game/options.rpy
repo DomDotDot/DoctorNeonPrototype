@@ -23,8 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.5.4-stable"
-
+define config.version = "0.5.5-stable"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -219,6 +218,12 @@ init python:
     build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
     build.classify('image-assets/**', 'dev')
 
+    build.classify('game/audio/music/**', 'dev')
+    build.classify('game/audio/sfx/**', 'dev')
+    build.classify('game/audio/ambient/**', 'dev')
+    build.classify('game/audio/voice/**', 'dev')
+
+    build.classify('tl/english_us/audio/voice/**', 'dev')
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 
     # build.classify('game/**.png', 'archive')

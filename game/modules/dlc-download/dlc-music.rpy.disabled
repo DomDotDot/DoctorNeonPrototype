@@ -1,0 +1,188 @@
+init python:
+    import os
+    import zipfile
+    import requests # Ren'Py включает requests по умолчанию в современных версиях
+    import threading
+    import time
+    import socket
+
+
+    # Настройки
+    ARCHIVE_NAME = "music.zip"
+    TARGET_DIR = config.gamedir + "/audio" # Куда распаковывать
+    # Максимум попыток скачать, если инет шалит
+    MAX_RETRIES = 3 
+    # Сколько секунд ждать ответа от сервера, прежде чем считать, что всё зависло
+    TIMEOUT_SEC = 5 
+
+    # ГЕНЕРАЦИЯ ССЫЛКИ
+    REPO_URL = "https://github.com/DomDotDot/DoctorNeonPrototype/releases/download"
+
+    # Переменные для отслеживания прогресса
+    download_progress = 0.0 # От 0.0 до 1.0
+    download_status = ""    # Текст статуса
+    download_done = False   # Флаг завершения
+    download_error = None   # Текст ошибки, если есть
+    should_cancel = False
+
+    def download_thread_func():
+        global download_progress, download_status, download_done, download_error, should_cancel
+
+        # Склеиваем: https://.../download/ + v0.5.3 + / + music.zip
+        final_url = "{}/{}/{}".format(REPO_URL, music_version, ARCHIVE_NAME)
+        
+        # Для отладки (выведет в консоль/log.txt)
+        print("Скачиваю музыку с: " + final_url)
+        # -----------------
+
+        
+        zip_path = os.path.join(TARGET_DIR, ARCHIVE_NAME)
+        
+        # 1. Проверяем, есть ли папка audio (на всякий случай)
+        if not os.path.exists(TARGET_DIR):
+            os.makedirs(TARGET_DIR)
+
+        attempt = 0
+        success = False
+
+        # 2. Скачивание
+        while attempt < MAX_RETRIES and not success and not should_cancel:
+            attempt += 1
+            try:
+                download_error = None # Сброс ошибки перед попыткой
+                download_status = "Попытка {} из {}...".format(attempt, MAX_RETRIES)
+
+                response = requests.get(final_url, stream=True, timeout=(5, TIMEOUT_SEC))
+
+                total_length = response.headers.get('content-length')
+
+                # Проверка на 404 (если ошибся с версией)
+                if response.status_code == 404:
+                    raise Exception("Файл не найден на сервере (404). Проверь версию!")
+                if response.status_code != 200:
+                    raise Exception("Ошибка сервера: код {}".format(response.status_code))
+                    
+                total_length = response.headers.get('content-length')
+
+                # Если файл есть, открываем на запись
+                with open(zip_path, 'wb') as f:
+                    if total_length is None:
+                        f.write(response.content)
+                    else:
+                        dl = 0
+                        total_length = int(total_length)
+
+                    # Читаем кусками. Если тут инет отвалится, сработает таймаут
+                        for data in response.iter_content(chunk_size=8192):
+                            if should_cancel: 
+                                break # Выход, если закрыли игру
+                            
+                            dl += len(data)
+                            f.write(data)
+                            download_progress = float(dl) / total_length
+                            
+                            # Показываем статус и проценты
+                            download_status = "Загрузка: {:.0%}".format(download_progress)
+                
+                if should_cancel:
+                    return # Прерываем функцию
+
+                # Если дошли сюда - значит скачалось полностью
+                success = True
+
+            except Exception as e:
+                print("Download error (attempt {}): {}".format(attempt, e))
+                # Если это была последняя попытка, сохраняем ошибку
+                if attempt == MAX_RETRIES:
+                    download_error = "Ошибка сети: " + str(e)
+                else:
+                    download_status = "Сбой связи. Ждем..."
+                    time.sleep(2) # Даем инету 2 секунды очухаться перед новой попыткой
+
+        # --- РАСПАКОВКА (Только если успешно скачали) ---
+        if success:
+            try:
+                download_status = "Распаковка..."
+                with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                    zip_ref.extractall(TARGET_DIR)
+                
+                # Убираем архив
+                if os.path.exists(zip_path):
+                    os.remove(zip_path)
+
+                download_status = "Готово!"
+                download_done = True
+            except Exception as e:
+                download_error = "Ошибка архива: " + str(e)
+        
+        elif not download_error and not should_cancel:
+            # Если вышли из цикла без успеха и без явной ошибки (странный случай)
+            download_error = "Не удалось скачать файл."
+
+    def start_download():
+        # Сброс переменных перед стартом
+        global download_progress, download_status, download_done, download_error, should_cancel
+        download_progress = 0.0
+        download_done = False
+        download_error = None
+        should_cancel = False
+        
+        # Запуск потока
+        t = threading.Thread(target=download_thread_func)
+        t.daemon = True # Чтобы поток умер, если закрыть игру
+        t.start()
+
+# --- ЭКРАН ЗАГРУЗКИ ---
+screen download_screen():
+    modal True # Блокируем клики мимо
+    
+    frame:
+        xalign 0.5
+        yalign 0.5
+        xpadding 40
+        ypadding 40
+        
+        vbox:
+            spacing 20
+            
+            if download_error:
+                text "Произошла ошибка:" color "#f00" xalign 0.5
+                text "[download_error]" size 14 xalign 0.5 text_align 0.5 layout "subtitle" xsize 600
+                
+                hbox:
+                    xalign 0.5
+                    spacing 20
+                    # Кнопка "Попробовать снова"
+                    textbutton "Повторить" action Function(start_download)
+                    # Кнопка "Выйти"
+                    textbutton "Выйти" action Quit(confirm=False)
+            
+            else:
+                text "Загрузка дополнительных материалов" size 30 xalign 0.5
+                text "[download_status]" xalign 0.5
+                
+                # Полоска прогресса
+                bar:
+                    value download_progress
+                    range 1.0
+                    xsize 600
+                    ysize 30
+                
+                # Кнопка появляется только когда готово
+                if download_done:
+                    textbutton "Начать игру" action Return() xalign 0.5 style "button"
+
+# --- ТОЧКА ВХОДА (SPLASHSCREEN) ---
+label splashscreen_dlc:
+    # Проверяем, существует ли уже музыка. 
+    # Проверяем один любой файл, чтобы не качать каждый раз.
+    # Замените 'music/BGM/track1.opus' на реальный путь к файлу внутри audio
+    if not os.path.exists(config.gamedir + "/audio/music/BGM/FogHorns.opus"): 
+        
+        # Запускаем процесс скачивания
+        $ start_download()
+        
+        # Показываем экран и ждем, пока кнопка "Начать игру" не вернет нас
+        call screen download_screen
+        
+    return
