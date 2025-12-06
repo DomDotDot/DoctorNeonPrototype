@@ -71,7 +71,7 @@ init python:
         files = renpy.list_files()
         
         for path in files:
-            if path.startswith(SPRITE_DIR) and path.lower().endswith((".png", ".webp", ".jpg")):
+            if path.startswith(SPRITE_DIR) and path.lower().endswith((".png", ".webp", ".jpg", ".avif")):
                 filename = os.path.basename(path)
                 name_no_ext = os.path.splitext(filename)[0]
 
