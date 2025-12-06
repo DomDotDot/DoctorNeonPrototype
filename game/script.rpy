@@ -11,13 +11,13 @@
 
         # Определяем изображения и музыку для удобства.
         # Это позволяет легко менять файлы, не копаясь в коде экранов.
-        image main_menu_logo = "gui/main_menu/logo2.png"
+        image main_menu_logo = "gui/main_menu/logo2.avif"
 
-        image main_menu_bg_default = "gui/main_menu/background_default.jpg"
-        image main_menu_bg_unlocked_1 = "gui/main_menu/background_unlocked_1.jpg"
-        image main_menu_bg_unlocked_2 = "gui/main_menu/background_unlocked_2.jpg"
-        image main_menu_bg_unlocked_3 = "gui/main_menu/background_unlocked_3.jpg"
-        image main_menu_bg_unlocked_4 = "gui/main_menu/background_unlocked_4.jpg"
+        image main_menu_bg_default = "gui/main_menu/background_default.avif"
+        image main_menu_bg_unlocked_1 = "gui/main_menu/background_unlocked_1.avif"
+        image main_menu_bg_unlocked_2 = "gui/main_menu/background_unlocked_2.avif"
+        image main_menu_bg_unlocked_3 = "gui/main_menu/background_unlocked_3.avif"
+        image main_menu_bg_unlocked_4 = "gui/main_menu/background_unlocked_4.avif"
 
         define main_menu_music_default = "audio/music/BGM/NightMare.opus"
         define main_menu_music_unlocked_1 = "audio/music/BGM/FearForUnreal.opus"

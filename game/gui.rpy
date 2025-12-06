@@ -521,9 +521,9 @@ style main_menu_button_text is button_text:
 # Вам понадобятся 2 файла: button_idle.png и button_hover.png
 style main_menu_button:
     # Фон в обычном состоянии (может быть полупрозрачным)
-    background "gui/main_menu/button_idle.png"
+    background "gui/main_menu/button_idle.avif"
     # Фон при наведении мыши (с эффектом свечения)
-    hover_background "gui/main_menu/button_hover.png"
+    hover_background "gui/main_menu/button_hover.avif"
     # Выравнивание текста внутри кнопки
     # Убираем стандартные отступы, если нужно
     #padding (0, 0)
