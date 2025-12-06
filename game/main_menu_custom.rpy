@@ -78,7 +78,8 @@ screen settings_menu():
             textbutton _("Текст/Графика") action ShowMenu("graphics_settings_screen") style "sub_menu_button"
             textbutton _("Звук") action ShowMenu("sound_settings_screen") style "sub_menu_button"
             textbutton _("Язык") action ShowMenu("language_selection_screen") style "sub_menu_button"
-            
+            textbutton _("DLC Контент") action Start("dlc_manager_flow") style "sub_menu_button"
+
             null height 30 # Отступ
 
             textbutton _("Назад") action ShowMenu("main_menu") style "sub_menu_button"
