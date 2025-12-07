@@ -48,7 +48,7 @@ translate english_us strings:
 
     # game/main_menu_custom.rpy:237
     old "Непрочитанного текста"
-    new "Unread Yext"
+    new "Unread Text"
 
     # game/main_menu_custom.rpy:246
     old "Контент"
