@@ -604,4 +604,173 @@ translate english_us chapter4_5_concert_mid_6a5e1e78:
 translate english_us chapter4_5_concert_mid_b046dd39:
 
     # seraphina "Я арендовала здесь офис. Только для нас."
-    seraphina "I rented an office here. Just for us."
+    seraphina "I rented an office here. Just for us."# TODO: Translation updated at 2025-12-08 00:40
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:144
+translate english_us chapter4_5_concert_mid_a66427f1:
+
+    # "Фанатка 1" "Какие замечательные слова!"
+    "Fan Girl 1" "Those are such beautiful words!"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:145
+translate english_us chapter4_5_concert_mid_07071b12:
+
+    # "Фанатка 3" "Серафина! Ты и так моя путеводная звезда!"
+    "Fan Girl 3" "Seraphina! You already are my guiding star!"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:146
+translate english_us chapter4_5_concert_mid_d2ab33ad:
+
+    # "Фанатка 2" "Моя тоже!"
+    "Fan Girl 2" "Mine too!"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:147
+translate english_us chapter4_5_concert_mid_29f1703d:
+
+    # "Фанатка 3" "Серафина! Серафина! А какой твой любимый цветок? Мы хотим знать, что дарить!"
+    "Fan Girl 3" "Seraphina! Seraphina! What's your favorite flower? We want to know what to get you!"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:149
+translate english_us chapter4_5_concert_mid_76446901:
+
+    # narrator "Она снова задумывается, прикладывая палец к губам. На мгновение ее взгляд становится расфокусированным, будто она смотрит в прошлое"
+    narrator "She pauses again, finger to her lips. For a moment, her gaze unfocuses, as if she's looking into the past."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:151
+translate english_us chapter4_5_concert_mid_4b79bd27:
+
+    # seraphina thinking "Хм... Знаете, многие думают, что я люблю розы. Или пионы. Что-то пышное и нежное."
+    seraphina thinking "Hmm... You know, a lot of people think I love roses. Or peonies. Something lush and delicate."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:152
+translate english_us chapter4_5_concert_mid_93a69bb3:
+
+    # seraphina thankful "Но на самом деле... мое сердце принадлежит Ликорису."
+    seraphina thankful "But actually... my heart belongs to the Lycoris."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:154
+translate english_us chapter4_5_concert_mid_f67d81ff:
+
+    # "Фанатка 5" "Ликорис? Это же... тот, что на кладбищах растет?"
+    "Fan Girl 5" "Lycoris? Isn't that... the one that grows in cemeteries?"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:155
+translate english_us chapter4_5_concert_mid_650bdb15:
+
+    # "Фанатка 4" "Паучья лилия."
+    "Fan Girl 4" "The Spider Lily."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_9bfdffb4:
+
+    # seraphina looking-away "Да. Красная Паучья Лилия."
+    seraphina looking-away "Yes. The Red Spider Lily."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_622985bf:
+
+    # seraphina looking-away "Многие боятся его. Говорят, он приносит несчастье и разлуку. Но для меня он... особенный, родной"
+    seraphina looking-away "Many fear it. They say it brings misfortune and separation. But to me... it feels special. Kindred."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_fbe91330:
+
+    # seraphina looking-away "Во-первых, этот цвет. Красный. Не просто яркий, а... живой."
+    seraphina looking-away "First, the color. Red. Not just bright, but... alive."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_9048ab05:
+
+    # seraphina looking-away "Как кровь, которая течет в венах, когда ты по-настоящему чего-то хочешь."
+    seraphina looking-away "Like the blood coursing through your veins when you truly desire something."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_5393c27e:
+
+    # seraphina looking-away "Это цвет страсти... и жертвы."
+    seraphina looking-away "It's the color of passion... and sacrifice."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_12347ae3:
+
+    # seraphina looking-away "А во-вторых... вы знаете легенду?"
+    seraphina looking-away "And second... do you know the legend?"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_927c7fa4:
+
+    # seraphina looking-away "Листья этого цветка опадают до того, как распустится бутон. Они никогда не встречаются."
+    seraphina looking-away "The leaves of this flower fall before the bud blooms. They never meet."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_5d9e1f26:
+
+    # seraphina looking-away "Чтобы расцвела красота, что-то должно уйти. Исчезнуть."
+    seraphina looking-away "For beauty to bloom, something must leave. Disappear."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_2faf3548:
+
+    # seraphina looking-away "Это так... поэтично, не правда ли? Красота, рожденная из потери."
+    seraphina looking-away "It's so... poetic, isn't it? Beauty born of loss."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_c1361336:
+
+    # seraphina looking-away "Мне кажется, это очень честный цветок."
+    seraphina looking-away "I think it's a very honest flower."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_c8393286:
+
+    # seraphina looking-away "Он не притворяется, что всё будет хорошо вечно."
+    seraphina looking-away "It doesn't pretend that everything will be okay forever."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_46309fbd:
+
+    # seraphina looking-away "Он не пытается тебя обмануть."
+    seraphina looking-away "It doesn't try to deceive you."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_fd1ba8d4:
+
+    # seraphina looking-away "Он напоминает нам, что ради мечты иногда приходится... оставлять прошлое позади. И даже... тех, кто был в этом прошлом."
+    seraphina looking-away "It reminds us that to chase a dream, sometimes you have to... leave the past behind. And even... the people who were in that past."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
+translate english_us chapter4_5_concert_mid_dce00690:
+
+    # seraphina looking-away "Что нужно чем-то жертвовать, ради благих намеренний."
+    seraphina looking-away "That you have to sacrifice something for your good intentions."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:187
+translate english_us chapter4_5_concert_mid_203ab3fb:
+
+    # seraphina wink "В конце концов, чтобы зажечь новую звезду, старая должна погаснуть, верно? Хи-хи!"
+    seraphina wink "After all, for a new star to ignite, the old one has to fade out, right? Hee-hee!"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:189
+translate english_us chapter4_5_concert_mid_a862a2ac:
+
+    # narrator "Она произнесла это с такой нежностью, что фанатки затихли. Им показалось, что это глубокая философия звезды."
+    narrator "She said it with such tenderness that the fans went quiet. To them, it sounded like the profound philosophy of a star."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:191
+translate english_us chapter4_5_concert_mid_b2c8f7de:
+
+    # neon "{=thoughts}Странный выбор для 'айдола надежды'. Цветок смерти."
+    neon "{=thoughts}Strange choice for an 'idol of hope'. The flower of death."
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:191
+translate english_us chapter4_5_concert_mid_6ddf5503:
+
+    # neon "{=thoughts}И этот выбор слов... 'Оставлять тех, кто был в прошлом...', 'Старая звезда должна погаснуть...'"
+    neon "{=thoughts}And that choice of words... 'Leave the people in the past behind...', 'The old star has to fade out...'"
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:191
+translate english_us chapter4_5_concert_mid_94829629:
+
+    # neon "{=thoughts}Звучит как оправдание для убийства."
+    neon "{=thoughts}Sounds like a justification for murder."
+
