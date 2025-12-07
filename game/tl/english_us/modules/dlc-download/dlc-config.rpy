@@ -38,3 +38,27 @@ translate english_us strings:
     old "Звуковые эффекты\n~2 Мб"
     new "Sound effects\n~2 MB"
 
+# TODO: Translation updated at 2025-12-07 12:09
+
+translate english_us strings:
+
+    # game/modules/dlc-download/dlc-config.rpy:13
+    old "Звуки дождя, ветра и шагов.\n~15 Мб"
+    new "Rain sound, wind sounds, walking sounds.\n~15 MB"
+
+# TODO: Translation updated at 2025-12-07 12:10
+
+translate english_us strings:
+
+    # game/modules/dlc-download/dlc-config.rpy:13
+    old "Атмосферные треки для погружения.\n~120 МБ"
+    new "Ambient tracks for immersion.\n~120 MB"
+
+    # game/modules/dlc-download/dlc-config.rpy:13
+    old "Звуки дождя, ветра и шагов.\n~15 МБ"
+    new "Rain sound, wind sounds, walking sounds.\n~15 MB"
+
+    # game/modules/dlc-download/dlc-config.rpy:13
+    old "Звуковые эффекты\n~2 МБ"
+    new "Sound effects\n~2 MB"
+

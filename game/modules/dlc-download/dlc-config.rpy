@@ -18,7 +18,7 @@ init -1 python:
             "folder": "audio",
             "check_file": "audio/music/BGM/FogHorns.opus",
             "title": _("Фоновая музыка"),
-            "desc": _("Атмосферные треки для погружения.\n~120 Мб")
+            "desc": _("Атмосферные треки для погружения.\n~120 МБ")
         },
         {
             "id": "ambient",
@@ -27,7 +27,7 @@ init -1 python:
             "folder": "audio",
             "check_file": "audio/ambient/Target.opus",
             "title": _("Эмбиент и Звуки"),
-            "desc": _("Звуки дождя, ветра и шагов.\n~15 Мб")
+            "desc": _("Звуки дождя, ветра и шагов.\n~15 МБ")
         },
         {
             "id": "voice_ru",
@@ -54,6 +54,6 @@ init -1 python:
             "folder": "audio",
             "check_file": "audio/sfx/Chair_Hit.opus",
             "title": _("SFX-Эффекты"),
-            "desc": _("Звуковые эффекты\n~2 Мб")
+            "desc": _("Звуковые эффекты\n~2 МБ")
         }
     ]
