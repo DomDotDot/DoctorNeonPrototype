@@ -147,9 +147,8 @@ style main_menu_button_text is button_text:
 style chapter_button is button:
     background Solid("#00000080")
     hover_background Solid("#ffffff20")
-    xsize 320
+    xsize 335
     ysize 250
-    padding (10, 10)
 
 style chapter_title_text is text:
     size 22
