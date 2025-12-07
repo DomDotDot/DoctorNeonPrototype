@@ -12,6 +12,7 @@ traceback.txt
 *.rpyc
 *.rpymc
 *.rpyb
+*.disabled
 
 # Папки кэша и сохранений
 game/cache/
@@ -19,5 +20,9 @@ game/saves/
 cache/
 tmp/
 
+#Disabled folder (director cut)
+disabled/
+
 # Бэкапы
 *.bak
+*.new
