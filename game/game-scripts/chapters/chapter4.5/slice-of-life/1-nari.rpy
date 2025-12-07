@@ -1,6 +1,5 @@
 label chapter4_5_nari_flashback:
 
-    # Музыка: тихая, меланхоличная мелодия на акустической гитаре.
     scene bg chapter_4-5_nari-flashback with Fade(0.125, 2.5, 2.5)
     play music "music/BGM/OverlookedLittleShine.opus" fadein 5.0
 
@@ -521,27 +520,18 @@ label chapter4_5_nari_flashback:
     nari "...Да."
 
     show illusion:
-        # subpixel True делает движение плавным
         subpixel True 
-        
-        # Начинаем с текущей позиции (допустим, центр) и двигаем вправо (xalign 0.8)
-        # Одновременно увеличиваем (zoom 1.3), создавая эффект приближения к другому герою
         easein_quint 0.33 xalign 0.85 zoom 1
 
-    # 2. Ждем долю секунды, чтобы игрок увидел начало рывка
     $ renpy.pause(0.2, hard=True)
 
-    # 3. "Фейковый" Fade. Мы показываем черный слой поверх всего.
-    # Персонаж под ним всё еще продолжает двигаться (zoom/move).
+
     show cg cg34:
         alpha 0.0
-        linear 0.25 alpha 0.5 # Это время ухода в затемнение (0.5 сек)
+        linear 0.25 alpha 0.5
     
-    # Ждем, пока экран полностью почернеет
     $ renpy.pause(0.0625, hard=True)
 
-    # 4. Теперь, когда экран черный, можно безопасно очистить сцену
     scene black
     hide cg cg34 with Dissolve(0.125)
-    
     scene black with Fade(1.0, 0.5, 2.5)

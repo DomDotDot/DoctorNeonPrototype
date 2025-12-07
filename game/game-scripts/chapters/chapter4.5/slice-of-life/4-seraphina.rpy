@@ -1,8 +1,6 @@
 label chapter4_5_seraphina_flashback:
-    # --- Начало Флешбэка ---
     
     scene black with Dissolve(0.5)
-    # Звук: тихая, грустная мелодия на гитаре, но она звучит фальшиво, с ошибками.
     play music "music/BGM/Lilis_Lullaby_Memory_Corrupted.opus" noloop
     
     narrator """
@@ -101,7 +99,4 @@ label chapter4_5_seraphina_flashback:
     Ведь в отражении мокрого асфальта я вижу не Лили и не Серафину. Я вижу Нари. Ту, кем я была раньше.
 
     """
-    
-    # --- Конец Флешбэка ---
-
 return

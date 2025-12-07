@@ -140,8 +140,6 @@ label chapter4_5_concert_start:
     """
     stop ambient fadeout 2.5
     play sound "sfx/crowd-fan-excited.opus" fadein 1.5
-
-    # play sound "sfx/concert_lights_down_crowd_roar.opus"
     show cg cg31_2 with dissolve
 
 
@@ -228,7 +226,6 @@ label chapter4_5_concert_start:
     scene black with Fade(1, 1, 0.5)
 
     $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
-    # Опционально: можно немного снизить громкость, так как за стеной обычно тише
 
     play ambient "music/BGM/Unlocked.opus" fadein 10.0 volume 1
 
@@ -286,9 +283,7 @@ label chapter4_5_concert_start:
 
     $ renpy.music.set_audio_filter("music", None)
     $ renpy.music.set_volume(1.0, delay=0.5, channel="music")
-    
-    # Музыка заканчивается, звучат овации
-    # play sound "sfx/concert_end_applause.opus" loop
+
     stop music fadeout 2.0
     show cg cg31_4 with dissolve
 

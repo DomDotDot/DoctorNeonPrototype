@@ -36,7 +36,7 @@ label ch3_part2_the_cage:
     
     argon "Думаешь, если говорить с пустотой, она тебе ответит?"
 
-    show argon painter_apathy at left with dissolve # Аргон появляется из тени
+    show argon painter_apathy at left with dissolve
     show neon neutral at restore_flip
 
     narrator """

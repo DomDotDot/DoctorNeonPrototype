@@ -1,8 +1,6 @@
 label chapter4_5_concert_end:
 
     show cg cg33_1 with fade
-    #play music "music/BGM/NarcissismV2_Tense.opus" loop
-
     narrator """
         Серафина повела меня за собой, крепко держа за руку, ее холодные пальцы крепко сжимали мои. Мы шли вглубь выставочного центра, мимо пустых, темных павильонов.
 
@@ -33,8 +31,6 @@ label chapter4_5_concert_end:
     stop music fadeout 0.75
 
     narrator "Она прислонилась к двери спиной и устало выдохнула."
-
-    # play sound "sfx/office_door_close_lock.opus"
 
     show cg cg33_2 with fade
 
@@ -313,14 +309,13 @@ label chapter4_5_concert_end:
     play music "music/BGM/LostConnection.opus" fadein 5.0
     
     # play sound "sfx/insect_squash_smack.opus"
+    # play sound "sfx/seraphina_pain_gasp.opus"
+
     
     narrator "Я посмотрела на ладонь. На ней не было ничего. Ни мухи, ни пятнышка. Будто я хлопнула по пустому воздуху. Но жужжание... оно точно прекратилось."
     neon "{=thoughts}Странно... я была уверена, что попала...{/thoughts}"
 
     narrator "И тут раздался звук, который был напротив, он был гораздо страшнее. Нечеловеческий."
-    
-    # play sound "sfx/cup_shatter_porcelain.opus"
-    # play sound "sfx/seraphina_pain_gasp.opus"
 
     narrator """
         Она сидела, грациозно закинув ногу на ногу, и элегантно подносила чашку к губам.
@@ -572,7 +567,4 @@ label chapter4_5_concert_end:
     
     scene black with Dissolve(3)
     $ renpy.music.set_audio_filter("music", None)
-    
-    # play sound "sfx/heels_on_marble_approaching_slow.opus"
-
 return

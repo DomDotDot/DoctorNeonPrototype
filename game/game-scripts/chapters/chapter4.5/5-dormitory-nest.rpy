@@ -1,5 +1,3 @@
-    # ВОЗВРАЩЕНИЕ ПЕРСПЕКТИВЫ
-
 label chapter4_5_dorm_way:
     
     scene black
@@ -152,7 +150,6 @@ label chapter4_5_dorm_investigation:
     
     show cg cg36-1 with Fade(0.125, 0.125, 1.5)
     #show cg cg36-1 as ghost_cg at dizzy_ghost_anim_light169
-    #scene bg chapter_4_veritas_dorm_sara_room_body with dissolve
     
     narrator """
         На диване, в расслабленной, почти ленивой позе, сидела девушка в форме Академии. Сара Кендрик.

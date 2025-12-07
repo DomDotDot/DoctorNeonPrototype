@@ -8,7 +8,6 @@ label chapter4_5_lily_flashback:
         Ты же понимаешь, о чем я, Нари?
     """
 
-    # Музыка: та же тихая, меланхоличная мелодия Нари, но теперь в ней слышны тревожные нотки.
     play music "music/BGM/Tide.opus" loop
     scene bg chapter_4_veritas_studio_day with fade
 
@@ -88,8 +87,6 @@ label chapter4_5_lily_flashback:
     
     lily "Да! Конечно! Сходим прямо сейчас!"
 
-    # --- Сцена на улице ---
-
     scene bg chapter_4_veritas_streets_night with fade
     
     narrator """
@@ -163,9 +160,7 @@ label chapter4_5_lily_flashback:
     
     narrator "Она молчала, сделав шаг ко мне. Ее рука внезапно схватила мою..."
     
-    # Музыка резко обрывается или сменяется на зловещую (Entity_Theme)
-    stop music
-    play music "music/BGM/Entity_Theme.opus" loop
+    play music "music/BGM/Entity_Theme.opus" fadeout 5.0
     
     nari "Тссс. Кто-то идет."
     
