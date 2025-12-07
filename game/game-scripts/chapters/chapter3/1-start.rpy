@@ -1,5 +1,11 @@
 label chapter3_part1_start:
 
+    python:
+        s1 = _("Осмотреть ключ-карту")
+        s2 = _("К тому шкафчику, что баррикадой стоит у прохода")
+        s3 = _("На лестницу, ведущую на второй этаж")
+        s4 = _("Войти в Хим. лабораторию")
+
 
     default hall_examined = False
     default locker_broken = False

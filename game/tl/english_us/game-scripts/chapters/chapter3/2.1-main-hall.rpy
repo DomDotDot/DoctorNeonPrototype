@@ -154,8 +154,15 @@ translate english_us ch3_hall_explore_fcdb3047:
 translate english_us strings:
 
     # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:38
-    old "Осмотреть ключ-карту."
-    new ""
+    old "Осмотреть ключ-карту"
+    new "Inspect the keycard"
 
 translate english chk_keycard_opt:
-    "Inspect the keycard."
+    "Inspect the keycard"# TODO: Translation updated at 2025-12-08 00:02
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:38
+    old "[s1!t]"
+    new "Inspect the keycard"
+

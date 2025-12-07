@@ -70,4 +70,23 @@ translate english_us chapter3_part1_start_cb6fe3f1:
 translate english_us chapter3_part1_start_0a49755c:
 
     # narrator "Ожидание здесь означало конец. Мне нужно было действовать. И действовать сейчас."
-    narrator "Waiting here meant the end. I had to act. And act now."
+    narrator "Waiting here meant the end. I had to act. And act now."# TODO: Translation updated at 2025-12-08 00:02
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/1-start.rpy:5
+    old "К тому шкафчику, что баррикадой стоит у прохода"
+    new "To the cabinet blocking the passage"
+
+    # game/game-scripts/chapters/chapter3/1-start.rpy:6
+    old "На лестницу, ведущую на второй этаж"
+    new "To the stairs leading to the second floor"
+
+# TODO: Translation updated at 2025-12-08 00:11
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/1-start.rpy:7
+    old "Войти в Хим. лабораторию"
+    new "Enter the Chem Lab"
+

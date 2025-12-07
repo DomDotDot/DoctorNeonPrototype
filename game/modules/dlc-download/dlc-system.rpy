@@ -20,8 +20,16 @@ init python:
     current_dlc_data = None 
     dl_queue_title = "" # Хранит заголовок с номером в очереди (Музыка (1/3))
 
+    # ПЕРЕМЕННЫЕ ДЛЯ ОТСЛЕЖИВАНИЯ СОСТОЯНИЯ
+    dl_phase = "init"        # init, connecting, downloading, unzipping, done
+    dl_attempt_cur = 0       # Текущая попытка
+    dl_attempt_max = 5       # Макс попыток
+    dl_mb_cur = 0.0          # Скачано МБ
+    dl_mb_tot = 0.0          # Всего МБ
+
     def _dlc_worker(url, zip_path, target_dir):
         global dl_progress, dl_status, dl_done, dl_error, dl_should_cancel
+        global dl_phase, dl_attempt_cur, dl_attempt_max, dl_mb_cur, dl_mb_tot
 
         if not os.path.exists(os.path.dirname(zip_path)):
             os.makedirs(os.path.dirname(zip_path))
@@ -33,9 +41,11 @@ init python:
 
         while attempt < MAX_RETRIES and not success and not dl_should_cancel:
             attempt += 1
+            dl_attempt_cur = attempt
+
             try:
                 dl_error = None
-                dl_status = _("Попытка {} из {}...").format(attempt, MAX_RETRIES)
+                dl_phase = "connecting"
                 
                 # Таймаут: 5 сек на коннект, 5 сек на ожидание байтов
                 response = requests.get(url, stream=True, timeout=(5, TIMEOUT_SEC))
@@ -53,6 +63,8 @@ init python:
                     else:
                         dl = 0
                         total_length = int(total_length)
+                        dl_mb_tot = total_length / 1024 / 1024
+
                         for data in response.iter_content(chunk_size=32768): # 32kb чанки
                             if dl_should_cancel: break
                             dl += len(data)
@@ -60,9 +72,7 @@ init python:
 
                             dl_progress = float(dl) / total_length
                             # Cтатус: 15.4 / 120.0 MB
-                            mb_cur = dl / 1024 / 1024
-                            mb_tot = total_length / 1024 / 1024
-                            dl_status = "{:.1f} / {:.1f} MB".format(mb_cur, mb_tot)
+                            dl_mb_cur = dl / 1024 / 102
 
                 if dl_should_cancel: return
                 success = True
@@ -72,32 +82,35 @@ init python:
                 if attempt == MAX_RETRIES:
                     dl_error = str(e)
                 else:
-                    dl_status = _("Сбой связи. Ждем...")
+                    dl_phase = "waiting"
                     time.sleep(2)
 
         # Распаковка
         if success:
             try:
-                dl_status = _("Распаковка архива...")
+                dl_phase = "unzipping"
                 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
                     zip_ref.extractall(os.path.join(config.gamedir, current_dlc_data['folder']))
                 
                 if os.path.exists(zip_path):
                     os.remove(zip_path)
 
-                dl_status = _("Установка завершена!")
+                dl_phase = "done"
                 dl_done = True
             except Exception as e:
-                dl_error = _("Ошибка архива: ") + str(e)
+                dl_error = "Zip Error: " + str(e)
         elif not dl_error and not dl_should_cancel:
-            dl_error = _("Неизвестная ошибка загрузки.")
+            dl_error = "Unknown download error."
 
     def start_download_current():
         global dl_progress, dl_status, dl_done, dl_error, dl_should_cancel, current_dlc_data
+        global dl_phase, dl_mb_cur, dl_mb_tot
         
         # Сброс
         dl_progress = 0.0
-        dl_status = _("Инициализация...")
+        dl_phase = "init"
+        dl_mb_cur = 0.0
+        dl_mb_tot = 0.0
         dl_done = False
         dl_error = None
         dl_should_cancel = False
@@ -152,8 +165,8 @@ screen dlc_selection_screen(dlc_list):
                             textbutton ("✓ " if dlc_choices[item['id']] else "☐ ") action SetDict(dlc_choices, item['id'], not dlc_choices[item['id']]) text_size 30
                             
                             vbox:
-                                text item['title'] size 24 bold True
-                                text item['desc'] size 20 color "#ccc"
+                                text "[item['title']!t]" size 24 bold True
+                                text "[item['desc']!t]" size 20 color "#ccc"
 
             null height 20
 
@@ -176,18 +189,39 @@ screen dlc_progress_screen():
         xalign 0.5 yalign 0.5 padding (50, 50) xsize 800
         vbox:
             spacing 20
-            text "[dl_queue_title]" size 30 bold True xalign 0.5
+            text "[current_dlc_data['title']!t] ([dl_seq_current] / [dl_seq_total])" size 30 bold True xalign 0.5
             
             if dl_error:
                 text _("ОШИБКА") color "#f00" size 26 xalign 0.5
-                text "[dl_error]" size 18 xalign 0.5
+                text "[dl_error!t]" size 18 xalign 0.5
                 hbox:
                     xalign 0.5 spacing 30
 
                     textbutton _("Повторить") action Function(start_download_current)
                     textbutton _("Пропустить этот пак") action Return()
             else:
-                text "[dl_status]" size 22 xalign 0.5
+                if dl_phase == "init":
+                    text _("Инициализация...") size 22 xalign 0.5
+                
+                elif dl_phase == "connecting":
+                    # RenPy подставит числа в перевод строки "Попытка [dl_attempt_cur] из..."
+                    text _("Попытка [dl_attempt_cur] из [dl_attempt_max]...") size 22 xalign 0.5
+
+                elif dl_phase == "downloading":
+                    # Форматируем числа до 1 знака после запятой через .1f
+                    $ mb_c = "{:.1f}".format(dl_mb_cur)
+                    $ mb_t = "{:.1f}".format(dl_mb_tot)
+                    text _("[mb_c] / [mb_t] МБ") size 22 xalign 0.5
+                
+                elif dl_phase == "waiting":
+                    text _("Сбой связи. Ждем...") size 22 xalign 0.5
+                
+                elif dl_phase == "unzipping":
+                    text _("Распаковка архива...") size 22 xalign 0.5
+                
+                elif dl_phase == "done":
+                    text _("Установка завершена!") size 22 xalign 0.5
+
                 bar:
                     value dl_progress range 1.0 ysize 40
                 

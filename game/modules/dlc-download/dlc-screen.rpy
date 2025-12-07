@@ -34,11 +34,8 @@ label dlc_manager_flow:
             renpy.store.current_dlc_data = dlc_to_download
             
             # Заголовок:  "Загрузка музыки (1 / 3)"
-            renpy.store.dl_queue_title = "{} ({} / {})".format(
-                dlc_to_download['title'], 
-                i + 1, 
-                len(download_queue)
-            )
+            renpy.store.dl_seq_current = i + 1
+            renpy.store.dl_seq_total = len(download_queue)
 
             # Поток скачивания для ТЕКУЩЕГО dlc
             start_download_current()

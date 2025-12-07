@@ -134,3 +134,19 @@ translate english_us ch3_explore_long_corridor_ad468eb0:
     # neon "{=thoughts}Я понятия не имею, какой здесь может быть код. Просто тыкать наугад бессмысленно. Подсказка должна быть где-то здесь."
     neon "{=thoughts}I have no idea what the code could be. Guessing randomly is pointless. There must be a clue somewhere."
 
+# TODO: Translation updated at 2025-12-08 00:09
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:34
+    old "Введите четырёхзначный  код:"
+    new "Enter 4-digit code:"
+
+# TODO: Translation updated at 2025-12-08 00:11
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:55
+    old "[s4!t]"
+    new "Enter the Chem Lab"
+

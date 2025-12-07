@@ -54,3 +54,5 @@ translate english_us strings:
     old "Контент"
     new "Content"
 
+    old "Источник"
+    new "Source"

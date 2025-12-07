@@ -33,7 +33,7 @@ label ch3_hall_explore:
             "Вы получили {b}Ключ-карту{/b}."
             jump ch3_hall_explore
 
-        "Осмотреть ключ-карту." if has_keycard and not inspected_keycard_barcode:
+        "[s1!t]" if has_keycard and not inspected_keycard_barcode:
 
             # show keycard_image
             narrator """

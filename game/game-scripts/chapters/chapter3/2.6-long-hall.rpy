@@ -31,7 +31,7 @@ label ch3_long_corridor:
                         if found_code_clue:
                             
                             # Экран ввода кода
-                            $ code_attempt = renpy.input("Введите четырёхзначный  код:", length=4, allow="0123456789")
+                            $ code_attempt = renpy.input(_("Введите четырёхзначный  код:"), length=4, allow="0123456789")
                             
                             if code_attempt == "1984":
                                 # play sound "sounds/keypad_success.opus"
@@ -52,7 +52,7 @@ label ch3_long_corridor:
                 narrator "Дверь в Хим. лабораторию открыта."
                 jump ch3_explore_long_corridor
 
-        "Войти в Хим. лабораторию." if chemlab_door_unlocked:
+        "[s4!t]" if chemlab_door_unlocked:
             if has_equipment_idea:
                 jump ch3_explore_chem_lab
             else:

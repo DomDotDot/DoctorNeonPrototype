@@ -66,3 +66,15 @@ translate english_us strings:
     old "Установка завершена. Переход к следующему файлу..."
     new "Installation complete. Moving on to the next file..."
 
+# TODO: Translation updated at 2025-12-07 23:44
+
+translate english_us strings:
+
+    # game/modules/dlc-download/dlc-system.rpy:208
+    old "Попытка [dl_attempt_cur] из [dl_attempt_max]..."
+    new "Attempt [dl_attempt_cur] out of [dl_attempt_max]..."
+
+    # game/modules/dlc-download/dlc-system.rpy:214
+    old "[mb_c] / [mb_t] МБ"
+    new "[mb_c] / [mb_t] MB"
+

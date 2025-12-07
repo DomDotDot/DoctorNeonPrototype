@@ -119,11 +119,15 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter3/3 -chase.rpy:11
     old "К выходу!"
     new "To the exit!"
+# TODO: Translation updated at 2025-12-08 00:02
+
+translate english_us strings:
 
     # game/game-scripts/chapters/chapter3/3 -chase.rpy:22
-    old "К тому шкафчику, что баррикадой стоит у прохода."
+    old "[s2!t]"
     new "To the cabinet blocking the passage."
 
-    # game/game-scripts/chapters/chapter3/3 -chase.rpy:35
-    old "На лестницу, ведущую на второй этаж."
+    # game/game-scripts/chapters/chapter3/3 -chase.rpy:37
+    old "[s3!t]"
     new "To the stairs leading to the second floor."
+
