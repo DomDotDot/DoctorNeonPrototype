@@ -1,10 +1,6 @@
 label chapter4_5_kai_ito_interlude:
 
-    # Экран темнеет. Музыка меняется на легкую, повседневную, "слайс-оф-лайф" тему.
-    # play music "music/BGM/Veritas_Academy_DailyLife.opus" loop
-    
-    # ПЕРЕКЛЮЧЕНИЕ ПЕРСПЕКТИВЫ
-    
+    play music "music/BGM/SunnyDay.opus" fadein 5.0
     scene bg chapter_4_academy-veritas-academy-gate-2 with fade
     
     narrator """
@@ -169,9 +165,7 @@ label chapter4_5_kai_ito_interlude:
 
     narrator "Она подмигнула и вышла. А я остался стоять посреди пустого класса, оглушенный. Моя история... начинается."
 
-    # Резкое затемнение
     scene black with fade
-    # Звук дверного звонка
     # play sound "sfx/doorbell.opus"
     
     narrator """
@@ -186,7 +180,6 @@ label chapter4_5_kai_ito_interlude:
 
     kai "Сенсей! Заходите, пожалуйста! Я так рад вас видеть!"
     
-    # Резкий черный экран. Тишина на 3 секунды.
     scene black
     pause 3.0
     
