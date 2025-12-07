@@ -1,6 +1,5 @@
 label ch3_long_corridor:
-    # Неон в темном коридоре за шкафчиком
-    scene bg chapter_3_long-hall-hall with fade # Фон: темный, узкий служебный коридор
+    scene bg chapter_3_long-hall-hall with fade
     play music "music/BGM/GreyPaint.opus" fadein 15.0 fadeout 15.0 volume 0.125
     narrator """
     Коридор, открывшийся за воротами, делал небольшой изгиб влево, а затем резко поворачивал направо.
@@ -30,6 +29,7 @@ label ch3_long_corridor:
                 menu:
                     "Попробовать ввести код.":
                         if found_code_clue:
+                            
                             # Экран ввода кода
                             $ code_attempt = renpy.input("Введите четырёхзначный  код:", length=4, allow="0123456789")
                             

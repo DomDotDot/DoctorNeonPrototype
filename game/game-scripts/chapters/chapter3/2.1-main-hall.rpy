@@ -34,7 +34,7 @@ label ch3_hall_explore:
             jump ch3_hall_explore
 
         "Осмотреть ключ-карту." if has_keycard and not inspected_keycard_barcode:
-            # Изображение карты можно показать на экране
+
             # show keycard_image
             narrator """
             Я внимательно рассмотрела карту.

@@ -45,8 +45,8 @@ label ch3_guts_office_door:
                 narrator "Должно быть, я задела его самолюбие."
 
             # play sound "sounds/intercom_crackle_off.opus"
-
             # play sound "sounds/distant_roar_rage.opus"
+            
             neon "{=thoughts}Сработало! Пора бежать!"
             $ provocation_count = 3
             jump ch3_chase_start

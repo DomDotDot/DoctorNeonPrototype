@@ -148,6 +148,7 @@ label escaping_facility_grounds:
         Запах... резкий, едкий. И что-то еще... сладковатое? Как... цветы? Нет... химия. Дизель. И еще... что-то металлическое.
         """
 
+        # Конец главы 1
         nvl clear
         stop music fadeout 5.0
         stop ambient fadeout 5.0

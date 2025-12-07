@@ -1,7 +1,6 @@
 label ch3_part2_the_cage:
 
-    # Сцена "Логово Художника"
-    scene bg chapter_3_argon-room with fade  # Фон: комната Аргона
+    scene bg chapter_3_argon-room with fade
 
     # play sound "sounds/door_creak_slow_gentle.opus"
 
@@ -20,7 +19,6 @@ label ch3_part2_the_cage:
     show neon neutral at center with dissolve
     show neon neutral at flip
     
-    # Монолог у Окна
     narrator """
     Единственное окно в комнате не было заколочено. Я подошла к нему.
     
@@ -35,13 +33,8 @@ label ch3_part2_the_cage:
 
     Я виновата... Алекс... Марк... Я просто... устала бежать.
     """
-    
-    # Появление Аргона
-    
-    if _preferences.language == "english_us":
-        $ argon_display_name = "???"
-    else:
-        $ argon_display_name = "???"
+
+    $ argon_display_name = "???"
 
     argon "Думаешь, если говорить с пустотой, она тебе ответит?"
 
