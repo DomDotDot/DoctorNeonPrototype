@@ -1,10 +1,8 @@
 label nightmare_sequence:
 
-                # Неон проваливается в сон в холодной машине.
-                scene black with Fade(10.0, 0.5, 0.5) # Медленное затемнение
+                scene black with Fade(10.0, 0.5, 0.5)
 
-                # Сон: Лиминальное пространство парковки
-                scene bg chapter_2_nightmare-parking_lot with dissolve # Фон: та же парковка из реальности, но искаженная, пустая, бесконечная. Свет от ламп тусклый и неправильный, отбрасывает слишком длинные тени.
+                scene bg chapter_2_nightmare-parking_lot with dissolve
                 play music "music/BGM/InHer.opus" fadein 10.0 volume 0.25
                 # play sound "sounds/liminal_parking_ambience_echo.opus" loop # Звуки: гул, эхо шагов (ее собственных), далекие, неразборчивые шепоты
 
@@ -64,8 +62,7 @@ label nightmare_sequence:
                 """
 
                 narrator "Она подходит ближе. Время замирает. Охранник, держащий меня, и Алекс, обвиняющая меня, застывают как статуи."
-                # stop sound # Полная тишина на несколько секунд
-
+                # stop sound
                 #show cg cg11_1-2 with dissolve
 
                 narrator """
@@ -77,7 +74,7 @@ label nightmare_sequence:
 
                 Это был холодный, ровный, женский голос. В нем не было ни злобы, ни радости. Только абсолютная, ледяная уверенность.
                 """
-                # play sound "sounds/katana_unsheath_dream.opus" # Звук извлечения катаны, медленный, с эхом
+                # play sound "sounds/katana_unsheath_dream.opus"
                 unknown_f """
                 
                 Вечно ты создаешь проблемы. Вечно все делаешь не так.
@@ -129,7 +126,7 @@ label nightmare_sequence:
 
                 Но вдруг снаружи, за пределами этого кошмара, гремит раскат грома.
                 """
-                # play sound "sounds/thunder_clap_muffled_dream.opus" # Гром, приглушенный, как будто из реального мира
+                # play sound "sounds/thunder_clap_muffled_dream.opus" # Гром, приглушенный
                 stop music
 
                 narrator """

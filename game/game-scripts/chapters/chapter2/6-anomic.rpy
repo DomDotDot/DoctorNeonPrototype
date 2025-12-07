@@ -1,7 +1,6 @@
 label chapter2_act5_journey_to_anomic:
 
-                # Неон, Гатс и водитель в фургоне.
-                scene bg chapter_2_anomic-van-inside with fade # Фон: интерьер грузового отсека фургона, день
+                scene bg chapter_2_anomic-van-inside with fade
                 show neon neutral at right
                 show guts construction_neutral at left
                 play music "music/BGM/NightFlare.opus" fadein 5.0 fadeout 5.0
@@ -43,8 +42,7 @@ label chapter2_act5_journey_to_anomic:
                 День сменился вечером. Солнце садилось, окрашивая небо в те же багровые тона, что и вчера. Вчера... казалось, прошла целая вечность.
                 """
 
-                # Вечер. Появление тумана.
-                show cg cg15_2 with fade # Фон меняется на вечерний, за окном виден туман
+                show cg cg15_2 with fade
                 narrator """
                 Когда начало смеркаться, пейзаж за окном изменился. Земля стала выглядеть... больной. Деревья стояли голые, скрюченные, хотя сейчас была весна.
 

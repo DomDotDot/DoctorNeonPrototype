@@ -1,6 +1,5 @@
 label chapter2_act4_desperate_measures:
 
-                # Неон стоит на улице маленького городка, осознав свое положение.
                 scene bg chapter_2_facing_reality-town_alley with fade
                 play music "music/BGM/LDCelts.opus" fadein 5.0 fadeout 5.0 volume 0.5
                 narrator """
@@ -139,8 +138,7 @@ label chapter2_act4_desperate_measures:
                 Она шла, не зная, ждет ли ее там помощь или ловушка. Но это был единственный путь.
                 """
 
-                # Путь к складу
-                show cg cg14 with fade # Фон: промзона на окраине города
+                show cg cg14 with fade
                 stop music fadeout 10.0
                 play ambient "ambient/wind-howly-ear.opus" fadein 5.0
                 narrator """
@@ -202,9 +200,8 @@ label chapter2_act4_desperate_measures:
                 Но у нее не было выбора. Это была единственная трещина в стене, которую она нашла.
                 """
                 neon "... ...Я согласна."
-
-                # Финал Акта 3, переход к Путешествию в Аномик
                 narrator "Он кивнул, не меняя выражения лица, и указал на старый фургон, стоявший в дальнем, самом темном углу склада. Она и не заметила его раньше."
                 unknown "Садись. Путь будет долгий."
+                
                 stop ambient fadeout 5.0
 return

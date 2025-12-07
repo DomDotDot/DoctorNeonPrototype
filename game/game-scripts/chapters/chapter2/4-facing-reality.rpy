@@ -1,6 +1,5 @@
 label chapter2_act3_facing_reality:
 
-                # Утро после кошмара. Неон просыпается в машине.
                 play music "music/BGM/FogHorns.opus" fadein 5.0 fadeout 5.0 volume 0.25
                 scene bg chapter_2_facing_reality-forest with Dissolve(6.0)
                 # play sound "sounds/morning_forest_ambience_birds_drips.opus" loop
@@ -56,8 +55,7 @@ label chapter2_act3_facing_reality:
                 neon "{=thoughts} В тумане... меня хотя бы не так хорошо видно..."
                 narrator "Она шла, и с каждым шагом туман рассеивался, а впереди стали проступать очертания строений."
 
-                # Неон выходит к окраине небольшого городка
-                scene bg chapter_2_facing_reality-town_arrival with fade # Фон: окраина городка, туман
+                scene bg chapter_2_facing_reality-town_arrival with fade
                 # play sound "sounds/small_town_ambience_distant_dog_bark.opus" loop # Звуки: далекий лай собаки, скрип вывески, звук первого утреннего поезда
                 narrator """
                 Она вышла к небольшому, сонному городку, затерянному в низменности. Здесь туман был еще плотнее.
@@ -75,7 +73,7 @@ label chapter2_act3_facing_reality:
                 
                 Она увидела свет в окне небольшого магазина. 'Газеты, журналы, табак'. Единственное работающее заведение на всей улице.
                 """
-                show cg cg12_1-1 with fade # Фон: экстерьер газетного киоска
+                show cg cg12_1-1 with fade
                 narrator "Внутри, под потолком, висел старый, пузатый телевизор, по которому шли утренние новости. Неон замерла у витрины, вглядываясь в экран. Что-то заставило ее остановиться."
                 narrator "Голос диктора звучал глухо, приглушенно, словно издалека, но она отчетливо слышала каждое слово."
                 # play sound "sounds/tv_news_broadcast_muffled.opus" # Приглушенный звук новостей
@@ -237,5 +235,4 @@ label chapter2_act3_facing_reality:
                 Но, может быть... возможной в ней найти трещину...?
                 """
                 nvl clear
-                # Конец Акта 2. Переход к следующей части, где она ищет помощи в "подполье".
 return

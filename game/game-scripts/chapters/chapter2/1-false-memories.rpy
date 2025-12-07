@@ -32,7 +32,7 @@ label chapter2_act1_false_memories:
                 Заднее правое колесо... прострелено. Оно спустило, и теперь каждый оборот отдавался глухой, ритмичной бултыхающейся дрожью. Но она ехала.
                 """
 
-                scene bg chapter_2_false_memories-escape with Dissolve(10.0) # Фон: ночное шоссе, вид из машины, начинается дождь
+                scene bg chapter_2_false_memories-escape with Dissolve(10.0)
                 # play sound "sounds/car_driving_damaged_tire.opus" loop # Звук езды на спущенном колесе
                 play ambient "ambient/raining_inside_car.opus" fadein 20.0 fadeout 5.0
 
@@ -151,7 +151,7 @@ label chapter2_act1_false_memories:
 
                 Она лихорадочно схватила телефон, переключая карту в режим спутника.
                 """
-                show cg cg9 with fade # Показать экран телефона с картой
+                show cg cg9 with fade
 
                 narrator """
 
@@ -165,7 +165,6 @@ label chapter2_act1_false_memories:
 
                 Она увидела нужный съезд – неприметный, заросший травой, уходящий в темноту. Выбора не было.
                 """
-                # hide screen phone_gps_map
 
                 # stop music fadeout 1.0
                 narrator "Она свернула с гладкого асфальта на грязную, разбитую колею. Машину тут же начало трясти еще сильнее. Дождь усилился, превратившись в ливень."
