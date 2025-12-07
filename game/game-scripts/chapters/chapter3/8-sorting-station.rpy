@@ -1,6 +1,5 @@
 label chapter3_the_heist_start:
 
-    # Группа на сортировочной станции.
     # scene sorting_station_night_exterior
     # music "sounds/sorting_station_tense_ambient.opus" loop
 
@@ -49,15 +48,14 @@ label chapter3_the_heist_start:
     И именно в этот момент, когда все, казалось, шло по плану, ночь взорвалась.
     """
 
-    # play sound "sounds/shout_security_ambush.opus" # Громкий крик "Стоять! Охрана станции!"
     # play sound "sounds/spotlight_turn_on_whirr.opus" # Звук включения мощных прожекторов
-    scene bg chapter_3_sorting-station-escape with dissolve # Сцена озаряется светом прожекторов
+    scene bg chapter_3_sorting-station-escape with dissolve
     play music "music/BGM/CrumpledShucks.opus" fadein 5.0 fadeout 10.0 volume 0.25
 
     narrator "Станцию внезапно залил яркий, слепящий свет прожекторов. Со всех сторон раздались крики и свистки."
     "Командир Охраны" "Стоять! Охрана станции! Бросай оружие!"
     narrator "И тут же началась беспорядочная стрельба. Бандиты Гатса, застигнутые врасплох, открыли ответный огонь."
-    # play sound "sounds/gunfire_chaotic_exchange.opus" loop # Звуки хаотичной перестрелки
+    # play sound "sounds/gunfire_chaotic_exchange.opus" loop # Звуки перестрелки
 
     rico "Засада! Валим отсюда! Каждый сам за себя!"
     narrator """
@@ -69,7 +67,6 @@ label chapter3_the_heist_start:
     """
 
 label chapter3_escape:
-    # Неон и Аргон в вагоне под огнем
     # play sound "sounds/bullets_ricocheting_metal.opus" loop # Звуки пуль, бьющих по вагону
 
     neon "Они нас здесь убьют! Или свои, или чужие! Нужно бежать!"
@@ -136,8 +133,7 @@ label chapter3_escape:
 
 label chapter3_revelation:
 
-    # Неон и Аргон загнаны в тупик между вагонами.
-    show cg cg20_3 with fade # Фон: узкий проход между двумя вагонами, тупик
+    show cg cg20_3 with fade
     # play sound "sounds/pursuers_approaching_both_sides.opus" loop # Звуки приближающихся с двух сторон преследователей
 
     narrator """
@@ -167,7 +163,6 @@ label chapter3_revelation:
     argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
 
     # Применение Силы Аргона
-    # play sound "sounds/argon_power_focus_hum.opus" # Тихий, нарастающий гул – звук фокусировки его силы
     show argon painter_determination with dissolve
     narrator """
     Борис мягко высвободил свою руку из моей. Он сделал шаг вперед, выходя из тени, под лучи фонарей.
@@ -229,5 +224,3 @@ label chapter3_revelation:
     
     Сейчас — идем. Я знаю место, где мы можем перевести дух.
     """
-
-    # Конец третьей части.

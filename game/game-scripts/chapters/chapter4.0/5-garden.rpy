@@ -1,7 +1,5 @@
 label chapter4_0_garden:
 
-    # --- АКТ I: ДОРОГА В ТУПИК ---
-
     show cg cg27_1 with Dissolve(5.0)
     play music "music/BGM/FloraUndergrowth.opus" loop # Более меланхоличная версия ночной темы.
     # play ambient "ambient/city_night_distant_sirens.opus" loop
@@ -32,9 +30,6 @@ label chapter4_0_garden:
     """
     
     narrator "Я чувствовала себя раздавленной. Я была так близка, но правда снова ускользнула. Осталось только чувство потери и этот старый рояль в пустой квартире."
-
-    # --- АКТ II: УБЕЖИЩЕ В ЭДЕМЕ ---
-
     narrator """
     Я не заметила, как мои ноги сами привели меня сюда. К огромному стеклянному куполу, светящемуся изнутри мягким, зеленым светом. 'Ботанический Сад Веритаса'.
 
@@ -61,25 +56,17 @@ label chapter4_0_garden:
     Я заснула, даже не заметив этого.
     """
 
-    # --- АКТ III: СОН О РАЗРУШЕНИИ ---
-
     scene black with Fade(1.0, 1.0, 1.0)
     $ renpy.music.set_volume(0.125, delay=30.0, channel='music')
     $ renpy.music.set_volume(0.125, delay=30.0, channel='ambient')
     
     # === НАЧАЛО ФРАГМЕНТА СНА (3-dream-fragment.rpy) ===
-    # Здесь можно использовать `call dream_sequence_japan_3`
     
     call dream_sequence_japan_3 from _call_dream_sequence_japan_3
-
-
-    # --- АКТ IV: ПРОБУЖДЕНИЕ И ВСТРЕЧА (КЛИФФХЭНГЕР) ---
-    
     show cg cg27_2 with Dissolve(2.5)
     # stop music fadeout 2.0
     $ renpy.music.set_volume(1.0, delay=2.0, channel='music')
     $ renpy.music.set_volume(1.0, delay=2.0, channel='ambient')
-    
     # play sound "sfx/sharp_prick_sound.opus" with vpunch
     
     narrator "Я проснулась от резкого, острого укола в ладони. Я вскрикнула, отдернув руку."
@@ -95,13 +82,8 @@ label chapter4_0_garden:
     neon "{=thoughts}Это... это не от цветка. У него нет шипов. Откуда эти раны?"
     
     narrator "Паника начала подступать к горлу. И тут я услышала его. Тихий, мелодичный напев. И легкий цокот каблуков по каменной плитке."
-
-    # Музыкальная тема Серафины/Сирены начинает тихо играть на фоне.
     
 label chapter4_0_garden_dialogue:
-
-    # ...Сцена пробуждения Неон и обнаружения раны...
-    # Музыкальная тема Серафины начинает тихо играть.
 
     play music "music/BGM/Narcissism.opus" fadein 5.0
 
@@ -347,7 +329,7 @@ label chapter4_0_garden_dialogue:
     {=thoughts}Это единственный путь. Я докажу тебе, что была права.
     """
     
-    # КОНЕЦ ГЛАВЫ 4.0
+    # Конец Главы 4.0
     stop music fadeout 6.0
     stop ambient fadeout 6.0
     scene black with Fade(6.0, 0.5, 1.0)

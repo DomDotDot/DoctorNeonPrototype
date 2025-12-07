@@ -1,9 +1,6 @@
-# --- Глава 3, Часть 5: Путь к Сортировочной Станции ---
-
 label ch3_path_to_station:
 
-    # После брифинга. Группа идет по заводу.
-    scene bg chapter_3_path-to-station with fade # Фон: ночной двор завода, тусклый свет прожекторов, туман
+    scene bg chapter_3_path-to-station with fade
 
     # play sound "sounds/night_factory_ambience_wind_metal.opus" loop # Звуки: вой ветра, скрип металла, далекий гул
 
@@ -59,7 +56,7 @@ label ch3_path_to_station:
     """
 
     narrator "Любопытно. Вот и все объяснение. Я не знала, верить ему или нет. Но сейчас он был моим единственным союзником в этом змеином гнезде."
-    scene bg chapter_2_anomic-van-inside with fade # Фон: интерьер фургона, ночная поездка
+    scene bg chapter_2_anomic-van-inside with fade
     # play sound "sounds/van_driving_interior_slow.opus" loop # Звук медленной, осторожной езды
 
     narrator """
@@ -101,14 +98,13 @@ label ch3_path_to_station:
 
     narrator "Его слова были холодными и жестокими, но я понимала, что в них правда. Я больше не могла надеяться на систему, частью которой была. Мне нужно было создать свою собственную систему правил."
 
-    # Прибытие на станцию
     scene black with Dissolve(5.0)
     play music "music/BGM/FM-Modul.opus" fadein 5.0 fadeout 10.0 volume 0.5
     rico "Стоп. Здесь."
     narrator "Фургон остановился. Мы оказались на огромной, тускло освещенной сортировочной станции."
 
     rico "Выходим, выходим, быстро и тихо. Борис, ты ведешь."
-    scene bg chapter_3_sorting-station-start with fade # Фон: ночная сортировочная станция
+    scene bg chapter_3_sorting-station-start with fade
     narrator """
     Рико и его люди вылезли из фургона, быстро и бесшумно. Я последовала за ними, стараясь не отставать.
     
@@ -134,5 +130,3 @@ label ch3_path_to_station:
     
     Может быть, он видел во мне не просто 'упорство', а отголосок чего-то, что он сам давно потерял. Надежды? Или, может, кого-то, кто тоже так отчаянно боролся...
     """
-
-    # Конец сцены. Переход к основной части на станции.

@@ -83,7 +83,5 @@ label chapter4_0_train_dream:
 
     neon "Да. Давай собираться."
 
-    # Конец сцены
     scene black with Fade(2.0, 0.5, 1.0)
-
 return

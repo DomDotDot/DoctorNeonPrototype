@@ -1,6 +1,5 @@
 label chapter4_0_academy:
 
-    # Атмосфера: Центр Веритас-Сити. Яркий, солнечный день. Давящий порядок.
     scene bg chapter_4_academy-veritas1 with Dissolve(1.0)
     play ambient "ambient/city-ambience-traffic.opus" fadein 15.0 volume 0.25
 
@@ -39,8 +38,6 @@ label chapter4_0_academy:
 
     Ладно, мы почти у цели. Академия должна быть недалеко отсюда.
     """
-
-    # --- СЦЕНА СОЦИАЛЬНОГО ДАВЛЕНИЯ ---
 
     narrator """
     Внезапно, на перекрестке, один из пешеходов, молодой парень в простой футболке и джинсах, споткнулся и упал.
@@ -86,9 +83,8 @@ label chapter4_0_academy:
     
 
     stop ambient fadeout 5.0
-    # --- У ВОРОТ АКАДЕМИИ ---
-
     scene bg chapter_4_academy-veritas-academy-gate with fade
+
     narrator """
     Мы дошли до Академии.
     
@@ -148,8 +144,6 @@ label chapter4_0_academy:
     Ее концерт будет на Центральном Стадионе, мы как раз туда шли, посмотреть расписание. Пойдемте с нами, покажем!
     """
 
-    # --- ДИАЛОГ-РАССЛЕДОВАНИЕ ---
-
     narrator "Мы пошли вместе. Я старалась поддерживать легкий, непринужденный тон, расспрашивая их о жизни в городе."
     
     neon neutral "Здесь так... спокойно. И безопасно. Наверное, ничего необычного никогда не происходит?"
@@ -205,8 +199,6 @@ label chapter4_0_academy:
     
     {=thoughts}Аргон был прав и я была одной из них. Слепой высотницей.
     """
-
-    # --- КУЛЬМИНАЦИЯ: ОТКРЫТИЕ У СТАДИОНА ---
 
     scene bg chapter_4_academy-veritas-central with fade
     narrator """
@@ -284,11 +276,7 @@ label chapter4_0_academy:
     """
     
     stop ambient fadeout 25.0
-
-    # --- АКТ V: КОНФЛИКТ НА ПЕРЕПУТЬЕ ---
-    
-    # Они отошли от стадиона, вернулись в относительное уединение Старого Квартала.
-    play music "music/BGM/Colors.opus" loop # Меланхоличная, замедленная версия темы Веритаса.
+    play music "music/BGM/Colors.opus" loop
     
 
     narrator "Я не могла сдержать волну эмоций. Все, что я узнала, все указывало на одно: Селестия была реальна."
@@ -313,8 +301,7 @@ label chapter4_0_academy:
 
     narrator "Его голос был полон разочарования. Та искра любопытства, что зажглась в студии, погасла."
 
-    scene bg chapter_4_academy-veritas-central with fade # Тот же квартал, но теперь вечер, длинные тени.
-    
+    scene bg chapter_4_academy-veritas-central with fade
     show argon suit_surprised at left with dissolve
     show neon disargeement at right with dissolve
 
@@ -370,9 +357,6 @@ label chapter4_0_academy:
     narrator "Он развернулся и, не оглядываясь, пошел в сторону убежища. Я осталась одна посреди пустой, темнеющей улицы. В голове — только образ девушки с волосами цвета снега и ночи."
     
     hide argon with easeoutleft
-
-    # --- АКТ VI: ДЕДУКЦИЯ УЧЕНОГО ---
-
     show neon eyehurt at center with dissolve
     
     narrator """
@@ -381,15 +365,15 @@ label chapter4_0_academy:
     Но как? У меня нет ни интернета, ни связей. Я даже не могу снова найти тех студенток.
     """
     show neon shadowed zorder 5 with dissolve
-
     show black with { "master" : Dissolve(10.0) }
     with { "effect": dissolve }
+
     narrator "Я села на холодную ступеньку какого-то заброшенного крыльца и закрыла глаза, пытаясь восстановить в памяти каждую деталь."
 
 
     narrator "Смартфон. Статья. Что там было? Заголовок, фотография... и что-то еще."
     
-    # Крупный план: Неон напряженно думает. Можно показать на экране размытое изображение статьи.
+    # Крупный план: Неон напряженно думает. Показать на экране размытое изображение статьи.
     # play sound "sfx/memory_recall_focus.opus"
     
     narrator """
@@ -399,10 +383,8 @@ label chapter4_0_academy:
     
     На нем был изображен современный, элитный жилой комплекс. И слоган... Что-то вроде... 'The Celeste Plaza - Живите среди звезд'.
     """
-    
-    # Звук: Щелчок, как будто пазл сложился.
+
     #play sound "sfx/idea_click.opus"
-    # show neon determined with dissolve
     
     neon "Celeste Plaza..."
     
@@ -423,8 +405,6 @@ label chapter4_0_academy:
     
     narrator "У меня не было карты. Но у меня была гипотеза. И цель. Я пошла в сторону самых ярких огней, в самый престижный район города. Искать здание с именем моей забытой подруги."
 
-    # Конец сцены. Неон идет по вечернему городу, направляясь в элитный район.
-    # Это и есть начало 4-24syndrome.rpy.
     stop music fadeout 2.0
     stop ambient fadeout 2.0
     scene black with Fade(2.0, 0.5, 1.0)

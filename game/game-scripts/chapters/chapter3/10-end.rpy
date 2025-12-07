@@ -1,8 +1,7 @@
 label chapter3_on_train:
 
-    # Аргон и Неон в товарном вагоне.
     scene black with fade
-    queue music "music/BGM/SelfAffirmation.opus" fadein 5.0 loop volume 0.25 # Музыка: монотонный, меланхоличный стук колес
+    queue music "music/BGM/SelfAffirmation.opus" fadein 5.0 loop volume 0.25
     play sound "ambient/freight-train.opus" fadein 2.0 volume 0.5 loop
 
     narrator """
@@ -13,7 +12,7 @@ label chapter3_on_train:
     Аргон запрыгнул в него, а потом помог мне, подав руку.
 
     """
-    scene bg chapter_3_end-end with fade # Фон: интерьер движущегося товарного вагона, ночь
+    scene bg chapter_3_end-end with fade
     narrator """
     Мы забрались внутрь. Через некоторое время раздался скрежет, и поезд медленно тронулся, увозя нас из Аномика, из нашей тюрьмы, в неизвестность.
 

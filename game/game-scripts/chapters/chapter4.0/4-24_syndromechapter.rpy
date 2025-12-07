@@ -1,9 +1,7 @@
 label chapter4_0_24syndrome:
 
-    # --- АКТ I: НЕПРИСТУПНАЯ КРЕПОСТЬ ---
-
     show cg cg26_1 with fade
-    play music "music/BGM/FirstTheme.opus" fadein 5.0 fadeout 5.0 # Ночная тема Веритаса: спокойная, эмбиентная, но с нотками тревоги и одиночества.
+    play music "music/BGM/FirstTheme.opus" fadein 5.0 fadeout 5.0
     # play ambient "ambient/city-night-quiet.opus" loop fadein 10.0 fadeout 10.0
 
     narrator """
@@ -33,9 +31,8 @@ label chapter4_0_24syndrome:
     neon "{=thoughts}План А: просто спросить. Шанс почти нулевой, но это отправная точка."
     narrator "Я поправила галстук, придала лицу максимально деловой и уверенный вид и решительно шагнула к входу."
 
-    # --- ПРОВАЛ ПЛАНА А ---
-
     show cg cg26_3 with fade
+    
     # play sound "sfx/sliding_glass_door_open.opus"
     narrator "Двери бесшумно разъехались. Внутри было тихо и прохладно. Консьерж, мужчина средних лет с безупречной прической, поднял на меня бровь."
     
@@ -68,8 +65,6 @@ label chapter4_0_24syndrome:
 
     neon "{=thoughts}Система... В любой системе есть лазейки. Не в коде безопасности, а в рутине. В том, что все принимают как должное."
 
-    # --- АКТ II: ГЕНИАЛЬНОСТЬ ИНТРОВЕРТА ---
-
     narrator """
     Я отошла в тень, наблюдая за рутиной здания.
     
@@ -100,7 +95,6 @@ label chapter4_0_24syndrome:
 
     narrator "У меня был номер. У меня была цель. Я дождалась, пока курьер уедет, и, собрав всю свою решимость, направилась к главному входу."
     
-    # --- АКТ III: НЕОЖИДАННАЯ ВСТРЕЧА ---
     show cg cg26_4 with fade
 
     narrator "Консьерж стоял у телефонного аппарата, когда я тихонько вошла. Он стоял спиной, разговаривая, не замечая меня."
@@ -197,10 +191,8 @@ label chapter4_0_24syndrome:
     narrator "Она медленно открыла дверь шире."
     "Женщина" "Заходите..."
     
-# --- АКТ IV: ЧАЙ С ПРИЗРАКАМИ ---
-
-    scene bg chapter_4_24_syndrome-apartment-living with fade # Новый фон: элегантная, но безжизненная гостиная.
-    play music "music/BGM/OVERCAST-EYES.opus" fadein 5.0 fadeout 5.0 volume 0.25 # Музыка становится тише, интимнее.
+    scene bg chapter_4_24_syndrome-apartment-living with fade
+    play music "music/BGM/OVERCAST-EYES.opus" fadein 5.0 fadeout 5.0 volume 0.25
     play ambient "ambient/apartment_quiet_ticking_clock.opus" loop
 
     narrator """
@@ -402,7 +394,6 @@ label chapter4_0_24syndrome:
     Я найду их всех. Селестия, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена.
     """
 
-    # Конец сцены
     stop music fadeout 2.0
     stop ambient fadeout 2.0
     scene black with Fade(2.0, 0.5, 1.0)
