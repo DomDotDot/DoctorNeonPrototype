@@ -1,0 +1,12 @@
+﻿# TODO: Translation updated at 2025-12-07 04:40
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-screens.rpy:44
+    old "Нет файла:\n"
+    new "No suck file in this directory:\n"
+
+    # game/modules/gallery/gallery-screens.rpy:150
+    old "Ошибка: Нет картинок"
+    new "ERROR: No pictures found"
+
