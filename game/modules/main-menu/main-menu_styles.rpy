@@ -133,3 +133,34 @@ style settings_test_button is button:
     
 style settings_test_button_text is button_text:
     size 20
+
+style main_menu_button_text is button_text:
+    size 30
+    color "#e8e8e8"
+    hover_color "#ffffff"
+    selected_color "#ffffff"
+    insensitive_color "#555555"
+    
+    xalign 0.5
+    yalign 0.5
+
+style chapter_button is button:
+    background Solid("#00000080")
+    hover_background Solid("#ffffff20")
+    xsize 320
+    ysize 250
+    padding (10, 10)
+
+style chapter_title_text is text:
+    size 22
+    bold True
+    color "#eba900"
+    xalign 0.5
+    text_align 0.5
+    layout "subtitle"
+
+style chapter_subtitle_text is text:
+    size 18
+    color "#cccccc"
+    xalign 0.5
+    text_align 0.5

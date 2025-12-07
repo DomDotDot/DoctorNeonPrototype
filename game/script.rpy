@@ -61,9 +61,12 @@
 
 
 
-        label chapter_4_5:
-                call chapter_4_5_rpy from _call_chapter_4_5_rpy
+        label chapter_4_5a:
+                call chapter_4_5_rpy_act1
                 $ persistent.main_menu_level = 4
+        label chapter_4_5b:
+                call chapter_4_5_rpy_act2
+        
 
         label chapter_5:
                 call chapter_5_rpy from _call_chapter_5_rpy

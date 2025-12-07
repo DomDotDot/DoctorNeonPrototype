@@ -13,8 +13,44 @@ init python:
         elif persistent.main_menu_level == 4:
             renpy.music.play(main_menu_music_unlocked_4, fadein=1.0)
 
+        # --- ЛОГИКА ГЛАВ ---
+    class ChapterItem:
+        def __init__(self, label_start, title, subtitle, image, condition_var):
+            self.label_start = label_start   # Метка (label) в скрипте, куда прыгать
+            self.title = title               # Название (Глава 1)
+            self.subtitle = subtitle         # Подзаголовок (Первая ночь)
+            self.image = image               # Путь к картинке (16:9)
+            self.condition_var = condition_var # Имя переменной persistent (строкой), которая должна быть True
+
+        def is_unlocked(self):
+            # Проверяем, существует ли переменная в persistent и True ли она
+            return getattr(persistent, self.condition_var, False)
+
+    # Список всех глав
+    chapter_items = []
+
+    def add_chapter(label_start, title, subtitle, image, condition_var):
+        chapter_items.append(ChapterItem(label_start, title, subtitle, image, condition_var))
+
+    # --- ЗАПОЛНЕНИЕ СПИСКА ГЛАВ (ПРИМЕР) ---
+    # condition_var="chapter_1_unlocked" означает, что глава появится, 
+    # только если persistent.chapter_1_unlocked == True
+    
+    add_chapter("start", _("Глава 0"), _("Пролог"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_0_unlocked")
+    add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/backgrounds/bg chapter_1_lab_corridor_1.avif", "chapter_1_unlocked")
+    add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/backgrounds/bg chapter_2_false_memories-alex_call.avif", "chapter_2_unlocked")
+    add_chapter("chapter_3", _("Глава 3"), _("Эскапизм"), "images/backgrounds/bg chapter_3_sorting-station-start.avif", "chapter_3_unlocked")
+    add_chapter("chapter_4", _("Глава 4.0"), _("Ковчег на мели"), "images/backgrounds/bg chapter_4_ark-aground-veritas-station.avif", "chapter_4_unlocked")
+    add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_garden-bonatic-interior.avif", "chapter_4_5a_unlocked")
+    add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_academy-veritas-central.avif", "chapter_4_5b_unlocked")
+
+    # ДЛЯ ТЕСТА: Раскомментируй строку ниже, чтобы открыть 1 главу сразу
+default persistent.chapter_0_unlocked = True
+
+
+
 ################################################################################
-## 1. Главное меню (Полная замена стандартного)
+## Главное меню (Полная замена стандартного)
 ################################################################################
 
 screen main_menu():
@@ -35,6 +71,8 @@ screen main_menu():
         add "main_menu_bg_unlocked_3"
     elif persistent.main_menu_level == 4:
         add "main_menu_bg_unlocked_4"
+    else:
+        add "main_menu_bg_default" # Фолбэк
     
     # Баннер-логотип сверху
     add "main_menu_logo" xalign 0.5 ypos 25
@@ -43,8 +81,7 @@ screen main_menu():
     vbox:
         style "main_menu_vbox"
 
-        textbutton _("Начать") action Start() style "main_menu_button"
-        textbutton _("Продолжить") action ShowMenu("load") style "main_menu_button"
+        textbutton _("Играть") action ShowMenu("play_menu") style "main_menu_button"
         textbutton _("Настройки") action ShowMenu("settings_menu") style "main_menu_button"
         
         # Показываем галерею, только если она доступна
@@ -54,6 +91,95 @@ screen main_menu():
         textbutton _("Об игре") action ShowMenu("about_menu") style "main_menu_button"
         textbutton _("Выход") action Quit(confirm=True) style "main_menu_button"
 
+
+################################################################################
+## 1. Саб-меню "Играть"
+################################################################################
+
+screen play_menu():
+    tag menu
+    zorder 25
+    modal True
+
+    use main_menu
+
+    frame:
+        style "sub_menu_frame"
+
+        vbox:
+            style "sub_menu_vbox"
+            label _("Режим игры") style "sub_menu_label"
+
+            # 1. Новая игра
+            textbutton _("Новая игра") action Start() style "sub_menu_button"
+            
+            # 2. Продолжить
+            textbutton _("Продолжить") action QuickLoad() style "sub_menu_button"
+            
+            textbutton _("Выбор сохранения") action ShowMenu("load") style "sub_menu_button"
+
+            # 3. Выбор глав
+            textbutton _("Выбор глав") action ShowMenu("chapter_select") style "sub_menu_button"
+
+            null height 30
+
+            textbutton _("Назад") action ShowMenu("main_menu") style "sub_menu_button"
+
+
+################################################################################
+## Экран Выбора Глав
+################################################################################
+
+screen chapter_select():
+    tag menu
+    zorder 30
+    modal True
+    
+    # Можно использовать main_menu как фон или свой фон
+    add "gui/main_menu.png" # Замени на свой фон, если нужно, или use main_menu
+
+    # Кнопка Назад (сверху или снизу)
+    textbutton _("Назад") action ShowMenu("play_menu") align (0.05, 0.05) style "main_menu_button" xsize 200
+
+    # Область с главами
+    vpgrid:
+        cols 3
+        spacing 30
+        draggable True
+        mousewheel True
+        scrollbars "vertical"
+        xalign 0.5
+        yalign 0.6 # Чуть ниже центра
+        xsize 1200
+        ysize 800
+
+        for item in chapter_items:
+            # Отображаем только если открыта
+            if item.is_unlocked():
+                
+                button:
+                    style "chapter_button"
+                    action Start(item.label_start)
+                    tooltip item.title # Всплывающая подсказка
+
+                    vbox:
+                        # Превью главы (16:9)
+                        add item.image:
+                            fit "cover"
+                            xysize (320, 180) # Размер превью 16:9
+                        
+                        # Текстовый блок под картинкой
+                        frame:
+                            background None
+                            xsize 320
+                            padding (5, 10)
+                            vbox:
+                                text item.title:
+                                    style "chapter_title_text"
+                                text item.subtitle:
+                                    style "chapter_subtitle_text"
+
+            # Если глава закрыта, мы просто ничего не рисуем (как ты просил: "Отображаются лишь те, которые игрок уже прошел")
 
 ################################################################################
 ## 2. Саб-меню "Настройки"
