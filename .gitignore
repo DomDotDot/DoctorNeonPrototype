@@ -1,23 +1,23 @@
-saves
-.vscode
-errors.txt
+# Системные файлы
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Логи и ошибки Ren'Py
 log.txt
-cache
+errors.txt
 traceback.txt
-.gitignore
-game/cache
-game/cache/shaders.txt
-game/cache/screens.rpyb
-game/cache/py3analysis.rpyb
-game/cache/bytecode-39.rpyb
+
+# Скомпилированные файлы (ОБЯЗАТЕЛЬНО игнорировать)
 *.rpyc
-!spec/*.rpyc
-.rpyc
-renpy_warp
-game/tl/None/common.rpymc
-game/screens.rpyc
-game/options.rpyc
-game/init.rpyc
-game/gui.rpyc
-game/cache/screens.rpyb
-game/cache/shaders.txt
+*.rpymc
+*.rpyb
+
+# Папки кэша и сохранений
+game/cache/
+game/saves/
+cache/
+tmp/
+
+# Бэкапы
+*.bak
