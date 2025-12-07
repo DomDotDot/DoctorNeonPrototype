@@ -4,7 +4,7 @@ translate english_us strings:
 
     # game/modules/main-menu/main-menu_custom.rpy:81
     old "DLC Контент"
-    new "DLC COntent"
+    new "DLC Content"
 
     # game/modules/main-menu/main-menu_custom.rpy:192
     old "Текущая версия: [config.version]\n"
