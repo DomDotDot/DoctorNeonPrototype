@@ -9,7 +9,7 @@ label car_start_sequence:
         """
         # play sound "sounds/car_door_open_slam.opus" # Звук открытия и захлопывания двери
 
-        show cg cg7_1 with fade # Фон: интерьер машины Неон
+        show cg cg7_1 with fade
         narrator """
         В салоне пахло ее духами с нотками бергамота и чем-то еще – едва уловимым запахом старой бумаги от научных журналов, которые она часто возила с собой.
 
@@ -33,7 +33,7 @@ label car_start_sequence:
         # play sound "sounds/car_door_lock_manual.opus"
         narrator "Взгляд метнулся к зеркалу заднего вида. К машине уже бежал охранник."
         narrator "Третья попытка. Поворот ключа..."
-        # play sound "sounds/car_starter_struggle_then_start.opus" # Стартер борется и заводится
+        # play sound "sounds/car_starter_struggle_then_start.opus" # Стартер заводится
         narrator "Двигатель загудел и, наконец, с ревом ожил!"
 
         neon @ proud "Да!"

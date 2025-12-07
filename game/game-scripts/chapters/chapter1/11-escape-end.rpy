@@ -1,6 +1,5 @@
 label escaping_facility_grounds:
 
-        # Неон выезжает с парковки
         # play sound "sounds/car_engine_driving_interior.opus" loop
 
         narrator """
@@ -24,7 +23,7 @@ label escaping_facility_grounds:
         neon "Черт..."
         narrator "Она вылетела из подземного уровня на поверхность. Закат окрасил небо в тревожные багрово-оранжевые тона. Горные пики отбрасывали длинные тени на территорию комплекса."
         
-        show cg cg7_2 with fade # Фон: наземная территория комплекса, закат
+        show cg cg7_2 with fade
 
         narrator """
         Впереди – первый внутренний КПП, который она обычно проезжала, просто махнув пропуском.
@@ -108,8 +107,6 @@ label escaping_facility_grounds:
 
         Но сейчас Неон не думала об этом, сейчас главное для неё вырулить, справиться с управлением, убеж- {nw}
         """
-        # Ей продырявили колесо.
-
         stop music
         # play sound "sounds/gunshots_close_multiple_whizzing_ricochet.opus" # Добавить звук рикошета для большей опасности
         scene black with dissolve

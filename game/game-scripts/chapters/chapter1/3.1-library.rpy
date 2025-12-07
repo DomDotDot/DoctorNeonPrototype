@@ -1,7 +1,6 @@
 label chapter1_lab_noon_library:
 
 
-        # Сцена в библиотеке/тихой комнате
         scene bg chapter_1_lab_library with fade
         play music "music/BGM/Rewrite-Remembrance.opus" noloop fadein 1.5
 
@@ -23,12 +22,10 @@ label chapter1_lab_noon_library:
 
         show cg cg2_1 with dissolve
         # play sound "sounds/pen_uncap.opus" # Звук снятия колпачка с ручки
+
         narrator "Она сняла колпачок с ручки. Чернила на кончике выглядели блекло."
-
         neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Не то."
-
-
-        # Неон сидит за столом в библиотеке
+        
         narrator """
         Она закрыла глаза, пытаясь снова услышать его.
         

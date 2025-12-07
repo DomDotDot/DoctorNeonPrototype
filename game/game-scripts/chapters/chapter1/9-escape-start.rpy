@@ -1,7 +1,5 @@
 label escape_sequence_start:
 
-        # Неон и Алекс в коридоре после нападения
-        
         show neon dazed with dissolve
         
         narrator """
@@ -62,7 +60,7 @@ label escape_sequence_start:
         """
         # play sound "sounds/alarm_siren_distant_start.opus" loop # Звук сирены, сначала тихий
 
-        scene bg chapter_1_lab_service_basement with dissolve # Фон: подвальный коридор
+        scene bg chapter_1_lab_service_basement with dissolve
 
         alex "Черт! Они уже подняли тревогу! Быстрее!"
 
@@ -107,7 +105,7 @@ label escape_sequence_start:
         Она с трудом толкнула ее и оказалась в огромном, гулком пространстве подземной парковки.
         """
 
-        scene bg chapter_1_lab_parkinglot with dissolve # Фон: подземная парковка, закатные лучи из вентиляционных шахт или въезда
+        scene bg chapter_1_lab_parkinglot with dissolve
 
         narrator """
         Парковка была полупустой. Тусклый свет люминесцентных ламп смешивался с последними лучами заходящего солнца, проникавшими через широкие въездные ворота в дальнем конце и вентиляционные решетки под потолком.

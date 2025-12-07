@@ -1,6 +1,6 @@
 label chapter1_lab_noon:
 
-        # play music "sounds/ambient_lab_contemplative.opus" loop fadein 1.0 # Смена музыки на более спокойную, задумчивую
+        # play music "sounds/ambient_lab_contemplative.opus" loop fadein 1.0
 
         narrator """
         Энергичный уход Алекс оставил за собой вихрь смешанных чувств и звенящую тишину.
@@ -136,12 +136,10 @@ label chapter1_lab_noon:
 
         Обычная жизнь научного муравейника.
         """
+
         stop ambient fadeout 2.0
-
-
-
-        # Возвращение в коридоры, поиск тихого места
         scene bg chapter_1_lab_corridor_2 with fade
+        
         narrator """
         
         Тревога, до этого бывшая лишь тихим фоновым шумом, начала нарастать, превращаясь в навязчивую мелодию.

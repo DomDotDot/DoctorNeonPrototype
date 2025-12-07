@@ -1,7 +1,5 @@
 label chapter1_security_post_scene:
 
-
-        # Неон и Алекс у поста охраны
         scene bg chapter_1_security_post_interior with fade
         
         show neon neutral at flip 

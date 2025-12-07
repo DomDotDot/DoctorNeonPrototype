@@ -1,8 +1,5 @@
 label confrontation_path:
 
-
-
-        # Неон и Алекс выходят от поста охраны
         scene bg chapter_1_lab_corridor_3 with fade
         play music "music/BGM/Promising.opus" fadeout 5.0
         show alex happy at right with easeinright
