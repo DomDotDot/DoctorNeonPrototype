@@ -4,8 +4,8 @@
 init python:
     # Ключевые
     c_neon      = "#1f4bc4"
-    c_argon     = "#457632"
-    c_radon     = "#c04547"
+    c_argon     = "#457632" # Борис
+    c_radon     = "#c04547" # Нари, Серафина
     c_helium    = "#ffffffff"
     c_xenon     = "#1f90c4"
     c_krypton   = "#b41f1f"
@@ -13,8 +13,8 @@ init python:
     c_alex      = "#b41f5d"
     
     # Опекуны и семья
-    c_oganesson = "#663399"
-    c_ogan_young= "#390482"
+    c_oganesson = "#663399" # Опекунша
+    c_ogan_young= "#390482" # Тетя-гостья
     c_akane     = "#e87a90" # Мама
     c_father    = "#5a7a8d"
     
@@ -37,9 +37,9 @@ init python:
     c_student2  = "#33dad4" # Carol / Student2
     
     # Учителя и прочие
-    c_meryl     = "#e87a90"
+    c_meryl     = "#e87a90" # Мэрил Кендрик
     c_akari     = "#1885c8" # Убрал 'fd' на конце, hex д.б. 6 или 8 символов
-    c_kai       = "#5d19c9"
+    c_kai       = "#5d19c9" # Кай Ито
     c_nari      = "#863b97"
     
     # Интерфейс / Неизвестные
@@ -56,12 +56,11 @@ init python:
 define base = Character(None,
     ctc="ctc_blink",
     ctc_position="nestled",
-    what_slow_cps_multiplier=1.0, # Значение по умолчанию
+    what_slow_cps_multiplier=1.0,
     callback=name_callback
 )
 
-# Шаблон для ключевых персонажей (с колбэком)
-# Наследуется от base, но добавляет callback
+# Шаблон для ключевых персонажей (пока пуст)
 define main = Character(kind=base,
 )
 
@@ -69,7 +68,6 @@ define main = Character(kind=base,
 
 # --- ЭЛЕМЕНТЫ ---
 
-# Неон: наследует main, но переопределяет ctc на свой уникальный
 define neon = Character(_('Неон'),
     kind=base,
     image="neon",

@@ -2,9 +2,6 @@ init -1 python:
     # Базовая ссылка на релизы
     DLC_REPO_URL = "https://github.com/DomDotDot/DoctorNeonPrototype/releases/download"
     
-    # Версии (можно вынести в options.rpy, но можно и тут)
-    # Важно: имя файла в версии должно совпадать с тем, что в URL
-    
     # СПИСОК ВСЕХ DLC
     # file: имя архива на сервере
     # version: папка версии на гитхабе (тэги)
@@ -20,8 +17,8 @@ init -1 python:
             "version": "v0.5.3",
             "folder": "audio",
             "check_file": "audio/music/BGM/FogHorns.opus",
-            "title": "Фоновая музыка",
-            "desc": "Атмосферные треки для погружения.\n~120 Мб"
+            "title": _("Фоновая музыка"),
+            "desc": _("Атмосферные треки для погружения.\n~120 Мб")
         },
         {
             "id": "ambient",
@@ -29,8 +26,8 @@ init -1 python:
             "version": "v0.5.3",
             "folder": "audio",
             "check_file": "audio/ambient/Target.opus",
-            "title": "Эмбиент и Звуки",
-            "desc": "Звуки дождя, ветра и шагов.\n~15 Мб"
+            "title": _("Эмбиент и Звуки"),
+            "desc": _("Звуки дождя, ветра и шагов.\n~15 Мб")
         },
         {
             "id": "voice_ru",
@@ -38,8 +35,8 @@ init -1 python:
             "version": "v0.5.3",
             "folder": "audio",
             "check_file": "audio/voice/voice_sample.ogg",
-            "title": "Озвучка персонажей",
-            "desc": "Полная озвучка диалогов (Русский).\n~250 КБ"
+            "title": _("Озвучка персонажей"),
+            "desc": _("Частичная озвучка диалогов (Русский) (это тест).\n~250 КБ")
         },
         {
             "id": "voice_en_us",
@@ -47,8 +44,8 @@ init -1 python:
             "version": "v0.5.3", 
             "folder": "tl/english_us/audio",
             "check_file": "tl/english_us/audio/voice/escaping_facility_grounds_c1f78dab.ogg",
-            "title": "Озвучка персонажей",
-            "desc": "Полная озвучка диалогов (Английский).\n~250 КБ"
+            "title": _("Озвучка персонажей"),
+            "desc": _("Частичная озвучка диалогов (Английский) (это тест).\n~250 КБ")
         },
         {
             "id": "sfx",
@@ -56,7 +53,7 @@ init -1 python:
             "version": "v0.5.3", 
             "folder": "audio",
             "check_file": "audio/sfx/Chair_Hit.opus",
-            "title": "SFX-Эффекты",
-            "desc": "Звуковые эффекты\n~2 Мб"
+            "title": _("SFX-Эффекты"),
+            "desc": _("Звуковые эффекты\n~2 Мб")
         }
     ]

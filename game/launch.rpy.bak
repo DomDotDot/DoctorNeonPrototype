@@ -8,7 +8,7 @@ default persistent.firstlaunch = False
 
 label splashscreen:
 
-    call splashscreen_dlc from _call_splashscreen_dlc
+    call splashscreen_dlc
 
     ## Here begins our splashscreen animation.
     play sound "sfx/short-logo.opus" volume 0.25

@@ -189,8 +189,8 @@ screen update_screen():
             xalign 0.5
             yalign 0.5
 
-            text "Текущая версия: [config.version]\n"
-            text "\nСписок изменений:\n- Добавлена новая система меню."
+            text _("Текущая версия: [config.version]\n")
+            text _("\nСписок изменений:\n-Оптимизация и DLC Контент")
 
 
 # Добавьте этот код в конец файла main_menu_custom.rpy

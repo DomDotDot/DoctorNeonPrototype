@@ -1,4 +1,5 @@
-# Кастомные стили
+# Кастомные стили общения
+
 style thoughts:
         italic True
 style yell:

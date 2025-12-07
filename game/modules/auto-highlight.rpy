@@ -1,9 +1,9 @@
 default active_speaker = None
 
 init python:
-    # Явно импортируем Матрицу, чтобы избежать путаницы
+
     # -----------------------------------------------------------
-    # 1. ЛОГИКА ПОДСВЕТКИ (Та же, что и раньше)
+    # ЛОГИКА ПОДСВЕТКИ
     # -----------------------------------------------------------
 
     def name_callback(event, interact=True, **kwargs):
@@ -11,7 +11,6 @@ init python:
         if event == "begin":
             store.active_speaker = kwargs.get("name")
 
-# Трансформация: если active_speaker совпадает с char_name -> ярко, иначе -> темно
 
     class Dimmer:
         def __init__(self, char_name):
@@ -23,18 +22,18 @@ init python:
                 self.current_value = 0.5
             
         def __call__(self, trans, st, at):
-            # Определяем целевую яркость:
-            # Если говорит этот персонаж - 1.0 (ярко), иначе 0.5 (темно)
+
+            # 1.0 (ярко). 0.5 (темно)
             if store.active_speaker == self.char_name:
                 target = 1.0
             else:
                 target = 0.5
             
-            # Если яркость уже правильная, проверяем реже (оптимизация)
+            # Если яркость уже правильная, проверка реже (оптимизация)
             if self.current_value == target:
                 return 0.1
             
-            # Плавная анимация (ручной 'ease')
+            # Ручной 'ease'
             step = 0.05
             
             if self.current_value < target:
@@ -44,7 +43,7 @@ init python:
 
             v = self.current_value
             
-            # Создаем матрицу масштабирования цвета (то же самое, что TintMatrix)
+            # Матрицу масштабирования цвета
             # Формат: [R, 0,0,0, 0,G,0,0, 0,0,B,0, 0,0,0,Alpha]
             m = Matrix([
                 v, 0, 0, 0,
@@ -54,20 +53,17 @@ init python:
             ])
             
             trans.matrixcolor = m
-            
-            # Повторяем часто для плавности
             return 0.01
 
 
     # -----------------------------------------------------------
-    # 2. АВТОМАТИЧЕСКИЙ ПОИСК И РЕГИСТРАЦИЯ СПРАЙТОВ
+    # АВТОМАТИЧЕСКИЙ ПОИСК И РЕГИСТРАЦИЯ СПРАЙТОВ
     # -----------------------------------------------------------
 
     import os
     SPRITE_DIR = "images/sprites/"
 
     def register_auto_sprites():
-        # Получаем список файлов
         files = renpy.list_files()
         
         for path in files:
@@ -79,18 +75,15 @@ init python:
                 
                 if parts:
                     char_tag = parts[0]
-                    # Здесь мы привязываем класс Dimmer к картинке
                     renpy.image(name_no_ext, At(path, auto_dim(char_tag)))
 
             
 # -----------------------------------------------------------
-# БЛОК 3: Трансформация и Запуск (Ren'Py Script)
+# Трансформация и Запуск
 # -----------------------------------------------------------
 
-# Сама трансформация теперь очень простая, она просто вызывает наш класс
 transform auto_dim(char_name):
     function Dimmer(char_name)
 
-# Запускаем поиск спрайтов при инициализации
 init 1 python:
     register_auto_sprites()

@@ -71,25 +71,21 @@ screen splash_settings():
 
             textbutton _("Подтвердить") action Return() xalign 0.5 text_align 0.5 text_size 55
 
-# --- Сам экран ---
+# --- Контент Варнинг Экран ---
 screen content_warning_screen():
     tag menu
     modal True
     
-    # 1. Задний фон всего экрана (затемнение)
     add Solid("#000000") alpha 0.9
 
-    # 2. Основная рамка
     frame:
         style "warning_frame"
-        
-        # 3. Водяной знак "!" на фоне (zorder не нужен, просто рисуем первым)
-        # Он будет ПОД текстом внутри рамки
+
         text "!":
             size 600
             color "#ff000050"
             align (0.5, 0.55)
-            font "DejaVuSans.ttf" # Лучше использовать жирный шрифт
+            font "DejaVuSans.ttf"
 
         vbox:
             spacing 30
@@ -98,8 +94,9 @@ screen content_warning_screen():
             # Заголовок
             label _("ВНИМАНИЕ: КОНТЕНТ 18+") style "warning_title"
 
-            # Разделительная черта (красная)
+
             add Solid("#ff3333") xsize 800 ysize 2 xalign 0.5 alpha 0.5
+
 
             text _("Данная визуальная новелла содержит материалы, предназначенные исключительно для взрослой аудитории.") xalign 0.5
             
@@ -118,26 +115,19 @@ screen content_warning_screen():
             text _("• {b}Прочее:{/b} Ненормативная лексика, употребление алкоголя, осквернение тел умерших."):
                 style "warning_text"
 
-            # Детальное описание
-            #text _("{b}Эта игра содержит сцены, предназначенные только для взрослой аудитории.{/b}\n\nСюда могут входить: насилие, ненормативная лексика, употребление веществ и откровенные сцены сексуального характера.\nЕсли вам нет 18 лет или данный контент для вас неприемлем, пожалуйста, не включайте этот режим."):
-            #   style "warning_text"
-
             null height 20
             
+
             add Solid("#ff3333") xsize 800 ysize 2 xalign 0.5 alpha 0.5
 
-            # Блок управления настройкой
-            # Мы используем кнопку, которая меняет свой вид и текст
             button:
                 style_prefix "warning_button"
                 xalign 0.5
                 action ToggleField(persistent, "sensitive_mode")
 
-                # Звук при нажатии
                 # activate_sound "audio/click.ogg" 
 
-                # Оформление кнопки (Фон и отступы)
-                background Solid("#222") # Можно использовать стандартный фон кнопок или 
+                background Solid("#222")
                 hover_background Solid("#444")
                 padding (40, 20)
                 
@@ -145,13 +135,13 @@ screen content_warning_screen():
                     spacing 25
                     align (0.5, 0.5)
 
-                    # 1. ВИЗУАЛЬНЫЙ ЧЕКБОКС (Крупный и заметный)
+                    # ВИЗУАЛЬНЫЙ ЧЕКБОКС
                     if persistent.sensitive_mode:
                         text "[[X]" color "#ff0000" size 60 bold True yalign 0.5
                     else:
                         text "[[  ]" color "#666666" size 60 bold True yalign 0.5
 
-                    # 2. ТЕКСТОВОЕ ОПИСАНИЕ
+                    # ТЕКСТОВОЕ ОПИСАНИЕ
                     vbox:
                         yalign 0.5
                         spacing 5
@@ -162,7 +152,6 @@ screen content_warning_screen():
                         else:
                             text _("РЕЖИМ 18+: ВЫКЛЮЧЕН") color "#aaaaaa" size 40 bold True
 
-                        # Пояснение (критически важно для понимания)
                         text "Нажмите, чтобы переключить (влияет только на CG)" color "#888888" size 20
                         
             text _("ВАЖНО: Настройка «Режим 18+» скрывает только откровенные и особо жестокие иллюстрации (CG). Текстовое повествование остается неизменным и может вызвать дискомфорт независимо от настроек графики."):
@@ -172,13 +161,12 @@ screen content_warning_screen():
 
             null height 30
 
-            # Кнопка подтверждения
             textbutton _("ПОДТВЕРДИТЬ И НАЧАТЬ"):
                 action Return() 
                 xalign 0.5
                 text_size 50
                 text_color "#ffffff"
-                text_hover_color "#ff3333" # Краснеет при наведении
+                text_hover_color "#ff3333"
 
 
 
@@ -194,32 +182,31 @@ style presplash_label_text:
 
 # --- Стили для экрана предупреждения ---
 style warning_frame:
-    background Frame(Solid("#2b0505bb"), 10, 10) # Темно-красный фон
+    background Frame(Solid("#2b0505bb"), 10, 10)
     xalign 0.5
     yalign 0.5
     xsize 1920
     ysize 720
     padding (60, 60)
-    # Делаем красную обводку
     xfill True
 
 style warning_title:
-    color "#ff3333" # Ярко-красный заголовок
+    color "#ff3333"
     size 80
     xalign 0.5
     bold True
-    font "fonts/WDXLLubrifontTC-Regular.ttf" # Укажите ваш шрифт, если есть
+    font "fonts/WDXLLubrifontTC-Regular.ttf"
 
 style warning_text:
-    color "#e0e0e0" # Светло-серый текст
+    color "#e0e0e0"
     size 26
     xalign 0.5
     text_align 0.5
-    layout "subtitle" # Позволяет тексту красиво переноситься
+    layout "subtitle"
 
 style warning_button_text:
     size 35
     idle_color "#888888"
     hover_color "#ffffff"
-    selected_color "#ff3333" # Красный, если выбрано
+    selected_color "#ff3333"
     xalign 0.5

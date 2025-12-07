@@ -4,16 +4,17 @@ transform gal_thumb_hover:
     ease 0.2 zoom 1.05
 
 image gallery_locked_thumb:
-    Solid("#000") # Черный фон
+    Solid("#000")
     size(384, 216) # Размер как в конфиге
     Text("?", size=60, color="#555", align=(0.5, 0.5))
+
 
 # --- ЭКРАН МЕНЮ ГАЛЕРЕИ ---
 screen gallery():
     tag menu
     add "gui/main_menu.png" # Фон галереи
 
-    use game_menu("Галерея"): # Используем стандартный шаблон меню
+    use game_menu("Галерея"):
         
         vpgrid:
             cols 3
@@ -28,10 +29,11 @@ screen gallery():
             
             for item in gallery_items:
                 if item.is_visible():
+
                     # Кнопка открытого CG
                     button:
-                        xysize (384, 216) # Размер кнопки
-                        background Solid("#333") # Серый фон, если картинка прозрачная
+                        xysize (384, 216)
+                        background Solid("#333")
 
                         add item.thumb:
                             fit "cover"
@@ -39,13 +41,12 @@ screen gallery():
 
                         # Если картинка не найдена/битая, этот текст будет виден поверх серого фона
                         if not renpy.loadable(item.thumb) and not renpy.has_image(item.thumb):
-                            text "Нет файла:\n" + str(item.thumb):
+                            text _("Нет файла:\n") + str(item.thumb):
                                 size 14 
                                 color "#f00" 
                                 align (0.5, 0.5) 
                                 text_align 0.5
-                            
-                        # Эффекты при наведении
+
                         hover_foreground Solid("#ffffff22")
                         
                         # Счетчик (например 1/3)
@@ -71,26 +72,21 @@ screen gallery():
                 else:
                     add "gallery_locked_thumb"
 
+
 # --- ЭКРАН ПРОСМОТРА (СЛАЙДШОУ) ---
 screen gallery_view(item):
     modal True
-    tag menu # Чтобы перекрывало другие меню
-    
-    # Получаем список ТОЛЬКО открытых картинок
+    tag menu
     $ unlocked_imgs = item.get_unlocked_list()
-    
-    # Переменная экрана для отслеживания текущего индекса
     default idx = 0
     
     # Данные текущей картинки
     if unlocked_imgs:
         $ current_img, current_desc = unlocked_imgs[idx]
 
-        # Черный фон
         add "#000"
 
         # Само изображение
-        # fit "contain" гарантирует, что картинка влезет в экран целиком
         add current_img:
             fit "contain"
             xalign 0.5
@@ -99,7 +95,6 @@ screen gallery_view(item):
                 alpha 0.0
                 ease 0.25 alpha 1.0
 
-        # Клик по всему экрану (вперед)
         button:
             xfill True
             yfill True
@@ -152,7 +147,6 @@ screen gallery_view(item):
             action Return()
     
     else:
-        # На случай если список пуст (баг)
-        textbutton "Ошибка: Нет картинок" action Return() align (0.5, 0.5)
+        textbutton _("Ошибка: Нет картинок") action Return() align (0.5, 0.5)
         
     key "game_menu" action Return() # Правая кнопка мыши / Esc закрывает просмотр

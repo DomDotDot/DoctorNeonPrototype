@@ -13,15 +13,15 @@ init python:
             self.name = name
             self.images_data = []
             
-            # Разбираем входные данные
             for item in images_data:
-                # Если передали кортеж ("имя", "описание")
+                # Передали ("имя", "описание")
                 if isinstance(item, tuple):
                     self.images_data.append(item)
                 # Если передали просто строку "cg cg1_1"
                 else:
                     self.images_data.append((item, "")) 
             
+
             # Логика миниатюры
             if thumb:
                 self.thumb = thumb
@@ -29,16 +29,14 @@ init python:
                 if len(self.images_data) > 0:
                     self.thumb = self.images_data[0][0]
                 else:
-                    self.thumb = None # Защита от пустых списков
+                    self.thumb = None
 
         def get_unlocked_list(self):
-            """Возвращает список (картинка, описание), которые игрок видел."""
             if persistent.unlock_gallery:
                 return self.images_data
                 
             unlocked = []
             for img_name, desc in self.images_data:
-                # renpy.seen_image отлично работает с авто-именами
                 if renpy.seen_image(img_name):
                     unlocked.append((img_name, desc))
             return unlocked
@@ -61,6 +59,7 @@ init python:
 
     def add_cg(name, images, thumb=None):
         gallery_items.append(GalleryItem(name, images, thumb))
+
 
 
 # --- ЗАПОЛНЕНИЕ ГАЛЕРЕИ (ПРИМЕР) ---
