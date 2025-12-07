@@ -83,10 +83,7 @@ label ch3_path_to_station:
     ...Борис. Зови меня Борис.
     """
 
-    if _preferences.language == "english_us":
-        $ argon_display_name = "Boris"
-    else:
-        $ argon_display_name = "Борис"
+    $ argon_display_name = "Борис"
 
     argon "Ты думаешь, они поверят в твою невиновность, даже если ты докажешь, что Марк вор?"
  

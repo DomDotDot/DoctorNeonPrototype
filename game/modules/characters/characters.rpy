@@ -76,21 +76,20 @@ define neon = Character(_('Неон'),
     cb_name="neon"
 )
 
-define argon = Character("[argon_display_name]", 
+default argon_display_name = "???"
+define argon = Character("[argon_display_name!t]", 
     kind=base, 
     image="argon", 
     color=c_argon, 
-    dynamic=True, 
     what_slow_cps_multiplier=0.65, 
     cb_name="argon"
 )
 
-define oganesson_display_name = _("Опекунша")
-define oganesson = Character("[oganesson_display_name]",
+default oganesson_display_name = "Опекунша"
+define oganesson = Character("[oganesson_display_name!t]",
     kind=base,
     image="oganesson",
     color=c_oganesson, 
-    dynamic=True,
     what_slow_cps_multiplier=0.75,
     cb_name="oganesson"
 )

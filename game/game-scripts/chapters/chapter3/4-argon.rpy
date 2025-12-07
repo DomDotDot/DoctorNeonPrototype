@@ -33,9 +33,7 @@ label ch3_part2_the_cage:
 
     Я виновата... Алекс... Марк... Я просто... устала бежать.
     """
-
-    $ argon_display_name = "???"
-
+    
     argon "Думаешь, если говорить с пустотой, она тебе ответит?"
 
     show argon painter_apathy at left with dissolve # Аргон появляется из тени

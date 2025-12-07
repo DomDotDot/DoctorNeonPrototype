@@ -27,10 +27,7 @@ label oganesson_school_flashback:
 
         narrator "Иногда это молчание становилось слишком громким. Тогда меня и моего опекуна вызывали 'на беседу'."
 
-        if _preferences.language == "english_us":
-                $ oganesson_display_name = "Trustee"
-        else:
-                $ oganesson_display_name = "Опекунша"
+        $ oganesson_display_name = "Опекунша"
         
         show cg cg6_2 with dissolve
 
