@@ -1,6 +1,6 @@
 label chapter4_5_kai_ito_interlude:
 
-    play music "music/BGM/SunnyDay.opus" fadein 5.0
+    play music "music/BGM/SunnyDay.opus" fadein 5.0 fadeout 5.0
     scene bg chapter_4_academy-veritas-academy-gate-2 with fade
     
     narrator """
@@ -167,7 +167,8 @@ label chapter4_5_kai_ito_interlude:
 
     scene black with fade
     # play sound "sfx/doorbell.opus"
-    
+
+    play music "music/BGM/Swell.opus" fadein 5.0 fadeout 1
     narrator """
     Вечер. Звонок в дверь. Я подбежал к глазку, сердце колотилось.
     
@@ -181,6 +182,7 @@ label chapter4_5_kai_ito_interlude:
     kai "Сенсей! Заходите, пожалуйста! Я так рад вас видеть!"
     
     scene black
+    stop music fadeout 0.125
     pause 3.0
     
 return
