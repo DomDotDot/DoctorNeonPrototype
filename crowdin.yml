@@ -1,3 +1,7 @@
 files:
   - source: /game/tl/pot/**/*.pot
     translation: /game/tl/%two_letters_code%/**/%original_file_name%.po
+    languages_mapping:
+      two_letters_code:
+        # Ren'Py использует 'english_us', а Crowdin 'en'.
+        en: english_us
