@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-11-03 01:28
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 # game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:9
 translate english_us chapter4_0_train_dream_9f76a0eb:
@@ -179,3 +179,4 @@ translate english_us chapter4_0_train_dream_6bda763e:
 
     # neon "Да. Давай собираться."
     neon "Yeah. Let's get ready."
+

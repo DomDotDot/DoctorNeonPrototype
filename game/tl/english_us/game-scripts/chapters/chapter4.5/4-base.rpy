@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-01 23:32
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 # game/game-scripts/chapters/chapter4.5/4-base.rpy:6
 translate english_us chapter4_5_argon_rescue_bfa75d2f:
@@ -187,10 +187,10 @@ translate english_us chapter4_5_argon_rescue_69c3a808:
     argon "I ran towards that 'signal'."
 
 # game/game-scripts/chapters/chapter4.5/4-base.rpy:85
-translate english_us chapter4_5_argon_rescue_8324bcec:
+translate english_us chapter4_5_argon_rescue_5fea4e4b:
 
-    # narrator "Он замолчал, вспоминая."
-    narrator "He fell silent, remembering."
+    # narrator "Он замолчал вспоминая."
+    narrator "Он замолчал вспоминая."
 
 # game/game-scripts/chapters/chapter4.5/4-base.rpy:87
 translate english_us chapter4_5_argon_rescue_0e7d9292:
@@ -479,3 +479,4 @@ translate english_us chapter4_5_argon_rescue_8660cecf:
 
     # narrator "Апатия в глазах Аргона начала сменяться знакомой, стальной решимостью. Его боль никуда не делась. Но теперь у нее была цель."
     narrator "The apathy in Argon's eyes began to be replaced by a familiar, steely determination. His pain hadn't gone anywhere. But now it had a purpose."
+
