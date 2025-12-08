@@ -2,6 +2,7 @@ init python:
     import requests
     import threading
     import json
+    import time
     
     # --- НАСТРОЙКИ ---
     # Ссылка на API твоего репо (замени USER и REPO)
@@ -26,7 +27,8 @@ init python:
         # Убираем 'v' и лишние пробелы
         r_clean = remote_ver.lower().replace('v', '').strip()
         l_clean = local_ver.lower().replace('v', '').strip()
-        
+        print(f"UpdateCheck: Сравниваю сервер [{r_clean}] и локал [{l_clean}]")
+
         # Разбиваем на цифры: "0.6.1" -> [0, 6, 1]
         try:
             r_parts = [int(x) for x in r_clean.split('.')]
@@ -39,9 +41,13 @@ init python:
     def _update_worker():
         global update_found, new_version_tag, update_check_done
         
+        print("UpdateCheck: Поток запущен...")
         try:
+
+            headers = {'User-Agent': 'RenPy-Game-Client'}
+
             # Делаем запрос к API GitHub (таймаут 3 сек, чтобы не тупить)
-            response = requests.get(GITHUB_API_URL, timeout=3)
+            response = requests.get(GITHUB_API_URL, headers=headers, timeout=5, verify=False)
             
             if response.status_code == 200:
                 data = response.json()
@@ -49,6 +55,7 @@ init python:
                 
                 # Проверяем, не нажал ли игрок "Больше не напоминать об ЭТОЙ версии"
                 if persistent.ignored_version == remote_tag:
+                    print("UpdateCheck: Версия проигнорирована игроком.")
                     update_check_done = True
                     return
 
@@ -56,13 +63,23 @@ init python:
                 if _version_compare(remote_tag, config.version):
                     new_version_tag = remote_tag
                     update_found = True
+                    print("UpdateCheck: НАЙДЕНО ОБНОВЛЕНИЕ!")
+                else:
+                    print("UpdateCheck: Версия актуальна.")
+            else:
+                print(f"UpdateCheck: Ошибка API: {response.text}")
                     
         except Exception as e:
-            print(f"Update Check Fail: {e}")
+            print(f"UpdateCheck Error: {e}")
         
         update_check_done = True
 
     def start_update_check():
+        global update_found, update_check_done
+
+        update_found = False
+        update_check_done = False
+        
         t = threading.Thread(target=_update_worker)
         t.daemon = True
         t.start()

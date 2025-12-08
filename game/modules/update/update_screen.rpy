@@ -1,6 +1,6 @@
 screen update_notification_screen():
     modal True
-    zorder 200 # Поверх всего
+    zorder 2000 # Поверх всего
     
     frame:
         xalign 0.5 yalign 0.5
@@ -14,7 +14,7 @@ screen update_notification_screen():
             text _("Доступно обновление!") size 40 bold True color "#ffcc00" xalign 0.5
             
             text _("Текущая версия: [config.version!t]") size 18 color "#888" xalign 0.5
-            text _("Новая версия: [new_version_tag!t]" size 24 color "#fff" xalign 0.5
+            text _("Новая версия: [new_version_tag!t]") size 24 color "#fff" xalign 0.5
             
             null height 20
             
@@ -34,9 +34,9 @@ screen update_notification_screen():
             # Кнопки управления окном
             vbox:
                 spacing 10 xalign 0.5
-                
+
                 # Просто закрыть (напомнит при следующем запуске)
-                textbutton _("Напомнить позже" action Return() xalign 0.5 text_color "#aaa"
+                textbutton "Напомнить позже" action [SetVariable("update_found", False), Hide("update_notification_screen")] xalign 0.5 text_color "#aaa"
                 
                 # Запомнить и не показывать для ЭТОЙ версии
-                textbutton _("Пропустить эту версию") action [Function(ignore_current_update), Return()] xalign 0.5 text_color "#aaa" size 16
+                textbutton "Пропустить эту версию" action [Function(ignore_current_update), SetVariable("update_found", False), Hide("update_notification_screen")] xalign 0.5 text_color "#aaa"

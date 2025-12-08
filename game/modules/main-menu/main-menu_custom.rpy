@@ -56,6 +56,10 @@ default persistent.chapter_0_unlocked = True
 screen main_menu():
     tag menu
     zorder 10
+    
+    #Поиск обновления 0.5 секунд
+    if update_found:
+        timer 0.5 action Show("update_notification_screen")
 
     # Логика смены фона и музыки при показе экрана
     on "show" action Function(play_main_menu_music)
@@ -76,6 +80,7 @@ screen main_menu():
     
     # Баннер-логотип сверху
     add "main_menu_logo" xalign 0.5 ypos 25
+    
 
     # Основной блок навигации
     vbox:
