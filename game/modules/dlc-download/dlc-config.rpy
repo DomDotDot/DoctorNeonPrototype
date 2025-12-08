@@ -14,7 +14,7 @@ init -1 python:
         {
             "id": "music",
             "file": "music.zip",
-            "version": "v0.5.3",
+            "version": "v0.5.5",
             "folder": "audio",
             "check_file": "audio/music/BGM/FogHorns.opus",
             "title": _("Фоновая музыка"),
