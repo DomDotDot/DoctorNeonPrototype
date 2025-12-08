@@ -1,114 +1,114 @@
-﻿# TODO: Translation updated at 2025-09-23 11:36
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:27
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:26
 translate english_us ch3_bouncer_plead_ac0ef98e:
 
     # neon shy "Послушайте, мне нужно выйти. Пожалуйста."
     neon shy "Listen, I need to get out. Please."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:28
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:27
 translate english_us ch3_bouncer_plead_32a77192:
 
     # "Вышибала" "Босс сказал ждать. Значит, будешь ждать."
-    "Bouncer" "Boss said to wait. So you wait."
+    "Вышибала" "Boss said to wait. So you wait."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:30
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:29
 translate english_us ch3_bouncer_plead_181fc594:
 
     # neon neutral "Я не хочу проблем. Просто откройте дверь."
     neon neutral "I don't want any trouble. Just open the door."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:31
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:30
 translate english_us ch3_bouncer_plead_db5669dd:
 
     # "Вышибала" "Проблемы начнутся, если ты не заткнешься. Я сказал нет."
-    "Bouncer" "Trouble's what you'll get if you don't shut it. I said no."
+    "Вышибала" "Trouble's what you'll get if you don't shut it. I said no."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:33
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:32
 translate english_us ch3_bouncer_plead_d71de39b:
 
     # neon pouty "Может, мы договоримся? Я могу..."
     neon pouty "Maybe we can make a deal? I can..."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:34
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:33
 translate english_us ch3_bouncer_plead_0de7e98e:
 
     # "Вышибала" "Проваливай от меня, пока я добрый."
-    "Bouncer" "Get lost while I'm still feeling nice."
+    "Вышибала" "Get lost while I'm still feeling nice."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:36
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:35
 translate english_us ch3_bouncer_plead_515b3202:
 
     # neon pouty "Еще один раз прошу..."
     neon pouty "I'm asking one last time..."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:37
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:36
 translate english_us ch3_bouncer_plead_fcdd79aa:
 
     # "Вышибала" "..."
-    "Bouncer" "..."
+    "Вышибала" "..."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:38
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:37
 translate english_us ch3_bouncer_plead_1b1b7c58:
 
     # narrator "Он перестал реагировать. Просто смотрит в стену, игнорируя меня. Дальнейшие уговоры бесполезны."
     narrator "He stopped responding. Just staring at the wall, ignoring me. Further pleading is useless."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:47
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:46
 translate english_us ch3_provoke_verbal_35fc6801:
 
     # "Вышибала" "Чего уставилась, умница?"
-    "Bouncer" "What are you staring at, smarty-pants?"
+    "Вышибала" "What are you staring at, smarty-pants?"
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:48
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:47
 translate english_us ch3_provoke_verbal_3955626b:
 
     # neon smirk "Просто провожу наблюдение. Хочу проверить гипотезу: ваша мышечная масса обратно пропорциональна скорости нейронной реакции? Судя по вашему выражению лица, я на верном пути."
     neon smirk "Just making an observation. Testing a hypothesis: is your muscle mass inversely proportional to your neural reaction time? Judging by your expression, I'm on the right track."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:49
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:48
 translate english_us ch3_provoke_verbal_45bfe903:
 
     # "Вышибала" "Ч-Чего? Кончай умничать, а то я тебе твою гипотезу в глотку засуну."
-    "Bouncer" "W-What? Cut the smart-talk, or I'll shove that hypothesis of yours down your throat."
+    "Вышибала" "W-What? Cut the smart-talk, or I'll shove that hypothesis of yours down your throat."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:50
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:49
 translate english_us ch3_provoke_verbal_6c61972c:
 
     # narrator "Он явно разозлился. Отлично. Первый шаг сделан."
     narrator "He's clearly angry. Perfect. The first step is done."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:57
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:56
 translate english_us ch3_provoke_secret_0063422e:
 
     # neon @ smirk "Ну как твоя дочь поживает? Я про то, что с ней сделал туман. В коме, да?"
     neon @ smirk "So, how's your daughter doing? I mean, with what the Fog did to her. In a coma, right?"
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:58
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:57
 translate english_us ch3_provoke_secret_25be44ba:
 
     # "Вышибала" "Что ты сказала?!"
-    "Bouncer" "What did you say?!"
+    "Вышибала" "What did you say?!"
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:59
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:58
 translate english_us ch3_provoke_secret_0304d9f0:
 
     # neon "И про то, как тебе нужны деньги. Думаешь, Гатс тебе поможет? Он бросит тебя, как только ты перестанешь быть ему нужен. Как и все остальные."
     neon "And about how much you need the money. You think Guts will help you? He'll dump you the second you're no longer useful to him. Just like everyone else."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:60
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:59
 translate english_us ch3_provoke_secret_a0f45f15:
 
     # narrator "Я попала в самое больное место. Его лицо исказилось от ярости и боли. Гранитная маска треснула."
     narrator "I hit him where it hurts most. His face twisted with rage and pain. The granite mask cracked."
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:61
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:60
 translate english_us ch3_provoke_secret_c7a9351e:
 
     # "Вышибала" "ЗАМОЛЧИ!"
-    "Bouncer" "SHUT UP!"
+    "Вышибала" "SHUT UP!"
 
-# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:66
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:65
 translate english_us ch3_provoke_sheet_bf3d8156:
 
     # narrator "Я подхожу к нему, пряча рваную простыню за спиной. На моем лице – самая невинная и игривая улыбка, на которую я только способна."
@@ -124,7 +124,7 @@ translate english_us ch3_provoke_sheet_bab6ed8a:
 translate english_us ch3_provoke_sheet_b5e92f92:
 
     # "Вышибала" "А?! Какого черта?!"
-    "Bouncer" "Huh?! What the hell?!"
+    "Вышибала" "Huh?! What the hell?!"
 
 # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:75
 translate english_us ch3_provoke_sheet_8ce3e68f:
@@ -154,13 +154,13 @@ translate english_us ch3_provoke_sheet_7b8875f0:
 translate english_us ch3_provoke_sheet_a0a00db6:
 
     # "Вышибала" "СЛУШАЙ СЮДА, ЕСЛИ ЕЩЁ РАЗ ПОДОБНОЕ ЧТО-ТО СОТВОРИШЬ - КИШКИ РАСПОРЮ. БОСС НА ЭТО ДАЖЕ НЕ ПОСМОТРИТ."
-    "Bouncer" "LISTEN HERE, PULL A STUNT LIKE THAT AGAIN AND I'LL GUT YOU. THE BOSS WON'T EVEN BLINK."
+    "Вышибала" "LISTEN HERE, PULL A STUNT LIKE THAT AGAIN AND I'LL GUT YOU. THE BOSS WON'T EVEN BLINK."
 
 # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:86
 translate english_us ch3_provoke_sheet_ff13bae8:
 
     # "Вышибала" "ЯСНО?!" with vpunch
-    "Bouncer" "GOT IT?!" with vpunch
+    "Вышибала" "GOT IT?!" with vpunch
 
 # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:89
 translate english_us ch3_provoke_sheet_4aa4c967:
@@ -172,7 +172,7 @@ translate english_us ch3_provoke_sheet_4aa4c967:
 translate english_us ch3_provoke_sheet_a47e97b8:
 
     # "Вышибала" "...тебе очень повезло, что ты так на нее похожа..."
-    "Bouncer" "...you're very lucky you look so much like her..."
+    "Вышибала" "...you're very lucky you look so much like her..."
 
 # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:93
 translate english_us ch3_provoke_sheet_136e7fcb:
@@ -207,3 +207,4 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:21
     old "Вернуться."
     new "Go back."
+

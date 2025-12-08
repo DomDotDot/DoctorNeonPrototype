@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-09-28 18:21
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 # game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:3
 translate english_us chapter1_krypton_baddream_12ab6656:
@@ -12,7 +12,7 @@ translate english_us chapter1_krypton_baddream_d543b766:
     # "???" "Неон. Слышишь звонок? Пары закончились. Пошли сегодня в парк?"
     "???" "Heeey Neon. Hear the bell? Classes are over. Wanna go to the park today?"
 
-# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:9
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:12
 translate english_us chapter1_krypton_baddream_1f4c4914:
 
     # "???" "Сегодня как раз хорошая погода для прогулки."

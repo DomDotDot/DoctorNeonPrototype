@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-08-13 04:16
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:6
 translate english_us chapter1_lab_noon_library_desk_8590e467:
@@ -25,7 +25,7 @@ translate english_us chapter1_lab_noon_library_desk_814daea3:
     narrator "Anna really is working at CERN now. \n Sophie, I think, moved to London and is in fintech. \n And she... she is here."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:18
-translate english_us chapter1_lab_noon_library_desk_f706866b:
+translate english_us chapter1_lab_noon_library_desk_56b43dfb:
 
     # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?"
     neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?"
@@ -43,7 +43,7 @@ translate english_us chapter1_lab_noon_library_desk_cec91677:
     narrator "Lost in thought, she wrote on, engrossed in her work."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:27
-translate english_us chapter1_lab_noon_library_desk_f3415025:
+translate english_us chapter1_lab_noon_library_desk_a7546648:
 
     # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...'"
     neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...'"
@@ -84,250 +84,135 @@ translate english_us chapter1_lab_noon_library_desk_96344b20:
     # narrator "Частичные осколки прошлого мимолетно пролетают перед её глазами, но их недостаточно, чтобы составить полноценную картину."
     narrator "Partial fragments of the past flash before her eyes, but they aren't enough to form a complete picture."
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:53
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:47
 translate english_us chapter1_lab_noon_library_desk_4a6949e5:
 
     # narrator "Неон глубоко вздохнула, отгоняя холодные тени прошлого. Она здесь. Она вырвалась. И она нашла... не ответ, нет, а первый ключ к разгадке."
     narrator "Neon took a deep breath, chasing away the cold shadows of the past. She was here. She had escaped. And she had found... not an answer, no, but the first key to the puzzle."
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:54
-translate english_us chapter1_lab_noon_library_desk_6e9925a4:
-
-    # narrator "Она снова посмотрела на исписанный лист. 'Первичный анализ исключает известные астрофизические феномены...'"
-    narrator "She looked again at the written page. 'Preliminary analysis rules out known astrophysical phenomena...'"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:52
 translate english_us chapter1_lab_noon_library_desk_be9bed38:
 
     # narrator "Даже сейчас, окруженная чудесами науки и техники, она иногда чувствовала себя той же девчонкой с синими волосами, смотрящей на звезды из окна своей комнаты в глухой провинции…"
     narrator "Even now, surrounded by the wonders of science and technology, she sometimes felt like that same girl with blue hair, staring at the stars from her bedroom window in the middle of nowhere..."
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:52
 translate english_us chapter1_lab_noon_library_desk_c8a44ecd:
 
     # narrator "Но теперь у нее был шанс это изменить."
     narrator "But now she had a chance to change that."
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
-translate english_us chapter1_lab_noon_library_desk_c10b7308:
-
-    # narrator "Она решительно встряхнула головой. Хватит копаться в прошлом. Сейчас важно настоящее."
-    narrator "She shook her head decisively. Enough digging through the past. The present was what mattered."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
-translate english_us chapter1_lab_noon_library_desk_b2823309:
-
-    # narrator "Важно донести свое открытие до этих скептиков из ученого совета."
-    narrator "What mattered was getting her discovery across to those skeptics on the scientific council."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
-translate english_us chapter1_lab_noon_library_desk_45d0a36c:
-
-    # narrator "Она снова взялась за ручку, но теперь писала с новой, почти отчаянной решимостью. Нужно было закончить. Нужно доказать"
-    narrator "She picked up the pen again, but now she wrote with a new, almost desperate determination. She had to finish. She had to prove it."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
-translate english_us chapter1_lab_noon_library_desk_cb55bcf3:
-
-    # narrator "Ручка царапала бумагу. Почерк становился все более неровным, торопливым. Она взглянула на часы – время поджимало."
-    narrator "The pen scratched across the paper. Her handwriting grew more uneven, rushed. She glanced at her watch—time was running out."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:61
-translate english_us chapter1_lab_noon_library_desk_7b550ce0:
-
-    # narrator "'...основываясь на вышеизложенных данных, мы с высокой степенью вероятности можем утверждать о искусственном происхождении сигнала...'"
-    narrator "'...based on the aforementioned data, we can assert with a high degree of probability that the signal is of artificial origin...'"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_415ae82b:
-
-    # narrator "Она обвела эту фразу несколько раз. Ключевой момент."
-    narrator "She circled the phrase several times. The key point."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_070b3885:
-
-    # narrator "Осталось сформулировать заключение и возможные направления для дальнейших исследований."
-    narrator "All that was left was to formulate the conclusion and possible directions for further research."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_42df139b:
-
-    # narrator "Мелькнула мысль о Маркусе и его странном визите к начальству. И об Алекс, которая сейчас корпит над ее рутинными отчетами. Все казалось каким-то неправильным, смещенным."
-    narrator "A thought flickered about Marcus and his strange visit to management. And about Alex, who was now slaving away over her routine reports. Everything felt somehow wrong, shifted."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_1000db13:
-
-    # narrator "Но времени на рефлексию не было. Только вперед. К собранию."
-    narrator "But there was no time for reflection. Only forward. To the meeting."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_ca4110fe:
-
-    # narrator "Наконец, она поставила последнюю точку. Дрожащей рукой отложила ручку."
-    narrator "Finally, she wrote the last period. With a trembling hand, she set the pen down."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_a0917ac3:
-
-    # narrator "Перед ней лежало несколько листов бумаги, густо исписанных ее угловатым почерком. Это было все, что отделяло ее от триумфа или полного провала."
-    narrator "Before her lay several sheets of paper, densely covered in her angular handwriting. This was all that stood between her and triumph or total failure."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_b1d7fd69:
-
-    # narrator "Она быстро пробежала глазами текст, морщась на особенно корявые места. Сможет ли она сама это разобрать, когда придет время говорить? Смогут ли они это понять?"
-    narrator "She quickly scanned the text, wincing at the particularly messy spots. Would she even be able to decipher it herself when it was time to speak? Would they be able to understand it?"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_01299236:
-
-    # narrator "Неон собрала листы, стараясь придать им хоть какой-то вид, сложила их вдвое. Встала, чувствуя, как затекли ноги и спина."
-    narrator "Neon gathered the sheets, trying to make them look somewhat presentable, and folded them in half. She stood up, feeling her legs and back ache."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_bf3f35c6:
-
-    # narrator "Библиотека все так же хранила тишину, но теперь эта тишина казалась Неон напряженной, как натянутая струна."
-    narrator "The library was still silent, but now the silence felt tense to Neon, like a taut string."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
-translate english_us chapter1_lab_noon_library_desk_0516b761:
-
-    # narrator "Она вышла из библиотеки и направилась к лифтам, ведущим на верхние уровни – туда, где располагался административный блок и главные конференц-залы."
-    narrator "She left the library and headed for the elevators leading to the upper levels—to the administrative wing and the main conference rooms."
-# TODO: Translation updated at 2025-09-28 18:21
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
-translate english_us chapter1_lab_noon_library_desk_e0a5d748:
-
-    # narrator "Неон резко встряхнула головой, отгоняя наваждение. Воспоминание, у которого не было лица. Еще один обрывок шума."
-    narrator "A sharp shake of her head dispelled the illusion. A memory without a face. Another fragment of noise."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
-translate english_us chapter1_lab_noon_library_desk_9c90b796:
-
-    # narrator "Сейчас это неважно. Важно донести свое открытие до этих скептиков из ученого совета."
-    narrator "Not important now. What matters is getting her discovery across to those skeptics on the scientific council."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:67
-translate english_us chapter1_lab_noon_library_desk_131e3038:
-
-    # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок."
-    neon "{=thoughts} Focus. Order. Need order."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
-translate english_us chapter1_lab_noon_library_desk_6694c64d:
-
-    # narrator "Доказательством того, что Вселенная — это не просто бесконечный, хаотичный шум случайных событий."
-    narrator "Order as proof that the Universe is not just an infinite, chaotic noise of random events."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
-translate english_us chapter1_lab_noon_library_desk_d0bb7f06:
-
-    # narrator "Что где-то в этой оглушающей какофонии взрывающихся звезд и умирающих галактик существует структура. Смысл. Музыка."
-    narrator "That somewhere in this deafening cacophony of exploding stars and dying galaxies, there is structure. Meaning. Music."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
-translate english_us chapter1_lab_noon_library_desk_f09689eb:
-
-    # narrator "Этот сигнал из сектора Дельта-4 и был ею."
-    narrator "Delta-4 sector signal exactly that."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
-translate english_us chapter1_lab_noon_library_desk_de82d6f5:
-
-    # narrator "Теперь ее рука не дрожала. Она писала с лихорадочной, почти одержимой точностью. Каждая буква, выведенная на бумаге, была актом борьбы."
-    narrator "Her hand no longer was frozen. She wrote with a feverish, almost obsessed precision. Each letter inscribed on the paper was an act of defiance."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:69
-translate english_us chapter1_lab_noon_library_desk_a807ab56:
-
-    # narrator "Нужно было закончить. Нужно доказать"
-    narrator "Finish. Prove it."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:83
-translate english_us chapter1_lab_noon_library_desk_cabe7c0b:
-
-    # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...'"
-    neon "'{=thoughts} ...the repetition of the pattern indicates a non-random nature...'"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
-translate english_us chapter1_lab_noon_library_desk_09e6bb7d:
-
-    # narrator "Искусственном. Созданном. Не хаотичном. Это было ключевое слово. Ее оправдание. Ее спасение."
-    narrator "Non-chaotic. Artificially created. That was the key word. Her justification and her salvation."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:94
-translate english_us chapter1_lab_noon_library_desk_3225c621:
-
-    # narrator "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
-    narrator "Finnaly, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:94
-translate english_us chapter1_lab_noon_library_desk_e56cfe42:
-
-    # narrator "Осталась только она и эти исписанные листы. Идеальный порядок. Тишина."
-    narrator "What's left was just her and these written sheets. Perfect order and silence."
-
-# TODO: Translation updated at 2025-09-29 23:02
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:57
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:52
 translate english_us chapter1_lab_noon_library_desk_3752c552:
 
     # narrator "Воспоминание, у которого не было лица. Еще один обрывок шума."
     narrator "Fragments of past without a face. Another piece of white noise."
 
-# TODO: Translation updated at 2025-09-29 23:06
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:52
+translate english_us chapter1_lab_noon_library_desk_9c90b796:
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
-translate english_us chapter1_lab_noon_library_desk_b83c1f91:
+    # narrator "Сейчас это неважно. Важно донести свое открытие до этих скептиков из ученого совета."
+    narrator "Not important now. What matters is getting her discovery across to those skeptics on the scientific council."
 
-    # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный шум...'"
-    neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...'"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
-translate english_us chapter1_lab_noon_library_desk_0430adbc:
-
-    # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об искусственном происхождении сигнала...'"
-    neon "'{=thoughts} ...with a high degree of probability, we can assert the artificial origin of the signal...'"
-
-# TODO: Translation updated at 2025-11-03 01:28
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:20
-translate english_us chapter1_lab_noon_library_desk_56b43dfb:
-
-    # neon "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?"
-    neon "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:29
-translate english_us chapter1_lab_noon_library_desk_a7546648:
-
-    # neon "'{=thoughts}...устойчивая повторяемость паттерна указывает на неслучайный характер источника. Первичный анализ исключает известные астрофизические феномены, такие как пульсары или квазары...'"
-    neon "'{=thoughts}...the stable repetition of the pattern indicates a non-random nature of the source. Preliminary analysis rules out known astrophysical phenomena such as pulsars or quasars...'"
-
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:67
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:62
 translate english_us chapter1_lab_noon_library_desk_1f6da8cb:
 
     # neon "{=thoughts}Сосредоточься. Порядок. Нужен порядок."
     neon "{=thoughts}Focus, Neon. I need an order, a pattern."
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:83
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:64
+translate english_us chapter1_lab_noon_library_desk_6694c64d:
+
+    # narrator "Доказательством того, что Вселенная — это не просто бесконечный, хаотичный шум случайных событий."
+    narrator "Order as proof that the Universe is not just an infinite, chaotic noise of random events."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:64
+translate english_us chapter1_lab_noon_library_desk_d0bb7f06:
+
+    # narrator "Что где-то в этой оглушающей какофонии взрывающихся звезд и умирающих галактик существует структура. Смысл. Музыка."
+    narrator "That somewhere in this deafening cacophony of exploding stars and dying galaxies, there is structure. Meaning. Music."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:64
+translate english_us chapter1_lab_noon_library_desk_f09689eb:
+
+    # narrator "Этот сигнал из сектора Дельта-4 и был ею."
+    narrator "Delta-4 sector signal exactly that."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:64
+translate english_us chapter1_lab_noon_library_desk_de82d6f5:
+
+    # narrator "Теперь ее рука не дрожала. Она писала с лихорадочной, почти одержимой точностью. Каждая буква, выведенная на бумаге, была актом борьбы."
+    narrator "Her hand no longer was frozen. She wrote with a feverish, almost obsessed precision. Each letter inscribed on the paper was an act of defiance."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:64
+translate english_us chapter1_lab_noon_library_desk_a807ab56:
+
+    # narrator "Нужно было закончить. Нужно доказать"
+    narrator "Finish. Prove it."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:64
+translate english_us chapter1_lab_noon_library_desk_cb55bcf3:
+
+    # narrator "Ручка царапала бумагу. Почерк становился все более неровным, торопливым. Она взглянула на часы – время поджимало."
+    narrator "The pen scratched across the paper. Her handwriting grew more uneven, rushed. She glanced at her watch—time was running out."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:78
 translate english_us chapter1_lab_noon_library_desk_ca8f13e5:
 
     # neon "'{=thoughts}...повторяемость паттерна указывает на неслучайный характер...'"
     neon "'{=thoughts} ...the repetition of the pattern indicates a non-random nature...'"
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:85
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:80
 translate english_us chapter1_lab_noon_library_desk_68750a04:
 
     # neon "'{=thoughts}...анализ исключает известные астрофизические феномены... весь природный шум...'"
     neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...'"
 
-# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:87
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:82
 translate english_us chapter1_lab_noon_library_desk_59b92779:
 
     # neon "'{=thoughts}...с высокой степенью вероятности можно утверждать об искусственном происхождении сигнала...'"
     neon "'{=thoughts} ...analysis rules out known astrophysical phenomena... all natural noise...'"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:84
+translate english_us chapter1_lab_noon_library_desk_09e6bb7d:
+
+    # narrator "Искусственном. Созданном. Не хаотичном. Это было ключевое слово. Ее оправдание. Ее спасение."
+    narrator "Non-chaotic. Artificially created. That was the key word. Her justification and her salvation."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_415ae82b:
+
+    # narrator "Она обвела эту фразу несколько раз. Ключевой момент."
+    narrator "She circled the phrase several times. The key point."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_42df139b:
+
+    # narrator "Мелькнула мысль о Маркусе и его странном визите к начальству. И об Алекс, которая сейчас корпит над ее рутинными отчетами. Все казалось каким-то неправильным, смещенным."
+    narrator "A thought flickered about Marcus and his strange visit to management. And about Alex, who was now slaving away over her routine reports. Everything felt somehow wrong, shifted."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_ca4110fe:
+
+    # narrator "Наконец, она поставила последнюю точку. Дрожащей рукой отложила ручку."
+    narrator "Finally, she wrote the last period. With a trembling hand, she set the pen down."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_3225c621:
+
+    # narrator "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
+    narrator "Finnaly, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_e56cfe42:
+
+    # narrator "Осталась только она и эти исписанные листы. Идеальный порядок. Тишина."
+    narrator "What's left was just her and these written sheets. Perfect order and silence."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
+translate english_us chapter1_lab_noon_library_desk_0516b761:
+
+    # narrator "Она вышла из библиотеки и направилась к лифтам, ведущим на верхние уровни – туда, где располагался административный блок и главные конференц-залы."
+    narrator "She left the library and headed for the elevators leading to the upper levels—to the administrative wing and the main conference rooms."
 

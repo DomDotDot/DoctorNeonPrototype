@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-01 23:32
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:8
 translate english_us chapter4_5_cafe_scene_daba7b88:
@@ -70,7 +70,7 @@ translate english_us chapter4_5_cafe_scene_804eba76:
 translate english_us chapter4_5_cafe_scene_025a823d:
 
     # "Официантка" "Доброе утро! Что будете заказывать?"
-    "Waitress" "Good morning! What can I get for you?"
+    "Официантка" "Good morning! What can I get for you?"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:48
 translate english_us chapter4_5_cafe_scene_7148c915:
@@ -82,7 +82,7 @@ translate english_us chapter4_5_cafe_scene_7148c915:
 translate english_us chapter4_5_cafe_scene_10d9dfd2:
 
     # "Официантка" "Конечно! Наш завтрак — это то, что нужно! Оплата по ID на столике. Взгляните!"
-    "Waitress" "Of course! Our breakfast is exactly what you need! Payment by ID on the table. Take a look!"
+    "Официантка" "Of course! Our breakfast is exactly what you need! Payment by ID on the table. Take a look!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:54
 translate english_us chapter4_5_cafe_scene_4d574c1d:
@@ -121,40 +121,40 @@ translate english_us chapter4_5_cafe_scene_f564f6f4:
     narrator "At the next table sat a group of girls in Veritas Academy uniforms. They were laughing loudly, discussing something on their smartphones."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:74
-translate english_us chapter4_5_cafe_scene_d9ec8abc:
+translate english_us chapter4_5_cafe_scene_39f738b9:
 
-    # "Студентка А" "Ты видела десерт о котором говоила Она? 'Розовая Небула'! Говорят, он божественный! Мы просто обязаны его попробовать после концерта!"
-    "Female Student А" "Did you see that dessert She was talking about? 'Pink Nebula'! They say it's divine! We totally have to try it after the concert!"
+    # "Студентка А" "Ты видела десерт о котором говорила Она? 'Розовая Небула'! Говорят, он божественный! Мы просто обязаны его попробовать после концерта!"
+    "Студентка А" "Ты видела десерт о котором говорила Она? 'Розовая Небула'! Говорят, он божественный! Мы просто обязаны его попробовать после концерта!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:76
 translate english_us chapter4_5_cafe_scene_326de81d:
 
     # "Студентка Б" "Обязательно! Я слышала, Она сама участвовала в разработке рецепта. Представляешь, Она такая же сладкоежка, как и мы!"
-    "Female Student Б" "Absolutely! I heard She helped develop the recipe herself. Imagine that, She has a sweet tooth just like us!"
+    "Студентка Б" "Absolutely! I heard She helped develop the recipe herself. Imagine that, She has a sweet tooth just like us!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_b8e28763:
 
     # "Студентка В" "Все девчонки из нашего общежития на него подсели. Клара вчера три порции съела!"
-    "Female Student В" "All the girls in our dorm are hooked on it. Clara ate three servings yesterday!"
+    "Студентка В" "All the girls in our dorm are hooked on it. Clara ate three servings yesterday!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_e0117c8a:
 
     # "Студентка В" "Говорит, помогает ей... э-э... 'сосредоточиться' перед экзаменами."
-    "Female Student В" "Says it helps her... uh... 'focus' before exams."
+    "Студентка В" "Says it helps her... uh... 'focus' before exams."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_a88485e2:
 
     # "Студентка В" "Странно, конечно. Но ладно."
-    "Female Student В" "Weird, sure. But whatever."
+    "Студентка В" "Weird, sure. But whatever."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:86
 translate english_us chapter4_5_cafe_scene_1d363a8d:
 
     # "Студентка А" "Ха-ха, 'сосредоточиться'! Просто вкусно! Да ладно, кто вообще не любит сладкое?"
-    "Female Student А" "Haha, 'focus'! It's just tasty! Come on, who doesn't love sweets?"
+    "Студентка А" "Haha, 'focus'! It's just tasty! Come on, who doesn't love sweets?"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:88
 translate english_us chapter4_5_cafe_scene_98aceb85:
@@ -178,13 +178,13 @@ translate english_us chapter4_5_cafe_scene_bb89474b:
 translate english_us chapter4_5_cafe_scene_810ccbc0:
 
     # "Официантка" "Ваш 'Галактический завтрак', Сара! Приятного аппетита!"
-    "Waitress" "Your 'Galactic Breakfast', Sarah! Enjoy!"
+    "Официантка" "Your 'Galactic Breakfast', Sarah! Enjoy!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
-translate english_us chapter4_5_cafe_scene_3ca5f665:
+translate english_us chapter4_5_cafe_scene_e0e71553:
 
-    # narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет.. Но Waitress не уходила."
-    narrator "My order arrived. Hot, aromatic coffee and a huge plate with something resembling an omelet... But the waitress didn't leave."
+    # narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет… Но официантка не уходила."
+    narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет… Но официантка не уходила."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
 translate english_us chapter4_5_cafe_scene_8a588c91:
@@ -196,7 +196,7 @@ translate english_us chapter4_5_cafe_scene_8a588c91:
 translate english_us chapter4_5_cafe_scene_8c7ff9ed:
 
     # "Официантка" "Мы тут посмотрели... Вы, оказывается, наш постоянный клиент! Заглядываете к нам почти каждый день! В честь этого, примите от заведения небольшой комплимент — наш фирменный десерт 'Медовый Астероид'"
-    "Waitress" "We were looking... turns out you're a regular! You pop in almost every day! To celebrate, please accept a little treat on the house — our signature dessert, 'Honey Asteroid'."
+    "Официантка" "We were looking... turns out you're a regular! You pop in almost every day! To celebrate, please accept a little treat on the house — our signature dessert, 'Honey Asteroid'."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:110
 translate english_us chapter4_5_cafe_scene_9c5029d7:
@@ -231,14 +231,14 @@ translate english_us chapter4_5_cafe_scene_f20dbaeb:
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:122
 translate english_us chapter4_5_cafe_scene_18d08f76:
 
-    # "Waitress" "Вам... не нравится? Это наш хит! Особенно среди студенток."
-    "Waitress" "You... don't like it? It's our hit item! Especially among students."
+    # "Официантка" "Вам... не нравится? Это наш хит! Особенно среди студенток."
+    "Официантка" "You... don't like it? It's our hit item! Especially among students."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:124
-translate english_us chapter4_5_cafe_scene_791262b4:
+translate english_us chapter4_5_cafe_scene_1ddb6c6b:
 
-    # neon "{=thoughts}Как и все остальные девушки из Академии...}"
-    neon "{=thoughts}Just like all the other girls from the Academy...}"
+    # neon "{=thoughts}Как и все остальные девушки из Академии..."
+    neon "{=thoughts}Как и все остальные девушки из Академии..."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:126
 translate english_us chapter4_5_cafe_scene_f96905b3:
@@ -257,36 +257,6 @@ translate english_us chapter4_5_cafe_scene_0273a892:
 
     # narrator "Я попробовала кофе. Горький, крепкий. Он немного привел меня в чувства. Затем я взялась за омлет. Но к десерту я так и не притронулась."
     narrator "I tasted the coffee. Bitter, strong. It brought me to my senses a little. Then I started on the omelet. But I never touched the dessert."
-
-# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
-translate english_us chapter4_5_cafe_scene_def62c00:
-
-    # narrator "Я ела медленно, растягивая каждую минуту этой иллюзии нормальной жизни, ожидаяп примерное время до начала концерта."
-    narrator "I ate slowly, stretching out every minute of this illusion of a normal life, waiting for the approximate time the concert would start."
-
-# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
-translate english_us chapter4_5_cafe_scene_a85a1950:
-
-    # narrator "Здесь, в этом теплом кафе, под защитой чужого имени, я впервые за несколько дней почувствовала что-то, похожее на покой."
-    narrator "Here, in this warm cafe, protected by someone else's name, I felt something like peace for the first time in days."
-
-# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
-translate english_us chapter4_5_cafe_scene_ef635d0a:
-
-    # narrator "И я знала, что это лишь затишье."
-    narrator "And I knew it was just the calm."
-
-# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
-translate english_us chapter4_5_cafe_scene_d6dd6353:
-
-    # narrator "Впереди был концерт. Впереди была Серафина."
-    narrator "Ahead was the concert. Ahead was Seraphina."
-
-# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
-translate english_us chapter4_5_cafe_scene_d8383301:
-
-    # narrator "Наконец-то..."
-    narrator "Finally..."# TODO: Translation updated at 2025-12-02 19:30
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:130
 translate english_us chapter4_5_cafe_scene_1753bd41:
@@ -329,3 +299,28 @@ translate english_us chapter4_5_cafe_scene_40b50393:
 
     # narrator "Я ела медленно, растягивая каждую минуту этой иллюзии нормальной жизни, ожидая примерное время до начала концерта."
     narrator "I ate slowly, dragging out every minute of this illusion of a normal life, killing time until the concert started."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:151
+translate english_us chapter4_5_cafe_scene_a85a1950:
+
+    # narrator "Здесь, в этом теплом кафе, под защитой чужого имени, я впервые за несколько дней почувствовала что-то, похожее на покой."
+    narrator "Here, in this warm cafe, protected by someone else's name, I felt something like peace for the first time in days."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:151
+translate english_us chapter4_5_cafe_scene_ef635d0a:
+
+    # narrator "И я знала, что это лишь затишье."
+    narrator "And I knew it was just the calm."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:151
+translate english_us chapter4_5_cafe_scene_d6dd6353:
+
+    # narrator "Впереди был концерт. Впереди была Серафина."
+    narrator "Ahead was the concert. Ahead was Seraphina."
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:151
+translate english_us chapter4_5_cafe_scene_d8383301:
+
+    # narrator "Наконец-то..."
+    narrator "Finally..."
+

@@ -8,6 +8,8 @@ default persistent.firstlaunch = False
 
 label splashscreen:
 
+    $ start_update_check()
+    
     call splashscreen_dlc from _call_splashscreen_dlc
 
     ## Here begins our splashscreen animation.
@@ -57,5 +59,6 @@ label splashscreen:
         ## This screen will not appear in subsequent launches of the game when
         ## the following variable becomes true.
         $ persistent.firstlaunch = True
+
 
 return

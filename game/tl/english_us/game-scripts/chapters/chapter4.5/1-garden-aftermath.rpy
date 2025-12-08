@@ -1,4 +1,6 @@
-﻿# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+﻿# TODO: Translation updated at 2025-12-08 10:49
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
 translate english_us chapter4_5_garden_aftermath_fc2b8d02:
 
     # narrator "Четыре часа. Или пять? Время потеряло свой счет."
@@ -97,8 +99,8 @@ translate english_us chapter4_5_garden_aftermath_ba6a817c:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:40
 translate english_us chapter4_5_garden_aftermath_357c2494:
 
-    # "Garden Employee" "Эй...? Мэм, вы в порядке? Пожалуйста, ответьте."
-    "Garden Employee" "Hey...? Ma'am, are you alright? Please answer."
+    # "Сотрудник Сада" "Эй...? Мэм, вы в порядке? Пожалуйста, ответьте."
+    "Сотрудник Сада" "Hey...? Ma'am, are you alright? Please answer."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:42
 translate english_us chapter4_5_garden_aftermath_7ffbe529:
@@ -127,8 +129,8 @@ translate english_us chapter4_5_garden_aftermath_98d84ff3:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:55
 translate english_us chapter4_5_garden_aftermath_c960a2b8:
 
-    # "Garden Employee" "Фух... Слава богу. Я уже испугался, что вам плохо. Хотел звонить в экстренную службу..."
-    "Garden Employee" "Phew... Thank god. I was scared you were sick. I was about to call emergency services..."
+    # "Сотрудник Сада" "Фух... Слава богу. Я уже испугался, что вам плохо. Хотел звонить в экстренную службу..."
+    "Сотрудник Сада" "Phew... Thank god. I was scared you were sick. I was about to call emergency services..."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:57
 translate english_us chapter4_5_garden_aftermath_d64888c9:
@@ -163,8 +165,8 @@ translate english_us chapter4_5_garden_aftermath_1a7edd72:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:71
 translate english_us chapter4_5_garden_aftermath_c3c7a608:
 
-    # "Garden Employee" "Точно? Выглядите бледной. Может, хотя бы воды? У выхода есть торговый автомат, я могу вас проводить."
-    "Garden Employee" "You sure? You look pale. Maybe some water, at least? There's a vending machine by the exit, I can walk you there."
+    # "Сотрудник Сада" "Точно? Выглядите бледной. Может, хотя бы воды? У выхода есть торговый автомат, я могу вас проводить."
+    "Сотрудник Сада" "You sure? You look pale. Maybe some water, at least? There's a vending machine by the exit, I can walk you there."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:73
 translate english_us chapter4_5_garden_aftermath_1b49ba96:
@@ -217,8 +219,8 @@ translate english_us chapter4_5_garden_aftermath_a323c145:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:95
 translate english_us chapter4_5_garden_aftermath_b4beb426:
 
-    # "Garden Employee" "Конечно, без проблем! Идемте за мной."
-    "Garden Employee" "Sure, no problem! Follow me."
+    # "Сотрудник Сада" "Конечно, без проблем! Идемте за мной."
+    "Сотрудник Сада" "Sure, no problem! Follow me."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:99
 translate english_us chapter4_5_garden_aftermath_e9f47d7f:
@@ -247,8 +249,8 @@ translate english_us chapter4_5_garden_aftermath_94995638:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:112
 translate english_us chapter4_5_garden_aftermath_31171107:
 
-    # "Garden Employee" "Эй! Дамочка, постойте."
-    "Garden Employee" "Hey! Lady, hold up."
+    # "Сотрудник Сада" "Эй! Дамочка, постойте."
+    "Сотрудник Сада" "Hey! Lady, hold up."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:114
 translate english_us chapter4_5_garden_aftermath_8ae5cc60:
@@ -259,8 +261,8 @@ translate english_us chapter4_5_garden_aftermath_8ae5cc60:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:116
 translate english_us chapter4_5_garden_aftermath_a0427d36:
 
-    # "Garden Employee" "А как же вода? Я же думал, вы хотели пить!"
-    "Garden Employee" "What about the water? I thought you were thirsty!"
+    # "Сотрудник Сада" "А как же вода? Я же думал, вы хотели пить!"
+    "Сотрудник Сада" "What about the water? I thought you were thirsty!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:118
 translate english_us chapter4_5_garden_aftermath_510d5edd:
@@ -289,8 +291,8 @@ translate english_us chapter4_5_garden_aftermath_ed29b2c6:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:128
 translate english_us chapter4_5_garden_aftermath_547141d0:
 
-    # "Garden Employee" "Нет денег...? А телефон? Он же у вас."
-    "Garden Employee" "No money...? What about your phone? You have it right there."
+    # "Сотрудник Сада" "Нет денег...? А телефон? Он же у вас."
+    "Сотрудник Сада" "No money...? What about your phone? You have it right there."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:130
 translate english_us chapter4_5_garden_aftermath_ec557f3a:
@@ -301,8 +303,8 @@ translate english_us chapter4_5_garden_aftermath_ec557f3a:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:132
 translate english_us chapter4_5_garden_aftermath_5c60bdff:
 
-    # "Garden Employee" "Постойте-постойте..."
-    "Garden Employee" "Wait-wait..."
+    # "Сотрудник Сада" "Постойте-постойте..."
+    "Сотрудник Сада" "Wait-wait..."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:133
 translate english_us chapter4_5_garden_aftermath_595b1ae7:
@@ -313,14 +315,14 @@ translate english_us chapter4_5_garden_aftermath_595b1ae7:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:135
 translate english_us chapter4_5_garden_aftermath_b5565b50:
 
-    # "Garden Employee" "Каждому гражданину Веритас при регистрации присваивается Социальный Идентификатор и устанавливается приложение государственных услуг."
-    "Garden Employee" "Every citizen of Veritas is assigned a Social Identifier upon registration and has the government services app installed."
+    # "Сотрудник Сада" "Каждому гражданину Веритас при регистрации присваивается Социальный Идентификатор и устанавливается приложение государственных услуг."
+    "Сотрудник Сада" "Every citizen of Veritas is assigned a Social Identifier upon registration and has the government services app installed."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:135
 translate english_us chapter4_5_garden_aftermath_d88df076:
 
-    # "Garden Employee" "При приёме на работу вам открывают рабочий счет, привязанный к нему. Это стандартная процедура. Ваш куратор должен был это объяснить!"
-    "Garden Employee" "When you get hired, they open a work account linked to it. It's standard procedure. Your curator should have explained this!"
+    # "Сотрудник Сада" "При приёме на работу вам открывают рабочий счет, привязанный к нему. Это стандартная процедура. Ваш куратор должен был это объяснить!"
+    "Сотрудник Сада" "When you get hired, they open a work account linked to it. It's standard procedure. Your curator should have explained this!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:141
 translate english_us chapter4_5_garden_aftermath_e6f4216e:
@@ -329,10 +331,10 @@ translate english_us chapter4_5_garden_aftermath_e6f4216e:
     narrator "'Curator'? 'Social Identifier'?"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:141
-translate english_us chapter4_5_garden_aftermath_56cc217f:
+translate english_us chapter4_5_garden_aftermath_802955de:
 
-    # narrator "Он говорил на языке, которого я не знала. Языке идеального механизма, в котором я была... ошибкой."
-    narrator "He was speaking a language I didn't know. The language of a perfect machine, in which I was... an error."
+    # narrator "Он говорил на языке, которого я не знала. На языке идеального механизма, в котором я была... ошибкой."
+    narrator "Он говорил на языке, которого я не знала. На языке идеального механизма, в котором я была... ошибкой."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:141
 translate english_us chapter4_5_garden_aftermath_b39f89b5:
@@ -349,8 +351,8 @@ translate english_us chapter4_5_garden_aftermath_f4f638ca:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:151
 translate english_us chapter4_5_garden_aftermath_91f8792a:
 
-    # "Garden Employee" "Нет работы?! Вы... студентка, так?"
-    "Garden Employee" "No job?! You're... a student, right?"
+    # "Сотрудник Сада" "Нет работы?! Вы... студентка, так?"
+    "Сотрудник Сада" "No job?! You're... a student, right?"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:153
 translate english_us chapter4_5_garden_aftermath_038a1b12:
@@ -367,8 +369,8 @@ translate english_us chapter4_5_garden_aftermath_0f6a245a:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:157
 translate english_us chapter4_5_garden_aftermath_42e59f19:
 
-    # "Garden Employee" "Стойте!"
-    "Garden Employee" "Stop!"
+    # "Сотрудник Сада" "Стойте!"
+    "Сотрудник Сада" "Stop!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:158
 translate english_us chapter4_5_garden_aftermath_3c6aa388:
@@ -379,8 +381,8 @@ translate english_us chapter4_5_garden_aftermath_3c6aa388:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:160
 translate english_us chapter4_5_garden_aftermath_fac27366:
 
-    # "Garden Employee" "Откуда у вас тогда такой современный телефон? Если у вас нет работы."
-    "Garden Employee" "Where did you get such a modern phone then? If you have no job."
+    # "Сотрудник Сада" "Откуда у вас тогда такой современный телефон? Если у вас нет работы."
+    "Сотрудник Сада" "Where did you get such a modern phone then? If you have no job."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:162
 translate english_us chapter4_5_garden_aftermath_b3c69e0e:
@@ -409,8 +411,8 @@ translate english_us chapter4_5_garden_aftermath_8a3ed5f8:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:172
 translate english_us chapter4_5_garden_aftermath_382a19c5:
 
-    # "Garden Employee" "Ваше имя."
-    "Garden Employee" "Your name."
+    # "Сотрудник Сада" "Ваше имя."
+    "Сотрудник Сада" "Your name."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:174
 translate english_us chapter4_5_garden_aftermath_80c61281:
@@ -427,8 +429,8 @@ translate english_us chapter4_5_garden_aftermath_c30b7136:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:180
 translate english_us chapter4_5_garden_aftermath_6e539786:
 
-    # "Garden Employee" "Ясно. Я обязан сообщить о нарушении социального протокола. Оставайтесь на месте."
-    "Garden Employee" "I see. I am required to report a violation of social protocol. Stay where you are."
+    # "Сотрудник Сада" "Ясно. Я обязан сообщить о нарушении социального протокола. Оставайтесь на месте."
+    "Сотрудник Сада" "I see. I am required to report a violation of social protocol. Stay where you are."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:182
 translate english_us chapter4_5_garden_aftermath_3c209585:
@@ -451,38 +453,38 @@ translate english_us chapter4_5_garden_aftermath_d3f5b694:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:189
 translate english_us chapter4_5_garden_aftermath_55f9aaf8:
 
-    # "Garden Employee" "Ты еще спрашиваешь? Шваль!"
-    "Garden Employee" "You have to ask? Scum!"
+    # "Сотрудник Сада" "Ты еще спрашиваешь? Шваль!"
+    "Сотрудник Сада" "You have to ask? Scum!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:189
 translate english_us chapter4_5_garden_aftermath_90aa8c08:
 
-    # "Garden Employee" "Мало того, что ты бездельница, которая паразитирует на нашем обществе, отвергая идею общего блага. Так ты еще и воровка!"
-    "Garden Employee" "Not only are you a loafer leeching off our society, rejecting the idea of the common good. You're also a thief!"
+    # "Сотрудник Сада" "Мало того, что ты бездельница, которая паразитирует на нашем обществе, отвергая идею общего блага. Так ты еще и воровка!"
+    "Сотрудник Сада" "Not only are you a loafer leeching off our society, rejecting the idea of the common good. You're also a thief!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:189
 translate english_us chapter4_5_garden_aftermath_18464a05:
 
-    # "Garden Employee" "Обманом выманила дорогой телефон у состоятельной женщины!"
-    "Garden Employee" "Conned a wealthy woman out of an expensive phone!"
+    # "Сотрудник Сада" "Обманом выманила дорогой телефон у состоятельной женщины!"
+    "Сотрудник Сада" "Conned a wealthy woman out of an expensive phone!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:189
 translate english_us chapter4_5_garden_aftermath_ec3573ef:
 
-    # "Garden Employee" "Я уже молчу про то, что ты ошиваешься здесь, используя общественное пространство как ночлежку!"
-    "Garden Employee" "Not to mention you hanging around here, using public space as a flophouse!"
+    # "Сотрудник Сада" "Я уже молчу про то, что ты ошиваешься здесь, используя общественное пространство как ночлежку!"
+    "Сотрудник Сада" "Not to mention you hanging around here, using public space as a flophouse!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:189
 translate english_us chapter4_5_garden_aftermath_287ede7d:
 
-    # "Garden Employee" "Все. Я провожу гражданский арест."
-    "Garden Employee" "That's it. I'm making a citizen's arrest."
+    # "Сотрудник Сада" "Все. Я провожу гражданский арест."
+    "Сотрудник Сада" "That's it. I'm making a citizen's arrest."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:189
 translate english_us chapter4_5_garden_aftermath_39cf5e55:
 
-    # "Garden Employee" "Посидишь в Системнике, там тебе мозги вправят!"
-    "Garden Employee" "You'll rot in The System Unit, they'll fix your brain in there!"
+    # "Сотрудник Сада" "Посидишь в Системнике, там тебе мозги вправят!"
+    "Сотрудник Сада" "You'll rot in The System Unit, they'll fix your brain in there!"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:203
 translate english_us chapter4_5_garden_aftermath_820ada0e:
@@ -493,14 +495,14 @@ translate english_us chapter4_5_garden_aftermath_820ada0e:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:205
 translate english_us chapter4_5_garden_aftermath_f017b3db:
 
-    # "Garden Employee" "Алло? Департамент правопорядка? У меня здесь неучтенный элемент. Подозрение на кражу..."
-    "Garden Employee" "Hello? Law Enforcement Department? I have an unregistered element here. Suspicion of theft..."
+    # "Сотрудник Сада" "Алло? Департамент правопорядка? У меня здесь неучтенный элемент. Подозрение на кражу..."
+    "Сотрудник Сада" "Hello? Law Enforcement Department? I have an unregistered element here. Suspicion of theft..."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:205
 translate english_us chapter4_5_garden_aftermath_ef219222:
 
-    # "Garden Employee" "Да, у главного входа в Ботанический Сад..."
-    "Garden Employee" "Yes, at the main entrance to the Botanical Garden..."
+    # "Сотрудник Сада" "Да, у главного входа в Ботанический Сад..."
+    "Сотрудник Сада" "Yes, at the main entrance to the Botanical Garden..."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:211
 translate english_us chapter4_5_garden_aftermath_0a967c72:
@@ -511,8 +513,8 @@ translate english_us chapter4_5_garden_aftermath_0a967c72:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:213
 translate english_us chapter4_5_garden_aftermath_ae52b7a1:
 
-    # "Garden Employee" "Приметы? Ну... синие волосы, маленькая."
-    "Garden Employee" "Description? Well... blue hair, small."
+    # "Сотрудник Сада" "Приметы? Ну... синие волосы, маленькая."
+    "Сотрудник Сада" "Description? Well... blue hair, small."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:215
 translate english_us chapter4_5_garden_aftermath_0c4a91fc:
@@ -541,8 +543,8 @@ translate english_us chapter4_5_garden_aftermath_bcdac3a0:
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:225
 translate english_us chapter4_5_garden_aftermath_aad43690:
 
-    # "Garden Employee" "Да, мэм. Я провёл гражданс-"
-    "Garden Employee" "Yes, ma'am. I performed a citi-"
+    # "Сотрудник Сада" "Да, мэм. Я провёл гражданс-"
+    "Сотрудник Сада" "Yes, ma'am. I performed a citi-"
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:227
 translate english_us chapter4_5_garden_aftermath_2fec8d77:
@@ -585,3 +587,4 @@ translate english_us chapter4_5_garden_aftermath_7f1a234f:
 
     # narrator "Теперь я всё поняла. В этом городе правда только одна. Ту, которую система считает приемлемой. А все, кто с ней не согласен, — просто ошибка, подлежащие к удалению."
     narrator "Now I understood everything. In this city, there is only one truth. The one the system deems acceptable. And anyone who disagrees is just an error, slated for deletion."
+

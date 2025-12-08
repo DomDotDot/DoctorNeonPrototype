@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-11-03 01:28
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 # game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:9
 translate english_us dream_sequence_japan_3_8d9b2de7:
@@ -155,3 +155,4 @@ translate english_us dream_sequence_japan_3_082f2d42:
 
     # narrator "Я начинаю плакать еще сильнее от чувства вины и страха."
     narrator "I start crying even harder, from guilt and fear."
+

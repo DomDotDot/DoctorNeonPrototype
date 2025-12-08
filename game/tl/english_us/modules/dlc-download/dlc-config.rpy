@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-07 04:40
+﻿# TODO: Translation updated at 2025-12-08 10:49
 
 translate english_us strings:
 
@@ -7,7 +7,7 @@ translate english_us strings:
     new "Background music"
 
     # game/modules/dlc-download/dlc-config.rpy:13
-    old "Атмосферные треки для погружения.\n~120 Мб"
+    old "Атмосферные треки для погружения.\n~120 МБ"
     new "Ambient tracks for immersion.\n~120 MB"
 
     # game/modules/dlc-download/dlc-config.rpy:13
@@ -15,7 +15,7 @@ translate english_us strings:
     new "Ambience and Sounds"
 
     # game/modules/dlc-download/dlc-config.rpy:13
-    old "Звуки дождя, ветра и шагов.\n~15 MB"
+    old "Звуки дождя, ветра и шагов.\n~15 МБ"
     new "Rain sound, wind sounds, walking sounds.\n~15 MB"
 
     # game/modules/dlc-download/dlc-config.rpy:13
@@ -33,30 +33,6 @@ translate english_us strings:
     # game/modules/dlc-download/dlc-config.rpy:13
     old "SFX-Эффекты"
     new "SFX"
-
-    # game/modules/dlc-download/dlc-config.rpy:13
-    old "Звуковые эффекты\n~2 Мб"
-    new "Sound effects\n~2 MB"
-
-# TODO: Translation updated at 2025-12-07 12:09
-
-translate english_us strings:
-
-    # game/modules/dlc-download/dlc-config.rpy:13
-    old "Звуки дождя, ветра и шагов.\n~15 Мб"
-    new "Rain sound, wind sounds, walking sounds.\n~15 MB"
-
-# TODO: Translation updated at 2025-12-07 12:10
-
-translate english_us strings:
-
-    # game/modules/dlc-download/dlc-config.rpy:13
-    old "Атмосферные треки для погружения.\n~120 МБ"
-    new "Ambient tracks for immersion.\n~120 MB"
-
-    # game/modules/dlc-download/dlc-config.rpy:13
-    old "Звуки дождя, ветра и шагов.\n~15 МБ"
-    new "Rain sound, wind sounds, walking sounds.\n~15 MB"
 
     # game/modules/dlc-download/dlc-config.rpy:13
     old "Звуковые эффекты\n~2 МБ"
