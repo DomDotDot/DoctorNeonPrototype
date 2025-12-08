@@ -39,4 +39,9 @@ screen update_notification_screen():
                 textbutton "Напомнить позже" action [SetVariable("update_found", False), Hide("update_notification_screen")] xalign 0.5 text_color "#aaa"
                 
                 # Запомнить и не показывать для ЭТОЙ версии
-                textbutton "Пропустить эту версию" action [Function(ignore_current_update), SetVariable("update_found", False), Hide("update_notification_screen")] xalign 0.5 text_color "#aaa"
+                textbutton "Пропустить эту версию" action [
+                    SetField(persistent, "ignored_version", new_version_tag),
+                    Function(renpy.save_persistent), 
+                    SetVariable("update_found", False), 
+                    Hide("update_notification_screen")
+                ] xalign 0.5 text_color "#aaa"
