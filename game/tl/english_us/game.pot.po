@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: thebrightestneon-sr\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2025-12-08 09:01\n"
+"PO-Revision-Date: 2025-12-08 09:43\n"
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:9
 msgid "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
@@ -226,7 +226,7 @@ msgstr "Night. Laboratory and silence. A man in a white coat is bustling in fron
 
 #: game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
 msgid "Его лицо скрыто тенью, но движения выдают легкое волнение."
-msgstr "His face is subttly hidden in shadow, but his movements betray slight nervousness."
+msgstr "His face is subtly hidden in shadow, but his movements betray slight nervousness."
 
 #: game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
 msgid "За дверью раздается приглушенный голос женщины, которая, судя по всему, работает допоздна."
@@ -1102,7 +1102,7 @@ msgstr "Broke it? How?!"
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:169
 msgctxt "chapter1_lab_morning_406595cb"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:170
 msgid "Слюной."
@@ -1194,7 +1194,7 @@ msgstr "It looks like soon everyone will be working from home. Even us. I hope t
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:223
 msgid "Саш, сколько я уже говорила. Ты в это реально веришь? Это же неофициальные слухи. Где-то в мессенджерах люди панику разводят. Верить им нельзя."
-msgstr "Alex, how many times have I told you? Do you really believe that? Those are just unofficial rumors. People are spreading panic on messegger apps. You can't trust them."
+msgstr "Alex, how many times have I told you? Do you really believe that? Those are just unofficial rumors. People are spreading panic on messenger apps. You can't trust them."
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:225
 msgid "Э-это правда! Ну почему ты мне не веришь? Мы же друзья!"
@@ -1460,7 +1460,7 @@ msgstr "Marcus and Management? Alone and with a folder? Right before her main re
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:143
 msgid "Ее научный инстинкт, натренированный на поиске аномалий в космическом шуме, кричал ей, что в этой последовательности событий есть паттерн. И он ей не нравился."
-msgstr "Sounds like pattern to her scientific instinct, trained to spot anomalies in cosmic noise. And she didnt like that pattern."
+msgstr "Sounds like a pattern to her scientific instinct, trained to spot anomalies in cosmic noise. And she didn't like that pattern."
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:143
 msgid "Она снова погрузилась в лабиринт коридоров. Этот комплекс был огромен."
@@ -1704,7 +1704,7 @@ msgstr "Finally, she wrote the last period. With a trembling hand, she set the p
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 msgid "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
-msgstr "Finnaly, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
+msgstr "Finally, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 msgid "Осталась только она и эти исписанные листы. Идеальный порядок. Тишина."
@@ -2413,7 +2413,7 @@ msgstr "You think your little video is going to change anything?!"
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:56
 msgctxt "confrontation_path_c9715bf4"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:58
 msgid "Алекс подняла телефон, на экране которого была видна миниатюра записи. Этого было достаточно."
@@ -2537,7 +2537,7 @@ msgstr "She no longer saw Marcus as a traitorous colleague, but as the embodimen
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:135
 msgid "Ее взгляд упал на тяжелые металлические стулья вдоль... чего-то..."
-msgstr "Her gaze fell on the heavy metal chairs alongside...something...."
+msgstr "Her gaze fell on the heavy metal chairs alongside...something..."
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:135
 msgid "Неон уже не понимает где она сама находится. Она видит только красный цвет вокруг себя и слышит только бешено колотящееся сердце в ушах."
@@ -3481,7 +3481,7 @@ msgstr "Nonsense. Just a stress-induced nightmare."
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:22
 msgid "Я всегда была... трусихой."
-msgstr "I've always been. .. a scaredy-cat."
+msgstr "I've always been... a scaredy-cat."
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:22
 msgid "Мое подсознание просто гиперболизировало этот образ до абсурда..."
@@ -3513,7 +3513,7 @@ msgstr "Like someone had told her about the fog, warned her of its dangers, but 
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:37
 msgid "Будто я не верила этому голосу... Но теперь хотела бы верить, хотела бы услышать его снова... Кто.. кто... это был...?"
-msgstr "It's like... i didn't take that voice seriously... But now I wish I had, wish I could hear it again... Who... who was it...?"
+msgstr "It's like... I didn't take that voice seriously... But now I wish I had, wish I could hear it again... Who... who was it...?"
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:37
 msgid "Я шла по лесу, голову я держала низко, скорее не для привлечения внимания, а из-за холода и усталости."
@@ -3717,7 +3717,7 @@ msgstr "Marcus, the board of directors, the police—they were all external enem
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:182
 msgid "{=thoughts}Она меня спасала... а я ее забыла. Я просто... вычеркнула ее."
-msgstr "{=thoughts}How i could forget her... She was saving me... and I just... erased her from my mind."
+msgstr "{=thoughts}How I could forget her... She was saving me... and I just... erased her from my mind."
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:184
 msgid "Именно в этот момент ее слезы окончательно высохли. На смену горю и отчаянию пришла ледяная, почти математическая ясность."
@@ -3765,7 +3765,7 @@ msgstr "And now, sitting on this dirty sidewalk, she realized she'd been running
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:205
 msgid "Стену, которую она не видела. В которую врезалась на полном ходу, даже не заметив удара.{nw}"
-msgstr "A wall she hadn't seen. One she'd slammed into at full speed without even noticing the impact.{nw}"
+msgstr "A wall she hadn't seen. The one that's she'd slammed into at full speed without even noticing the impact.{nw}"
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:205
 msgid "Стену, которую она построила сама. Из своего лица на газетной полосе. {nw}"
@@ -4918,7 +4918,7 @@ msgstr "I'm asking one last time..."
 #: game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:36
 msgctxt "ch3_bouncer_plead_fcdd79aa"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:37
 msgid "Он перестал реагировать. Просто смотрит в стену, игнорируя меня. Дальнейшие уговоры бесполезны."
@@ -5786,7 +5786,7 @@ msgstr "It's not magic. It's chemistry. I need three things: a source of sugar, 
 
 #: game/game-scripts/chapters/chapter3/5-distillation.rpy:8
 msgid "...{nw}"
-msgstr ""
+msgstr "...{nw}"
 
 #: game/game-scripts/chapters/chapter3/5-distillation.rpy:8
 msgid "...Ладно, ученая. Удиви меня."
@@ -6738,7 +6738,7 @@ msgstr "Come in. You can keep your shoes on. There's no one left to get it dirty
 
 #: game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:33
 msgid "Я шагнула внутрь. Квартира была маленькой, похожей на те, что я видела в старых фильмах – 'хрущевка', кажется, их называли."
-msgstr "I stepped inside. The apartment was small, like the ones I'd seen in old movies—a 'Khrushchyovka,' I think they were called."
+msgstr "I stepped inside. The apartment was small, like the ones I'd seen in old movies—a 'Khrushchevka,' I think they were called."
 
 #: game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:33
 msgid "Все было покрыто тонким, ровным слоем желтой пыли. Время здесь остановилось."
@@ -18226,7 +18226,7 @@ msgstr "She pauses. The girl smiles, and a twinkle of understanding appears in h
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:128
 msgid "Неон... красивое имя. Как свет. А я... ...- {nw}"
-msgstr "Neon... that's a beautiful name. Just ike a light! So my name... ...- {nw}"
+msgstr "Neon... that's a beautiful name. Just like a light! So my name... ...- {nw}"
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
 msgid "Ее имя... Память как подернутый рябью пруд. Не могу вспомнить. Просто пятно."
@@ -18342,7 +18342,7 @@ msgstr "And then... I was back home. With my trustee. And the girl... or rather.
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:210
 msgid "Мы... нет... Я хотела сходить в планетарий... точно... Я хотела увидеть звезды поближе. Моя мечта... То, что говорила моя мама из снов... Да... Я хочу смотреть и изучать звезды..."
-msgstr "We... i mean... I wanted to go to the planetarium... right... I wanted to see the stars up close. My dream... The thing my mom used to say in my dreams... Yes... I want to look at and study the stars..."
+msgstr "We... I mean... I wanted to go to the planetarium... right... I wanted to see the stars up close. My dream... The thing my mom used to say in my dreams... Yes... I want to look at and study the stars..."
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:211
 msgid "Все эти книги по научной фантастике в моей комнате... Я читала их, чтобы почувствовать связь с чем-то большим. С чем-то настоящим... Видимо, такова моя природа..."
@@ -19571,7 +19571,7 @@ msgstr "Promising? Anna, you've been saying that for six months. Yet we're still
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:90
 msgid "Мой алгоритм для анализа финансовых рынков, вот что реально принесет результат. И деньги. Большие деньги."
-msgstr "My algorithm for analyzing financial marcusets, now {i}that's{/i} what will actually bring results. And money. Big money."
+msgstr "My algorithm for analyzing financial markets, now {i}that's{/i} what will actually bring results. And money. Big money."
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:90
 msgid "А ты, Неон... молодец, конечно, что веришь."
@@ -19643,7 +19643,7 @@ msgstr "I don't know. But I have to try. It's... like a calling."
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:143
 msgid "Ну, если найдешь – не забудь упомянуть меня в своей Нобелевской речи."
-msgstr "Well, if you do find something—don't forget to mention me in your Nobel prize speech."
+msgstr "Well, if you do find something, don't forget to mention me in your Nobel prize speech."
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:145
 msgid "Обязательно."
@@ -20799,7 +20799,7 @@ msgstr "Turns of self-voicing {a=https://www.renpy.org/l/voicing}{/a}."
 
 #: game/screens.rpy:1075
 msgid "Открывает меню специальных возможностей."
-msgstr "Opens Accessibiltiy Menu"
+msgstr "Opens Accessibility Menu"
 
 #: game/screens.rpy:1081
 msgid "Левый клик"
