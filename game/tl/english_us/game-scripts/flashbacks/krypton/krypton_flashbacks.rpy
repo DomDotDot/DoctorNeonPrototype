@@ -262,7 +262,7 @@ translate english_us krypton_firstmeet_flashback_cd43e5ca:
 translate english_us krypton_firstmeet_flashback_f383208c:
 
     # "???" "Неон... красивое имя. Как свет. А я... ...- {nw}"
-    "???" "Neon... that's a beautiful name. Just ike a light! So my name... ...- {nw}"
+    "???" "Neon... that's a beautiful name. Just like a light! So my name... ...- {nw}"
 
 # game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
 translate english_us krypton_firstmeet_flashback_c995273a:
