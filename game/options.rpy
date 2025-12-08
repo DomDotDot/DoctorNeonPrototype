@@ -217,13 +217,21 @@ init python:
     build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
     build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
     build.classify('image-assets/**', 'dev')
+    build.classify('game/devtools/**', 'dev')
 
-    build.classify('game/audio/music/**', 'dev')
-    build.classify('game/audio/sfx/**', 'dev')
-    build.classify('game/audio/ambient/**', 'dev')
-    build.classify('game/audio/voice/**', 'dev')
+        # 1. Музыка
+    build.classify('game/audio/music/**', None)
+    
+    # 2. SFX и Эмбиент
+    build.classify('game/audio/sfx/**', None)
+    build.classify('game/audio/ambient/**', None)
+    
+    # 3. Русская озвучка (основная папка)
+    build.classify('game/audio/voice/**', None)
+    
+    # 4. Английская озвучка (в папке перевода)
+    build.classify('game/tl/english_us/audio/voice/**', None)
 
-    build.classify('tl/english_us/audio/voice/**', 'dev')
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 
     # build.classify('game/**.png', 'archive')

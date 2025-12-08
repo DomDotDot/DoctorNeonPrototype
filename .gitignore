@@ -20,9 +20,10 @@ game/saves/
 cache/
 tmp/
 
-#Disabled folder (director cut)
+#Disabled папка (director cut)
 disabled/
 
 # Бэкапы
 *.bak
 *.new
+*.zip
