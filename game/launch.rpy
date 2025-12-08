@@ -8,6 +8,7 @@ default persistent.firstlaunch = False
 
 label splashscreen:
 
+    $ start_update_check()
     call splashscreen_dlc from _call_splashscreen_dlc
 
     ## Here begins our splashscreen animation.
@@ -58,4 +59,6 @@ label splashscreen:
         ## the following variable becomes true.
         $ persistent.firstlaunch = True
 
+    if update_found:
+        call screen update_notification_screen
 return
