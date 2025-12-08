@@ -218,6 +218,7 @@ init python:
     build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
     build.classify('image-assets/**', 'dev')
     build.classify('game/devtools/**', 'dev')
+    build.classify('**.zip', None)
 
         # 1. Музыка
     build.classify('game/audio/music/**', None)
