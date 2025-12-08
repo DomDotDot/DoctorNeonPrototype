@@ -57,9 +57,9 @@ screen main_menu():
     tag menu
     zorder 10
     
-    #Поиск обновления 0.5 секунд
-    if update_found:
-        timer 0.5 action Show("update_notification_screen")
+    #Поиск обновления 1 секунду
+    if update_found and (persistent.ignored_version != new_version_tag):
+        timer 1 action Show("update_notification_screen")
 
     # Логика смены фона и музыки при показе экрана
     on "show" action Function(play_main_menu_music)
@@ -92,6 +92,10 @@ screen main_menu():
         # Показываем галерею, только если она доступна
         if renpy.has_screen("gallery"):
             textbutton _("Галерея CG") action ShowMenu("gallery") style "main_menu_button"
+        if update_found:
+                textbutton _("Уведомления {color=#f00}(!){/color}") action ShowMenu("notification_center") style "main_menu_button"
+        else:
+                textbutton _("Уведомления") action ShowMenu("notification_center") style "main_menu_button"
 
         textbutton _("Об игре") action ShowMenu("about_menu") style "main_menu_button"
         textbutton _("Выход") action Quit(confirm=True) style "main_menu_button"
