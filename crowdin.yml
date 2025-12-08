@@ -5,4 +5,3 @@ files:
       two_letters_code:
         # Ren'Py использует 'english_us', а Crowdin 'en'.
         en: english_us
-        en-US: english_us
