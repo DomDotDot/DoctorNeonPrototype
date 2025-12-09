@@ -24,10 +24,9 @@ init -1 python:
     # Словарь процентов готовности. 
     # Обновлять скриптом или вручную перед релизом!!
     TRANSLATION_STATUS = {
-        None: 100,          # Родной язык всегда 100%
-        "english_us": 45,   # Пример: переведено на 45%
-        "spanish": 0
-    }
+    None: 100,
+    "english_us": 72,
+}
 
     def get_lang_progress(code):
         return TRANSLATION_STATUS.get(code, 0)
