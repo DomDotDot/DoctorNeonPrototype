@@ -1,13 +1,3 @@
-# Список доступных языков (Имя, Код Языка)
-# Имя без _(), чтобы оно всегда отображалось одинаково на первом экране
-
-init python:
-    LANGUAGE_LIST = [
-        ("Русский 🇷🇺", None), # None - это язык по умолчанию
-        ("English 🇺🇸", "english_us")
-    ]
-
-
 init -1 python:
     # Структура: (Имя, Код языка, Путь к флагу)
     # Код None = Язык по умолчанию (обычно тот, на котором написан скрипт)
@@ -19,7 +9,7 @@ init -1 python:
             "name": "Русский 🇷🇺", 
             "code": None, 
             "flag": "gui/flags/ru.png", 
-            "font": "fonts/WDXLLubrifontTC-Regular.ttf
+            "font": "fonts/WDXLLubrifontTC-Regular.ttf"
         },
         {
             "name": "English 🇺🇸", 

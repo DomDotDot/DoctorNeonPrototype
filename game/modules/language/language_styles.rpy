@@ -32,7 +32,7 @@ screen language_selection_screen():
                     for lang in LANGUAGE_LIST:
                         $ code = lang['code']
                         $ percent = get_lang_progress(code)
-                        $ is_active = (persistent.language == code)
+                        $ is_active = (_preferences.language == code)
                         
                         button:
                             style "lang_button"
@@ -40,13 +40,19 @@ screen language_selection_screen():
                             action [Language(code), Return()]
                             
 
-                            background Frame("gui/button/choice_hover_background.png", 10, 10) if is_active else Frame("gui/button/choice_idle_background.png", 10, 10)
+            
+                            if is_active:
+
+                                background Frame("gui/button/choice_hover_background.png", 10, 10)
+                            
+                            else:
+                            
+                                background Frame("gui/button/choice_idle_background.png", 10, 10)
                             
                             hbox:
                                 spacing 20
                                 yalign 0.5
                                 xfill True
-                                padding (15, 15)
 
                                 # 1. Флаг (с проверкой на существование файла)
                                 if renpy.loadable(lang['flag']):
