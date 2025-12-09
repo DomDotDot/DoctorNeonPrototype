@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: thebrightestneon-sr\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2025-12-09 15:03\n"
+"PO-Revision-Date: 2025-12-09 16:36\n"
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:9
 msgid "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
@@ -7963,7 +7963,7 @@ msgstr "It showed a modern, luxury residential complex. And a slogan... Somethin
 
 #: game/game-scripts/chapters/chapter4.0/3-academy.rpy:389
 msgid "Celeste Plaza..."
-msgstr ""
+msgstr "Celeste Plaza..."
 
 #: game/game-scripts/chapters/chapter4.0/3-academy.rpy:391
 msgid "Это не могло быть совпадением. В мире корпоративного маркетинга не бывает совпадений. Это была либо жестокая ирония, либо... спонсорство."
@@ -9029,7 +9029,7 @@ msgstr "When I find him..."
 #: game/game-scripts/chapters/chapter4.0/5-garden.rpy:256
 msgctxt "chapter4_0_garden_dialogue_8d26d5af"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: game/game-scripts/chapters/chapter4.0/5-garden.rpy:266
 msgid "...он поплатиться."
@@ -9368,7 +9368,7 @@ msgstr "'Curator'? 'Social Identifier'?"
 
 #: game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:141
 msgid "Он говорил на языке, которого я не знала. На языке идеального механизма, в котором я была... ошибкой."
-msgstr ""
+msgstr "He spoke a language I didn't know. The language of a perfect mechanism in which I was... a mistake."
 
 #: game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:141
 msgid "Я не гражданка. У меня нет работы. Я — никто. Но говорить ему это было опасно."
