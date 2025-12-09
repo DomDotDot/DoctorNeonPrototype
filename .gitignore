@@ -27,3 +27,6 @@ disabled/
 *.bak
 *.new
 *.zip
+
+# devtools
+game/devtools/*.py
