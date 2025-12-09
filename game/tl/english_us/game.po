@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: thebrightestneon-sr\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2025-12-09 16:36\n"
+"PO-Revision-Date: 2025-12-09 18:46\n"
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:9
 msgid "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
@@ -20421,11 +20421,11 @@ msgstr "Play"
 
 #: game/modules/main-menu/main-menu_custom.rpy:96
 msgid "Уведомления {color=#f00}(!){/color}"
-msgstr ""
+msgstr "Notifications {color=#f00}(!){/color}"
 
 #: game/modules/main-menu/main-menu_custom.rpy:98
 msgid "Уведомления"
-msgstr ""
+msgstr "Notifications"
 
 #: game/modules/main-menu/main-menu_custom.rpy:120
 msgid "Режим игры"
@@ -20465,7 +20465,7 @@ msgstr "DLC Content"
 
 #: game/modules/main-menu/main-menu_custom.rpy:220
 msgid "DLC Контент (Только ПК)"
-msgstr ""
+msgstr "DLC Content (PC Only)"
 
 #: game/modules/main-menu/main-menu_custom.rpy:260
 msgid "Управление"
@@ -20516,7 +20516,7 @@ msgstr "Content"
 
 #: game/modules/update/update_screen.rpy:14
 msgid "Доступно обновление!"
-msgstr ""
+msgstr "Update available!"
 
 #: game/modules/update/update_screen.rpy:16
 msgid "Текущая версия: [config.version!t]"
@@ -20524,23 +20524,23 @@ msgstr "Current version: [config.version!t]"
 
 #: game/modules/update/update_screen.rpy:17
 msgid "Новая версия: [new_version_tag!t]"
-msgstr ""
+msgstr "New version: [new_version_tag!t]"
 
 #: game/modules/update/update_screen.rpy:21
 msgid "Где скачать?"
-msgstr ""
+msgstr "Download:"
 
 #: game/modules/update/update_screen.rpy:27
 msgid "Itch.io"
-msgstr ""
+msgstr "Itch.io"
 
 #: game/modules/update/update_screen.rpy:30
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: game/options.rpy:15
 msgid "The Brightest Neon - Semitone Resonance"
-msgstr ""
+msgstr "The Brightest Neon - Semitone Resonance"
 
 #: game/options.rpy:31
 msgid "\n\n"
@@ -20553,7 +20553,14 @@ msgid "\n\n"
 "2. И другие источники роялти-фри музыки и звуковых эффектов. Не было времени прописывать все источники. В продолжение игры я постараюсь исправить это.\n\n\n\n\n\n\n\n"
 "Licensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/\n\n"
 "________________________________________"
-msgstr ""
+msgstr "Thank you for playing this prototype. This is my first visual novel, and I learned a lot while making it. I hope you enjoy the story and characters, and I look forward to sharing the rest of the story with you in the future.\n\n\n\n"
+"________________________________________\n\n\n\n"
+"Author and developer: Dot\n\n\n\n"
+"________________________________________\n\n\n\n"
+"Royalty-free music and sound effects:\n\n\n\n"
+"1. Purge Protocol (by ksho) - https://www.youtube.com/@kshowashere\n\n\n\n"
+"2. And other sources of royalty-free music and sound effects. I didn't have time to list all the sources. I will try to fix this in the continuation of the game.\n\n\n\n\n\n\n\n"
+"Licensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/"
 
 #: game/screens.rpy:253
 msgid "Назад"
