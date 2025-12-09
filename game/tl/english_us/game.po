@@ -7,12 +7,12 @@ msgstr ""
 "X-Crowdin-Project: thebrightestneon-sr\n"
 "X-Crowdin-Project-ID: 853084\n"
 "X-Crowdin-Language: en\n"
-"X-Crowdin-File: /[DomDotDot.DoctorNeonPrototype] dev/game/tl/pot/game.pot\n"
-"X-Crowdin-File-ID: 10\n"
+"X-Crowdin-File: /dev/game/tl/None/game.pot\n"
+"X-Crowdin-File-ID: 42\n"
 "Project-Id-Version: thebrightestneon-sr\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2025-12-08 09:43\n"
+"PO-Revision-Date: 2025-12-09 15:03\n"
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:9
 msgid "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
@@ -68,7 +68,7 @@ msgstr "Stratospheric entry confirmed."
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:30
 msgid "Скорость: 7.2 км/с."
-msgstr ""
+msgstr "Speed: 7.2 kilometers per second."
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:30
 msgid "Расчетное время до столкновения: T-минус 90 секунд."
@@ -18021,7 +18021,7 @@ msgstr ""
 
 #: game/game-scripts/chapters/chapter5/chapter-5.rpy:3
 msgid "Глава 5"
-msgstr ""
+msgstr "Chapter 5"
 
 #: game/game-scripts/chapters/chapter5/chapter-5.rpy:3
 msgid "Предложение, от которого нельзя отказаться"
@@ -18770,7 +18770,7 @@ msgstr ""
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:50
 msgid "Зависть."
-msgstr ""
+msgstr "Envy."
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:50
 msgid "Черная, липкая, всепоглощающая. Зависть завидовала моей матери. Моей семье. Мне."
@@ -18866,7 +18866,7 @@ msgstr ""
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:119
 msgid "Нет."
-msgstr ""
+msgstr "No."
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:121
 msgid "Это слово прозвучало в моем сознании не как мысль, а как удар гонга. Холодный, ясный, абсолютный."
@@ -19927,63 +19927,63 @@ msgid "Звуковые эффекты\n"
 msgstr "Sound effects\n"
 "~2 MB"
 
-#: game/modules/dlc-download/dlc-system.rpy:54
+#: game/modules/dlc-download/dlc-system.rpy:66
 msgid "Файл не найден (404). Проверь версию!"
 msgstr "File not found (404). Check the version!"
 
-#: game/modules/dlc-download/dlc-system.rpy:151
+#: game/modules/dlc-download/dlc-system.rpy:168
 msgid "Дополнительный контент"
 msgstr "DLC Content"
 
-#: game/modules/dlc-download/dlc-system.rpy:152
+#: game/modules/dlc-download/dlc-system.rpy:169
 msgid "Выберите компоненты для установки:"
 msgstr "Select content pack to install:"
 
-#: game/modules/dlc-download/dlc-system.rpy:177
+#: game/modules/dlc-download/dlc-system.rpy:194
 msgid "Скачать выбранное"
 msgstr "Download selected"
 
-#: game/modules/dlc-download/dlc-system.rpy:180
+#: game/modules/dlc-download/dlc-system.rpy:197
 msgid "Пропустить всё"
 msgstr "Skip all"
 
-#: game/modules/dlc-download/dlc-system.rpy:195
+#: game/modules/dlc-download/dlc-system.rpy:212
 msgid "ОШИБКА"
 msgstr "ERROR"
 
-#: game/modules/dlc-download/dlc-system.rpy:200
+#: game/modules/dlc-download/dlc-system.rpy:217
 msgid "Повторить"
 msgstr "Retry"
 
-#: game/modules/dlc-download/dlc-system.rpy:201
+#: game/modules/dlc-download/dlc-system.rpy:218
 msgid "Пропустить этот пак"
 msgstr "Skip this content pack"
 
-#: game/modules/dlc-download/dlc-system.rpy:204
+#: game/modules/dlc-download/dlc-system.rpy:221
 msgid "Инициализация..."
 msgstr "Initialization..."
 
-#: game/modules/dlc-download/dlc-system.rpy:208
+#: game/modules/dlc-download/dlc-system.rpy:225
 msgid "Попытка [dl_attempt_cur] из [dl_attempt_max]..."
 msgstr "Attempt [dl_attempt_cur] out of [dl_attempt_max]..."
 
-#: game/modules/dlc-download/dlc-system.rpy:214
+#: game/modules/dlc-download/dlc-system.rpy:231
 msgid "[mb_c] / [mb_t] МБ"
 msgstr "[mb_c] / [mb_t] MB"
 
-#: game/modules/dlc-download/dlc-system.rpy:217
+#: game/modules/dlc-download/dlc-system.rpy:234
 msgid "Сбой связи. Ждем..."
 msgstr "Connection failure. Waiting..."
 
-#: game/modules/dlc-download/dlc-system.rpy:220
+#: game/modules/dlc-download/dlc-system.rpy:237
 msgid "Распаковка архива..."
 msgstr "Unpacking the archive..."
 
-#: game/modules/dlc-download/dlc-system.rpy:223
+#: game/modules/dlc-download/dlc-system.rpy:240
 msgid "Установка завершена!"
 msgstr "Installation Complete!"
 
-#: game/modules/dlc-download/dlc-system.rpy:229
+#: game/modules/dlc-download/dlc-system.rpy:246
 msgid "Установка завершена. Переход к следующему файлу..."
 msgstr "Installation complete. Moving on to the next file..."
 
@@ -20415,92 +20415,128 @@ msgstr "Chapter 4.5 - Act I"
 msgid "Глава 4.5 - Акт II"
 msgstr "Chapter 4.5 - Act II"
 
-#: game/modules/main-menu/main-menu_custom.rpy:84
+#: game/modules/main-menu/main-menu_custom.rpy:89
 msgid "Играть"
 msgstr "Play"
 
-#: game/modules/main-menu/main-menu_custom.rpy:111
+#: game/modules/main-menu/main-menu_custom.rpy:96
+msgid "Уведомления {color=#f00}(!){/color}"
+msgstr ""
+
+#: game/modules/main-menu/main-menu_custom.rpy:98
+msgid "Уведомления"
+msgstr ""
+
+#: game/modules/main-menu/main-menu_custom.rpy:120
 msgid "Режим игры"
 msgstr "Gamemode"
 
-#: game/modules/main-menu/main-menu_custom.rpy:114
+#: game/modules/main-menu/main-menu_custom.rpy:123
 msgid "Новая игра"
 msgstr "New game"
 
-#: game/modules/main-menu/main-menu_custom.rpy:117
+#: game/modules/main-menu/main-menu_custom.rpy:126
 msgid "Продолжить"
 msgstr "Continue"
 
-#: game/modules/main-menu/main-menu_custom.rpy:119
+#: game/modules/main-menu/main-menu_custom.rpy:128
 msgid "Выбор сохранения"
 msgstr "Load from Save"
 
-#: game/modules/main-menu/main-menu_custom.rpy:122
+#: game/modules/main-menu/main-menu_custom.rpy:131
 msgid "Выбор глав"
 msgstr "Chapters"
 
-#: game/modules/main-menu/main-menu_custom.rpy:204
+#: game/modules/main-menu/main-menu_custom.rpy:213
 msgid "Текст/Графика"
 msgstr "Text/Graphics"
 
-#: game/modules/main-menu/main-menu_custom.rpy:205
+#: game/modules/main-menu/main-menu_custom.rpy:214
 msgid "Звук"
 msgstr "Sound"
 
-#: game/modules/main-menu/main-menu_custom.rpy:206
+#: game/modules/main-menu/main-menu_custom.rpy:215
 msgid "Язык"
 msgstr "Language"
 
-#: game/modules/main-menu/main-menu_custom.rpy:207
+#: game/modules/main-menu/main-menu_custom.rpy:218
 msgid "DLC Контент"
 msgstr "DLC Content"
 
-#: game/modules/main-menu/main-menu_custom.rpy:247
+#: game/modules/main-menu/main-menu_custom.rpy:220
+msgid "DLC Контент (Только ПК)"
+msgstr ""
+
+#: game/modules/main-menu/main-menu_custom.rpy:260
 msgid "Управление"
 msgstr "Controls"
 
-#: game/modules/main-menu/main-menu_custom.rpy:248
+#: game/modules/main-menu/main-menu_custom.rpy:261
 msgid "Лицензия"
 msgstr "License"
 
-#: game/modules/main-menu/main-menu_custom.rpy:249
+#: game/modules/main-menu/main-menu_custom.rpy:262
 msgid "Титры"
 msgstr "Credits"
 
-#: game/modules/main-menu/main-menu_custom.rpy:250
+#: game/modules/main-menu/main-menu_custom.rpy:263
 msgid "Обновление"
 msgstr "Update"
 
-#: game/modules/main-menu/main-menu_custom.rpy:270
+#: game/modules/main-menu/main-menu_custom.rpy:283
 msgid "Музыка"
 msgstr "Music"
 
-#: game/modules/main-menu/main-menu_custom.rpy:291
+#: game/modules/main-menu/main-menu_custom.rpy:304
 msgid "Музыка в меню"
 msgstr "Music in Menu"
 
-#: game/modules/main-menu/main-menu_custom.rpy:318
+#: game/modules/main-menu/main-menu_custom.rpy:331
 msgid "Текущая версия: [config.version]\n"
 msgstr "Current version: [config.version]\n"
 
-#: game/modules/main-menu/main-menu_custom.rpy:319
+#: game/modules/main-menu/main-menu_custom.rpy:332
 msgid "\n"
 "Список изменений:\n"
 "-Оптимизация и DLC Контент"
 msgstr "List of changes:\n"
 "-Optimization and DLC Content"
 
-#: game/modules/main-menu/main-menu_custom.rpy:344
+#: game/modules/main-menu/main-menu_custom.rpy:357
 msgid "Текст и Графика"
 msgstr "Text and Graphics"
 
-#: game/modules/main-menu/main-menu_custom.rpy:364
+#: game/modules/main-menu/main-menu_custom.rpy:377
 msgid "Непрочитанного текста"
 msgstr "Unread Text"
 
-#: game/modules/main-menu/main-menu_custom.rpy:373
+#: game/modules/main-menu/main-menu_custom.rpy:386
 msgid "Контент"
 msgstr "Content"
+
+#: game/modules/update/update_screen.rpy:14
+msgid "Доступно обновление!"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:16
+msgid "Текущая версия: [config.version!t]"
+msgstr "Current version: [config.version!t]"
+
+#: game/modules/update/update_screen.rpy:17
+msgid "Новая версия: [new_version_tag!t]"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:21
+msgid "Где скачать?"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:27
+msgid "Itch.io"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:30
+msgid "GitHub"
+msgstr ""
 
 #: game/options.rpy:15
 msgid "The Brightest Neon - Semitone Resonance"
