@@ -213,7 +213,11 @@ screen settings_menu():
             textbutton _("Текст/Графика") action ShowMenu("graphics_settings_screen") style "sub_menu_button"
             textbutton _("Звук") action ShowMenu("sound_settings_screen") style "sub_menu_button"
             textbutton _("Язык") action ShowMenu("language_selection_screen") style "sub_menu_button"
-            textbutton _("DLC Контент") action Start("dlc_manager_flow") style "sub_menu_button"
+            
+            if not renpy.variant("web"):
+                textbutton _("DLC Контент") action Start("dlc_manager_flow") style "sub_menu_button"
+            else:
+                textbutton _("DLC Контент (Только ПК)") action None style "sub_menu_button" text_color "#888"
 
             null height 30 # Отступ
 
