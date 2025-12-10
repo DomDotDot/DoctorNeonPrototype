@@ -6,6 +6,8 @@ label chapter_4_5_rpy_act2:
 
     call chapter4_5_morning_after from _call_chapter4_5_morning_after
     call chapter4_5_akari_arrest from _call_chapter4_5_akari_arrest
+
+    call chapter4_5_seraphina_penthouse
     
     call chapter4_5_lily_cafe from _call_chapter4_5_lily_cafe
 
