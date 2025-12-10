@@ -1,6 +1,6 @@
 label chapter4_5_morning_after:
 
-    scene bg chapter_4_arkaground_interior_morning with fade
+    scene bg chapter_4_ark-aground-base with fade
     play music "music/BGM/WitheredFlower_Tense.opus" loop
 
     narrator """
@@ -63,7 +63,7 @@ label chapter4_5_morning_after:
         Я открыла ручки двери и хлопнула ею. Выйдя из квартиры Аргона.
     """
     
-    scene bg chapter_4_veritas_streets_early_morning with fade
+    scene bg chapter_4-5_veritas-alleway-morning with fade
     play music "music/BGM/WitheredFlower_Tense.opus" loop
 
     narrator """
@@ -149,7 +149,7 @@ label chapter4_5_morning_after:
     
     meryl "Садись. У нас мало времени. И ни слова, пока не отъедем."
     
-    narrator "Я села на заднее сиденье. Машина бесшумно тронулась."
+    narrator "Я села на переднее сиденье. Машина бесшумно тронулась."
     
     meryl """
     (Глядя в зеркало заднего вида)
@@ -170,9 +170,9 @@ label chapter4_5_morning_after:
     """
     
     narrator """
-        Она достала из сумочки несколько заколок, гребень и пару тонких черных перчаток.
+        Она достала из сумочки несколько заколок и гребень
         
-        Она припарковалась в тихом переулке и, надев перчатки, повернулась ко мне.
+        Она припарковалась в тихом переулке и повернулась ко мне.
         
         Она работала быстро и профессионально, собирая мои волосы в сложный, тугой пучок, пряча их под парой широких заколок так, чтобы яркий цвет был почти не виден.
         

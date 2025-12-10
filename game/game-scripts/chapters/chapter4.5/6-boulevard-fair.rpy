@@ -240,7 +240,7 @@ label chapter4_5_boulevard_night:
     Я просто стояла рядом, не зная, какие слова могут помочь. Опять. Никакие. Он заперся в своей вине.
     """
 
-    scene bg chapter_4_arkaground_interior with dissolve
+    scene bg chapter_4-5_ark-aground-base-night with dissolve
 
     narrator """
         Мы вернулись в студию.
