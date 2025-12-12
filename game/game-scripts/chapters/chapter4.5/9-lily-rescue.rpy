@@ -147,7 +147,7 @@ label chapter4_5_lily_cafe:
 
     narrator "Она с детской непосредственностью и жадностью схватила наши сцепленные руки своими ладонями."
 
-    play sound "sfx/static_shock_loud.mp3" with vpunch
+    play sound "sfx/static_shock_loud.mp3"
     scene white with flash
     
     narrator """
