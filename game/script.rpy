@@ -33,8 +33,8 @@
 
 
     
-        label chapter_0_prologue:
-                call chapter_0_prologue_rpy from _call_chapter_0_prologue_rpy
+        #label chapter_0_prologue:
+                #call chapter_0_prologue_rpy from _call_chapter_0_prologue_rpy
 
 
 
