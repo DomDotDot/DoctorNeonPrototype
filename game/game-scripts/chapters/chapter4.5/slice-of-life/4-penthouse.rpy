@@ -166,6 +166,18 @@ label chapter4_5_seraphina_penthouse:
 
     seraphina "...Застрелите друг друга! Ради меня... Ну пожалуйста~?"
 
+    show cg chapter_4_seraphina_swat:
+        #function ripple_effect
+        # Просто тряска и блюр
+        parallel:
+            linear 0.1 xoffset 2
+            linear 0.1 xoffset -2
+            repeat
+        parallel:
+            linear 0.5 blur 5
+            linear 0.5 blur 0
+            repeat
+
     # play sound "sfx/gunshot_burst_multiple.mp3" fadeout 2.0
     
     narrator """
