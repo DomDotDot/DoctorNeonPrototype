@@ -1,7 +1,6 @@
 label marcus_attack_scene:
 
         show alex at midright with easeinright
-        narrator "Алекс издала сдавленный крик, пытаясь схватить Неон за руку, но та, не заметив ее, с нечеловеческой силой отбросила подругу в сторону, испуганно глядя на происходящее."
         show alex worried
         hide alex with easeoutright
         # play sound "sounds/body_thump_wall.opus"
