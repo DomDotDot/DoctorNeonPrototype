@@ -1,7 +1,7 @@
 label chapter4_5_boulevard_night:
 
     scene bg chapter_4_veritas_night_market with fade
-    play music "music/BGM/Veritas_Market_Lively.opus" loop
+    play music "music/BGM/EachSideDark.opus" loop
     play ambient "ambient/crowd_night_market.opus" loop
 
     narrator """
