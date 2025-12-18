@@ -86,3 +86,16 @@ transform dizzy_ghost_anim:
         ease 3.0 xoffset 40 yoffset 20 zoom 1.05
         xoffset 0 yoffset 0 zoom 1.0
         repeat
+
+
+# Трансформация искажения (Жар)
+transform heat_haze:
+    # Медленное волнообразное движение
+    parallel:
+        ease 2.0 xoffset 5
+        ease 2.0 xoffset -5
+        repeat
+    parallel:
+        ease 0.1 alpha 1.0
+        ease 0.1 alpha 0.95 # Легкое мерцание прозрачности
+        repeat
