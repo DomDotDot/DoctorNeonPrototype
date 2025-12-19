@@ -18,6 +18,8 @@ label chapter4_5_awakening_and_finale:
     """
     
     scene bg chapter_4_veritas_studio_fire with fade
+    show layer master:
+        matrixcolor TintMatrix("#ffaa80")
     
     narrator """
         Я с трудом села, кашляя. Мой взгляд метнулся в дальний угол.
