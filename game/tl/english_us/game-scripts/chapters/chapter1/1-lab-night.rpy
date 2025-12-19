@@ -214,7 +214,7 @@ translate english_us chapter1_lab_night_9aa3f189:
 translate english_us chapter1_lab_night_f416e238:
 
     # narrator "Маркус быстро открыл одну банку. Характерный пшик нарушил тишину лаборатории."
-    narrator "Marcus quickly opened one can. The characteristic *psssht* broke the lab's silence."
+    narrator "Marcus quickly opened one can. The characteristic psssht broke the lab's silence."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:83
 translate english_us chapter1_lab_night_75acc281:
