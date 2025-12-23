@@ -1,4 +1,4 @@
-# The Brightest Neon - Semitone Resonance
+# Блестящий Неон - Полутонный Резонанс
 
 ![Banner](image-assets/promo/promoassets/BNSR-Poster.jpg)
 
