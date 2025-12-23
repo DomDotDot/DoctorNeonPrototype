@@ -1,5 +1,8 @@
 # The Brightest Neon - Semitone Resonance
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.md)
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.ru.md)
+
 ![Banner](image-assets/promo/promoassets/BNSR-Poster.jpg)
 
 <!-- BADGES -->
