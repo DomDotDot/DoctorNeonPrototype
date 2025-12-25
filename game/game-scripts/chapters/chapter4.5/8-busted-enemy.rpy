@@ -15,7 +15,7 @@ label chapter4_5_akari_arrest:
     
     meryl "Они оцепят периметр. Мы идем с основной группой. Вы — наш главный свидетель, Неон. Просто держитесь рядом со мной."
 
-    show 4cg-1 with fade
+    show featured_4cg-1 with fade
     
     narrator "Мы вошли в здание. Чистильщики двигались быстро, слаженно, как единый организм. Ни одного лишнего звука."
     
@@ -25,7 +25,7 @@ label chapter4_5_akari_arrest:
     
     narrator "Взлом. Мы ворвались внутрь."
     
-    show 4cg-2 with fade
+    show featured_4cg-2 with fade
     
     narrator """
         В центре роскошной гостиной стояли они. Акари и Лили.
@@ -47,7 +47,7 @@ label chapter4_5_akari_arrest:
         Она не сопротивлялась. Просто уронила банку. Пчела зажужжала, ударяясь о стекло.
     """
 
-    show 4cg-3 with fade
+    show featured_4cg-3 with fade
 
     narrator """
         Когда ее уводили, она остановилась и посмотрела прямо на меня. Сверху вниз.
@@ -65,7 +65,7 @@ label chapter4_5_akari_arrest:
     
     neon "Лили? Все в порядке. Теперь ты в безопасности."
 
-    show 4cg-4 with fade
+    show featured_4cg-4 with fade
     
     narrator "Она подняла на меня заплаканные глаза. И вдруг бросилась ко мне, обвив руками и уткнувшись лицом мне в живот. Ее тело сотрясалось от рыданий."
     
@@ -79,7 +79,7 @@ label chapter4_5_akari_arrest:
     Я не знаю, как тебя благодарить!
     """
     
-    show 4cg-5 with dissolve
+    show featured_4cg-5 with dissolve
 
     neon """
     {=thoughts}Королева... как в улье. Значит, я была права насчет пчел.
@@ -167,7 +167,7 @@ label chapter4_5_akari_arrest:
 
     neon "{=thoughts}Она просто напугана. Ей нужно успокоиться.{/thoughts}"
 
-    show 4cg-5 with fade
+    show featured_4cg-5 with fade
 
     narrator "Она сжимала меня так крепко, что было трудно дышать. Я неловко похлопала ее по спине, пытаясь успокоить. Она немного отстраняется, но продолжает цепляться за мои руки, заглядывая в глаза"
     
@@ -185,7 +185,7 @@ label chapter4_5_akari_arrest:
     
     neon "Ты не виновата. Ты была напугана."
 
-    show 4cg-4 with dissolve
+    show featured_4cg-4 with dissolve
     
     lily """
     Я хотела доказать папе, что я лучше, что я сильнее него... Будто меня преследовала... зависть...

@@ -151,7 +151,7 @@ label chapter4_5_morning_after:
     
     narrator "Я села на переднее сиденье. Машина бесшумно тронулась."
 
-    show 2cg-1 with Fade(2.0, 0.5, 2.0)
+    show featured_2cg-1 with Fade(2.0, 0.5, 2.0)
     
     meryl """
     
@@ -162,7 +162,7 @@ label chapter4_5_morning_after:
     
     neon "Спасибо, Мэрил. Я..."
 
-    show 2cg-1 with Dissolve(0.25)
+    show featured_2cg-1 with Dissolve(0.25)
     
     meryl """
     Не благодари меня. Это сделка. Ты находишь того, кто это сделал, я обеспечиваю тебе прикрытие.
@@ -180,7 +180,7 @@ label chapter4_5_morning_after:
         Ее движения были отточенными, но пальцы слегка дрожали.
     """
 
-    show 2cg-3 with fade
+    show featured_2cg-3 with fade
     
     meryl """
     Держи голову прямо... Я... я всегда так по утрам помогала Саре.
@@ -441,7 +441,7 @@ label chapter4_5_classroom_intro:
         Я уже подходила к нужному коридору, когда из-за угла донеслись голоса. Я замерла, прижавшись к стене.
     """
 
-    show 3cg_2b with fade
+    show featured_3cg_2b with fade
     
     akari "Ну что, Лили-чан, ты готова увидеть мой маленький секрет? То, что я тебе обещала. Это тебе точно понравится."
     
@@ -527,7 +527,7 @@ label chapter4_5_classroom_intro:
     
     narrator "Черт! Я метнулась под массивный учительский стол, за мгновение до того, как в кабинет вошла Акари."
 
-    show 3cg-3 with fade
+    show featured_3cg-3 with fade
     
     narrator """
         Я видела ее ноги. Она подошла к металлическому шкафчику, набрала код.

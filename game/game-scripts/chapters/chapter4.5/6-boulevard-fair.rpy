@@ -26,7 +26,7 @@ label chapter4_5_boulevard_night:
 
     argon "Там. У витрины с джелато."
 
-    show 1cg-1 with dissolve
+    show featured_1cg-1 with dissolve
 
     narrator """
         Я проследила за его взглядом. Девушка в форме Академии, но поверх нее был намотан огромный, пышный красный шарф, скрывающий половину лица.
@@ -73,7 +73,7 @@ label chapter4_5_boulevard_night:
 
     narrator "Он рванул туда, не разбирая дороги. Я едва поспевала за ним."
 
-    show 1cg-2b with dissolve
+    show featured_1cg-2b with dissolve
     
     narrator """
         Это была маленькая площадь в стороне от основного потока, окруженная декоративными кустами. Уединенный уголок.
