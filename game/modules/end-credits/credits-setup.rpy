@@ -58,6 +58,7 @@ label credits_sequence(volume_id):
         $ duration = 120.0
         $ end_msg_offset = 10.0
         $ cg_time = 3.0
+        $ fade_time = 1.0
     
     # 2. СОЗДАЕМ АНИМАЦИЮ (Передаем список путей)
     # 3.0 сек показ, 1.0 сек растворение
