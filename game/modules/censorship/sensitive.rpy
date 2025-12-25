@@ -9,6 +9,6 @@
 
 # для CG
 image cg cg36-1 = ConditionSwitch(
-    "persistent.sensitive_mode", "images/cg/cg cg36-1a.avif",
-    "True", "images/cg/cg cg-36-1b.avif"
+    "persistent.sensitive_mode", "images/cg/vol1/cg cg36-1a.avif",
+    "True", "images/cg/vol1/cg cg-36-1b.avif"
 )
