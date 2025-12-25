@@ -7,7 +7,7 @@ label oganesson_school_flashback:
         # with vpunch # Легкая встряска, как будто воспоминание прорывается
 
         # play sound "sounds/flashback_swoosh_deep.opus"
-        show cg-6_1 with dissolve # Показываем пустой класс, вид со стороны ученика
+        scene cg-6_1 with dissolve # Показываем пустой класс, вид со стороны ученика
         play music "music/BGM/Realization.opus" fadein 1.5 # Новая, меланхоличная, давящая музыка
 
         narrator """
@@ -60,7 +60,7 @@ label oganesson_school_flashback:
         """
         # show bully1 curious at center
 
-        show cg-6_3 with dissolve
+        scene cg-6_3 with dissolve
 
         "Задира 1" "Слушай, а ты правда такая родилась? Или это прикол какой-то?"
 

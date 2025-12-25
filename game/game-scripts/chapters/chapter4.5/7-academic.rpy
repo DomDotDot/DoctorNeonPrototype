@@ -293,7 +293,7 @@ label chapter4_5_classroom_intro:
     Надеюсь, ты будешь более прилежной ученицей.
     """
 
-    show cg-36_2 with fade
+    scene cg-36_2 with fade
     
     narrator """
         Меня посадили на парту у окна. Место Кая Ито.

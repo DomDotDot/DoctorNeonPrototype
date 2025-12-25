@@ -1,6 +1,6 @@
 label chapter1_meeting_aftermath_hallway:
 
-        show cg-5_2 with fade
+        scene cg-5_2 with fade
         play music "music/BGM/Swell.opus" fadein 1.0 fadeout 5.0
         alex "Эй?! Неон?! Ты чего тут сидишь? Все нормально?"
 

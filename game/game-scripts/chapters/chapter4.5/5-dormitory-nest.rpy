@@ -148,8 +148,8 @@ label chapter4_5_dorm_investigation:
     
     narrator "Я включила фонарик на своем телефоне. Луч вырвал из темноты сцену, которая навсегда выжжется в моей памяти."
     
-    show cg-36-1 with Fade(0.125, 0.125, 1.5)
-    #show cg-36-1 as ghost_cg at dizzy_ghost_anim_light169
+    scene cg-36-1 with Fade(0.125, 0.125, 1.5)
+    #scene cg-36-1 as ghost_cg at dizzy_ghost_anim_light169
     
     narrator """
         На диване, в расслабленной, почти ленивой позе, сидела девушка в форме Академии. Сара Кендрик.

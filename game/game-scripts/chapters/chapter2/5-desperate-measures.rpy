@@ -32,7 +32,7 @@ label chapter2_act4_desperate_measures:
                 Она нашла кофейню под выцветшей вывеской 'Уют Дома'. Ничего уютного в ней не было.
                 """
 
-                show cg-13_1 with fade
+                scene cg-13_1 with fade
 
                 narrator """
                 Воздух был густым от запаха застарелого кофе, сигаретного дыма, въевшегося в обивку, и средства для мытья полов с резким запахом лимона.
@@ -118,7 +118,7 @@ label chapter2_act4_desperate_measures:
                 Это был ее шанс. Но теперь задача усложнилась.
                 """
 
-                show cg-13_2 with fade
+                scene cg-13_2 with fade
 
                 narrator """
                 Она скользнула обратно в темное кафе. Добралась до терминала бармена. Она знала, что у нее всего несколько минут, пока электричество в здании отключено.
@@ -138,7 +138,7 @@ label chapter2_act4_desperate_measures:
                 Она шла, не зная, ждет ли ее там помощь или ловушка. Но это был единственный путь.
                 """
 
-                show cg-14 with fade
+                scene cg-14 with fade
                 stop music fadeout 10.0
                 play ambient "ambient/wind-howly-ear.opus" fadein 5.0
                 narrator """

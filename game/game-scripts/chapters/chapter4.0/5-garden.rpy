@@ -1,6 +1,6 @@
 label chapter4_0_garden:
 
-    show cg-27_1 with Dissolve(5.0)
+    scene cg-27_1 with Dissolve(5.0)
     play music "music/BGM/FloraUndergrowth.opus" loop # Более меланхоличная версия ночной темы.
     # play ambient "ambient/city_night_distant_sirens.opus" loop
 
@@ -40,7 +40,7 @@ label chapter4_0_garden:
     Я не хотела возвращаться в пустую, холодную студию Аргона. Не сейчас. Мне нужно было подумать. Побыть одной. Осмыслить происходящее.
     """
 
-    show cg-27_2 with fade
+    scene cg-27_2 with fade
     stop ambient
     # play ambient "ambient/garden_night_crickets_water.opus" loop
 
@@ -63,7 +63,7 @@ label chapter4_0_garden:
     # === НАЧАЛО ФРАГМЕНТА СНА (3-dream-fragment.rpy) ===
     
     call dream_sequence_japan_3 from _call_dream_sequence_japan_3
-    show cg-27_2 with Dissolve(2.5)
+    scene cg-27_2 with Dissolve(2.5)
     # stop music fadeout 2.0
     $ renpy.music.set_volume(1.0, delay=2.0, channel='music')
     $ renpy.music.set_volume(1.0, delay=2.0, channel='ambient')

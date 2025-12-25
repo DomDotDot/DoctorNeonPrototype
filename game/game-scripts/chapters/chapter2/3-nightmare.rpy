@@ -30,7 +30,7 @@ label nightmare_sequence:
 
                 narrator "...и в тот момент, когда мои пальцы почти касаются ее, фигура резко разворачивается. Но это не Алекс."
 
-                show cg-11_1-1 with dissolve
+                scene cg-11_1-1 with dissolve
 
                 narrator "Это охранник. Его лицо – просто темное, пульсирующее пятно. Он хватает мою руку стальной хваткой."
                 # play sound "sounds/dream_grab_impact_heavy.opus"
@@ -63,7 +63,7 @@ label nightmare_sequence:
 
                 narrator "Она подходит ближе. Время замирает. Охранник, держащий меня, и Алекс, обвиняющая меня, застывают как статуи."
                 # stop sound
-                #show cg-11_1-2 with dissolve
+                #scene cg-11_1-2 with dissolve
 
                 narrator """
                 Фигура в темном пальто проходит мимо меня, не обращая внимания. Ее движения плавные, почти нечеловеческие.

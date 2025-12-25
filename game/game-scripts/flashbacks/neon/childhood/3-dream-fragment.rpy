@@ -5,7 +5,7 @@ label dream_sequence_japan_3:
     #play music "music/BGM/DreamIncidentTheme.opus" loop
     # scene japanese_garden_day_dream_tense with Dissolve(1.0) # Тот же сад, но теперь цвета приглушены, атмосфера напряженная
     # music "sounds/dream_incident_theme.opus" loop
-    show cg-28_1 with Dissolve(5.0)
+    scene cg-28_1 with Dissolve(5.0)
     narrator """
     'Мама обидела тетю. Надо ее утешить'. Эта мысль кажется мне единственно правильной. Она простая и чистая.
     
@@ -39,7 +39,7 @@ label dream_sequence_japan_3:
     На мгновение мы обе застываем. Я, с пустой рукой, и она, с рукой, замершей в воздухе.
     """
 
-    show cg-28_4 with Dissolve(0.125)
+    scene cg-28_4 with Dissolve(0.125)
 
     narrator """
     Тетя отшатнулась, как от удара невидимой волны. Она смотрит на свои дрожащие пальцы, потом на мою пустую ладонь, потом мне в глаза.
@@ -59,7 +59,7 @@ label dream_sequence_japan_3:
     Ее голос звучит тихо, почти безэмоционально, будто она говорит сама с собой.
     """
     
-    show cg-28_5 with fade
+    scene cg-28_5 with fade
 
     oganesson_young "Твоя мать... она пользуется тобой неправильно..."
     # play sound "sounds/dream_flower_disintegrate_silence_wave.opus" # Звук распада цветка

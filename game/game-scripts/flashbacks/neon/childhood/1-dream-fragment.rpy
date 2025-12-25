@@ -42,7 +42,7 @@ label dream_sequence_japan_1:
                 narrator "Мы сидим вместе, мама, папа, тетя и я. Пьем чай, едим фрукты. Я чувствую себя счастливой. Здесь нет страха, нет боли. Только тепло и любовь."
 
                 # Появление "Странных Гостей" и изменение атмосферы
-                show cg-16 with fade
+                scene cg-16 with fade
                 stop music fadeout 15.0
                 queue music "music/BGM/MoonAndDeath.opus" noloop fadein 2.5 volume 0.125
                 # stop sound # Резко обрывается звук цикад

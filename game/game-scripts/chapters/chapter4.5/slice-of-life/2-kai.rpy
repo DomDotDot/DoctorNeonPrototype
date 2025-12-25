@@ -17,7 +17,7 @@ label chapter4_5_kai_ito_interlude:
     Вот, например, она.
     """
 
-    show cg-36_1 with dissolve
+    scene cg-36_1 with dissolve
 
     narrator """
 
@@ -45,7 +45,7 @@ label chapter4_5_kai_ito_interlude:
     Учительница, Акари-сенсей, что-то монотонно рассказывала про социальные структуры насекомых. Скука.
     """
 
-    show cg-36_2 with fade
+    scene cg-36_2 with fade
 
 
     narrator """

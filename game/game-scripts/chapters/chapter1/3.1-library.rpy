@@ -20,7 +20,7 @@ label chapter1_lab_noon_library:
         Белый, как неизвестность, которую ей предстояло заполнить словами.
         """
 
-        show cg-2_1 with dissolve
+        scene cg-2_1 with dissolve
         # play sound "sounds/pen_uncap.opus" # Звук снятия колпачка с ручки
 
         narrator "Она сняла колпачок с ручки. Чернила на кончике выглядели блекло."
