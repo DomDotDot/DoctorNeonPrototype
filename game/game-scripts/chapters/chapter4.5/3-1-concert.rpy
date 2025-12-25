@@ -285,7 +285,7 @@ label chapter4_5_concert_start:
     $ renpy.music.set_volume(1.0, delay=0.5, channel="music")
 
     stop music fadeout 2.0
-    show cg-31_4 with dissolve
+    show featured_cg-31_4 with dissolve
 
     play sound "sfx/crowd-fan-clap2.opus" fadein 1.5
     play ambient "sfx/crowd-fan-clap1.opus" noloop fadein 1.5

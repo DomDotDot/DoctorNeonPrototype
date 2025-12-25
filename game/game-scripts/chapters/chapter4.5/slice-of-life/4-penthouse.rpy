@@ -5,7 +5,6 @@ label chapter4_5_seraphina_penthouse:
     
     # Звуки города, приглушенные толстым стеклом. Тиканье дорогих часов.
     play ambient "ambient/penthouse_night_silence.mp3" fadein 2.0
-    scene bg chapter_4_seraphina_penthouse_night with dissolve
 
     narrator """
         Роскошная комната была погружена в полумрак. Единственным светом были огни ночного Веритаса за панорамным стеклом.
@@ -15,7 +14,7 @@ label chapter4_5_seraphina_penthouse:
         Она смотрела на город, но её взгляд был расфокусирован. Она слушала что-то, чего не было в комнате.
     """
 
-    show seraphina neutral2 at center with dissolve
+    show 5cg-1 with fade
 
     seraphina "Её поймали...?"
     
@@ -26,7 +25,7 @@ label chapter4_5_seraphina_penthouse:
 
         Ну... когда-нибудь это должно было случиться.
         
-        Я ведь говорила ей: 'Не заигрывайся в энтомолога, милая'.
+        Я ведь говорила ей: 'Не заигрывайся в докторшу, милая'.
         
         Но кто слушает звезду, когда она не на сцене. Да?
         
@@ -37,13 +36,12 @@ label chapter4_5_seraphina_penthouse:
 
     seraphina "Фу, как вы это вообще пъете?"
 
-    seraphina looking-away "Ну и ладно. Шоу должно продолжаться, верно? Даже если статисты падают замертво."
+    seraphina "Ну и ладно. Шоу должно продолжаться, верно? Даже если статисты падают замертво."
 
     narrator "Она прикладывает палец к виску, словно слушая наушник."
         
     seraphina "Слышишь, моя дорогая 'Я'? У нас вакансия открыта. Есть ли кандидаты на замену Акари?"
     
-
     narrator "Она прислушалась. И вдруг замерла. Вино пошло не в то горло."
 
     # play sound "sfx/choke_cough.mp3"
@@ -56,6 +54,7 @@ label chapter4_5_seraphina_penthouse:
     Серафина встает, начиная расхаживать по комнате, жестикулируя.
     """
     
+    show 5cg-2 with fade
 
     seraphina envious2 """
         Опять она! Опять эта... невыносимая, упрямая... и.. великолепная дура!
@@ -86,9 +85,19 @@ label chapter4_5_seraphina_penthouse:
     seraphina flustered """
         Ненавижу... Ненавижу-ненавижу-НЕНАВИЖУ ЭТО ЧУВСТВО
         
-        Почему ты не хочешь меня любить, Неон?! Я же дала тебе всё! Билет! Цветок! Мое внимание!
+        Почему ты не хочешь меня любить, Неон?!
         
-        Я — Серафина! Меня любят миллионы! А ты... ты смотришь на меня как на пустое место!
+        Я же дала тебе всё!
+        
+        Билет!
+
+        Цветок!
+
+        Мое внимание!
+        
+        Я — Серафина! Меня хотят и любят миллионы! А ты...
+
+        Ты смотришь на меня как на пустое место!
     """
     
     narrator """
@@ -100,6 +109,8 @@ label chapter4_5_seraphina_penthouse:
 
     Проводя пальцем по 'щеке' отражения, она зашептала с пугающей нежностью.
     """
+
+    show 5cg-3 with fade
 
     seraphina """
         Ну Неон... ну почему ты такая сложная?
@@ -132,9 +143,11 @@ label chapter4_5_seraphina_penthouse:
     """
     
     "Командир" "Чисто! Вижу цель! Лежать! Руки за голову!"
+
+    show 5cg-4 with fade
     
     narrator """
-        Серафина медленно повернулась к ним. Вспышка растрепала её волосы, но она лишь картинно поправила прядь.
+        Серафина медленно повернулась к ним. Вспышка растрепала её волосы, но она лишь характерно поправила прядь.
         
         Она не закрывала глаза от вспышки. Она даже не моргнула.
         
@@ -162,23 +175,30 @@ label chapter4_5_seraphina_penthouse:
     Знаете что? Сделайте мне одолжение...
     """
 
-    scene black with fade
+    show 5cg-5 with Dissolve(2.0)
 
-    seraphina "...Застрелите друг друга! Ради меня... Ну пожалуйста~?"
-
-    show cg chapter_4_seraphina_swat:
+    show 5cg-5:
         #function ripple_effect
         # Просто тряска и блюр
         parallel:
-            linear 0.1 xoffset 2
-            linear 0.1 xoffset -2
+            easein_quint 0.2 xoffset 1 yoffset -1
+            easein_quint 0.2 xoffset -1 yoffset 1
             repeat
         parallel:
-            linear 0.5 blur 5
+            linear 0.5 blur 2
             linear 0.5 blur 0
             repeat
 
+    seraphina """
+    ...Застрелите друг друга!
+    
+    Ради меня... Ну пожалуйста~?
+    """
+
+
     # play sound "sfx/gunshot_burst_multiple.mp3" fadeout 2.0
+
+    scene black with dissolve
     
     narrator """
     ...
