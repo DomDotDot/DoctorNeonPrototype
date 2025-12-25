@@ -16,7 +16,7 @@ label dream_sequence_japan_5:
         Я тихонько выползла в коридор и выглянула в сад.
     """
 
-    show cg cg_murder_memory with dissolve 
+    show cg-_murder_memory with dissolve 
 
     akane "А-а-ах!!!"
 

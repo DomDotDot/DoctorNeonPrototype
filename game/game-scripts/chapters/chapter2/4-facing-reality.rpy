@@ -73,7 +73,7 @@ label chapter2_act3_facing_reality:
                 
                 Она увидела свет в окне небольшого магазина. 'Газеты, журналы, табак'. Единственное работающее заведение на всей улице.
                 """
-                show cg cg12_1-1 with fade
+                show cg-12_1-1 with fade
                 narrator "Внутри, под потолком, висел старый, пузатый телевизор, по которому шли утренние новости. Неон замерла у витрины, вглядываясь в экран. Что-то заставило ее остановиться."
                 narrator "Голос диктора звучал глухо, приглушенно, словно издалека, но она отчетливо слышала каждое слово."
                 # play sound "sounds/tv_news_broadcast_muffled.opus" # Приглушенный звук новостей
@@ -83,7 +83,7 @@ label chapter2_act3_facing_reality:
                 narrator "На экране появилось ее лицо – фотография из личного дела. А рядом – фоторобот."
                 narrator "И тут же, следом, показали еще одну фотографию какой-то девушки со светлыми кудрявыми волосами."
 
-                show cg cg12_1 with dissolve
+                show cg-12_1 with dissolve
 
                 "Диктор" """
                 ...также ведутся поиски ее возможной сообщницы, Александры Вайт, сотрудницы архивного отдела, которая пропала с территории комплекса в то же время.
@@ -103,7 +103,7 @@ label chapter2_act3_facing_reality:
                 """
 
                 # play sound "sfx/heartbeat_panic.opus" loop
-                show cg cg12_2 with dissolve
+                show cg-12_2 with dissolve
 
                 narrator "Она отшатнулась от витрины, задыхаясь. Воздуха не хватало. Она оперлась рукой о холодное, влажное стекло, пытаясь устоять на ногах. Ее взгляд упал на свое же отражение."
 
@@ -219,7 +219,7 @@ label chapter2_act3_facing_reality:
 
                 play music "music/BGM/DyingWishPiano.opus" fadein 10.0 fadeout 0.5 noloop
                 show neon dazed
-                show cg cg12_1 with Dissolve(0.25)
+                show cg-12_1 with Dissolve(0.25)
 
                 narrator_nvl """
                 Прошлое - это ложь. {w=0.5} {nw}

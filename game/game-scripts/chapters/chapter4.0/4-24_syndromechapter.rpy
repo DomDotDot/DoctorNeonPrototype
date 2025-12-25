@@ -1,6 +1,6 @@
 label chapter4_0_24syndrome:
 
-    show cg cg26_1 with fade
+    show cg-26_1 with fade
     play music "music/BGM/FirstTheme.opus" fadein 5.0 fadeout 5.0
     # play ambient "ambient/city-night-quiet.opus" loop fadein 10.0 fadeout 10.0
 
@@ -18,7 +18,7 @@ label chapter4_0_24syndrome:
     Я шла несколько часов. Наконец, я увидела его. 'The Celeste Plaza'. Огромная башня из темного стекла и стали, устремленная в беззвездное ночное небо. Ее название светилось мягким, голубым неоном.
     """
 
-    show cg cg26_2 with fade
+    show cg-26_2 with fade
 
     narrator """
     Это было место, где возможно жила Селестия. Элитный жилой комплекс для самых богатых и влиятельных. Если моя гипотеза верна, то она действительно была популярной.
@@ -31,7 +31,7 @@ label chapter4_0_24syndrome:
     neon "{=thoughts}План А: просто спросить. Шанс почти нулевой, но это отправная точка."
     narrator "Я поправила галстук, придала лицу максимально деловой и уверенный вид и решительно шагнула к входу."
 
-    show cg cg26_3 with fade
+    show cg-26_3 with fade
     
     # play sound "sfx/sliding_glass_door_open.opus"
     narrator "Двери бесшумно разъехались. Внутри было тихо и прохладно. Консьерж, мужчина средних лет с безупречной прической, поднял на меня бровь."
@@ -53,7 +53,7 @@ label chapter4_0_24syndrome:
     neon "{=thoughts}План Б: получить номер квартиры и найти способ попасть внутрь без прямого контакта."
     
     # play sound "sfx/sliding_glass_door_close.opus"
-    show cg cg26_2 with fade
+    show cg-26_2 with fade
 
     narrator """
     Я вышла обратно на улицу. Щеки горели. План А провалился с треском.
@@ -95,7 +95,7 @@ label chapter4_0_24syndrome:
 
     narrator "У меня был номер. У меня была цель. Я дождалась, пока курьер уедет, и, собрав всю свою решимость, направилась к главному входу."
     
-    show cg cg26_4 with fade
+    show cg-26_4 with fade
 
     narrator "Консьерж стоял у телефонного аппарата, когда я тихонько вошла. Он стоял спиной, разговаривая, не замечая меня."
     "Консьерж" "Алло? Да, это 'The Celeste Plaza'. Да, снова доставка для 'Селестии'."
@@ -104,7 +104,7 @@ label chapter4_0_24syndrome:
     narrator "Его голос прозвучал за моей спиной, но я уже была в другой комнате."
     narrator "Я просто подошла к панели лифтов и нажала кнопку вызова. Лифт прибыл. Я вошла внутрь. Семнадцатый этаж."
 
-    show cg cg26_5 with fade
+    show cg-26_5 with fade
     play music "music/BGM/OneWayTrip.opus" fadein 1.0 fadeout 5.0 noloop
 
     neon "Интересно... что сказать Селестии?"

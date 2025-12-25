@@ -1,6 +1,6 @@
 label chapter1_lab_noon_library_desk:
 
-        show cg cg2_3 with dissolve
+        show cg-2_3 with dissolve
         # play sound "sounds/paper_rustle.opus" # Звук перелистывания заметок
 
         narrator """
@@ -42,11 +42,11 @@ label chapter1_lab_noon_library_desk:
         Частичные осколки прошлого мимолетно пролетают перед её глазами, но их недостаточно, чтобы составить полноценную картину.
         """
 
-        show cg cg2_4 with dissolve
+        show cg-2_4 with dissolve
 
         narrator "Неон глубоко вздохнула, отгоняя холодные тени прошлого. Она здесь. Она вырвалась. И она нашла... не ответ, нет, а первый ключ к разгадке."
 
-        show cg cg2_4 with dissolve
+        show cg-2_4 with dissolve
         # play sound "sounds/pen_tap.opus" # Звук постукивания ручкой по столу
 
         narrator """
@@ -84,7 +84,7 @@ label chapter1_lab_noon_library_desk:
         narrator "Искусственном. Созданном. Не хаотичном. Это было ключевое слово. Ее оправдание. Ее спасение."
 
 
-        show cg cg2_5 with dissolve
+        show cg-2_5 with dissolve
 
         narrator """
         Она обвела эту фразу несколько раз. Ключевой момент.

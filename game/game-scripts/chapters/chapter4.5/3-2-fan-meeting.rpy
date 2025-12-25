@@ -68,7 +68,7 @@ label chapter4_5_concert_mid:
         Я подошла к неработающему эскалатору и осторожно спустилась вниз по его ступеням…
     """
     
-    show cg cg32_1 with fade
+    show cg-32_1 with fade
 
     narrator """
         Я не стала подходить близко. Мысль о том, чтобы втиснуться в эту восторженную толпу, вызывала у меня почти физический дискомфорт
@@ -91,7 +91,7 @@ label chapter4_5_concert_mid:
     narrator "Ее отвлек восторженный голос одной из фанаток."
 
     stop ambient fadeout 10.0
-    show cg cg32_2 with { "master" : Dissolve(80.0) }
+    show cg-32_2 with { "master" : Dissolve(80.0) }
     play music "music/BGM/TenderHearts.opus" fadein 10.0
 
     "Фанатка 1" "Серафина, ты была просто невероятна! Я плакала на сегодняшнем выступлении!"
@@ -198,7 +198,7 @@ label chapter4_5_concert_mid:
 
     seraphina neutral "А теперь, мои хорошие, как я и обещала... фото на память!"
 
-    show cg cg32_3 with dissolve
+    show cg-32_3 with dissolve
     
     narrator """
         Девушки восторженно закричали. Серафина встала в центре, а они сгрудились вокруг нее.
@@ -249,7 +249,7 @@ label chapter4_5_concert_mid:
         А затем, решив, что спектакль окончен, она спрыгнула c невысокого подиума вниз.
     """
 
-    show cg cg32_4 with fade
+    show cg-32_4 with fade
     play music "music/BGM/NarcissismShort.opus" fadein 10.0 fadeout 10.0
     
     # play sound "sfx/light_jump_heels.opus"
@@ -312,7 +312,7 @@ label chapter4_5_concert_mid:
         Теперь я поняла. В саду пахло не цветами. В саду пахло ею.
     """
     
-    show cg cg32_5 with fade
+    show cg-32_5 with fade
     narrator """
         Ее улыбка медленно угасла, сменившись выражением хищного, почти собственнического удовольствия.
         

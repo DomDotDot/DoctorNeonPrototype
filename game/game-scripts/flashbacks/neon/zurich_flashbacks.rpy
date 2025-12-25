@@ -1,7 +1,7 @@
 label zurich_university_flashback:
        
         # play sound "sounds/flashback_swoosh.opus" # Звук перехода во флешбэк
-        show cg cg3_1 with dissolve
+        show cg-3_1 with dissolve
         # music "sounds/student_years_theme.opus" loop fadein 1.0 # Музыка для воспоминаний
 
         narrator """

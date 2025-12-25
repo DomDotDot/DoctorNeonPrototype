@@ -9,7 +9,7 @@ label car_start_sequence:
         """
         # play sound "sounds/car_door_open_slam.opus" # Звук открытия и захлопывания двери
 
-        show cg cg7_1 with fade
+        show cg-7_1 with fade
         narrator """
         В салоне пахло ее духами с нотками бергамота и чем-то еще – едва уловимым запахом старой бумаги от научных журналов, которые она часто возила с собой.
 

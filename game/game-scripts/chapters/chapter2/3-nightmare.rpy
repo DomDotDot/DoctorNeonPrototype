@@ -30,7 +30,7 @@ label nightmare_sequence:
 
                 narrator "...и в тот момент, когда мои пальцы почти касаются ее, фигура резко разворачивается. Но это не Алекс."
 
-                show cg cg11_1-1 with dissolve
+                show cg-11_1-1 with dissolve
 
                 narrator "Это охранник. Его лицо – просто темное, пульсирующее пятно. Он хватает мою руку стальной хваткой."
                 # play sound "sounds/dream_grab_impact_heavy.opus"
@@ -63,7 +63,7 @@ label nightmare_sequence:
 
                 narrator "Она подходит ближе. Время замирает. Охранник, держащий меня, и Алекс, обвиняющая меня, застывают как статуи."
                 # stop sound
-                #show cg cg11_1-2 with dissolve
+                #show cg-11_1-2 with dissolve
 
                 narrator """
                 Фигура в темном пальто проходит мимо меня, не обращая внимания. Ее движения плавные, почти нечеловеческие.
@@ -86,7 +86,7 @@ label nightmare_sequence:
                 Причинять боль тем, кто рядом.
                 """
 
-                show cg cg11_2 with dissolve
+                show cg-11_2 with dissolve
 
                 narrator """
                 Она делает легкое, почти ленивое движение катаной. Меч со свистом рассекает воздух.
@@ -101,7 +101,7 @@ label nightmare_sequence:
                 Она медленно делает шаг ко мне, Ее голос становится вкрадчивым, почти заботливым, но от этой 'заботы' становится только страшнее.
                 """
 
-                show cg cg11_3-1 with fade
+                show cg-11_3-1 with fade
 
                 unknown_f """
                 Забудь о них, дитя. 

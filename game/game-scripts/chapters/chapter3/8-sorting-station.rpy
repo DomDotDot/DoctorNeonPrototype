@@ -19,7 +19,7 @@ label chapter3_the_heist_start:
     narrator "Дверь с тяжелым, протестующим скрипом отъехала в сторону, открывая темное, пахнущее пылью и химией нутро."
     # play sound "sounds/wagon_door_slide_heavy.opus"
 
-    show cg cg19 with fade # Фон: темный интерьер вагона
+    show cg-19 with fade # Фон: темный интерьер вагона
     narrator "Рико включил фонарик, его луч выхватил из темноты ряды больших металлических контейнеров, помеченных какими-то символами."
     # play sound "sounds/flashlight_click_on.opus"
     rico "Вот этот. 'Доктор', твой выход. У тебя пять минут."
@@ -77,7 +77,7 @@ label chapter3_escape:
     argon "С другой стороны! Давай!"
 
     narrator "Мы подползли к противоположной двери вагона. Борис с огромным усилием сдвинул ее ровно настолько, чтобы мы могли выскользнуть."
-    show cg cg20_1 with fade
+    show cg-20_1 with fade
     # play sound "sounds/wagon_door_slide_struggle.opus"
     narrator "Мы выпрыгнули наружу, в темноту, подальше от света прожекторов, и побежали. Побежали вдоль железнодорожных путей, спотыкаясь о шпалы и камни."
     
@@ -92,7 +92,7 @@ label chapter3_escape:
     """
     # play sound "sounds/body_fall_heavy_gravel.opus"
     # play sound "sounds/argon_pain_grunt.opus"
-    show cg cg20_2 with dissolve
+    show cg-20_2 with dissolve
     narrator "Лучи фонарей преследователей заплясали на рельсах, приближаясь."
     argon "Беги, Неон! Не останавливайся! Уходи!"
 
@@ -133,7 +133,7 @@ label chapter3_escape:
 
 label chapter3_revelation:
 
-    show cg cg20_3 with fade
+    show cg-20_3 with fade
     # play sound "sounds/pursuers_approaching_both_sides.opus" loop # Звуки приближающихся с двух сторон преследователей
 
     narrator """

@@ -17,7 +17,7 @@ label chapter4_5_kai_ito_interlude:
     Вот, например, она.
     """
 
-    show cg cg36_1 with dissolve
+    show cg-36_1 with dissolve
 
     narrator """
 
@@ -45,7 +45,7 @@ label chapter4_5_kai_ito_interlude:
     Учительница, Акари-сенсей, что-то монотонно рассказывала про социальные структуры насекомых. Скука.
     """
 
-    show cg cg36_2 with fade
+    show cg-36_2 with fade
 
 
     narrator """
@@ -58,7 +58,7 @@ label chapter4_5_kai_ito_interlude:
     Внезапно я чувствую на себе взгляд. Ледяной, пронизывающий. 
     """
 
-    show cg cg36_3 with dissolve
+    show cg-36_3 with dissolve
 
     narrator """
     Лили. Она смотрит прямо на меня. Не на меня, а в меня.
