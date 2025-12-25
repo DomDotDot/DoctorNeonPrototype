@@ -36,7 +36,7 @@ init python:
     # condition_var="chapter_1_unlocked" означает, что глава появится, 
     # только если persistent.chapter_1_unlocked == True
     
-    add_chapter("start", _("Глава 0"), _("Пролог"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_0_unlocked")
+    #add_chapter("start", _("Глава 0"), _("Пролог"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_0_unlocked")
     add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/backgrounds/bg chapter_1_lab_corridor_1.avif", "chapter_1_unlocked")
     add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/backgrounds/bg chapter_2_false_memories-alex_call.avif", "chapter_2_unlocked")
     add_chapter("chapter_3", _("Глава 3"), _("Эскапизм"), "images/backgrounds/bg chapter_3_sorting-station-start.avif", "chapter_3_unlocked")
@@ -45,7 +45,7 @@ init python:
     add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_academy-veritas-central.avif", "chapter_4_5b_unlocked")
 
     # ДЛЯ ТЕСТА: Раскомментируй строку ниже, чтобы открыть 1 главу сразу
-default persistent.chapter_0_unlocked = True
+default persistent.chapter_1_unlocked = True
 
 
 

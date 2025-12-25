@@ -1,6 +1,7 @@
 init python:
-    def get_images_from_dir(folder_path):
-        img_list = []
+    def get_images_from_dir(folder_path, featured_prefix="featured_"):
+        all_images = []
+        featured_images = []
         
         if not folder_path.endswith("/"):
             folder_path += "/"
@@ -8,11 +9,40 @@ init python:
         for file in renpy.list_files():
             if file.startswith(folder_path):
                 if file.lower().endswith(('.png', '.jpg', '.jpeg', '.avif', '.webp')):
-                    img_list.append(file)
+                    if featured_prefix and featured_prefix in file:
+                        featured_images.append(file)
+                    all_images.append(file)
+        
+        # Сортируем оба списка
+        all_images.sort()
+        featured_images.sort()
+        
+        return featured_images, all_images
         
         # Сортируем по имени (чтобы cg1 шло перед cg2)
         img_list.sort()
         return img_list
+
+    # --- ВОТ ИСПРАВЛЕННАЯ ФУНКЦИЯ АНИМАЦИИ ---
+    def create_slideshow(images, slide_time, fade_time=1.0):
+        # Если картинок нет - пустота
+        if not images:
+            return Null()
+        
+        # Если картинка одна - просто возвращаем её (анимация не нужна)
+        if len(images) == 1:
+            return images[0]
+
+        # Собираем аргументы для TransitionAnimation
+        # Порядок должен быть строго: Картинка, Пауза, Переход...
+        args = []
+        for img in images:
+            args.append(img)          # 1. Что показываем
+            args.append(slide_time)   # 2. Сколько висит картинка (сек)
+            args.append(Dissolve(fade_time)) # 3. С каким эффектом меняется на СЛЕДУЮЩУЮ
+            
+        # Создаем анимацию. Она сама зациклится.
+        return anim.TransitionAnimation(*args)
 
 # ---------------------------------------------
 # ТРАНСФОРМАЦИИ (Анимация)
@@ -48,28 +78,9 @@ transform thanks_appear(wait_time):
 # ЭКРАН ТИТРОВ
 # ---------------------------------------------
 
-screen end_credits(credits_list, image_list, track_duration, end_msg_offset, cg_time):
+screen end_credits(credits_list, slideshow_obj, track_duration, end_msg_offset):
+
     modal True
-
-    # --- ЛОГИКА ДВОЙНОГО СЛАЙДШОУ ---
-    # idx_back - картинка, которая уже показана (фон)
-    # idx_front - картинка, которая сейчас будет появляться (верхний слой)
-    
-    default idx_back = 0
-    default idx_front = 0
-    default timer_seed = 0 
-
-    # Таймер срабатывает каждые cg_time секунды
-    # 1. Мы копируем "переднюю" картинку на "задний план" (чтобы она осталась видна)
-    # 2. Мы выбираем новую "переднюю" картинку
-
-    if len(image_list) > 1:
-        timer cg_time repeat True action [
-            SetScreenVariable("idx_back", idx_front),                     # Текущую переднюю кидаем назад
-            SetScreenVariable("idx_front", (idx_front + 1) % len(image_list)), # Выбираем следующую вперед
-            SetScreenVariable("timer_seed", timer_seed + 1)               # Обновляем зерно уникальности
-        ]
-    
     
     # Логика пропуска (Клик или Пробел)
     key "dismiss" action Return("skipped")
@@ -118,26 +129,11 @@ screen end_credits(credits_list, image_list, track_duration, end_msg_offset, cg_
         xalign 0.9
         yalign 0.4
 
-        # Контейнер фиксированного размера для картинок
-        fixed:
-            xsize 960 
-            ysize 540
-            
-            if len(image_list) > 0:
-                # 1. ЗАДНИЙ СЛОЙ (Предыдущая картинка)
-                # Она просто висит статично, чтобы не было "черной дыры" при смене
-                add image_list[idx_back]:
-                    size (960, 540)
-                
-                # 2. ПЕРЕДНИЙ СЛОЙ (Новая картинка)
-                # Она появляется поверх старой с анимацией
-                # id "slide_..." нужен, чтобы RenPy понял, что это новый объект и перезапустил анимацию
-                add image_list[idx_front]:
-                    size (960, 540)
-                    at slideshow_dissolve 
-                    id "slide_[idx_front]_[timer_seed]" 
-            else:
-                null
+        add slideshow_obj:
+            size (960, 540)
+            xalign 0.5
+            yalign 0.5
+
 
     # --- ФИНАЛЬНАЯ НАДПИСЬ ---
     # Появляется за end_msg_offset секунд до конца
