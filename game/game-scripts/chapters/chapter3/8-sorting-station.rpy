@@ -92,7 +92,7 @@ label chapter3_escape:
     """
     # play sound "sounds/body_fall_heavy_gravel.opus"
     # play sound "sounds/argon_pain_grunt.opus"
-    show cg-20_2 with dissolve
+    show featured_cg-20_2 with dissolve
     narrator "Лучи фонарей преследователей заплясали на рельсах, приближаясь."
     argon "Беги, Неон! Не останавливайся! Уходи!"
 
@@ -133,7 +133,7 @@ label chapter3_escape:
 
 label chapter3_revelation:
 
-    show cg-20_3 with fade
+    show featured_cg-20_3 with fade
     # play sound "sounds/pursuers_approaching_both_sides.opus" loop # Звуки приближающихся с двух сторон преследователей
 
     narrator """

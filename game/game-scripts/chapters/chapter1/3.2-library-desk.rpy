@@ -84,7 +84,7 @@ label chapter1_lab_noon_library_desk:
         narrator "Искусственном. Созданном. Не хаотичном. Это было ключевое слово. Ее оправдание. Ее спасение."
 
 
-        show cg-2_5 with dissolve
+        show featured_cg-2_5 with dissolve
 
         narrator """
         Она обвела эту фразу несколько раз. Ключевой момент.

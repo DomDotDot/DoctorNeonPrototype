@@ -86,7 +86,7 @@ label nightmare_sequence:
                 Причинять боль тем, кто рядом.
                 """
 
-                show cg-11_2 with dissolve
+                show featured_cg-11_2 with dissolve
 
                 narrator """
                 Она делает легкое, почти ленивое движение катаной. Меч со свистом рассекает воздух.
@@ -101,7 +101,7 @@ label nightmare_sequence:
                 Она медленно делает шаг ко мне, Ее голос становится вкрадчивым, почти заботливым, но от этой 'заботы' становится только страшнее.
                 """
 
-                show cg-11_3-1 with fade
+                show featured_cg-11_3-1 with fade
 
                 unknown_f """
                 Забудь о них, дитя. 

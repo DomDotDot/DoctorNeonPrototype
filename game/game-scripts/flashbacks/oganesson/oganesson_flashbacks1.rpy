@@ -29,7 +29,7 @@ label oganesson_school_flashback:
 
         $ oganesson_display_name = "Опекунша"
         
-        show cg-6_2 with dissolve
+        show featured_cg-6_2 with dissolve
 
         headteacher "Я понимаю, мода, самовыражение... но девочка очень выделяется. Это создает... напряжение в коллективе. Провоцирует других детей на, скажем так, нездоровый интерес."
 

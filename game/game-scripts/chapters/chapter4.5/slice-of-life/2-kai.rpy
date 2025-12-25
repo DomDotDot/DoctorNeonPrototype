@@ -58,7 +58,7 @@ label chapter4_5_kai_ito_interlude:
     Внезапно я чувствую на себе взгляд. Ледяной, пронизывающий. 
     """
 
-    show cg-36_3 with dissolve
+    show featured_cg-36_3 with dissolve
 
     narrator """
     Лили. Она смотрит прямо на меня. Не на меня, а в меня.

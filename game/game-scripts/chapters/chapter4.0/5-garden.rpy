@@ -90,7 +90,7 @@ label chapter4_0_garden_dialogue:
     neon "{=thoughts}Уже ночь! Кто вообще в такое время в саду..?"
     hide neon
 
-    show cg-27_3 with Fade(2.5, 0.5, 1.0)
+    show featured_cg-27_3 with Fade(2.5, 0.5, 1.0)
     
     narrator """
     Я обернулась. И увидела ее. Девушка, казалось, была соткана из лунного света.
@@ -310,7 +310,7 @@ label chapter4_0_garden_dialogue:
 
     narrator "И она, словно энергичный вихрь, исчезла в тенях сада, оставив за собой лишь брошенную лейку и тонкий аромат духов."
 
-    show cg-29 with fade
+    show featured_cg-29 with fade
     
     narrator """
     А я осталась одна, сжимая в одной руке билет, в другой — холодный цветок.

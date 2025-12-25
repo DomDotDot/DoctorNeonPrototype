@@ -1,6 +1,6 @@
 label chapter4_5_akari_arrest:
 
-    scene bg chapter_4_veritas_akari_apartment_exterior with fade
+    scene bg chapter_4-5 plaza entrance with fade
     play music "music/BGM/Veritas_SWAT_Theme.opus" loop
 
     narrator """

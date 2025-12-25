@@ -121,7 +121,7 @@ label chapter1_lab_noon:
         hans "Удачи!"
         neon "Спасибо!"
 
-        show cg-1 with dissolve
+        show featured_cg-1 with dissolve
         pause(2.5)
         scene bg chapter_1_lab_cafeteria with Fade(1.0, 0, 1.0)
 

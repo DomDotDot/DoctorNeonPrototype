@@ -97,7 +97,7 @@ label escaping_facility_grounds:
         narrator "Машина неуправляемо покатилась вниз, подпрыгивая на кочках, ветки кустов хлестали по лобовому стеклу. Неон отчаянно крутила руль, пытаясь не перевернуться."
         # play sound "sounds/car_rolling_down_hill_branches.opus"
 
-        show cg-7_8 with fade
+        show featured_cg-7_8 with fade
         narrator """
         Сзади, с территории комплекса, эхом доносились какие-то короткие, злые хлопки. Фейерверки?
         
@@ -117,7 +117,7 @@ label escaping_facility_grounds:
         """
         # play sound "sounds/car_final_thump_onto_road_heavy.opus" # Более тяжелый звук падения на дорогу
         # play sound "sounds/truck_engine_close_monstrous_roar.opus" # Рев двигателя фуры как рев монстра
-        show cg-7_9 with fade
+        show featured_cg-7_9 with fade
         narrator """
         Два безжалостных глаза-прожектора впились в нее, парализуя волю.
         

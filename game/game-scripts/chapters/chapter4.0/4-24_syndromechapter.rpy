@@ -104,7 +104,7 @@ label chapter4_0_24syndrome:
     narrator "Его голос прозвучал за моей спиной, но я уже была в другой комнате."
     narrator "Я просто подошла к панели лифтов и нажала кнопку вызова. Лифт прибыл. Я вошла внутрь. Семнадцатый этаж."
 
-    show cg-26_5 with fade
+    show featured_cg-26_5 with fade
     play music "music/BGM/OneWayTrip.opus" fadein 1.0 fadeout 5.0 noloop
 
     neon "Интересно... что сказать Селестии?"
