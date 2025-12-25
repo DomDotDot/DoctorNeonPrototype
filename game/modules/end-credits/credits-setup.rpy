@@ -48,8 +48,9 @@ label credits_sequence(volume_id):
         $ my_credits = credits_vol1
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol1", featured_prefix="featured_")  
         $ duration = 303.0 # Длительность музыки в секундах (посмотри в свойствах файла!)
-        $ end_msg_offset = 9.0 # За сколько секунд до конца музыки показать "Спасибо за игру"
-        $ cg_time = 4.0 # Каждые сколько секунд менять картинку
+        $ end_msg_offset = 12.0 # За сколько секунд до конца музыки показать "Спасибо за игру"
+        $ cg_time = 3.2 # Каждые сколько секунд менять картинку
+        $ fade_time = 1.0 # Время растворения между картинками
     elif volume_id == 2:
         $ audio_file = "audio/credits_song2.mp3"
         $ my_credits = credits_vol2
@@ -60,7 +61,7 @@ label credits_sequence(volume_id):
     
     # 2. СОЗДАЕМ АНИМАЦИЮ (Передаем список путей)
     # 3.0 сек показ, 1.0 сек растворение
-    $ final_slideshow = create_slideshow(featured_cg, 3.0, 1.0)
+    $ final_slideshow = create_slideshow(featured_cg, cg_time, fade_time)
 
     play music audio_file noloop fadeout 1.0
 

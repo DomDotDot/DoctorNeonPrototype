@@ -16,7 +16,7 @@ init python:
         # Сортируем оба списка
         all_images.sort()
         featured_images.sort()
-        
+
         return featured_images, all_images
         
         # Сортируем по имени (чтобы cg1 шло перед cg2)
@@ -24,7 +24,7 @@ init python:
         return img_list
 
     # --- ВОТ ИСПРАВЛЕННАЯ ФУНКЦИЯ АНИМАЦИИ ---
-    def create_slideshow(images, slide_time, fade_time=1.0):
+    def create_slideshow(images, slide_time, fade_time):
         # Если картинок нет - пустота
         if not images:
             return Null()
