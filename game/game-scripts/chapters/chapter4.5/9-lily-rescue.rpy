@@ -41,7 +41,7 @@ label chapter4_5_lily_cafe:
         Как будто мое присутствие было для неё лекарством. Обезболивающим.
     """
 
-    show featured_6cg-1b with dissolve
+    scene featured_6cg-1b with dissolve
 
     lily "Знаешь, Неон... я всегда мечтала вот так просто гулять по Веритасу. Без страха. С кем-то, кто меня понимает."
 
@@ -89,7 +89,7 @@ label chapter4_5_lily_cafe:
     
     narrator "Мы оказались в 'Сахарной Комете'. Я даже не помню, как мы зашли."
 
-    show featured_6cg-2 with dissolve
+    scene featured_6cg-2 with dissolve
 
     narrator """    
         Мы сели за столик в углу.
@@ -521,7 +521,7 @@ label chapter4_5_lily_studio:
         Но я стараюсь. Я работаю над собой. И я хочу отплатить тем, кто в меня поверил и верит. Сполна.
     """
     
-    show featured_6cg-4 with dissolve
+    scene featured_6cg-4 with dissolve
 
     narrator """
         Она подошла к углу и взяла гитару.
@@ -641,7 +641,7 @@ label chapter4_5_lily_studio:
     
     neon "{=thoughts}Серафина...{/thoughts}"
 
-    show featured_6cg-5 with fade
+    scene featured_6cg-5 with fade
     
     narrator "Эми и Кэрол, больше не притворяясь, рывком опрокинули меня, а затем грубо прижали к полу. Я не могла сопротивляться — мое тело плавилось в истоме."
     
@@ -656,7 +656,7 @@ label chapter4_5_lily_studio:
     Дыра исчезла. Ты заполнила её. И Оно замолчало.
     """
     
-    show featured_6cg-6 with fade
+    scene featured_6cg-6 with fade
 
     narrator """
         Она перешагнула через меня и медленно опустилась, оседлав мои бедра.
@@ -716,7 +716,7 @@ label chapter4_5_lily_studio:
         С тобой так было приятно... Мне было тихо!
     """
 
-    show featured_6cg-9 with dissolve
+    scene featured_6cg-9 with dissolve
 
     lily "НУ ПОЧЕМУ?! ПОЧЕМУ ТЫ НЕ ПУСКАЕШЬ МЕНЯ?"
     
@@ -745,7 +745,7 @@ label chapter4_5_lily_studio:
     
     lily "Открой ротик~ Ах, да. Ты не можешь."
 
-    show featured_6cg-6 with dissolve
+    scene featured_6cg-6 with dissolve
     
     narrator """
         Она рассмеялась. А потом ее губы накрыли мои, закрыв свои яркие глаза.

@@ -91,7 +91,7 @@ label chapter4_5_concert_mid:
     narrator "Ее отвлек восторженный голос одной из фанаток."
 
     stop ambient fadeout 10.0
-    show featured_cg-32_2 with { "master" : Dissolve(80.0) }
+    scene featured_cg-32_2 with { "master" : Dissolve(80.0) }
     play music "music/BGM/TenderHearts.opus" fadein 10.0
 
     "Фанатка 1" "Серафина, ты была просто невероятна! Я плакала на сегодняшнем выступлении!"
@@ -198,7 +198,7 @@ label chapter4_5_concert_mid:
 
     seraphina neutral "А теперь, мои хорошие, как я и обещала... фото на память!"
 
-    show featured_cg-32_3 with dissolve
+    scene featured_cg-32_3 with dissolve
     
     narrator """
         Девушки восторженно закричали. Серафина встала в центре, а они сгрудились вокруг нее.
@@ -249,7 +249,7 @@ label chapter4_5_concert_mid:
         А затем, решив, что спектакль окончен, она спрыгнула c невысокого подиума вниз.
     """
 
-    show featured_cg-32_4 with fade
+    scene featured_cg-32_4 with fade
     play music "music/BGM/NarcissismShort.opus" fadein 10.0 fadeout 10.0
     
     # play sound "sfx/light_jump_heels.opus"

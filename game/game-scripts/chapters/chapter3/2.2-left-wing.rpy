@@ -6,7 +6,7 @@ label ch3_left_wing:
 
     if not tried_to_talk_to_thugs:
         narrator "Заглянув за угол, я вижу ту самую сцену: трое мужчин греются у огня в бочке. Они не замечают меня."
-    show featured_cg-18 with dissolve
+    scene featured_cg-18 with dissolve
     menu ch3_left_wing_thug_talk:
 
         "Подслушать разговор." if tried_to_talk_to_thugs:

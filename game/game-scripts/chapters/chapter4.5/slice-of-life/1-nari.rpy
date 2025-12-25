@@ -65,7 +65,7 @@ label chapter4_5_nari_flashback:
         
         Серафина вдруг засуетилась, копаясь в кармане своей юбки.
     """
-    show featured_cg-34 with Dissolve(2.5)
+    scene featured_cg-34 with Dissolve(2.5)
     seraphina "Слушай, Нари... Я знаю, ты копишь на новую педаль для гитары, и мы на мели... Но я увидела это сегодня на барахолке и не удержалась."
     
     narrator """
@@ -157,7 +157,7 @@ label chapter4_5_nari_flashback:
         Она открыла ее, и на порог, лицом вниз, рухнула промокшая до нитки девушка. Дрожащая, жалкая.
     """
 
-    show featured_cg-35_1 with fade
+    scene featured_cg-35_1 with fade
         
     narrator """
         Длинные рыжие волосы, заплетенные в сложные узлы. Простая, нездешняя одежда.
@@ -229,7 +229,7 @@ label chapter4_5_nari_flashback:
         На балконе, в лучах восходящего солнца, стояла Лили.
     """
     
-    show featured_cg-35_2 with fade
+    scene featured_cg-35_2 with fade
     $ renpy.music.set_audio_filter("music", None, replace=True)
 
     narrator """
@@ -526,7 +526,7 @@ label chapter4_5_nari_flashback:
     $ renpy.pause(0.2, hard=True)
 
 
-    show featured_cg-34:
+    scene featured_cg-34:
         alpha 0.0
         linear 0.25 alpha 0.5
     

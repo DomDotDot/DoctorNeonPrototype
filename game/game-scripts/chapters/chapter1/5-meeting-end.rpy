@@ -25,7 +25,7 @@ label chapter1_meeting_aftermath_hallway:
         Увидев их, Неон почувствовала, как внутри что-то оборвалось. Бессмысленная работа. Все бессмысленно.
         """
 
-        show featured_cg-5_3 with fade
+        scene featured_cg-5_3 with fade
         narrator """
         Спустя какое-то время дверь конференц-зала открылась.
         

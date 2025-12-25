@@ -25,7 +25,7 @@ label chapter4_5_akari_arrest:
     
     narrator "Взлом. Мы ворвались внутрь."
     
-    show featured_4cg-2 with fade
+    scene featured_4cg-2 with fade
     
     narrator """
         В центре роскошной гостиной стояли они. Акари и Лили.
@@ -65,7 +65,7 @@ label chapter4_5_akari_arrest:
     
     neon "Лили? Все в порядке. Теперь ты в безопасности."
 
-    show featured_4cg-4 with fade
+    scene featured_4cg-4 with fade
     
     narrator "Она подняла на меня заплаканные глаза. И вдруг бросилась ко мне, обвив руками и уткнувшись лицом мне в живот. Ее тело сотрясалось от рыданий."
     
@@ -185,7 +185,7 @@ label chapter4_5_akari_arrest:
     
     neon "Ты не виновата. Ты была напугана."
 
-    show featured_4cg-4 with dissolve
+    scene featured_4cg-4 with dissolve
     
     lily """
     Я хотела доказать папе, что я лучше, что я сильнее него... Будто меня преследовала... зависть...

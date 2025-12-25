@@ -135,7 +135,7 @@ label krypton_firstmeet_flashback:
         Кажется, мы говорили об одном и том же, но на разных языках.
         """
 
-        show featured_cg-8_2 with dissolve # CG: Неон и Криптон в парке вечером, они смеются, держась за руки.
+        scene featured_cg-8_2 with dissolve # CG: Неон и Криптон в парке вечером, они смеются, держась за руки.
 
         narrator """
         Я помню один вечер.

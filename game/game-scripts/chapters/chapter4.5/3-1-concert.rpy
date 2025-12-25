@@ -140,7 +140,7 @@ label chapter4_5_concert_start:
     """
     stop ambient fadeout 2.5
     play sound "sfx/crowd-fan-excited.opus" fadein 1.5
-    show featured_cg-31_2 with dissolve
+    scene featured_cg-31_2 with dissolve
 
 
     narrator """
@@ -151,7 +151,7 @@ label chapter4_5_concert_start:
         А затем, из густой тени, медленно и грациозно, в этот круг света шагнула она.
     """
 
-    show featured_cg-31_3 with dissolve
+    scene featured_cg-31_3 with dissolve
 
     narrator """
         Серафина.
@@ -170,7 +170,7 @@ label chapter4_5_concert_start:
     play sound "sfx/crowd-fan-wohoo.opus" fadein 1.5
     play ambient "sfx/crowd-fan-cheer.opus" fadein 1.5 noloop
 
-    show featured_cg-31_4 with dissolve
+    scene featured_cg-31_4 with dissolve
     
     narrator """
         И в тот же миг, повинуясь ее голосу, стадион преобразился.
@@ -285,7 +285,7 @@ label chapter4_5_concert_start:
     $ renpy.music.set_volume(1.0, delay=0.5, channel="music")
 
     stop music fadeout 2.0
-    show featured_cg-31_4 with dissolve
+    scene featured_cg-31_4 with dissolve
 
     play sound "sfx/crowd-fan-clap2.opus" fadein 1.5
     play ambient "sfx/crowd-fan-clap1.opus" noloop fadein 1.5

@@ -56,7 +56,7 @@ label chapter3_breather:
 
     И на столе стояла она. Цифровая фоторамка. Единственная вещь без пыли. Экран был темным, в режиме энергосбережения. Я коснулась кнопки, и он ожил.
     """
-    show featured_cg-23 with fade
+    scene featured_cg-23 with fade
 
 
     narrator """

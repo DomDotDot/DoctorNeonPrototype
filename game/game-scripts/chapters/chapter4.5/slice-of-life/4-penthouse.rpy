@@ -14,7 +14,7 @@ label chapter4_5_seraphina_penthouse:
         Она смотрела на город, но её взгляд был расфокусирован. Она слушала что-то, чего не было в комнате.
     """
 
-    show featured_5cg-1 with fade
+    scene featured_5cg-1 with fade
 
     seraphina "Её поймали...?"
     
@@ -54,7 +54,7 @@ label chapter4_5_seraphina_penthouse:
     Серафина встает, начиная расхаживать по комнате, жестикулируя.
     """
     
-    show featured_5cg-2 with fade
+    scene featured_5cg-2 with fade
 
     seraphina envious2 """
         Опять она! Опять эта... невыносимая, упрямая... и.. великолепная дура!
@@ -110,7 +110,7 @@ label chapter4_5_seraphina_penthouse:
     Проводя пальцем по 'щеке' отражения, она зашептала с пугающей нежностью.
     """
 
-    show featured_5cg-3 with fade
+    scene featured_5cg-3 with fade
 
     seraphina """
         Ну Неон... ну почему ты такая сложная?
@@ -176,9 +176,9 @@ label chapter4_5_seraphina_penthouse:
     Знаете что? Сделайте мне одолжение...
     """
 
-    show featured_5cg-5 with Dissolve(2.0)
+    scene featured_5cg-5 with Dissolve(2.0)
 
-    show featured_5cg-5:
+    scene featured_5cg-5:
         #function ripple_effect
         # Просто тряска и блюр
         parallel:

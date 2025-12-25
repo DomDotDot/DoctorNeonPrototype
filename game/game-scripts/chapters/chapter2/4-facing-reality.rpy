@@ -103,7 +103,7 @@ label chapter2_act3_facing_reality:
                 """
 
                 # play sound "sfx/heartbeat_panic.opus" loop
-                show featured_cg-12_2 with dissolve
+                scene featured_cg-12_2 with dissolve
 
                 narrator "Она отшатнулась от витрины, задыхаясь. Воздуха не хватало. Она оперлась рукой о холодное, влажное стекло, пытаясь устоять на ногах. Ее взгляд упал на свое же отражение."
 
