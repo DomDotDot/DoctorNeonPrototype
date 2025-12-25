@@ -49,7 +49,7 @@ label credits_sequence(volume_id):
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol1", featured_prefix="featured_")  
         $ duration = 303.0 # Длительность музыки в секундах (посмотри в свойствах файла!)
         $ end_msg_offset = 9.0 # За сколько секунд до конца музыки показать "Спасибо за игру"
-        $ cg_time = 2.2 # Каждые сколько секунд менять картинку
+        $ cg_time = 4.0 # Каждые сколько секунд менять картинку
     elif volume_id == 2:
         $ audio_file = "audio/credits_song2.mp3"
         $ my_credits = credits_vol2
