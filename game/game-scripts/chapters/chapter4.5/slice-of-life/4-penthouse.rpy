@@ -133,6 +133,7 @@ label chapter4_5_seraphina_penthouse:
     narrator "Дверь пентхауса с грохотом распахнулась."
     
     # play sound "sfx/flashbang_explode.mp3" with white_flash
+    scene white with flash
     
     narrator """
         В комнату влетела светошумовая граната.
@@ -144,7 +145,7 @@ label chapter4_5_seraphina_penthouse:
     
     "Командир" "Чисто! Вижу цель! Лежать! Руки за голову!"
 
-    show featured_5cg-4 with fade
+    show 5cg-4 with flash
     
     narrator """
         Серафина медленно повернулась к ним. Вспышка растрепала её волосы, но она лишь характерно поправила прядь.
