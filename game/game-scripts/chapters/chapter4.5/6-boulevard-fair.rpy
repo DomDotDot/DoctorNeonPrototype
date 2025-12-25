@@ -1,6 +1,6 @@
 label chapter4_5_boulevard_night:
 
-    scene bg chapter_4_veritas_night_market with fade
+    scene bg chapter_4-5 boulevard with fade
     play music "music/BGM/EachSideDark.opus" loop
     play ambient "ambient/crowd_night_market.opus" loop
 
@@ -26,6 +26,8 @@ label chapter4_5_boulevard_night:
 
     argon "Там. У витрины с джелато."
 
+    show 1cg-1 with dissolve
+
     narrator """
         Я проследила за его взглядом. Девушка в форме Академии, но поверх нее был намотан огромный, пышный красный шарф, скрывающий половину лица.
         
@@ -44,6 +46,8 @@ label chapter4_5_boulevard_night:
     argon "Откуда ты знаешь?"
     
     neon "В чате... на аватарке у нее был этот красный шарф. Неважно, она уходит! За ней!"
+
+    scene bg chapter_4-5 boulevard with fade
 
     narrator """
         Мы рванули следом. Но толпа была слишком плотной. Девушка с красным шарфом мелькала впереди, то исчезая, то появляясь, как огонек.
@@ -69,7 +73,7 @@ label chapter4_5_boulevard_night:
 
     narrator "Он рванул туда, не разбирая дороги. Я едва поспевала за ним."
 
-    scene bg chapter_4_veritas_market_bench_night with dissolve
+    show 1cg-2b with dissolve
     
     narrator """
         Это была маленькая площадь в стороне от основного потока, окруженная декоративными кустами. Уединенный уголок.
@@ -87,11 +91,7 @@ label chapter4_5_boulevard_night:
         А в центре, на скамейке, как на троне, сидела она. Лили.
 
         Она сидела, элегантно закинув ногу на ногу, и с наслаждением, полузакрыв глаза, лизала мороженое.
-    """
 
-    show lily queen_eating at center with dissolve
-    
-    narrator """
         Рыжие волосы, зеленые глаза. Точно как на фото. Но... совсем другая.
         
         Она ела мороженое. Медленно. Тягуче. Она слизывала тающие капли с ложечки с каким-то неестественным, почти вызывающим наслаждением.
@@ -109,8 +109,6 @@ label chapter4_5_boulevard_night:
         Ее взгляд метнулся сначала ко мне.
     """
     
-    show lily shocked at center
-    
     narrator """
         Ее зрачки на долю секунды расширились. В них вспыхнуло узнавание. Испуг? Или всё таки удивление?
         
@@ -118,8 +116,6 @@ label chapter4_5_boulevard_night:
         
         Затем она перевела взгляд на Аргона.
     """
-    
-    show lily disgust at center
     
     narrator """
         Шок сменился разочарованием. Брезгливостью. Скукой.
@@ -159,7 +155,7 @@ label chapter4_5_boulevard_night:
     
     narrator "Реакция была мгновенной. Она с криком вскочила и с размаху влепила ему пощечину. Звук пощечины был оглушительным."
 
-    show lily angry at center
+    scene black with Dissolve(0.125)
 
     lily "А-а-а! ОТОЙДИ ОТ МЕНЯ, ИЗВРАЩЕНЕЦ!"
 
@@ -207,7 +203,7 @@ label chapter4_5_boulevard_night:
         В тень переулков, подальше от света, подальше от этого кошмарного спектакля.
     """
 
-    scene bg chapter_4_veritas_streets_night with fade
+    scene bg chapter_4-5 boulevard with fade
     play music "music/BGM/WitheredFlower.opus" loop
 
     narrator """
