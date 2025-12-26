@@ -41,13 +41,13 @@ define credits_vol2 = [
 # Этот лейбл настраивает музыку и вызывает экран
 label credits_sequence(volume_id):
     
-    window hide
+    window hide dissolve
     
     if volume_id == 1:
         $ audio_file = "audio/music/BGM/Tide.opus"
         $ my_credits = credits_vol1
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol1", featured_prefix="featured_")  
-        $ duration = 303.0 # Длительность музыки в секундах (посмотри в свойствах файла!)
+        $ duration = 5.0 # Длительность музыки в секундах (посмотри в свойствах файла!)
         $ end_msg_offset = 12.0 # За сколько секунд до конца музыки показать "Спасибо за игру"
         $ cg_time = 3.2 # Каждые сколько секунд менять картинку
         $ fade_time = 1.0 # Время растворения между картинками
@@ -78,11 +78,3 @@ label credits_sequence(volume_id):
     elif _return == "finished":
 
         return "secret_scene" # Возвращаем флаг секретной сцены
-
-# --- СЕКРЕТНЫЕ СЦЕНЫ ---
-
-label secret_scene_vol1:
-    scene bg secret with Dissolve(5.0)
-    "Ого! Ты посмотрел титры до конца."
-    "Вот секретная сцена первого тома."
-    return
