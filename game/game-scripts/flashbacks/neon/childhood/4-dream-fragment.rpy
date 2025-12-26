@@ -5,22 +5,12 @@ label dream_sequence_japan_4:
     # play sound "sounds/fire_chaos_dream_sounds.opus" loop # Звуки пожара, криков, треска
     # music "sounds/dream_tragedy_theme.opus" loop
 
-
-    label dream_sequence_japan_4_awakening:
-
     play music "music/BGM/ExtinguishedFlame.opus"
 
     # (Начало сцены — Неон "растворяется" после поцелуя Лили)
 
-    scene bg house_on_fire_dream at heat_haze with Dissolve(1.0)
-    
-    show layer master:
-        matrixcolor TintMatrix("#ffaa00")
-        block:
-            linear 0.2 matrixcolor TintMatrix("#ff5500") * BrightnessMatrix(0.1)
-            linear 0.2 matrixcolor TintMatrix("#ffaa00")
-            repeat
-    
+    scene black with Dissolve(2.0)
+
     narrator """
         Сознание погрузилось в Тишину.
         
@@ -28,8 +18,9 @@ label dream_sequence_japan_4:
         
         И там, в этой пустоте, я снова увидела его. Мой дом.
     """
-    
-    scene bg house_on_fire_dream with Dissolve(1.0)
+
+    scene 7a-cg-1 at heat_haze with Dissolve(1.0)
+
     play music "music/BGM/Dream_Tragedy_Theme.opus" loop
     play ambient "ambient/fire_chaos_dream_sounds.opus" loop
     
@@ -49,7 +40,7 @@ label dream_sequence_japan_4:
 
     
     # Резкий скачок во времени сна, к спору
-    scene bg chapter_2_dream-sequence-japan_1-sakura_tense with Dissolve(0.5)
+    scene black with fade
     stop ambient
     
     narrator "Сцена меняется. Снова тот спор моей матери и 'Тёти'."
@@ -78,6 +69,8 @@ label dream_sequence_japan_4:
         В моем детском воспоминании я цеплялась за нее, как за единственное спасение. Я верила ей.
     """
 
+    scene featured_7a-cg-2 with Dissolve(2.0)
+
     narrator"""
         Но на этот раз что-то изменилось. Я — не просто участник. Я — зритель. И я вижу то, чего не видела раньше.
         
@@ -93,7 +86,7 @@ label dream_sequence_japan_4:
 
     """
 
-    oganesson_young "Моя. Теперь ты только моя"
+    oganesson_young "Моя. Теперь ты только моя."
 
     narrator """
         Я слышу это не ушами, а кожей.
@@ -110,10 +103,14 @@ label dream_sequence_japan_4:
 
         Голос становится другим, более молодым, испуганным.
     """
+
+    scene black with fade
     
     lily "...я не хотела... я просто хотела петь..."
 
     call chapter4_5_lily_flashback from _call_chapter4_5_lily_flashback
+
+    scene black with dissolve
 
     lily "...исчезать..."
 
@@ -143,28 +140,30 @@ label dream_sequence_japan_4:
     
     narrator "Я вижу окно, но в нем нет звезд."
     
-    
-    narrator """
-    Я вижу горы, но в них нет того величия.
+    scene 7a-cg-3 with dissolve
 
-    'Мальвина'. Белая Ворона, что окунулось в синеву.
-    """
+    narrator "Я вижу горы, но в них нет того величия."
+
+    scene bg chapter_1_rural_flashback with flash
+
+    narrator "'Мальвина'. Белая Ворона, что окунулось в синеву."
+
+    scene 7a-cg-4 with dissolve
 
     narrator "'Таковая её природа', - говорила моя опекунша."
+
+    scene featured_cg-11_3-1 with dissolve
     
     narrator "'Стань снова послушой и пустой.', - скомандовал тиран из моих снов."
 
-    narrator """
-    'Твоя мать... она пользуется тобой неправильно...', - с фанатичным блеском в глазах сказала Тетя.
+    scene featured_cg-28_3 with dissolve
 
-    Она — не спаситель. Она — мой похититель. Мой тюремщик.
-    """
-
-    # Снова резкий скачок, монтаж
-    # (Быстрая смена кадров/звуков: цокот спиц, гул чайника, голос "Мальвина", пустые глаза Клары, экстаз Кэрол, красные глаза Лили)
+    narrator "'Твоя мать... она пользуется тобой неправильно...', - с фанатичным блеском в глазах сказала Тетя."
 
     scene black with Dissolve(2.5)
-    
+
+    narrator "Она — не спаситель. Она — мой похититель. Мой тюремщик."
+
     narrator """
         И все встало на свои места.
         
@@ -182,6 +181,8 @@ label dream_sequence_japan_4:
         
         Я — вакуум.
     """
+
+    show 7a-cg-5 with { "master" : Dissolve(200.0) }
     
     narrator """
         Как же я устала.

@@ -12,6 +12,8 @@ label chapter_4_5_rpy_act2:
     call chapter4_5_lily_cafe from _call_chapter4_5_lily_cafe
 
     call dream_sequence_japan_4 from _call_dream_sequence_japan_4
+    call chapter4_5_awakening_and_finale
+
     call chapter4_5_finale from _call_chapter4_5_finale
     call chapter4_5_epilogue from _call_chapter4_5_epilogue
     

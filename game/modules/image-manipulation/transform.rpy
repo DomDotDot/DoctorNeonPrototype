@@ -92,10 +92,7 @@ transform dizzy_ghost_anim:
 transform heat_haze:
     # Медленное волнообразное движение
     parallel:
-        ease 2.0 xoffset 5
-        ease 2.0 xoffset -5
+        easein_quint 2 blur 5
+        easein_quint 2 blur 1
         repeat
-    parallel:
-        ease 0.1 alpha 1.0
-        ease 0.1 alpha 0.95 # Легкое мерцание прозрачности
-        repeat
+

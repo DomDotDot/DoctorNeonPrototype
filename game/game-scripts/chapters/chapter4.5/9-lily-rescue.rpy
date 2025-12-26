@@ -371,7 +371,7 @@ label chapter4_5_lily_studio:
     
     # --- Переход к студии ---
     
-    scene bg chapter_4_ark-aground-old-street-night with fade
+    scene bg chapter_4-5 old district alleys with fade
     play music "music/BGM/Veritas_Night_Rain.opus" loop
     play ambient "ambient/rain_on_pavement_city.opus" loop
     
@@ -743,9 +743,9 @@ label chapter4_5_lily_studio:
     
     narrator "Она наклонилась, ее лицо оказалось в нескольких сантиметрах от моего. Ее красные глаза изучали меня с хищным любопытством, вдыхая мой страх и возбуждение."
     
-    lily "Открой ротик~ Ах, да. Ты не можешь."
-
     scene featured_6cg-6 with dissolve
+
+    lily "Открой ротик~ Ах, да. Ты не можешь."
     
     narrator """
         Она рассмеялась. А потом ее губы накрыли мои, закрыв свои яркие глаза.
