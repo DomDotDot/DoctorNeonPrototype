@@ -151,7 +151,7 @@ label chapter4_5_morning_after:
     
     narrator "Я села на переднее сиденье. Машина бесшумно тронулась."
 
-    scene featured_2cg-1 with Fade(2.0, 0.5, 2.0)
+    scene 2cg-1 with Fade(2.0, 0.5, 2.0)
     
     meryl """
     
@@ -162,7 +162,7 @@ label chapter4_5_morning_after:
     
     neon "Спасибо, Мэрил. Я..."
 
-    scene featured_2cg-1 with Dissolve(0.25)
+    scene featured_2cg-2 with Dissolve(0.25)
     
     meryl """
     Не благодари меня. Это сделка. Ты находишь того, кто это сделал, я обеспечиваю тебе прикрытие.

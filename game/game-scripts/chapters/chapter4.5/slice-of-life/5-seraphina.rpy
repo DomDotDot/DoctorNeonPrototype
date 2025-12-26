@@ -11,7 +11,7 @@ label chapter4_5_seraphina_flashback:
         Я увидела вспышку ее последнего, самого горького воспоминания.
     """
     
-    scene bg chapter_4_veritas_studio_day_sad with fade
+    scene bg chapter_4-5_nari-flashback with fade
     
     narrator """
         Я вошла в нашу студию. Место, где мы проводили столько часов вместе.
@@ -43,6 +43,8 @@ label chapter4_5_seraphina_flashback:
     """
     
     lily "Нари... она ушла за дополнительными покупками. Сейчас придёт! Но смотри! Смотри, как я научилась играть! Для тебя!"
+
+    scene featured_10cg-1-1 with fade
     
     narrator "Я начала играть. Ту самую мелодию, которую мы сочиняли вместе, когда я была ещё другой. Но пальцы были чужими. Звук был... неправильным."
     
@@ -56,6 +58,8 @@ label chapter4_5_seraphina_flashback:
         Она отшатнулась., отступаала на шаг назад. Я обернулась и перестала играть.
     """
 
+    scene featured_10cg-1-2 with dissolve
+
     lily "Серафина? Что-то не так?"
 
     seraphina """ 
@@ -67,6 +71,8 @@ label chapter4_5_seraphina_flashback:
     """
 
     lily "Стой! Серафина!"
+
+    scene featured_10cg-2 with dissolve
 
     narrator "Она развернулась. И убежала. Хлопнула дверью, как выстрелом."
 
@@ -90,6 +96,8 @@ label chapter4_5_seraphina_flashback:
         Я... я ведь...
     """
 
+    scene featured_10cg-3-1 with fade
+
     narrator """
         Я захлебывалась слезами. В ушах звенело от тишины, в которой больше не было её смеха.
         
@@ -101,6 +109,8 @@ label chapter4_5_seraphina_flashback:
         
         И в этой звенящей пустоте, в моей расколотой голове, раздался знакомый, ехидный шепот.
     """
+
+    scene featured_10cg-3-2 with dissolve
 
     "Сущность" """
         Хи-хи-хи... 
@@ -114,6 +124,8 @@ label chapter4_5_seraphina_flashback:
         И тогда эта ложь станет настолько плотной, что даже ты перестанешь слышать скрежет своей разбитой души.
     """
 
+    scene 10cg-3-3 with dissolve
+
     narrator """
     Я посмотрела на ударную установку у стены, накрытую брезентом. Как громоздкий гроб, прячущий труп.
     
@@ -123,6 +135,8 @@ label chapter4_5_seraphina_flashback:
 
     В тот вечер я поклялась себе, что меня никто не заменит собой.
     """
+
+    scene featured_10cg-3-1 with dissolve
 
     nari """
     Мой стул никогда не будет пустым. Я буду сидеть на троне.
@@ -150,7 +164,12 @@ label chapter4_5_seraphina_flashback:
         
         Зачем тебе быть чьей-то копией?
 
-        Забыла? Ты и есть - Серафина.
+        Забыла?
     """
+
+    scene black with Dissolve(0.125)
+
+    narrator "Ты и есть - Серафина."
+    
 
 return

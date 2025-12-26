@@ -15,7 +15,7 @@ label chapter4_5_epilogue:
         ...к выходу из студии.
     """
     
-    scene bg chapter_4_veritas_studio_aftermath with fade
+    scene featured_11cg-1 with fade
     
     narrator """
         Внизу, в переулке, в свете тлеющих углей, я увидела их.
@@ -37,16 +37,18 @@ label chapter4_5_epilogue:
         Не от ярости. Не от боли.
         
         Это был вой. Низкий, протяжный, первобытный. Вой отца, который нашел и снова потерял своего ребенка в один и тот же миг.
-        
-        Он кричал, и казалось, что вместе с ним, оплакивал свою потерю весь этот прогнивший, фальшивый город.
     """
+
+    scene featured_11cg-2 with fade
+
+    narrator "Он кричал, и казалось, что вместе с ним, оплакивал свою потерю весь этот прогнивший, фальшивый город."
     
     # Камера медленно отъезжает, показывая панораму ночного Веритаса под проливным дождем.
     # scene veritas_city_night_rain_panorama with zoom out
     
     # --- Сцена 2: Утро Следующего Дня ---
     
-    scene bg chapter_4_arkaground_interior_morning_tv with fade
+    scene bg chapter_4_ark-aground-base with fade
     play music "music/BGM/Veritas_NewsTheme_Tense.opus" loop
     
     narrator """
@@ -155,6 +157,4 @@ label chapter4_5_epilogue:
         Это предложение, от которого тяжело отказаться.
     """
 
-    
-    # Экран темнеет.
-    scene black with fade
+    scene black with Dissolve(0.125)
