@@ -231,7 +231,7 @@ label chapter4_5_classroom_intro:
     
     narrator "Директор постучал и открыл дверь. Тридцать пар глаз мгновенно устремились на меня."
     
-    scene bg chapter_4-5_kaii-flashback with dissolve
+    scene bg chapter_4-5_kai-flashback with dissolve
     
     narrator """
         У доски стояла молодая, красивая женщина с теплой улыбкой. Акари-сенсей.
@@ -311,7 +311,7 @@ label chapter4_5_classroom_intro:
     Девушка, сидевшая передо мной, обернулась и прошептала:
     """
 
-    scene bg chapter_4-5_kaii-flashback with dissolve
+    scene bg chapter_4-5_kai-flashback with dissolve
 
     "Соседка по парте" "{=whisper}Привет. Я Мика."
     "Мика" """
