@@ -138,3 +138,11 @@ translate english_us strings:
     old "АБСУ"
     new "FCS"
 
+# TODO: Translation updated at 2025-12-28 02:32
+
+translate english_us strings:
+
+    # game/modules/characters/characters.rpy:230
+    old "Мика"
+    new ""
+

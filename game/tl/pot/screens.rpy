@@ -1,98 +1,98 @@
-﻿# TODO: Translation updated at 2025-12-08 10:49
+﻿# TODO: Translation updated at 2025-12-28 02:27
 
-translate english_us strings:
+translate pot strings:
 
     # game/screens.rpy:253
     old "Назад"
-    new "Back"
+    new "Назад"
 
     # game/screens.rpy:254
     old "История"
-    new "Log"
+    new "История"
 
     # game/screens.rpy:255
     old "Пропуск"
-    new "Skip"
+    new "Пропуск"
 
     # game/screens.rpy:256
     old "Авто"
-    new "Auto"
+    new "Авто"
 
     # game/screens.rpy:257
     old "Сохранить"
-    new "Save"
+    new "Сохранить"
 
     # game/screens.rpy:258
     old "Б.Сохр"
-    new "Q. Save"
+    new "Б.Сохр"
 
     # game/screens.rpy:259
     old "Б.Загр"
-    new "Q. Load"
+    new "Б.Загр"
 
     # game/screens.rpy:260
     old "Опции"
-    new "Options"
+    new "Опции"
 
     # game/screens.rpy:301
     old "Начать"
-    new "Start"
+    new "Начать"
 
     # game/screens.rpy:309
     old "Загрузить"
-    new "Load"
+    new "Загрузить"
 
     # game/screens.rpy:311
     old "Настройки"
-    new "Preferences"
+    new "Настройки"
 
     # game/screens.rpy:314
     old "Галерея CG"
-    new "CG Gallery"
+    new "Галерея CG"
 
     # game/screens.rpy:318
     old "Завершить повтор"
-    new "Cancel replay"
+    new "Завершить повтор"
 
     # game/screens.rpy:322
     old "Главное меню"
-    new "Main Menu"
+    new "Главное меню"
 
     # game/screens.rpy:324
     old "Об игре"
-    new "About"
+    new "Об игре"
 
     # game/screens.rpy:330
     old "Помощь"
-    new "Help"
+    new "Помощь"
 
     # game/screens.rpy:336
     old "Выход"
-    new "Exit to Desktop"
+    new "Выход"
 
     # game/screens.rpy:476
     old "Вернуться"
-    new "Back"
+    new "Вернуться"
 
     # game/screens.rpy:559
     old "Версия [config.version!t]\n"
-    new "Version [config.version!t]\n"
+    new "Версия [config.version!t]\n"
 
     # game/screens.rpy:565
     old "Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-    new "Game made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+    new "Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
 
     # game/screens.rpy:600
     old "{} страница"
-    new "{} page"
+    new "{} страница"
 
     # game/screens.rpy:600
     old "Автосохранения"
-    new "Auto-saves"
+    new "Автосохранения"
 
     # game/screens.rpy:600
     old "Быстрые сохранения"
-    new "Quick Saves"
+    new "Быстрые сохранения"
 
     # game/screens.rpy:643
     old "{#file_time}%A, %d %B %Y, %H:%M"
@@ -100,7 +100,7 @@ translate english_us strings:
 
     # game/screens.rpy:643
     old "Пустой слот"
-    new "Empty slot"
+    new "Пустой слот"
 
     # game/screens.rpy:663
     old "<"
@@ -108,11 +108,11 @@ translate english_us strings:
 
     # game/screens.rpy:667
     old "{#auto_page}А"
-    new "A"
+    new "{#auto_page}А"
 
     # game/screens.rpy:670
     old "{#quick_page}Б"
-    new "B"
+    new "{#quick_page}Б"
 
     # game/screens.rpy:676
     old ">"
@@ -120,35 +120,35 @@ translate english_us strings:
 
     # game/screens.rpy:681
     old "Загрузить Sync"
-    new "Load Sync"
+    new "Загрузить Sync"
 
     # game/screens.rpy:685
     old "Скачать Sync"
-    new "Download Sync"
+    new "Скачать Sync"
 
     # game/screens.rpy:743
     old "Режим экрана"
-    new "Window Mode"
+    new "Режим экрана"
 
     # game/screens.rpy:744
     old "Оконный"
-    new "Windowed"
+    new "Оконный"
 
     # game/screens.rpy:745
     old "Полный"
-    new "Fullscreen"
+    new "Полный"
 
     # game/screens.rpy:750
     old "Всего текста"
-    new "Whole text"
+    new "Всего текста"
 
     # game/screens.rpy:751
     old "После выборов"
-    new "After choices"
+    new "После выборов"
 
     # game/screens.rpy:752
     old "Переходов"
-    new "Transitions"
+    new "Переходов"
 
     # game/screens.rpy:759
     old "✍️📜"
@@ -156,201 +156,197 @@ translate english_us strings:
 
     # game/screens.rpy:764
     old "Включение Чувствительнного контента (18+)"
-    new "Enable Sensitive Content (18+)"
+    new "Включение Чувствительнного контента (18+)"
 
     # game/screens.rpy:766
     old "Включает отображение откровенных сцен."
-    new "Turns on adult-only scenes."
-
-    # game/screens.rpy:787
-    old "Громкость музыки"
-    new "Music - Volume"
-
-    # game/screens.rpy:794
-    old "Громкость звуков"
-    new "SFX - Volume"
-
-    # game/screens.rpy:800
-    old "Тест"
-    new "Test"
-
-    # game/screens.rpy:804
-    old "Громкость голоса"
-    new "Voices - Volume"
-
-    # game/screens.rpy:812
-    old "Громкость фоновых звуков"
-    new "Ambient Volume"
-
-    # game/screens.rpy:823
-    old "Без звука"
-    new "Mute"
-
-    # game/screens.rpy:945
-    old "История диалогов пуста."
-    new "Dialog Log is empty"
-
-    # game/screens.rpy:1013
-    old "Клавиатура"
-    new "Keyboard"
-
-    # game/screens.rpy:1014
-    old "Мышь"
-    new "Mouse"
-
-    # game/screens.rpy:1017
-    old "Геймпад"
-    new "Gamepad"
-
-    # game/screens.rpy:1030
-    old "Enter"
-    new "Enter"
-
-    # game/screens.rpy:1031
-    old "Прохождение диалогов, активация интерфейса."
-    new "Passing dialogs, activating the interface."
-
-    # game/screens.rpy:1034
-    old "Пробел"
-    new "Spacebar"
-
-    # game/screens.rpy:1035
-    old "Прохождение диалогов без возможности делать выбор."
-    new "Passing dialogs without being able to make a choice."
-
-    # game/screens.rpy:1038
-    old "Стрелки"
-    new "Arrows"
-
-    # game/screens.rpy:1039
-    old "Навигация по интерфейсу."
-    new "Interface Navigation"
-
-    # game/screens.rpy:1042
-    old "Esc"
-    new "ESC"
-
-    # game/screens.rpy:1043
-    old "Вход в игровое меню."
-    new "Enter the game menu"
-
-    # game/screens.rpy:1046
-    old "Ctrl"
-    new "CTRL"
-
-    # game/screens.rpy:1047
-    old "Пропускает диалоги, пока зажат."
-    new "Skips dialogs while holding"
-
-    # game/screens.rpy:1050
-    old "Tab"
-    new "TAB"
-
-    # game/screens.rpy:1051
-    old "Включает режим пропуска."
-    new "Turns on Skip-mode"
-
-    # game/screens.rpy:1054
-    old "Page Up"
-    new "Page Up"
-
-    # game/screens.rpy:1055
-    old "Откат назад по сюжету игры."
-    new "Goes back to the previous text"
-
-    # game/screens.rpy:1058
-    old "Page Down"
-    new "Page Down"
-
-    # game/screens.rpy:1059
-    old "Откатывает предыдущее действие вперёд."
-    new "Goes back to the previous action"
-
-    # game/screens.rpy:1063
-    old "Скрывает интерфейс пользователя."
-    new "Hides User Interface"
-
-    # game/screens.rpy:1067
-    old "Делает снимок экрана."
-    new "Screenshot"
-
-    # game/screens.rpy:1071
-    old "Включает поддерживаемый {a=https://www.renpy.org/l/voicing}синтезатор речи{/a}."
-    new "Turns of self-voicing {a=https://www.renpy.org/l/voicing}{/a}."
-
-    # game/screens.rpy:1075
-    old "Открывает меню специальных возможностей."
-    new "Opens Accessibiltiy Menu"
-
-    # game/screens.rpy:1081
-    old "Левый клик"
-    new "Left Mouse Button"
-
-    # game/screens.rpy:1085
-    old "Клик колёсиком"
-    new "Middle Mouse Button"
-
-    # game/screens.rpy:1089
-    old "Правый клик"
-    new "Right Mouse Button"
-
-    # game/screens.rpy:1093
-    old "Колёсико вверх"
-    new "Scroll-up"
-
-    # game/screens.rpy:1097
-    old "Колёсико вниз"
-    new "Scroll-down"
-
-    # game/screens.rpy:1104
-    old "Правый триггер\nA/Нижняя кнопка"
-    new "Right Trigger\nA Button/D-Pad Down"
-
-    # game/screens.rpy:1108
-    old "Левый Триггер\nЛевый Бампер"
-    new "Left Trigger\nLeft Bumper"
-
-    # game/screens.rpy:1112
-    old "Правый бампер"
-    new "Right Bumper"
-
-    # game/screens.rpy:1116
-    old "Крестовина, Стики"
-    new "D-pad, Sticks"
-
-    # game/screens.rpy:1120
-    old "Старт, Гид, B/Правая кнопка"
-    new "Start, Guide, B Button/D-Pad Right"
-
-    # game/screens.rpy:1124
-    old "Y/Верхняя кнопка"
-    new "Y Button/D-Pad Up"
-
-    # game/screens.rpy:1127
-    old "Калибровка"
-    new "Calibration"
-
-    # game/screens.rpy:1192
-    old "Да"
-    new "Yes"
-
-    # game/screens.rpy:1193
-    old "Нет"
-    new "No"
-
-    # game/screens.rpy:1239
-    old "Пропускаю"
-    new "Skipping"
-
-    # game/screens.rpy:1550
-    old "Меню"
-    new "Menu"
-
-# TODO: Translation updated at 2025-12-28 02:32
-
-translate english_us strings:
+    new "Включает отображение откровенных сцен."
 
     # game/screens.rpy:767
     old "ИИ Чувствительность"
-    new ""
+    new "ИИ Чувствительность"
+
+    # game/screens.rpy:789
+    old "Громкость музыки"
+    new "Громкость музыки"
+
+    # game/screens.rpy:796
+    old "Громкость звуков"
+    new "Громкость звуков"
+
+    # game/screens.rpy:802
+    old "Тест"
+    new "Тест"
+
+    # game/screens.rpy:806
+    old "Громкость голоса"
+    new "Громкость голоса"
+
+    # game/screens.rpy:814
+    old "Громкость фоновых звуков"
+    new "Громкость фоновых звуков"
+
+    # game/screens.rpy:825
+    old "Без звука"
+    new "Без звука"
+
+    # game/screens.rpy:947
+    old "История диалогов пуста."
+    new "История диалогов пуста."
+
+    # game/screens.rpy:1015
+    old "Клавиатура"
+    new "Клавиатура"
+
+    # game/screens.rpy:1016
+    old "Мышь"
+    new "Мышь"
+
+    # game/screens.rpy:1019
+    old "Геймпад"
+    new "Геймпад"
+
+    # game/screens.rpy:1032
+    old "Enter"
+    new "Enter"
+
+    # game/screens.rpy:1033
+    old "Прохождение диалогов, активация интерфейса."
+    new "Прохождение диалогов, активация интерфейса."
+
+    # game/screens.rpy:1036
+    old "Пробел"
+    new "Пробел"
+
+    # game/screens.rpy:1037
+    old "Прохождение диалогов без возможности делать выбор."
+    new "Прохождение диалогов без возможности делать выбор."
+
+    # game/screens.rpy:1040
+    old "Стрелки"
+    new "Стрелки"
+
+    # game/screens.rpy:1041
+    old "Навигация по интерфейсу."
+    new "Навигация по интерфейсу."
+
+    # game/screens.rpy:1044
+    old "Esc"
+    new "Esc"
+
+    # game/screens.rpy:1045
+    old "Вход в игровое меню."
+    new "Вход в игровое меню."
+
+    # game/screens.rpy:1048
+    old "Ctrl"
+    new "Ctrl"
+
+    # game/screens.rpy:1049
+    old "Пропускает диалоги, пока зажат."
+    new "Пропускает диалоги, пока зажат."
+
+    # game/screens.rpy:1052
+    old "Tab"
+    new "Tab"
+
+    # game/screens.rpy:1053
+    old "Включает режим пропуска."
+    new "Включает режим пропуска."
+
+    # game/screens.rpy:1056
+    old "Page Up"
+    new "Page Up"
+
+    # game/screens.rpy:1057
+    old "Откат назад по сюжету игры."
+    new "Откат назад по сюжету игры."
+
+    # game/screens.rpy:1060
+    old "Page Down"
+    new "Page Down"
+
+    # game/screens.rpy:1061
+    old "Откатывает предыдущее действие вперёд."
+    new "Откатывает предыдущее действие вперёд."
+
+    # game/screens.rpy:1065
+    old "Скрывает интерфейс пользователя."
+    new "Скрывает интерфейс пользователя."
+
+    # game/screens.rpy:1069
+    old "Делает снимок экрана."
+    new "Делает снимок экрана."
+
+    # game/screens.rpy:1073
+    old "Включает поддерживаемый {a=https://www.renpy.org/l/voicing}синтезатор речи{/a}."
+    new "Включает поддерживаемый {a=https://www.renpy.org/l/voicing}синтезатор речи{/a}."
+
+    # game/screens.rpy:1077
+    old "Открывает меню специальных возможностей."
+    new "Открывает меню специальных возможностей."
+
+    # game/screens.rpy:1083
+    old "Левый клик"
+    new "Левый клик"
+
+    # game/screens.rpy:1087
+    old "Клик колёсиком"
+    new "Клик колёсиком"
+
+    # game/screens.rpy:1091
+    old "Правый клик"
+    new "Правый клик"
+
+    # game/screens.rpy:1095
+    old "Колёсико вверх"
+    new "Колёсико вверх"
+
+    # game/screens.rpy:1099
+    old "Колёсико вниз"
+    new "Колёсико вниз"
+
+    # game/screens.rpy:1106
+    old "Правый триггер\nA/Нижняя кнопка"
+    new "Правый триггер\nA/Нижняя кнопка"
+
+    # game/screens.rpy:1110
+    old "Левый Триггер\nЛевый Бампер"
+    new "Левый Триггер\nЛевый Бампер"
+
+    # game/screens.rpy:1114
+    old "Правый бампер"
+    new "Правый бампер"
+
+    # game/screens.rpy:1118
+    old "Крестовина, Стики"
+    new "Крестовина, Стики"
+
+    # game/screens.rpy:1122
+    old "Старт, Гид, B/Правая кнопка"
+    new "Старт, Гид, B/Правая кнопка"
+
+    # game/screens.rpy:1126
+    old "Y/Верхняя кнопка"
+    new "Y/Верхняя кнопка"
+
+    # game/screens.rpy:1129
+    old "Калибровка"
+    new "Калибровка"
+
+    # game/screens.rpy:1194
+    old "Да"
+    new "Да"
+
+    # game/screens.rpy:1195
+    old "Нет"
+    new "Нет"
+
+    # game/screens.rpy:1241
+    old "Пропускаю"
+    new "Пропускаю"
+
+    # game/screens.rpy:1552
+    old "Меню"
+    new "Меню"
 

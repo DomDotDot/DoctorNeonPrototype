@@ -94,3 +94,19 @@ translate english_us strings:
     old "Контент"
     new "Content"
 
+# TODO: Translation updated at 2025-12-28 02:32
+
+translate english_us strings:
+
+    # game/modules/main-menu/main-menu_custom.rpy:96
+    old "Уведомления {color=#f00}(!){/color}"
+    new ""
+
+    # game/modules/main-menu/main-menu_custom.rpy:98
+    old "Уведомления"
+    new ""
+
+    # game/modules/main-menu/main-menu_custom.rpy:220
+    old "DLC Контент (Только ПК)"
+    new ""
+
