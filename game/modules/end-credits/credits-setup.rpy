@@ -38,7 +38,7 @@ define credits_vol2 = [
 
 
 # --- ЛЕЙБЛ-ОБРАБОТЧИК ---
-# Этот лейбл настраивает музыку и вызывает экран
+
 label credits_sequence(volume_id):
     
     window hide dissolve
@@ -47,7 +47,7 @@ label credits_sequence(volume_id):
         $ audio_file = "audio/music/BGM/Tide.opus"
         $ my_credits = credits_vol1
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol1", featured_prefix="featured_")  
-        $ duration = 5.0 # Длительность музыки в секундах (посмотри в свойствах файла!)
+        $ duration = 303.0 # Длительность музыки в секундах
         $ end_msg_offset = 12.0 # За сколько секунд до конца музыки показать "Спасибо за игру"
         $ cg_time = 3.2 # Каждые сколько секунд менять картинку
         $ fade_time = 1.0 # Время растворения между картинками
@@ -60,8 +60,7 @@ label credits_sequence(volume_id):
         $ cg_time = 3.0
         $ fade_time = 1.0
     
-    # 2. СОЗДАЕМ АНИМАЦИЮ (Передаем список путей)
-    # 3.0 сек показ, 1.0 сек растворение
+
     $ final_slideshow = create_slideshow(featured_cg, cg_time, fade_time)
 
     play music audio_file noloop fadeout 1.0
@@ -71,7 +70,6 @@ label credits_sequence(volume_id):
     stop music fadeout 2.0
     scene black with Fade(1.0, 2.0, 5.0)
 
-    # 3. Проверка результата
     if _return == "skipped":
         return # Возвращаемся, секретной сцены не будет (результат по умолчанию None)
     

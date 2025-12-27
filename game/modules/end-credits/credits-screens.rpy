@@ -13,35 +13,29 @@ init python:
                         featured_images.append(file)
                     all_images.append(file)
         
-        # Сортируем оба списка
         all_images.sort()
         featured_images.sort()
 
         return featured_images, all_images
         
-        # Сортируем по имени (чтобы cg1 шло перед cg2)
         img_list.sort()
         return img_list
 
-    # --- ВОТ ИСПРАВЛЕННАЯ ФУНКЦИЯ АНИМАЦИИ ---
     def create_slideshow(images, slide_time, fade_time):
-        # Если картинок нет - пустота
+
         if not images:
             return Null()
-        
-        # Если картинка одна - просто возвращаем её (анимация не нужна)
+    
         if len(images) == 1:
             return images[0]
 
-        # Собираем аргументы для TransitionAnimation
         # Порядок должен быть строго: Картинка, Пауза, Переход...
         args = []
         for img in images:
-            args.append(img)          # 1. Что показываем
+            args.append(img)          # 1. Показ
             args.append(slide_time)   # 2. Сколько висит картинка (сек)
             args.append(Dissolve(fade_time)) # 3. С каким эффектом меняется на СЛЕДУЮЩУЮ
             
-        # Создаем анимацию. Она сама зациклится.
         return anim.TransitionAnimation(*args)
 
 # ---------------------------------------------
@@ -85,7 +79,6 @@ screen end_credits(credits_list, slideshow_obj, track_duration, end_msg_offset):
     # Логика пропуска (Клик или Пробел)
     key "dismiss" action Return("skipped")
     
-    # Таймер, который завершит титры сам, когда музыка кончится
     timer track_duration action Return("finished")
 
     # --- ФОН ---
@@ -99,7 +92,6 @@ screen end_credits(credits_list, slideshow_obj, track_duration, end_msg_offset):
         xsize 800
         ysize config.screen_height
         
-        # Контейнер с текстом, к которому применяем анимацию прокрутки
         vbox at credits_scroll_up(track_duration):
             spacing 40
             
@@ -113,8 +105,7 @@ screen end_credits(credits_list, slideshow_obj, track_duration, end_msg_offset):
                         color "#aaa"
                         xsize 350
                         text_align 1.0
-                    
-                    # Имя (слева выровнено)
+
                     text name:
                         font "WDXLLubrifontTC-Regular.ttf"
                         size 32
