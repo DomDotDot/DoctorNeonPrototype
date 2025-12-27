@@ -566,5 +566,5 @@ label chapter4_5_concert_end:
     "???" "Наконец-то..."
     
     scene black with Dissolve(3)
-    $ renpy.music.set_audio_filter("music", None)
+    $ renpy.music.set_audio_filter("music", None, replace=True)
 return

@@ -8,7 +8,7 @@ label chapter4_5_lily_flashback:
         Ты же понимаешь, о чем я, Нари?
     """
 
-    play music "music/BGM/Tide.opus" loop
+    play music "music/BGM/Tide.opus" fadein 5.0 fadeout 5.0
     scene bg chapter_4-5_nari-flashback with fade
 
     narrator """
@@ -40,8 +40,6 @@ label chapter4_5_lily_flashback:
     """
 
     seraphina young_neutral """
-    (Улыбается, ее глаза теплеют)
-    
     Ничего страшного. Знаешь, я как раз вчера получила зарплату на подработке.
     
     Хочу сделать Нари сюрприз. Она в последнее время такая грустная.
@@ -50,8 +48,6 @@ label chapter4_5_lily_flashback:
     """
 
     lily """
-    (Вспыхивает)
-    
     Ой, не стоит! Правда! Я... я просто хотела вспомнить, каково это.
     
     Она так красиво стояла в углу... Я больше не прикоснусь к ней, обещаю! Я все заработаю своим трудом!
@@ -169,6 +165,7 @@ label chapter4_5_lily_flashback:
 
     show lily coat frozen at midleft with easeinright
     show nari possessed neutral1 at midright with dissolve
+
     lily """
     Все!
     
@@ -216,6 +213,8 @@ label chapter4_5_lily_flashback:
         
         Я пыталась закричать, но вырвался лишь сдавленный, панический хрип в её ладонь. Я билась, пыталась оттолкнуться ногами, но она была как стальной капкан, впившийся в меня.
     """
+
+    play music "music/BGM/MoonAndDeath.opus" fadein 5.0 fadeout 5.0
     
     narrator """
         Она вдавила меня в стену всем своим телом, прижавшись так близко, что я чувствовала ее дыхание.
@@ -267,4 +266,5 @@ label chapter4_5_lily_flashback:
         Я тонула. В тишине. В одиночестве.
     """
     
-    lily "{=thoughts}Спасите... кто-нибудь... папа... Я не хочу...{/thoughts}"
+    lily "{=thoughts}Спасите... кто-нибудь... папа... Я не хочу..."
+    stop music fadeout 10.0

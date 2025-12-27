@@ -59,6 +59,9 @@ label chapter4_5_boulevard_night:
 
     argon "Черт, куда она... потерял её..."
 
+    play music "music/BGM/WitheredLily_Backtrack.mp3" fadein 2.0 fadeout 2.0
+    scene black with dissolve
+
     narrator """
         Он лихорадочно оглядывался по сторонам. И тут его взгляд замер. Лицо изменилось.
         
@@ -70,10 +73,14 @@ label chapter4_5_boulevard_night:
     """
 
     argon "ЛИЛИ!"
+    
+    stop music fadeout 0.5
 
     narrator "Он рванул туда, не разбирая дороги. Я едва поспевала за ним."
 
     scene featured_1cg-2b with dissolve
+    play music "music/BGM/WitheredLily.mp3" fadein 2.0
+    
     
     narrator """
         Это была маленькая площадь в стороне от основного потока, окруженная декоративными кустами. Уединенный уголок.
@@ -156,6 +163,7 @@ label chapter4_5_boulevard_night:
     narrator "Реакция была мгновенной. Она с криком вскочила и с размаху влепила ему пощечину. Звук пощечины был оглушительным."
 
     scene black with Dissolve(0.125)
+    stop music fadeout 5.0
 
     lily "А-а-а! ОТОЙДИ ОТ МЕНЯ, ИЗВРАЩЕНЕЦ!"
 

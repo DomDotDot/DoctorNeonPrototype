@@ -52,7 +52,7 @@ label chapter4_5_concert_mid:
     stop ambient fadeout 2.5
     scene bg chapter_4-5_veritas-expo-hall with Dissolve(2.5)
     play ambient "ambient/FanConference.opus" fadein 2.5
-    $ renpy.music.set_audio_filter("ambient", None)
+    $ renpy.music.set_audio_filter("ambient", None, replace=True)
     
     narrator """
         За дверью оказался огромный, многоуровневый атриум, какие бывают в дорогих торговых центрах. Сейчас он был пуст, эскалаторы стояли без движения.

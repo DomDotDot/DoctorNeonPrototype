@@ -1,7 +1,6 @@
 label chapter4_5_morning_after:
 
     scene bg chapter_4_ark-aground-base with fade
-    play music "music/BGM/WitheredFlower_Tense.opus" loop
 
     narrator """
         Пронзительный сигнал будильника вырвал меня из беспокойного сна. 6:30 утра.
@@ -30,8 +29,6 @@ label chapter4_5_morning_after:
     neon "Мы не знаем этого наверняка."
     
     argon """
-        (Горько смеется)
-        
         Я видел ее глаза, Неон. Там никого не было. Пустота.
         
         Это я ее такой сделал. Моя 'честность', моя 'безнадежность'... Я ее сломал.
@@ -40,9 +37,15 @@ label chapter4_5_morning_after:
     """
 
     neon """
-        (Застегивая юбку, голос ровный и холодный)
+        Потому что это больше не только о Лили.
         
-        Потому что это больше не только о Лили. Это о Саре, чей труп мы оставили в общежитии. О Кларе, которая вернулась 'пустой'. Об Эми и Кэрол, которые вели себя как марионетки. О Селестии, которую я потеряла.
+        Это о Саре, чей труп мы оставили в общежитии.
+        
+        О Кларе, которая вернулась 'пустой'.
+        
+        Об Эми и Кэрол, которые вели себя как марионетки.
+        
+        О Селестии, которую я потеряла.
         
         Это феномен. Аномалия. И я хочу понять, как она работает. Чтобы остановить ее.
     """
@@ -64,7 +67,7 @@ label chapter4_5_morning_after:
     """
     
     scene bg chapter_4-5_veritas-alleway-morning with fade
-    play music "music/BGM/WitheredFlower_Tense.opus" loop
+    play music "music/BGM/SERN.mp3" fadeout 5.0
 
     narrator """
         Я шла по пустым, серым улицам просыпающегося Веритаса.
@@ -80,11 +83,11 @@ label chapter4_5_morning_after:
     
     narrator "Гудки. Длинные, мучительные. Я уже думала, она не ответит."
 
-    meryl "(Голос в телефоне, сонный, разбитый) ...Алло?"
+    meryl "...Алло?"
     
     neon "Мэрил? Это Неон. Простите, что так рано."
     
-    meryl "Неон... (Пауза, слышен сдавленный всхлип) Вы... вы что-то узнали?"
+    meryl "Неон... ...Вы... вы что-то узнали?"
     
     narrator "В ее голосе была отчаянная, хватающаяся за соломинку надежда. И мне предстояло ее убить."
 
@@ -92,7 +95,7 @@ label chapter4_5_morning_after:
     
     narrator "В трубке повисла оглушительная тишина. Я слышала только ее прерывистое, сдерживаемое дыхание."
     
-    meryl "(Шепотом) Она... она жива?"
+    meryl "Она... она жива?"
     
     narrator "Я закрыла глаза. Перед ними снова встала та ужасная картина."
     
@@ -110,7 +113,7 @@ label chapter4_5_morning_after:
     Я думаю, я знаю, с чего начать поиски. Но мне нужна помощь.
     """
     
-    meryl "(Голос стал жестким, полным сдерживаемой ярости) Что вам нужно?"
+    meryl "Что вам нужно?"
     
     neon """
     Мне нужно попасть внутрь. Не как гость. Как студентка. Чтобы наблюдать, собирать информацию, быть рядом с источником.
@@ -141,7 +144,6 @@ label chapter4_5_morning_after:
     """
 
     scene bg chapter_4-5 academy parking with fade
-    play music "music/BGM/Veritas_Morning_Theme.opus" loop
     
     narrator """
         Солидный черный седан без номеров подъехал ровно в назначенное время. Стекло опустилось.
@@ -216,7 +218,7 @@ label chapter4_5_morning_after:
 label chapter4_5_classroom_intro:
 
     scene bg chapter_4-5 academy hall with fade
-    play music "music/BGM/Veritas_Academy_SliceOfLife.opus" loop
+    play music "music/BGM/IWishIWasTruth.mp3" fadein 5.0 fadeout 10.0
 
     narrator """
         Меня встретил мужчина средних лет в безупречном костюме — директор.
@@ -224,7 +226,7 @@ label chapter4_5_classroom_intro:
         Он не задавал вопросов, лишь окинул меня оценивающим взглядом.
     """
 
-    "Директор" "Все документы в порядке. Ваш куратор — Акари-сенсей. Она уже ждет"
+    "Директор" "Все документы в порядке. Ваш куратор — Акари-сенсей. Она уже ждет."
         
     narrator "Он провел меня по светлым, гулким коридорам и подвел к двери с табличкой 'Аудитория 3-Б'. Урок уже начался."
 
@@ -274,7 +276,9 @@ label chapter4_5_classroom_intro:
     scene 2cg-6 with Dissolve(0.125)
     
     narrator "Голос Лили, с легкой, невинной улыбкой."
-    
+
+    $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
+
     lily "Судзуки-сан, а какой твой любимый десерт?"
     
     narrator """
@@ -283,6 +287,8 @@ label chapter4_5_classroom_intro:
         Весь класс смотрел на меня, ожидая ответа, как будто это был самый важный вопрос в мире.
     """
 
+    $ renpy.music.set_audio_filter("music", None, replace=True)
+    
     neon "Я... не очень люблю сладкое. Предпочитаю черный кофе."
     
     narrator """
@@ -316,6 +322,8 @@ label chapter4_5_classroom_intro:
 
     scene featured_cg-36_3 with dissolve
     
+    $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
+
     lily "{=whisper}Кофе — это горько. Ты, наверное, очень одинокий человек, Неон-сан.{/whisper}"
     
     narrator """
@@ -325,9 +333,10 @@ label chapter4_5_classroom_intro:
     """
 
     scene 2cg-7 with dissolve
+    $ renpy.music.set_audio_filter("music", None, replace=True)
 
     "Соседка по парте" "{=whisper}Привет. Я Мика."
-    "Мика" """
+    mika """
     {=whisper}Не обращай внимания на Лили, она со всеми так.
     
     {=whisper}А ты знала, что сидишь на месте парня, который...
@@ -339,7 +348,7 @@ label chapter4_5_classroom_intro:
 
     narrator "Я лишь кивнула, не зная, что ответить."
 
-    "Мика" """
+    mika """
     {=whisper}Эх... на уроке биологии. Он выглядил таким мужественным. Таким уверенным. Жаль его...
 
     {=whisper}Неон, а у тебя есть парень?
@@ -357,7 +366,7 @@ label chapter4_5_classroom_intro:
     Не приставай к новенькой. Лучше расскажи мне почему у новорожденных самцов мух доминатный ген цвета глаз и передается от отца?
     """
 
-    "Мика" "Э-э... Ну... Потому что гены отца сильнее?"
+    mika "Э-э... Ну... Потому что гены отца сильнее?"
     
     neon """
     {=thoughts}Бред.
@@ -425,8 +434,6 @@ label chapter4_5_classroom_intro:
     neon "Я слышала... парень, на чьем месте я сижу, Кай Ито... он тоже интересовался биологией?"
     
     akari """
-    (Ее лицо принимает скорбное, но отрепетированное выражение)
-    
     Ах, Кай-кун... да. Такой тихий, но с пытливым умом.
     
     Он сам вызвался делать углубленный проект о... феромонной коммуникации в пчелиных ульях.
@@ -445,6 +452,7 @@ label chapter4_5_classroom_intro:
     """
     
     scene bg chapter_4-5 academy hall evening with fade
+    play music "music/BGM/ChaosMind.opus" fadein 5.0 fadeout 10.0
 
     narrator "Уроки закончились. Академия опустела. Оранжевые лучи заката заливали пустые коридоры, отбрасывая длинные, искаженные тени."
     

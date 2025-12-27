@@ -1,7 +1,7 @@
 label chapter4_5_akari_arrest:
 
     scene bg chapter_4-5 plaza entrance with fade
-    play music "music/BGM/Veritas_SWAT_Theme.opus" loop
+    play music "music/BGM/StrangeDisappearances_Backtrack.mp3" fadein 5.0 fadeout 5.0
 
     narrator """
         Мы приехали быстро. Никаких сирен, никаких мигалок.
@@ -24,6 +24,8 @@ label chapter4_5_akari_arrest:
     # play sound "sfx/door_breach_silent.opus"
     
     narrator "Взлом. Мы ворвались внутрь."
+
+    queue music "music/BGM/StrangeDisappearances.ogg" fadein 3.0 noloop 
     
     scene featured_4cg-2 with fade
     
@@ -62,6 +64,8 @@ label chapter4_5_akari_arrest:
 
     Я осторожно подошла к ней.
     """
+
+    play music "music/BGM/Impatient.mp3" fadein 2.0 fadeout 5.0
     
     neon "Лили? Все в порядке. Теперь ты в безопасности."
 

@@ -5,7 +5,7 @@ label dream_sequence_japan_4:
     # play sound "sounds/fire_chaos_dream_sounds.opus" loop # Звуки пожара, криков, треска
     # music "sounds/dream_tragedy_theme.opus" loop
 
-    play music "music/BGM/ExtinguishedFlame.opus"
+    play music "music/BGM/ExtinguishedFlame.opus" fadein 8.0
 
     # (Начало сцены — Неон "растворяется" после поцелуя Лили)
 
@@ -21,8 +21,7 @@ label dream_sequence_japan_4:
 
     scene 7a-cg-1 at heat_haze with Dissolve(1.0)
 
-    play music "music/BGM/Dream_Tragedy_Theme.opus" loop
-    play ambient "ambient/fire_chaos_dream_sounds.opus" loop
+    play ambient "ambient/house_burn.mp3" volume 0.175 fadein 3.0
     
     narrator """
         Ночь. Мой дом горит.
@@ -41,11 +40,16 @@ label dream_sequence_japan_4:
     
     # Резкий скачок во времени сна, к спору
     scene black with fade
-    stop ambient
+    stop ambient fadeout 10.0
     
     narrator "Сцена меняется. Снова тот спор моей матери и 'Тёти'."
     
-    "Аканэ" "У меня есть что терять! В отличие от тебя!"
+    show akane anger at midleft with dissolve
+    show oganesson young_kimono hurt at midright with dissolve
+
+    akane """
+        У меня есть что терять. В отличие от тебя!
+    """
     
     narrator """
         Я снова вижу лицо 'Тёти'. Раньше я видела в нем только гнев и обиду.
@@ -55,11 +59,18 @@ label dream_sequence_japan_4:
         Я вижу то же уродливое, искажающее чувство, что исходило от Серафины, когда она говорила о Селестии.
         
         То же самое чувство, которое пыталась объяснить Лили...
-        
+    """
+
+    hide akane with dissolve
+    show oganesson young_kimono hurt at center with easeinleft
+
+    narrator """ 
         Зависть.
         
         Черная, липкая, всепоглощающая. Зависть завидовала моей матери. Моей семье. Мне.
     """
+
+    scene black with fade
 
     narrator """
         Сцена снова меняется. Возврат в огонь.
@@ -113,6 +124,8 @@ label dream_sequence_japan_4:
     scene black with dissolve
 
     lily "...исчезать..."
+
+    play music "music/BGM/LostConnection.opus" fadein 5.0 fadeout 5.0
 
     narrator """
         Чужое воспоминание обрывается.

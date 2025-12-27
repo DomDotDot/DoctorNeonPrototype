@@ -281,7 +281,7 @@ label chapter4_5_concert_start:
         А я больше не могла сосредоточиться на музыке. Я смотрела на сцену, на сияющую фигуру Серафины, и чувствовала, как по спине пробегает холод.
     """
 
-    $ renpy.music.set_audio_filter("music", None)
+    $ renpy.music.set_audio_filter("music", None, replace=True)
     $ renpy.music.set_volume(1.0, delay=0.5, channel="music")
 
     stop music fadeout 2.0

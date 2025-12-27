@@ -1,7 +1,7 @@
 label chapter4_5_seraphina_flashback:
     
     scene black with Dissolve(0.5)
-    play music "music/BGM/Lilis_Lullaby_Memory_Corrupted.opus" noloop
+    play music "music/BGM/LISTEN.ogg"
     
     narrator """
         И в этот последний миг... я увидела ее глазами.
@@ -112,6 +112,7 @@ label chapter4_5_seraphina_flashback:
         Я... я ведь...
     """
 
+
     narrator """
         Я захлебывалась слезами. В ушах звенело от тишины, в которой больше не было её смеха.
         
@@ -125,6 +126,7 @@ label chapter4_5_seraphina_flashback:
     """
 
     scene featured_10cg-3-2 with dissolve
+    play music "ambient/Seraphina.opus" fadein 5.0 fadeout 5.0 volume 0.35 noloop
 
     "Сущность" """
         Хи-хи-хи... 

@@ -1,7 +1,7 @@
 label chapter4_5_lily_cafe:
 
     show 6cg-1a with dissolve
-    play music "music/BGM/Veritas_CafeTheme.opus" loop fadein 2.0
+    play music "music/BGM/OverlookedLittleShine.opus" fadein 2.0 fadeout 5.0
     
     narrator """
         Мы шли по вечернему городу. Огни витрин уже зажглись, отражаясь в лужах.
@@ -146,6 +146,7 @@ label chapter4_5_lily_cafe:
     narrator "Она с детской непосредственностью и жадностью схватила наши сцепленные руки своими ладонями."
 
     play sound "sfx/static_shock_loud.mp3"
+    stop music fadeout 0.25
     scene white with flash
     
     narrator """
@@ -157,11 +158,11 @@ label chapter4_5_lily_cafe:
     """
     
     scene bg chapter_4-5 sugar cafe with dissolve
-    stop music fadeout 0.5
-    play music "music/BGM/Veritas_CafeTheme_Distorted.opus" loop fadein 2.0
+
+    #play music "music/BGM/Veritas_CafeTheme_Distorted.opus" loop fadein 2.0
 
     show neon student neutral at left with dissolve
-    show lily student neutral at center with dissolve
+    show lily student impatient at center with dissolve
     show amy neutral at right with dissolve
 
     neon "А!.. Что?.."
@@ -242,7 +243,7 @@ label chapter4_5_lily_cafe:
     
     carol "Ой, а про экзамен по истории не напоминай! Я до сих пор не могу запомнить все периоды развития. Нас точно завалят!"
     
-    lily "Девочки, успокойтесь. Мы все сдадим. Главное — держаться вместе."
+    lily student worried "Девочки, успокойтесь. Мы все сдадим. Главное — держаться вместе."
 
     narrator """
         Я сидела, молча попивая свой кофе, и чувствовала себя пришельцем, наблюдающим за ритуалами незнакомого племени.
@@ -271,7 +272,7 @@ label chapter4_5_lily_cafe:
     Да и было темно, я даже не узнала вашего... точнее, отца Лили. Подумала, какой-то незнакомец пристает к ней.
     """
 
-    lily """
+    lily student neutral  """
         Да, того самого. Он не 'брат'. Он мой папа.
     
         Ладно, девочки, хватит. Это было прикрытие, да?
@@ -281,7 +282,7 @@ label chapter4_5_lily_cafe:
 
     narrator "Лили хихикала, но потом она снова смотрит на меня, ее взгляд становится серьезным"
 
-    lily """
+    lily student worried """
     А если серьезно... я все думаю о Кае Ито.
 
     Жалко его, конечно. Он был таким тихим, замкнутым. Я... я даже хотела с ним подружиться, как-то растормошить... но... не успела.
@@ -291,9 +292,9 @@ label chapter4_5_lily_cafe:
     
     neon "Уже поздно. Лили, нам пора. Твой отец ждет."
 
-    narrator "Лицо Лили мгновенно меняется, становится умоляющим"
+    narrator "Лицо Лили мгновенно меняется, становится умоляющим."
 
-    lily """
+    lily student worried """
         Стой! Уже?!
         
         Так поздно... девушкам не стоит ходить по улицам в одиночку!
@@ -357,7 +358,7 @@ label chapter4_5_lily_cafe:
     
     narrator "Лицо Лили мгновенно просияло. Она тут же стиснула меня в объятиях."
     
-    lily "Спасибо! Спасибо, Неон! Вы настоящий человек! Девочки, слышали? Она остается!"
+    lily student neutral "Спасибо! Спасибо, Неон! Вы настоящий человек! Девочки, слышали? Она остается!"
     
     narrator """
         Эми и Кэрол радостно захлопали в ладоши.
@@ -373,7 +374,8 @@ label chapter4_5_lily_studio:
     
     scene bg chapter_4-5 old district alleys with fade
     play music "music/BGM/Veritas_Night_Rain.opus" loop
-    play ambient "ambient/rain_on_pavement_city.opus" loop
+    play sound "sfx/light_rain.mp3" loop fadein 4.0
+    play ambient "ambient/wind-howly-ear.opus"
     
     narrator """
         На улице начался дождь.
@@ -390,9 +392,6 @@ label chapter4_5_lily_studio:
         
         Мы подошли к обшарпанному трехэтажному зданию, зажатому между двумя современными постройками. Над дверью висела старая, неработающая неоновая вывеска в виде гитары.
     """
-    
-    play music "music/BGM/Lilis_Lullaby.opus" loop
-    stop ambient
     
     narrator "Пока она возилась с замком, меня не отпускало чувство тревоги. Я вспомнила, что Мэрил говорила про опасность."
     
@@ -435,6 +434,8 @@ label chapter4_5_lily_studio:
     lily "Заходи скорее! Я хочу уже сыграть тебе эту песню!"
 
     scene bg chapter_4-5_lily-studio with fade
+    stop sound fadeout 0.25
+    stop ambient fadeout 0.25
 
     narrator """
         Лили приоткрыла дверь своей рукой. Мы вчетвером зашли в ее 'убежище'.
@@ -452,7 +453,7 @@ label chapter4_5_lily_studio:
     show lily student neutral at right with dissolve
     
     # Музыка сменяется на более тихую, "интимную", но с нотками тревоги.
-    # play music "music/BGM/Lilis_Lullaby.opus" loop
+    play music "music/BGM/LunarGuitar.opus" fadein 2.0
     
     lily """
         Фух... ну вот мы и дома.
@@ -535,6 +536,8 @@ label chapter4_5_lily_studio:
     """
     
     lily "Это песня, которую я написала сама. О звезде, что упала с небес..."
+
+    queue music "music/BGM/LunarGuitarVocal.ogg" fadein 2.0
     
     narrator "Она взяла первый, чистый аккорд. Комнату наполнила меланхоличная, красивая мелодия. Ее голос, тихий и нежный, полился, как ручей."  
         
@@ -630,6 +633,8 @@ label chapter4_5_lily_studio:
         И будем мы сиять вдвоем~"
     """
     
+    play music "music/BGM/DyingWish.ogg" fadein 2.0 fadeout 6.0
+    
     narrator "Последняя строчка прозвучала как клятва. Или как приговор."
 
     narrator """
@@ -645,6 +650,7 @@ label chapter4_5_lily_studio:
     neon "{=thoughts}Серафина...{/thoughts}"
 
     scene featured_6cg-5 with fade
+    scene featured_6cg-5 with vpunch
     
     narrator "Эми и Кэрол, больше не притворяясь, рывком опрокинули меня, а затем грубо прижали к полу. Я не могла сопротивляться — мое тело плавилось в истоме."
     
@@ -749,6 +755,9 @@ label chapter4_5_lily_studio:
     scene featured_6cg-6 with dissolve
 
     lily "Открой ротик~ Ах, да. Ты не можешь."
+
+    stop music fadeout 5.0
+    play sound "sfx/lily_lewd_giggle.mp3" fadein 0.5
     
     narrator """
         Она рассмеялась. А потом ее губы накрыли мои, закрыв свои яркие глаза.

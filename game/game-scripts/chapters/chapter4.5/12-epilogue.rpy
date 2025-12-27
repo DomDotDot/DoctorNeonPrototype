@@ -2,9 +2,6 @@ label chapter4_5_epilogue:
 
     # --- Сцена 1: После Битвы ---
     
-    # Музыка: тихая, скорбная, почти похоронная мелодия. Шум дождя.
-    play music "music/BGM/Aftermath_Sorrow.opus" loop
-    
     narrator """
         Сирены стихли. Пожарная машина уехала.
         
@@ -49,7 +46,7 @@ label chapter4_5_epilogue:
     # --- Сцена 2: Утро Следующего Дня ---
     
     scene bg chapter_4_ark-aground-base with fade
-    play music "music/BGM/Veritas_NewsTheme_Tense.opus" loop
+    #play music "music/BGM/Veritas_NewsTheme_Tense.opus" loop
     
     narrator """
         Прошло несколько часов. Мы вернулись в студию.
@@ -128,8 +125,6 @@ label chapter4_5_epilogue:
     neon "Алло?"
     
     meryl """
-        (Голос — холодный, деловой, ни следа вчерашнего горя)
-        
         Неон. Я слышала новости. Вы справились. Акари уже дает показания.
         
         Вы доказали, что умеете решать проблемы, которые не по зубам нашей системе.

@@ -4,7 +4,7 @@ label chapter4_5_seraphina_penthouse:
     stop music fadeout 2.0
     
     # Звуки города, приглушенные толстым стеклом. Тиканье дорогих часов.
-    play ambient "ambient/penthouse_night_silence.mp3" fadein 2.0
+    play music "music/BGM/DeadLine.ogg" fadein 2.0 fadeout 5.0
 
     narrator """
         Роскошная комната была погружена в полумрак. Единственным светом были огни ночного Веритаса за панорамным стеклом.
@@ -135,6 +135,8 @@ label chapter4_5_seraphina_penthouse:
     narrator "Дверь пентхауса с грохотом распахнулась."
     
     # play sound "sfx/flashbang_explode.mp3" with white_flash
+    stop music fadeout 0.25
+    play sound "sfx/ear-ringing.opus" fadein 2.5 volume 0.25
     scene white with flash
     
     narrator """
@@ -148,6 +150,8 @@ label chapter4_5_seraphina_penthouse:
     "Командир" "Чисто! Вижу цель! Лежать! Руки за голову!"
 
     show 5cg-4 with flash
+    stop sound fadeout 7.5
+    play music "music/BGM/NarcissismShort.opus" fadein 2.0 fadeout 2.0
     
     narrator """
         Серафина медленно повернулась к ним. Вспышка растрепала её волосы, но она лишь характерно поправила прядь.
@@ -178,6 +182,7 @@ label chapter4_5_seraphina_penthouse:
     Знаете что? Сделайте мне одолжение...
     """
 
+    stop music fadeout 6.0
     scene featured_5cg-5 with Dissolve(2.0)
 
     scene featured_5cg-5:
@@ -202,6 +207,9 @@ label chapter4_5_seraphina_penthouse:
     # play sound "sfx/gunshot_burst_multiple.mp3" fadeout 2.0
 
     scene black with dissolve
+
+    play sound "sfx/machine-gun-shooting.mp3" fadein 1.0 volume 2.0
+    play ambient "sfx/yandere-laugh.mp3" fadein 1.0 noloop volume 0.5
     
     narrator """
     ...

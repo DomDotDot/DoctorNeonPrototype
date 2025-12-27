@@ -147,10 +147,15 @@ label chapter4_5_finale:
         
         А мы с Неон останемся вдвоем. Навсегда.
     """
-
+    play ambient "ambient/HeavyRain.mp3" fadein 2.5 fadeout 1.5
     scene black with Dissolve(0.125)
+    pause 1.5
+    $ renpy.music.set_audio_filter("ambient", None, replace=True)
+    $ renpy.music.set_volume(1.0, delay=3.5, channel="ambient")
+    stop music fadeout 0.5
 
     seraphina "Лили... Атакуй~"
+    play music "music/BGM/RainInYourBlackEyes.mp3" fadein 5.0 fadeout 10.0
     
     narrator """
         Она лениво указала пальцем на Аргона, как императрица, отдающая приказ казнить раба.
@@ -188,9 +193,8 @@ label chapter4_5_finale:
         Символ клятвы, которую она дала той, кого предала.
     """
 
+
     seraphina """
-        (Тихо, с отвращением)
-        
         К черту.
         
         К черту обещания. К черту 'любовь'.
@@ -217,6 +221,7 @@ label chapter4_5_finale:
     # play sound "sfx/body_thud_wet.opus"
 
     scene featured_9cg-5b with fade
+    play ambient1 "ambient/firetruck-siren-ambience.mp3" fadein 2.5 fadeout 1.5 volume 0.3
     
     narrator """
         Мы рухнули на землю. Она оказалась сверху, прижав мои руки коленями.
@@ -323,6 +328,7 @@ label chapter4_5_finale:
     """
 
     scene featured_9cg-6 with dissolve
+    $ renpy.music.set_volume(0.5, delay=0.25, channel="ambient1")
     
     neon "Прекрати! Ты убиваешь себя! Ты убиваешь нас обеих!"
     
@@ -401,6 +407,8 @@ label chapter4_5_finale:
     seraphina "Ты... Ты... твердолобая... высокомерная... крашеная неформалка!"
 
     scene black with dissolve
+    $ renpy.music.set_audio_filter("ambient", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
+    $ renpy.music.set_audio_filter("ambient1", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
     
     narrator """
         'Крашеная неформалка'.
@@ -436,6 +444,8 @@ label chapter4_5_finale:
     Под ее пышной, дорогой юбкой... не было ничего.
     """
 
+    $ renpy.music.set_audio_filter("ambient", None, replace=True)
+    $ renpy.music.set_audio_filter("ambient1", None, replace=True)
     scene featured_9cg-7b with fade
     
     narrator """
@@ -527,7 +537,9 @@ label chapter4_5_finale:
 
         'Серафина', срывается на детский плач, а слезы текут по её лицу.
     """
-    
+
+    $ renpy.music.set_volume(1.0, delay=0.25, channel="ambient1")
+
     seraphina """
         Нет... Нет! Заткнись!
         
@@ -568,6 +580,8 @@ label chapter4_5_finale:
 
     scene black with Dissolve(0.125)
 
+    $ renpy.music.set_audio_filter("ambient", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
+    $ renpy.music.set_audio_filter("ambient1", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
     neon "Иллюзиям и твоей лжи здесь не место."
 
     narrator """
@@ -584,7 +598,11 @@ label chapter4_5_finale:
         Мои руки не встретили сопротивления плоти. Они как будто провалились в пустоту.
     """
 
+    play sound "sfx/firetruck-siren-passby.mp3" fadein 1.0 volume 0.5
     scene featured_9cg-9 with dissolve
+
+    stop music fadeout 10.0
+    $ renpy.music.set_volume(0.75, delay=0.125, channel="ambient")
     
     seraphina "А-ах?.."
     
@@ -603,6 +621,8 @@ label chapter4_5_finale:
         
         Она протянула ко мне руку. Отчаянно. С мольбой. Как будто её снова предали.
     """
+    $ renpy.music.set_volume(0, delay=0.125, channel="ambient")
+
     # === ФЛЕШБЭК ===
 
     call chapter4_5_seraphina_flashback from _call_chapter4_5_seraphina_flashback
@@ -610,6 +630,8 @@ label chapter4_5_finale:
     # =======================================
 
     scene black with dissolve
+    $ renpy.music.set_volume(1.0, delay=0.125, channel="ambient")
+
     narrator """
         Тогда... тогда я послушалась его... или своё собственное эго...
 
@@ -623,7 +645,9 @@ label chapter4_5_finale:
         
         Я начинаю видеть Нари. Ту, кем я была раньше.
 
-        Красный свет в глазах уже погас, как моё желания собственничества. Мои белокурые локоны исчезли.
+        Красный свет в глазах уже погас, как моё желания собственничества.
+        
+        Мои белокурые локоны исчезли.
         
         Шум в ушах пропал, не было больше наводящих мыслей, не было страха не услышать тишину.
     
@@ -642,9 +666,14 @@ label chapter4_5_finale:
 
     scene featured_9cg-10-2 with dissolve
 
+    $ renpy.music.set_volume(0.25, channel="ambient")
+    $ renpy.music.set_audio_filter("ambient", None, replace=True)
+    $ renpy.music.set_audio_filter("ambient1", None, replace=True)
+
     nari "{=thoughts}Ах... нет... это я... врала зеркалам..."
     
     scene black with Dissolve(0.125)
+
     # play sound "sfx/tires_skid_heavy.opus"
     # play sound "sfx/body_thud_wet.opus"
     
@@ -657,6 +686,9 @@ label chapter4_5_finale:
 
         Я не желая видеть то, что осталось.
         """
+
+    stop ambient fadeout 45.0
+    play music "music/BGM/Karma.ogg" fadein 5.0 fadeout 10.0
 
     neon """
         Ты думала, она врала тебе? Ты думала, она жалела тебя?
@@ -673,6 +705,7 @@ label chapter4_5_finale:
 
         Прощай, Нари.
     """
+    
     
     # play sound "sfx/rain_stopping_slowly.mp3" fadeout 5.0
     
