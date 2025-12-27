@@ -11,7 +11,7 @@ screen ai_sensitive_overlay():
 
     if persistent.ai_sensitive_mode:
         add Solid("#000000") 
-        text "AI SENSITIVE MODE" size 14 color "#333" align (0.99, 0.01)
+        text "AI SENSITIVE MODE" size 45 color "#333" align (0.99, 0.01)
 
 # 3. Автозапуск экрана
 # Это значит, что Ren'Py будет показывать его всегда, когда идет игровой процесс,
