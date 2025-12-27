@@ -29,17 +29,17 @@ label chapter4_5_lily_flashback:
         Я не могу так. Я не хочу строить счастье на чужом несчастье. Папа был прав... этот мир жесток, и я делаю его ещё хуже.
     """
 
-    show seraphina young_neutral at left with dissolve
+    show seraphina young worried at left with dissolve
     seraphina "Хм... а где Нари? Она не возвращалась с утра?"
 
-    show lily neutral at right with dissolve
+    show lily shirt normal at right with dissolve
     lily "Ой! Она... она сказала, что пойдет за продуктами. Я... я забыла вам сказать, простите!"
     
     narrator """
         Я соврала. Нари просто ушла, хлопнув дверью. Но я не хотела, чтобы Серафина злилась на неё. Я хотела сгладить углы. Хотя бы так.
     """
 
-    seraphina """
+    seraphina young_neutral """
     (Улыбается, ее глаза теплеют)
     
     Ничего страшного. Знаешь, я как раз вчера получила зарплату на подработке.
@@ -57,9 +57,9 @@ label chapter4_5_lily_flashback:
     Она так красиво стояла в углу... Я больше не прикоснусь к ней, обещаю! Я все заработаю своим трудом!
     """
 
+    narrator "Она тихонько засмеялась, подходит и по-дружески обнимает меня за плечи."
+
     seraphina """
-    (Смеется, подходит и по-дружески обнимает меня за плечи)
-    
     Глупенькая. Я — лидер группы. Я должна заботиться о всех членах группы.
     
     Мы теперь команда. Не нагружай себя.
@@ -68,12 +68,12 @@ label chapter4_5_lily_flashback:
     
     Даже если у неё что-то не получается... ну, с музыкой... это неважно.
     
-    Она — моя опора. Мы вместе 'по умолчанию'. И я люблю её любой. Надеюсь, она это знает.
+    Она — моя опора. Мы вместе 'по умолчанию'. И я люблю её любой. Надеюсь, она со мной это разделяет.
     """
 
     lily "{=thoughts}Она любит её. По-настоящему. А я... я здесь лишняя. Я — третий лишний, который все портит.{/thoughts}"
 
-    show nari normal at center with dissolve
+    show nari possessed neutral1 at center with dissolve
     narrator "В этот момент дверь открылась. Вошла Нари. На ее лице не было ни тени улыбки. Она была бледной и какой-то... пустой."
     
     seraphina "Нари! А мы тебя заждались! А где покупки?"
@@ -95,8 +95,8 @@ label chapter4_5_lily_flashback:
         
         Нари молчала, и эта тишина давила на меня. Я чувствовала, что должна что-то сказать, исправить ту неловкость, что возникла между нами.
     """
-    show lily neutral at left with dissolve
-    show nari neutral at right with dissolve
+    show lily coat frozen at midleft with dissolve
+    show nari possessed neutral1 at midright with dissolve
 
     lily """
     Нари... насчет гитары... прости, я не хотела тебя обидеть, правда.
@@ -121,9 +121,11 @@ label chapter4_5_lily_flashback:
     """
 
     nari "Что ты делаешь?"
-    hide nari with dissolve
     
     lily "Я... я просто... должна позвонить. Одну минуту."
+
+    hide nari with dissolve
+    show lily coat frozen at center with easeinleft
     
     narrator """
         Я нашла его номер. 'Папа'.
@@ -164,7 +166,9 @@ label chapter4_5_lily_flashback:
         
         Я вытерла слезы и улыбнулась Нари. Искренне, с надеждой.
     """
-    show nari normal at right with dissolve
+
+    show lily coat frozen at midleft with easeinright
+    show nari possessed neutral1 at midright with dissolve
     lily """
     Все!
     
@@ -172,20 +176,20 @@ label chapter4_5_lily_flashback:
     
     А завтра... завтра я уеду и больше не буду вам мешать!
 
-    Спасибо вам за всё.За музыку. За доброту. За то, что приняли меня, несмотря на мою странность.
+    Спасибо вам за всё. За музыку. За доброту. За то, что приняли меня, несмотря на мою странность.
     
     Спасибо...
     """
     
     narrator "Я ожидала увидеть удивление. Или облегчение. Но Нари смотрела на меня с... странным, холодным выражением. Будто я только что подписала себе смертный приговор."
     
-    nari "...Уезжаешь?"
+    nari possessed neutral "...Уезжаешь?"
     
     narrator "Ее голос был тихим, лишенным эмоций. Она сделала шаг ко мне. Ее рука внезапно метнулась вперед и схватила мою, сжав запястье до боли."
     
     play music "music/BGM/Entity_Theme.opus" fadeout 5.0
     
-    nari "Тссс. Тихо. Там кто-то идет."
+    nari possessed neutral1 "Тссс. Тихо. Там кто-то идет."
 
     scene black with dissolve
 

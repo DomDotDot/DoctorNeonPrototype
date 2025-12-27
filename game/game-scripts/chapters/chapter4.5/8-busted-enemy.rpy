@@ -103,6 +103,8 @@ label chapter4_5_akari_arrest:
 
     scene bg chapter_4-5 akari apartment with dissolve
 
+    show neon student neutral with dissolve
+
     neon "Мэрил! Стой!"
 
     narrator "Я схватила Мэрил за рукав, прежде чем она успела уйти вслед за группой захвата."
@@ -115,7 +117,7 @@ label chapter4_5_akari_arrest:
         Серафина. Айдол. Она — центр всего этого.
     """
 
-    show meryl surprised at left with dissolve
+    show meryl neutral at left with dissolve
     
     meryl "Серафина? Неон, ты в своем уме? Она — лицо города. У нас нет ордера, нет улик, кроме твоих догадок..."
 
@@ -145,7 +147,7 @@ label chapter4_5_akari_arrest:
     
     narrator "В этот момент я почувствовала, как кто-то настойчиво тянет меня за руку."
 
-    show lily impatient at center with dissolve
+    show lily student impatient at right with dissolve
 
     lily """
         Неон! Ну сколько можно болтать?
@@ -212,8 +214,6 @@ label chapter4_5_akari_arrest:
 
     Она засияла. Впервые я увидела на ее лице ту самую улыбку с фотографии Аргона. Чистую и счастливую.
     """
-
-    scene bg chapter_4-5 akari apartment with dissolve
     
     lily """
     Стой! Не сейчас! Я... я не могу его видеть... не в таком виде.
