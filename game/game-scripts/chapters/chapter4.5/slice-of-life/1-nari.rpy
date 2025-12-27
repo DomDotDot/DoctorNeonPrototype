@@ -526,7 +526,7 @@ label chapter4_5_nari_flashback:
     $ renpy.pause(0.2, hard=True)
 
 
-    scene featured_cg-34:
+    show featured_cg-34:
         alpha 0.0
         linear 0.25 alpha 0.5
     

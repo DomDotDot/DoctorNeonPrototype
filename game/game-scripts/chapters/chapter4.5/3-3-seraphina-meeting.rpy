@@ -530,7 +530,7 @@ label chapter4_5_concert_end:
     scene black with Dissolve(0.125)
     
     scene featured_cg-33_4 at dizzy_sway with dissolve
-    scene featured_cg-33_4 as ghost_cg at dizzy_ghost_anim_light
+    show featured_cg-33_4 as ghost_cg at dizzy_ghost_anim_light
 
     narrator """
         Я снова шла по застекленному мосту обратно, к выходу. К Аргону. Город сменился 'золотым часом', желтым закатом. Небо на западе окрасилось в оранжевые и желтые тона.
@@ -541,7 +541,7 @@ label chapter4_5_concert_end:
         
         Я оперлась о перила, глядя на парк внизу. Там, на скамейке, сидела счастливая парочка, обнявшись.
     """
-    scene featured_cg-33_4 as ghost_cg at dizzy_ghost_anim
+    show featured_cg-33_4 as ghost_cg at dizzy_ghost_anim
 
     
     narrator "Мир поплыл перед глазами."

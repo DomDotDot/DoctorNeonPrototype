@@ -202,7 +202,7 @@ label chapter1_lab_morning:
         
         narrator "ЦК!"
 
-        show alex surprised at center with vpunch
+        show alex worried with vpunch
         
         narrator """
         Раздался сухой, отчетливый щелчок статического электричества. Искра была такой сильной, что ее было видно даже при дневном свете.

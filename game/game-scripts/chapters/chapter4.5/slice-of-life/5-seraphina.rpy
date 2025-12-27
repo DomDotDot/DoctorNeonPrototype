@@ -62,9 +62,11 @@ label chapter4_5_seraphina_flashback:
 
     lily "Серафина? Что-то не так?"
 
-    seraphina """ 
-    Ты... ты не Лили. И... и твои глаза...
+    seraphina "Ты... ты не Лили. И... и твои глаза..."
+
+    scene featured_10cg-2 with dissolve
     
+    seraphina """
     Что ты сделала с Нари? С Лили? Где моя подруга?!
 
     М-М-монстр!
@@ -72,7 +74,7 @@ label chapter4_5_seraphina_flashback:
 
     lily "Стой! Серафина!"
 
-    scene featured_10cg-2 with dissolve
+    scene black with Dissolve(0.125)
 
     narrator "Она развернулась. И убежала. Хлопнула дверью, как выстрелом."
 
@@ -83,6 +85,8 @@ label chapter4_5_seraphina_flashback:
         
         Ноги подкосились и меня не держали. Я сползла по стене, обхватив голову руками.
     """
+
+    scene featured_10cg-3-1 with fade
 
     lily """
         Нет... нет... Серафина... подожди...
@@ -95,8 +99,6 @@ label chapter4_5_seraphina_flashback:
         
         Я... я ведь...
     """
-
-    scene featured_10cg-3-1 with fade
 
     narrator """
         Я захлебывалась слезами. В ушах звенело от тишины, в которой больше не было её смеха.
@@ -169,7 +171,7 @@ label chapter4_5_seraphina_flashback:
 
     scene black with Dissolve(0.125)
 
-    narrator "Ты и есть - Серафина."
+    "Сущность" "Ты и есть - Серафина."
     
 
 return
