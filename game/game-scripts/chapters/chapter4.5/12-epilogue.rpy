@@ -1,6 +1,10 @@
 label chapter4_5_epilogue:
 
     # --- Сцена 1: После Битвы ---
+
+    stop ambient fadeout 10.0
+    stop ambient1 fadeout 10.0
+    stop sound fadeout 10.0
     
     narrator """
         Сирены стихли. Пожарная машина уехала.

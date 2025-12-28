@@ -105,26 +105,26 @@ translate english_us chapter4_5_epilogue_4bdbdf96:
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:59
 translate english_us chapter4_5_epilogue_8d2a30f3:
 
-    # "Ведущая Новостей" "...утро в Веритасе выдалось неспокойным. Весь город словно пробудился от тяжелого сна."
-    "Ведущая Новостей" "...morning in Veritas has been turbulent. The whole city seems to have woken from a heavy slumber."
+    # "News Anchor" "...утро в Веритасе выдалось неспокойным. Весь город словно пробудился от тяжелого сна."
+    "News Anchor" "...morning in Veritas has been turbulent. The whole city seems to have woken from a heavy slumber."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:59
 translate english_us chapter4_5_epilogue_9ae3e0fc:
 
-    # "Ведущая Новостей" "Департамент Здравоохранения сообщает о массовых обращениях от молодых девушек, преимущественно студенток Академии."
-    "Ведущая Новостей" "The Department of Health reports mass admissions of young girls, predominantly Academy students."
+    # "News Anchor" "Департамент Здравоохранения сообщает о массовых обращениях от молодых девушек, преимущественно студенток Академии."
+    "News Anchor" "The Department of Health reports mass admissions of young girls, predominantly Academy students."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:59
 translate english_us chapter4_5_epilogue_03a532f0:
 
-    # "Ведущая Новостей" "Пациентки жалуются на провалы в памяти, сильные головные боли и состояние дезориентации."
-    "Ведущая Новостей" "Patients complain of memory gaps, severe headaches, and disorientation."
+    # "News Anchor" "Пациентки жалуются на провалы в памяти, сильные головные боли и состояние дезориентации."
+    "News Anchor" "Patients complain of memory gaps, severe headaches, and disorientation."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:59
 translate english_us chapter4_5_epilogue_927e7729:
 
-    # "Ведущая Новостей" "Многие утверждают, что последние дни, а то и недели, помнят как в тумане. Ведется расследование."
-    "Ведущая Новостей" "Many claim the last few days, or even weeks, are a blur. An investigation is underway."
+    # "News Anchor" "Многие утверждают, что последние дни, а то и недели, помнят как в тумане. Ведется расследование."
+    "News Anchor" "Many claim the last few days, or even weeks, are a blur. An investigation is underway."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:69
 translate english_us chapter4_5_epilogue_f0747787:
@@ -141,20 +141,20 @@ translate english_us chapter4_5_epilogue_bfaaa04a:
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:75
 translate english_us chapter4_5_epilogue_8c255a56:
 
-    # "Ведущая Новостей" "Психологи описывают это как случай массового аффективного расстройства. 'Коллективный гипноз', спровоцированный стрессом перед экзаменами и фанатизмом."
-    "Ведущая Новостей" "Psychologists describe this as a case of mass affective disorder. 'Collective hypnosis' triggered by exam stress and fanaticism."
+    # "News Anchor" "Психологи описывают это как случай массового аффективного расстройства. 'Коллективный гипноз', спровоцированный стрессом перед экзаменами и фанатизмом."
+    "News Anchor" "Psychologists describe this as a case of mass affective disorder. 'Collective hypnosis' triggered by exam stress and fanaticism."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:75
 translate english_us chapter4_5_epilogue_e80e34ea:
 
-    # "Ведущая Новостей" "Но есть и более мрачные новости."
-    "Ведущая Новостей" "But there is darker news."
+    # "News Anchor" "Но есть и более мрачные новости."
+    "News Anchor" "But there is darker news."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:75
 translate english_us chapter4_5_epilogue_9d8e7e9c:
 
-    # "Ведущая Новостей" "Департамент Правопорядка наконец возобновил расследования по делам о пропавших без вести, которые ранее были закрыты как 'побеги из дома'."
-    "Ведущая Новостей" "The Law Enforcement Department has finally reopened missing persons cases previously closed as 'runaways'."
+    # "News Anchor" "Департамент Правопорядка наконец возобновил расследования по делам о пропавших без вести, которые ранее были закрыты как 'побеги из дома'."
+    "News Anchor" "The Law Enforcement Department has finally reopened missing persons cases previously closed as 'runaways'."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:83
 translate english_us chapter4_5_epilogue_d1047a12:
@@ -165,38 +165,38 @@ translate english_us chapter4_5_epilogue_d1047a12:
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:85
 translate english_us chapter4_5_epilogue_22a76600:
 
-    # "Ведущая Новостей" "Подтверждено обнаружение тела студентки Сары Кендрик в ее комнате в общежитии."
-    "Ведущая Новостей" "The discovery of student Sarah Kendrick's body in her dormitory room has been confirmed."
+    # "News Anchor" "Подтверждено обнаружение тела студентки Сары Кендрик в ее комнате в общежитии."
+    "News Anchor" "The discovery of student Sarah Kendrick's body in her dormitory room has been confirmed."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:85
 translate english_us chapter4_5_epilogue_14d1d419:
 
-    # "Ведущая Новостей" "Также этой ночью при... 'взрыве бытового газа' в Старом Квартале погибла еще одна студентка, Лили Волкова."
-    "Ведущая Новостей" "Also, another student, Lily Volkova, died tonight in a... 'domestic gas explosion' in the Old Quarter."
+    # "News Anchor" "Также этой ночью при... 'взрыве бытового газа' в Старом Квартале погибла еще одна студентка, Лили Волкова."
+    "News Anchor" "Also, another student, Lily Volkova, died tonight in a... 'domestic gas explosion' in the Old Quarter."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:85
 translate english_us chapter4_5_epilogue_03beabc0:
 
-    # "Ведущая Новостей" "Полиция больше не считает эти случаи несвязанными. Город признал: у нас была эпидемия."
-    "Ведущая Новостей" "Police no longer consider these cases unrelated. The city has admitted: we had an epidemic."
+    # "News Anchor" "Полиция больше не считает эти случаи несвязанными. Город признал: у нас была эпидемия."
+    "News Anchor" "Police no longer consider these cases unrelated. The city has admitted: we had an epidemic."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:93
 translate english_us chapter4_5_epilogue_bf46d798:
 
-    # "Ведущая Новостей" "И главная новость, потрясшая город: пропала без вести национальная звезда, айдол Серафина."
-    "Ведущая Новостей" "And the main news shaking the city: national star and idol Seraphina has gone missing."
+    # "News Anchor" "И главная новость, потрясшая город: пропала без вести национальная звезда, айдол Серафина."
+    "News Anchor" "And the main news shaking the city: national star and idol Seraphina has gone missing."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:93
 translate english_us chapter4_5_epilogue_9f24e653:
 
-    # "Ведущая Новостей" "Последний раз ее видели покидающей стадион после фан-встречи. Фанаты обеспокоены."
-    "Ведущая Новостей" "She was last seen leaving the stadium after a fan meet. Fans are concerned."
+    # "News Anchor" "Последний раз ее видели покидающей стадион после фан-встречи. Фанаты обеспокоены."
+    "News Anchor" "She was last seen leaving the stadium after a fan meet. Fans are concerned."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:93
 translate english_us chapter4_5_epilogue_4a47d6a0:
 
-    # "Ведущая Новостей" "Если вы располагаете какой-либо информацией, немедленно сообщите в Департамент..."
-    "Ведущая Новостей" "If you have any information, please contact the Department immediately..."
+    # "News Anchor" "Если вы располагаете какой-либо информацией, немедленно сообщите в Департамент..."
+    "News Anchor" "If you have any information, please contact the Department immediately..."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:101
 translate english_us chapter4_5_epilogue_3dffa5f9:
@@ -207,26 +207,26 @@ translate english_us chapter4_5_epilogue_3dffa5f9:
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:103
 translate english_us chapter4_5_epilogue_d30986b1:
 
-    # "Ведущая Новостей" "Главная подозреваемая по делу о 'пропавших ученицах', преподаватель Акари Сано, дает показания."
-    "Ведущая Новостей" "The main suspect in the 'missing students' case, teacher Akari Sano, is testifying."
+    # "News Anchor" "Главная подозреваемая по делу о 'пропавших ученицах', преподаватель Акари Сано, дает показания."
+    "News Anchor" "The main suspect in the 'missing students' case, teacher Akari Sano, is testifying."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:103
 translate english_us chapter4_5_epilogue_39aa47b3:
 
-    # "Ведущая Новостей" "Источники сообщают, что она находится в состоянии глубокого шока и раскаяния."
-    "Ведущая Новостей" "Sources say she is in a state of deep shock and remorse."
+    # "News Anchor" "Источники сообщают, что она находится в состоянии глубокого шока и раскаяния."
+    "News Anchor" "Sources say she is in a state of deep shock and remorse."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:103
 translate english_us chapter4_5_epilogue_0a84ac59:
 
-    # "Ведущая Новостей" "Акари Сано утверждает, что действовала 'не по своей воле' и умоляет о прощении."
-    "Ведущая Новостей" "Akari Sano claims she acted 'against her will' and begs for forgiveness."
+    # "News Anchor" "Акари Сано утверждает, что действовала 'не по своей воле' и умоляет о прощении."
+    "News Anchor" "Akari Sano claims she acted 'against her will' and begs for forgiveness."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:103
 translate english_us chapter4_5_epilogue_f306bf04:
 
-    # "Ведущая Новостей" "Врачи подтверждают наличие в её крови следов неизвестного нейротоксина."
-    "Ведущая Новостей" "Doctors confirm traces of an unknown neurotoxin in her blood."
+    # "News Anchor" "Врачи подтверждают наличие в её крови следов неизвестного нейротоксина."
+    "News Anchor" "Doctors confirm traces of an unknown neurotoxin in her blood."
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:113
 translate english_us chapter4_5_epilogue_fcb43434:
