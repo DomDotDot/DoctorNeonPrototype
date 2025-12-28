@@ -4,25 +4,25 @@ translate english_us strings:
 
     # game/modules/update/update_screen.rpy:14
     old "Доступно обновление!"
-    new ""
+    new "Update Available!"
 
     # game/modules/update/update_screen.rpy:16
     old "Текущая версия: [config.version!t]"
-    new ""
+    new "Current version: [config.version!t]"
 
     # game/modules/update/update_screen.rpy:17
     old "Новая версия: [new_version_tag!t]"
-    new ""
+    new "new version: [new_version_tag!t]"
 
     # game/modules/update/update_screen.rpy:21
     old "Где скачать?"
-    new ""
+    new "Where to download?"
 
     # game/modules/update/update_screen.rpy:27
     old "Itch.io"
-    new ""
+    new "Itch.io"
 
     # game/modules/update/update_screen.rpy:30
     old "GitHub"
-    new ""
+    new "GitHub"
 

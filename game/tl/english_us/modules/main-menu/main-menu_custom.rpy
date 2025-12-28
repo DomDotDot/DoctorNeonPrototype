@@ -100,13 +100,13 @@ translate english_us strings:
 
     # game/modules/main-menu/main-menu_custom.rpy:96
     old "Уведомления {color=#f00}(!){/color}"
-    new ""
+    new "Notifications {color=#f00}(!){/color}"
 
     # game/modules/main-menu/main-menu_custom.rpy:98
     old "Уведомления"
-    new ""
+    new "Notifications"
 
     # game/modules/main-menu/main-menu_custom.rpy:220
     old "DLC Контент (Только ПК)"
-    new ""
+    new "DLC Content (PC Only)"
 
