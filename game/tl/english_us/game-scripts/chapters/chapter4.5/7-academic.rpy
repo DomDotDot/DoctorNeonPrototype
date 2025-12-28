@@ -502,7 +502,7 @@ translate english_us chapter4_5_classroom_intro_56e02cf6:
 translate english_us chapter4_5_classroom_intro_53018e2e:
 
     # "Директор" "Все документы в порядке. Ваш куратор — Акари-сенсей. Она уже ждет."
-    "Директор" "All documents are in order. Your homeroom teacher is Akari-sensei. She is already waiting."
+    "Director" "All documents are in order. Your homeroom teacher is Akari-sensei. She is already waiting."
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:231
 translate english_us chapter4_5_classroom_intro_d83e837a:
@@ -574,13 +574,13 @@ translate english_us chapter4_5_classroom_intro_5a485cf5:
 translate english_us chapter4_5_classroom_intro_621a9ed3:
 
     # "Студент 1" "Из Третьего Сектора? Ого, это же почти пригород. Там, говорят, воздух не очень."
-    "Студент 1" "From the Third Sector? Wow, that's practically the boonies. I heard the air sucks there."
+    "Male Student A" "From the Third Sector? Wow, that's practically the boonies. I heard the air sucks there."
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:266
 translate english_us chapter4_5_classroom_intro_16d6cd07:
 
     # "Студентка 1" "А почему ты перевелась посреди семестра? У тебя были проблемы в старой школе?"
-    "Студентка 1" "Why'd you transfer mid-semester? Trouble at your old school?"
+    "Female Student B" "Why'd you transfer mid-semester? Trouble at your old school?"
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:268
 translate english_us chapter4_5_classroom_intro_66f38b13:
@@ -646,7 +646,7 @@ translate english_us chapter4_5_classroom_intro_37220eba:
 translate english_us chapter4_5_classroom_intro_40ce3cdc:
 
     # "Студенты" "{=whisper}Не любит сладкое? Странная..."
-    "Студенты" "{=whisper}Doesn't like sweets? Weird..."
+    "Students" "{=whisper}Doesn't like sweets? Weird..."
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:305
 translate english_us chapter4_5_classroom_intro_d037be40:
@@ -706,7 +706,7 @@ translate english_us chapter4_5_classroom_intro_d2282e52:
 translate english_us chapter4_5_classroom_intro_b17043e2:
 
     # "Соседка по парте" "{=whisper}Привет. Я Мика."
-    "Соседка по парте" "{=whisper}Hi. I'm Mika."
+    "Deskmate" "{=whisper}Hi. I'm Mika."
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:339
 translate english_us chapter4_5_classroom_intro_b39f883a:
