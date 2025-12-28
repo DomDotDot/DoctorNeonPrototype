@@ -216,6 +216,9 @@ init python:
     build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
     build.classify('game/devtools/**', 'dev')
     build.classify('**.zip', None)
+    build.classify('README.md', None)
+    build.classify('LICENSE', None)
+    build.classify('crowdin.yml', None)
 
     # Изображения
     build.classify('development-sketches/**', 'dev')
