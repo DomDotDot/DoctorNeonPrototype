@@ -215,7 +215,7 @@ screen settings_menu():
             textbutton _("Язык") action ShowMenu("language_selection_screen") style "sub_menu_button"
             
             if not renpy.variant("web"):
-                textbutton _("DLC Контент") action Start("dlc_manager_flow") style "sub_menu_button"
+                textbutton _("DLC Контент") action Start("dlc_manager_main") style "sub_menu_button"
             else:
                 textbutton _("DLC Контент (Только ПК)") action None style "sub_menu_button" text_color "#888"
 

@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.6.0-early"
+define config.version = "0.6.1-early"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -210,17 +210,20 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
-    build.classify('development-sketches/**', 'dev')
-    build.classify('promoimages/**', 'dev')
     build.classify('game/disabled/**', 'dev')
     build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
     build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
     build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
-    build.classify('image-assets/**', 'dev')
     build.classify('game/devtools/**', 'dev')
     build.classify('**.zip', None)
 
-        # 1. Музыка
+    # Изображения
+    build.classify('development-sketches/**', 'dev')
+    build.classify('promoimages/**', 'dev')
+    build.classify('game/dev-images/**', 'dev')
+    build.classify('image-assets/**', 'dev')
+
+    # 1. Музыка
     build.classify('game/audio/music/**', None)
     
     # 2. SFX и Эмбиент
@@ -232,6 +235,9 @@ init python:
     
     # 4. Английская озвучка (в папке перевода)
     build.classify('game/tl/english_us/audio/voice/**', None)
+
+    # 5. Неиспользуемые
+    build.classify('game/audio/Unused/**', None)
 
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 
