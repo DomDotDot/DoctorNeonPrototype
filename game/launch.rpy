@@ -1,64 +1,116 @@
-image splash_anim_1:
+# === ИЗОБРАЖЕНИЯ И ТРАНСФОРМАЦИИ ===
 
-    "gui/renpy-logo.png"
-    xalign 0.5 yalign 0.5 alpha 0.0
-    ease_quad 5.0 alpha 1.0 zoom 2.0
+# Логотип вашей студии (замените путь на свой файл)
+image studio_logo_img = "gui/studio-logo.png"
 
-default persistent.firstlaunch = False
+# Логотип Ren'Py (стандартный или свой)
+image renpy_logo_img = "gui/renpy-logo.png"
+
+# Красивая анимация появления (зум + прозрачность)
+transform splash_zoom_fade:
+    xalign 0.5 yalign 0.5
+    alpha 0.0 zoom 0.8
+    ease 1.5 alpha 1.0 zoom 1.0 # Появление
+    pause 2.0                    # Пауза пока видно
+    ease 1.0 alpha 0.0 zoom 1.1  # Исчезновение
+
+# Переменная для отслеживания первого запуска
+default persistent.firstlaunch = True
+# Переменная, видели ли мы уже интро (чтобы можно было пропускать)
+default persistent.seen_splash = False
+
 
 label splashscreen:
 
-    $ start_update_check()
-    
-    ## Here begins our splashscreen animation.
-    play sound "sfx/short-logo.opus" volume 0.25
-    show splash_anim_1
-    show text "{size=30}Made with Ren'Py [renpy.version_only]{/s}":
-        xalign 0.5 yalign 0.8 alpha 0.0
-        pause 4.0
-        linear 1.0 alpha 1.0
-        
-    ## The first time the game is launched, players cannot skip the animation.
-    if not persistent.seen_splash:
-            
-        ## No input will be detected for the set time stated.
-        ## Set this to be a little longer than how long the animation takes.
-        $ renpy.pause(8.5, hard=True)
-    
-        $ persistent.seen_splash = True
-        
-    ## Players can skip the animation in subsequent launches of the game.
-    else:
-    
-        if renpy.pause(8.5):
-    
-            call skip_splash from _call_skip_splash
-
+    # -----------------------------------------------------------
+    # 1. ТЕХНИЧЕСКИЕ ПРОВЕРКИ (На черном фоне)
+    # -----------------------------------------------------------
     scene black
-    with fade
     
-    label skip_splash:
+    # Сначала проверяем обновления (если у вас есть эта функция)
+    if hasattr(store, 'start_update_check'):
+        $ start_update_check()
     
-        pass
+    # Затем проверяем DLC. 
+    # Это самое логичное место: игрок еще не видит логотипов, 
+    # и если нужно качать файлы - он увидит меню загрузки здесь.
+    call dlc_check_sequence from _call_dlc_check_sequence
 
-    ## The first time the game is launched, players can set their accessibility settings.
-    if not persistent.firstlaunch:
+    # Небольшая пауза после проверок перед началом шоу (чтобы не было резких скачков)
+    $ renpy.pause(0.5, hard=True)
 
-        call screen language_selection_screen
 
-        call splashscreen_dlc from _call_splashscreen_dlc
+    # -----------------------------------------------------------
+    # 2. ЛОГОТИП СТУДИИ
+    # -----------------------------------------------------------
+    
+    # Если у вас есть звук логотипа студии
+    # play sound "audio/sfx/studio_intro.opus" 
 
-        call screen content_warning
+    show studio_logo_img at splash_zoom_fade
+
+    show text "{size=30}Made by DomDot{/s}":
+        xalign 0.5 yalign 0.85 alpha 0.0
+        pause 1.0
+        ease 1.0 alpha 1.0
+        pause 1.5
+        ease 1.0 alpha 0.0
+    
+    # Логика пропуска:
+    # Если игрок уже видел интро, клик пропустит паузу.
+    # Если нет (hard=True) - обязан досмотреть.
+    if persistent.seen_splash:
+        $ renpy.pause(4.5) # Можно кликнуть чтобы пропустить
+    else:
+        $ renpy.pause(4.5, hard=True) # Нельзя пропустить
+
+    scene black with dissolve
+    $ renpy.pause(0.5)
+
+
+    # -----------------------------------------------------------
+    # 3. ЛОГОТИП REN'PY / ДВИЖКА
+    # -----------------------------------------------------------
+
+    play sound "audio/sfx/short-logo.opus" volume 0.25
+    
+    show renpy_logo_img at splash_zoom_fade
+    
+    show text "{size=30}Made with Ren'Py [renpy.version_only]{/s}":
+        xalign 0.5 yalign 0.85 alpha 0.0
+        pause 1.0
+        ease 1.0 alpha 1.0
+        pause 1.5
+        ease 1.0 alpha 0.0
+
+    if persistent.seen_splash:
+        $ renpy.pause(4.5)
+    else:
+        $ renpy.pause(4.5, hard=True)
+
+    # Отмечаем, что интро просмотрено хотя бы раз
+    $ persistent.seen_splash = True
+
+    scene black with fade
+
+
+    # -----------------------------------------------------------
+    # 4. НАСТРОЙКИ ПРИ ПЕРВОМ ЗАПУСКЕ
+    # -----------------------------------------------------------
+    
+    if persistent.firstlaunch:
         
+        # 4.1 Выбор языка
+        call screen language_selection_screen
+        
+        # 4.2 Предупреждение о контенте (Оставьте только один вариант, который рабочий)
+        # Обычно это экран с кнопкой "Я понял / Продолжить"
         call screen content_warning_screen with dissolve
         
-        #call screen splash_settings
+        # 4.3 Настройки доступности (размер текста и т.д., если есть)
+        # call screen accessibility_settings 
 
-        #call screen preferences
+        # Фиксируем, что первичная настройка завершена
+        $ persistent.firstlaunch = False
 
-        ## This screen will not appear in subsequent launches of the game when
-        ## the following variable becomes true.
-        $ persistent.firstlaunch = True
-
-
-return
+    return
