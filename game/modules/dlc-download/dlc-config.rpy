@@ -32,7 +32,7 @@ init -1 python:
         {
             "id": "voice_ru",
             "file": "voice_ru.zip", 
-            "version": "v0.6.0",
+            "version": "v0.5.3",
             "folder": "audio",
             "check_file": "audio/voice/voice_sample.ogg",
             "title": _("Озвучка персонажей"),
