@@ -144,5 +144,10 @@ translate english_us strings:
 
     # game/modules/characters/characters.rpy:230
     old "Мика"
-    new ""
+    new "Mika"
 
+    old "Ведущая новостей"
+    new "News Anchor"
+
+    old "Директор"
+    new "Director"
