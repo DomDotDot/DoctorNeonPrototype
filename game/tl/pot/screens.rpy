@@ -164,7 +164,7 @@ translate pot strings:
 
     # game/screens.rpy:767
     old "ИИ Чувствительность"
-    new "ИИ Чувствительность"
+    new "AI Sensitivity-mode"
 
     # game/screens.rpy:789
     old "Громкость музыки"

@@ -352,5 +352,5 @@ translate english_us strings:
 
     # game/screens.rpy:767
     old "ИИ Чувствительность"
-    new ""
+    new "AI Sensitivity-mode"
 
