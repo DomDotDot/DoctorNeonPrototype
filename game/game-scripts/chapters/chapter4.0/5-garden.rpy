@@ -1,6 +1,6 @@
 label chapter4_0_garden:
 
-    show cg cg27_1 with Dissolve(5.0)
+    scene cg-27_1 with Dissolve(5.0)
     play music "music/BGM/FloraUndergrowth.opus" loop # Более меланхоличная версия ночной темы.
     # play ambient "ambient/city_night_distant_sirens.opus" loop
 
@@ -40,7 +40,7 @@ label chapter4_0_garden:
     Я не хотела возвращаться в пустую, холодную студию Аргона. Не сейчас. Мне нужно было подумать. Побыть одной. Осмыслить происходящее.
     """
 
-    show cg cg27_2 with fade
+    scene cg-27_2 with fade
     stop ambient
     # play ambient "ambient/garden_night_crickets_water.opus" loop
 
@@ -63,7 +63,7 @@ label chapter4_0_garden:
     # === НАЧАЛО ФРАГМЕНТА СНА (3-dream-fragment.rpy) ===
     
     call dream_sequence_japan_3 from _call_dream_sequence_japan_3
-    show cg cg27_2 with Dissolve(2.5)
+    scene cg-27_2 with Dissolve(2.5)
     # stop music fadeout 2.0
     $ renpy.music.set_volume(1.0, delay=2.0, channel='music')
     $ renpy.music.set_volume(1.0, delay=2.0, channel='ambient')
@@ -90,7 +90,7 @@ label chapter4_0_garden_dialogue:
     neon "{=thoughts}Уже ночь! Кто вообще в такое время в саду..?"
     hide neon
 
-    show cg cg27_3 with Fade(2.5, 0.5, 1.0)
+    scene featured_cg-27_3 with Fade(2.5, 0.5, 1.0)
     
     narrator """
     Я обернулась. И увидела ее. Девушка, казалось, была соткана из лунного света.
@@ -310,7 +310,7 @@ label chapter4_0_garden_dialogue:
 
     narrator "И она, словно энергичный вихрь, исчезла в тенях сада, оставив за собой лишь брошенную лейку и тонкий аромат духов."
 
-    show cg cg29 with fade
+    scene featured_cg-29 with fade
     
     narrator """
     А я осталась одна, сжимая в одной руке билет, в другой — холодный цветок.

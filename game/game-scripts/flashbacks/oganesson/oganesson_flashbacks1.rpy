@@ -7,7 +7,7 @@ label oganesson_school_flashback:
         # with vpunch # Легкая встряска, как будто воспоминание прорывается
 
         # play sound "sounds/flashback_swoosh_deep.opus"
-        show cg cg6_1 with dissolve # Показываем пустой класс, вид со стороны ученика
+        scene cg-6_1 with dissolve # Показываем пустой класс, вид со стороны ученика
         play music "music/BGM/Realization.opus" fadein 1.5 # Новая, меланхоличная, давящая музыка
 
         narrator """
@@ -29,7 +29,7 @@ label oganesson_school_flashback:
 
         $ oganesson_display_name = "Опекунша"
         
-        show cg cg6_2 with dissolve
+        scene featured_cg-6_2 with dissolve
 
         headteacher "Я понимаю, мода, самовыражение... но девочка очень выделяется. Это создает... напряжение в коллективе. Провоцирует других детей на, скажем так, нездоровый интерес."
 
@@ -60,7 +60,7 @@ label oganesson_school_flashback:
         """
         # show bully1 curious at center
 
-        show cg cg6_3 with dissolve
+        scene cg-6_3 with dissolve
 
         "Задира 1" "Слушай, а ты правда такая родилась? Или это прикол какой-то?"
 

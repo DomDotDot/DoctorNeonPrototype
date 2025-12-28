@@ -42,7 +42,7 @@ label dream_sequence_japan_1:
                 narrator "Мы сидим вместе, мама, папа, тетя и я. Пьем чай, едим фрукты. Я чувствую себя счастливой. Здесь нет страха, нет боли. Только тепло и любовь."
 
                 # Появление "Странных Гостей" и изменение атмосферы
-                show cg cg16 with fade
+                scene cg-16 with fade
                 stop music fadeout 15.0
                 queue music "music/BGM/MoonAndDeath.opus" noloop fadein 2.5 volume 0.125
                 # stop sound # Резко обрывается звук цикад
@@ -54,9 +54,6 @@ label dream_sequence_japan_1:
 
                 Я не понимаю, что происходит. Почему эти люди здесь? Почему тетя с ними? Я цепляюсь за мамину руку, чувствуя, как страх начинает заполнять меня.
                 """
-
-                hide oganesson
-                hide cg cg16 with fade
 
                 neon "Мама... кто это?"
                 akane worried "{=whisper}Не бойся, ■■■■■■. Это... друзья тети. Они здесь по важному делу."

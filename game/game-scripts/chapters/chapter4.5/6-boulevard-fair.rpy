@@ -1,7 +1,7 @@
 label chapter4_5_boulevard_night:
 
-    scene bg chapter_4_veritas_night_market with fade
-    play music "music/BGM/Veritas_Market_Lively.opus" loop
+    scene bg chapter_4-5 boulevard with fade
+    play music "music/BGM/EachSideDark.opus" fadeout 5.0
     play ambient "ambient/crowd_night_market.opus" loop
 
     narrator """
@@ -26,6 +26,8 @@ label chapter4_5_boulevard_night:
 
     argon "Там. У витрины с джелато."
 
+    scene featured_1cg-1 with dissolve
+
     narrator """
         Я проследила за его взглядом. Девушка в форме Академии, но поверх нее был намотан огромный, пышный красный шарф, скрывающий половину лица.
         
@@ -45,6 +47,8 @@ label chapter4_5_boulevard_night:
     
     neon "В чате... на аватарке у нее был этот красный шарф. Неважно, она уходит! За ней!"
 
+    scene bg chapter_4-5 boulevard with fade
+
     narrator """
         Мы рванули следом. Но толпа была слишком плотной. Девушка с красным шарфом мелькала впереди, то исчезая, то появляясь, как огонек.
         
@@ -55,12 +59,13 @@ label chapter4_5_boulevard_night:
 
     argon "Черт, куда она... потерял её..."
 
+    play music "music/BGM/WitheredLily_Backtrack.mp3" fadein 2.0 fadeout 2.0
+    scene black with dissolve
+
     narrator """
         Он лихорадочно оглядывался по сторонам. И тут его взгляд замер. Лицо изменилось.
         
         Напряжение сменилось шоком, недоверием, а затем — чем-то похожим на благоговейный ужас.
-        
-        Он смотрел не на Клару.
 
         Его голос сорвался на крик. Он смотрел не на Клару. Он смотрел куда-то в сторону, в просвет между ларьками, где было чуть тише.
         
@@ -68,10 +73,14 @@ label chapter4_5_boulevard_night:
     """
 
     argon "ЛИЛИ!"
+    
+    stop music fadeout 0.5
 
     narrator "Он рванул туда, не разбирая дороги. Я едва поспевала за ним."
 
-    scene bg chapter_4_veritas_market_bench_night with dissolve
+    scene featured_1cg-2b with dissolve
+    play music "music/BGM/WitheredLily.mp3" fadein 2.0
+    
     
     narrator """
         Это была маленькая площадь в стороне от основного потока, окруженная декоративными кустами. Уединенный уголок.
@@ -89,14 +98,12 @@ label chapter4_5_boulevard_night:
         А в центре, на скамейке, как на троне, сидела она. Лили.
 
         Она сидела, элегантно закинув ногу на ногу, и с наслаждением, полузакрыв глаза, лизала мороженое.
-    """
 
-    show lily queen_eating at center with dissolve
-    
-    narrator """
         Рыжие волосы, зеленые глаза. Точно как на фото. Но... совсем другая.
         
-        Она ела мороженое. Медленно. Тягуче. Полуприкрыв глаза, она слизывала тающие капли с ложечки с каким-то неестественным, почти вызывающим наслаждением. Это было элегантно, но в то же время... вульгарно.
+        Она ела мороженое. Медленно. Тягуче. Она слизывала тающие капли с ложечки с каким-то неестественным, почти вызывающим наслаждением.
+        
+        Это было элегантно, но в то же время... вульгарно.
     
         Аргон остановился в нескольких шагах. Его дыхание было тяжелым, сбивчивым.
     """
@@ -104,12 +111,10 @@ label chapter4_5_boulevard_night:
     argon "Лили..."
 
     narrator """
-        Она услышала. Она медленно, почти лениво, подняла глаза и замерла
+        Она услышала. Она медленно подняла глаза и замерла
         
         Ее взгляд метнулся сначала ко мне.
     """
-    
-    show lily shocked at center
     
     narrator """
         Ее зрачки на долю секунды расширились. В них вспыхнуло узнавание. Испуг? Или всё таки удивление?
@@ -118,8 +123,6 @@ label chapter4_5_boulevard_night:
         
         Затем она перевела взгляд на Аргона.
     """
-    
-    show lily disgust at center
     
     narrator """
         Шок сменился разочарованием. Брезгливостью. Скукой.
@@ -159,7 +162,8 @@ label chapter4_5_boulevard_night:
     
     narrator "Реакция была мгновенной. Она с криком вскочила и с размаху влепила ему пощечину. Звук пощечины был оглушительным."
 
-    show lily angry at center
+    scene black with Dissolve(0.125)
+    stop music fadeout 5.0
 
     lily "А-а-а! ОТОЙДИ ОТ МЕНЯ, ИЗВРАЩЕНЕЦ!"
 
@@ -207,7 +211,7 @@ label chapter4_5_boulevard_night:
         В тень переулков, подальше от света, подальше от этого кошмарного спектакля.
     """
 
-    scene bg chapter_4_veritas_streets_night with fade
+    scene bg chapter_4-5 boulevard with fade
     play music "music/BGM/WitheredFlower.opus" loop
 
     narrator """
@@ -240,7 +244,7 @@ label chapter4_5_boulevard_night:
     Я просто стояла рядом, не зная, какие слова могут помочь. Опять. Никакие. Он заперся в своей вине.
     """
 
-    scene bg chapter_4_arkaground_interior with dissolve
+    scene bg chapter_4-5_ark-aground-base-night with dissolve
 
     narrator """
         Мы вернулись в студию.

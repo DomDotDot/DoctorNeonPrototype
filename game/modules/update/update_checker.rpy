@@ -1,5 +1,6 @@
 init python:
-    import requests
+    if not renpy.variant("web"):
+        import requests
     import threading
     import json
     import time
@@ -62,6 +63,10 @@ init python:
         return remote_ver != local_ver
 
     def _update_worker():
+
+        if renpy.variant("web"):
+            return
+
         global update_found, new_version_tag, update_check_done
         
         print(f"UpdateCheck: В persistent сейчас записано: {persistent.ignored_version}")
@@ -99,6 +104,10 @@ init python:
         update_check_done = True
 
     def start_update_check():
+
+        if renpy.variant("web"):
+            return
+            
         global update_found, update_check_done
 
         update_found = False

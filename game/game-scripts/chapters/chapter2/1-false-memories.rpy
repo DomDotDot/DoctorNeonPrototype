@@ -151,7 +151,7 @@ label chapter2_act1_false_memories:
 
                 Она лихорадочно схватила телефон, переключая карту в режим спутника.
                 """
-                show cg cg9 with fade
+                scene cg-9 with fade
 
                 narrator """
 

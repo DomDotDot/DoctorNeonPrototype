@@ -93,7 +93,7 @@ label chapter4_0_academy:
     Аргон был прав.
     """
 
-    show cg cg24 with Dissolve(2.5)
+    scene featured_cg-24 with Dissolve(2.5)
     
     narrator "Пока мы стояли в растерянности, из ворот вышли две девушки в школьной форме. Они весело щебетали, смеясь."
 
@@ -233,7 +233,7 @@ label chapter4_0_academy:
 
     student2 "Вот, теперь видно."
 
-    show cg cg25 with fade
+    scene featured_cg-25 with fade
     
     narrator """Я толком не поняла что была за реклама, что-то вроде элитной недвижимости, и быстро начала читать статью.
     

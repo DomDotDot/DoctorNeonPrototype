@@ -3,6 +3,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: thebrightestneon-sr\n"
+"X-Crowdin-Project-ID: 853084\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /dev/game/tl/None/game.pot\n"
+"X-Crowdin-File-ID: 42\n"
+"Project-Id-Version: thebrightestneon-sr\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"PO-Revision-Date: 2025-12-09 15:03\n"
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:9
 msgid "Начало записи. Слышен треск помех, переходящий в оглушительный рев и вибрацию."
@@ -125,8 +135,10 @@ msgid "Он бьет по нервам, не оставляя надежды."
 msgstr "It's a jarring sound, extinguishing all hope."
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:75
-msgid "СТОЛКНОВЕНИЕ НЕИЗБЕЖНО. \nСТОЛКНОВЕНИЕ НЕИЗБЕЖНО."
-msgstr "IMPACT IMMINENT. \nIMPACT IMMINENT."
+msgid "СТОЛКНОВЕНИЕ НЕИЗБЕЖНО. \n"
+"СТОЛКНОВЕНИЕ НЕИЗБЕЖНО."
+msgstr "IMPACT IMMINENT. \n"
+"IMPACT IMMINENT."
 
 #: game/game-scripts/chapters/chapter0/1-prologue.rpy:76
 msgid "СТОЛКНОВЕНИЕ НЕИ-{nw}"
@@ -214,7 +226,7 @@ msgstr "Night. Laboratory and silence. A man in a white coat is bustling in fron
 
 #: game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
 msgid "Его лицо скрыто тенью, но движения выдают легкое волнение."
-msgstr "His face is subttly hidden in shadow, but his movements betray slight nervousness."
+msgstr "His face is subtly hidden in shadow, but his movements betray slight nervousness."
 
 #: game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
 msgid "За дверью раздается приглушенный голос женщины, которая, судя по всему, работает допоздна."
@@ -853,8 +865,10 @@ msgid "Она судорожно задвигала мышкой, игнорир
 msgstr "She frantically moved the mouse, ignoring the corrupted document."
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:29
-msgid "На экране дешифратора горело окно: \n 'ПРОЦЕСС ЗАВЕРШЕН УСПЕШНО'"
-msgstr "A window on the decryption program's screen glowed: \n 'PROCESS COMPLETED SUCCESSFULLY'"
+msgid "На экране дешифратора горело окно: \n"
+" 'ПРОЦЕСС ЗАВЕРШЕН УСПЕШНО'"
+msgstr "A window on the decryption program's screen glowed: \n"
+" 'PROCESS COMPLETED SUCCESSFULLY'"
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:36
 msgid "Да! Да! ДА!!!"
@@ -1180,7 +1194,7 @@ msgstr "It looks like soon everyone will be working from home. Even us. I hope t
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:223
 msgid "Саш, сколько я уже говорила. Ты в это реально веришь? Это же неофициальные слухи. Где-то в мессенджерах люди панику разводят. Верить им нельзя."
-msgstr "Alex, how many times have I told you? Do you really believe that? Those are just unofficial rumors. People are spreading panic on messegger apps. You can't trust them."
+msgstr "Alex, how many times have I told you? Do you really believe that? Those are just unofficial rumors. People are spreading panic on messenger apps. You can't trust them."
 
 #: game/game-scripts/chapters/chapter1/2-lab-morning.rpy:225
 msgid "Э-это правда! Ну почему ты мне не веришь? Мы же друзья!"
@@ -1295,16 +1309,30 @@ msgid "Лифт прибыл почти мгновенно. Внутри игр�
 msgstr "The elevator arrived almost instantly. Quiet, neutral music played inside."
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:50
-msgid "На дисплее бегущей строкой шли новости комплекса: \n 'Плановая дезинфекция в гидропонном блоке' \n 'Лекция по технике безопасности завтра в 14:00' \n 'Сотрудникам напоминаем о необходимости своевременной сдачи отчетов'"
-msgstr "A news ticker scrolled across the display with facility announcements: \n 'Scheduled disinfection in the hydroponics block' \n 'Safety lecture tomorrow at 14:00' \n 'Employees are reminded to submit reports in a timely manner'"
+msgid "На дисплее бегущей строкой шли новости комплекса: \n"
+" 'Плановая дезинфекция в гидропонном блоке' \n"
+" 'Лекция по технике безопасности завтра в 14:00' \n"
+" 'Сотрудникам напоминаем о необходимости своевременной сдачи отчетов'"
+msgstr "A news ticker scrolled across the display with facility announcements: \n"
+" 'Scheduled disinfection in the hydroponics block' \n"
+" 'Safety lecture tomorrow at 14:00' \n"
+" 'Employees are reminded to submit reports in a timely manner'"
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:50
-msgid "Неон нажала кнопку: \n 'Уровень 1: Кафетерий / Зона отдыха'."
-msgstr "Neon pressed the button: \n 'Level 1: Cafeteria / Recreation Area'."
+msgid "Неон нажала кнопку: \n"
+" 'Уровень 1: Кафетерий / Зона отдыха'."
+msgstr "Neon pressed the button: \n"
+" 'Level 1: Cafeteria / Recreation Area'."
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:50
-msgid "Мимо промелькнули индикаторы других этажей: \n 'Уровень 3: Жилой блок' \n 'Уровень 2: Основные лаборатории' \n 'Суб-уровень 1: Энергоблок'"
-msgstr "The indicators for other floors flashed by: \n 'Level 3: Residential Block' \n 'Level 2: Main Laboratories' \n 'Sub-level 1: Power Block'"
+msgid "Мимо промелькнули индикаторы других этажей: \n"
+" 'Уровень 3: Жилой блок' \n"
+" 'Уровень 2: Основные лаборатории' \n"
+" 'Суб-уровень 1: Энергоблок'"
+msgstr "The indicators for other floors flashed by: \n"
+" 'Level 3: Residential Block' \n"
+" 'Level 2: Main Laboratories' \n"
+" 'Sub-level 1: Power Block'"
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:50
 msgid "Целый мир, скрытый в толще горы. Мир, посвященный одной цели – познанию."
@@ -1411,8 +1439,12 @@ msgid "Неон еще раз окинула взглядом кафетерий
 msgstr "Neon scanned the cafeteria one more time. Marcus was nowhere to be seen."
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:128
-msgid "Зато были другие лица – знакомые и не очень. \n Вот группа инженеров оживленно спорит над распечаткой схемы. \n Вот биолог из соседнего отдела рассеянно размешивает сахар в чае, глядя в пустоту. \n"
-msgstr "But there were other faces, some familiar, some not. \n A group of engineers argued animatedly over a schematic printout. \n A biologist from the neighboring department absently stirred sugar into her tea, staring into space. \n"
+msgid "Зато были другие лица – знакомые и не очень. \n"
+" Вот группа инженеров оживленно спорит над распечаткой схемы. \n"
+" Вот биолог из соседнего отдела рассеянно размешивает сахар в чае, глядя в пустоту. \n"
+msgstr "But there were other faces, some familiar, some not. \n"
+" A group of engineers argued animatedly over a schematic printout. \n"
+" A biologist from the neighboring department absently stirred sugar into her tea, staring into space. \n"
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:128
 msgid "Обычная жизнь научного муравейника."
@@ -1428,7 +1460,7 @@ msgstr "Marcus and Management? Alone and with a folder? Right before her main re
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:143
 msgid "Ее научный инстинкт, натренированный на поиске аномалий в космическом шуме, кричал ей, что в этой последовательности событий есть паттерн. И он ей не нравился."
-msgstr "Sounds like pattern to her scientific instinct, trained to spot anomalies in cosmic noise. And she didnt like that pattern."
+msgstr "Sounds like a pattern to her scientific instinct, trained to spot anomalies in cosmic noise. And she didn't like that pattern."
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:143
 msgid "Она снова погрузилась в лабиринт коридоров. Этот комплекс был огромен."
@@ -1439,8 +1471,14 @@ msgid "Построенный еще во времена холодной вой
 msgstr "Remnant of the Cold War, built as a secret facility, it had expanded, acquiring new buildings and laboratories ever since."
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:143
-msgid "Она шла мимо дверей с табличками: \n 'Квантовая оптика' \n 'Робототехника и ИИ' \n 'Ксеноботаника'"
-msgstr "She walked past doors with plaques reading: \n 'Quantum Optics' \n 'Robotics and AI' \n 'Xenobotany'"
+msgid "Она шла мимо дверей с табличками: \n"
+" 'Квантовая оптика' \n"
+" 'Робототехника и ИИ' \n"
+" 'Ксеноботаника'"
+msgstr "She walked past doors with plaques reading: \n"
+" 'Quantum Optics' \n"
+" 'Robotics and AI' \n"
+" 'Xenobotany'"
 
 #: game/game-scripts/chapters/chapter1/3-lab-noon.rpy:143
 msgid "За толстыми стеклами виднелись сложные установки, стеллажи с образцами, люди в защитных костюмах."
@@ -1475,8 +1513,12 @@ msgid "Сделала глубокий вдох, пытаясь унять ле�
 msgstr "She took a deep breath, trying to still the slight tremor in her hands—a mix of nerves and caffeine."
 
 #: game/game-scripts/chapters/chapter1/3.1-library.rpy:7
-msgid "Перед ней лежал чистый лист. \n Белый, как снег на вершинах за окном. \n Белый, как неизвестность, которую ей предстояло заполнить словами."
-msgstr "Before her lay a blank sheet of paper. \n White, like the snow on the peaks outside the window. \n White, like the unknown she was about to fill with words."
+msgid "Перед ней лежал чистый лист. \n"
+" Белый, как снег на вершинах за окном. \n"
+" Белый, как неизвестность, которую ей предстояло заполнить словами."
+msgstr "Before her lay a blank sheet of paper. \n"
+" White, like the snow on the peaks outside the window. \n"
+" White, like the unknown she was about to fill with words."
 
 #: game/game-scripts/chapters/chapter1/3.1-library.rpy:26
 msgid "Она сняла колпачок с ручки. Чернила на кончике выглядели блекло."
@@ -1531,16 +1573,22 @@ msgid "Нобелевская речь... Кто бы мог подумать т
 msgstr "A Nobel speech... Who would have thought back then that it would become so real?"
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:6
-msgid "Анна сейчас действительно работает в CERN. \n Софи, кажется, уехала в Лондон и занимается финтехом. \n А она... она здесь."
-msgstr "Anna really is working at CERN now. \n Sophie, I think, moved to London and is in fintech. \n And she... she is here."
+msgid "Анна сейчас действительно работает в CERN. \n"
+" Софи, кажется, уехала в Лондон и занимается финтехом. \n"
+" А она... она здесь."
+msgstr "Anna really is working at CERN now. \n"
+" Sophie, I think, moved to London and is in fintech. \n"
+" And she... she is here."
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:18
 msgid "{=thoughts}Анна... Софи... Интересно, а что бы вы сказали мне сейчас?"
 msgstr "{=thoughts}Anna... Sophie... I wonder what you'd say to me now?"
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:20
-msgid "С новой решимостью Неон вернулась к докладу. Ручка оставила на бумаге первую строчку: \n 'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4.'"
-msgstr "With renewed determination, Neon returned to her report. The pen left the first line on the paper: \n 'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4.'"
+msgid "С новой решимостью Неон вернулась к докладу. Ручка оставила на бумаге первую строчку: \n"
+" 'Доклад об обнаружении и анализе аномального когерентного сигнала из сектора Дельта-4.'"
+msgstr "With renewed determination, Neon returned to her report. The pen left the first line on the paper: \n"
+" 'Report on the Detection and Analysis of an Anomalous Coherent Signal from Sector Delta-4.'"
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:20
 msgid "В раздумьях, она писала дальше, увлеченная работой."
@@ -1559,8 +1607,12 @@ msgid "Хотя иногда ей казалось, что вся ее жизн�
 msgstr "Although sometimes it felt like her entire life up to this point had been a series of coincidences and gray routines."
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:29
-msgid "Особенно там, в той маленькой деревушке у подножия гор, где прошло ее детство и юность. \n До Цюриха. \n До звезд."
-msgstr "Especially back in that little village at the foot of the mountains, where she spent her childhood and youth. \n Before Zurich. \n Before the stars."
+msgid "Особенно там, в той маленькой деревушке у подножия гор, где прошло ее детство и юность. \n"
+" До Цюриха. \n"
+" До звезд."
+msgstr "Especially back in that little village at the foot of the mountains, where she spent her childhood and youth. \n"
+" Before Zurich. \n"
+" Before the stars."
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:29
 msgid "Откуда вообще взялся этот зов, это почти фанатичное стремление к звездам?"
@@ -1652,7 +1704,7 @@ msgstr "Finally, she wrote the last period. With a trembling hand, she set the p
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 msgid "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
-msgstr "Finnaly, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
+msgstr "Finally, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
 
 #: game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 msgid "Осталась только она и эти исписанные листы. Идеальный порядок. Тишина."
@@ -1671,8 +1723,14 @@ msgid "Тишина здесь была другой – не производс
 msgstr "The silence here was different—not of industry, but of power."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
-msgid "Она прошла мимо застекленных кабинетов с табличками: \n 'Финансовый директор' \n 'Отдел кадров' \n 'Юридическая служба'"
-msgstr "She passed glass-walled offices with plaques reading: \n 'Chief Financial Officer' \n 'Human Resources' \n 'Legal Department'"
+msgid "Она прошла мимо застекленных кабинетов с табличками: \n"
+" 'Финансовый директор' \n"
+" 'Отдел кадров' \n"
+" 'Юридическая служба'"
+msgstr "She passed glass-walled offices with plaques reading: \n"
+" 'Chief Financial Officer' \n"
+" 'Human Resources' \n"
+" 'Legal Department'"
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
 msgid "Сотрудники в строгих костюмах мелькали за стеклами, не обращая на нее внимания."
@@ -1839,8 +1897,12 @@ msgid "Да, господин председатель, благодарю."
 msgstr "Yes, Mr. Chairman. Thank you."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:118
-msgid "Неон почувствовала укол странной смеси облегчения и беспокойства. \n Облегчения – потому что Марк, ее тихий, исполнительный ассистент, кажется, наконец-то сделал что-то значительное. \n Беспокойства – потому что это означало, что ее собственное открытие может померкнуть на его фоне."
-msgstr "Neon felt a strange pang of relief mixed with anxiety. \n Relief, because Mark, her quiet, dutiful assistant, seemed to have finally done something significant. \n Anxiety, because it meant her own discovery might be overshadowed by his."
+msgid "Неон почувствовала укол странной смеси облегчения и беспокойства. \n"
+" Облегчения – потому что Марк, ее тихий, исполнительный ассистент, кажется, наконец-то сделал что-то значительное. \n"
+" Беспокойства – потому что это означало, что ее собственное открытие может померкнуть на его фоне."
+msgstr "Neon felt a strange pang of relief mixed with anxiety. \n"
+" Relief, because Mark, her quiet, dutiful assistant, seemed to have finally done something significant. \n"
+" Anxiety, because it meant her own discovery might be overshadowed by his."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:118
 msgid "И кто теперь будет ей помогать с рутиной?"
@@ -1947,12 +2009,16 @@ msgid "Доктор Неон! Прекратите этот балаган! Вы
 msgstr "Doctor Neon! Stop this circus! You are disrupting the presenter and discrediting yourself."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:197
-msgid "Во-первых, где официальные отчеты о ваших исследованиях за последний квартал, подписанные и сданные в установленный срок – сегодня до полудня? \n Их нет. Следовательно, официально, для руководства вы {i}ничем конкретным{/i} не занимались."
-msgstr "First of all, where are the official, signed reports on your research for the last quarter, submitted by the deadline—noon today? \n They are not here. Therefore, officially, as far as management is concerned, you were not engaged in {i}anything specific{/i}."
+msgid "Во-первых, где официальные отчеты о ваших исследованиях за последний квартал, подписанные и сданные в установленный срок – сегодня до полудня? \n"
+" Их нет. Следовательно, официально, для руководства вы {i}ничем конкретным{/i} не занимались."
+msgstr "First of all, where are the official, signed reports on your research for the last quarter, submitted by the deadline—noon today? \n"
+" They are not here. Therefore, officially, as far as management is concerned, you were not engaged in {i}anything specific{/i}."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:197
-msgid "Во-вторых, вы сами только что признались, что ваша 'презентация' не готова для такого уровня. \n Вы пришли на заседание совета директоров с... с... какими-то черновиками? Вы вообще понимаете, где находитесь и каков регламент?"
-msgstr "Secondly, you have just admitted yourself that your 'presentation' is not ready for this level. \n You came to a board of directors meeting with... with... some rough drafts? Do you have any idea where you are and what the protocol is?"
+msgid "Во-вторых, вы сами только что признались, что ваша 'презентация' не готова для такого уровня. \n"
+" Вы пришли на заседание совета директоров с... с... какими-то черновиками? Вы вообще понимаете, где находитесь и каков регламент?"
+msgstr "Secondly, you have just admitted yourself that your 'presentation' is not ready for this level. \n"
+" You came to a board of directors meeting with... with... some rough drafts? Do you have any idea where you are and what the protocol is?"
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:208
 msgid "Щеки Неон горели от стыда и бессильной ярости. Слова Грубенманна били наотмашь."
@@ -1987,8 +2053,10 @@ msgid "Теперь понятно его утреннее отсутствие,
 msgstr "Now his absence this morning made sense, his visit to the director, his desire to present first."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:223
-msgid "Непонятно было только одно: \n Как? Как он получил доступ к ее последним, самым свежим наработкам? Флешка? Но он не мог..."
-msgstr "Only one thing was unclear: \n How? How did he get access to her latest, most recent work? The flash drive? But he couldn't have..."
+msgid "Непонятно было только одно: \n"
+" Как? Как он получил доступ к ее последним, самым свежим наработкам? Флешка? Но он не мог..."
+msgstr "Only one thing was unclear: \n"
+" How? How did he get access to her latest, most recent work? The flash drive? But he couldn't have..."
 
 #: game/game-scripts/chapters/chapter1/4-meeting-start.rpy:223
 msgid "Все дальнейшее выступление Маркуса прошло для Неон как в тумане."
@@ -2432,8 +2500,16 @@ msgid "Синяя ворона."
 msgstr "Blue Sheep."
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:122
-msgid "Это слово. Это дурацкое слово...\n Это презрение. \n Это было не про карьеру. \n Это было про нее саму. \n Это был голос из прошлого."
-msgstr "That word. That stupid word...\n That contempt. \n This wasn't about her career. \n This was about her. \n It was a voice from the past."
+msgid "Это слово. Это дурацкое слово...\n"
+" Это презрение. \n"
+" Это было не про карьеру. \n"
+" Это было про нее саму. \n"
+" Это был голос из прошлого."
+msgstr "That word. That stupid word...\n"
+" That contempt. \n"
+" This wasn't about her career. \n"
+" This was about her. \n"
+" It was a voice from the past."
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:122
 msgid "Голос завуча. Голос опекунши. Голос тех, кто всегда говорил ей, что она 'не такая'"
@@ -2461,7 +2537,7 @@ msgstr "She no longer saw Marcus as a traitorous colleague, but as the embodimen
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:135
 msgid "Ее взгляд упал на тяжелые металлические стулья вдоль... чего-то..."
-msgstr "Her gaze fell on the heavy metal chairs alongside...something...."
+msgstr "Her gaze fell on the heavy metal chairs alongside...something..."
 
 #: game/game-scripts/chapters/chapter1/7-confrontation.rpy:135
 msgid "Неон уже не понимает где она сама находится. Она видит только красный цвет вокруг себя и слышит только бешено колотящееся сердце в ушах."
@@ -3405,7 +3481,7 @@ msgstr "Nonsense. Just a stress-induced nightmare."
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:22
 msgid "Я всегда была... трусихой."
-msgstr "I've always been. .. a scaredy-cat."
+msgstr "I've always been... a scaredy-cat."
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:22
 msgid "Мое подсознание просто гиперболизировало этот образ до абсурда..."
@@ -3437,7 +3513,7 @@ msgstr "Like someone had told her about the fog, warned her of its dangers, but 
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:37
 msgid "Будто я не верила этому голосу... Но теперь хотела бы верить, хотела бы услышать его снова... Кто.. кто... это был...?"
-msgstr "It's like... i didn't take that voice seriously... But now I wish I had, wish I could hear it again... Who... who was it...?"
+msgstr "It's like... I didn't take that voice seriously... But now I wish I had, wish I could hear it again... Who... who was it...?"
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:37
 msgid "Я шла по лесу, голову я держала низко, скорее не для привлечения внимания, а из-за холода и усталости."
@@ -3641,7 +3717,7 @@ msgstr "Marcus, the board of directors, the police—they were all external enem
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:182
 msgid "{=thoughts}Она меня спасала... а я ее забыла. Я просто... вычеркнула ее."
-msgstr "{=thoughts}How i could forget her... She was saving me... and I just... erased her from my mind."
+msgstr "{=thoughts}How I could forget her... She was saving me... and I just... erased her from my mind."
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:184
 msgid "Именно в этот момент ее слезы окончательно высохли. На смену горю и отчаянию пришла ледяная, почти математическая ясность."
@@ -3689,7 +3765,7 @@ msgstr "And now, sitting on this dirty sidewalk, she realized she'd been running
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:205
 msgid "Стену, которую она не видела. В которую врезалась на полном ходу, даже не заметив удара.{nw}"
-msgstr "A wall she hadn't seen. One she'd slammed into at full speed without even noticing the impact.{nw}"
+msgstr "A wall she hadn't seen. The one that's she'd slammed into at full speed without even noticing the impact.{nw}"
 
 #: game/game-scripts/chapters/chapter2/4-facing-reality.rpy:205
 msgid "Стену, которую она построила сама. Из своего лица на газетной полосе. {nw}"
@@ -6662,7 +6738,7 @@ msgstr "Come in. You can keep your shoes on. There's no one left to get it dirty
 
 #: game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:33
 msgid "Я шагнула внутрь. Квартира была маленькой, похожей на те, что я видела в старых фильмах – 'хрущевка', кажется, их называли."
-msgstr "I stepped inside. The apartment was small, like the ones I'd seen in old movies—a 'Khrushchyovka,' I think they were called."
+msgstr "I stepped inside. The apartment was small, like the ones I'd seen in old movies—a 'Khrushchevka,' I think they were called."
 
 #: game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:33
 msgid "Все было покрыто тонким, ровным слоем желтой пыли. Время здесь остановилось."
@@ -7887,7 +7963,7 @@ msgstr "It showed a modern, luxury residential complex. And a slogan... Somethin
 
 #: game/game-scripts/chapters/chapter4.0/3-academy.rpy:389
 msgid "Celeste Plaza..."
-msgstr "Celeste Plaza..."
+msgstr ""
 
 #: game/game-scripts/chapters/chapter4.0/3-academy.rpy:391
 msgid "Это не могло быть совпадением. В мире корпоративного маркетинга не бывает совпадений. Это была либо жестокая ирония, либо... спонсорство."
@@ -8953,7 +9029,7 @@ msgstr "When I find him..."
 #: game/game-scripts/chapters/chapter4.0/5-garden.rpy:256
 msgctxt "chapter4_0_garden_dialogue_8d26d5af"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: game/game-scripts/chapters/chapter4.0/5-garden.rpy:266
 msgid "...он поплатиться."
@@ -17098,12 +17174,12 @@ msgstr "Poor girl... You hold the ladder while others reach for the stars... Are
 #: game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:458
 msgctxt "chapter4_5_nari_flashback_e058cedb"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:458
 msgctxt "chapter4_5_nari_flashback_e058cedb_1"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:458
 msgid "Надоело..."
@@ -17945,7 +18021,7 @@ msgstr ""
 
 #: game/game-scripts/chapters/chapter5/chapter-5.rpy:3
 msgid "Глава 5"
-msgstr ""
+msgstr "Chapter 5"
 
 #: game/game-scripts/chapters/chapter5/chapter-5.rpy:3
 msgid "Предложение, от которого нельзя отказаться"
@@ -18150,7 +18226,7 @@ msgstr "She pauses. The girl smiles, and a twinkle of understanding appears in h
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:128
 msgid "Неон... красивое имя. Как свет. А я... ...- {nw}"
-msgstr "Neon... that's a beautiful name. Just ike a light! So my name... ...- {nw}"
+msgstr "Neon... that's a beautiful name. Just like a light! So my name... ...- {nw}"
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
 msgid "Ее имя... Память как подернутый рябью пруд. Не могу вспомнить. Просто пятно."
@@ -18266,7 +18342,7 @@ msgstr "And then... I was back home. With my trustee. And the girl... or rather.
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:210
 msgid "Мы... нет... Я хотела сходить в планетарий... точно... Я хотела увидеть звезды поближе. Моя мечта... То, что говорила моя мама из снов... Да... Я хочу смотреть и изучать звезды..."
-msgstr "We... i mean... I wanted to go to the planetarium... right... I wanted to see the stars up close. My dream... The thing my mom used to say in my dreams... Yes... I want to look at and study the stars..."
+msgstr "We... I mean... I wanted to go to the planetarium... right... I wanted to see the stars up close. My dream... The thing my mom used to say in my dreams... Yes... I want to look at and study the stars..."
 
 #: game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:211
 msgid "Все эти книги по научной фантастике в моей комнате... Я читала их, чтобы почувствовать связь с чем-то большим. С чем-то настоящим... Видимо, такова моя природа..."
@@ -18694,7 +18770,7 @@ msgstr ""
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:50
 msgid "Зависть."
-msgstr ""
+msgstr "Envy."
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:50
 msgid "Черная, липкая, всепоглощающая. Зависть завидовала моей матери. Моей семье. Мне."
@@ -18790,7 +18866,7 @@ msgstr ""
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:119
 msgid "Нет."
-msgstr ""
+msgstr "No."
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:121
 msgid "Это слово прозвучало в моем сознании не как мысль, а как удар гонга. Холодный, ясный, абсолютный."
@@ -19495,7 +19571,7 @@ msgstr "Promising? Anna, you've been saying that for six months. Yet we're still
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:90
 msgid "Мой алгоритм для анализа финансовых рынков, вот что реально принесет результат. И деньги. Большие деньги."
-msgstr "My algorithm for analyzing financial marcusets, now {i}that's{/i} what will actually bring results. And money. Big money."
+msgstr "My algorithm for analyzing financial markets, now {i}that's{/i} what will actually bring results. And money. Big money."
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:90
 msgid "А ты, Неон... молодец, конечно, что веришь."
@@ -19567,7 +19643,7 @@ msgstr "I don't know. But I have to try. It's... like a calling."
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:143
 msgid "Ну, если найдешь – не забудь упомянуть меня в своей Нобелевской речи."
-msgstr "Well, if you do find something—don't forget to mention me in your Nobel prize speech."
+msgstr "Well, if you do find something, don't forget to mention me in your Nobel prize speech."
 
 #: game/game-scripts/flashbacks/neon/zurich_flashbacks.rpy:145
 msgid "Обязательно."
@@ -19810,94 +19886,104 @@ msgid "Фоновая музыка"
 msgstr "Background music"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
-msgid "Атмосферные треки для погружения.\n~120 МБ"
-msgstr "Ambient tracks for immersion.\n~120 MB"
+msgid "Атмосферные треки для погружения.\n"
+"~120 МБ"
+msgstr "Ambient tracks for immersion.\n"
+"~120 MB"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
 msgid "Эмбиент и Звуки"
 msgstr "Ambience and Sounds"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
-msgid "Звуки дождя, ветра и шагов.\n~15 МБ"
-msgstr "Rain sound, wind sounds, walking sounds.\n~15 MB"
+msgid "Звуки дождя, ветра и шагов.\n"
+"~15 МБ"
+msgstr "Rain sound, wind sounds, walking sounds.\n"
+"~15 MB"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
 msgid "Озвучка персонажей"
 msgstr "Character voice-acting"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
-msgid "Частичная озвучка диалогов (Русский) (это тест).\n~250 КБ"
-msgstr "Partial voice acting for dialogues (Russian) (this is a test).\n~250 KB"
+msgid "Частичная озвучка диалогов (Русский) (это тест).\n"
+"~250 КБ"
+msgstr "Partial voice acting for dialogues (Russian) (this is a test).\n"
+"~250 KB"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
-msgid "Частичная озвучка диалогов (Английский) (это тест).\n~250 КБ"
-msgstr "Partial voice acting for dialogues (English) (this is a test).\n~250 KB"
+msgid "Частичная озвучка диалогов (Английский) (это тест).\n"
+"~250 КБ"
+msgstr "Partial voice acting for dialogues (English) (this is a test).\n"
+"~250 KB"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
 msgid "SFX-Эффекты"
 msgstr "SFX"
 
 #: game/modules/dlc-download/dlc-config.rpy:13
-msgid "Звуковые эффекты\n~2 МБ"
-msgstr "Sound effects\n~2 MB"
+msgid "Звуковые эффекты\n"
+"~2 МБ"
+msgstr "Sound effects\n"
+"~2 MB"
 
-#: game/modules/dlc-download/dlc-system.rpy:54
+#: game/modules/dlc-download/dlc-system.rpy:66
 msgid "Файл не найден (404). Проверь версию!"
 msgstr "File not found (404). Check the version!"
 
-#: game/modules/dlc-download/dlc-system.rpy:151
+#: game/modules/dlc-download/dlc-system.rpy:168
 msgid "Дополнительный контент"
 msgstr "DLC Content"
 
-#: game/modules/dlc-download/dlc-system.rpy:152
+#: game/modules/dlc-download/dlc-system.rpy:169
 msgid "Выберите компоненты для установки:"
 msgstr "Select content pack to install:"
 
-#: game/modules/dlc-download/dlc-system.rpy:177
+#: game/modules/dlc-download/dlc-system.rpy:194
 msgid "Скачать выбранное"
 msgstr "Download selected"
 
-#: game/modules/dlc-download/dlc-system.rpy:180
+#: game/modules/dlc-download/dlc-system.rpy:197
 msgid "Пропустить всё"
 msgstr "Skip all"
 
-#: game/modules/dlc-download/dlc-system.rpy:195
+#: game/modules/dlc-download/dlc-system.rpy:212
 msgid "ОШИБКА"
 msgstr "ERROR"
 
-#: game/modules/dlc-download/dlc-system.rpy:200
+#: game/modules/dlc-download/dlc-system.rpy:217
 msgid "Повторить"
 msgstr "Retry"
 
-#: game/modules/dlc-download/dlc-system.rpy:201
+#: game/modules/dlc-download/dlc-system.rpy:218
 msgid "Пропустить этот пак"
 msgstr "Skip this content pack"
 
-#: game/modules/dlc-download/dlc-system.rpy:204
+#: game/modules/dlc-download/dlc-system.rpy:221
 msgid "Инициализация..."
 msgstr "Initialization..."
 
-#: game/modules/dlc-download/dlc-system.rpy:208
+#: game/modules/dlc-download/dlc-system.rpy:225
 msgid "Попытка [dl_attempt_cur] из [dl_attempt_max]..."
 msgstr "Attempt [dl_attempt_cur] out of [dl_attempt_max]..."
 
-#: game/modules/dlc-download/dlc-system.rpy:214
+#: game/modules/dlc-download/dlc-system.rpy:231
 msgid "[mb_c] / [mb_t] МБ"
 msgstr "[mb_c] / [mb_t] MB"
 
-#: game/modules/dlc-download/dlc-system.rpy:217
+#: game/modules/dlc-download/dlc-system.rpy:234
 msgid "Сбой связи. Ждем..."
 msgstr "Connection failure. Waiting..."
 
-#: game/modules/dlc-download/dlc-system.rpy:220
+#: game/modules/dlc-download/dlc-system.rpy:237
 msgid "Распаковка архива..."
 msgstr "Unpacking the archive..."
 
-#: game/modules/dlc-download/dlc-system.rpy:223
+#: game/modules/dlc-download/dlc-system.rpy:240
 msgid "Установка завершена!"
 msgstr "Installation Complete!"
 
-#: game/modules/dlc-download/dlc-system.rpy:229
+#: game/modules/dlc-download/dlc-system.rpy:246
 msgid "Установка завершена. Переход к следующему файлу..."
 msgstr "Installation complete. Moving on to the next file..."
 
@@ -19910,8 +19996,20 @@ msgid "Привет, дорогой игрок!"
 msgstr "Hello, dear player!"
 
 #: game/modules/extras.rpy:24
-msgid "Спасибо, что решили познакомиться с моей историей. Прежде чем вы окунетесь в этот мир, я хочу быть с вами полностью честным.\n\nЯ не художник, а в первую очередь рассказчик.\n\nУ меня в голове родилась история с персонажами, которых я полюбил, и мне безумно хотелось поделиться ею с кем-то ещё. Визуальная новелла показалась мне идеальным форматом для этого.\n\nЧтобы «оживить» мир и героев, я использовал современные технологии - все фоны, спрайты персонажей и иллюстрации (CG) были созданы с помощью нейросетей (AI). Это стало для меня тем самым мостиком, который позволил визуализировать то, что я придумал.\n\nПри этом всё остальное — сюжет, диалоги, характеры персонажей и сама идея - это полностью моя авторская работа, в которую я вложил душу.\n\nТакже хочу отметить, что в игре используется музыка, распространяемая по лицензии Royalty-Free, за что я безмерно благодарен её создателям.\n\nЭта новелла не является коммерческим проектом и создана исключительно из любви к историям."
-msgstr "Thank you for choosing to experience my story. Before you dive into this world, I want to be completely honest with you.\n\nI'm not an artist; I'm a storyteller first and foremost.\n\nA story was born in my mind, with characters I've grown to love, and I was incredibly excited to share it with others. A visual novel seemed like the perfect format for that.\n\nTo bring the world and characters to life, I used modern technology. All the backgrounds, character sprites, and illustrations (CGs) were created with the help of AI. This technology served as the bridge that allowed me to visualize the world I had imagined.\n\nThat being said, everything else, like the plot, dialogue, characters, and the core idea is entirely my own original work, something I've poured my heart and soul into.\n\nI also want to mention that the game uses royalty-free and CC music, and I am incredibly grateful to the talented artists who created it.\n\nThis visual novel is not a commercial project and was created purely out of a love for storytelling."
+msgid "Спасибо, что решили познакомиться с моей историей. Прежде чем вы окунетесь в этот мир, я хочу быть с вами полностью честным.\n\n"
+"Я не художник, а в первую очередь рассказчик.\n\n"
+"У меня в голове родилась история с персонажами, которых я полюбил, и мне безумно хотелось поделиться ею с кем-то ещё. Визуальная новелла показалась мне идеальным форматом для этого.\n\n"
+"Чтобы «оживить» мир и героев, я использовал современные технологии - все фоны, спрайты персонажей и иллюстрации (CG) были созданы с помощью нейросетей (AI). Это стало для меня тем самым мостиком, который позволил визуализировать то, что я придумал.\n\n"
+"При этом всё остальное — сюжет, диалоги, характеры персонажей и сама идея - это полностью моя авторская работа, в которую я вложил душу.\n\n"
+"Также хочу отметить, что в игре используется музыка, распространяемая по лицензии Royalty-Free, за что я безмерно благодарен её создателям.\n\n"
+"Эта новелла не является коммерческим проектом и создана исключительно из любви к историям."
+msgstr "Thank you for choosing to experience my story. Before you dive into this world, I want to be completely honest with you.\n\n"
+"I'm not an artist; I'm a storyteller first and foremost.\n\n"
+"A story was born in my mind, with characters I've grown to love, and I was incredibly excited to share it with others. A visual novel seemed like the perfect format for that.\n\n"
+"To bring the world and characters to life, I used modern technology. All the backgrounds, character sprites, and illustrations (CGs) were created with the help of AI. This technology served as the bridge that allowed me to visualize the world I had imagined.\n\n"
+"That being said, everything else, like the plot, dialogue, characters, and the core idea is entirely my own original work, something I've poured my heart and soul into.\n\n"
+"I also want to mention that the game uses royalty-free and CC music, and I am incredibly grateful to the talented artists who created it.\n\n"
+"This visual novel is not a commercial project and was created purely out of a love for storytelling."
 
 #: game/modules/extras.rpy:40
 msgid "Спасибо за ваше понимание! Надеюсь, вам понравится путешествие, которое вас ждёт."
@@ -20317,96 +20415,144 @@ msgstr "Chapter 4.5 - Act I"
 msgid "Глава 4.5 - Акт II"
 msgstr "Chapter 4.5 - Act II"
 
-#: game/modules/main-menu/main-menu_custom.rpy:84
+#: game/modules/main-menu/main-menu_custom.rpy:89
 msgid "Играть"
 msgstr "Play"
 
-#: game/modules/main-menu/main-menu_custom.rpy:111
+#: game/modules/main-menu/main-menu_custom.rpy:96
+msgid "Уведомления {color=#f00}(!){/color}"
+msgstr ""
+
+#: game/modules/main-menu/main-menu_custom.rpy:98
+msgid "Уведомления"
+msgstr ""
+
+#: game/modules/main-menu/main-menu_custom.rpy:120
 msgid "Режим игры"
 msgstr "Gamemode"
 
-#: game/modules/main-menu/main-menu_custom.rpy:114
+#: game/modules/main-menu/main-menu_custom.rpy:123
 msgid "Новая игра"
 msgstr "New game"
 
-#: game/modules/main-menu/main-menu_custom.rpy:117
+#: game/modules/main-menu/main-menu_custom.rpy:126
 msgid "Продолжить"
 msgstr "Continue"
 
-#: game/modules/main-menu/main-menu_custom.rpy:119
+#: game/modules/main-menu/main-menu_custom.rpy:128
 msgid "Выбор сохранения"
 msgstr "Load from Save"
 
-#: game/modules/main-menu/main-menu_custom.rpy:122
+#: game/modules/main-menu/main-menu_custom.rpy:131
 msgid "Выбор глав"
 msgstr "Chapters"
 
-#: game/modules/main-menu/main-menu_custom.rpy:204
+#: game/modules/main-menu/main-menu_custom.rpy:213
 msgid "Текст/Графика"
 msgstr "Text/Graphics"
 
-#: game/modules/main-menu/main-menu_custom.rpy:205
+#: game/modules/main-menu/main-menu_custom.rpy:214
 msgid "Звук"
 msgstr "Sound"
 
-#: game/modules/main-menu/main-menu_custom.rpy:206
+#: game/modules/main-menu/main-menu_custom.rpy:215
 msgid "Язык"
 msgstr "Language"
 
-#: game/modules/main-menu/main-menu_custom.rpy:207
+#: game/modules/main-menu/main-menu_custom.rpy:218
 msgid "DLC Контент"
 msgstr "DLC Content"
 
-#: game/modules/main-menu/main-menu_custom.rpy:247
+#: game/modules/main-menu/main-menu_custom.rpy:220
+msgid "DLC Контент (Только ПК)"
+msgstr ""
+
+#: game/modules/main-menu/main-menu_custom.rpy:260
 msgid "Управление"
 msgstr "Controls"
 
-#: game/modules/main-menu/main-menu_custom.rpy:248
+#: game/modules/main-menu/main-menu_custom.rpy:261
 msgid "Лицензия"
 msgstr "License"
 
-#: game/modules/main-menu/main-menu_custom.rpy:249
+#: game/modules/main-menu/main-menu_custom.rpy:262
 msgid "Титры"
 msgstr "Credits"
 
-#: game/modules/main-menu/main-menu_custom.rpy:250
+#: game/modules/main-menu/main-menu_custom.rpy:263
 msgid "Обновление"
 msgstr "Update"
 
-#: game/modules/main-menu/main-menu_custom.rpy:270
+#: game/modules/main-menu/main-menu_custom.rpy:283
 msgid "Музыка"
 msgstr "Music"
 
-#: game/modules/main-menu/main-menu_custom.rpy:291
+#: game/modules/main-menu/main-menu_custom.rpy:304
 msgid "Музыка в меню"
 msgstr "Music in Menu"
 
-#: game/modules/main-menu/main-menu_custom.rpy:318
+#: game/modules/main-menu/main-menu_custom.rpy:331
 msgid "Текущая версия: [config.version]\n"
 msgstr "Current version: [config.version]\n"
 
-#: game/modules/main-menu/main-menu_custom.rpy:319
-msgid "\nСписок изменений:\n-Оптимизация и DLC Контент"
-msgstr "List of changes:\n-Optimization and DLC Content"
+#: game/modules/main-menu/main-menu_custom.rpy:332
+msgid "\n"
+"Список изменений:\n"
+"-Оптимизация и DLC Контент"
+msgstr "List of changes:\n"
+"-Optimization and DLC Content"
 
-#: game/modules/main-menu/main-menu_custom.rpy:344
+#: game/modules/main-menu/main-menu_custom.rpy:357
 msgid "Текст и Графика"
 msgstr "Text and Graphics"
 
-#: game/modules/main-menu/main-menu_custom.rpy:364
+#: game/modules/main-menu/main-menu_custom.rpy:377
 msgid "Непрочитанного текста"
 msgstr "Unread Text"
 
-#: game/modules/main-menu/main-menu_custom.rpy:373
+#: game/modules/main-menu/main-menu_custom.rpy:386
 msgid "Контент"
 msgstr "Content"
 
+#: game/modules/update/update_screen.rpy:14
+msgid "Доступно обновление!"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:16
+msgid "Текущая версия: [config.version!t]"
+msgstr "Current version: [config.version!t]"
+
+#: game/modules/update/update_screen.rpy:17
+msgid "Новая версия: [new_version_tag!t]"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:21
+msgid "Где скачать?"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:27
+msgid "Itch.io"
+msgstr ""
+
+#: game/modules/update/update_screen.rpy:30
+msgid "GitHub"
+msgstr ""
+
 #: game/options.rpy:15
 msgid "The Brightest Neon - Semitone Resonance"
-msgstr "The Brightest Neon - Semitone Resonance"
+msgstr ""
 
 #: game/options.rpy:31
-msgid "\n\nСпасибо за игру в этот прототип. Это моя первая визуальная новелла, и я многому научился в процессе её создания. Я надеюсь, что вам понравится история и персонажи, и я с нетерпением жду возможности поделиться с вами остальной частью истории в будущем.\n\n\n\n________________________________________\n\n\n\nАвтор и разработчик: Dot\n\n\n\n________________________________________\n\n\n\nРоялти-фри Музыка и звуковые эффекты:\n\n\n\n1. Purge Protocol (by ksho) - https://www.youtube.com/@kshowashere\n\n\n\n2. И другие источники роялти-фри музыки и звуковых эффектов. Не было времени прописывать все источники. В продолжение игры я постараюсь исправить это.\n\n\n\n\n\n\n\nLicensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/\n\n________________________________________"
+msgid "\n\n"
+"Спасибо за игру в этот прототип. Это моя первая визуальная новелла, и я многому научился в процессе её создания. Я надеюсь, что вам понравится история и персонажи, и я с нетерпением жду возможности поделиться с вами остальной частью истории в будущем.\n\n\n\n"
+"________________________________________\n\n\n\n"
+"Автор и разработчик: Dot\n\n\n\n"
+"________________________________________\n\n\n\n"
+"Роялти-фри Музыка и звуковые эффекты:\n\n\n\n"
+"1. Purge Protocol (by ksho) - https://www.youtube.com/@kshowashere\n\n\n\n"
+"2. И другие источники роялти-фри музыки и звуковых эффектов. Не было времени прописывать все источники. В продолжение игры я постараюсь исправить это.\n\n\n\n\n\n\n\n"
+"Licensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/\n\n"
+"________________________________________"
 msgstr ""
 
 #: game/screens.rpy:253
@@ -20486,8 +20632,10 @@ msgid "Версия [config.version!t]\n"
 msgstr "Version [config.version!t]\n"
 
 #: game/screens.rpy:565
-msgid "Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-msgstr "Game made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+msgid "Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n"
+"[renpy.license!t]"
+msgstr "Game made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n"
+"[renpy.license!t]"
 
 #: game/screens.rpy:600
 msgid "{} страница"
@@ -20503,7 +20651,7 @@ msgstr "Quick Saves"
 
 #: game/screens.rpy:643
 msgid "{#file_time}%A, %d %B %Y, %H:%M"
-msgstr "{#file_time}%A, %d %B %Y, %H:%M"
+msgstr ""
 
 #: game/screens.rpy:643
 msgid "Пустой слот"
@@ -20511,7 +20659,7 @@ msgstr "Empty slot"
 
 #: game/screens.rpy:663
 msgid "<"
-msgstr "<"
+msgstr ""
 
 #: game/screens.rpy:667
 msgid "{#auto_page}А"
@@ -20523,7 +20671,7 @@ msgstr "B"
 
 #: game/screens.rpy:676
 msgid ">"
-msgstr ">"
+msgstr ""
 
 #: game/screens.rpy:681
 msgid "Загрузить Sync"
@@ -20559,7 +20707,7 @@ msgstr "Transitions"
 
 #: game/screens.rpy:759
 msgid "✍️📜"
-msgstr "✍️📜"
+msgstr ""
 
 #: game/screens.rpy:764
 msgid "Включение Чувствительнного контента (18+)"
@@ -20611,7 +20759,7 @@ msgstr "Gamepad"
 
 #: game/screens.rpy:1030
 msgid "Enter"
-msgstr "Enter"
+msgstr ""
 
 #: game/screens.rpy:1031
 msgid "Прохождение диалогов, активация интерфейса."
@@ -20659,7 +20807,7 @@ msgstr "Turns on Skip-mode"
 
 #: game/screens.rpy:1054
 msgid "Page Up"
-msgstr "Page Up"
+msgstr ""
 
 #: game/screens.rpy:1055
 msgid "Откат назад по сюжету игры."
@@ -20667,7 +20815,7 @@ msgstr "Goes back to the previous text"
 
 #: game/screens.rpy:1058
 msgid "Page Down"
-msgstr "Page Down"
+msgstr ""
 
 #: game/screens.rpy:1059
 msgid "Откатывает предыдущее действие вперёд."
@@ -20687,7 +20835,7 @@ msgstr "Turns of self-voicing {a=https://www.renpy.org/l/voicing}{/a}."
 
 #: game/screens.rpy:1075
 msgid "Открывает меню специальных возможностей."
-msgstr "Opens Accessibiltiy Menu"
+msgstr "Opens Accessibility Menu"
 
 #: game/screens.rpy:1081
 msgid "Левый клик"
@@ -20710,12 +20858,16 @@ msgid "Колёсико вниз"
 msgstr "Scroll-down"
 
 #: game/screens.rpy:1104
-msgid "Правый триггер\nA/Нижняя кнопка"
-msgstr "Right Trigger\nA Button/D-Pad Down"
+msgid "Правый триггер\n"
+"A/Нижняя кнопка"
+msgstr "Right Trigger\n"
+"A Button/D-Pad Down"
 
 #: game/screens.rpy:1108
-msgid "Левый Триггер\nЛевый Бампер"
-msgstr "Left Trigger\nLeft Bumper"
+msgid "Левый Триггер\n"
+"Левый Бампер"
+msgstr "Left Trigger\n"
+"Left Bumper"
 
 #: game/screens.rpy:1112
 msgid "Правый бампер"
@@ -20759,1115 +20911,1123 @@ msgstr "To be continued."
 
 #: renpy/common/000statements.rpy:28
 msgid "Click to play the video."
-msgstr "Click to play the video."
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:28
 msgid "Self-voicing disabled."
-msgstr "Self-voicing disabled."
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:29
 msgid "Clipboard voicing enabled. "
-msgstr "Clipboard voicing enabled. "
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:30
 msgid "Self-voicing enabled. "
-msgstr "Self-voicing enabled. "
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:32
 msgid "bar"
-msgstr "bar"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:33
 msgid "selected"
-msgstr "selected"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:34
 msgid "viewport"
-msgstr "viewport"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:35
 msgid "horizontal scroll"
-msgstr "horizontal scroll"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:36
 msgid "vertical scroll"
-msgstr "vertical scroll"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:37
 msgid "activate"
-msgstr "activate"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:38
 msgid "deactivate"
-msgstr "deactivate"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:39
 msgid "increase"
-msgstr "increase"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:40
 msgid "decrease"
-msgstr "decrease"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:134
 msgid "Self-Voicing"
-msgstr "Self-Voicing"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:137
 msgid "Self-voicing support is limited when using a touch screen."
-msgstr "Self-voicing support is limited when using a touch screen."
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:139
 msgid "Off"
-msgstr "Off"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:143
 msgid "Text-to-speech"
-msgstr "Text-to-speech"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:147
 msgid "Clipboard"
-msgstr "Clipboard"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:151
 msgid "Debug"
-msgstr "Debug"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:155
 msgid "Voice Volume"
-msgstr "Voice Volume"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:163
 msgid "Reset"
-msgstr "Reset"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:167
 msgid "Self-Voicing Volume Drop"
-msgstr "Self-Voicing Volume Drop"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:180
 msgid "Mono Audio"
-msgstr "Mono Audio"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:182
 msgid "Enable"
-msgstr "Enable"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:186
 msgid "Disable"
-msgstr "Disable"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:198
 msgid "Font Override"
-msgstr "Font Override"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:200
 msgid "Default"
-msgstr "Default"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:204
 msgid "DejaVu Sans"
-msgstr "DejaVu Sans"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:208
 msgid "Opendyslexic"
-msgstr "Opendyslexic"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:212
 msgid "High Contrast Text"
-msgstr "High Contrast Text"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:224
 msgid "Text Size Scaling"
-msgstr "Text Size Scaling"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:235
 msgid "Line Spacing Scaling"
-msgstr "Line Spacing Scaling"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:246
 msgid "Kerning"
-msgstr "Kerning"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:267
 msgid "Accessibility Menu. Use up and down arrows to navigate, and enter to activate buttons and bars."
-msgstr "Accessibility Menu. Use up and down arrows to navigate, and enter to activate buttons and bars."
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:288
 msgid "Self-Voicing and Audio"
-msgstr "Self-Voicing and Audio"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:292
 msgid "Text"
-msgstr "Text"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:296
 msgid "Return"
-msgstr "Return"
+msgstr ""
 
 #: renpy/common/00accessibility.rpy:306
 msgid "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
-msgstr "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Monday"
-msgstr "{#weekday}Monday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Tuesday"
-msgstr "{#weekday}Tuesday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Wednesday"
-msgstr "{#weekday}Wednesday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Thursday"
-msgstr "{#weekday}Thursday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Friday"
-msgstr "{#weekday}Friday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Saturday"
-msgstr "{#weekday}Saturday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:26
 msgid "{#weekday}Sunday"
-msgstr "{#weekday}Sunday"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Mon"
-msgstr "{#weekday_short}Mon"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Tue"
-msgstr "{#weekday_short}Tue"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Wed"
-msgstr "{#weekday_short}Wed"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Thu"
-msgstr "{#weekday_short}Thu"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Fri"
-msgstr "{#weekday_short}Fri"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Sat"
-msgstr "{#weekday_short}Sat"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:37
 msgid "{#weekday_short}Sun"
-msgstr "{#weekday_short}Sun"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}January"
-msgstr "{#month}January"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}February"
-msgstr "{#month}February"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}March"
-msgstr "{#month}March"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}April"
-msgstr "{#month}April"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}May"
-msgstr "{#month}May"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}June"
-msgstr "{#month}June"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}July"
-msgstr "{#month}July"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}August"
-msgstr "{#month}August"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}September"
-msgstr "{#month}September"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}October"
-msgstr "{#month}October"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}November"
-msgstr "{#month}November"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:47
 msgid "{#month}December"
-msgstr "{#month}December"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Jan"
-msgstr "{#month_short}Jan"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Feb"
-msgstr "{#month_short}Feb"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Mar"
-msgstr "{#month_short}Mar"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Apr"
-msgstr "{#month_short}Apr"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}May"
-msgstr "{#month_short}May"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Jun"
-msgstr "{#month_short}Jun"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Jul"
-msgstr "{#month_short}Jul"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Aug"
-msgstr "{#month_short}Aug"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Sep"
-msgstr "{#month_short}Sep"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Oct"
-msgstr "{#month_short}Oct"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Nov"
-msgstr "{#month_short}Nov"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:63
 msgid "{#month_short}Dec"
-msgstr "{#month_short}Dec"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:258
 msgid "%b %d, %H:%M"
-msgstr "%b %d, %H:%M"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:395
 msgid "Save slot %s: [text]"
-msgstr "Save slot %s: [text]"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:481
 msgid "Load slot %s: [text]"
-msgstr "Load slot %s: [text]"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:534
 msgid "Delete slot [text]"
-msgstr "Delete slot [text]"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:613
 msgid "File page auto"
-msgstr "File page auto"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:615
 msgid "File page quick"
-msgstr "File page quick"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:617
 msgid "File page [text]"
-msgstr "File page [text]"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:675
 msgid "Page {}"
-msgstr "Page {}"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:675
 msgid "Automatic saves"
-msgstr "Automatic saves"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:675
 msgid "Quick saves"
-msgstr "Quick saves"
+msgstr ""
 
 #: renpy/common/00action_file.rpy:816
 msgid "Next file page."
-msgstr "Next file page."
+msgstr ""
 
 #: renpy/common/00action_file.rpy:888
 msgid "Previous file page."
-msgstr "Previous file page."
+msgstr ""
 
 #: renpy/common/00action_file.rpy:949
 msgid "Quick save complete."
-msgstr "Quick save complete."
+msgstr ""
 
 #: renpy/common/00action_file.rpy:964
 msgid "Quick save."
-msgstr "Quick save."
+msgstr ""
 
 #: renpy/common/00action_file.rpy:983
 msgid "Quick load."
-msgstr "Quick load."
+msgstr ""
 
 #: renpy/common/00action_other.rpy:416
 msgid "Language [text]"
-msgstr "Language [text]"
+msgstr ""
 
 #: renpy/common/00action_other.rpy:786
 msgid "Open [text] directory."
-msgstr "Open [text] directory."
+msgstr ""
 
 #: renpy/common/00compat.rpy:465
 msgid "Fullscreen"
-msgstr "Fullscreen"
+msgstr ""
 
 #: renpy/common/00director.rpy:712
 msgid "The interactive director is not enabled here."
-msgstr "The interactive director is not enabled here."
+msgstr ""
 
 #: renpy/common/00director.rpy:1512
 msgid "⬆"
-msgstr "⬆"
+msgstr ""
 
 #: renpy/common/00director.rpy:1518
 msgid "⬇"
-msgstr "⬇"
+msgstr ""
 
 #: renpy/common/00director.rpy:1582
 msgid "Done"
-msgstr "Done"
+msgstr ""
 
 #: renpy/common/00director.rpy:1592
 msgid "(statement)"
-msgstr "(statement)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1593
 msgid "(tag)"
-msgstr "(tag)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1594
 msgid "(attributes)"
-msgstr "(attributes)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1595
 msgid "(transform)"
-msgstr "(transform)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1620
 msgid "(transition)"
-msgstr "(transition)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1632
 msgid "(channel)"
-msgstr "(channel)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1633
 msgid "(filename)"
-msgstr "(filename)"
+msgstr ""
 
 #: renpy/common/00director.rpy:1662
 msgid "Change"
-msgstr "Change"
+msgstr ""
 
 #: renpy/common/00director.rpy:1664
 msgid "Add"
-msgstr "Add"
+msgstr ""
 
 #: renpy/common/00director.rpy:1667
 msgid "Cancel"
-msgstr "Cancel"
+msgstr ""
 
 #: renpy/common/00director.rpy:1670
 msgid "Remove"
-msgstr "Remove"
+msgstr ""
 
 #: renpy/common/00director.rpy:1705
 msgid "Statement:"
-msgstr "Statement:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1726
 msgid "Tag:"
-msgstr "Tag:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1742
 msgid "Attributes:"
-msgstr "Attributes:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1753
 msgid "Click to toggle attribute, right click to toggle negative attribute."
-msgstr "Click to toggle attribute, right click to toggle negative attribute."
+msgstr ""
 
 #: renpy/common/00director.rpy:1765
 msgid "Transforms:"
-msgstr "Transforms:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1776
 msgid "Click to set transform, right click to add to transform list."
-msgstr "Click to set transform, right click to add to transform list."
+msgstr ""
 
 #: renpy/common/00director.rpy:1777
 msgid "Customize director.transforms to add more transforms."
-msgstr "Customize director.transforms to add more transforms."
+msgstr ""
 
 #: renpy/common/00director.rpy:1789
 msgid "Behind:"
-msgstr "Behind:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1800
 msgid "Click to set, right click to add to behind list."
-msgstr "Click to set, right click to add to behind list."
+msgstr ""
 
 #: renpy/common/00director.rpy:1812
 msgid "Transition:"
-msgstr "Transition:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1822
 msgid "Click to set."
-msgstr "Click to set."
+msgstr ""
 
 #: renpy/common/00director.rpy:1823
 msgid "Customize director.transitions to add more transitions."
-msgstr "Customize director.transitions to add more transitions."
+msgstr ""
 
 #: renpy/common/00director.rpy:1835
 msgid "Channel:"
-msgstr "Channel:"
+msgstr ""
 
 #: renpy/common/00director.rpy:1846
 msgid "Customize director.audio_channels to add more channels."
-msgstr "Customize director.audio_channels to add more channels."
+msgstr ""
 
 #: renpy/common/00director.rpy:1858
 msgid "Audio Filename:"
-msgstr "Audio Filename:"
+msgstr ""
 
 #: renpy/common/00gallery.rpy:676
 msgid "Image [index] of [count] locked."
-msgstr "Image [index] of [count] locked."
+msgstr ""
 
 #: renpy/common/00gallery.rpy:696
 msgid "prev"
-msgstr "prev"
+msgstr ""
 
 #: renpy/common/00gallery.rpy:697
 msgid "next"
-msgstr "next"
+msgstr ""
 
 #: renpy/common/00gallery.rpy:698
 msgid "slideshow"
-msgstr "slideshow"
+msgstr ""
 
 #: renpy/common/00gallery.rpy:699
 msgid "return"
-msgstr "return"
+msgstr ""
 
 #: renpy/common/00gamepad.rpy:33
 msgid "Select Gamepad to Calibrate"
-msgstr "Select Gamepad to Calibrate"
+msgstr ""
 
 #: renpy/common/00gamepad.rpy:36
 msgid "No Gamepads Available"
-msgstr "No Gamepads Available"
+msgstr ""
 
 #: renpy/common/00gamepad.rpy:56
 msgid "Calibrating [name] ([i]/[total])"
-msgstr "Calibrating [name] ([i]/[total])"
+msgstr ""
 
 #: renpy/common/00gamepad.rpy:60
 msgid "Press or move the '[control!s]' [kind]."
-msgstr "Press or move the '[control!s]' [kind]."
+msgstr ""
 
 #: renpy/common/00gamepad.rpy:70
 msgid "Skip (A)"
-msgstr "Skip (A)"
+msgstr ""
 
 #: renpy/common/00gamepad.rpy:73
 msgid "Back (B)"
-msgstr "Back (B)"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:89
 msgid "Renderer"
-msgstr "Renderer"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:91
 msgid "Automatically Choose"
-msgstr "Automatically Choose"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:96
 msgid "Force GL2 Renderer"
-msgstr "Force GL2 Renderer"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:101
 msgid "Force ANGLE2 Renderer"
-msgstr "Force ANGLE2 Renderer"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:106
 msgid "Force GLES2 Renderer"
-msgstr "Force GLES2 Renderer"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:110
 msgid "Gamepad"
-msgstr "Gamepad"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:112
 msgid "Enable (No Blocklist)"
-msgstr "Enable (No Blocklist)"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:126
 msgid "Calibrate"
-msgstr "Calibrate"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:135
 msgid "Powersave"
-msgstr "Powersave"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:145
 msgid "Framerate"
-msgstr "Framerate"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:147
 msgid "Screen"
-msgstr "Screen"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:151
 msgid "60"
-msgstr "60"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:155
 msgid "30"
-msgstr "30"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:159
 msgid "Tearing"
-msgstr "Tearing"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:171
 msgid "Changes will take effect the next time this program is run."
-msgstr "Changes will take effect the next time this program is run."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:178
 msgid "Quit"
-msgstr "Quit"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:207
 msgid "Performance Warning"
-msgstr "Performance Warning"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:212
 msgid "This computer is using software rendering."
-msgstr "This computer is using software rendering."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:214
 msgid "This game requires use of GL2 that can't be initialised."
-msgstr "This game requires use of GL2 that can't be initialised."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:216
 msgid "This computer has a problem displaying graphics: [problem]."
-msgstr "This computer has a problem displaying graphics: [problem]."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:220
 msgid "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display."
-msgstr "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:224
 msgid "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
-msgstr "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:229
 msgid "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
-msgstr "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
+msgstr ""
 
 #: renpy/common/00gltest.rpy:234
 msgid "Continue, Show this warning again"
-msgstr "Continue, Show this warning again"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:238
 msgid "Continue, Don't show warning again"
-msgstr "Continue, Don't show warning again"
+msgstr ""
 
 #: renpy/common/00gltest.rpy:246
 msgid "Change render options"
-msgstr "Change render options"
+msgstr ""
 
 #: renpy/common/00gui.rpy:448
 msgid "Are you sure?"
-msgstr "Are you sure?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:449
 msgid "Are you sure you want to delete this save?"
-msgstr "Are you sure you want to delete this save?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:450
 msgid "Are you sure you want to overwrite your save?"
-msgstr "Are you sure you want to overwrite your save?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:451
-msgid "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-msgstr "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+msgid "Loading will lose unsaved progress.\n"
+"Are you sure you want to do this?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:452
 msgid "Are you sure you want to quit?"
-msgstr "Are you sure you want to quit?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:453
-msgid "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-msgstr "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+msgid "Are you sure you want to return to the main menu?\n"
+"This will lose unsaved progress."
+msgstr ""
 
 #: renpy/common/00gui.rpy:454
 msgid "Are you sure you want to continue where you left off?"
-msgstr "Are you sure you want to continue where you left off?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:455
 msgid "Are you sure you want to end the replay?"
-msgstr "Are you sure you want to end the replay?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:456
 msgid "Are you sure you want to begin skipping?"
-msgstr "Are you sure you want to begin skipping?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:457
 msgid "Are you sure you want to skip to the next choice?"
-msgstr "Are you sure you want to skip to the next choice?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:458
 msgid "Are you sure you want to skip unseen dialogue to the next choice?"
-msgstr "Are you sure you want to skip unseen dialogue to the next choice?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:459
 msgid "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
-msgstr "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
+msgstr ""
 
 #: renpy/common/00gui.rpy:460
 msgid "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
-msgstr "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
+msgstr ""
 
 #: renpy/common/00iap.rpy:231
-msgid "Contacting App Store\nPlease Wait..."
-msgstr "Contacting App Store\nPlease Wait..."
+msgid "Contacting App Store\n"
+"Please Wait..."
+msgstr ""
 
 #: renpy/common/00keymap.rpy:325
 msgid "Failed to save screenshot as %s."
-msgstr "Failed to save screenshot as %s."
+msgstr ""
 
 #: renpy/common/00keymap.rpy:346
 msgid "Saved screenshot as %s."
-msgstr "Saved screenshot as %s."
+msgstr ""
 
 #: renpy/common/00library.rpy:257
 msgid "Skip Mode"
-msgstr "Skip Mode"
+msgstr ""
 
 #: renpy/common/00library.rpy:344
 msgid "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
-msgstr "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+msgstr ""
 
 #: renpy/common/00preferences.rpy:295
 msgid "display"
-msgstr "display"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:315
 msgid "transitions"
-msgstr "transitions"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:324
 msgid "skip transitions"
-msgstr "skip transitions"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:326
 msgid "video sprites"
-msgstr "video sprites"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:335
 msgid "show empty window"
-msgstr "show empty window"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:344
 msgid "text speed"
-msgstr "text speed"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:352
 msgid "joystick"
-msgstr "joystick"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:352
 msgid "joystick..."
-msgstr "joystick..."
+msgstr ""
 
 #: renpy/common/00preferences.rpy:359
 msgid "skip"
-msgstr "skip"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:362
 msgid "skip unseen [text]"
-msgstr "skip unseen [text]"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:367
 msgid "skip unseen text"
-msgstr "skip unseen text"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:369
 msgid "begin skipping"
-msgstr "begin skipping"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:373
 msgid "after choices"
-msgstr "after choices"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:380
 msgid "skip after choices"
-msgstr "skip after choices"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:382
 msgid "auto-forward time"
-msgstr "auto-forward time"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:396
 msgid "auto-forward"
-msgstr "auto-forward"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:403
 msgid "Auto forward"
-msgstr "Auto forward"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:406
 msgid "auto-forward after click"
-msgstr "auto-forward after click"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:415
 msgid "automatic move"
-msgstr "automatic move"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:424
 msgid "wait for voice"
-msgstr "wait for voice"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:433
 msgid "voice sustain"
-msgstr "voice sustain"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:442
 msgid "self voicing"
-msgstr "self voicing"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:445
 msgid "self voicing enable"
-msgstr "self voicing enable"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:447
 msgid "self voicing disable"
-msgstr "self voicing disable"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:451
 msgid "self voicing volume drop"
-msgstr "self voicing volume drop"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:459
 msgid "clipboard voicing"
-msgstr "clipboard voicing"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:462
 msgid "clipboard voicing enable"
-msgstr "clipboard voicing enable"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:464
 msgid "clipboard voicing disable"
-msgstr "clipboard voicing disable"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:468
 msgid "debug voicing"
-msgstr "debug voicing"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:471
 msgid "debug voicing enable"
-msgstr "debug voicing enable"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:473
 msgid "debug voicing disable"
-msgstr "debug voicing disable"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:477
 msgid "emphasize audio"
-msgstr "emphasize audio"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:486
 msgid "rollback side"
-msgstr "rollback side"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:496
 msgid "gl powersave"
-msgstr "gl powersave"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:502
 msgid "gl framerate"
-msgstr "gl framerate"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:505
 msgid "gl tearing"
-msgstr "gl tearing"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:508
 msgid "font transform"
-msgstr "font transform"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:511
 msgid "font size"
-msgstr "font size"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:519
 msgid "font line spacing"
-msgstr "font line spacing"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:527
 msgid "system cursor"
-msgstr "system cursor"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:536
 msgid "renderer menu"
-msgstr "renderer menu"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:539
 msgid "accessibility menu"
-msgstr "accessibility menu"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:542
 msgid "high contrast text"
-msgstr "high contrast text"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:551
 msgid "audio when minimized"
-msgstr "audio when minimized"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:560
 msgid "audio when unfocused"
-msgstr "audio when unfocused"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:569
 msgid "web cache preload"
-msgstr "web cache preload"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:584
 msgid "voice after game menu"
-msgstr "voice after game menu"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:593
 msgid "restore window position"
-msgstr "restore window position"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:602
 msgid "mono audio"
-msgstr "mono audio"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:611
 msgid "font kerning"
-msgstr "font kerning"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:619
 msgid "reset"
-msgstr "reset"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:632
 msgid "main volume"
-msgstr "main volume"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:633
 msgid "music volume"
-msgstr "music volume"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:634
 msgid "sound volume"
-msgstr "sound volume"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:635
 msgid "voice volume"
-msgstr "voice volume"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:636
 msgid "mute main"
-msgstr "mute main"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:637
 msgid "mute music"
-msgstr "mute music"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:638
 msgid "mute sound"
-msgstr "mute sound"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:639
 msgid "mute voice"
-msgstr "mute voice"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:640
 msgid "mute all"
-msgstr "mute all"
+msgstr ""
 
 #: renpy/common/00preferences.rpy:723
 msgid "Clipboard voicing enabled. Press 'shift+C' to disable."
-msgstr "Clipboard voicing enabled. Press 'shift+C' to disable."
+msgstr ""
 
 #: renpy/common/00preferences.rpy:725
 msgid "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
-msgstr "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
+msgstr ""
 
 #: renpy/common/00preferences.rpy:727
 msgid "Self-voicing enabled. Press 'v' to disable."
-msgstr "Self-voicing enabled. Press 'v' to disable."
+msgstr ""
 
 #: renpy/common/00speechbubble.rpy:420
 msgid "Speech Bubble Editor"
-msgstr "Speech Bubble Editor"
+msgstr ""
 
 #: renpy/common/00speechbubble.rpy:425
 msgid "(hide)"
-msgstr "(hide)"
+msgstr ""
 
 #: renpy/common/00speechbubble.rpy:436
 msgid "(clear retained bubbles)"
-msgstr "(clear retained bubbles)"
+msgstr ""
 
 #: renpy/common/00sync.rpy:70
 msgid "Sync downloaded."
-msgstr "Sync downloaded."
+msgstr ""
 
 #: renpy/common/00sync.rpy:184
 msgid "Could not connect to the Ren'Py Sync server."
-msgstr "Could not connect to the Ren'Py Sync server."
+msgstr ""
 
 #: renpy/common/00sync.rpy:186
 msgid "The Ren'Py Sync server timed out."
-msgstr "The Ren'Py Sync server timed out."
+msgstr ""
 
 #: renpy/common/00sync.rpy:188
 msgid "An unknown error occurred while connecting to the Ren'Py Sync server."
-msgstr "An unknown error occurred while connecting to the Ren'Py Sync server."
+msgstr ""
 
 #: renpy/common/00sync.rpy:204
 msgid "The Ren'Py Sync server does not have a copy of this sync. The sync ID may be invalid, or it may have timed out."
-msgstr "The Ren'Py Sync server does not have a copy of this sync. The sync ID may be invalid, or it may have timed out."
+msgstr ""
 
 #: renpy/common/00sync.rpy:305
-msgid "Please enter the sync ID you generated.\nNever enter a sync ID you didn't create yourself."
-msgstr "Please enter the sync ID you generated.\nNever enter a sync ID you didn't create yourself."
+msgid "Please enter the sync ID you generated.\n"
+"Never enter a sync ID you didn't create yourself."
+msgstr ""
 
 #: renpy/common/00sync.rpy:324
 msgid "The sync ID is not in the correct format."
-msgstr "The sync ID is not in the correct format."
+msgstr ""
 
 #: renpy/common/00sync.rpy:344
 msgid "The sync could not be decrypted."
-msgstr "The sync could not be decrypted."
+msgstr ""
 
 #: renpy/common/00sync.rpy:367
 msgid "The sync belongs to a different game."
-msgstr "The sync belongs to a different game."
+msgstr ""
 
 #: renpy/common/00sync.rpy:372
 msgid "The sync contains a file with an invalid name."
-msgstr "The sync contains a file with an invalid name."
+msgstr ""
 
 #: renpy/common/00sync.rpy:425
-msgid "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nDo you want to continue?"
-msgstr "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nDo you want to continue?"
+msgid "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\n"
+"Do you want to continue?"
+msgstr ""
 
 #: renpy/common/00sync.rpy:433
 msgid "Yes"
-msgstr "Yes"
+msgstr ""
 
 #: renpy/common/00sync.rpy:434
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: renpy/common/00sync.rpy:457
 msgid "Enter Sync ID"
-msgstr "Enter Sync ID"
+msgstr ""
 
 #: renpy/common/00sync.rpy:468
 msgid "This will contact the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}."
-msgstr "This will contact the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}."
+msgstr ""
 
 #: renpy/common/00sync.rpy:498
 msgid "Sync Success"
-msgstr "Sync Success"
+msgstr ""
 
 #: renpy/common/00sync.rpy:501
 msgid "The Sync ID is:"
-msgstr "The Sync ID is:"
+msgstr ""
 
 #: renpy/common/00sync.rpy:507
-msgid "You can use this ID to download your save on another device.\nThis sync will expire in an hour.\nRen'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
-msgstr "You can use this ID to download your save on another device.\nThis sync will expire in an hour.\nRen'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
+msgid "You can use this ID to download your save on another device.\n"
+"This sync will expire in an hour.\n"
+"Ren'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
+msgstr ""
 
 #: renpy/common/00sync.rpy:511
 msgid "Continue"
-msgstr "Continue"
+msgstr ""
 
 #: renpy/common/00sync.rpy:536
 msgid "Sync Error"
-msgstr "Sync Error"
+msgstr ""
 
 #: renpy/common/00translation.rpy:63
 msgid "Translation identifier: [identifier]"
-msgstr "Translation identifier: [identifier]"
+msgstr ""
 
 #: renpy/common/00translation.rpy:84
 msgid " translates [tl.filename]:[tl.linenumber]"
-msgstr " translates [tl.filename]:[tl.linenumber]"
+msgstr ""
 
 #: renpy/common/00translation.rpy:101
-msgid "\n{color=#fff}Copied to clipboard.{/color}"
-msgstr "\n{color=#fff}Copied to clipboard.{/color}"
+msgid "\n"
+"{color=#fff}Copied to clipboard.{/color}"
+msgstr ""
 
 #: renpy/common/00updater.rpy:376
 msgid "No update methods found."
-msgstr "No update methods found."
+msgstr ""
 
 #: renpy/common/00updater.rpy:423
 msgid "Could not download file list: "
-msgstr "Could not download file list: "
+msgstr ""
 
 #: renpy/common/00updater.rpy:426
 msgid "File list digest does not match."
-msgstr "File list digest does not match."
+msgstr ""
 
 #: renpy/common/00updater.rpy:576
 msgid "An error is being simulated."
-msgstr "An error is being simulated."
+msgstr ""
 
 #: renpy/common/00updater.rpy:764
 msgid "Either this project does not support updating, or the update status file was deleted."
-msgstr "Either this project does not support updating, or the update status file was deleted."
+msgstr ""
 
 #: renpy/common/00updater.rpy:778
 msgid "This account does not have permission to perform an update."
-msgstr "This account does not have permission to perform an update."
+msgstr ""
 
 #: renpy/common/00updater.rpy:781
 msgid "This account does not have permission to write the update log."
-msgstr "This account does not have permission to write the update log."
+msgstr ""
 
 #: renpy/common/00updater.rpy:867
 msgid "Could not verify update signature."
-msgstr "Could not verify update signature."
+msgstr ""
 
 #: renpy/common/00updater.rpy:887
 msgid "The update source does not support RPU updates."
-msgstr "The update source does not support RPU updates."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1313
 msgid "Updater"
-msgstr "Updater"
+msgstr ""
 
 #: renpy/common/00updater.rpy:1320
 msgid "An error has occurred:"
@@ -21875,59 +22035,59 @@ msgstr "An error has occurred"
 
 #: renpy/common/00updater.rpy:1322
 msgid "Checking for updates."
-msgstr "Checking for updates."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1324
 msgid "This program is up to date."
-msgstr "This program is up to date."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1326
 msgid "[u.version] is available. Do you want to install it?"
-msgstr "[u.version] is available. Do you want to install it?"
+msgstr ""
 
 #: renpy/common/00updater.rpy:1328
 msgid "Preparing to download the updates."
-msgstr "Preparing to download the updates."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1330
 msgid "Downloading the updates."
-msgstr "Downloading the updates."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1332
 msgid "Unpacking the updates."
-msgstr "Unpacking the updates."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1334
 msgid "Finishing up."
-msgstr "Finishing up."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1336
 msgid "The updates have been installed. The program will restart."
-msgstr "The updates have been installed. The program will restart."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1338
 msgid "The updates have been installed."
-msgstr "The updates have been installed."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1340
 msgid "The updates were cancelled."
-msgstr "The updates were cancelled."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1355
 msgid "Proceed"
-msgstr "Proceed"
+msgstr ""
 
 #: renpy/common/00updater.rpy:1371
 msgid "Preparing to download the game data."
-msgstr "Preparing to download the game data."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1373
 msgid "Downloading the game data."
-msgstr "Downloading the game data."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1375
 msgid "The game data has been downloaded."
-msgstr "The game data has been downloaded."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1377
 msgid "An error occurred when trying to download game data:"
@@ -21935,81 +22095,81 @@ msgstr "An error occurred when trying to download game data"
 
 #: renpy/common/00updater.rpy:1382
 msgid "This game cannot be run until the game data has been downloaded."
-msgstr "This game cannot be run until the game data has been downloaded."
+msgstr ""
 
 #: renpy/common/00updater.rpy:1389
 msgid "Retry"
-msgstr "Retry"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:758
 msgid "Open"
-msgstr "Open"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:760
 msgid "Opens the traceback.txt file in a text editor."
-msgstr "Opens the traceback.txt file in a text editor."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:762
 msgid "Copy BBCode"
-msgstr "Copy BBCode"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:764
 msgid "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
-msgstr "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:766
 msgid "Copy Markdown"
-msgstr "Copy Markdown"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:768
 msgid "Copies the traceback.txt file to the clipboard as Markdown for Discord."
-msgstr "Copies the traceback.txt file to the clipboard as Markdown for Discord."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:800
 msgid "An exception has occurred."
-msgstr "An exception has occurred."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:829
 msgid "Rollback"
-msgstr "Rollback"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:831
 msgid "Attempts a roll back to a prior time, allowing you to save or choose a different choice."
-msgstr "Attempts a roll back to a prior time, allowing you to save or choose a different choice."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:834
 msgid "Ignore"
-msgstr "Ignore"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:838
 msgid "Ignores the exception, allowing you to continue."
-msgstr "Ignores the exception, allowing you to continue."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:840
 msgid "Ignores the exception, allowing you to continue. This often leads to additional errors."
-msgstr "Ignores the exception, allowing you to continue. This often leads to additional errors."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:844
 msgid "Reload"
-msgstr "Reload"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:846
 msgid "Reloads the game from disk, saving and restoring game state if possible."
-msgstr "Reloads the game from disk, saving and restoring game state if possible."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:849
 msgid "Console"
-msgstr "Console"
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:851
 msgid "Opens a console to allow debugging the problem."
-msgstr "Opens a console to allow debugging the problem."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:864
 msgid "Quits the game."
-msgstr "Quits the game."
+msgstr ""
 
 #: renpy/common/_errorhandling.rpym:886
 msgid "Parsing the script failed."
-msgstr "Parsing the script failed."
+msgstr ""
 

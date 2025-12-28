@@ -1,6 +1,6 @@
 label chapter4_5_concert_end:
 
-    show cg cg33_1 with fade
+    scene featured_cg-33_1 with fade
     narrator """
         Серафина повела меня за собой, крепко держа за руку, ее холодные пальцы крепко сжимали мои. Мы шли вглубь выставочного центра, мимо пустых, темных павильонов.
 
@@ -32,7 +32,7 @@ label chapter4_5_concert_end:
 
     narrator "Она прислонилась к двери спиной и устало выдохнула."
 
-    show cg cg33_2 with fade
+    scene featured_cg-33_2 with fade
 
     seraphina flustered """ 
     Фух... Наконец-то!
@@ -529,8 +529,8 @@ label chapter4_5_concert_end:
     play sound "sfx/door-slam1.opus"
     scene black with Dissolve(0.125)
     
-    show cg cg33_4 at dizzy_sway with dissolve
-    show cg cg33_4 as ghost_cg at dizzy_ghost_anim_light
+    scene featured_cg-33_4 at dizzy_sway with dissolve
+    show featured_cg-33_4 as ghost_cg at dizzy_ghost_anim_light
 
     narrator """
         Я снова шла по застекленному мосту обратно, к выходу. К Аргону. Город сменился 'золотым часом', желтым закатом. Небо на западе окрасилось в оранжевые и желтые тона.
@@ -541,7 +541,7 @@ label chapter4_5_concert_end:
         
         Я оперлась о перила, глядя на парк внизу. Там, на скамейке, сидела счастливая парочка, обнявшись.
     """
-    show cg cg33_4 as ghost_cg at dizzy_ghost_anim
+    show featured_cg-33_4 as ghost_cg at dizzy_ghost_anim
 
     
     narrator "Мир поплыл перед глазами."
@@ -566,5 +566,5 @@ label chapter4_5_concert_end:
     "???" "Наконец-то..."
     
     scene black with Dissolve(3)
-    $ renpy.music.set_audio_filter("music", None)
+    $ renpy.music.set_audio_filter("music", None, replace=True)
 return

@@ -26,6 +26,8 @@ init:
         $ flash = Fade(0.5, 0, 0.5, color="#FFFFFF")
 return
 
+image white = "#FFFFFF"
+
 image ctc_blink:
     "images/ctc/ctc_general.png"
     linear 0.75 alpha 1.0

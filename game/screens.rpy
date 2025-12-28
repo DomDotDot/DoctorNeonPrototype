@@ -764,6 +764,8 @@ screen preferences():
                     textbutton _("Включение Чувствительнного контента (18+)"):
                         action ToggleField(persistent, "sensitive_mode")
                         tooltip _("Включает отображение откровенных сцен.")
+                    textbutton _("ИИ Чувствительность"):
+                        action ToggleField(persistent, "ai_sensitive_mode")
 
             null height (4 * gui.pref_spacing)
 

@@ -36,7 +36,7 @@ init python:
     # condition_var="chapter_1_unlocked" означает, что глава появится, 
     # только если persistent.chapter_1_unlocked == True
     
-    add_chapter("start", _("Глава 0"), _("Пролог"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_0_unlocked")
+    #add_chapter("start", _("Глава 0"), _("Пролог"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_0_unlocked")
     add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/backgrounds/bg chapter_1_lab_corridor_1.avif", "chapter_1_unlocked")
     add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/backgrounds/bg chapter_2_false_memories-alex_call.avif", "chapter_2_unlocked")
     add_chapter("chapter_3", _("Глава 3"), _("Эскапизм"), "images/backgrounds/bg chapter_3_sorting-station-start.avif", "chapter_3_unlocked")
@@ -45,7 +45,7 @@ init python:
     add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_academy-veritas-central.avif", "chapter_4_5b_unlocked")
 
     # ДЛЯ ТЕСТА: Раскомментируй строку ниже, чтобы открыть 1 главу сразу
-default persistent.chapter_0_unlocked = True
+default persistent.chapter_1_unlocked = True
 
 
 
@@ -213,7 +213,11 @@ screen settings_menu():
             textbutton _("Текст/Графика") action ShowMenu("graphics_settings_screen") style "sub_menu_button"
             textbutton _("Звук") action ShowMenu("sound_settings_screen") style "sub_menu_button"
             textbutton _("Язык") action ShowMenu("language_selection_screen") style "sub_menu_button"
-            textbutton _("DLC Контент") action Start("dlc_manager_flow") style "sub_menu_button"
+            
+            if not renpy.variant("web"):
+                textbutton _("DLC Контент") action Start("dlc_manager_flow") style "sub_menu_button"
+            else:
+                textbutton _("DLC Контент (Только ПК)") action None style "sub_menu_button" text_color "#888"
 
             null height 30 # Отступ
 
@@ -385,6 +389,9 @@ screen graphics_settings_screen():
                     textbutton _("Включение Чувствительнного контента (18+)"):
                         action ToggleField(persistent, "sensitive_mode")
                         tooltip _("Включает отображение откровенных сцен.")
+                    # Кнопка-галочка (Checkbox)
+                    textbutton _("ИИ Чувствительность"):
+                        action ToggleField(persistent, "ai_sensitive_mode")
 
 
                     null height 20

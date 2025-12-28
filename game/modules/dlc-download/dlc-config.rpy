@@ -14,7 +14,7 @@ init -1 python:
         {
             "id": "music",
             "file": "music.zip",
-            "version": "v0.5.5",
+            "version": "v0.6.0",
             "folder": "audio",
             "check_file": "audio/music/BGM/FogHorns.opus",
             "title": _("Фоновая музыка"),
@@ -23,7 +23,7 @@ init -1 python:
         {
             "id": "ambient",
             "file": "ambient.zip",
-            "version": "v0.5.3",
+            "version": "v0.6.0",
             "folder": "audio",
             "check_file": "audio/ambient/Target.opus",
             "title": _("Эмбиент и Звуки"),
@@ -32,7 +32,7 @@ init -1 python:
         {
             "id": "voice_ru",
             "file": "voice_ru.zip", 
-            "version": "v0.5.3",
+            "version": "v0.6.0",
             "folder": "audio",
             "check_file": "audio/voice/voice_sample.ogg",
             "title": _("Озвучка персонажей"),
@@ -50,7 +50,7 @@ init -1 python:
         {
             "id": "sfx",
             "file": "sfx.zip", 
-            "version": "v0.5.3", 
+            "version": "v0.6.0", 
             "folder": "audio",
             "check_file": "audio/sfx/Chair_Hit.opus",
             "title": _("SFX-Эффекты"),

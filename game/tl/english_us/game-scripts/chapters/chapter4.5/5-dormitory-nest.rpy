@@ -15,14 +15,14 @@ translate english_us chapter4_5_dorm_way_f0890201:
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:12
 translate english_us chapter4_5_dorm_way_af5114bd:
 
-    # "Ведущая новостей" "...и снова трагедия в элитной Академии Веритас."
-    "Ведущая новостей" "...and another tragedy at the elite Veritas Academy."
+    # "News Anchor" "...и снова трагедия в элитной Академии Веритас."
+    "News Anchor" "...and another tragedy at the elite Veritas Academy."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:12
 translate english_us chapter4_5_dorm_way_315d5e75:
 
-    # "Ведущая новостей" "Сегодня в своей квартире был найден мертвым студент второго курса, Кай Ито. По предварительным версии следствия, причиной смерти стало самоубийство."
-    "Ведущая новостей" "Today, second-year student Kai Ito was found dead in his apartment. Preliminary investigation suggests the cause of death was suicide."
+    # "News Anchor" "Сегодня в своей квартире был найден мертвым студент второго курса, Кай Ито. По предварительным версии следствия, причиной смерти стало самоубийство."
+    "News Anchor" "Today, second-year student Kai Ito was found dead in his apartment. Preliminary investigation suggests the cause of death was suicide."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:18
 translate english_us chapter4_5_dorm_way_93c09740:

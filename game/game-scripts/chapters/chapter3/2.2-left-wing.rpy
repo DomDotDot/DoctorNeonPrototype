@@ -6,7 +6,7 @@ label ch3_left_wing:
 
     if not tried_to_talk_to_thugs:
         narrator "Заглянув за угол, я вижу ту самую сцену: трое мужчин греются у огня в бочке. Они не замечают меня."
-    show cg cg18 with dissolve
+    scene featured_cg-18 with dissolve
     menu ch3_left_wing_thug_talk:
 
         "Подслушать разговор." if tried_to_talk_to_thugs:
@@ -50,7 +50,7 @@ label ch3_left_wing:
             neon "{=thoughts}Веритас-Сити... Город-академия. Чистый, безопасный, недостижимый. Другая вселенная. Я понимаю, что разговор с ними бесполезен."
             $ tried_to_talk_to_thugs = True
 
-            hide cg cg18 with fade
+            hide featured_cg-18 with fade
             jump ch3_hall_explore
 
         "Вернуться в главный холл.":

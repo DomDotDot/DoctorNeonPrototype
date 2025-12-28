@@ -5,13 +5,12 @@ label dream_sequence_japan_4:
     # play sound "sounds/fire_chaos_dream_sounds.opus" loop # Звуки пожара, криков, треска
     # music "sounds/dream_tragedy_theme.opus" loop
 
-
-    label dream_sequence_japan_4_awakening:
-
-    play music "music/BGM/ExtinguishedFlame.opus"
+    play music "music/BGM/ExtinguishedFlame.opus" fadein 8.0
 
     # (Начало сцены — Неон "растворяется" после поцелуя Лили)
-    
+
+    scene black with Dissolve(2.0)
+
     narrator """
         Сознание погрузилось в Тишину.
         
@@ -19,10 +18,10 @@ label dream_sequence_japan_4:
         
         И там, в этой пустоте, я снова увидела его. Мой дом.
     """
-    
-    scene bg house_on_fire_dream with Dissolve(1.0)
-    play music "music/BGM/Dream_Tragedy_Theme.opus" loop
-    play ambient "ambient/fire_chaos_dream_sounds.opus" loop
+
+    scene 7a-cg-1 at heat_haze with Dissolve(1.0)
+
+    play ambient "ambient/house_burn.mp3" volume 0.175 fadein 3.0
     
     narrator """
         Ночь. Мой дом горит.
@@ -40,12 +39,17 @@ label dream_sequence_japan_4:
 
     
     # Резкий скачок во времени сна, к спору
-    scene bg chapter_2_dream-sequence-japan_1-sakura_tense with Dissolve(0.5)
-    stop ambient
+    scene black with fade
+    stop ambient fadeout 10.0
     
     narrator "Сцена меняется. Снова тот спор моей матери и 'Тёти'."
     
-    "Аканэ" "У меня есть что терять! В отличие от тебя!"
+    show akane anger at midleft with dissolve
+    show oganesson young_kimono hurt at midright with dissolve
+
+    akane """
+        У меня есть что терять. В отличие от тебя!
+    """
     
     narrator """
         Я снова вижу лицо 'Тёти'. Раньше я видела в нем только гнев и обиду.
@@ -55,11 +59,18 @@ label dream_sequence_japan_4:
         Я вижу то же уродливое, искажающее чувство, что исходило от Серафины, когда она говорила о Селестии.
         
         То же самое чувство, которое пыталась объяснить Лили...
-        
+    """
+
+    hide akane with dissolve
+    show oganesson young_kimono hurt at center with easeinleft
+
+    narrator """ 
         Зависть.
         
         Черная, липкая, всепоглощающая. Зависть завидовала моей матери. Моей семье. Мне.
     """
+
+    scene black with fade
 
     narrator """
         Сцена снова меняется. Возврат в огонь.
@@ -68,6 +79,8 @@ label dream_sequence_japan_4:
     
         В моем детском воспоминании я цеплялась за нее, как за единственное спасение. Я верила ей.
     """
+
+    scene featured_7a-cg-2 with Dissolve(2.0)
 
     narrator"""
         Но на этот раз что-то изменилось. Я — не просто участник. Я — зритель. И я вижу то, чего не видела раньше.
@@ -84,7 +97,7 @@ label dream_sequence_japan_4:
 
     """
 
-    oganesson_young "Моя. Теперь ты только моя"
+    oganesson_young "Моя. Теперь ты только моя."
 
     narrator """
         Я слышу это не ушами, а кожей.
@@ -98,13 +111,21 @@ label dream_sequence_japan_4:
         Это... это чувство... то же самое, что я испытала во время 'поцелуя' Лили.
         
         Она здесь. В моей голове. И она пытается показать мне... свою историю.
+
+        Голос становится другим, более молодым, испуганным.
     """
+
+    scene black with fade
     
-    lily "(Голос становится другим, более молодым, испуганным — это голос Лили) ...я не хотела... я просто хотела петь..."
+    lily "...я не хотела... я просто хотела петь..."
 
     call chapter4_5_lily_flashback from _call_chapter4_5_lily_flashback
 
+    scene black with dissolve
+
     lily "...исчезать..."
+
+    play music "music/BGM/LostConnection.opus" fadein 5.0 fadeout 5.0
 
     narrator """
         Чужое воспоминание обрывается.
@@ -128,25 +149,34 @@ label dream_sequence_japan_4:
     ...
 
     Я слышу колыбель, я слышу как цокают две спицы.
-    
-    Я вижу окно, но в нем нет звезд.
-    
-    Я вижу горы, но в них нет того величия.
-
-    'Мальвина'. Белая Ворона, что окунулось в синеву.
-
-    'Таковая её природа', - оворила моя опекунша.
-    
-    'Стань снова послушой и пустой.', - скомандовал тиран из моих снов.
-
-    'Твоя мать... она пользуется тобой неправильно...', - с фанатичным блеском в глазах сказала Тетя Тетя.
-
-    Она — не спаситель. Она — мой похититель. Мой тюремщик.
     """
-
-    # Снова резкий скачок, монтаж
-    # (Быстрая смена кадров/звуков: цокот спиц, гул чайника, голос "Мальвина", пустые глаза Клары, экстаз Кэрол, красные глаза Лили)
     
+    narrator "Я вижу окно, но в нем нет звезд."
+    
+    scene 7a-cg-3 with dissolve
+
+    narrator "Я вижу горы, но в них нет того величия."
+
+    scene bg chapter_1_rural_flashback with flash
+
+    narrator "'Мальвина'. Белая Ворона, что окунулось в синеву."
+
+    scene 7a-cg-4 with dissolve
+
+    narrator "'Таковая её природа', - говорила моя опекунша."
+
+    scene featured_cg-11_3-1 with dissolve
+    
+    narrator "'Стань снова послушой и пустой.', - скомандовал тиран из моих снов."
+
+    scene featured_cg-28_3 with dissolve
+
+    narrator "'Твоя мать... она пользуется тобой неправильно...', - с фанатичным блеском в глазах сказала Тетя."
+
+    scene black with Dissolve(2.5)
+
+    narrator "Она — не спаситель. Она — мой похититель. Мой тюремщик."
+
     narrator """
         И все встало на свои места.
         
@@ -154,7 +184,9 @@ label dream_sequence_japan_4:
         
         Вся моя жизнь — не просто ложь. Это был проект.
 
-        Лили... Опекунша... они обе хотели одного и того же.
+        Лили...
+        
+        Нет, Нари... Опекунша... они обе хотели одного и того же.
         
         Превратить меня в пустой сосуд, который можно наполнить своей волей.
 
@@ -162,6 +194,8 @@ label dream_sequence_japan_4:
         
         Я — вакуум.
     """
+
+    show 7a-cg-5 with { "master" : Dissolve(200.0) }
     
     narrator """
         Как же я устала.
@@ -178,7 +212,7 @@ label dream_sequence_japan_4:
         
         Но что если я никогда и не менялась? Что если... это чувство было у меня в глубине моей души с самого начала?
         
-        Что, если моя сила — не в том, чтобы бежать от шума?
+        Что, если моя реальность не в том, чтобы бежать от шума?
         
         Что, если она в том, чтобы устанавливать тишину, в котором шум просто... исчезает?
 
@@ -191,7 +225,7 @@ label dream_sequence_japan_4:
     stop music fadeout 1.0
     stop ambient fadeout 1.0
     
-    neon "(Голос — холодный, ровный, полный стальной решимости) Она была права. Всё это время. Такова моя природа. Изначально."
+    neon "Она была права. Всё это время. Такова моя природа. Изначально."
     
     # Резкая вспышка синего света.
     scene white with flash

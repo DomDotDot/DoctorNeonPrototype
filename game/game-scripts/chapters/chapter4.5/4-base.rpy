@@ -1,7 +1,7 @@
 label chapter4_5_argon_rescue:
     
     scene bg chapter_4-5_ark-aground-base-night with fade
-    play music "music/BGM/ThinkingProcesses.opus"
+    play music "music/BGM/GrayMatter.opus"
 
     narrator """
         Сознание вернулось резким, болезненным рывком.

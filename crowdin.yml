@@ -1,6 +1,3 @@
 files:
-  - source: /game/tl/pot/**/*.pot
-    translation: /game/tl/%two_letters_code%/**/%original_file_name%.po
-    two_letters_code:
-        en: english_us
-        it: italian
+  - source: /game/tl/None/**/*.pot
+    translation: /game/tl/%two_letters_code%/**/game.po

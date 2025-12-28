@@ -372,3 +372,359 @@ translate english_us confrontation_path_5523c12d:
     # narrator "Неон замахнулась, а её синие волосы светились как пламя..."
     narrator "Neon swung, her blue hair glowing like flames..."
 
+# TODO: Translation updated at 2025-12-28 02:32
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:11
+translate english_us confrontation_path_22abf716:
+
+    # narrator "Они быстрым шагом направились к лифтам, ведущим в административное крыло. Адреналин бурлил в крови, давая ложное ощущение силы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:11
+translate english_us confrontation_path_ae25e6bc:
+
+    # narrator "Двери лифта разъехались. Но кабина была не пуста."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:11
+translate english_us confrontation_path_2445ae57:
+
+    # narrator "Маркус выходил из лифта, поправляя идеально завязанный галстук."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:11
+translate english_us confrontation_path_95edc7c4:
+
+    # narrator "Увидев их, он на долю секунды замер. Улыбка на его лице дрогнула, но тут же сменилась выражением ленивого, снисходительного превосходства."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:25
+translate english_us confrontation_path_766efb35:
+
+    # marcus "Неон. Александра. Какая... трогательная процессия. Решили прогуляться перед увольнением?"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:35
+translate english_us confrontation_path_5a6154c6:
+
+    # narrator "Она сделала шаг вперед, намереваясь пройти мимо. Алекс последовала за ней"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:35
+translate english_us confrontation_path_807e9c31:
+
+    # narrator "Но Маркус сделал шаг в сторону, перекрывая ей путь своим телом. Он был выше, массивнее. Он нависал над ней.\""
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:41
+translate english_us confrontation_path_5f75eb74:
+
+    # marcus suit_smug "Тише, тише. Куда спешим? К папочке директору?"
+    marcus suit_smug ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:45
+translate english_us confrontation_path_295cf9a9:
+
+    # narrator "Он протянул руку и схватил Неон за плечо. Не больно, но унизительно крепко. Как хозяин, удерживающий непослушного питомца."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:45
+translate english_us confrontation_path_8fa86c92:
+
+    # narrator "Его пальцы сжались на ткани ее халата."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:51
+translate english_us confrontation_path_2588a9c6:
+
+    # marcus "Ты думаешь, тебе там кто-то рад? После того цирка, что ты устроила?"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:53
+translate english_us confrontation_path_26c717f6:
+
+    # narrator "Неон застыла от этого прикосновения. Но Алекс среагировала мгновенно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:61
+translate english_us confrontation_path_beebd42f:
+
+    # narrator "Алекс рывком вклинилась между ними. Она с силой ударила по руке Маркуса, сбивая его ладонь с плеча Неон, и толкнула его в грудь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:61
+translate english_us confrontation_path_71e09431:
+
+    # narrator "В ее глазах не было страха. Только чистая, звериная защита."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:67
+translate english_us confrontation_path_a7b1c62b:
+
+    # alex "{=yell}Слышь, ты! Руки убрал от моей Неон!{/yell}" with vpunch
+    alex "" with vpunch
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:69
+translate english_us confrontation_path_a2c7cec1:
+
+    # alex "Еще раз тронешь ее — я тебе пальцы переломаю, понял?"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:71
+translate english_us confrontation_path_02519f73:
+
+    # narrator "Маркус отшатнулся от неожиданности. Он посмотрел на свою руку, потом на Алекс. В его взгляде появилось брезгливое удивление, будто на него лаяла дворняжка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:71
+translate english_us confrontation_path_1b7736fe:
+
+    # narrator "Неон смотрела на спину подруги. Алекс дрожала от злости, но стояла насмерть. Она была щитом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:77
+translate english_us confrontation_path_0ecd4a5e:
+
+    # marcus suit_irritated "Ха... Бойцовая подружка? Как мило."
+    marcus suit_irritated ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:79
+translate english_us confrontation_path_c99f71d9:
+
+    # narrator "Он отряхнул пиджак там, где его коснулась Алекс, словно стряхивая грязь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:81
+translate english_us confrontation_path_26fc9794:
+
+    # marcus "Слушай, архивная пыль. Сгинь. Взрослые разговаривают."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:83
+translate english_us confrontation_path_c6518499:
+
+    # alex "Я сказала — отошел от нее!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:85
+translate english_us confrontation_path_313ce9dd:
+
+    # narrator "Он проигнорировал Алекс, глядя поверх ее головы прямо на Неон"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:87
+translate english_us confrontation_path_2da1a035:
+
+    # marcus suit_sinister "Видишь, Неон? Ты даже за себя постоять не можешь. Тебе всегда нужна нянька."
+    marcus suit_sinister ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:87
+translate english_us confrontation_path_12b80677:
+
+    # marcus suit_sinister "Сначала опекунша... теперь эта неудачница..."
+    marcus suit_sinister ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:87
+translate english_us confrontation_path_425ce93c:
+
+    # marcus suit_sinister "Ты жалка. Вечно прячешься за чужими спинами."
+    marcus suit_sinister ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:96
+translate english_us confrontation_path_a58b5781:
+
+    # narrator "Эти слова попали в цель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:96
+translate english_us confrontation_path_17f089dd:
+
+    # narrator "Неон увидела, как Алекс набирает воздух, чтобы снова ответить, чтобы снова защитить ее..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:96
+translate english_us confrontation_path_34de4453:
+
+    # narrator "И что-то внутри Неон оборвалось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:96
+translate english_us confrontation_path_def7925c:
+
+    # narrator "Стыд. Стыд за то, что она слабая. За то, что Алекс приходится драться за нее."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:96
+translate english_us confrontation_path_d674165d:
+
+    # narrator "Она мягко, но настойчиво отодвинула Алекс в сторону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:111
+translate english_us confrontation_path_090da83a:
+
+    # neon "{=whisper}Алекс... отойди."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:113
+translate english_us confrontation_path_7477ec26:
+
+    # alex "Неон? Не слушай его, он просто..."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:115
+translate english_us confrontation_path_fabf7d1d:
+
+    # neon "Я сказала... отойди."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:117
+translate english_us confrontation_path_7c8d8744:
+
+    # narrator "Голос Неон был тихим, но в нем звучала такая мертвая, холодная пустота, что Алекс инстинктивно отступила."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:117
+translate english_us confrontation_path_7b7d0f06:
+
+    # narrator "Маркус ухмыльнулся, думая, что победил."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:123
+translate english_us confrontation_path_d45cc90c:
+
+    # marcus suit_smug "Кстати. Чуть не забыл. Ты, кажется, что-то потеряла утром?"
+    marcus suit_smug ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:125
+translate english_us confrontation_path_06a009fe:
+
+    # narrator "Он сунул руку в карман брюк и достал маленькие белые наушники. Её наушники."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:127
+translate english_us confrontation_path_1109659d:
+
+    # neon surprised "Они..."
+    neon surprised ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:128
+translate english_us confrontation_path_db2a8e79:
+
+    # neon irritated "Отдай. Отдай немедленно."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:130
+translate english_us confrontation_path_404e9757:
+
+    # marcus "Забавная вещица. Я послушал, пока ты спала. Какая-то заунывная классика. И это помогает тебе работать? Серьезно?"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:132
+translate english_us confrontation_path_92db4ab4:
+
+    # neon "{=yell}Не трогай их! Это... это единственное, что спасает меня от шума! Это лечит мою душу!{/yell}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:134
+translate english_us confrontation_path_3712cf59:
+
+    # narrator "Неон дернулась к нему, пытаясь выхватить их, но Маркус легко поднял руку выше, как взрослый дразнит ребенка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:136
+translate english_us confrontation_path_096dd07e:
+
+    # marcus suit_sinister "Спасает от шума? Лечит душу?"
+    marcus suit_sinister ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:138
+translate english_us confrontation_path_6ae674ab:
+
+    # marcus "Знаешь, Неон... Я уже нашел твой сигнал. Я сделал твою работу. А значит..."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:140
+translate english_us confrontation_path_744c4f4c:
+
+    # narrator "Его пальцы разжались."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:142
+translate english_us confrontation_path_ac75c7df:
+
+    # marcus "...тебе они больше не нужны."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:146
+translate english_us confrontation_path_93e4c324:
+
+    # narrator "Наушники упали на бетонный пол. Маркус, не переставая улыбаться, наступил на них дорогим ботинком и с хрустом провернул ногу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:151
+translate english_us confrontation_path_699d0f7d:
+
+    # narrator "Тихий хруст пластика прозвучал для Неон как выстрел. Музыка умерла. Щит сломан. В её голову хлынул Шум."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:153
+translate english_us confrontation_path_0f546e42:
+
+    # marcus "Упс. Неловко вышло. Как и вся твоя карьера, Синяя ворона."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:204
+translate english_us confrontation_path_b32c9a31:
+
+    # narrator "Алекс, увидев безумие в глазах подруги, бросилась к ней."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:211
+translate english_us confrontation_path_bff1ee3c:
+
+    # narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:215
+translate english_us confrontation_path_9f39e8b5:
+
+    # narrator "ТРЕСК!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:215
+translate english_us confrontation_path_222f9c09:
+
+    # narrator "Это был удар током."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:215
+translate english_us confrontation_path_6e233e8a:
+
+    # narrator "Алекс вскрикнула от боли, ее пальцы разжались сами собой. Она отшатнулась, прижимая обожженную ладонь к груди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:223
+translate english_us confrontation_path_08e4892e:
+
+    # alex "Ай!.. Неон?!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:225
+translate english_us confrontation_path_432b126b:
+
+    # narrator "Неон даже не заметила этого. Она не почувствовала удара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:225
+translate english_us confrontation_path_c33fa559:
+
+    # narrator "Энергия внутри неё больше не искала выхода. Она искала цель. И целью был Маркус."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:225
+translate english_us confrontation_path_56fcd7a7:
+
+    # narrator "Она схватилась за спинку стула."
+    narrator ""
+

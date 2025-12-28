@@ -86,3 +86,49 @@ transform dizzy_ghost_anim:
         ease 3.0 xoffset 40 yoffset 20 zoom 1.05
         xoffset 0 yoffset 0 zoom 1.0
         repeat
+
+
+# Трансформация искажения (Жар)
+transform heat_haze:
+    # Медленное волнообразное движение
+    parallel:
+        easein_quint 2 blur 5
+        easein_quint 2 blur 1
+        repeat
+
+# Эффект ходьбы (Зум в центр)
+transform walking_zoom(time_duration):
+    align (0.5, 0.5) 
+    zoom 1.0
+
+    easein time_duration zoom 1.4
+
+# Эффект страшного мигания с блюром
+transform blur_flicker:
+
+    blur 15.0 
+    align (0.5, 0.5)
+    
+
+    block:
+        choice:
+            # Вариант 1: Горит нормально
+            alpha 1.0
+            pause 0.1
+        choice:
+            # Вариант 2: Слегка тускнеет
+            alpha 0.6
+            pause 0.05
+        choice:
+            # Вариант 3: Полная темнота (лампа погасла)
+            alpha 0.0
+            pause 0.1
+            alpha 1.0
+        choice:
+            # Вариант 4: Быстрый стробоскоп
+            alpha 0.2
+            pause 0.05
+            alpha 1.0
+            pause 0.05
+        
+        repeat

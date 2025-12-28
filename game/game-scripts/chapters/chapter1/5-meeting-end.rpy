@@ -1,6 +1,6 @@
 label chapter1_meeting_aftermath_hallway:
 
-        show cg cg5_2 with fade
+        scene cg-5_2 with fade
         play music "music/BGM/Swell.opus" fadein 1.0 fadeout 5.0
         alex "Эй?! Неон?! Ты чего тут сидишь? Все нормально?"
 
@@ -25,7 +25,7 @@ label chapter1_meeting_aftermath_hallway:
         Увидев их, Неон почувствовала, как внутри что-то оборвалось. Бессмысленная работа. Все бессмысленно.
         """
 
-        show cg cg5_3 with fade
+        scene featured_cg-5_3 with fade
         narrator """
         Спустя какое-то время дверь конференц-зала открылась.
         

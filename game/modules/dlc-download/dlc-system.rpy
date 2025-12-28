@@ -1,7 +1,6 @@
 init python:
     import os
     import zipfile
-    import requests
     import threading
     import time
 
@@ -26,6 +25,19 @@ init python:
     dl_attempt_max = 5       # Макс попыток
     dl_mb_cur = 0.0          # Скачано МБ
     dl_mb_tot = 0.0          # Всего МБ
+
+
+    # Проверяем, не в браузере ли мы.
+    # Если в браузере, НЕ импортируем requests, иначе будет краш.
+    IS_WEB = renpy.variant("web")
+    
+    if not IS_WEB:
+        import requests
+    else:
+        # Заглушка, чтобы код ниже не ругался на отсутствие имени 'requests'
+        requests = None 
+
+
 
     def _dlc_worker(url, zip_path, target_dir):
         global dl_progress, dl_status, dl_done, dl_error, dl_should_cancel
@@ -105,6 +117,11 @@ init python:
     def start_download_current():
         global dl_progress, dl_status, dl_done, dl_error, dl_should_cancel, current_dlc_data
         global dl_phase, dl_mb_cur, dl_mb_tot
+
+        if IS_WEB:
+            dl_error = "Скачивание DLC недоступно в Web-версии."
+            dl_status = "Ошибка платформы"
+            return
         
         # Сброс
         dl_progress = 0.0

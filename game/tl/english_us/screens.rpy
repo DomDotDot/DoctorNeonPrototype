@@ -346,3 +346,11 @@ translate english_us strings:
     old "Меню"
     new "Menu"
 
+# TODO: Translation updated at 2025-12-28 02:32
+
+translate english_us strings:
+
+    # game/screens.rpy:767
+    old "ИИ Чувствительность"
+    new ""
+

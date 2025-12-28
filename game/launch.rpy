@@ -10,8 +10,6 @@ label splashscreen:
 
     $ start_update_check()
     
-    call splashscreen_dlc from _call_splashscreen_dlc
-
     ## Here begins our splashscreen animation.
     play sound "sfx/short-logo.opus" volume 0.25
     show splash_anim_1
@@ -47,6 +45,8 @@ label splashscreen:
     if not persistent.firstlaunch:
 
         call screen language_selection_screen
+
+        call splashscreen_dlc from _call_splashscreen_dlc
 
         call screen content_warning
         

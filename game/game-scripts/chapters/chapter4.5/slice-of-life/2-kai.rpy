@@ -17,7 +17,7 @@ label chapter4_5_kai_ito_interlude:
     Вот, например, она.
     """
 
-    show cg cg36_1 with dissolve
+    scene cg-36_1 with dissolve
 
     narrator """
 
@@ -36,7 +36,7 @@ label chapter4_5_kai_ito_interlude:
     Но кто мне поверит? Да и некому говорить...
     """
 
-    scene bg chapter_4-5_kaii-flashback with fade
+    scene bg chapter_4-5_kai-flashback with fade
 
     narrator """
 
@@ -45,7 +45,7 @@ label chapter4_5_kai_ito_interlude:
     Учительница, Акари-сенсей, что-то монотонно рассказывала про социальные структуры насекомых. Скука.
     """
 
-    show cg cg36_2 with fade
+    scene cg-36_2 with fade
 
 
     narrator """
@@ -58,7 +58,7 @@ label chapter4_5_kai_ito_interlude:
     Внезапно я чувствую на себе взгляд. Ледяной, пронизывающий. 
     """
 
-    show cg cg36_3 with dissolve
+    scene featured_cg-36_3 with dissolve
 
     narrator """
     Лили. Она смотрит прямо на меня. Не на меня, а в меня.
@@ -68,7 +68,7 @@ label chapter4_5_kai_ito_interlude:
     В них нет ни тепла, ни любопытства. Только холодный, оценивающий взгляд сканера.
     """
 
-    scene bg chapter_4-5_kaii-flashback with Fade(0.125, 0.125, 0.125)
+    scene bg chapter_4-5_kai-flashback with Fade(0.125, 0.125, 0.125)
 
     narrator """
     Я резко отворачиваюсь, сердце колотится.
@@ -118,7 +118,7 @@ label chapter4_5_kai_ito_interlude:
     
 
     
-    scene bg chapter_4-5_kaii-flashback-sunset with Dissolve(5.0)
+    scene bg chapter_4-5_kai-flashback-sunset with Dissolve(5.0)
 
     narrator "Прошел час. Пара закончилась. Звонок на перемену прозвучал, и все высыпали из класса. Когда все начали выходить, она подозвала меня."
 

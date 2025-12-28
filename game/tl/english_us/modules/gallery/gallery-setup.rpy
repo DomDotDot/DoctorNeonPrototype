@@ -322,3 +322,11 @@ translate english_us strings:
     old "Улей"
     new "Hive"
 
+# TODO: Translation updated at 2025-12-28 02:32
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-setup.rpy:194
+    old "Ничто"
+    new "Nothingess"
+
