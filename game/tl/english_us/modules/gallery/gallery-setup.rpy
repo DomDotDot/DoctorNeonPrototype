@@ -328,5 +328,5 @@ translate english_us strings:
 
     # game/modules/gallery/gallery-setup.rpy:194
     old "Ничто"
-    new ""
+    new "Nothingess"
 
