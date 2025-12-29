@@ -98,7 +98,7 @@ screen gallery_view(item):
         button:
             xfill True
             yfill True
-            action If(idx < len(unlocked_imgs) - 1, SetScreenVariable("idx", idx + 1), Return())
+            action If(idx < len(unlocked_imgs) - 1, SetScreenVariable("idx", idx + 1), ShowMenu("gallery"))
 
         # Оверлей с текстом
         if item.name or current_desc:
@@ -144,9 +144,9 @@ screen gallery_view(item):
             text_color "#fff"
             text_outlines [(2, "#000")]
             align (0.98, 0.02)
-            action Return()
+            action ShowMenu("gallery")
     
     else:
-        textbutton _("Ошибка: Нет картинок") action Return() align (0.5, 0.5)
+        textbutton _("Ошибка: Нет картинок") action ShowMenu("gallery") align (0.5, 0.5)
         
-    key "game_menu" action Return() # Правая кнопка мыши / Esc закрывает просмотр
+    key "game_menu" action ShowMenu("gallery")
