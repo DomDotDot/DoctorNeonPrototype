@@ -52,7 +52,7 @@ init -999 python:
         {
             "id": "sfx",
             "file": "sfx.zip", 
-            "version": "v0.6.0", 
+            "version": "v0.6.2", 
             "folder": "audio",
             "check_file": "audio/sfx/Chair_Hit.opus",
             "title": _("SFX-Эффекты"),
