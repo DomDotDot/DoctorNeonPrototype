@@ -104,6 +104,8 @@ init python:
         persistent.chapter_4_unlocked = True
         persistent.chapter_4_5a_unlocked = True
         persistent.chapter_4_5b_unlocked = True
+        persistent.unlock_gallery = True
+        
         renpy.notify("Весь контент разблокирован.")
         renpy.restart_interaction()
         
