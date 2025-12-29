@@ -124,7 +124,7 @@ translate english_us chapter4_5_concert_start_d51a7dce:
 translate english_us chapter4_5_concert_start_2b932813:
 
     # "Охранник" "Билеты и ID, пожалуйста. Личные вещи на сканер."
-    "Охранник" "Tickets and ID, please. Personal items on the scanner."
+    "Guard" "Tickets and ID, please. Personal items on the scanner."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
 translate english_us chapter4_5_concert_start_6ded5656:
@@ -274,7 +274,7 @@ translate english_us chapter4_5_concert_start_8bfb19ce:
 translate english_us chapter4_5_concert_start_dfc85e90:
 
     # narrator "В дальнем конце возвышалась сцена. Она была темной, но я видела, как в полумраке движутся фигуры, настраивая что-то."
-    narrator "В дальнем конце возвышалась сцена. Она была темной, но я видела, как в полумраке движутся фигуры, настраивая что-то."
+    narrator "At the far end stood the stage. It was dark, but I could see figures moving in the dim light, setting something up."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:134
 translate english_us chapter4_5_concert_start_70ce171d:
@@ -448,7 +448,7 @@ translate english_us chapter4_5_concert_start_364ab9e6:
 translate english_us chapter4_5_concert_start_57ea7d18:
 
     # narrator "Но чем дольше я смотрела на этот качающийся розовый маятник толпы, тем сильнее мне казалось, что этот гул — это и есть тот сигнал, который управляет их руками…"
-    narrator "Но чем дольше я смотрела на этот качающийся розовый маятник толпы, тем сильнее мне казалось, что этот гул — это и есть тот сигнал, который управляет их руками…"
+    narrator "But the longer I watched that swinging pink pendulum of the crowd, the more it seemed to me that this hum was the very signal controlling their hands..."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:212
 translate english_us chapter4_5_concert_start_cccea385:
@@ -592,7 +592,7 @@ translate english_us chapter4_5_concert_start_83eac0ef:
 translate english_us chapter4_5_concert_start_351f170a:
 
     # seraphina "А всех остальных — увидимся на Комик-Коне Веритаса в следующем месяце, я готовлю для вас кое-что невероятное! Помните, ваше присутствие — это ваша любовь! Люблю вас!"
-    seraphina "А всех остальных — увидимся на Комик-Коне Веритаса в следующем месяце, я готовлю для вас кое-что невероятное! Помните, ваше присутствие — это ваша любовь! Люблю вас!"
+    seraphina ""
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:305
 translate english_us chapter4_5_concert_start_41519bef:

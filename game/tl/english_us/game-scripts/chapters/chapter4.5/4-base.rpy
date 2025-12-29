@@ -190,7 +190,7 @@ translate english_us chapter4_5_argon_rescue_69c3a808:
 translate english_us chapter4_5_argon_rescue_5fea4e4b:
 
     # narrator "Он замолчал вспоминая."
-    narrator "Он замолчал вспоминая."
+    narrator "He fell silent, recalling something."
 
 # game/game-scripts/chapters/chapter4.5/4-base.rpy:87
 translate english_us chapter4_5_argon_rescue_0e7d9292:

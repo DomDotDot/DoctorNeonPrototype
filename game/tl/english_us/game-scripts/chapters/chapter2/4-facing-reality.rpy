@@ -198,7 +198,7 @@ translate english_us chapter2_act3_facing_reality_77888c2c:
 translate english_us chapter2_act3_facing_reality_b86e3a46:
 
     # "Диктор" "(Голос из телевизора) ...повторяем, полиция кантона продолжает поиски доктора Неон, подозреваемой в жестоком нападении на коллегу в научном комплексе 'Гелиос'..."
-    "Диктор" "(Voice from TV) ...we repeat, the cantonal police are continuing their search for Dr. Neon, suspected in the violent assault of a colleague at the 'Helios' research facility..."
+    "Male News Anchor" "(Voice from TV) ...we repeat, the cantonal police are continuing their search for Dr. Neon, suspected in the violent assault of a colleague at the 'Helios' research facility..."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:83
 translate english_us chapter2_act3_facing_reality_eca04620:
@@ -216,13 +216,13 @@ translate english_us chapter2_act3_facing_reality_d797e51f:
 translate english_us chapter2_act3_facing_reality_10695c94:
 
     # "Диктор" "...также ведутся поиски ее возможной сообщницы, Александры Вайт, сотрудницы архивного отдела, которая пропала с территории комплекса в то же время."
-    "Диктор" "...a search is also underway for her possible accomplice, Alexandra White, an employee of the archival department, who disappeared from the facility at the same time."
+    "Male News Anchor" "...a search is also underway for her possible accomplice, Alexandra White, an employee of the archival department, who disappeared from the facility at the same time."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:88
 translate english_us chapter2_act3_facing_reality_250c948d:
 
     # "Диктор" "Последний раз ее видели, когда она... (голос диктора на мгновение запинается) ...оказывала сопротивление службе безопасности."
-    "Диктор" "She was last seen... (the announcer's voice falters for a moment) ...resisting security personnel."
+    "Male News Anchor" "She was last seen... (the announcer's voice falters for a moment) ...resisting security personnel."
 
 # game/game-scripts/chapters/chapter2/4-facing-reality.rpy:95
 translate english_us chapter2_act3_facing_reality_e6bf3679:

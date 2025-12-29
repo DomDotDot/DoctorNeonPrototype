@@ -34,13 +34,13 @@ translate english_us chapter4_5_dorm_way_93c09740:
 translate english_us chapter4_5_dorm_way_d1a19f6e:
 
     # "Директор Акад." "Кай был одним из наших лучших учеников. Отличник, душа компании, у него было множество друзей. Мы все шокированы этой трагедией."
-    "Директор Акад." "Кай был одним из наших лучших учеников. Отличник, душа компании, у него было множество друзей. Мы все шокированы этой трагедией."
+    "Aсad. Director" "Kai was one of our best students. An honors student, the life of the party, he had many friends. We are all shocked by this tragedy."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:20
 translate english_us chapter4_5_dorm_way_cd613d59:
 
     # "Директор Акад." "Вероятно, это связано с какими-то личными, семейными проблемами, о которых мы не знали..."
-    "Директор Акад." "It is likely related to some personal, family issues we were unaware of..."
+    "Aсad. Director" "It is likely related to some personal, family issues we were unaware of..."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:28
 translate english_us chapter4_5_dorm_way_2b65e61c:
@@ -130,7 +130,7 @@ translate english_us chapter4_5_dorm_investigation_e811460b:
 translate english_us chapter4_5_dorm_investigation_46afde17:
 
     # "Консьержка" "Простите... вы... что-то хотели?"
-    "Консьержка" "Excuse me... did you... want something?"
+    "Concierge" "Excuse me... did you... want something?"
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:77
 translate english_us chapter4_5_dorm_investigation_fdbfca0b:
@@ -142,7 +142,7 @@ translate english_us chapter4_5_dorm_investigation_fdbfca0b:
 translate english_us chapter4_5_dorm_investigation_8f94f3ac:
 
     # "Консьержка" "Студенты... Да... конечно. Но сейчас уже двадцать три часа ночи. Комендантский час..."
-    "Консьержка" "Students... Yes... of course. But it's already twenty-three hundred hours. Curfew..."
+    "Concierge" "Students... Yes... of course. But it's already twenty-three hundred hours. Curfew..."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:81
 translate english_us chapter4_5_dorm_investigation_da7cb6b2:
@@ -160,7 +160,7 @@ translate english_us chapter4_5_dorm_investigation_ed2e2476:
 translate english_us chapter4_5_dorm_investigation_d36437c9:
 
     # "Консьержка" "А, да. Точно. Пять вечера. Простите, заработалась. Проходите."
-    "Консьержка" "Ah, yes. Right. Five PM. Sorry, overworked. Go ahead."
+    "Concierge" "Ah, yes. Right. Five PM. Sorry, overworked. Go ahead."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:87
 translate english_us chapter4_5_dorm_investigation_0af13b35:
@@ -670,7 +670,7 @@ translate english_us chapter4_5_dorm_investigation_f7953814:
 translate english_us chapter4_5_dorm_investigation_d7b5b6db:
 
     # narrator "Я отшатнулась, зажимая рот рукой. Меня чуть не вырвало."
-    narrator "Я отшатнулась, зажимая рот рукой. Меня чуть не вырвало."
+    narrator "I recoiled, clamping my hand over my mouth. I almost threw up."
 
 # game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:300
 translate english_us chapter4_5_dorm_investigation_6bc5d78f:
