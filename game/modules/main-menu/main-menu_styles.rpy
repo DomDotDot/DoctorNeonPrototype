@@ -28,6 +28,9 @@ style main_menu_button:
     xmargin 0
     ymargin 0
 
+    hover_sound "audio/sfx/cursor-hover.mp3" 
+    activate_sound "audio/sfx/cursor-hover.mp3"
+
 # Стили для саб-меню
 style sub_menu_frame:
     background Frame("gui/frame.png", 25, 25, tile=True)
