@@ -330,3 +330,166 @@ translate english_us strings:
     old "Ничто"
     new "Nothingess"
 
+# TODO: Translation updated at 2025-12-29 15:40
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-setup.rpy:254
+    old "Королева Школ"
+    new "Queen B"
+
+    # game/modules/gallery/gallery-setup.rpy:259
+    old "Твоя миссия..."
+    new "Today's mission..."
+
+    # game/modules/gallery/gallery-setup.rpy:259
+    old "Форма Мертвеца"
+    new "Dead's girl Legacy"
+
+    # game/modules/gallery/gallery-setup.rpy:266
+    old "Академия Веритас"
+    new "Veritas Academy"
+
+    # game/modules/gallery/gallery-setup.rpy:266
+    old "Всем привет. Моё имя - Неон Судзуки"
+    new "Hello everyone. My name is Neon Suzuki"
+
+    # game/modules/gallery/gallery-setup.rpy:266
+    old "А какой твой любимый десерт?"
+    new "What's your favorite dessert?"
+
+    # game/modules/gallery/gallery-setup.rpy:266
+    old "Не обращай внимания, она со всеми так."
+    new "Don't mind Lily, she's like that with everyone."
+
+    # game/modules/gallery/gallery-setup.rpy:274
+    old "Спасение"
+    new "Salvation"
+
+    # game/modules/gallery/gallery-setup.rpy:280
+    old "Взгляд Молящий"
+    new "The Suppliant's Gaze"
+
+    # game/modules/gallery/gallery-setup.rpy:285
+    old "Актриса чужой Жизни"
+    new "Actress of someone's Life"
+
+    # game/modules/gallery/gallery-setup.rpy:285
+    old "Сделайте мне одолжение..."
+    new "You know what? Do me a favor..."
+
+    # game/modules/gallery/gallery-setup.rpy:285
+    old "Застрелите друг друга~"
+    new "Shoot each other~"
+
+    # game/modules/gallery/gallery-setup.rpy:292
+    old "Полный Амбициями и Пустой Сосуд"
+    new "Full of Ambitions and Empty Vessel"
+
+    # game/modules/gallery/gallery-setup.rpy:300
+    old "Дочь Луны"
+    new "Daughter of the Moon"
+
+    # game/modules/gallery/gallery-setup.rpy:300
+    old "Слезно заклинала до рассвета Луну. У нее просила повстречаться с милым, что не бросит её одну."
+    new "Invoked the moon to sunrise. And crying she begged upon that day's dawn, to wed a Romani man"
+
+    # game/modules/gallery/gallery-setup.rpy:300
+    old "Да, получишь мужа ты, цыганка, что наполнит жизнь любовью яркой, но взамен же только первого ребенка отдаешь мне ты."
+    new "You shall have your man, dark-skinned Said the full moon in the sky. But in exchange, I want The first child that you shall bear with him."
+
+    # game/modules/gallery/gallery-setup.rpy:300
+    old "Буду я, качая, в нем души не чаять», - Говорила Луна."
+    new "For one who is willing to sacrifice their child. Not be alone, would have loved them little"
+
+    # game/modules/gallery/gallery-setup.rpy:300
+    old "Не находишь любви ты на своем пути. Ах, Луна золотая, что же делать будешь с ним."
+    new "Moon, you wish to be a mother. And can't find a love that'd make you a woman"
+
+    # game/modules/gallery/gallery-setup.rpy:300
+    old "Проклятая внешность. Он не мой, конечно! - Гнева полны очи."
+    new "Whose child is this? You've played me well. And to death he stabbed her"
+
+    # game/modules/gallery/gallery-setup.rpy:310
+    old "Огонь, что во мне."
+    new "Flame that's within me."
+
+    # game/modules/gallery/gallery-setup.rpy:310
+    old "Она была права. Всё это время. Такова моя природа. Изначально"
+    new "She was right. All this time. This is my nature. From the start"
+
+    # game/modules/gallery/gallery-setup.rpy:310
+    old "Взгляд Ребёнка"
+    new "The Child's Gaze"
+
+    # game/modules/gallery/gallery-setup.rpy:320
+    old "Кража Личности"
+    new "Identity Fraud"
+
+    # game/modules/gallery/gallery-setup.rpy:324
+    old "Психоз"
+    new "Psychosis"
+
+    # game/modules/gallery/gallery-setup.rpy:324
+    old "Мастер в Гляделки"
+    new "The Master of Stares"
+
+    # game/modules/gallery/gallery-setup.rpy:324
+    old "Промокший Ангел"
+    new "The Soaked Angel"
+
+    # game/modules/gallery/gallery-setup.rpy:330
+    old "Сверкание во Тьме"
+    new "Shimmer in the Dark"
+
+    # game/modules/gallery/gallery-setup.rpy:335
+    old "Выстрел во Тьме"
+    new "Bang in the Dark"
+
+    # game/modules/gallery/gallery-setup.rpy:339
+    old "Падший Ангел"
+    new "The Fallen Angel"
+
+    # game/modules/gallery/gallery-setup.rpy:346
+    old "Увядший Цветок"
+    new "Withered Flower"
+
+    # game/modules/gallery/gallery-setup.rpy:354
+    old "Щит без Меча"
+    new "Shield Without a Sword"
+
+    # game/modules/gallery/gallery-setup.rpy:354
+    old "Стань моим Щитом~"
+    new "Become my Shield~"
+
+    # game/modules/gallery/gallery-setup.rpy:362
+    old "Буйное Увлечение"
+    new "Artistic Sophistication"
+
+    # game/modules/gallery/gallery-setup.rpy:368
+    old "Замысловатые Устремления"
+    new "Sophisticated Aspiration"
+
+    # game/modules/gallery/gallery-setup.rpy:373
+    old "Заколка чужой Души"
+    new "Pin of a Someone's Soul"
+
+    # game/modules/gallery/gallery-setup.rpy:385
+    old "Cофиты"
+    new "Spotlights"
+
+    # game/modules/gallery/gallery-setup.rpy:385
+    old "Это... я врала зеркалам..."
+    new "it was me... that lied to the mirrors..."
+
+    # game/modules/gallery/gallery-setup.rpy:391
+    old "Выброшенный Мусор"
+    new "Useless Junk"
+
+    # game/modules/gallery/gallery-setup.rpy:395
+    old "Веритас"
+    new "Veritas"
+
+    # game/modules/gallery/gallery-setup.rpy:399
+    old "Королева Пчёл"
+    new "Queen Bee"

@@ -1443,7 +1443,7 @@ translate english_us chapter4_5_finale_658ba589:
 translate english_us chapter4_5_finale_7c832020:
 
     # nari "{=thoughts}Ах... нет... это я... врала зеркалам..."
-    nari "{=thoughts}Ah... no... it was me... I lied to the mirrors..."
+    nari "{=thoughts}Ah... no... it was me... that lied to the mirrors..."
 
 # game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:680
 translate english_us chapter4_5_finale_69449fe1:
