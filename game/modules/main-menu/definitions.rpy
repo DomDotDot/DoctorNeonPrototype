@@ -11,6 +11,10 @@ init offset = -1 # Загружаем это до остальных скрип�
 default persistent.main_menu_level = 0
 default persistent.sensitive_mode = False
 default persistent.ai_sensitive_mode = False
+    
+default persistent.font_size_large = False
+
+  
 
 # --- МУЗЫКА ---
 define main_menu_music_default = "audio/music/BGM/NightMare.opus"

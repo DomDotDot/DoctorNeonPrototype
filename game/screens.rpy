@@ -108,7 +108,11 @@ screen say(who, what):
                 style "namebox"
                 text who id "who"
 
-        text what id "what"
+        text what id "what":
+            if persistent.font_size_large:
+                size 40
+            else:
+                size 33
 
 
     ## Если есть боковое изображение ("голова"), показывает её поверх текста.
@@ -1289,17 +1293,25 @@ screen notify(message):
     style_prefix "notify"
 
     frame at notify_appear:
-        text "[message!tq]"
+        background Frame("gui/notify.png", 10, 10)
+        padding (20, 10)
+        xalign 0.98 # Справа
+        yalign 0.05 # Сверху
+        
+        hbox:
+            spacing 10
+            # Иконка информации (восклицательный знак или "i")
+            add "gui/icon_info.png" yalign 0.5 size (24, 24) 
+            text "[message!tq]" size 22 color "#fff" yalign 0.5
 
     timer 3.25 action Hide('notify')
 
-
 transform notify_appear:
     on show:
-        alpha 0
-        linear .25 alpha 1.0
+        alpha 0.0 xoffset 50
+        easein 0.5 alpha 1.0 xoffset 0
     on hide:
-        linear .5 alpha 0.0
+        easeout 0.5 alpha 0.0 xoffset 50
 
 
 style notify_frame is empty
