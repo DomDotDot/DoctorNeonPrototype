@@ -23,7 +23,7 @@ label chapter4_5_seraphina_flashback:
         Я сыграю ей. Я покажу ей, что стала лучше. Теперь она меня заметит. Теперь она меня полюбит.
     """
     
-    show lily coat admirationpng at left with dissolve
+    show lily coat admiration at left with dissolve
     show seraphina young worried at right with dissolve
 
     narrator """
