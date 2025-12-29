@@ -15,6 +15,13 @@ init python:
     def add_chapter(label_start, title, subtitle, image, condition_var):
         chapter_items.append(ChapterItem(label_start, title, subtitle, image, condition_var))
 
+    def GetMostRecentSave():
+        # Находим самый свежий сейв (включая авто)
+        newest = renpy.newest_slot()
+        if newest:
+            return newest
+        return None
+
 # Инициализация списка глав
 init 1 python:
     chapter_items = []
@@ -47,13 +54,17 @@ screen play_menu():
             label _("Режим игры") style "sub_menu_label"
 
             textbutton _("Новая игра") action Start() style "sub_menu_button"
-            textbutton _("Продолжить") action QuickLoad() style "sub_menu_button"
+
+            if renpy.newest_slot():
+                textbutton _("Продолжить") action FileLoad(renpy.newest_slot()) style "sub_menu_button"
+            else:
+                textbutton _("Продолжить") action None style "sub_menu_button" text_color "#888"
+
             textbutton _("Выбор сохранения") action ShowMenu("load") style "sub_menu_button"
             textbutton _("Выбор глав") action ShowMenu("chapter_select") style "sub_menu_button"
 
             null height 30
             textbutton _("Назад") action ShowMenu("main_menu") style "sub_menu_button"
-
 
 ################################################################################
 ## Экран Выбора Глав

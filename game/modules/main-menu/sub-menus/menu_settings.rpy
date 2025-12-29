@@ -27,6 +27,8 @@ screen settings_menu():
             else:
                 textbutton _("DLC Контент (Только ПК)") action None style "sub_menu_button" text_color "#888"
 
+            textbutton _("Управление данными") action ShowMenu("data_settings_screen") style "sub_menu_button" text_color "#a11919"
+
             null height 30
             textbutton _("Назад") action ShowMenu("main_menu") style "sub_menu_button"
 
@@ -74,13 +76,18 @@ screen graphics_settings_screen():
                     style_prefix "settings_check"
                     spacing 15
 
-                    label _("Контент")
+                    label _("Доступность")
                     textbutton _("Включение Чувствительнного контента (18+)"):
                         action ToggleField(persistent, "sensitive_mode")
                         tooltip _("Включает отображение откровенных сцен.")
                     
                     textbutton _("ИИ Чувствительность"):
                         action ToggleField(persistent, "ai_sensitive_mode")
+
+                    textbutton _("Крупный шрифт"):
+                        action ToggleField(persistent, "font_size_large")
+
+                    
 
             null yfill True
             textbutton _("Назад") action ShowMenu("settings_menu") style "settings_back_button"
