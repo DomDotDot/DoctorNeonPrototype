@@ -1122,5 +1122,5 @@ translate english_us chapter4_5_awakening_and_finale_550dd4cb:
 translate english_us chapter4_5_awakening_and_finale_45bf63cb:
 
     # seraphina "Я... я помогу тебе!"
-    seraphina ""
+    seraphina "I... I'll help you!"
 

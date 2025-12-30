@@ -360,7 +360,7 @@ translate english_us chapter1_lab_noon_4023ffa9:
 translate english_us chapter1_lab_noon_b8a42501:
 
     # narrator "За столиком у окна она увидела знакомую фигуру – Ханс, охранник из старой гвардии, который работал здесь, кажется, с самого основания комплекса."
-    narrator ""
+    narrator "At a table by the window, she saw a familiar figure, Hans, an old-guard security guard who seemed to have worked here since the facility was built. Neon walked over to the coffee machine as it noisily prepared her a double espresso."
 
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:75
 translate english_us chapter1_lab_noon_6c8966bc:
