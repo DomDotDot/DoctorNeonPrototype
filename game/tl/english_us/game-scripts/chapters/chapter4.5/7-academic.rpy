@@ -520,7 +520,7 @@ translate english_us chapter4_5_classroom_intro_76fb1993:
 translate english_us chapter4_5_classroom_intro_aa831f0e:
 
     # narrator "У доски стояла молодая, красивая женщина с теплой улыбкой. Акари-сенсей."
-    narrator "A young, beautiful woman with a warm smile stood at the blackboard. Akari-sensei."
+    narrator "A young, beautiful woman with a warm smile stood at the whiteboard. Akari-sensei."
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:240
 translate english_us chapter4_5_classroom_intro_d309a1e6:
