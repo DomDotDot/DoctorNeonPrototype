@@ -786,3 +786,23 @@ translate english_us chapter4_5_concert_start_5b89c116:
     # narrator "Я встала с кресла, с печальным выдохом. Моя часть этого шоу закончилась. Начиналась ее."
     narrator "I got up from the seat with a sad sigh. My part of this show was over. Hers was just beginning."
 
+# TODO: Translation updated at 2025-12-30 04:46
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
+translate english_us chapter4_5_concert_start_9e67fc34:
+
+    # seraphina "А всем остальным — увидимся на Комик-Коне Веритаса 2042 в следующем месяце!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
+translate english_us chapter4_5_concert_start_09df2e90:
+
+    # seraphina "Я готовлю для вас кое-что невероятное!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
+translate english_us chapter4_5_concert_start_269381df:
+
+    # seraphina "Помните, ваше присутствие — это ваша любовь! Люблю вас!"
+    seraphina ""
+
