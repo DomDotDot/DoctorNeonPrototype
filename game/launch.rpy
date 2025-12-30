@@ -30,11 +30,6 @@ label splashscreen:
     # Сначала проверяем обновления (если у вас есть эта функция)
     if hasattr(store, 'start_update_check'):
         $ start_update_check()
-    
-    # Затем проверяем DLC. 
-    # Это самое логичное место: игрок еще не видит логотипов, 
-    # и если нужно качать файлы - он увидит меню загрузки здесь.
-    call dlc_check_sequence from _call_dlc_check_sequence
 
     # Небольшая пауза после проверок перед началом шоу (чтобы не было резких скачков)
     $ renpy.pause(0.5, hard=True)
@@ -106,11 +101,20 @@ label splashscreen:
         # 4.2 Предупреждение о контенте (Оставьте только один вариант, который рабочий)
         # Обычно это экран с кнопкой "Я понял / Продолжить"
         call screen content_warning_screen with dissolve
+
+        call dlc_check_sequence from _call_dlc_check_sequence
         
         # 4.3 Настройки доступности (размер текста и т.д., если есть)
         # call screen accessibility_settings 
 
         # Фиксируем, что первичная настройка завершена
         $ persistent.firstlaunch = False
+
+    else:
+
+        # Затем проверяем DLC. 
+        # Это самое логичное место: игрок еще не видит логотипов, 
+        # и если нужно качать файлы - он увидит меню загрузки здесь.
+        call dlc_check_sequence from _call_dlc_check_sequence
 
     return
