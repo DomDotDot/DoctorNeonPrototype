@@ -528,7 +528,7 @@ translate english_us chapter1_lab_night_22af97bc:
 translate english_us chapter1_lab_night_964f23ec:
 
     # neon "Марк. Я же сказала, что занята. Мне не нужна помощь с отчетами. Иди отдыхать."
-    neon "Marc. I told you I'm busy. I don't need help with the reports. Go get some rest."
+    neon "Mark I told you I'm busy. I don't need help with the reports. Go get some rest."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:55
 translate english_us chapter1_lab_night_2439a9e2:
@@ -576,7 +576,7 @@ translate english_us chapter1_lab_night_99920e34:
 translate english_us chapter1_lab_night_c86b1adf:
 
     # neon neutral "Марк, это мило, но..."
-    neon neutral "Marc, that's sweet, but..."
+    neon neutral "Mark that's sweet, but..."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:75
 translate english_us chapter1_lab_night_78cd9afc:
@@ -612,7 +612,7 @@ translate english_us chapter1_lab_night_56ff6c48:
 translate english_us chapter1_lab_night_e01224b6:
 
     # neon shy "Ладно. Ты не бесполезен, Марк. Просто... сейчас сложный этап."
-    neon shy "Fine. You're not useless, Marc. It's just... a critical phase right now."
+    neon shy "Fine. You're not useless, Mark. It's just... a critical phase right now."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:91
 translate english_us chapter1_lab_night_d5cd97fb:
@@ -936,7 +936,7 @@ translate english_us chapter1_lab_night_daa62836:
 translate english_us chapter1_lab_night_6339c77e:
 
     # neon "{=whisper}Марк... этот кофе... слишком... горячий...{/whisper}"
-    neon "{=whisper}Marc... this coffee... it's too... hot...{/whisper}"
+    neon "{=whisper}Mark... this coffee... it's too... hot...{/whisper}"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:302
 translate english_us chapter1_lab_night_cc58d4c3:
