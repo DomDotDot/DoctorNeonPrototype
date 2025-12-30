@@ -73,12 +73,6 @@ translate english_us chapter4_5_concert_end_f43d73aa:
     narrator "She leaned against the door, hand to her forehead."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:45
-translate english_us chapter4_5_concert_end_e51fa80f:
-
-    # narrator "Ее образ \"идеального айдола\" испарился, сменившись преувеличенной, но усталостью."
-    narrator "Her \"perfect idol\" persona evaporated, replaced by exaggerated but visible exhaustion."
-
-# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:45
 translate english_us chapter4_5_concert_end_47330ab8:
 
     # narrator "Она подбежала ко мне и, взяв мои руки, заглянула в глаза с виноватой улыбкой."

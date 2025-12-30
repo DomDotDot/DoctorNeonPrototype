@@ -36,11 +36,6 @@ translate english_us chapter4_5_concert_mid_41aaeb76:
     # narrator "Внутри комплекса было тихо. Звуки моих шагов гулко отдавались в пустом пространстве."
     narrator "Inside the complex, it was quiet. The sound of my footsteps echoed hollowly in the empty space."
 
-# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
-translate english_us chapter4_5_concert_mid_2ab47ed2:
-
-    # narrator "Я прошла по указателям \"Event Hall C\". Здесь было несколько девушек, все они шли в том же направлении, что и я, возбужденно перешептываясь."
-    narrator "I followed the signs to \"Event Hall C\". There were a few girls here, all walking in the same direction as me, whispering excitedly."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
 translate english_us chapter4_5_concert_mid_9a9ab0b1:

@@ -1434,11 +1434,6 @@ translate english_us chapter4_5_lily_studio_b8eedfe8:
     # lily "'Я дам тебе приют и дом,"
     lily "'I'll give you shelter, give you home,"
 
-# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:630
-translate english_us chapter4_5_lily_studio_a720cc2e:
-
-    # lily "И будем мы сиять вдвоем~\""
-    lily "And we will shine, never alone~\""
 
 # game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:638
 translate english_us chapter4_5_lily_studio_a99853d2:
@@ -1584,11 +1579,6 @@ translate english_us chapter4_5_lily_studio_f7fc429b:
     # narrator "Она закрыла глаза, жадно втягивая воздух, ожидая того самого тепла. Того самого покоя."
     narrator "She closed her eyes, greedily sucking in air, waiting for that same warmth. That same peace."
 
-# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:700
-translate english_us chapter4_5_lily_studio_f5967c4d:
-
-    # narrator "Я чувствовала, как дрожат её руки. Она пыталась \"включить\" меня, как сломанный прибор."
-    narrator "I felt her hands shaking. She was trying to \"turn me on\" like a broken appliance."
 
 # game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:700
 translate english_us chapter4_5_lily_studio_a5aa9616:

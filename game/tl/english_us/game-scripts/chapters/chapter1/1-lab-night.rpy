@@ -530,11 +530,6 @@ translate english_us chapter1_lab_night_964f23ec:
     # neon "Марк. Я же сказала, что занята. Мне не нужна помощь с отчетами. Иди отдыхать."
     neon "Mark I told you I'm busy. I don't need help with the reports. Go get some rest."
 
-# game/game-scripts/chapters/chapter1/1-lab-night.rpy:55
-translate english_us chapter1_lab_night_2439a9e2:
-
-    # marcus "Я знаю, знаю. Я не за этим. Вы здесь уже которую ночь подряд. Совсем без сна.\""
-    marcus "I know, I know. That's not why I'm here. You've been here for nights on end. No sleep at all.\""
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:55
 translate english_us chapter1_lab_night_09c848c8:

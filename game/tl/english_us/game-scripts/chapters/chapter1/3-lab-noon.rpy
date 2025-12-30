@@ -162,11 +162,6 @@ translate english_us chapter1_lab_noon_df9cb15e:
     # narrator "Людей было больше, чем она предполагала – видимо, не одна она решила сделать перерыв перед дневной сменой или после утренней."
     narrator "There were more people than she anticipated—apparently, she wasn't the only one taking a break before the day shift or after the morning one."
 
-# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:75
-translate english_us chapter1_lab_noon_01696d25:
-
-    # narrator "За столиком у окна она увидела знакомую фигуру – Ханс, охранник из старой гвардии, который работал здесь, кажется, с самого основания комплекса. narrator \"Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо."
-    narrator "At a table by the window, she saw a familiar figure—Hans, an old-guard security guard who seemed to have worked here since the facility was built. Neon walked over to the coffee machine as it noisily prepared her a double espresso."
 
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:90
 translate english_us chapter1_lab_noon_6aa413a8:

@@ -390,11 +390,6 @@ translate english_us chapter4_5_awakening_and_finale_9bf3d2ad:
     # seraphina "Ты ранена?"
     seraphina "Are you hurt?"
 
-# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:183
-translate english_us chapter4_5_awakening_and_finale_b17f149e:
-
-    # seraphina "Я... я помогу тебе!\""
-    seraphina "I... I'll help you!\""
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:191
 translate english_us chapter4_5_awakening_and_finale_08f1bb05:

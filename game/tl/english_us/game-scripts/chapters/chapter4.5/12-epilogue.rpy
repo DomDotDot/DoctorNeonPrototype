@@ -306,11 +306,6 @@ translate english_us chapter4_5_epilogue_167e48c5:
     # meryl "Но она была лишь одним из элементов. Есть и другие. И, кажется, вы — одна из немногих Элементов, способных стабилизировать эту реакцию"
     meryl "But she was just one of the elements. There are others. And it seems you are one of the few Elements capable of stabilizing this reaction."
 
-# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:127
-translate english_us chapter4_5_epilogue_1097d4a6:
-
-    # meryl "Не хотите... поработать на нас? Найти остальные элементы?\""
-    meryl "Would you... like to work for us? Find the other elements?\""
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:127
 translate english_us chapter4_5_epilogue_de99f25f:

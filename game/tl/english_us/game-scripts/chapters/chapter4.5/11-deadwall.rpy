@@ -1145,11 +1145,6 @@ translate english_us chapter4_5_finale_afb31d47:
     # neon "Ты создала его из воздуха. Из своей собственной веры в то, что ты должна быть ею."
     neon "You created it out of thin air. From your own belief that you should be her."
 
-# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:511
-translate english_us chapter4_5_finale_165d6e5b:
-
-    # neon "Твоя сила — это не \"Зависть\". Зависть — это топливо. Твоя сила — это Иллюзия."
-    neon "Your power isn't \"Envy\". Envy is the fuel. Your power is Illusion."
 
 # game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:511
 translate english_us chapter4_5_finale_779da6f9:
