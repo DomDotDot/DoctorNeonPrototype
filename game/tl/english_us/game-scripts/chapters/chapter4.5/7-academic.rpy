@@ -826,7 +826,7 @@ translate english_us chapter4_5_classroom_intro_1035b278:
 translate english_us chapter4_5_classroom_intro_0c417703:
 
     # "Мика Китамура" "Д-да, сенсей... Эх..."
-    "Мика Китамура" "Y-yes, sensei... Sigh..."
+    "Mika Kitamura" "Y-yes, sensei... Sigh..."
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:389
 translate english_us chapter4_5_classroom_intro_ca97c2a7:
