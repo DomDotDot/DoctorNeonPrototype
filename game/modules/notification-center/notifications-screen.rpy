@@ -13,7 +13,7 @@ screen notification_center():
             # Заголовок
             hbox:
                 xalign 0.5
-                text "Центр уведомлений" size 40 bold True
+                text _("Центр уведомлений") size 40 bold True
             
             null height 20
             
@@ -36,25 +36,25 @@ screen notification_center():
                             vbox:
                                 spacing 10
                                 hbox:
-                                    text "Доступна новая версия!" color "#ffcc00" bold True size 22
+                                    text _("Доступна новая версия!") color "#ffcc00" bold True size 22
                                     if persistent.ignored_version == new_version_tag:
                                         # Пометка, что это скрытое обновление
                                         text " (Скрыто)" color "#888" size 18 yalign 1.0
                                 
-                                text "Версия: [new_version_tag]" size 18
+                                text _("Версия: [new_version_tag]") size 18
                                 
                                 hbox:
                                     spacing 20
-                                    textbutton "Скачать (Itch.io)" action OpenURL(LINK_ITCH) style "button" text_size 18
-                                    textbutton "Скачать (GitHub)" action OpenURL(LINK_GITHUB) style "button" text_size 18
+                                    textbutton _("Скачать (Itch.io)") action OpenURL(LINK_ITCH) style "button" text_size 18
+                                    textbutton _("Скачать (GitHub)") action OpenURL(LINK_GITHUB) style "button" text_size 18
                                     
                                     # Кнопка "Снять игнор" (Опционально)
                                     if persistent.ignored_version == new_version_tag:
-                                        textbutton "Включить напоминание" action SetField(persistent, "ignored_version", None) text_size 16 text_color "#aaa" yalign 0.5
+                                        textbutton _("Включить напоминание") action SetField(persistent, "ignored_version", None) text_size 16 text_color "#aaa" yalign 0.5
 
                     # 2. ЗАГЛУШКА, ЕСЛИ ПУСТО
                     else:
-                        text "Нет новых уведомлений." color "#888" xalign 0.5 yalign 0.5
+                        text _("Нет новых уведомлений.") color "#888" xalign 0.5 yalign 0.5
             
             # Кнопка Назад
-            textbutton "Вернуться" action Return() xalign 0.5 yoffset 20
+            textbutton _("Вернуться") action Return() xalign 0.5 yoffset 20
