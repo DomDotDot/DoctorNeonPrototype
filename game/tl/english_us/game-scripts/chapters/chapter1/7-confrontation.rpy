@@ -728,3 +728,11 @@ translate english_us confrontation_path_56fcd7a7:
     # narrator "Она схватилась за спинку стула."
     narrator "She gripped the back of the chair."
     
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:35
+translate english_us confrontation_path_93e223cc:
+
+    # narrator "Но Маркус сделал шаг в сторону, перекрывая ей путь своим телом. Он был выше, массивнее. Он нависал над ней."
+    narrator "But Marcus stepped sideways, blocking her path with his body. He was taller, heavier. He loomed over her."
+

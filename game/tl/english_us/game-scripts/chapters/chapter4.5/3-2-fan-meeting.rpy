@@ -774,3 +774,11 @@ translate english_us chapter4_5_concert_mid_b046dd39:
     # seraphina "Я арендовала здесь офис. Только для нас."
     seraphina "I rented an office here. Just for us."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
+translate english_us chapter4_5_concert_mid_c99f8fc0:
+
+    # narrator "Я прошла по указателям 'Event Hall C'. Здесь было несколько девушек, все они шли в том же направлении, что и я, возбужденно перешептываясь."
+    narrator "I followed the signs to 'Event Hall C'. There were a few girls here, all walking in the same direction as me, whispering excitedly."
+

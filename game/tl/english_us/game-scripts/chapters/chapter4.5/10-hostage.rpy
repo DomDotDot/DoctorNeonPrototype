@@ -1116,3 +1116,11 @@ translate english_us chapter4_5_awakening_and_finale_550dd4cb:
     # narrator "Это было медленно, методично и страшно."
     narrator "It was slow, methodical, and terrifying."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:183
+translate english_us chapter4_5_awakening_and_finale_45bf63cb:
+
+    # seraphina "Я... я помогу тебе!"
+    seraphina ""
+

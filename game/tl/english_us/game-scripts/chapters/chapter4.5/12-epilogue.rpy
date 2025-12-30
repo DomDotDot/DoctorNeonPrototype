@@ -340,4 +340,11 @@ translate english_us chapter4_5_epilogue_625a06d5:
 translate english_us chapter4_5_epilogue_1d9d47ce:
 
     # meryl "Это предложение, от которого тяжело отказаться."
-    meryl "It's an offer that's hard to refuse."
+    meryl "It's an offer that's hard to refuse."# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:131
+translate english_us chapter4_5_epilogue_d6254776:
+
+    # meryl "Не хотите... поработать на нас? Найти остальные элементы?"
+    meryl "Would you... like to work for us? Find the other elements?"
+

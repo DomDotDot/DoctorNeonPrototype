@@ -1716,3 +1716,35 @@ translate english_us chapter4_5_lily_studio_366ff8df:
     # narrator "Она не целовала меня. Она вливала в меня свою черноту."
     narrator "She wasn't kissing me. She was pouring her blackness into me."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:269
+translate english_us chapter4_5_lily_cafe_1091045c:
+
+    # amy "Того самого 'брата' со ярмарки? Ой, кстати, простите! Я тогда еще не совсем от болезни отошла, голова не соображала!"
+    amy ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:578
+translate english_us chapter4_5_lily_studio_b43e2bd6:
+
+    # narrator "Гортанные мышцы окаменели — тот самый горький чай. Я схватилась за горло, пытаясь издать хоть звук, но — ничего. Тишина."
+    narrator "My throat muscles had turned to stone by that bitter tea. I grabbed my throat, trying to make a sound, but—nothing. Silence."
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:578
+translate english_us chapter4_5_lily_studio_85023ad6:
+
+    # narrator "Руки Эми и Кэрол на моих плечах вдруг сжались, как стальные тиски, вдавливая меня в пол."
+    narrator "Amy and Carol's hands on my shoulders suddenly tightened like steel vices, pressing me into the chair."
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:628
+translate english_us chapter4_5_lily_studio_7fcb2686:
+
+    # lily "И будем мы сиять вдвоем~"
+    lily "And we will shine, never alone~"
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:698
+translate english_us chapter4_5_lily_studio_cfd08515:
+
+    # narrator "Я чувствовала, как дрожат её руки. Она пыталась 'включить' меня, как сломанный прибор."
+    narrator ""I felt her hands shaking. She was trying to 'turn me on' like a broken appliance."
+

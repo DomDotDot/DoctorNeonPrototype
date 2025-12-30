@@ -984,3 +984,11 @@ translate english_us chapter4_0_24syndrome_ebf07193:
     # narrator "Я найду их всех. Селестия, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена."
     narrator "I'll find them all. Celestia, like a guiding star, will lead me to them. I'm sure of it."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:68
+translate english_us chapter4_0_24syndrome_57f7d790:
+
+    # narrator "Я нашла ближайший общественный инфо-терминал. Функция заказа еды. Самый дешевый ресторан, самый дешевый напиток. Адрес: 'The Celeste Plaza'."
+    narrator ""
+

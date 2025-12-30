@@ -185,3 +185,11 @@ translate english_us strings:
     new "Mika Kitamura"
 
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+translate english_us strings:
+
+    # game/modules/characters/characters.rpy:232
+    old "[mika_display_name!t]"
+    new "[mika_display_name!t]"
+

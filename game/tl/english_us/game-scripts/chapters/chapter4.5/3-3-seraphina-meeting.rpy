@@ -1206,3 +1206,11 @@ translate english_us chapter4_5_concert_end_2934381b:
     # "???" "Наконец-то..."
     "???" "Finally..."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:45
+translate english_us chapter4_5_concert_end_589a405a:
+
+    # narrator "Её образ 'идеального айдола' испарился, сменившись преувеличенной, но усталостью."
+    narrator "Her 'perfect idol' persona evaporated, replaced by exaggerated but visible exhaustion."
+

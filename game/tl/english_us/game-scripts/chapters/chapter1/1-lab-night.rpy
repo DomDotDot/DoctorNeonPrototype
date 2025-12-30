@@ -962,3 +962,11 @@ translate english_us chapter1_lab_night_c3e13561:
     # narrator "Это было последнее, что она увидела, прежде чем её лоб мягко, но неотвратимо опустился на прохладный пластик клавиш, прильнувшая к щеке"
     narrator "That was the last thing she saw before her forehead gently but inevitably sank onto the cool plastic keys pressing against her cheek"
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:55
+translate english_us chapter1_lab_night_68c6be99:
+
+    # marcus "Я знаю, знаю. Я не за этим. ы здесь уже которую ночь подряд. Совсем без сна."
+    marcus ""
+

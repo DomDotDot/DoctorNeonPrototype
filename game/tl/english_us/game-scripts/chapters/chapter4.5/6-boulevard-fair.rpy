@@ -580,4 +580,17 @@ translate english_us chapter4_5_boulevard_night_e5572e9f:
 translate english_us chapter4_5_boulevard_night_6dd9a88b:
 
     # narrator "Пора спать. Завтра будет новый, тяжелый день. В ушах все еще звенел этот идеальный, фальшивый крик: \"Помогите!\""
-    narrator "Time to sleep. Tomorrow will be a new, hard day. That perfect, fake scream still rang in my ears: \"Help!\""
+    narrator "Time to sleep. Tomorrow will be a new, hard day. That perfect, fake scream still rang in my ears: \"Help!\""# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:83
+translate english_us chapter4_5_boulevard_night_32ffcae4:
+
+    # narrator "Медленно. Тягуче. Она слизывала тающие капли с ложечки с каким-то неестественным, почти вызывающим наслаждением."
+    narrator "She was eating the ice cream. Slowly. Languidly. She licked the melting drops from the spoon with an unnatural, almost provocative delight."
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:247
+translate english_us chapter4_5_boulevard_night_a4ad0f87:
+
+    # narrator "Пора спать. Завтра будет новый, тяжелый день. В ушах все еще звенел этот идеальный, фальшивый крик: 'Помогите!'"
+    narrator "ime to sleep. Tomorrow will be a new, hard day. That perfect, fake scream still rang in my ears: 'Help!'"
+

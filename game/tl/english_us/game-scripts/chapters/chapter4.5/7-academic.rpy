@@ -1336,4 +1336,11 @@ translate english_us chapter4_5_classroom_intro_b4edabda:
 translate english_us chapter4_5_classroom_intro_773d15b6:
 
     # narrator "Я осталась одна в пустом, темнеющем кабинете. В логове хищника. В ожидании подкрепления."
-    narrator "I remained alone in the empty, darkening office. In the predator's den. Waiting for backup."
+    narrator "I remained alone in the empty, darkening office. In the predator's den. Waiting for backup."# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:390
+translate english_us chapter4_5_classroom_intro_8475fa97:
+
+    # mika "Д-да, сенсей... Эх..."
+    mika "Y-yes, sensei... Sigh..."
+

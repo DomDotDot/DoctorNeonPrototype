@@ -792,17 +792,31 @@ translate english_us chapter4_5_concert_start_5b89c116:
 translate english_us chapter4_5_concert_start_9e67fc34:
 
     # seraphina "А всем остальным — увидимся на Комик-Коне Веритаса 2042 в следующем месяце!"
-    seraphina ""
+    seraphina "And... to everyone else... Let's meet at Veritas 2042 Comic-Con next month!"
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
 translate english_us chapter4_5_concert_start_09df2e90:
 
     # seraphina "Я готовлю для вас кое-что невероятное!"
-    seraphina ""
+    seraphina "I'm preparing something really awesome for all of you!"
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
 translate english_us chapter4_5_concert_start_269381df:
 
     # seraphina "Помните, ваше присутствие — это ваша любовь! Люблю вас!"
-    seraphina ""
+    seraphina "Remember, your presence is your way of showing love! I'm sending you lots of love!"
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
+translate english_us chapter4_5_concert_start_e3b04a56:
+
+    # narrator "Процедура была до боли знакома — почти такая же, как на входе в 'Гелиос'. Но тогда я была сотрудником, частью системы."
+    narrator "The procedure was painfully familiar — almost the same as entering \"Helios\". But back then I was an employee, part of the system."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:348
+translate english_us chapter4_5_concert_start_76ebf3fb:
+
+    # narrator "До сих пор не знакомой мне по имени девушке."
+    narrator "A girl whose name I still didn't know."
 

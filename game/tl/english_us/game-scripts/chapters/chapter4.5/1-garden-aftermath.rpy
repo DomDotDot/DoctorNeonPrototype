@@ -588,3 +588,11 @@ translate english_us chapter4_5_garden_aftermath_7f1a234f:
     # narrator "Теперь я всё поняла. В этом городе правда только одна. Ту, которую система считает приемлемой. А все, кто с ней не согласен, — просто ошибка, подлежащие к удалению."
     narrator "Now I understood everything. In this city, there is only one truth. The one the system deems acceptable. And anyone who disagrees is just an error, slated for deletion."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_cb635ca5:
+
+    # narrator "Но я этого не 'осознавала'."
+    narrator ""But I didn't truly 'perceive' it."
+

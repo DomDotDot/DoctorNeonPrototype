@@ -354,3 +354,17 @@ translate english_us chapter1_lab_noon_4023ffa9:
     # narrator "Наконец, она достигла тихого крыла, где располагался информационный центр и библиотека."
     narrator "Finally, she reached the quiet wing that housed the information center and library."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:75
+translate english_us chapter1_lab_noon_b8a42501:
+
+    # narrator "За столиком у окна она увидела знакомую фигуру – Ханс, охранник из старой гвардии, который работал здесь, кажется, с самого основания комплекса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:75
+translate english_us chapter1_lab_noon_6c8966bc:
+
+    # narrator "=Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо."
+    narrator ""
+

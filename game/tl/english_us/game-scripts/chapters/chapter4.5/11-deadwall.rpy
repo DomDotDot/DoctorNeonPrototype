@@ -1703,3 +1703,11 @@ translate english_us chapter4_5_finale_2e9cafaf:
     # narrator "Связь разорвана. И солнце равнодушно осветило конец этой истории."
     narrator "The connection is severed. And the sun indifferently illuminated the end of this story."
 
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:511
+translate english_us chapter4_5_finale_7c576036:
+
+    # neon "Твоя сила — это не 'Зависть'. Зависть — это топливо. Твоя сила — это Иллюзия."
+    neon "Your power isn't 'Envy'. Envy is the fuel. Your power is Illusion."
+

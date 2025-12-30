@@ -382,4 +382,11 @@ translate english_us chapter4_5_seraphina_flashback_a3ecefdb:
 translate english_us chapter4_5_seraphina_flashback_549f299f:
 
     # "Сущность" "Ты и есть - Серафина."
-    "Spirit" "You are Seraphina."
+    "Spirit" "You are Seraphina."# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:116
+translate english_us chapter4_5_seraphina_flashback_7f1c08c3:
+
+    # narrator "Мир вокруг начал рассыпаться. Моя новая 'идеальная' жизнь превратилась в руины за одну секунду."
+    narrator "The world around me began to crumble. My new 'perfect' life turned into ruins in a single second."
+
