@@ -227,7 +227,9 @@ define amy = Character(_('Эми'), kind=base, image="amy", color=c_student1, cb
 
 define student2 = Character(_('Студентка 2'), kind=base, image="carol", color=c_student2, cb_name="carol")
 define carol = Character(_('Кэрол'), kind=base, image="carol", color=c_student2, cb_name="carol")
-define mika = Character(_('Мика'), kind=base, image="mika", color=c_student3, cb_name="mika")
+
+default mika_display_name = "Мика"
+define mika = Character(_("[mika_display_name!t]"), kind=base, image="mika", color=c_student3, cb_name="mika")
 
     # --- Аномик ---
 
