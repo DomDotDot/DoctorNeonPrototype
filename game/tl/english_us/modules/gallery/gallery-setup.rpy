@@ -444,7 +444,7 @@ translate english_us strings:
 
     # game/modules/gallery/gallery-setup.rpy:335
     old "Выстрел во Тьме"
-    new "Bang in the Dark"
+    new "Shot in the Dark"
 
     # game/modules/gallery/gallery-setup.rpy:339
     old "Падший Ангел"

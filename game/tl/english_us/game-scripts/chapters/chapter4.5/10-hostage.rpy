@@ -1012,7 +1012,7 @@ translate english_us chapter4_5_awakening_and_finale_4670fa76:
 translate english_us chapter4_5_awakening_and_finale_588255a9:
 
     # narrator "Затем — лицо."
-    narrator "Then—the face."
+    narrator "Then, the face."
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:472
 translate english_us chapter4_5_awakening_and_finale_8648edb6:
@@ -1024,7 +1024,7 @@ translate english_us chapter4_5_awakening_and_finale_8648edb6:
 translate english_us chapter4_5_awakening_and_finale_1f1f7f9b:
 
     # narrator "И, наконец, — тело."
-    narrator "And finally—the body."
+    narrator "And finally, the body."
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:472
 translate english_us chapter4_5_awakening_and_finale_9c077741:
@@ -1090,7 +1090,7 @@ translate english_us chapter4_5_awakening_and_finale_6270f84c:
 translate english_us chapter4_5_awakening_and_finale_292f8e58:
 
     # narrator "Она посмеялась, ее голос снова принадлежит ей — холодной, уверенной королеве, глядя прямо в глаза Аргону."
-    narrator "She laughed, her voice belonging to her again—a cold, confident queen, looking straight into Argon's eyes."
+    narrator "She laughed, her voice belonging to her again. A cold, confident queen, looking straight into Argon's eyes."
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:512
 translate english_us chapter4_5_awakening_and_finale_a292a859:
