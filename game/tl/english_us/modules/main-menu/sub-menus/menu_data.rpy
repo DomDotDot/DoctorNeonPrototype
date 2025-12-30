@@ -72,7 +72,7 @@ translate english_us strings:
 
     # game/modules/main-menu/sub-menus/menu_data.rpy:250
     old "Открыть всё"
-    new "unlock All"
+    new "Unlock All"
 
     # game/modules/main-menu/sub-menus/menu_data.rpy:251
     old "Открыть весь контент?"
