@@ -410,11 +410,6 @@ translate english_us confrontation_path_5a6154c6:
     # narrator "Она сделала шаг вперед, намереваясь пройти мимо. Алекс последовала за ней"
     narrator "She took a step forward, intending to walk past him. Alex followed."
 
-# game/game-scripts/chapters/chapter1/7-confrontation.rpy:35
-translate english_us confrontation_path_807e9c31:
-
-    # narrator "Но Маркус сделал шаг в сторону, перекрывая ей путь своим телом. Он был выше, массивнее. Он нависал над ней.\""
-    narrator "But Marcus stepped sideways, blocking her path with his body. He was taller, heavier. He loomed over her."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:41
 translate english_us confrontation_path_5f75eb74:

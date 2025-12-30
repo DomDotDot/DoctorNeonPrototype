@@ -132,11 +132,6 @@ translate english_us chapter4_5_concert_start_6ded5656:
     # narrator "Когда подошла моя очередь, охранник безэмоционально просканировал билет, который дала мне Серафина. Зеленый огонек."
     narrator "When it was my turn, the guard emotionlessly scanned the ticket Seraphina gave me. Green light."
 
-# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
-translate english_us chapter4_5_concert_start_07cca2e1:
-
-    # narrator "Процедура была до боли знакома — почти такая же, как на входе в \"Гелиос\". Но тогда я была сотрудником, частью системы."
-    narrator "The procedure was painfully familiar — almost the same as entering \"Helios\". But back then I was an employee, part of the system."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
 translate english_us chapter4_5_concert_start_a475d96d:
@@ -672,11 +667,6 @@ translate english_us chapter4_5_concert_start_9683b9fe:
     # narrator "Я достала из кармана телефон, протянув в руку... ей."
     narrator "I took the phone out of my pocket, handing it to... her."
 
-# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:344
-translate english_us chapter4_5_concert_start_ce6f1bb0:
-
-    # narrator "До сих пор не знакомой мне по имени девушке.\""
-    narrator "A girl whose name I still didn't know."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:344
 translate english_us chapter4_5_concert_start_b89dbf8f:
@@ -812,7 +802,7 @@ translate english_us chapter4_5_concert_start_269381df:
 translate english_us chapter4_5_concert_start_e3b04a56:
 
     # narrator "Процедура была до боли знакома — почти такая же, как на входе в 'Гелиос'. Но тогда я была сотрудником, частью системы."
-    narrator "The procedure was painfully familiar — almost the same as entering \"Helios\". But back then I was an employee, part of the system."
+    narrator "The procedure was painfully familiar — almost the same as entering 'Helios'. But back then I was an employee, part of the system."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:348
 translate english_us chapter4_5_concert_start_76ebf3fb:

@@ -25,12 +25,6 @@ translate english_us chapter4_5_garden_aftermath_74e6b2b8:
     narrator "I watched the first rays of the morning sun spark the dust motes in the air, turning them into dancing gold."
 
 # game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
-translate english_us chapter4_5_garden_aftermath_c2bc5ef0:
-
-    # narrator "Но я этого не \"осознавала\"."
-    narrator "But I didn't truly \"perceive\" it."
-
-# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
 translate english_us chapter4_5_garden_aftermath_6c727465:
 
     # narrator "Мое тело было здесь, в этом теплом, влажном саду, пропитанном запахом орхидей и влажной земли."

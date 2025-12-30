@@ -162,11 +162,6 @@ translate english_us chapter4_0_24syndrome_4e25882e:
     # narrator "В голове созрел план. Рискованный, но элегантный."
     narrator "A plan formed in my mind. Risky, but elegant."
 
-# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:68
-translate english_us chapter4_0_24syndrome_7efd21c7:
-
-    # narrator "Я нашла ближайший общественный инфо-терминал. Функция заказа еды. Самый дешевый ресторан, самый дешевый напиток. Адрес: 'The Celeste Plaza'.\""
-    narrator "I found the nearest public info-terminal. Food order function. Cheapest restaurant, cheapest drink. Address: 'The Celeste Plaza'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:68
 translate english_us chapter4_0_24syndrome_22f850cd:

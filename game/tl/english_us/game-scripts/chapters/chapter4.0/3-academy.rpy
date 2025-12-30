@@ -247,12 +247,6 @@ translate english_us chapter4_0_academy_71cbac44:
     narrator "For the fact that they could just stand in the middle of the street and laugh like that, without looking over their shoulders."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:118
-translate english_us chapter4_0_academy_be041cc7:
-
-    # neon "{=thoughts}Если бы она была здесь, она бы уже подружилась с ними за пять минут. Она умела это делать. Не то что я...\""
-    neon "{=thoughts}If she was here, she'd already be friends with them and would've gotten all the Academy gossip in five minutes. She knew how to connect with people. Unlike me..."
-
-# game/game-scripts/chapters/chapter4.0/3-academy.rpy:118
 translate english_us chapter4_0_academy_c5d1d63b:
 
     # neon "{=thoughts}Но я... я должна просить их о помощи. Я должна попытаться... Возможно, так я могу искупить свою вину перед ней..."

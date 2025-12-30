@@ -109,12 +109,6 @@ translate english_us chapter4_5_akari_arrest_33f143eb:
     narrator "In her gaze was pure, concentrated disgust. As if I, a miserable insect, had just ruined her grand design."
 
 # game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:62
-translate english_us chapter4_5_akari_arrest_8248ff02:
-
-    # narrator "Дверь за ними захлопнулась. Я осталась с Мэрил и рыдающей на полу Лили.\""
-    narrator "The door slammed behind them. I was left with Meryl and Lily sobbing on the floor.\""
-
-# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:62
 translate english_us chapter4_5_akari_arrest_7210f3df:
 
     # narrator "Я осторожно подошла к ней."
