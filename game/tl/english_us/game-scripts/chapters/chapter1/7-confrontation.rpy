@@ -727,4 +727,4 @@ translate english_us confrontation_path_56fcd7a7:
 
     # narrator "Она схватилась за спинку стула."
     narrator ""
-
+    
