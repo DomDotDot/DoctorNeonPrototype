@@ -96,6 +96,8 @@ init python:
         persistent.chapter_4_5a_unlocked = True
         persistent.chapter_4_5b_unlocked = True
         persistent.unlock_gallery = True
+
+        unlock_all_chars_full()
         
         renpy.notify("Весь контент разблокирован.")
         renpy.restart_interaction()
@@ -238,6 +240,24 @@ screen data_settings_screen():
                                     style "safe_button"
                                     text _("Открыть всё") style "danger_button_text"
                                     action Confirm(_("Открыть весь контент?"), yes=Function(unlock_everything))
+
+                        # Карточка: Unlock Characters
+                        frame:
+                            style "danger_zone_frame_green"
+                            
+                            hbox:
+                                yalign 0.5
+                                xfill True 
+                                
+                                vbox:
+                                    yalign 0.5
+                                    text _("Разблокировать всех пероснажей") style "danger_title_text" color "#aaffaa"
+                                    text _("Открывает всех персонажей из Глоссария") style "danger_desc_text"
+
+                                button:
+                                    style "safe_button"
+                                    text _("Открыть всё") style "danger_button_text"
+                                    action Confirm(_("Открыть всех персонажей в Глоссарий?"), yes=Function(unlock_all_chars_full))
 
             # Кнопка НАЗАД (внизу)
             null height 20
