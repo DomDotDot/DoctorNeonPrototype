@@ -17,7 +17,6 @@ screen language_selection_screen():
 
             null height 20
 
-            # Область с прокруткой (на случай кучи языков)
             viewport:
                 scrollbars "vertical"
                 mousewheel True
@@ -36,7 +35,6 @@ screen language_selection_screen():
                         
                         button:
                             style "lang_button"
-                            # Выбор языка и закрываем окно (или перезагружаем интерфейс)
                             action [Language(code), Return()]
                             
 

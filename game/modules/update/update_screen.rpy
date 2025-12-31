@@ -1,6 +1,6 @@
 screen update_notification_screen():
     modal True
-    zorder 2000 # Поверх всего
+    zorder 2000
     
     frame:
         xalign 0.5 yalign 0.5

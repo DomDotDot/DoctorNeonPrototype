@@ -91,13 +91,13 @@ init -999 python:
     def _dlc_thread_worker(url, zip_path, target_dir):
         global dlc_state
         
-        # Создаем папку для zip, если нет
+        # Папку для zip
         try:
             os.makedirs(os.path.dirname(zip_path))
         except:
             pass
             
-        # Создаем целевую папку
+        # Целевая папка
         try:
             os.makedirs(target_dir)
         except:
@@ -190,7 +190,6 @@ init -999 python:
 
         url = get_dlc_url(dlc_item)
         zip_path = os.path.join(config.gamedir, dlc_item['file'])
-        # Распаковываем в папку, указанную в конфиге (например, game/audio)
         target_dir = os.path.join(config.gamedir, dlc_item['folder'])
 
         t = threading.Thread(target=_dlc_thread_worker, args=(url, zip_path, target_dir))

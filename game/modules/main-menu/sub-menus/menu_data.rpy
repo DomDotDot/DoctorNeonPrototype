@@ -1,10 +1,9 @@
 init python:
     # Функция полного сброса сюжетного прогресса
     def hard_reset_progress():
-        # Сбрасываем уровень меню
         persistent.main_menu_level = 0
         
-        # Сбрасываем открытые главы
+        # Сброс открытых глав
         # (Лучше пройтись циклом, если у тебя их много, или перечислить вручную)
         persistent.chapter_1_unlocked = False
         persistent.chapter_2_unlocked = False
@@ -13,8 +12,7 @@ init python:
         persistent.chapter_4_5a_unlocked = False
         persistent.chapter_4_5b_unlocked = False
         
-        # Сбрасываем галерею (если есть)
-        # Очистка списка виденных изображений
+        # Сброс галереи
         if hasattr(persistent, "_seen_images"):
             persistent._seen_images.clear()
             
@@ -26,7 +24,6 @@ init python:
         if hasattr(persistent, "_seen_ever"):
             persistent._seen_ever.clear()
         
-        # Сохраняем изменения на диск принудительно
         renpy.save_persistent()
         
         renpy.notify("Сюжетный прогресс сброшен.")
@@ -34,7 +31,6 @@ init python:
 
     # Функция удаления всех сохранений
     def delete_all_saves():
-        # Получаем список всех сейвов
         try:
             all_saves = renpy.list_saved_games(fast=True)
             for save_item in all_saves:
@@ -42,28 +38,26 @@ init python:
         except:
             pass
 
-        # 2. Формируем список папок для зачистки
+        # Список папок для зачистки
         folders_to_clean = []
 
         # А) Папка AppData (Основная для релиза)
         if config.savedir:
             folders_to_clean.append(config.savedir)
-            # Добавляем папку sync (если есть)
+
             sync_path = os.path.join(config.savedir, "sync")
             if os.path.exists(sync_path):
                 folders_to_clean.append(sync_path)
 
         # Б) Папка game/saves (Локальная для разработки)
-        # config.gamedir указывает на папку 'game' вашего проекта
         if config.gamedir:
             local_saves_path = os.path.join(config.gamedir, "saves")
             if os.path.exists(local_saves_path):
                 folders_to_clean.append(local_saves_path)
 
-        # 3. Проходимся по всем найденным папкам и удаляем файлы
+        # Удаление
         for folder in folders_to_clean:
             try:
-                # Если папки физически нет, пропускаем
                 if not os.path.exists(folder):
                     continue
                     
@@ -72,11 +66,9 @@ init python:
                 for filename in file_list:
                     file_path = os.path.join(folder, filename)
                     
-                    # БЕЗОПАСНОСТЬ: Не трогаем persistent и скрытые файлы
                     if "persistent" in filename:
                         continue
                     
-                    # Удаляем только конкретные расширения
                     if filename.endswith(".save") or filename.endswith(".png") or filename.endswith(".extra"):
                         try:
                             os.remove(file_path)
@@ -88,14 +80,13 @@ init python:
 
             
 
-        # 3. Полный сброс кеша
+        # Полный сброс кеша
         renpy.loadsave.save_cache = {} 
         
-        # Обновляем экран
         renpy.notify("Все сохранения безвозвратно удалены.")
         renpy.restart_interaction()
 
-    # Чит-код: Открыть всё (полезно для игроков, потерявших сейвы)
+    # Чит-код: Открыть всё.
     def unlock_everything():
         persistent.main_menu_level = 4
         persistent.chapter_1_unlocked = True
@@ -113,7 +104,7 @@ init python:
 
     # Сброс настроек (Preferences)
     def reset_preferences_to_default():
-        # Сбрасываем громкость
+        # Сброс громкости
         renpy.music.set_volume(1, channel='main')
         renpy.music.set_volume(0.5, channel='main')
         renpy.music.set_volume(0.5, channel='music')
@@ -121,14 +112,13 @@ init python:
         renpy.music.set_volume(0.5, channel='voice')
         renpy.music.set_volume(0.5, channel='ambient')
         
-        # Сбрасываем текстовые настройки
+        # Сбрас текстовых настройек
         preferences.text_cps = 35    # Скорость текста (0-100 или больше)
         preferences.afm_time = 15    # Время авточтения
-        
-        # Сбрасываем оконный режим (опционально, можно не трогать)
+    
         preferences.fullscreen = False 
         
-        # Сбрасываем пропуск
+        # Сбрас пропускка
         preferences.skip_unseen = False
         preferences.skip_after_choices = False
         
@@ -146,10 +136,7 @@ screen data_settings_screen():
         padding (50, 40)
 
         vbox:
-            # Заголовок экрана
             label _("Управление данными") style "settings_title" bottom_margin 40
-
-            # Используем viewport, если опций станет много, чтобы можно было скроллить
             viewport:
                 mousewheel True
                 draggable True
@@ -158,7 +145,7 @@ screen data_settings_screen():
                 yfill True
                 
                 vbox:
-                    spacing 10 # Расстояние между карточками
+                    spacing 10
                     xfill True
 
                     # --- СЕКЦИЯ: НАСТРОЙКИ ---
@@ -166,12 +153,12 @@ screen data_settings_screen():
 
                     # Карточка: Сброс настроек
                     frame:
-                        style "danger_zone_frame" # Обычная серая рамка (или добавь style neutral...)
+                        style "danger_zone_frame"
                         background Frame(Fixed(Solid("#555"), Solid("#000000", xmargin=2, ymargin=2), xysize=(100,100)), 4, 4)
                         
                         hbox:
                             yalign 0.5
-                            xfill True # Растянуть hbox
+                            xfill True
                             
                             # Текст слева
                             vbox:
@@ -187,12 +174,13 @@ screen data_settings_screen():
 
 
                     null height 20
+
                     # --- СЕКЦИЯ: ОПАСНАЯ ЗОНА ---
                     label _("Danger Zone") text_size 24 text_color "#b60205" xoffset 5
 
                     # Карточка: Сброс сюжета
                     frame:
-                        style "danger_zone_frame_red" # Красная рамка
+                        style "danger_zone_frame_red"
                         
                         hbox:
                             yalign 0.5
@@ -228,8 +216,9 @@ screen data_settings_screen():
 
 
                     null height 20
+
                     # --- СЕКЦИЯ: ЧИТЫ / ТЕСТЫ ---
-                    if config.developer or True: # True для теста, потом убери или оставь config.developer
+                    if config.developer or True: #TODO True до релиза
                         label _("Разработка") text_size 24 text_color "#2ea043" xoffset 5
 
                         # Карточка: Unlock All

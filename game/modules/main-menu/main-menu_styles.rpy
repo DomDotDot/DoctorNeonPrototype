@@ -11,7 +11,7 @@ style main_menu_button is button:
     xalign 0.5
     yalign 0.5
 
-# Стиль текста кнопок
+
 style main_menu_button_text is button_text:
     size 30
     color "#e8e8e8"
@@ -170,17 +170,14 @@ style chapter_subtitle_text is text:
 
 # Стиль для контейнера одной опции ("Карточка")
 style danger_zone_frame:
-    background Solid("#00000080") # Полупрозрачный черный фон
-    xfill True # Растянуть на всю ширину родителя
-    ysize 110  # Фиксированная высота карточки
+    background Solid("#00000080") 
+    xfill True
+    ysize 110
     padding (20, 15)
-    margin (0, 10) # Отступ между карточками
+    margin (0, 10)
 
 # Стиль для красной рамки (Danger)
 style danger_zone_frame_red is danger_zone_frame:
-    
-    # ВАРИАНТ "GITHUB": Цветная обводка
-    # Для этого нам нужен файл рамки. Но мы можем сэмулировать его:
     background Frame(Fixed(Solid("#b60205"), Solid("#000000", xmargin=2, ymargin=2), xysize=(100,100)), 4, 4)
 
 # Стиль для зеленой рамки (Safe/Cheat)
@@ -200,7 +197,7 @@ style danger_desc_text:
 
 # Кнопка внутри опасной зоны
 style danger_button is button:
-    background Solid("#b60205") # Красный фон
+    background Solid("#b60205")
     hover_background Solid("#ff4444")
     xsize 200
     ysize 50
@@ -216,7 +213,7 @@ style danger_button_text:
 
 # Кнопка внутри зеленой зоны
 style safe_button is danger_button:
-    background Solid("#2ea043") # Зеленый фон
+    background Solid("#2ea043")
     hover_background Solid("#4ac260")
 
 # Кнопка нейтральная (белая/серая)

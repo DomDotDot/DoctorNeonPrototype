@@ -1,9 +1,6 @@
-# Файл: main_menu_custom.rpy
-
 init python:
-    # Твоя функция выбора музыки (можно оставить как есть)
     def play_main_menu_music():
-        # Сделаем через словарь, чтобы убрать кучу if/elif
+
         music_map = {
             0: main_menu_music_default,
             1: main_menu_music_unlocked_1,
@@ -19,9 +16,8 @@ init python:
 ## Главное меню (HUB)
 ################################################################################
 
-# Экран чистого фона БЕЗ кнопок
 screen main_menu_background():
-    # Логика музыки
+
     on "show" action Function(play_main_menu_music)
     on "replace" action Function(play_main_menu_music)
 
@@ -29,7 +25,7 @@ screen main_menu_background():
     add "main_menu_bg_dynamic":
         at mouse_parallax(30)
 
-    # Частицы (если есть)
+    # Частицы
     add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10)
 
     # Виньетка
@@ -42,8 +38,6 @@ screen main_menu():
     tag menu
     zorder 10
     
-
-    # 1. Используем наш новый экран с фоном
     use main_menu_background 
 
     # Основной блок навигации

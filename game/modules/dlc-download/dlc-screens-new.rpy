@@ -1,4 +1,3 @@
-# Экран выбора DLC
 screen dlc_selection_screen(all_dlcs, is_first_run=False):
     modal True
     
@@ -71,12 +70,11 @@ screen dlc_selection_screen(all_dlcs, is_first_run=False):
                 textbutton _("Закрыть") action Return({}) style "button" text_size 28 padding (20, 10)
 
 
-# Экран прогресса (с исправленным отображением)
+# Экран прогресса
 screen dlc_progress_screen():
     modal True
     zorder 200
-    
-    # Таймер обновляет экран каждые 0.1 сек, чтобы полоска двигалась
+
     timer 0.1 repeat True action Function(renpy.restart_interaction)
 
     frame:
@@ -95,6 +93,7 @@ screen dlc_progress_screen():
             elif dlc_state["phase"] == "connecting":
                 text _("Подключение к серверу...") xalign 0.5
             elif dlc_state["phase"] == "downloading":
+
                 # Форматирование: 12.5 / 120.0 MB
                 $ cur_fmt = "{:.1f}".format(dlc_state['mb_cur'])
                 $ tot_fmt = "{:.1f}".format(dlc_state['mb_total'])
@@ -112,7 +111,7 @@ screen dlc_progress_screen():
                 value dlc_state['progress'] 
                 range 1.0 
                 ysize 30
-                left_bar Frame("gui/bar/left.png", 4, 4) # Или стандартный стиль
+                left_bar Frame("gui/bar/left.png", 4, 4)
                 right_bar Frame("gui/bar/right.png", 4, 4)
 
             null height 20
@@ -130,7 +129,6 @@ screen dlc_progress_screen():
             else:
                 textbutton _("Отмена") action Function(cancel_download) xalign 0.5
 
-# Это точка входа, которую нужно вызывать из splashscreen
 label dlc_check_sequence:
     
     # 1. Проверяем, первый ли это запуск менеджера DLC

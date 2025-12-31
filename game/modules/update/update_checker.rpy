@@ -7,11 +7,8 @@ init python:
     import re
     
     # --- НАСТРОЙКИ ---
-    # Ссылка на API твоего репо (замени USER и REPO)
-    # Это НЕ ссылка на файл, это API, оно возвращает текст о релизе
     GITHUB_API_URL = "https://api.github.com/repos/DomDotDot/DoctorNeonPrototype/releases/latest"
     
-    # Ссылки, куда вести игрока
     LINK_ITCH = "https://dotprod.itch.io/bright-neon-semitone-resonance#download"
     LINK_GITHUB = "https://github.com/DomDotDot/DoctorNeonPrototype/releases/latest"
     # LINK_STEAM = "..." 
@@ -29,12 +26,11 @@ init python:
         # 1. Убираем 'v' в начале
         v_clean = v_str.lower().lstrip('v')
         
-        # 2. Ищем с помощью RegEx только цифры и точки в начале строки
+        # 2. RegEx только цифры и точки в начале строки
         # ^(\d+(?:\.\d+)*) означает: "Взять цифры с точками с самого начала"
         match = re.search(r'^(\d+(?:\.\d+)*)', v_clean)
         
         if match:
-            # Получили строку "0.5.3", разбиваем её на список чисел
             version_str = match.group(1)
             return [int(x) for x in version_str.split('.')]
         
@@ -53,7 +49,7 @@ init python:
 
         # Если удалось извлечь цифры из обеих версий
         if r_nums and l_nums:
-            # Сравниваем списки математически:
+            # Сравнение списков математически:
             # [0, 5, 4] > [0, 5, 3] -> True
             # [0, 5, 3] > [0, 5, 3] -> False (даже если есть приписка -stable)
             return r_nums > l_nums

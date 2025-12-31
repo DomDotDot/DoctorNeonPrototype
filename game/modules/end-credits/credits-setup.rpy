@@ -1,10 +1,10 @@
 # Данные для Тома 1
 define credits_vol1 = [
-    ("Сценарий", "DomDot"),
+    (_("Сценарий"), "DomDot"),
 
-    ("Художник", "NanoBanana Pro"),
+    (_("Художник"), "NanoBanana Pro"),
 
-    ("Тестировщик и Вдохновитель", "Overhappy_Avali"),
+    (_("Тестировщик и Вдохновитель"), "Overhappy_Avali"),
 
     ("Музыка", ""),
     ("", "ksho - Purge Protocol"),
@@ -25,10 +25,10 @@ define credits_vol1 = [
     ("", "Intravenous - Initiation (Inactive)"),
     ("", "Avery Alexander - HRT"),
 
-    ("Спецэффекты", "StoryBlocks"),
+    (_("Спецэффекты"), "StoryBlocks"),
 ]
 
-# Данные для Тома 2
+#TODO Данные для Тома 2 (просто заглушка)
 define credits_vol2 = [
     ("Главный сценарист", "-"),
     ("CG Артист", "-"),

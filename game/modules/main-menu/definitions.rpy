@@ -1,4 +1,4 @@
-init offset = -1 # Загружаем это до остальных скриптов
+init offset = -1
 
 # Определения для главного меню.  
        
@@ -9,9 +9,9 @@ init offset = -1 # Загружаем это до остальных скрип�
 # и т.д
 
 default persistent.main_menu_level = 0
+
 default persistent.sensitive_mode = False
 default persistent.ai_sensitive_mode = False
-    
 default persistent.font_size_large = False
 
   
@@ -23,8 +23,7 @@ define main_menu_music_unlocked_2 = "audio/music/BGM/WitheredFlower.opus"
 define main_menu_music_unlocked_3 = "audio/music/BGM/Sorrowless.opus"
 define main_menu_music_unlocked_4 = "audio/music/BGM/BuzzingGoodbye.opus"
 
-# --- ФОНЫ (Умное переключение) ---
-# ConditionSwitch сам проверяет условия и ставит нужную картинку.
+# --- ФОНЫ ---
 image main_menu_bg_dynamic = ConditionSwitch(
 "persistent.main_menu_level == 4", "gui/main_menu/background_unlocked_4.avif",
 "persistent.main_menu_level == 3", "gui/main_menu/background_unlocked_3.avif",

@@ -48,7 +48,7 @@ screen notification_center():
                                     textbutton _("Скачать (Itch.io)") action OpenURL(LINK_ITCH) style "button" text_size 18
                                     textbutton _("Скачать (GitHub)") action OpenURL(LINK_GITHUB) style "button" text_size 18
                                     
-                                    # Кнопка "Снять игнор" (Опционально)
+                                    # Кнопка "Снять игнор"
                                     if persistent.ignored_version == new_version_tag:
                                         textbutton _("Включить напоминание") action SetField(persistent, "ignored_version", None) text_size 16 text_color "#aaa" yalign 0.5
 

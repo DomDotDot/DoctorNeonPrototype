@@ -16,7 +16,6 @@ init python:
         chapter_items.append(ChapterItem(label_start, title, subtitle, image, condition_var))
 
     def GetMostRecentSave():
-        # Находим самый свежий сейв (включая авто)
         newest = renpy.newest_slot()
         if newest:
             return newest
