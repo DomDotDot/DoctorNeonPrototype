@@ -588,5 +588,5 @@ translate english_us chapter4_5_garden_aftermath_7f1a234f:
 translate english_us chapter4_5_garden_aftermath_cb635ca5:
 
     # narrator "Но я этого не 'осознавала'."
-    narrator ""But I didn't truly 'perceive' it."
+    narrator "But I didn't truly 'perceive' it."
 

@@ -1736,5 +1736,5 @@ translate english_us chapter4_5_lily_studio_7fcb2686:
 translate english_us chapter4_5_lily_studio_cfd08515:
 
     # narrator "Я чувствовала, как дрожат её руки. Она пыталась 'включить' меня, как сломанный прибор."
-    narrator ""I felt her hands shaking. She was trying to 'turn me on' like a broken appliance."
+    narrator "I felt her hands shaking. She was trying to 'turn me on' like a broken appliance."
 
