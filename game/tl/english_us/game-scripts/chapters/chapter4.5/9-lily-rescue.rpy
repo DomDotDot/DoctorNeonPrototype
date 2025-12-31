@@ -1712,7 +1712,7 @@ translate english_us chapter4_5_lily_studio_366ff8df:
 translate english_us chapter4_5_lily_cafe_1091045c:
 
     # amy "Того самого 'брата' со ярмарки? Ой, кстати, простите! Я тогда еще не совсем от болезни отошла, голова не соображала!"
-    amy ""
+    amy "That 'brother' from the fair? Oh, by the way, sorry! I hadn't quite recovered from being sick then, my head wasn't thinking straight!"
 
 # game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:578
 translate english_us chapter4_5_lily_studio_b43e2bd6:
@@ -1737,4 +1737,12 @@ translate english_us chapter4_5_lily_studio_cfd08515:
 
     # narrator "Я чувствовала, как дрожат её руки. Она пыталась 'включить' меня, как сломанный прибор."
     narrator "I felt her hands shaking. She was trying to 'turn me on' like a broken appliance."
+
+# TODO: Translation updated at 2025-12-31 04:45
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:269
+translate english_us chapter4_5_lily_cafe_f407b891:
+
+    # amy "Того самого 'брата' с ярмарки? Ой, кстати, простите! Я тогда еще не совсем от болезни отошла, голова не соображала!"
+    amy "That 'brother' from the fair? Oh, by the way, sorry! I hadn't quite recovered from being sick then, my head wasn't thinking straight!"
 

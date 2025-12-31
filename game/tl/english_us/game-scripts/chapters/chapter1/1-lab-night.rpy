@@ -963,5 +963,13 @@ translate english_us chapter1_lab_night_c3e13561:
 translate english_us chapter1_lab_night_68c6be99:
 
     # marcus "Я знаю, знаю. Я не за этим. ы здесь уже которую ночь подряд. Совсем без сна."
-    marcus ""
+    marcus "I know, Doctor, but... you've been here for nights on end. With no sleep at all."
+
+# TODO: Translation updated at 2025-12-31 04:45
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:55
+translate english_us chapter1_lab_night_2166eed7:
+
+    # marcus "Я знаю, знаю. Я не за этим. Вы здесь уже которую ночь подряд. Совсем без сна."
+    marcus "I know, Doctor, but... you've been here for nights on end. With no sleep at all."
 

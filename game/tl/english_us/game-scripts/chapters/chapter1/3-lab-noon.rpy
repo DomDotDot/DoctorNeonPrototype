@@ -361,5 +361,13 @@ translate english_us chapter1_lab_noon_b8a42501:
 translate english_us chapter1_lab_noon_6c8966bc:
 
     # narrator "=Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо."
-    narrator ""
+    narrator "Neon walked over to the coffee machine, which was preparing her a double espresso."
+
+# TODO: Translation updated at 2025-12-31 04:45
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:75
+translate english_us chapter1_lab_noon_f73c8f5a:
+
+    # narrator "Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо."
+    narrator "Neon walked over to the coffee machine, which was preparing her a double espresso."
 
