@@ -82,7 +82,7 @@ define config.sample_voice = "audio/voice/voice_sample.ogg"
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-define config.main_menu_music = "audio/music/BGM/Depersonalization-Backstage.ogg"
+define config.main_menu_music = "audio/music/BGM/Depersonalization-Backstage.opus"
 
 
 ## Переходы ####################################################################

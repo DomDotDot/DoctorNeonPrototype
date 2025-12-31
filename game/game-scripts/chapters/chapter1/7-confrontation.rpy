@@ -56,7 +56,7 @@ label confrontation_path:
         #show neon at right with move
         
         # Звук резкого шага или удара по руке
-        #play sound "sfx/slap_hand_away.mp3" 
+        #play sound "sfx/slap_hand_away.opus" 
 
         narrator """
         Алекс рывком вклинилась между ними. Она с силой ударила по руке Маркуса, сбивая его ладонь с плеча Неон, и толкнула его в грудь.
@@ -141,12 +141,12 @@ label confrontation_path:
 
         marcus "...тебе они больше не нужны."
 
-        # play sound "sfx/plastic_crunch_step.mp3" with vpunch
+        # play sound "sfx/plastic_crunch_step.opus" with vpunch
 
         narrator "Наушники упали на бетонный пол. Маркус, не переставая улыбаться, наступил на них дорогим ботинком и с хрустом провернул ногу."
 
         stop music
-        play sound "sfx/ear-ringing.mp3" fadein 0.1 # Звон в ушах вместо музыки
+        play sound "sfx/ear-ringing.opus" fadein 0.1 # Звон в ушах вместо музыки
 
         narrator "Тихий хруст пластика прозвучал для Неон как выстрел. Музыка умерла. Щит сломан. В её голову хлынул Шум."
 
@@ -210,7 +210,7 @@ label confrontation_path:
 
         narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
 
-        # play sound "sfx/static_shock_loud.mp3" with hpunch
+        # play sound "sfx/static_shock_loud.opus" with hpunch
         
         narrator """
         ТРЕСК!

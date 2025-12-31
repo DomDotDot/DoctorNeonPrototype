@@ -4,7 +4,7 @@ label chapter4_5_seraphina_penthouse:
     stop music fadeout 2.0
     
     # Звуки города, приглушенные толстым стеклом. Тиканье дорогих часов.
-    play music "music/BGM/DeadLine.ogg" fadein 2.0 fadeout 5.0
+    play music "music/BGM/DeadLine.opus" fadein 2.0 fadeout 5.0
 
     narrator """
         Роскошная комната была погружена в полумрак. Единственным светом были огни ночного Веритаса за панорамным стеклом.
@@ -44,7 +44,7 @@ label chapter4_5_seraphina_penthouse:
     
     narrator "Она прислушалась. И вдруг замерла. Вино пошло не в то горло."
 
-    # play sound "sfx/choke_cough.mp3"
+    # play sound "sfx/choke_cough.opus"
     
     seraphina shocked "Кха!.. Что?! Неон?!"
 
@@ -75,7 +75,7 @@ label chapter4_5_seraphina_penthouse:
 
     Аггрх!!!
     """
-    # play sound "sfx/glass_smash_loud.mp3" with vpunch
+    # play sound "sfx/glass_smash_loud.opus" with vpunch
     narrator """
     Она с криком швырнула бокал в огромное настенное зеркало.
 
@@ -126,15 +126,15 @@ label chapter4_5_seraphina_penthouse:
         ...Просто впусти меня...
     """
 
-    # play sound "sfx/footsteps_covert_multiple.mp3" # Тихие шаги за дверью
+    # play sound "sfx/footsteps_covert_multiple.opus" # Тихие шаги за дверью
     
     narrator "В коридоре за дверью послышался едва уловимый шорох. Серафина замерла. Иллюзия в зеркале исчезла. Ее зрачки сузились."
     
-    # play sound "sfx/door_breach_charge.mp3"
+    # play sound "sfx/door_breach_charge.opus"
     
     narrator "Дверь пентхауса с грохотом распахнулась."
     
-    # play sound "sfx/flashbang_explode.mp3" with white_flash
+    # play sound "sfx/flashbang_explode.opus" with white_flash
     stop music fadeout 0.25
     play sound "sfx/ear-ringing.opus" fadein 2.5 volume 0.25
     scene white with flash
@@ -174,7 +174,7 @@ label chapter4_5_seraphina_penthouse:
         Она набрала в грудь воздуха. И запела. Не песню. А одну, чистую, вибрирующую ноту. Игриво, прикладывая палец к губам.
     """
     
-    # play sound "sfx/high_pitch_hypno_tone.mp3"
+    # play sound "sfx/high_pitch_hypno_tone.opus"
     
     seraphina wink """
     Тише, мальчики. Вы мешаете мне думать о любви.
@@ -204,12 +204,12 @@ label chapter4_5_seraphina_penthouse:
     """
 
 
-    # play sound "sfx/gunshot_burst_multiple.mp3" fadeout 2.0
+    # play sound "sfx/gunshot_burst_multiple.opus" fadeout 2.0
 
     scene black with dissolve
 
-    play sound "sfx/machine-gun-shooting.mp3" fadein 1.0 volume 2.0
-    play ambient "sfx/yandere-laugh.mp3" fadein 1.0 noloop volume 0.5
+    play sound "sfx/machine-gun-shooting.opus" fadein 1.0 volume 2.0
+    play ambient "sfx/yandere-laugh.opus" fadein 1.0 noloop volume 0.5
     
     narrator """
     ...

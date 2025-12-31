@@ -57,7 +57,7 @@ label chapter4_5_boulevard_night:
 
     argon "Черт, куда она... потерял её..."
 
-    play music "music/BGM/WitheredLily_Backtrack.mp3" fadein 2.0 fadeout 2.0
+    play music "music/BGM/WitheredLily_Backtrack.opus" fadein 2.0 fadeout 2.0
     scene black with dissolve
 
     narrator """
@@ -77,7 +77,7 @@ label chapter4_5_boulevard_night:
     narrator "Он рванул туда, не разбирая дороги. Я едва поспевала за ним."
 
     scene featured_1cg-2b with dissolve
-    play music "music/BGM/WitheredLily.mp3" fadein 2.0
+    play music "music/BGM/WitheredLily.opus" fadein 2.0
     
     
     narrator """

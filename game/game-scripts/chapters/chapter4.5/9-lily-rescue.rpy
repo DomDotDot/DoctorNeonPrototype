@@ -145,7 +145,7 @@ label chapter4_5_lily_cafe:
 
     narrator "Она с детской непосредственностью и жадностью схватила наши сцепленные руки своими ладонями."
 
-    play sound "sfx/static_shock_loud.mp3"
+    play sound "sfx/static_shock_loud.opus"
     stop music fadeout 0.25
     scene white with flash
     
@@ -372,7 +372,7 @@ label chapter4_5_lily_studio:
     
     scene bg chapter_4-5 old district alleys with fade
     play music "music/BGM/Veritas_Night_Rain.opus" loop
-    play sound "sfx/light_rain.mp3" loop fadein 4.0
+    play sound "sfx/light_rain.opus" loop fadein 4.0
     play ambient "ambient/wind-howly-ear.opus"
     
     narrator """
@@ -535,7 +535,7 @@ label chapter4_5_lily_studio:
     
     lily "Это песня, которую я написала сама. О звезде, что упала с небес..."
 
-    queue music "music/BGM/LunarGuitarVocal.ogg" fadein 2.0
+    queue music "music/BGM/LunarGuitarVocal.opus" fadein 2.0
     
     narrator "Она взяла первый, чистый аккорд. Комнату наполнила меланхоличная, красивая мелодия. Ее голос, тихий и нежный, полился, как ручей."  
         
@@ -631,7 +631,7 @@ label chapter4_5_lily_studio:
         И будем мы сиять вдвоем~
     """
     
-    play music "music/BGM/DyingWish.ogg" fadein 2.0 fadeout 6.0
+    play music "music/BGM/DyingWish.opus" fadein 2.0 fadeout 6.0
     
     narrator "Последняя строчка прозвучала как клятва. Или как приговор."
 
@@ -755,7 +755,7 @@ label chapter4_5_lily_studio:
     lily "Открой ротик~ Ах, да. Ты не можешь."
 
     stop music fadeout 5.0
-    play sound "sfx/lily_lewd_giggle.mp3" fadein 0.5
+    play sound "sfx/lily_lewd_giggle.opus" fadein 0.5
     
     narrator """
         Она рассмеялась. А потом ее губы накрыли мои, закрыв свои яркие глаза.

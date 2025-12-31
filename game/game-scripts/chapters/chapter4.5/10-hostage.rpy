@@ -3,7 +3,7 @@ label chapter4_5_awakening_and_finale:
     scene black with Dissolve(2.0)
     # Звук: Резкий, оглушающий звук пробуждения силы Неон переходит в рев огня и треск горящего дерева.
     play sound "sfx/absolute_silence_awaken.opus" fadeout 2.0
-    play ambient "ambient/house_burn.mp3" volume 0.175 fadein 2.5
+    play ambient "ambient/house_burn.opus" volume 0.175 fadein 2.5
 
     narrator """
         Я открыла глаза.
@@ -114,7 +114,7 @@ label chapter4_5_awakening_and_finale:
     
     
     scene bg chapter_4-5 old district studio with fade
-    play ambient "ambient/HeavyRain.mp3" fadein 3.0 fadeout 0.25 volume 0.5
+    play ambient "ambient/HeavyRain.opus" fadein 3.0 fadeout 0.25 volume 0.5
     
     narrator """
         На улице бушевал ливень. Холодные капли смывали с моего лица сажу и пот.
@@ -385,7 +385,7 @@ label chapter4_5_awakening_and_finale:
     А ты... ты позволила этой зависти сожрать тебя. И стала тем, что ненавидела больше всего. Пустым местом.
     """
 
-    play music "music/BGM/FoundAndLost.ogg" fadein 3.0
+    play music "music/BGM/FoundAndLost.opus" fadein 3.0
     
     narrator """
     В этот момент ее лицо исказилось. Маска трагической героини спала окончательно. На меня смотрело лицо, полное чистой, незамутненной, голодной ненависти. Правда ранила ее сильнее пули.
@@ -467,7 +467,7 @@ label chapter4_5_awakening_and_finale:
 
     seraphina "Стань моим щитом~"
 
-    play music "music/BGM/Marionette.mp3" fadein 2.0 fadeout 5.0
+    play music "music/BGM/Marionette.opus" fadein 2.0 fadeout 5.0
     
     narrator """
         И я увидела, как Лили умирает. Не физически.

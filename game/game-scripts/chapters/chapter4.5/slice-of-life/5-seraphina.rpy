@@ -1,7 +1,7 @@
 label chapter4_5_seraphina_flashback:
     
     scene black with Dissolve(0.5)
-    play music "music/BGM/LISTEN.ogg"
+    play music "music/BGM/LISTEN.opus"
     
     narrator """
         И в этот последний миг... я увидела ее глазами.

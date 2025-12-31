@@ -28,8 +28,8 @@ style main_menu_button:
     xmargin 0
     ymargin 0
 
-    hover_sound "audio/sfx/cursor-hover.mp3" 
-    activate_sound "audio/sfx/button-click.mp3"
+    hover_sound "audio/sfx/cursor-hover.opus" 
+    activate_sound "audio/sfx/button-click.opus"
 
 # Стили для саб-меню
 style sub_menu_frame:

@@ -67,7 +67,7 @@ label chapter4_5_morning_after:
     """
     
     scene bg chapter_4-5_veritas-alleway-morning with fade
-    play music "music/BGM/SERN.mp3" fadeout 5.0
+    play music "music/BGM/SERN.opus" fadeout 5.0
 
     narrator """
         Я шла по пустым, серым улицам просыпающегося Веритаса.
@@ -220,7 +220,7 @@ label chapter4_5_morning_after:
 label chapter4_5_classroom_intro:
 
     scene bg chapter_4-5 academy hall with fade
-    play music "music/BGM/IWishIWasTruth.mp3" fadein 5.0 fadeout 10.0
+    play music "music/BGM/IWishIWasTruth.opus" fadein 5.0 fadeout 10.0
 
     narrator """
         Меня встретил мужчина средних лет в безупречном костюме — директор.

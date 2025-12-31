@@ -196,7 +196,7 @@ label chapter1_lab_morning:
         Привычный, теплый жест.
         """
 
-        # play sound "sfx/static_spark_zap.mp3" volume 0.5
+        # play sound "sfx/static_spark_zap.opus" volume 0.5
         # show white with Dissolve(0.1)
         # hide white with Dissolve(0.1)
         

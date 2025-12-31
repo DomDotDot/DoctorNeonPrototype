@@ -147,7 +147,7 @@ label chapter4_5_finale:
         
         А мы с Неон останемся вдвоем. Навсегда.
     """
-    play ambient "ambient/HeavyRain.mp3" fadein 2.5 fadeout 1.5
+    play ambient "ambient/HeavyRain.opus" fadein 2.5 fadeout 1.5
     scene black with Dissolve(0.125)
     pause 1.5
     $ renpy.music.set_audio_filter("ambient", None, replace=True)
@@ -155,7 +155,7 @@ label chapter4_5_finale:
     stop music fadeout 0.5
 
     seraphina "Лили... Атакуй~"
-    play music "music/BGM/RainInYourBlackEyes.mp3" fadein 5.0 fadeout 10.0
+    play music "music/BGM/RainInYourBlackEyes.opus" fadein 5.0 fadeout 10.0
     
     narrator """
         Она лениво указала пальцем на Аргона, как императрица, отдающая приказ казнить раба.
@@ -221,7 +221,7 @@ label chapter4_5_finale:
     # play sound "sfx/body_thud_wet.opus"
 
     scene featured_9cg-5b with fade
-    play ambient1 "ambient/firetruck-siren-ambience.mp3" fadein 2.5 fadeout 1.5 volume 0.3
+    play ambient1 "ambient/firetruck-siren-ambience.opus" fadein 2.5 fadeout 1.5 volume 0.3
     
     narrator """
         Мы рухнули на землю. Она оказалась сверху, прижав мои руки коленями.
@@ -598,7 +598,7 @@ label chapter4_5_finale:
         Мои руки не встретили сопротивления плоти. Они как будто провалились в пустоту.
     """
 
-    play sound "sfx/firetruck-siren-passby.mp3" fadein 1.0 volume 0.5
+    play sound "sfx/firetruck-siren-passby.opus" fadein 1.0 volume 0.5
     scene featured_9cg-9 with dissolve
 
     stop music fadeout 10.0
@@ -688,7 +688,7 @@ label chapter4_5_finale:
         """
 
     stop ambient fadeout 45.0
-    play music "music/BGM/Karma.ogg" fadein 5.0 fadeout 10.0
+    play music "music/BGM/Karma.opus" fadein 5.0 fadeout 10.0
 
     neon """
         Ты думала, она врала тебе? Ты думала, она жалела тебя?
@@ -707,7 +707,7 @@ label chapter4_5_finale:
     """
     
     
-    # play sound "sfx/rain_stopping_slowly.mp3" fadeout 5.0
+    # play sound "sfx/rain_stopping_slowly.opus" fadeout 5.0
     
     narrator """
         Я стояла, ожидая, что дождь смоет мои слезы. Но капли перестали падать.
