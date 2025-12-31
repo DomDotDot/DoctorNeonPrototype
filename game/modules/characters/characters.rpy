@@ -134,7 +134,7 @@ define xenon = Character(_('Ксенон'),
 
 # --- Ключевые ---
 
-    # --- Семья и Близкие ---
+# --- Семья и Близкие ---
 
 define akane = Character(_('Мама'),
     kind=base,
@@ -150,7 +150,7 @@ define celeste = Character(_('Селестия'),
     cb_name="celeste"
 )
 
-    # --- Гелиос ---
+# --- Гелиос ---
 
 define marcus = Character(_('Маркус'), 
     kind=base,
@@ -168,7 +168,7 @@ define alex = Character(_('Алекс'),
     cb_name="alex"
 )
     
-    # --- Веритас-сити ---
+# --- Веритас-сити ---
 
 define lily = Character(_('Лили'),
     kind=base,
@@ -198,12 +198,10 @@ define nari = Character(_('Нари'),
 
 # --- Вспомогательные и Сюжетные ---
 
-    # --- Семья и Опекуны ---
-
+# --- Семья и Опекуны ---
 define father = Character(_('Папа'), kind=base, color=c_father)
 
-    # --- Гелиос и Цюрих ---
-
+# --- Гелиос и Цюрих ---
 define hans = Character(_('Ханс'), kind=base, image="hans", color=c_hans, cb_name="hans")
 define anna = Character(_('Анна'), kind=base, image="anna", color=c_anna, cb_name="anna")
 define sophie = Character(_('Софи'), kind=base, image="sophie", color=c_sophie, cb_name="sophie")
@@ -213,24 +211,24 @@ define cro = Character(_('Д-р Грубенманн'), kind=base, image="cro_bo
 
 define headteacher = Character(_('Завуч'), kind=base, image="headteacher", color=c_headteach)
 
-    # --- Веритас-сити ---
-
+# --- Веритас-сити ---
 define meryl = Character(_('Мэрил Кендрик'), kind=base, image="meryl", color=c_meryl, cb_name="meryl")
 define akari = Character(_('Учительница Акари'), kind=base, image="akari", color=c_akari, cb_name="akari")
 define kai = Character(_('Кай'), kind=base, image="kai", color=c_kai, cb_name="kai")
 define illusion = Character(_('Сущность'), kind=base, image="ilusion", color=c_nari, cb_name="ilusion")
 
 
-        # --- Студенты ---
+# --- Студенты ---
 define student1 = Character(_('Студентка 1'), kind=base, image="amy", color=c_student1, cb_name="amy")
 define amy = Character(_('Эми'), kind=base, image="amy", color=c_student1, cb_name="amy")
 
 define student2 = Character(_('Студентка 2'), kind=base, image="carol", color=c_student2, cb_name="carol")
 define carol = Character(_('Кэрол'), kind=base, image="carol", color=c_student2, cb_name="carol")
-define mika = Character(_('Мика'), kind=base, image="mika", color=c_student3, cb_name="mika")
 
-    # --- Аномик ---
+default mika_display_name = "Мика"
+define mika = Character(_("[mika_display_name!t]"), kind=base, image="mika", color=c_student3, cb_name="mika")
 
+# --- Аномик ---
 define guts = Character(_('Гатс'), kind=base, image="guts", color=c_guts, what_slow_cps_multiplier=0.70, cb_name="guts")
 define rico = Character(_('Рико'), kind=base, color=c_rico)
 define boss = Character(_('Босс'), kind=base, color=c_boss)

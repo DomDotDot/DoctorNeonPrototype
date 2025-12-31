@@ -109,12 +109,6 @@ translate english_us chapter4_5_akari_arrest_33f143eb:
     narrator "In her gaze was pure, concentrated disgust. As if I, a miserable insect, had just ruined her grand design."
 
 # game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:62
-translate english_us chapter4_5_akari_arrest_8248ff02:
-
-    # narrator "Дверь за ними захлопнулась. Я осталась с Мэрил и рыдающей на полу Лили.\""
-    narrator "The door slammed behind them. I was left with Meryl and Lily sobbing on the floor.\""
-
-# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:62
 translate english_us chapter4_5_akari_arrest_7210f3df:
 
     # narrator "Я осторожно подошла к ней."
@@ -514,4 +508,17 @@ translate english_us chapter4_5_akari_arrest_2b9e7add:
 translate english_us chapter4_5_akari_arrest_fa7feaad_1:
 
     # narrator "Она засияла. Впервые я увидела на ее лице ту самую улыбку с фотографии Аргона. Чистую и счастливую."
-    narrator "She beamed. For the first time, I saw that same smile from Argon's photo on her face. Pure and happy."
+    narrator "She beamed. For the first time, I saw that same smile from Argon's photo on her face. Pure and happy."# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:62
+translate english_us chapter4_5_akari_arrest_778bf013:
+
+    # narrator "Дверь за ними захлопнулась. Я осталась с Мэрил и рыдающей на полу Лили."
+    narrator "The door slammed behind them. I was left with Meryl and Lily sobbing on the floor."
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:212
+translate english_us chapter4_5_akari_arrest_1fec82bc:
+
+    # narrator "Неон хватает Лили за рукав, глаза все еще блестят от слез, но в них уже появляется огонек."
+    narrator "Neon grabs Lily by the sleeve, eyes still glistening with tears, but a spark is already appearing in them."
+

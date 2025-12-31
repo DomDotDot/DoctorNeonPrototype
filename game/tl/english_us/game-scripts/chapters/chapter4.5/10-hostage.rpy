@@ -390,11 +390,6 @@ translate english_us chapter4_5_awakening_and_finale_9bf3d2ad:
     # seraphina "Ты ранена?"
     seraphina "Are you hurt?"
 
-# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:183
-translate english_us chapter4_5_awakening_and_finale_b17f149e:
-
-    # seraphina "Я... я помогу тебе!\""
-    seraphina "I... I'll help you!\""
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:191
 translate english_us chapter4_5_awakening_and_finale_08f1bb05:
@@ -1012,7 +1007,7 @@ translate english_us chapter4_5_awakening_and_finale_4670fa76:
 translate english_us chapter4_5_awakening_and_finale_588255a9:
 
     # narrator "Затем — лицо."
-    narrator "Then—the face."
+    narrator "Then, the face."
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:472
 translate english_us chapter4_5_awakening_and_finale_8648edb6:
@@ -1024,7 +1019,7 @@ translate english_us chapter4_5_awakening_and_finale_8648edb6:
 translate english_us chapter4_5_awakening_and_finale_1f1f7f9b:
 
     # narrator "И, наконец, — тело."
-    narrator "And finally—the body."
+    narrator "And finally, the body."
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:472
 translate english_us chapter4_5_awakening_and_finale_9c077741:
@@ -1090,7 +1085,7 @@ translate english_us chapter4_5_awakening_and_finale_6270f84c:
 translate english_us chapter4_5_awakening_and_finale_292f8e58:
 
     # narrator "Она посмеялась, ее голос снова принадлежит ей — холодной, уверенной королеве, глядя прямо в глаза Аргону."
-    narrator "She laughed, her voice belonging to her again—a cold, confident queen, looking straight into Argon's eyes."
+    narrator "She laughed, her voice belonging to her again. A cold, confident queen, looking straight into Argon's eyes."
 
 # game/game-scripts/chapters/chapter4.5/10-hostage.rpy:512
 translate english_us chapter4_5_awakening_and_finale_a292a859:
@@ -1108,4 +1103,19 @@ translate english_us chapter4_5_awakening_and_finale_e476c5b6:
 translate english_us chapter4_5_awakening_and_finale_6b8810f5:
 
     # seraphina "Хочешь проверить, как быстро она истечет кровью? Или дашь нам уйти?"
-    seraphina "Want to see how fast she bleeds out? Or will you let us go?"
+    seraphina "Want to see how fast she bleeds out? Or will you let us go?"# TODO: Translation updated at 2025-12-29 15:40
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:472
+translate english_us chapter4_5_awakening_and_finale_550dd4cb:
+
+    # narrator "Это было медленно, методично и страшно."
+    narrator "It was slow, methodical, and terrifying."
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:183
+translate english_us chapter4_5_awakening_and_finale_45bf63cb:
+
+    # seraphina "Я... я помогу тебе!"
+    seraphina "I... I'll help you!"
+

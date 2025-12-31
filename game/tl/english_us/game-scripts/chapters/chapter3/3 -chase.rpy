@@ -82,19 +82,19 @@ translate english_us ch3_chase_start_1a50ab86:
 translate english_us ch3_bouncer_success_dd0076cc:
 
     # "Вышибала" "Ну ладно... черт с тобой."
-    "Вышибала" "Alright... to hell with you."
+    "Bouncer" "Alright... to hell with you."
 
 # game/game-scripts/chapters/chapter3/3 -chase.rpy:56
 translate english_us ch3_bouncer_success_1d83cd49:
 
     # "Вышибала" "Надеюсь, ты уяснила, что так делать не стоит."
-    "Вышибала" "I hope you've learned your lesson."
+    "Bouncer" "I hope you've learned your lesson."
 
 # game/game-scripts/chapters/chapter3/3 -chase.rpy:56
 translate english_us ch3_bouncer_success_11507ea5:
 
     # "Вышибала" "А иначе ты будешь как этот шкаф."
-    "Вышибала" "Otherwise, you'll end up like this cabinet."
+    "Bouncer" "Otherwise, you'll end up like this cabinet."
 
 # game/game-scripts/chapters/chapter3/3 -chase.rpy:65
 translate english_us ch3_bouncer_success_70b1b8c0:
@@ -112,7 +112,7 @@ translate english_us ch3_bouncer_success_5c0414d4:
 translate english_us game_over_bouncer_639a530b:
 
     # "Вышибала" "Попалась." with vpunch
-    "Вышибала" "Gotcha." with vpunch
+    "Bouncer" "Gotcha." with vpunch
 
 translate english_us strings:
 

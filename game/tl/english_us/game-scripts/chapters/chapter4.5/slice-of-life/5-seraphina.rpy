@@ -241,12 +241,6 @@ translate english_us chapter4_5_seraphina_flashback_448dab55:
     narrator "Chasing her love, I became the thing that terrified her. I lost her. Completely."
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:116
-translate english_us chapter4_5_seraphina_flashback_bb4559ef:
-
-    # narrator "Мир вокруг начал рассыпаться. Моя новая \"идеальная\" жизнь превратилась в руины за одну секунду."
-    narrator "The world around me began to crumble. My new \"perfect\" life turned into ruins in a single second."
-
-# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:116
 translate english_us chapter4_5_seraphina_flashback_c710d3cf:
 
     # narrator "И в этой звенящей пустоте, в моей расколотой голове, раздался знакомый, ехидный шепот."
@@ -382,4 +376,11 @@ translate english_us chapter4_5_seraphina_flashback_a3ecefdb:
 translate english_us chapter4_5_seraphina_flashback_549f299f:
 
     # "Сущность" "Ты и есть - Серафина."
-    "Spirit" "You are Seraphina."
+    "Spirit" "You are Seraphina."# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:116
+translate english_us chapter4_5_seraphina_flashback_7f1c08c3:
+
+    # narrator "Мир вокруг начал рассыпаться. Моя новая 'идеальная' жизнь превратилась в руины за одну секунду."
+    narrator "The world around me began to crumble. My new 'perfect' life turned into ruins in a single second."
+

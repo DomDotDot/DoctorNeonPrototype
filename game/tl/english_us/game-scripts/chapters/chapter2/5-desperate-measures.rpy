@@ -172,7 +172,7 @@ translate english_us chapter2_act4_desperate_measures_2ef65582:
 translate english_us chapter2_act4_desperate_measures_d97f8169:
 
     # "Бармен" "Да что с тобой такое, кусок хлама?! Работай! Блин, зарядки мало что-ли??..."
-    "Бармен" "What the hell is wrong with you, you piece of junk?! Work! Dammit, is the battery low or something??..."
+    "Bartender" "What the hell is wrong with you, you piece of junk?! Work! Dammit, is the battery low or something??..."
 
 # game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:73
 translate english_us chapter2_act4_desperate_measures_1a259600:
@@ -280,7 +280,7 @@ translate english_us chapter2_act4_desperate_measures_4a71b55d:
 translate english_us chapter2_act4_desperate_measures_5daf2a38:
 
     # "Бармен" "Да что за день сегодня?!"
-    "Бармен" "What a day!"
+    "Bartender" "What a day!"
 
 # game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:115
 translate english_us chapter2_act4_desperate_measures_c172e34d:

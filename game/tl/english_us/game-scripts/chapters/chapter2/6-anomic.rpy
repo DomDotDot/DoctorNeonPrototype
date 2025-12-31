@@ -40,7 +40,7 @@ translate english_us chapter2_act5_journey_to_anomic_8542aea4:
 translate english_us chapter2_act5_journey_to_anomic_7cec90dc:
 
     # "Водитель" "Ого, Гатс! А ты не говорил, что у нас пополнение в виде горячей ученой дамочки. Такое только в моих самых смелых фантазиях..."
-    "Водитель" "Whoa, Guts! You didn't tell me our new recruit was a hot scientist chick. This is like something out of my wildest dreams..."
+    "Driver" "Whoa, Guts! You didn't tell me our new recruit was a hot scientist chick. This is like something out of my wildest dreams..."
 
 # game/game-scripts/chapters/chapter2/6-anomic.rpy:25
 translate english_us chapter2_act5_journey_to_anomic_c3e41388:

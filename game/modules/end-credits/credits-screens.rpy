@@ -80,8 +80,6 @@ screen end_credits(credits_list, slideshow_obj, track_duration, end_msg_offset):
     key "dismiss" action Return("skipped")
     
     timer track_duration action Return("finished")
-
-    # --- ФОН ---
     add "#000"
 
     # --- ТЕКСТ ТИТРОВ (СЛЕВА) ---
@@ -128,14 +126,14 @@ screen end_credits(credits_list, slideshow_obj, track_duration, end_msg_offset):
 
     # --- ФИНАЛЬНАЯ НАДПИСЬ ---
     # Появляется за end_msg_offset секунд до конца
-    text "И тебе. Спасибо за игру!" at thanks_appear(track_duration - end_msg_offset):
+    text _("И тебе. Спасибо за игру!") at thanks_appear(track_duration - end_msg_offset):
         xalign 0.5
         yalign 0.9
         size 40
         color "#fff"
     
     # --- ИНСТРУКЦИЯ ПО ПРОПУСКУ ---
-    text "Нажмите Пробел или Клик для пропуска" :
+    text _("Нажмите Пробел или Клик для пропуска") :
         yalign 0.95
         xalign 0.5
         size 15

@@ -21,7 +21,7 @@ label dream_sequence_japan_4:
 
     scene 7a-cg-1 at heat_haze with Dissolve(1.0)
 
-    play ambient "ambient/house_burn.mp3" volume 0.175 fadein 3.0
+    play ambient "ambient/house_burn.opus" volume 0.175 fadein 3.0
     
     narrator """
         Ночь. Мой дом горит.

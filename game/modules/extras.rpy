@@ -125,7 +125,7 @@ screen content_warning_screen():
                 xalign 0.5
                 action ToggleField(persistent, "sensitive_mode")
 
-                # activate_sound "audio/click.ogg" 
+                # activate_sound "audio/click.opus" 
 
                 background Solid("#222")
                 hover_background Solid("#444")

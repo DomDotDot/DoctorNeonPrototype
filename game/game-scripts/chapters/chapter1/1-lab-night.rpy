@@ -53,7 +53,7 @@ label chapter1_lab_night:
         neon "Марк. Я же сказала, что занята. Мне не нужна помощь с отчетами. Иди отдыхать."
         
         marcus """
-        Я знаю, знаю. Я не за этим. ы здесь уже которую ночь подряд. Совсем без сна."
+        Я знаю, знаю. Я не за этим. Вы здесь уже которую ночь подряд. Совсем без сна.
         
         Просто... я спустился к автомату в административном крыле. Там зерна лучше, чем у нас.
         
@@ -100,7 +100,7 @@ label chapter1_lab_night:
 
         neon "{=thoughts}Неплохо. Хоть на что-то он сгодился.{/thoughts}"
 
-        # play sound "sfx/drinking_sip.mp3"
+        # play sound "sfx/drinking_sip.opus"
 
         narrator """
         Она сделала еще один глоток, побольше. Затем поставила стаканчик на стол, рядом с клавиатурой, и снова уставилась в монитор.
@@ -199,7 +199,7 @@ label chapter1_lab_night:
         """
 
         # Звуки лаборатории резко приглушаются (Lowpass filter)
-        # play music "music/BGM/Celestia_Piano_Theme_Muffled.ogg" fadein 2.0 volume 0.5
+        # play music "music/BGM/Celestia_Piano_Theme_Muffled.opus" fadein 2.0 volume 0.5
         
         narrator """
         Внешний мир исчез. Осталась только мелодия.
@@ -225,7 +225,7 @@ label chapter1_lab_night:
         Поток данных на экране выровнялся, синхронизируясь с ритмом фортепиано в её ушах.
         """
 
-        # play sound "sfx/typing_rhythmic.ogg" loop
+        # play sound "sfx/typing_rhythmic.opus" loop
 
         neon "{=thoughts}Это не просто излучение пульсара. Слишком структурировано. Слишком... тепло.{/thoughts}"
 
@@ -250,7 +250,7 @@ label chapter1_lab_night:
         """
 
         # Музыка становится громче, чище
-        # play music "music/BGM/Celestia_Piano_Theme_Clear.ogg" fadein 5.0 volume 1.0
+        # play music "music/BGM/Celestia_Piano_Theme_Clear.opus" fadein 5.0 volume 1.0
 
         "Голос (в голове)" "{=whisper}...я здесь...{/whisper}"
 

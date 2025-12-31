@@ -70,13 +70,13 @@ translate english_us chapter2_act2_long_night_b9c007b7:
 translate english_us chapter2_act2_long_night_8df62a3e:
 
     # "Диктор" "(Голос из радио, чуть искаженный помехами) ...и к главным новостям этого часа."
-    "Диктор" "(Voice from the radio, slightly distorted by static) ...and now for the top story of the hour."
+    "Announcer" "(Voice from the radio, slightly distorted by static) ...and now for the top story of the hour."
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:33
 translate english_us chapter2_act2_long_night_fd41477b:
 
     # "Диктор" "Сегодня вечером в высокогорном исследовательском комплексе 'Гелиос' произошло чрезвычайное происшествие. По предварительным данным, совершено нападение на одного из ведущих ассистентов проекта."
-    "Диктор" "This evening, an incident occurred at the high-altitude 'Helios' research complex. According to preliminary reports, an attack was carried out on one of the project's lead assistants."
+    "Announcer" "This evening, an incident occurred at the high-altitude 'Helios' research complex. According to preliminary reports, an attack was carried out on one of the project's lead assistants."
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:39
 translate english_us chapter2_act2_long_night_4ede2f99:
@@ -88,7 +88,7 @@ translate english_us chapter2_act2_long_night_4ede2f99:
 translate english_us chapter2_act2_long_night_d3120416:
 
     # "Диктор" "Состояние пострадавшего оценивается как критическое. В нападении подозревается сотрудница комплекса, доктор Неон..."
-    "Диктор" "The victim is reported to be in critical condition. The suspect in the attack is a facility employee, Dr. Neon..."
+    "Announcer" "The victim is reported to be in critical condition. The suspect in the attack is a facility employee, Dr. Neon..."
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:41
 translate english_us chapter2_act2_long_night_3870f70a:
@@ -100,19 +100,19 @@ translate english_us chapter2_act2_long_night_3870f70a:
 translate english_us chapter2_act2_long_night_3e72cdfe:
 
     # "Диктор" "...которой удалось скрыться с места преступления на автомобиле Mazda красного цвета."
-    "Диктор" "...who managed to flee the scene in a red Mazda."
+    "Announcer" "...who managed to flee the scene in a red Mazda."
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:43
 translate english_us chapter2_act2_long_night_a1e0d92c:
 
     # "Диктор" "Полиция кантона распространила фоторобот подозреваемой, составленный по записям с камер наблюдения."
-    "Диктор" "The cantonal police have released a composite sketch of the suspect, compiled from surveillance footage."
+    "Announcer" "The cantonal police have released a composite sketch of the suspect, compiled from surveillance footage."
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:43
 translate english_us chapter2_act2_long_night_b18f29d7:
 
     # "Диктор" "Граждан просят проявлять бдительность и при обнаружении подозреваемой немедленно сообщать в правоохранительные органы."
-    "Диктор" "The public is urged to be vigilant and to report any sightings of the suspect to law enforcement immediately."
+    "Announcer" "The public is urged to be vigilant and to report any sightings of the suspect to law enforcement immediately."
 
 # game/game-scripts/chapters/chapter2/2-long-night.rpy:51
 translate english_us chapter2_act2_long_night_6e344877:

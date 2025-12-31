@@ -28,19 +28,19 @@ translate english_us ch3_left_wing_thug_talk_ed4221cb:
 translate english_us ch3_left_wing_thug_talk_c56b98ea:
 
     # "Бандит 1" "...жалко мне его все-таки. Зверь, конечно, но... с дочкой такое."
-    "Бандит 1" "...still feel sorry for him, though. He's a beast, sure, but... what happened with his daughter."
+    "Bandit A" "...still feel sorry for him, though. He's a beast, sure, but... what happened with his daughter."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:22
 translate english_us ch3_left_wing_thug_talk_ce8dfbcb:
 
     # "Бандит 2" "Да уж, туман этот... не щадит никого. Говорят, она в коме. Он все деньги спускает на 'Сон', чтобы хоть как-то ее поддержать."
-    "Бандит 2" "Yeah, that Fog... doesn't spare anyone. They say she's in a coma. He blows all his money on 'Dream' just to keep her stable."
+    "Bandit B" "Yeah, that Fog... doesn't spare anyone. They say she's in a coma. He blows all his money on 'Dream' just to keep her stable."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:23
 translate english_us ch3_left_wing_thug_talk_fa6f7c3b:
 
     # "Бандит 1" "Потому и вкалывает на Гатса. Думает, накопит и свалит с ней куда-нибудь. Наивный."
-    "Бандит 1" "That's why he's slaving away for Guts. Thinks he'll save up and get her out of here. Naive."
+    "Bandit A" "That's why he's slaving away for Guts. Thinks he'll save up and get her out of here. Naive."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:24
 translate english_us ch3_left_wing_thug_talk_dc8d6103:
@@ -70,37 +70,37 @@ translate english_us ch3_left_wing_thug_talk_b61e0412:
 translate english_us ch3_left_wing_thug_talk_3a17fd1a:
 
     # "Бандит 1" "...и смотри, когда солнце поднимется выше, на улицу ни ногой. Босс предупредил, сегодня туман будет злой. Ветер с равнин, говорят, поднимет всю дрянь наверх. Держитесь подальше от южных окраин, там уже дышать нечем."
-    "Бандит 1" "...and look, when the sun gets higher, don't you step a foot outside. Boss said the Fog's gonna be nasty today. They say the wind from the valleys will blow all that junk up. Stay away from the southern outskirts, nothing to breathe there anymore."
+    "Bandit A" "...and look, when the sun gets higher, don't you step a foot outside. Boss said the Fog's gonna be nasty today. They say the wind from the valleys will blow all that junk up. Stay away from the southern outskirts, nothing to breathe there anymore."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:42
 translate english_us ch3_left_wing_thug_talk_79a79e82:
 
     # "Бандит 2" "Да знаю я. В прошлый раз надышался этой дрянью, потом неделю черным кашлял. Говорят, от него вообще крыша едет, если долго дышать."
-    "Бандит 2" "Yeah, I know. Last time I breathed that crap in, I was coughing up black stuff for a week. They say it makes you go crazy if you're in it for too long."
+    "Bandit B" "Yeah, I know. Last time I breathed that crap in, I was coughing up black stuff for a week. They say it makes you go crazy if you're in it for too long."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:43
 translate english_us ch3_left_wing_thug_talk_3a9288ba:
 
     # "Бандит 1" "Не то слово. Эта вонь... она тебя изнутри выжигает."
-    "Бандит 1" "You're telling me. That stench... it burns you from the inside out."
+    "Bandit A" "You're telling me. That stench... it burns you from the inside out."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:44
 translate english_us ch3_left_wing_thug_talk_feafd659:
 
     # "Бандит 2" "Эх, вот бы свалить отсюда... в Веритас-Сити. Говорят, там воздух чистый как слеза. И работа есть."
-    "Бандит 2" "Man, I wish I could get out of here... go to Veritas City. They say the air there is clean as a whistle. And there's work."
+    "Bandit B" "Man, I wish I could get out of here... go to Veritas City. They say the air there is clean as a whistle. And there's work."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:45
 translate english_us ch3_left_wing_thug_talk_7aff2933:
 
     # "Бандит 1" "Ага, свалить. Ты хоть знаешь, что там творится? Там за украденную шоколадку пальцы ломают."
-    "Бандит 1" "Yeah, 'get out.' You even know what goes on there? They break your fingers for stealing a candy bar."
+    "Bandit A" "Yeah, 'get out.' You even know what goes on there? They break your fingers for stealing a candy bar."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:45
 translate english_us ch3_left_wing_thug_talk_7f26f625:
 
     # "Бандит 1" "Порядок, конечно, идеальный, но шаг влево, шаг вправо – и ты в тюрьме. Не для таких, как мы, короче."
-    "Бандит 1" "Sure, it's perfectly orderly, but one step out of line and you're in jail. Not for people like us, basically."
+    "Bandit A" "Sure, it's perfectly orderly, but one step out of line and you're in jail. Not for people like us, basically."
 
 # game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:50
 translate english_us ch3_left_wing_thug_talk_6fce0609:

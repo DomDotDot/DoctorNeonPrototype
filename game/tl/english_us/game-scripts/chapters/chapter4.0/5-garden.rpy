@@ -184,7 +184,7 @@ translate english_us chapter4_0_garden_dialogue_4be18442:
 translate english_us chapter4_0_garden_dialogue_e939b3c6:
 
     # "Девушка" "Ой! Кто здесь? Напугали!"
-    "Девушка" "Oh! Who's there? You scared me!"
+    "Girl" "Oh! Who's there? You scared me!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:112
 translate english_us chapter4_0_garden_dialogue_79569140:
@@ -214,7 +214,7 @@ translate english_us chapter4_0_garden_dialogue_305b4756:
 translate english_us chapter4_0_garden_dialogue_affee45c:
 
     # "Девушка" "Ты меня не знаешь?! Я — Серафина!"
-    "Девушка" "You don't know me?! I'm Seraphina!"
+    "Girl" "You don't know me?! I'm Seraphina!"
 
 # game/game-scripts/chapters/chapter4.0/5-garden.rpy:126
 translate english_us chapter4_0_garden_dialogue_260c3ea1:

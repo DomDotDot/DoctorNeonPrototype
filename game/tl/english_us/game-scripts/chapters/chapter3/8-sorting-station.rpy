@@ -124,7 +124,7 @@ translate english_us chapter3_the_heist_start_17ba506e:
 translate english_us chapter3_the_heist_start_9d2d4811:
 
     # "Командир Охраны" "Стоять! Охрана станции! Бросай оружие!"
-    "Командир Охраны" "Freeze! Station security! Drop your weapons!"
+    "Commander" "Freeze! Station security! Drop your weapons!"
 
 # game/game-scripts/chapters/chapter3/8-sorting-station.rpy:57
 translate english_us chapter3_the_heist_start_2d1a8644:
@@ -310,7 +310,7 @@ translate english_us chapter3_revelation_ad628d6b:
 translate english_us chapter3_revelation_466c6969:
 
     # "Капитан Охраны" "Стоять! Руки за голову! На землю, живо!"
-    "Капитан Охраны" "Freeze! Hands on your head! On the ground, now!"
+    "Commander" "Freeze! Hands on your head! On the ground, now!"
 
 # game/game-scripts/chapters/chapter3/8-sorting-station.rpy:151
 translate english_us chapter3_revelation_675a57fd:
@@ -376,7 +376,7 @@ translate english_us chapter3_revelation_72edf282:
 translate english_us chapter3_revelation_9331cbd5:
 
     # "Капитан Охраны" "Что за...?"
-    "Капитан Охраны" "What the...?"
+    "Commander" "What the...?"
 
 # game/game-scripts/chapters/chapter3/8-sorting-station.rpy:183
 translate english_us chapter3_revelation_8b8aa8ef:
@@ -418,19 +418,19 @@ translate english_us chapter3_revelation_0770b755:
 translate english_us chapter3_revelation_85f504e0:
 
     # "Капитан Охраны" "Это не те, кого мы ищем."
-    "Капитан Охраны" "These aren't the ones we're looking for."
+    "Commander" "These aren't the ones we're looking for."
 
 # game/game-scripts/chapters/chapter3/8-sorting-station.rpy:200
 translate english_us chapter3_revelation_9e8d86b1:
 
     # "Капитан Охраны" "Они ушли на север! Все за мной!"
-    "Капитан Охраны" "They went north! Everyone, with me!"
+    "Commander" "They went north! Everyone, with me!"
 
 # game/game-scripts/chapters/chapter3/8-sorting-station.rpy:200
 translate english_us chapter3_revelation_1a5328f7:
 
     # "Капитан Охраны" "Бегом, мы должны их догнать! Немедленно! Это ваш приказ!"
-    "Капитан Охраны" "Let's go, we have to catch them! Immediately! That is your order!"
+    "Commander" "Let's go, we have to catch them! Immediately! That is your order!"
 
 # game/game-scripts/chapters/chapter3/8-sorting-station.rpy:208
 translate english_us chapter3_revelation_f892d18f:

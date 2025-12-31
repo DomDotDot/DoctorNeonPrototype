@@ -124,7 +124,7 @@ translate english_us chapter4_5_concert_start_d51a7dce:
 translate english_us chapter4_5_concert_start_2b932813:
 
     # "Охранник" "Билеты и ID, пожалуйста. Личные вещи на сканер."
-    "Охранник" "Tickets and ID, please. Personal items on the scanner."
+    "Guard" "Tickets and ID, please. Personal items on the scanner."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
 translate english_us chapter4_5_concert_start_6ded5656:
@@ -132,11 +132,6 @@ translate english_us chapter4_5_concert_start_6ded5656:
     # narrator "Когда подошла моя очередь, охранник безэмоционально просканировал билет, который дала мне Серафина. Зеленый огонек."
     narrator "When it was my turn, the guard emotionlessly scanned the ticket Seraphina gave me. Green light."
 
-# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
-translate english_us chapter4_5_concert_start_07cca2e1:
-
-    # narrator "Процедура была до боли знакома — почти такая же, как на входе в \"Гелиос\". Но тогда я была сотрудником, частью системы."
-    narrator "The procedure was painfully familiar — almost the same as entering \"Helios\". But back then I was an employee, part of the system."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
 translate english_us chapter4_5_concert_start_a475d96d:
@@ -274,7 +269,7 @@ translate english_us chapter4_5_concert_start_8bfb19ce:
 translate english_us chapter4_5_concert_start_dfc85e90:
 
     # narrator "В дальнем конце возвышалась сцена. Она была темной, но я видела, как в полумраке движутся фигуры, настраивая что-то."
-    narrator "В дальнем конце возвышалась сцена. Она была темной, но я видела, как в полумраке движутся фигуры, настраивая что-то."
+    narrator "At the far end stood the stage. It was dark, but I could see figures moving in the dim light, setting something up."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:134
 translate english_us chapter4_5_concert_start_70ce171d:
@@ -448,7 +443,7 @@ translate english_us chapter4_5_concert_start_364ab9e6:
 translate english_us chapter4_5_concert_start_57ea7d18:
 
     # narrator "Но чем дольше я смотрела на этот качающийся розовый маятник толпы, тем сильнее мне казалось, что этот гул — это и есть тот сигнал, который управляет их руками…"
-    narrator "Но чем дольше я смотрела на этот качающийся розовый маятник толпы, тем сильнее мне казалось, что этот гул — это и есть тот сигнал, который управляет их руками…"
+    narrator "But the longer I watched that swinging pink pendulum of the crowd, the more it seemed to me that this hum was the very signal controlling their hands..."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:212
 translate english_us chapter4_5_concert_start_cccea385:
@@ -592,7 +587,7 @@ translate english_us chapter4_5_concert_start_83eac0ef:
 translate english_us chapter4_5_concert_start_351f170a:
 
     # seraphina "А всех остальных — увидимся на Комик-Коне Веритаса в следующем месяце, я готовлю для вас кое-что невероятное! Помните, ваше присутствие — это ваша любовь! Люблю вас!"
-    seraphina "А всех остальных — увидимся на Комик-Коне Веритаса в следующем месяце, я готовлю для вас кое-что невероятное! Помните, ваше присутствие — это ваша любовь! Люблю вас!"
+    seraphina ""
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:305
 translate english_us chapter4_5_concert_start_41519bef:
@@ -672,11 +667,6 @@ translate english_us chapter4_5_concert_start_9683b9fe:
     # narrator "Я достала из кармана телефон, протянув в руку... ей."
     narrator "I took the phone out of my pocket, handing it to... her."
 
-# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:344
-translate english_us chapter4_5_concert_start_ce6f1bb0:
-
-    # narrator "До сих пор не знакомой мне по имени девушке.\""
-    narrator "A girl whose name I still didn't know."
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:344
 translate english_us chapter4_5_concert_start_b89dbf8f:
@@ -785,4 +775,38 @@ translate english_us chapter4_5_concert_start_5b89c116:
 
     # narrator "Я встала с кресла, с печальным выдохом. Моя часть этого шоу закончилась. Начиналась ее."
     narrator "I got up from the seat with a sad sigh. My part of this show was over. Hers was just beginning."
+
+# TODO: Translation updated at 2025-12-30 04:46
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
+translate english_us chapter4_5_concert_start_9e67fc34:
+
+    # seraphina "А всем остальным — увидимся на Комик-Коне Веритаса 2042 в следующем месяце!"
+    seraphina "And... to everyone else... Let's meet at Veritas 2042 Comic-Con next month!"
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
+translate english_us chapter4_5_concert_start_09df2e90:
+
+    # seraphina "Я готовлю для вас кое-что невероятное!"
+    seraphina "I'm preparing something really awesome for all of you!"
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:295
+translate english_us chapter4_5_concert_start_269381df:
+
+    # seraphina "Помните, ваше присутствие — это ваша любовь! Люблю вас!"
+    seraphina "Remember, your presence is your way of showing love! I'm sending you lots of love!"
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:62
+translate english_us chapter4_5_concert_start_e3b04a56:
+
+    # narrator "Процедура была до боли знакома — почти такая же, как на входе в 'Гелиос'. Но тогда я была сотрудником, частью системы."
+    narrator "The procedure was painfully familiar — almost the same as entering 'Helios'. But back then I was an employee, part of the system."
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:348
+translate english_us chapter4_5_concert_start_76ebf3fb:
+
+    # narrator "До сих пор не знакомой мне по имени девушке."
+    narrator "A girl whose name I still didn't know."
 

@@ -247,12 +247,6 @@ translate english_us chapter4_0_academy_71cbac44:
     narrator "For the fact that they could just stand in the middle of the street and laugh like that, without looking over their shoulders."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:118
-translate english_us chapter4_0_academy_be041cc7:
-
-    # neon "{=thoughts}Если бы она была здесь, она бы уже подружилась с ними за пять минут. Она умела это делать. Не то что я...\""
-    neon "{=thoughts}If she was here, she'd already be friends with them and would've gotten all the Academy gossip in five minutes. She knew how to connect with people. Unlike me..."
-
-# game/game-scripts/chapters/chapter4.0/3-academy.rpy:118
 translate english_us chapter4_0_academy_c5d1d63b:
 
     # neon "{=thoughts}Но я... я должна просить их о помощи. Я должна попытаться... Возможно, так я могу искупить свою вину перед ней..."
@@ -875,4 +869,12 @@ translate english_us chapter4_0_academy_cf18a530:
 
     # narrator "У меня не было карты. Но у меня была гипотеза. И цель. Я пошла в сторону самых ярких огней, в самый престижный район города. Искать здание с именем моей забытой подруги."
     narrator "I didn't have a map. But I had a hypothesis. And a goal. I started walking toward the brightest lights, toward the most prestigious district in the city. To find the building with my forgotten friend's name on it."
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:118
+translate english_us chapter4_0_academy_00dda589:
+
+    # neon "{=thoughts}Если бы она была здесь, она бы уже подружилась с ними за пять минут. Она умела это делать. Не то что я..."
+    neon "{=thoughts}If she was here, she'd already be friends with them and would've gotten all the Academy gossip in five minutes. She knew how to connect with people. Unlike me..."
 

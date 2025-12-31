@@ -70,7 +70,7 @@ translate english_us chapter4_5_cafe_scene_804eba76:
 translate english_us chapter4_5_cafe_scene_025a823d:
 
     # "Официантка" "Доброе утро! Что будете заказывать?"
-    "Официантка" "Good morning! What can I get for you?"
+    "Waitress" "Good morning! What can I get for you?"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:48
 translate english_us chapter4_5_cafe_scene_7148c915:
@@ -82,7 +82,7 @@ translate english_us chapter4_5_cafe_scene_7148c915:
 translate english_us chapter4_5_cafe_scene_10d9dfd2:
 
     # "Официантка" "Конечно! Наш завтрак — это то, что нужно! Оплата по ID на столике. Взгляните!"
-    "Официантка" "Of course! Our breakfast is exactly what you need! Payment by ID on the table. Take a look!"
+    "Waitress" "Of course! Our breakfast is exactly what you need! Payment by ID on the table. Take a look!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:54
 translate english_us chapter4_5_cafe_scene_4d574c1d:
@@ -124,37 +124,37 @@ translate english_us chapter4_5_cafe_scene_f564f6f4:
 translate english_us chapter4_5_cafe_scene_39f738b9:
 
     # "Студентка А" "Ты видела десерт о котором говорила Она? 'Розовая Небула'! Говорят, он божественный! Мы просто обязаны его попробовать после концерта!"
-    "Студентка А" "Ты видела десерт о котором говорила Она? 'Розовая Небула'! Говорят, он божественный! Мы просто обязаны его попробовать после концерта!"
+    "Female Student А" "Have you seen the dessert She advertised? 'Pink Nebula'! They say it's divine! We absolutely have to try it after the concert!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:76
 translate english_us chapter4_5_cafe_scene_326de81d:
 
     # "Студентка Б" "Обязательно! Я слышала, Она сама участвовала в разработке рецепта. Представляешь, Она такая же сладкоежка, как и мы!"
-    "Студентка Б" "Absolutely! I heard She helped develop the recipe herself. Imagine that, She has a sweet tooth just like us!"
+    "Female Student Б" "Absolutely! I heard She helped develop the recipe herself. Imagine that, She has a sweet tooth just like us!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_b8e28763:
 
     # "Студентка В" "Все девчонки из нашего общежития на него подсели. Клара вчера три порции съела!"
-    "Студентка В" "All the girls in our dorm are hooked on it. Clara ate three servings yesterday!"
+    "Female Student В" "All the girls in our dorm are hooked on it. Clara ate three servings yesterday!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_e0117c8a:
 
     # "Студентка В" "Говорит, помогает ей... э-э... 'сосредоточиться' перед экзаменами."
-    "Студентка В" "Says it helps her... uh... 'focus' before exams."
+    "Female Student В" "Says it helps her... uh... 'focus' before exams."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:78
 translate english_us chapter4_5_cafe_scene_a88485e2:
 
     # "Студентка В" "Странно, конечно. Но ладно."
-    "Студентка В" "Weird, sure. But whatever."
+    "Female Student В" "Weird, sure. But whatever."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:86
 translate english_us chapter4_5_cafe_scene_1d363a8d:
 
     # "Студентка А" "Ха-ха, 'сосредоточиться'! Просто вкусно! Да ладно, кто вообще не любит сладкое?"
-    "Студентка А" "Haha, 'focus'! It's just tasty! Come on, who doesn't love sweets?"
+    "Female Student А" "Haha, 'focus'! It's just tasty! Come on, who doesn't love sweets?"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:88
 translate english_us chapter4_5_cafe_scene_98aceb85:
@@ -178,13 +178,13 @@ translate english_us chapter4_5_cafe_scene_bb89474b:
 translate english_us chapter4_5_cafe_scene_810ccbc0:
 
     # "Официантка" "Ваш 'Галактический завтрак', Сара! Приятного аппетита!"
-    "Официантка" "Your 'Galactic Breakfast', Sarah! Enjoy!"
+    "Waitress" "Your 'Galactic Breakfast', Sarah! Enjoy!"
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
 translate english_us chapter4_5_cafe_scene_e0e71553:
 
     # narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет… Но официантка не уходила."
-    narrator "Мне принесли мой заказ. Горячий, ароматный кофе и огромная тарелка с чем-то, похожим на омлет… Но официантка не уходила."
+    narrator "They brought me my order. Hot, aromatic coffee and a huge plate of something that looked like an omelet... But the waitress didn't leave."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
 translate english_us chapter4_5_cafe_scene_8a588c91:
@@ -196,7 +196,7 @@ translate english_us chapter4_5_cafe_scene_8a588c91:
 translate english_us chapter4_5_cafe_scene_8c7ff9ed:
 
     # "Официантка" "Мы тут посмотрели... Вы, оказывается, наш постоянный клиент! Заглядываете к нам почти каждый день! В честь этого, примите от заведения небольшой комплимент — наш фирменный десерт 'Медовый Астероид'"
-    "Официантка" "We were looking... turns out you're a regular! You pop in almost every day! To celebrate, please accept a little treat on the house — our signature dessert, 'Honey Asteroid'."
+    "Waitress" "We were looking... turns out you're a regular! You pop in almost every day! To celebrate, please accept a little treat on the house — our signature dessert, 'Honey Asteroid'."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:110
 translate english_us chapter4_5_cafe_scene_9c5029d7:
@@ -232,13 +232,13 @@ translate english_us chapter4_5_cafe_scene_f20dbaeb:
 translate english_us chapter4_5_cafe_scene_18d08f76:
 
     # "Официантка" "Вам... не нравится? Это наш хит! Особенно среди студенток."
-    "Официантка" "You... don't like it? It's our hit item! Especially among students."
+    "Waitress" "You... don't like it? It's our hit item! Especially among students."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:124
 translate english_us chapter4_5_cafe_scene_1ddb6c6b:
 
     # neon "{=thoughts}Как и все остальные девушки из Академии..."
-    neon "{=thoughts}Как и все остальные девушки из Академии..."
+    neon "{=thoughts}Just like all the other girls from the Academy..."
 
 # game/game-scripts/chapters/chapter4.5/2-cafe.rpy:126
 translate english_us chapter4_5_cafe_scene_f96905b3:

@@ -306,11 +306,6 @@ translate english_us chapter4_5_epilogue_167e48c5:
     # meryl "Но она была лишь одним из элементов. Есть и другие. И, кажется, вы — одна из немногих Элементов, способных стабилизировать эту реакцию"
     meryl "But she was just one of the elements. There are others. And it seems you are one of the few Elements capable of stabilizing this reaction."
 
-# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:127
-translate english_us chapter4_5_epilogue_1097d4a6:
-
-    # meryl "Не хотите... поработать на нас? Найти остальные элементы?\""
-    meryl "Would you... like to work for us? Find the other elements?\""
 
 # game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:127
 translate english_us chapter4_5_epilogue_de99f25f:
@@ -340,4 +335,11 @@ translate english_us chapter4_5_epilogue_625a06d5:
 translate english_us chapter4_5_epilogue_1d9d47ce:
 
     # meryl "Это предложение, от которого тяжело отказаться."
-    meryl "It's an offer that's hard to refuse."
+    meryl "It's an offer that's hard to refuse."# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:131
+translate english_us chapter4_5_epilogue_d6254776:
+
+    # meryl "Не хотите... поработать на нас? Найти остальные элементы?"
+    meryl "Would you... like to work for us? Find the other elements?"
+

@@ -76,7 +76,7 @@ translate english_us chapter4_0_24syndrome_b63aa27c:
 translate english_us chapter4_0_24syndrome_465e784a:
 
     # "Консьерж" "Добрый вечер. Чем могу помочь?"
-    "Консьерж" "Good evening. How may I help you?"
+    "Concierge" "Good evening. How may I help you?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:41
 translate english_us chapter4_0_24syndrome_0fcb9f19:
@@ -94,7 +94,7 @@ translate english_us chapter4_0_24syndrome_a0b3b857:
 translate english_us chapter4_0_24syndrome_8d48b5bf:
 
     # "Консьерж" "Эта информация является конфиденциальной. Прошу вас покинуть помещение."
-    "Консьерж" "That information is confidential. I must ask you to leave the premises."
+    "Concierge" "That information is confidential. I must ask you to leave the premises."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:46
 translate english_us chapter4_0_24syndrome_a7237bf3:
@@ -162,11 +162,6 @@ translate english_us chapter4_0_24syndrome_4e25882e:
     # narrator "В голове созрел план. Рискованный, но элегантный."
     narrator "A plan formed in my mind. Risky, but elegant."
 
-# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:68
-translate english_us chapter4_0_24syndrome_7efd21c7:
-
-    # narrator "Я нашла ближайший общественный инфо-терминал. Функция заказа еды. Самый дешевый ресторан, самый дешевый напиток. Адрес: 'The Celeste Plaza'.\""
-    narrator "I found the nearest public info-terminal. Food order function. Cheapest restaurant, cheapest drink. Address: 'The Celeste Plaza'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:68
 translate english_us chapter4_0_24syndrome_22f850cd:
@@ -190,7 +185,7 @@ translate english_us chapter4_0_24syndrome_db810d6e:
 translate english_us chapter4_0_24syndrome_4a9b906d:
 
     # "Курьер" "Доставка для 'Селестия'."
-    "Курьер" "Delivery for 'Celestia'."
+    "Courier" "Delivery for 'Celestia'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:86
 translate english_us chapter4_0_24syndrome_fa82f5f0:
@@ -202,13 +197,13 @@ translate english_us chapter4_0_24syndrome_fa82f5f0:
 translate english_us chapter4_0_24syndrome_44b686a8:
 
     # "Консьерж" "Боже, опять... Скажите своему ресторану, чтобы заблокировали заказы на это имя!"
-    "Консьерж" "God, not again... Tell your restaurant to block orders for this name!"
+    "Concierge" "God, not again... Tell your restaurant to block orders for this name!"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:88
 translate english_us chapter4_0_24syndrome_443abadc:
 
     # "Консьерж" "Это квартира 1703. Оставьте у служебного входа, я сам разберусь."
-    "Консьерж" "It's apartment 1703. Leave it at the service entrance, I'll deal with it."
+    "Concierge" "It's apartment 1703. Leave it at the service entrance, I'll deal with it."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:94
 translate english_us chapter4_0_24syndrome_5053c201:
@@ -232,7 +227,7 @@ translate english_us chapter4_0_24syndrome_5dcbe7db:
 translate english_us chapter4_0_24syndrome_470f83b9:
 
     # "Консьерж" "Алло? Да, это 'The Celeste Plaza'. Да, снова доставка для 'Селестии'."
-    "Консьерж" "Hello? Yes, this is The Celeste Plaza. Yes, another delivery for 'Celestia'."
+    "Concierge" "Hello? Yes, this is The Celeste Plaza. Yes, another delivery for 'Celestia'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:102
 translate english_us chapter4_0_24syndrome_832eaade:
@@ -244,7 +239,7 @@ translate english_us chapter4_0_24syndrome_832eaade:
 translate english_us chapter4_0_24syndrome_0135a645:
 
     # "Консьерж" "Пожалуйста, скажите вашему ресторану, чтобы больше не принимали заказы на это имя. Спасибо"
-    "Консьерж" "Please, tell your restaurant not to accept any more orders under this name. Thank you."
+    "Concierge" "Please, tell your restaurant not to accept any more orders under this name. Thank you."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:104
 translate english_us chapter4_0_24syndrome_3db3ab18:
@@ -388,13 +383,13 @@ translate english_us chapter4_0_24syndrome_3f0236fe:
 translate english_us chapter4_0_24syndrome_ed601de2:
 
     # "Женщина" "Селестия? Опять... Опять вы, фанаты?! Сколько можно?!"
-    "Женщина" "Celestia? Again... Are you fans again?! How many more of you are there?!"
+    "Woman" "Celestia? Again... Are you fans again?! How many more of you are there?!"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:168
 translate english_us chapter4_0_24syndrome_d2fee04b:
 
     # "Женщина" "Ее здесь нет уже два года! Оставьте меня в покое!"
-    "Женщина" "She hasn't been here in two years! Leave me alone!"
+    "Woman" "She hasn't been here in two years! Leave me alone!"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:174
 translate english_us chapter4_0_24syndrome_7700e246:
@@ -430,7 +425,7 @@ translate english_us chapter4_0_24syndrome_a40018e4:
 translate english_us chapter4_0_24syndrome_33820548:
 
     # "Женщина" "Пропала...?"
-    "Женщина" "Missing...?"
+    "Woman" "Missing...?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:191
 translate english_us chapter4_0_24syndrome_dbdd94ec:
@@ -442,7 +437,7 @@ translate english_us chapter4_0_24syndrome_dbdd94ec:
 translate english_us chapter4_0_24syndrome_f0b366e8:
 
     # "Женщина" "Заходите..."
-    "Женщина" "Come in..."
+    "Woman" "Come in..."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:198
 translate english_us chapter4_0_24syndrome_06ae7111:
@@ -472,7 +467,7 @@ translate english_us chapter4_0_24syndrome_c0df9271:
 translate english_us chapter4_0_24syndrome_fa6aa80a:
 
     # "Женщина" "Проходите. Не обращайте внимания на беспорядок. Я... не в настроении убирать."
-    "Женщина" "Come on in. Don't mind the mess. I'm... not in the mood to clean."
+    "Woman" "Come on in. Don't mind the mess. I'm... not in the mood to clean."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:209
 translate english_us chapter4_0_24syndrome_606700a4:
@@ -484,7 +479,7 @@ translate english_us chapter4_0_24syndrome_606700a4:
 translate english_us chapter4_0_24syndrome_5fa37f71:
 
     # "Женщина" "Меня зовут Мэрил Кендрик. А вас?"
-    "Женщина" "My name is Meryl Kendrick. And you are?"
+    "Woman" "My name is Meryl Kendrick. And you are?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:216
 translate english_us chapter4_0_24syndrome_ca03fa78:
@@ -983,4 +978,12 @@ translate english_us chapter4_0_24syndrome_ebf07193:
 
     # narrator "Я найду их всех. Селестия, будто путеводная звезда для меня, приведет меня к ним, и я в этом уверена."
     narrator "I'll find them all. Celestia, like a guiding star, will lead me to them. I'm sure of it."
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:68
+translate english_us chapter4_0_24syndrome_57f7d790:
+
+    # narrator "Я нашла ближайший общественный инфо-терминал. Функция заказа еды. Самый дешевый ресторан, самый дешевый напиток. Адрес: 'The Celeste Plaza'."
+    narrator ""
 

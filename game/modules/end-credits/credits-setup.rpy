@@ -1,10 +1,10 @@
 # Данные для Тома 1
 define credits_vol1 = [
-    ("Сценарий", "DomDot"),
+    (_("Сценарий"), "DomDot"),
 
-    ("Художник", "NanoBanana Pro"),
+    (_("Художник"), "NanoBanana Pro"),
 
-    ("Тестировщик и Вдохновитель", "Overhappy_Avali"),
+    (_("Тестировщик и Вдохновитель"), "Overhappy_Avali"),
 
     ("Музыка", ""),
     ("", "ksho - Purge Protocol"),
@@ -25,10 +25,10 @@ define credits_vol1 = [
     ("", "Intravenous - Initiation (Inactive)"),
     ("", "Avery Alexander - HRT"),
 
-    ("Спецэффекты", "StoryBlocks"),
+    (_("Спецэффекты"), "StoryBlocks"),
 ]
 
-# Данные для Тома 2
+#TODO Данные для Тома 2 (просто заглушка)
 define credits_vol2 = [
     ("Главный сценарист", "-"),
     ("CG Артист", "-"),
@@ -52,7 +52,7 @@ label credits_sequence(volume_id):
         $ cg_time = 3.2 # Каждые сколько секунд менять картинку
         $ fade_time = 1.0 # Время растворения между картинками
     elif volume_id == 2:
-        $ audio_file = "audio/credits_song2.mp3"
+        $ audio_file = "audio/credits_song2.opus"
         $ my_credits = credits_vol2
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol2", featured_prefix="featured_")
         $ duration = 120.0

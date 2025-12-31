@@ -151,3 +151,45 @@ translate english_us strings:
 
     old "Директор"
     new "Director"
+
+    # Перевод для состояния "Незнакомец"
+    old "???"
+    new "???" 
+
+    # Перевод для состояния "Имя узнано"
+    old "Борис"
+    new "Boris"
+
+    # Перевод для состояния "Настоящее имя узнано"
+    old "Аргон"
+    new "Argon"
+
+        # Перевод для состояния "Незнакомец"
+    old "Опекунша"
+    new "Trustee" 
+
+    # Перевод для состояния "Имя узнано"
+    old "Оганесон"
+    new "Oganesson"
+
+    old "Задира"
+    new "Bully"
+
+    old "Задира 1"
+    new "Bully 1"
+
+    old "Задира 2"
+    new "Bully 2"
+
+    old "Мика Китамура"
+    new "Mika Kitamura"
+
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+translate english_us strings:
+
+    # game/modules/characters/characters.rpy:232
+    old "[mika_display_name!t]"
+    new "[mika_display_name!t]"
+

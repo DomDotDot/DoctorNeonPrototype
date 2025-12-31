@@ -63,8 +63,10 @@ label chapter2_act5_journey_to_anomic:
 
                 neon "Это... просто не моя специализация. Я занималась сигналами... их поиском..."
 
-                show neon frightened
-                hide cg-15_2 with fade
+                scene bg chapter_2_anomic-van-inside with fade
+
+                show neon frightened at right with dissolve
+                show guts construction_neutral at left with dissolve
         
                 narrator """
                 Слова вырвались прежде, чем она успела подумать.

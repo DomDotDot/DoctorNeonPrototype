@@ -6,7 +6,7 @@ label secret_scene_vol1:
     show bg chapter_4-5 sewers at walking_zoom(4.0)
     
     # Звук шагов (опционально)
-    # play sound "audio/steps.mp3" loop
+    # play sound "audio/steps.opus" loop
     
     $ renpy.pause(4.0, hard=True)
     
@@ -16,7 +16,7 @@ label secret_scene_vol1:
 
     show featured_12cg-2 at blur_flicker
     
-    # play audio "audio/light_buzz.mp3"
+    # play audio "audio/light_buzz.opus"
     
     $ renpy.pause(3.0, hard=True)
 

@@ -22,7 +22,7 @@ translate english_us chapter4_5_concert_end_cb86da1a:
 translate english_us chapter4_5_concert_end_344be180:
 
     # narrator "Она остановилась у неприметной двери без номера. Она ловко открыла ее ключ-картой…"
-    narrator "Она остановилась у неприметной двери без номера. Она ловко открыла ее ключ-картой…"
+    narrator "She stopped at an inconspicuous, unmarked door. She deftly opened it with a keycard..."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:16
 translate english_us chapter4_5_concert_end_0219eb77:
@@ -71,12 +71,6 @@ translate english_us chapter4_5_concert_end_f43d73aa:
 
     # narrator "Она прислонилась спиной к двери, приложив руку ко лбу."
     narrator "She leaned against the door, hand to her forehead."
-
-# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:45
-translate english_us chapter4_5_concert_end_e51fa80f:
-
-    # narrator "Ее образ \"идеального айдола\" испарился, сменившись преувеличенной, но усталостью."
-    narrator "Her \"perfect idol\" persona evaporated, replaced by exaggerated but visible exhaustion."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:45
 translate english_us chapter4_5_concert_end_47330ab8:
@@ -700,7 +694,7 @@ translate english_us chapter4_5_concert_end_a6846e7d:
 translate english_us chapter4_5_concert_end_3ac99af8:
 
     # narrator "Она тут же поправилась, лицом испуганной девочки, она хватала ртом воздух."
-    narrator "Она тут же поправилась, лицом испуганной девочки, она хватала ртом воздух."
+    narrator "She immediately corrected herself, her face that of a frightened girl, gasping for air."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:347
 translate english_us chapter4_5_concert_end_9c4c832e:
@@ -724,7 +718,7 @@ translate english_us chapter4_5_concert_end_2df96607:
 translate english_us chapter4_5_concert_end_aa35695c:
 
     # seraphina "Ну, то есть, страшно же! Внезапно так!"
-    seraphina "Ну, то есть, страшно же! Внезапно так!"
+    seraphina "Uh... it did scare me! So sudden!"
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:357
 translate english_us chapter4_5_concert_end_aabf56c4:
@@ -766,7 +760,7 @@ translate english_us chapter4_5_concert_end_ed5f7c63:
 translate english_us chapter4_5_concert_end_21319580:
 
     # seraphina looking-down "Чтобы их таланты раскрылись, для общего блага. Под наставничеством, под путеводной звездой."
-    seraphina looking-down "Чтобы их таланты раскрылись, для общего блага. Под наставничеством, под путеводной звездой."
+    seraphina looking-down "So their talents can blossom, for the common good. Under mentorship, under a guiding star."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:375
 translate english_us chapter4_5_concert_end_0a5d0a61:
@@ -994,13 +988,13 @@ translate english_us chapter4_5_concert_end_be5d403d:
 translate english_us chapter4_5_concert_end_b6ad5692:
 
     # seraphina "В гримёрке посидишь, там диван есть."
-    seraphina "В гримёрке посидишь, там диван есть."
+    seraphina "You can sit in the dressing room, there's a sofa."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:461
 translate english_us chapter4_5_concert_end_ebe702be:
 
     # seraphina "А… а потом... ты отдохнешь в моём пентхаусе."
-    seraphina "А… а потом... ты отдохнешь в моём пентхаусе."
+    seraphina "And.. and then... you can rest in my penthouse."
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:469
 translate english_us chapter4_5_concert_end_ff61b748:
@@ -1078,7 +1072,7 @@ translate english_us chapter4_5_concert_end_343e8f3b:
 translate english_us chapter4_5_concert_end_8aa50418:
 
     # seraphina envious5 "Ну скажи же хотя бы что-нибудь!"
-    seraphina envious5 "Ну скажи же хотя бы что-нибудь!"
+    seraphina envious5 "Just say something, damn it!"
 
 # game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:494
 translate english_us chapter4_5_concert_end_b0d7b016:
@@ -1205,4 +1199,12 @@ translate english_us chapter4_5_concert_end_2934381b:
 
     # "???" "Наконец-то..."
     "???" "Finally..."
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:45
+translate english_us chapter4_5_concert_end_589a405a:
+
+    # narrator "Её образ 'идеального айдола' испарился, сменившись преувеличенной, но усталостью."
+    narrator "Her 'perfect idol' persona evaporated, replaced by exaggerated but visible exhaustion."
 

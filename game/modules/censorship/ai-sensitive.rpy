@@ -1,11 +1,9 @@
-# 1. Переменная-переключатель
 default persistent.ai_sensitive_mode = False
 
-# 2. Экран-перехватчик
 screen ai_sensitive_overlay():
     zorder -10
     
-    # Слушаем нажатие клавиши (английская 'H' - Hide)
+    # (английская 'H' - Hide)
 
     key "h" action ToggleField(persistent, "ai_sensitive_mode")
 
@@ -13,7 +11,7 @@ screen ai_sensitive_overlay():
         add Solid("#000000") 
         text "AI SENSITIVE MODE" size 45 color "#333" align (0.99, 0.01)
 
-# 3. Автозапуск экрана
+# Автозапуск экрана
 # Это значит, что Ren'Py будет показывать его всегда, когда идет игровой процесс,
 # но автоматически скроет при выходе в Главное Меню.
 init python:

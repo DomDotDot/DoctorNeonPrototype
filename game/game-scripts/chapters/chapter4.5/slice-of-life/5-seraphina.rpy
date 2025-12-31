@@ -1,7 +1,7 @@
 label chapter4_5_seraphina_flashback:
     
     scene black with Dissolve(0.5)
-    play music "music/BGM/LISTEN.ogg"
+    play music "music/BGM/LISTEN.opus"
     
     narrator """
         И в этот последний миг... я увидела ее глазами.
@@ -23,7 +23,7 @@ label chapter4_5_seraphina_flashback:
         Я сыграю ей. Я покажу ей, что стала лучше. Теперь она меня заметит. Теперь она меня полюбит.
     """
     
-    show lily coat admirationpng at left with dissolve
+    show lily coat admiration at left with dissolve
     show seraphina young worried at right with dissolve
 
     narrator """
@@ -120,7 +120,7 @@ label chapter4_5_seraphina_flashback:
         
         В погоне за её любовью, я стала тем, что её напугало. Я потеряла её. Окончательно.
         
-        Мир вокруг начал рассыпаться. Моя новая "идеальная" жизнь превратилась в руины за одну секунду.
+        Мир вокруг начал рассыпаться. Моя новая 'идеальная' жизнь превратилась в руины за одну секунду.
         
         И в этой звенящей пустоте, в моей расколотой голове, раздался знакомый, ехидный шепот.
     """

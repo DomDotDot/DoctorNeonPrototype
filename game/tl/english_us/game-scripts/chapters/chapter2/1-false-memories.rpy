@@ -298,7 +298,7 @@ translate english_us chapter2_act1_false_memories_d48671b8:
 translate english_us chapter2_act1_false_memories_55d8012a:
 
     # "Навигатор" "Через два километра держитесь правее, затем продолжайте движение по шоссе Е27. Внимание: впереди платный участок дороги и стационарный пост дорожной полиции."
-    "Навигатор" "In two kilometers, keep right, then continue on Highway E27. Warning: Toll section and permanent police checkpoint ahead."
+    "GPS Navigation" "In two kilometers, keep right, then continue on Highway E27. Warning: Toll section and permanent police checkpoint ahead."
 
 # game/game-scripts/chapters/chapter2/1-false-memories.rpy:146
 translate english_us chapter2_act1_false_memories_db52c5a0:
@@ -364,5 +364,5 @@ translate english_us chapter2_act1_false_memories_bdf5ce2d:
 translate english_us chapter2_act1_false_memories_d7f27500:
 
     # "Навигатор" "GPS-сигнал потерян."
-    "Навигатор" "GPS signal lost."
+    "GPS Navigation" "GPS signal lost."
 

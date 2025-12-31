@@ -36,11 +36,6 @@ translate english_us chapter4_5_concert_mid_41aaeb76:
     # narrator "Внутри комплекса было тихо. Звуки моих шагов гулко отдавались в пустом пространстве."
     narrator "Inside the complex, it was quiet. The sound of my footsteps echoed hollowly in the empty space."
 
-# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
-translate english_us chapter4_5_concert_mid_2ab47ed2:
-
-    # narrator "Я прошла по указателям \"Event Hall C\". Здесь было несколько девушек, все они шли в том же направлении, что и я, возбужденно перешептываясь."
-    narrator "I followed the signs to \"Event Hall C\". There were a few girls here, all walking in the same direction as me, whispering excitedly."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
 translate english_us chapter4_5_concert_mid_9a9ab0b1:
@@ -52,7 +47,7 @@ translate english_us chapter4_5_concert_mid_9a9ab0b1:
 translate english_us chapter4_5_concert_mid_0b8b185e:
 
     # "Охранник" "Ваш VIP-пропуск, мэм."
-    "Охранник" "Your VIP pass, ma'am."
+    "Guard" "Your VIP pass, ma'am."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:31
 translate english_us chapter4_5_concert_mid_014e4b30:
@@ -100,7 +95,7 @@ translate english_us chapter4_5_concert_mid_ff5f893c:
 translate english_us chapter4_5_concert_mid_82ef60b7:
 
     # "Охранник" "Понял. Проходите, Неон."
-    "Охранник" "Understood. Go ahead, Neon."
+    "Guard" "Understood. Go ahead, Neon."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:45
 translate english_us chapter4_5_concert_mid_5164c5a6:
@@ -154,7 +149,7 @@ translate english_us chapter4_5_concert_mid_152895fb:
 translate english_us chapter4_5_concert_mid_e622909f:
 
     # narrator "Я подошла к неработающему эскалатору и осторожно спустилась вниз по его ступеням…"
-    narrator "Я подошла к неработающему эскалатору и осторожно спустилась вниз по его ступеням…"
+    narrator "I walked to the non-working escalator and carefully descended the steps…"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:73
 translate english_us chapter4_5_concert_mid_6fa605d3:
@@ -214,7 +209,7 @@ translate english_us chapter4_5_concert_mid_11898d45:
 translate english_us chapter4_5_concert_mid_6d59c5fe:
 
     # "Фанатка 1" "Серафина, ты была просто невероятна! Я плакала на сегодняшнем выступлении!"
-    "Фанатка 1" "Seraphina, you were just incredible! I cried during today's performance!"
+    "Fangirl A" "Seraphina, you were just incredible! I cried during today's performance!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:98
 translate english_us chapter4_5_concert_mid_096900e3:
@@ -226,13 +221,13 @@ translate english_us chapter4_5_concert_mid_096900e3:
 translate english_us chapter4_5_concert_mid_19d4b843:
 
     # "Фанатка 2" "Серафина! А правда, что у тебя скоро будет коллаборация с тем известным дизайнером?"
-    "Фанатка 2" "Seraphina! Is it true you're doing a collab with that famous designer soon?"
+    "Fangirl B" "Seraphina! Is it true you're doing a collab with that famous designer soon?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:103
 translate english_us chapter4_5_concert_mid_a9590910:
 
     # "Фанатка 3" "А какой твой любимый десерт? Мы хотим прислать тебе что-нибудь!"
-    "Фанатка 3" "And what's your favorite dessert? We want to send you something!"
+    "Fangirl C" "And what's your favorite dessert? We want to send you something!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:105
 translate english_us chapter4_5_concert_mid_0a546fd8:
@@ -292,7 +287,7 @@ translate english_us chapter4_5_concert_mid_c5d3aeb5:
 translate english_us chapter4_5_concert_mid_6e54d7c9:
 
     # "Фанатка 4" "Серафина, можно вопрос посерьезнее? Каково это — быть голосом нашего поколения? Чувствуешь ли ты ответственность?"
-    "Фанатка 4" "Seraphina, can I ask a serious question? What's it like—being the voice of our generation? Do you feel the responsibility?"
+    "Fangirl D" "Seraphina, can I ask a serious question? What's it like—being the voice of our generation? Do you feel the responsibility?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:131
 translate english_us chapter4_5_concert_mid_6dc29dd9:
@@ -322,25 +317,25 @@ translate english_us chapter4_5_concert_mid_6b6094f1:
 translate english_us chapter4_5_concert_mid_a66427f1:
 
     # "Фанатка 1" "Какие замечательные слова!"
-    "Фанатка 1" "Those are such beautiful words!"
+    "Fangirl A" "Those are such beautiful words!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:145
 translate english_us chapter4_5_concert_mid_07071b12:
 
     # "Фанатка 3" "Серафина! Ты и так моя путеводная звезда!"
-    "Фанатка 3" "Seraphina! You already are my guiding star!"
+    "Fangirl C" "Seraphina! You already are my guiding star!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:146
 translate english_us chapter4_5_concert_mid_d2ab33ad:
 
     # "Фанатка 2" "Моя тоже!"
-    "Фанатка 2" "Mine too!"
+    "Fangirl B" "Mine too!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:147
 translate english_us chapter4_5_concert_mid_29f1703d:
 
     # "Фанатка 3" "Серафина! Серафина! А какой твой любимый цветок? Мы хотим знать, что дарить!"
-    "Фанатка 3" "Seraphina! Seraphina! What's your favorite flower? We want to know what to get you!"
+    "Fangirl C" "Seraphina! Seraphina! What's your favorite flower? We want to know what to get you!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:149
 translate english_us chapter4_5_concert_mid_76446901:
@@ -364,13 +359,13 @@ translate english_us chapter4_5_concert_mid_93a69bb3:
 translate english_us chapter4_5_concert_mid_f67d81ff:
 
     # "Фанатка 5" "Ликорис? Это же... тот, что на кладбищах растет?"
-    "Фанатка 5" "Lycoris? Isn't that... the one that grows in cemeteries?"
+    "Fangirl E" "Lycoris? Isn't that... the one that grows in cemeteries?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:155
 translate english_us chapter4_5_concert_mid_650bdb15:
 
     # "Фанатка 4" "Паучья лилия."
-    "Фанатка 4" "The Spider Lily."
+    "Fangirl D" "The Spider Lily."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:157
 translate english_us chapter4_5_concert_mid_9bfdffb4:
@@ -544,13 +539,13 @@ translate english_us chapter4_5_concert_mid_03b26798:
 translate english_us chapter4_5_concert_mid_8eba69a9:
 
     # "Фанатка 1" "Ой, а вы здесь все время стояли? Мы вас даже не заметили!"
-    "Фанатка 1" "Oh, were you standing here the whole time? We didn't even notice you!"
+    "Fangirl A" "Oh, were you standing here the whole time? We didn't even notice you!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:228
 translate english_us chapter4_5_concert_mid_53da0e64:
 
     # "Фанатка 2" "Почему вы не подошли? Разве вы не хотели увидеть Серафину поближе? Или задать вопрос?"
-    "Фанатка 2" "Why didn't you come over? Didn't you want to see Seraphina closer up? Or ask a question?"
+    "Fangirl B" "Why didn't you come over? Didn't you want to see Seraphina closer up? Or ask a question?"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:230
 translate english_us chapter4_5_concert_mid_ef2f94cb:
@@ -634,7 +629,7 @@ translate english_us chapter4_5_concert_mid_3b0176e7:
 translate english_us chapter4_5_concert_mid_ddba6890:
 
     # narrator "Она подмигнула, на ее лице снова появляется игривая улыбка айдола"
-    narrator "Она подмигнула, на ее лице снова появляется игривая улыбка айдола"
+    narrator "she winked, the playful smile of an idol returning to her face."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:273
 translate english_us chapter4_5_concert_mid_2e2af97e:
@@ -724,7 +719,7 @@ translate english_us chapter4_5_concert_mid_fc81eec5:
 translate english_us chapter4_5_concert_mid_e203bc91:
 
     # narrator "Она взяла обе мои руки в свои. Её ладони были холодными как лед. Но на её улыбке тепло."
-    narrator "Она взяла обе мои руки в свои. Её ладони были холодными как лед. Но на её улыбке тепло."
+    narrator "She took both my hands in hers. Her palms were cold as ice. But there was warmth in her smile."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:316
 translate english_us chapter4_5_concert_mid_563ec715:
@@ -748,7 +743,7 @@ translate english_us chapter4_5_concert_mid_48c663a0:
 translate english_us chapter4_5_concert_mid_2a808a85:
 
     # narrator "Это был стебель цветка. Ее пальцы медленно, методично смяли его. Несколько белых лепестков оторвались и, кружась, упали на мои ботинки как снежинки."
-    narrator "Это был стебель цветка. Ее пальцы медленно, методично смяли его. Несколько белых лепестков оторвались и, кружась, упали на мои ботинки как снежинки."
+    narrator "It was the flower's stem. Her fingers slowly, methodically crushed it. A few white petals tore off and, swirling, fell onto my shoes like snowflakes."
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:328
 translate english_us chapter4_5_concert_mid_4856fa5a:
@@ -773,4 +768,12 @@ translate english_us chapter4_5_concert_mid_b046dd39:
 
     # seraphina "Я арендовала здесь офис. Только для нас."
     seraphina "I rented an office here. Just for us."
+
+# TODO: Translation updated at 2025-12-30 22:19
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:21
+translate english_us chapter4_5_concert_mid_c99f8fc0:
+
+    # narrator "Я прошла по указателям 'Event Hall C'. Здесь было несколько девушек, все они шли в том же направлении, что и я, возбужденно перешептываясь."
+    narrator "I followed the signs to 'Event Hall C'. There were a few girls here, all walking in the same direction as me, whispering excitedly."
 
