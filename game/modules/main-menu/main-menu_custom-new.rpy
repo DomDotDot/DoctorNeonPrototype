@@ -50,6 +50,8 @@ screen main_menu():
         if renpy.has_screen("gallery"):
             textbutton _("Галерея CG") action ShowMenu("gallery") style "main_menu_button"
         
+        #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
+        
         # Уведомления
         if update_found:
                 textbutton _("Уведомления {color=#f00}(!){/color}") action ShowMenu("notification_center") style "main_menu_button"
