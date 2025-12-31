@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.6.2-early"
+define config.version = "0.6.3-stable"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -210,12 +210,15 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    
     build.classify('game/disabled/**', 'dev')
-    build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
-    build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
-    build.classify('**/*.disabled', 'dev') # Исключить исходники Photoshop
+    build.classify('**/*.disabled', 'dev')
+
     build.classify('game/devtools/**', 'dev')
+
+    build.classify('**.7z', None)
     build.classify('**.zip', None)
+
     build.classify('README.md', None)
     build.classify('LICENSE', None)
     build.classify('crowdin.yml', None)
@@ -225,6 +228,9 @@ init python:
     build.classify('promoimages/**', 'dev')
     build.classify('game/dev-images/**', 'dev')
     build.classify('image-assets/**', 'dev')
+
+    build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
+    build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
 
     # 1. Музыка
     build.classify('game/audio/music/**', None)
