@@ -16,6 +16,8 @@ label chapter_4_5_rpy_act2:
 
     call chapter4_5_finale from _call_chapter4_5_finale
     call chapter4_5_epilogue from _call_chapter4_5_epilogue
+
+    $ add_notification("msg_end", _("Спасибо за игру!"), _("Я рад, что вы прошли её. Это ещё не конец, а лишь первая часть истории (Первый Том) История о Селестии только начинается. Сможет ли Неон найти своих подруг? Найти своё прошлое?"))
     
     # ВЫЗОВ ТИТРОВ ДЛЯ ТОМА 1
     call credits_sequence(1) from _call_credits_sequence
