@@ -30,3 +30,27 @@ translate english_us strings:
     old "Нет новых уведомлений."
     new "No new notifications."
 
+# TODO: Translation updated at 2026-01-02 18:38
+
+translate english_us strings:
+
+    # game/modules/notification-center/notifications-screen.rpy:42
+    old "  (Скрыто)"
+    new "  (Dismissed)"
+
+# TODO: Translation updated at 2026-01-02 20:46
+
+translate english_us strings:
+
+    # game/modules/notification-center/notifications-screen.rpy:21
+    old "Прочитать все"
+    new "Read All"
+
+    # game/modules/notification-center/notifications-screen.rpy:37
+    old "Уведомлений нет."
+    new "No notifications."
+
+    # game/modules/notification-center/notifications-screen.rpy:86
+    old "Не напоминать"
+    new "Do not remind"
+

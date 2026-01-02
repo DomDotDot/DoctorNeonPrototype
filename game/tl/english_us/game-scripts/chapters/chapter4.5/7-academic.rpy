@@ -1344,3 +1344,17 @@ translate english_us chapter4_5_classroom_intro_8475fa97:
     # mika "Д-да, сенсей... Эх..."
     mika "Y-yes, sensei... Sigh..."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:353
+translate english_us chapter4_5_classroom_intro_33b7a8c8:
+
+    # mika "{=whisper}Эх... на уроке биологии. Он выглядел таким мужественным. Таким уверенным. Жаль его..."
+    mika "{=whisper}Sigh... during biology class. He looked so manly. So confident. Poor guy..."
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:365
+translate english_us chapter4_5_classroom_intro_b5cd83b4:
+
+    # akari "Не приставай к новенькой. Лучше расскажи мне почему у новорожденных самцов мух доминантный ген цвета глаз и передается от отца?"
+    akari "Stop bothering the new girl. Better tell me why newborn male flies have a dominant eye color gene that is passed down from the father?"
+

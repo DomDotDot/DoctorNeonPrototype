@@ -432,3 +432,23 @@ translate english_us dream_sequence_japan_4_cc112e3e:
     # neon "Она была права. Всё это время. Такова моя природа. Изначально."
     neon "She was right. All this time. This is my nature. Right from the start."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:166
+translate english_us dream_sequence_japan_4_47020ca8:
+
+    # narrator "'Таковая её природа', — говорила моя опекунша."
+    narrator "'Such is her nature', my trustee used to say."
+
+# game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:170
+translate english_us dream_sequence_japan_4_8448ffd8:
+
+    # narrator "'Стань снова послушной и пустой.', — скомандовал тиран из моих снов."
+    narrator "'Become obedient and empty again', commanded the tyrant from my dreams."
+
+# game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:174
+translate english_us dream_sequence_japan_4_b9dc6327:
+
+    # narrator "'Твоя мать... она пользуется тобой неправильно...', — с фанатичным блеском в глазах сказала Тетя."
+    narrator "'Your mother... she is using you incorrectly...', Aunt said with a fanatical glint in her eyes."
+

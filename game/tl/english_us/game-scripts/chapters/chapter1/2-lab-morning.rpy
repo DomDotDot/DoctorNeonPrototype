@@ -902,3 +902,11 @@ translate english_us chapter1_lab_morning_24e41b92:
     # narrator "Где-то на периферии сознания все еще зудело плечо, которого коснулась подруга."
     narrator "Somewhere on the periphery of her consciousness, the shoulder her friend had touched still tingled."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:282
+translate english_us chapter1_lab_morning_78c6f9c2:
+
+    # neon "Саш, ну сколько можно? Ты в это реально веришь? Это же неофициальные слухи. Где-то в мессенджерах люди панику разводят. Верить всему подряд нельзя."
+    neon "Alex, how many times have I told you? Do you really believe that? Those are just unofficial rumors. People are spreading panic on messegger apps. You can't trust them."
+

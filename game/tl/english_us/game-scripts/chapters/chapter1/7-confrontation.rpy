@@ -517,7 +517,7 @@ translate english_us confrontation_path_2da1a035:
 translate english_us confrontation_path_12b80677:
 
     # marcus suit_sinister "Сначала опекунша... теперь эта неудачница..."
-    marcus suit_sinister "First your guardian... now this loser..."
+    marcus suit_sinister "First your trustee... now this loser..."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:87
 translate english_us confrontation_path_425ce93c:

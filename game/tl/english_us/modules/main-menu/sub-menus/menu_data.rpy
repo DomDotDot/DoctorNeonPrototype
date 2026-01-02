@@ -77,3 +77,19 @@ translate english_us strings:
     # game/modules/main-menu/sub-menus/menu_data.rpy:251
     old "Открыть весь контент?"
     new "Unlock all content?"
+# TODO: Translation updated at 2026-01-02 18:33
+
+translate english_us strings:
+
+    # game/modules/main-menu/sub-menus/menu_data.rpy:254
+    old "Разблокировать всех пероснажей"
+    new "Unlock all characters"
+
+    # game/modules/main-menu/sub-menus/menu_data.rpy:255
+    old "Открывает всех персонажей из Глоссария"
+    new "Unlocks all characters in Glossary"
+
+    # game/modules/main-menu/sub-menus/menu_data.rpy:260
+    old "Открыть всех персонажей в Глоссарий?"
+    new "Unlock all characters in Glossary?"
+
