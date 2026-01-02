@@ -1,60 +1,89 @@
 screen notification_center():
     tag menu
-    add gui.main_menu_background
+    modal True
+    add gui.main_menu_background # Или затемнение Solid("#000000aa")
 
     frame:
         xalign 0.5 yalign 0.5
-        xsize 800 ysize 600
-        padding (40, 40)
+        xsize 900 ysize 700
+        padding (30, 30)
         
         vbox:
             spacing 20
             
-            # Заголовок
+            # Шапка
             hbox:
-                xalign 0.5
-                text _("Центр уведомлений") size 40 bold True
+                xfill True
+                text _("Центр уведомлений") size 40 bold True align (0.0, 0.5)
+                
+                # Кнопка "Отметить все как прочитанные"
+                if get_unread_count() > 0:
+                    textbutton _("Прочитать все") action Function(mark_all_read) align (1.0, 0.5) text_size 18
             
-            null height 20
-            
-            # --- СПИСОК УВЕДОМЛЕНИЙ ---
+            null height 10
+
+            # --- СПИСОК (VIEWPORT) ---
             viewport:
                 scrollbars "vertical"
                 mousewheel True
-                ysize 400
+                draggable True
+                ysize 500
                 
                 vbox:
                     spacing 15
+                    xfill True
                     
-                    # 1. УВЕДОМЛЕНИЕ ОБ ОБНОВЛЕНИИ
-                    if update_found:
+                    if not persistent.notifications:
+                        text _("Уведомлений нет.") color "#888" xalign 0.5 yalign 0.5
+                    
+                    for note in persistent.notifications:
+                        # Карточка одного уведомления
                         frame:
-                            background Frame("gui/frame.png", 10, 10) # Или Solid("#333")
+                            background Frame("gui/frame.png", 10, 10) # Замените на свой фон
                             xfill True
                             padding (20, 20)
                             
-                            vbox:
-                                spacing 10
-                                hbox:
-                                    text _("Доступна новая версия!") color "#ffcc00" bold True size 22
-                                    if persistent.ignored_version == new_version_tag:
-                                        # Пометка, что это скрытое обновление
-                                        text " (Скрыто)" color "#888" size 18 yalign 1.0
+                            hbox:
+                                spacing 20
                                 
-                                text _("Версия: [new_version_tag]") size 18
-                                
-                                hbox:
-                                    spacing 20
-                                    textbutton _("Скачать (Itch.io)") action OpenURL(LINK_ITCH) style "button" text_size 18
-                                    textbutton _("Скачать (GitHub)") action OpenURL(LINK_GITHUB) style "button" text_size 18
-                                    
-                                    # Кнопка "Снять игнор"
-                                    if persistent.ignored_version == new_version_tag:
-                                        textbutton _("Включить напоминание") action SetField(persistent, "ignored_version", None) text_size 16 text_color "#aaa" yalign 0.5
+                                # Маркер непрочитанного (Красная точка или полоска)
+                                if not note.is_read:
+                                    frame:
+                                        background Solid("#ffcc00")
+                                        xsize 5 ysize 50
+                                        yalign 0.5
+                                else:
+                                    null width 5
 
-                    # 2. ЗАГЛУШКА, ЕСЛИ ПУСТО
-                    else:
-                        text _("Нет новых уведомлений.") color "#888" xalign 0.5 yalign 0.5
+                                vbox:
+                                    spacing 5
+                                    xfill True
+                                    
+                                    # Заголовок и Дата
+                                    hbox:
+                                        xfill True
+                                        text "[note.title!t]" bold True size 22 color ("#fff" if not note.is_read else "#aaa")
+                                        # Кнопка удаления (крестик)
+                                        textbutton "✕" action Function(delete_notification, note) text_color "#666" text_hover_color "#f00" align (1.0, 0.0)
+
+                                    # Текст сообщения
+                                    text "[note.message!t]" size 18 color ("#ddd" if not note.is_read else "#888")
+                                    
+                                    # ЕСЛИ ЭТО ОБНОВЛЕНИЕ - ПОКАЗЫВАЕМ КНОПКИ
+                                    if note.version_tag:
+                                        null height 10
+                                        hbox:
+                                            spacing 15
+                                            if note.link_itch:
+                                                textbutton _("Itch.io") action OpenURL(note.link_itch) style "button" text_size 16 padding (10,5)
+                                            if note.link_github:
+                                                textbutton _("GitHub") action OpenURL(note.link_github) style "button" text_size 16 padding (10,5)
+                                            
+                                            # Управление игнором
+                                            if persistent.ignored_version == note.version_tag:
+                                                textbutton _("Включить напоминание") action SetField(persistent, "ignored_version", None) text_size 14 text_color "#666" yalign 0.5
+                                            else:
+                                                textbutton _("Не напоминать") action SetField(persistent, "ignored_version", note.version_tag) text_size 14 text_color "#666" yalign 0.5
             
-            # Кнопка Назад
-            textbutton _("Вернуться") action Return() xalign 0.5 yoffset 20
+            # Подвал
+            textbutton _("Закрыть") action [Function(mark_all_read), Return()] xalign 0.5

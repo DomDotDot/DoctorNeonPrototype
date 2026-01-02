@@ -51,16 +51,14 @@ screen main_menu():
             textbutton _("Галерея CG") action ShowMenu("gallery") style "main_menu_button"
         
         #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
+
+        $ unread = get_unread_count() # Считаем количество в переменную
         
-        # Уведомления
-        if update_found:
-                textbutton _("Уведомления {color=#f00}(!){/color}") action ShowMenu("notification_center") style "main_menu_button"
+        if unread > 0:
+            # Используем переменную unread внутри текста
+            textbutton _("Уведомления ([unread])") action ShowMenu("notification_center") style "main_menu_button" text_color "#a11919"
         else:
-                textbutton _("Уведомления") action ShowMenu("notification_center") style "main_menu_button"
+            textbutton _("Уведомления") action ShowMenu("notification_center") style "main_menu_button"
 
         textbutton _("Об игре") action ShowMenu("about_menu") style "main_menu_button"
         textbutton _("Выход") action Quit(confirm=True) style "main_menu_button"
-
-    # Поиск обновления
-    if update_found and (persistent.ignored_version != new_version_tag):
-        timer 1 action Show("update_notification_screen")

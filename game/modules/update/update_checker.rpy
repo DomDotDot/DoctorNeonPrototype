@@ -13,9 +13,6 @@ init python:
     LINK_GITHUB = "https://github.com/DomDotDot/DoctorNeonPrototype/releases/latest"
     # LINK_STEAM = "..." 
 
-    # Переменные состояния
-    update_found = False
-    new_version_tag = ""
     update_check_done = False
 
     def _get_version_numbers(v_str):
@@ -63,7 +60,7 @@ init python:
         if renpy.variant("web"):
             return
 
-        global update_found, new_version_tag, update_check_done
+        global update_check_done
         
         print(f"UpdateCheck: В persistent сейчас записано: {persistent.ignored_version}")
         print("UpdateCheck: Поток запущен...")
@@ -78,21 +75,59 @@ init python:
             if response.status_code == 200:
                 data = response.json()
                 remote_tag = data.get("tag_name", "0.0.0")
+                body_text = data.get("body", "") # Описание релиза с Гитхаба
+                
                 
                 # Сравниваем с текущей config.version
                 if _version_compare(remote_tag, config.version):
-                    new_version_tag = remote_tag
-                    update_found = True
-                    print(f"UpdateCheck: Найдена версия {new_version_tag}")
+                    print(f"UpdateCheck: Найдена новая версия {remote_tag}")
+                    
+                    # Формируем ID, чтобы не добавлять одно и то же 100 раз
+                    notif_id = f"update_{remote_tag}"
 
-                    if persistent.ignored_version == new_version_tag:
-                        print("UpdateCheck: Эта версия в игноре. Popup не должен появиться.")
+                    title = f"Доступно обновление: {remote_tag}"
+                    message = "Вышла новая версия игры!\n\n" + body_text[:200]
+                    if len(body_text) > 200: message += "..."
+                    
+                    # Проверяем, игнорировал ли игрок эту версию
+                    should_popup = True
+                    if persistent.ignored_version == remote_tag:
+                        should_popup = False
+                        title += _(" (Скрыто)")
+                        print("UpdateCheck: Версия в игноре, только добавляем в список.")
+
+                    if hasattr(renpy, "invoke_in_main_thread"):
+                        renpy.invoke_in_main_thread(
+                            add_notification, 
+                            notif_id, title, message, LINK_ITCH, LINK_GITHUB, remote_tag, should_popup
+                        )
                     else:
-                        print("UpdateCheck: Эту версию еще не скрывали. Popup должен появиться.")
+                        # Старый способ (может вызвать конфликты, но обычно работает)
+                        add_notification(
+                            notif_id,
+                            title,
+                            message,
+                            LINK_ITCH,
+                            LINK_GITHUB,
+                            remote_tag,
+                            should_popup
+                        )
+
+                    # ДОБАВЛЯЕМ В МЕНЕДЖЕР
+                    add_notification(
+                        notif_id=notif_id,
+                        title=title,
+                        message=message,
+                        link_itch=LINK_ITCH,
+                        link_github=LINK_GITHUB,
+                        version_tag=remote_tag,
+                        force_popup=should_popup # Покажем попап, только если не в игноре
+                    )
+
                 else:
                     print("UpdateCheck: Версия актуальна.")
             else:
-                print(f"UpdateCheck: Ошибка API: {response.text}")
+                print(f"UpdateCheck: Ошибка API {response.status_code}")
                     
         except Exception as e:
             print(f"UpdateCheck Error: {e}")
@@ -104,15 +139,10 @@ init python:
         if renpy.variant("web"):
             return
             
-        global update_found, update_check_done
-
-        update_found = False
+        global update_check_done
         update_check_done = False
         
-        t = threading.Thread(target=_update_worker)
-        t.daemon = True
-        t.start()
-        
-    def ignore_current_update():
-        # Запоминаем эту версию, чтобы больше не предлагать её
-        persistent.ignored_version = new_version_tag
+        if not update_check_done:
+            t = threading.Thread(target=_update_worker)
+            t.daemon = True
+            t.start()
