@@ -927,7 +927,7 @@ translate english_us chapter4_5_finale_5d32fc0c:
 translate english_us chapter4_5_finale_570709a8:
 
     # narrator "Школа. Одиночество. Маркус. 'Синяя ворона'."
-    narrator "School. Loneliness. Marcus. 'Blue Crow'."
+    narrator "School. Loneliness. Marcus. 'Blue Sheep'."
 
 # game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:413
 translate english_us chapter4_5_finale_9df0d069:
