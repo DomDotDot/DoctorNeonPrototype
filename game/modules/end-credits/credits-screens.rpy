@@ -60,7 +60,7 @@ transform slideshow_fade_in:
 # Анимация прокрутки титров снизу вверх
 transform credits_scroll_up(t_duration):
     ypos 1.1
-    linear t_duration ypos -1.5
+    linear t_duration ypos -2.5
 
 # Анимация появления финальной надписи
 transform thanks_appear(wait_time):
