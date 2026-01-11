@@ -72,7 +72,7 @@ label chapter1_lab_night:
 
         neon neutral "Марк, это мило, но..."
 
-        marcus lab_sad """      
+        marcus """      
         Послушайте, я знаю, что я не лучший ассистент. Я путаюсь под ногами, задаю глупые вопросы...
         
         Вы делаете великое открытие, а я... я просто ношу бумажки.
@@ -171,7 +171,7 @@ label chapter1_lab_night:
 
         narrator "Он попятился к двери, все еще удерживая на лице эту маску благодарной покорности."
 
-        show marcus at flip
+        show marcus lab_neutral at flip
         marcus @ lab_smug "Рад был помочь."
         marcus "Спокойной... {nw}"
         marcus lab_smug "То есть, продуктивной ночи."
