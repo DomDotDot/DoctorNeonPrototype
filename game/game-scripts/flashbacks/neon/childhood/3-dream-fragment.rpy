@@ -61,7 +61,13 @@ label dream_sequence_japan_3:
     
     scene cg-28_5 with fade
 
-    oganesson_young "Твоя мать... она пользуется тобой неправильно..."
+    oganesson_young """
+        Так вот где причины разломов...
+
+        Твоя мать... Она...
+         
+        Она... пользуется тобой неправильно...
+    """
     # play sound "sounds/dream_flower_disintegrate_silence_wave.opus" # Звук распада цветка
     narrator """
     Я не понимаю, что значат эти слова. Я слышу только холод в ее голосе.
