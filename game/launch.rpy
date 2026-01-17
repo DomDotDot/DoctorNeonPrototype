@@ -96,12 +96,14 @@ label splashscreen:
         
         # Предупреждение о контенте
         call screen content_warning_screen with dissolve
-
-        call dlc_check_sequence from _call_dlc_check_sequence
         
         #TODO Настройки доступности (размер текста и т.д)
         # call screen accessibility_settings 
 
 
         $ persistent.firstlaunch = False
+
+    else:
+        call dlc_check_sequence from _call_dlc_check_sequence
     return
+return
