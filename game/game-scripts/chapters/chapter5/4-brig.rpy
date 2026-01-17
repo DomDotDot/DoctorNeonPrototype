@@ -169,7 +169,7 @@ label chapter5_timer_and_brig:
 
     show neon operative_pain at right with vpunch
     
-    neon "Агхх!.."
+    neon "Агхх!"
 
     narrator "Я рухнула на пол. Моя сила... она исчезла, подавленная грубой физиологией."
 
@@ -190,7 +190,7 @@ label chapter5_timer_and_brig:
     # play sound "sfx/radio_static_cut.opus"
 
     narrator """
-        Наушник вырвали из моего уха. Последняя ниточка, связывающая нас с "мамой", оборвалась.
+        Наушник вырвали из моего уха. Последняя ниточка, связывающая нас с 'мамой', оборвалась.
         
         Темнота.
     """
