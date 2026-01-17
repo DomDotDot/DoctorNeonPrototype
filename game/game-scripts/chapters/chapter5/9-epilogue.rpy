@@ -305,6 +305,7 @@ narrator """
     """
     
     oganesson "Предложение, от которого нельзя отказаться."
+    
     scene black with Dissolve(3.0)
     stop music fadeout 5.0
     
