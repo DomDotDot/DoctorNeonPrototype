@@ -1,5 +1,4 @@
 label chapter_4_5_rpy_act2:
-    $ persistent.chapter_4_5b_unlocked = True
     call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"), _("Акт II - И никакого изображения того, что на небе вверху"))
 
     call chapter4_5_boulevard_night from _call_chapter4_5_boulevard_night
