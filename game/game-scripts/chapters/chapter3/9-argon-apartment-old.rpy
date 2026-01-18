@@ -150,3 +150,4 @@ label chapter3_breather:
 
     narrator "Выбора не было. Неон кивнула."
     stop music fadeout 5.0
+return
