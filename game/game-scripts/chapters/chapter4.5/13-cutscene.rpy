@@ -24,8 +24,5 @@ label secret_scene_vol1:
     
     # Возвращаем интерфейс
     window show dissolve
-    
-    return
 
-
-    return
+return
