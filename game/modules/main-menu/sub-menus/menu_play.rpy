@@ -31,6 +31,7 @@ init 1 python:
     add_chapter("chapter_4", _("Глава 4.0"), _("Ковчег на мели"), "images/backgrounds/bg chapter_4_ark-aground-veritas-station.avif", "chapter_4_unlocked")
     add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_garden-bonatic-interior.avif", "chapter_4_5a_unlocked")
     add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_academy-veritas-central.avif", "chapter_4_5b_unlocked")
+    add_chapter("chapter_5", _("Глава 5"), _("---"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_5_unlocked")
 
 default persistent.chapter_1_unlocked = True
 
