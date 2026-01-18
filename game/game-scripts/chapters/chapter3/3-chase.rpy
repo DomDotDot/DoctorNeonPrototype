@@ -72,7 +72,7 @@ label game_over_bouncer:
     stop music
     stop ambient
     scene black with dissolve
+    
     "Вышибала" "Попалась." with vpunch
     pause(3.0)
     jump chapter_3_rpy
-    return
