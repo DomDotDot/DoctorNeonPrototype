@@ -382,7 +382,6 @@ init python:
         ("featured_8cg-8e-1"),
         ("8cg-8e-2"),
         ("featured_8cg-8e-3"),
-        ("featured_8cg-8e-3"),
     ])
 
     add_cg(_("Увядший Цветок"), [
@@ -396,8 +395,7 @@ init python:
     add_cg(_("Щит без Меча"), [
         ("featured_8cg-10-1"),
         ("featured_8cg-10-2"),
-        ("8cg-11"),
-        ("10cg-3-3", _("Стань моим Щитом~")),
+        ("8cg-11", _("Стань моим Щитом~")),
         ("featured_8cg-12"),
     ])
 
