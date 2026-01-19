@@ -102,8 +102,7 @@ label splashscreen:
 
 
         $ persistent.firstlaunch = False
-
-    else:
-        call dlc_check_sequence from _call_dlc_check_sequence
     return
+
+call dlc_check_sequence from _call_dlc_check_sequence
 return
