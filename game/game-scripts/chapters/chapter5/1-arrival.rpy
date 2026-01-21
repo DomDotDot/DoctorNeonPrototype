@@ -1,4 +1,4 @@
-label chapter5_start:
+label chapter5_introduction:
 
     # --- Сцена 1: Орбита ---
     scene black with fade
@@ -243,4 +243,3 @@ label chapter5_start:
     neon "{=thoughts}Итак, Неон. Найди этот корабль. Узнай, что скрывает НаноТрейзен.{/thoughts}"
 
     # Переход к квестовой части
-    jump chapter5_exploration

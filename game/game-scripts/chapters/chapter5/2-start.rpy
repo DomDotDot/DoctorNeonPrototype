@@ -1,10 +1,10 @@
-# Переменные для отслеживания исследования
-default visited_bar = False
-default visited_chapel = False
-default visited_library = False
-default hacking_tool = True # У нас есть "отмычка" от Мэрил
+label chapter5_start:
 
-label chapter5_exploration:
+    # Переменные для отслеживания исследования
+    default visited_bar = False
+    default visited_chapel = False
+    default visited_library = False
+    default hacking_tool = True # У нас есть "отмычка" от Мэрил
 
     # --- СЦЕНА: РАЗДЕЛЕНИЕ ---
     scene bg space_station_corridor_main with fade
@@ -39,3 +39,4 @@ label chapter5_exploration:
         
         Моя цель — Серверная в Научном секторе. Но у меня есть немного времени, чтобы осмотреться. Информация — это тоже оружие.
     """
+return
