@@ -1,0 +1,99 @@
+# --- Слушатель клавиши M ---
+screen inventory_listener():
+    # Работает всегда, но открывает инвентарь только если inventory_allowed == True
+    key "K_m" action If(inventory_allowed, ToggleScreen("inventory_screen"), Notify("Инвентарь недоступен"))
+
+# --- Основной экран Инвентаря ---
+screen inventory_screen():
+    modal True # Блокирует взаимодействие с игрой под инвентарем
+    add Solid("#000000AA") # Полупрозрачный фон
+
+    # Основная рамка
+    frame:
+        align (0.5, 0.5)
+        xysize (800, 600)
+        padding (20, 20)
+        
+        vbox:
+            spacing 20
+            
+            text "Инвентарь" size 40 align (0.5, 0.0)
+
+            # Сетка предметов (Gridset)
+            vpgrid:
+                cols 5
+                rows 4
+                spacing 15
+                draggable True
+                mousewheel True
+                scrollbars "vertical"
+                xysize (760, 450)
+
+                for item in inventory_list:
+                    # Кнопка с иконкой предмета
+                    imagebutton:
+                        idle item.icon
+                        hover Transform(item.icon, zoom=1.1)
+                        action SetVariable("selected_item", item)
+                        xysize (100, 100) # Размер слота
+                        
+                # Заполняем пустые слоты (опционально, для красоты сетки)
+                for i in range(20 - len(inventory_list)):
+                    frame:
+                        background Solid("#333")
+                        xysize (100, 100)
+
+            textbutton "Закрыть (M)" action [SetVariable("selected_item", None), Hide("inventory_screen")] align (0.5, 1.0)
+    
+    # Подгружаем контекстное меню, если выбран предмет
+    if selected_item:
+        use item_context_menu(selected_item)
+
+# --- Контекстное меню предмета (Осмотреть, Использовать, Закрыть) ---
+screen item_context_menu(item):
+    modal True
+    # Закрытие меню при клике мимо
+    button:
+        yfill True
+        xfill True
+        action SetVariable("selected_item", None)
+        
+    frame:
+        align (0.5, 0.5)
+        xysize (400, 300)
+        background Solid("#222")
+        
+        vbox:
+            align (0.5, 0.5)
+            spacing 20
+            
+            text item.name size 30 bold True xalign 0.5
+            add item.icon xalign 0.5 zoom 0.8
+            
+            hbox:
+                spacing 10
+                xalign 0.5
+                
+                # Кнопка ОСМОТРЕТЬ (показывает описание)
+                textbutton "Осмотреть" action Show("item_description", i=item)
+                
+                # Кнопка ИСПОЛЬЗОВАТЬ (если есть функция)
+                if item.use_func:
+                    textbutton "Использовать" action Function(use_current_item)
+                else:
+                    textbutton "Использовать" action Notify("Это нельзя использовать здесь.") text_color "#888"
+
+                # Кнопка ЗАКРЫТЬ
+                textbutton "Отмена" action SetVariable("selected_item", None)
+
+# --- Экран описания (всплывает при "Осмотреть") ---
+screen item_description(i):
+    modal True
+    frame:
+        align (0.5, 0.5)
+        padding (30,30)
+        vbox:
+            spacing 20
+            text i.name size 30
+            text i.description
+            textbutton "OK" action Hide("item_description") xalign 0.5
