@@ -137,7 +137,7 @@ label chapter5_timer_and_brig:
     scene bg space_station_hos_office with flash # Вернуть фон, но красный/в дыму
     show guard_elite red_armor at center with moveinright
 
-    "Командир СБ" "На пол! Работаем тазерами! Живыми брать, приказ СЕО!"
+    "Командир СБ" "На пол! Работаем тазерами! Живыми брать, приказ ЦК!"
 
     show argon operative_glasses at left with vpunch
 
