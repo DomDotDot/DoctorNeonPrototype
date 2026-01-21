@@ -243,3 +243,4 @@ label chapter5_introduction:
     neon "{=thoughts}Итак, Неон. Найди этот корабль. Узнай, что скрывает НаноТрейзен.{/thoughts}"
 
     # Переход к квестовой части
+return
