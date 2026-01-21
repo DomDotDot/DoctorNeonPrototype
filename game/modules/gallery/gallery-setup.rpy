@@ -328,6 +328,7 @@ init python:
         ("featured_5cg-1"),
         ("featured_5cg-2"),
         ("featured_5cg-3", _("Сделайте мне одолжение...")),
+        ("5cg-4"),
         ("featured_5cg-5", _("Застрелите друг друга~")),
     ])
 
@@ -414,7 +415,6 @@ init python:
         ("featured_9cg-3"),
         ("featured_9cg-4", _("Заколка чужой Души")),
         ("featured_9cg-5b"),
-        ("10cg-3-3"),
         ("9cg-5"),
         ("featured_9cg-6"),
         ("featured_9cg-7b"),
