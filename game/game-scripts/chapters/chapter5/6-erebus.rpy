@@ -328,4 +328,4 @@ label chapter5_ghost_ship:
     stop ambient
     stop music fadeout 5.0
     
-    call dream_sequence_japan_6
+    call dream_sequence_japan_6 from _call_dream_sequence_japan_6
