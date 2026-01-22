@@ -12,7 +12,7 @@ label station_server_room_entry:
 
     show neon operative_glasses at center with dissolve
 
-    neon "Класс 'А'. Стандартное шифрование НаноТрейзен. Самоуверенные идиоты."
+    neon "Класс 'А'. Стандартное шифрование Гелиос. Самоуверенные идиоты."
 
     # play sound "sfx/multitool_click.opus"
     

@@ -1,4 +1,4 @@
-# --- ЛОКАЦИЯ 3: БИБЛИОТЕКА (ЛОР: НаноТрейзен и Улей) ---
+# --- ЛОКАЦИЯ 3: БИБЛИОТЕКА (ЛОР: Гелиос и Улей) ---
 label station_library_scene:
     $ visited_library = True
     scene bg space_station_library with fade
