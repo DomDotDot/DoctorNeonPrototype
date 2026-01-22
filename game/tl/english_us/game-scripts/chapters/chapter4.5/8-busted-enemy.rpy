@@ -522,3 +522,11 @@ translate english_us chapter4_5_akari_arrest_1fec82bc:
     # narrator "Неон хватает Лили за рукав, глаза все еще блестят от слез, но в них уже появляется огонек."
     narrator "Neon grabs Lily by the sleeve, eyes still glistening with tears, but a spark is already appearing in them."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:206
+translate english_us chapter4_5_akari_arrest_bdc29758:
+
+    # neon "{=thoughts}Зависть... Она сказала 'зависть'. У неё, как и у Аргона..."
+    neon "{=thoughts}Envy... She said 'envy'. Just like Argon..."
+

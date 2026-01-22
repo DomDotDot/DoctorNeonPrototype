@@ -535,3 +535,4 @@ label chapter4_5_nari_flashback:
     scene black
     hide featured_cg-34 with Dissolve(0.125)
     scene black with Fade(1.0, 0.5, 2.5)
+return

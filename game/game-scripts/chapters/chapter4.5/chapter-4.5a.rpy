@@ -1,5 +1,4 @@
 label chapter_4_5_rpy_act1:
-    $ persistent.chapter_4_5a_unlocked = True
     play sound "sfx/next-chapter.opus"
     call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"), _("Акт I - Не сотвори себе кумира"))
 

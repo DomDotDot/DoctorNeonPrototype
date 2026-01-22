@@ -384,3 +384,17 @@ translate english_us chapter4_5_seraphina_flashback_7f1c08c3:
     # narrator "Мир вокруг начал рассыпаться. Моя новая 'идеальная' жизнь превратилась в руины за одну секунду."
     narrator "The world around me began to crumble. My new 'perfect' life turned into ruins in a single second."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:45
+translate english_us chapter4_5_seraphina_flashback_1154db2c:
+
+    # lily "Нари... Ах, да... Снова сглупила."
+    lily "Nari... Ah yes... Silly me again."
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:63
+translate english_us chapter4_5_seraphina_flashback_97bd7905:
+
+    # narrator "Она отшатнулась, отступала на шаг назад. Я обернулась и перестала играть."
+    narrator "She recoiled, stepping back. I stopped playing."
+

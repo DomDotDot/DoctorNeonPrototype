@@ -1,5 +1,4 @@
 label chapter_1_rpy:
-    $ persistent.chapter_1_unlocked = True
     play sound "sfx/next-chapter.opus"
     call screen chapter_screen(_("Глава 1"), _("Синяя Ворона"))
 

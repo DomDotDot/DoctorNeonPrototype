@@ -47,15 +47,23 @@ screen license_screen():
             text "PRESSURE - First Theme\n{a=}Источник{/a}\n"
             text "Steins;Gate - Self Affirmation\n{a=}Источник{/a}\n"
             text "Steins;Gate - Quiet Air\n{a=}Источник{/a}\n"
+            text "Steins;Gate - Chaos Mind\n{a=}Источник{/a}\n"
+            text "Steins;Gate - SERN\n{a=}Источник{/a}\n"
             text "Occultic;Nine - OVERCAST-EYES\n{a=}Источник{/a}\n"
+            text "Occultic;Nine - GRAY HEARTS\n{a=}Источник{/a}\n"
+            text "Occultic;Nine - LISTEN\n{a=}Источник{/a}\n"
             text "CHAOS;HEAD - Colors\n{a=}Источник{/a}\n"
             text "Shadows of Doubt - Revpad\n{a=}Источник{/a}\n"
             text "Shadows of Doubt - LD Celts\n{a=}Источник{/a}\n"
             text "Shadows of Doubt - FM Modul\n{a=}Источник{/a}\n"
             text "Intravenous - Initiation (Inactive)\n{a=}Источник{/a}\n"
             text "Avery Alexander - HRT\n{a=https://www.youtube.com/watch?v=7OpLRMyiueY}Источник{/a}\n"
-
-
+            text "AND ONE - Angel Eyes\n{a=}Источник{/a}\n"
+            text "Ezio Bosso - Rain, In Your Black Eyes\n{a=}Источник{/a}\n"
+            text "Ever 17: The Out of Infinity - Karma\n{a=}Источник{/a}\n"
+            text "Date a Live - Marionettica\n{a=}Источник{/a}\n"
+            text "Brandon Fiechter - Eyes of the Forest\n{a=}Источник{/a}\n"
+            text "God Smiles - Tilman Sillescu\n{a=}Источник{/a}\n"
 
             label _("Музыка в меню")
             text "1 - NightMare\n"
@@ -70,7 +78,7 @@ screen credits_screen():
             style_prefix "about"
             spacing 15
             
-            text "Спасибо за игру в этот прототип..."
+            text "Спасибо за игру в этот прототип. Это моя первая визуальная новелла, и я многому научился в процессе её создания. Я надеюсь, что вам понравится история и персонажи, и я с нетерпением жду возможности поделиться с вами остальной частью истории в будущем.\n"
             text "Автор и Разработчик: {a=https://dotprod.itch.io/}Dot{/a}\n"
             text "Тестировщик и Вдохновитель: Overhappy_Avali\n"
 

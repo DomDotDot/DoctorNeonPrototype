@@ -11,6 +11,7 @@ init python:
         persistent.chapter_4_unlocked = False
         persistent.chapter_4_5a_unlocked = False
         persistent.chapter_4_5b_unlocked = False
+        persistent.chapter_5_unlocked = False
         
         # Сброс галереи
         if hasattr(persistent, "_seen_images"):
@@ -95,6 +96,7 @@ init python:
         persistent.chapter_4_unlocked = True
         persistent.chapter_4_5a_unlocked = True
         persistent.chapter_4_5b_unlocked = True
+        persistent.chapter_5_unlocked = True
         persistent.unlock_gallery = True
 
         unlock_all_chars_full()

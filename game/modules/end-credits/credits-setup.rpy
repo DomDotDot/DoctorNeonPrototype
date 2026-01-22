@@ -7,25 +7,45 @@ define credits_vol1 = [
     (_("Тестировщик и Вдохновитель"), "Overhappy_Avali"),
 
     ("Музыка", ""),
-    ("", "ksho - Purge Protocol"),
-    ("", "Factorio - Swell Pad"),
-    ("", "Rewrite - Potted One"),
-    ("", "Rewrite - Sorrowless"),
-    ("", "Rewrite - Rememberance"),
-    ("", "Rewrite - Reply"),
-    ("", "PRESSURE - One Way Trip"),
-    ("", "PRESSURE - First Theme"),
-    ("", "Steins;Gate - Self Affirmation"),
-    ("", "Steins;Gate - Quiet Air"),
-    ("", "Occultic;Nine - OVERCAST-EYES"),
-    ("", "CHAOS;HEAD - Colors"),
-    ("", "Shadows of Doubt - Revpad"),
-    ("", "Shadows of Doubt - LD Celts"),
-    ("", "Shadows of Doubt - FM Modul"),
-    ("", "Intravenous - Initiation (Inactive)"),
-    ("", "Avery Alexander - HRT"),
-
+    ("ksho", "Purge Protocol"),
+    ("Factorio", "Swell Pad"),
+    ("Rewrite", "Potted One"),
+    ("Rewrite", "Sorrowless"),
+    ("Rewrite", "Rememberance"),
+    ("Rewrite", "Reply"),
+    ("PRESSURE", "One Way Trip"),
+    ("PRESSURE", "First Theme"),
+    ("Steins;Gate", "Self Affirmation"),
+    ("Steins;Gate", "Quiet Air"),
+    ("Steins;Gate", "Chaos Mind"),
+    ("Steins;Gate", "SERN"),
+    ("Occultic;Nine", "OVERCAST-EYES"),
+    ("Occultic;Nine", "GRAY HEARTS"),
+    ("Occultic;Nine", "LISTEN"),
+    ("CHAOS;HEAD", "Colors"),
+    ("Shadows of Doubt", "Revpad"),
+    ("Shadows of Doubt", "LD Celts"),
+    ("Shadows of Doubt", "FM Modul"),
+    ("Intravenous", "Initiation (Inactive)"),
+    ("Avery Alexander", "HRT"),
+    ("AND ONE", "Angel Eyes"),
+    ("Ezio Bosso", "Rain, In Your Black Eyes"),
+    ("Ever 17: The Out of Infinity", "Karma"),
+    ("Date a Live", "Marionettica"),
+    ("Brandon Fiechter", "Eyes of the Forest"),
+    ("God Smiles", "Tilman Sillescu"),
+    
     (_("Спецэффекты"), "StoryBlocks"),
+
+    (_("Игры, Которые Вдохновили"), ""),
+    ("", "Voices of the Void"),
+    ("", "Rewrite"),
+    ("", "Higurashi"),
+    ("", "Date a Live"),
+    ("", "ROBLOX - Anomic"),
+    ("", "Ever 17"),
+    ("", "Library of Ruina"),
+    ("", "Space Station 13"),
 ]
 
 #TODO Данные для Тома 2 (просто заглушка)
@@ -74,5 +94,4 @@ label credits_sequence(volume_id):
         return # Возвращаемся, секретной сцены не будет (результат по умолчанию None)
     
     elif _return == "finished":
-
         return "secret_scene" # Возвращаем флаг секретной сцены

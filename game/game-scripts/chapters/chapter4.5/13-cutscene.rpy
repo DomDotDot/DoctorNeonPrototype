@@ -14,7 +14,7 @@ label secret_scene_vol1:
 
     scene black with dissolve
 
-    show featured_12cg-2 at blur_flicker
+    show 12cg-2 at blur_flicker
     
     # play audio "audio/light_buzz.opus"
     
@@ -24,8 +24,5 @@ label secret_scene_vol1:
     
     # Возвращаем интерфейс
     window show dissolve
-    
-    return
 
-
-    return
+return

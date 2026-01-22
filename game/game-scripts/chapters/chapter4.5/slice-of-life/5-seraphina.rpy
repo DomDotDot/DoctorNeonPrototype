@@ -43,7 +43,7 @@ label chapter4_5_seraphina_flashback:
     """
     
     lily """
-    Нари... Ах да... Снова сглупила.
+    Нари... Ах, да... Снова сглупила.
 
     Она ушла за дополнительными покупками. Сейчас придёт!
     
@@ -67,7 +67,7 @@ label chapter4_5_seraphina_flashback:
         
         Ужас.
 
-        Она отшатнулась, отступаала на шаг назад. Я обернулась и перестала играть.
+        Она отшатнулась, отступала на шаг назад. Я обернулась и перестала играть.
     """
 
     scene featured_10cg-1-2 with dissolve
@@ -128,7 +128,7 @@ label chapter4_5_seraphina_flashback:
     scene featured_10cg-3-2 with dissolve
     play music "ambient/Seraphina.opus" fadein 5.0 fadeout 5.0 volume 0.35 noloop
 
-    "Сущность" """
+    illusion """
         Хи-хи-хи... 
 
         Больно, правда?
@@ -168,7 +168,7 @@ label chapter4_5_seraphina_flashback:
     Я сделаю всё сама. Лучше одной, чем тащить за собой груз чувств и каких-то обязательств...
     """
 
-    "Сущность" """
+    illusion """
 
         Ты себя принижаешь, Нари.
 
@@ -185,7 +185,7 @@ label chapter4_5_seraphina_flashback:
 
     scene black with Dissolve(0.125)
 
-    "Сущность" "Ты и есть - Серафина."
+    illusion "Ты и есть - Серафина."
     
 
 return

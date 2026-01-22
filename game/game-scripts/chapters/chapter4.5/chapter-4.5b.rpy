@@ -1,5 +1,4 @@
 label chapter_4_5_rpy_act2:
-    $ persistent.chapter_4_5b_unlocked = True
     call screen chapter_screen(_("Глава 4.5"), _("Из Изгнанницы В Созвездие"), _("Акт II - И никакого изображения того, что на небе вверху"))
 
     call chapter4_5_boulevard_night from _call_chapter4_5_boulevard_night
@@ -16,6 +15,8 @@ label chapter_4_5_rpy_act2:
 
     call chapter4_5_finale from _call_chapter4_5_finale
     call chapter4_5_epilogue from _call_chapter4_5_epilogue
+
+    $ add_notification("msg_end", _("Спасибо за игру!"), _("Я рад, что вы прошли её. Это ещё не конец, а лишь первая часть истории (Первый Том) История о Селестии только начинается. Сможет ли Неон найти своих подруг? Найти своё прошлое?"))
     
     # ВЫЗОВ ТИТРОВ ДЛЯ ТОМА 1
     call credits_sequence(1) from _call_credits_sequence
@@ -23,6 +24,6 @@ label chapter_4_5_rpy_act2:
     if _return == "secret_scene":
         jump secret_scene_vol1
     
-    return # В главное меню
+    call screen chapter_screen(_("Конец первого тома"), _("Спасибо за игру!"))
 
 return

@@ -1208,3 +1208,11 @@ translate english_us chapter4_5_concert_end_589a405a:
     # narrator "Её образ 'идеального айдола' испарился, сменившись преувеличенной, но усталостью."
     narrator "Her 'perfect idol' persona evaporated, replaced by exaggerated but visible exhaustion."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:213
+translate english_us chapter4_5_concert_end_6c00f015:
+
+    # neon "А… И еще... твои фанатки. Они... ...странные..."
+    neon "Ah.. And also... your fans. They are... um... weird..."
+

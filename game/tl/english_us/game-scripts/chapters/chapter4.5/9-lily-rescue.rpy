@@ -1746,3 +1746,23 @@ translate english_us chapter4_5_lily_cafe_f407b891:
     # amy "Того самого 'брата' с ярмарки? Ой, кстати, простите! Я тогда еще не совсем от болезни отошла, голова не соображала!"
     amy "That 'brother' from the fair? Oh, by the way, sorry! I hadn't quite recovered from being sick then, my head wasn't thinking straight!"
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:331
+translate english_us chapter4_5_lily_cafe_42a82912:
+
+    # narrator "Их доброта была липкой как мед. Их забота — удушающей как паутина."
+    narrator "Their kindness was sticky like honey. Their care is suffocating, like a spiderweb."
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:345
+translate english_us chapter4_5_lily_cafe_3e90b839:
+
+    # narrator "Я тяжело вздохнула, уступая эмоциям."
+    narrator "I sighed heavily, giving in to emotions."
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:540
+translate english_us chapter4_5_lily_studio_a5fe9249:
+
+    # narrator "Она взяла первый, чистый аккорд. Комнату наполнила меланхоличная, красивая мелодия. Ее голос, тихий и нежный, полился как ручей."
+    narrator "She struck the first, clean chord. A melancholic, beautiful melody filled the room. Her voice, quiet and gentle, flowed like a stream."
+

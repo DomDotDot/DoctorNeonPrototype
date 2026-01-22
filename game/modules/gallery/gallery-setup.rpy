@@ -7,6 +7,11 @@ init python:
     # Размеры миниатюры в меню
     gal_thumb_x = 384
     gal_thumb_y = 216
+
+    gal_cols = 3
+    gal_rows = 3
+    # Сколько картинок на одной странице (3 * 2 = 6)
+    gal_cells = gal_cols * gal_rows 
     
     class GalleryItem:
         def __init__(self, name, images_data, thumb=None):
@@ -31,9 +36,13 @@ init python:
                 else:
                     self.thumb = None
 
-        def get_unlocked_list(self):
+        def is_unlocked(self):
             if persistent.unlock_gallery:
-                return self.images_data
+                return True
+            for img_name, _ in self.images_data:
+                if renpy.seen_image(img_name):
+                    return True
+            return False
                 
             unlocked = []
             for img_name, desc in self.images_data:
@@ -55,10 +64,43 @@ init python:
         def num_total(self):
             return len(self.images_data)
 
+    # Получить список для просмотра
+        def get_unlocked_list(self):
+            if persistent.unlock_gallery:
+                return self.images_data
+            return [(img, desc) for img, desc in self.images_data if renpy.seen_image(img)]
+
+        # Главная оптимизация: метод возвращает Displayable
+        # Если закрыто - возвращает легкий Solid/Image
+        # Если открыто - возвращает картинку
+        def get_thumbnail_displayable(self):
+            if self.is_unlocked():
+                # Возвращаем реальную картинку
+                # Transform здесь нужен, чтобы закешировать размер
+                # и не грузить фулл-сайз текстуру в память, если RenPy умный,
+                # но лучше использовать заранее подготовленные маленькие файлы.
+                return Transform(self.thumb, fit="cover", size=(gal_thumb_x, gal_thumb_y))
+            else:
+                # Возвращаем "общую" заглушку, не грузя файлы с диска
+                return "gallery_locked_thumb"
+
+        def get_count_text(self):
+            total = len(self.images_data)
+            unlocked = len(self.get_unlocked_list())
+            return "{}/{}".format(unlocked, total)
+
     gallery_items = []
 
     def add_cg(name, images, thumb=None):
         gallery_items.append(GalleryItem(name, images, thumb))
+
+
+# --- ОБЩИЙ РЕСУРС ЗАБЛОКИРОВАННОЙ КАРТИНКИ ---
+# Создается один раз в памяти, используется везде. Супер-легкий.
+image gallery_locked_thumb:
+    Solid("#1a1a1a") # Темно-серый фон
+    size(384, 216)
+    Text("LOCKED", size=40, color="#444", align=(0.5, 0.5), outlines=[(2, "#000")])
 
 
 
@@ -286,6 +328,7 @@ init python:
         ("featured_5cg-1"),
         ("featured_5cg-2"),
         ("featured_5cg-3", _("Сделайте мне одолжение...")),
+        ("5cg-4"),
         ("featured_5cg-5", _("Застрелите друг друга~")),
     ])
 
@@ -340,7 +383,6 @@ init python:
         ("featured_8cg-8e-1"),
         ("8cg-8e-2"),
         ("featured_8cg-8e-3"),
-        ("featured_8cg-8e-3"),
     ])
 
     add_cg(_("Увядший Цветок"), [
@@ -354,8 +396,7 @@ init python:
     add_cg(_("Щит без Меча"), [
         ("featured_8cg-10-1"),
         ("featured_8cg-10-2"),
-        ("8cg-11"),
-        ("10cg-3-3", _("Стань моим Щитом~")),
+        ("8cg-11", _("Стань моим Щитом~")),
         ("featured_8cg-12"),
     ])
 
@@ -374,7 +415,6 @@ init python:
         ("featured_9cg-3"),
         ("featured_9cg-4", _("Заколка чужой Души")),
         ("featured_9cg-5b"),
-        ("10cg-3-3"),
         ("9cg-5"),
         ("featured_9cg-6"),
         ("featured_9cg-7b"),
@@ -397,5 +437,5 @@ init python:
     ])
 
     add_cg(_("Королева Пчёл"), [
-        ("featured_12cg-2"),
+        ("12cg-2"),
     ])

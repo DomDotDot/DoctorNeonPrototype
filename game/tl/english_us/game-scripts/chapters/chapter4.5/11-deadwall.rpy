@@ -927,7 +927,7 @@ translate english_us chapter4_5_finale_5d32fc0c:
 translate english_us chapter4_5_finale_570709a8:
 
     # narrator "Школа. Одиночество. Маркус. 'Синяя ворона'."
-    narrator "School. Loneliness. Marcus. 'Blue Crow'."
+    narrator "School. Loneliness. Marcus. 'Blue Sheep'."
 
 # game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:413
 translate english_us chapter4_5_finale_9df0d069:
@@ -1705,4 +1705,24 @@ translate english_us chapter4_5_finale_7c576036:
 
     # neon "Твоя сила — это не 'Зависть'. Зависть — это топливо. Твоя сила — это Иллюзия."
     neon "Your power isn't 'Envy'. Envy is the fuel. Your power is Illusion."
+
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:543
+translate english_us chapter4_5_finale_f3f972ca:
+
+    # seraphina "Если ты не поверишь... я... просто… просто..."
+    seraphina "If you won't believe... I... just... just..."
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:571
+translate english_us chapter4_5_finale_f24e7fae:
+
+    # seraphina "Н-Неон... ты мне веришь… да?"
+    seraphina "N-Neon... you believe me... right?"
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:643
+translate english_us chapter4_5_finale_bb3fdb8e:
+
+    # narrator "Шум в ушах пропал, не было больше наводящих мыслей, не было страха упустить тишину."
+    narrator "The noise in my ears disappeared, no more intrusive thoughts, no more fear of not hearing silence."
 

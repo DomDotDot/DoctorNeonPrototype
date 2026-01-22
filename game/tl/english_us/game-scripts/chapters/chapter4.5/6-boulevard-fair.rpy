@@ -589,3 +589,17 @@ translate english_us chapter4_5_boulevard_night_a4ad0f87:
     # narrator "Пора спать. Завтра будет новый, тяжелый день. В ушах все еще звенел этот идеальный, фальшивый крик: 'Помогите!'"
     narrator "ime to sleep. Tomorrow will be a new, hard day. That perfect, fake scream still rang in my ears: 'Help!'"
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:117
+translate english_us chapter4_5_boulevard_night_ad6309ce:
+
+    # narrator "Ее зрачки на долю секунды расширились. В них вспыхнуло узнавание. Испуг? Или всё-таки удивление?"
+    narrator "Her pupils dilated for a split second. Recognition flashed in them. Fear? Or was it surprise?"
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:202
+translate english_us chapter4_5_boulevard_night_bcdd4a5d:
+
+    # narrator "Аргон смотрел по сторонам и видела его лицо. Шок. Растерянность. Ужас. И всепоглощающий, убийственный стыд."
+    narrator "Argon looked around, and I saw his face. Shock. Confusion. Horror. And overwhelming, deadly shame."
+

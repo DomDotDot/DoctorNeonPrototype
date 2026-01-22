@@ -14,30 +14,55 @@ screen gallery():
     tag menu
     add "gui/main_menu.png" # Фон галереи
 
+    # Переменная текущей страницы
+    default page = 0
+    
+    # Вычисляем макс. страниц
+    $ max_page = (len(gallery_items) - 1) // gal_cells
+    
+    # Срезаем список, чтобы получить только нужные элементы (ОПТИМИЗАЦИЯ)
+    $ start_index = page * gal_cells
+    $ end_index = min(start_index + gal_cells, len(gallery_items))
+    $ current_items = gallery_items[start_index:end_index]
+
     use game_menu("Галерея"):
         
-        vpgrid:
-            cols 3
+        vbox:
+            align (0.5, 0.5)
             spacing 20
-            draggable True
-            mousewheel True
-            scrollbars "vertical"
-            xalign 0.5
-            yalign 0.5
 
-            allow_underfull True 
+            # Сетка кнопок
+            grid gal_cols gal_rows:
+                spacing 20
             
-            for item in gallery_items:
-                if item.is_visible():
+            # Рисуем элементы текущей страницы
+                for item in current_items:
 
                     # Кнопка открытого CG
                     button:
-                        xysize (384, 216)
+                        xysize (gal_thumb_x, gal_thumb_y)
                         background Solid("#333")
 
-                        add item.thumb:
-                            fit "cover"
-                            xysize (384, 216)
+                        add item.get_thumbnail_displayable() 
+
+                        # Если открыто - добавляем интерактив
+                        if item.is_unlocked():
+                            action Show("gallery_view", item=item)
+                            hover_foreground Solid("#ffffff22")
+                            
+                            # Название и счетчик
+                            frame:
+                                background Solid("#00000099")
+                                xfill True
+                                yalign 1.0
+                                padding (10, 5)
+                                hbox:
+                                    xfill True
+                                    text item.name size 18 color "#fff" align (0.0, 0.5)
+                                    text item.get_count_text() size 16 color "#aaa" align (1.0, 0.5)
+                        else:
+                            # Если закрыто - кнопка не нажимается (или звук ошибки)
+                            action NullAction() 
 
                         # Если картинка не найдена/битая, этот текст будет виден поверх серого фона
                         if not renpy.loadable(item.thumb) and not renpy.has_image(item.thumb):
@@ -46,31 +71,34 @@ screen gallery():
                                 color "#f00" 
                                 align (0.5, 0.5) 
                                 text_align 0.5
-
-                        hover_foreground Solid("#ffffff22")
-                        
-                        # Счетчик (например 1/3)
-                        frame:
-                            background Solid("#00000080")
-                            align (0.95, 0.95)
-                            padding (5, 2)
-                            text "[item.num_unlocked()]/[item.num_total()]":
-                                size 14
-                                color "#fff"
-                        
-                        # Название
-                        text item.name:
-                            align (0.5, 0.1)
-                            text_align 0.5
-                            size 22
-                            bold True
-                            outlines [(2, "#000", 0, 0)]
+                    
 
                         action Show("gallery_view", item=item)
-                        hovered Play("audio", "audio/sfx/cursor-hover.wav") 
+                        hovered Play("audio", "audio/sfx/cursor-hover.wav")
 
-                else:
-                    add "gallery_locked_thumb"
+                # Если на последней странице элементов меньше, чем ячеек, заполняем пустотой
+                for i in range(gal_cells - len(current_items)):
+                    null width gal_thumb_x height gal_thumb_y
+
+            # Навигация по страницам (Скелетон)
+            hbox:
+                xalign 0.5
+                spacing 50
+                
+                textbutton "< Назад":
+                    action SetScreenVariable("page", max(0, page - 1))
+                    sensitive (page > 0)
+                    text_size 30
+                    
+                text "Страница [page+1] / [max_page+1]":
+                    yalign 0.5
+                    color "#fff"
+                    
+                textbutton "Вперед >":
+                    action SetScreenVariable("page", min(max_page, page + 1))
+                    sensitive (page < max_page)
+                    text_size 30
+
 
 
 # --- ЭКРАН ПРОСМОТРА (СЛАЙДШОУ) ---
@@ -79,12 +107,12 @@ screen gallery_view(item):
     tag menu
     $ unlocked_imgs = item.get_unlocked_list()
     default idx = 0
+
+    add "#000"
     
     # Данные текущей картинки
     if unlocked_imgs:
         $ current_img, current_desc = unlocked_imgs[idx]
-
-        add "#000"
 
         # Само изображение
         add current_img:

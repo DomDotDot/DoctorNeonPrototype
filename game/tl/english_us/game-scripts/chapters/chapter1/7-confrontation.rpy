@@ -384,7 +384,7 @@ translate english_us confrontation_path_22abf716:
 translate english_us confrontation_path_ae25e6bc:
 
     # narrator "Двери лифта разъехались. Но кабина была не пуста."
-    narrator "The elevator doors slid open. But the car wasn't empty."
+    narrator "The elevator doors slid open. But the cabin wasn't empty."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:11
 translate english_us confrontation_path_2445ae57:
@@ -517,7 +517,7 @@ translate english_us confrontation_path_2da1a035:
 translate english_us confrontation_path_12b80677:
 
     # marcus suit_sinister "Сначала опекунша... теперь эта неудачница..."
-    marcus suit_sinister "First your guardian... now this loser..."
+    marcus suit_sinister "First your trustee... now this loser..."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:87
 translate english_us confrontation_path_425ce93c:
@@ -667,7 +667,7 @@ translate english_us confrontation_path_699d0f7d:
 translate english_us confrontation_path_0f546e42:
 
     # marcus "Упс. Неловко вышло. Как и вся твоя карьера, Синяя ворона."
-    marcus "Oops. That was awkward. Just like your whole career, Blue Crow."
+    marcus "Oops. That was awkward. Just like your whole career, Blue Sheep."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:204
 translate english_us confrontation_path_b32c9a31:

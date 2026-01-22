@@ -210,7 +210,7 @@ label chapter4_5_concert_end:
     seraphina neutral "Спасибо, что сказала, Неон!"
     
     
-    neon "А.. И еще... твои фанатки. Они... ...странные..."
+    neon "А… И еще... твои фанатки. Они... ...странные..."
 
     
     show seraphina unhappy

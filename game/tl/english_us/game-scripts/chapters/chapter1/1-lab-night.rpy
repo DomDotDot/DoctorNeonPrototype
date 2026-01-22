@@ -973,3 +973,23 @@ translate english_us chapter1_lab_night_2166eed7:
     # marcus "Я знаю, знаю. Я не за этим. Вы здесь уже которую ночь подряд. Совсем без сна."
     marcus "I know, Doctor, but... you've been here for nights on end. With no sleep at all."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:65
+translate english_us chapter1_lab_night_99a4eb0a:
+
+    # narrator "Запах свежего, крепкого кофе ударил в нос Неон, мгновенно вызывая рефлекторное желание. Ее организм, державшийся на кофеине последние сорок восемь часов, предательски заныл."
+    narrator "The smell of fresh, strong coffee hit Neon, instantly triggering a reflex. Her body, running on fumes and caffeine for the last forty-eight hours, cried out in betrayal."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:259
+translate english_us chapter1_lab_night_193c1963:
+
+    # narrator "Прогресс бар полз к девяноста девять процентов. График сигнала превратился в идеальную синусоиду, похожую на кардиограмму спокойного, счастливого человека."
+    narrator "The progress bar crept toward ninety-nine percent. The signal graph turned into a perfect sine wave, looking like the ECG of a calm, happy person."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:271
+translate english_us chapter1_lab_night_a070011e:
+
+    # narrator "Она чувствовала не триумф ученого. Она чувствовала покой. Такой глубокий, что веки стали тяжелыми."
+    narrator "She didn't feel the triumph of a scientist. She felt peace. So deep that her eyelids grew heavy."
+

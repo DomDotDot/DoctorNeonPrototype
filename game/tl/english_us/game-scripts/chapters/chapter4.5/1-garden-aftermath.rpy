@@ -590,3 +590,11 @@ translate english_us chapter4_5_garden_aftermath_cb635ca5:
     # narrator "Но я этого не 'осознавала'."
     narrator "But I didn't truly 'perceive' it."
 
+# TODO: Translation updated at 2026-01-02 18:33
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:87
+translate english_us chapter4_5_garden_aftermath_2897db1a:
+
+    # neon "Да... неловко… хе-хе..."
+    neon "Yeah... awkward... he-he..."
+
