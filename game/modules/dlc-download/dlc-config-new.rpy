@@ -11,52 +11,16 @@ init -999 python:
     # id: уникальный код
     # file: имя архива
     # folder: куда распаковать (относительно папки game/)
-    # check_file: файл для проверки наличия
+    # check_file: файл для проверки наличия (теперь используется manifest)
     dlc_catalog = [
         {
-            "id": "music",
-            "file": "music.zip",
-            "version": "v0.6.0",
-            "folder": "audio",
-            "check_file": "audio/music/BGM/FogHorns.opus",
-            "title": _("Фоновая музыка"),
-            "desc": _("Атмосферные треки (~120 МБ)")
-        },
-        {
-            "id": "ambient",
-            "file": "ambient.zip",
-            "version": "v0.6.0",
-            "folder": "audio",
-            "check_file": "audio/ambient/Target.opus",
-            "title": _("Эмбиент"),
-            "desc": _("Звуки окружения (~15 МБ)")
-        },
-        {
-            "id": "voice_ru",
-            "file": "voice_ru.zip", 
-            "version": "v0.5.3",
-            "folder": "audio",
-            "check_file": "audio/voice/voice_sample.ogg",
-            "title": _("Озвучка персонажей"),
-            "desc": _("Частичная озвучка диалогов (Русский) (это тест).\n~250 КБ")
-        },
-        {
-            "id": "voice_en_us",
-            "file": "voice_en.zip", 
-            "version": "v0.5.3", 
-            "folder": "tl/english_us/audio",
-            "check_file": "tl/english_us/audio/voice/escaping_facility_grounds_c1f78dab.ogg",
-            "title": _("Озвучка персонажей"),
-            "desc": _("Частичная озвучка диалогов (Английский) (это тест).\n~250 КБ")
-        },
-        {
-            "id": "sfx",
-            "file": "sfx.zip", 
-            "version": "v0.6.2", 
-            "folder": "audio",
-            "check_file": "audio/sfx/Chair_Hit.opus",
-            "title": _("SFX-Эффекты"),
-            "desc": _("Звуковые эффекты\n~2 МБ")
+            "id": "assets",
+            "file": "assets.zip",
+            "version": config.version, # Автоматически синхронизируем с версией игры
+            "folder": ".", # Распаковываем в корень game/
+            "manifest": "dlc_manifest.json",
+            "title": _("Полный пакет ресурсов"),
+            "desc": _("Звуки, музыка и озвучка (включает все предыдущие пакеты).")
         }
     ]
 
@@ -81,9 +45,17 @@ init -999 python:
     # === ЛОГИКА ===
 
     def is_dlc_installed(dlc_item):
-        """Проверяет физическое наличие файла-маркера."""
-        full_path = os.path.join(config.gamedir, dlc_item['check_file'])
-        return os.path.exists(full_path)
+        """Проверяет наличие файлов через манифест."""
+        # Если есть поле manifest - проверяем через него
+        if "manifest" in dlc_item:
+             return verify_dlc_manifest(dlc_item["manifest"])
+        
+        # Fallback на старую логику для совместимости (если вдруг пригодится)
+        if "check_file" in dlc_item:
+             full_path = os.path.join(config.gamedir, dlc_item['check_file'])
+             return os.path.exists(full_path)
+             
+        return False
 
     def get_dlc_url(dlc_item):
         return "{}/{}/{}".format(DLC_REPO_URL, dlc_item['version'], dlc_item['file'])

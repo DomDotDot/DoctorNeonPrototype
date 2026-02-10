@@ -224,7 +224,7 @@ label krypton_firstmeet_flashback:
 
         neon "Обещаю. Первый ряд. А потом Планетарий."
 
-        ""???"" "Ура!"
+        "???" "Ура!"
 
         narrator """
         Она рассмеялась от счастья и крепче сжала мои руки.
@@ -274,7 +274,7 @@ label krypton_firstmeet_flashback:
         stop sound
         
         scene white with flash
-        play sound "sfx/instant_static.opus" volume 0.125 with vpunch
+        play sound "sfx/instant_static.opus" volume 0.125
         # Резкий звук разрыва/вмешательства
         # Звук резонанса достигает пика и переходит во вспышку.
 

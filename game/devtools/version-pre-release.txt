@@ -1,0 +1,5 @@
+generate_dlc_manifest()
+
+build_all_dlc_packages()
+
+get_crowdin_stats #DEPRECATED

@@ -15,6 +15,7 @@ transform splash_zoom_fade:
 
 # Переменная для отслеживания первого запуска
 default persistent.firstlaunch = True
+default persistent.last_run_version = None # Хранит последнюю запущенную версию
 default persistent.seen_splash = False
 
 
@@ -86,22 +87,33 @@ label splashscreen:
 
 
     # -----------------------------------------------------------
-    # 4. НАСТРОЙКИ ПРИ ПЕРВОМ ЗАПУСКЕ
+    # 4. НАСТРОЙКИ ПРИ ПЕРВОМ ЗАПУСКЕ (ИЛИ ОБНОВЛЕНИИ)
     # -----------------------------------------------------------
     
-    if persistent.firstlaunch:
+    # Если версия изменилась или это первый запуск
+    if persistent.last_run_version != config.version:
         
-        # Выбор языка
-        call screen language_selection_screen
+        # Сброс флага "видел сплэш", чтобы игрок увидел новые дисклеймеры/логотипы
+        $ persistent.seen_splash = False
         
-        # Предупреждение о контенте
+        # Здесь можно сбросить и другие флаги, если нужно
+        # например, заставить перепроверить DLC
+        
+        # Обновляем записанную версию
+        $ persistent.last_run_version = config.version
+        
+        # Если это совсем первый запуск (или переход со старой версии без этого флага)
+        if persistent.firstlaunch:
+             # Выбор языка
+            call screen language_selection_screen
+            $ persistent.firstlaunch = False
+
+        # Предупреждение о контенте (показываем при каждом обновлении версии или первом запуске)
         call screen content_warning_screen with dissolve
         
         #TODO Настройки доступности (размер текста и т.д)
         # call screen accessibility_settings 
 
-
-        $ persistent.firstlaunch = False
     return
 
 call dlc_check_sequence from _call_dlc_check_sequence
