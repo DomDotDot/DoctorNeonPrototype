@@ -8,97 +8,72 @@ init python:
         Архивы будут лежать в корне проекта (рядом с папкой game).
         """
         
-        # --- НАСТРОЙКИ: СПИСОК DLC ---
-        # Формат: ("Имя_Архива.zip", "Папка_ИСТОЧНИК", "Папка_ВНУТРИ_АРХИВА")
-        
-        # Параметры
-        # 1. music.zip - имя файла
-        # 2. game/audio/music - что берем
-        # 3. music - как папка будет называться внутри ZIP. 
-        #    (Чтобы при распаковке в game/audio она стала game/audio/music)
-        
-        tasks = [
-
-            # Музыка
-            {
-                "zip": "music.zip", 
-                "src": "game/audio/music", 
-                "arcname": "music" 
-            },
-
-            # Эмбиент
-            {
-                "zip": "ambient.zip", 
-                "src": "game/audio/ambient", 
-                "arcname": "ambient"
-            },
-
-            # SFX
-            {
-                "zip": "sfx.zip", 
-                "src": "game/audio/sfx", 
-                "arcname": "sfx"
-            },
-
-            # Озвучка RU
-            {
-                "zip": "voice_ru.zip", 
-                "src": "game/audio/voice", 
-                "arcname": "voice"
-            },
-
-            # Озвучка EN
-            {
-                "zip": "voice_en.zip", 
-                "src": "game/tl/english_us/audio/voice", 
-                "arcname": "voice"
-            },
-        ]
-
         # Базовая директория (папка проекта, где лежит папка game)
         base_dir = config.basedir 
+        game_dir = config.gamedir
         
-        print("\n--- НАЧАЛО СБОРКИ DLC ---")
+        print("\n--- НАЧАЛО СБОРКИ DLC (v{}) ---".format(config.version))
         
-        for task in tasks:
-            zip_filename = os.path.join(base_dir, task["zip"])
-            source_dir = os.path.join(base_dir, task["src"])
-            arc_root = task["arcname"]
-            
-            print(f"Архивация: {task['zip']}...")
-            
-            # Проверяем, существует ли папка
-            if not os.path.exists(source_dir):
-                print(f"!! ОШИБКА: Папка не найдена: {source_dir}")
+        # Получаем каталог DLC (он определен в dlc-config-new.rpy)
+        # Так как это init python, dlc_catalog должен быть доступен в store
+        catalog = getattr(store, "dlc_catalog", [])
+        
+        if not catalog:
+            print("!! ОШИБКА: dlc_catalog не найден или пуст.")
+            renpy.notify("Ошибка: dlc_catalog пуст!")
+            return
+
+        for item in catalog:
+            # Проверяем, есть ли инструкции для сборки
+            if "build_sources" not in item:
                 continue
-
-            try:
-                # Создаем ZIP (сжатие DEFLATED - стандартное)
-                with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
-                    # Обходим все файлы в папке
-                    for root, dirs, files in os.walk(source_dir):
-                        for file in files:
-                            # Полный путь к файлу на диске
-                            file_path = os.path.join(root, file)
-                            
-                            # Вычисляем путь внутри архива
-                            # Например: source_dir = .../music
-                            # file_path = .../music/track1.opus
-                            # rel_path = track1.opus
-                            rel_path = os.path.relpath(file_path, source_dir)
-                            
-                            # Итоговый путь в zip: music/track1.opus
-                            zip_path = os.path.join(arc_root, rel_path)
-                            
-                            zipf.write(file_path, zip_path)
-                            
-                print(f"-> Готово: {zip_filename}")
                 
-            except Exception as e:
-                print(f"!! ОШИБКА при создании {task['zip']}: {e}")
+            dlc_id = item["id"]
+            zip_name = item["file"]
+            sources = item["build_sources"]
+            manifest_name = item.get("manifest", "dlc_manifest.json")
+            
+            print(f"\n[Обработка DLC: {dlc_id}]")
+            
+            # 1. Генерируем манифест
+            print(f" -> Генерация манифеста: {manifest_name}")
+            # Вызываем функцию из files_manifest.rpy
+            file_list = generate_dlc_manifest(target_filename=manifest_name, source_folders=sources)
+            
+            # 2. Создаем архив
+            zip_filename = os.path.join(base_dir, zip_name)
+            print(f" -> Архивация в: {zip_filename}")
+            
+            try:
+                with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
+                    # Добавляем манифест в корень архива
+                    manifest_path = os.path.join(game_dir, manifest_name)
+                    if os.path.exists(manifest_path):
+                        zipf.write(manifest_path, manifest_name) # В архиве будет лежать как dlc_manifest.json
+                    else:
+                        print("!! ВНИМАНИЕ: Манифест не найден после генерации!")
 
-        print("--- СБОРКА ЗАВЕРШЕНА ---\n")
-        renpy.notify("DLC Архивы созданы! Проверьте папку проекта.")
+                    # Добавляем файлы из манифеста
+                    for rel_path in file_list:
+                        full_path = os.path.join(game_dir, rel_path)
+                        if not os.path.exists(full_path):
+                            print(f"!! Пропуск (не найден): {rel_path}")
+                            continue
+                        
+                        # В архиве сохраняем структуру (например audio/music/track.opus)
+                        # Важно: файлы из game/ должны лежать в корне архива (или в game/?).
+                        # По логике распаковки в dlc_download: folder="." -> распаковка в game/
+                        # Значит, в архиве файлы должны лежать как audio/...
+                        # А манифест как dlc_manifest.json
+                        zipf.write(full_path, rel_path)
+                        
+                print(f" -> Готово: {zip_name}")
+
+            except Exception as e:
+                print(f"!! ОШИБКА при сборке {zip_name}: {e}")
+
+        print("\n--- СБОРКА ЗАВЕРШЕНА ---")
+        renpy.notify("DLC Архивы обновлены!")
 
 # Кнопка для вызова (добавь в screens.rpy в developer menu или просто временный экран)
 screen dlc_builder_tool():

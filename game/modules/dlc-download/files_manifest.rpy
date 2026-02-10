@@ -3,28 +3,34 @@ init python:
     import os
     import hashlib
 
-    def generate_dlc_manifest():
+    def generate_dlc_manifest(target_filename="dlc_manifest.json", source_folders=None):
         """
-        Сканирует папку game/audio (и другие если надо) и создает dlc_manifest.json
+        Сканирует source_folders (относительно game/) и создает target_filename
         в корне игры.
         """
+        if source_folders is None:
+            source_folders = ["audio"] # Дефолт
+
         manifest = {}
         base_dir = config.gamedir
         
-        # Папки для сканирования (относительно game/)
-        scan_dirs = ["audio", "tl/english_us/audio"] 
-        
         files_list = []
 
-        for d in scan_dirs:
+        for d in source_folders:
             full_path = os.path.join(base_dir, d)
             if not os.path.exists(full_path):
+                print(f"Skipping missing folder: {full_path}")
                 continue
                 
             for root, dirs, files in os.walk(full_path):
+                # Игнорируем папки с названием Unused (любой регистр)
+                dirs[:] = [d for d in dirs if d.lower() != "unused"]
+                
                 for file in files:
                     if file.endswith((".rpy", ".rpyc", ".rpym", ".rpymc", ".py", ".pyc")):
                         continue # Пропускаем скрипты
+                    if file.endswith(".DS_Store") or file.endswith("thumbs.db"):
+                        continue
                         
                     # Получаем относительный путь
                     abs_path = os.path.join(root, file)
@@ -35,11 +41,15 @@ init python:
         manifest["files"] = files_list
         manifest["version"] = config.version
         
-        manifest_path = os.path.join(base_dir, "dlc_manifest.json")
+        # Сортируем для красоты
+        files_list.sort()
+        
+        manifest_path = os.path.join(base_dir, target_filename)
         with open(manifest_path, "w") as f:
             json.dump(manifest, f, indent=4)
             
-        renpy.notify("Manifest Generated: {} files".format(len(files_list)))
+        print(f"Manifest Generated: {target_filename} ({len(files_list)} files)")
+        return files_list
 
     def verify_dlc_manifest(manifest_filename="dlc_manifest.json"):
         """
