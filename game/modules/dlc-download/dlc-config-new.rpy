@@ -17,6 +17,7 @@ init -999 python:
             "id": "assets",
             "file": "assets.zip",
             "version": config.version, # Автоматически синхронизируем с версией игры
+            "url_version": "v" + config.version, # Для GitHub Releases нужен тег с 'v'
             "folder": ".", # Распаковываем в корень game/
             "manifest": "dlc_manifest.json",
             "title": _("Полный пакет ресурсов"),
@@ -62,7 +63,9 @@ init -999 python:
         return False
 
     def get_dlc_url(dlc_item):
-        return "{}/{}/{}".format(DLC_REPO_URL, dlc_item['version'], dlc_item['file'])
+        # Если в конфиге DLC явно указано какую версию использовать в URL (например "v0.6.6")
+        version = dlc_item.get("url_version", dlc_item['version'])
+        return "{}/{}/{}".format(DLC_REPO_URL, version, dlc_item['file'])
 
     def _dlc_thread_worker(url, zip_path, target_dir):
         global dlc_state
