@@ -242,6 +242,13 @@ label chapter4_0_academy:
     И под ним была ее фотография. Та самая девушка из моего сна. С волосами цвета снега и ночи, сидящая за роялем. Реальная. Существовавшая.
     """
 
+    # Start Flashback Transition
+    stop music fadeout 0.5
+    stop ambient fadeout 0.5
+    # play sound "sfx/memory_glitch_static.opus"
+    show black with flash
+    call zurich_university_flashback_2
+
     # Звук: Резкий, короткий звон в ушах.
     # play sound "sfx/memory_glitch_static.opus" volume 0.5
     show black with { "master" : Dissolve(10.0) }

@@ -12,7 +12,7 @@ label chapter_1_rpy:
 
 
     call chapter1_lab_noon_library from _call_chapter1_lab_noon_library
-    call zurich_university_flashback from _call_zurich_university_flashback
+    call zurich_university_flashback_1
     call chapter1_lab_noon_library_desk from _call_chapter1_lab_noon_library_desk
 
 
