@@ -1,6 +1,6 @@
 label chapter1_lab_morning:
 
-        scene bg chapter_1_lab_day with Fade(0.1, 0.0, 0.5)
+        scene ch01_bg01_v02 with Fade(0.1, 0.0, 0.5)
         # play sound "sounds/phone_alarm_vibrating.opus" loop
 
         narrator "Оглушительная трель будильника ворвалась в тишину, выдернув Неон из вязкой темноты сна. Она вскинула голову с резким, сдавленным вскриком."
