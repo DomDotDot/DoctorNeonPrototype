@@ -14,7 +14,8 @@ transform dizzy_sway:
 
 # Эффект легкого покачивания (16:9 версия)
 transform dizzy_sway169:
-    anchor (0,0)
+    xalign 0.5 yalign 0.5
+    zoom 1.03125
     subpixel True
 
     parallel:
