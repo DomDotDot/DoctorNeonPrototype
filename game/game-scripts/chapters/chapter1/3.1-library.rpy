@@ -52,7 +52,7 @@ label chapter1_lab_noon_library:
 
         stop music fadeout 2.0
         # play sound "sfx/memory_trigger_bell.opus" # Звук триггера воспоминания (колокольчик или пианино)
-        scene black with input_dissolve
+        scene black with fade
         
         # Переход к флешбэку происходит здесь (вызов в chapter-1.rpy)
 return
