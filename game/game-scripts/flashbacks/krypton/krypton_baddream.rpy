@@ -33,4 +33,8 @@ label chapter1_krypton_baddream:
     Неон потянулась в ответ, чувствуя, как тепло чужой ладони касается её пальцев...
     """
 
+    show krypton gratitude at Glitch(_fps=6.0, glitch_strength=.03125, color_range1="#00000000", color_range2="#00000000")
+    $ renpy.pause(0.125, hard=True)
+    hide krypton gratitude with Fade(2.5, 5.0, 2.5)
+
 return
