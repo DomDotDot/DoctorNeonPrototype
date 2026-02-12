@@ -45,6 +45,7 @@
                 call chapter_4_5_rpy_act2 from _call_chapter_4_5_rpy_act2
                 $ persistent.chapter_5_unlocked = True
                 $ persistent.main_menu_level = 4
+                call screen chapter_screen(_("Конец первого тома"), _("Спасибо за игру!"))
 
         label chapter_5:
                 call chapter_5_rpy from _call_chapter_5_rpy

@@ -23,7 +23,4 @@ label chapter_4_5_rpy_act2:
 
     if _return == "secret_scene":
         jump secret_scene_vol1
-    
-    call screen chapter_screen(_("Конец первого тома"), _("Спасибо за игру!"))
-
 return
