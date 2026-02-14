@@ -279,26 +279,26 @@ translate english_us chapter1_lab_morning_85c2b782:
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:122
 translate english_us chapter1_lab_morning_470633a1:
 
-    # alex pity "Господи, Неон, ты на себя в зеркало смотрела? Мешки под глазами скоро до колен достанут!"
-    alex pity "Good lord, Neon, have you looked in a mirror? The bags under your eyes are gonna be down to your knees!"
+    # alex worried "Господи, Неон, ты на себя в зеркало смотрела? Мешки под глазами скоро до колен достанут!"
+    alex worried "Good lord, Neon, have you looked in a mirror? The bags under your eyes are gonna be down to your knees!"
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:122
 translate english_us chapter1_lab_morning_1436ef06:
 
-    # alex pity "Ты уже неделю не выходила из комплекса! Там, внизу, есть жизнь!"
-    alex pity "Hey, you've been holed up in the complex for a week! There's life down there!"
+    # alex worried "Ты уже неделю не выходила из комплекса! Там, внизу, есть жизнь!"
+    alex worried "Hey, you've been holed up in the complex for a week! There's life down there!"
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:122
 translate english_us chapter1_lab_morning_bb5bc950:
 
-    # alex pity "Так же нельзя, подруга! С такой физиономией тебя ни один приличный парень на свидание не позовет! А тебе всего двадцать два!"
-    alex pity "You can't do this to yourself, girl! With a mug like that, no decent guy is ever gonna ask you out! And you're only twenty-two!"
+    # alex worried "Так же нельзя, подруга! С такой физиономией тебя ни один приличный парень на свидание не позовет! А тебе всего двадцать два!"
+    alex worried "You can't do this to yourself, girl! With a mug like that, no decent guy is ever gonna ask you out! And you're only twenty-two!"
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:122
 translate english_us chapter1_lab_morning_a18c123c:
 
-    # alex pity "Молодость проходит!"
-    alex pity "You're not getting any younger!"
+    # alex worried "Молодость проходит!"
+    alex worried "You're not getting any younger!"
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:131
 translate english_us chapter1_lab_morning_9f8de9ab:
