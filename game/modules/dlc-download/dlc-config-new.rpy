@@ -53,12 +53,12 @@ init -999 python:
         """Проверяет наличие файлов через манифест."""
         # Если есть поле manifest - проверяем через него
         if "manifest" in dlc_item:
-             return verify_dlc_manifest(dlc_item["manifest"])
+            return verify_dlc_manifest(dlc_item["manifest"])
         
         # Fallback на старую логику для совместимости (если вдруг пригодится)
         if "check_file" in dlc_item:
-             full_path = os.path.join(config.gamedir, dlc_item['check_file'])
-             return os.path.exists(full_path)
+            full_path = os.path.join(config.gamedir, dlc_item['check_file'])
+            return os.path.exists(full_path)
              
         return False
 
