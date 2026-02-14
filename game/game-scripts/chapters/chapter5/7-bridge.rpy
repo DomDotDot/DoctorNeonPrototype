@@ -85,7 +85,7 @@ label chapter5_bridge_and_katana:
     show argon operative_glasses at left with dissolve
     show neon operative_pain at right with dissolve
 
-    argon "Это не взрыв реактора, Неон. Это резня. Кто-то прошел сквозь них, как нож сквозь масло."
+    argon "Это не взрыв реактора, Неон. Здесь была резня. Кто-то прошел сквозь них, как нож сквозь масло."
 
     neon "Лучше помоги мне с дверью."
 
