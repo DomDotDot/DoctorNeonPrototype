@@ -82,4 +82,6 @@ label zurich_university_flashback_1:
 
         narrator "Голоса Анны и Софи растворились в тишине библиотеки. Запах коридора сменился запахом книг и кофе."
 
+        $ persistent.flashback_zurich_1_unlocked = True
+
 return
