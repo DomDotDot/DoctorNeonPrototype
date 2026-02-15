@@ -315,7 +315,7 @@ screen navigation():
         textbutton _("Настройки") action ShowMenu("preferences")
 
         if renpy.get_screen("main_menu"):
-            textbutton _("Галерея CG") action ShowMenu("gallery")
+            textbutton _("Воспоминания") action ShowMenu("memory_recollection")
 
         if _in_replay:
 
@@ -326,7 +326,7 @@ screen navigation():
             textbutton _("Главное меню") action MainMenu()
 
         textbutton _("Об игре") action ShowMenu("about")
-        textbutton _("Галерея CG") action ShowMenu("gallery")
+        textbutton _("Воспоминания") action ShowMenu("memory_recollection")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 

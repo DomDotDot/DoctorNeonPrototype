@@ -47,8 +47,8 @@ screen main_menu():
         textbutton _("Играть") action ShowMenu("play_menu") style "main_menu_button"
         textbutton _("Настройки") action ShowMenu("settings_menu") style "main_menu_button"
         
-        if renpy.has_screen("gallery"):
-            textbutton _("Галерея CG") action ShowMenu("gallery") style "main_menu_button"
+        if renpy.has_screen("memory_recollection"):
+            textbutton _("Воспоминания") action ShowMenu("memory_recollection") style "main_menu_button"
         
         #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
 

@@ -25,7 +25,7 @@ screen gallery():
     $ end_index = min(start_index + gal_cells, len(gallery_items))
     $ current_items = gallery_items[start_index:end_index]
 
-    use game_menu("Галерея"):
+    use memory_game_menu("Галерея", return_action=ShowMenu("memory_recollection")):
         
         vbox:
             align (0.5, 0.5)
