@@ -247,7 +247,7 @@ label chapter4_0_academy:
     stop ambient fadeout 0.5
     # play sound "sfx/memory_glitch_static.opus"
     show black with flash
-    call zurich_university_flashback_2
+    call zurich_university_flashback_2 from _call_zurich_university_flashback_2
 
     # Звук: Резкий, короткий звон в ушах.
     # play sound "sfx/memory_glitch_static.opus" volume 0.5
