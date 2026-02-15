@@ -224,13 +224,10 @@ init python:
     build.classify('crowdin.yml', None)
 
     # Изображения
-    build.classify('development-sketches/**', 'dev')
-    build.classify('promoimages/**', 'dev')
-    build.classify('game/dev-images/**', 'dev')
-    build.classify('image-assets/**', 'dev')
-
-    build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
-    build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
+    build.classify('game/dev-images/**', 'dev') # Backup rule if move failed
+    build.classify('source_assets/**', None)
+    build.classify('tools/**', None)
+    build.classify('unused/**', None)
 
     # 1. Музыка
     build.classify('game/audio/music/**', None)
@@ -244,9 +241,6 @@ init python:
     
     # 4. Английская озвучка (в папке перевода)
     build.classify('game/tl/english_us/audio/voice/**', None)
-
-    # 5. Неиспользуемые
-    build.classify('game/audio/Unused/**', None)
 
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 
