@@ -97,7 +97,9 @@ label splashscreen:
         $ persistent.seen_splash = False
         
         # Здесь можно сбросить и другие флаги, если нужно
+        # Здесь можно сбросить и другие флаги, если нужно
         # например, заставить перепроверить DLC
+        $ persistent.dlc_setup_completed = None
         
         # Обновляем записанную версию
         $ persistent.last_run_version = config.version
@@ -114,7 +116,6 @@ label splashscreen:
         #TODO Настройки доступности (размер текста и т.д)
         # call screen accessibility_settings 
 
-    return
+    call dlc_check_sequence from _call_dlc_check_sequence
 
-call dlc_check_sequence from _call_dlc_check_sequence
-return
+    return
