@@ -1,3 +1,0 @@
-files:
-  - source: /game/tl/None/**/*.pot
-    translation: /game/tl/%two_letters_code%/**/game.po

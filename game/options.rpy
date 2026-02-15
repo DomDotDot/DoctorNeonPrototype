@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.6.6-early"
+define config.version = "0.6.7-early"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -221,7 +221,6 @@ init python:
 
     build.classify('README.md', None)
     build.classify('LICENSE', None)
-    build.classify('crowdin.yml', None)
 
     # Изображения
     build.classify('game/dev-images/**', 'dev') # Backup rule if move failed
