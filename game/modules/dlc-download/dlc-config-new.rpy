@@ -17,7 +17,7 @@ init -999 python:
             "id": "assets",
             "file": "assets.zip",
             "version": config.version, # Автоматически синхронизируем с версией игры
-            "url_version": "v" + config.version, # Для GitHub Releases нужен тег с 'v'
+            "url_version": "v" + "0.6.6-early", # Для GitHub Releases нужен тег с 'v'
             "folder": ".", # Распаковываем в корень game/
             "manifest": "dlc_manifest.json",
             "title": _("Полный пакет ресурсов"),
