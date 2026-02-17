@@ -55,6 +55,9 @@ Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6
 Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.7-early-dists\DoctorNeonPrototype-0.6.7-early-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
+[Dirs]
+Name: "{app}"; Permissions: users-modify
+
 [Registry]
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}"; ValueType: string; ValueName: ""; ValueData: "{#MyAppAssocName}"; Flags: uninsdeletekey
