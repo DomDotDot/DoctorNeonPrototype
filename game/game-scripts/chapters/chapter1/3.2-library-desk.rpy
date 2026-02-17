@@ -1,6 +1,6 @@
 label chapter1_lab_noon_library_desk:
 
-        scene cg-2_3 with dissolve
+        scene ch01_cg16_v01 with dissolve
         # play sound "sounds/paper_rustle.opus" # Звук перелистывания заметок
 
         narrator """
@@ -38,11 +38,8 @@ label chapter1_lab_noon_library_desk:
         Частичные осколки прошлого мимолетно пролетают перед её глазами, но их недостаточно, чтобы составить полноценную картину.
         """
 
-        scene cg-2_4 with dissolve
-
         narrator "Неон глубоко вздохнула, отгоняя холодные тени прошлого. Она здесь. Она вырвалась. И она нашла... не ответ, нет, а первый ключ к разгадке."
 
-        scene cg-2_4 with dissolve
         # play sound "sounds/pen_tap.opus" # Звук постукивания ручкой по столу
 
         narrator """
@@ -78,9 +75,6 @@ label chapter1_lab_noon_library_desk:
         neon "'{=thoughts}...с высокой степенью вероятности — это послание. Или память...'"
 
         narrator "Послание. Память. Не хаос. Это было ключевое слово. Ее оправдание. Ее путь к спасению от тишины."
-
-
-        scene featured_cg-2_5 with dissolve
 
         narrator """
         Она обвела эту фразу несколько раз. Ключевой момент.

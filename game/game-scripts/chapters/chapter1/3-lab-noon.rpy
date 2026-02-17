@@ -1,6 +1,7 @@
 label chapter1_lab_noon:
 
         # play music "sounds/ambient_lab_contemplative.opus" loop fadein 1.0
+        scene ch01_cg14_v01 with Dissolve(2)
 
         narrator """
         Энергичный уход Алекс оставил за собой вихрь смешанных чувств и звенящую тишину.
@@ -30,7 +31,8 @@ label chapter1_lab_noon:
 
         neon "{=thoughts}Нужно найти Маркуса. Он поможет с оборудованием. И, может, отвлечет от этих мыслей. И вообще, куда он пропал?!"
 
-        scene bg chapter_1_lab_corridor_1 with fade
+        scene ch01_bg02_v01 with fade
+
         narrator """
         Собрав свои бумаги и злополучную ручку, Неон решительно вышла из офиса. 
 
@@ -40,7 +42,7 @@ label chapter1_lab_noon:
 
         Нужно спуститься в общую зону. Может, Марк там? Или хотя бы кофе найдется.
         """
-        scene bg chapter_1_lab_elevator with Dissolve(0.5)
+        scene ch01_cg15_v01 with Dissolve(0.5)
 
         narrator """
         Лифт прибыл почти мгновенно. Внутри играла тихая, нейтральная музыка.
@@ -63,7 +65,7 @@ label chapter1_lab_noon:
 
 
         # Сцена в кафетерии
-        scene bg chapter_1_lab_cafeteria with Fade(1.0, 0, 1.0)
+        scene ch01_bg03_v01 with Fade(1.0, 0, 1.0)
         stop music fadeout 2.0
         play ambient "ambient/staff-canteen-background.opus" fadein 2.0
         narrator """
@@ -116,10 +118,6 @@ label chapter1_lab_noon:
         hans "Удачи!"
         neon "Спасибо!"
 
-        scene featured_cg-1 with dissolve
-        pause(2.5)
-        scene bg chapter_1_lab_cafeteria with Fade(1.0, 0, 1.0)
-
         narrator """
         Странно. Очень странно. Неон поблагодарила Ханса и направилась к выходу.
 
@@ -133,10 +131,9 @@ label chapter1_lab_noon:
         """
 
         stop ambient fadeout 2.0
-        scene bg chapter_1_lab_corridor_2 with fade
+        scene ch01_bg04_v01 with Fade(1.0, 0, 1.0)
         
         narrator """
-        
         Тревога, до этого бывшая лишь тихим фоновым шумом, начала нарастать, превращаясь в навязчивую мелодию.
 
         Маркус идет к начальству. Один. С папкой. Перед ее главным докладом.
@@ -151,4 +148,5 @@ label chapter1_lab_noon:
         
         Наконец, она достигла тихого крыла, где располагался информационный центр и библиотека.
         """
+
 return

@@ -1,7 +1,7 @@
 label chapter1_lab_noon_library:
 
 
-        scene bg chapter_1_lab_library with fade
+        scene ch01_bg05_v01 with fade
         play music "music/BGM/Rewrite-Remembrance.opus" noloop fadein 1.5
 
         narrator """
@@ -20,7 +20,7 @@ label chapter1_lab_noon_library:
         Белый, как неизвестность, которую ей предстояло заполнить словами.
         """
 
-        scene cg-2_1 with dissolve
+        scene ch01_cg16_v01 with dissolve
         # play sound "sounds/pen_uncap.opus" # Звук снятия колпачка с ручки
 
         narrator "Она сняла колпачок с ручки. Чернила на кончике выглядели блекло."
@@ -52,7 +52,6 @@ label chapter1_lab_noon_library:
 
         stop music fadeout 2.0
         # play sound "sfx/memory_trigger_bell.opus" # Звук триггера воспоминания (колокольчик или пианино)
-        scene black with fade
         
         # Переход к флешбэку происходит здесь (вызов в chapter-1.rpy)
 return

@@ -52,7 +52,8 @@ label confrontation_path:
 
         narrator "Неон застыла от этого прикосновения. Но Алекс среагировала мгновенно."
 
-        #show alex angry at center with move
+        show alex serious zorder 6 at midleft with easeinright
+        show neon surprised at midright with easeinleft
         #show neon at right with move
         
         # Звук резкого шага или удара по руке
@@ -66,7 +67,7 @@ label confrontation_path:
 
         alex "{=yell}Слышь, ты! Руки убрал от моей Неон!{/yell}" with vpunch
 
-        alex "Еще раз тронешь ее — я тебе пальцы переломаю, понял?"
+        alex determined "Еще раз тронешь ее — я тебе пальцы переломаю, понял?"
 
         narrator """
         Маркус отшатнулся от неожиданности. Он посмотрел на свою руку, потом на Алекс. В его взгляде появилось брезгливое удивление, будто на него лаяла дворняжка.
@@ -85,7 +86,6 @@ label confrontation_path:
         narrator "Он проигнорировал Алекс, глядя поверх ее головы прямо на Неон"
 
         marcus suit_sinister """
-        
         Видишь, Неон? Ты даже за себя постоять не можешь. Тебе всегда нужна нянька.
         
         Сначала опекунша... теперь эта неудачница...
@@ -106,11 +106,12 @@ label confrontation_path:
         """
 
         #show neon shadowed at center with move
-        #show alex concerned at right with move
+        show alex sad at right with easeinright
+        show neon at center with easeinleft
 
         neon "{=whisper}Алекс... отойди."
 
-        alex "Неон? Не слушай его, он просто..."
+        alex pleading "Неон? Не слушай его, он просто..."
 
         neon "Я сказала... отойди."
 
@@ -129,7 +130,7 @@ label confrontation_path:
 
         marcus "Забавная вещица. Я послушал, пока ты спала. Какая-то заунывная классика. И это помогает тебе работать? Серьезно?"
 
-        neon "{=yell}Не трогай их! Это... это единственное, что спасает меня от шума! Это лечит мою душу!{/yell}"
+        neon frustrated "Не трогай их! Это... это единственное, что спасает меня от шума!"
 
         narrator "Неон дернулась к нему, пытаясь выхватить их, но Маркус легко поднял руку выше, как взрослый дразнит ребенка."
 
@@ -155,6 +156,7 @@ label confrontation_path:
         play ambient "ambient/Target.opus" fadein 5.0
 
         show neon surprised zorder 5
+        show alex zorder 0
         show black with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
         pause 1.0
@@ -211,6 +213,7 @@ label confrontation_path:
         narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
 
         # play sound "sfx/static_shock_loud.opus" with hpunch
+        show alex slight shocked with vpunch
         
         narrator """
         ТРЕСК!
