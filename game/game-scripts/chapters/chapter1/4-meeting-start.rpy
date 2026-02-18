@@ -1,6 +1,6 @@
 label chapter1_meeting_start:
 
-        scene bg chapter_1_admin_approach with fade
+        scene bg chapter_1_admin_approach with Dissolve(2.5)
         play music "music/BGM/BigShot.opus" fadein 2.5 fadeout 5.0
 
         narrator """
