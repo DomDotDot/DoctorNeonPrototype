@@ -106,12 +106,13 @@ label splashscreen:
         
         # Если это совсем первый запуск (или переход со старой версии без этого флага)
         if persistent.firstlaunch:
-             # Выбор языка
+            # Выбор языка
             call screen language_selection_screen
             $ persistent.firstlaunch = False
 
         # Предупреждение о контенте (показываем при каждом обновлении версии или первом запуске)
         call screen content_warning_screen with dissolve
+        call screen content_warning with dissolve
         
         #TODO Настройки доступности (размер текста и т.д)
         # call screen accessibility_settings 
