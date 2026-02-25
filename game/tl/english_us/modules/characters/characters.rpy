@@ -169,7 +169,7 @@ translate english_us strings:
     new "Trustee" 
 
     # Перевод для состояния "Имя узнано"
-    old "Оганесон"
+    old "Оганессон"
     new "Oganesson"
 
     old "Задира"

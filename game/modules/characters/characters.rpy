@@ -258,7 +258,7 @@ init python:
             mika_display_name = "Мика"
 
         if chap_num >= 6:
-            oganesson_display_name = "Оганесон"
+            oganesson_display_name = "Оганессон"
         else:
             oganesson_display_name = "Опекунша"
 
