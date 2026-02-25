@@ -242,3 +242,42 @@ define unknown = Character(_('Неизвестный'), kind=base, color=c_white
 define unknown_f = Character(_('Неизвестная'), kind=base, color=c_white)
 define unknown_char = Character("???", kind=base, color=c_white)
 define fcs = Character(_('АБСУ'), color=c_fcs, voice_tag="fcs")
+
+init python:
+    def fix_chapter_names(chap_num):
+        global argon_display_name, oganesson_display_name, mika_display_name
+        
+        if chap_num >= 4:
+            argon_display_name = "Аргон"
+        else:
+            argon_display_name = "???"
+
+        if chap_num >= 4.6:
+            mika_display_name = "Мика Китамура"
+        else:
+            mika_display_name = "Мика"
+
+        if chap_num >= 6:
+            oganesson_display_name = "Оганесон"
+        else:
+            oganesson_display_name = "Опекунша"
+
+# Fix names on loading old saves
+label after_load:
+    python:
+        ret_stack = renpy.get_return_stack()
+        if "_call_chapter_5_rpy" in ret_stack:
+            fix_chapter_names(5)
+        elif "_call_chapter_4_5_rpy_act2" in ret_stack:
+            fix_chapter_names(4.6)
+        elif "_call_chapter_4_5_rpy_act1" in ret_stack:
+            fix_chapter_names(4.5)
+        elif "_call_chapter_4_rpy" in ret_stack:
+            fix_chapter_names(4)
+        elif "_call_chapter_3_rpy" in ret_stack:
+            fix_chapter_names(3)
+        elif "_call_chapter_2_rpy" in ret_stack:
+            fix_chapter_names(2)
+        elif "_call_chapter_1_rpy" in ret_stack:
+            fix_chapter_names(1)
+    return
