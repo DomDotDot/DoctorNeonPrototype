@@ -1,6 +1,6 @@
 label chapter1_meeting_start:
 
-        scene bg chapter_1_admin_approach with Dissolve(2.5)
+        scene ch01_bg07_v01 with Dissolve(2.5)
         play music "music/BGM/BigShot.opus" fadein 2.5 fadeout 5.0
 
         narrator """
@@ -14,7 +14,11 @@ label chapter1_meeting_start:
         'Юридическая служба'
         
         Сотрудники в строгих костюмах мелькали за стеклами, не обращая на нее внимания.
-        
+        """
+
+        scene ch01_cg18_v01 with dissolve
+
+        narrator """ 
         Вот и он – большой зал заседаний номер один.
         
         Обычно здесь проходили общие собрания или встречи с важными гостями. Странно, что для обычного ученого совета выбрали его.
@@ -28,7 +32,7 @@ label chapter1_meeting_start:
 
         narrator "Собрав всю волю в кулак, Неон толкнула тяжелую дверь и шагнула внутрь."
         # play sound "sounds/heavy_door_open.opus"
-        scene bg chapter_1_conference_hall_investors with fade
+        scene ch01_cg19_v01 with fade
 
         queue music "music/BGM/HRT.opus" noloop fadein 2.5 volume 0.5
         queue music "music/BGM/Initiation_Inactive.opus" loop fadein 2.5 volume 0.5
@@ -77,7 +81,8 @@ label chapter1_meeting_start:
         И тут один из сидевших ближе к входу, спиной к ней, обернулся. Это был Маркус.
         """
 
-        show marcus suit_happy at right with dissolve
+        scene ch01_cg19_v02 with dissolve
+
         narrator """
         Он был не в обычном лабораторном халате, а в строгом деловом костюме, который сидел на нем идеально. На его лице играла самодовольная улыбка.
         
@@ -86,7 +91,7 @@ label chapter1_meeting_start:
         Неон, все еще не до конца понимая происходящее, медленно подошла и опустилась на стул, перед этим тихо притворив за собой дверь.
         """
 
-        show neon surprised at midleft with easeinleft
+        scene ch01_cg20_v01 with Dissolve(2.5)
         # play sound "sounds/light_door_close.opus"
 
         cro """
@@ -94,6 +99,8 @@ label chapter1_meeting_start:
 
         На повестке дня – потенциально революционное открытие в области поиска внеземных цивилизаций.
         """
+
+        scene ch01_cg20_v02 with dissolve
 
         narrator "Маркус наклонился к Неон и прошептал ей на ухо, едва слышно перекрывая голос Грубенманна:"
 
@@ -112,10 +119,12 @@ label chapter1_meeting_start:
         
         narrator "Маркус уже не слушал ее последний вопрос. Он с готовностью выпрямился, его взгляд был устремлен на Грубенманна и Бауманна."
 
+        scene ch01_cg20_v01 with dissolve
+
         marcus suit_smug "Да, господин председатель, благодарю."
 
-        hide marcus with dissolve
-        show neon at center with easeinleft
+        scene black with dissolve
+
         narrator """
         Неон почувствовала укол странной смеси облегчения и беспокойства.
 
@@ -133,8 +142,9 @@ label chapter1_meeting_start:
 
         Она так думала... ровно до того момента, как Маркус начал говорить, а на большом экране за его спиной появилось изображение.
         """
-        hide neon with dissolve
-        show marcus suit_smug with dissolve
+
+        scene ch01_cg21_v01 with dissolve
+
         marcus """
         Уважаемые члены совета, коллеги!
 
@@ -163,19 +173,15 @@ label chapter1_meeting_start:
 
         narrator "Ее голос прозвучал слабо, но в наступившей тишине его услышали все. Взгляды немедленно обратились к ней."
 
-        hide marcus with dissolve
-        show neon surprised with dissolve
-
         ceo "Да, доктор Неон? У вас есть комментарии?"
 
         
         narrator "Неон вскочила со стула, ее стул с неприятным скрипом отодвинулся назад. Она указала дрожащей рукой на экран. Лицо ее пылало."
+
+        scene ch01_cg22_v01 with vpunch
         # play sound "sounds/chair_scrape.opus"
 
         neon frustrated "Это моя работа! Я расшифровала этот сигнал! Это мои расчеты! Как они оказались у него?!"
-
-        show neon surprised at midleft with easeinleft
-        show marcus suit_smug at midright with dissolve
         
         marcus """
         Доктор Неон, я понимаю ваше волнение. Возможно, вы работали над схожей проблемой.
@@ -196,8 +202,6 @@ label chapter1_meeting_start:
 
         neon "Но я... я не знала, что формат собрания изменится... Я думала, это будет обычное научное обсуждение..."
 
-        show neon surprised
-
         cro """
         Доктор Неон! Прекратите этот балаган! Вы мешаете докладчику и дискредитируете себя.
 
@@ -210,7 +214,6 @@ label chapter1_meeting_start:
         Вы пришли на заседание совета директоров с... с... какими-то черновиками? Вы вообще понимаете, где находитесь и каков регламент?
         """
 
-        show neon frustrated
         narrator "Щеки Неон горели от стыда и бессильной ярости. Слова Грубенманна били наотмашь."
 
         ceo """Иоганн Грубенманн, достаточно. Давайте не будем накалять обстановку.
@@ -222,9 +225,8 @@ label chapter1_meeting_start:
         Продолжайте, пожалуйста, вашу презентацию.
         """
 
-        hide marcus with dissolve
-        show neon eyehurt with dissolve
-        show neon at center with easeinleft
+        show black with { "master" : Dissolve(10.0) }
+        with { "effect": dissolve }
 
         narrator """
         Вот оно что. \n
@@ -241,11 +243,7 @@ label chapter1_meeting_start:
         Слова, графики, восторженные комментарии директоров – все это сливалось в один невыносимый белый шум.
 
         Она сидела, раздавленная, обманутая, опустошенная. Ее открытие, ее мечта – все было растоптано.
-        """
-
-        scene featured_cg-5_1 with fade
-
-        narrator """
+        
         Неон не помнила, как вышла из зала. Кажется, она просто встала и, не глядя ни на кого, пошла к двери, когда поняла, что ее присутствие там – фарс, издевательство.
         
         Она опустилась на мягкий диван в коридоре, прямо напротив конференц-зала. 
@@ -262,6 +260,4 @@ label chapter1_meeting_start:
 
         Белый шум в ушах начал меняться, обретая знакомые, ненавистные нотки... тишина школьного класса перед началом урока, лишь нечастые перешептывания одноклассников
         """
-
-        scene black with Fade(5.0, 1.0, 5.0)
 return

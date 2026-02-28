@@ -1,25 +1,12 @@
 label chapter1_security_post_scene:
 
-        scene bg chapter_1_security_post_interior with fade
-        
-        show neon neutral at flip 
-        show alex concerned at flip
-        show alex at left
-        show neon at left
-        show alex at center with easeinleft
-        show neon at left with easeinleft
-
-
-
         narrator "Пост охраны располагался на первом этаже, недалеко от главного входа. Несколько мониторов показывали картинки с различных камер по всему комплексу."
         narrator "Ханс сидел за пультом, изучая какой-то журнал."
 
-        show hans normal at right with dissolve
+        scene ch01_cg30_v01 with dissolve
 
         hans "О, Неон! И вы, Александра... Как прошло собрание? Надеюсь, удачно?"
 
-        show neon at center with easeinleft
-        show alex at left with easeinleft
         neon "Ханс, нам очень нужна ваша помощь. Это вопрос жизни и смерти. Ну, почти."
         alex "Дело очень серьезное, Ханс. Речь идет о краже интеллектуальной собственности."
         hans "Кража? У нас? Да вы что, девушки?"
