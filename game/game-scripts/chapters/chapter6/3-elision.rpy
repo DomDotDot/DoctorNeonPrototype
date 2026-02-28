@@ -1,4 +1,4 @@
-label chapter6_tradingcenter    
+label chapter6_tradingcenter: 
     # --- Сцена 3: Торговый Центр и Бутик ---
 
     scene bg shopping_mall_bright with fade
