@@ -11,26 +11,26 @@ screen settings_menu():
     key "game_menu" action ShowMenu("main_menu")
 
     frame:
-        style "sub_menu_frame"
+        style "modern_panel"
         vbox:
-            style "sub_menu_vbox"
-            label _("Настройки") style "sub_menu_label"
+            style "modern_vbox"
+            label _("Настройки") style "modern_title_label"
 
-            textbutton _("Текст/Графика") action ShowMenu("graphics_settings_screen") style "sub_menu_button"
-            textbutton _("Звук") action ShowMenu("sound_settings_screen") style "sub_menu_button"
+            textbutton _("Текст/Графика") action ShowMenu("graphics_settings_screen") style "modern_button"
+            textbutton _("Звук") action ShowMenu("sound_settings_screen") style "modern_button"
             
             # Если есть экран языка
-            textbutton _("Язык") action ShowMenu("language_selection_screen") style "sub_menu_button"
+            textbutton _("Язык") action ShowMenu("language_selection_screen") style "modern_button"
             
             if not renpy.variant("web"):
-                textbutton _("DLC Контент") action Start("dlc_manager_main") style "sub_menu_button"
+                textbutton _("DLC Контент") action Start("dlc_manager_main") style "modern_button"
             else:
-                textbutton _("DLC Контент (Только ПК)") action None style "sub_menu_button" text_color "#888"
+                textbutton _("DLC Контент (Только ПК)") action None style "modern_button" text_color "#888"
 
-            textbutton _("Управление данными") action ShowMenu("data_settings_screen") style "sub_menu_button" text_color "#a11919"
+            textbutton _("Управление данными") action ShowMenu("data_settings_screen") style "modern_button" text_color "#a11919"
 
             null height 30
-            textbutton _("Назад") action ShowMenu("main_menu") style "sub_menu_button"
+            textbutton _("Назад") action ShowMenu("main_menu") style "modern_back_button"
 
 
 ################################################################################
@@ -46,9 +46,10 @@ screen graphics_settings_screen():
     key "game_menu" action ShowMenu("settings_menu") 
 
     frame:
-        style "settings_frame"
+        style "modern_panel"
         vbox:
-            label _("Текст и Графика") style "settings_title"
+            style "modern_vbox"
+            label _("Текст и Графика") style "modern_title_label"
 
             grid 2 1:
                 xalign 0.5
@@ -90,7 +91,7 @@ screen graphics_settings_screen():
                     
 
             null yfill True
-            textbutton _("Назад") action ShowMenu("settings_menu") style "settings_back_button"
+            textbutton _("Назад") action ShowMenu("settings_menu") style "modern_back_button"
 
 
 ################################################################################
@@ -106,9 +107,10 @@ screen sound_settings_screen():
     key "game_menu" action ShowMenu("settings_menu") 
 
     frame:
-        style "settings_frame"
+        style "modern_panel"
         vbox:
-            label _("Звук") style "settings_title"
+            style "modern_vbox"
+            label _("Звук") style "modern_title_label"
             
             vbox:
                 style_prefix "settings_slider"
@@ -143,4 +145,4 @@ screen sound_settings_screen():
                 xalign 0.5
 
             null height 30
-            textbutton _("Назад") action ShowMenu("settings_menu") style "settings_back_button"
+            textbutton _("Назад") action ShowMenu("settings_menu") style "modern_back_button"

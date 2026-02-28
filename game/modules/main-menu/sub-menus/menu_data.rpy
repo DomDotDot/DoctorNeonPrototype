@@ -136,17 +136,18 @@ screen data_settings_screen():
     key "game_menu" action ShowMenu("settings_menu")
 
     frame:
-        style "settings_frame"
-        padding (50, 40)
+        style "modern_panel"
 
         vbox:
-            label _("Управление данными") style "settings_title" bottom_margin 40
+            style "modern_vbox"
+            label _("Управление данными") style "modern_title_label"
             viewport:
                 mousewheel True
                 draggable True
                 scrollbars "vertical"
-                xfill True
-                yfill True
+                xsize 900
+                ysize 600
+                xalign 0.5
                 
                 vbox:
                     spacing 10
@@ -263,4 +264,4 @@ screen data_settings_screen():
 
             # Кнопка НАЗАД (внизу)
             null height 20
-            textbutton _("Назад") action ShowMenu("settings_menu") style "settings_back_button"
+            textbutton _("Назад") action ShowMenu("settings_menu") style "modern_back_button"

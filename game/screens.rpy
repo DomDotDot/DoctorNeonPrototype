@@ -603,13 +603,16 @@ screen file_slots(title):
 
     default page_name_value = FilePageNameInputValue(pattern=_("{} страница"), auto=_("Автосохранения"), quick=_("Быстрые сохранения"))
 
-    use game_menu(title):
+    tag menu
+    add gui.main_menu_background
 
-        fixed:
+    frame:
+        style "modern_panel_wide"
 
-            ## Это гарантирует, что ввод будет принимать enter перед остальными
-            ## кнопками.
-            order_reverse True
+        vbox:
+            style "modern_vbox"
+
+            label title style "modern_title_label"
 
             ## Номер страницы, который может быть изменён посредством клика на
             ## кнопку.
@@ -689,6 +692,9 @@ screen file_slots(title):
                         textbutton _("Скачать Sync"):
                             action DownloadSync()
                             xalign 0.5
+
+            null height 40
+            textbutton _("Назад") action Return() style "modern_back_button"
 
 
 style page_label is gui_label
@@ -1007,27 +1013,46 @@ screen help():
 
     default device = "keyboard"
 
-    use game_menu(_("Помощь"), scroll="viewport"):
+    add gui.main_menu_background
 
-        style_prefix "help"
+    frame:
+        style "modern_panel"
 
         vbox:
-            spacing 23
+            style "modern_vbox"
 
-            hbox:
+            label _("Помощь") style "modern_title_label"
 
-                textbutton _("Клавиатура") action SetScreenVariable("device", "keyboard")
-                textbutton _("Мышь") action SetScreenVariable("device", "mouse")
+            viewport:
+                scrollbars "vertical"
+                mousewheel True
+                draggable True
+                pagekeys True
+                ymaximum 600
 
-                if GamepadExists():
-                    textbutton _("Геймпад") action SetScreenVariable("device", "gamepad")
+                vbox:
+                    style_prefix "help"
+                    spacing 23
 
-            if device == "keyboard":
-                use keyboard_help
-            elif device == "mouse":
-                use mouse_help
-            elif device == "gamepad":
-                use gamepad_help
+                    hbox:
+
+                        textbutton _("Клавиатура") action SetScreenVariable("device", "keyboard") style "modern_button" text_style "modern_button_text"
+                        textbutton _("Мышь") action SetScreenVariable("device", "mouse") style "modern_button" text_style "modern_button_text"
+
+                        if GamepadExists():
+                            textbutton _("Геймпад") action SetScreenVariable("device", "gamepad") style "modern_button" text_style "modern_button_text"
+
+                    null height 20
+
+                    if device == "keyboard":
+                        use keyboard_help
+                    elif device == "mouse":
+                        use mouse_help
+                    elif device == "gamepad":
+                        use gamepad_help
+
+            null height 40
+            textbutton _("Назад") action Return() style "modern_back_button"
 
 
 screen keyboard_help():

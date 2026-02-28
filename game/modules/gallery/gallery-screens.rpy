@@ -12,7 +12,7 @@ image gallery_locked_thumb:
 # --- ЭКРАН МЕНЮ ГАЛЕРЕИ ---
 screen gallery():
     tag menu
-    add "gui/main_menu.png" # Фон галереи
+    add gui.main_menu_background
 
     # Переменная текущей страницы
     default page = 0
@@ -25,11 +25,13 @@ screen gallery():
     $ end_index = min(start_index + gal_cells, len(gallery_items))
     $ current_items = gallery_items[start_index:end_index]
 
-    use memory_game_menu("Галерея", return_action=ShowMenu("memory_recollection")):
-        
+    frame:
+        style "modern_panel_wide"
+
         vbox:
-            align (0.5, 0.5)
-            spacing 20
+            style "modern_vbox"
+
+            label _("Галерея CG") style "modern_title_label"
 
             # Сетка кнопок
             grid gal_cols gal_rows:
@@ -98,6 +100,9 @@ screen gallery():
                     action SetScreenVariable("page", min(max_page, page + 1))
                     sensitive (page < max_page)
                     text_size 30
+
+            null height 40
+            textbutton _("Назад") action ShowMenu("memory_recollection") style "modern_back_button"
 
 
 

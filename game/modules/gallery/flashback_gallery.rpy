@@ -1,7 +1,7 @@
 # --- FLASHBACK GALLERY SCREEN ---
 screen flashback_gallery():
     tag menu
-    add "gui/main_menu.png"
+    add gui.main_menu_background
 
     default page = 0
     $ fb_rows = 2
@@ -13,11 +13,13 @@ screen flashback_gallery():
     $ end_index = min(start_index + fb_cells, len(flashback_items))
     $ current_items = flashback_items[start_index:end_index]
 
-    use memory_game_menu(_("Flashbacks"), return_action=ShowMenu("memory_recollection")):
-        
+    frame:
+        style "modern_panel_wide"
+
         vbox:
-            align (0.5, 0.5)
-            spacing 20
+            style "modern_vbox"
+
+            label _("Флешбеки") style "modern_title_label"
 
             if len(flashback_items) == 0:
                 text _("Пока нет воспоминаний.") align (0.5, 0.5)
@@ -68,3 +70,6 @@ screen flashback_gallery():
                         action SetScreenVariable("page", min(max_page, page + 1))
                         sensitive (page < max_page)
                         text_size 40
+
+            null height 40
+            textbutton _("Назад") action ShowMenu("memory_recollection") style "modern_back_button"
