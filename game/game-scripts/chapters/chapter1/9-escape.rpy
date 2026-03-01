@@ -1,4 +1,4 @@
-label escape_sequence_start:
+label chapter1_escape_sequence_start:
 
         show neon dazed with dissolve
         

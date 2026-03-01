@@ -1,4 +1,4 @@
-label confrontation_path:
+label chapter1_confrontation_path:
 
         scene ch01_cg31_v01 with fade
         play music "music/BGM/Promising.opus" fadeout 5.0

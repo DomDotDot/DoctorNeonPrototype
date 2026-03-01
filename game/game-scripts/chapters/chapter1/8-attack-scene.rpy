@@ -1,4 +1,4 @@
-label marcus_attack_scene:
+label chapter1_marcus_attack_scene:
 
         show alex at midright with easeinright
         show alex worried
