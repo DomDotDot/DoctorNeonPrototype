@@ -3,7 +3,7 @@
 ; Non-commercial use only
 
 #define MyAppName "The Brightest Neon - Semitone Resonance"
-#define MyAppVersion "0.6.7-early"
+#define MyAppVersion "0.6.8-early"
 #define MyAppPublisher "DomDot"
 #define MyAppURL "https://dot-blogging.duia.eu/"
 #define MyAppExeName "DoctorNeonPrototype.exe"
@@ -51,8 +51,8 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.7-early-dists\DoctorNeonPrototype-0.6.7-early-win\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.7-early-dists\DoctorNeonPrototype-0.6.7-early-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.8-early-dists\DoctorNeonPrototype-0.6.8-early-win\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.8-early-dists\DoctorNeonPrototype-0.6.8-early-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Dirs]
