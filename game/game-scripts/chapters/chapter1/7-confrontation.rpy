@@ -161,12 +161,12 @@ label chapter1_confrontation_path:
 
         narrator "Неон застыла от этого прикосновения. Но Алекс среагировала мгновенно."
 
-        show alex serious zorder 6 at midleft with easeinright
-        show neon surprised at midright with easeinleft
         #show neon at right with move
         
         # Звук резкого шага или удара по руке
         #play sound "sfx/slap_hand_away.opus" 
+
+        scene ch01_cg36_v01 with flash
 
         narrator """
         Алекс рывком вклинилась между ними. Она с силой ударила по руке Маркуса, сбивая его ладонь с плеча Неон, и толкнула его в грудь.
@@ -176,7 +176,11 @@ label chapter1_confrontation_path:
 
         alex "{=yell}Слышь, ты! Руки убрал от моей Неон!{/yell}" with vpunch
 
+        scene black with dissolve
+
         alex determined "Еще раз тронешь ее — я тебе пальцы переломаю, понял?"
+
+        scene ch01_cg33_v02 with Dissolve(2.0)
 
         narrator """
         Маркус отшатнулся от неожиданности. Он посмотрел на свою руку, потом на Алекс. В его взгляде появилось брезгливое удивление, будто на него лаяла дворняжка.
@@ -188,11 +192,15 @@ label chapter1_confrontation_path:
         
         narrator "Он отряхнул пиджак там, где его коснулась Алекс, словно стряхивая грязь."
 
+        scene ch01_cg33_v01 with dissolve
+
         marcus "Слушай, архивная пыль. Сгинь. Взрослые разговаривают."
         
         alex "Я сказала — отошел от нее!"
 
         narrator "Он проигнорировал Алекс, глядя поверх ее головы прямо на Неон"
+
+        scene ch01_cg33_v04 with dissolve
 
         marcus suit_sinister """
         Видишь, Неон? Ты даже за себя постоять не можешь. Тебе всегда нужна нянька.
@@ -224,17 +232,15 @@ label chapter1_confrontation_path:
 
         narrator "Он наклонился к моему уху, и его голос стал вкрадчивым, липким, как нефть. Он говорил так, будто знал какой-то грязный секрет моей семьи."
 
-        narrator """
+        marcus """
         Ты реально думаешь, что она тебя любит? Она же даже не твоя мама.
         
         Она просто... заботится о тебе, потому что ты ей нужна.
         
-        Ты же бесполезная, Неон. Ты никому не нужна."
+        Ты же бесполезная, Неон. Ты никому не нужна.
         """
 
         #show neon shadowed at center with move
-        show alex sad at right with easeinright
-        show neon at center with easeinleft
 
         neon "{=whisper}Алекс... отойди."
 
@@ -250,6 +256,8 @@ label chapter1_confrontation_path:
 
         marcus suit_smug "Кстати. Чуть не забыл. Ты, кажется, что-то потеряла утром?"
 
+        scene ch01_cg33_v03 with dissolve
+
         narrator "Он сунул руку в карман брюк и достал маленькие белые наушники. Её наушники."
 
         neon surprised "Они..."
@@ -257,13 +265,13 @@ label chapter1_confrontation_path:
 
         marcus "Забавная вещица. Я послушал, пока ты спала. Какая-то заунывная классика. И это помогает тебе работать? Серьезно?"
 
-        neon frustrated "Не трогай их! Это... это единственное, что спасает меня от шума на работе!"
+        neon frustration "Не трогай их! Это... это единственное, что спасает меня от шума на работе!"
 
         narrator "Неон дернулась к нему, пытаясь выхватить их, но Маркус легко поднял руку выше, как взрослый дразнит ребенка."
 
         marcus suit_sinister "Спасает от шума? Лечит душу?"
         
-        marcus "Знаешь, Неон... Я уже нашел твой сигнал. Я сделал твою за тебя работу. А значит..."
+        marcus "Знаешь, Неон... Я уже нашел твой сигнал. Я сделал твою работу за тебя... А значит..."
 
         narrator "Его пальцы разжались."
 
@@ -271,10 +279,13 @@ label chapter1_confrontation_path:
 
         # play sound "sfx/plastic_crunch_step.opus" with vpunch
 
+        scene ch01_cg34_v01 with dissolve
+
         narrator "Наушники упали на бетонный пол. Маркус, не переставая улыбаться, наступил на них дорогим ботинком и с хрустом провернул ногу."
 
         stop music
         play sound "sfx/ear-ringing.opus" fadein 0.1 # Звон в ушах вместо музыки
+        scene black with vpunch
 
         narrator "Тихий хруст пластика прозвучал для Неон как выстрел. Музыка умерла. Щит сломан. В её голову хлынул Шум."
 
@@ -282,17 +293,14 @@ label chapter1_confrontation_path:
 
         play ambient "ambient/Target.opus" fadein 5.0
 
-        show neon surprised zorder 5
-        show alex zorder 0
-        show black with { "master" : Dissolve(10.0) }
+        scene ch01_cg35_v01 with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
         pause 1.0
         
-        show neon surprised
         narrator "Синяя ворона."
         
         # play sound "sounds/flashback_trigger_school.opus"
-        hide alex with dissolve
+
         narrator """
         Это слово. Это дурацкое слово...\n
         Это презрение. \n 
@@ -304,7 +312,6 @@ label chapter1_confrontation_path:
 
         Ледяное спокойствие треснуло. И из-под него вырвался раскаленный поток чистой, испепеляющей ярости.
         """
-        show neon shadowed with Dissolve(2.0)
 
         narrator """
         Она остановилась. Ее взгляд, до этого холодный, загорелся безумным огнем.
@@ -322,7 +329,7 @@ label chapter1_confrontation_path:
         show bg chapter_1_lab_corridor_3
         hide black with { "master" : Dissolve(7.0) }
         with { "effect": dissolve }
-        show neon frustrated
+        show neon frustration
 
         neon "{=whisper} Заткнись..."
         marcus "Что? Не расслышал. Говори громче."
@@ -334,7 +341,7 @@ label chapter1_confrontation_path:
         
         show alex serious at right with easeinright
         alex "Неон... Стой! Не делай глупостей!"
-        show neon frustrated_power with { "master" : Dissolve(5.0) }
+        show neon power frustration with { "master" : Dissolve(5.0) }
         with { "effect": dissolve }
 
         narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
