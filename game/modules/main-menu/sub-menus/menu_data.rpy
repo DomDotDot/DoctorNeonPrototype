@@ -117,7 +117,7 @@ init python:
         renpy.music.set_volume(0.5, channel='ambient')
         
         # Сбрас текстовых настройек
-        preferences.text_cps = 35    # Скорость текста (0-100 или больше)
+        preferences.text_cps = 25    # Скорость текста (0-100 или больше)
         preferences.afm_time = 15    # Время авточтения
     
         preferences.fullscreen = False 

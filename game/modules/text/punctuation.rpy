@@ -17,15 +17,15 @@ init python:
                 continue
                 
             # Replace ellipsis first for a nice stuttered wait effect
-            text = text.replace("...", ".{w=0.25}.{w=0.25}.{w=0.25}") 
-            text = text.replace("…", "…{w=0.75}")
+            text = text.replace("...", ".{w=0.45}.{w=0.45}.{w=0.45}") 
+            text = text.replace("…", "…{w=1.35}")
             
             # Regex replaces punctuation only if followed by a space or end-of-line.
             # \1 puts the matched punctuation back before the {w} tag.
-            text = re.sub(r'([.?!]+)(?=\s|$)', r'\1{w=0.5}', text)  # Sentence ends
-            text = re.sub(r'(,)(?=\s|$)', r'\1{w=0.25}', text)      # Commas
-            text = re.sub(r'(:|;)(?=\s|$)', r'\1{w=0.2}', text)     # Colons/Semicolons
-            text = re.sub(r'(—|-{2,})(?=\s|$)', r'\1{w=0.25}', text) # Em dashes
+            text = re.sub(r'([.?!]+)(?=\s|$)', r'\1{w=0.75}', text)  # Sentence ends
+            text = re.sub(r'(,)(?=\s|$)', r'\1{w=0.5}', text)      # Commas
+            text = re.sub(r'(:|;)(?=\s|$)', r'\1{w=0.5}', text)     # Colons/Semicolons
+            text = re.sub(r'(—|-{2,})(?=\s|$)', r'\1{w=0.5}', text) # Em dashes
             
             parts[i] = text
             

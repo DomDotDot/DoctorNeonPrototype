@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.6.7-early"
+define config.version = "0.6.8-early"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -142,7 +142,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 35
+default preferences.text_cps = 25
 default preferences.volume.main = 1
 default preferences.volume.music = 0.5
 default preferences.volume.sfx = 0.5
