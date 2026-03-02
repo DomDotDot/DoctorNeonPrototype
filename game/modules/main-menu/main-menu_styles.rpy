@@ -25,7 +25,7 @@ style modern_vbox is vbox:
 
 style main_menu_vbox is modern_vbox:
     xalign 0.5
-    yalign 0.5
+    yalign 0.80
     yoffset 0
     spacing 15
 

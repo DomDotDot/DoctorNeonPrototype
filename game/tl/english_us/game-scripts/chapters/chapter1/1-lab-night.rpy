@@ -297,14 +297,14 @@ translate english_us chapter1_lab_night_6600498a:
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:124
 translate english_us chapter1_lab_night_9c3715b0:
 
-    # marcus lab_neutral "А давно калибровку проводили? Может, с этим связано?"
-    marcus lab_neutral "When was the last calibration? Could that be it?"
+    # marcus lab neutral "А давно калибровку проводили? Может, с этим связано?"
+    marcus lab neutral "When was the last calibration? Could that be it?"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:124
 translate english_us chapter1_lab_night_7da93706:
 
-    # marcus lab_neutral "Или сервера пора обновлять? Стоит подать заявку?"
-    marcus lab_neutral "Or maybe the servers need an upgrade? Should I submit a request?"
+    # marcus lab neutral "Или сервера пора обновлять? Стоит подать заявку?"
+    marcus lab neutral "Or maybe the servers need an upgrade? Should I submit a request?"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:130
 translate english_us chapter1_lab_night_6e4a5efa:
@@ -393,8 +393,8 @@ translate english_us chapter1_lab_night_5910fb2b:
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:157
 translate english_us chapter1_lab_night_8e966692:
 
-    # marcus lab_smug "То есть, продуктивной ночи."
-    marcus lab_smug "I mean, a productive night."
+    # marcus lab smug "То есть, продуктивной ночи."
+    marcus lab smug "I mean, a productive night."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:159
 translate english_us chapter1_lab_night_b8125eed:
