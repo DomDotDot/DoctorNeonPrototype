@@ -112,7 +112,7 @@ label chapter3_escape:
     """
     scene black with Dissolve(0.25)
     show neon shadowed with Dissolve(2.5)
-    show neon frustrated_power with { "master" : Dissolve(15.0) }
+    show neon power frustration with { "master" : Dissolve(15.0) }
     with { "effect": dissolve }
 
     narrator """
@@ -158,7 +158,7 @@ label chapter3_revelation:
 
     scene black with dissolve
     show argon painter_cautious zorder 2 at midright with dissolve
-    show neon frustrated zorder 1 at midleft with dissolve
+    show neon frustration zorder 1 at midleft with dissolve
 
     argon "Девчонка... ты вернулась за мной. Готова была умереть здесь. Хотя бы тебя... ...я должен спасти..."
 

@@ -150,7 +150,7 @@ label chapter1_escape_sequence_start:
         narrator """
         Моя старенькая красная Mazda 323 стояла в дальнем углу.
         
-        Дрожащими, окровавленными руками (я разбила костяшки, когда била Маркуса) я достала ключи.
+        Дрожащими руками я достала ключи.
         """
 
         # play sound "sfx/car_remote_unlock_beep.opus"
@@ -227,6 +227,7 @@ label chapter1_escape_sequence_start:
         # Прямо на неё (в лоб) летят два гигантских, ослепительно ярких прожектора фуры.
 
         stop music
+        stop ambient
         # play sound "sfx/truck_horn_deafening.opus" fadein 1.0
         
         narrator """
@@ -271,7 +272,7 @@ label chapter1_escape_sequence_start:
         Я зажмурилась и инстинктивно сжалась в комок, вскинув окровавленные руки перед лицом, словно пытаясь отгородиться от неизбежного удара, который должен был размазать меня по асфальту.
         """
 
-        neon "Я хочу... отменить."
+        neon "Я хочу... отменить..."
 
         # play sound "sfx/absolute_silence_awaken.opus"
         scene white with flash
