@@ -302,10 +302,14 @@ label chapter1_confrontation_path:
         # play sound "sounds/flashback_trigger_school.opus"
 
         narrator """
-        Это слово. Это дурацкое слово...\n
-        Это презрение. \n 
-        Это было не про карьеру. \n
-        Это было про нее саму. \n
+        Это слово. Это дурацкое слово...
+
+        Это презрение. 
+
+        Это было не про карьеру.
+
+        Это было про нее саму.
+
         Это был голос из прошлого.
         
         Голос завуча. Голос опекунши. Голос тех, кто всегда говорил ей, что она 'не такая'
@@ -326,29 +330,31 @@ label chapter1_confrontation_path:
 
         А стулья, эти тяжелые металлические стулья, кажутся ей единственным оружием в этом мире, способным нанести удар по самому сердцу ее мучителя.
         """
-        show bg chapter_1_lab_corridor_3
-        hide black with { "master" : Dissolve(7.0) }
-        with { "effect": dissolve }
-        show neon frustration
 
         neon "{=whisper} Заткнись..."
         marcus "Что? Не расслышал. Говори громче."
+
+        scene ch01_cg35_v02 with vpunch
+
         neon "Заткнись... ЗАТКНИСЬ. ПРОСТО ЗАТКНИСЬ!"
         neon "Я УСТАЛА. УСТАЛА БЫТЬ ДЛЯ ВСЕХ ПУСТЫМ МЕСТОМ!"
         neon "Мне... МНЕ НИКОГДА БОЛЬШЕ НЕ БУДУТ УКАЗЫВАТЬ КАКАЯ Я!"
 
         narrator "Алекс, увидев безумие в глазах подруги, бросилась к ней."
         
-        show alex serious at right with easeinright
         alex "Неон... Стой! Не делай глупостей!"
-        show neon power frustration with { "master" : Dissolve(5.0) }
-        with { "effect": dissolve }
 
         narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
 
         # play sound "sfx/static_shock_loud.opus" with hpunch
-        show alex slight shocked with vpunch
         
+        scene white with Dissolve(0.125)
+
+        pause 2.0
+
+        scene ch01_cg35_v02 with { "master" : Dissolve(10.0) }
+        with { "effect": dissolve }
+
         narrator """
         ТРЕСК!
         
@@ -363,7 +369,17 @@ label chapter1_confrontation_path:
         Неон даже не заметила этого. Она не почувствовала удара.
         
         Энергия внутри неё больше не искала выхода. Она искала цель. И целью был Маркус.
+        """
 
+        scene ch01_cg37_v01 with { "master" : dissolve }
+        with { "effect": dissolve }
+
+        pause 5.0
+
+        scene ch01_cg37_v02 with { "master" : vpunch }
+        with { "effect": vpunch }
+
+        narrator """
         Она схватилась за спинку стула.
         
         Он казался невероятно тяжелым, но ее ярость давала ей силы, которых она в себе не подозревала.
@@ -371,7 +387,7 @@ label chapter1_confrontation_path:
         С криком, вырвавшимся из глубины души, она оторвала стул от пола.
         """
 
-        $renpy.music.set_volume(0.25, channel='ambient')
+        $renpy.music.set_volume(0.125, channel='ambient')
         
         play music "music/BGM/DramaQueen.opus" fadein 10.0 volume 0.75
         # play sound "sounds/metal_scrape_loud.opus"

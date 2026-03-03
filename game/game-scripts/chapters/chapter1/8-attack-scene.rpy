@@ -1,8 +1,6 @@
 label chapter1_marcus_attack_scene:
 
-        show alex at midright with easeinright
-        show alex worried
-        hide alex with easeoutright
+        scene ch01_cg39_v01 with fade
         # play sound "sounds/body_thump_wall.opus"
         # play sound "sounds/alex_gasp_pain.opus"
 
@@ -19,18 +17,25 @@ label chapter1_marcus_attack_scene:
 
         narrator "Но слова уже не имели значения. Неон издала низкий, гортанный рык, больше похожий на звериный, чем на человеческий."
         # play sound "sounds/neon_feral_roar.opus"
+
+        scene black with vpunch
         play sound "sfx/Chair_Hit.opus"
+
         narrator """
         Она занесла тяжелый металлический стул над головой.  
         
         Первый удар – яростный, но немного неточный из-за слепящей злости – пришелся не по плечу, как она целилась, а соскользнул, оглушительно ударив по стене рядом с головой Маркуса.
         
-        От стены отлетели куски штукатурки.""" with hpunch
+        От стены отлетели куски штукатурки.
+        """
         
         narrator """
-        
         Маркус вскрикнул от страха и отшатнулся еще сильнее, теряя равновесие.
+        """
+
+        scene ch01_cg38_v01 with vpunch
         
+        narrator """
         Он повалился на спину, пытается отползти, выставив свои руки перед собой в жалкой попытке защититься.
 
         Неон, не останавливаясь ни на секунду, снова подняла стул.
@@ -40,14 +45,17 @@ label chapter1_marcus_attack_scene:
         Она видела перед собой не человека, а символ всех своих страданий.
         """
 
+        scene black with Dissolve(0.125)
         play sound "SFX/marcus_oof.opus"
-        show marcus suit_hurt with hpunch
 
         narrator """
         Второй удар. Тяжелый, глухой. Он обрушился на спину Маркуса, когда тот пытался перевернуться и встать.
         
         Раздался ужасающий хруст, и Маркус захлебнулся криком.
+        """
+        scene ch01_cg40_v01 at dizzy_sway169 with { "master" : Dissolve(10.0) }
 
+        narrator """
         Он лежал на полу, лицом вниз, его руки были раскинуты. Он перестал двигаться, только тихо хрипел.
 
         Алекс, прикрывая рот рукой, чтобы не закричать, смотрела на это с ужасом.
