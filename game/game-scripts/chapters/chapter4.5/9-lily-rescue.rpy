@@ -165,7 +165,7 @@ label chapter4_5_lily_cafe:
     show lily student impatient at center with dissolve
     show amy neutral at right with dissolve
 
-    neon "А!.. Что?.."
+    neon "А!.. Что...?"
 
     narrator """
         Туман в голове мгновенно рассеялся, сменившись резкой, колючей ясностью.
@@ -707,7 +707,7 @@ label chapter4_5_lily_studio:
 
     show 6cg-8 with dissolve
 
-    lily "Почему?.. Почему холодно?!"
+    lily "Почему...? Почему холодно?!"
 
     narrator """
         Она открыла глаза. В них плескалась паника, смешанная с яростью.

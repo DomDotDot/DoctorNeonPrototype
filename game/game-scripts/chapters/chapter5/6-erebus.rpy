@@ -179,7 +179,7 @@ label chapter5_ghost_ship:
 
     narrator "Свет на станции погас. Включилось аварийное красное освещение."
 
-    "Командир СБ" "Что за?.. Отставить огонь! Что с реактором?!"
+    "Командир СБ" "Что за...? Отставить огонь! Что с реактором?!"
 
     # play sound "sfx/reactor_explosion_distant_bass.opus" with hpunch
     # play sound "sfx/metal_groan_tearing.opus"

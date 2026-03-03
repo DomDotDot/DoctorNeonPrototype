@@ -22,7 +22,7 @@ label chapter5_bridge_and_katana:
 
     show neon operative_pain at center with dissolve
 
-    neon "Аргон?.."
+    neon "Аргон...?"
 
     narrator """
         Мой голос был хриплым, слабым.

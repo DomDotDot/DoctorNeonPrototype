@@ -46,7 +46,7 @@ label krypton_concert_flashback:
         neon """
         {=thoughts}Там тысячи людей... Почему она выглядит такой одинокой?
 
-        {=thoughts}И почему мне так больно на тебя смотреть?..
+        {=thoughts}И почему мне так больно на тебя смотреть...?
         """
 
         scene ch01_cg06_v01 with fade

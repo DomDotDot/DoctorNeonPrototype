@@ -295,7 +295,7 @@ label chapter1_lab_night:
 
         {=thoughts}Но если она этого не говорила... то как я её поняла?
 
-        {=thoughts}Кто ты?..{/thoughts}
+        {=thoughts}Кто ты...?{/thoughts}
         """
 
         scene ch01_cg12_v01 with dissolve
