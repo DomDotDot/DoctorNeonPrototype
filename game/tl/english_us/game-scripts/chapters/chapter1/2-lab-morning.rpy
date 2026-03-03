@@ -63,8 +63,8 @@ translate english_us chapter1_lab_morning_22570397:
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:36
 translate english_us chapter1_lab_morning_84913247:
 
-    # neon proud "Да! Да! ДА!!!"
-    neon proud "Yes! Yes! YES!!!"
+    # neon pleasant "Да! Да! ДА!!!"
+    neon pleasant "Yes! Yes! YES!!!"
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:38
 translate english_us chapter1_lab_morning_c5b0c6fd:
@@ -875,8 +875,8 @@ translate english_us chapter1_lab_morning_5b2f746d:
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:316
 translate english_us chapter1_lab_morning_9330c035:
 
-    # neon proud "Найдется. Спасибо, Саш. Ты... ты лучшая."
-    neon proud "I have one. Thanks, Alex. You... you're the best."
+    # neon pleasant "Найдется. Спасибо, Саш. Ты... ты лучшая."
+    neon pleasant "I have one. Thanks, Alex. You... you're the best."
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:318
 translate english_us chapter1_lab_morning_42538c00:

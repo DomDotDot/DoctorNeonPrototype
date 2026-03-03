@@ -256,8 +256,8 @@ translate english_us chapter1_lab_noon_d422996c:
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:120
 translate english_us chapter1_lab_noon_4bafe734:
 
-    # neon proud "Спасибо за поддержку, Ханс. Ладно, пойду я... доклад готовить."
-    neon proud "Thanks for the support, Hans. Well, I should go... prepare my report."
+    # neon pleasant "Спасибо за поддержку, Ханс. Ладно, пойду я... доклад готовить."
+    neon pleasant "Thanks for the support, Hans. Well, I should go... prepare my report."
 
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:121
 translate english_us chapter1_lab_noon_aa37aff6:

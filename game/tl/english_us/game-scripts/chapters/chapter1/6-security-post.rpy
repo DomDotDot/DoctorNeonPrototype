@@ -117,8 +117,8 @@ translate english_us chapter1_security_post_scene_19312f7e:
 # game/game-scripts/chapters/chapter1/6-security-post.rpy:53
 translate english_us chapter1_security_post_scene_e77d5d1a:
 
-    # neon proud "Ханс, вы... вы нас спасаете!"
-    neon proud "Hans, you... you're saving us!"
+    # neon pleasant "Ханс, вы... вы нас спасаете!"
+    neon pleasant "Hans, you... you're saving us!"
 
 # game/game-scripts/chapters/chapter1/6-security-post.rpy:54
 translate english_us chapter1_security_post_scene_3d10b2d7:
