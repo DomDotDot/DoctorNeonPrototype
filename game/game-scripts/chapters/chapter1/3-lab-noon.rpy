@@ -82,7 +82,7 @@ label chapter1_lab_noon:
         Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо.
         """
 
-        show hans normal at midright with dissolve
+        show hans neutral at midright with dissolve
         show neon neutral at midleft with dissolve
         hans "А, Неон! Какими судьбами? Думал, вы в своей башне из слоновой кости безвылазно сидите."
         neon shy "Добрый день, Ханс. Иногда и гениям нужен кофеин. Да и... ищу кое-кого."
