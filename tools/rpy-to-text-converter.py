@@ -4,7 +4,7 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter1" 
+TARGET_CHAPTER = "chapter6" 
 
 # 2. Имя выходного файла
 OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
@@ -91,11 +91,37 @@ CHAPTERS_DB = {
         "chapters/chapter4.5/10-hostage.rpy",
         "chapters/chapter4.5/11-deadwall.rpy",
         "chapters/chapter4.5/12-epilogue.rpy",
+    ],
+
+    "chapter5": [
+        "chapters/chapter5/1-arrival.rpy",
+        "chapters/chapter5/2-start.rpy",
+        "chapters/chapter5/3-station-hub.rpy",
+        "chapters/chapter5/3.0-quest-hub-level2.rpy",
+        "chapters/chapter5/3.0-quest-hub-level3.rpy",
+        "chapters/chapter5/3.1-bar.rpy",
+        "chapters/chapter5/3.2-chapel.rpy",
+        "chapters/chapter5/3.3-library.rpy",
+        "chapters/chapter5/3.4-server.rpy",
+        "chapters/chapter5/4-brig.rpy",
+        "chapters/chapter5/5-permabrig.rpy",
+        "chapters/chapter5/6-erebus.rpy",
+        "chapters/chapter5/7-bridge.rpy",
+        "chapters/chapter5/8-father.rpy",
+        "chapters/chapter5/9-epilogue.rpy",
+    ],
+
+    "chapter6": [
+        "chapters/chapter6/1-alley-valley.rpy",
+        "chapters/chapter6/2-spire.rpy",
+        "chapters/chapter6/3-elision.rpy",
+        "chapters/chapter6/4-encounter.rpy",
+        "chapters/chapter6/5-beautiful-night.rpy",
     ]
 }
 
 # Путь к папке со всеми скриптами (относительно devtools)
-PATH_TO_GAME_SCRIPTS = os.path.join("..", "game-scripts")
+PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
 
 # ================= ЛОГИКА =================
 
