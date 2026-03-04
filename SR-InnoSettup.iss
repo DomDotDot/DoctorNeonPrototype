@@ -3,13 +3,19 @@
 ; Non-commercial use only
 
 #define MyAppName "The Brightest Neon - Semitone Resonance"
+#define MyProjectName "DoctorNeonPrototype"
 #define MyAppVersion "0.6.8-early"
 #define MyAppPublisher "DomDot"
-#define MyAppURL "https://dot-blogging.duia.eu/"
-#define MyAppExeName "DoctorNeonPrototype.exe"
+#define MyAppURL ""
+#define MyAppExeName MyProjectName + ".exe"
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
+
+; Define paths dynamically based on the project name and version
+#define BaseDir "D:\Absolute-Storage\AllInOneStorage\Games\RenPy"
+#define RepoDir BaseDir + "\" + MyProjectName
+#define BuildDir BaseDir + "\" + MyProjectName + "-" + MyAppVersion + "-dists\" + MyProjectName + "-" + MyAppVersion + "-win"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -38,8 +44,8 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=D:\Absolute-Storage\AllInOneStorage\Games\DrNeonCompilerOutput
-OutputBaseFilename=SemitoneResonance_win_setup
-SetupIconFile=D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype\source_assets\promo\logos\SRinstaller.ico
+OutputBaseFilename=SemitoneResonance_win_setup_{#MyAppVersion}
+SetupIconFile={#RepoDir}\source_assets\promo\logos\SRinstaller.ico
 SolidCompression=yes
 WizardStyle=modern dynamic windows11
 
@@ -51,8 +57,8 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.8-early-dists\DoctorNeonPrototype-0.6.8-early-win\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Absolute-Storage\AllInOneStorage\Games\RenPy\DoctorNeonPrototype-0.6.8-early-dists\DoctorNeonPrototype-0.6.8-early-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#BuildDir}\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#BuildDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Dirs]
