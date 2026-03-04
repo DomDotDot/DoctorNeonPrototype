@@ -1,4 +1,4 @@
-init python:
+init -1 python:
     # 1. Класс Предмета
     class Item:
         def __init__(self, id, name, description, icon, use_func=None):
