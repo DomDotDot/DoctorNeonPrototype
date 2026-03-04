@@ -151,7 +151,7 @@ label chapter5_bridge_and_katana:
     
     narrator "Я вырвала чип и вставила его в свой наручный компьютер. Взлом системы."
 
-    fcs_station """
+    fcs """
         ВНИМАНИЕ. ПРОТОКОЛ САМОУНИЧТОЖЕНИЯ АКТИВИРОВАН.
         
         ДО ДЕТОНАЦИИ ЯДРА: 3 МИНУТЫ.
@@ -271,4 +271,4 @@ label chapter5_bridge_and_katana:
     neon "АРГОН!!!"
 
     # Переход к финалу
-    jump chapter5_finale_sacrifice
+return

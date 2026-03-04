@@ -97,7 +97,7 @@ label chapter5_timer_and_brig:
 
     # play sound "sfx/access_granted_heavy.opus"
 
-    fcs_station """
+    fcs """
         (Голос из динамиков)
         Внимание. Стыковка корабля "Эреб" в Доке G-05 разрешена.
         
@@ -200,4 +200,4 @@ label chapter5_timer_and_brig:
     pause 2.0
 
     # Переход к следующему этапу
-    jump chapter5_breakout
+return

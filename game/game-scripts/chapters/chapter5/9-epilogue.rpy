@@ -34,7 +34,7 @@ label chapter5_epilogue_earth:
     """
 
     # --- DREAM FRAGMENT 5 (Скрытый/Автоматический) ---
-    # Мы не показываем его детально, только вспышки и ощущения разрыва связей.
+    call dream_sequence_japan_5
     
     play sound "sfx/memory_erase_glitch_heavy.opus"
     
@@ -434,5 +434,4 @@ label chapter5_epilogue_earth:
     stop music fadeout 5.0
     
     # --- КОНЕЦ ГЛАВЫ 5 ---
-
-    return
+return

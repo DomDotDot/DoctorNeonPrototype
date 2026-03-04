@@ -169,7 +169,7 @@ label chapter5_ghost_ship:
 
     # play sound "sfx/station_alarm_critical.opus" loop
     
-    fcs_station """
+    fcs """
         ВНИМАНИЕ. КРИТИЧЕСКИЙ СБОЙ ЯДРА.
         
         ТЕМПЕРАТУРА СИНГУЛЯРНОСТИ ПРЕВЫШЕНА.
@@ -329,3 +329,4 @@ label chapter5_ghost_ship:
     stop music fadeout 5.0
     
     call dream_sequence_japan_6 from _call_dream_sequence_japan_6
+return
