@@ -1,6 +1,6 @@
 label chapter1_escape_sequence_start:
 
-        show neon dazed with dissolve
+        scene ch01_cg41_v01 at dizzy_sway169 with Dissolve(2.5)
         
         narrator """
         Я смотрела на Маркуса, скрючившегося на полу, на свои дрожащие руки. В ушах звенело. Ярость ушла, оставив после себя ледяной ужас и тошнотворную пустоту.
@@ -11,9 +11,6 @@ label chapter1_escape_sequence_start:
         
         narrator "Алекс вскочила на ноги. В ее глазах не было ни осуждения, ни страха. Только решимость."
 
-        hide marcus with dissolve
-        show alex serious at center with easeinright
-
         alex "Неон! Очнись! Мы должны бежать! Сейчас же!"
 
         narrator "Её слова с трудом пробивались сквозь вату в моих ушах. Бежать? Куда? Зачем? Я только что сломала человеку жизнь."
@@ -22,10 +19,6 @@ label chapter1_escape_sequence_start:
 
         alex "Потом! Думать будем потом! Если тебя здесь найдут, тебе конец! Бежим!"
 
-        hide alex with easeoutleft   
-        show neon at restore_flip
-        hide neon with easeoutleft
-
         narrator "Её теплая рука схватила мою ледяную ладонь. Этот контраст выдернул меня из оцепенения. Я позволила утащить себя за ней."
 
         # play sound "sfx/door_kick_open.opus"
@@ -33,7 +26,7 @@ label chapter1_escape_sequence_start:
 
         narrator "Крик Ханса за спиной подхлестнул нас, как удар хлыста. Мы свернули к пожарному выходу."
 
-        scene bg chapter_1_lab_emergency_staircase with fade
+        scene ch01_cg42_v01 with Fade(1.5, 0.5, 0.5)
         # play music "music/BGM/Running_Desperate_Theme.opus" fadein 1.0
 
         narrator """
@@ -54,10 +47,10 @@ label chapter1_escape_sequence_start:
         """
         
         # play sound "sfx/alarm_siren_distant_start.opus" loop 
-        
-        scene bg chapter_1_lab_service_basement with dissolve
 
         narrator "Но как только мы повернули за угол, из бокового прохода нам навстречу выскочили двое охранников."
+
+        scene ch01_cg43_v01 with dissolve
 
         "Охранник" "Стоять! Руки на стену!"
 
@@ -78,12 +71,14 @@ label chapter1_escape_sequence_start:
         
         Но Алекс... Алекс не собиралась сдаваться.
         
-        Она прижала меня к стене, закрывая собой. Её лицо оказалось в сантиметре от моего. 
-        
-        Она тяжело дышала, её светлые кудри растрепались. Но в этот момент паники она вдруг... улыбнулась. Той самой, своей теплой, немного ехидной улыбкой.
+        Она прижала меня к стене, закрывая собой. Её лицо оказалось в сантиметре от моего.
         """
 
-        show alex determined at center with dissolve
+        scene ch01_cg44_v01 with dissolve
+
+        narrator """
+        Она тяжело дышала, её светлые кудри растрепались. Но в этот момент паники она вдруг... улыбнулась. Той самой, своей теплой, немного ехидной улыбкой.
+        """
 
         alex "{=whisper}Слушай меня внимательно, гений.{/whisper}"
 
@@ -105,10 +100,14 @@ label chapter1_escape_sequence_start:
 
         narrator "Улыбка Алекс дрогнула, в глазах блеснули слезы, но она упрямо мотнула головой."
 
+        scene ch01_cg44_v02 with dissolve
+
         alex """
         {=whisper}Я знаю. Поэтому я бросаю тебя первая.
+
+        {=whisper}Я... я люблю тебя, Неон. И я хочу, чтобы ты была в безопасности.
         
-        {=whisper}Найди своих пришельцев, Неон. И... не забывай нормально пить кофе, ладно?
+        {=whisper}Найди своих пришельцев, Неон. И... не забывай нормально пить кофе, окей?
         """
 
         narrator "Она приложила свой бейдж к сканеру двери."
@@ -118,6 +117,8 @@ label chapter1_escape_sequence_start:
         narrator "Дверь на парковку с тяжелым щелчком приоткрылась."
 
         alex "А ТЕПЕРЬ БЕГИ!"
+
+        scene black with hpunch
 
         narrator """
         С невероятной силой она толкнула меня в проем двери. Я влетела в полумрак парковки, споткнувшись и упав на колени.
