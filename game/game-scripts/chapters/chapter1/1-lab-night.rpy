@@ -226,7 +226,6 @@ label chapter1_lab_night:
         scene ch01_cg04_v01 with Fade(2.0, 1.0, 1.0)
         # Звуки лаборатории резко приглушаются (Lowpass filter)
         $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Lowpass(250)], replace=True)
-        play music "music/BGM/A-Niente.mp3" fadein 10.0 fadeout 15.0 volume 2
         
         narrator """
         Внешний мир исчез. Осталась только мелодия.
@@ -256,7 +255,6 @@ label chapter1_lab_night:
         Взгляд, который Неон никогда не должна была забывать. Но забыла или вынесла слишком глубоко в подсознание.
         """
 
-        stop music fadeout 0.125
         play sound "sfx/static_noise_burst.opus"
         scene ch01_cg11_v01 with vpunch
         
@@ -336,7 +334,7 @@ label chapter1_lab_night:
 
         scene black with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
-        stop music fadeout 10.0
+        stop music fadeout 20.0
 
         show layer master:
                 matrixcolor IdentityMatrix()
@@ -360,6 +358,9 @@ label chapter1_lab_night:
         """
 
         stop sound fadeout 2.0
+        stop music fadeout 2.0
+        stop ambient fadeout 2.0
+        
         scene black with Fade(2.0, 0.0, 0.0)
 
         narrator """
