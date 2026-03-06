@@ -124,16 +124,18 @@ label chapter1_escape_sequence_start:
         С невероятной силой она толкнула меня в проем двери. Я влетела в полумрак парковки, споткнувшись и упав на колени.
         
         Обернувшись, я увидела, как Алекс с криком бросилась на охранников, сбивая их с ног, создавая хаос.
+
+        Тяжелая дверь на доводчике захлопнулась, отрезая меня от неё.
         """
+
+        scene ch01_cg45_v01 with Dissolve(3.0)
 
         # play sound "sfx/heavy_metal_door_slam.opus" with vpunch
 
         narrator """
-        Тяжелая дверь на доводчике захлопнулась, отрезая меня от неё.
-
         Я бросилась к небольшому армированному стеклу в двери.
         
-        Там, по ту сторону, они повалили её на пол. Она отбивалась, кричала, давая мне драгоценные секунды.
+        Там, по ту сторону, они вытягивали её с двери. Она отбивалась, держась за ручку, кричала, давая мне драгоценные секунды.
         
         Она посмотрела на дверь. На меня. И одними губами прошептала: 'Беги'.
         """
@@ -146,13 +148,15 @@ label chapter1_escape_sequence_start:
         Я развернулась и побежала в гулкую темноту подземной парковки.
         """
 
-        scene bg chapter_1_lab_parkinglot with fade
+        scene ch01_bg08_v01 with fade
 
         narrator """
         Моя старенькая красная Mazda 323 стояла в дальнем углу.
         
         Дрожащими руками я достала ключи.
         """
+
+        scene ch01_cg46_v01 with dissolve
 
         # play sound "sfx/car_remote_unlock_beep.opus"
         # play sound "sfx/car_door_open_slam.opus" 
@@ -177,7 +181,7 @@ label chapter1_escape_sequence_start:
         Я вылетела по винтовому пандусу на поверхность.
         """
 
-        scene bg chapter_1_mountain_road_night with dissolve
+        scene ch01_cg47_v01 with dissolve
         # Фон: Извилистая ночная дорога в горах, идет дождь/мокрый снег.
 
         narrator """
@@ -206,6 +210,8 @@ label chapter1_escape_sequence_start:
         Очередной крутой поворот. Машину занесло. Руль стал легким и бесполезным.
         """
 
+        scene ch01_cg48_v01 with hpunch
+
         # play sound "sfx/car_skid_long.opus"
 
         narrator """
@@ -215,25 +221,25 @@ label chapter1_escape_sequence_start:
         """
 
         scene black with vpunch
+        stop music fadeout (0.125)
+        stop ambient fadeout (0.125)
         # play sound "sfx/car_tumbling_branches_metal.opus"
         
         narrator """
         Удары. Звон стекла. Мир завертелся в кровавой карусели.
         
         А затем — тяжелый, зубодробительный удар.
+
+        Моя машина вылетела из оврага и с лязгом рухнула прямо на полотно нижнего скоростного шоссе.
         """
 
-        scene cg_car_crashed_on_highway with fade
+        scene ch01_cg49_v01 with Dissolve(5.0)
         # CG: Вид изнутри разбитой машины через треснутое лобовое стекло. Машина лежит боком или криво на асфальте. 
         # Прямо на неё (в лоб) летят два гигантских, ослепительно ярких прожектора фуры.
 
-        stop music
-        stop ambient
         # play sound "sfx/truck_horn_deafening.opus" fadein 1.0
         
         narrator """
-        Моя машина вылетела из оврага и с лязгом рухнула прямо на полотно нижнего скоростного шоссе.
-        
         Я висела на ремнях, оглушенная. Кровь заливала глаза.
         
         Я с трудом повернула голову.
@@ -253,11 +259,17 @@ label chapter1_escape_sequence_start:
         {=thoughts}Алекс...{/thoughts}
         """
 
+        scene black with { "master" : Dissolve(10.0) }
+        with { "effect": dissolve }
+
         narrator """
         Время превратилось в вязкую смолу.
         
         Я смотрела на этот надвигающийся свет, и в моей груди поднималась не паника, а абсолютное, ледяное отторжение.
         """
+
+        scene ch01_cg50_v01 with { "master" : Dissolve(15.0) }
+        with { "effect": dissolve }
 
         neon """
         {=thoughts}Я бы хотела повернуть время вспять...{/thoughts}
@@ -265,18 +277,24 @@ label chapter1_escape_sequence_start:
         {=thoughts}Снова увидеть Алекс... Яркую, как этот прожектор...{/thoughts}
         
         {=thoughts}Я не хочу, чтобы этот день существовал.{/thoughts}
-        """
-
-        narrator """
-        Грузовик был в десяти метрах. В пяти.
         
-        Я зажмурилась и инстинктивно сжалась в комок, вскинув окровавленные руки перед лицом, словно пытаясь отгородиться от неизбежного удара, который должен был размазать меня по асфальту.
+        Я хочу... его... отменить...
         """
-
-        neon "Я хочу... отменить..."
 
         # play sound "sfx/absolute_silence_awaken.opus"
+
+        show 7a-cg-5:
+                alpha 0.0
+                linear 0.25 alpha 0.5
+    
+        $ renpy.pause(0.0625, hard=True)
+
+        scene black
+        hide 7a-cg-5 with Dissolve(0.125)
         scene white with flash
+
+        scene ch01_cg50_v01 with { "master" : Dissolve(15.0) }
+        with { "effect": dissolve }
         
         narrator """
         Вспышка.
@@ -287,8 +305,6 @@ label chapter1_escape_sequence_start:
         # play sound "sfx/massive_metal_crumple_surreal.opus" with hpunch
         # Звук: Не звонкий удар двух машин, а звук того, как огромная масса сминается обо что-то абсолютно твердое, как консервная банка о бетонный столб.
         
-        scene black
-
         narrator """
         А затем...
 
@@ -305,6 +321,6 @@ label chapter1_escape_sequence_start:
         А затем сознание, не выдержав этого невозможного, сюрреалистичного парадокса, милосердно провалился в густую, спасительную тьму.
         """
 
-        pause 3.0
+        scene black with Fade(5.0, 1.5, 0.125)
         # Конец Главы 1
 return
