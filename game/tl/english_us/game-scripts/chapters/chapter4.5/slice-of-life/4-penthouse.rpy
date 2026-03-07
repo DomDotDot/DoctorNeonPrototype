@@ -406,4 +406,161 @@ translate english_us chapter4_5_seraphina_penthouse_bea416f9:
 translate english_us chapter4_5_seraphina_penthouse_8f25c0ce:
 
     # seraphina "Хи-хи! Спасибо!"
-    seraphina "He-he! Thank you!"
+    seraphina "He-he! Thank you!"# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:105
+translate english_us chapter4_5_seraphina_penthouse_880407a4:
+
+    # narrator "Её голос стал текучим, сладким и ядовитым одновременно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:119
+translate english_us chapter4_5_seraphina_penthouse_6dd81cea:
+
+    # seraphina "Почему ты не хочешь дружить со мной?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:119
+translate english_us chapter4_5_seraphina_penthouse_8d26d5af_1:
+
+    # seraphina "..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:119
+translate english_us chapter4_5_seraphina_penthouse_cc22598a:
+
+    # seraphina "Хотя... я поняла почему."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:129
+translate english_us chapter4_5_seraphina_penthouse_ad6ccb73:
+
+    # narrator "Она отстранилась и с отвращением посмотрела на свое идеальное лицо в отражении."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:131
+translate english_us chapter4_5_seraphina_penthouse_e69b7df1:
+
+    # seraphina "Ты ненавидишь меня, да? Ненавидишь Серафину."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:131
+translate english_us chapter4_5_seraphina_penthouse_3e321828:
+
+    # seraphina "За то, что она тебя обманула. За то, что она тебя ранила."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:131
+translate english_us chapter4_5_seraphina_penthouse_e2218391:
+
+    # seraphina "Этот образ... он бракованный? Он тебе не подходит?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:139
+translate english_us chapter4_5_seraphina_penthouse_73337088:
+
+    # narrator "Её пальцы сжались на ножке бокала так, что стекло жалобно скрипнуло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:141
+translate english_us chapter4_5_seraphina_penthouse_115f44b5:
+
+    # seraphina "Я сброшу её со сцены. Только скажи 'Разрешаю'. Ну пожалуйста..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:141
+translate english_us chapter4_5_seraphina_penthouse_7e4312de:
+
+    # seraphina "И тогда я займу твоё сердце той, кто тебе дорог."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:141
+translate english_us chapter4_5_seraphina_penthouse_58ce1638:
+
+    # seraphina "Я найду Селестию и... стану ей."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:149
+translate english_us chapter4_5_seraphina_penthouse_438b4e83:
+
+    # narrator "Её глаза вспыхнули безумной надеждой. Она говорила так, будто предлагает самый дорогой подарок в мире."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:151
+translate english_us chapter4_5_seraphina_penthouse_d9548cae:
+
+    # seraphina "Я стану любой, кем ты хочешь. Ну Неон, не сопротивляйся..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:151
+translate english_us chapter4_5_seraphina_penthouse_fd783e05:
+
+    # seraphina "Мы будем идеальны. Ты — умная, я — красивая... я — Селестия. Мы будем сиять вечно."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:151
+translate english_us chapter4_5_seraphina_penthouse_4cf89f5d:
+
+    # seraphina "...Просто впусти меня в себя..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:161
+translate english_us chapter4_5_seraphina_penthouse_3ebccb52:
+
+    # narrator "Она с размаху вогнала раскрытую ладонь прямо в центр идеального 'лица' Серафины в зеркале."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:161
+translate english_us chapter4_5_seraphina_penthouse_cac060d4:
+
+    # narrator "Зеркало взорвалось паутиной трещин. Острые осколки брызнули во все стороны, впиваясь в её кожу, некоторые остались торчать глубоко в костяшках и ладони."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:161
+translate english_us chapter4_5_seraphina_penthouse_fbb5884e:
+
+    # narrator "Потекла кровь, заливая манжет платья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:161
+translate english_us chapter4_5_seraphina_penthouse_be6833b9:
+
+    # narrator "Но она даже не моргнула."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:171
+translate english_us chapter4_5_seraphina_penthouse_e5af1651:
+
+    # narrator "Она медленно отняла руку от разбитого стекла. Покрутила кистью перед глазами, наблюдая, как из глубоких порезов сочится красная жидкость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:171
+translate english_us chapter4_5_seraphina_penthouse_a6a93007:
+
+    # narrator "На её лице не дрогнул ни один мускул. Никакой гримасы боли. Никакого рефлекторного одергивания."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:177
+translate english_us chapter4_5_seraphina_penthouse_a5fcecb8:
+
+    # seraphina "Ч-черт, будет неудобно..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:179
+translate english_us chapter4_5_seraphina_penthouse_3e8720d8:
+
+    # narrator "Она произнесла это с легкой досадой. Будто просто сломала ноготь перед важным свиданием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:179
+translate english_us chapter4_5_seraphina_penthouse_020de353:
+
+    # narrator "Только холодное, мертвое безразличие к собственной плоти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:179
+translate english_us chapter4_5_seraphina_penthouse_8126243e:
+
+    # narrator "Она небрежно выдернула самый крупный осколок из сустава, отбросила его на пол и повернулась к двери, услышав шаги снаружи."
+    narrator ""
+

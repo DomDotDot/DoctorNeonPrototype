@@ -366,3 +366,11 @@ translate english_us chapter2_act1_false_memories_d7f27500:
     # "Навигатор" "GPS-сигнал потерян."
     "GPS Navigation" "GPS signal lost."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:97
+translate english_us chapter2_act1_false_memories_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+

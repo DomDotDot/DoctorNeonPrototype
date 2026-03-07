@@ -156,3 +156,23 @@ translate english_us dream_sequence_japan_3_082f2d42:
     # narrator "Я начинаю плакать еще сильнее от чувства вины и страха."
     narrator "I start crying even harder, from guilt and fear."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:64
+translate english_us dream_sequence_japan_3_7063cb64:
+
+    # oganesson_young "Так вот где причины разломов..."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:64
+translate english_us dream_sequence_japan_3_86baf4cd:
+
+    # oganesson_young "Твоя мать... Она..."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:64
+translate english_us dream_sequence_japan_3_a39ac8ca:
+
+    # oganesson_young "Она... пользуется тобой неправильно..."
+    oganesson_young ""
+

@@ -1182,3 +1182,11 @@ translate english_us chapter4_5_nari_flashback_87296f12_1:
     # nari "...Да."
     nari "...Yes."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:6
+translate english_us chapter4_5_nari_flashback_0e88fbf9:
+
+    # narrator "Я думала, это мир говорит мне: 'Твое место в тени'."
+    narrator ""
+

@@ -398,3 +398,203 @@ translate english_us chapter4_5_seraphina_flashback_97bd7905:
     # narrator "Она отшатнулась, отступала на шаг назад. Я обернулась и перестала играть."
     narrator "She recoiled, stepping back. I stopped playing."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:124
+translate english_us chapter4_5_seraphina_flashback_8d6dd922:
+
+    # lily "Я... ведь отдала тебе всё. Всю себя."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:124
+translate english_us chapter4_5_seraphina_flashback_a47c3df4:
+
+    # lily "Я купила гитару ради тебя... я всегда была рядом!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:124
+translate english_us chapter4_5_seraphina_flashback_ee64b4a7:
+
+    # lily "Разве это не доказательство моей любви?! Серафина?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:124
+translate english_us chapter4_5_seraphina_flashback_656e53e9:
+
+    # lily "Мы же обещали друг другу... носить наши талисманы..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:124
+translate english_us chapter4_5_seraphina_flashback_0a3e69a7:
+
+    # lily "Так почему... почему ты сняла его в тот вечер? Почему бросила свой чокер на подушке...?"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:136
+translate english_us chapter4_5_seraphina_flashback_961718c2:
+
+    # narrator "Я сжалась в комок, закрыв лицо руками, когда до меня дошло холодное, безжалостное осознание."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:142
+translate english_us chapter4_5_seraphina_flashback_39368f30:
+
+    # lily "Предательница."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:142
+translate english_us chapter4_5_seraphina_flashback_b9ef9abb:
+
+    # lily "Ты никогда меня и не любила..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:142
+translate english_us chapter4_5_seraphina_flashback_a955d0fc:
+
+    # lily "Как и мои родители... вы все... вы все... одинаковые. Предатели."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:142
+translate english_us chapter4_5_seraphina_flashback_e16e798c:
+
+    # lily "Для вас преданность ничего не стоит. Как только вы находите деталь получше, вы просто берете и выбрасываете старую."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:152
+translate english_us chapter4_5_seraphina_flashback_e9b76609:
+
+    # narrator "Я уткнулась лицом в колени, содрогаясь от рыданий. От стыда, от несправедливости, от разрушенных надежд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:152
+translate english_us chapter4_5_seraphina_flashback_58f55fe2:
+
+    # narrator "И сквозь этот жалкий стон, в моей расколотой голове, раздался знакомый, ехидный шепот."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:161
+translate english_us chapter4_5_seraphina_flashback_0904a5f8:
+
+    # illusion "Хи-хи-хи..."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:161
+translate english_us chapter4_5_seraphina_flashback_85be81eb:
+
+    # illusion "Больно, правда?"
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:161
+translate english_us chapter4_5_seraphina_flashback_0442a929:
+
+    # illusion "Зачем зависеть от веры одной-единственной, которая может отвернуться? Которая оказалась такой слабой и пугливой?"
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:161
+translate english_us chapter4_5_seraphina_flashback_2e94d901:
+
+    # illusion "Давай заставим верить в тебя ТЫСЯЧИ людей."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:161
+translate english_us chapter4_5_seraphina_flashback_b5996702:
+
+    # illusion "И тогда эта ложь станет настолько плотной, что даже ты перестанешь слышать скрежет своей разбитой души."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:175
+translate english_us chapter4_5_seraphina_flashback_f61d07b5:
+
+    # narrator "Я вспомнила об Аяме, которую мы так легко забыли в погоне за новой жизнью..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:175
+translate english_us chapter4_5_seraphina_flashback_dedec219:
+
+    # narrator "Которую мы просто заменили другой девочкой, чтобы шоу продолжалось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:175
+translate english_us chapter4_5_seraphina_flashback_f08ea7dc:
+
+    # narrator "В тот вечер я поняла одну простую вещь. Люди — это просто сменные детали."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:187
+translate english_us chapter4_5_seraphina_flashback_a293564b:
+
+    # nari "Люди слишком непредсказуемы. У них есть свобода воли, а значит — у них всегда есть выбор уйти."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:187
+translate english_us chapter4_5_seraphina_flashback_91ebfece:
+
+    # nari "Те, с кем ты делишь кровать, секреты и мечты, рано или поздно находят вариант поудобнее."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:187
+translate english_us chapter4_5_seraphina_flashback_f208e60c:
+
+    # nari "Мне больше не нужны друзья. Мне не нужны партнеры. Равенство приносит только боль и страх не соответствовать."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:187
+translate english_us chapter4_5_seraphina_flashback_47ebbea4:
+
+    # nari "А группа...? Группа — это Я. А остальные... мне нужны не люди. Мне нужна послушная массовка. Те, кто будут смотреть только мне в рот."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:187
+translate english_us chapter4_5_seraphina_flashback_b8db0a07:
+
+    # nari "Я возведу свой собственный трон. И буду сидеть на нем. Одна."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:187
+translate english_us chapter4_5_seraphina_flashback_d19ac774:
+
+    # nari "Я сделаю всё сама. Лучше абсолютное одиночество на вершине, чем вечный страх оказаться брошенной внизу... Тащить за собой груз чувств и каких-то обязательств..."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:201
+translate english_us chapter4_5_seraphina_flashback_6c2466b1:
+
+    # illusion "Вот оно... Истинное величие, Нари."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:201
+translate english_us chapter4_5_seraphina_flashback_77e06efb:
+
+    # illusion "Ты себя принижала. Но теперь ты и есть звезда, что включает свет."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:201
+translate english_us chapter4_5_seraphina_flashback_dfafa940:
+
+    # illusion "Ты — центр притяжения, гравитация. Гравитация всегда одна, а всё остальное — лишь слепой рой, который вращается вокруг неё."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:201
+translate english_us chapter4_5_seraphina_flashback_e49142ef:
+
+    # illusion "Они будут держать твой подиум на своих плечах. Будут приносить тебе свою любовь, как дань, впитывая каждый твой звук."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:201
+translate english_us chapter4_5_seraphina_flashback_0cd5c314:
+
+    # illusion "Тебе больше не нужно быть чьей-то тенью или жалкой копией."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:201
+translate english_us chapter4_5_seraphina_flashback_45eb8bb5:
+
+    # illusion "Забыла?"
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:217
+translate english_us chapter4_5_seraphina_flashback_c6777ee6:
+
+    # illusion "Ты и есть - Серафина."
+    illusion ""
+

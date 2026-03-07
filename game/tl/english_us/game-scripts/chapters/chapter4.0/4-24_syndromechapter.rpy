@@ -987,3 +987,185 @@ translate english_us chapter4_0_24syndrome_57f7d790:
     # narrator "Я нашла ближайший общественный инфо-терминал. Функция заказа еды. Самый дешевый ресторан, самый дешевый напиток. Адрес: 'The Celeste Plaza'."
     narrator ""
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:222
+translate english_us chapter4_0_24syndrome_611b13dc:
+
+    # narrator "При звуке моего имени ее рука, потянувшаяся к банке с чаем, замерла в воздухе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:222
+translate english_us chapter4_0_24syndrome_a3ca088e:
+
+    # narrator "На долю секунды маска измученной матери слетела с ее лица. Усталость в глазах сменилась чем-то острым, цепким. Вспоминанием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:222
+translate english_us chapter4_0_24syndrome_6a5ba068:
+
+    # narrator "Она медленно повернулась ко мне, словно сканируя. Будто это имя было строчкой в каком-то отчете, который она читала давным-давно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:230
+translate english_us chapter4_0_24syndrome_09c46cdc:
+
+    # meryl "Неон... Редкое имя."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:232
+translate english_us chapter4_0_24syndrome_816df087:
+
+    # neon "Это... скорее прозвище. Которое прижилось."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:234
+translate english_us chapter4_0_24syndrome_b738166b:
+
+    # narrator "Мэрил моргнула, и наваждение исчезло. Она снова стала просто уставшей хозяйкой квартиры. Но я заметила эту паузу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:242
+translate english_us chapter4_0_24syndrome_e59502e9:
+
+    # narrator "Мы сели за маленький кухонный столик. Чайник тихо загудел."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:242
+translate english_us chapter4_0_24syndrome_724066d9:
+
+    # narrator "Мэрил смотрела на меня так, будто пыталась прочесть мою душу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:242
+translate english_us chapter4_0_24syndrome_d6463c5e:
+
+    # narrator "Мэрил наливала кипяток, но ее взгляд то и дело возвращался ко мне. Точнее — к моей голове."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:250
+translate english_us chapter4_0_24syndrome_fc220fe4:
+
+    # meryl "У вас очень красивые волосы, Неон. Густые... Прямо как у моей дочери..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:252
+translate english_us chapter4_0_24syndrome_21f5ba9a:
+
+    # narrator "Она поставила чашку передо мной, слегка наклонив голову."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:254
+translate english_us chapter4_0_24syndrome_5ace01eb:
+
+    # meryl "Такой необычный оттенок. Глубокий синий. Вы краситесь? Это сейчас модно среди молодежи в Веритасе?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:256
+translate english_us chapter4_0_24syndrome_1aa54e28:
+
+    # neon shy "А... Нет. Не крашусь."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:258
+translate english_us chapter4_0_24syndrome_75dad087:
+
+    # narrator "Я инстинктивно коснулась пряди волос, накручивая ее на палец. Старая, неприятная привычка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:258
+translate english_us chapter4_0_24syndrome_0dda11fd:
+
+    # narrator "Вопрос Мэрил, хоть и вежливый, вскрыл старую рану."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:264
+translate english_us chapter4_0_24syndrome_66352590:
+
+    # neon "Раньше они были черными. Длинными, как смоль."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:264
+translate english_us chapter4_0_24syndrome_f5c8e72c:
+
+    # neon "А потом... еще в школе... корни начали менять цвет. Сначала едва заметно, потом все ярче."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:264
+translate english_us chapter4_0_24syndrome_adef9638:
+
+    # neon "Это выглядело как плохой градиент. Будто я пыталась выделиться, но будто у меня не хватило денег на краску для всей длины."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:274
+translate english_us chapter4_0_24syndrome_e9926fee:
+
+    # neon "В детстве... дети жестокие. Они называли меня 'Мальвиной'."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:274
+translate english_us chapter4_0_24syndrome_4a8f4ea7:
+
+    # neon "Думали, я просто хочу внимания. А я... я просто не могла это смыть."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
+translate english_us chapter4_0_24syndrome_1918a4fa:
+
+    # narrator "Я замолчала, чувствуя себя неуютно. Зачем я это рассказываю? Это слишком личное. Слишком странное."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
+translate english_us chapter4_0_24syndrome_f79eabac:
+
+    # narrator "Я подняла глаза на Мэрил, ожидая увидеть недоверие или насмешку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
+translate english_us chapter4_0_24syndrome_abe1a377:
+
+    # narrator "Но Мэрил смотрела на меня с пугающей серьезностью. В ее взгляде не было удивления. Было понимание. И... профессиональный интерес?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:288
+translate english_us chapter4_0_24syndrome_e06f8de3:
+
+    # meryl "С корней, говорите... Естественное изменение пигментации..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
+translate english_us chapter4_0_24syndrome_941d473e:
+
+    # narrator "Она пробормотала это себе под нос, словно ставя галочку в невидимом списке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
+translate english_us chapter4_0_24syndrome_0d73f8db:
+
+    # narrator "Она поняла. Или заподозрила. Что я — не просто 'бывшая подруга'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
+translate english_us chapter4_0_24syndrome_02fcd7a1:
+
+    # narrator "Но она не стала давить. Вместо этого она резко выпрямилась, звонко размешивая сахар в своей чашке, меняя тему."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:301
+translate english_us chapter4_0_24syndrome_09786b76:
+
+    # meryl "Простите. Я не хотела лезть в душу. Просто... иногда мелочи напоминают мне о нормальной жизни."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:301
+translate english_us chapter4_0_24syndrome_42c0886e:
+
+    # meryl "Так вы говорили, ваша подруга... пропала?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:316
+translate english_us chapter4_0_24syndrome_c15f5acb:
+
+    # narrator "Она сделала глоток своего чая, глядя на меня уже по-другому. Как на равную. Или как на инструмент."
+    narrator ""
+

@@ -777,3 +777,11 @@ translate english_us chapter4_5_concert_mid_c99f8fc0:
     # narrator "Я прошла по указателям 'Event Hall C'. Здесь было несколько девушек, все они шли в том же направлении, что и я, возбужденно перешептываясь."
     narrator "I followed the signs to 'Event Hall C'. There were a few girls here, all walking in the same direction as me, whispering excitedly."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:6
+translate english_us chapter4_5_concert_mid_1557d77f:
+
+    # narrator "Это место, 'Экспо', и впрямь напоминало терминал футуристического аэропорта"
+    narrator ""
+

@@ -810,3 +810,11 @@ translate english_us chapter4_5_concert_start_76ebf3fb:
     # narrator "До сих пор не знакомой мне по имени девушке."
     narrator "A girl whose name I still didn't know."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:196
+translate english_us chapter4_5_concert_start_289c2eb0:
+
+    # narrator "Больше напоминало гигантский, светящийся метроном. Или маятник, отсчитывающий время гипноза."
+    narrator ""
+

@@ -878,3 +878,77 @@ translate english_us chapter4_0_academy_00dda589:
     # neon "{=thoughts}Если бы она была здесь, она бы уже подружилась с ними за пять минут. Она умела это делать. Не то что я..."
     neon "{=thoughts}If she was here, she'd already be friends with them and would've gotten all the Academy gossip in five minutes. She knew how to connect with people. Unlike me..."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:174
+translate english_us chapter4_0_academy_9cd038d2:
+
+    # student2 "Лили... Она из Веритаса? Или... эм... из 'Пригорода'?"
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:253
+translate english_us chapter4_0_academy_c846c061:
+
+    # neon "{=thoughts}Она... она была настоящей. Видео... это была она.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:257
+translate english_us chapter4_0_academy_8a4bb45f:
+
+    # narrator "В голове словно лопнула туго натянутая струна. Дамба, сдерживавшая воспоминания, рухнула, затапливая сознание образами прошлого."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:271
+translate english_us chapter4_0_academy_720f5c7e:
+
+    # narrator "Мир на мгновение качнулся. Боль в висках отступила, оставив после себя оглушающее чувство потери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:271
+translate english_us chapter4_0_academy_6166e41b:
+
+    # narrator "Воспоминание закончилось. Плотина рухнула окончательно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:277
+translate english_us chapter4_0_academy_405f09a3:
+
+    # neon "{=whisper}Это она... Это все было правдой... И я её видела...{/whisper}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:279
+translate english_us chapter4_0_academy_c2c08b56:
+
+    # narrator "Я вернула телефон студентке, стараясь, чтобы мои руки не дрожали."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:284
+translate english_us chapter4_0_academy_7bbe4877:
+
+    # narrator "Они помахали нам и скрылись в толпе. А я... а мы c Аргоном остались стоять перед гигантским, молчаливым стадионом Веритаса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
+translate english_us chapter4_0_academy_ed5c5769:
+
+    # narrator "Вся моя жизнь, моя \"апатия\", моя изоляция — всё это было ложью, навязанной мне 'Сверху', той тенью в том пустом зале."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
+translate english_us chapter4_0_academy_02130093:
+
+    # narrator "Это расследование больше не было только ради Аргона. Это больше не было просто поиском его дочери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
+translate english_us chapter4_0_academy_ed613353:
+
+    # narrator "Теперь это стало моим. Глубоко личным."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
+translate english_us chapter4_0_academy_b9322218:
+
+    # narrator "Врата в прошлое открылись, призрак девушки с волосами цвета снега и ночи. . Девушки, которую я предала."
+    narrator ""
+

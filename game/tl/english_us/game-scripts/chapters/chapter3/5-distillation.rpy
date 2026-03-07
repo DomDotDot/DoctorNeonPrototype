@@ -366,3 +366,11 @@ translate english_us strings:
     old "Отправиться на поиски."
     new "Go search for the ingredients."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:6
+translate english_us ch3_part3_chemistry_and_cooperation_118e2685:
+
+    # neon "Не магия, а химия. Мне нужны три вещи: источник сахара, дрожжи и что-то, из чего можно собрать перегонный аппарат. Если они есть на этом заводе, у вас будет ваш напиток."
+    neon ""
+

@@ -1726,3 +1726,179 @@ translate english_us chapter4_5_finale_bb3fdb8e:
     # narrator "Шум в ушах пропал, не было больше наводящих мыслей, не было страха упустить тишину."
     narrator "The noise in my ears disappeared, no more intrusive thoughts, no more fear of not hearing silence."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:197
+translate english_us chapter4_5_finale_fc630057:
+
+    # seraphina "Мы все хотели быть ею! Этой чертовой Селестией!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:197
+translate english_us chapter4_5_finale_85a9b5e2:
+
+    # seraphina "Серафина хотела петь как она, Лили хотела играть как она..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:197
+translate english_us chapter4_5_finale_147bbc90:
+
+    # seraphina "А я..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:197
+translate english_us chapter4_5_finale_ee5be757:
+
+    # seraphina "Я просто хотела, чтобы смотрели на меня! Но она сбежала! Она бросила этот трон, и я просто подобрала его!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:197
+translate english_us chapter4_5_finale_39cd65ee:
+
+    # seraphina "К черту..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:197
+translate english_us chapter4_5_finale_945694c6:
+
+    # seraphina "К черту обещания. К черту 'любовь'. К черту мечты."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:353
+translate english_us chapter4_5_finale_da3d122a:
+
+    # seraphina "Ты... ты сама монстр!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:373
+translate english_us chapter4_5_finale_ab9d6b0a:
+
+    # seraphina envious3 "И ты после всего этого смеешь называть меня монстром?!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:413
+translate english_us chapter4_5_finale_ec5c232c:
+
+    # narrator "Её непонимание взбесило Серафину еще больше. Она вцепилась в воротник белой блузки Неон, притягивая её к себе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:413
+translate english_us chapter4_5_finale_bc426732:
+
+    # narrator "Она шумно, по-звериному втянула носом воздух. И её губы изогнулись в отвратительной, торжествующей ухмылке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:419
+translate english_us chapter4_5_finale_dc7e2283:
+
+    # seraphina "Да это даже не твоя форма! Сучка!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:419
+translate english_us chapter4_5_finale_779cc6e2:
+
+    # seraphina "Думаешь, я не узнаю запах. Запах гнили и меда от моей пчелки?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:419
+translate english_us chapter4_5_finale_5105768f:
+
+    # seraphina "Это одежда Сары! Подружки Лили!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:419
+translate english_us chapter4_5_finale_279e0334:
+
+    # seraphina "Ты её раздела. Ты осквернила её холодный труп, чтобы напялить это на себя ради прикрытия!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:419
+translate english_us chapter4_5_finale_b38f1cc9:
+
+    # seraphina "И после этого... после всего этого ты смеешь меня судить?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:431
+translate english_us chapter4_5_finale_aa3067a8:
+
+    # seraphina "{=yell} ОТВЕЧАЙ!" with vpunch
+    seraphina "" with vpunch
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:433
+translate english_us chapter4_5_finale_380304c0:
+
+    # narrator "Она выкрикнула это прямо в лицо Неон, ожидая увидеть слезы. Ожидая раскаяния, стыда, оправданий. Ожидая, что моральный компас Неон треснет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:433
+translate english_us chapter4_5_finale_4e646b5f:
+
+    # narrator "Но вместо этого..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:433
+translate english_us chapter4_5_finale_dddf5aa9:
+
+    # narrator "Взгляд Неон, до этого растерянный, вдруг стал абсолютно, пугающе пустым."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:433
+translate english_us chapter4_5_finale_c5d6f10b:
+
+    # narrator "Как будто Серафина кричала в бездонный колодец."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:433
+translate english_us chapter4_5_finale_73ba4e2f:
+
+    # narrator "Она не чувствовала вины. Логика Вакуума включилась, блокируя человеческие эмоции. 'Форма была нужна для миссии. Это просто ресурс'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:433
+translate english_us chapter4_5_finale_bc408617:
+
+    # narrator "Серафина почувствовала этот ледяной холод. Она поняла, что её психологический удар просто растворился в небытии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:447
+translate english_us chapter4_5_finale_151e42ed:
+
+    # seraphina "А?!" with vpunch
+    seraphina "" with vpunch
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:449
+translate english_us chapter4_5_finale_13f22270:
+
+    # narrator "Серафина отшатнулась, её руки на воротнике Неон разжались. Триумф на её лице сменился животной паникой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:449
+translate english_us chapter4_5_finale_8efd62a2:
+
+    # narrator "Она поняла, что перед ней не человек, которого можно застыдить. Перед ней нечто гораздо хуже."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:449
+translate english_us chapter4_5_finale_55ff41c7:
+
+    # narrator "От бессилия и страха она сорвалась на самый жалкий, обиженный, детский крик, пытаясь задеть хоть как-то:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:531
+translate english_us chapter4_5_finale_987b044f:
+
+    # seraphina "Ч-что...? Почему я... Почему я не могу встать?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:541
+translate english_us chapter4_5_finale_45b86019:
+
+    # seraphina "Ч-что...? Нет! Я настоящая!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:657
+translate english_us chapter4_5_finale_e43dfcfa:
+
+    # seraphina "А-ах...?"
+    seraphina ""
+
