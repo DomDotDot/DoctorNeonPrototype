@@ -52,8 +52,6 @@ label chapter1_escape_sequence_start:
 
         scene ch01_cg43_v01 with dissolve
 
-        play music "music/BGM/DroppedHydrangeaOff.mp3" fadein 5.0
-
         "Охранник" "Стоять! Руки на стену!"
 
         narrator """
@@ -131,7 +129,6 @@ label chapter1_escape_sequence_start:
         """
 
         scene ch01_cg45_v01 with Dissolve(3.0)
-        play music "music/BGM/Brooding.mp3" fadein 5.0
 
         # play sound "sfx/heavy_metal_door_slam.opus" with vpunch
 
@@ -236,8 +233,9 @@ label chapter1_escape_sequence_start:
         Моя машина вылетела из оврага и с лязгом рухнула прямо на полотно нижнего скоростного шоссе.
         """
 
-        scene ch01_cg49_v01 with Dissolve(5.0)
         play music "music/BGM/Parting.mp3" fadein 5.0
+        scene ch01_cg49_v01 with Dissolve(5.0)
+        
         # CG: Вид изнутри разбитой машины через треснутое лобовое стекло. Машина лежит боком или криво на асфальте. 
         # Прямо на неё (в лоб) летят два гигантских, ослепительно ярких прожектора фуры.
 
@@ -293,14 +291,17 @@ label chapter1_escape_sequence_start:
     
         $ renpy.pause(0.0625, hard=True)
 
+        play sound "sfx/sfx_zap-hard2.mp3" fadein 0.5
+        stop music fadeout 0.125
+
         scene black
         hide 7a-cg-5 with Dissolve(0.125)
-        scene white with flash
+        scene black with flash
+        play music "music/BGM/Silence.mp3" fadein 10.0 fadeout 5.0
+        pause 2.0
 
         scene ch01_cg50_v01 with { "master" : Dissolve(15.0) }
         with { "effect": dissolve }
-
-        play music "music/BGM/Silence.mp3" fadein 10.0
         
         narrator """
         Вспышка.
@@ -327,6 +328,7 @@ label chapter1_escape_sequence_start:
         А затем сознание, не выдержав этого невозможного, сюрреалистичного парадокса, милосердно провалился в густую, спасительную тьму.
         """
 
+        stop music fadeout 10.0
         scene black with Fade(5.0, 1.5, 0.125)
         # Конец Главы 1
 return

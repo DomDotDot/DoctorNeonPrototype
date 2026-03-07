@@ -821,7 +821,7 @@ translate english_us chapter1_confrontation_path_9f6b4333:
 translate english_us chapter1_confrontation_path_b8da29ce:
 
     # narrator "Я посмотрела на свою руку. Искры были... синими. Обычно статика желтая или белая. Но рядом с Алекс она меняла цвет.\""
-    narrator ""
+    narrator "I looked at my hand. The sparks were... blue. Usually static is yellow or white. But next to Alex it changed color."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:48
 translate english_us chapter1_confrontation_path_8f1d8a24:
@@ -1073,7 +1073,7 @@ translate english_us chapter1_confrontation_path_71e09431:
 translate english_us chapter1_confrontation_path_a7b1c62b:
 
     # alex "{=yell}Слышь, ты! Руки убрал от моей Неон!{/yell}" with vpunch
-    alex "" with vpunch
+    alex "{=yell}Hey! Get your hands off my Neon!{/yell}" with vpunch" with vpunch
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:181
 translate english_us chapter1_confrontation_path_cdde3629:

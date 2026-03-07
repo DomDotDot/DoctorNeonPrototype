@@ -90,6 +90,10 @@ label chapter1_confrontation_path:
         # play sound "sfx/elevator_ding.opus"
         stop music fadeout 0.125
 
+        play sound "sfx/sfx_bell.mp3"
+        pause 1.0
+        play ambient "sfx/sfx_elevator-open.mp3" fadein 1.0 noloop
+
         narrator """
         Мелодичный звонок лифта разрезал тишину, грубо оборвав меня на полуслове.
         
@@ -166,7 +170,7 @@ label chapter1_confrontation_path:
         #show neon at right with move
         
         # Звук резкого шага или удара по руке
-        #play sound "sfx/slap_hand_away.opus" 
+        play sound "sfx/sfx_shove.mp3" volume 7.0
 
         scene ch01_cg36_v01 with flash
 
@@ -286,14 +290,15 @@ label chapter1_confrontation_path:
         narrator "Наушники упали на бетонный пол. Маркус, не переставая улыбаться, наступил на них дорогим ботинком и с хрустом провернул ногу."
 
         stop music
-        play sound "sfx/ear-ringing.opus" fadein 0.1 # Звон в ушах вместо музыки
+        play sound "sfx/sfx_metal-hit.mp3" fadein 0.125 volume 1.5 # Звон в ушах вместо музыки
         scene black with vpunch
+        play music "music/BGM/Vacuum.mp3" fadein 10.0 volume 0.75
 
         narrator "Тихий хруст пластика прозвучал для Неон как выстрел. Музыка умерла. Щит сломан. В её голову хлынул Шум."
 
         marcus "Упс. Неловко вышло. Как и вся твоя карьера, Синяя ворона."
 
-        play ambient "ambient/Target.opus" fadein 5.0
+        play ambient "ambient/Target.opus" fadein 5.0 volume 0.25
 
         scene ch01_cg35_v01 with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
@@ -347,18 +352,19 @@ label chapter1_confrontation_path:
         alex "Неон... Стой! Не делай глупостей!"
 
         narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
-
-        play sound "sfx/sfx_zap.mp3" volume 0.5
         
         scene white with Dissolve(0.125)
 
-        pause 2.0
+        play sound "sfx/sfx_zap-hard1.mp3" volume 2.0
+
+        narrator "ТРЕСК!"
+
+        pause 1.0
 
         scene ch01_cg35_v02 with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
 
         narrator """
-        ТРЕСК!
         
         Это был удар током.
         
@@ -375,11 +381,18 @@ label chapter1_confrontation_path:
 
         scene ch01_cg37_v01 with { "master" : dissolve }
         with { "effect": dissolve }
+        
+        play sound "sfx/sfx_chair-metal-pull.mp3" fadein 0.5 volume 5.0
+        
+        pause 1.5
 
-        pause 5.0
+        play ambient "sfx/sfx_chair-bolt-crack.mp3" fadein 0.5 noloop volume 3.0
+
+        pause 0.5
 
         scene ch01_cg37_v02 with { "master" : vpunch }
         with { "effect": vpunch }
+
 
         narrator """
         Она схватилась за спинку стула.

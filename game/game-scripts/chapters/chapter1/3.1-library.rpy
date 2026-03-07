@@ -2,7 +2,7 @@ label chapter1_lab_noon_library:
 
 
         scene ch01_bg05_v01 with fade
-        play music "music/BGM/OldBookSmell.mp3" noloop fadein 1.5
+        play music "music/BGM/OldBookSmell.mp3" loop fadein 1.5
 
         narrator """
         Библиотека оказалась просторной и почти пустой.
@@ -50,7 +50,6 @@ label chapter1_lab_noon_library:
         Запах дешевых чернил смешался с запахом мела и старых аудиторий.
         """
 
-        stop music fadeout 2.0
         # play sound "sfx/memory_trigger_bell.opus" # Звук триггера воспоминания (колокольчик или пианино)
         
         # Переход к флешбэку происходит здесь (вызов в chapter-1.rpy)
