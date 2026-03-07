@@ -2,6 +2,7 @@ label chapter1_lab_noon:
 
         # play music "sounds/ambient_lab_contemplative.opus" loop fadein 1.0
         scene ch01_cg14_v01 with Dissolve(2)
+        play music "music/BGM/Serenade.mp3" fadein 10.0
 
         narrator """
         Энергичный уход Алекс оставил за собой вихрь смешанных чувств и звенящую тишину.

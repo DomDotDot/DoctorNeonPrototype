@@ -1,7 +1,7 @@
 label chapter1_confrontation_path:
 
         scene ch01_cg31_v01 with fade
-        play music "music/BGM/Promising.opus" fadeout 5.0
+        play music "music/BGM/PartingGuitar.mp3" fadeout 5.0
 
         narrator """
         Мы выбежали с поста охраны. Улики были у нас в руках. 
@@ -117,7 +117,7 @@ label chapter1_confrontation_path:
 
         scene black with dissolve
         
-        play music "music/BGM/Promising.opus" fadeout 5.0
+        play music "music/BGM/ColdLandOff.mp3" fadeout 1.0
 
         narrator """
         Кабина была не пуста.

@@ -2,7 +2,7 @@ label oganesson_school_flashback_1:
         # Эффект: Экран медленно теряет фокус, звук становится приглушенным
         # play sound "sfx/ear-ringing.opus" volume 0.2
         scene ch01_cg23_v01 with Dissolve(5.0) # Показываем класс, тусклые тона
-        play music "music/BGM/Realization.opus" fadein 2.0 
+        play music "music/BGM/DeepThere.ogg" fadein 5.0 
 
         narrator """
         Мне пятнадцать. Я сижу за своей партой.
@@ -180,6 +180,7 @@ label oganesson_school_flashback_1:
         narrator "Его испуганное, перепачканное молоком лицо начало искажаться, расплываясь в темноте, пока его не сменил другой голос..."
 
         scene black with Dissolve(0.125)
+        stop music fadeout 0.125
 
         unknown_f "Неон? Неон, ты меня слышишь? Эй!"
 

@@ -228,6 +228,8 @@ label chapter1_meeting_start:
         show black with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
 
+        play music "music/BGM/Vacuum.mp3" fadein 10.0
+
         narrator """
         Вот оно что. \n
 

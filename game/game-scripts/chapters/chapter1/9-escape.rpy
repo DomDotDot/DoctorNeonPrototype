@@ -52,6 +52,8 @@ label chapter1_escape_sequence_start:
 
         scene ch01_cg43_v01 with dissolve
 
+        play music "music/BGM/DroppedHydrangeaOff.mp3" fadein 5.0
+
         "Охранник" "Стоять! Руки на стену!"
 
         narrator """
@@ -129,6 +131,7 @@ label chapter1_escape_sequence_start:
         """
 
         scene ch01_cg45_v01 with Dissolve(3.0)
+        play music "music/BGM/Brooding.mp3" fadein 5.0
 
         # play sound "sfx/heavy_metal_door_slam.opus" with vpunch
 
@@ -234,6 +237,7 @@ label chapter1_escape_sequence_start:
         """
 
         scene ch01_cg49_v01 with Dissolve(5.0)
+        play music "music/BGM/Parting.mp3" fadein 5.0
         # CG: Вид изнутри разбитой машины через треснутое лобовое стекло. Машина лежит боком или криво на асфальте. 
         # Прямо на неё (в лоб) летят два гигантских, ослепительно ярких прожектора фуры.
 
@@ -295,6 +299,8 @@ label chapter1_escape_sequence_start:
 
         scene ch01_cg50_v01 with { "master" : Dissolve(15.0) }
         with { "effect": dissolve }
+
+        play music "music/BGM/Silence.mp3" fadein 10.0
         
         narrator """
         Вспышка.
