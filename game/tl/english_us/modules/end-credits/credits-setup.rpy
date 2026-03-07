@@ -18,3 +18,11 @@ translate english_us strings:
     old "Спецэффекты"
     new "SFX Engineer"
 
+# TODO: Translation updated at 2026-03-07 22:47
+
+translate english_us strings:
+
+    # game/modules/end-credits/credits-setup.rpy:2
+    old "Игры, Которые Вдохновили"
+    new "Inspiration Games"
+

@@ -493,3 +493,11 @@ translate english_us strings:
     # game/modules/gallery/gallery-setup.rpy:399
     old "Королева Пчёл"
     new "Queen Bee"
+# TODO: Translation updated at 2026-03-07 22:47
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-setup.rpy:343
+    old "Буду я, качая, в нем души не чаять, - Говорила Луна."
+    new "For one who is willing to sacrifice their child. Not be alone, would have loved them little"
+
