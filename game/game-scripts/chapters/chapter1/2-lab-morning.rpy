@@ -1,12 +1,14 @@
 label chapter1_lab_morning:
 
-        # play sound "sounds/phone_alarm_vibrating.opus" loop
+        play sound "sfx/sfx_alarm.mp3" fadein 1.0 loop
 
         narrator "Оглушительная трель будильника ворвалась в тишину, выдернув Неон из вязкой темноты сна. Она вскинула голову с резким, сдавленным вскриком."
 
         neon "Агрх?!"
+
         scene ch01_cg13_v01 with Fade(0.1, 0.0, 0.5)
-        # stop sound
+        stop sound fadeout 0.25
+
         narrator """
         Голова гудела. Щека неприятно липла к клавишам. Клавиатура... была мокрой. От слюны.
 
@@ -206,14 +208,13 @@ label chapter1_lab_morning:
         Привычный, теплый жест.
         """
 
-        # play sound "sfx/static_spark_zap.opus" volume 0.5
-        # show white with Dissolve(0.1)
-        # hide white with Dissolve(0.1)
-        
-        narrator "ЦК!"
-
+        play sound "sfx/sfx_zap.mp3" volume 0.5
+        show white with Dissolve(0.125)
         show alex slight shocked with vpunch
         show neon surprised
+        hide white with Dissolve(0.125)
+        
+        narrator "ЦК!"
         
         narrator """
         Раздался сухой, отчетливый щелчок статического электричества. Искра была такой сильной, что ее было видно даже при дневном свете.

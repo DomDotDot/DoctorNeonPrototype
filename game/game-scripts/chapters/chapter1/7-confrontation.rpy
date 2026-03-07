@@ -39,6 +39,8 @@ label chapter1_confrontation_path:
 
         scene black with flash
 
+        play sound "sfx/sfx_zap.mp3" volume 0.5
+
         narrator "ЦК!"
 
         alex "Ай! Ой, ты меня снова ударила!"
@@ -346,7 +348,7 @@ label chapter1_confrontation_path:
 
         narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
 
-        # play sound "sfx/static_shock_loud.opus" with hpunch
+        play sound "sfx/sfx_zap.mp3" volume 0.5
         
         scene white with Dissolve(0.125)
 
