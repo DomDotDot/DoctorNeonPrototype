@@ -910,3 +910,311 @@ translate english_us chapter1_lab_morning_78c6f9c2:
     # neon "Саш, ну сколько можно? Ты в это реально веришь? Это же неофициальные слухи. Где-то в мессенджерах люди панику разводят. Верить всему подряд нельзя."
     neon "Alex, how many times have I told you? Do you really believe that? Those are just unofficial rumors. People are spreading panic on messegger apps. You can't trust them."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:26
+translate english_us chapter1_lab_morning_06c3d565:
+
+    # narrator "Она судорожно задвигала мышкой, игнорируя испорченную клавиатуру."
+    narrator "She frantically moved the mouse, ignoring the ruined keyboard."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:33
+translate english_us chapter1_lab_morning_d0133bd7:
+
+    # neon pleasant "Да! Да! ДА!!!"
+    neon pleasant "Yes! Yes! YES!!!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:63
+translate english_us chapter1_lab_morning_6c95cbfd:
+
+    # narrator "Сон...? Ах, да. Сон. Девушка с волосами цвета снега и ночи. Ее смех. Концерт..."
+    narrator "A dream...? Ah, yes. A dream. The girl with hair the color of snow and night. Her laugh. The concert..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:84
+translate english_us chapter1_lab_morning_67bdff8d:
+
+    # narrator "Длинные светлые кудри пружинили при каждом движении, красный, с нежным оттенком, джемпер вызывающе контрастировал с белыми халатами, которые Алекс принципиально не носила."
+    narrator "Long blonde curls bounced with every movement; a red, softly-tinted jumper contrasted sharply with the white lab coats that Alex fundamentally refused to wear."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:84
+translate english_us chapter1_lab_morning_7f4d5bd5:
+
+    # narrator "Неон и Алекс – подруги поневоле, связавшие себя годами совместной работы, обедов и взаимных прикрытий перед начальством."
+    narrator "Neon and Alex — involuntary friends bound together by years of teamwork, lunches, and covering for each other in front of management."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:84
+translate english_us chapter1_lab_morning_7b2c6bee:
+
+    # narrator "Не зависть – нет. Скорее, глухая ярость от несправедливости, от того, что ее собственные титанические усилия как будто обесценивались легкостью, с которой Алекс порхала по жизни, пока их пути не разошлись."
+    narrator "Not envy — no. Rather, a muffled rage at the injustice, at the fact that her own titanic efforts seemed to be devalued by the ease with which Alex fluttered through life until their paths diverged."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:106
+translate english_us chapter1_lab_morning_43597a19:
+
+    # alex "А я думала, ты уже дома дрыхнешь! Решила зайти птичек за окном послушать, пока начальства нет, а тут – сюрприз!"
+    alex "And I thought you were already crashing at home! Decided to drop by and listen to the birds outside while the bosses are gone, and here – a surprise!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:107
+translate english_us chapter1_lab_morning_720ee0d6:
+
+    # alex @ flirty "Хотя, чего я удивляюсь? Ключи-то на вахте не висят..."
+    alex @ flirty ""
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:111
+translate english_us chapter1_lab_morning_8a72c0ca:
+
+    # neon "Алекс, ну нельзя же так! Я чуть концы не отдала..."
+    neon "Alex, you can't just do that! You scared me to death..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:117
+translate english_us chapter1_lab_morning_864a8a31:
+
+    # alex concerned "Ты опять всю ночь тут просидела, да? Признавайся!"
+    alex concerned "You spent the whole night here again, didn't you? Confess!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:119
+translate english_us chapter1_lab_morning_363f9991:
+
+    # alex worried "Господи, Неон, ты на себя в зеркало смотрела? Мешки под глазами скоро до колен достанут!"
+    alex worried "Lord, Neon, have you looked in the mirror? The bags under your eyes will reach your knees soon!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:119
+translate english_us chapter1_lab_morning_1a4e5fbb:
+
+    # alex worried "Ты уже неделю не выходила из комплекса! Там, внизу, вообще-то есть жизнь!"
+    alex worried "You haven't left the complex in a week! You know, there's actually a life down there!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:119
+translate english_us chapter1_lab_morning_6776fd9b:
+
+    # alex worried "Так же нельзя, подруга! С такой физиономией тебя ни один приличный парень на свидание не позовет! А тебе всего двадцать два!"
+    alex worried "You can't do this, friend! With a face like that, no decent guy will ask you out! And you're only twenty-two!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:119
+translate english_us chapter1_lab_morning_3144557b:
+
+    # alex worried "Молодость проходит!"
+    alex worried "Your youth is slipping away!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:130
+translate english_us chapter1_lab_morning_e2d2c2a1:
+
+    # neon shy "Ха-ха! Парни? Алекс, ты серьезно?"
+    neon shy "Haha! Guys? Alex, are you serious?"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:150
+translate english_us chapter1_lab_morning_0336a4d9:
+
+    # alex smug questioning "Ну как успехи? Поймала своих зеленых человечков?"
+    alex smug questioning "So, how’s it going? Caught your little green men?"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:158
+translate english_us chapter1_lab_morning_4ca1b51c:
+
+    # neon neutral "Да. Закончила. Все штатно. Только вот..."
+    neon neutral "Yes. Finished. All nominal. It's just..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:158
+translate english_us chapter1_lab_morning_d9f9b84a:
+
+    # neon neutral "..."
+    neon neutral "..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:164
+translate english_us chapter1_lab_morning_6cd44513:
+
+    # alex concerned "Что? Что случилось?"
+    alex concerned "What? What happened?"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:169
+translate english_us chapter1_lab_morning_0cca9c07:
+
+    # alex sad "Сломала? Как?!"
+    alex sad "Broke it? How?!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:179
+translate english_us chapter1_lab_morning_97595244:
+
+    # alex laugh "ПХА-ХА-ХА-ХА-ХА! СЛЮНОЙ?! Серьёзно?!"
+    alex laugh "BWA-HA-HA-HA-HA! WITH SPIT?! Seriously?!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:179
+translate english_us chapter1_lab_morning_b1823533:
+
+    # alex laugh "Ты серьезно?! Уснула мордой в клаву и залила ее?!"
+    alex laugh "Are you serious?! You fell asleep face-first on the keyboard and flooded it?!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:179
+translate english_us chapter1_lab_morning_ee5c2ab3:
+
+    # alex laugh "Ха-ха-ха!"
+    alex laugh "Hahaha!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:187
+translate english_us chapter1_lab_morning_029d458e:
+
+    # alex laugh tear "Фух... Ладно... ха..."
+    alex laugh tear "Phew... Alright... ha..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:187
+translate english_us chapter1_lab_morning_e6ddcb2a:
+
+    # alex laugh tear "Всё, ты сделала мой день, Неон!"
+    alex laugh tear "You just made my day, Neon!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:193
+translate english_us chapter1_lab_morning_d4426c90:
+
+    # narrator "Алекс утерла выступившие слезы от смеха, после чего продолжила."
+    narrator "Alex wiped away tears of laughter, then continued."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:195
+translate english_us chapter1_lab_morning_cd91abae:
+
+    # alex relaxed "Какая же ты все-таки... не меняешься! Годы идут, открытия мирового масштаба, а ты все та же неряха! Обожаю!"
+    alex relaxed "You really are... you never change! Years pass, making world-class discoveries, yet you're perfectly as clumsy as ever! I love it!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:201
+translate english_us chapter1_lab_morning_065c1daa:
+
+    # alex wink "Ой, да ладно тебе."
+    alex wink "Oh, come on."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:228
+translate english_us chapter1_lab_morning_a325f6b5:
+
+    # alex pleading "Серьезно, Неон. Ну почему ты такая электрическая?"
+    alex pleading "Seriously, Neon. Why are you so electric?"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:228
+translate english_us chapter1_lab_morning_db51257f:
+
+    # alex pleading "Каждый раз, когда я к тебе прикасаюсь — как будто оголенный провод трогаю."
+    alex pleading "Every time I touch you, it feels like I'm touching an exposed wire."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:236
+translate english_us chapter1_lab_morning_f2ec9573:
+
+    # alex "Мне кажется, ты просто накопитель энергии какой-то. Ходячая батарейка!"
+    alex "I think you're just some kind of energy capacitor. A walking battery!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:244
+translate english_us chapter1_lab_morning_45dc25a6:
+
+    # narrator "Алекс посмотрела на Неон, взволнованным взглядом, который так и говорил: 'Я за тебя переживаю'"
+    narrator "Alex cast a worried glance at Neon, one that practically shouted, 'I'm worried about you.'"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:244
+translate english_us chapter1_lab_morning_15834685:
+
+    # narrator "А Неон потерла плечо, где произошел контакт. Там осталось странное ощущение. Не боль, а... пустота. Будто на секунду в этом месте исчезла гравитация."
+    narrator "Neon rubbed her shoulder where the contact happened. A strange sensation lingered. Not pain, but... emptiness. As if gravity vanished from that spot for a second."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:269
+translate english_us chapter1_lab_morning_451ec858:
+
+    # alex slight shocked "Ой..."
+    alex slight shocked "Oh..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:285
+translate english_us chapter1_lab_morning_ba9f7c98:
+
+    # alex "Похоже, что скоро все будут работать из дома. Даже мы с тобой."
+    alex "Looks like soon everyone will be working from home. Even you and me."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:285
+translate english_us chapter1_lab_morning_6e169cd8:
+
+    # alex "Надеюсь, эта дрянь до нас не доберется..."
+    alex "I hope that crap doesn't reach us..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:291
+translate english_us chapter1_lab_morning_2b851e6e:
+
+    # neon "Алекс, ну сколько можно? Ты в это реально веришь? Это же неофициальные слухи. Где-то в мессенджерах люди панику разводят. Верить всему подряд нельзя."
+    neon "Alex, how much more of this? Do you really believe that? It's all unofficial rumors. People spreading panic in chats. You can't believe everything."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:293
+translate english_us chapter1_lab_morning_7abc4f6a:
+
+    # alex pleading "Э-это правда! Ну почему ты мне не веришь? Мы же друзья! Я-я же показывала фотки... там все желтое!"
+    alex pleading "I-it's true! Why don't you believe me? We're friends! I-I showed you the photos... everything's yellow there!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:301
+translate english_us chapter1_lab_morning_2a3a8c4d:
+
+    # neon "Давай не будем об этом..."
+    neon "Let's not talk about it..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:303
+translate english_us chapter1_lab_morning_ff790dd9:
+
+    # narrator "Алекс на секунду замерла, глядя на спокойное лицо подруги."
+    narrator "Alex froze for a second, looking at her friend's calm face."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:303
+translate english_us chapter1_lab_morning_462e2a6d:
+
+    # narrator "Затем она глубоко вздохнула, тряхнула кудрями, словно физически сбрасывая с себя липкий страх."
+    narrator "Then she took a deep breath and tossed her curls, as if physically shaking off the sticky fear."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:303
+translate english_us chapter1_lab_morning_840a16d7:
+
+    # narrator "Она убрала телефон, тряхнула кудрями, снова улыбнулась, но уже с блеском в глазах."
+    narrator "She put the phone away, tossed her curls, and smiled again, but with a gleam in her eyes."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:313
+translate english_us chapter1_lab_morning_e5d652f6:
+
+    # alex "Ладно, к черту. Пока мы вместе — мне ничего не страшно! Даже желтый туман. Ты же тоже так думаешь, Неон?"
+    alex "Alright, screw it. As long as we're together, I'm not afraid of anything! Not even yellow fog. You think so too, right, Neon?"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:315
+translate english_us chapter1_lab_morning_51e11e8a:
+
+    # neon shy "Я тебя никогда не брошу."
+    neon shy "I'll never abandon you."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:317
+translate english_us chapter1_lab_morning_57aa8d68:
+
+    # alex happy "Ну вот видишь? Раз уж я все равно тут торчу и ключи от архива у меня с собой..."
+    alex happy "See? Well, since I’m stuck here anyway and have the archive keys with me..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:323
+translate english_us chapter1_lab_morning_44ed037c:
+
+    # neon surprised "Ты... серьезно? Но это же моя работа... А если узнают..."
+    neon surprised "Are you... serious? But that's my job... What if they find out..."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:325
+translate english_us chapter1_lab_morning_833530a4:
+
+    # alex relaxed "Ой, да кто узнает? У меня в архиве даже мыши от скуки дохнут. А тебе надо готовиться к триумфу!"
+    alex relaxed "Oh, who's going to find out? Even the mice in my archive die of boredom. And you need to prepare for your triumph!"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:325
+translate english_us chapter1_lab_morning_219af72d:
+
+    # alex relaxed "А ты садись и пиши доклад о своем великом открытии. На бумаге, раз печатать не можешь."
+    alex relaxed "You sit down and write the report on your great discovery. On paper, since you can't type."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:330
+translate english_us chapter1_lab_morning_77826d1b:
+
+    # alex smug questioning "Ручка-то у тебя найдется? Или тоже слюной растворила?"
+    alex smug questioning "You got a pen? Or did you dissolve that with spit too?"
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:333
+translate english_us chapter1_lab_morning_05d2cc20:
+
+    # neon pleasant "Найдется. Спасибо, Алекс. Ты... ты лучшая."
+    neon pleasant "I have one. Thank you, Alex. You... you're the best."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:335
+translate english_us chapter1_lab_morning_610f39d6:
+
+    # alex laugh "Знаю! В общем, давай, действуй. Хе-хе. Созвонимся позже!"
+    alex laugh "I know! Anyway, get to it. Hehe. Call you later!"
+

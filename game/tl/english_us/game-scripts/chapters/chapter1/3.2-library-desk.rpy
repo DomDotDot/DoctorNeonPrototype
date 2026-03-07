@@ -216,3 +216,65 @@ translate english_us chapter1_lab_noon_library_desk_0516b761:
     # narrator "Она вышла из библиотеки и направилась к лифтам, ведущим на верхние уровни – туда, где располагался административный блок и главные конференц-залы."
     narrator "She left the library and headed for the elevators leading to the upper levels—to the administrative wing and the main conference rooms."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:7
+translate english_us chapter1_lab_noon_library_desk_9b262086:
+
+    # narrator "Кто же она? Кто был тем голосом, который так странно отзывался в моей душе, когда я о ней думала? И почему он казался таким знакомым, таким родным?"
+    narrator "Who is she? Who was that voice that resonated so strangely in my soul when I thought of her? And why did it seem so familiar, so dear?"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:17
+translate english_us chapter1_lab_noon_library_desk_f5fe9c08:
+
+    # narrator "С новой решимостью Неон вернулась к докладу. Ручка оставила на бумаге первую строчку: \n 'Анализ аномальной ритмики в секторе Дельта-4'."
+    narrator "With renewed determination, Neon returned to the report. The pen left the first line on the paper: \n 'Analysis of Anomalous Rhythmics in Sector Delta-4'."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:17
+translate english_us chapter1_lab_noon_library_desk_81edc194:
+
+    # narrator "Она писала быстро, почти не задумываясь, словно слова уже давно ждали своего часа, чтобы вырваться на бумагу."
+    narrator "She wrote quickly, almost without thinking, as if the words had long been waiting for their time to burst onto the paper."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:24
+translate english_us chapter1_lab_noon_library_desk_ee8c3fae:
+
+    # neon "{=thoughts}'...устойчивый ритм исключает случайность. Не просто всплеск энергии. Это... композиция. Смысл, скрытый за завесой пустоты...'"
+    neon "{=thoughts}'...a stable rhythm rules out coincidence. Not just a surge of energy. It's... a composition. Meaning, hidden behind the veil of the void...'"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_3a02569d:
+
+    # narrator "Особенно там, в той маленькой деревушке у подножия гор, где прошло ее детство и юность. До Цюриха. До звезд."
+    narrator "Especially there, in that little village at the foot of the mountains, where her childhood and youth passed. Before Zurich. Before the stars."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:56
+translate english_us chapter1_lab_noon_library_desk_11486da1:
+
+    # narrator "Нужно было закончить. Нужно доказать."
+    narrator "It had to be finished. It had to be proven."
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:70
+translate english_us chapter1_lab_noon_library_desk_e3c3b12a:
+
+    # neon "'{=thoughts}...ритм повторяется. Это не шум. Это не природа...'"
+    neon "'{=thoughts}...the rhythm repeats. It's not noise. It's not nature...'"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:72
+translate english_us chapter1_lab_noon_library_desk_832991c6:
+
+    # neon "'{=thoughts}...это кто-то создал. Кто-то, кто знает, что такое тишина...'"
+    neon "'{=thoughts}...someone created this. Someone who knows what silence is...'"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:74
+translate english_us chapter1_lab_noon_library_desk_175127a6:
+
+    # neon "'{=thoughts}...с высокой степенью вероятности — это послание. Или память...'"
+    neon "'{=thoughts}...with a high degree of probability, it is a message. Or a memory...'"
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:76
+translate english_us chapter1_lab_noon_library_desk_d97e1780:
+
+    # narrator "Послание. Память. Не хаос. Это было ключевое слово. Ее оправдание."
+    narrator "Message. Memory. Not chaos. This was the key word. Her vindication."
+

@@ -186,3 +186,11 @@ translate english_us chapter1_security_post_scene_18baab33:
     # hans "Так, девушки, просмотр окончен. Архив закрыт. Ничего не видел, ничего не знаю."
     hans "Alright, ladies, viewing's over. Archive's closed. I saw nothing, I know nothing."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:40
+translate english_us chapter1_security_post_scene_a1113205:
+
+    # neon pleasant "Ханс, вы... вы нас спасаете!"
+    neon pleasant "Hans, you... you're saving us!"
+
