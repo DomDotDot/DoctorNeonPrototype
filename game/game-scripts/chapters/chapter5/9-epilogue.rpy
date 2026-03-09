@@ -34,7 +34,7 @@ label chapter5_epilogue_earth:
     """
 
     # --- DREAM FRAGMENT 5 (Скрытый/Автоматический) ---
-    call dream_sequence_japan_5
+    call dream_sequence_japan_5 from _call_dream_sequence_japan_5
     
     play sound "sfx/memory_erase_glitch_heavy.opus"
     

@@ -247,7 +247,7 @@ label chapter1_lab_night:
         На экране монитора, сквозь цифровую рябь и 'снег' статики, начало проступать изображение.
         """
 
-        call krypton_concert_flashback
+        call krypton_concert_flashback from _call_krypton_concert_flashback
 
         narrator """
         Видео захлебнулось статикой. Последнее, что осталось на сетчатке — это взгляд человека, которого предали в самый важный момент жизни. 
