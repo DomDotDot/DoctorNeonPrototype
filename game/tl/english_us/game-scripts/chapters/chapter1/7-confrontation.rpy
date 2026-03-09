@@ -1073,7 +1073,7 @@ translate english_us chapter1_confrontation_path_71e09431:
 translate english_us chapter1_confrontation_path_a7b1c62b:
 
     # alex "{=yell}Слышь, ты! Руки убрал от моей Неон!{/yell}" with vpunch
-    alex "{=yell}Hey! Get your hands off my Neon!{/yell}" with vpunch" with vpunch
+    alex "{=yell}Hey! Get your hands off my Neon!{/yell}" with vpunch
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:181
 translate english_us chapter1_confrontation_path_cdde3629:
