@@ -174,7 +174,7 @@ screen data_settings_screen():
                             # Кнопка справа
                             button:
                                 style "neutral_button"
-                                text _("Сбросить") style "danger_button_text"
+                                text _("Сбросить") style "danger_button_text" size 20
                                 action Confirm(_("Сбросить все настройки звука и текста?"), yes=Function(reset_preferences_to_default))
 
 
@@ -198,7 +198,7 @@ screen data_settings_screen():
 
                             button:
                                 style "danger_button"
-                                text _("Сбросить") style "danger_button_text"
+                                text _("Сбросить") style "danger_button_text" size 20
                                 action Confirm(_("Вы уверены? Это обнулит ваш прогресс."), yes=Function(hard_reset_progress))
 
                     # Карточка: Удаление сейвов
@@ -216,7 +216,7 @@ screen data_settings_screen():
 
                             button:
                                 style "danger_button"
-                                text _("Удалить все") style "danger_button_text"
+                                text _("Удалить все") style "danger_button_text" size 20
                                 action Confirm(_("Это действие нельзя отменить. Удалить все сохранения?"), yes=Function(delete_all_saves))
 
 
@@ -241,7 +241,7 @@ screen data_settings_screen():
 
                                 button:
                                     style "safe_button"
-                                    text _("Открыть всё") style "danger_button_text"
+                                    text _("Открыть всё") style "danger_button_text" size 20
                                     action Confirm(_("Открыть весь контент?"), yes=Function(unlock_everything))
 
                         # Карточка: Unlock Characters
@@ -259,7 +259,7 @@ screen data_settings_screen():
 
                                 button:
                                     style "safe_button"
-                                    text _("Открыть всё") style "danger_button_text"
+                                    text _("Открыть всё") style "danger_button_text" size 20
                                     action Confirm(_("Открыть всех персонажей в Глоссарий?"), yes=Function(unlock_all_chars_full))
 
             # Кнопка НАЗАД (внизу)

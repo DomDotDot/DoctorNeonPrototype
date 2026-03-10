@@ -63,6 +63,7 @@ style modern_button_text is button_text:
     insensitive_color "#555555"
     xalign 0.5
     yalign 0.5
+    bold True
 
 #
 # Specific Buttons
@@ -192,8 +193,6 @@ style danger_button is modern_button:
     
 style danger_button_text is modern_button_text:
     color "#ffffff"
-    size 20
-    bold True
 
 style safe_button is danger_button:
     background Solid("#2ea043")
