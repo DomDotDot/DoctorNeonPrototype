@@ -360,5 +360,5 @@ translate english_us strings:
 
     # game/screens.rpy:318
     old "Воспоминания"
-    new "Memory Recollection"
+    new "Recollection"
 
