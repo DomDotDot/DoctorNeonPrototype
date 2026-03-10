@@ -1,24 +1,3 @@
-# === ИЗОБРАЖЕНИЯ И ТРАНСФОРМАЦИИ ===
-
-# Логотип 'студии'
-image studio_logo_img = "gui/studio-logo.png"
-
-# Логотип Ren'Py
-image renpy_logo_img = "gui/renpy-logo.png"
-
-transform splash_zoom_fade:
-    xalign 0.5 yalign 0.5
-    alpha 0.0 zoom 0.8
-    ease 1.5 alpha 1.0 zoom 1.0
-    pause 2.0
-    ease 1.0 alpha 0.0 zoom 1.1
-
-# Переменная для отслеживания первого запуска
-default persistent.firstlaunch = True
-default persistent.last_run_version = None # Хранит последнюю запущенную версию
-default persistent.seen_splash = False
-
-
 label splashscreen:
 
     # -----------------------------------------------------------
@@ -32,62 +11,14 @@ label splashscreen:
 
     $ renpy.pause(0.5, hard=True)
 
-
     # -----------------------------------------------------------
-    # 2. ЛОГОТИП СТУДИИ
+    # 2. ПОКАЗ ЛОГОТИПОВ (ЕДИНАЯ ЗАСТАВКА)
     # -----------------------------------------------------------
-    
-    # Если у вас есть звук логотипа студии
-    # play sound "audio/sfx/studio_intro.opus" 
-
-    show studio_logo_img at splash_zoom_fade
-
-    show text "{size=30}Made by DomDot{/s}":
-        xalign 0.5 yalign 0.85 alpha 0.0
-        pause 1.0
-        ease 1.0 alpha 1.0
-        pause 1.5
-        ease 1.0 alpha 0.0
-    
-    # Логика пропуска:
-    # Если игрок уже видел интро, клик пропустит паузу.
-    # Если нет (hard=True) - обязан досмотреть.
-    if persistent.seen_splash:
-        $ renpy.pause(4.5) # Можно кликнуть чтобы пропустить
-    else:
-        $ renpy.pause(4.5, hard=True) # Нельзя пропустить
-
-    scene black with dissolve
-    $ renpy.pause(0.5)
+    call _intro_splash_sequence
 
 
     # -----------------------------------------------------------
-    # 3. ЛОГОТИП REN'PY / ДВИЖКА
-    # -----------------------------------------------------------
-
-    play sound "audio/sfx/short-logo.opus" volume 0.25
-    
-    show renpy_logo_img at splash_zoom_fade
-    
-    show text "{size=30}Made with Ren'Py [renpy.version_only]{/s}":
-        xalign 0.5 yalign 0.85 alpha 0.0
-        pause 1.0
-        ease 1.0 alpha 1.0
-        pause 1.5
-        ease 1.0 alpha 0.0
-
-    if persistent.seen_splash:
-        $ renpy.pause(4.5)
-    else:
-        $ renpy.pause(4.5, hard=True)
-
-    $ persistent.seen_splash = True
-
-    scene black with fade
-
-
-    # -----------------------------------------------------------
-    # 4. НАСТРОЙКИ ПРИ ПЕРВОМ ЗАПУСКЕ (ИЛИ ОБНОВЛЕНИИ)
+    # 3. НАСТРОЙКИ ПРИ ПЕРВОМ ЗАПУСКЕ (ИЛИ ОБНОВЛЕНИИ)
     # -----------------------------------------------------------
     
     # Если версия изменилась или это первый запуск
@@ -96,9 +27,7 @@ label splashscreen:
         # Сброс флага "видел сплэш", чтобы игрок увидел новые дисклеймеры/логотипы
         $ persistent.seen_splash = False
         
-        # Здесь можно сбросить и другие флаги, если нужно
-        # Здесь можно сбросить и другие флаги, если нужно
-        # например, заставить перепроверить DLC
+        # Сбрасываем проверку DLC, чтобы модули заново инициализировались если надо
         $ persistent.dlc_setup_completed = None
         
         # Обновляем записанную версию
@@ -106,8 +35,9 @@ label splashscreen:
         
         # Если это совсем первый запуск (или переход со старой версии без этого флага)
         if persistent.firstlaunch:
-            # Выбор языка
-            call screen language_selection_screen
+            # Выбор языка (если есть такой экран)
+            if renpy.has_screen("language_selection_screen"):
+                call screen language_selection_screen
             $ persistent.firstlaunch = False
 
         # Предупреждение о контенте (показываем при каждом обновлении версии или первом запуске)
@@ -117,7 +47,12 @@ label splashscreen:
         #TODO Настройки доступности (размер текста и т.д)
         # call screen accessibility_settings 
 
-    call dlc_check_sequence from _call_dlc_check_sequence
+    # -----------------------------------------------------------
+    # 4. ПРОВЕРКИ DLC И ОБНОВЛЕНИЙ
+    # -----------------------------------------------------------
+    
+    if renpy.has_label("_call_dlc_check_sequence"):
+        call dlc_check_sequence from _call_dlc_check_sequence
 
     if hasattr(store, 'updater_state'):
         $ wait_time = 0.0
