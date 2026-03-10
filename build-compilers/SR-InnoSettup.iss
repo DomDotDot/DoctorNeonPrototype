@@ -13,9 +13,10 @@
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
 
 ; Define paths dynamically based on the project name and version
-#define BaseDir "D:\Absolute-Storage\AllInOneStorage\Games\RenPy"
-#define RepoDir BaseDir + "\" + MyProjectName
-#define BuildDir BaseDir + "\" + MyProjectName + "-" + MyAppVersion + "-dists\" + MyProjectName + "-" + MyAppVersion + "-win"
+#define ProjectDir ".."
+#define WorkspaceDir "..\.."
+#define RepoDir ProjectDir
+#define BuildDir WorkspaceDir + "\DrNeonVersions\" + MyProjectName + "-" + MyAppVersion + "-dists\" + MyProjectName + "-" + MyAppVersion + "-win"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -43,7 +44,7 @@ DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users).
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=D:\Absolute-Storage\AllInOneStorage\Games\DrNeonCompilerOutput
+OutputDir={#WorkspaceDir}\..\DrNeonCompilerOutput
 OutputBaseFilename=SemitoneResonance_win_setup_{#MyAppVersion}
 SetupIconFile={#RepoDir}\source_assets\promo\logos\SRinstaller.ico
 SolidCompression=yes
