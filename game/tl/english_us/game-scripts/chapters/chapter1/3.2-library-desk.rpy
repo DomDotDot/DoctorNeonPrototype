@@ -202,7 +202,7 @@ translate english_us chapter1_lab_noon_library_desk_ca4110fe:
 translate english_us chapter1_lab_noon_library_desk_3225c621:
 
     # narrator "На несколько секунд шум в ее голове стих. Гул комплекса, тиканье часов, даже ее собственное бешеное сердцебиение — все исчезло."
-    narrator "Finnaly, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
+    narrator "Finally, the noise in her head quieted for a few seconds. The hum of the complex, the ticking of the clock, even her own racing heartbeat—all vanished."
 
 # game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:89
 translate english_us chapter1_lab_noon_library_desk_e56cfe42:

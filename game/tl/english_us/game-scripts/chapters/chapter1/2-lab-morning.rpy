@@ -958,7 +958,7 @@ translate english_us chapter1_lab_morning_43597a19:
 translate english_us chapter1_lab_morning_720ee0d6:
 
     # alex @ flirty "Хотя, чего я удивляюсь? Ключи-то на вахте не висят..."
-    alex @ flirty ""
+    alex @ flirty "Although, why am I surprised? Your keys aren't on the hook at the front desk..."
 
 # game/game-scripts/chapters/chapter1/2-lab-morning.rpy:111
 translate english_us chapter1_lab_morning_8a72c0ca:

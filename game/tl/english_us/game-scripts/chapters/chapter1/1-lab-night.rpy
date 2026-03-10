@@ -565,7 +565,7 @@ translate english_us chapter1_lab_night_d22cd808:
 translate english_us chapter1_lab_night_99920e34:
 
     # neon "{=thoughts}Черт. Пахнет действительно хорошо. А у меня во рту как в пустыне.{/thoughts}"
-    neon "{=thoughts}Damn. That actually smells good. And my mouth tastes like the Sahara.{/thoughts}"
+    neon "{=thoughts}Damn. That actually smells good. And my mouth is dry as the Sahara.{/thoughts}"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:73
 translate english_us chapter1_lab_night_c86b1adf:
@@ -595,7 +595,7 @@ translate english_us chapter1_lab_night_2d1f5984:
 translate english_us chapter1_lab_night_33d2218d:
 
     # narrator "Он поднял на нее взгляд. Глаза щенка, которого пнули."
-    narrator "He looked up at her. Kicked-puppy eyes."
+    narrator "He looked up at her. pleading-puppy eyes."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:83
 translate english_us chapter1_lab_night_56ff6c48:
