@@ -27,8 +27,8 @@ label splashscreen:
     scene black
     
     # Сначала проверяем обновления (если у вас есть эта функция)
-    if hasattr(store, 'start_update_check'):
-        $ start_update_check()
+    if hasattr(store, 'check_for_updates'):
+        $ check_for_updates()
 
     $ renpy.pause(0.5, hard=True)
 
@@ -118,5 +118,14 @@ label splashscreen:
         # call screen accessibility_settings 
 
     call dlc_check_sequence from _call_dlc_check_sequence
+
+    if hasattr(store, 'updater_state'):
+        $ wait_time = 0.0
+        while updater_state["status"] == "checking" and wait_time < 3.0:
+            $ renpy.pause(0.1, hard=True)
+            $ wait_time += 0.1
+            
+        if updater_state["status"] == "update_available":
+            call show_updater_prompt
 
     return
