@@ -884,71 +884,79 @@ translate english_us chapter4_0_academy_00dda589:
 translate english_us chapter4_0_academy_9cd038d2:
 
     # student2 "Лили... Она из Веритаса? Или... эм... из 'Пригорода'?"
-    student2 ""
+    student2 "Lily... Is she from Veritas? Or... um... from the 'Suburbs'?"
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:253
 translate english_us chapter4_0_academy_c846c061:
 
     # neon "{=thoughts}Она... она была настоящей. Видео... это была она.{/thoughts}"
-    neon ""
+    neon "{=thoughts}She... she was real. The video... that was her.{/thoughts}"
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:257
 translate english_us chapter4_0_academy_8a4bb45f:
 
     # narrator "В голове словно лопнула туго натянутая струна. Дамба, сдерживавшая воспоминания, рухнула, затапливая сознание образами прошлого."
-    narrator ""
+    narrator "It felt like a tightly wound string snapped in my head. The dam holding back my memories collapsed, flooding my mind with images of the past."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:271
 translate english_us chapter4_0_academy_720f5c7e:
 
     # narrator "Мир на мгновение качнулся. Боль в висках отступила, оставив после себя оглушающее чувство потери."
-    narrator ""
+    narrator "The world swayed for a moment. The pain in my temples receded, leaving behind a deafening sense of loss."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:271
 translate english_us chapter4_0_academy_6166e41b:
 
     # narrator "Воспоминание закончилось. Плотина рухнула окончательно."
-    narrator ""
+    narrator "The memory ended. The dam collapsed completely."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:277
 translate english_us chapter4_0_academy_405f09a3:
 
     # neon "{=whisper}Это она... Это все было правдой... И я её видела...{/whisper}"
-    neon ""
+    neon "{=whisper}It's her... It was all true... And I saw her...{/whisper}"
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:279
 translate english_us chapter4_0_academy_c2c08b56:
 
     # narrator "Я вернула телефон студентке, стараясь, чтобы мои руки не дрожали."
-    narrator ""
+    narrator "I handed the phone back to the student, trying to keep my hands from shaking."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:284
 translate english_us chapter4_0_academy_7bbe4877:
 
     # narrator "Они помахали нам и скрылись в толпе. А я... а мы c Аргоном остались стоять перед гигантским, молчаливым стадионом Веритаса."
-    narrator ""
+    narrator "They waved at us and disappeared into the crowd. And I... Argon and I were left standing before the gigantic, silent Veritas stadium."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
 translate english_us chapter4_0_academy_ed5c5769:
 
     # narrator "Вся моя жизнь, моя \"апатия\", моя изоляция — всё это было ложью, навязанной мне 'Сверху', той тенью в том пустом зале."
-    narrator ""
+    narrator "My entire life, my \"apathy\", my isolation — all of it was a lie, forced on me by the 'Higher Ups', that shadow in that empty hall."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
 translate english_us chapter4_0_academy_02130093:
 
     # narrator "Это расследование больше не было только ради Аргона. Это больше не было просто поиском его дочери."
-    narrator ""
+    narrator "This investigation was no longer just for Argon. It was no longer just a search for his daughter."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
 translate english_us chapter4_0_academy_ed613353:
 
     # narrator "Теперь это стало моим. Глубоко личным."
-    narrator ""
+    narrator "Now it was mine. Deeply personal."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
 translate english_us chapter4_0_academy_b9322218:
 
     # narrator "Врата в прошлое открылись, призрак девушки с волосами цвета снега и ночи. . Девушки, которую я предала."
-    narrator ""
+    narrator "The gates to the past had opened, the ghost of a girl with hair the color of snow and night... The girl I betrayed."
+
+# TODO: Translation updated at 2026-03-12 00:20
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:239
+translate english_us chapter4_0_academy_97799150:
+
+    # narrator "Это была старая новостная статья. Заголовок гласил: {size=+10}'Композитор Вашей Души' или просто Разбитое Сердце? Крах Селестии.{/size}"
+    narrator "It was an old news article. The headline read: {size=+10}‘Composer of Your Soul’ or just a Broken Heart? The Fall of Celestia.{/size}"
 

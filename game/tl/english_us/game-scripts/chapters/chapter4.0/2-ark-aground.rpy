@@ -540,11 +540,11 @@ translate english_us chapter4_0_arkaground_aedaec23:
 translate english_us chapter4_0_arkaground_6ee97d70:
 
     # argon "Да. Если бы эта девчонка не пела из каждого утюга, моя дочь была бы жива."
-    argon ""
+    argon "Yeah. If that girl hadn't been singing from every damn speaker, my daughter would still be alive."
 
 # game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:136
 translate english_us chapter4_0_arkaground_9e6120f7:
 
     # argon "А я остался у разбитого корыта со своей правотой. И с этим... проклятием."
-    argon ""
+    argon "And I'm left with nothing but being right. And this... curse."
 

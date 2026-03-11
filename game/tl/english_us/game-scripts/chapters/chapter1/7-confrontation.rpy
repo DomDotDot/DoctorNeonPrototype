@@ -1133,7 +1133,7 @@ translate english_us chapter1_confrontation_path_2da1a035:
 translate english_us chapter1_confrontation_path_12b80677:
 
     # marcus suit_sinister "Сначала опекунша... теперь эта неудачница..."
-    marcus suit_sinister "First the guardian... now this loser..."
+    marcus suit_sinister "First your trustee... now this loser..."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:205
 translate english_us chapter1_confrontation_path_425ce93c:
@@ -1181,7 +1181,7 @@ translate english_us chapter1_confrontation_path_d674165d:
 translate english_us chapter1_confrontation_path_def9d4bb:
 
     # marcus "Ты про опекуншу? Она немного... странная. Ну впринципе, яблоко от яблони недалеко падает, да?"
-    marcus "You mean the guardian? She's a bit... strange. But I guess the apple doesn't fall far from the tree, right?"
+    marcus "You mean your trustee? She's a bit... strange. But I guess the apple doesn't fall far from the tree, right?"
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:227
 translate english_us chapter1_confrontation_path_becc61c8:
@@ -1367,7 +1367,7 @@ translate english_us chapter1_confrontation_path_74b18643:
 translate english_us chapter1_confrontation_path_825bceaa:
 
     # narrator "Голос завуча. Голос опекунши. Голос тех, кто всегда говорил ей, что она 'не такая'"
-    narrator "The voice of the principal. The voice of her guardian. The voice of those who always told her she wasn't 'like the rest'."
+    narrator "The voice of the principal. The voice of her trustee. The voice of those who always told her she wasn't 'like the rest'."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:304
 translate english_us chapter1_confrontation_path_f5f64e39:

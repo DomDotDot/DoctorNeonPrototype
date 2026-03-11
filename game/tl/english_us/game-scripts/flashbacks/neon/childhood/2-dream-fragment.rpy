@@ -204,131 +204,131 @@ translate english_us dream_sequence_japan_2_c6204da0:
 translate english_us dream_sequence_japan_2_0dbb8622:
 
     # akane "Эти разломы... они становятся нестабильными."
-    akane ""
+    akane "These rifts... they're becoming unstable."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:16
 translate english_us dream_sequence_japan_2_b34a9ff5:
 
     # akane "Я делаю всё в моих силах, но не получается..."
-    akane ""
+    akane "I'm doing everything in my power, but it's not working..."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:16
 translate english_us dream_sequence_japan_2_3575d45d:
 
     # akane "Барьеры рушатся. Сила просачивается сквозь них. Я больше не могу это контролировать."
-    akane ""
+    akane "The barriers are falling. Power is seeping through them. I can't control it anymore."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:16
 translate english_us dream_sequence_japan_2_93f08d1e:
 
     # akane "Пожалуйста... помоги."
-    akane ""
+    akane "Please... help."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:34
 translate english_us dream_sequence_japan_2_c5312d6a:
 
     # oganesson_young "'Сдерживание'. Хех. Какое трусливое слово, Аканэ. Ты предлагаешь запереть божество в клетку, потому что боишься её дара."
-    oganesson_young ""
+    oganesson_young "'Containment'. Heh. What a cowardly word, Akane. You propose locking a deity in a cage because you fear her gift."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:36
 translate english_us dream_sequence_japan_2_68ec1afa:
 
     # akane "Божество?! Она нестабильна!"
-    akane ""
+    akane "A deity?! She's unstable!"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:36
 translate english_us dream_sequence_japan_2_cb2206b2:
 
     # akane "Её 'дар' - это проклятие, оно убивает! Разрушает! Так какое к черту 'божество'?"
-    akane ""
+    akane "Her 'gift' is a curse, it kills! It destroys! So what the hell kind of 'deity' is that?"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:43
 translate english_us dream_sequence_japan_2_053efb29:
 
     # oganesson_young young_kimono neutral "Ты называешь это 'нарушением', просто потому что мыслишь категориями стен и границ. А я вижу свободу."
-    oganesson_young young_kimono neutral ""
+    oganesson_young young_kimono neutral "You call it a 'violation' simply because you think in categories of walls and borders. But I see freedom."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:43
 translate english_us dream_sequence_japan_2_1913020e:
 
     # oganesson_young young_kimono neutral "Я видела, на что способны эти 'разломы'. Я видела миры в их глубине. Для меня, её дар - это потенциал."
-    oganesson_young young_kimono neutral ""
+    oganesson_young young_kimono neutral "I've seen what these 'rifts' are capable of. I've seen worlds in their depths. To me, her gift is potential."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:49
 translate english_us dream_sequence_japan_2_df483cdf:
 
     # akane "Она ключ к двери, которой нельзя закрыть. Это путь в никуда. Перестань пытаться открыть его!"
-    akane ""
+    akane "She is the key to a door that cannot be closed. It's a path to nowhere. Stop trying to open it!"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:49
 translate english_us dream_sequence_japan_2_7c578b98:
 
     # akane "Я же тебе объясняла, что произойдет если они встретятся. Если она примет свою силу..."
-    akane ""
+    akane "I explained to you what will happen if they meet. If she accepts her power..."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:59
 translate english_us dream_sequence_japan_2_b1339be9:
 
     # oganesson_young young_kimono resentment "Мои предки умирали, пытаясь укротить то, от чего твои прятались за стенами защитных ритуалов."
-    oganesson_young young_kimono resentment ""
+    oganesson_young young_kimono resentment "My ancestors died trying to tame what yours hid from behind walls of protective rituals."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:59
 translate english_us dream_sequence_japan_2_ce5851c1:
 
     # oganesson_young young_kimono resentment "И теперь, когда мы стоим на пороге величайшего открытия, ты предлагаешь мне снова спрятаться? Выкинуть 'ключ'? Последовать вашему пути... в небытие?"
-    oganesson_young young_kimono resentment ""
+    oganesson_young young_kimono resentment "And now, when we stand on the threshold of the greatest discovery, you're telling me to hide again? To throw away the 'key'? To follow your path... into oblivion?"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:69
 translate english_us dream_sequence_japan_2_e8fb5b75:
 
     # akane "Это не путь в небытие, это путь ответственности! Она моя дочь! Я не позволю тебе рисковать ее будущим ради своих амбиций!"
-    akane ""
+    akane "It's not a path to oblivion, it's a path of responsibility! She's my daughter! I won't let you risk her future for your ambitions!"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:72
 translate english_us dream_sequence_japan_2_a27e14c9:
 
     # oganesson_young young_kimono smirk "Твоя дочь..."
-    oganesson_young young_kimono smirk ""
+    oganesson_young young_kimono smirk "Your daughter..."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:72
 translate english_us dream_sequence_japan_2_449196bb:
 
     # oganesson_young young_kimono smirk "Ах... Ты прячешься за ней, как и весь твой клан – за своими страхами."
-    oganesson_young young_kimono smirk ""
+    oganesson_young young_kimono smirk "Ah... You hide behind her, just like your entire clan hides behind its fears."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:79
 translate english_us dream_sequence_japan_2_cacd0388:
 
     # akane anger "За дочерью?! Я защищаю ее будущее от твоего безумия! От твоей одержимости её силой, которая тебе не по зубам!"
-    akane anger ""
+    akane anger "Behind my daughter?! I'm protecting her future from your madness! From your obsession with her power, which is beyond you!"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:81
 translate english_us dream_sequence_japan_2_37120d7e:
 
     # oganesson_young young_kimono "Уж что-что, но если мне это по зубам, то она и подавно."
-    oganesson_young young_kimono ""
+    oganesson_young young_kimono "If anything, if that's within my grasp, then she certainly is."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:81
 translate english_us dream_sequence_japan_2_6037b6b6:
 
     # oganesson_young young_kimono "А чего добилась ты? Сидишь в своем идеальном саду и боишься теней. А за собой тащишь и её саму."
-    oganesson_young young_kimono ""
+    oganesson_young young_kimono "And what have you achieved? You sit in your perfect garden and fear the shadows. And you drag her down with you."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:81
 translate english_us dream_sequence_japan_2_699fb239:
 
     # oganesson_young young_kimono "Ты хотя бы спросила её чего она сама хочет? Отдай её мне, и я выращу её стойкой ко всему."
-    oganesson_young young_kimono ""
+    oganesson_young young_kimono "Did you even ask her what she wants? Give her to me, and I'll raise her to be resilient to anything."
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:91
 translate english_us dream_sequence_japan_2_8ff62dea:
 
     # akane "Я не боюсь! Я вижу реальность! Этот туман поглотит тут все, если её не сдерживать!"
-    akane ""
+    akane "I'm not afraid! I see reality! This fog will consume everything here if she isn't contained!"
 
 # game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:91
 translate english_us dream_sequence_japan_2_90fbb1f9:
 
     # akane "То, что природа отказала тебе в праве быть матерью, не дает тебе права играть в бога с моей дочерью!"
-    akane ""
+    akane "Just because nature denied you the right to be a mother doesn't give you the right to play God with my daughter!"
 

@@ -14,7 +14,7 @@ default oga_bio = CharBio(
     eyes="Violet",
     clothes="Formal Shirt, Trench Coat",
     personality="Ambitious, Cold-hearted, Idealist",
-    aliases=["Тетя", "Опекунша", "{color=#c0392b}The Guardian{/color}"],
+    aliases=["Тетя", "Опекунша", "{color=#c0392b}Trustee{/color}"],
     engages_in=["Arson", "Kidnapping", "{color=#c0392b}Murder{/color}", "Memory Alteration"],
     desc_stages=[
         "Теневая фигура, стоящая за событиями в жизни Неона.", # Уровень 1

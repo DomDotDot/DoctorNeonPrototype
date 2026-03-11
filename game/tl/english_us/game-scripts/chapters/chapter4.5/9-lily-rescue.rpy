@@ -1772,11 +1772,11 @@ translate english_us chapter4_5_lily_studio_a5fe9249:
 translate english_us chapter4_5_lily_cafe_adcfb5b4:
 
     # neon "А!.. Что...?"
-    neon ""
+    neon "Ah!.. What...?"
 
 # game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:710
 translate english_us chapter4_5_lily_studio_2338c850:
 
     # lily "Почему...? Почему холодно?!"
-    lily ""
+    lily "Why...? Why is it so cold?!"
 

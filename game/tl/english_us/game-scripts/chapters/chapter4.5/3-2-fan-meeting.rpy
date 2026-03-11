@@ -783,5 +783,5 @@ translate english_us chapter4_5_concert_mid_c99f8fc0:
 translate english_us chapter4_5_concert_mid_1557d77f:
 
     # narrator "Это место, 'Экспо', и впрямь напоминало терминал футуристического аэропорта"
-    narrator ""
+    narrator "This place, the 'Expo', really did look like a futuristic airport terminal."
 

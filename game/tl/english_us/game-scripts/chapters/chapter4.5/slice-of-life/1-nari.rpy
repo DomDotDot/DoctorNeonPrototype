@@ -1188,5 +1188,5 @@ translate english_us chapter4_5_nari_flashback_87296f12_1:
 translate english_us chapter4_5_nari_flashback_0e88fbf9:
 
     # narrator "Я думала, это мир говорит мне: 'Твое место в тени'."
-    narrator ""
+    narrator "I thought it was the world telling me: 'Your place is in the shadows'."
 

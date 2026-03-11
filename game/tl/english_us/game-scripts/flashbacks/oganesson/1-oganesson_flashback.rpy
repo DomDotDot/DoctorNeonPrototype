@@ -58,7 +58,7 @@ translate english_us oganesson_school_flashback_1_30afee21:
 translate english_us oganesson_school_flashback_1_648b7a3e:
 
     # narrator "Учителя тоже это чувствовали и замечали. Раз в месяц меня и опекуншу вызывали на разговор к завучу."
-    narrator "The teachers felt and noticed it too. Once a month, my guardian and I were called in to see the principal."
+    narrator "The teachers felt and noticed it too. Once a month, my trustee and I were called in to see the principal."
 
 # game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:40
 translate english_us oganesson_school_flashback_1_9f8fc9cc:
@@ -82,13 +82,13 @@ translate english_us oganesson_school_flashback_1_d10d6d53:
 translate english_us oganesson_school_flashback_1_8b6482a6:
 
     # narrator "Я сидела рядом, глядя в пол. Рядом — она. Моя опекунша. Идеально прямая спина, идеальное лицо."
-    narrator "I sat next to her, looking at the floor. And there she was. My guardian. Perfectly straight back, flawless face."
+    narrator "I sat next to her, looking at the floor. And there she was. My trustee. Perfectly straight back, flawless face."
 
 # game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:48
 translate english_us oganesson_school_flashback_1_34d4d84f:
 
     # narrator "Я ждала, что опекунша скажет, что покажет меня врачу. Или хотя бы притворится, что ей не всё равно."
-    narrator "I was waiting for my guardian to say she'd take me to a doctor. Or at least pretend she cared."
+    narrator "I was waiting for my trustee to say she'd take me to a doctor. Or at least pretend she cared."
 
 # game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:48
 translate english_us oganesson_school_flashback_1_4b0c9b80:

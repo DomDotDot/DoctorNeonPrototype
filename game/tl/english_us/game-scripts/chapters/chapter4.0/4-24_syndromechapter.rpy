@@ -985,7 +985,7 @@ translate english_us chapter4_0_24syndrome_ebf07193:
 translate english_us chapter4_0_24syndrome_57f7d790:
 
     # narrator "Я нашла ближайший общественный инфо-терминал. Функция заказа еды. Самый дешевый ресторан, самый дешевый напиток. Адрес: 'The Celeste Plaza'."
-    narrator ""
+    narrator "I found the nearest public info-terminal. Food delivery app. Cheapest restaurant, cheapest drink. Address: 'The Celeste Plaza'."
 
 # TODO: Translation updated at 2026-03-07 22:46
 
@@ -993,179 +993,179 @@ translate english_us chapter4_0_24syndrome_57f7d790:
 translate english_us chapter4_0_24syndrome_611b13dc:
 
     # narrator "При звуке моего имени ее рука, потянувшаяся к банке с чаем, замерла в воздухе."
-    narrator ""
+    narrator "At the sound of my name, her hand, reaching for the tin of tea, froze in mid-air."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:222
 translate english_us chapter4_0_24syndrome_a3ca088e:
 
     # narrator "На долю секунды маска измученной матери слетела с ее лица. Усталость в глазах сменилась чем-то острым, цепким. Вспоминанием."
-    narrator ""
+    narrator "For a split second, the mask of an exhausted mother slipped from her face. The fatigue in her eyes was replaced by something sharp, calculating. A memory."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:222
 translate english_us chapter4_0_24syndrome_6a5ba068:
 
     # narrator "Она медленно повернулась ко мне, словно сканируя. Будто это имя было строчкой в каком-то отчете, который она читала давным-давно."
-    narrator ""
+    narrator "She slowly turned to me, as if scanning me. As if that name was a line in some report she'd read a long time ago."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:230
 translate english_us chapter4_0_24syndrome_09c46cdc:
 
     # meryl "Неон... Редкое имя."
-    meryl ""
+    meryl "Neon... A rare name."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:232
 translate english_us chapter4_0_24syndrome_816df087:
 
     # neon "Это... скорее прозвище. Которое прижилось."
-    neon ""
+    neon "It's... more of a nickname. One that stuck."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:234
 translate english_us chapter4_0_24syndrome_b738166b:
 
     # narrator "Мэрил моргнула, и наваждение исчезло. Она снова стала просто уставшей хозяйкой квартиры. Но я заметила эту паузу."
-    narrator ""
+    narrator "Meryl blinked, and the delusion vanished. She was back to being just a tired landlady. But I noticed that pause."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:242
 translate english_us chapter4_0_24syndrome_e59502e9:
 
     # narrator "Мы сели за маленький кухонный столик. Чайник тихо загудел."
-    narrator ""
+    narrator "We sat down at a small kitchen table. The kettle hummed quietly."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:242
 translate english_us chapter4_0_24syndrome_724066d9:
 
     # narrator "Мэрил смотрела на меня так, будто пыталась прочесть мою душу."
-    narrator ""
+    narrator "Meryl looked at me as if trying to read my soul."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:242
 translate english_us chapter4_0_24syndrome_d6463c5e:
 
     # narrator "Мэрил наливала кипяток, но ее взгляд то и дело возвращался ко мне. Точнее — к моей голове."
-    narrator ""
+    narrator "Meryl poured boiling water, but her gaze kept returning to me. More precisely — to my head."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:250
 translate english_us chapter4_0_24syndrome_fc220fe4:
 
     # meryl "У вас очень красивые волосы, Неон. Густые... Прямо как у моей дочери..."
-    meryl ""
+    meryl "You have beautiful hair, Neon. So thick... Just like my daughter's..."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:252
 translate english_us chapter4_0_24syndrome_21f5ba9a:
 
     # narrator "Она поставила чашку передо мной, слегка наклонив голову."
-    narrator ""
+    narrator "She placed the cup in front of me, tilting her head slightly."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:254
 translate english_us chapter4_0_24syndrome_5ace01eb:
 
     # meryl "Такой необычный оттенок. Глубокий синий. Вы краситесь? Это сейчас модно среди молодежи в Веритасе?"
-    meryl ""
+    meryl "Such an unusual shade. Deep blue. Do you dye it? Is that trendy among youths in Veritas nowadays?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:256
 translate english_us chapter4_0_24syndrome_1aa54e28:
 
     # neon shy "А... Нет. Не крашусь."
-    neon shy ""
+    neon shy "Uh... No. I don't dye it."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:258
 translate english_us chapter4_0_24syndrome_75dad087:
 
     # narrator "Я инстинктивно коснулась пряди волос, накручивая ее на палец. Старая, неприятная привычка."
-    narrator ""
+    narrator "I instinctively touched a strand of hair, twirling it around my finger. An old, nasty habit."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:258
 translate english_us chapter4_0_24syndrome_0dda11fd:
 
     # narrator "Вопрос Мэрил, хоть и вежливый, вскрыл старую рану."
-    narrator ""
+    narrator "Meryl's question, though polite, reopened an old wound."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:264
 translate english_us chapter4_0_24syndrome_66352590:
 
     # neon "Раньше они были черными. Длинными, как смоль."
-    neon ""
+    neon "They used to be black. Pitch black and long."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:264
 translate english_us chapter4_0_24syndrome_f5c8e72c:
 
     # neon "А потом... еще в школе... корни начали менять цвет. Сначала едва заметно, потом все ярче."
-    neon ""
+    neon "And then... back in school... the roots started changing color. Barely noticeable at first, then brighter and brighter."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:264
 translate english_us chapter4_0_24syndrome_adef9638:
 
     # neon "Это выглядело как плохой градиент. Будто я пыталась выделиться, но будто у меня не хватило денег на краску для всей длины."
-    neon ""
+    neon "It looked like a bad gradient. Like I was trying to stand out, but didn't have enough money to dye the whole length."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:274
 translate english_us chapter4_0_24syndrome_e9926fee:
 
     # neon "В детстве... дети жестокие. Они называли меня 'Мальвиной'."
-    neon ""
+    neon "In childhood... kids are cruel. They called me 'Smurfette'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:274
 translate english_us chapter4_0_24syndrome_4a8f4ea7:
 
     # neon "Думали, я просто хочу внимания. А я... я просто не могла это смыть."
-    neon ""
+    neon "They thought I was just an attention seeker. And I... I just couldn't wash it out."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
 translate english_us chapter4_0_24syndrome_1918a4fa:
 
     # narrator "Я замолчала, чувствуя себя неуютно. Зачем я это рассказываю? Это слишком личное. Слишком странное."
-    narrator ""
+    narrator "I trailed off, feeling uneasy. Why am I telling her this? It's too personal. Too weird."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
 translate english_us chapter4_0_24syndrome_f79eabac:
 
     # narrator "Я подняла глаза на Мэрил, ожидая увидеть недоверие или насмешку."
-    narrator ""
+    narrator "I looked up at Meryl, expecting to see disbelief or mockery."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:280
 translate english_us chapter4_0_24syndrome_abe1a377:
 
     # narrator "Но Мэрил смотрела на меня с пугающей серьезностью. В ее взгляде не было удивления. Было понимание. И... профессиональный интерес?"
-    narrator ""
+    narrator "But Meryl was looking at me with frightening seriousness. Her gaze held no surprise. It held understanding. And... professional interest?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:288
 translate english_us chapter4_0_24syndrome_e06f8de3:
 
     # meryl "С корней, говорите... Естественное изменение пигментации..."
-    meryl ""
+    meryl "From the roots, you say... Natural pigmentation change..."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
 translate english_us chapter4_0_24syndrome_941d473e:
 
     # narrator "Она пробормотала это себе под нос, словно ставя галочку в невидимом списке."
-    narrator ""
+    narrator "She muttered it under her breath, as if checking a box on an invisible list."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
 translate english_us chapter4_0_24syndrome_0d73f8db:
 
     # narrator "Она поняла. Или заподозрила. Что я — не просто 'бывшая подруга'."
-    narrator ""
+    narrator "She figured it out. Or suspected. That I'm not just an 'ex-friend'."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:290
 translate english_us chapter4_0_24syndrome_02fcd7a1:
 
     # narrator "Но она не стала давить. Вместо этого она резко выпрямилась, звонко размешивая сахар в своей чашке, меняя тему."
-    narrator ""
+    narrator "But she didn't press it. Instead, she straightened up abruptly, loudly stirring the sugar in her cup, changing the subject."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:301
 translate english_us chapter4_0_24syndrome_09786b76:
 
     # meryl "Простите. Я не хотела лезть в душу. Просто... иногда мелочи напоминают мне о нормальной жизни."
-    meryl ""
+    meryl "I'm sorry. I didn't mean to pry. It's just... sometimes the little things remind me of a normal life."
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:301
 translate english_us chapter4_0_24syndrome_42c0886e:
 
     # meryl "Так вы говорили, ваша подруга... пропала?"
-    meryl ""
+    meryl "So you said your friend... went missing?"
 
 # game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:316
 translate english_us chapter4_0_24syndrome_c15f5acb:
 
     # narrator "Она сделала глоток своего чая, глядя на меня уже по-другому. Как на равную. Или как на инструмент."
-    narrator ""
+    narrator "She took a sip of her tea, looking at me differently now. Like an equal. Or like a tool."
 
