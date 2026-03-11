@@ -112,7 +112,7 @@ translate english_us chapter1_escape_sequence_start_4f1e2aef:
 translate english_us chapter1_escape_sequence_start_c0c37da0:
 
     # "Охранник" "Стоять! Руки на стену!"
-    "Охранник" "Freeze! Hands on the wall!"
+    "Security Officer" "Freeze! Hands on the wall!"
 
 # game/game-scripts/chapters/chapter1/9-escape.rpy:59
 translate english_us chapter1_escape_sequence_start_ecb51ebf:

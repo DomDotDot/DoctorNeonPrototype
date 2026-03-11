@@ -58,7 +58,7 @@ translate english_us chapter1_security_post_scene_00199352:
 translate english_us chapter1_security_post_scene_3fc69e40:
 
     # hans "Записи могу предоставить только по официальному запросу от службы безопасности или руководства. Без бумажки – никак."
-    hans "I can only provide the recordings with an official request from security or management. No paperwork, no dice."
+    hans "I can only provide the recordings with an official request from head of security or management. No paperwork, no dice."
 
 # game/game-scripts/chapters/chapter1/6-security-post.rpy:34
 translate english_us chapter1_security_post_scene_f22ec3c8:
