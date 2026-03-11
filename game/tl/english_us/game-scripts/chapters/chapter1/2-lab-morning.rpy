@@ -1218,3 +1218,11 @@ translate english_us chapter1_lab_morning_610f39d6:
     # alex laugh "Знаю! В общем, давай, действуй. Хе-хе. Созвонимся позже!"
     alex laugh "I know! Anyway, get to it. Hehe. Call you later!"
 
+# TODO: Translation updated at 2026-03-12 00:20
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:305
+translate english_us chapter1_lab_morning_b68e7f06:
+
+    # narrator "Она убрала телефон и снова улыбнулась, но уже с блеском в глазах."
+    narrator "She put the phone away and smiled again, but with a gleam in her eyes."
+

@@ -1525,3 +1525,11 @@ translate english_us chapter1_confrontation_path_5523c12d:
     # narrator "Неон замахнулась, а её синие волосы светились как пламя..."
     narrator "Neon swung, her blue hair glowing like flames..."
 
+# TODO: Translation updated at 2026-03-12 00:20
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:327
+translate english_us chapter1_confrontation_path_2091b672:
+
+    # narrator "Кровь ударила в голову. Ярость затопила сознание."
+    narrator "Blood rushed to her head. And a rage flooded her consciousness."
+

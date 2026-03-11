@@ -374,3 +374,11 @@ translate english_us chapter1_marcus_attack_scene_74706b7e:
     # hans "Эй! Я слышу грохот! Что у вас там происходит?!"
     hans "Hey! I hear a ruckus! What is going on over there?!"
 
+# TODO: Translation updated at 2026-03-12 00:20
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:24
+translate english_us chapter1_marcus_attack_scene_8723f942:
+
+    # narrator "От стены отлетели мелкие куски бетона."
+    narrator "Small pieces of concrete flew off the wall."
+
