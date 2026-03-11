@@ -16,14 +16,14 @@ init python:
                 return getattr(persistent, self.condition, False)
             return False
 
-        def get_thumbnail(self):
+        def get_thumbnail_displayable(self):
             if self.is_unlocked():
                 if self.thumb:
-                    return self.thumb
+                    return Transform(self.thumb, fit="cover", size=(384, 216))
                 else:
-                    return "gallery_locked_thumb" # Usage of generic thumb if specific not provided
+                    return renpy.displayable("gallery_locked_thumb")
             else:
-                return "gallery_locked_thumb"
+                return renpy.displayable("gallery_locked_thumb")
 
     flashback_items = []
 
@@ -36,4 +36,10 @@ init python:
     # Example:
     # add_flashback(_("Zurich University"), "zurich_university_flashback_1", condition="flashback_zurich_1_unlocked")
     
-    add_flashback(_("Университет в Цюрихе"), "zurich_university_flashback_1", condition="flashback_zurich_1_unlocked")
+    add_flashback(
+        _("Университет в Цюрихе"), 
+        "zurich_university_flashback_1", 
+        thumb="ch01_cg16_v02",
+        condition="flashback_zurich_1_unlocked"
+    )
+
