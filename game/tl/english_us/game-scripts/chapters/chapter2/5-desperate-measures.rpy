@@ -534,5 +534,5 @@ translate english_us chapter2_act4_desperate_measures_43ca8243:
 translate english_us chapter2_act4_desperate_measures_c6ccec8f:
 
     # "Бармен" "Да что с тобой такое, кусок хлама?! Работай! Блин, зарядки мало что-ли...?"
-    "Бармен" ""
+    "Bartender" "What the hell is wrong with you, you piece of junk?! Work! Dammit, is the battery low or something??..."
 
