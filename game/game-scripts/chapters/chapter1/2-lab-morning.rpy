@@ -112,7 +112,6 @@ label chapter1_lab_morning:
         
         neon "Алекс, ну нельзя же так! Я чуть концы не отдала..."
         show alex concerned at center with easeinleft
-        show neon at right with easeoutleft
 
         narrator "Алекс проигнорировала ее жалобу, подходя ближе и бесцеремонно осматривая Неон."
 
@@ -201,6 +200,8 @@ label chapter1_lab_morning:
         neon pouty "Но я действительн- {nw}"
 
         alex wink "Ой, да ладно тебе."
+
+        show alex at center with easeinright
         
         narrator """
         Алекс с улыбкой шагнула к ней, протягивая руку, чтобы по-дружески потрепать Неон по плечу или поправить ей воротник халата.
@@ -210,8 +211,8 @@ label chapter1_lab_morning:
 
         play sound "sfx/sfx_zap.mp3" volume 0.5
         show white with Dissolve(0.125)
-        show alex slight shocked with vpunch
-        show neon surprised
+        show alex slight shocked at midleft with vpunch
+        show neon surprised with vpunch
         hide white with Dissolve(0.125)
         
         narrator "ЦК!"
