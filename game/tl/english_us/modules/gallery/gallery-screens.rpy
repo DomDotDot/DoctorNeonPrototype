@@ -10,3 +10,15 @@ translate english_us strings:
     old "Ошибка: Нет картинок"
     new "ERROR: No pictures found"
 
+# TODO: Translation updated at 2026-03-12 00:20
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-screens.rpy:45
+    old "Нет файла:\n[item.thumb]"
+    new ""
+
+    # game/modules/gallery/gallery-screens.rpy:78
+    old "Пока нет открытых CG."
+    new ""
+

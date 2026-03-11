@@ -11,7 +11,8 @@ screen updater_prompt_screen():
             
             label _("Доступно обновление!") style "modern_title_label"
             
-            text _("Найдена новая версия игры: ") + "[updater_state['new_version']!t]" size 26 color "#ffffff" xalign 0.5 bold True
+            $ new_ver = updater_state['new_version']
+            text _("Найдена новая версия игры: [new_ver!t]") size 26 color "#ffffff" xalign 0.5 bold True
             text _("Хотите скачать и установить её сейчас?") size 22 color "#cccccc" xalign 0.5     
             
             null height 30

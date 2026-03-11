@@ -501,3 +501,159 @@ translate english_us strings:
     old "Буду я, качая, в нем души не чаять, - Говорила Луна."
     new "For one who is willing to sacrifice their child. Not be alone, would have loved them little"
 
+# TODO: Translation updated at 2026-03-12 00:20
+
+translate english_us strings:
+
+    # game/modules/gallery/gallery-setup.rpy:127
+    old "Циник"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:131
+    old "Тишина"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:131
+    old "Я нахожу отраду в Космосе."
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:131
+    old "Сигнал в музыке."
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:137
+    old "Концерт для Одной"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:137
+    old "'Неон... где же ты?'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:137
+    old "'Пожалуйста, приди. Это для... тебя...'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:137
+    old "К ЧЕРТУ ЭТО ВСЁ!"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:144
+    old "Гиперчувствительный Перфекционизм"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:144
+    old "'Я БОЛЬШЕ ТАК НЕ МОГУ!'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:149
+    old "Опоздавшая"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:149
+    old "'Обманщица...'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:155
+    old "Ночной Шум"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:155
+    old "'Этот кофе... он был слишком... горячим.'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:160
+    old "Утренний Шум"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:165
+    old "Библиотека Гелиоса"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:170
+    old "Студенчество в Цюрихе"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:175
+    old "Собрание без Предупреждения"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:185
+    old "Школьные дни"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:185
+    old "'Смотри как могу!'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:194
+    old "Родственный шум."
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:199
+    old "Пост охраны Гелиоса"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:203
+    old "Как два сапога пара"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:210
+    old "Господин Вютрих"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:210
+    old "'Мне кажется, ты что-то потеряла'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:218
+    old "Греческий Огонь"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:225
+    old "Боевая Подружка"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:225
+    old "'Но я не могу оставить тебя здесь!'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:225
+    old "'Знаю, поэтому, я предам тебя первее.'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:225
+    old "'Беги!'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:232
+    old "Отмена Рациональности"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:239
+    old "Серпантин"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:245
+    old "Конец"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:245
+    old "'Вот и всё... приехали...'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:249
+    old "Реальное Желание"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:249
+    old "'Хочу... отменить...'"
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:253
+    old "Холодная и отстраненная... как и я."
+    new ""
+
+    # game/modules/gallery/gallery-setup.rpy:253
+    old "'Давай сходим в Планетарий?'"
+    new ""
+

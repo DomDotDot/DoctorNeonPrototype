@@ -34,7 +34,7 @@ screen gallery_thumbnail_button(item, delay_time=0.25):
                 padding (10, 5)
                 hbox:
                     xfill True
-                    text item.name size 18 color "#fff" align (0.0, 0.5)
+                    text "[item.name!t]" size 18 color "#fff" align (0.0, 0.5)
                     text item.get_count_text() size 16 color "#aaa" align (1.0, 0.5)
         else:
             add item.get_thumbnail_displayable()
@@ -42,7 +42,7 @@ screen gallery_thumbnail_button(item, delay_time=0.25):
 
         # Если картинка не найдена/битая, этот текст будет виден поверх серого фона
         if not renpy.loadable(item.thumb) and not renpy.has_image(item.thumb):
-            text _("Нет файла:\n") + str(item.thumb):
+            text _("Нет файла:\n[item.thumb]"):
                 size 14 
                 color "#f00" 
                 align (0.5, 0.5) 
@@ -99,7 +99,7 @@ screen gallery():
                         sensitive (page > 0)
                         text_size 40
                         
-                    text "Страница [page+1] / [max_page+1]" yalign 0.5 color "#fff"
+                    text _("Страница [page+1] / [max_page+1]") yalign 0.5 color "#fff"
                         
                     textbutton ">":
                         action [SetScreenVariable("page", min(max_page, page + 1)), SetScreenVariable("has_paginated", True)]
@@ -146,7 +146,7 @@ screen gallery_view(item):
                 padding (40, 20)
                 vbox:
                     xalign 0.5
-                    text item.name:
+                    text "[item.name!t]":
                         color "#ffaa00"
                         size 28
                         bold True
@@ -154,7 +154,7 @@ screen gallery_view(item):
                     
                     if current_desc:
                         null height 5
-                        text current_desc:
+                        text "[current_desc!t]":
                             color "#eee"
                             size 24
                             italic True

@@ -22,7 +22,7 @@ screen flashback_thumbnail_button(item, delay_time=0.05):
                 xfill True
                 yalign 1.0
                 padding (10, 5)
-                text item.name size 18 color "#fff" align (0.0, 0.5)
+                text "[item.name!t]" size 18 color "#fff" align (0.0, 0.5)
         else:
             add item.get_thumbnail_displayable()
             action NullAction()
@@ -77,7 +77,7 @@ screen flashback_gallery():
                         sensitive (page > 0)
                         text_size 40
                         
-                    text "Страница [page+1] / [max_page+1]" yalign 0.5 color "#fff"
+                    text _("Страница [page+1] / [max_page+1]") yalign 0.5 color "#fff"
                     
                     textbutton ">":
                         action [SetScreenVariable("page", min(max_page, page + 1)), SetScreenVariable("has_paginated", True)]
