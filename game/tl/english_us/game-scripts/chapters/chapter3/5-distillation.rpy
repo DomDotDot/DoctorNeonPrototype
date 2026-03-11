@@ -372,5 +372,5 @@ translate english_us strings:
 translate english_us ch3_part3_chemistry_and_cooperation_118e2685:
 
     # neon "Не магия, а химия. Мне нужны три вещи: источник сахара, дрожжи и что-то, из чего можно собрать перегонный аппарат. Если они есть на этом заводе, у вас будет ваш напиток."
-    neon ""
+    neon "Magic? That's chemistry. I need three things: a source of sugar, yeast, and something to build a still from. If they're in this factory, you'll have your drink."
 
