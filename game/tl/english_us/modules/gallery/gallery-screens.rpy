@@ -16,9 +16,9 @@ translate english_us strings:
 
     # game/modules/gallery/gallery-screens.rpy:45
     old "Нет файла:\n[item.thumb]"
-    new ""
+    new "No such file:\n[item.thumb]"
 
     # game/modules/gallery/gallery-screens.rpy:78
     old "Пока нет открытых CG."
-    new ""
+    new "There is no CGs."
 
