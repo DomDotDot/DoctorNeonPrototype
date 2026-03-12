@@ -2,6 +2,8 @@ label secret_scene_vol1:
 
     window hide dissolve
 
+    $ persistent.cutcene_vol_1_end_unlocked = True
+
     scene bg chapter_4-5 sewers with Dissolve(5.0)
     show bg chapter_4-5 sewers at walking_zoom(4.0)
     

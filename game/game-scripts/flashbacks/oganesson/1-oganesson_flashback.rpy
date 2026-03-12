@@ -184,5 +184,6 @@ label oganesson_school_flashback_1:
 
         unknown_f "Неон? Неон, ты меня слышишь? Эй!"
 
+        $ persistent.flashback_oganesson_1_unlocked = True
         # Сцена возвращается в настоящее
 return

@@ -60,4 +60,6 @@ label dream_sequence_japan_1:
                 narrator "Улыбки с лиц моих родителей исчезают. Папа встает, его плечи напряжены. Мама мягко, но настойчиво уводит меня в дом."
                 akane "{=whisper}Все будет хорошо, ■■■■■■. Ты должна быть сильной, хорошо? Обещай мне."
                 neon "{=whisper}Обещаю, мама."
+                
+                $ persistent.flashback_dream_1_unlocked = True
 return

@@ -216,5 +216,5 @@ label chapter4_5_seraphina_flashback:
 
     illusion "Ты и есть - Серафина."
     
-
+    $ persistent.prestory_seraphina_unlocked = True
 return

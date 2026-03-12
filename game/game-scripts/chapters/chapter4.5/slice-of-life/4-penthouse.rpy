@@ -277,4 +277,5 @@ label chapter4_5_seraphina_penthouse:
 
     seraphina "Хи-хи! Спасибо!"
 
+    $ persistent.prestory_penthouse_unlocked = True
 return

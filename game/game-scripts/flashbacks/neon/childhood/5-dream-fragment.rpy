@@ -162,4 +162,5 @@ label dream_sequence_japan_5:
         Она подхватывает меня на руки...
     """
 
+    $ persistent.flashback_dream_5_unlocked = True
 return

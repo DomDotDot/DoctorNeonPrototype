@@ -345,4 +345,6 @@ label krypton_firstmeet_flashback:
         Я открываю глаза.
         """
         stop sound fadeout 0.25
+
+        $ persistent.flashback_krypton_3_unlocked = True
 return

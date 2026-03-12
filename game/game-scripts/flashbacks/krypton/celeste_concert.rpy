@@ -208,5 +208,7 @@ label krypton_concert_flashback:
         # Сделал шепотом, чтобы подчеркнуть, что это м.б. в голове Неон
 
         scene black with dissolve
+        
+        $ persistent.flashback_krypton_1_unlocked = True
         # CG: Лицо девушки крупным планом, но сильно искажено помехами (глитч). Видны только глаза — может быть, разного цвета или очень выразительные.
 return

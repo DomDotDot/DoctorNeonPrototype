@@ -231,5 +231,6 @@ label dream_sequence_japan_4:
     scene white with flash
     play sound "sfx/absolute_silence_awaken.opus"
     
+    $ persistent.flashback_dream_4_unlocked = True
     # (Переход к сцене пробуждения)
 return

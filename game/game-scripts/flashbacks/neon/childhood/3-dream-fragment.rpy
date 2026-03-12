@@ -83,5 +83,6 @@ label dream_sequence_japan_3:
 
     stop music fadeout 5.0
     scene black with Fade(2.0, 2.0, 2.0)
+    $ persistent.flashback_dream_3_unlocked = True
 
 return

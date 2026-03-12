@@ -287,6 +287,7 @@ label zurich_university_flashback_2:
         scene black with flash # Окончательный возврат в лабораторию Гелиос
 
         neon "{=whisper}Прости...{/whisper}"
-
+        
+        $ persistent.flashback_zurich_2_unlocked = True
         # play sound "sfx/flashback_end_static.opus"
 return

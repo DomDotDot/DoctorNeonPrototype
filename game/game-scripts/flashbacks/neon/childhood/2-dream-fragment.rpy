@@ -110,4 +110,6 @@ label dream_sequence_japan_2:
 
     play sound "sfx/door-slam.opus"
     scene black with Dissolve(0.1)
+
+    $ persistent.flashback_dream_2_unlocked = True
 return

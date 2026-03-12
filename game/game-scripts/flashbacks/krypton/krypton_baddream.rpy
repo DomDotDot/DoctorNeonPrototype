@@ -39,4 +39,5 @@ label chapter1_krypton_baddream:
     $ renpy.pause(0.125, hard=True)
     hide krypton gratitude with Fade(2.5, 5.0, 2.5)
 
+    $ persistent.flashback_krypton_2_unlocked = True
 return
