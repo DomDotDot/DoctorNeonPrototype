@@ -99,6 +99,29 @@ init python:
         persistent.chapter_5_unlocked = True
         persistent.unlock_gallery = True
 
+        persistent.flashback_zurich_2_unlocked = True
+
+        persistent.flashback_krypton_1_unlocked = True
+        persistent.flashback_krypton_2_unlocked = True
+        persistent.flashback_krypton_3_unlocked = True
+
+        persistent.flashback_oganesson_1_unlocked = True
+
+        persistent.flashback_dream_1_unlocked = True
+        persistent.flashback_dream_2_unlocked = True
+        persistent.flashback_dream_3_unlocked = True
+        persistent.flashback_dream_4_unlocked = True
+        persistent.flashback_dream_5_unlocked = True
+        persistent.flashback_dream_6_unlocked = True
+
+        persistent.prestory_nari_unlocked = True
+        persistent.prestory_kai_unlocked = True
+        persistent.prestory_lily_unlocked = True
+        persistent.prestory_penthouse_unlocked = True
+        persistent.prestory_seraphina_unlocked = True
+
+        persistent.cutcene_vol_1_end_unlocked = True
+
         unlock_all_chars_full()
         
         renpy.notify("Весь контент разблокирован.")
