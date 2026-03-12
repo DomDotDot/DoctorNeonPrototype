@@ -1,7 +1,7 @@
 init python:
     def flashback_delayed_thumb(st, at, item, delay):
         if st < delay:
-            return renpy.displayable("gallery_skeleton_thumb"), delay - st
+            return renpy.displayable("gallery_locked"), delay - st
         return item.get_thumbnail_displayable(), None
 
 screen flashback_thumbnail_button(item, delay_time=0.05):
