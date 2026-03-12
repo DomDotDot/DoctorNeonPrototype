@@ -4,5 +4,5 @@ translate english_us strings:
 
     # game/modules/gallery/flashback-screens.rpy:80
     old "Страница [page+1] / [max_page+1]"
-    new ""
+    new "Page [page+1] / [max_page+1]"
 

@@ -992,3 +992,11 @@ translate english_us krypton_firstmeet_flashback_6bf75368:
     # narrator "Холод. Боль в ребрах. Запах старого салона автомобиля."
     narrator "Cold. Pain in my ribs. The smell of an old car interior."
 
+# TODO: Translation updated at 2026-03-12 20:00
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:27
+translate english_us krypton_firstmeet_flashback_05ebe489:
+
+    # narrator "Никаких вопросов 'как прошел день'. Никаких эмоций. Простое, отстраненное присутствие."
+    narrator "No questions like 'how was your day'. No emotions. Just a simple, detached presence."
+
