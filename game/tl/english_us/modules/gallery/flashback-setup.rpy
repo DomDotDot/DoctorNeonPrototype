@@ -8,7 +8,7 @@ translate english_us strings:
 
     # game/modules/gallery/flashback-setup.rpy:60
     old "Колокола"
-    new "Whom the bell tollsBells"
+    new "Whom the bell tolls"
 
     # game/modules/gallery/flashback-setup.rpy:67
     old "Несдержанное Обещание"

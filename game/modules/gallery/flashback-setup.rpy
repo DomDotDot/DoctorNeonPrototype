@@ -145,7 +145,7 @@ init python:
     add_flashback(
         _("Предыстория Нари"), 
         "chapter4_5_nari_flashback", 
-        thumb="ch01_cg16_v02",
+        thumb="featured_cg-34",
         condition="prestory_nari_unlocked"
     ),
 
