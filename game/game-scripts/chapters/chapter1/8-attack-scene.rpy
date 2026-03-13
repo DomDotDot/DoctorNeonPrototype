@@ -19,7 +19,7 @@ label chapter1_marcus_attack_scene:
         # play sound "sounds/neon_feral_roar.opus"
 
         scene black with vpunch
-        play sound "sfx/sfx_metal-hit.mp3" volume 2.0
+        play sound "sfx/sfx_metal-hit.opus" volume 2.0
 
         narrator """
         Она занесла тяжелый металлический стул над головой.  
@@ -47,7 +47,7 @@ label chapter1_marcus_attack_scene:
 
         scene black with Dissolve(0.125)
 
-        play ambient "sfx/sfx_metal-hit.mp3" noloop volume 2.0
+        play ambient "sfx/sfx_metal-hit.opus" noloop volume 2.0
 
         pause 0.5
 
@@ -84,7 +84,7 @@ label chapter1_marcus_attack_scene:
 
         scene black with flash
 
-        play music "music/BGM/DroppedHydrangeaOff.mp3" fadein 15.0 fadeout 15.0
+        play music "music/BGM/DroppedHydrangeaOff.opus" fadein 15.0 fadeout 15.0
         
         narrator "Неон стояла над ним, тяжело дыша. Стул со стуком выпал из ее ослабевших рук за её спину."
         # play sound "sounds/metal_chair_drop_floor.opus"

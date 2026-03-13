@@ -1,6 +1,6 @@
 label chapter1_lab_morning:
 
-        play sound "sfx/sfx_alarm.mp3" fadein 1.0 loop
+        play sound "sfx/sfx_alarm.opus" fadein 1.0 loop
 
         narrator "Оглушительная трель будильника ворвалась в тишину, выдернув Неон из вязкой темноты сна. Она вскинула голову с резким, сдавленным вскриком."
 
@@ -17,7 +17,7 @@ label chapter1_lab_morning:
         Экран пестрел бессмысленной мешаниной символов – результат ее ночного 'творчества' лицом в клавиатуру.
         """
 
-        play music "music/BGM/Planetarium.mp3" fadein 2.0
+        play music "music/BGM/Planetarium.opus" fadein 2.0
 
         neon "Черт... кажется, я ее добила..."
         
@@ -209,7 +209,7 @@ label chapter1_lab_morning:
         Привычный, теплый жест.
         """
 
-        play sound "sfx/sfx_zap.mp3" volume 0.5
+        play sound "sfx/sfx_zap.opus" volume 0.5
         show white with Dissolve(0.125)
         show alex slight shocked at midleft with vpunch
         show neon surprised with vpunch

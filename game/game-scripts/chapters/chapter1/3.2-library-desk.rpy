@@ -1,7 +1,7 @@
 label chapter1_lab_noon_library_desk:
 
         scene ch01_cg16_v01 with dissolve
-        play music "music/BGM/Lamenter.mp3" fadein 5.0
+        play music "music/BGM/Lamenter.opus" fadein 5.0
         # play sound "sounds/paper_rustle.opus" # Звук перелистывания заметок
 
         narrator """

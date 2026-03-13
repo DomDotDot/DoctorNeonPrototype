@@ -71,7 +71,7 @@ label chapter5_introduction:
         Сообщение будет удалено через 3... 2... 1...
     """
 
-    # play sound "sfx/data_delete_glitch.mp3"
+    # play sound "sfx/data_delete_glitch.opus"
     
     narrator "Тихий писк в ухе. Аудиофайл стерся, оставив после себя лишь цифровой шум."
 
@@ -82,7 +82,7 @@ label chapter5_introduction:
     """
     # --- Сцена 3: Стыковка ---
     
-    # play sound "sfx/docking_clamps_heavy.mp3" with vpunch
+    # play sound "sfx/docking_clamps_heavy.opus" with vpunch
     
     narrator "Шаттл содрогнулся. Тяжелый металлический лязг стыковочных захватов возвестил о прибытии."
 
@@ -102,7 +102,7 @@ label chapter5_introduction:
         Корпорация Гелиос желает вам безопасного пребывания.
     """
     
-    # play sound "sfx/airlock_hiss.mp3"
+    # play sound "sfx/airlock_hiss.opus"
     
     narrator "Шлюз зашипел, выравнивая давление. Лампы в салоне сменили цвет с тревожного красного на нейтральный белый."
 
@@ -164,7 +164,7 @@ label chapter5_introduction:
     
     narrator "Я приложила свой поддельный ID-чип к сканеру."
     
-    # play sound "sfx/id_scan_beep.mp3"
+    # play sound "sfx/id_scan_beep.opus"
     
     neon "Елена Кеттлер. Инженер высшей категории. Контракт на обслуживание систем жизнеобеспечения в секторе 'Дельта'."
     
@@ -186,7 +186,7 @@ label chapter5_introduction:
     
     narrator "Офицер хмыкнул, не поднимая глаз. Штамп на экране окрасился в зеленый."
     
-    # play sound "sfx/access_granted_chime.mp3"
+    # play sound "sfx/access_granted_chime.opus"
     
     "Офицер контроля" "Добро пожаловать на КС-13. Не заходите в серые зоны без допуска. И смотрите под ноги — гравитация в доках шалит."
     
@@ -212,7 +212,7 @@ label chapter5_introduction:
         Но у всего есть цена.
     """
 
-    # play sound "sfx/station_rumble_low.mp3"
+    # play sound "sfx/station_rumble_low.opus"
     
     narrator "Пол под ногами едва заметно дрогнул. Свет в коридоре на секунду мигнул, перейдя в желтый спектр, а затем вернулся в норму."
 

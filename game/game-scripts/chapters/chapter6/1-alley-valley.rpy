@@ -6,7 +6,7 @@ label chapter6_alley_valley:
     
     # Резкая смена обстановки после космоса. Холодный, гнетущий эмбиент.
     scene black with fade
-    play ambient "ambient/wind_cold_howling.ogg" fadein 2.0 loop
+    play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
     
     narrator """
         Меня затянуло в черно-фиолетовую воронку. Пространство вывернулось наизнанку.
@@ -138,7 +138,7 @@ label chapter6_alley_valley:
     """
 
     # Внезапное нападение
-    play sound "sfx/zombie_roar_vibrating.ogg"
+    play sound "sfx/zombie_roar_vibrating.opus"
     
     narrator """
     Из-за груды гнилых коробок в тени переулка раздался звук. Не рычание зверя, а жуткий, вибрирующий гул, похожий на испорченный динамик.
@@ -164,7 +164,7 @@ label chapter6_alley_valley:
 
     oganesson "Назад!"
 
-    # play sound "sfx/cloth_grab.ogg"
+    # play sound "sfx/cloth_grab.opus"
     
     narrator """
     Она грубо дернула меня за плечо, швыряя себе за спину.
@@ -172,8 +172,8 @@ label chapter6_alley_valley:
     Её рука, затянутая в черную перчатку, сделала едва уловимое движение. Лезвие катаны даже не покинуло ножны полностью — лишь короткий щелчок цубы.
     """
 
-    # play sound "sfx/katana_draw_quick.ogg"
-    # play sound "sfx/spatial_severance_bass.ogg"
+    # play sound "sfx/katana_draw_quick.opus"
+    # play sound "sfx/spatial_severance_bass.opus"
     
     show white with flash
     hide zombie with dissolve

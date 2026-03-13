@@ -1,7 +1,7 @@
 label krypton_concert_flashback:
         $ renpy.music.set_audio_filter("music", None, replace=True)
         scene black with Dissolve(2.0)
-        play music "music/BGM/A-Niente.mp3" fadein 10.0 fadeout 15.0
+        play music "music/BGM/A-Niente.opus" fadein 10.0 fadeout 15.0
 
         # scene cg_video_signal_noise with dissolve # Эффект глитча, помех
         
@@ -107,7 +107,7 @@ label krypton_concert_flashback:
         scene ch01_cg06_v03 with vpunch
         # CG: Девушка резко встает, опрокидывая банкетку (или просто резко). Она закрывает уши руками. Видно, что ей больно от звука.
         $ renpy.pause(0.5, hard=True)
-        play sound "sfx/piano_slam.mp3" volume 2.0
+        play sound "sfx/piano_slam.opus" volume 2.0
         scene black with Dissolve(0.125)
 
         narrator """
@@ -121,7 +121,7 @@ label krypton_concert_flashback:
         """
 
         scene ch01_cg07_v01 with fade
-        play music "music/BGM/A-NienteOff.mp3" fadein 10.0
+        play music "music/BGM/A-NienteOff.opus" fadein 10.0
 
         "???" """
         {=thoughts}Нет! Нет! Я не могу без тебя!

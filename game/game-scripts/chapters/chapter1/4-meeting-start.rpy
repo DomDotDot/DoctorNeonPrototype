@@ -182,7 +182,7 @@ label chapter1_meeting_start:
         play sound "sfx/sfx_chair-scrape.opus" volume 1.5
         pause 0.35
         scene ch01_cg22_v01 with vpunch
-        play ambient "sfx/sfx_door-slap.mp3" noloop volume 4.0
+        play ambient "sfx/sfx_door-slap.opus" noloop volume 4.0
 
         neon frustration "Это моя работа! Я расшифровала этот сигнал! Это мои расчеты! Как они оказались у него?!"
         
@@ -231,7 +231,7 @@ label chapter1_meeting_start:
         show black with { "master" : Dissolve(10.0) }
         with { "effect": dissolve }
 
-        play music "music/BGM/Vacuum.mp3" fadein 10.0
+        play music "music/BGM/Vacuum.opus" fadein 10.0
 
         narrator """
         Вот оно что. \n

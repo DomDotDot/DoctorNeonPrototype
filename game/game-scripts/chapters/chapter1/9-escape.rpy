@@ -233,7 +233,7 @@ label chapter1_escape_sequence_start:
         Моя машина вылетела из оврага и с лязгом рухнула прямо на полотно нижнего скоростного шоссе.
         """
 
-        play music "music/BGM/Parting.mp3" fadein 5.0
+        play music "music/BGM/Parting.opus" fadein 5.0
         scene ch01_cg49_v01 with Dissolve(5.0)
         
         # CG: Вид изнутри разбитой машины через треснутое лобовое стекло. Машина лежит боком или криво на асфальте. 
@@ -291,13 +291,13 @@ label chapter1_escape_sequence_start:
     
         $ renpy.pause(0.0625, hard=True)
 
-        play sound "sfx/sfx_zap-hard2.mp3" fadein 0.5
+        play sound "sfx/sfx_zap-hard2.opus" fadein 0.5
         stop music fadeout 0.125
 
         scene black
         hide 7a-cg-5 with Dissolve(0.125)
         scene black with flash
-        play music "music/BGM/Silence.mp3" fadein 10.0 fadeout 5.0
+        play music "music/BGM/Silence.opus" fadein 10.0 fadeout 5.0
         pause 2.0
 
         scene ch01_cg50_v01 with { "master" : Dissolve(15.0) }

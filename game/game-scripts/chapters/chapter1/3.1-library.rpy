@@ -2,7 +2,7 @@ label chapter1_lab_noon_library:
 
 
         scene ch01_bg05_v01 with fade
-        play music "music/BGM/OldBookSmell.mp3" loop fadein 1.5
+        play music "music/BGM/OldBookSmell.opus" loop fadein 1.5
 
         narrator """
         Библиотека оказалась просторной и почти пустой.

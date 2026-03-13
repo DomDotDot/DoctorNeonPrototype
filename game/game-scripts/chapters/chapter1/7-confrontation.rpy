@@ -1,7 +1,7 @@
 label chapter1_confrontation_path:
 
         scene ch01_cg31_v01 with fade
-        play music "music/BGM/PartingGuitar.mp3" fadeout 5.0
+        play music "music/BGM/PartingGuitar.opus" fadeout 5.0
 
         narrator """
         Мы выбежали с поста охраны. Улики были у нас в руках. 
@@ -39,7 +39,7 @@ label chapter1_confrontation_path:
 
         scene black with flash
 
-        play sound "sfx/sfx_zap.mp3" volume 0.5
+        play sound "sfx/sfx_zap.opus" volume 0.5
 
         narrator "ЦК!"
 
@@ -90,9 +90,9 @@ label chapter1_confrontation_path:
         # play sound "sfx/elevator_ding.opus"
         stop music fadeout 0.125
 
-        play sound "sfx/sfx_bell.mp3"
+        play sound "sfx/sfx_bell.opus"
         pause 1.0
-        play ambient "sfx/sfx_elevator-open.mp3" fadein 1.0 noloop
+        play ambient "sfx/sfx_elevator-open.opus" fadein 1.0 noloop
 
         narrator """
         Мелодичный звонок лифта разрезал тишину, грубо оборвав меня на полуслове.
@@ -123,7 +123,7 @@ label chapter1_confrontation_path:
 
         scene black with dissolve
         
-        play music "music/BGM/ColdLandOff.mp3" fadeout 1.0
+        play music "music/BGM/ColdLandOff.opus" fadeout 1.0
 
         narrator """
         Кабина была не пуста.
@@ -170,7 +170,7 @@ label chapter1_confrontation_path:
         #show neon at right with move
         
         # Звук резкого шага или удара по руке
-        play sound "sfx/sfx_shove.mp3" volume 7.0
+        play sound "sfx/sfx_shove.opus" volume 7.0
 
         scene ch01_cg36_v01 with flash
 
@@ -290,9 +290,9 @@ label chapter1_confrontation_path:
         narrator "Наушники упали на бетонный пол. Маркус, не переставая улыбаться, наступил на них дорогим ботинком и с хрустом провернул ногу."
 
         stop music
-        play sound "sfx/sfx_metal-hit.mp3" fadein 0.125 volume 1.5 # Звон в ушах вместо музыки
+        play sound "sfx/sfx_metal-hit.opus" fadein 0.125 volume 1.5 # Звон в ушах вместо музыки
         scene black with vpunch
-        play music "music/BGM/Vacuum.mp3" fadein 10.0 volume 0.75
+        play music "music/BGM/Vacuum.opus" fadein 10.0 volume 0.75
 
         narrator "Тихий хруст пластика прозвучал для Неон как выстрел. Музыка умерла. Щит сломан. В её голову хлынул Шум."
 
@@ -355,7 +355,7 @@ label chapter1_confrontation_path:
         
         scene white with Dissolve(0.125)
 
-        play sound "sfx/sfx_zap-hard1.mp3" volume 2.0
+        play sound "sfx/sfx_zap-hard1.opus" volume 2.0
 
         narrator "ТРЕСК!"
 
@@ -382,11 +382,11 @@ label chapter1_confrontation_path:
         scene ch01_cg37_v01 with { "master" : dissolve }
         with { "effect": dissolve }
         
-        play sound "sfx/sfx_chair-metal-pull.mp3" fadein 0.5 volume 5.0
+        play sound "sfx/sfx_chair-metal-pull.opus" fadein 0.5 volume 5.0
         
         pause 1.5
 
-        play ambient "sfx/sfx_chair-bolt-crack.mp3" fadein 0.5 noloop volume 3.0
+        play ambient "sfx/sfx_chair-bolt-crack.opus" fadein 0.5 noloop volume 3.0
 
         pause 0.5
 
