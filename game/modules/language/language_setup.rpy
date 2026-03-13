@@ -22,10 +22,10 @@ init -1 python:
     ]
 
     # Словарь процентов готовности. 
-    # Обновлять скриптом или вручную перед релизом!!
+    # Обновлять вручную перед релизом!!
     TRANSLATION_STATUS = {
     None: 100,
-    "english_us": 100,
+    "english_us": 80,
 }
 
     def get_lang_progress(code):

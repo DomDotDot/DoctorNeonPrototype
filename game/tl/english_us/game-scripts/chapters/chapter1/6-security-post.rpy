@@ -58,7 +58,7 @@ translate english_us chapter1_security_post_scene_00199352:
 translate english_us chapter1_security_post_scene_3fc69e40:
 
     # hans "Записи могу предоставить только по официальному запросу от службы безопасности или руководства. Без бумажки – никак."
-    hans "I can only provide the recordings with an official request from security or management. No paperwork, no dice."
+    hans "I can only provide the recordings with an official request from head of security or management. No paperwork, no dice."
 
 # game/game-scripts/chapters/chapter1/6-security-post.rpy:34
 translate english_us chapter1_security_post_scene_f22ec3c8:
@@ -117,8 +117,8 @@ translate english_us chapter1_security_post_scene_19312f7e:
 # game/game-scripts/chapters/chapter1/6-security-post.rpy:53
 translate english_us chapter1_security_post_scene_e77d5d1a:
 
-    # neon proud "Ханс, вы... вы нас спасаете!"
-    neon proud "Hans, you... you're saving us!"
+    # neon pleasant "Ханс, вы... вы нас спасаете!"
+    neon pleasant "Hans, you... you're saving us!"
 
 # game/game-scripts/chapters/chapter1/6-security-post.rpy:54
 translate english_us chapter1_security_post_scene_3d10b2d7:
@@ -185,4 +185,26 @@ translate english_us chapter1_security_post_scene_18baab33:
 
     # hans "Так, девушки, просмотр окончен. Архив закрыт. Ничего не видел, ничего не знаю."
     hans "Alright, ladies, viewing's over. Archive's closed. I saw nothing, I know nothing."
+
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:40
+translate english_us chapter1_security_post_scene_a1113205:
+
+    # neon pleasant "Ханс, вы... вы нас спасаете!"
+    neon pleasant "Hans, you... you're saving us!"
+
+# TODO: Translation updated at 2026-03-12 00:20
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:16
+translate english_us chapter1_security_post_scene_984ddf5c:
+
+    # hans "Записи могу предоставить только по официальному запросу от главы службы безопасности или руководства. Без бумажки – никак."
+    hans "I can only provide the recordings with an official request from head of security or management. No paperwork, no dice."
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:26
+translate english_us chapter1_security_post_scene_3ed7544b:
+
+    # hans "Эх, Ладно. Официально я вам ничего показывать не могу. И копировать – тем более."
+    hans "Eh, Fine. Officially, I can't show you anything. And I certainly can't make a copy."
 

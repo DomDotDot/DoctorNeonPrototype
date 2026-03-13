@@ -14,6 +14,7 @@ label chapter1_krypton_baddream:
     """
 
     show krypton smile with Dissolve(2.0)
+    play sound "sfx/sfx_zurich-bells.opus" fadein 10.0 loop volume 0.25
 
     "???" "Неон! Ты долго!"
     
@@ -33,4 +34,10 @@ label chapter1_krypton_baddream:
     Неон потянулась в ответ, чувствуя, как тепло чужой ладони касается её пальцев...
     """
 
+    stop sound fadeout 10.0
+    show krypton gratitude at Glitch(_fps=6.0, glitch_strength=.03125, color_range1="#00000000", color_range2="#00000000")
+    $ renpy.pause(0.125, hard=True)
+    hide krypton gratitude with Fade(2.5, 5.0, 2.5)
+
+    $ persistent.flashback_krypton_2_unlocked = True
 return

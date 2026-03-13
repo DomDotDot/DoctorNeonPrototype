@@ -96,3 +96,59 @@ translate english_us chapter1_lab_noon_library_7fd8a7bf:
     # narrator "Ручка замерла. Дешевый пластик. Почти такая же была у нее в университете. И снова, как укол, всплыл образ из утреннего сна."
     narrator "But her hand froze. Cheap pen plastic. Almost the same one she had at university. And again, like a jab, the image from her morning dream surfaced."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:7
+translate english_us chapter1_lab_noon_library_b7ecbbc1:
+
+    # narrator "Храм тишины посреди вечного, низкочастотного гула комплекса — 'шума' как бы выразилась Неон, который Неон научилась ненавидеть."
+    narrator "A temple of silence amidst the complex's eternal, low-frequency hum — the 'noise,' as Neon would put it, which she had learned to hate."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_e2ae7495:
+
+    # narrator "Этот сигнал. Он не был похож на другие. Вселенная полна бессмысленного гула: холодное эхо мертвых звезд, монотонный пульс пустоты, вездесущее шипение радиации. Это был предсказуемый, мертвый хаос."
+    narrator "This signal. It wasn't like the others. The universe is full of meaningless hum: the cold echo of dead stars, the monotonous pulse of the void, the omnipresent hiss of radiation. That was predictable, dead chaos."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_5241ef2f:
+
+    # narrator "Но этот голос... он был другим. В нем была... жизнь. Почти что забытая песня."
+    narrator "But this voice... it was different. It had... life in it. A nearly forgotten song."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_00e040de:
+
+    # narrator "Словно кто-то пытался что-то сказать, но слова застревали в вакууме, оставляя лишь ритмичные паузы. Эту тишину между звуками она и пыталась расшифровать."
+    narrator "As though someone was trying to say something, but the words got stuck in the vacuum, leaving only rhythmic pauses. It was this silence between the sounds that she was trying to decrypt."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_68b9ecdd:
+
+    # narrator "Попыткой вспомнить, откуда в ее душе это странное, щемящее чувство... узнавания, которое возникало всякий раз, когда она улавливала этот тонкий мотив."
+    narrator "An attempt to remember where this strange, aching sense of... recognition in her soul came from, arising every time she caught this subtle motif."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_0c32d5d3:
+
+    # narrator "Написав эту фразу, она снова закрыла глаза, пытаясь поймать ритм. И тогда, как удар молнии, в ее сознании вспыхнуло видение."
+    narrator "Having written that phrase, she closed her eyes again, trying to catch the rhythm. And then, like a lightning strike, a vision flashed in her mind."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_011523fd:
+
+    # narrator "Ручка замерла. Дешевый пластик. Почти такая же была у нее в университете."
+    narrator "The pen stopped. Cheap plastic. She had one almost exactly like it at the university."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_e2f3a653:
+
+    # narrator "И снова, как укол, всплыл образ из утреннего сна. Но в этот раз... он был ярче."
+    narrator "And again, like a sting, the image from her morning dream surfaced. But this time... it was brighter."
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_8df8d8bf:
+
+    # narrator "Запах дешевых чернил смешался с запахом мела и старых аудиторий."
+    narrator "The smell of cheap ink mingled with the scent of chalk and old lecture halls."
+

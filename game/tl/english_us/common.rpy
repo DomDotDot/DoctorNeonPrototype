@@ -1258,3 +1258,19 @@ translate english_us strings:
     old "Parsing the script failed."
     new "Parsing the script failed."
 
+# TODO: Translation updated at 2026-03-07 22:47
+
+translate english_us strings:
+
+    # renpy/common/00updater.rpy:1289
+    old "The update file was not downloaded."
+    new "The update file was not downloaded."
+
+    # renpy/common/00updater.rpy:1307
+    old "The update file does not have the correct digest - it may have been corrupted."
+    new "The update file does not have the correct digest - it may have been corrupted."
+
+    # renpy/common/00updater.rpy:1457
+    old "While unpacking {}, unknown type {}."
+    new "While unpacking {}, unknown type {}."
+

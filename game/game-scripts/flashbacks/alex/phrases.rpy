@@ -2,7 +2,7 @@ label alex_laboratory:
 
     scene bg chapter_1_lab_day with Fade(0.5, 0.0, 0.5)
 
-    show alex pity at flip
+    show alex worried at flip
     show alex at center
     show neon surprised at right
 

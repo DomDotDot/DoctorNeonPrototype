@@ -1,4 +1,5 @@
 init python:
+    import datetime
     def play_main_menu_music():
 
         music_map = {
@@ -26,7 +27,8 @@ screen main_menu_background():
         at mouse_parallax(30)
 
     # Частицы
-    add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10)
+    if datetime.datetime.now().month in (12, 1, 2):
+        add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10) id "main_menu_effect"
 
     # Виньетка
     add "gui/main_menu/vignette.png" alpha 0.4
@@ -47,8 +49,8 @@ screen main_menu():
         textbutton _("Играть") action ShowMenu("play_menu") style "main_menu_button"
         textbutton _("Настройки") action ShowMenu("settings_menu") style "main_menu_button"
         
-        if renpy.has_screen("gallery"):
-            textbutton _("Галерея CG") action ShowMenu("gallery") style "main_menu_button"
+        if renpy.has_screen("memory_recollection"):
+            textbutton _("Воспоминания") action ShowMenu("memory_recollection") style "main_menu_button"
         
         #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
 

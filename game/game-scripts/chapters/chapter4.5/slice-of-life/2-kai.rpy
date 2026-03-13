@@ -185,4 +185,5 @@ label chapter4_5_kai_ito_interlude:
     stop music fadeout 0.125
     pause 3.0
     
+    $ persistent.prestory_kai_unlocked = True
 return

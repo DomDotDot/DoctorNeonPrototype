@@ -534,3 +534,17 @@ translate english_us chapter4_0_arkaground_aedaec23:
     # narrator "Он поднялся. Впервые за долгое время мы были не просто двумя беглецами. Мы были партнерами с общей, ясной целью."
     narrator "He stood up. For the first time in a long while, we weren't just two fugitives. We were partners with a common, clear goal."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:136
+translate english_us chapter4_0_arkaground_6ee97d70:
+
+    # argon "Да. Если бы эта девчонка не пела из каждого утюга, моя дочь была бы жива."
+    argon "Yeah. If that girl hadn't been singing from every damn speaker, my daughter would still be alive."
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:136
+translate english_us chapter4_0_arkaground_9e6120f7:
+
+    # argon "А я остался у разбитого корыта со своей правотой. И с этим... проклятием."
+    argon "And I'm left with nothing but being right. And this... curse."
+

@@ -34,7 +34,7 @@ label chapter5_epilogue_earth:
     """
 
     # --- DREAM FRAGMENT 5 (Скрытый/Автоматический) ---
-    # Мы не показываем его детально, только вспышки и ощущения разрыва связей.
+    call dream_sequence_japan_5 from _call_dream_sequence_japan_5
     
     play sound "sfx/memory_erase_glitch_heavy.opus"
     
@@ -223,13 +223,17 @@ label chapter5_epilogue_earth:
     
     oganesson "Неон. Наконец-то. Мы встретились, снова. Ты готова."
     
-    neon "Г-готова?.. К чему? Кто ты?!"
+    neon "Г-готова...? К чему? Кто ты?!"
     
     oganesson """
         (Улыбка становится шире, хищнее)
         
         Я — Оганессон.
-        
+    """
+
+    $ oganesson_display_name = "Оганессон"
+
+    oganesson """
         И по совместительству — твоя спасительница.
         
         Приятно познакомиться... вновь.
@@ -322,7 +326,7 @@ label chapter5_epilogue_earth:
     """
     
     neon """
-        Помнишь?.. Нет... Я не помню.
+        Помнишь...? Нет... Я не помню.
 
         Хотя... в детстве... я... Это личное, извините.
         
@@ -430,5 +434,4 @@ label chapter5_epilogue_earth:
     stop music fadeout 5.0
     
     # --- КОНЕЦ ГЛАВЫ 5 ---
-
-    return
+return

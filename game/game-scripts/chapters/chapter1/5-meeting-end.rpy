@@ -1,15 +1,15 @@
 label chapter1_meeting_aftermath_hallway:
 
-        scene cg-5_2 with fade
+        scene ch01_cg28_v01 with Dissolve(0.125)
         play music "music/BGM/Swell.opus" fadein 1.0 fadeout 5.0
         alex "Эй?! Неон?! Ты чего тут сидишь? Все нормально?"
 
         narrator "Неон испугалась, очнувшись посреди коридора на мягком диване. Она заснула?"
 
-        neon frustrated "Нормально? Ты издеваешься, Алекс?"
+        neon frustration "Нормально? Ты издеваешься, Алекс?"
         alex @ serious "Эй, я просто спросила... Что случилось? Тебя там... разнесли на совете?"
 
-        neon "Разнесли? Меня {b}ограбили{/b}! Марк... этот ублюдок... он украл мое открытие! Все, до последней цифры! И представил как свое!"
+        neon "Разнесли? Меня ограбили! Марк... этот ублюдок... он украл мое открытие! Все, до последней цифры! И представил как свое!"
 
         alex "Маркус? Да ладно... Он же такой... тихий. Ты уверена?"
 
@@ -25,7 +25,7 @@ label chapter1_meeting_aftermath_hallway:
         Увидев их, Неон почувствовала, как внутри что-то оборвалось. Бессмысленная работа. Все бессмысленно.
         """
 
-        scene featured_cg-5_3 with fade
+        scene ch01_cg29_v01 with fade
         narrator """
         Спустя какое-то время дверь конференц-зала открылась.
         
@@ -37,8 +37,8 @@ label chapter1_meeting_aftermath_hallway:
         
         Когда группа прошла мимо, скрывшись за поворотом, Неон закрыла лицо руками. Хотелось кричать, но сил не было даже на слезы.
         """
-        scene bg chapter_1_admin_approach with fade
-        show neon frustrated at midleft
+        scene ch01_bg07_v01 with fade
+        show neon frustration at midleft
         show alex worried at center
 
         neon "А эти... эти жирные коты из совета директоров ему поверили! И мой собственный начальник... он меня просто уничтожил!"
@@ -57,4 +57,6 @@ label chapter1_meeting_aftermath_hallway:
         neon surprised "Да! Точно! Ханс! Он сегодня на смене!"
 
         alex "Пойдем. Может, он сможет помочь. Вдвоем мы его уговорим."
+
+        scene black with Fade(2.5, 1.0, 2.5)
 return

@@ -354,3 +354,11 @@ translate english_us strings:
     old "ИИ Чувствительность"
     new "AI Sensitivity-mode"
 
+# TODO: Translation updated at 2026-03-07 22:47
+
+translate english_us strings:
+
+    # game/screens.rpy:318
+    old "Воспоминания"
+    new "Recollection"
+

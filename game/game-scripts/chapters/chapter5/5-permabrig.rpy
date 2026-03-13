@@ -235,4 +235,4 @@ label chapter5_breakout:
     neon "Пора узнать, что внутри."
 
     # Переход к следующему этапу
-    jump chapter5_ghost_ship
+return

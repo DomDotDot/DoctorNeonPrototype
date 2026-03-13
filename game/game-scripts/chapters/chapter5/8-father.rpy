@@ -40,7 +40,7 @@ label chapter5_finale_sacrifice:
 
     # play sound "sfx/alarm_countdown_beep.opus" loop
     
-    fcs_station "ДЕТОНАЦИЯ ЧЕРЕЗ 60 СЕКУНД."
+    fcs "ДЕТОНАЦИЯ ЧЕРЕЗ 60 СЕКУНД."
 
     argon "Уходи... Ты не поднимешь."
 
@@ -205,10 +205,8 @@ label chapter5_finale_sacrifice:
         
         Я закрыла глаза, позволяя тьме забрать меня.
     """
-
-    # Конец Главы 5
-    stop ambient fadeout 5.0
     
+    stop ambient fadeout 5.0
     scene black with Dissolve(5.0)
     
-    return
+return

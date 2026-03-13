@@ -168,3 +168,19 @@ translate english_us chapter1_meeting_aftermath_hallway_7372f357:
     # alex "Пойдем. Может, он сможет помочь. Вдвоем мы его уговорим."
     alex "Let's go. Maybe he can help. Between the two of us, we can convince him."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:9
+translate english_us chapter1_meeting_aftermath_hallway_a19ab00d:
+
+    # neon frustration "Нормально? Ты издеваешься, Алекс?"
+    neon frustration "Okay?! Are you kidding me, Alex?"
+
+# TODO: Translation updated at 2026-03-12 00:20
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:12
+translate english_us chapter1_meeting_aftermath_hallway_578344e9:
+
+    # neon "Разнесли? Меня ограбили! Марк... этот ублюдок... он украл мое открытие! Все, до последней цифры! И представил как свое!"
+    neon "Tear me apart? I was robbed! Mark... that bastard... he stole my discovery! Everything, down to the last digit! And presented it as his own!"
+

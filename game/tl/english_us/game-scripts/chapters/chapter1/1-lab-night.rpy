@@ -297,14 +297,14 @@ translate english_us chapter1_lab_night_6600498a:
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:124
 translate english_us chapter1_lab_night_9c3715b0:
 
-    # marcus lab_neutral "А давно калибровку проводили? Может, с этим связано?"
-    marcus lab_neutral "When was the last calibration? Could that be it?"
+    # marcus lab neutral "А давно калибровку проводили? Может, с этим связано?"
+    marcus lab neutral "When was the last calibration? Could that be it?"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:124
 translate english_us chapter1_lab_night_7da93706:
 
-    # marcus lab_neutral "Или сервера пора обновлять? Стоит подать заявку?"
-    marcus lab_neutral "Or maybe the servers need an upgrade? Should I submit a request?"
+    # marcus lab neutral "Или сервера пора обновлять? Стоит подать заявку?"
+    marcus lab neutral "Or maybe the servers need an upgrade? Should I submit a request?"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:130
 translate english_us chapter1_lab_night_6e4a5efa:
@@ -393,8 +393,8 @@ translate english_us chapter1_lab_night_5910fb2b:
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:157
 translate english_us chapter1_lab_night_8e966692:
 
-    # marcus lab_smug "То есть, продуктивной ночи."
-    marcus lab_smug "I mean, a productive night."
+    # marcus lab smug "То есть, продуктивной ночи."
+    marcus lab smug "I mean, a productive night."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:159
 translate english_us chapter1_lab_night_b8125eed:
@@ -565,7 +565,7 @@ translate english_us chapter1_lab_night_d22cd808:
 translate english_us chapter1_lab_night_99920e34:
 
     # neon "{=thoughts}Черт. Пахнет действительно хорошо. А у меня во рту как в пустыне.{/thoughts}"
-    neon "{=thoughts}Damn. That actually smells good. And my mouth tastes like the Sahara.{/thoughts}"
+    neon "{=thoughts}Damn. That actually smells good. And my mouth is dry as the Sahara.{/thoughts}"
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:73
 translate english_us chapter1_lab_night_c86b1adf:
@@ -595,7 +595,7 @@ translate english_us chapter1_lab_night_2d1f5984:
 translate english_us chapter1_lab_night_33d2218d:
 
     # narrator "Он поднял на нее взгляд. Глаза щенка, которого пнули."
-    narrator "He looked up at her. Kicked-puppy eyes."
+    narrator "He looked up at her. pleading-puppy eyes."
 
 # game/game-scripts/chapters/chapter1/1-lab-night.rpy:83
 translate english_us chapter1_lab_night_56ff6c48:
@@ -992,4 +992,624 @@ translate english_us chapter1_lab_night_a070011e:
 
     # narrator "Она чувствовала не триумф ученого. Она чувствовала покой. Такой глубокий, что веки стали тяжелыми."
     narrator "She didn't feel the triumph of a scientist. She felt peace. So deep that her eyelids grew heavy."
+
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:6
+translate english_us chapter1_lab_night_329266ae:
+
+    # narrator "Не услышив ответа, он осторожно толкает створку и бесшумно проскальзывает внутрь."
+    narrator "Hearing no answer, he carefully pushes the door open and silently slips inside."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:20
+translate english_us chapter1_lab_night_53c68340:
+
+    # narrator "Девушка в кресле сидела неподвижно, откинувшись. Внешний мир перестал существовать."
+    narrator "The girl in the chair sat motionless, leaning back. The outside world had ceased to exist."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:20
+translate english_us chapter1_lab_night_8ccb5eac:
+
+    # narrator "Каждый раз, когда она включала музыку, она уходила в свой личный космос."
+    narrator "Every time she turned on the music, she drifted off into her own personal cosmos."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:20
+translate english_us chapter1_lab_night_aa5bbd7b:
+
+    # narrator "Бесконечный поток ненужной информации, чужих эмоций, вибраций стен... Всё это исчезало, оставляя лишь кристальную ясность."
+    narrator "The endless stream of useless information, other people's emotions, the vibrations of the walls... It all vanished, leaving only crystal clarity."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:28
+translate english_us chapter1_lab_night_719faecd:
+
+    # "Девушка" "{=thoughts}Ещё немного... Здесь, в этом такте... идеальная пауза."
+    "Girl" "{=thoughts}Just a little more... Here, in this measure... the perfect pause."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:30
+translate english_us chapter1_lab_night_b92826e6:
+
+    # narrator "Она чувствовала себя в безопасности. Словно в коконе."
+    narrator "She felt safe. As if in a cocoon."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:30
+translate english_us chapter1_lab_night_b68a0904:
+
+    # narrator "Она не слышала, как открылась дверь лаборатории."
+    narrator "She didn't hear the laboratory door open."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:30
+translate english_us chapter1_lab_night_df07d82e:
+
+    # narrator "Она не слышала шагов, приближающихся к её столу."
+    narrator "She didn't hear the footsteps approaching her desk."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:41
+translate english_us chapter1_lab_night_0b5f1165:
+
+    # narrator "Тень упала на её лицо, перекрыв свет монитора."
+    narrator "A shadow fell across her face, blocking the light from the monitor."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:45
+translate english_us chapter1_lab_night_3dea4b84:
+
+    # narrator "Чья-то рука коснулась её плеча."
+    narrator "Someone's hand touched her shoulder."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:45
+translate english_us chapter1_lab_night_430d2c4b:
+
+    # narrator "Она вздрогнула так сильно, что едва не выронила планшет. Кокон безопасности был разорван."
+    narrator "She flinched so hard she nearly dropped the tablet. The cocoon of safety was torn open."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:56
+translate english_us chapter1_lab_night_7f297525:
+
+    # "Девушка" "{=yell}Эй!"
+    "Girl" "{=yell}Hey!"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:58
+translate english_us chapter1_lab_night_dd17dc76:
+
+    # narrator "Она инстинктивно отдернула плечо, отрывая взгляд от монитора."
+    narrator "She instinctively jerked her shoulder away, tearing her gaze from the monitor."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:58
+translate english_us chapter1_lab_night_0be3bffa:
+
+    # narrator "В панике она выдернула наушники из ушей и сунула их глубоко в карман халата, сжав в кулаке, словно защищая самое дорогое."
+    narrator "In a panic, she pulled the earphones from her ears and shoved them deep into her lab coat pocket, clenching them in her fist as if protecting her most precious possession."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:58
+translate english_us chapter1_lab_night_ceda4479:
+
+    # narrator "Она даже забыла поставить плеер на паузу — из кармана доносилось едва слышное 'цыканье' ритма."
+    narrator "She even forgot to pause the player — a faintly audible rhythmic 'tss-tss' came from her pocket."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:58
+translate english_us chapter1_lab_night_ef2a5e47:
+
+    # narrator "Её сердце бешено колотилось. Дыхание сбилось."
+    narrator "Her heart was pounding wildly. Her breath hitched."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:58
+translate english_us chapter1_lab_night_c3dc1d19:
+
+    # narrator "Стоило ей только моргнуть, и мир вокруг взорвался звуками: гул серверов, шум вентиляции..."
+    narrator "She only had to blink, and the world around her exploded with sounds: the hum of servers, the roar of ventilation..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:58
+translate english_us chapter1_lab_night_2da794aa:
+
+    # narrator "А в её глаза смотрел Маркус, её ассистент."
+    narrator "And looking into her eyes was Marcus, her assistant."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:74
+translate english_us chapter1_lab_night_3197f07c:
+
+    # "Девушка" "Маркус?! Ты... Как давно ты здесь стоишь?"
+    "Girl" "Marcus?! You... How long have you been standing there?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:76
+translate english_us chapter1_lab_night_52da8609:
+
+    # narrator "Сзади неё стоял Маркус."
+    narrator "Behind her stood Marcus."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:76
+translate english_us chapter1_lab_night_63aa743a:
+
+    # narrator "Молодой человек, аккуратный до педантизма: идеально выглаженная рубашка, туго затянутый галстук под безупречно чистым лабораторным халатом."
+    narrator "A young man, neat to the point of pedantry: a perfectly ironed shirt, a tightly pulled tie under an impeccably clean lab coat."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:76
+translate english_us chapter1_lab_night_1a11ab01:
+
+    # narrator "На его лице играла легкая, едва заметная ухмылка — он видел её уязвимость."
+    narrator "A faint, barely noticeable smirk played on his lips — he had seen her vulnerability."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:86
+translate english_us chapter1_lab_night_fb25b351:
+
+    # marcus "Простите, доктор Неон. Я стучал. Трижды. Вы не отвечали. Я даже начал волноваться."
+    marcus "Forgive me, Doctor Neon. I knocked. Three times. You didn't answer. I even started to worry."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:86
+translate english_us chapter1_lab_night_1b886e9c:
+
+    # marcus "Вы выглядели так... отрешенно. Обычно вы замечаете любой шорох."
+    marcus "You looked so... detached. Usually, you notice every rustle."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:92
+translate english_us chapter1_lab_night_929414af:
+
+    # narrator "Неон быстро убрала наушники в карман халата, стараясь вернуть себе маску холодного профессионализма. Но чувство вторжения осталось."
+    narrator "Neon quickly tucked the earphones further into her coat pocket, trying to regain her mask of cold professionalism. But the feeling of intrusion lingered."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:92
+translate english_us chapter1_lab_night_1b094e81:
+
+    # narrator "Он видел её c 'обнаженной' душой."
+    narrator "He had seen her with her soul 'bare'."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:98
+translate english_us chapter1_lab_night_b494efb5:
+
+    # neon irritated "Я работала. Глубокая концентрация. Тебе это понятие знакомо?"
+    neon irritated "I was working. Deep concentration. Are you familiar with the concept?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:100
+translate english_us chapter1_lab_night_015859fd:
+
+    # marcus lab smug "Конечно. Просто не знал, что для концентрации вам нужна... музыка."
+    marcus lab smug "Of course. I just didn't know that you needed... music for concentration."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:100
+translate english_us chapter1_lab_night_e50b6f29:
+
+    # marcus lab smug "Что это было? Классика? Выглядело очень... эмоционально."
+    marcus lab smug "What was it? Classical? It looked very... emotional."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:106
+translate english_us chapter1_lab_night_386edfe3:
+
+    # narrator "Он посмотрел на её карман, где спрятались наушники. Взгляд был цепким, неприятным."
+    narrator "He looked at her pocket where the earphones were hiding. His gaze was clinging, unpleasant."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:108
+translate english_us chapter1_lab_night_06793e6f:
+
+    # neon neutral "Это не твое дело, Марк. Зачем ты пришел? Моя смена еще не окончена."
+    neon neutral "That's none of your business, Mark. Why did you come? My shift isn't over yet."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:110
+translate english_us chapter1_lab_night_2370a49a:
+
+    # marcus lab neutral "Я знаю, знаю. Просто увидел свет."
+    marcus lab neutral "I know, I know. I just saw the light on."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:110
+translate english_us chapter1_lab_night_538a2ed3:
+
+    # marcus lab neutral "Просто... я спустился к автомату в административном крыле. Там зерна лучше, чем у нас."
+    marcus lab neutral "It's just... I went down to the vending machine in the administrative wing. The beans are better there than ours."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:110
+translate english_us chapter1_lab_night_6b9eae6b:
+
+    # marcus lab neutral "Подумал, вам не помешает 'заправка'. Двойной эспрессо, без сахара. Как вы любите."
+    marcus lab neutral "I figured you could use a 'refuel'. Double espresso, no sugar. Just the way you like it."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:110
+translate english_us chapter1_lab_night_10f2f86e:
+
+    # marcus lab neutral "Передохнуть буквально на пять минут?"
+    marcus lab neutral "Take a breather for literally five minutes?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:120
+translate english_us chapter1_lab_night_5ab6c008:
+
+    # narrator "Он протянул стаканчик. Запах кофе действительно был хорош, но Неон всё ещё чувствовала раздражение от того, что её прервали."
+    narrator "He held out the cup. The smell of coffee was genuinely good, but Neon still felt annoyed at being interrupted."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:120
+translate english_us chapter1_lab_night_4c23ae76:
+
+    # narrator "Запах свежего, крепкого кофе ударил в нос Неон, мгновенно вызывая рефлекторное желание."
+    narrator "The smell of fresh, strong coffee hit Neon's nose, instantly triggering a reflexive craving."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:120
+translate english_us chapter1_lab_night_8f06b9a2:
+
+    # narrator "Её организм, державшийся на кофеине последние сорок восемь часов, предательски заныл."
+    narrator "Her body, running on caffeine for the last forty-eight hours, cried out traitorously."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:138
+translate english_us chapter1_lab_night_6fdd0b16:
+
+    # marcus "Послушайте, я знаю, что я не лучший ассистент. Я путаюсь под ногами, задаю глупые вопросы..."
+    marcus "Listen, I know I'm not the best assistant. I get in the way, ask stupid questions..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:138
+translate english_us chapter1_lab_night_5a833d29:
+
+    # marcus "Вы делаете великое открытие, а я... я просто ношу бумажки."
+    marcus "You're making a great discovery, and I... I just carry papers."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:138
+translate english_us chapter1_lab_night_14024c4a:
+
+    # marcus "Позвольте мне быть полезным хотя бы в этом? Просто... принести кофе. Чтобы вы не отвлекались."
+    marcus "Let me be useful at least in this? Just... bringing you coffee. So you won't get distracted."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:156
+translate english_us chapter1_lab_night_cce86190:
+
+    # marcus lab smug "Спасибо, доктор. Осторожно, горячий."
+    marcus lab smug "Thank you, Doctor. Careful, it's hot."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:174
+translate english_us chapter1_lab_night_8b955e00:
+
+    # marcus "Вы выглядите уставшей, Неон. Может, стоит сделать перерыв? Вы здесь уже 48 часов."
+    marcus "You look tired, Neon. Maybe you should take a break? You've been here for 48 hours."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:176
+translate english_us chapter1_lab_night_628dfaa7:
+
+    # marcus "Если хотите, я могу посидеть здесь. Покараулить процесс дешифровки. А вы вздремнете в комнате отдыха."
+    marcus "If you want, I can sit here. Keep an eye on the decryption process. While you take a nap in the break room."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:178
+translate english_us chapter1_lab_night_010f96c9:
+
+    # narrator "Неон резко обернулась к монитору. Шкала прогресса показывала 98 процентов."
+    narrator "Neon sharply turned back to the monitor. The progress bar showed 98 percent."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:178
+translate english_us chapter1_lab_night_dec6854f:
+
+    # narrator "Она внезапно насторожившись, её глаза сузились."
+    narrator "She suddenly grew wary, her eyes narrowing."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:184
+translate english_us chapter1_lab_night_c8ded4c5:
+
+    # neon stunned "С чего такой интерес к техническим деталям, Марк? Решил мою работу делать?"
+    neon stunned "Why the sudden interest in technical details, Mark? Decided to do my job?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:190
+translate english_us chapter1_lab_night_78adbe9d:
+
+    # neon irritated "Нет. Я закончу сама. Это мой проект, Марк. Иди спать."
+    neon irritated "No. I will finish it myself. This is my project, Mark. Go to sleep."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:192
+translate english_us chapter1_lab_night_28cfb711:
+
+    # marcus "Как скажете. Я лишь хотел помочь."
+    marcus "As you wish. I only wanted to help."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:194
+translate english_us chapter1_lab_night_412a91b4:
+
+    # narrator "Он отступил к двери, но перед выходом снова бросил взгляд на её карман."
+    narrator "He stepped back toward the door, but before leaving, he threw another glance at her pocket."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:201
+translate english_us chapter1_lab_night_67c33b7b:
+
+    # marcus lab smug "Берегите слух, доктор. Громкая музыка... отвлекает от реальности."
+    marcus lab smug "Take care of your hearing, Doctor. Loud music... distracts from reality."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:203
+translate english_us chapter1_lab_night_4859fbc4:
+
+    # marcus lab smug "То есть, продуктивной ночи."
+    marcus lab smug "I mean, have a productive night."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:208
+translate english_us chapter1_lab_night_52f9e0c4:
+
+    # neon "{=whisper}Идиот..."
+    neon "{=whisper}Idiot..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:210
+translate english_us chapter1_lab_night_53c7401e:
+
+    # narrator "Когда дверь закрылась, она выдохнула, отрезая её от остального мира. Наконец-то."
+    narrator "When the door closed, she exhaled, cutting her off from the rest of the world. Finally."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:210
+translate english_us chapter1_lab_night_543b27fe:
+
+    # narrator "Тишина лаборатории снова навалилась на неё, но теперь она казалась враждебной. Гул серверов раздражал. А курсор на экране мигал, напоминая о незавершенной работе."
+    narrator "The silence of the laboratory pressed down on her again, but now it felt hostile. The hum of the servers was annoying. And the cursor on the screen blinked, a reminder of the unfinished work."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:210
+translate english_us chapter1_lab_night_65a1d900:
+
+    # narrator "Ей нужно было вернуться. Туда. В ту гармонию."
+    narrator "She needed to return. Back there. Into that harmony."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:210
+translate english_us chapter1_lab_night_72b10bfe:
+
+    # narrator "Она достала наушники. Пальцы слегка дрожали."
+    narrator "She took out the earphones. Her fingers were trembling slightly."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:210
+translate english_us chapter1_lab_night_9f502a68:
+
+    # narrator "Рука привычно нырнула в карман халата. Пальцы, всё ещё слегка дрожащие, нащупали гладкий пластик."
+    narrator "Her hand habitually dived into her lab coat pocket. Her fingers, still trembling slightly, felt the smooth plastic."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:210
+translate english_us chapter1_lab_night_141da7b6:
+
+    # narrator "Она снова достала их - маленькие, потертые, беспроводные. Похожие на обычные беруши, но скрывающие в себе её личный космос."
+    narrator "She pulled them out again - small, worn, wireless. Looking like ordinary earplugs, but concealing her personal cosmos within."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:230
+translate english_us chapter1_lab_night_a16a4931:
+
+    # narrator "Тихое, меланхоличное фортепиано. Она не знала, кто это играет. Она не знала названия этой композиции."
+    narrator "A quiet, melancholic piano. She didn't know who was playing. She didn't know the name of this composition."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:230
+translate english_us chapter1_lab_night_a6e48549:
+
+    # narrator "Она нашла этот трек случайно, в каком-то своем старом архиве, без названия, без даты и автора. Цифровой призрак."
+    narrator "She found this track by accident, in some old archive of hers, with no title, no date, and no author. A digital ghost."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:230
+translate english_us chapter1_lab_night_c6ebf05a:
+
+    # narrator "Но каждый раз, когда она включала его, 'Шум' отступал."
+    narrator "But every time she turned it on, the 'Noise' retreated."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:240
+translate english_us chapter1_lab_night_f3b180e3:
+
+    # neon "{=thoughts}Нужно досмотреть. Там... ...было что-то ещё. Данные расшифровываются в видеопоток.{/thoughts}"
+    neon "{=thoughts}I need to finish watching. There... ...was something else. The data is decoding into a video stream.{/thoughts}"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:244
+translate english_us chapter1_lab_night_970ed146:
+
+    # narrator "Она нажала клавишу ввода на клавиатуре."
+    narrator "She pressed the enter key on the keyboard."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:244
+translate english_us chapter1_lab_night_88fb2ed4:
+
+    # narrator "На экране монитора, сквозь цифровую рябь и 'снег' статики, начало проступать изображение."
+    narrator "On the monitor screen, through digital ripples and static 'snow', an image began to emerge."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:252
+translate english_us chapter1_lab_night_2824c3af:
+
+    # narrator "Видео захлебнулось статикой. Последнее, что осталось на сетчатке — это взгляд человека, которого предали в самый важный момент жизни."
+    narrator "The video choked on static. The last thing left burned into her retina was the gaze of someone who had been betrayed at the most important moment of their life."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:252
+translate english_us chapter1_lab_night_43cd8cf7:
+
+    # narrator "Взгляд, который Неон никогда не должна была забывать. Но забыла или вынесла слишком глубоко в подсознание."
+    narrator "A gaze that Neon should never have forgotten. But she had forgotten, or shoved it too deep into her subconscious."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:261
+translate english_us chapter1_lab_night_d4d06ac5:
+
+    # narrator "Экран вспыхнул и погас."
+    narrator "The screen flashed and went dark."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:261
+translate english_us chapter1_lab_night_206f4d79:
+
+    # narrator "Неон отшатнулась от стола, хватаясь за сердце. Ощущение 'неправильности' красных глаз на нежном лице всё ещё стояло перед глазами, как ожог."
+    narrator "Neon recoiled from the desk, clutching her heart. The feeling of 'wrongness' of those red eyes on a delicate face still burned before her eyes like a scorch mark."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:267
+translate english_us chapter1_lab_night_037b168a:
+
+    # neon "Я... я знала этот взгляд."
+    neon "I... I knew that look."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:269
+translate english_us chapter1_lab_night_34a8b0b2:
+
+    # narrator "Сердце Неон пропускало удары. Это не было похоже на контакт с внеземной цивилизацией."
+    narrator "Neon's heart skipped beats. This didn't feel like contact with an extraterrestrial civilization."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:269
+translate english_us chapter1_lab_night_5a33793c:
+
+    # narrator "Это было похоже на то, как если бы она нашла старую видеокассету из своего студенчества, о котором забыла."
+    narrator "It felt as if she had found an old VHS tape from her student days that she had forgotten about."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:269
+translate english_us chapter1_lab_night_3bce63e3:
+
+    # narrator "Ощущение дежавю было таким сильным, что у неё перехватило дыхание."
+    narrator "The feeling of deja vu was so strong it took her breath away."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_7ca77da3:
+
+    # neon "{=thoughts}Это не просто сигнал. Это... воспоминание? Но чьё? Моё? Нет, я никогда не играла... никогда не видела это..."
+    neon "{=thoughts}This isn't just a signal. It's... a memory? But whose? Mine? No, I've never played... I've never seen this..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_b8b4c7a0:
+
+    # neon "{=thoughts}Если это кто-то другой... то Кто?"
+    neon "{=thoughts}If it's someone else... then Who?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_b1be1bfc:
+
+    # neon "{=thoughts}Почему я чувствую эту боль? Чувство потери... незавершенности. Это же не я..."
+    neon "{=thoughts}Why do I feel this pain? This sense of loss... of incompleteness. This isn't me..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_dec05fc2:
+
+    # neon "{=thoughts}Может, это кто-то из... прошлого? Кто-то, кого я знала? Кого я потеряла?"
+    neon "{=thoughts}Maybe it's someone from the... past? Someone I knew? Someone I lost?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_f5e3a6a1:
+
+    # neon "{=thoughts}И почему она прозвала меня 'обманщицей'? Неужели я когда-то... предала кого-то?"
+    neon "{=thoughts}And why did she call me a 'liar'? Did I really... betray someone once?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_f03e0e56:
+
+    # neon "{=thoughts}Нет. Это невозможно. Я не могу не помнить такого... Я бы никогда..."
+    neon "{=thoughts}No. It's impossible. I couldn't just forget something like that... I would never..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_753dd83c:
+
+    # neon "{=thoughts}Может, это просто игра моего разума. Усталость. Переутомление. Глюки памяти... Может, я просто слишком много работаю..."
+    neon "{=thoughts}Maybe it's just my mind playing tricks on me. Exhaustion. Overwork. Memory glitches... Maybe I'm just working too much..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_1c8d45fe:
+
+    # neon "{=thoughts}Мне показалось... я даже не слышала её как она это говорила... Это просто мой мозг подсовывает мне образы..."
+    neon "{=thoughts}I must have imagined it... I didn't even hear her say it... It's just my brain feeding me images..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_f60df9b8:
+
+    # neon "{=thoughts}Но если она этого не говорила... то как я её поняла?"
+    neon "{=thoughts}But if she didn't say it... then how did I understand her?"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:277
+translate english_us chapter1_lab_night_1d51f0e8:
+
+    # neon "{=thoughts}Кто ты...?{/thoughts}"
+    neon "{=thoughts}Who are you...?{/thoughts}"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:301
+translate english_us chapter1_lab_night_dfdb84ed:
+
+    # narrator "Она коснулась монитора кончиками пальцев, там, где секунду назад было лицо незнакомки."
+    narrator "She touched the monitor with her fingertips, right where the stranger's face had been a second ago."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:301
+translate english_us chapter1_lab_night_c9d605f3:
+
+    # narrator "Внутри разливалось странное, щемящее чувство потери. Словно она только что увидела близкого друга, который уходит в темноту, хлопнув дверью, а она не успела его остановить."
+    narrator "A strange, aching sense of loss washed over her inside. As if she had just watched a close friend walk out into the dark, slamming the door, and she hadn't been quick enough to stop them."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:307
+translate english_us chapter1_lab_night_f1b5e526:
+
+    # neon "{=whisper}Постой..."
+    neon "{=whisper}Wait..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:309
+translate english_us chapter1_lab_night_e7105ac7:
+
+    # narrator "Её шепот растворился в гуле вентиляторов системного блока. Никто не ответил."
+    narrator "Her whisper dissolved in the hum of the computer's cooling fans. No one answered."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:309
+translate english_us chapter1_lab_night_f04fab77:
+
+    # narrator "Усталость, которую она сдерживала адреналином открытия, навалилась с новой, сокрушительной силой."
+    narrator "The exhaustion she had been holding at bay with the adrenaline of discovery crashed down on her with renewed, crushing force."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:309
+translate english_us chapter1_lab_night_df70af37:
+
+    # narrator "Но теперь это была не просто тяжесть в мышцах. Это была тяжесть в груди — свинцовая, тягучая тоска по чему-то, что она не могла назвать."
+    narrator "But now it wasn't just a heaviness in her muscles. It was a heaviness in her chest — a leaden, viscous longing for something she couldn't name."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:320
+translate english_us chapter1_lab_night_4e25c9f5:
+
+    # neon "{=thoughts}Нужно... прогнать через фильтры... очистить лицо... завтра...{/thoughts}"
+    neon "{=thoughts}I need... to run it through the filters... clear up the face... tomorrow...{/thoughts}"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:322
+translate english_us chapter1_lab_night_738960e3:
+
+    # narrator "Она попыталась потянуться к клавиатуре, чтобы ввести команду, но пальцы отказались слушаться. Руки казались чужими, сделанными из ваты."
+    narrator "She tried to reach for the keyboard to type a command, but her fingers refused to obey. Her hands felt alien, as if made of cotton."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:322
+translate english_us chapter1_lab_night_dad43b25:
+
+    # narrator "Неон медленно опустила голову на скрещенные руки, прямо поверх жесткого пластика клавиш."
+    narrator "Neon slowly laid her head down on her crossed arms, right on top of the hard plastic keys."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:331
+translate english_us chapter1_lab_night_6f9cb2ef:
+
+    # neon "{=thoughts}Завтра... Я найду тебя завтра...{/thoughts}"
+    neon "{=thoughts}Tomorrow... I'll find you tomorrow...{/thoughts}"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:342
+translate english_us chapter1_lab_night_8491670c:
+
+    # narrator "Границы реальности начали размываться."
+    narrator "The boundaries of reality began to blur."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:342
+translate english_us chapter1_lab_night_33673395:
+
+    # narrator "Зеленые графики на мониторе поплыли, превращаясь в нотные станы. Мигающий курсор стал похож на далекую, пульсирующую звезду."
+    narrator "The green graphs on the monitor swam, morphing into musical staves. The blinking cursor started to look like a distant, pulsating star."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:342
+translate english_us chapter1_lab_night_650f26db:
+
+    # narrator "Образ девушки за роялем наложился на отражение самой Неон в темном экране."
+    narrator "The image of the girl at the piano superimposed itself over Neon's own reflection in the dark screen."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:350
+translate english_us chapter1_lab_night_81aec827:
+
+    # neon "{=whisper}Марк... этот кофе... он был... слишком... горячим...{/whisper}"
+    neon "{=whisper}Mark... that coffee... it was... too... hot...{/whisper}"
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:352
+translate english_us chapter1_lab_night_d486cafb:
+
+    # narrator "Её бормотание было бессвязным. Разум, защищаясь от перегрузки и боли, выключил рубильник."
+    narrator "Her muttering was incoherent. Her mind, defending itself from overload and pain, flipped the kill switch."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:352
+translate english_us chapter1_lab_night_807f38ba:
+
+    # narrator "Глаза закрылись сами собой, окончательно отсекая лабораторию."
+    narrator "Her eyes closed on their own, finally shutting out the laboratory."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:366
+translate english_us chapter1_lab_night_251b92e6:
+
+    # narrator "Последнее, что она видела внутренним взором перед тем, как провалиться в глубокий сон — это остаточный образ белых волокон, сияющих в темноте пустого зала."
+    narrator "The last thing she saw in her mind's eye before falling into a deep sleep was the afterimage of white strands glowing in the dark of the empty hall."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:366
+translate english_us chapter1_lab_night_c6d4c573:
+
+    # narrator "В темноте её собственной души."
+    narrator "In the darkness of her own soul."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:372
+translate english_us chapter1_lab_night_d5b0980f:
+
+    # neon "{=thoughts}Просто... побуду с тобой... в тишине..."
+    neon "{=thoughts}I'll just... stay with you... in the silence..."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:372
+translate english_us chapter1_lab_night_516c5f17:
+
+    # neon "{=thoughts}В пустоте..."
+    neon "{=thoughts}In the emptiness..."
 

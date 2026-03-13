@@ -1,20 +1,18 @@
 screen notification_center():
     tag menu
     modal True
-    add gui.main_menu_background # Или затемнение Solid("#000000aa")
+    use main_menu_background
 
     frame:
-        xalign 0.5 yalign 0.5
-        xsize 900 ysize 700
-        padding (30, 30)
+        style "modern_panel"
         
         vbox:
-            spacing 20
+            style "modern_vbox"
             
             # Шапка
             hbox:
                 xfill True
-                text _("Центр уведомлений") size 40 bold True align (0.0, 0.5)
+                label _("Центр уведомлений") style "modern_title_label" align (0.0, 0.5)
                 
                 # Кнопка "Отметить все как прочитанные"
                 if get_unread_count() > 0:
@@ -86,4 +84,5 @@ screen notification_center():
                                                 textbutton _("Не напоминать") action SetField(persistent, "ignored_version", note.version_tag) text_size 14 text_color "#666" yalign 0.5
             
             # Подвал
-            textbutton _("Закрыть") action [Function(mark_all_read), Return()] xalign 0.5
+            null height 20
+            textbutton _("Назад") action [Function(mark_all_read), Return()] style "modern_back_button"

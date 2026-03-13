@@ -99,6 +99,29 @@ init python:
         persistent.chapter_5_unlocked = True
         persistent.unlock_gallery = True
 
+        persistent.flashback_zurich_2_unlocked = True
+
+        persistent.flashback_krypton_1_unlocked = True
+        persistent.flashback_krypton_2_unlocked = True
+        persistent.flashback_krypton_3_unlocked = True
+
+        persistent.flashback_oganesson_1_unlocked = True
+
+        persistent.flashback_dream_1_unlocked = True
+        persistent.flashback_dream_2_unlocked = True
+        persistent.flashback_dream_3_unlocked = True
+        persistent.flashback_dream_4_unlocked = True
+        persistent.flashback_dream_5_unlocked = True
+        persistent.flashback_dream_6_unlocked = True
+
+        persistent.prestory_nari_unlocked = True
+        persistent.prestory_kai_unlocked = True
+        persistent.prestory_lily_unlocked = True
+        persistent.prestory_penthouse_unlocked = True
+        persistent.prestory_seraphina_unlocked = True
+
+        persistent.cutcene_vol_1_end_unlocked = True
+
         unlock_all_chars_full()
         
         renpy.notify("Весь контент разблокирован.")
@@ -117,7 +140,7 @@ init python:
         renpy.music.set_volume(0.5, channel='ambient')
         
         # Сбрас текстовых настройек
-        preferences.text_cps = 35    # Скорость текста (0-100 или больше)
+        preferences.text_cps = 25    # Скорость текста (0-100 или больше)
         preferences.afm_time = 15    # Время авточтения
     
         preferences.fullscreen = False 
@@ -136,17 +159,18 @@ screen data_settings_screen():
     key "game_menu" action ShowMenu("settings_menu")
 
     frame:
-        style "settings_frame"
-        padding (50, 40)
+        style "modern_panel"
 
         vbox:
-            label _("Управление данными") style "settings_title" bottom_margin 40
+            style "modern_vbox"
+            label _("Управление данными") style "modern_title_label"
             viewport:
                 mousewheel True
                 draggable True
                 scrollbars "vertical"
-                xfill True
-                yfill True
+                xsize 900
+                ysize 600
+                xalign 0.5
                 
                 vbox:
                     spacing 10
@@ -173,7 +197,7 @@ screen data_settings_screen():
                             # Кнопка справа
                             button:
                                 style "neutral_button"
-                                text _("Сбросить") style "danger_button_text"
+                                text _("Сбросить") style "danger_button_text" size 20
                                 action Confirm(_("Сбросить все настройки звука и текста?"), yes=Function(reset_preferences_to_default))
 
 
@@ -197,7 +221,7 @@ screen data_settings_screen():
 
                             button:
                                 style "danger_button"
-                                text _("Сбросить") style "danger_button_text"
+                                text _("Сбросить") style "danger_button_text" size 20
                                 action Confirm(_("Вы уверены? Это обнулит ваш прогресс."), yes=Function(hard_reset_progress))
 
                     # Карточка: Удаление сейвов
@@ -215,7 +239,7 @@ screen data_settings_screen():
 
                             button:
                                 style "danger_button"
-                                text _("Удалить все") style "danger_button_text"
+                                text _("Удалить все") style "danger_button_text" size 20
                                 action Confirm(_("Это действие нельзя отменить. Удалить все сохранения?"), yes=Function(delete_all_saves))
 
 
@@ -240,7 +264,7 @@ screen data_settings_screen():
 
                                 button:
                                     style "safe_button"
-                                    text _("Открыть всё") style "danger_button_text"
+                                    text _("Открыть всё") style "danger_button_text" size 20
                                     action Confirm(_("Открыть весь контент?"), yes=Function(unlock_everything))
 
                         # Карточка: Unlock Characters
@@ -258,9 +282,9 @@ screen data_settings_screen():
 
                                 button:
                                     style "safe_button"
-                                    text _("Открыть всё") style "danger_button_text"
+                                    text _("Открыть всё") style "danger_button_text" size 20
                                     action Confirm(_("Открыть всех персонажей в Глоссарий?"), yes=Function(unlock_all_chars_full))
 
             # Кнопка НАЗАД (внизу)
             null height 20
-            textbutton _("Назад") action ShowMenu("settings_menu") style "settings_back_button"
+            textbutton _("Назад") action ShowMenu("settings_menu") style "modern_back_button"

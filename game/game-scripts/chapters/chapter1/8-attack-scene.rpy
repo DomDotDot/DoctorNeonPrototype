@@ -1,8 +1,6 @@
-label marcus_attack_scene:
+label chapter1_marcus_attack_scene:
 
-        show alex at midright with easeinright
-        show alex worried
-        hide alex with easeoutright
+        scene ch01_cg39_v01 with fade
         # play sound "sounds/body_thump_wall.opus"
         # play sound "sounds/alex_gasp_pain.opus"
 
@@ -19,18 +17,25 @@ label marcus_attack_scene:
 
         narrator "Но слова уже не имели значения. Неон издала низкий, гортанный рык, больше похожий на звериный, чем на человеческий."
         # play sound "sounds/neon_feral_roar.opus"
-        play sound "sfx/Chair_Hit.opus"
+
+        scene black with vpunch
+        play sound "sfx/sfx_metal-hit.opus" volume 2.0
+
         narrator """
         Она занесла тяжелый металлический стул над головой.  
         
         Первый удар – яростный, но немного неточный из-за слепящей злости – пришелся не по плечу, как она целилась, а соскользнул, оглушительно ударив по стене рядом с головой Маркуса.
         
-        От стены отлетели куски штукатурки.""" with hpunch
+        От стены отлетели мелкие куски бетона.
+        """
         
         narrator """
-        
         Маркус вскрикнул от страха и отшатнулся еще сильнее, теряя равновесие.
+        """
+
+        scene ch01_cg38_v01 with vpunch
         
+        narrator """
         Он повалился на спину, пытается отползти, выставив свои руки перед собой в жалкой попытке защититься.
 
         Неон, не останавливаясь ни на секунду, снова подняла стул.
@@ -40,14 +45,22 @@ label marcus_attack_scene:
         Она видела перед собой не человека, а символ всех своих страданий.
         """
 
-        play sound "SFX/marcus_oof.opus"
-        show marcus suit_hurt with hpunch
+        scene black with Dissolve(0.125)
+
+        play ambient "sfx/sfx_metal-hit.opus" noloop volume 2.0
+
+        pause 0.5
+
+        play sound "sfx/marcus_oof.opus"
 
         narrator """
         Второй удар. Тяжелый, глухой. Он обрушился на спину Маркуса, когда тот пытался перевернуться и встать.
         
         Раздался ужасающий хруст, и Маркус захлебнулся криком.
+        """
+        scene ch01_cg40_v01 at dizzy_sway169 with { "master" : Dissolve(10.0) }
 
+        narrator """
         Он лежал на полу, лицом вниз, его руки были раскинуты. Он перестал двигаться, только тихо хрипел.
 
         Алекс, прикрывая рот рукой, чтобы не закричать, смотрела на это с ужасом.
@@ -59,10 +72,6 @@ label marcus_attack_scene:
         Она обошла распростертое тело Маркуса, нависая над ним, как хищник над добычей. Стул все еще был в ее руках.
         """
 
-        show marcus at center with easeinleft
-        show neon at left with easeinright
-        show neon at flip
-
         narrator """
         Она медленно подняла его в третий раз, целясь в голову.
 
@@ -73,15 +82,15 @@ label marcus_attack_scene:
         Неон начала замахиваться для третьего удара, но она пошатнулась, увидев лицо Маркуса. На секунду она вернулась в чувства, потеряв равновесие.
         """
 
-        show neon surprised with { "master" : Dissolve(2.0) }
-        with { "effect": dissolve }
+        scene black with flash
+
+        play music "music/BGM/DroppedHydrangeaOff.opus" fadein 15.0 fadeout 15.0
+        
         narrator "Неон стояла над ним, тяжело дыша. Стул со стуком выпал из ее ослабевших рук за её спину."
         # play sound "sounds/metal_chair_drop_floor.opus"
 
         narrator """
-        Красная пелена ярости медленно начала спадать с ее глаз, уступая место холодному, звенящему ужасу от содеянного.
-
-        Она смотрела на свои руки, потом на Маркуса у ее ног.
+        Красная пелена ярости медленно начала спадать с ее глаз, уступая место холодному ужасу от содеянного.
         
         В коридоре повисла оглушительная тишина, прерываясь дыханием Неон и тихими всхлипами Алекс, которая все еще сидела у стены.
 

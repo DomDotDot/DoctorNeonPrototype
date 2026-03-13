@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.6.5-stable"
+define config.version = "0.7.0r-stable"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -142,7 +142,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 35
+default preferences.text_cps = 25
 default preferences.volume.main = 1
 default preferences.volume.music = 0.5
 default preferences.volume.sfx = 0.5
@@ -221,16 +221,12 @@ init python:
 
     build.classify('README.md', None)
     build.classify('LICENSE', None)
-    build.classify('crowdin.yml', None)
 
     # Изображения
-    build.classify('development-sketches/**', 'dev')
-    build.classify('promoimages/**', 'dev')
-    build.classify('game/dev-images/**', 'dev')
-    build.classify('image-assets/**', 'dev')
-
-    build.classify('**/*.pdn', 'dev') # Исключить исходники Paint.NET
-    build.classify('**/*.psd', 'dev') # Исключить исходники Photoshop
+    build.classify('game/dev-images/**', 'dev') # Backup rule if move failed
+    build.classify('source_assets/**', None)
+    build.classify('tools/**', None)
+    build.classify('unused/**', None)
 
     # 1. Музыка
     build.classify('game/audio/music/**', None)
@@ -244,9 +240,6 @@ init python:
     
     # 4. Английская озвучка (в папке перевода)
     build.classify('game/tl/english_us/audio/voice/**', None)
-
-    # 5. Неиспользуемые
-    build.classify('game/audio/Unused/**', None)
 
     ## Чтобы архивировать файлы, классифицируйте их, например, как 'archive'.
 

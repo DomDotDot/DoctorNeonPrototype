@@ -268,4 +268,6 @@ label chapter4_5_lily_flashback:
     
     lily "{=thoughts}Спасите... кто-нибудь... папа... Я не хочу..."
     stop music fadeout 10.0
+
+    $ persistent.prestory_lily_unlocked = True
 return

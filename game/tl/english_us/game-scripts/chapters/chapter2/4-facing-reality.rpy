@@ -546,3 +546,35 @@ translate english_us chapter2_act3_facing_reality_76b2fe88:
     # nvl clear
     nvl clear
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:35
+translate english_us chapter2_act3_facing_reality_e8904b14:
+
+    # nvl clear
+    # narrator "Туман был густым, молочным. Он был холодным , но чистым, не таким, о котором говорила... А кто говорил...?"
+    nvl clear
+    narrator "The fog was thick, milky. It was cold, but pure, not the kind that she talked about... Wait... Who 'She'"
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:203
+translate english_us chapter2_act3_facing_reality_c9aab59d:
+
+    # nvl clear
+    # narrator_nvl "Всю ночь она бежала. Отчаянно, слепо, на пределе скорости, пытаясь оторваться от преследователей, от прошлого, от самой себя.{nw}"
+    nvl clear
+    narrator_nvl "All night, she had been running. Desperately, blindly, at top speed, trying to escape her pursuers, her past, herself.{nw}"
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:216
+translate english_us chapter2_act3_facing_reality_e2fcaac1:
+
+    # nvl clear
+    # narrator "Она тяжело дышала, ее грудь ходила ходуном. Колени дрожали. Ярость медленно иссякла, оставив после себя только холодную, острую решимость."
+    nvl clear
+    narrator "She was breathing heavily, her chest heaving. Her knees were trembling. The rage slowly subsided, leaving only a cold, sharp resolve in its place."
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:237
+translate english_us chapter2_act3_facing_reality_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+

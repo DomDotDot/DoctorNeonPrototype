@@ -587,7 +587,7 @@ translate english_us chapter4_5_concert_start_83eac0ef:
 translate english_us chapter4_5_concert_start_351f170a:
 
     # seraphina "А всех остальных — увидимся на Комик-Коне Веритаса в следующем месяце, я готовлю для вас кое-что невероятное! Помните, ваше присутствие — это ваша любовь! Люблю вас!"
-    seraphina ""
+    seraphina "And to everyone else — see you at Veritas Comic-Con next month, I'm preparing something incredible for you! Remember, your presence is your love! Love you!"
 
 # game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:305
 translate english_us chapter4_5_concert_start_41519bef:
@@ -809,4 +809,12 @@ translate english_us chapter4_5_concert_start_76ebf3fb:
 
     # narrator "До сих пор не знакомой мне по имени девушке."
     narrator "A girl whose name I still didn't know."
+
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:196
+translate english_us chapter4_5_concert_start_289c2eb0:
+
+    # narrator "Больше напоминало гигантский, светящийся метроном. Или маятник, отсчитывающий время гипноза."
+    narrator "It looked more like a giant, glowing metronome. Or a pendulum counting down the time of hypnosis."
 

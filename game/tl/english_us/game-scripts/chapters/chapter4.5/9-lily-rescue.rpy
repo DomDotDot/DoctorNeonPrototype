@@ -1766,3 +1766,17 @@ translate english_us chapter4_5_lily_studio_a5fe9249:
     # narrator "Она взяла первый, чистый аккорд. Комнату наполнила меланхоличная, красивая мелодия. Ее голос, тихий и нежный, полился как ручей."
     narrator "She struck the first, clean chord. A melancholic, beautiful melody filled the room. Her voice, quiet and gentle, flowed like a stream."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:168
+translate english_us chapter4_5_lily_cafe_adcfb5b4:
+
+    # neon "А!.. Что...?"
+    neon "Ah!.. What...?"
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:710
+translate english_us chapter4_5_lily_studio_2338c850:
+
+    # lily "Почему...? Почему холодно?!"
+    lily "Why...? Why is it so cold?!"
+

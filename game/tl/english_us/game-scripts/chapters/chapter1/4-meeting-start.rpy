@@ -558,3 +558,77 @@ translate english_us chapter1_meeting_start_c58809de:
     # narrator "Белый шум в ушах начал меняться, обретая знакомые, ненавистные нотки... тишина школьного класса перед началом урока, лишь нечастые перешептывания одноклассников"
     narrator "The white noise in her ears began to change, taking on familiar, hateful tones... the silence of a classroom before the lesson, broken only by whispers of my classmates."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:128
+translate english_us chapter1_meeting_start_a965b435:
+
+    # narrator "Неон почувствовала укол странной смеси облегчения и беспокойства."
+    narrator "Neon felt a sting of a strange mix of relief and anxiety."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:128
+translate english_us chapter1_meeting_start_1e352ff5:
+
+    # narrator "Облегчения – потому что Марк, ее тихий, исполнительный ассистент, кажется, наконец-то сделал что-то значительное."
+    narrator "Relief — because Mark, her quiet, dutiful assistant, finally seemed to have done something substantial."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:128
+translate english_us chapter1_meeting_start_f13f401b:
+
+    # narrator "Беспокойства – потому что это означало, что ее собственное открытие может померкнуть на его фоне."
+    narrator "Anxiety — because it meant her own discovery might fade into the background."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:148
+translate english_us chapter1_meeting_start_4593bc0d:
+
+    # marcus "Для меня огромная честь сообщить вам, что в ходе моих независимых исследований мне удалось не только зафиксировать..."
+    marcus "It is a great honor for me to inform you that in the course of my independent research I have managed not only to record..."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:148
+translate english_us chapter1_meeting_start_95682eea:
+
+    # marcus "...Но и успешно расшифровать сложный когерентный сигнал, который, по всем признакам, имеет искусственное внеземное происхождение!"
+    marcus "...But also to successfully decrypt a complex coherent signal, which, by all indications, is of artificial extraterrestrial origin!"
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:164
+translate english_us chapter1_meeting_start_bd800f1a:
+
+    # narrator "Это были её данные. Её расчеты. Её месяцы бессонных ночей и лихорадочной работы."
+    narrator "These were her data. Her calculations. Her months of sleepless nights and feverish work."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:184
+translate english_us chapter1_meeting_start_07136c0c:
+
+    # neon frustration "Это моя работа! Я расшифровала этот сигнал! Это мои расчеты! Как они оказались у него?!"
+    neon frustration "That's my work! I decrypted that signal! Those are my calculations! How did he get them?!"
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:205
+translate english_us chapter1_meeting_start_f69f7f92:
+
+    # cro "Во-первых, где официальные отчеты о ваших исследованиях за последний квартал, подписанные и сданные в установленный срок – сегодня до полудня?"
+    cro "First of all, where are the official reports on your research for the last quarter, signed and submitted by the deadline — today before noon?"
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:205
+translate english_us chapter1_meeting_start_edcc53e4:
+
+    # cro "Их нет. Следовательно, официально, для руководства вы {i}ничем конкретным{/i} не занимались."
+    cro "They are absent. Therefore, officially, to the management, you have been engaged in {i}nothing specific{/i}."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:205
+translate english_us chapter1_meeting_start_b806ea57:
+
+    # cro "Во-вторых, вы сами только что признались, что ваша 'презентация' не готова для такого уровня."
+    cro "Secondly, you yourself just admitted that your 'presentation' is not ready for this level."
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:205
+translate english_us chapter1_meeting_start_41ca6c6d:
+
+    # cro "Вы пришли на заседание совета директоров с... с... какими-то черновиками? Вы вообще понимаете, где находитесь и каков регламент?"
+    cro "You came to a board meeting with... with... some drafts? Do you even understand where you are and what the protocol is?"
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:233
+translate english_us chapter1_meeting_start_63c0a3e3:
+
+    # narrator "Она снова почувствовала себя той девочкой. Маленькой, другой, неправильной."
+    narrator "She felt like that little girl again. Small, different, wrong."
+

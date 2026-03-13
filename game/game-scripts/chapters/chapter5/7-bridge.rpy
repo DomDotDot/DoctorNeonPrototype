@@ -22,7 +22,7 @@ label chapter5_bridge_and_katana:
 
     show neon operative_pain at center with dissolve
 
-    neon "Аргон?.."
+    neon "Аргон...?"
 
     narrator """
         Мой голос был хриплым, слабым.
@@ -85,7 +85,7 @@ label chapter5_bridge_and_katana:
     show argon operative_glasses at left with dissolve
     show neon operative_pain at right with dissolve
 
-    argon "Это не взрыв реактора, Неон. Это резня. Кто-то прошел сквозь них, как нож сквозь масло."
+    argon "Это не взрыв реактора, Неон. Здесь была резня. Кто-то прошел сквозь них, как нож сквозь масло."
 
     neon "Лучше помоги мне с дверью."
 
@@ -151,7 +151,7 @@ label chapter5_bridge_and_katana:
     
     narrator "Я вырвала чип и вставила его в свой наручный компьютер. Взлом системы."
 
-    fcs_station """
+    fcs """
         ВНИМАНИЕ. ПРОТОКОЛ САМОУНИЧТОЖЕНИЯ АКТИВИРОВАН.
         
         ДО ДЕТОНАЦИИ ЯДРА: 3 МИНУТЫ.
@@ -271,4 +271,4 @@ label chapter5_bridge_and_katana:
     neon "АРГОН!!!"
 
     # Переход к финалу
-    jump chapter5_finale_sacrifice
+return

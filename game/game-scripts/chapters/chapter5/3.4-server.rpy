@@ -152,4 +152,4 @@ label station_server_room_entry:
     neon "{=thoughts}Я уничтожу этот груз. Но я не собираюсь умирать. Мы вернемся домой. Все вместе.{/thoughts}"
 
     # Переход к следующей фазе
-    jump chapter5_timer_and_brig
+return

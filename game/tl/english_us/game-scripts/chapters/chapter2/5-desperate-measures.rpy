@@ -528,3 +528,11 @@ translate english_us chapter2_act4_desperate_measures_43ca8243:
     # unknown "Садись. Путь будет долгий."
     unknown "Get in. It's a long drive."
 
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:71
+translate english_us chapter2_act4_desperate_measures_c6ccec8f:
+
+    # "Бармен" "Да что с тобой такое, кусок хлама?! Работай! Блин, зарядки мало что-ли...?"
+    "Bartender" "What the hell is wrong with you, you piece of junk?! Work! Dammit, is the battery low or something??..."
+

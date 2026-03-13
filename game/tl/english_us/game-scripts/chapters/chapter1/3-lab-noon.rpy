@@ -256,8 +256,8 @@ translate english_us chapter1_lab_noon_d422996c:
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:120
 translate english_us chapter1_lab_noon_4bafe734:
 
-    # neon proud "Спасибо за поддержку, Ханс. Ладно, пойду я... доклад готовить."
-    neon proud "Thanks for the support, Hans. Well, I should go... prepare my report."
+    # neon pleasant "Спасибо за поддержку, Ханс. Ладно, пойду я... доклад готовить."
+    neon pleasant "Thanks for the support, Hans. Well, I should go... prepare my report."
 
 # game/game-scripts/chapters/chapter1/3-lab-noon.rpy:121
 translate english_us chapter1_lab_noon_aa37aff6:
@@ -370,4 +370,24 @@ translate english_us chapter1_lab_noon_f73c8f5a:
 
     # narrator "Неон подошла к кофейному автомату, который шумно готовил ей двойной эспрессо."
     narrator "Neon walked over to the coffee machine, which was preparing her a double espresso."
+
+# TODO: Translation updated at 2026-03-07 22:46
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:48
+translate english_us chapter1_lab_noon_b36f9fdf:
+
+    # narrator "Мимо промелькнули индикаторы других этажей: \n 'Уровень 3: Жилой блок' \n 'Уровень 2: Основные лаборатории' \n"
+    narrator "Indicators for the other floors flashed by: \n 'Level 3: Residential Block' \n 'Level 2: Main Laboratories' \n"
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:118
+translate english_us chapter1_lab_noon_41a840e9:
+
+    # neon pleasant "Спасибо за поддержку, Ханс. Ладно, пойду я... доклад готовить."
+    neon pleasant "Thanks for the support, Hans. Alright, I'm going... to prepare the report."
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:137
+translate english_us chapter1_lab_noon_48877e24:
+
+    # narrator "Она снова погрузилась в лабиринт коридоров. Она зашла в лобби. Этот комплекс был огромен."
+    narrator "She dove back into the labyrinth of corridors. She entered the lobby. This complex was immense."
 

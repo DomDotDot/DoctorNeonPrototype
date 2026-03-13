@@ -30,4 +30,4 @@ disabled/
 backups/
 
 # devtools
-game/devtools/*.py
+game/dlc_manifest.json
