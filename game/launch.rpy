@@ -14,7 +14,7 @@ label splashscreen:
     # -----------------------------------------------------------
     # 2. ПОКАЗ ЛОГОТИПОВ (ЕДИНАЯ ЗАСТАВКА)
     # -----------------------------------------------------------
-    call _intro_splash_sequence
+    call _intro_splash_sequence from _call__intro_splash_sequence
 
 
     # -----------------------------------------------------------
@@ -61,6 +61,6 @@ label splashscreen:
             $ wait_time += 0.1
             
         if updater_state["status"] == "update_available":
-            call show_updater_prompt
+            call show_updater_prompt from _call_show_updater_prompt
 
     return
