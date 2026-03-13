@@ -1,6 +1,6 @@
 # The Brightest Neon - Semitone Resonance
 
-![Banner](image-assets/promo/promoassets/BNSR-Poster.jpg)
+![Banner](source_assets/promo/promoassets/BNSR-Poster.jpg)
 
 <!-- БЕЙДЖИ -->
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
