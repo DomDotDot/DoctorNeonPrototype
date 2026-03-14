@@ -102,7 +102,7 @@ label chapter5_bridge_and_katana:
     scene bg space_station_bridge_ruined with fade
     
     narrator """
-        Мостик КС-13. Сердце станции.
+        Мостик Орбитали. Сердце станции.
         
         Огромные панорамные окна, за которыми вращалась Земля.
         
