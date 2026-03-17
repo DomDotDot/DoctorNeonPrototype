@@ -1,7 +1,7 @@
 label chapter5_ghost_ship:
 
     # --- СЦЕНА 1: ШЛЮЗ (Тишина перед бурей) ---
-    scene bg space_station_cargo_bay_floor with fade
+    scene chapter5-test-cargo with fade
     stop music fadeout 3.0
     
     # Звук: Тяжелое, редкое капание (конденсат или масло), далекий скрип металла.

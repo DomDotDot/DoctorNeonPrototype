@@ -34,7 +34,7 @@ label chapter5_introduction:
     """
 
     # --- Сцена 2: Интерьер Шаттла (Брифинг) ---
-    scene bg shuttle_interior_seats with fade
+    scene chapter5-test-start with fade
     # Неон сидит в кресле, на ней строгая одежда (темный водолазный свитер, куртка), волосы собраны. Она выглядит старше, жестче.
     
     show neon operative_neutral at center with dissolve
@@ -96,7 +96,7 @@ label chapter5_introduction:
 
     narrator "Голос Мэрил в наушнике дрогнул. Она перешла на личный канал."
 
-    meryl_radio """
+    meryl """
         Мои аналитики просмотрели записи с камер космодрома перед отлетом 'Эреба'. 
         
         CEO на борту нет. Но груз сопровождает его личный телохранитель. 
@@ -111,7 +111,7 @@ label chapter5_introduction:
 
     neon "{=whisper}Мэрил... ты думаешь, это... она?{/whisper}"
 
-    meryl_radio """
+    meryl """
         Я не хочу давать тебе ложных надежд, Неон. Но это единственная зацепка за 4 года, помимо её приблизительного местоположения. И если это она...
         
         Если Селестия жива и работает на 'Гелиос'... будь осторожна. Она может быть уже не той, кого ты помнишь.
@@ -182,7 +182,7 @@ label chapter5_introduction:
 
     # --- Сцена 4: Транзитная Зона (Паспортный контроль) ---
     
-    scene bg space_station_transit_zone with fade
+    scene chapter5-test-bordercontrol with fade
     stop music fadeout 3.0
     play ambient "ambient/station_crowd_announcements.opus" loop
     
@@ -248,7 +248,7 @@ label chapter5_introduction:
     
     narrator "Гермодверь с шипением открылась, пропуская нас внутрь станции."
     
-    scene bg space_station_corridor_main with dissolve
+    scene chapter5-test-start with dissolve
     
     neon "{=whisper}Мы внутри. Ищем терминал доступа к грузовому манифесту."
     

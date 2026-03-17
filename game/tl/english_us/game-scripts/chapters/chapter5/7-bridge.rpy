@@ -75,8 +75,8 @@ translate english_us chapter5_bridge_and_katana_520fc470:
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:41
 translate english_us chapter5_bridge_and_katana_9337c71a:
 
-    # argon_radio "Неон!.. слышишь... ответь! Неон!"
-    argon_radio ""
+    # argon "Неон!.. слышишь... ответь! Неон!"
+    argon ""
 
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:43
 translate english_us chapter5_bridge_and_katana_3767d0fd:
@@ -87,20 +87,20 @@ translate english_us chapter5_bridge_and_katana_3767d0fd:
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:45
 translate english_us chapter5_bridge_and_katana_65cf12a6:
 
-    # argon_radio "(Голос Аргона дрожит от неверия и облегчения)"
-    argon_radio ""
+    # argon "(Голос Аргона дрожит от неверия и облегчения)"
+    argon ""
 
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:45
 translate english_us chapter5_bridge_and_katana_a6be405a:
 
-    # argon_radio "Господи... Я видел, как ты улетела. Я думал..."
-    argon_radio ""
+    # argon "Господи... Я видел, как ты улетела. Я думал..."
+    argon ""
 
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:45
 translate english_us chapter5_bridge_and_katana_a55a7dfc:
 
-    # argon_radio "Где ты?"
-    argon_radio ""
+    # argon "Где ты?"
+    argon ""
 
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:53
 translate english_us chapter5_bridge_and_katana_a1209625:
@@ -111,8 +111,8 @@ translate english_us chapter5_bridge_and_katana_a1209625:
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:55
 translate english_us chapter5_bridge_and_katana_367b25b9:
 
-    # argon_radio "Я у входа на Мостик. Путь к шаттлам лежит через него. Но дверь... она завалена. И здесь... здесь что-то произошло."
-    argon_radio ""
+    # argon "Я у входа на Мостик. Путь к шаттлам лежит через него. Но дверь... она завалена. И здесь... здесь что-то произошло."
+    argon ""
 
 # game/game-scripts/chapters/chapter5/7-bridge.rpy:57
 translate english_us chapter5_bridge_and_katana_983f6caa:

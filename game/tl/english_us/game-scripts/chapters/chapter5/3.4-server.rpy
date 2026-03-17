@@ -63,14 +63,14 @@ translate english_us station_server_room_entry_484d1e5a:
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:46
 translate english_us station_server_room_entry_8e6c640d:
 
-    # meryl_radio "(Голос в наушнике, четкий, но с легкой примесью статики)"
-    meryl_radio ""
+    # meryl "(Голос в наушнике, четкий, но с легкой примесью статики)"
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:46
 translate english_us station_server_room_entry_b471dc6a:
 
-    # meryl_radio "Слышу тебя, Призрак. Чисто. Ты на позиции?"
-    meryl_radio ""
+    # meryl "Слышу тебя, Призрак. Чисто. Ты на позиции?"
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:52
 translate english_us station_server_room_entry_e0d71cf3:
@@ -81,8 +81,8 @@ translate english_us station_server_room_entry_e0d71cf3:
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:54
 translate english_us station_server_room_entry_a0690db2:
 
-    # meryl_radio "Отставить панику. Работай по протоколу. Что ты видишь?"
-    meryl_radio ""
+    # meryl "Отставить панику. Работай по протоколу. Что ты видишь?"
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:58
 translate english_us station_server_room_entry_dfe855d7:
@@ -99,50 +99,50 @@ translate english_us station_server_room_entry_f83d2cdb:
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:62
 translate english_us station_server_room_entry_036a7716:
 
-    # argon_radio "(Голос Аргона, тяжелый, на фоне шум погрузчиков)"
-    argon_radio ""
+    # argon "(Голос Аргона, тяжелый, на фоне шум погрузчиков)"
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:62
 translate english_us station_server_room_entry_2ca2450a:
 
-    # argon_radio "Неон? Ты там? Я в Карго. Тут СБ-шников больше, чем крыс в Аномике. Они готовятся к приему чего-то большого."
-    argon_radio ""
+    # argon "Неон? Ты там? Я в Карго. Тут СБ-шников больше, чем крыс в Аномике. Они готовятся к приему чего-то большого."
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:68
 translate english_us station_server_room_entry_b225233a:
 
-    # meryl_radio "Аргон, сохраняй радиомолчание, пока я не..."
-    meryl_radio ""
+    # meryl "Аргон, сохраняй радиомолчание, пока я не..."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:70
 translate english_us station_server_room_entry_26b9bd07:
 
-    # argon_radio "К черту молчание, Мэрил! Ты отправила ее в пекло!"
-    argon_radio ""
+    # argon "К черту молчание, Мэрил! Ты отправила ее в пекло!"
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:70
 translate english_us station_server_room_entry_8788075e:
 
-    # argon_radio "Я не хочу потерять кого-то ещё! 'Омегу' и 'Карантин' никто просто так не ставят!"
-    argon_radio ""
+    # argon "Я не хочу потерять кого-то ещё! 'Омегу' и 'Карантин' никто просто так не ставят!"
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:76
 translate english_us station_server_room_entry_302e9339:
 
-    # meryl_radio "Я предполагала. Именно поэтому вы там."
-    meryl_radio ""
+    # meryl "Я предполагала. Именно поэтому вы там."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:76
 translate english_us station_server_room_entry_ed7085ea:
 
-    # meryl_radio "Аргон, прекрати истерику. Неон не ребенок. Она оперативник."
-    meryl_radio ""
+    # meryl "Аргон, прекрати истерику. Неон не ребенок. Она оперативник."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:82
 translate english_us station_server_room_entry_4c170e66:
 
-    # argon_radio "Она моя ответственность! Если с ее головы упадет хоть волос..."
-    argon_radio ""
+    # argon "Она моя ответственность! Если с ее головы упадет хоть волос..."
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:84
 translate english_us station_server_room_entry_3105462d:
@@ -201,32 +201,32 @@ translate english_us station_server_room_entry_f9a1b19f:
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:106
 translate english_us station_server_room_entry_d7e5e8c9:
 
-    # meryl_radio "(Пауза. Голос Мэрил становится мягче, почти гордым)"
-    meryl_radio ""
+    # meryl "(Пауза. Голос Мэрил становится мягче, почти гордым)"
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:106
 translate english_us station_server_room_entry_57310750:
 
-    # meryl_radio "Хорошая работа, Неон."
-    meryl_radio ""
+    # meryl "Хорошая работа, Неон."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:106
 translate english_us station_server_room_entry_e7420204:
 
-    # meryl_radio "Аргон, делай, что она говорит. Прикрой её отход, когда начнется заварушка."
-    meryl_radio ""
+    # meryl "Аргон, делай, что она говорит. Прикрой её отход, когда начнется заварушка."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:114
 translate english_us station_server_room_entry_6c3181fd:
 
-    # argon_radio "...Понял. Я выдвигаюсь."
-    argon_radio ""
+    # argon "...Понял. Я выдвигаюсь."
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:114
 translate english_us station_server_room_entry_c13c9069:
 
-    # argon_radio "Неон... будь осторожна. Пожалуйста."
-    argon_radio ""
+    # argon "Неон... будь осторожна. Пожалуйста."
+    argon ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:122
 translate english_us station_server_room_entry_e14ceabc:
@@ -237,26 +237,26 @@ translate english_us station_server_room_entry_e14ceabc:
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:126
 translate english_us station_server_room_entry_ae3aa5f0:
 
-    # meryl_radio "Неон. Еще кое-что."
-    meryl_radio ""
+    # meryl "Неон. Еще кое-что."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:126
 translate english_us station_server_room_entry_f383a532:
 
-    # meryl_radio "Если то, что на корабле... если это действительно технология 'Улья'..."
-    meryl_radio ""
+    # meryl "Если то, что на корабле... если это действительно технология 'Улья'..."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:126
 translate english_us station_server_room_entry_a54abc11:
 
-    # meryl_radio "И если ты поймешь, что не можешь это контролировать..."
-    meryl_radio ""
+    # meryl "И если ты поймешь, что не можешь это контролировать..."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:126
 translate english_us station_server_room_entry_c25bf923:
 
-    # meryl_radio "...Ты знаешь протокол."
-    meryl_radio ""
+    # meryl "...Ты знаешь протокол."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:136
 translate english_us station_server_room_entry_c66d9984:
@@ -267,8 +267,8 @@ translate english_us station_server_room_entry_c66d9984:
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:138
 translate english_us station_server_room_entry_fef1f364:
 
-    # meryl_radio "Я не хочу потерять тебя. Но я не могу позволить этому спуститься на Землю. Прости меня."
-    meryl_radio ""
+    # meryl "Я не хочу потерять тебя. Но я не могу позволить этому спуститься на Землю. Прости меня."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/3.4-server.rpy:140
 translate english_us station_server_room_entry_35cb50b1:

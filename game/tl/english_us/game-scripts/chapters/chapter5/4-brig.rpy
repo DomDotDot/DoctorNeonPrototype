@@ -219,8 +219,8 @@ translate english_us chapter5_timer_and_brig_36a8c7b5:
 # game/game-scripts/chapters/chapter5/4-brig.rpy:118
 translate english_us chapter5_timer_and_brig_d9fd6c6a:
 
-    # meryl_radio "(Крик в наушнике) НЕОН! АРГОН! УХОДИТЕ! К ВАМ ИДЕТ ГРУППА \"АЛЬФА\"! ЭТО ЛОВУШКА!"
-    meryl_radio ""
+    # meryl "(Крик в наушнике) НЕОН! АРГОН! УХОДИТЕ! К ВАМ ИДЕТ ГРУППА \"АЛЬФА\"! ЭТО ЛОВУШКА!"
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/4-brig.rpy:127
 translate english_us chapter5_timer_and_brig_19eaba75:
@@ -345,8 +345,8 @@ translate english_us chapter5_timer_and_brig_f66d0bc4:
 # game/game-scripts/chapters/chapter5/4-brig.rpy:188
 translate english_us chapter5_timer_and_brig_94eef87c:
 
-    # meryl_radio "Неон... прости... Протокол 4... Помни..."
-    meryl_radio ""
+    # meryl "Неон... прости... Протокол 4... Помни..."
+    meryl ""
 
 # game/game-scripts/chapters/chapter5/4-brig.rpy:192
 translate english_us chapter5_timer_and_brig_730c1998:

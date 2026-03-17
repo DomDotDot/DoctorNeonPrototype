@@ -7,7 +7,7 @@ label chapter5_start:
     default hacking_tool = True # У нас есть "отмычка" от Мэрил
 
     # --- СЦЕНА: РАЗДЕЛЕНИЕ ---
-    scene bg space_station_corridor_main with fade
+    scene chapter5-test-arrival with fade
     play music "music/BGM/Space_Station_Atmosphere.opus" fadein 2.0 loop volume 0.3
     play ambient "ambient/station_hum_ventilation.opus" fadein 2.0 loop
 

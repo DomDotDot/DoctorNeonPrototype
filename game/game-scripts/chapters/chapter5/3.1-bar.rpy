@@ -1,7 +1,7 @@
 # --- ЛОКАЦИЯ 1: БАР (ЛОР: Шаттл-призрак) ---
 label station_bar_scene:
     $ visited_bar = True
-    scene bg space_station_bar with fade
+    scene chapter5-test-bar with fade
     play music "music/BGM/Bar_Jazz_Muffled.opus" fadein 2.0 volume 0.4
 
     narrator """

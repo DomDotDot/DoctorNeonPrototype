@@ -1,7 +1,7 @@
 label chapter5_breakout:
 
     # --- СЦЕНА 1: ПЕРМАБРИГ (Пробуждение) ---
-    scene bg space_station_permabrig_cell with fade
+    scene chapter5-test-permabrig with fade
     stop music fadeout 2.0
     
     # Звук: Низкий, давящий гул силового поля.

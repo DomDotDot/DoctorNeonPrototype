@@ -2,7 +2,7 @@
     
 label station_hub_menu:
     
-    scene bg space_station_central_hub with fade
+    scene chapter5-test-arrival with fade
     
     menu:
         "Отправиться в Бар 'Космический Ветер'" if not visited_bar:
@@ -12,7 +12,7 @@ label station_hub_menu:
             jump station_chapel_scene
             
         "Проверить Библиотеку Корпорации" if not visited_library:
-            jump station_library_scene
+            jump ch5_level2_library
             
         "Направиться к Серверной (Сюжет)" (id="server_room_option"):
             jump station_server_room_entry

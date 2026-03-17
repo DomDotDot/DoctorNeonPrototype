@@ -8,7 +8,7 @@ init python:
     Item_AdminChip = Item("admin_chip", "Чип Администратора", "Обладает высшим уровнем доступа 'Омега'.", "images/items/chip_green.png")
 
 label ch5_level3_main_hall:
-    scene bg space_station_corridor_main with dissolve
+    scene chapter5-test-hublevel3 with dissolve
     play music "music/BGM/Heist_Tension_Low.opus" loop volume 0.3
     
     narrator """
@@ -17,7 +17,7 @@ label ch5_level3_main_hall:
     """
 
 label ch5_level3_main_hall_menu:
-    scene bg space_station_corridor_main
+    scene chapter5-test-hublevel3
     
     menu:
         "Осмотреться":

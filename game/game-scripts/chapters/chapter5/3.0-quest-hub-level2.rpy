@@ -24,7 +24,7 @@ label ch5_quest_init:
 
 # --- ГЛАВНЫЙ ХОЛЛ (УРОВЕНЬ 2) ---
 label ch5_level2_main_hall:
-    scene bg space_station_central_hub with fade
+    scene chapter5-test-hublevel1 with fade
     play music "music/BGM/Space_Station_Atmosphere.opus" loop volume 0.3
     
     narrator """
@@ -35,7 +35,7 @@ label ch5_level2_main_hall:
     """
     
 label ch5_level2_main_hall_menu:
-    scene bg space_station_central_hub
+    scene chapter5-test-hublevel1
     
     menu:
         "Осмотреть холл" if not ch5_elevator_powered:
@@ -66,7 +66,7 @@ label ch5_level2_main_hall_menu:
             
 # --- ЛИФТ (УРОВЕНЬ 2) ---
 label ch5_level2_elevator:
-    scene bg space_station_corridor_main with dissolve
+    scene chapter5-test-hublevel2 with dissolve
     
     if ch5_elevator_powered:
         narrator "Лифт работает. Индикаторы горят зеленым."
@@ -96,7 +96,7 @@ label ch5_level2_elevator:
 
 # --- КАРГО ---
 label ch5_level2_cargo:
-    scene bg space_station_transit_zone with dissolve
+    scene chapter5-test-cargo with dissolve
     
     if ch5_cargo_solved:
         narrator "В зоне Карго суетятся погрузчики. Аргон где-то там, следит за 'Эребом'. Мне не стоит здесь задерживаться."
@@ -122,38 +122,9 @@ label ch5_level2_cargo:
         "Вернуться в холл":
             jump ch5_level2_main_hall_menu
 
-# --- ЦИФРОВАЯ БИБЛИОТЕКА ---
-label ch5_level2_library:
-    scene bg space_station_library with dissolve
-    
-    narrator "Цифровая библиотека Гелиоса. Ряды мерцающих терминалов, за которыми сидят люди с пустыми глазами, поглощая виртуальный контент."
-    
-    if not ch5_library_examined:
-        narrator "Терминал администратора закрыт служебной дверью. Проход заблокирован."
-        
-        if has_item("maintenance_keycard"):
-            menu:
-                "Использовать Сервисную карту":
-                    play sound "sfx/door_slide_tech.opus"
-                    narrator "Магнитный замок щелкнул, и я прошла в служебное помещение."
-                    narrator "На столе админа лежал личный датапад."
-                    neon "Посмотрим... Журнал смен. 'Бармен из Космического Ветра опять забыл код от своей подсобки. Я поставил ему год основания Веритаса, пусть попробует забыть это'."
-                    $ ch5_bar_code_known = True
-                    $ ch5_library_examined = True
-                    neon "{=thoughts}Год основания Веритаса... 2054. Отлично.{/thoughts}"
-                    jump ch5_level2_library
-                "Вернуться в холл":
-                    jump ch5_level2_main_hall_menu
-        else:
-            neon "{=thoughts}Мне нужен доступ техника, чтобы пройти туда.{/thoughts}"
-            jump ch5_level2_main_hall_menu
-    else:
-        narrator "Здесь больше нет ничего полезного."
-        jump ch5_level2_main_hall_menu
-
 # --- БАР 'КОСМИЧЕСКИЙ ВЕТЕР' ---
 label ch5_level2_bar:
-    scene bg space_station_bar with dissolve
+    scene chapter5-test-bar with dissolve
     
     narrator "Бар 'Космический Ветер'. Неоновый полумрак, тихая музыка и запах дешевого синтетического алкоголя."
     
@@ -173,7 +144,7 @@ label ch5_level2_bar:
     narrator "Дверь в подсобку закрыта на кодовый замок."
     
     menu:
-        "Ввести код 2054" if ch5_bar_code_known:
+        "Ввести код 2041" if ch5_bar_code_known:
             play sound "sfx/hacking_success_beep.opus"
             narrator "Дверь пискнула и открылась."
             $ ch5_bar_unlocked = True
@@ -188,7 +159,7 @@ label ch5_level2_bar:
 
 # --- СЕКТОР ВЫБРОСА ТЕЛ ---
 label ch5_level2_ejection:
-    scene bg space_station_chapel with dissolve
+    scene chapter5-test-chapel with dissolve
     
     narrator "Рядом с Часовней находился сектор утилизации и космического выброса. Суровое напоминание о том, как легко здесь оборваться жизни."
     narrator "Здесь стояли мощные индукционные катушки, обеспечивающие работу катапульт."
