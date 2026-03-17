@@ -1,112 +1,118 @@
 # The Brightest Neon - Semitone Resonance
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.md)
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.ru.md)
+
 ![Banner](source_assets/promo/promoassets/BNSR-Poster.jpg)
 
-<!-- БЕЙДЖИ -->
+<!-- BADGES -->
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
 ![RenPy](https://img.shields.io/badge/Ren'Py-8.x-faa61a?style=flat-square&logo=renpy)
 [![License](https://img.shields.io/github/license/DomDotDot/DoctorNeonPrototype?style=flat-square)](LICENSE)
-> Кинетическая новелла в жанре SCI-FI мистики.
+> A Sci-Fi Mystery Kinetic Novel.
 
-## 📂 Структура проекта
+## Project Structure
 
-Этот репозиторий содержит **исходный код** проекта (Developer View).
-Структура папок организована следующим образом:
+This repository contains the **source code** of the project (Developer View).
+Folder layout:
 
 ```text
 .
-├── game/                   # 🎮 ОСНОВНАЯ ПАПКА ИГРЫ
-│   ├── audio/              # Музыка и звуки
-│   ├── devtools/           # Инструменты разработки игры
-│   ├── fonts/              # Шрифты игры
-│   ├── gui/                # Элементы интерфейса Ren'Py
-│   ├── images/             # Спрайты, фоны и CG (то, что идет в билд)
-│   ├── libs/               # 3-rd Party библиотеки
-│   ├── modules/            # Модули игры
-│   ├── tl/                 # Папка с переводами
-│   ├── launch.rpy          # Workflow игры перед главным меню
-│   ├── script.rpy          # Главный сценарий
-│   ├── options.rpy         # Настройки сборки и названия
+├── game/                   #   MAIN GAME FOLDER
+│   ├── audio/              # Music and SFX
+│   ├── devtools/           # Tools for game development
+│   ├── fonts/              # Game fonts
+│   ├── game-scripts/       # Game scripts (rpy)
+│   ├── gui/                # Ren'Py GUI elements
+│   ├── images/             # Sprites, BGs, and CGs (included in the build)
+│   ├── libs/               # 3rd Party libraries
+│   ├── modules/            # Game modules
+│   ├── tl/                 # Translation folder
+│   ├── launch.rpy          # Pre-menu workflow
+│   ├── script.rpy          # Main script
+│   ├── options.rpy         # Build config and settings
 │
-├── source-assets/           # 🎨 ПРОМО И ИСХОДНИКИ
-│   ├── images/             # Дев-версии (2K версия) изображений.
-│   ├── pdn-sketches/       # PDN Исходники
-│   ├── promo/              # Арты для Steam/Itch.io
-│   └── ...                 # (Эти файлы НЕ попадают в финальный билд игры)
+├── source_assets/          #   PROMO & SOURCE FILES
+│   ├── images/             # Source images for game assets
+│   ├── legacy/             # Legacy assets (no longer used)
+│   ├── pdn-sketches/       # Paint.NET Source files
+│   ├── promo/              # Steam/Itch.io assets
+│   └── ...                 # (These files are NOT included in the final build)
 │
-├── .gitignore              # Список файлов, игнорируемых Git (кэш, сохранения)
-└── README.md               # Документация проекта
+├── .gitignore              # Git ignore list (cache, saves)
+└── README.md               # Project documentation
 ```
 
 ---
 
-## Как запустить проект (для разработки)
+## How to Run (For Developers)
 
-1. Установите **[Ren'Py SDK](https://www.renpy.org/latest/)** (версия 8.x+ рекомендуется).
-2. Склонируйте этот репозиторий или скачайте ZIP.
-3. Откройте Ren'Py Launcher.
-4. Выберите **"Preferences" (Настройки)** -> **"Projects Directory" (Папка проектов)** и укажите путь, где лежит папка этого репозитория.
-5. Нажмите **"Refresh"**. Проект появится в списке.
-6. Нажмите **"Launch Project"**, чтобы запустить игру.
-
----
-
-## Процесс разработки (Git Flow)
-
-Мы используем простую структуру веток для одиночной разработки:
-
-*   **`main`** — Стабильная версия. Сюда попадает только проверенный код. Эта версия всегда должна запускаться без ошибок.
-*   **`dev`** — Основная ветка разработки. Все новые идеи и текущая работа ведутся здесь.
-*   **`feature/name`** — Временные ветки для создания крупных механик (например, `feature/inventory` или `feature/minigame`). После завершения они вливаются в `dev` и удаляются.
-
-### Как внести изменения:
-1. Переключитесь на ветку `dev`.
-2. Внесите изменения в код/сценарий.
-3. Проверьте работоспособность в Ren'Py.
-4. Закоммитьте изменения (`git commit`).
-5. Когда обновление готово к релизу — слейте `dev` в `main`.
+1.  Install the **[Ren'Py SDK](https://www.renpy.org/latest/)** (Version 8.x+ recommended).
+2.  Clone this repository or download the ZIP.
+3.  Open the Ren'Py Launcher.
+4.  Go to **"Preferences"** -> **"Projects Directory"** and select the folder where this repo is located.
+5.  Click **"Refresh"**. The project should appear in the list.
+6.  Click **"Launch Project"** to start the game.
 
 ---
 
-## Контрибуция и Моддинг
+## Development Process (Git Flow)
 
-Этот проект **Open Source**. Я поддерживаю создание модов, фанатских переводов и улучшение кода сообществом.
-Вам **не нужно** распаковывать `.rpa` архивы или декомпилировать игру. Весь исходный код доступен здесь.
+We use a simple branching structure:
 
-### Как предложить изменения (Pull Requests)
+*   🔴 **`main`** — Stable version. Only tested code goes here. This branch must always run without errors.
+*   🟡 **`dev`** — Main development branch. All active work and new ideas happen here.
+*   🔵 **`feature/name`** — Temporary branches for major mechanics (e.g., `feature/inventory` or `feature/minigame`). Once finished, they are merged into `dev` and deleted.
 
-Используете стандартный процесс GitHub:
-1.  Сделайте **Fork** этого репозитория (кнопка сверху справа).
-2.  Внесите изменения в своем форке.
-3.  Создайте **Pull Request (PR)** в ветку `dev` (или `main`, если это критический хотфикс).
-4.  После проверки кода я волью ваши изменения в игру.
+### How to contribute:
+1.  Switch to the `dev` branch.
+2.  Make your changes to the code/script.
+3.  Verify that it runs correctly in Ren'Py.
+4.  Commit your changes (`git commit`).
+5.  When the update is ready for release, merge `dev` into `main`.
 
 ---
 
-### Для программистов и моддеров
+## Contributing & Modding
 
-Если вы хотите добавить фичу или исправить баг:
-*   Старайтесь не менять существующие файлы (`script.rpy`), если это не багфикс.
-*   Лучше создайте новый файл (например, `game/modules/module/my_feature.rpy`) — Ren'Py подхватит его автоматически. Это уменьшит конфликты при слиянии.
-*   Используйте `init python` блоки или отдельные `labels`, чтобы ваша логика не ломала основной сюжет.
+This is an **Open Source** project. I encourage mods, fan translations, and community code improvements.
+You **do not need** to unpack `.rpa` archives or decompile the game. The entire source code is available right here.
+
+### How to submit changes (Pull Requests)
+
+Follow the standard GitHub flow:
+1.  **Fork** this repository.
+2.  Make changes in your fork.
+3.  Create a **Pull Request (PR)** to the `dev` branch (or `main` for critical hotfixes).
+4.  Once reviewed, I will merge your changes into the game.
+
 ---
 
-## Сборка (Build)
+### For Coders & Modders
 
-Чтобы создать дистрибутив для игроков (Windows/Linux/Mac):
-1. Откройте Ren'Py Launcher.
-2. Выберите проект.
-3. Нажмите **"Build Distributions"**.
-4. Все файлы из папки `source-assets` и системные файлы Git будут **автоматически исключены** из сборки (настраивается в `options.rpy`).
+If you want to add a feature or fix a bug:
+*   Try not to modify existing files (`script.rpy`) unless it's a bug fix.
+*   It's better to create a new file (e.g., `game/modules/module/my_feature.rpy`) — Ren'Py will detect it automatically. This reduces merge conflicts.
+*   Use `init python` blocks or separate `labels` so your logic doesn't break the main plot flow.
 
-## Лицензия и Права
+---
 
-Этот проект использует гибридную лицензию, чтобы поощрять обучение и моддинг, защищая при этом авторский контент.
+## Building
 
-*   **Программный код** (логика, механики, GUI) распространяется под лицензией **MIT**. 
-    *   *Вы можете свободно использовать код в своих проектах, даже коммерческих.*
-*   **Сюжет и Ассеты** (сценарий, графика, музыка, персонажи) распространяются под лицензией **CC BY-NC-SA 4.0**.
-    *   *Вы можете создавать моды, переводы и фанатское творчество.*
-    *   **Запрещено** использовать ассеты и сюжет в коммерческих целях (продавать игру или её части).*
+To create a distribution for players (Windows/Linux/Mac):
+1. Open the Ren'Py Launcher.
+2. Select the project.
+3. Click **"Build Distributions"**.
+4. Files from `source_assets` and Git system files are **automatically excluded** from the build (configured in `options.rpy`).
 
-Полный текст лицензии доступен в файле [LICENSE](LICENSE).
+## License & Rights
+
+This project uses a hybrid license to encourage learning and modding while protecting proprietary content.
+
+*   💻 **Source Code** (Logic, Mechanics, GUI) is licensed under **MIT**.
+    *   *You are free to use the code in your own projects, even commercial ones.*
+*   🎨 **Story & Assets** (Script, Graphics, Music, Characters) are licensed under **CC BY-NC-SA 4.0**.
+    *   *You are free to create mods, translations, and fan art.*
+    *   *⛔ **Commercial use is prohibited.** You cannot sell the game or its assets.*
+
+See [LICENSE](LICENSE) for the full text.
