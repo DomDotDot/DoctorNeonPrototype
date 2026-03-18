@@ -48,7 +48,7 @@
         "audio/music/BGM/Discovery.opus",
         "audio/music/BGM/Dissolution.opus",
         "audio/music/BGM/DramaQueen.opus",
-        "audio/music/BGM/DroppedHydrangea.opus",
+        "audio/music/BGM/DroppedHydrangea.mp3",
         "audio/music/BGM/DroppedHydrangeaOff.opus",
         "audio/music/BGM/DyingWish.opus",
         "audio/music/BGM/DyingWishPiano.opus",
@@ -199,7 +199,8 @@
         "audio/sfx/two-cars-passing.opus",
         "audio/sfx/yandere-laugh.opus",
         "audio/voice/escaping_facility_grounds_c1f78dab.ogg",
-        "audio/voice/voice_sample.ogg"
+        "audio/voice/voice_sample.ogg",
+        "tl/english_us/audio/voice/escaping_facility_grounds_c1f78dab.ogg"
     ],
     "version": "0.7.0r-stable"
 }
