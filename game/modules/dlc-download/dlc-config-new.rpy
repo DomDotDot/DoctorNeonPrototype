@@ -17,7 +17,7 @@ init -999 python:
             "id": "assets",
             "file": "assets.zip",
             "version": config.version, # Автоматически синхронизируем с версией игры
-            "url_version": "v" + "0.7.0r-stable", # Для GitHub Releases нужен тег с 'v'
+            "url_version": "v0.7.0r", # Для GitHub Releases нужен тег с 'v'
             "folder": ".", # Распаковываем в корень game/
             "manifest": "dlc_manifest.json",
             "title": _("Полный пакет ресурсов"),
@@ -93,7 +93,8 @@ init -999 python:
             
             try:
                 # Таймаут: 5 сек на коннект, 10 на чтение
-                with requests.get(url, stream=True, timeout=(5, 10)) as response:
+                headers = {'User-Agent': 'RenPy-Game-Client'}
+                with requests.get(url, stream=True, headers=headers, timeout=(5, 10)) as response:
                     if response.status_code != 200:
                         raise Exception("HTTP Code: {}".format(response.status_code))
                     

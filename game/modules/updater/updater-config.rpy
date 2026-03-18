@@ -87,7 +87,7 @@ init -990 python:
                         updater_state["releases"]["stable"].append(rel_obj)
                         
                     # Trigger the prompt if the absolute newest release differs from current version
-                    if idx == 0 and ver != config.version and ver != "":
+                    if idx == 0 and _version_compare('v' + ver, config.version) and ver != "":
                         has_newer = True
                         newest_tag = ver
                         
@@ -150,7 +150,8 @@ init -990 python:
         updater_state["exe_path"] = exe_path
         
         try:
-            with requests.get(url, stream=True, timeout=(5, 10)) as response:
+            headers = {'User-Agent': 'RenPy-Game-Client'}
+            with requests.get(url, stream=True, headers=headers, timeout=(5, 10)) as response:
                 if response.status_code != 200:
                     raise Exception("HTTP Code: {}".format(response.status_code))
                 
