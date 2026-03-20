@@ -9,7 +9,7 @@ label ch5_station_bar_scene:
         
         Окна выходили на темную сторону станции. Туда, где в тени висел тот самый корабль.
     """
-    jump ch5_station_bar_menu:
+    jump ch5_station_bar_menu
 
 label ch5_station_bar_menu:
 
