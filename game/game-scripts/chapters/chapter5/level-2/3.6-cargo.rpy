@@ -9,6 +9,8 @@ label ch5_level2_cargo:
         Зона Карго. Горы ящиков, шум экзоскелетов и ругань грузчиков.
         Я осмотрела технические помещения у входа. В одной из каморок лежал брошенный комбинезон техника.
     """
+
+label ch5_level2_cargo_menu:
     
     menu:
         "Обыскать шкафчики и комбинезон" if ch5_bartender_talked:
@@ -20,12 +22,12 @@ label ch5_level2_cargo:
             narrator "Щелчок. Дверца поддалась."
             $ add_item(Item_MaintenanceKeycard)
             $ ch5_cargo_solved = True
-            jump ch5_level2_cargo
+            jump ch5_level2_cargo_menu
         
         "Осмотреться" if not ch5_bartender_talked:
             narrator "Здесь слишком много народу и шкафчиков. Я не знаю, что именно искать и где."
             neon "{=thoughts}Может, кто-то на станции подскажет, где тут можно найти что-нибудь полезное. Стоит поговорить с людьми.{/thoughts}"
-            jump ch5_level2_cargo
+            jump ch5_level2_cargo_menu
             
         "Вернуться в холл":
             jump ch5_level2_main_hall_menu

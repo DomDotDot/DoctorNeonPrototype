@@ -5,6 +5,7 @@ init python:
     Item_MaintenanceKeycard = Item("maintenance_keycard", "Сервисная карта", "Ключ-карта технического персонала Орбитали.", "images/items/keycard.png")
     Item_UnchargedBattery = Item("uncharged_battery", "Разряженная батарея", "Тяжелая энергетическая ячейка для крупной техники. Полностью пуста.", "images/items/battery_empty.png")
     Item_ChargedBattery = Item("charged_battery", "Заряженная батарея", "Энергетическая ячейка, гудящая от переполняющей её энергии.", "images/items/battery_full.png")
+    Item_BartenderUniform = Item("bartender_uniform", "Униформа бармена", "Рабочий комбинезон персонала бара 'Космический Ветер'. Пахнет дешёвым виски и потом.", "images/items/uniform_bartender.png")
 
 label ch5_quest_init:
     # Вызывается один раз перед началом квеста
@@ -21,7 +22,15 @@ label ch5_quest_init:
     $ ch5_bar_unlocked = False
     $ ch5_ejection_examined = False
     $ ch5_elevator_powered = False
+    $ ch5_elevator_powered = False
     $ ch5_bartender_talked = False
+    
+    # Флаги Дормов
+    $ ch5_dorms_time = 0
+    $ ch5_dorms_searched = False
+    $ ch5_dorms_event_triggered = False
+    $ ch5_bar_fight_agreed = False
+    $ ch5_got_uniform = False
     
     # Флаги Уровня 3 (монорельс + спутник)
     $ ch5_yellow_alert_known = False
@@ -72,6 +81,7 @@ label ch5_level2_main_hall_menu:
                 Налево — Цифровая Библиотека.
 
                 Прямо по курсу виднеются неоновые вывески Бара "Космический Ветер".
+                Рядом с баром находится вход в Дормы — жилые блоки персонала.
 
                 Чуть правее Бара находятся Часовня и сектор выброса тел в космос.
 
@@ -88,6 +98,9 @@ label ch5_level2_main_hall_menu:
             
         "Зайти в Цифровую Библиотеку" if ch5_level2_examined:
             jump ch5_level2_library
+            
+        "Пройти в Дормы" if ch5_level2_examined:
+            jump ch5_level2_dorms
             
         "Пойти в Бар 'Космический Ветер'" if ch5_level2_examined:
             jump ch5_station_bar_scene
