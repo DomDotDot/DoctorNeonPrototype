@@ -8,9 +8,9 @@ label ch5_level2_library:
 
         Большинство людей здесь сидели с остекленевшими глазами, подключенные к виртуальным стимуляторам, поглощая виртуальный контент.
     """
-    jump library_choices_menu
+    jump ch5_library_choices_menu
 
-label library_choices_menu:
+label ch5_library_choices_menu:
     menu:
         "Подойти к терминалу администратора":
             if not ch5_library_examined:
@@ -26,20 +26,21 @@ label library_choices_menu:
                             $ ch5_bar_code_known = True
                             $ ch5_library_examined = True
                             neon "{=thoughts}Год основания Веритаса... 2041. Отлично.{/thoughts}"
-                            jump library_choices_menu
-                        "Вернуться в холл":
-                            jump ch5_level2_main_hall_menu
+                            jump ch5_library_choices_menu
                 else:
                     neon "{=thoughts}Мне нужен доступ техника, чтобы пройти туда.{/thoughts}"
-                    jump library_choices_menu
+                    jump ch5_library_choices_menu
             else:
                 narrator "Здесь больше нет ничего полезного."
-                jump library_choices_menu
+                jump ch5_library_choices_menu
         "Подойти к свободному терминалу":
-            jump library_terminal_menu
+            jump ch5_library_terminal_menu
+
+        "Вернуться в холл":
+            jump ch5_level2_main_hall_menu
 
 
-label library_terminal_menu:
+label ch5_library_terminal_menu:
     
     narrator """ 
         Я подошла к свободному терминалу, используя свой поддельный ID инженера для доступа к публичным и полузакрытым архивам.
@@ -48,6 +49,11 @@ label library_terminal_menu:
     neon "{=thoughts}Посмотрим, как вы объясняете миру то, что с ним стало. И откуда у 'Гелиоса' деньги на эту орбитальную махину.{/thoughts}"
 
     narrator "На экране высветился корневой каталог Архива. Что открыть?"
+    
+    jump ch5_library_terminal_choice_menu
+return
+
+label ch5_library_terminal_choice_menu:
 
     menu:
         "Папка: 'Корпоративная сводка 2042-2046', Журнал":
@@ -80,7 +86,7 @@ label library_terminal_menu:
                 
                 А те, кто выжил, умер без своей Королевы. Скорее всего, корпораты просто украли название для своей сети дронов.
             """
-            jump library_terminal_menu
+            jump ch5_library_terminal_choice_menu
 
         "Папка: 'Социальное районирование', Документальный справочник":
             play sound "sfx/ui_click.opus"
@@ -102,7 +108,7 @@ label library_terminal_menu:
             neon """
                 {=thoughts}Три слоя ада.{/thoughts}
             """
-            jump library_terminal_menu
+            jump ch5_library_terminal_choice_menu
 
         "Папка: 'Транзитная Логистика', Технический мануал":
             play sound "sfx/ui_click.opus"
@@ -124,7 +130,7 @@ label library_terminal_menu:
 
                 Значит, если мы будем эвакуироваться, система навигации потащит капсулу именно туда, к маякам в степях. Полезно знать.
             """
-            jump library_terminal_menu
+            jump ch5_library_terminal_choice_menu
 
         "Папка: 'Легенда о Слезах Вселенной', Фольклорный архив":
             #$ read_fairytale = True
@@ -199,9 +205,9 @@ label library_terminal_menu:
                 Теперь я знала: я не могу просто уничтожить груз и сбежать. Я должна найти это 'Дитя Вселенной'.
             """
             
-            jump library_terminal_menu
+            jump ch5_library_terminal_choice_menu
 
         "Выйти из терминала":
             play sound "sfx/ui_back.opus"
             narrator "Я отключила экран и стерла логи поиска. Информации достаточно. Пора возвращаться к миссии."
-            jump library_choices_menu
+            jump ch5_library_choices_menu
