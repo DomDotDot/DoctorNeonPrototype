@@ -21,6 +21,29 @@ label ch5_quest_init:
     $ ch5_bar_unlocked = False
     $ ch5_ejection_examined = False
     $ ch5_elevator_powered = False
+    $ ch5_bartender_talked = False
+    
+    # Флаги Уровня 3 (монорельс + спутник)
+    $ ch5_yellow_alert_known = False
+    $ ch5_monorail_access = False
+    $ ch5_ai_core_complete = False
+    $ ch5_server_unlocked = False
+    
+    # Флаги спутника
+    $ ch5_satellite_reception_examined = False
+    $ ch5_corridor_alpha_solved = False
+    $ ch5_corridor_beta_solved = False
+    $ ch5_corridor_gamma_solved = False
+    $ ch5_core_corridor_open = False
+    $ ch5_satellite_timer_active = False
+    $ ch5_satellite_timer_start = 0.0
+    $ ch5_satellite_timer_duration = 90.0
+    
+    # Лорные флаги спутника
+    $ ch5_ai_asked_alert = False
+    $ ch5_ai_asked_personnel = False
+    $ ch5_ai_asked_omega = False
+    $ ch5_ai_asked_erebus = False
     return
 
 # --- ГЛАВНЫЙ ХОЛЛ (УРОВЕНЬ 2) ---

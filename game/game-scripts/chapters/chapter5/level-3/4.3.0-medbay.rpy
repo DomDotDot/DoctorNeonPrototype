@@ -30,7 +30,10 @@ label ch5_level3_medbay_menu:
             jump ch5_level3_medbay_menu
             
         "Осмотреть синтезатор":
-            if has_item("reagent_a") and has_item("reagent_b"):
+            if has_item("bio_spray"):
+                narrator "Синтезатор уже использован. Биомаркер готов."
+                jump ch5_level3_medbay_menu
+            elif has_item("reagent_a") and has_item("reagent_b"):
                 menu:
                     "Смешать Цито-В и Ген-Связь":
                         $ remove_item("reagent_a")
@@ -38,6 +41,7 @@ label ch5_level3_medbay_menu:
                         play sound "sfx/chemical_mix.opus"
                         narrator "Аппарат загудел, смешивая компоненты в маленьком баллончике-спрее."
                         $ add_item(Item_BioSpray)
+                        neon "{=thoughts}Биомаркер готов. Он обманет любой ДНК-сканер на станции.{/thoughts}"
                         jump ch5_level3_medbay_menu
                     "Уйти":
                         jump ch5_level3_medbay_menu

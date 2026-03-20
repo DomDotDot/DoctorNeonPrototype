@@ -1,7 +1,7 @@
 # --- ЛОКАЦИЯ 2: ЧАСОВНЯ (ЛОР: Туман и Тишина) ---
 label ch5_station_chapel_scene:
     $ visited_chapel = True
-    scene chapter5-test-chapell with fade
+    scene chapter5-test-chapel with fade
     stop music fadeout 2.0
     play ambient "ambient/church_hum_choir.opus" fadein 2.0
 

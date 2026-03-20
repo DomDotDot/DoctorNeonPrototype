@@ -5,28 +5,14 @@ label station_server_room_entry:
     play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop
 
     narrator """
-        Научное крыло. Здесь было холоднее и чище.
+        Дверь серверной, заблокированная жёлтой тревогой на протяжении всей миссии, наконец подалась.
         
-        Серверная находилась в конце коридора. Дверь была заблокирована электронным замком класса 'А'.
+        Индикатор на раме мягко сменил цвет с жёлтого на зелёный. СИВИЛЛА сдержала слово.
     """
-
-    show neon operative_glasses at center with dissolve
-
-    neon "Класс 'А'. Стандартное шифрование Гелиос. Самоуверенные идиоты."
-
-    # play sound "sfx/multitool_click.opus"
     
-    narrator """
-        Я достала мультитул и подключилась к панели. 
-        
-        Мэрил учила меня этому. 'Не ломай дверь, Неон. Убеди её, что она сама хочет открыться'.
-    """
-
-    # Мини-игра или просто текст успеха
-    # play sound "sfx/hacking_success_beep.opus"
-    # play sound "sfx/door_slide_tech.opus"
-
-    narrator "Замок пискнул и сменил цвет на зеленый. Дверь отъехала в сторону."
+    play sound "sfx/door_slide_tech.opus"
+    
+    narrator "С тихим гудением бронированная дверь отъехала в сторону."
 
     scene chapter5-test-server with dissolve
     play ambient "ambient/server_room_hum.opus" loop volume 0.5
@@ -38,6 +24,8 @@ label station_server_room_entry:
         
         Первым делом — заглушить локальные камеры. Второе — создать зашифрованный туннель.
     """
+
+    show neon operative_glasses at center with dissolve
 
     neon "Вызываю 'Центр'. 'Призрак' на связи. Как слышно?"
 
