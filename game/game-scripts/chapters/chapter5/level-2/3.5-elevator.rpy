@@ -4,7 +4,7 @@ label ch5_level2_elevator:
     if ch5_elevator_powered:
         narrator "Лифт работает. Индикаторы горят зеленым."
         menu:
-            "Ехать на Уровень 3 (Исследования и Медбей)":
+            "Ехать на Уровень 3":
                 jump ch5_level3_main_hall
             "Вернуться в холл":
                 jump ch5_level2_main_hall_menu

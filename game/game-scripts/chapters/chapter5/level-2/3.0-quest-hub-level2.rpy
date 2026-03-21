@@ -18,6 +18,7 @@ label ch5_quest_init:
     $ ch5_level2_examined = False
     $ ch5_cargo_solved = False
     $ ch5_library_examined = False
+    $ ch5_bar_code_existance_known = False
     $ ch5_bar_code_known = False
     $ ch5_bar_unlocked = False
     $ ch5_ejection_examined = False
@@ -69,7 +70,7 @@ label ch5_level2_main_hall:
     """
     
 label ch5_level2_main_hall_menu:
-    scene chapter5-test-hublevel1
+    scene chapter5-test-hublevel1 with fade
     
     menu:
         "Осмотреть холл" if not ch5_elevator_powered:

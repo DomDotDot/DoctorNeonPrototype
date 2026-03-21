@@ -23,9 +23,11 @@ label ch5_library_choices_menu:
                             narrator "Магнитный замок щелкнул, и я прошла в служебное помещение."
                             narrator "На столе админа лежал личный датапад."
                             neon "Посмотрим... Журнал смен. 'Бармен из Космического Ветра опять забыл код от своей подсобки. Я поставил ему год основания Веритаса, пусть попробует забыть это'."
-                            $ ch5_bar_code_known = True
+                            $ ch5_bar_code_existance_known = True
                             $ ch5_library_examined = True
                             neon "{=thoughts}Год основания Веритаса...? Надо узнать, когда он был основан.{/thoughts}"
+                            jump ch5_library_choices_menu
+                        "Отойти":
                             jump ch5_library_choices_menu
                 else:
                     neon "{=thoughts}Мне нужен доступ техника, чтобы пройти туда.{/thoughts}"
@@ -88,6 +90,7 @@ label ch5_library_terminal_choice_menu:
                 
                 А те, кто выжил, умер без своей Королевы. Скорее всего, корпораты просто украли название для своей сети дронов.
             """
+            $ ch5_bar_code_known = True
             jump ch5_library_terminal_choice_menu
 
         "Папка: 'Социальное районирование', Документальный справочник":
