@@ -35,6 +35,7 @@ label ch5_level3_research_menu:
                 
                 Требование: Допуск 'Омега'. Наличие чипа Администратора удовлетворяет условию допуска к транзиту.
             """
+            $ ch5_satellite_clue_found = True
             jump ch5_level3_research_menu
         
         "Расскажи о спутнике 'Нексус'" if ch5_yellow_alert_known:

@@ -34,6 +34,7 @@ label ch5_quest_init:
     $ ch5_got_uniform = False
     
     # Флаги Уровня 3 (монорельс + спутник)
+    $ ch5_level3_examined = False
     $ ch5_yellow_alert_known = False
     $ ch5_monorail_access = False
     $ ch5_ai_core_complete = False

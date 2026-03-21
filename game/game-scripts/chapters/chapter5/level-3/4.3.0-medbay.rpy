@@ -33,20 +33,22 @@ label ch5_level3_medbay_menu:
             if has_item("bio_spray"):
                 narrator "Синтезатор уже использован. Биомаркер готов."
                 jump ch5_level3_medbay_menu
-            elif has_item("reagent_a") and has_item("reagent_b"):
+            elif has_item("reagent_a") and has_item("reagent_b") and has_item("coolant"):
                 menu:
-                    "Смешать Цито-В и Ген-Связь":
+                    "Смешать Цито-В, Ген-Связь и Охлаждающую жидкость":
                         $ remove_item("reagent_a")
                         $ remove_item("reagent_b")
+                        $ remove_item("coolant")
                         play sound "sfx/chemical_mix.opus"
-                        narrator "Аппарат загудел, смешивая компоненты в маленьком баллончике-спрее."
+                        narrator "Аппарат загудел, смешивая компоненты. Охлаждающая жидкость была необходима для стабилизации реакции."
+                        narrator "Через несколько мгновений в лотке появился маленький баллончик-спрей."
                         $ add_item(Item_BioSpray)
                         neon "{=thoughts}Биомаркер готов. Он обманет любой ДНК-сканер на станции.{/thoughts}"
                         jump ch5_level3_medbay_menu
                     "Уйти":
                         jump ch5_level3_medbay_menu
             else:
-                narrator "Синтезатор ждет ввода компонентов. У меня их пока нет."
+                neon "{=thoughts}Синтезатор ждет ввода компонентов. Судя по схеме, мне нужны: биологическая основа (Цито-В), связующий агент (Ген-Связь) и сильный охладитель, чтобы смесь не воспламенилась.{/thoughts}"
                 jump ch5_level3_medbay_menu
                 
         "Пройти в Вирусологию":
