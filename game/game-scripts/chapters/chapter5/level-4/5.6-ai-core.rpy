@@ -98,7 +98,7 @@ label ch5_ai_core_menu:
             """
             jump ch5_ai_core_menu
             
-        "Ветка снятия защиты связана с другим Ядром?" if getattr(store, "ch5_q_modularity_asked", False) and not getattr(store, "ch5_q_decision_core_asked", False):
+        "Ветка снятия защиты связана с другим Ядром?" if getattr(store, "ch5_ai_core_complete", False) and not getattr(store, "ch5_q_decision_core_asked", False):
             $ ch5_q_decision_core_asked = True
             
             neon "Если ты только общаешься, кто принимает решения? Например, о снятии жёлтой тревоги с серверной."
@@ -156,11 +156,19 @@ label ch5_ai_core_menu:
             neon "{=thoughts}Тепловая сигнатура низкая... Что там, внутри? Трупы? Крио-камеры? Или что-то... нечеловеческое?{/thoughts}"
             jump ch5_ai_core_menu
         
-        "Запрос: Снятие защиты серверной":
+        "Запрос: Снятие защиты серверной" if not getattr(store, "ch5_ai_core_complete", False):
             jump ch5_ai_core_verification
         
-        "Уйти (вернуться в ресепшен)":
-            jump ch5_satellite_reception_menu
+        "У меня больше нет вопросов" if getattr(store, "ch5_ai_core_complete", False):
+            "СИВИЛЛА (Ядро Коммуникации)" """
+                Возвращайтесь на станцию.
+                
+                Спасибо за разговор. Это было приятно.
+            """
+            
+            narrator "Шар медленно погас, возвращаясь в спящий режим. Нити света свернулись в тусклую спираль."
+            
+            jump ch5_monorail_entrance
 
 # --- ВЕРИФИКАЦИЯ: ВОПРОСЫ ИИ ---
 label ch5_ai_core_verification:
@@ -276,18 +284,16 @@ label ch5_ai_core_final_question:
     neon """
         {=thoughts}Серверная открыта. Осталось вернуться на станцию и добраться до неё.
         
-        СИВИЛЛА... Ядро Коммуникации... Ты одинокий разум, запертый в шаре, в темноте. Без людей.
+        {=thoughts}СИВИЛЛА... Ядро Коммуникации... Ты одинокий разум, запертый в шаре, в темноте. Без людей.
         
-        Мы не так уж и различаемся.{/thoughts}
+        {=thoughts}Мы не так уж и различаемся.
     """
     
     "СИВИЛЛА (Ядро Коммуникации)" """
-        Монорельс активирован для обратного рейса. Возвращайтесь на станцию.
+        Монорельс активирован для обратного рейса.
         
-        Спасибо за разговор. Это было приятно.
+        У вас остались ко мне вопросы, [ch5_final_answer]?
     """
     
-    narrator "Шар медленно погас, возвращаясь в спящий режим. Нити света свернулись в тусклую спираль."
-    
-    jump ch5_monorail_entrance
+    jump ch5_ai_core_menu
 

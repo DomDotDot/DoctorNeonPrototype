@@ -47,14 +47,11 @@ label ch5_level3_main_hall_menu:
         "Зайти в Медицинский блок" if ch5_level3_examined:
             jump ch5_level3_medbay
 
-        "Зайти в Отдел Кадров (HoP)" if ch5_level3_examined:
+        "Зайти в Отдел Кадров" if ch5_level3_examined:
             jump ch5_level3_hop_office
             
         "Пройти в дальний холл" if ch5_level3_examined:
             jump ch5_level3_inner_hall
-        
-        "Пойти к Монорельсу" if ch5_yellow_alert_known:
-            jump ch5_monorail_entrance
             
         "Спуститься на Уровень 2 (Лифт)":
             $ ch5_elevator_powered = True

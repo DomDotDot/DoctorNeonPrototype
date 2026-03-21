@@ -1,5 +1,30 @@
-# --- СПУТНИК НЕКСУС: РЕСЕПШЕН ---
+# --- ГЛОБАЛЬНЫЙ ТАЙМЕР НЕКСУСА ---
+init python:
+    def ch5_check_timer_and_jump():
+        if store.ch5_satellite_timer_active:
+            elapsed = renpy.time.time() - store.ch5_satellite_timer_start
+            if elapsed >= store.ch5_satellite_timer_duration:
+                renpy.hide_screen("global_satellite_timer_screen")
+                renpy.jump("ch5_satellite_timer_expired")
 
+    def ch5_render_timer_text(st, at):
+        if store.ch5_satellite_timer_active:
+            elapsed = renpy.time.time() - store.ch5_satellite_timer_start
+            remaining = max(0.0, store.ch5_satellite_timer_duration - elapsed)
+            return Text("ВРЕМЯ ДО ПЕРЕГРУЗКИ: {} сек.".format(int(remaining)), color="#ff3333", size=30, outlines=[(2, "#000", 0, 0)], bold=True), 0.1
+        return Text(""), None
+
+screen global_satellite_timer_screen():
+    zorder 100
+    if ch5_satellite_timer_active:
+        timer 0.1 action Function(ch5_check_timer_and_jump) repeat True
+        
+        vbox:
+            xalign 0.5
+            yalign 0.05
+            add DynamicDisplayable(ch5_render_timer_text)
+
+# --- СПУТНИК НЕКСУС: РЕСЕПШЕН ---
 label ch5_satellite_reception:
     scene bg space_station_maintenance_tunnel with fade
     stop music fadeout 2.0
@@ -47,7 +72,7 @@ label ch5_satellite_reception_menu:
                 ← Коридор A — 'Модуль Паттернов' 
                 ↑ Коридор B — 'Модуль Логики'
                 → Коридор C — 'Модуль Шифрования'
-                ↓ Коридор D — 'Ядро Коммуникации' [ЭНЕРГЕТИЧЕСКИЙ ЗАТВОР АКТИВЕН]
+                ↓ Коридор D — 'Ядро Коммуникации''
             """
             jump ch5_satellite_reception_menu
         
@@ -72,11 +97,11 @@ label ch5_satellite_reception_menu:
         "Пойти в Коридор B (Модуль Логики)" if ch5_corridor_alpha_solved:
             jump ch5_corridor_beta
         
-        "Пойти в Коридор C (Модуль Шифрования)" if ch5_corridor_beta_solved:
+        "Пойти в Коридор C (Модуль Контекста)" if ch5_corridor_beta_solved:
             jump ch5_corridor_gamma
         
         "Пойти в Коридор D (Ядро Коммуникации)" if ch5_core_corridor_open:
             jump ch5_corridor_core
         
-        "Вернуться к монорельсу":
+        "Вернуться к монорельсу" if ch5_ai_core_complete:
             jump ch5_monorail_entrance

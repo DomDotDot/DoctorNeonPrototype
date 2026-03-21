@@ -50,9 +50,6 @@ label ch5_level3_medbay_menu:
             else:
                 neon "{=thoughts}Синтезатор ждет ввода компонентов. Судя по схеме, мне нужны: биологическая основа (Цито-В), связующий агент (Ген-Связь) и сильный охладитель, чтобы смесь не воспламенилась.{/thoughts}"
                 jump ch5_level3_medbay_menu
-                
-        "Пройти в Вирусологию":
-            jump ch5_level3_virology
             
         "Пройти в Генетику":
             jump ch5_level3_genetics

@@ -18,6 +18,26 @@ init python:
                 cows += 1
         return bulls, cows
 
+label ch5_level3_coolant_receive:
+
+    narrator "По его шее пульсировали прозрачные трубки с густой зелёной жидкостью — мощным промышленным охладителем."
+    neon "{=thoughts}Это та самая жидкость, которую я видела у сломанного медробота. Синтезатор в Медбее требует охладитель для реакции. Эта жидкость идеально подойдёт... И чтобы её забрать, мне не нужен талон.{/thoughts}"
+    menu:
+        "Вырвать трубку охлаждения у Автоматона":
+            play sound "sfx/glass_shatter.opus"
+            narrator "Я резким движением пробила стекло своей силой и вцепилась в толстую трубку на шее робота. Стекло разлетелось на куски, будто это были лепестки, а я с силой дернула трубку на себя."
+            "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
+            play sound "sfx/hydraulic_release.opus"
+            narrator "Но я рванула со всей силы. Трубка с треском оборвалась. Автоматон задергался, заискрил и медленно осел на стол, издав протяжный механический писк."
+            narrator "Я быстро подставила пустую колбу под льющуюся зеленую жидкость."
+            $ add_item(Item_Coolant)
+            $ store.ch5_hop_coolant_received = True
+            neon "Извини, приятель. Очередь слишком длинная."
+        "Не трогать":
+            neon "{=thoughts}Пока не буду его ломать.{/thoughts}"
+            # fall through to ch5_hop_menu
+return
+
 label ch5_level3_hop_office:
     scene bg space_station_office with dissolve
     
@@ -34,10 +54,15 @@ label ch5_level3_hop_office:
     if ch5_hop_coolant_received:
         narrator "За стеклом валялся искрящийся Автоматон с вырванными трубками. Больше он никого не обслужит."
         jump ch5_level3_inner_hall_menu
-        
+
+    if store.ch5_hop_chip_received and not store.ch5_hop_coolant_received and getattr(store, 'ch5_coolant_idea_unlocked', False):
+        narrator "Я снова подошла к окну Автоматона."
+        call ch5_level3_coolant_receive
+                
 label ch5_hop_menu:
-    narrator "Над окном висело электронное табло. Текущий талон: [store.ch5_hop_current_ticket]."
-    
+    if not store.ch5_hop_coolant_received:
+        narrator "Над окном висело электронное табло. Текущий талон: [store.ch5_hop_current_ticket]."
+
     menu:
         "Подойти к окну Автоматона":
             if store.ch5_hop_coolant_received:
@@ -46,8 +71,14 @@ label ch5_hop_menu:
                 
             narrator "За стеклом сидел сервисный Автоматон устаревшей модели. Его стеклянные глаза пусто смотрели сквозь меня."
             
-            if store.ch5_hop_hacked:
-                "Автоматон" "Талон [store.ch5_hop_ticket]. Пройдите к кассе... то есть, окну. Чем могу помочь?"
+            if store.ch5_hop_chip_received and not store.ch5_hop_coolant_received:
+                if getattr(store, 'ch5_coolant_idea_unlocked', False):
+                    call ch5_level3_coolant_receive
+                else:
+                    "Автоматон" "Ваш запрос уже обработан. Следующий!"
+            elif store.ch5_hop_hacked:
+                "Автоматон" "Талон [store.ch5_hop_ticket]. Пройдите к кассе... то есть, окну. Тип обращения?"
+                neon "Мне нужен неформатированный сервисный чип."
                 
                 if not getattr(store, 'ch5_hop_ticket_correct', True):
                     "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
@@ -59,34 +90,16 @@ label ch5_hop_menu:
                     $ store.ch5_hop_ticket = random.choice("ABCDEFGHIJKLMNOPQRSTUVWXYZ") + "-" + str(random.randint(10, 99))
                     $ store.ch5_hop_pin = generate_unique_pin()
                 else:
-                    if not store.ch5_hop_chip_received:
-                        neon "Мне нужен неформатированный сервисный чип."
-                        "Автоматон" "Обработка запроса... Подождите."
-                        play sound "sfx/printer_buzz.opus"
-                        narrator "Из щели под стеклом выскочил чип."
-                        $ add_item(Item_BlankChip)
-                        $ store.ch5_hop_chip_received = True
-                        neon "{=thoughts}Отлично. Чип у меня. Теперь нужен доступ и биомаркер.{/thoughts}"
-                    else:
-                        "Автоматон" "Ваш запрос уже обработан. Следующий!"
+                    "Автоматон" "Обработка запроса... Подождите."
+                    play sound "sfx/printer_buzz.opus"
+                    narrator "Из щели под стеклом выскочил чип."
+                    $ add_item(Item_BlankChip)
+                    $ store.ch5_hop_chip_received = True
+                    neon "{=thoughts}Отлично. Чип у меня. Теперь нужен доступ и биомаркер.{/thoughts}"
+                    $ store.ch5_hop_hacked = False
+                    $ store.ch5_hop_ticket_taken = False
                     
-                if store.ch5_hop_chip_received and not store.ch5_hop_coolant_received:
-                    if getattr(store, 'ch5_coolant_idea_unlocked', False):
-                        narrator "Я посмотрела на Автоматона. По его шее пульсировали прозрачные трубки с густой зелёной жидкостью — мощным промышленным охладителем."
-                        neon "{=thoughts}Это та самая жидкость, которую я видела у сломанного медробота. Синтезатор в Медбее требует охладитель для реакции. Эта жидкость идеально подойдёт... Но Автоматон её добровольно не отдаст.{/thoughts}"
-                        menu:
-                            "Вырвать трубку охлаждения у Автоматона":
-                                play sound "sfx/glass_shatter.opus"
-                                narrator "Я резким движением пробила стекло своей силой и вцепилась в толстую трубку на шее робота. Стекло разлетелось на куски, будто это были лепестки, а я с силой дернула трубку на себя."
-                                "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
-                                play sound "sfx/hydraulic_release.opus"
-                                narrator "Но я рванула со всей силы. Трубка с треском оборвалась. Автоматон задергался, заискрил и медленно осел на стол, издав протяжный механический писк."
-                                narrator "Я быстро подставила пустую колбу под льющуюся зеленую жидкость."
-                                $ add_item(Item_Coolant)
-                                $ store.ch5_hop_coolant_received = True
-                                neon "Извини, приятель. Очередь слишком длинная."
-                            "Не трогать":
-                                neon "{=thoughts}Пока не буду его ломать.{/thoughts}"
+                    call ch5_level3_coolant_receive
             else:
                 "Автоматон" "Пожалуйста, возьмите талон в терминале и ожидайте своей очереди."
                 neon "Но тут больше никого нет!"
@@ -95,6 +108,10 @@ label ch5_hop_menu:
             jump ch5_hop_menu
             
         "Взять талон в терминале" if not getattr(store, 'ch5_hop_ticket_taken', False):
+            if store.ch5_hop_coolant_received:
+                narrator "Мне больше не нужны талоны."
+                jump ch5_hop_menu
+
             narrator "Экран терминала выдал 5 вариантов темы запроса."
             menu:
                 "Оформление отпуска":
@@ -111,17 +128,18 @@ label ch5_hop_menu:
             play sound "sfx/ticket_print.opus"
             narrator "Терминал с жужжанием выдал мне талон."
             narrator "На нём было напечатано: '[store.ch5_hop_ticket]'."
-            neon "{=thoughts}Серьёзно? Если сейчас обслуживают талон '[store.ch5_hop_current_ticket]', мне придётся ждать вечность!{/thoughts}"
+            neon "{=thoughts}Серьёзно? Если сейчас обслуживают другой талон, мне придётся ждать вечность!{/thoughts}"
             $ store.ch5_hop_ticket_taken = True
             jump ch5_hop_menu
             
         "Модифицировать электронное табло очереди" if getattr(store, 'ch5_hop_ticket_taken', False) and not store.ch5_hop_hacked:
+            
             narrator "Я подошла к управляющему терминалу табло. Экран заблокирован 4-значным PIN-кодом."
             neon "{=thoughts}Система диагностики откликается. Я могу попытаться подобрать код перехватом сигналов.{/thoughts}"
             narrator "Правила дешифровки: 4 уникальные цифры. 'Бык' — цифра угадана и на своём месте. 'Корова' — цифра угадана, но не на своём месте."
             
             label ch5_hop_minigame:
-                $ player_guess = renpy.input("Введите 4 уникальные цифры (или 'exit' для выхода):").strip()
+                $ player_guess = renpy.input(_("Введите 4 уникальные цифры (или 'exit' для выхода):"), length=4, allow="0123456789").strip()
                 
                 if player_guess.lower() == 'exit':
                     jump ch5_hop_menu
@@ -147,4 +165,4 @@ label ch5_hop_menu:
                     jump ch5_hop_minigame
                     
         "Отойти в коридор":
-            jump ch5_level3_inner_hall_menu
+            jump ch5_level3_main_hall_menu

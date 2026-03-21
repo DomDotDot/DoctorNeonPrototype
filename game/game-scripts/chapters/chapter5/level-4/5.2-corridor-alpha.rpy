@@ -49,6 +49,7 @@ label ch5_corridor_alpha_puzzle:
                 Свет в коридоре усилился. На стене вспыхнул индикатор: 'ГЕНЕРАТОР A — АКТИВЕН'.
             """
             $ ch5_corridor_alpha_solved = True
+            
             neon "Один есть. Дальше — коридор B."
             jump ch5_satellite_reception_menu
         else:

@@ -18,29 +18,28 @@ label ch5_corridor_beta:
     narrator """
         Схема на экране:
         
-        Три рычага (Красный, Синий, Жёлтый) управляют тремя дверями-затворами (I, II, III).
+        Три управляющих рычага (Красный, Синий, Жёлтый) и один главный рубильник (Зелёный).
         
-        Каждый рычаг имеет два положения: ВВЕРХ и ВНИЗ.
+        Красный рычаг: переключает затворы I и III
+        Синий рычаг: переключает затвор II
+        Жёлтый рычаг: переключает затворы I и II
         
-        Красный рычаг: переключает затворы I и II
-        Синий рычаг: переключает затворы II и III
-        Жёлтый рычаг: переключает затворы I и III
+        ВНИМАНИЕ. СИСТЕМА ДАТЧИКОВ ЗАТВОРОВ ПОВРЕЖДЕНА. 
+        Текущий статус выводится только один раз при инициализации.
         
-        Все затворы сейчас ЗАКРЫТЫ. Нужно ОТКРЫТЬ все три одновременно.
+        Инициализация...
+        Рычаги: Красный (ВНИЗ), Синий (ВНИЗ), Жёлтый (ВНИЗ).
+        Затворы: Все 3 затвора ЗАКРЫТЫ.
         
-        'Переключить' = если затвор открыт — закрыть, если закрыт — открыть.
+        Цель: ОТКРЫТЬ ВСЕ ТРИ ЗАТВОРА. 
+        Выставите рычаги в правильную комбинацию и подтвердите Зелёным рубильником.
+        В случае ошибки — принудительный аппаратный сброс.
     """
     
     neon """
-        {=thoughts}Логическая загадка. Каждый рычаг переключает два затвора из трёх.
+        {=thoughts}Логическая головоломка со сбросом. Если я нажму всё подряд и дёрну зелёный — придётся начинать сначала.
         
-        Если поднять ВСЕ три рычага:
-        Красный: I↑ II↑
-        Синий: II↓ III↑  
-        Жёлтый: I↓ III↓
-        Итог: I=закр, II=закр, III=закр. Не то.
-        
-        Нужно подумать...{/thoughts}
+        Нужно продумать комбинацию заранее...
     """
     
     # Правильное решение: Поднять все три рычага (каждый затвор переключается дважды = открыт)
@@ -82,12 +81,14 @@ label ch5_corridor_beta:
     # Решение 2: Синий (I откр, II откр) + Жёлтый (I закр, II закр, III откр) = I закр, II закр, III откр. Не то.
     # Красный + Синий + Желтый: I=1+1+1=3(откр), II=0+1+1=2(закр), III=0+0+1=1(откр). Нет.
     #
-    # Окончательная РАБОЧАЯ схема:
-    # Красный: управляет затворами I и II
-    # Синий: управляет затвором II  
-    # Жёлтый: управляет затворами II и III
-    # Решение: Красный + Жёлтый = I открыт(R), II открыт+открыт=закрыт(R+Y), III открыт(Y). Нет.
-    # Красный + Синий + Жёлтый: I=R(1), II=R+S+Y(3=откр), III=Y(1). Да!
+    # Окончательная РАБОЧАЯ схема (XOR-загадка со скрытыми затворами):
+    # Затворы изначально: Все ЗАКРЫТЫ (False)
+    # Рычаги изначально: Все ВНИЗ (False)
+    # Красный рычаг: переключает I и III
+    # Синий рычаг: переключает II
+    # Жёлтый рычаг: переключает I и II
+    # 
+    # Решение (достичь все три ОТКРЫТЫ): Красный + Синий, затем Зелёный.
     
     $ beta_lever_red = False
     $ beta_lever_blue = False
@@ -95,51 +96,66 @@ label ch5_corridor_beta:
     
 label ch5_corridor_beta_puzzle:
     
-    # Вычисляем состояние затворов
-    $ beta_gate_I = beta_lever_red  # Красный управляет I
-    $ beta_gate_II_count = int(beta_lever_red) + int(beta_lever_blue) + int(beta_lever_yellow)
-    $ beta_gate_II = (beta_gate_II_count % 2) == 1  # Все три управляют II
-    $ beta_gate_III = beta_lever_yellow  # Жёлтый управляет III
+    # Вычисляем состояние затворов (для внутренней логики)
+    $ beta_gate_I = (beta_lever_red != beta_lever_yellow)
+    $ beta_gate_II = (beta_lever_blue != beta_lever_yellow)
+    $ beta_gate_III = beta_lever_red
     
-    if beta_gate_I and beta_gate_II and beta_gate_III:
-        play sound "sfx/power_up.opus"
+    if (beta_lever_red or beta_lever_blue or beta_lever_yellow) and not ch5_satellite_timer_active:
+        play sound "sfx/alarm_klaxon_single.opus"
         narrator """
-            Все три затвора с грохотом открылись! Генератор B завибрировал и начал набирать мощность.
-            
-            На экране появилось предупреждение:
+            В ту же секунду на экранах появилось мигающее красное предупреждение:
             'ВНИМАНИЕ: ПРОТОКОЛ ОБРАТНОГО ОТСЧЁТА АКТИВИРОВАН. 
-            ПЕРЕГРУЗКА ГЕНЕРАТОРОВ ЧЕРЕЗ 90 СЕКУНД.
-            ЗАВЕРШИТЕ АКТИВАЦИЮ ГЕНЕРАТОРА C.'
+            ПЕРЕГРУЗКА БАЗОВЫХ ГЕНЕРАТОРОВ ЧЕРЕЗ 90 СЕКУНД.
+            ЗАВЕРШИТЕ АКТИВАЦИЮ ГЕНЕРАТОРОВ B И C.'
         """
-        
-        $ ch5_corridor_beta_solved = True
         $ ch5_satellite_timer_active = True
         $ ch5_satellite_timer_start = renpy.time.time()
-        
-        neon "Девяносто секунд! Бегом в коридор C!"
-        jump ch5_satellite_reception_menu
+        $ ch5_satellite_timer_duration = 90.0
+        show screen global_satellite_timer_screen
+        neon "Девяносто секунд?! Нужно торопиться!"
+
+    # Убрана авто-проверка победы. Теперь она происходит в Зелёном рубильнике.
     
-    # Показываем текущее состояние
-    $ state_I = "ОТКРЫТ" if beta_gate_I else "ЗАКРЫТ"
-    $ state_II = "ОТКРЫТ" if beta_gate_II else "ЗАКРЫТ"
-    $ state_III = "ОТКРЫТ" if beta_gate_III else "ЗАКРЫТ"
+    # Показываем текущее состояние ТОЛЬКО рычагов
     $ pos_red = "ВВЕРХ" if beta_lever_red else "ВНИЗ"
     $ pos_blue = "ВВЕРХ" if beta_lever_blue else "ВНИЗ"
     $ pos_yellow = "ВВЕРХ" if beta_lever_yellow else "ВНИЗ"
     
-    narrator "Затвор I: [state_I] | Затвор II: [state_II] | Затвор III: [state_III]"
     narrator "Красный: [pos_red] | Синий: [pos_blue] | Жёлтый: [pos_yellow]"
     
     menu:
-        "Переключить Красный рычаг (управляет I и II)":
+        "Активировать Зелёный рубильник (Подтверждение)":
+            play sound "sfx/heavy_switch.opus"
+            if beta_gate_I and beta_gate_II and beta_gate_III:
+                play sound "sfx/power_up.opus"
+                narrator """
+                    Все три затвора с грохотом открылись! Генератор B завибрировал и начал набирать мощность.
+                    
+                    Индикатор сменился на зелёный: 'ГЕНЕРАТОР B — АКТИВЕН'.
+                """
+                
+                $ ch5_corridor_beta_solved = True
+                
+                neon "Второй готов! Остался только коридор C. Время поджимает!"
+                jump ch5_satellite_reception_menu
+            else:
+                play sound "sfx/error_buzz.opus"
+                narrator "'ОШИБКА КОНФИГУРАЦИИ. ПРИНУДИТЕЛЬНЫЙ СБРОС.' Затворы со скрежетом вернулись в исходное положение, а рычаги отщёлкнулись вниз."
+                $ beta_lever_red = False
+                $ beta_lever_blue = False
+                $ beta_lever_yellow = False
+                jump ch5_corridor_beta_puzzle
+
+        "Переключить Красный рычаг (Затворы I, III)":
             $ beta_lever_red = not beta_lever_red
             play sound "sfx/multitool_click.opus"
             jump ch5_corridor_beta_puzzle
-        "Переключить Синий рычаг (управляет II)":
+        "Переключить Синий рычаг (Затвор II)":
             $ beta_lever_blue = not beta_lever_blue
             play sound "sfx/multitool_click.opus"
             jump ch5_corridor_beta_puzzle
-        "Переключить Жёлтый рычаг (управляет II и III)":
+        "Переключить Жёлтый рычаг (Затворы I, II)":
             $ beta_lever_yellow = not beta_lever_yellow
             play sound "sfx/multitool_click.opus"
             jump ch5_corridor_beta_puzzle
