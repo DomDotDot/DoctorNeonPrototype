@@ -455,7 +455,7 @@ translate english_us chapter4_5_concert_mid_638fe046:
 translate english_us chapter4_5_concert_mid_203ab3fb:
 
     # seraphina wink "В конце концов, чтобы зажечь новую звезду, старая должна погаснуть, верно? Хи-хи!"
-    seraphina wink "After all, for a new star to ignite, the old one has to fade out, right? Hee-hee!"
+    seraphina wink "After all, for a new star to ignite, the old one has to fade out, right? Tee-hee!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:189
 translate english_us chapter4_5_concert_mid_a862a2ac:
