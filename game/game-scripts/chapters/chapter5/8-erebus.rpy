@@ -350,6 +350,4 @@ label chapter5_ghost_ship:
     scene black with Fade(2.0, 2.0, 2.0)
     stop ambient
     stop music fadeout 5.0
-    
-    call dream_sequence_japan_6 from _call_dream_sequence_japan_6
 return
