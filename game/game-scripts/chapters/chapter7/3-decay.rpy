@@ -1,4 +1,4 @@
-label chapter7_fog_of_war_act4:
+label chapter7_decay:
 
     # --- СЦЕНА 1: НАЧАЛО БОЯ (Труба против Катаны) ---
 
@@ -570,3 +570,4 @@ label chapter7_fog_of_war_act4:
     stop sound fadeout 3.0
 
     # КОНЕЦ 7 ГЛАВЫ
+return

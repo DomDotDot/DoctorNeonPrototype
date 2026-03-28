@@ -1,4 +1,4 @@
-label chapter7_fog_of_war_act3:
+label chapter7_apartments:
 
     # --- СЦЕНА 1: АПАРТАМЕНТЫ МЭРИЛ (Ложная Надежда) ---
 
@@ -237,3 +237,4 @@ label chapter7_fog_of_war_act3:
     narrator "Я бросилась вперед."
 
     # Переход к боевой сцене (Акт 4)
+return
