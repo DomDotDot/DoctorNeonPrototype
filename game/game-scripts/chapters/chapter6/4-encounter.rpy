@@ -1,4 +1,4 @@
-label chapter6_krypton: # --- Сцена 4: Встреча у Кафе ---
+label chapter6_encounter: # --- Сцена 4: Встреча у Кафе ---
 
     scene bg mall_food_court with fade
 

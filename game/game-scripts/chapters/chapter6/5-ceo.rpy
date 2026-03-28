@@ -1,3 +1,4 @@
+label chapter6_ceo:
     # --- Сцена: Телепортация и Штаб-квартира Гелиос ---
 
     # play sound "sfx/teleport_magic_sound.opus"
@@ -626,3 +627,4 @@
 
     scene black with Fade(2.0, 1.0, 2.0)
     stop music fadeout 2.0
+return

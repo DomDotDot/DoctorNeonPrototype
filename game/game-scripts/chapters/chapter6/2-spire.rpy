@@ -1,4 +1,4 @@
-label chapter6_scene2_spire:
+label chapter6_spire:
 
     scene black with fade
     
