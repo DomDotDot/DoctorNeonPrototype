@@ -4,7 +4,7 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter1" 
+TARGET_CHAPTER = "chapter5" 
 
 # 2. Имя выходного файла
 OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
@@ -16,14 +16,14 @@ OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
 CHAPTERS_DB = {
     "chapter1": [
         "chapters/chapter1/1-lab-night.rpy",
-        "flashbacks/krypton/krypton_baddream.rpy"
+        "flashbacks/krypton/krypton_baddream.rpy",
         "chapters/chapter1/2-lab-morning.rpy",
         "chapters/chapter1/3-lab-noon.rpy",
         "chapters/chapter1/3.1-library.rpy",
-        "flashbacks/neon/childhood/1-zurich_flashback.rpy"
+        "flashbacks/neon/1-zurich_flashback.rpy",
         "chapters/chapter1/3.2-library-desk.rpy",
         "chapters/chapter1/4-meeting-start.rpy",
-        "flashbacks/neon/oganesson/1-oganesson_flashback.rpy"
+        "flashbacks/oganesson/1-oganesson_flashback.rpy",
         "chapters/chapter1/5-meeting-end.rpy",
         "chapters/chapter1/6-security-post.rpy",
         "chapters/chapter1/7-confrontation.rpy",
@@ -94,8 +94,8 @@ CHAPTERS_DB = {
     ],
 
     "chapter5": [
-        "chapters/chapter5/1-arrival.rpy",
-        "chapters/chapter5/2-start.rpy",
+        "chapters/chapter5/level-1/1-arrival.rpy",
+        "chapters/chapter5/level-1/2-start.rpy",
         "chapters/chapter5/level-2/3.0-quest-hub-level2.rpy",
         "chapters/chapter5/level-2/3.1-bar.rpy",
         "chapters/chapter5/level-2/3.2-chapel.rpy",
@@ -108,7 +108,7 @@ CHAPTERS_DB = {
         "chapters/chapter5/level-3/4.2-trauma.rpy",
         "chapters/chapter5/level-3/4.3.0-medbay.rpy",
         "chapters/chapter5/level-3/4.4-robotics.rpy",
-        "chapters/chapter5/level-3/4.5-hop-office.rpy"
+        "chapters/chapter5/level-3/4.5-hop-office.rpy",
         "chapters/chapter5/level-4/5.0-monorail.rpy",
         "chapters/chapter5/level-4/5.1-satellite-reception.rpy",
         "chapters/chapter5/level-4/5.2-corridor-alpha.rpy",
@@ -153,7 +153,7 @@ def scan_all_scripts():
     Сканирует ВСЮ папку game-scripts рекурсивно.
     Находит все 'label xxx:' и запоминает, в каких они файлах.
     """
-    root_dir = get_abs_path("") # Получаем полный путь к game-scripts
+    root_dir = get_abs_path("")
     print(f"--- 1. Глобальное сканирование всех скриптов в: {root_dir} ---")
     
     if not os.path.exists(root_dir):
@@ -173,7 +173,7 @@ def scan_all_scripts():
                             match = regex_label.search(line)
                             if match:
                                 label_name = match.group(1)
-                                # Если такой лейбл уже был, не перезаписываем (или можно вывести ворнинг)
+
                                 if label_name not in label_map:
                                     label_map[label_name] = full_path
                                     count += 1
