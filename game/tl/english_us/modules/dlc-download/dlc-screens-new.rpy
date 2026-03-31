@@ -57,3 +57,11 @@ translate english_us strings:
     # game/modules/dlc-download/dlc-screens-new.rpy:131
     old "Отмена"
     new "Cancel"
+# TODO: Translation updated at 2026-03-31 21:34
+
+translate english_us strings:
+
+    # game/modules/dlc-download/dlc-screens-new.rpy:215
+    old "Установка завершена. Выполняется перезапуск..."
+    new "Installation complete. Restarting..."
+
