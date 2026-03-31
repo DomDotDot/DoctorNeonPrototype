@@ -18,6 +18,6 @@ label chapter_5_rpy:
     call chapter5_bridge_and_katana from _call_chapter5_bridge_and_katana
     call chapter5_finale_sacrifice from _call_chapter5_finale_sacrifice
 
-    call chapter5_epilogue_earth
+    call chapter5_epilogue_earth from _call_chapter5_epilogue_earth
 
 return

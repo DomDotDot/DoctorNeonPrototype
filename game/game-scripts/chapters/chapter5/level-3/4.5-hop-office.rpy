@@ -57,7 +57,7 @@ label ch5_level3_hop_office:
 
     if store.ch5_hop_chip_received and not store.ch5_hop_coolant_received and getattr(store, 'ch5_coolant_idea_unlocked', False):
         narrator "Я снова подошла к окну Автоматона."
-        call ch5_level3_coolant_receive
+        call ch5_level3_coolant_receive from _call_ch5_level3_coolant_receive
                 
 label ch5_hop_menu:
     if not store.ch5_hop_coolant_received:
@@ -73,7 +73,7 @@ label ch5_hop_menu:
             
             if store.ch5_hop_chip_received and not store.ch5_hop_coolant_received:
                 if getattr(store, 'ch5_coolant_idea_unlocked', False):
-                    call ch5_level3_coolant_receive
+                    call ch5_level3_coolant_receive from _call_ch5_level3_coolant_receive_1
                 else:
                     "Автоматон" "Ваш запрос уже обработан. Следующий!"
             elif store.ch5_hop_hacked:
@@ -99,7 +99,7 @@ label ch5_hop_menu:
                     $ store.ch5_hop_hacked = False
                     $ store.ch5_hop_ticket_taken = False
                     
-                    call ch5_level3_coolant_receive
+                    call ch5_level3_coolant_receive from _call_ch5_level3_coolant_receive_2
             else:
                 "Автоматон" "Пожалуйста, возьмите талон в терминале и ожидайте своей очереди."
                 neon "Но тут больше никого нет!"
