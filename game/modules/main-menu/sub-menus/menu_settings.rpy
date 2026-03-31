@@ -74,19 +74,35 @@ screen graphics_settings_screen():
 
                 # Правая колонка
                 vbox:
-                    style_prefix "settings_check"
                     spacing 15
 
-                    label _("Доступность")
-                    textbutton _("Включение Чувствительнного контента (18+)"):
-                        action ToggleField(persistent, "sensitive_mode")
-                        tooltip _("Включает отображение откровенных сцен.")
-                    
-                    textbutton _("ИИ Чувствительность"):
-                        action ToggleField(persistent, "ai_sensitive_mode")
+                    vbox:
+                        style_prefix "settings_slider"
+                        spacing 5
+                        xsize 400
+                        
+                        $ cps_val = int(preferences.text_cps)
+                        $ cps_text = str(cps_val) if cps_val > 0 else _("Мгн.")
+                        
+                        label _("Скорость текста: ") + cps_text
+                        bar value Preference("text speed") xsize 400
 
-                    textbutton _("Крупный шрифт"):
-                        action ToggleField(persistent, "font_size_large")
+                    null height 15
+
+                    vbox:
+                        style_prefix "settings_check"
+                        spacing 15
+
+                        label _("Доступность")
+                        textbutton _("Включение Чувствительнного контента (18+)"):
+                            action ToggleField(persistent, "sensitive_mode")
+                            tooltip _("Включает отображение откровенных сцен.")
+                        
+                        textbutton _("ИИ Чувствительность"):
+                            action ToggleField(persistent, "ai_sensitive_mode")
+
+                        textbutton _("Крупный шрифт"):
+                            action ToggleField(persistent, "font_size_large")
 
                     
 
