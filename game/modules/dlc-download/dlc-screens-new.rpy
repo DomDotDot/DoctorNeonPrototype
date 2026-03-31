@@ -156,7 +156,7 @@ label dlc_check_sequence:
     return
 
 # Главный лейбл менеджера
-label dlc_manager_main(first_run=False):
+label dlc_manager_main(first_run=False, is_in_game=False):
     
     # 1. Показать экран выбора
     call screen dlc_selection_screen(dlc_catalog, first_run)
@@ -203,5 +203,18 @@ label dlc_manager_main(first_run=False):
             return
 
         $ q_idx += 1
+
+    # После скачивания всех файлов
+    if q_len > 0:
+        python:
+            if is_in_game:
+                # Тихое автосохранение, чтобы мы вернулись в ту же точку
+                renpy.save("auto-dlc", "Обновление файлов DLC")
+                persistent.dlc_reload_save = "auto-dlc"
+                
+            renpy.notify(_("Установка завершена. Выполняется перезапуск..."))
+            
+        $ renpy.pause(2.0, hard=True)
+        $ renpy.utter_restart()
 
     return

@@ -261,7 +261,7 @@ screen quick_menu():
             textbutton _("Сохранить") action ShowMenu('save')
             textbutton _("Б.Сохр") action QuickSave()
             textbutton _("Б.Загр") action QuickLoad()
-            textbutton _("Опции") action ShowMenu('preferences')
+            textbutton _("Опции") action ShowMenu('settings_menu')
 
 
 ## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
@@ -312,7 +312,7 @@ screen navigation():
 
         textbutton _("Загрузить") action ShowMenu("load")
 
-        textbutton _("Настройки") action ShowMenu("preferences")
+        textbutton _("Настройки") action ShowMenu("settings_menu")
 
         if renpy.get_screen("main_menu"):
             textbutton _("Воспоминания") action ShowMenu("memory_recollection")
