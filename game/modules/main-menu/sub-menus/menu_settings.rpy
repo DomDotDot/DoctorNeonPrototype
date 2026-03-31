@@ -7,8 +7,12 @@ screen settings_menu():
     zorder 25
     modal True
 
-    use main_menu_background
-    key "game_menu" action ShowMenu("main_menu")
+    if main_menu:
+        use main_menu_background
+    else:
+        add Solid("#000000b3")
+        
+    key "game_menu" action Return()
 
     frame:
         style "modern_panel"
@@ -23,14 +27,14 @@ screen settings_menu():
             textbutton _("Язык") action ShowMenu("language_selection_screen") style "modern_button"
             
             if not renpy.variant("web"):
-                textbutton _("DLC Контент") action Start("dlc_manager_main") style "modern_button"
+                textbutton _("DLC Контент") action Function(renpy.call_in_new_context, "dlc_manager_main", is_in_game=not main_menu) style "modern_button"
             else:
                 textbutton _("DLC Контент (Только ПК)") action None style "modern_button" text_color "#888"
 
             textbutton _("Управление данными") action ShowMenu("data_settings_screen") style "modern_button" text_color "#a11919"
 
             null height 30
-            textbutton _("Назад") action ShowMenu("main_menu") style "modern_back_button"
+            textbutton _("Назад") action Return() style "modern_back_button"
 
 
 ################################################################################
@@ -42,7 +46,11 @@ screen graphics_settings_screen():
     zorder 50
     modal True
 
-    use main_menu_background
+    if main_menu:
+        use main_menu_background
+    else:
+        add Solid("#000000b3")
+        
     key "game_menu" action ShowMenu("settings_menu") 
 
     frame:
@@ -119,7 +127,11 @@ screen sound_settings_screen():
     zorder 50
     modal True
     
-    use main_menu_background
+    if main_menu:
+        use main_menu_background
+    else:
+        add Solid("#000000b3")
+        
     key "game_menu" action ShowMenu("settings_menu") 
 
     frame:
