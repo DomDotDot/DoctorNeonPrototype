@@ -1,4 +1,4 @@
-label chapter8_school_days_act3:
+label chapter8_locker_room:
 
     # --- СЦЕНА 1: РАЗДЕВАЛКА (Ожидание) ---
 
@@ -85,7 +85,7 @@ label chapter8_school_days_act3:
 
     show anna school_smile at right with dissolve
 
-    anna "И правда мило. Тебе очень идет этот цвет, Неон. Где покупала?"
+    anna "И правда мило. Тебе очень идет этот цвет, Хошико. Где покупала?"
 
     narrator """
         Я стояла, парализованная смущением. 
@@ -130,7 +130,7 @@ label chapter8_school_days_act3:
         Алекс подошла ко мне. Её взгляд смягчился.
     """
 
-    alex "{=whisper}Неон, если тебе здесь некомфортно... ты можешь переодеваться в кладовке нашего клуба. Там никого нет. У меня есть ключи.{/whisper}"
+    alex "{=whisper}Хошико, если тебе здесь некомфортно... ты можешь переодеваться в кладовке нашего клуба. Там никого нет. У меня есть ключи.{/whisper}"
 
     narrator """
         Её предложение было наполнено искренней, обволакивающей заботой. 
@@ -189,5 +189,4 @@ label chapter8_school_days_act3:
     scene black with Fade(2.0, 1.0, 2.0)
     stop ambient fadeout 2.0
     stop music fadeout 2.0
-
-    # Конец Акта 3
+return
