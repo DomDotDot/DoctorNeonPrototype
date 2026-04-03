@@ -286,7 +286,7 @@ translate english_us confrontation_path_666cd26b:
 translate english_us confrontation_path_72b9e8a7:
 
     # narrator "Ее взгляд упал на тяжелые металлические стулья вдоль... чего-то..."
-    narrator "Her gaze fell on the heavy metal chairs alongside...something...."
+    narrator "Her gaze fell on the heavy metal bench alongside...something...."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:135
 translate english_us confrontation_path_7e56df8b:
@@ -298,7 +298,7 @@ translate english_us confrontation_path_7e56df8b:
 translate english_us confrontation_path_db555a89:
 
     # narrator "А стулья, эти тяжелые металлические стулья, кажутся ей единственным оружием в этом мире, способным нанести удар по самому сердцу ее мучителя."
-    narrator "And the only possible weapon in this world, the chairs, those heavy metal chairs, seem to her to deliver a blistering blow to the very heart of her tormentor."
+    narrator "And the only possible weapon in this world, the bench, this heavy metal bench, seem to her to deliver a blistering blow to the very heart of her tormentor."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:152
 translate english_us confrontation_path_ba3786cf:
@@ -334,7 +334,7 @@ translate english_us confrontation_path_9b6dd43c:
 translate english_us confrontation_path_ce12bac7:
 
     # narrator "Она шагнула к одному из стульев. Алекс, увидев выражение ее лица, испуганно отшатнулась."
-    narrator "She strode toward one of the chairs. Alex, seeing the look on her face, recoiled in fear."
+    narrator "She strode toward one of the benches. Alex, seeing the look on her face, recoiled in fear."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:160
 translate english_us confrontation_path_5d7ed97b:
@@ -346,7 +346,7 @@ translate english_us confrontation_path_5d7ed97b:
 translate english_us confrontation_path_1270d82b:
 
     # narrator "Но Неон уже не слышала ее. Она схватилась за спинку стула."
-    narrator "But Neon couldn't hear her anymore. She grabbed the back of the chair."
+    narrator "But Neon couldn't hear her anymore. She grabbed the back of the bench."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:164
 translate english_us confrontation_path_e808a93b:
@@ -358,13 +358,13 @@ translate english_us confrontation_path_e808a93b:
 translate english_us confrontation_path_282296a3:
 
     # narrator "С криком, вырвавшимся из глубины души, она оторвала стул от пола."
-    narrator "With a scream that tore from the depths of her soul, she ripped the chair off the floor."
+    narrator "With a scream that tore from the depths of her soul, she ripped the bench off the floor."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:177
 translate english_us confrontation_path_528d11b7:
 
     # marcus suit_panic "Ты... Ты что, совсем рехнулась?! Положи стул!"
-    marcus suit_panic "Are... Are you completely insane?! Put the chair down!"
+    marcus suit_panic "Are... Are you completely insane?! Put the bench down!"
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:179
 translate english_us confrontation_path_5523c12d:
@@ -679,7 +679,7 @@ translate english_us confrontation_path_b32c9a31:
 translate english_us confrontation_path_bff1ee3c:
 
     # narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
-    narrator "She grabbed Neon's wrist, trying to hold back the hand gripping the chair."
+    narrator "She grabbed Neon's wrist, trying to hold back the hand gripping the bench."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:215
 translate english_us confrontation_path_9f39e8b5:
@@ -721,7 +721,7 @@ translate english_us confrontation_path_c33fa559:
 translate english_us confrontation_path_56fcd7a7:
 
     # narrator "Она схватилась за спинку стула."
-    narrator "She gripped the back of the chair."
+    narrator "She gripped the back of the bench."
     
 # TODO: Translation updated at 2025-12-30 22:19
 
@@ -1397,7 +1397,7 @@ translate english_us chapter1_confrontation_path_666cd26b:
 translate english_us chapter1_confrontation_path_72b9e8a7:
 
     # narrator "Ее взгляд упал на тяжелые металлические стулья вдоль... чего-то..."
-    narrator "Her gaze fell on the heavy metal chairs lining... something..."
+    narrator "Her gaze fell on the heavy metal bench lining... something..."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:320
 translate english_us chapter1_confrontation_path_7e56df8b:
@@ -1409,7 +1409,7 @@ translate english_us chapter1_confrontation_path_7e56df8b:
 translate english_us chapter1_confrontation_path_db555a89:
 
     # narrator "А стулья, эти тяжелые металлические стулья, кажутся ей единственным оружием в этом мире, способным нанести удар по самому сердцу ее мучителя."
-    narrator "And the chairs, those heavy metal chairs, seem to her the only weapon in this world capable of striking the very heart of her tormentor."
+    narrator "And the bench, this heavy metal bench, seem to her the only weapon in this world capable of striking the very heart of her tormentor."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:334
 translate english_us chapter1_confrontation_path_ba3786cf:
@@ -1457,7 +1457,7 @@ translate english_us chapter1_confrontation_path_5d7ed97b:
 translate english_us chapter1_confrontation_path_bff1ee3c:
 
     # narrator "Она схватила Неон за запястье, пытаясь удержать руку со стулом."
-    narrator "She grabbed Neon by the wrist, trying to hold back the arm holding the chair."
+    narrator "She grabbed Neon by the wrist, trying to hold back the arm holding the bench."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:358
 translate english_us chapter1_confrontation_path_9f39e8b5:
@@ -1499,7 +1499,7 @@ translate english_us chapter1_confrontation_path_c33fa559:
 translate english_us chapter1_confrontation_path_56fcd7a7:
 
     # narrator "Она схватилась за спинку стула."
-    narrator "She grabbed the back of the chair."
+    narrator "She grabbed the back of the bench."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:382
 translate english_us chapter1_confrontation_path_e808a93b:
@@ -1511,13 +1511,13 @@ translate english_us chapter1_confrontation_path_e808a93b:
 translate english_us chapter1_confrontation_path_282296a3:
 
     # narrator "С криком, вырвавшимся из глубины души, она оторвала стул от пола."
-    narrator "With a scream torn from the depths of her soul, she lifted the chair off the floor."
+    narrator "With a scream torn from the depths of her soul, she lifted the bench off the floor."
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:396
 translate english_us chapter1_confrontation_path_528d11b7:
 
     # marcus suit_panic "Ты... Ты что, совсем рехнулась?! Положи стул!"
-    marcus suit_panic "Are... are you out of your mind?! Put the chair down!"
+    marcus suit_panic "Are... are you out of your mind?! Put the bench down!"
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:398
 translate english_us chapter1_confrontation_path_5523c12d:
