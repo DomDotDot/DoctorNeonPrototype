@@ -4,7 +4,7 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter5" 
+TARGET_CHAPTER = "chapter4.5" 
 
 # 2. Имя выходного файла
 OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
@@ -107,6 +107,7 @@ CHAPTERS_DB = {
         "chapters/chapter5/level-3/4.1-research-department.rpy",
         "chapters/chapter5/level-3/4.2-trauma.rpy",
         "chapters/chapter5/level-3/4.3.0-medbay.rpy",
+        "chapters/chapter5/level-3/4.3.1-genetics.rpy",
         "chapters/chapter5/level-3/4.4-robotics.rpy",
         "chapters/chapter5/level-3/4.5-hop-office.rpy",
         "chapters/chapter5/level-4/5.0-monorail.rpy",
@@ -133,8 +134,30 @@ CHAPTERS_DB = {
         "chapters/chapter6/4-encounter.rpy",
         "chapters/chapter6/5-ceo.rpy",
         "chapters/chapter6/6-beautiful-night.rpy",
+    ],
+
+    "chapter7": [
+        "chapters/chapter7/1-library.rpy",
+        "chapters/chapter7/2-family-apartment.rpy",
+        "chapters/chapter7/3-decay.rpy",
+    ],
+
+    "chapter8": [
+        "chapters/chapter8/1-drown.rpy",
+        "chapters/chapter8/2-schooldays.rpy",
+        "chapters/chapter8/3-lockedroom.rpy",
+        "chapters/chapter8/4-basketball.rpy",
+        "chapters/chapter8/5-infirmary.rpy",
     ]
 }
+
+# Путь к папке со всеми скриптами (относительно devtools)
+PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
+
+# ================= ЛОГИКА =================
+
+# Словарь: "label_name" -> "full_path_to_file"
+
 
 # Путь к папке со всеми скриптами (относительно devtools)
 PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
