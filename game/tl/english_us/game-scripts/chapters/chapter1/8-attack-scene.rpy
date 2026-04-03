@@ -46,7 +46,7 @@ translate english_us marcus_attack_scene_28bca75e:
 translate english_us marcus_attack_scene_8514554c:
 
     # narrator "Она занесла тяжелый металлический стул над головой." with hpunch
-    narrator "She raised the heavy metal chair over her head." with hpunch
+    narrator "She raised the heavy metal bench over her head." with hpunch
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:24
 translate english_us marcus_attack_scene_bcdda641:
@@ -76,7 +76,7 @@ translate english_us marcus_attack_scene_faf66d92:
 translate english_us marcus_attack_scene_70734749:
 
     # narrator "Неон, не останавливаясь ни на секунду, снова подняла стул."
-    narrator "Without pausing for a second, Neon raised the chair again."
+    narrator "Without pausing for a second, Neon raised the bench again."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:31
 translate english_us marcus_attack_scene_8fa8e107:
@@ -130,7 +130,7 @@ translate english_us marcus_attack_scene_b3084ad7:
 translate english_us marcus_attack_scene_dc5f86a6:
 
     # narrator "Она обошла распростертое тело Маркуса, нависая над ним, как хищник над добычей. Стул все еще был в ее руках."
-    narrator "She circled Marcus's prone body, looming over him like a predator over its prey. The chair was still in her hands."
+    narrator "She circled Marcus's prone body, looming over him like a predator over its prey. The bench was still in her hands."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:67
 translate english_us marcus_attack_scene_24aaff8a:
@@ -160,7 +160,7 @@ translate english_us marcus_attack_scene_ee4a6119:
 translate english_us marcus_attack_scene_a7e6db35:
 
     # narrator "Неон стояла над ним, тяжело дыша. Стул со стуком выпал из ее ослабевших рук за её спину."
-    narrator "Neon stood over him, breathing heavily. The chair clattered from her weakened hands, falling behind her."
+    narrator "Neon stood over him, breathing heavily. The bench clattered from her weakened hands, falling behind her."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:82
 translate english_us marcus_attack_scene_2e9bbb00:
@@ -234,7 +234,7 @@ translate english_us chapter1_marcus_attack_scene_28bca75e:
 translate english_us chapter1_marcus_attack_scene_80418034:
 
     # narrator "Она занесла тяжелый металлический стул над головой."
-    narrator "She raised the heavy metal chair above her head."
+    narrator "She raised the heavy metal bench above her head."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:24
 translate english_us chapter1_marcus_attack_scene_cd4cd410:
@@ -264,7 +264,7 @@ translate english_us chapter1_marcus_attack_scene_faf66d92:
 translate english_us chapter1_marcus_attack_scene_70734749:
 
     # narrator "Неон, не останавливаясь ни на секунду, снова подняла стул."
-    narrator "Neon, without stopping for a second, raised the chair again."
+    narrator "Neon, without stopping for a second, raised the bench again."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:38
 translate english_us chapter1_marcus_attack_scene_8fa8e107:
@@ -318,7 +318,7 @@ translate english_us chapter1_marcus_attack_scene_b3084ad7:
 translate english_us chapter1_marcus_attack_scene_dc5f86a6:
 
     # narrator "Она обошла распростертое тело Маркуса, нависая над ним, как хищник над добычей. Стул все еще был в ее руках."
-    narrator "She walked around Marcus's spread-eagled body, looming over him like a predator over prey. The chair was still in her hands."
+    narrator "She walked around Marcus's spread-eagled body, looming over him like a predator over prey. The bench was still in her hands."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:70
 translate english_us chapter1_marcus_attack_scene_24aaff8a:
@@ -348,7 +348,7 @@ translate english_us chapter1_marcus_attack_scene_ee4a6119:
 translate english_us chapter1_marcus_attack_scene_a7e6db35:
 
     # narrator "Неон стояла над ним, тяжело дыша. Стул со стуком выпал из ее ослабевших рук за её спину."
-    narrator "Neon stood over him, breathing heavily. The chair tumbled from her weakened hands, clattering behind her."
+    narrator "Neon stood over him, breathing heavily. The bench tumbled from her weakened hands, clattering behind her."
 
 # game/game-scripts/chapters/chapter1/8-attack-scene.rpy:85
 translate english_us chapter1_marcus_attack_scene_b8d5113d:

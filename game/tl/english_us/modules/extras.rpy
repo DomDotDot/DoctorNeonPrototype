@@ -79,8 +79,8 @@ translate english_us strings:
     new "If you are under 18 years of age or sensitive to such topics, please refrain from playing."
 
     # game/modules/extras.rpy:164
-    old "ПОДТВЕРДИТЬ И НАЧАТЬ"
-    new "CONFIRM AND PLAY"
+    old "ПОДТВЕРДИТЬ"
+    new "CONFIRM"
 
 # TODO: Translation updated at 2026-03-07 22:47
 

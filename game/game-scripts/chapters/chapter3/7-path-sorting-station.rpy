@@ -99,7 +99,7 @@ label ch3_path_to_station:
     narrator "Его слова были холодными и жестокими, но я понимала, что в них правда. Я больше не могла надеяться на систему, частью которой была. Мне нужно было создать свою собственную систему правил."
 
     scene black with Dissolve(5.0)
-    play music "music/BGM/FM-Modul.opus" fadein 5.0 fadeout 10.0 volume 0.5
+    play music "music/BGM/FM-Modul.opus" fadein 5.0 fadeout 10.0 volume 0.75
     rico "Стоп. Здесь."
     narrator "Фургон остановился. Мы оказались на огромной, тускло освещенной сортировочной станции."
 

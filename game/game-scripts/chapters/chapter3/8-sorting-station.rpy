@@ -50,7 +50,7 @@ label chapter3_the_heist_start:
 
     # play sound "sounds/spotlight_turn_on_whirr.opus" # Звук включения мощных прожекторов
     scene bg chapter_3_sorting-station-escape with dissolve
-    play music "music/BGM/CrumpledShucks.opus" fadein 5.0 fadeout 10.0 volume 0.25
+    play music "music/BGM/CrumpledShucks.opus" fadein 5.0 fadeout 10.0 volume 0.5
 
     narrator "Станцию внезапно залил яркий, слепящий свет прожекторов. Со всех сторон раздались крики и свистки."
     "Командир Охраны" "Стоять! Охрана станции! Бросай оружие!"

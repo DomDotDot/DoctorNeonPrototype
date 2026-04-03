@@ -58,7 +58,7 @@ label chapter3_part1_start:
 
 
     scene bg chapter_3_start-mainhall with Dissolve(5.0)
-    queue music "music/BGM/Revpad.opus" fadein 5.0 loop volume 0.5
+    queue music "music/BGM/Revpad.opus" fadein 5.0 loop volume 0.75
     show neon neutral at right with dissolve
 
     narrator """

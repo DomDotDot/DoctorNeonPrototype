@@ -1,6 +1,6 @@
 label ch3_long_corridor:
     scene bg chapter_3_long-hall-hall with fade
-    play music "music/BGM/GreyPaint.opus" fadein 15.0 fadeout 15.0 volume 0.125
+    play music "music/BGM/GreyPaint.opus" fadein 15.0 fadeout 15.0 volume 0.5
     narrator """
     Коридор, открывшийся за воротами, делал небольшой изгиб влево, а затем резко поворачивал направо.
 
