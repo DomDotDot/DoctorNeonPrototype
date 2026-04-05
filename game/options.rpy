@@ -221,6 +221,7 @@ init python:
     build.classify('**.zip', None)
 
     build.classify('README.md', None)
+    build.classify('README.ru.md', None)
     build.classify('LICENSE', None)
 
     # Изображения
