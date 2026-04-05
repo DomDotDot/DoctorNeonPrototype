@@ -199,8 +199,7 @@
         "audio/sfx/two-cars-passing.opus",
         "audio/sfx/yandere-laugh.opus",
         "audio/voice/escaping_facility_grounds_c1f78dab.ogg",
-        "audio/voice/voice_sample.ogg",
-        "tl/english_us/audio/voice/escaping_facility_grounds_c1f78dab.ogg"
+        "audio/voice/voice_sample.ogg"
     ],
-    "version": "0.7.0r-stable"
+    "version": "0.7.3-stable"
 }
