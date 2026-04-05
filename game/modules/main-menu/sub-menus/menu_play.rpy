@@ -25,13 +25,13 @@ init python:
 init 1 python:
     chapter_items = []
     # add_chapter("chapter_0", _("Глава 0"), _("Пролог"), "images/bg_prologue.avif", "chapter_0_unlocked")
-    add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/backgrounds/bg chapter_1_lab_corridor_1.avif", "chapter_1_unlocked")
-    add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/backgrounds/bg chapter_2_false_memories-alex_call.avif", "chapter_2_unlocked")
+    add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/cg/vol1/chapter1/ch01_cg23_v01.avif", "chapter_1_unlocked")
+    add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/cg/vol1/chapter2/featured_cg-8_2.avif", "chapter_2_unlocked")
     add_chapter("chapter_3", _("Глава 3"), _("Эскапизм"), "images/backgrounds/bg chapter_3_sorting-station-start.avif", "chapter_3_unlocked")
-    add_chapter("chapter_4", _("Глава 4.0"), _("Ковчег на мели"), "images/backgrounds/bg chapter_4_ark-aground-veritas-station.avif", "chapter_4_unlocked")
-    add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_garden-bonatic-interior.avif", "chapter_4_5a_unlocked")
-    add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/backgrounds/bg chapter_4_academy-veritas-central.avif", "chapter_4_5b_unlocked")
-    add_chapter("chapter_5", _("Глава 5"), _("---"), "images/backgrounds/bg prologue_spacepod.avif", "chapter_5_unlocked")
+    add_chapter("chapter_4", _("Глава 4.0"), _("Ковчег на мели"), "images/cg/vol1/chapter4-0/featured_cg-29.avif", "chapter_4_unlocked")
+    add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5a/featured_cg-31_2.avif", "chapter_4_5a_unlocked")
+    add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5b/featured_7a-cg-2.avif", "chapter_4_5b_unlocked")
+    add_chapter("chapter_5", _("Глава 5"), _("Предложение, от которого нельзя отказаться"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_5_unlocked")
 
 default persistent.chapter_1_unlocked = True
 

@@ -263,7 +263,7 @@ translate english_us chapter4_5_concert_mid_50542844:
 translate english_us chapter4_5_concert_mid_1aad4952:
 
     # seraphina "Но не присылайте слишком много, а то я не влезу в свои костюмы! Хи-хи!"
-    seraphina "But don't send too much, or I won't fit into my costumes! Hee-hee!"
+    seraphina "But don't send too much, or I won't fit into my costumes! Tee-hee!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:121
 translate english_us chapter4_5_concert_mid_73c9c748:
@@ -455,7 +455,7 @@ translate english_us chapter4_5_concert_mid_638fe046:
 translate english_us chapter4_5_concert_mid_203ab3fb:
 
     # seraphina wink "В конце концов, чтобы зажечь новую звезду, старая должна погаснуть, верно? Хи-хи!"
-    seraphina wink "After all, for a new star to ignite, the old one has to fade out, right? Hee-hee!"
+    seraphina wink "After all, for a new star to ignite, the old one has to fade out, right? Tee-hee!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:189
 translate english_us chapter4_5_concert_mid_a862a2ac:
@@ -641,7 +641,7 @@ translate english_us chapter4_5_concert_mid_2e2af97e:
 translate english_us chapter4_5_concert_mid_15f86be7:
 
     # seraphina wink "Это — только для платных подписчиков. Хи-хи!"
-    seraphina wink "That's for paid subscribers only. Hee-hee!"
+    seraphina wink "That's for paid subscribers only. Tee-hee!"
 
 # game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:280
 translate english_us chapter4_5_concert_mid_7f302ef3:

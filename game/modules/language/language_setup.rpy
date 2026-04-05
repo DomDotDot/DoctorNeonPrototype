@@ -25,7 +25,7 @@ init -1 python:
     # Обновлять вручную перед релизом!!
     TRANSLATION_STATUS = {
     None: 100,
-    "english_us": 80,
+    "english_us": 95,
 }
 
     def get_lang_progress(code):

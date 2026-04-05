@@ -75,7 +75,7 @@ screen content_warning_screen():
 
             null height 15
 
-            textbutton _("ПОДТВЕРДИТЬ И НАЧАТЬ"):
+            textbutton _("ПОДТВЕРДИТЬ"):
                 action Return() 
                 style "danger_button"
                 xsize 400

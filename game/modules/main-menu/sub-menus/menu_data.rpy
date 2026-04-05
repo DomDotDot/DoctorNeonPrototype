@@ -155,7 +155,12 @@ init python:
 screen data_settings_screen():
     tag menu
     modal True
-    use main_menu_background
+    
+    if main_menu:
+        use main_menu_background
+    else:
+        add Solid("#000000b3")
+        
     key "game_menu" action ShowMenu("settings_menu")
 
     frame:

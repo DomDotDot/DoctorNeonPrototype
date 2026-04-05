@@ -1,4 +1,10 @@
 label splashscreen:
+    
+    # Автоподгрузка при перезапуске после скачивания файлов DLC
+    if getattr(persistent, "dlc_reload_save", None):
+        $ save_name = persistent.dlc_reload_save
+        $ persistent.dlc_reload_save = None
+        $ renpy.load(save_name)
 
     # -----------------------------------------------------------
     # 1. ТЕХНИЧЕСКИЕ ПРОВЕРКИ (На черном фоне)

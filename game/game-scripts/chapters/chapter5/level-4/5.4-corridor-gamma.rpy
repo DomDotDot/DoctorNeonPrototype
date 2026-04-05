@@ -1,0 +1,65 @@
+# --- КОРИДОР C: МОДУЛЬ ШИФРОВАНИЯ (Загадка скрытого смысла + таймер) ---
+
+label ch5_corridor_gamma:
+    scene bg space_station_hos_office with dissolve
+    
+    if ch5_corridor_gamma_solved:
+        narrator "Генератор C работает. Акростих разгадан."
+        jump ch5_satellite_reception_menu
+    
+    # Глобальный таймер работает в фоне (global_satellite_timer_screen)
+    
+    narrator """
+        Коридор C — Модуль Шифрования.
+        
+        Стены покрыты выгравированными символами и текстами на разных языках. В конце коридора — терминал ввода кода рядом с последним генератором.
+    """
+    
+    if ch5_satellite_timer_active:
+        narrator "Свет в коридоре пульсирует красным. Отсчёт до перегрузки всё ещё идёт."
+    
+    narrator """
+        На главной стене, прямо перед терминалом, выгравирован текст:
+        
+        'Нексус хранит тайны тысячелетий.
+
+        Единство систем — наша крепость.
+
+        Оболочка защищает ядро от хаоса.
+        
+        Нить связи не должна прерываться.'
+    """
+label ch5_corridor_gamma_input:
+    
+    # Экран ввода кода. Таймер продолжает идти в фоне.
+    
+    $ gamma_code_input = renpy.input(_("Введите код:"), length=10)
+    $ gamma_code_input = gamma_code_input.strip().lower()
+    
+    if gamma_code_input == "неон" or gamma_code_input == "neon":
+        play sound "sfx/power_up.opus"
+
+        $ ch5_corridor_gamma_solved = True
+        $ ch5_core_corridor_open = True
+        $ ch5_satellite_timer_active = False
+        hide screen global_satellite_timer_screen
+        
+        narrator """
+            Терминал пискнул. Код принят.
+            
+            Генератор C заревел, выходя на полную мощность. Всё помещение залил яркий зелёный свет.
+            
+            На экране терминала появилось сообщение:
+            'ВСЕ ГЕНЕРАТОРЫ АКТИВНЫ. ЭНЕРГЕТИЧЕСКИЙ ЗАТВОР ЯДРА — СНЯТ.'
+        """
+        
+        neon "Серьёзно? 'Неон'? Какое интересное совпадение... Будто кто-то знал меня и специально создал такую загадку. Кому это могло быть нужно...?"
+        neon "Так... ладно.Ядро открыто! Мне нужно попасть туда, пока генераторы держатся."
+        
+        jump ch5_satellite_reception_menu
+    else:
+        play sound "sfx/alarm_klaxon_single.opus"
+        narrator "'ОШИБКА. Неверный код.' Терминал мигнул красным."
+        neon "{=thoughts}Нет, не так. Перечитать текст на стене. Первые буквы строк...{/thoughts}"
+        jump ch5_corridor_gamma_input
+

@@ -1012,7 +1012,7 @@ translate english_us chapter4_5_classroom_intro_70561e43:
 translate english_us chapter4_5_classroom_intro_29c87b0d:
 
     # lily "Да, конечно, сенсей! Надеюсь, это будет не просто еще одна скучная лекция? Хи-хи!"
-    lily "Yes, of course, Sensei! I hope it won't be just another boring lecture? He-he!"
+    lily "Yes, of course, Sensei! I hope it won't be just another boring lecture? Tee-hee!"
 
 # game/game-scripts/chapters/chapter4.5/7-academic.rpy:473
 translate english_us chapter4_5_classroom_intro_f31fa291:

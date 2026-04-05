@@ -148,15 +148,11 @@ style chapter_title_text is text:
     size 22
     bold True
     color "#eba900"
-    xalign 0.5
-    text_align 0.5
     layout "subtitle"
 
 style chapter_subtitle_text is text:
-    size 18
+    size 16
     color "#cccccc"
-    xalign 0.5
-    text_align 0.5
 
 #
 # Danger / Safe Zones (Data Menu)

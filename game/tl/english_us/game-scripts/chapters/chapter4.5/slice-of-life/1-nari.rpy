@@ -118,7 +118,7 @@ translate english_us chapter4_5_nari_flashback_479131c6:
 translate english_us chapter4_5_nari_flashback_379e7978:
 
     # narrator "Снаружи, над входом в подъезд, жужжала старая неоновая вывеска в виде гитары. Я повесила её вчера с Аямой, чтобы обозначить, что здесь больше не живут призраки прошлого. Здесь живет Рок-группа."
-    narrator "Снаружи, над входом в подъезд, жужжала старая неоновая вывеска в виде гитары. Я повесила её вчера с Аямой, чтобы обозначить, что здесь больше не живут призраки прошлого. Здесь живет Рок-группа."
+    narrator "Outside, above the entrance to the building, an old neon sign shaped like a guitar was humming. I hung it up yesterday with Ayame to show that the building is not abandoned anymore. A rock band lives here now."
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:39
 translate english_us chapter4_5_nari_flashback_5ccd750d:
@@ -604,7 +604,7 @@ translate english_us chapter4_5_nari_flashback_3764bacb:
 translate english_us chapter4_5_nari_flashback_69f16c1e:
 
     # narrator "Она зашла в комнату, таща за собой смущенную, но довольную Лили. Гитара все еще висела у неё на плече как трофей."
-    narrator "Она зашла в комнату, таща за собой смущенную, но довольную Лили. Гитара все еще висела у неё на плече как трофей."
+    narrator "She went into the room, dragging along a flustered but pleased Lily. The guitar was still slung over her shoulder like a badge of honor."
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:272
 translate english_us chapter4_5_nari_flashback_e2148d0d:

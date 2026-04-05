@@ -4,7 +4,7 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter6" 
+TARGET_CHAPTER = "chapter4.5" 
 
 # 2. Имя выходного файла
 OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
@@ -16,19 +16,19 @@ OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
 CHAPTERS_DB = {
     "chapter1": [
         "chapters/chapter1/1-lab-night.rpy",
+        "flashbacks/krypton/krypton_baddream.rpy",
         "chapters/chapter1/2-lab-morning.rpy",
         "chapters/chapter1/3-lab-noon.rpy",
         "chapters/chapter1/3.1-library.rpy",
+        "flashbacks/neon/1-zurich_flashback.rpy",
         "chapters/chapter1/3.2-library-desk.rpy",
         "chapters/chapter1/4-meeting-start.rpy",
+        "flashbacks/oganesson/1-oganesson_flashback.rpy",
         "chapters/chapter1/5-meeting-end.rpy",
         "chapters/chapter1/6-security-post.rpy",
         "chapters/chapter1/7-confrontation.rpy",
         "chapters/chapter1/8-attack-scene.rpy",
-        "chapters/chapter1/9-escape-start.rpy",
-        "chapters/chapter1/10-escape-mid.rpy",
-        "chapters/chapter1/11-escape-end.rpy",
-        "chapters/chapter1/11-escape-end.rpy",
+        "chapters/chapter1/9-escape.rpy",
     ],
 
     "chapter2": [
@@ -94,21 +94,37 @@ CHAPTERS_DB = {
     ],
 
     "chapter5": [
-        "chapters/chapter5/1-arrival.rpy",
-        "chapters/chapter5/2-start.rpy",
-        "chapters/chapter5/3-station-hub.rpy",
-        "chapters/chapter5/3.0-quest-hub-level2.rpy",
-        "chapters/chapter5/3.0-quest-hub-level3.rpy",
-        "chapters/chapter5/3.1-bar.rpy",
-        "chapters/chapter5/3.2-chapel.rpy",
-        "chapters/chapter5/3.3-library.rpy",
-        "chapters/chapter5/3.4-server.rpy",
-        "chapters/chapter5/4-brig.rpy",
-        "chapters/chapter5/5-permabrig.rpy",
-        "chapters/chapter5/6-erebus.rpy",
-        "chapters/chapter5/7-bridge.rpy",
-        "chapters/chapter5/8-father.rpy",
-        "chapters/chapter5/9-epilogue.rpy",
+        "chapters/chapter5/level-1/1-arrival.rpy",
+        "chapters/chapter5/level-1/2-start.rpy",
+        "chapters/chapter5/level-2/3.0-quest-hub-level2.rpy",
+        "chapters/chapter5/level-2/3.1-bar.rpy",
+        "chapters/chapter5/level-2/3.2-chapel.rpy",
+        "chapters/chapter5/level-2/3.3-library.rpy",
+        "chapters/chapter5/level-2/3.4-elevator.rpy",
+        "chapters/chapter5/level-2/3.5-cargo.rpy",
+        "chapters/chapter5/level-2/3.6-dorms.rpy",
+        "chapters/chapter5/level-3/4.0-quest-hub-level3.rpy",
+        "chapters/chapter5/level-3/4.1-research-department.rpy",
+        "chapters/chapter5/level-3/4.2-trauma.rpy",
+        "chapters/chapter5/level-3/4.3.0-medbay.rpy",
+        "chapters/chapter5/level-3/4.3.1-genetics.rpy",
+        "chapters/chapter5/level-3/4.4-robotics.rpy",
+        "chapters/chapter5/level-3/4.5-hop-office.rpy",
+        "chapters/chapter5/level-4/5.0-monorail.rpy",
+        "chapters/chapter5/level-4/5.1-satellite-reception.rpy",
+        "chapters/chapter5/level-4/5.2-corridor-alpha.rpy",
+        "chapters/chapter5/level-4/5.3-corridor-beta.rpy",
+        "chapters/chapter5/level-4/5.4-corridor-gamma.rpy",
+        "chapters/chapter5/level-4/5.5-corridor-core.rpy",
+        "chapters/chapter5/level-4/5.6-ai-core.rpy",
+        "chapters/chapter5/level-4/5.7-generators-failed.rpy",
+        "chapters/chapter5/5-server.rpy",
+        "chapters/chapter5/6-brig.rpy",
+        "chapters/chapter5/7-permabrig.rpy",
+        "chapters/chapter5/8-erebus.rpy",
+        "chapters/chapter5/9-bridge.rpy",
+        "chapters/chapter5/10-father.rpy",
+        "chapters/chapter5/11-epilogue.rpy",
     ],
 
     "chapter6": [
@@ -116,9 +132,32 @@ CHAPTERS_DB = {
         "chapters/chapter6/2-spire.rpy",
         "chapters/chapter6/3-elision.rpy",
         "chapters/chapter6/4-encounter.rpy",
-        "chapters/chapter6/5-beautiful-night.rpy",
+        "chapters/chapter6/5-ceo.rpy",
+        "chapters/chapter6/6-beautiful-night.rpy",
+    ],
+
+    "chapter7": [
+        "chapters/chapter7/1-library.rpy",
+        "chapters/chapter7/2-family-apartment.rpy",
+        "chapters/chapter7/3-decay.rpy",
+    ],
+
+    "chapter8": [
+        "chapters/chapter8/1-drown.rpy",
+        "chapters/chapter8/2-schooldays.rpy",
+        "chapters/chapter8/3-lockedroom.rpy",
+        "chapters/chapter8/4-basketball.rpy",
+        "chapters/chapter8/5-infirmary.rpy",
     ]
 }
+
+# Путь к папке со всеми скриптами (относительно devtools)
+PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
+
+# ================= ЛОГИКА =================
+
+# Словарь: "label_name" -> "full_path_to_file"
+
 
 # Путь к папке со всеми скриптами (относительно devtools)
 PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
@@ -137,7 +176,7 @@ def scan_all_scripts():
     Сканирует ВСЮ папку game-scripts рекурсивно.
     Находит все 'label xxx:' и запоминает, в каких они файлах.
     """
-    root_dir = get_abs_path("") # Получаем полный путь к game-scripts
+    root_dir = get_abs_path("")
     print(f"--- 1. Глобальное сканирование всех скриптов в: {root_dir} ---")
     
     if not os.path.exists(root_dir):
@@ -157,7 +196,7 @@ def scan_all_scripts():
                             match = regex_label.search(line)
                             if match:
                                 label_name = match.group(1)
-                                # Если такой лейбл уже был, не перезаписываем (или можно вывести ворнинг)
+
                                 if label_name not in label_map:
                                     label_map[label_name] = full_path
                                     count += 1

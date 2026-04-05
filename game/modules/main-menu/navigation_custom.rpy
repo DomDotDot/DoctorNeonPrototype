@@ -25,6 +25,6 @@ screen pause_menu():
             textbutton _("Продолжить") action Return() style "modern_button"
             textbutton _("Сохранить") action ShowMenu("save") style "modern_button"
             textbutton _("Загрузить") action ShowMenu("load") style "modern_button"
-            textbutton _("Настройки") action ShowMenu("preferences") style "modern_button"
+            textbutton _("Настройки") action ShowMenu("settings_menu") style "modern_button"
             textbutton _("Главное меню") action MainMenu() style "modern_button"
             textbutton _("Выход") action Quit() style "modern_button"

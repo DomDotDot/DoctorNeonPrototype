@@ -406,7 +406,7 @@ translate english_us chapter4_5_seraphina_penthouse_bea416f9:
 translate english_us chapter4_5_seraphina_penthouse_8f25c0ce:
 
     # seraphina "Хи-хи! Спасибо!"
-    seraphina "He-he! Thank you!"# TODO: Translation updated at 2026-03-07 22:46
+    seraphina "Tee-hee! Thank you!"# TODO: Translation updated at 2026-03-07 22:46
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/4-penthouse.rpy:105
 translate english_us chapter4_5_seraphina_penthouse_880407a4:
