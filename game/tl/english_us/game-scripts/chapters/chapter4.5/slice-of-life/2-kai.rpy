@@ -52,7 +52,7 @@ translate english_us chapter4_5_kai_ito_interlude_a14611a0:
 translate english_us chapter4_5_kai_ito_interlude_58e03a3c:
 
     # narrator "Все вокруг восхищались ее добротой. 'Какая она добрая!', 'Она просто ангел!'… А, и да. Её звали Лили."
-    narrator "Все вокруг восхищались ее добротой. 'Какая она добрая!', 'Она просто ангел!'… А, и да. Её звали Лили."
+    narrator "Everyone around her admired how kind she was. People would say, “She’s just so nice!” or “She’s like an angel!”… Oh, right, and her name was Lily."
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:22
 translate english_us chapter4_5_kai_ito_interlude_23a63273:
@@ -292,7 +292,7 @@ translate english_us chapter4_5_kai_ito_interlude_f2c23049:
 translate english_us chapter4_5_kai_ito_interlude_5b1e65c4:
 
     # akari "Проект довольно сложный…"
-    akari "Проект довольно сложный…"
+    akari "The project is quite complex."
 
 # game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:151
 translate english_us chapter4_5_kai_ito_interlude_27ffa5d1:
