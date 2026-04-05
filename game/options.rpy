@@ -215,6 +215,7 @@ init python:
     build.classify('**/*.disabled', 'dev')
 
     build.classify('game/devtools/**', 'dev')
+    build.classify('build-compilers/**', None)
 
     build.classify('**.7z', None)
     build.classify('**.zip', None)
