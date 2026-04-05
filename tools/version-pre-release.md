@@ -1,5 +1,7 @@
 build_all_dlc_packages()
 
-generate_dlc_manifest() #INCASE DLC MANIFEST IS MISSING
+#INCASE DLC MANIFEST IS MISSING
+generate_dlc_manifest()
 
-get_crowdin_stats() #DEPRECATED
+#DEPRECATED
+get_crowdin_stats()
