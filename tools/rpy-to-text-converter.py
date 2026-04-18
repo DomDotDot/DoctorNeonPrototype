@@ -148,6 +148,14 @@ CHAPTERS_DB = {
         "chapters/chapter8/3-lockedroom.rpy",
         "chapters/chapter8/4-basketball.rpy",
         "chapters/chapter8/5-infirmary.rpy",
+        "chapters/chapter8/6-search-island.rpy",
+        "chapters/chapter8/7-cave.rpy",
+        "chapters/chapter8/8-letter.rpy",
+        "chapters/chapter8/9-mismatch.rpy",
+        "chapters/chapter8/10-classmate.rpy",
+        "chapters/chapter8/11-tide.rpy",
+        "chapters/chapter8/12-memory-sea.rpy",
+        "chapters/chapter8/13-dream.rpy",
     ]
 }
 
