@@ -1,4 +1,4 @@
-label chapter8_school_days_act5:
+label chapter8_search:
 
     # --- СЦЕНА 1: ШОК И СТОЛКНОВЕНИЕ С КЛАРОЙ ---
 

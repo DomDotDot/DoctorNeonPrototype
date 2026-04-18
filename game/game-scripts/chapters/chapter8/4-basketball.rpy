@@ -1,4 +1,4 @@
-label chapter8_school_days_act3:
+label chapter8_basketball:
 
     # --- СЦЕНА 1: СПОРТЗАЛ И ПРАВИЛА ---
 

@@ -1,4 +1,4 @@
-label chapter8_school_days_act6:
+label chapter8_letter:
 
     # --- СЦЕНА 1: ПРОБУЖДЕНИЕ В ГОСТИНОЙ ---
 

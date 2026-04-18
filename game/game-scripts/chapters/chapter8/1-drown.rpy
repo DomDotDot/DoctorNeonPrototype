@@ -1,4 +1,4 @@
-label chapter8_drown_2:
+label chapter8_drown:
 
     # --- СЦЕНА 1: ПРОБУЖДЕНИЕ (Шум прибоя) ---
 

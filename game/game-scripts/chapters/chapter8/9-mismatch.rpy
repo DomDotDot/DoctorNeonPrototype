@@ -1,4 +1,4 @@
-label chapter8_school_days_act7:
+label chapter8_mismatch:
 
     # --- СЦЕНА 1: НОЧЬ И ТРЕВОГА ---
 
