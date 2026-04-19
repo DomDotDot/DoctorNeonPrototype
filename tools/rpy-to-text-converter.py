@@ -4,7 +4,7 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter4.5" 
+TARGET_CHAPTER = "chapter8" 
 
 # 2. Имя выходного файла
 OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
@@ -152,10 +152,15 @@ CHAPTERS_DB = {
         "chapters/chapter8/7-cave.rpy",
         "chapters/chapter8/8-letter.rpy",
         "chapters/chapter8/9-mismatch.rpy",
-        "chapters/chapter8/10-classmate.rpy",
-        "chapters/chapter8/11-tide.rpy",
-        "chapters/chapter8/12-memory-sea.rpy",
-        "chapters/chapter8/13-dream.rpy",
+        "chapters/chapter8/10-morning-incident.rpy",
+        "chapters/chapter8/11-club-invitation.rpy",
+        "chapters/chapter8/12-classmate.rpy",
+        "chapters/chapter8/13-club.rpy",
+        "chapters/chapter8/14-lost-keys.rpy",
+        "chapters/chapter8/15-afternoon-date.rpy",
+        "chapters/chapter8/16-tide.rpy",
+        "chapters/chapter8/17-memory-sea.rpy",
+        "chapters/chapter8/18-dream.rpy",
     ]
 }
 
