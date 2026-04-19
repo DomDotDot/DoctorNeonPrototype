@@ -16,10 +16,10 @@ screen about_menu():
             style "modern_vbox"
             label _("Об игре") style "modern_title_label"
 
-            textbutton _("Управление") action ShowMenu("help") style "modern_button"
-            textbutton _("Лицензия") action ShowMenu("license_screen") style "modern_button"
-            textbutton _("Титры") action ShowMenu("credits_screen") style "modern_button"
-            textbutton _("Обновление") action ShowMenu("update_screen") style "modern_button"
+            use icon_button("🎮", _("Управление"), action=ShowMenu("help"), btn_style="modern_button")
+            use icon_button("📜", _("Лицензия"), action=ShowMenu("license_screen"), btn_style="modern_button")
+            use icon_button("🎬", _("Титры"), action=ShowMenu("credits_screen"), btn_style="modern_button")
+            use icon_button("🔄", _("Обновление"), action=ShowMenu("update_screen"), btn_style="modern_button")
 
             null height 30
             textbutton _("Назад") action ShowMenu("main_menu") style "modern_back_button"

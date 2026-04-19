@@ -46,11 +46,11 @@ screen main_menu():
     vbox:
         style "main_menu_vbox"
 
-        textbutton _("Играть") action ShowMenu("play_menu") style "main_menu_button"
-        textbutton _("Настройки") action ShowMenu("settings_menu") style "main_menu_button"
+        use icon_button("▶️", _("Играть"), action=ShowMenu("play_menu"), btn_style="main_menu_button")
+        use icon_button("⚙️", _("Настройки"), action=ShowMenu("settings_menu"), btn_style="main_menu_button")
         
         if renpy.has_screen("memory_recollection"):
-            textbutton _("Воспоминания") action ShowMenu("memory_recollection") style "main_menu_button"
+            use icon_button("💡", _("Воспоминания"), action=ShowMenu("memory_recollection"), btn_style="main_menu_button")
         
         #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
 
@@ -58,9 +58,9 @@ screen main_menu():
         
         if unread > 0:
             # Используем переменную unread внутри текста
-            textbutton _("Уведомления ([unread])") action ShowMenu("notification_center") style "main_menu_button" text_color "#a11919"
+            use icon_button("📧", _("Уведомления ([unread])"), action=ShowMenu("notification_center"), btn_style="main_menu_button", txt_color="#a11919")
         else:
-            textbutton _("Уведомления") action ShowMenu("notification_center") style "main_menu_button"
+            use icon_button("📧", _("Уведомления"), action=ShowMenu("notification_center"), btn_style="main_menu_button")
 
-        textbutton _("Об игре") action ShowMenu("about_menu") style "main_menu_button"
-        textbutton _("Выход") action Quit(confirm=True) style "main_menu_button"
+        use icon_button("ℹ️", _("Об игре"), action=ShowMenu("about_menu"), btn_style="main_menu_button")
+        use icon_button(None, _("Выход"), action=Quit(confirm=True), btn_style="main_menu_button")
