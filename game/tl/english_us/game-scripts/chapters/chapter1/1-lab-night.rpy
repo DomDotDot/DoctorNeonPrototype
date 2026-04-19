@@ -1613,3 +1613,35 @@ translate english_us chapter1_lab_night_516c5f17:
     # neon "{=thoughts}В пустоте..."
     neon "{=thoughts}In the emptiness..."
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:208
+translate english_us chapter1_lab_night_f8285eb8:
+
+    # narrator "Инстинкты кричали, что его вопросы про 'эмоциональную музыку' - это прощупывание почвы. Нормальный человек бы запер свои данные."
+    narrator "my instincts screamed that his questions about 'emotional music' were probing. A normal person would have locked down their data."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:208
+translate english_us chapter1_lab_night_a4f145e1:
+
+    # narrator "Но мне было всё равно."
+    narrator "but I didn't care."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:208
+translate english_us chapter1_lab_night_ee2d0939:
+
+    # narrator "Корпоративные игры - это просто фоновый шум. У меня нет на них энергии. Пусть говорит что хочет, лишь бы оставил меня в тишине"
+    narrator "Corporative games are just background noise. I have no energy for them. Let him say what he wants, as long as he leaves me in silence."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:218
+translate english_us chapter1_lab_night_55b037d7:
+
+    # narrator "Гул серверов сверлил виски. Я прибавила громкость в наушниках до предела, но даже это не заглушало мерзкое, скрежещущее чувство чужого присутствия."
+    narrator "Server hum drilled into my temples. I turned up the volume on my earphones to the max, but even that didn't drown out the nasty, grating feeling of a foreign presence."
+
+# game/game-scripts/chapters/chapter1/1-lab-night.rpy:218
+translate english_us chapter1_lab_night_1caf3da1:
+
+    # narrator "Только эта безымянная мелодия давала мне иллюзию тишины."
+    narrator "Only this nameless melody gave me the illusion of silence."
+

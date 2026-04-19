@@ -382,3 +382,11 @@ translate english_us chapter1_marcus_attack_scene_8723f942:
     # narrator "От стены отлетели мелкие куски бетона."
     narrator "Small pieces of concrete flew off the wall."
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:92
+translate english_us chapter1_marcus_attack_scene_dcdceb49:
+
+    # narrator "В коридоре нависнула оглушительная тишина, прерываясь дыханием Неон и тихими всхлипами Алекс, которая все еще сидела у стены."
+    narrator "A deafening silence hung in the corridor, interrupted only by Neon's breathing and quiet sobs from Alex, who was still slumped against the wall."
+

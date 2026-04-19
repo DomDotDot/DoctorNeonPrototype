@@ -576,3 +576,11 @@ translate english_us zurich_university_flashback_2_4280f8c4:
     # neon "{=whisper}Прости...{/whisper}"
     neon "{=whisper}I'm sorry...{/whisper}"
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/flashbacks/neon/2-zurich_flashback.rpy:123
+translate english_us zurich_university_flashback_2_2c399ad3:
+
+    # narrator "Её плечи дрогнули. Она медленно обернулась. Толпа в зале будто исчезла. Существовали только они двое."
+    narrator "Her shoulders trembled. She slowly turned around. The crowd in the hall seemed to vanish. Only the two of them existed."
+

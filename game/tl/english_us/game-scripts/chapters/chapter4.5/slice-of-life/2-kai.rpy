@@ -354,3 +354,11 @@ translate english_us chapter4_5_kai_ito_interlude_94bf87b3:
     # kai "Сенсей! Заходите, пожалуйста! Я так рад вас видеть!"
     kai "Sensei! Please come in! I'm so glad to see you!"
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:107
+translate english_us chapter4_5_kai_ito_interlude_833625b3:
+
+    # narrator "В классе была неловкая тишина. Даже Акари-сенсей удивленно моргнула. Она не ожидала такого точного ответа. Она смотрела на меня с новым интересом."
+    narrator "Silence hung over the class. Even Akari-sensei blinked in surprise. She hadn't expected such a precise answer. She looked at me with new interest."
+
