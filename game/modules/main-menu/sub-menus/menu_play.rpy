@@ -56,7 +56,7 @@ screen play_menu():
             textbutton _("Новая игра") action Start() style "modern_button"
 
             if renpy.newest_slot():
-                textbutton _("Продолжить") action FileLoad(renpy.newest_slot()) style "modern_button"
+                textbutton _("Продолжить") action Continue() style "modern_button"
             else:
                 textbutton _("Продолжить") action None style "modern_button" text_color "#888"
 
