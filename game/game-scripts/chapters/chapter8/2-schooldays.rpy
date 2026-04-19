@@ -163,7 +163,7 @@ label chapter8_school_days:
 
     # play sound "sfx/footsteps_running_light.opus"
 
-    "???" "Не-е-е-он-тян!"
+    "???" "Хо-оо-ши-ко-тян!"
 
     narrator """
         Я даже не успела обернуться.
