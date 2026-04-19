@@ -1,6 +1,6 @@
-label chapter_7_rpy:
+label chapter_8_rpy:
     play sound "sfx/next-chapter.opus"
-    call screen chapter_screen(_("Глава 7"), _("Школьные… дни?"))
+    call screen chapter_screen(_("Глава 8"), _("Школьные… дни?"))
     pause 2.0
     
     call chapter8_drown
