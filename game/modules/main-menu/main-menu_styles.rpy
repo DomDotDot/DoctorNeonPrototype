@@ -69,14 +69,14 @@ style modern_button_text is button_text:
 # Specific Buttons
 #
 style main_menu_button is modern_button:
-    xsize 400
+    xsize 440
     ysize 75
 
 style main_menu_button_text is modern_button_text:
     size 32
 
 style modern_back_button is modern_button:
-    xsize 300
+    xsize 400
     ysize 50
     background None 
     hover_background Solid("#222222cc")
