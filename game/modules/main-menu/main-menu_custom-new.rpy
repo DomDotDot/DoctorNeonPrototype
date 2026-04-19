@@ -54,11 +54,15 @@ screen main_menu():
         
         #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
 
-        $ unread = get_unread_count() # Считаем количество в переменную
-        
+        python:
+            try:
+                unread = get_unread_count()
+            except:
+                unread = 0
+
         if unread > 0:
-            # Используем переменную unread внутри текста
-            use icon_button("📧", _("Уведомления ([unread])"), action=ShowMenu("notification_center"), btn_style="main_menu_button", txt_color="#a11919")
+            $ notif_text = _("Уведомления ({0})").format(unread)
+            use icon_button("📧", notif_text, action=ShowMenu("notification_center"), btn_style="main_menu_button", txt_color="#a11919")
         else:
             use icon_button("📧", _("Уведомления"), action=ShowMenu("notification_center"), btn_style="main_menu_button")
 
