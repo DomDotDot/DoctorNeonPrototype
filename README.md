@@ -3,7 +3,8 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.ru.md)
 
-![Banner](source_assets/promo/promoassets/BNSR-Poster.jpg)
+![BannerVolume1](source_assets/promo/promoassets/BNSR-Poster-vol1.jpg)
+![BannerVolume2](source_assets/promo/promoassets/BNSR-Poster-vol2.png)
 
 <!-- BADGES -->
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
