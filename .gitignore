@@ -9,11 +9,15 @@ errors.txt
 traceback.txt
 files.txt
 progressive-download.txt
+audio_errors.txt
+image_errors.txt
 
 # Скомпилированные файлы (ОБЯЗАТЕЛЬНО игнорировать)
 *.rpyc
 *.rpymc
 *.rpyb
+*.pyc
+__pycache__/
 *.disabled
 
 # Папки кэша и сохранений
@@ -21,6 +25,7 @@ game/cache/
 game/saves/
 cache/
 tmp/
+saves/
 
 #Disabled папка (director cut)
 disabled/
@@ -33,3 +38,13 @@ backups/
 
 # devtools
 game/dlc_manifest.json
+
+# Билды и дистрибутивы (сборки игры)
+*-dists/
+*-market/
+*-dest/
+release/
+
+# Ключи и сертификаты (безопасность)
+android.keystore
+bundle.keystore
