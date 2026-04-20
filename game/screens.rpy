@@ -109,10 +109,7 @@ screen say(who, what):
                 text who id "who"
 
         text what id "what":
-            if persistent.font_size_large:
-                size 40
-            else:
-                size 33
+            size (40 if persistent.font_size_large else gui.text_size)
 
 
     ## Если есть боковое изображение ("голова"), показывает её поверх текста.
