@@ -36,6 +36,7 @@ init python:
     c_student1  = "#d4ad4b" # Amy / Student1
     c_student2  = "#33dad4" # Carol / Student2
     c_student3  = "#d1289e" # Mika / Student3
+    c_student4  = "#bc040d" # Clara / Student4
     
     # Учителя и прочие
     c_meryl     = "#e87a90" # Мэрил Кендрик
@@ -224,6 +225,8 @@ define amy = Character(_('Эми'), kind=base, image="amy", color=c_student1, cb
 
 define student2 = Character(_('Студентка 2'), kind=base, image="carol", color=c_student2, cb_name="carol")
 define carol = Character(_('Кэрол'), kind=base, image="carol", color=c_student2, cb_name="carol")
+
+define clara = Character(_('Клара'), kind=base, image="clara", color=c_student4, cb_name="clara")
 
 default mika_display_name = "Мика"
 define mika = Character(_("[mika_display_name!t]"), kind=base, image="mika", color=c_student3, cb_name="mika")
