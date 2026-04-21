@@ -12,6 +12,10 @@ init python:
         persistent.chapter_4_5a_unlocked = False
         persistent.chapter_4_5b_unlocked = False
         persistent.chapter_5_unlocked = False
+        persistent.chapter_6_unlocked = False
+        persistent.chapter_7_unlocked = False
+        persistent.chapter_8_unlocked = False
+        persistent.chapter_9_unlocked = False
         
         # Сброс галереи
         if hasattr(persistent, "_seen_images"):
@@ -97,6 +101,11 @@ init python:
         persistent.chapter_4_5a_unlocked = True
         persistent.chapter_4_5b_unlocked = True
         persistent.chapter_5_unlocked = True
+        persistent.chapter_6_unlocked = True
+        persistent.chapter_7_unlocked = True
+        persistent.chapter_8_unlocked = True
+        persistent.chapter_9_unlocked = True
+        
         persistent.unlock_gallery = True
 
         persistent.flashback_zurich_2_unlocked = True
