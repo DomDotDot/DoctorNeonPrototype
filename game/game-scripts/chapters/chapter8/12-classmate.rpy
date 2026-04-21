@@ -1,4 +1,4 @@
-label chapter8_school_days_act10:
+label chapter8_new_classmate:
 
     # --- СЦЕНА 1: ШКАФЧИКИ ДЛЯ ОБУВИ ---
 

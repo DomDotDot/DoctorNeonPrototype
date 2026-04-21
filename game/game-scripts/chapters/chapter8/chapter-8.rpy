@@ -16,4 +16,9 @@ label chapter_8_rpy:
     call chapter8_letter
     call chapter8_mismatch
 
+    call chapter8_morning_incident
+    call chapter8_invitation
+    call chapter8_new_classmate
+    call chapter8_club
+    
 return

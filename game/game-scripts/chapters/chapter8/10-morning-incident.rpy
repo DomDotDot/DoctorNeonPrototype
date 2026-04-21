@@ -1,4 +1,4 @@
-label chapter8_school_days_act8:
+label chapter8_morning_incident:
 
     # --- СЦЕНА 1: УТРО ПОСЛЕ КРОВИ ---
 
