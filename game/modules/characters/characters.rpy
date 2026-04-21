@@ -143,6 +143,7 @@ define akane = Character(_('Мама'),
     kind=base,
     image="akane",
     color=c_akane,
+    ctc="ctc_akane",
     cb_name="akane"
 )
 

@@ -112,3 +112,15 @@ image ctc_oganesson:
         pause(0.35)
 
         repeat
+
+
+image ctc_akane:
+    xoffset 15
+
+    # Первое появление с dissolve
+    alpha 0.0
+    "images/ctc/ctc_akane_1.png"
+    linear 0.4 alpha 1.0
+    pause(1.0)
+
+    "images/ctc/ctc_akane_2.png" with Dissolve(3.0)
