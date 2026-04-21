@@ -106,7 +106,11 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                $ _name_fx = get_name_effect(who)
+                if _name_fx is not None:
+                    add _name_fx xalign gui.name_xalign yalign 0.5
+                else:
+                    text who id "who"
 
         text what id "what":
             size (40 if persistent.font_size_large else gui.text_size)

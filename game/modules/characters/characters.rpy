@@ -93,6 +93,7 @@ define oganesson = Character("[oganesson_display_name!t]",
     image="oganesson",
     color=c_oganesson, 
     what_slow_cps_multiplier=0.75,
+    ctc="ctc_oganesson",
     cb_name="oganesson"
 )
 define oganesson_young = Character(_('Тетя-гостья'),
@@ -100,6 +101,7 @@ define oganesson_young = Character(_('Тетя-гостья'),
     image="oganesson",
     color=c_ogan_young, 
     what_slow_cps_multiplier=0.80,
+    ctc="ctc_oganesson",
     cb_name="oganesson"
 )
 
