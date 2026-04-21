@@ -49,14 +49,41 @@
                 $ persistent.chapter_4_5b_unlocked = True
                 $ fix_chapter_names(4.6)
                 call chapter_4_5_rpy_act2 from _call_chapter_4_5_rpy_act2
+
                 $ persistent.chapter_5_unlocked = True
                 $ persistent.main_menu_level = 4
-                call screen chapter_screen(_("Конец первого тома"), _("Спасибо за игру!"))
+                call screen chapter_screen(_("Конец Первого Тома"), _("Спасибо за игру!"))
 
         label chapter_5:
                 $ fix_chapter_names(5)
-                call chapter_5_rpy from _call_chapter_5_rpy
+                call chapter_5_rpy
 
+                $ persistent.chapter_6_unlocked = True
+
+        label chapter_6:
+                $ fix_chapter_names(6)
+                call chapter_6_rpy
+
+                $ persistent.chapter_7_unlocked = True
+        
+        label chapter_7:
+                $ fix_chapter_names(7)
+                call chapter_7_rpy
+
+                $ persistent.chapter_8_unlocked = True
+
+        label chapter_8:
+                $ fix_chapter_names(8)
+                call chapter_8_rpy
+
+                $ persistent.chapter_9_unlocked = True
+
+        label chapter_9:
+                $ fix_chapter_names(9)
+                call chapter_9_rpy
+
+                $ persistent.end_unlocked = True
+                call screen chapter_screen(_("Конец Второго Тома"), _("Спасибо за игру!"))
 
 
         label end:

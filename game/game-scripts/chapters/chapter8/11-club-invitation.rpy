@@ -1,4 +1,4 @@
-label chapter8_school_days_act9:
+label chapter8_invitation:
 
     # --- СЦЕНА 1: ДОРОГА В ШКОЛУ (Странная стая) ---
 

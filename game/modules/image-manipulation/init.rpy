@@ -40,6 +40,12 @@ image ctc_neon:
     linear 2
     linear 0.25 alpha 1.0
 
+image ctc_celeste:
+    "images/ctc/ctc_celeste.png"
+    alpha 0.0
+    linear 0.5
+    linear 0.25 alpha 1.0
+
 image ctc_seraphina:
         "images/ctc/ctc_seraphina.png"
         anchor (0.5, 0.5)
