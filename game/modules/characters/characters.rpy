@@ -148,6 +148,7 @@ define celeste = Character(_('Селестия'),
     kind=base,
     image="celeste",
     color=c_celeste,
+    ctc="ctc_celeste",
     cb_name="celeste"
 )
 
