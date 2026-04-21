@@ -29,18 +29,24 @@ return
 image white = "#FFFFFF"
 
 image ctc_blink:
+    xoffset 15
+
     "images/ctc/ctc_general.png"
     linear 0.75 alpha 1.0
     linear 0.75 alpha 0.0
     repeat
 
 image ctc_neon:
+    xoffset 15
+
     "images/ctc/ctc_neon.png"
     alpha 0.0
     linear 2
     linear 0.25 alpha 1.0
 
 image ctc_celeste:
+    xoffset 15
+
     "images/ctc/ctc_celeste.png"
     alpha 0.0
     linear 0.5
@@ -51,7 +57,7 @@ image ctc_seraphina:
         anchor (0.5, 0.5)
         align (0.5, 0.5)
         yoffset 6  
-        xoffset 14
+        xoffset 15
 
         easein_quint 1.0 zoom 0.85
         easeout_quint 0.5 zoom 1.0
@@ -64,7 +70,7 @@ image ctc_nari:
     align (0.5, 0.5)
     
     yoffset 6  
-    xoffset 14
+    xoffset 15
 
     # Целое сердце
     "images/ctc/ctc_nari.png"
@@ -82,3 +88,27 @@ image ctc_nari:
     # Разбитое сердце
     "images/ctc/ctc_nari_broken.png"
     easeout_quint 0.1 zoom 1
+
+image ctc_oganesson:
+    xoffset 15
+
+    # Первое появление с dissolve
+    alpha 0.0
+    "images/ctc/ctc_oganesson_1.png"
+    linear 0.4 alpha 1.0
+
+    # Луп: два лотуса плавно сменяют друг друга
+    block:
+        "images/ctc/ctc_oganesson_1.png" with Dissolve(2.0)
+        pause(1.85)
+
+        "images/ctc/ctc_oganesson_2.png" with Dissolve(1.5)
+        pause(1.45)
+
+        "images/ctc/ctc_oganesson_3.png" with Dissolve(0.4)
+        pause(2.0)
+
+        "images/ctc/ctc_oganesson_2.png" with Dissolve(0.4)
+        pause(0.35)
+
+        repeat
