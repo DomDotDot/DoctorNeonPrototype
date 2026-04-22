@@ -5,7 +5,6 @@ init python:
         
         # Сброс открытых глав
         # (Лучше пройтись циклом, если у тебя их много, или перечислить вручную)
-        persistent.chapter_1_unlocked = False
         persistent.chapter_2_unlocked = False
         persistent.chapter_3_unlocked = False
         persistent.chapter_4_unlocked = False
@@ -16,6 +15,30 @@ init python:
         persistent.chapter_7_unlocked = False
         persistent.chapter_8_unlocked = False
         persistent.chapter_9_unlocked = False
+
+        persistent.flashback_zurich_1_unlocked = False
+        persistent.flashback_zurich_2_unlocked = False
+
+        persistent.flashback_krypton_1_unlocked = False
+        persistent.flashback_krypton_2_unlocked = False
+        persistent.flashback_krypton_3_unlocked = False
+
+        persistent.flashback_oganesson_1_unlocked = False
+
+        persistent.flashback_dream_1_unlocked = False
+        persistent.flashback_dream_2_unlocked = False
+        persistent.flashback_dream_3_unlocked = False
+        persistent.flashback_dream_4_unlocked = False
+        persistent.flashback_dream_5_unlocked = False
+        persistent.flashback_dream_6_unlocked = False
+
+        persistent.prestory_nari_unlocked = False
+        persistent.prestory_kai_unlocked = False
+        persistent.prestory_lily_unlocked = False
+        persistent.prestory_penthouse_unlocked = False
+        persistent.prestory_seraphina_unlocked = False
+
+        persistent.cutcene_vol_1_end_unlocked = False
         
         # Сброс галереи
         if hasattr(persistent, "_seen_images"):
@@ -108,6 +131,7 @@ init python:
         
         persistent.unlock_gallery = True
 
+        persistent.flashback_zurich_1_unlocked = True
         persistent.flashback_zurich_2_unlocked = True
 
         persistent.flashback_krypton_1_unlocked = True
