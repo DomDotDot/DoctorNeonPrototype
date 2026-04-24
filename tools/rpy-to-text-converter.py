@@ -158,7 +158,7 @@ CHAPTERS_DB = {
         "chapters/chapter8/13-club.rpy",
         "chapters/chapter8/14-lost-key.rpy",
         "chapters/chapter8/15-afternoon-date.rpy",
-        "chapters/chapter8/16-tide.rpy",
+        "chapters/chapter8/16-martyrdom-tide.rpy",
         "chapters/chapter8/17-memory-sea.rpy",
         "chapters/chapter8/18-dream.rpy",
     ]
