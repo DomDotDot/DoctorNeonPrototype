@@ -8,7 +8,7 @@ label chapter8_school_days_act15:
     play ambient "ambient/night_street_crickets.opus" fadein 2.0 loop
 
     narrator """
-         Я бежала по темным улицам. Ноги, и без того гудевшие от усталости, еле двигались, но страх подгонял меня лучше любого стимулятора.
+        Я бежала по темным улицам. Ноги, и без того гудевшие от усталости, еле двигались, но страх подгонял меня лучше любого стимулятора.
         
         Дом Нари находился на отшибе, в тихом спальном районе. Окна были темными.
         
@@ -599,6 +599,7 @@ label chapter8_school_days_act15:
     scene black with Dissolve(0.1)
 
     narrator "..."
+
     stop music fadeout 2.0
     stop ambient fadeout 2.0
 
