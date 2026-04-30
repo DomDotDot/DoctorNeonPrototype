@@ -1,4 +1,4 @@
-label chapter8_school_days_act23:
+label chapter8_dream:
 
     # --- СЦЕНА 1: СЛЕПАЯ ЯРОСТЬ ---
 

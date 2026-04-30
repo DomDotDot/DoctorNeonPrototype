@@ -1,4 +1,4 @@
-label chapter8_school_days_act21:
+label chapter8_helium:
 
     # --- СЦЕНА 1: ПРОБУЖДЕНИЕ В БОЮ ---
 
