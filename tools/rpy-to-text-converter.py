@@ -161,7 +161,9 @@ CHAPTERS_DB = {
         "chapters/chapter8/16-martyrdom-tide.rpy",
         "chapters/chapter8/17-ocean-of-loneless.rpy",
         "chapters/chapter8/18-memory-sea.rpy",
-        "chapters/chapter8/19-dream.rpy",
+        "chapters/chapter8/19-boundless-ocean.rpy",
+        "chapters/chapter8/20-helious-helium.rpy",
+        "chapters/chapter8/21-dream.rpy",
     ]
 }
 
