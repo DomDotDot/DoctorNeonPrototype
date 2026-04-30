@@ -20,5 +20,15 @@ label chapter_8_rpy:
     call chapter8_invitation
     call chapter8_new_classmate
     call chapter8_club
-    
+
+    call chapter8_lost_key
+    call chapter8_date
+    call chapter8_tide
+
+    call chapter8_loneless
+    call chapter8_memory_sea
+
+    call chapter8_boundless
+    call chapter8_helium
+    call chapter8_dream
 return
