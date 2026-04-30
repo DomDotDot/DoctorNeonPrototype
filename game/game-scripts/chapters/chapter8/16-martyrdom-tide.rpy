@@ -325,7 +325,7 @@ label chapter8_tide:
     """
 
     play music "music/BGM/Celestia_Theme_Distorted.opus" fadein 2.0 loop volume 0.6
-    show celesta fog_calm at center with dissolve
+    show celeste fog_calm at center with dissolve
 
     neon "{=thoughts}Селеста...{/thoughts}"
 
@@ -347,7 +347,7 @@ label chapter8_tide:
 
     neon "(В панике) Селеста! Помоги мне, прошу! Нари плохо!"
 
-    celesta "Конечно. Я ей помогу."
+    celeste "Конечно. Я ей помогу."
 
     narrator """
         Её голос прозвучал мягко. 
@@ -404,7 +404,7 @@ label chapter8_tide:
 
     neon "(Визг) З-з-за что?! Селеста!"
 
-    celesta """
+    celeste """
         (Склоняет голову набок, удивленно хлопая ресницами)
         
         Хм...? Насколько я помню, ты меня попросила помочь.
@@ -439,15 +439,15 @@ label chapter8_tide:
 
     # --- СЦЕНА 4: ПАДЕНИЕ ИЛЛЮЗИИ ---
 
-    show celesta fog_smile at right with dissolve
+    show celeste fog_smile at right with dissolve
 
-    celesta "Хошико, успокойся. Нари была уже давно мертва. Она—"
+    celeste "Хошико, успокойся. Нари была уже давно мертва. Она—"
 
     neon "{=yell}ДАВНО МЕРТВА?! Её сердце билось! Ты её просто прикончила!{/yell}"
 
     narrator "Я кричала, задыхаясь от истерики, не поднимая головы от трупа."
 
-    celesta """
+    celeste """
         Ты не поняла.
         
         Тебе разве не кажется странным то, что ты смогла в голых руках уничтожить стальной нож?
@@ -459,7 +459,7 @@ label chapter8_tide:
 
     neon "Я... я не..."
 
-    celesta """
+    celeste """
         Разве ты не задавалась вопросом, почему твой 'сон' предсказывал будущее? 
         
         Откуда ты знаешь то, чего не знают другие?
@@ -469,7 +469,7 @@ label chapter8_tide:
 
     narrator "Шаг. Конец косы со звоном царапнул асфальт. Селеста подошла ближе."
 
-    celesta """
+    celeste """
         Ты не думаешь, что то, что ты 'пережила' в своих снах... это то, что действительно было? Хм?
     """
 
@@ -487,7 +487,7 @@ label chapter8_tide:
 
     scene bg night_street_blood with dissolve
     show neon operative_angry at left
-    show celesta fog_smile at right
+    show celeste fog_smile at right
 
     neon """
         Даже если так?! И что?! 
@@ -501,7 +501,7 @@ label chapter8_tide:
 
     neon "{=whisper}...убила...{/whisper}"
 
-    celesta """
+    celeste """
         (Холодно, без капли сочувствия)
         
         Вот именно, что тебе здесь хорошо. Ты видишь здесь то, что ты бы хотела видеть. А не то, что есть.
@@ -511,11 +511,11 @@ label chapter8_tide:
 
     narrator "Она не обиделась. Её улыбка стала шире, обнажая суть, которую я так долго отрицала."
 
-    celesta "Верно."
+    celeste "Верно."
 
     narrator "Она посмотрела на меня сверху вниз, сжимая древко косы."
 
-    celesta "Потому что я не человек. Я Элемент. Как и ты, Неон."
+    celeste "Потому что я не человек. Я Элемент. Как и ты, Неон."
 
     # --- СЦЕНА 6: АБСОЛЮТНЫЙ РАЗРЫВ РЕАЛЬНОСТИ ---
 
@@ -559,7 +559,7 @@ label chapter8_tide:
     """
 
     scene bg night_street_blood with dissolve
-    show celesta fog_scythe_raised at center
+    show celeste fog_scythe_raised at center
 
     narrator """
         Сквозь пелену слез я увидела, как Селеста медленно, торжественно заносит косу над моей головой.
@@ -567,7 +567,7 @@ label chapter8_tide:
         Она хотела закончить начатое. Ведь всё это время она была реальной. Она знала, что делает.
     """
 
-    celesta """
+    celeste """
         Лучше закончить страдания, чем их глушить. Знаю это по себе. 
         
         А теперь... помогу и тебе, Неон.
@@ -580,11 +580,11 @@ label chapter8_tide:
     neon """
         {=yell}УЙДИТЕ! УЙДИТЕ!
         
-        ЭТО ВСЕ СОН! ЭТО НЕ ПРАВДА! 
+        {=yell}ЭТО ВСЕ СОН! ЭТО НЕ ПРАВДА! 
         
-        Я ХОЧУ НАЗАД! ГДЕ НИЧЕГО НЕ ПРОИЗОШЛО! 
+        {=yell}Я ХОЧУ НАЗАД! ГДЕ НИЧЕГО НЕ ПРОИЗОШЛО! 
         
-        УЙДИТЕ! УЙДИТЕ! УЙДИТЕЕЕЕЕЕ!!!{/yell}
+        {=yell}УЙДИТЕ! УЙДИТЕ! УЙДИТЕЕЕЕЕЕ!!!
     """
 
     # play sound "sfx/universe_collapse_bass.opus" with hpunch
