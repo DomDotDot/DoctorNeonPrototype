@@ -1,4 +1,4 @@
-label chapter8_school_days_act15:
+label chapter8_tide:
 
     # --- СЦЕНА 1: У ДВЕРИ (Отчаяние) ---
 

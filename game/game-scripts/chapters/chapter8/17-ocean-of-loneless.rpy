@@ -1,4 +1,4 @@
-label chapter8_school_days_act17:
+label chapter8_loneless:
 
     # --- СЦЕНА 1: УТРО В ПУСТОМ ДОМЕ ---
 

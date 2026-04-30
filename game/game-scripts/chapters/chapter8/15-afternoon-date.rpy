@@ -1,4 +1,4 @@
-label chapter8_school_days_act13:
+label chapter8_date:
 
     # --- СЦЕНА 1: ПРОГУЛКА ПО ОСТРОВУ ---
 

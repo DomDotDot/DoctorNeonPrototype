@@ -1,4 +1,4 @@
-label chapter8_school_days_act12:
+label chapter8_lost_key:
 
     # --- СЦЕНА 1: КЛУБНАЯ ИДИЛЛИЯ (ФАЛЬШЬ) ---
 
