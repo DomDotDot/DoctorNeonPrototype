@@ -1,4 +1,4 @@
-label chapter6_krypton:  
+label chapter6_krypton:
     # --- Сцена 4: Разделение ---
 
     scene bg street_crossroad_night with fade
