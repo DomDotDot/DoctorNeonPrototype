@@ -1,4 +1,4 @@
-label chapter9_requiem_act1:
+label chapter9_requiem:
 
     # --- СЦЕНА 1: УТРО КОНЦА СВЕТА ---
 

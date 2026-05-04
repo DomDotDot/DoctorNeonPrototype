@@ -1,4 +1,4 @@
-label chapter9_requiem_act6:
+label chapter9_bell_toll:
 
     # --- СЦЕНА 1: УДАР В КОЛОКОЛ ---
 

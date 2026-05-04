@@ -1,4 +1,4 @@
-label chapter9_requiem_act4:
+label chapter9_silence:
 
     # --- СЦЕНА 1: ПРОБУЖДЕНИЕ НЕНАВИСТИ ---
 

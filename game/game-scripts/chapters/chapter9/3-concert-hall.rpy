@@ -1,4 +1,4 @@
-label chapter9_requiem_act3:
+label chapter9_hall:
 
     # --- СЦЕНА 1: ОКО БУРИ ---
 
