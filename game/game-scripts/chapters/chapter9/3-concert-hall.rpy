@@ -50,7 +50,7 @@ label chapter9_hall:
 
     narrator "Этот луч падал точно в центр каменного зала. На Неё."
 
-    scene cg_celesta_crystal_stasis with dissolve
+    scene cg_celeste_crystal_stasis with dissolve
     # CG: Селеста (в белом платье) впаяна в огромный, полупрозрачный, пульсирующий красный кристалл. Её лицо расслаблено, рот слегка приоткрыт, глаза закрыты. Волосы белые. Она выглядит как спящая красавица, но сам кристалл выглядит слегка "искаженным", будто застывшая звуковая волна.
 
     neon "{=whisper}Селеста...{/whisper}"
@@ -130,7 +130,7 @@ label chapter9_hall:
 
     play music "music/BGM/Melancholy_Piano_Dark.opus" fadein 3.0 loop volume 0.4
 
-    show celesta awakening at center with dissolve
+    show celeste awakening at center with dissolve
     # Спрайт: Селеста медленно приподнимается на руках. Её белые волосы растрепаны. Она выглядит очень сонной, дезориентированной. Глаза еще закрыты.
 
     narrator """
@@ -139,7 +139,7 @@ label chapter9_hall:
         Она приподнялась на слабых, дрожащих руках. Её движения были вялыми, тяжелыми, как у человека, которого только что вытащили из комы.
     """
 
-    celesta "(Сонно, хрипло) Ммм..."
+    celeste "(Сонно, хрипло) Ммм..."
 
     narrator """
         Она села на полу, потирая лицо ладонями. Белые волосы упали ей на плечи.
@@ -149,7 +149,7 @@ label chapter9_hall:
 
     neon "{=whisper}Селеста...?{/whisper}"
 
-    celesta "А-ах!"
+    celeste "А-ах!"
 
     narrator """
         Услышав мой голос, она вздрогнула.

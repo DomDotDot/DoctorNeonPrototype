@@ -18,7 +18,7 @@ label chapter9_bell_toll:
 
     neon "{=thoughts}Это конец. Бежать больше некуда.{/thoughts}"
 
-    celesta "Давай закончим это, Неон."
+    celeste "Давай закончим это, Неон."
 
     narrator """
         Она замахнулась. Боковой, горизонтальный удар, рассчитанный на то, чтобы перерубить меня пополам.
@@ -65,7 +65,7 @@ label chapter9_bell_toll:
 
     scene bg gothic_belfry_rooftop with vpunch
 
-    show celesta fog_scythe_raised at center
+    show celeste fog_scythe_raised at center
 
     narrator """
         Коса мгновенно выпала из её рук.
@@ -75,7 +75,7 @@ label chapter9_bell_toll:
         Она вцепилась обеими руками в голову, закрывая уши так сильно, что её пальцы побелели.
     """
 
-    show celesta panic at center with dissolve
+    show celeste panic at center with dissolve
 
     narrator """
         Она забилась в судорогах. Её рот широко раскрылся в крике, но из него не вырвалось ни звука.
@@ -107,7 +107,7 @@ label chapter9_bell_toll:
 
     neon "Селеста..."
 
-    celesta "{=yell}ОТВАЛИ!!!{/yell}"
+    celeste "{=yell}ОТВАЛИ!!!{/yell}"
 
     # play sound "sfx/sonic_boom_blast.opus" with hpunch
 
@@ -141,7 +141,7 @@ label chapter9_bell_toll:
         Она распахнула глаза, увидев, что я вишу над обрывом.
     """
 
-    celesta "Неон! Нет! Я-я... не хотела тебя толкать! Ай!"
+    celeste "Неон! Нет! Я-я... не хотела тебя толкать! Ай!"
 
     # play sound "sfx/body_fall_hard.opus" with vpunch
 
@@ -153,9 +153,9 @@ label chapter9_bell_toll:
 
     narrator "Но она даже не заметила этого. Она подползла к краю."
 
-    show celesta crying_desperate at center with dissolve
+    show celeste crying_desperate at center with dissolve
 
-    celesta """
+    celeste """
         Я... Я не хотела причинять тебе больно! Я просто хотела закончить это быстро! 
         
         Ты же понимаешь меня, да?! Я не в обиде за концерт, правда!
@@ -163,7 +163,7 @@ label chapter9_bell_toll:
 
     narrator "Она схватила меня за руку, которой я держалась за перила. Схватила обеими своими ладонями."
 
-    celesta """
+    celeste """
         Пожалуйста... Я не... монстр... 
         
         Я исправлюсь. Обещаю! Я буду терпеть этот шум, только давай снова начнём всё сначала? Пожалуйста?!
@@ -232,7 +232,7 @@ label chapter9_bell_toll:
         Она замотала головой, сжимая мою руку еще крепче, отказываясь верить.
     """
 
-    celesta "Неон... Я... Я не могу... Я не хочу тебя отпускать... Неон..."
+    celeste "Неон... Я... Я не могу... Я не хочу тебя отпускать... Неон..."
 
     narrator """
         И уменя не осталось выбора.
@@ -244,7 +244,7 @@ label chapter9_bell_toll:
         Я сжала пальцы свободной руки в кулак и со всей силы, до крови, вонзила ногти в её ладонь, удерживающую меня.
     """
 
-    celesta "Ах!"
+    celeste "Ах!"
 
     narrator """
         От неожиданной, резкой физической боли её пальцы на долю секунды разжались.
@@ -264,9 +264,9 @@ label chapter9_bell_toll:
 
     narrator "В тот же миг землетрясение прекратилось. Небо перестало рваться. Желтый Туман остановился. Контакт был разорван."
 
-    celesta "{=yell}НЕООООООООООООН!{/yell}"
+    celeste "{=yell}НЕООООООООООООН!{/yell}"
 
-    celesta "{=yell}АГРРХХ!!!{/yell}"
+    celeste "{=yell}АГРРХХ!!!{/yell}"
 
     narrator """
         Я видела, как она в отчаянии использует всю свою силу, чтобы спасти меня, ударив кулаком по земле.
@@ -327,13 +327,13 @@ label chapter9_bell_toll:
         Я выбираю быть тем, кем была создана.
     
         Не убежищем. Не щитом.
-    """
-    
-    absolute_silence """
+
         А Гробовой...
 
         Абсолютной...
+    """
     
+    absolute_silence """
         Тишиной.
     """
 
