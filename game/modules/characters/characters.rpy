@@ -11,6 +11,9 @@ init python:
     c_krypton   = "#b41f1f"
     c_marcus    = "#967230"
     c_alex      = "#b41f5d"
+
+    # Абсолютные
+    c_absolute_silence = "#ffffff"
     
     # Опекуны и семья
     c_oganesson = "#663399" # Опекунша
@@ -133,6 +136,15 @@ define xenon = Character(_('Ксенон'),
     cb_name="xenon"
 )
 
+# --- АБСОЛЮТЫ---
+
+define absolute_silence = Character(_('Абсолютная Тишина'),
+    kind=base,
+    image="neon",
+    color=c_absolute_silence, 
+    ctc="ctc_silence",
+    cb_name="neon"
+)
 
 
 # --- Ключевые ---

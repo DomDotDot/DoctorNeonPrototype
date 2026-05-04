@@ -44,6 +44,14 @@ image ctc_neon:
     linear 2
     linear 0.25 alpha 1.0
 
+image ctc_silence:
+    xoffset 35
+
+    "images/ctc/ctc_silence.png"
+    alpha 0.0
+    linear 0.25
+    linear 0.125 alpha 1.0
+
 image ctc_celeste:
     xoffset 15
 
