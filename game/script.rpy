@@ -52,7 +52,10 @@
 
                 $ persistent.chapter_5_unlocked = True
                 $ persistent.main_menu_level = 4
+
+        label volume_1_end:
                 call screen chapter_screen(_("Конец Первого Тома"), _("Спасибо за игру!"))
+                $ MainMenu(confirm=False)()
 
         label chapter_5:
                 $ fix_chapter_names(5)
@@ -83,12 +86,14 @@
                 call chapter_9_rpy
 
                 $ persistent.end_unlocked = True
-                call screen chapter_screen(_("Конец Второго Тома"), _("Спасибо за игру!"))
 
+        label volume_2_end:
+                call screen chapter_screen(_("Конец Второго Тома"), _("Спасибо за игру!"))
+                $ MainMenu(confirm=False)()
 
         label end:
                 scene black with fade
-                "Продолжение следует."
+                # "Продолжение следует."
                 $ MainMenu(confirm=False)()
         
 return
