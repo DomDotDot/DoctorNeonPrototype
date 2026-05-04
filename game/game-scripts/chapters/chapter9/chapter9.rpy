@@ -18,8 +18,8 @@ label chapter_9_rpy:
 
     hide text with Dissolve(3.0)
 
-    # Запуск титров
-    # call roll_credits
+    # ВЫЗОВ ТИТРОВ ДЛЯ ТОМА 2
+    call credits_sequence(2)
 
     call chapter9_epilogue
 

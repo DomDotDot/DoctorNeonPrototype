@@ -50,7 +50,9 @@ define credits_vol1 = [
 
 #TODO Данные для Тома 2 (просто заглушка)
 define credits_vol2 = [
-    ("Главный сценарист", "-"),
+    (_("Сценарий"), "DomDot"),
+    (_("Художник"), "NanoBanana Pro"),
+    (_("Тестировщик и Вдохновитель"), "Overhappy_Avali"),
     ("CG Артист", "-"),
     ("Фоны", "-"),
     ("Спецэффекты", "-"),
@@ -72,10 +74,10 @@ label credits_sequence(volume_id):
         $ cg_time = 3.2 # Каждые сколько секунд менять картинку
         $ fade_time = 1.0 # Время растворения между картинками
     elif volume_id == 2:
-        $ audio_file = "audio/credits_song2.opus"
+        $ audio_file = "audio/music/BGM/A-Niente.opus"
         $ my_credits = credits_vol2
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol2", featured_prefix="featured_")
-        $ duration = 120.0
+        $ duration = 175
         $ end_msg_offset = 10.0
         $ cg_time = 3.0
         $ fade_time = 1.0
