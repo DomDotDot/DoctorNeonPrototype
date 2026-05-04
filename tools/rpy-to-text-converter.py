@@ -164,7 +164,16 @@ CHAPTERS_DB = {
         "chapters/chapter8/19-boundless-ocean.rpy",
         "chapters/chapter8/20-helious-helium.rpy",
         "chapters/chapter8/21-dream.rpy",
-    ]
+    ],
+
+    "chapter9": [
+        "chapters/chapter9/1-meet-me-there.rpy",
+        "chapters/chapter9/2-red-mist.rpy",
+        "chapters/chapter9/3-concert-hall.rpy",
+        "chapters/chapter9/4-absolute-silence.rpy",
+        "chapters/chapter9/5-bell-toll.rpy",
+        "chapters/chapter9/6-epilogue.rpy",
+    ],
 }
 
 # Путь к папке со всеми скриптами (относительно devtools)
