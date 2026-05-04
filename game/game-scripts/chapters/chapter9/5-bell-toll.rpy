@@ -345,19 +345,7 @@ label chapter9_bell_toll:
 
     stop music
     stop ambient
-    
-    # Тот самый эффект "Выключения мира"
     scene black
 
-    $ renpy.pause(4.0, hard=True)
-
-    play music "music/BGM/Celestia_Piano_Theme_Slow.opus" fadein 2.0
-
-    show text "{size=40}DOCTOR NEON{/size}" at truecenter with dissolve
-    $ renpy.pause(3.0, hard=True)
-    hide text with dissolve
-
-    # Запуск титров
-    # call roll_credits
 
 return
