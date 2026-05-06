@@ -20,18 +20,18 @@ screen settings_menu():
             style "modern_vbox"
             label _("Настройки") style "modern_title_label"
 
-            textbutton _("Текст/Графика") action ShowMenu("graphics_settings_screen") style "modern_button"
-            textbutton _("Звук") action ShowMenu("sound_settings_screen") style "modern_button"
+            use icon_button("🖥️", _("Текст/Графика"), action=ShowMenu("graphics_settings_screen"), btn_style="modern_button")
+            use icon_button("🔊", _("Звук"), action=ShowMenu("sound_settings_screen"), btn_style="modern_button")
             
             # Если есть экран языка
-            textbutton _("Язык") action ShowMenu("language_selection_screen") style "modern_button"
+            use icon_button("🌐", _("Язык"), action=ShowMenu("language_selection_screen"), btn_style="modern_button")
             
             if not renpy.variant("web"):
-                textbutton _("DLC Контент") action Function(renpy.call_in_new_context, "dlc_manager_main", is_in_game=not main_menu) style "modern_button"
+                use icon_button("📦", _("DLC Контент"), action=Function(renpy.call_in_new_context, "dlc_manager_main", is_in_game=not main_menu), btn_style="modern_button")
             else:
-                textbutton _("DLC Контент (Только ПК)") action None style "modern_button" text_color "#888"
+                use icon_button("📦", _("DLC Контент (Только ПК)"), action=None, btn_style="modern_button", txt_color="#888")
 
-            textbutton _("Управление данными") action ShowMenu("data_settings_screen") style "modern_button" text_color "#a11919"
+            use icon_button("💾", _("Управление данными"), action=ShowMenu("data_settings_screen"), btn_style="modern_button", txt_color="#a11919")
 
             null height 30
             textbutton _("Назад") action Return() style "modern_back_button"
@@ -93,7 +93,36 @@ screen graphics_settings_screen():
                         $ cps_text = str(cps_val) if cps_val > 0 else _("Мгн.")
                         
                         label _("Скорость текста: ") + cps_text
-                        bar value Preference("text speed") xsize 400
+                        hbox:
+                            spacing 10
+                            textbutton "↺":
+                                action Preference("text speed", getattr(config, "default_text_cps", 0))
+                                style "settings_test_button"
+                                xsize 45
+                                left_margin 0
+                                tooltip _("Сбросить")
+                            bar value Preference("text speed") xsize 345 yalign 0.5
+
+                    null height 15
+
+                    vbox:
+                        style_prefix "settings_slider"
+                        spacing 5
+                        xsize 400
+                        
+                        $ afm_val = int(preferences.afm_time) if getattr(preferences, "afm_time", 0) > 0 else 0
+                        $ afm_text = str(afm_val) if afm_val > 0 else _("Выкл")
+                        
+                        label _("Скорость авточтения: ") + afm_text
+                        hbox:
+                            spacing 10
+                            textbutton "↺":
+                                action Preference("auto-forward time", getattr(config, "default_afm_time", 15))
+                                style "settings_test_button"
+                                xsize 45
+                                left_margin 0
+                                tooltip _("Сбросить")
+                            bar value Preference("auto-forward time") xsize 345 yalign 0.5
 
                     null height 15
 
@@ -146,31 +175,54 @@ screen sound_settings_screen():
                 spacing 15
 
                 if config.has_music:
-                    label _("Громкость музыки")
+                    $ mus_vol = int(preferences.get_volume("music") * 100)
+                    label _("Громкость музыки: ") + str(mus_vol) + "%"
                     hbox:
-                        bar value Preference("music volume")
-                        textbutton "Тест" action Play("music", config.sample_sound) style "settings_test_button"
+                        spacing 10
+                        textbutton "↺":
+                            action Preference("music volume", 1.0)
+                            style "settings_test_button"
+                            xsize 45
+                            left_margin 0
+                            tooltip _("Сбросить")
+                        bar value Preference("music volume") xsize 345 yalign 0.5
+                        textbutton _("Тест") action Play("music", sample_music) style "settings_test_button"
 
                 if config.has_sound:
-                    label _("Громкость звуков")
+                    $ sfx_vol = int(preferences.get_volume("sound") * 100)
+                    label _("Громкость звуков: ") + str(sfx_vol) + "%"
                     hbox:
-                        bar value Preference("sound volume")
+                        spacing 10
+                        textbutton "↺":
+                            action Preference("sound volume", 1.0)
+                            style "settings_test_button"
+                            xsize 45
+                            left_margin 0
+                            tooltip _("Сбросить")
+                        bar value Preference("sound volume") xsize 345 yalign 0.5
                         if config.sample_sound:
                             textbutton _("Тест") action Play("sound", config.sample_sound) style "settings_test_button"
 
                 if config.has_voice:
-                    label _("Громкость голоса")
+                    $ voi_vol = int(preferences.get_volume("voice") * 100)
+                    label _("Громкость голоса: ") + str(voi_vol) + "%"
                     hbox:
-                        bar value Preference("voice volume")
+                        spacing 10
+                        textbutton "↺":
+                            action Preference("voice volume", 1.0)
+                            style "settings_test_button"
+                            xsize 45
+                            left_margin 0
+                            tooltip _("Сбросить")
+                        bar value Preference("voice volume") xsize 345 yalign 0.5
                         if config.sample_voice:
                             textbutton _("Тест") action Play("voice", config.sample_voice) style "settings_test_button"
             
-            null height 30
+                null height 15
 
-            textbutton _("Без звука"):
-                action Preference("all mute", "toggle")
-                style "settings_check_button"
-                xalign 0.5
+                textbutton _("Без звука"):
+                    action Preference("all mute", "toggle")
+                    style "settings_check_button"
 
             null height 30
             textbutton _("Назад") action ShowMenu("settings_menu") style "modern_back_button"

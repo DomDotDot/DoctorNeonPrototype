@@ -11,6 +11,9 @@ init python:
     c_krypton   = "#b41f1f"
     c_marcus    = "#967230"
     c_alex      = "#b41f5d"
+
+    # Абсолютные
+    c_absolute_silence = "#ffffff"
     
     # Опекуны и семья
     c_oganesson = "#663399" # Опекунша
@@ -36,6 +39,7 @@ init python:
     c_student1  = "#d4ad4b" # Amy / Student1
     c_student2  = "#33dad4" # Carol / Student2
     c_student3  = "#d1289e" # Mika / Student3
+    c_student4  = "#bc040d" # Clara / Student4
     
     # Учителя и прочие
     c_meryl     = "#e87a90" # Мэрил Кендрик
@@ -92,6 +96,7 @@ define oganesson = Character("[oganesson_display_name!t]",
     image="oganesson",
     color=c_oganesson, 
     what_slow_cps_multiplier=0.75,
+    ctc="ctc_oganesson",
     cb_name="oganesson"
 )
 define oganesson_young = Character(_('Тетя-гостья'),
@@ -99,6 +104,7 @@ define oganesson_young = Character(_('Тетя-гостья'),
     image="oganesson",
     color=c_ogan_young, 
     what_slow_cps_multiplier=0.80,
+    ctc="ctc_oganesson",
     cb_name="oganesson"
 )
 
@@ -130,6 +136,15 @@ define xenon = Character(_('Ксенон'),
     cb_name="xenon"
 )
 
+# --- АБСОЛЮТЫ---
+
+define absolute_silence = Character(_('Абсолютная Тишина'),
+    kind=base,
+    image="neon",
+    color=c_absolute_silence, 
+    ctc="ctc_silence",
+    cb_name="neon"
+)
 
 
 # --- Ключевые ---
@@ -140,6 +155,7 @@ define akane = Character(_('Мама'),
     kind=base,
     image="akane",
     color=c_akane,
+    ctc="ctc_akane",
     cb_name="akane"
 )
 
@@ -147,6 +163,7 @@ define celeste = Character(_('Селестия'),
     kind=base,
     image="celeste",
     color=c_celeste,
+    ctc="ctc_celeste",
     cb_name="celeste"
 )
 
@@ -224,6 +241,8 @@ define amy = Character(_('Эми'), kind=base, image="amy", color=c_student1, cb
 
 define student2 = Character(_('Студентка 2'), kind=base, image="carol", color=c_student2, cb_name="carol")
 define carol = Character(_('Кэрол'), kind=base, image="carol", color=c_student2, cb_name="carol")
+
+define clara = Character(_('Клара'), kind=base, image="clara", color=c_student4, cb_name="clara")
 
 default mika_display_name = "Мика"
 define mika = Character(_("[mika_display_name!t]"), kind=base, image="mika", color=c_student3, cb_name="mika")

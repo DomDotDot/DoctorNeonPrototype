@@ -548,3 +548,11 @@ translate english_us chapter4_0_arkaground_9e6120f7:
     # argon "А я остался у разбитого корыта со своей правотой. И с этим... проклятием."
     argon "And I'm left with nothing but being right. And this... curse."
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:170
+translate english_us chapter4_0_arkaground_c9681a5e:
+
+    # narrator "Он посмотрел меня и закончил."
+    narrator "He looked at me and have finished talking."
+

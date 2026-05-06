@@ -1,5 +1,12 @@
 label splashscreen:
-    
+    # Принудительная смена языка по команде из лаунчера
+    python:
+        import os
+        launcher_lang = os.environ.get('RENPY_LANGUAGE')
+        if launcher_lang:
+            target_lang = None if launcher_lang in ("Originallium", "None") else launcher_lang
+            if _preferences.language != target_lang:
+                renpy.change_language(target_lang)
     # Автоподгрузка при перезапуске после скачивания файлов DLC
     if getattr(persistent, "dlc_reload_save", None):
         $ save_name = persistent.dlc_reload_save

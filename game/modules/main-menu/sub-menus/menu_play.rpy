@@ -32,6 +32,10 @@ init 1 python:
     add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5a/featured_cg-31_2.avif", "chapter_4_5a_unlocked")
     add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5b/featured_7a-cg-2.avif", "chapter_4_5b_unlocked")
     add_chapter("chapter_5", _("Глава 5"), _("Предложение, от которого нельзя отказаться"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_5_unlocked")
+    add_chapter("chapter_6", _("Глава 6"), _("Первый ряд, Пятое место"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_6_unlocked")
+    add_chapter("chapter_7", _("Глава 7"), _("Туман Войны"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_7_unlocked")
+    add_chapter("chapter_8", _("Глава 8"), _("Школьные… дни?"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_8_unlocked")
+    add_chapter("chapter_9", _("Глава 9"), _("Резонирующий Диссонанс"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_9_unlocked")
 
 default persistent.chapter_1_unlocked = True
 
@@ -56,7 +60,7 @@ screen play_menu():
             textbutton _("Новая игра") action Start() style "modern_button"
 
             if renpy.newest_slot():
-                textbutton _("Продолжить") action FileLoad(renpy.newest_slot()) style "modern_button"
+                textbutton _("Продолжить") action Continue() style "modern_button"
             else:
                 textbutton _("Продолжить") action None style "modern_button" text_color "#888"
 

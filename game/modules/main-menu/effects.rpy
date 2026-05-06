@@ -22,10 +22,14 @@ init python:
         # speed: насколько сильно двигается фон (отрицательное значение - движение против мыши)
         return Transform(d, function=parallax_func(speed))
 
-    def parallax_func(speed):
-        def _updater(d, st, at):
+    class ParallaxUpdater(object):
+        def __init__(self, speed):
+            self.speed = speed
+        def __call__(self, d, st, at):
             return 0
-        return _updater
+
+    def parallax_func(speed):
+        return ParallaxUpdater(speed)
 
 
 transform mouse_parallax(amount=20):
@@ -35,17 +39,22 @@ transform mouse_parallax(amount=20):
     function mouse_parallax_func(amount)
 
 init python:
-    def mouse_parallax_func(amount):
-        def _func(trans, st, at):
+    class MouseParallaxUpdater(object):
+        def __init__(self, amount):
+            self.amount = amount
+
+        def __call__(self, trans, st, at):
             x, y = renpy.get_mouse_pos()
 
             norm_x = (x / float(config.screen_width)) - 0.5
             norm_y = (y / float(config.screen_height)) - 0.5
             
-            trans.xoffset = norm_x * amount * -1
-            trans.yoffset = norm_y * amount * -1
+            trans.xoffset = norm_x * self.amount * -1
+            trans.yoffset = norm_y * self.amount * -1
             return 0
-        return _func
+
+    def mouse_parallax_func(amount):
+        return MouseParallaxUpdater(amount)
 
 
 image particles_winter = SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10)

@@ -688,7 +688,7 @@ label chapter4_5_finale:
         Но сейчас, я осознаю свою ошибку. Ошибку, которая стоила мне дружбы.
     """
 
-    scene featured_9cg-10-1 with dissolve
+    scene featured_9cg-10-1 at scene_parallax(40), dizzy_sway169 with dissolve
 
     narrator """
         Ведь в отражении мокрого асфальта я уже вижу не Лили и не Серафину.
@@ -714,7 +714,7 @@ label chapter4_5_finale:
         Почему зеркала всегда врали мне?
     """
 
-    scene featured_9cg-10-2 with dissolve
+    scene featured_9cg-10-2 at scene_parallax(40), dizzy_sway169 with dissolve
 
     $ renpy.music.set_volume(0.25, channel="ambient")
     $ renpy.music.set_audio_filter("ambient", None, replace=True)

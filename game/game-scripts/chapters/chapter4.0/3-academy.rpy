@@ -227,7 +227,7 @@ label chapter4_0_academy:
     narrator "Она достала свой смартфон и быстро нашла что-то в поисковике. Она протянула телефон мне."
 
     # Экран приближается к телефону.
-    # show screen veritas_celesta_news_article with dissolve
+    # show screen veritas_celeste_news_article with dissolve
     
     student2 "Ой, реклама вылезла... Подождите пять секунд, пожалуйста."
     narrator "Студентка подошла ко мне снова и тыкнула пальцем в экран, чтобы закрыть всплывающее окно."

@@ -1,6 +1,7 @@
 # Блестящий Неон - Полутонный Резонанс
 
-![Banner](source_assets/promo/promoassets/BNSR-Poster.jpg)
+![BannerVolume1](source_assets/promo/promoassets/BNSR-Poster-vol1.jpg)
+![BannerVolume2](source_assets/promo/promoassets/BNSR-Poster-vol2.png)
 
 <!-- БЕЙДЖИ -->
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)

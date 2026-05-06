@@ -125,6 +125,9 @@ label chapter4_5_epilogue:
     narrator "В этот момент зазвонил телефон Сары. На экране высветилось: 'Мэрил Кендрик'."
     
     narrator "Я взяла трубку."
+
+    scene black with dissolve
+    stop music fadeout 0.25
     
     neon "Алло?"
     

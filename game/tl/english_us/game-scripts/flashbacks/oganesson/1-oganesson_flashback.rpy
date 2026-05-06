@@ -341,3 +341,11 @@ translate english_us oganesson_school_flashback_1_481bb34f:
 
     # unknown_f "Неон? Неон, ты меня слышишь? Эй!"
     unknown_f "Neon? Neon, can you hear me? Hey!"
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:155
+translate english_us oganesson_school_flashback_1_ae9acab6:
+
+    # narrator "Все уставились на нас."
+    narrator "We were the center of attention."
+

@@ -1226,3 +1226,29 @@ translate english_us chapter1_lab_morning_b68e7f06:
     # narrator "Она убрала телефон и снова улыбнулась, но уже с блеском в глазах."
     narrator "She put the phone away and smiled again, but with a gleam in her eyes."
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:86
+translate english_us chapter1_lab_morning_62581797:
+
+    # narrator "Алекс снова ворвалась в лабораторию, как ураган, сметая тишину."
+    narrator "alex burst into the lab again like a hurricane, shattering the silence."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:86
+translate english_us chapter1_lab_morning_cb55593b:
+
+    # narrator "Я инстинктивно вжала голову в плечи. Яркая, шумная, полная жизни и совершенно неуместная в этой стерильной лаборатории."
+    narrator "I instinctively pulled my head down into my shoulders. Bright, noisy, full of life and completely out of place in this sterile laboratory."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:86
+translate english_us chapter1_lab_morning_9197fb4d:
+
+    # narrator "Мне хотелось накричать на неё, выгнать вон. Но когда она обеспокоенно заглянула мне в глаза, раздражение растворилось в чувстве вины. Я ненавидела её шум, но я не могла ненавидеть её"
+    narrator "What I wanted to do was yell at her, kick her out. But when she looked into my eyes with concern, the irritation dissolved into guilt. I hated her noise, but I couldn't hate her."
+
+# game/game-scripts/chapters/chapter1/2-lab-morning.rpy:167
+translate english_us chapter1_lab_morning_79b886da:
+
+    # narrator "На секунду всё приостановилось. А потом Алекс взорвалась хохотом. Громким, заразительным, без малейшего стеснения."
+    narrator "For a moment, everything stopped. Then Alex burst into laughter. Loud, contagious, without the slightest hint of embarrassment."
+

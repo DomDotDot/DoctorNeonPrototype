@@ -46,8 +46,8 @@ style modern_title_text is label_text:
 # Base Buttons
 #
 style modern_button is button:
-    xsize 400
-    ysize 65
+    xsize 450
+    ysize 75
     xalign 0.5
     yalign 0.5
     background Solid("#000000cc") 
@@ -69,14 +69,14 @@ style modern_button_text is button_text:
 # Specific Buttons
 #
 style main_menu_button is modern_button:
-    xsize 350
+    xsize 440
     ysize 75
 
 style main_menu_button_text is modern_button_text:
     size 32
 
 style modern_back_button is modern_button:
-    xsize 300
+    xsize 400
     ysize 50
     background None 
     hover_background Solid("#222222cc")
@@ -197,3 +197,37 @@ style safe_button is danger_button:
 style neutral_button is danger_button:
     background Solid("#333333")
     hover_background Solid("#555555")
+
+#
+# Icon Button Component
+#
+screen icon_button(icon, txt, action, btn_style="modern_button", txt_color=None):
+    button:
+        action action
+        style btn_style
+
+        hbox:
+            xfill True
+            yfill True
+
+            if icon:
+                # Плашка под иконку слева
+                frame:
+                    background Solid("#ffffff10") # Полупрозрачный фон
+                    xsize (75 if btn_style == "main_menu_button" else 65)
+                    yfill True
+                    text icon align (0.5, 0.5):
+                        style btn_style + "_text"
+                        if txt_color:
+                            idle_color txt_color
+            
+            # Текст кнопки центрируется в оставшемся пространстве
+            frame:
+                background None
+                xfill True
+                yfill True
+                text txt align (0.5, 0.5):
+                    style btn_style + "_text"
+                    if txt_color:
+                        idle_color txt_color
+

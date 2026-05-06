@@ -2,20 +2,19 @@ init python:
     import re
 
     def slow_punctuation(str_to_test):
-        # 1. Skip if text is empty or user set text speed to 'Instant' (CPS = 0)
-        # Forcing waits on Instant text speed is bad UX.
+        # Skip if text is empty or user set text speed to 'Instant' (CPS = 0)
         if not str_to_test or getattr(preferences, "text_cps", 1) == 0:
             return str_to_test
             
         # Try to translate the string first, so that the translation matches the unmodified string.
-        # This is because config.say_menu_text_filter runs before string translation for menus.
+        # config.say_menu_text_filter runs before string translation for menus.
         try:
             # __() is the Ren'Py built-in for immediate translation.
             str_to_test = __(str_to_test)
         except Exception:
             pass
             
-        # 2. Split string to isolate tags like {color=#fff} and interpolations like [player_name]
+        # Split string to isolate tags like {color=#fff} and interpolations like [player_name]
         # Even indices (0, 2, 4...) are plain text; odd indices are tags.
         parts = re.split(r'(\{[^\}]+\}|\[[^\]]+\])', str_to_test)
         

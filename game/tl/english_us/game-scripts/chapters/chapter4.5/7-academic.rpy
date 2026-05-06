@@ -1358,3 +1358,17 @@ translate english_us chapter4_5_classroom_intro_b5cd83b4:
     # akari "Не приставай к новенькой. Лучше расскажи мне почему у новорожденных самцов мух доминантный ген цвета глаз и передается от отца?"
     akari "Stop bothering the new girl. Better tell me why newborn male flies have a dominant eye color gene that is passed down from the father?"
 
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:96
+translate english_us chapter4_5_morning_after_e8eef852:
+
+    # narrator "В трубке что-то замешкалось. Я слышала только ее прерывистое, сдерживаемое дыхание."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:207
+translate english_us chapter4_5_morning_after_c31879e3:
+
+    # narrator "Она ничего не ответила. Просто отвернулась и долго смотрела в окно на пустую улицу. В машине была неловкая тишина, пока она обрабатывала эту информацию."
+    narrator "She didn't answer. Just turned away and stared out the window at the empty street for a long time. A silent awkwardness filled the car as she processed the information."
+

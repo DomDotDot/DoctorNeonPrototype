@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.7.3-stable"
+define config.version = "0.7.7-stable"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -74,6 +74,7 @@ define config.defer_tl_scripts = True
 ## Чтобы разрешить игроку тестировать громкость на звуковом или голосовом
 ## каналах, раскомментируйте строчку и настройте пример звука для прослушивания.
 
+define sample_music = "audio/music/BGM/Commuting.opus"
 define config.sample_sound = "audio/sfx/sound_sample.opus"
 define config.sample_voice = "audio/voice/voice_sample.ogg"
 
@@ -215,11 +216,13 @@ init python:
     build.classify('**/*.disabled', 'dev')
 
     build.classify('game/devtools/**', 'dev')
+    build.classify('build-compilers/**', None)
 
     build.classify('**.7z', None)
     build.classify('**.zip', None)
 
     build.classify('README.md', None)
+    build.classify('README.ru.md', None)
     build.classify('LICENSE', None)
 
     # Изображения

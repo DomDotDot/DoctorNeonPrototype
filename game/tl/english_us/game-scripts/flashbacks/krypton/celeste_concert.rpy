@@ -413,3 +413,17 @@ translate english_us krypton_concert_flashback_29570421:
 
     # "???" "{=whisper}Обманщица..."
     "???" "{=whisper}Liar..."
+# TODO: Translation updated at 2026-04-19 17:06
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:183
+translate english_us krypton_concert_flashback_220dd5bd:
+
+    # neon "{=thoughts}Я помню этот слепящий свет из боковых дверей пожарного выхода... Силуэт распахнул их, ворвавшись прямо на боковой ярус сцены."
+    neon "{=thoughts}I remember that blinding light from the side fire exit doors... A silhouette threw them open, bursting right onto the side tier of the stage."
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:185
+translate english_us krypton_concert_flashback_d9917d12:
+
+    # "???" "{=whisper}Неон?"
+    "???" "{=whisper}Neon?"
+

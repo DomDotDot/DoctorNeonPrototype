@@ -4,7 +4,7 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter4.5" 
+TARGET_CHAPTER = "chapter8" 
 
 # 2. Имя выходного файла
 OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
@@ -148,7 +148,32 @@ CHAPTERS_DB = {
         "chapters/chapter8/3-lockedroom.rpy",
         "chapters/chapter8/4-basketball.rpy",
         "chapters/chapter8/5-infirmary.rpy",
-    ]
+        "chapters/chapter8/6-search-island.rpy",
+        "chapters/chapter8/7-cave.rpy",
+        "chapters/chapter8/8-letter.rpy",
+        "chapters/chapter8/9-mismatch.rpy",
+        "chapters/chapter8/10-morning-incident.rpy",
+        "chapters/chapter8/11-club-invitation.rpy",
+        "chapters/chapter8/12-classmate.rpy",
+        "chapters/chapter8/13-club.rpy",
+        "chapters/chapter8/14-lost-key.rpy",
+        "chapters/chapter8/15-afternoon-date.rpy",
+        "chapters/chapter8/16-martyrdom-tide.rpy",
+        "chapters/chapter8/17-ocean-of-loneless.rpy",
+        "chapters/chapter8/18-memory-sea.rpy",
+        "chapters/chapter8/19-boundless-ocean.rpy",
+        "chapters/chapter8/20-helious-helium.rpy",
+        "chapters/chapter8/21-dream.rpy",
+    ],
+
+    "chapter9": [
+        "chapters/chapter9/1-meet-me-there.rpy",
+        "chapters/chapter9/2-red-mist.rpy",
+        "chapters/chapter9/3-concert-hall.rpy",
+        "chapters/chapter9/4-absolute-silence.rpy",
+        "chapters/chapter9/5-bell-toll.rpy",
+        "chapters/chapter9/6-epilogue.rpy",
+    ],
 }
 
 # Путь к папке со всеми скриптами (относительно devtools)
