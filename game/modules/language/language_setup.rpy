@@ -30,3 +30,5 @@ init -1 python:
 
     def get_lang_progress(code):
         return TRANSLATION_STATUS.get(code, 0)
+
+
