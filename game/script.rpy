@@ -59,31 +59,31 @@
 
         label chapter_5:
                 $ fix_chapter_names(5)
-                call chapter_5_rpy
+                call chapter_5_rpy from _call_chapter_5_rpy
 
                 $ persistent.chapter_6_unlocked = True
 
         label chapter_6:
                 $ fix_chapter_names(6)
-                call chapter_6_rpy
+                call chapter_6_rpy from _call_chapter_6_rpy
 
                 $ persistent.chapter_7_unlocked = True
         
         label chapter_7:
                 $ fix_chapter_names(7)
-                call chapter_7_rpy
+                call chapter_7_rpy from _call_chapter_7_rpy
 
                 $ persistent.chapter_8_unlocked = True
 
         label chapter_8:
                 $ fix_chapter_names(8)
-                call chapter_8_rpy
+                call chapter_8_rpy from _call_chapter_8_rpy
 
                 $ persistent.chapter_9_unlocked = True
 
         label chapter_9:
                 $ fix_chapter_names(9)
-                call chapter_9_rpy
+                call chapter_9_rpy from _call_chapter_9_rpy
 
                 $ persistent.end_unlocked = True
 
