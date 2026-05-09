@@ -30,10 +30,10 @@ screen inventory_screen():
                 xysize (760, 450)
 
                 for item in inventory_list:
-                    # Кнопка с иконкой предмета
+                    # Кнопка с иконкой предмета, с автоматическим ресайзом под слот
                     imagebutton:
-                        idle item.icon
-                        hover Transform(item.icon, zoom=1.1)
+                        idle Transform(item.icon, fit="contain", xysize=(100, 100))
+                        hover Transform(item.icon, fit="contain", xysize=(100, 100), zoom=1.1)
                         action SetVariable("selected_item", item)
                         xysize (100, 100) # Размер слота
                         
@@ -60,7 +60,7 @@ screen item_context_menu(item):
         
     frame:
         align (0.5, 0.5)
-        xysize (400, 300)
+        padding (30, 30)
         background Solid("#222")
         
         vbox:
@@ -68,7 +68,13 @@ screen item_context_menu(item):
             spacing 20
             
             text item.name size 30 bold True xalign 0.5
-            add item.icon xalign 0.5 zoom 0.8
+            
+            # Ячейка (контейнер) для зума картинки
+            frame:
+                xalign 0.5
+                xysize (500, 500)
+                background Solid("#111")
+                add Transform(item.icon, fit="contain", xysize=(500, 500)) align (0.5, 0.5)
             
             hbox:
                 spacing 10
