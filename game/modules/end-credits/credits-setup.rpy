@@ -74,11 +74,11 @@ label credits_sequence(volume_id):
         $ cg_time = 3.2 # Каждые сколько секунд менять картинку
         $ fade_time = 1.0 # Время растворения между картинками
     elif volume_id == 2:
-        $ audio_file = "audio/music/BGM/A-Niente.opus"
+        $ audio_file = "audio/music/BGM/CallYou.mp3"
         $ my_credits = credits_vol2
         $ featured_cg, all_cg = get_images_from_dir("images/cg/vol2", featured_prefix="featured_")
-        $ duration = 175
-        $ end_msg_offset = 10.0
+        $ duration = 224 #175
+        $ end_msg_offset = 13.0
         $ cg_time = 3.0
         $ fade_time = 1.0
     
