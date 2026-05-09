@@ -3,8 +3,8 @@
 init python:
     # Инициализация предметов для Главы 5
     Item_MaintenanceKeycard = Item("maintenance_keycard", "Сервисная карта", "Ключ-карта технического персонала Орбитали.", "images/items/keycard.png")
-    Item_UnchargedBattery = Item("uncharged_battery", "Разряженная батарея", "Тяжелая энергетическая ячейка для крупной техники. Полностью пуста.", "images/items/battery_empty.png")
-    Item_ChargedBattery = Item("charged_battery", "Заряженная батарея", "Энергетическая ячейка, гудящая от переполняющей её энергии.", "images/items/battery_full.png")
+    Item_UnchargedBattery = Item("uncharged_battery", "Разряженная батарея", "Тяжелая энергетическая ячейка для крупной техники. Полностью пуста.", "images/items/battery.png")
+    Item_ChargedBattery = Item("charged_battery", "Заряженная батарея", "Энергетическая ячейка, гудящая от переполняющей её энергии.", "images/items/battery.png")
     Item_BartenderUniform = Item("bartender_uniform", "Униформа бармена", "Рабочий комбинезон персонала бара 'Космический Ветер'. Пахнет дешёвым виски и потом.", "images/items/uniform_bartender.png")
 
 label ch5_quest_init:
