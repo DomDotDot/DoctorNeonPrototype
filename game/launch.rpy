@@ -18,9 +18,15 @@ label splashscreen:
     # -----------------------------------------------------------
     scene black
     
-    # Сначала проверяем обновления (если у вас есть эта функция)
-    if hasattr(store, 'check_for_updates'):
-        $ check_for_updates()
+    # Определяем, запущена ли игра через лаунчер
+    python:
+        import os
+        launched_from_launcher = os.environ.get('BN_LAUNCHER') == '1'
+
+    # Сначала проверяем обновления (если у вас есть эта функция и нет лаунчера)
+    if not launched_from_launcher:
+        if hasattr(store, 'check_for_updates'):
+            $ check_for_updates()
 
     $ renpy.pause(0.5, hard=True)
 
@@ -46,26 +52,32 @@ label splashscreen:
         # Обновляем записанную версию
         $ persistent.last_run_version = config.version
         
-        # Если это совсем первый запуск (или переход со старой версии без этого флага)
-        if persistent.firstlaunch:
-            # Выбор языка (если есть такой экран)
-            if renpy.has_screen("language_selection_screen"):
-                call screen language_selection_screen
-            $ persistent.firstlaunch = False
+        if not launched_from_launcher:
+            # Если это совсем первый запуск (или переход со старой версии без этого флага)
+            if persistent.firstlaunch:
+                # Выбор языка (если есть такой экран)
+                if renpy.has_screen("language_selection_screen"):
+                    call screen language_selection_screen
+                $ persistent.firstlaunch = False
 
-        # Предупреждение о контенте (показываем при каждом обновлении версии или первом запуске)
-        call screen content_warning_screen with dissolve
-        call screen content_warning with dissolve
-        
-        #TODO Настройки доступности (размер текста и т.д)
-        # call screen accessibility_settings 
+            # Предупреждение о контенте (показываем при каждом обновлении версии или первом запуске)
+            call screen content_warning_screen with dissolve
+            call screen content_warning with dissolve
+            
+            #TODO Настройки доступности (размер текста и т.д)
+            # call screen accessibility_settings 
+        else:
+            # Если запущено из лаунчера, пропускаем экраны, но сбрасываем флаг,
+            # чтобы при случайном запуске без лаунчера они не появлялись внезапно
+            $ persistent.firstlaunch = False
 
     # -----------------------------------------------------------
     # 4. ПРОВЕРКИ DLC И ОБНОВЛЕНИЙ
     # -----------------------------------------------------------
     
-    if renpy.has_label("_call_dlc_check_sequence"):
-        call dlc_check_sequence from _call_dlc_check_sequence
+    if not launched_from_launcher:
+        if renpy.has_label("_call_dlc_check_sequence"):
+            call dlc_check_sequence from _call_dlc_check_sequence
 
     if hasattr(store, 'updater_state'):
         $ wait_time = 0.0
