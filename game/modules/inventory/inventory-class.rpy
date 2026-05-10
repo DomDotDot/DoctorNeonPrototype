@@ -36,6 +36,13 @@ init -1 python:
                 return True
         return False
         
+    def get_all_items():
+        # Выдаёт все существующие предметы в игре (для отладки через Shift+O)
+        for name, obj in globals().items():
+            if isinstance(obj, Item):
+                add_item(obj)
+        renpy.notify("Получены все предметы!")
+        
     # Функция использования предмета (из GUI инвентаря)
     def use_current_item():
         global selected_item
