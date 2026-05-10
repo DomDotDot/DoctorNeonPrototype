@@ -32,7 +32,7 @@ screen inventory_screen():
                 for item in inventory_list:
                     # Кнопка с иконкой предмета, с автоматическим ресайзом под слот
                     imagebutton:
-                        idle Transform(item.icon, fit="contain", xysize=(100, 100))
+                        idle Transform(item.icon, fit="contain", xysize=(100, 100), zoom=1.0)
                         hover Transform(item.icon, fit="contain", xysize=(100, 100), zoom=1.1)
                         action SetVariable("selected_item", item)
                         xysize (100, 100) # Размер слота
