@@ -17,7 +17,7 @@ label ch5_level3_robotics:
         label ch5_robot_puzzle:
             narrator "На экране мерцала надпись: 'СИСТЕМНЫЙ СБОЙ ДАВЛЕНИЯ. Требуется ручная калибровка.'"
             narrator "Ниже горела подсказка местного инженера: 'Внимание, целевое давление для сброса 'мертвой хватки' манипулятора должно равняться константе Пи, умноженной на 100.'"
-            narrator "Текущее давление в системе: [store.ch5_robotics_current_pressure] PSI. Цель: [store.ch5_robotics_target_pressure] PSI."
+            narrator "Текущее давление в системе: [store.ch5_robotics_current_pressure] PSI."
             
             menu:
                 "Крутить большой красный вентиль (+50 PSI)":
@@ -43,7 +43,7 @@ label ch5_level3_robotics:
                 play sound "sfx/hydraulic_release.opus"
                 narrator "С громким шипением система сбросила давление. Манипулятор медленно разжал стальные пальцы."
                 narrator "Ампула 'Цито-В' мягко упала на ленту конвейера."
-                $ add_item(Item_ReagentB)
+                $ add_item(Item_ReagentA)
                 $ ch5_robotics_solved = True
                 jump ch5_level3_inner_hall_menu
             elif store.ch5_robotics_current_pressure > 450 or store.ch5_robotics_current_pressure < 50:
