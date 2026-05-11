@@ -131,6 +131,8 @@ label chapter5_introduction:
     
     narrator "Тихий писк в ухе. Аудиофайл стерся, оставив после себя лишь цифровой шум."
 
+    scene black with dissolve
+
     narrator """
         Я закрыла глаза, вслушиваясь в эту тишину. 
         
