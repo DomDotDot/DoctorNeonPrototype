@@ -10,7 +10,6 @@ label chapter5_start:
     play music "music/BGM/Space_Station_Atmosphere.opus" fadein 2.0 loop volume 0.3
     play ambient "ambient/station_hum_ventilation.opus" fadein 2.0 loop
 
-    show neon operative_neutral at right with dissolve
-    show argon operative_glasses at left with dissolve
+    
 
 return
