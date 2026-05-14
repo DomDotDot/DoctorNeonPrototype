@@ -59,7 +59,7 @@ label ch5_quest_init:
 
 # --- ГЛАВНЫЙ ХОЛЛ (УРОВЕНЬ 2) ---
 label ch5_level2_main_hall:
-    scene chapter5-test-hublevel1 with fade
+    scene ch05_bg01_v01 with fade
     play music "music/BGM/Space_Station_Atmosphere.opus" loop volume 0.3
     
     narrator """
@@ -71,7 +71,7 @@ label ch5_level2_main_hall:
     """
     
 label ch5_level2_main_hall_menu:
-    scene chapter5-test-hublevel1 with fade
+    scene ch05_bg01_v01 with fade
     
     menu:
         "Осмотреть холл" if not ch5_elevator_powered:
