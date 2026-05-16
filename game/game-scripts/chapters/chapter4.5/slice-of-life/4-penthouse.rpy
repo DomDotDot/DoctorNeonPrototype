@@ -115,6 +115,7 @@ label chapter4_5_seraphina_penthouse:
     """
 
     scene featured_5cg-3 with fade
+    play music "music/BGM/Hater.opus" fadein 5.0 fadeout 5.0
 
     seraphina """
         Ну Неон... ну почему ты такая сложная?
