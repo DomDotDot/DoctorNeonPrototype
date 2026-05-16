@@ -1,0 +1,89 @@
+name: Update CDN Hashes
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Release Info
+        id: get_release
+        run: |
+
+          VERSION=${GITHUB_REF_NAME#v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
+
+      - name: Checkout CDN Repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'DomDotDot/BrightestNeonLauncher-CDN'
+          token: ${{ secrets.CDN_REPO_TOKEN }}
+          path: 'cdn-repo'
+
+      - name: Download Release Assets
+        run: |
+          mkdir -p downloads
+          cd downloads
+          
+          gh release download ${{ steps.get_release.outputs.tag }} --repo ${{ github.repository }} --pattern "*.zip" || echo "No zip files found"
+          
+          ls -la
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Calculate Hashes and Update Manifest
+        run: |
+          MANIFEST_PATH="cdn-repo/games/semitone-resonance/manifest.json"
+          
+          if [ ! -f "$MANIFEST_PATH" ]; then
+            echo "Manifest not found at $MANIFEST_PATH"
+            exit 1
+          fi
+
+          cd downloads
+          
+          MAIN_ZIP=$(ls DoctorNeonPrototype-*.zip 2>/dev/null || echo "")
+          
+          if [ -n "$MAIN_ZIP" ]; then
+            echo "Found main game archive: $MAIN_ZIP"
+            MAIN_HASH=$(sha256sum "$MAIN_ZIP" | awk '{ print $1 }')
+            echo "Main Hash: $MAIN_HASH"
+            
+            jq --arg ver "${{ steps.get_release.outputs.version }}" \
+               --arg hash "$MAIN_HASH" \
+               '.latest_version = $ver | .sha256 = $hash' \
+               "../$MANIFEST_PATH" > tmp.json && mv tmp.json "../$MANIFEST_PATH"
+          fi
+
+          DLC_ZIP=$(ls assets.zip 2>/dev/null || echo "")
+          
+          if [ -n "$DLC_ZIP" ]; then
+            echo "Found DLC archive: $DLC_ZIP"
+            DLC_HASH=$(sha256sum "$DLC_ZIP" | awk '{ print $1 }')
+            echo "DLC Hash: $DLC_HASH"
+            
+            jq --arg hash "$DLC_HASH" \
+               --arg url "https://github.com/${{ github.repository }}/releases/download/${{ steps.get_release.outputs.tag }}/assets.zip" \
+               '(.dlc[] | select(.id == "assets")).sha256 = $hash | (.dlc[] | select(.id == "assets")).download_url = $url' \
+               "../$MANIFEST_PATH" > tmp.json && mv tmp.json "../$MANIFEST_PATH"
+          fi
+
+      - name: Commit and Push Changes to CDN
+        run: |
+          cd cdn-repo
+          
+
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add games/semitone-resonance/manifest.json
+          git commit -m "chore: auto-update sha256 hashes for release ${{ steps.get_release.outputs.tag }}"
+          git push origin main
