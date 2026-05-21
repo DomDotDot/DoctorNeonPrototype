@@ -26,6 +26,14 @@ label ch5_quest_init:
     $ ch5_elevator_powered = False
     $ ch5_bartender_talked = False
     
+    # Флаги нового саб-квеста
+    $ ch5_cargo_first_visit = True
+    $ ch5_dorms_article_found = False
+    $ ch5_chapel_priest_state = 0
+    $ ch5_read_folklore = False
+    $ ch5_priest_reject_points = 0
+    $ ch5_chapel_realization_triggered = False
+    
     # Флаги Дормов
     $ ch5_dorms_time = 0
     $ ch5_dorms_searched = False
