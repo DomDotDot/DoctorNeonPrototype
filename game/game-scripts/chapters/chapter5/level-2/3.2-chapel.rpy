@@ -5,7 +5,7 @@ label ch5_station_chapel_scene:
     if ch5_read_folklore and not ch5_chapel_realization_triggered:
         jump ch5_station_chapel_menu
         
-    scene chapter5-test-chapel with fade
+    scene ch05_bg03_v01 with fade
     stop music fadeout 2.0
     play ambient "ambient/church_hum_choir.opus" fadein 2.0
 
@@ -23,12 +23,12 @@ label ch5_station_chapel_scene:
         narrator "На скамье сидел старик в робе священника. Он смотрел на голографическую проекцию Земли, покрытой серой пеленой."
 
 label ch5_station_chapel_menu:
-
+    scene ch05_bg03_v01 with fade
     # Если Неон прочитала легенду, но еще не пережила момент осознания
     if ch5_read_folklore and not ch5_chapel_realization_triggered:
         $ ch5_chapel_realization_triggered = True
         $ ch5_chapel_priest_state = 1 # Священник ушел
-        scene chapter5-test-chapel with dissolve
+        scene ch05_bg03_v01 with fade
         narrator "Я вошла в Часовню. Тихое гудение вентиляции и блеклый свет проекции Земли — здесь никого не было."
         
         if ch5_priest_reject_points >= 2:
@@ -70,7 +70,7 @@ label ch5_station_chapel_menu:
 
     menu:
         "Осмотреть сектор выброса тел" if ch5_level2_examined:
-            scene chapter5-test-chapel with dissolve
+            scene ch05_bg04_v01 with fade
     
             narrator "Рядом с Часовней находился сектор утилизации и космического выброса. Суровое напоминание о том, как легко здесь оборваться жизни."
             narrator "Здесь стояли мощные индукционные катушки, обеспечивающие работу катапульт."
@@ -91,6 +91,7 @@ label ch5_station_chapel_menu:
                 jump ch5_station_chapel_menu
             
         "Подойти к священнику" if ch5_chapel_priest_state != 1:
+            scene ch05_cg15_v01 with dissolve
             if ch5_chapel_priest_state == 2:
                 "Священник" "Я уже всё сказал тебе. Твоё сердце ослеплено гордыней. Уходи."
                 narrator "Он отвернулся от меня, уставившись в пустоту перед собой, всем видом показывая, что разговор окончен."
@@ -98,8 +99,6 @@ label ch5_station_chapel_menu:
                 
             else:
                 narrator "Я бесшумно подошла к старцу. Он медленно обернулся, его взгляд скользнул по моему лицу, а затем замер на моих волосах."
-                
-                show neon operative_neutral at center with dissolve
                 
                 "Священник" "Т-ты... Твои волосы... Глубокая синева... Неужели...?"
                 
@@ -168,6 +167,7 @@ label ch5_station_chapel_menu:
                 jump ch5_station_chapel_menu
 
         "Подойти к скамье" if ch5_chapel_priest_state == 1:
+            scene ch05_cg15_v02 with dissolve
             narrator "Я подошла к пустой скамье. Священник ушел."
             if ch5_priest_reject_points >= 2:
                 neon "{=thoughts}Он ушел в гневе, забрав с собой тайны моей Матери... и моего прошлого. Мне так жаль, что я повела себя с ним столь ужасно.{/thoughts}"

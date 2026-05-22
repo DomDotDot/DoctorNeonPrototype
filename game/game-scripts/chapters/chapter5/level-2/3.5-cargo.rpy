@@ -1,5 +1,5 @@
 label ch5_level2_cargo:
-    scene chapter5-test-cargo with dissolve
+    scene ch05_bg08_v01 with fade
     
     if ch5_cargo_solved:
         narrator "В зоне Карго суетятся погрузчики. Аргон где-то там, следит за 'Эребом'. Мне не стоит здесь задерживаться."

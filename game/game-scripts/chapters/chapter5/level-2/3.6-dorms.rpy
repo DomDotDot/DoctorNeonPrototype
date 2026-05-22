@@ -1,6 +1,6 @@
 # --- ЛОКАЦИЯ 6: ДОРМЫ (Жилые блоки персонала) ---
 label ch5_level2_dorms:
-    scene chapter5-test-dormcorridor with fade
+    scene ch05_bg09_v01 with fade
     play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop volume 0.3
     
     narrator """
@@ -10,7 +10,7 @@ label ch5_level2_dorms:
     """
     
 label ch5_level2_dorms_menu:
-    scene chapter5-test-dormcorridor with dissolve
+    scene ch05_cg15_v01 with fade
     
     if ch5_got_uniform:
         narrator "Дормы опустели. Я уже сделала здесь всё, что нужно."
@@ -34,7 +34,7 @@ label ch5_level2_dorms_menu:
 
 # --- ВНУТРИ КОМНАТЫ: ТАЙМ-ПАЗЛ ---
 label ch5_level2_dorms_room:
-    scene chapter5-test-dormroom with dissolve
+    scene ch05_bg10_v01 with fade
     
     narrator """
         Типичная каюта низшего персонала. Кровать, встроенная в стену, металлический стол, тесный шкаф.

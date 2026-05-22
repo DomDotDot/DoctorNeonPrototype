@@ -1,5 +1,5 @@
 label ch5_level2_elevator:
-    scene chapter5-test-hublevel2 with dissolve
+    scene ch05_bg07_v01 with fade
     
     if ch5_elevator_powered:
         narrator "Лифт работает. Индикаторы горят зеленым."
