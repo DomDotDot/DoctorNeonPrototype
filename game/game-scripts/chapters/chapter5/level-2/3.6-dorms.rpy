@@ -10,14 +10,16 @@ label ch5_level2_dorms:
     """
     
 label ch5_level2_dorms_menu:
-    scene ch05_cg15_v01 with fade
     
     if ch5_got_uniform:
+        scene ch05_bg09_v01 with fade
         narrator "Дормы опустели. Я уже сделала здесь всё, что нужно."
         jump ch5_level2_main_hall_menu
     
     if ch5_bar_fight_agreed and ch5_dorms_event_triggered:
         jump ch5_level2_dorms_fight
+
+    scene ch05_bg09_v01 with fade
         
     narrator "В коридоре было три двери. Две из них заблокированы электронными замками с красными индикаторами. Третья дверь была приоткрыта."
     
@@ -43,6 +45,8 @@ label ch5_level2_dorms_room:
     """
     
 label ch5_level2_dorms_room_menu:
+
+    scene ch05_bg10_v01 with fade
     
     # Проверка триггера времени (7 минут)
     if ch5_dorms_time >= 7 and not ch5_dorms_event_triggered:
@@ -73,6 +77,9 @@ label ch5_level2_dorms_room_menu:
             
         "Искать вещи":
             if not ch5_dorms_searched:
+                
+                scene black with dissolve
+
                 $ ch5_dorms_searched = True
                 $ ch5_dorms_time += 4
                 
@@ -85,6 +92,8 @@ label ch5_level2_dorms_room_menu:
                     
                     Однако, обыскивая выдвижной ящик прикроватной тумбочки, я наткнулась на помятый обрывок бумаги, завалившийся за заднюю стенку.
                 """
+
+                scene ch05_cg29_v01 with dissolve
                 
                 neon "Так... Что тут нацарапано? 'Архив Орбитали: Корпоративная сводка 2042-2046. Артикул: 4246'."
                 
@@ -108,16 +117,20 @@ label ch5_level2_dorms_eavesdrop:
     
     narrator "Я посмотрела на часы. Семь минут. Ровно семь минут я торчу в этой пустой комнате."
     
-    neon "{=thoughts}Пора ухо...{nw}"
-    
+    scene black with fade
+
+    neon "{=thoughts}Ну всё. Пора ухо...{nw}"
+
     # Скрип двери из соседней комнаты
     play sound "sfx/door_slide_tech.opus"
     
     narrator """
         Резкий звук из соседней каюты заставил меня замереть.
         
-        Я бесшумно подошла к вентиляционной решетке и прислушалась.
+        Я резко посмотрела вверх, в сторону вентиляционной решетки. Откуда доносился звук.
     """
+
+    scene ch05_cg30_v01 with dissolve
     
     # Шум вентиляции
     play ambient "ambient/ventilation_hum.opus" loop volume 0.7
@@ -169,7 +182,8 @@ label ch5_level2_dorms_eavesdrop:
 # --- СОБЫТИЕ: ЗАБИВ В ДОРМАХ ---
 label ch5_level2_dorms_fight:
     
-    scene chapter5-test-dormcorridor with dissolve
+    show ch05_cg31_v01 with { "master" : Dissolve(5.0) }
+    with { "effect": dissolve }
     
     narrator """
         Мы с дедом и его собутыльниками подошли к блоку дормов.
@@ -184,30 +198,41 @@ label ch5_level2_dorms_fight:
     "Старик" "Эй, ублюдок! Выползай! Тут птичка напела, что ты смелый только за спиной!"
     
     play sound "sfx/heavy_bang_door.opus"
+
+    scene black with hpunch
     
     narrator "Он изо всех сил ударил по металлической двери ногой."
 
     "Старик" "Он... он чё, слитый?! Девка, ты спизданула?"
 
+    scene black with vpunch
+
     narrator """
         Но ответ не последовал. Он ударил еще раз. Но и это не помогло. Тогда, старик вскочил, его лицо побагровело от ярости.
 
         Он рванулся ко мне, замахнувшись.
-                
+    """
+
+    scene ch05_cg32_v01 with hpunch
+
+    narrator"""            
         В долю секунды инстинкты сработали быстрее разума. Я почувствовала, как давление вокруг нас резко падает. Воздух зазвенел.
         """
                 
     neon "{=thoughts}Нет. Не здесь. Держи вакуум под контролем.{/thoughts}"
 
-    narrator"""            
+    narrator"""
         Он взял меня за руку, но я успела нормализоваться прежде, чем у кого-то лопнули барабанные перепонки.
         
         Собутыльники старика моргнули, почувствовав только странный хлопок по ушам.
 
         Он отпустил мою руку и посмотрел на меня, не понимая, что произошло.
         
-        Попытавшись уже ударить, но дверь отъехала в сторону, прервав его.
-        
+        Попытавшись уже ударить, но дверь выдвинулась в сторону, прервав его.
+    """
+
+    scene ch05_cg33_v01 with Dissolve(0.25)
+    narrator"""
         Вот и работник бара. На пороге стоял заспанный, злой. Без униформы, в простой футболке.
 
         Увидев старика, его глаза расширились от удивления, которое тут же сменилось яростью.
@@ -222,6 +247,9 @@ label ch5_level2_dorms_fight:
     play sound "sfx/door_slide_tech_fast.opus"
     
     "Работник бара" "Ты... Ты сам приперся? Чё, по беспределу наехать хочешь?!"
+
+    show black with { "master" : Dissolve(5.0) }
+    with { "effect": dissolve }
     
     narrator "Началась потасовка. Глупый, пьяный мордобой в тесном коридоре. Собутыльники старика подключились, образовав кучу-малу."
     
