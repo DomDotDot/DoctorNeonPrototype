@@ -1,5 +1,189 @@
 # --- КОРИДОР B: МОДУЛЬ ЛОГИКИ (Загадка рычагов + ТАЙМЕР) ---
 
+# Стили для футуристической панели управления
+style beta_cyber_green_button:
+    background Solid("#33cc6622")
+    hover_background Solid("#33cc6644")
+    padding (20, 12)
+    align (0.5, 0.5)
+
+style beta_cyber_green_button_text:
+    color "#33cc66"
+    hover_color "#ffffff"
+    size 18
+    bold True
+    align (0.5, 0.5)
+
+style beta_cyber_exit_button:
+    background Solid("#444444")
+    hover_background Solid("#666666")
+    padding (20, 12)
+    align (0.5, 0.5)
+
+style beta_cyber_exit_button_text:
+    color "#cccccc"
+    hover_color "#ffffff"
+    size 18
+    bold True
+    align (0.5, 0.5)
+
+init python:
+    def ch5_toggle_lever(lever_name):
+        # Переключаем логическое состояние рычага
+        if lever_name == "red":
+            store.beta_lever_red = not store.beta_lever_red
+        elif lever_name == "blue":
+            store.beta_lever_blue = not store.beta_lever_blue
+        elif lever_name == "yellow":
+            store.beta_lever_yellow = not store.beta_lever_yellow
+            
+        renpy.play("sfx/multitool_click.opus", channel="sound")
+        
+        # Активация обратного отсчета при первом переключении любого рычага
+        if (store.beta_lever_red or store.beta_lever_blue or store.beta_lever_yellow) and not store.ch5_satellite_timer_active:
+            store.ch5_satellite_timer_active = True
+            store.ch5_satellite_timer_start = renpy.time.time()
+            store.ch5_satellite_timer_duration = 90.0
+            renpy.show_screen("global_satellite_timer_screen")
+            store.ch5_corridor_beta_show_timer_dialogue = True
+
+# Экран панели управления рычагами
+screen ch5_lever_puzzle_screen():
+    modal True
+    
+    # Затемнение фона
+    add Solid("#080c10ee")
+    
+    # Основная рамка пульта управления
+    frame:
+        align (0.5, 0.5)
+        xysize (1000, 800)
+        background Frame(Solid("#0d131aee"), 10, 10)
+        padding (30, 30)
+        
+        vbox:
+            spacing 20
+            xfill True
+            
+            # Заголовок терминала
+            vbox:
+                spacing 5
+                xalign 0.5
+                text "РАСПРЕДЕЛИТЕЛЬНАЯ ПАНЕЛЬ: МОДУЛЬ ЛОГИКИ" color "#00f0ff" size 30 bold True xalign 0.5 outlines [(2, "#002b3d", 0, 0)]
+                text "СТАТУС: ТРЕБУЕТСЯ СИНХРОНИЗАЦИЯ ЗАТВОРОВ" color "#ff9900" size 16 bold True xalign 0.5
+            
+            # Разделитель
+            add Solid("#00f0ff44") ysize 2 xalign 0.5 xsize 900
+            
+            # Схема-легенда взаимосвязей затворов
+            frame:
+                background Solid("#121f2dee")
+                padding (20, 15)
+                xalign 0.5
+                xsize 850
+                vbox:
+                    spacing 6
+                    xalign 0.5
+                    text "СХЕМА СОЕДИНЕНИЙ ДАТЧИКОВ ЗАТВОРОВ:" color "#00f0ff" size 14 bold True xalign 0.5
+                    text "• КРАСНЫЙ РУБИЛЬНИК ────► Переключает затворы I и III" color "#ff4d4d" size 13 xalign 0.5
+                    text "• СИНИЙ РУБИЛЬНИК ──────► Переключает затвор II" color "#3399ff" size 13 xalign 0.5
+                    text "• ЖЁЛТЫЙ РУБИЛЬНИК ─────► Переключает затворы I и II" color "#e6b800" size 13 xalign 0.5
+            
+            # РУКАВА РЫЧАГОВ
+            hbox:
+                xalign 0.5
+                spacing 90
+                
+                # КРАСНЫЙ РЫЧАГ
+                vbox:
+                    spacing 15
+                    xsize 200
+                    text "КРАСНЫЙ" color "#ff4d4d" size 16 bold True xalign 0.5
+                    
+                    button:
+                        xysize (90, 250)
+                        xalign 0.5
+                        action [Function(ch5_toggle_lever, "red"), Return("lever_toggled")]
+                        background Solid("#16222fee")
+                        hover_background Solid("#203144ee")
+                        
+                        # Внутренний трек скольжения
+                        add Solid("#ff4d4d33", xsize=8, ysize=210) align (0.5, 0.5)
+                        
+                        # Рукоятка левера
+                        frame:
+                            xysize (70, 36)
+                            background Solid("#ff4d4d" if beta_lever_red else "#5c1d1d")
+                            if beta_lever_red:
+                                align (0.5, 0.08)
+                            else:
+                                align (0.5, 0.92)
+                            add Solid("#ffffffcc", xsize=40, ysize=4) align (0.5, 0.5)
+                
+                # СИНИЙ РЫЧАГ
+                vbox:
+                    spacing 15
+                    xsize 200
+                    text "СИНИЙ" color "#3399ff" size 16 bold True xalign 0.5
+                    
+                    button:
+                        xysize (90, 250)
+                        xalign 0.5
+                        action [Function(ch5_toggle_lever, "blue"), Return("lever_toggled")]
+                        background Solid("#16222fee")
+                        hover_background Solid("#203144ee")
+                        
+                        # Внутренний трек скольжения
+                        add Solid("#3399ff33", xsize=8, ysize=210) align (0.5, 0.5)
+                        
+                        # Рукоятка левера
+                        frame:
+                            xysize (70, 36)
+                            background Solid("#3399ff" if beta_lever_blue else "#143a5c")
+                            if beta_lever_blue:
+                                align (0.5, 0.08)
+                            else:
+                                align (0.5, 0.92)
+                            add Solid("#ffffffcc", xsize=40, ysize=4) align (0.5, 0.5)
+                
+                # ЖЁЛТЫЙ РЫЧАГ
+                vbox:
+                    spacing 15
+                    xsize 200
+                    text "ЖЁЛТЫЙ" color "#e6b800" size 16 bold True xalign 0.5
+                    
+                    button:
+                        xysize (90, 250)
+                        xalign 0.5
+                        action [Function(ch5_toggle_lever, "yellow"), Return("lever_toggled")]
+                        background Solid("#16222fee")
+                        hover_background Solid("#203144ee")
+                        
+                        # Внутренний трек скольжения
+                        add Solid("#e6b80033", xsize=8, ysize=210) align (0.5, 0.5)
+                        
+                        # Рукоятка левера
+                        frame:
+                            xysize (70, 36)
+                            background Solid("#e6b800" if beta_lever_yellow else "#5c4a00")
+                            if beta_lever_yellow:
+                                align (0.5, 0.08)
+                            else:
+                                align (0.5, 0.92)
+                            add Solid("#ffffffcc", xsize=40, ysize=4) align (0.5, 0.5)
+            
+            # Разделитель
+            add Solid("#00f0ff22") ysize 1 xalign 0.5 xsize 900
+            
+            # НИЖНИЕ КНОПКИ ДЕЙСТВИЙ
+            hbox:
+                xalign 0.5
+                spacing 50
+                
+                textbutton "ДЁРНУТЬ ГЛАВНЫЙ РУБИЛЬНИК (ЗЕЛЁНЫЙ)" action Return("check_calibration") style "beta_cyber_green_button"
+                textbutton "ВЕРНУТЬСЯ В РЕСЕПШЕН" action Return("abort") style "beta_cyber_exit_button"
+
+
 label ch5_corridor_beta:
     scene bg space_station_rnd_corridor with dissolve
     
@@ -42,57 +226,11 @@ label ch5_corridor_beta:
         Нужно продумать комбинацию заранее...
     """
     
-    # Правильное решение: Поднять все три рычага (каждый затвор переключается дважды = открыт)
-    # На самом деле: R переключает I,II. S переключает II,III. Y переключает I,III.
-    # Все три: I переключен R и Y (2 раза = закрыт). II переключен R и S (2 раза = закрыт). III переключен S и Y (2 раза = закрыт).
-    # Правильно: нужно каждый затвор переключить нечётное число раз.
-    # R+S: I переключен 1 раз(R), II переключен 2 раза(R,S)=закрыт, III переключен 1 раз(S). Итого I=откр, II=закр, III=откр.
-    # R+Y: I=2(закр), II=1(откр), III=1(откр). Нет.
-    # S+Y: I=1(откр), II=1(откр), III=2(закр). Нет.
-    # Единственное решение: поднять только Жёлтый, потом Синий, потом... Нет.
-    # Переосмыслим: каждый затвор должен быть переключён нечётное кол-во раз.
-    # I: R, Y (нужен 1 или 3 переключения)
-    # II: R, S
-    # III: S, Y
-    # Чтобы все были переключены нечётно — нужно чтобы каждая пара рычагов суммарно давала нечёт.
-    # Каждый рычаг либо 0 либо 1. I = R xor Y, II = R xor S, III = S xor Y.
-    # Все = 1: R^Y=1, R^S=1, S^Y=1. 
-    # Из R^Y=1 и R^S=1 => S^Y = (R^S)^(R^Y) = S^Y = 0. Противоречие с S^Y=1.
-    # НЕВОЗМОЖНО с одним нажатием каждого! 
-    # Значит, нужно разрешить многократное нажатие.
-    # Если рычаг можно нажимать несколько раз — нечётное = открыт, чётное = закрыт.
-    # R: k1 раз, S: k2 раз, Y: k3 раз.
-    # I: k1+k3 = нечётн, II: k1+k2 = нечётн, III: k2+k3 = нечётн.
-    # k1+k3 нечётн и k1+k2 нечётн => k3-k2 чётн => k3 и k2 одной чётности.
-    # k2+k3 нечётн и k2,k3 одной чётности => невозможно! (чётн+чётн=чётн, нечётн+нечётн=чётн)
-    # 
-    # Хорошо, переделаем загадку — сделаем решаемой.
-    # Новая схема:
-    # Красный: переключает I и III
-    # Синий: переключает I и II
-    # Жёлтый: переключает II и III
-    # Это та же математика. Тоже невозможно.
-    #
-    # Ладно, сделаем другую схему:
-    # Красный: переключает ТОЛЬКО I
-    # Синий: переключает I и II
-    # Жёлтый: переключает ВСЕ три
-    # Решение: Жёлтый (все открыты: I,II,III). Но это слишком просто.
-    # Решение 2: Синий (I откр, II откр) + Жёлтый (I закр, II закр, III откр) = I закр, II закр, III откр. Не то.
-    # Красный + Синий + Желтый: I=1+1+1=3(откр), II=0+1+1=2(закр), III=0+0+1=1(откр). Нет.
-    #
-    # Окончательная РАБОЧАЯ схема (XOR-загадка со скрытыми затворами):
-    # Затворы изначально: Все ЗАКРЫТЫ (False)
-    # Рычаги изначально: Все ВНИЗ (False)
-    # Красный рычаг: переключает I и III
-    # Синий рычаг: переключает II
-    # Жёлтый рычаг: переключает I и II
-    # 
-    # Решение (достичь все три ОТКРЫТЫ): Красный + Синий, затем Зелёный.
-    
+    # Инициализируем переменные при входе
     $ beta_lever_red = False
     $ beta_lever_blue = False
     $ beta_lever_yellow = False
+    $ store.ch5_corridor_beta_show_timer_dialogue = False
     
 label ch5_corridor_beta_puzzle:
     
@@ -101,7 +239,13 @@ label ch5_corridor_beta_puzzle:
     $ beta_gate_II = (beta_lever_blue != beta_lever_yellow)
     $ beta_gate_III = beta_lever_red
     
-    if (beta_lever_red or beta_lever_blue or beta_lever_yellow) and not ch5_satellite_timer_active:
+    # Вызываем экран с рычагами
+    call screen ch5_lever_puzzle_screen
+    $ res = _return
+    
+    # Обрабатываем событие запуска таймера
+    if getattr(store, 'ch5_corridor_beta_show_timer_dialogue', False):
+        $ store.ch5_corridor_beta_show_timer_dialogue = False
         play sound "sfx/alarm_klaxon_single.opus"
         narrator """
             В ту же секунду на экранах появилось мигающее красное предупреждение:
@@ -109,55 +253,33 @@ label ch5_corridor_beta_puzzle:
             ПЕРЕГРУЗКА БАЗОВЫХ ГЕНЕРАТОРОВ ЧЕРЕЗ 90 СЕКУНД.
             ЗАВЕРШИТЕ АКТИВАЦИЮ ГЕНЕРАТОРОВ B И C.'
         """
-        $ ch5_satellite_timer_active = True
-        $ ch5_satellite_timer_start = renpy.time.time()
-        $ ch5_satellite_timer_duration = 90.0
-        show screen global_satellite_timer_screen
         neon "Девяносто секунд?! Нужно торопиться!"
-
-    # Убрана авто-проверка победы. Теперь она происходит в Зелёном рубильнике.
-    
-    # Показываем текущее состояние ТОЛЬКО рычагов
-    $ pos_red = "ВВЕРХ" if beta_lever_red else "ВНИЗ"
-    $ pos_blue = "ВВЕРХ" if beta_lever_blue else "ВНИЗ"
-    $ pos_yellow = "ВВЕРХ" if beta_lever_yellow else "ВНИЗ"
-    
-    narrator "Красный: [pos_red] | Синий: [pos_blue] | Жёлтый: [pos_yellow]"
-    
-    menu:
-        "Активировать Зелёный рубильник (Подтверждение)":
-            play sound "sfx/heavy_switch.opus"
-            if beta_gate_I and beta_gate_II and beta_gate_III:
-                play sound "sfx/power_up.opus"
-                narrator """
-                    Все три затвора с грохотом открылись! Генератор B завибрировал и начал набирать мощность.
-                    
-                    Индикатор сменился на зелёный: 'ГЕНЕРАТОР B — АКТИВЕН'.
-                """
+        
+    # Обрабатываем действия кнопок экрана
+    if res == "check_calibration":
+        play sound "sfx/heavy_switch.opus"
+        if beta_gate_I and beta_gate_II and beta_gate_III:
+            play sound "sfx/power_up.opus"
+            narrator """
+                Все три затвора с грохотом открылись! Генератор B завибрировал и начал набирать мощность.
                 
-                $ ch5_corridor_beta_solved = True
-                
-                neon "Второй готов! Остался только коридор C. Время поджимает!"
-                jump ch5_satellite_reception_menu
-            else:
-                play sound "sfx/error_buzz.opus"
-                narrator "'ОШИБКА КОНФИГУРАЦИИ. ПРИНУДИТЕЛЬНЫЙ СБРОС.' Затворы со скрежетом вернулись в исходное положение, а рычаги отщёлкнулись вниз."
-                $ beta_lever_red = False
-                $ beta_lever_blue = False
-                $ beta_lever_yellow = False
-                jump ch5_corridor_beta_puzzle
-
-        "Переключить Красный рычаг (Затворы I, III)":
-            $ beta_lever_red = not beta_lever_red
-            play sound "sfx/multitool_click.opus"
-            jump ch5_corridor_beta_puzzle
-        "Переключить Синий рычаг (Затвор II)":
-            $ beta_lever_blue = not beta_lever_blue
-            play sound "sfx/multitool_click.opus"
-            jump ch5_corridor_beta_puzzle
-        "Переключить Жёлтый рычаг (Затворы I, II)":
-            $ beta_lever_yellow = not beta_lever_yellow
-            play sound "sfx/multitool_click.opus"
-            jump ch5_corridor_beta_puzzle
-        "Вернуться в ресепшен":
+                Индикатор сменился на зелёный: 'ГЕНЕРАТОР B — АКТИВЕН'.
+            """
+            $ ch5_corridor_beta_solved = True
+            $ store.ch5_corridor_beta_show_timer_dialogue = None
+            neon "Второй готов! Остался только коридор C. Время поджимает!"
             jump ch5_satellite_reception_menu
+        else:
+            play sound "sfx/error_buzz.opus"
+            # Физическая тряска экрана при сбое сброса!
+            with vpunch
+            narrator "'ОШИБКА КОНФИГУРАЦИИ. ПРИНУДИТЕЛЬНЫЙ СБРОС.' Затворы со скрежетом вернулись в исходное положение, а рычаги отщёлкнулись вниз."
+            $ beta_lever_red = False
+            $ beta_lever_blue = False
+            $ beta_lever_yellow = False
+            jump ch5_corridor_beta_puzzle
+            
+    elif res == "abort":
+        jump ch5_satellite_reception_menu
+        
+    jump ch5_corridor_beta_puzzle
