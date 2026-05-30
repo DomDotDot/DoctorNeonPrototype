@@ -78,7 +78,7 @@ label ch5_hop_menu:
                     "Автоматон" "Ваш запрос уже обработан. Следующий!"
             elif store.ch5_hop_hacked:
                 "Автоматон" "Талон [store.ch5_hop_ticket]. Пройдите к кассе... то есть, окну. Тип обращения?"
-                neon "Мне нужен неформатированный сервисный чип."
+                neon "Запрос на повышение уровня доступа до чипа Администратора."
                 
                 if not getattr(store, 'ch5_hop_ticket_correct', True):
                     "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
@@ -92,10 +92,10 @@ label ch5_hop_menu:
                 else:
                     "Автоматон" "Обработка запроса... Подождите."
                     play sound "sfx/printer_buzz.opus"
-                    narrator "Из щели под стеклом выскочил чип."
-                    $ add_item(Item_BlankChip)
+                    narrator "Из щели под стеклом с тихим щелчком выскочил Чип Администратора с высшей сигнатурой."
+                    $ add_item(Item_AdminChip)
                     $ store.ch5_hop_chip_received = True
-                    neon "{=thoughts}Отлично. Чип у меня. Теперь нужен доступ и биомаркер.{/thoughts}"
+                    neon "{=thoughts}Отлично. Чип Администратора у меня. Теперь можно открыть кабинет главврача в Медбее!{/thoughts}"
                     $ store.ch5_hop_hacked = False
                     $ store.ch5_hop_ticket_taken = False
                     
@@ -117,11 +117,11 @@ label ch5_hop_menu:
                 "Оформление отпуска":
                     $ store.ch5_hop_ticket_correct = False
                 "Выдача дубликата пустого сервисного чипа":
-                    $ store.ch5_hop_ticket_correct = True
+                    $ store.ch5_hop_ticket_correct = False
                 "Жалоба на условия труда":
                     $ store.ch5_hop_ticket_correct = False
                 "Запрос на повышение уровня доступа":
-                    $ store.ch5_hop_ticket_correct = False
+                    $ store.ch5_hop_ticket_correct = True
                 "Увольнение по собственному желанию":
                     $ store.ch5_hop_ticket_correct = False
                     

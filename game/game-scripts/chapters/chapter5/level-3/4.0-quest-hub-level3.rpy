@@ -7,6 +7,9 @@ init python:
     Item_Coolant = Item("coolant", "Охлаждающая жидкость", "Охладитель из медробота. Заменит третий компонент для синтеза.", "images/items/flask_green.png")
     Item_BioSpray = Item("bio_spray", "Биомаркер", "Синтезированный аэрозоль. Обманет любой ДНК-сканер корпорации.", "images/items/spray.png")
     Item_AdminChip = Item("admin_chip", "Чип Администратора", "Обладает высшим уровнем доступа 'Омега'.", "images/items/chip_admin.png")
+    Item_ReagentD = Item("reagent_d", "Реагент-D", "Био-связующий катализатор из диспенсера.", "images/items/flask_purple.png")
+    Item_Mop = Item("mop", "Швабра", "Прочная техническая швабра с металлической ручкой.", "images/items/mop.png")
+    Item_EmptySpray = Item("empty_spray", "Пустой распылитель", "Лабораторный баллончик-аэрозоль без содержимого.", "images/items/spray.png")
 
 label ch5_level3_main_hall:
     scene chapter5-test-hublevel3 with dissolve
@@ -14,6 +17,7 @@ label ch5_level3_main_hall:
     
     narrator """
         Уровень 3. Стерильные белые коридоры, резкий медицинский свет.
+
         Сюда допускался только научный персонал уровня 'Бета' и выше.
     """
 
@@ -27,7 +31,7 @@ label ch5_level3_main_hall_menu:
 
                 Слева – Травматология.
 
-                Справа – Медицинский блок (Медбей). Судя по указателям, из Медбея можно попасть в отделы Генетики и Вирусологии.
+                Справа – Медицинский блок. Судя по указателям, из Медбея можно попасть в отделы Генетики и Вирусологии.
 
                 Где-то дальше по коридору, за Отделом Исследований, находятся серверная и лаборатория Робототехники.
             """
@@ -42,7 +46,11 @@ label ch5_level3_main_hall_menu:
             jump ch5_level3_research
             
         "Зайти в Травматологию" if ch5_level3_examined:
-            jump ch5_level3_trauma
+            if getattr(store, 'ch5_trauma_unlocked_from_inside', False):
+                jump ch5_level3_trauma
+            else:
+                neon "Дверь заблокирована изнутри. Судя по карте, есть обходной путь через Медицинский блок."
+                jump ch5_level3_main_hall_menu
             
         "Зайти в Медицинский блок" if ch5_level3_examined:
             jump ch5_level3_medbay
@@ -55,6 +63,8 @@ label ch5_level3_main_hall_menu:
 
 # --- ДАЛЬНИЙ ХОЛЛ (Робототехника и Серверная) ---
 label ch5_level3_inner_hall:
+    if not getattr(store, 'ch5_medbay_door_glitching_seen', False):
+        $ store.ch5_inner_hall_visited_before_glitch = True
     scene bg space_station_rnd_corridor with dissolve
     
     narrator "Здесь освещение было приглушенным. В конце коридора виднелась гигантская укрепленная дверь Серверной."
@@ -63,6 +73,14 @@ label ch5_level3_inner_hall_menu:
     menu:
         "Зайти в лабораторию Робототехники":
             jump ch5_level3_robotics
+            
+        "Осмотреть швабру на полу" if getattr(store, 'ch5_medbay_door_glitching_seen', False) and not has_item("mop"):
+            if getattr(store, 'ch5_inner_hall_visited_before_glitch', False):
+                neon "Раньше я не замечала швабру, валяющуюся на полу, но теперь, когда я на неё смотрю, она будет идеальной подпоркой для двери в лабораторию с синтезатором."
+            else:
+                neon "О, эта швабра идеально подойдет для подпорки. Идеально."
+            $ add_item(Item_Mop)
+            jump ch5_level3_inner_hall_menu
             
         "Подойти к дверям Серверной":
             if ch5_server_unlocked:

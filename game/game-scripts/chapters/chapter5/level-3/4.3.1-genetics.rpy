@@ -14,7 +14,7 @@ label ch5_level3_genetics:
                 $ ch5_genetics_looted = True
                 jump ch5_level3_genetics
             "Уйти":
-                jump ch5_level3_medbay_menu
+                jump ch5_level3_medbay_fwd_corridor
     else:
         narrator "Лаборатория уже обыскана."
-        jump ch5_level3_medbay_menu
+        jump ch5_level3_medbay_fwd_corridor

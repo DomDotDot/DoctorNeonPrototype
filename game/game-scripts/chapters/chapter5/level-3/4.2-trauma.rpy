@@ -26,7 +26,16 @@ label ch5_level3_trauma:
         
         $ store.ch5_coolant_idea_unlocked = True
         $ store.ch5_trauma_medbot_seen = True
-    else:
-        neon "{=thoughts}Мёртвый медробот и пустые койки. Больше здесь ничего нет.{/thoughts}"
-        
-    jump ch5_level3_main_hall_menu
+    label ch5_level3_trauma_menu:
+        menu:
+            "Разблокировать внешнюю гермодверь в холл" if not getattr(store, 'ch5_trauma_unlocked_from_inside', False):
+                play sound "sfx/access_granted_chime.opus"
+                narrator "Гермодверь с шипением разблокировалась. Теперь в Травматологию можно попасть напрямую из главного коридора Уровня 3."
+                $ store.ch5_trauma_unlocked_from_inside = True
+                jump ch5_level3_trauma_menu
+                
+            "Выйти в главный холл Уровня 3" if getattr(store, 'ch5_trauma_unlocked_from_inside', False):
+                jump ch5_level3_main_hall_menu
+                
+            "Вернуться в Медбей":
+                jump ch5_level3_medbay_fwd_corridor

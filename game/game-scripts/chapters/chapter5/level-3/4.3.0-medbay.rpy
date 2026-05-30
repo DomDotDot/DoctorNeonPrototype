@@ -1,58 +1,66 @@
-# --- МЕДБЕЙ ---
+# --- МЕДИЦИНСКИЙ БЛОК (МЕДБЕЙ) - ЦЕНТРАЛЬНЫЙ ХАБ ---
+
 label ch5_level3_medbay:
+    # Инициализация переменных медбея при первом входе
+    if not hasattr(store, 'ch5_medbay_entered') or not store.ch5_medbay_entered:
+        $ store.ch5_medbay_entered = True
+        $ store.ch5_medbay_door_glitching_seen = False
+        $ store.ch5_medbay_mop_propped = False
+        $ store.ch5_medbay_terminal_seen = False
+        
+        $ store.ch5_medbay_mri_unlocked = False
+        $ store.ch5_medbay_mri_opened = False
+        $ store.ch5_medbay_brochure_read = False
+        $ store.ch5_medbay_reagent_d_dispensed = False
+        
+        $ store.ch5_medbay_radiology_visited = False
+        $ store.ch5_medbay_transition_used = False
+        $ store.ch5_medbay_right_entered_from_main_hall = False
+        
+        $ store.ch5_medbay_chief_door_opened = False
+        $ store.ch5_medbay_blank_chip_taken = False
+        $ store.ch5_medbay_empty_spray_taken = False
+        
     scene bg space_station_medbay with dissolve
     
-    narrator "Главная приемная медицинского блока. В центре комнаты стоял сложный хирургический синтезатор. Рядом находился терминал Главного Врача."
+    narrator """
+        Главный вход в Медицинский блок (Медбей).
+        
+        Я оказалась в заброшенном зале ожидания. Мягкие кресла покрыты тонким слоем пыли, рекламные голоэкраны с медпрепаратами безвольно погасли.
+        
+        Дверь, ведущая в глубину медицинского блока, мигает жёлтым карантинным светодиодом. Никаких замков. Внутренний шлюз гостеприимно приоткрыт.
+    """
     
-label ch5_level3_medbay_menu:
+    neon "{=thoughts}Странно... Панель мигает жёлтым, предупреждая о биологической изоляции, но сам замок отключен. Тот, кто объявлял карантин, очень торопился... или хотел, чтобы кто-то вошел.{/thoughts}"
+
+# --- ЗАЛ ОЖИДАНИЯ (ТОЧКА ВХОДА) ---
+label ch5_level3_medbay_waiting_room:
+    scene bg space_station_medbay
+    
     menu:
-        "Осмотреть терминал Главврача":
-            if has_item("admin_chip"):
-                narrator "Мне здесь больше нечего делать."
-            else:
-                narrator "Голоэкран терминала мерцал красным. 'Требуется биометрическое подтверждение ДНК Главного Врача'."
-                if has_item("bio_spray") and has_item("blank_chip"):
-                    menu:
-                        "Распылить Биомаркер на сканер и применить Пустой чип":
-                            $ remove_item("bio_spray")
-                            $ remove_item("blank_chip")
-                            play sound "sfx/spray_hiss.opus"
-                            narrator "Я распылила аэрозоль на стекло сканера. Затем вставила пустой чип в разъем."
-                            play sound "sfx/access_granted_chime.opus"
-                            narrator "Терминал пискнул. 'ДНК подтверждено. Доступ уровня Омега предоставлен'."
-                            neon "Отлично. Копирую профиль на чип."
-                            $ add_item(Item_AdminChip)
-                            jump ch5_level3_medbay_menu
-                        "Вернуться":
-                            jump ch5_level3_medbay_menu
-                else:
-                    neon "{=thoughts}ДНК сканер... Мне нужен способ обмануть его биодатчики. И пустой чип, чтобы записать допуск.{/thoughts}"
-            jump ch5_level3_medbay_menu
+        "Пройти в главные коридоры Медбея":
+            narrator "Я переступила порог шлюза. Дверь за моей спиной тихо зашуршала, но осталась незапертой."
+            jump ch5_level3_medbay_main_hall
             
-        "Осмотреть синтезатор":
-            if has_item("bio_spray"):
-                narrator "Синтезатор уже использован. Биомаркер готов."
-                jump ch5_level3_medbay_menu
-            elif has_item("reagent_a") and has_item("reagent_b") and has_item("coolant"):
-                menu:
-                    "Смешать Цито-В, Ген-Связь и Охлаждающую жидкость":
-                        $ remove_item("reagent_a")
-                        $ remove_item("reagent_b")
-                        $ remove_item("coolant")
-                        play sound "sfx/chemical_mix.opus"
-                        narrator "Аппарат загудел, смешивая компоненты. Охлаждающая жидкость была необходима для стабилизации реакции."
-                        narrator "Через несколько мгновений в лотке появился маленький баллончик-спрей."
-                        $ add_item(Item_BioSpray)
-                        neon "{=thoughts}Биомаркер готов. Он обманет любой ДНК-сканер на станции.{/thoughts}"
-                        jump ch5_level3_medbay_menu
-                    "Уйти":
-                        jump ch5_level3_medbay_menu
-            else:
-                neon "{=thoughts}Синтезатор ждет ввода компонентов. Судя по схеме, мне нужны: биологическая основа (Цито-В), связующий агент (Ген-Связь) и сильный охладитель, чтобы смесь не воспламенилась.{/thoughts}"
-                jump ch5_level3_medbay_menu
-            
-        "Пройти в Генетику":
-            jump ch5_level3_genetics
-            
-        "Вернуться в коридор":
+        "Выйти на Уровень 3 (В холл)":
             jump ch5_level3_main_hall_menu
+
+# --- ГЛАВНЫЙ ХОЛЛ МЕДБЕЯ (ЦЕНТРАЛЬНЫЙ ПЕРЕКРЕСТОК) ---
+label ch5_level3_medbay_main_hall:
+    scene bg space_station_medbay with dissolve
+    
+    narrator "Главный холл. Стерильные белые коридоры расходятся во все четыре стороны. Гнетущая тишина прерывается лишь ровным гулом вентиляции."
+    
+label ch5_level3_medbay_main_menu:
+    menu:
+        "Пойти в Левое крыло (Химическая лаборатория и кабинет Главврача)":
+            jump ch5_level3_medbay_left_corridor
+            
+        "Пойти в Правое крыло (Отделение радиологии и внутренних болезней)":
+            jump ch5_level3_medbay_right_corridor
+            
+        "Пойти в Центральный проход (Операционные, Генетика и Травматология)":
+            jump ch5_level3_medbay_fwd_corridor
+            
+        "Вернуться в Зал ожидания":
+            jump ch5_level3_medbay_waiting_room
