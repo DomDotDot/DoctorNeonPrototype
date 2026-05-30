@@ -22,7 +22,7 @@ label chapter8_dream:
 
     scene bg ocean_surface_surreal_grey with vpunch
 
-    "Гелий" "{=yell}ОГАНЕССООООООННННН!!!{/yell}"
+    helium "{=yell}ОГАНЕССООООООННННН!!!{/yell}"
 
     narrator """
         Этот крик разорвал мне барабанные перепонки. 
