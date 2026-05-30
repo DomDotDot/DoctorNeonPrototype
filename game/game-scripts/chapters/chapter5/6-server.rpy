@@ -1,6 +1,7 @@
 # --- СЦЕНА 6: СЕРВЕРНАЯ (Сюжет + Семья) ---
 label station_server_room_entry:
-    
+    $ store.ch5_entered_server_room = True
+    $ _rollback = True
     scene chapter5-test-rnd with fade
     play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop
 

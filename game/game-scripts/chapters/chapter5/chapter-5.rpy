@@ -6,18 +6,29 @@ label chapter_5_rpy:
     call ch5_quest_init from _call_ch5_quest_init
     
     call chapter5_introduction from _call_chapter5_introduction
+
+    $ inventory_allowed = True
+    $ _rollback = False
+
     call chapter5_start from _call_chapter5_start
     jump ch5_level2_main_hall_menu
 
-    call chapter5_timer_and_brig from _call_chapter5_timer_and_brig
-    call chapter5_breakout from _call_chapter5_breakout
-    call chapter5_ghost_ship from _call_chapter5_ghost_ship
+    label chapter5_after_quest:
 
-    call dream_sequence_japan_6 from _call_dream_sequence_japan_6
+        $ inventory_allowed = False
+        $ _rollback = True
 
-    call chapter5_bridge_and_katana from _call_chapter5_bridge_and_katana
-    call chapter5_finale_sacrifice from _call_chapter5_finale_sacrifice
+        call station_server_room_entry
 
-    call chapter5_epilogue_earth from _call_chapter5_epilogue_earth
+        call chapter5_timer_and_brig from _call_chapter5_timer_and_brig
+        call chapter5_breakout from _call_chapter5_breakout
+        call chapter5_ghost_ship from _call_chapter5_ghost_ship
 
+        call dream_sequence_japan_6 from _call_dream_sequence_japan_6
+
+        call chapter5_bridge_and_katana from _call_chapter5_bridge_and_katana
+        call chapter5_finale_sacrifice from _call_chapter5_finale_sacrifice
+
+        call chapter5_epilogue_earth from _call_chapter5_epilogue_earth
+    return
 return

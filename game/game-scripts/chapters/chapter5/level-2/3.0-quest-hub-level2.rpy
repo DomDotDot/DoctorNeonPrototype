@@ -47,6 +47,7 @@ label ch5_quest_init:
     $ ch5_monorail_access = False
     $ ch5_ai_core_complete = False
     $ ch5_server_unlocked = False
+    $ store.ch5_entered_server_room = False
     
     # Флаги спутника
     $ ch5_satellite_reception_examined = False

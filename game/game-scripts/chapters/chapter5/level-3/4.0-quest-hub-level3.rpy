@@ -52,10 +52,6 @@ label ch5_level3_main_hall_menu:
             
         "Пройти в дальний холл" if ch5_level3_examined:
             jump ch5_level3_inner_hall
-            
-        "Спуститься на Уровень 2 (Лифт)":
-            $ ch5_elevator_powered = True
-            jump ch5_level2_elevator
 
 # --- ДАЛЬНИЙ ХОЛЛ (Робототехника и Серверная) ---
 label ch5_level3_inner_hall:
@@ -73,7 +69,7 @@ label ch5_level3_inner_hall_menu:
                 narrator "Двери Серверной открыты. Жёлтый индикатор на раме сменился зелёным. Меня ждёт конечная цель."
                 menu:
                     "Войти в Серверную":
-                        jump station_server_room_entry
+                        call chapter5_after_quest
                     "Вернуться":
                         jump ch5_level3_inner_hall_menu
             else:
