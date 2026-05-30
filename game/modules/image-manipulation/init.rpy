@@ -135,3 +135,11 @@ image ctc_akane:
     pause(1.0)
 
     "images/ctc/ctc_akane_2.png" with Dissolve(3.0)
+
+image ctc_helium:
+    xoffset 15
+
+    "images/ctc/ctc_helium.png"
+    linear 0.75 alpha 1.0
+    linear 0.75 alpha 0.0
+    repeat

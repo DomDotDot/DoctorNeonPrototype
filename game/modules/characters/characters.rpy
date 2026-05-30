@@ -116,6 +116,7 @@ define radon = Character(_('Радон'),
 )
 
 define helium = Character(_('Гелий'),
+    ctc="ctc_helium",
     kind=base,
     image="helium",
     color=c_helium,
@@ -287,16 +288,28 @@ label after_load:
         ret_stack = renpy.get_return_stack()
         if "_call_chapter_5_rpy" in ret_stack:
             fix_chapter_names(5)
+            # Отключаем rollback в главе 5, если игрок еще не зашел в серверную
+            if not getattr(store, 'ch5_entered_server_room', False):
+                store._rollback = False
+            else:
+                store._rollback = True
         elif "_call_chapter_4_5_rpy_act2" in ret_stack:
             fix_chapter_names(4.6)
+            store._rollback = True
         elif "_call_chapter_4_5_rpy_act1" in ret_stack:
             fix_chapter_names(4.5)
+            store._rollback = True
         elif "_call_chapter_4_rpy" in ret_stack:
             fix_chapter_names(4)
+            store._rollback = True
         elif "_call_chapter_3_rpy" in ret_stack:
             fix_chapter_names(3)
+            # В главе 3 rollback всегда отключен во время квеста
+            store._rollback = False
         elif "_call_chapter_2_rpy" in ret_stack:
             fix_chapter_names(2)
+            store._rollback = True
         elif "_call_chapter_1_rpy" in ret_stack:
             fix_chapter_names(1)
+            store._rollback = True
     return
