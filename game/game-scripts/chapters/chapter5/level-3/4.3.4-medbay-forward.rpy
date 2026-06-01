@@ -19,4 +19,4 @@ label ch5_level3_medbay_fwd_menu:
             jump ch5_level3_trauma
             
         "Вернуться в Главный холл":
-            jump ch5_level3_medbay_main_hall
+            jump ch5_level3_medbay_main_menu

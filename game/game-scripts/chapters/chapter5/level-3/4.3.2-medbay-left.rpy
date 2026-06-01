@@ -89,4 +89,4 @@ label ch5_level3_medbay_left_menu:
             jump ch5_level3_medbay_right_corridor
 
         "Вернуться в Главный холл":
-            jump ch5_level3_medbay_main_hall
+            jump ch5_level3_medbay_main_menu

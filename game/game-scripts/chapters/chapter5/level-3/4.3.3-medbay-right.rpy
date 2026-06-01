@@ -40,7 +40,7 @@ label ch5_level3_medbay_right_menu:
             jump ch5_level3_medbay_left_corridor
 
         "Вернуться в Главный холл":
-            jump ch5_level3_medbay_main_hall
+            jump ch5_level3_medbay_main_menu
 
 # --- КАБИНЕТ КТ ---
 label ch5_level3_medbay_ct_room:
