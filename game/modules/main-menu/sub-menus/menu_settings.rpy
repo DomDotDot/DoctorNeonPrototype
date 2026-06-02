@@ -175,7 +175,7 @@ screen sound_settings_screen():
                 spacing 15
 
                 if config.has_music:
-                    $ mus_vol = int(preferences.get_volume("music") * 100)
+                    $ mus_vol = int(preferences.volumes["music"] * 100)
                     label _("Громкость музыки: ") + str(mus_vol) + "%"
                     hbox:
                         spacing 10
@@ -189,7 +189,7 @@ screen sound_settings_screen():
                         textbutton _("Тест") action Play("music", sample_music) style "settings_test_button"
 
                 if config.has_sound:
-                    $ sfx_vol = int(preferences.get_volume("sound") * 100)
+                    $ sfx_vol = int(preferences.volumes["sfx"] * 100)
                     label _("Громкость звуков: ") + str(sfx_vol) + "%"
                     hbox:
                         spacing 10
@@ -204,7 +204,7 @@ screen sound_settings_screen():
                             textbutton _("Тест") action Play("sound", config.sample_sound) style "settings_test_button"
 
                 if config.has_voice:
-                    $ voi_vol = int(preferences.get_volume("voice") * 100)
+                    $ voi_vol = int(preferences.volumes["voice"] * 100)
                     label _("Громкость голоса: ") + str(voi_vol) + "%"
                     hbox:
                         spacing 10
