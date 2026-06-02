@@ -27,7 +27,7 @@ label ch5_level3_medbay_chief_office:
                     jump ch5_level3_medbay_left_corridor
     else:
         narrator "Кабинет Главного Врача. Внутри царил образцовый порядок, контрастирующий с хаосом снаружи. На массивном столе ровно светится большой терминал управления."
-        
+            
         label ch5_medbay_chief_office_menu:
             menu:
                 "Забрать пустой распылитель со стола" if not store.ch5_medbay_empty_spray_taken:
@@ -50,13 +50,13 @@ label ch5_level3_medbay_chief_office:
 
                                 narrator "Экран пискнул: 'АВАРИЙНЫЙ МАГНИТНЫЙ ЗАМОК ТОМОГРАФА ОТКЛЮЧЕН. Капсула готова к ручному открытию'."
                                 neon "Отлично! Капсула МРТ разблокирована. Теперь я смогу открыть её в Радиологии и осмотреть изнутри."
-                                    jump ch5_medbay_chief_office_menu
-                                "Назад":
-                                    jump ch5_medbay_chief_office_menu
+                                jump ch5_medbay_chief_office_menu
+                            "Назад":
+                                jump ch5_medbay_chief_office_menu
                         else:
                             $ store.ch5_medbay_terminal_seen = True
                             neon "{=thoughts}ДНК сканер... Мне нужен способ обмануть его биодатчики. И пустой чип, чтобы записать допуск.{/thoughts}"
                             jump ch5_medbay_chief_office_menu
-                            
+                                
                 "Вернуться в коридор":
                     jump ch5_level3_medbay_left_corridor
