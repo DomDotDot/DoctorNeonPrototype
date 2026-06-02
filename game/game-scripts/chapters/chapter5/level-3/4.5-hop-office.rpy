@@ -19,6 +19,9 @@ init python:
         return bulls, cows
 
 label ch5_level3_coolant_receive:
+    if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
+        neon "{=thoughts}Промышленный охладитель в трубках робота... Но мне это сейчас не нужно. Нет смысла ломать исправного автомата.{/thoughts}"
+        return
 
     narrator "По его шее пульсировали прозрачные трубки с густой зелёной жидкостью — мощным промышленным охладителем."
     neon "{=thoughts}Это та самая жидкость, которую я видела у сломанного медробота. Синтезатор в Медбее требует охладитель для реакции. Эта жидкость идеально подойдёт... И чтобы её забрать, мне не нужен талон.{/thoughts}"

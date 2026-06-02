@@ -238,6 +238,10 @@ label ch5_level3_robotics:
     
     if not hasattr(store, 'ch5_robotics_solved') or not ch5_robotics_solved:
         narrator "В дальней части комнаты огромный манипулятор завис над конвейером. В его железной хватке была зажата красная ампула — 'Цито-В'."
+        if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
+            neon "{=thoughts}Химический реагент 'Цито-В'... Но сейчас мне это не нужно, да и доставать её оттуда слишком хлопотно.{/thoughts}"
+            jump ch5_level3_inner_hall_menu
+
         neon "Манипулятор заклинило на 'мертвой хватке'. Если я попытаюсь вырвать ампулу силой, она попросту лопнет."
         
         narrator "Я подошла к терминалу управления гидравликой."

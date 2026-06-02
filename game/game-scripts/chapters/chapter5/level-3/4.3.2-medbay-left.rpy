@@ -1,9 +1,9 @@
 # --- ЛЕВОЕ КРЫЛО (ХИМЛАБОРАТОРИЯ, ДИСПЕНСЕР, КАБИНЕТ ГЛАВВРАЧА) ---
 
 label ch5_level3_medbay_left_corridor:
-    scene bg space_station_medbay
+    scene ch05_bg13_v01
     
-    narrator "Левый коридор. Пахнет озоном, на стенах висят указатели к кабинету Главного Врача и Химлаборатории."
+    narrator "Левый коридор. на стенах висят указатели к кабинету Главного Врача и Химлаборатории."
     
 label ch5_level3_medbay_left_menu:
     menu:
@@ -24,7 +24,7 @@ label ch5_level3_medbay_left_menu:
                     Этого зазора и времени абсолютно недостаточно, чтобы человек мог протиснуться внутрь.
                 """
                 
-                if store.ch5_medbay_terminal_seen:
+                if store.ch5_monorail_terminal_seen:
                     $ store.ch5_medbay_door_glitching_seen = True
                     neon "{=thoughts}Мне нужно пробраться внутрь, чтобы синтезировать Биомаркер. Но дверь заклинило намертво. Если бы у меня было что-то длинное и прочное, чтобы подпереть ее в момент открытия...{/thoughts}"
                     
@@ -55,6 +55,13 @@ label ch5_level3_medbay_left_menu:
             jump ch5_level3_medbay_chemlab
 
         "Осмотреть Диспенсер реагентов (Химический автомат)":
+            if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
+                narrator """
+                    Большой автоматический диспенсер для выдачи медицинских ампул. На мерцающем жидкокристаллическом экране горит список различных реагентов, катализаторов и коннекторов.
+                """
+                neon "{=thoughts}Диспенсер реагентов. Но мне это сейчас не нужно.{/thoughts}"
+                jump ch5_level3_medbay_left_menu
+
             narrator """
                 Большой автоматический диспенсер для выдачи медицинских ампул. На мерцающем жидкокристаллическом экране горит список различных реагентов, катализаторов и коннекторов.
                 

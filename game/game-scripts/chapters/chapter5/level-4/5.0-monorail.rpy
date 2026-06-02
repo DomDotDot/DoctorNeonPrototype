@@ -24,6 +24,8 @@ label ch5_monorail_entrance:
     
     if not ch5_monorail_access:
         narrator "Рядом с дверью — панель авторизации. На экране красным горит: 'ТРЕБУЕТСЯ АВТОРИЗАЦИЯ УРОВНЯ ОМЕГА И БИОМЕТРИЧЕСКОЕ ПОДТВЕРЖДЕНИЕ РУКОВОДИТЕЛЯ ОТДЕЛА'."
+
+        $ store.ch5_monorail_terminal_seen = True
         
         if has_item("admin_chip") and has_item("bio_spray"):
             menu:

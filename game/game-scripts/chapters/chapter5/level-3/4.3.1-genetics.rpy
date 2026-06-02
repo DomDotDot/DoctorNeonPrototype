@@ -8,6 +8,9 @@ label ch5_level3_genetics:
         narrator "На одном из столов я заметила открытый кейс с химикатами."
         menu:
             "Осмотреть кейс":
+                if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
+                    neon "{=thoughts}Синяя жидкость в ампуле... Кажется, это 'Ген-Связь'. Но сейчас мне это не нужно.{/thoughts}"
+                    jump ch5_level3_medbay_fwd_corridor
                 narrator "Синяя жидкость в ампуле 'Ген-Связь'."
                 neon "Протеиновый коннектор для ДНК. Беру."
                 $ add_item(Item_ReagentB)

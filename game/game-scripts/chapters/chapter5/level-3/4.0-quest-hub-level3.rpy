@@ -12,7 +12,7 @@ init python:
     Item_EmptySpray = Item("empty_spray", "Пустой распылитель", "Лабораторный баллончик-аэрозоль без содержимого.", "images/items/spray.png")
 
 label ch5_level3_main_hall:
-    scene chapter5-test-hublevel3 with dissolve
+    scene ch05_bg11_v01 with dissolve
     play music "music/BGM/Heist_Tension_Low.opus" loop volume 0.3
     
     narrator """
@@ -22,7 +22,7 @@ label ch5_level3_main_hall:
     """
 
 label ch5_level3_main_hall_menu:
-    scene chapter5-test-hublevel3
+    scene ch05_bg11_v01
     
     menu:
         "Осмотреться":
