@@ -45,7 +45,7 @@ label ch5_level3_medbay_right_menu:
 # --- КАБИНЕТ КТ ---
 label ch5_level3_medbay_ct_room:
     scene bg space_station_medbay with dissolve
-    narrator "Кабинет компьютерной томографии. Посреди комнаты возвышается массивное кольцо томографа КТ."
+    narrator "Кабинет компьютерной томографии. Внутри кабинки возвышается массивное кольцо томографа КТ."
     
 label ch5_level3_medbay_ct_menu:
     menu:
@@ -81,7 +81,7 @@ label ch5_level3_medbay_ultrasound_menu:
 # --- КАБИНЕТ МРТ ---
 label ch5_level3_medbay_mri_room:
     scene bg space_station_medbay with dissolve
-    narrator "Кабинет МРТ. Огромный цилиндрический аппарат МРТ занимает всю стену. Рядом стоит терминал управления."
+    narrator "Кабинет МРТ. Огромный цилиндрический аппарат МРТ занимает всю стену."
     
 label ch5_level3_medbay_mri_menu:
     menu:
@@ -111,7 +111,7 @@ label ch5_level3_medbay_mri_menu:
                     if not store.ch5_medbay_brochure_read:
                         narrator "Внутри открытой капсулы МРТ лежали разбросанные вещи. Но моё внимание привлек кое-какой предмет."
                         narrator "К мощному электромагниту томографа намертво, металлическим зажимом-биндером, прилипла папка с какими-то документами!"
-                        narrator "Оторвать её руками невозможно. К счастью, папка раскрыта на нужной странице, и я могу прочитать текст."
+                        narrator "Оторвать её руками невозможно. К счастью, папка раскрыта на странице, и я могу прочитать текст."
                         narrator """
                             Текст научной брошюры:
                             
