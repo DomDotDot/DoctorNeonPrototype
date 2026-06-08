@@ -28,11 +28,17 @@ label ch5_level3_coolant_receive:
         "Вырвать охлаждение у Автоматона":
             play sound "sfx/glass_shatter.opus"
             narrator "Я резким движением пробила стекло своей силой и вцепилась в его руку. Стекло разлетелось на куски, будто это были лепестки, а я с силой дернула руку на себя."
+            scene ch05_cg46_v01 with dissolve
             "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
             play sound "sfx/hydraulic_release.opus"
+            scene black with Dissolve(0.125)
             narrator "Но я рванула со всей силы. Рука с треском оборвалась. Автоматон задергался, заискрил и медленно осел на стул, издав протяжный механический писк."
             narrator "Я быстро подставила пустую колбу под льющуюся зеленую жидкость."
             $ add_item(Item_Coolant)
+            
+            show ch05_cg47_v01 with { "master" : Dissolve(10.0) }
+            with { "effect": dissolve }
+
             $ store.ch5_hop_coolant_received = True
             neon "Извини, приятель. Очередь была слишком длинная."
         "Не трогать":
@@ -41,7 +47,7 @@ label ch5_level3_coolant_receive:
 return
 
 label ch5_level3_hop_office:
-    scene bg space_station_office with dissolve
+    scene ch05_bg18_v01 with dissolve
     
     narrator "Отдел Кадров. Просторное помещение с рядами пустых кресел для ожидания. В дальнем конце, за пуленепробиваемым стеклом, неподвижно сидела фигура."
     
@@ -72,7 +78,7 @@ label ch5_hop_menu:
                 jump ch5_hop_menu
                 
             narrator "За стеклом сидел сервисный Автоматон устаревшей модели. Его стеклянный глаз пусто смотрели сквозь меня."
-            
+            scene ch05_cg46_v01 with dissolve
             if store.ch5_hop_chip_received and not store.ch5_hop_coolant_received:
                 if getattr(store, 'ch5_coolant_idea_unlocked', False):
                     call ch5_level3_coolant_receive from _call_ch5_level3_coolant_receive_1
@@ -83,8 +89,10 @@ label ch5_hop_menu:
                 neon "Запрос на повышение уровня доступа до чипа Администратора."
                 
                 if not getattr(store, 'ch5_hop_ticket_correct', True):
+                    scene ch05_cg46_v02 with dissolve
                     "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
                     neon "Серьёзно?! Ты же просто железка без эмоций!"
+                    scene ch05_cg46_v01 with dissolve
                     "Автоматон" "Порядок есть порядок. Следующий!"
                     narrator "Мне придется делать всё это заново..."
                     $ store.ch5_hop_ticket_taken = False
@@ -115,6 +123,7 @@ label ch5_hop_menu:
                 jump ch5_hop_menu
 
             narrator "Экран терминала выдал 5 вариантов темы запроса."
+            scene ch05_cg45_v01 with dissolve
             menu:
                 "Оформление отпуска":
                     $ store.ch5_hop_ticket_correct = False

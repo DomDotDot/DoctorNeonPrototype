@@ -1,7 +1,7 @@
 # --- КАБИНЕТ ГЛАВВРАЧА ---
 
 label ch5_level3_medbay_chief_office:
-    scene bg space_station_medbay
+    scene ch05_cg37_v01 with dissolve
     
     if not store.ch5_medbay_chief_door_opened:
         narrator "Конец левого коридора. Тяжелая дверь из прочного матового стекла преграждает путь в кабинет Главного Врача. На панели считывателя горит надпись: 'ТРЕБУЕТСЯ ДОСТУП ОМЕГА'."
@@ -29,6 +29,7 @@ label ch5_level3_medbay_chief_office:
         narrator "Кабинет Главного Врача. Внутри царил образцовый порядок, контрастирующий с хаосом снаружи. На массивном столе ровно светится большой терминал управления."
             
         label ch5_medbay_chief_office_menu:
+            scene ch05_cg44_v01 with fade
             menu:
                 "Забрать пустой распылитель со стола" if not store.ch5_medbay_empty_spray_taken:
                     $ add_item(Item_EmptySpray)

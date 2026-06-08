@@ -1,6 +1,6 @@
 # --- ГЕНЕТИКА ---
 label ch5_level3_genetics:
-    scene bg space_station_genetics with dissolve
+    scene ch05_cg36_v01 with dissolve
     
     narrator "Отдел Генетики. Ряды секвенаторов ДНК тихо гудели в темноте."
     

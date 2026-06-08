@@ -232,7 +232,7 @@ screen ch5_hydraulic_puzzle_screen():
 
 
 label ch5_level3_robotics:
-    scene bg space_station_robotics with dissolve
+    scene ch05_bg17_v01 with dissolve
     
     narrator "Сборочный цех. На столах лежали недосообранные прототипы дронов охраны."
     

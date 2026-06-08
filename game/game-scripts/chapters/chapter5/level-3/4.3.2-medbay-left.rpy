@@ -55,6 +55,7 @@ label ch5_level3_medbay_left_menu:
             jump ch5_level3_medbay_chemlab
 
         "Осмотреть Диспенсер реагентов (Химический автомат)":
+            scene ch05_cg41_v01 with dissolve
             if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
                 narrator """
                     Большой автоматический диспенсер для выдачи медицинских ампул. На мерцающем жидкокристаллическом экране горит список различных реагентов, катализаторов и коннекторов.

@@ -1,6 +1,6 @@
 # --- ТРАВМАТОЛОГИЯ ---
 label ch5_level3_trauma:
-    scene bg space_station_clinic with dissolve
+    scene ch05_cg35_v01 with dissolve
     
     narrator "Палаты Травматологии были пусты, но койки несли следы недавнего присутствия пациентов. Капельницы были сорваны в спешке."
     

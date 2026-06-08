@@ -1,6 +1,6 @@
 # --- ОТДЕЛ ИССЛЕДОВАНИЙ (ТЕРМИНАЛ ИИ СИВИЛЛА) ---
 label ch5_level3_research:
-    scene bg space_station_lab with dissolve
+    scene ch05_cg34_v01 with dissolve
     
     narrator "Отдел исследований был пуст. Но в центре комнаты была голографическая проекция дежурного ИИ."
 

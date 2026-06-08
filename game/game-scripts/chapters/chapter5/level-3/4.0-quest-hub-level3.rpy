@@ -65,7 +65,7 @@ label ch5_level3_main_hall_menu:
 label ch5_level3_inner_hall:
     if not getattr(store, 'ch5_medbay_door_glitching_seen', False):
         $ store.ch5_inner_hall_visited_before_glitch = True
-    scene bg space_station_rnd_corridor with dissolve
+    scene ch05_bg15_v01 with dissolve
     
     narrator "Здесь освещение было приглушенным. В конце коридора виднелась гигантская укрепленная дверь Серверной."
     

@@ -1,13 +1,14 @@
 # --- ВНУТРЕННОСТЬ ХИМЛАБОРАТОРИИ ---
 
 label ch5_level3_medbay_chemlab:
-    scene bg space_station_medbay with dissolve
+    scene ch05_cg43_v01 with dissolve
     
     narrator "Стерильный бокс Химической лаборатории. Вокруг разбросаны разбитые колбы, а в центре стола тихо гудит автоматический синтезатор."
     
 label ch5_level3_medbay_chemlab_menu:
     menu:
         "Использовать химический Синтезатор":
+            scene ch05_cg42_v01 with dissolve
             if has_item("bio_spray"):
                 narrator "Синтезатор уже завершил работу. Биомаркер получен."
                 jump ch5_level3_medbay_chemlab_menu
