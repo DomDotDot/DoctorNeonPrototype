@@ -26,9 +26,10 @@ label ch5_level3_coolant_receive:
     neon "{=thoughts}В автоматонах точно есть жидкость, которую я видела у сломанного медробота. Синтезатор в Медбее требует охладитель для реакции. Эта жидкость идеально подойдёт... И чтобы её забрать, мне не нужен талон.{/thoughts}"
     menu:
         "Вырвать охлаждение у Автоматона":
+            scene black with Dissolve(0.125)
             play sound "sfx/glass_shatter.opus"
             narrator "Я резким движением пробила стекло своей силой и вцепилась в его руку. Стекло разлетелось на куски, будто это были лепестки, а я с силой дернула руку на себя."
-            scene ch05_cg46_v01 with dissolve
+            scene ch05_cg46_v02 with dissolve
             "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
             play sound "sfx/hydraulic_release.opus"
             scene black with Dissolve(0.125)
@@ -68,6 +69,7 @@ label ch5_level3_hop_office:
         call ch5_level3_coolant_receive from _call_ch5_level3_coolant_receive
                 
 label ch5_hop_menu:
+    scene ch05_bg18_v01 with dissolve
     if not store.ch5_hop_coolant_received:
         narrator "Над окном висело электронное табло. Текущий талон: [store.ch5_hop_current_ticket]."
 

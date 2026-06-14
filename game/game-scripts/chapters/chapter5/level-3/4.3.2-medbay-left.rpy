@@ -6,6 +6,7 @@ label ch5_level3_medbay_left_corridor:
     narrator "Левый коридор. на стенах висят указатели к кабинету Главного Врача и Химлаборатории."
     
 label ch5_level3_medbay_left_menu:
+    scene ch05_bg13_v01
     menu:
         "Осмотреть окно химической лаборатории":
             if store.ch5_medbay_mop_propped:

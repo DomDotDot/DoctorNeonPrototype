@@ -237,7 +237,8 @@ screen chapter_select():
                         if item.is_unlocked():
                             button:
                                 style "chapter_button"
-                                action SetScreenVariable("selected_chapter", item)
+                                # action SetScreenVariable("selected_chapter", item) # Выключено: саб-чаптеры не работают стабильно с flow менеджером
+                                action Start(item.label_start)
                                 tooltip item.title
 
                                 vbox:

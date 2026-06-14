@@ -11,7 +11,7 @@ label ch5_monorail_entrance:
     
     if not hasattr(store, 'ch5_satellite_clue_found') or not ch5_satellite_clue_found:
         neon "{=thoughts}Бессмысленно отправляться на какую-то заброшенную станцию без причины. У меня другая цель.{/thoughts}"
-        jump ch5_level3_main_hall_menu
+        jump ch5_level3_research_menu
     
     if ch5_ai_core_complete:
         narrator "Монорельс гудит, готовый к отправке. Путь обратно на станцию открыт."
@@ -54,7 +54,7 @@ label ch5_monorail_entrance:
                 neon "{=thoughts}У меня есть ДНК-биомаркер, но панели всё ещё требуется Омега-чип администратора.{/thoughts}"
             else:
                 neon "{=thoughts}У меня есть Омега-чип администратора, но панель намертво заблокирована без ДНК-верификации руководителя отдела.{/thoughts}"
-            jump ch5_level3_main_hall_menu
+            jump ch5_level3_research
     else:
         jump ch5_monorail_ride
 
@@ -189,4 +189,4 @@ label ch5_monorail_departure_cinematic:
     """
 
     # Возврат к механике квеста
-    jump ch5_level3_main_hall_menu
+    jump ch5_level3_research_menu

@@ -70,6 +70,7 @@ label ch5_level3_inner_hall:
     narrator "Здесь освещение было приглушенным. В конце коридора виднелась гигантская укрепленная дверь Серверной."
     
 label ch5_level3_inner_hall_menu:
+    scene ch05_bg15_v01 with dissolve
     menu:
         "Зайти в лабораторию Робототехники":
             jump ch5_level3_robotics

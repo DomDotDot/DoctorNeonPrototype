@@ -26,10 +26,11 @@ label ch5_level3_medbay_chief_office:
                 "Вернуться в коридор":
                     jump ch5_level3_medbay_left_corridor
     else:
+        scene ch05_cg44_v01 with fade
         narrator "Кабинет Главного Врача. Внутри царил образцовый порядок, контрастирующий с хаосом снаружи. На массивном столе ровно светится большой терминал управления."
             
         label ch5_medbay_chief_office_menu:
-            scene ch05_cg44_v01 with fade
+            scene ch05_cg44_v01
             menu:
                 "Забрать пустой распылитель со стола" if not store.ch5_medbay_empty_spray_taken:
                     $ add_item(Item_EmptySpray)
