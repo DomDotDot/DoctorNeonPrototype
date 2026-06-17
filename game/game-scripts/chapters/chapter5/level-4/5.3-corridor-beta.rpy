@@ -188,7 +188,7 @@ label ch5_corridor_beta:
     scene bg space_station_rnd_corridor with dissolve
     
     if ch5_corridor_beta_solved:
-        narrator "Генератор B работает. Рычаги зафиксированы в правильных позициях."
+        narrator "Сервер B работает. Рычаги зафиксированы в правильных позициях."
         jump ch5_satellite_reception_menu
     
     narrator """
@@ -250,8 +250,8 @@ label ch5_corridor_beta_puzzle:
         narrator """
             В ту же секунду на экранах появилось мигающее красное предупреждение:
             'ВНИМАНИЕ: ПРОТОКОЛ ОБРАТНОГО ОТСЧЁТА АКТИВИРОВАН. 
-            ПЕРЕГРУЗКА БАЗОВЫХ ГЕНЕРАТОРОВ ЧЕРЕЗ 90 СЕКУНД.
-            ЗАВЕРШИТЕ АКТИВАЦИЮ ГЕНЕРАТОРОВ B И C.'
+            ПЕРЕГРУЗКА БАЗОВЫХ СЕРВЕРОВ ЧЕРЕЗ 90 СЕКУНД.
+            ЗАВЕРШИТЕ АКТИВАЦИЮ СЕРВЕРОВ B И C.'
         """
         neon "Девяносто секунд?! Нужно торопиться!"
         
@@ -261,9 +261,9 @@ label ch5_corridor_beta_puzzle:
         if beta_gate_I and beta_gate_II and beta_gate_III:
             play sound "sfx/power_up.opus"
             narrator """
-                Все три затвора с грохотом открылись! Генератор B завибрировал и начал набирать мощность.
+                Все три затвора с грохотом открылись! Сервер B завибрировал и начал набирать мощность.
                 
-                Индикатор сменился на зелёный: 'ГЕНЕРАТОР B — АКТИВЕН'.
+                Индикатор сменился на зелёный: 'СЕРВЕР B — АКТИВЕН'.
             """
             $ ch5_corridor_beta_solved = True
             $ store.ch5_corridor_beta_show_timer_dialogue = None
