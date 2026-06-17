@@ -9,6 +9,7 @@ label ch5_level3_medbay_left_menu:
     scene ch05_bg13_v01
     menu:
         "Осмотреть окно химической лаборатории":
+            scene ch05_cg48_v01 with dissolve
             if store.ch5_medbay_mop_propped:
                 narrator "Швабра прочно заклинила приоткрытую дверь лаборатории. Я могу войти внутрь."
                 menu:

@@ -1,7 +1,7 @@
 # --- ПРАВОЕ КРЫЛО (РАДИОЛОГИЯ: КТ, МРТ, УЗИ) ---
 
 label ch5_level3_medbay_right_corridor:
-    scene bg space_station_medbay
+    scene ch05_bg19_v01 with fade
     
     # Реплики навигации Неон
     if store.ch5_medbay_transition_used:
@@ -20,6 +20,7 @@ label ch5_level3_medbay_right_corridor:
     narrator "Правый коридор Медбея. Отделение радиологии и внутренних болезней. Свет здесь тусклый, указатели ведут к кабинетам КТ, МРТ и УЗИ."
     
 label ch5_level3_medbay_right_menu:
+    scene ch05_bg19_v01
     menu:
         "Зайти в кабинет КТ (Компьютерная томография)":
             jump ch5_level3_medbay_ct_room
