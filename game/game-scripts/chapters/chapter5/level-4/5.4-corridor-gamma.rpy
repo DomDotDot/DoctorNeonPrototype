@@ -1,7 +1,7 @@
 # --- КОРИДОР C: МОДУЛЬ ШИФРОВАНИЯ (Загадка скрытого смысла + таймер) ---
 
 label ch5_corridor_gamma:
-    scene bg space_station_hos_office with dissolve
+    scene black with dissolve
     
     if ch5_corridor_gamma_solved:
         narrator "Сервер C работает. Акростих разгадан."

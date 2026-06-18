@@ -185,7 +185,7 @@ screen ch5_lever_puzzle_screen():
 
 
 label ch5_corridor_beta:
-    scene bg space_station_rnd_corridor with dissolve
+    scene black with dissolve
     
     if ch5_corridor_beta_solved:
         narrator "Сервер B работает. Рычаги зафиксированы в правильных позициях."
