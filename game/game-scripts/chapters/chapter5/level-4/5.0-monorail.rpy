@@ -1,7 +1,7 @@
 # --- МОНОРЕЛЬС К СПУТНИКУ НЕКСУС ---
 
 label ch5_monorail_entrance:
-    scene bg space_station_rnd_corridor with dissolve
+    scene ch05_bg21_v01 with dissolve
     
     narrator """
         Я прошла мимо Отдела Исследований, вглубь уровня. Коридор становился всё уже и темнее.
@@ -68,7 +68,7 @@ label ch5_monorail_ride:
         Я села и нажала единственную кнопку. Двигатели загудели, и капсула плавно тронулась.
     """
     
-    scene bg space_station_distant with dissolve
+    scene ch05_bg22_v01 with dissolve
     
     narrator """
         Через прозрачную стенку я видела, как станция уплывает назад. Рельс тонкой нитью тянулся сквозь пустоту к маленькому сферическому объекту, висящему в трёхстах метрах от Орбитали.
@@ -101,7 +101,7 @@ label ch5_monorail_departure_cinematic:
         Я сидела в абсолютном одиночестве в пустом стеклянном кокпите. Вокруг — только бесконечная, ледяная чернота космоса.
     """
 
-    scene bg space_satellite_nexus_receding with Dissolve(3.0)
+    scene ch05_cg53_v01 with Dissolve(3.0)
     # CG или Фон: Вид изнутри стеклянной капсулы монорельса. На фоне космоса и огромного диска Земли медленно отдаляется ржавый, угловатый спутник Нексус. 
     
     play music "music/BGM/Melancholy_Piano_Space.opus" fadein 3.0 loop volume 0.4
@@ -144,7 +144,6 @@ label ch5_monorail_departure_cinematic:
         {=thoughts}...Прямо как я.
     """
 
-    scene cg_neon_hand_on_glass_space with dissolve
     # CG: Крупный план. Рука Неон на стекле иллюминатора. На заднем плане, в расфокусе, ярко светится удаляющийся Нексус. В отражении стекла видны грустные глаза Неон.
 
     neon """
@@ -167,7 +166,11 @@ label ch5_monorail_departure_cinematic:
         {=thoughts}А ты останешься там. До самого конца.{/thoughts}
     """
 
+    scene ch05_cg53_v02 with dissolve
+
     neon "{=whisper}Прощай, СИВИЛЛА. Мне жаль.{/whisper}"
+
+    scene black with Dissolve(1.5)
 
     narrator """
         Я убрала руку от стекла. На холодном пластике остался мутный, тающий отпечаток моей ладони.
@@ -175,7 +178,6 @@ label ch5_monorail_departure_cinematic:
         Монорельс начал торможение.
     """
 
-    scene black with Dissolve(1.5)
     stop music fadeout 3.0
     
     # play sound "sfx/docking_clamps_light.opus"

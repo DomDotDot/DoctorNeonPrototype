@@ -1,7 +1,7 @@
 # --- КОРИДОР D: ПУТЬ К ЯДРУ КОММУНИКАЦИИ ---
 
 label ch5_corridor_core:
-    scene bg space_station_maintenance_tunnel with dissolve
+    scene ch05_cg50_v01 with dissolve
     
     narrator """
         Коридор D — путь к Ядру Коммуникации.

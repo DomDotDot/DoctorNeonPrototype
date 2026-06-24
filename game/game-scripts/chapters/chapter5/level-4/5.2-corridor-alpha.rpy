@@ -75,7 +75,7 @@ init -1 python:
         return rounds, desc_correct, final_options
 
 label ch5_corridor_alpha:
-    scene bg space_station_maintenance_tunnel with dissolve
+    scene ch05_bg24_v01 with dissolve
     
     if getattr(store, "ch5_corridor_alpha_solved", False):
         narrator "Сервер A гудит стабильно. Терминал погашен. Здесь больше делать нечего."

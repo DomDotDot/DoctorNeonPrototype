@@ -26,7 +26,7 @@ screen global_satellite_timer_screen():
 
 # --- СПУТНИК НЕКСУС: РЕСЕПШЕН ---
 label ch5_satellite_reception:
-    scene bg space_station_maintenance_tunnel with fade
+    scene ch05_bg23_v01 with fade
     stop music fadeout 2.0
     play ambient "ambient/derelict_hum_wind.opus" loop fadein 3.0
     

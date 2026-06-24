@@ -27,7 +27,7 @@ label station_server_room_entry:
 
     neon "Вызываю 'Центр'. 'Призрак' на связи. Как слышно?"
 
-    scene 
+    scene ch05_cg54_v01 with dissolve
 
     # play sound "sfx/radio_static_connect.opus"
 
@@ -37,7 +37,7 @@ label station_server_room_entry:
         Слышу тебя, Призрак. Чисто. Ты на позиции?
     """
 
-    scene 
+    scene ch05_cg54_v02 with dissolve
 
     neon "В серверной. Получаю контроль над трансляцией. Мэрил... здесь что-то не так."
 
@@ -45,13 +45,13 @@ label station_server_room_entry:
         Отставить панику. Работай по протоколу. Что ты видишь?
     """
         
-    scene 
+    scene ch05_cg54_v03 with dissolve
 
     neon "Я вижу манифест 'Эреба'. Это не обычный грузовой рейс, В графе 'Груз' стоит код 'Омега'. И... статус 'Карантин'."
 
     narrator "В наушнике послышался резкий вдох Мэрил. Затем — щелчок подключения другого канала."
 
-    scene 
+    scene ch05_cg54_v04 with dissolve
 
     argon """
         (Голос Аргона, тяжелый, на фоне шум погрузчиков)
@@ -62,7 +62,8 @@ label station_server_room_entry:
     meryl "Аргон, сохраняй радиомолчание, пока я не..."
 
         
-    scene 
+    show ch05_cg54_v05 with { "master" : Dissolve(15.0) }
+    with { "effect": Dissolve }
 
     argon """
         К черту молчание, Мэрил! Ты отправила ее в пекло! 
@@ -78,11 +79,12 @@ label station_server_room_entry:
 
     argon "Она моя ответственность! Если с ее головы упадет хоть волос..."
         
-    scene 
-    scene 
-    scene 
+    scene black with vpunch
+    $ renpy.pause(0.5, hard=True)
 
     neon "ХВАТИТ!"
+
+    scene ch05_cg54_v06 with Dissolve(1.0)
 
     narrator """
         Мой крик прервал их перепалку.
@@ -94,7 +96,7 @@ label station_server_room_entry:
         И Мэрил — с ее холодной, жесткой любовью, толкающей меня на край, чтобы я научилась летать.
     """
 
-    scene 
+    scene ch05_cg54_v07 with dissolve
 
     neon """
         Я не Лили. И я не Сара. Я здесь. И я делаю работу.
@@ -128,7 +130,7 @@ label station_server_room_entry:
 
     meryl "Неон. Еще кое-что."
 
-    scene 
+    scene ch05_cg54_v04 with dissolve
 
     meryl """
         
@@ -139,13 +141,13 @@ label station_server_room_entry:
         ...Ты знаешь протокол.
     """
     
-    scene 
+    scene ch05_cg54_v01 with dissolve
 
     neon "Уничтожение объекта. Вместе с носителем."
 
     meryl "Я не хочу потерять тебя. Но я не могу позволить этому спуститься на Землю. Прости меня."
     
-    scene 
+    scene ch05_cg54_v08 with dissolve
 
     neon "Я знаю, Мэрил. Конец связи."
 

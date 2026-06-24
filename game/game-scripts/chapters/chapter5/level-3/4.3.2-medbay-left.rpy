@@ -34,6 +34,8 @@ label ch5_level3_medbay_left_menu:
                         "Подпереть дверь найденной шваброй" if has_item("mop"):
                             play sound "sfx/hydraulic_release.opus"
                             narrator "Я дождалась момента, когда дверь приоткрылась, и со всей силы вогнала металлическую ручку швабры в зазор."
+
+                            scene ch05_cg49_v01 with hpunch
                             play sound "sfx/glass_shatter.opus"
                             narrator "Дверь с оглушительным скрежетом захлопнулась, изогнув швабру, но механизм заклинило! Образовался устойчивый полуметровый проем."
                             $ remove_item("mop")
