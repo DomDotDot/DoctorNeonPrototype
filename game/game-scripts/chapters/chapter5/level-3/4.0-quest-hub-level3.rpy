@@ -65,22 +65,30 @@ label ch5_level3_main_hall_menu:
 label ch5_level3_inner_hall:
     if not getattr(store, 'ch5_medbay_door_glitching_seen', False):
         $ store.ch5_inner_hall_visited_before_glitch = True
-    scene ch05_bg15_v01 with dissolve
+    
+    if getattr(store, 'ch5_level3_mop_taken', False):
+        scene ch05_bg15_v02 with dissolve
+    else:
+        scene ch05_bg15_v01 with dissolve
     
     narrator "Здесь освещение было приглушенным. В конце коридора виднелась гигантская укрепленная дверь Серверной."
     
 label ch5_level3_inner_hall_menu:
-    scene ch05_bg15_v01 with dissolve
+    if getattr(store, 'ch5_level3_mop_taken', False):
+        scene ch05_bg15_v02 with dissolve
+    else:
+        scene ch05_bg15_v01 with dissolve
     menu:
         "Зайти в лабораторию Робототехники":
             jump ch5_level3_robotics
             
-        "Осмотреть швабру на полу" if getattr(store, 'ch5_medbay_door_glitching_seen', False) and not has_item("mop"):
+        "Осмотреть швабру на полу" if getattr(store, 'ch5_medbay_door_glitching_seen', False) and not has_item("mop") and not getattr(store, 'ch5_level3_mop_taken', False):
             if getattr(store, 'ch5_inner_hall_visited_before_glitch', False):
                 neon "Раньше я не замечала швабру, валяющуюся на полу, но теперь, когда я на неё смотрю, она будет идеальной подпоркой для двери в лабораторию с синтезатором."
             else:
                 neon "О, эта швабра идеально подойдет для подпорки. Идеально."
             $ add_item(Item_Mop)
+            $ store.ch5_level3_mop_taken = True
             jump ch5_level3_inner_hall_menu
             
         "Подойти к дверям Серверной":

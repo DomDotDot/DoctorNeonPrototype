@@ -2,7 +2,7 @@
 label station_server_room_entry:
     $ store.ch5_entered_server_room = True
     $ _rollback = True
-    scene chapter5-test-rnd with fade
+    scene black with fade
     play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop
 
     narrator """
@@ -15,7 +15,6 @@ label station_server_room_entry:
     
     narrator "С тихим гудением бронированная дверь отъехала в сторону."
 
-    scene chapter5-test-server with dissolve
     play ambient "ambient/server_room_hum.opus" loop volume 0.5
 
     narrator """
@@ -26,9 +25,9 @@ label station_server_room_entry:
         Первым делом — заглушить локальные камеры. Второе — создать зашифрованный туннель.
     """
 
-    show neon operative_glasses at center with dissolve
-
     neon "Вызываю 'Центр'. 'Призрак' на связи. Как слышно?"
+
+    scene 
 
     # play sound "sfx/radio_static_connect.opus"
 
@@ -38,23 +37,32 @@ label station_server_room_entry:
         Слышу тебя, Призрак. Чисто. Ты на позиции?
     """
 
+    scene 
+
     neon "В серверной. Получаю контроль над трансляцией. Мэрил... здесь что-то не так."
 
     meryl """
         Отставить панику. Работай по протоколу. Что ты видишь?
     """
+        
+    scene 
 
     neon "Я вижу манифест 'Эреба'. Это не обычный грузовой рейс, В графе 'Груз' стоит код 'Омега'. И... статус 'Карантин'."
 
     narrator "В наушнике послышался резкий вдох Мэрил. Затем — щелчок подключения другого канала."
 
+    scene 
+
     argon """
         (Голос Аргона, тяжелый, на фоне шум погрузчиков)
         
-        Неон? Ты там? Я в Карго. Тут СБ-шников больше, чем крыс в Аномике. Они готовятся к приему чего-то большого.
+        Неон? Ты там? Я в Карго. Тут охранны больше, чем крыс в Аномике. Они готовятся к приему чего-то большого.
     """
 
     meryl "Аргон, сохраняй радиомолчание, пока я не..."
+
+        
+    scene 
 
     argon """
         К черту молчание, Мэрил! Ты отправила ее в пекло! 
@@ -69,11 +77,15 @@ label station_server_room_entry:
     """
 
     argon "Она моя ответственность! Если с ее головы упадет хоть волос..."
+        
+    scene 
+    scene 
+    scene 
 
     neon "ХВАТИТ!"
 
     narrator """
-        Мой крик, хоть и шепотом, прервал их перепалку.
+        Мой крик прервал их перепалку.
         
         Они снова делали это. Спорили обо мне, как разведенные родители, делящие опеку.
         
@@ -81,6 +93,8 @@ label station_server_room_entry:
         
         И Мэрил — с ее холодной, жесткой любовью, толкающей меня на край, чтобы я научилась летать.
     """
+
+    scene 
 
     neon """
         Я не Лили. И я не Сара. Я здесь. И я делаю работу.
@@ -112,8 +126,11 @@ label station_server_room_entry:
         Аргон отключился. Мэрил осталась на линии.
     """
 
+    meryl "Неон. Еще кое-что."
+
+    scene 
+
     meryl """
-        Неон. Еще кое-что.
         
         Если то, что на корабле... если это действительно технология 'Улья'...
         
@@ -121,12 +138,18 @@ label station_server_room_entry:
         
         ...Ты знаешь протокол.
     """
+    
+    scene 
 
     neon "Уничтожение объекта. Вместе с носителем."
 
     meryl "Я не хочу потерять тебя. Но я не могу позволить этому спуститься на Землю. Прости меня."
+    
+    scene 
 
     neon "Я знаю, Мэрил. Конец связи."
+
+    scene black with fade
 
     # play sound "sfx/terminal_shutdown.opus"
 

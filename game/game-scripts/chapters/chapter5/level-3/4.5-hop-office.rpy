@@ -146,8 +146,11 @@ label ch5_hop_menu:
             jump ch5_hop_menu
             
         "Модифицировать электронное табло очереди" if getattr(store, 'ch5_hop_ticket_taken', False) and not store.ch5_hop_hacked:
-            scene black with fade
+            scene ch05_bg20_v01 with fade
             
+            show ch05_cg07_v01 with { "master" : Fade(5.0, 2.5, 5.0) }
+            with { "effect": Fade }
+
             narrator "Я подошла к управляющему терминалу табло. Экран заблокирован 4-значным PIN-кодом."
             neon "{=thoughts}Система диагностики откликается. Я могу попытаться подобрать код перехватом сигналов.{/thoughts}"
             narrator "Правила дешифровки: 4 уникальные цифры. 'Бык' — цифра угадана и на своём месте. 'Корова' — цифра угадана, но не на своём месте."
