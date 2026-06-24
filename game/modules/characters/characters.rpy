@@ -34,6 +34,7 @@ init python:
     c_guts      = "#8b4513"
     c_rico      = "#a56a44"
     c_boss      = "#b22222"
+    c_sibyl     = "#663399"
     
     # Студенты
     c_student1  = "#d4ad4b" # Amy / Student1
@@ -252,6 +253,9 @@ define mika = Character(_("[mika_display_name!t]"), kind=base, image="mika", col
 define guts = Character(_('Гатс'), kind=base, image="guts", color=c_guts, what_slow_cps_multiplier=0.70, cb_name="guts")
 define rico = Character(_('Рико'), kind=base, color=c_rico)
 define boss = Character(_('Босс'), kind=base, color=c_boss)
+
+# --- Аномик ---
+define sibyl = Character(_('СИВИЛЛА'), kind=base, color=c_sibyl)
 
 
 # --- Системные и Неизвестные ---
