@@ -928,11 +928,6 @@ translate english_us chapter4_0_academy_7bbe4877:
     # narrator "Они помахали нам и скрылись в толпе. А я... а мы c Аргоном остались стоять перед гигантским, молчаливым стадионом Веритаса."
     narrator "They waved at us and disappeared into the crowd. And I... Argon and I were left standing before the gigantic, silent Veritas stadium."
 
-# game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
-translate english_us chapter4_0_academy_ed5c5769:
-
-    # narrator "Вся моя жизнь, моя \"апатия\", моя изоляция — всё это было ложью, навязанной мне 'Сверху', той тенью в том пустом зале."
-    narrator "My entire life, my \"apathy\", my isolation — all of it was a lie, forced on me by the 'Higher Ups', that shadow in that empty hall."
 
 # game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
 translate english_us chapter4_0_academy_02130093:

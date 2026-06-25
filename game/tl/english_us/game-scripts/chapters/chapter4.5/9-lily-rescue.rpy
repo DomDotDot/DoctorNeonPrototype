@@ -606,11 +606,6 @@ translate english_us chapter4_5_lily_cafe_825f513f:
     # lily "Кстати, о серьезном. Девочки, Неон-сан — подруга моего отца. Она помогала ему найти меня."
     lily "Speaking of serious stuff. Girls, Neon-san is my father's friend. She helped him find me."
 
-# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:269
-translate english_us chapter4_5_lily_cafe_4de3e9aa:
-
-    # amy "Того самого 'брата' со ярмарки? Ой, кстати, простите! Я тогда еще не совсем от болезни отошла, голова не соображала!\""
-    amy "That 'brother' from the fair? Oh, by the way, sorry! I hadn't quite recovered from being sick then, my head wasn't thinking straight!\""
 
 # game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:269
 translate english_us chapter4_5_lily_cafe_578b535d:
@@ -1707,12 +1702,6 @@ translate english_us chapter4_5_lily_studio_366ff8df:
     narrator "She wasn't kissing me. She was pouring her blackness into me."
 
 # TODO: Translation updated at 2025-12-30 22:19
-
-# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:269
-translate english_us chapter4_5_lily_cafe_1091045c:
-
-    # amy "Того самого 'брата' со ярмарки? Ой, кстати, простите! Я тогда еще не совсем от болезни отошла, голова не соображала!"
-    amy "That 'brother' from the fair? Oh, by the way, sorry! I hadn't quite recovered from being sick then, my head wasn't thinking straight!"
 
 # game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:578
 translate english_us chapter4_5_lily_studio_b43e2bd6:
