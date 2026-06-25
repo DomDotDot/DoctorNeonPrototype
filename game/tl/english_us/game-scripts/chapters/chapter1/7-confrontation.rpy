@@ -818,12 +818,6 @@ translate english_us chapter1_confrontation_path_9f6b4333:
     alex "Ouch! Oh, you shocked me again!"
 
 # game/game-scripts/chapters/chapter1/7-confrontation.rpy:48
-translate english_us chapter1_confrontation_path_b8da29ce:
-
-    # narrator "Я посмотрела на свою руку. Искры были... синими. Обычно статика желтая или белая. Но рядом с Алекс она меняла цвет.\""
-    narrator "I looked at my hand. The sparks were... blue. Usually static is yellow or white. But next to Alex it changed color."
-
-# game/game-scripts/chapters/chapter1/7-confrontation.rpy:48
 translate english_us chapter1_confrontation_path_8f1d8a24:
 
     # narrator "Она отдернула руку, но в этот раз в её голосе не было ни капли раздражения или испуга. Вместо этого она звонко, заливисто рассмеялась."
