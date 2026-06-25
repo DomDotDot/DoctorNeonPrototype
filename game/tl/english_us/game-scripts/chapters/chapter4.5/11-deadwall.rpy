@@ -1902,3 +1902,17 @@ translate english_us chapter4_5_finale_e43dfcfa:
     # seraphina "А-ах...?"
     seraphina "A-ah...?"
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:509
+translate english_us chapter4_5_finale_3bff8275:
+
+    # neon "{=thoughts}Я думала, что Нари в чужом теле. Но нет, это Аватар. Костюм. Пустая оболочка сцены."
+    neon "{=thoughts}I thought Nari was in that body. But no, it's an Avatar. A costume. An empty stage prop."
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:509
+translate english_us chapter4_5_finale_ade8edae:
+
+    # neon "{=thoughts}Она как газ, который поднимается из разломов земли. Тяжелый, красный, убивающий все живое. Она уже не человек."
+    neon "{=thoughts}She's like a gas rising from the earth's fissures. Heavy, red, killing everything alive. She's no longer human."
+

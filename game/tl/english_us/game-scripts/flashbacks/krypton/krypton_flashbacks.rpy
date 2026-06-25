@@ -1000,3 +1000,11 @@ translate english_us krypton_firstmeet_flashback_05ebe489:
     # narrator "Никаких вопросов 'как прошел день'. Никаких эмоций. Простое, отстраненное присутствие."
     narrator "No questions like 'how was your day'. No emotions. Just a simple, detached presence."
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:244
+translate english_us krypton_firstmeet_flashback_05b17de1:
+
+    # narrator "Прикосновение."
+    narrator "A touch."
+

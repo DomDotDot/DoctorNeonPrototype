@@ -785,3 +785,11 @@ translate english_us chapter4_5_concert_mid_1557d77f:
     # narrator "Это место, 'Экспо', и впрямь напоминало терминал футуристического аэропорта"
     narrator "This place, the 'Expo', really did look like a futuristic airport terminal."
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:133
+translate english_us chapter4_5_concert_mid_70809ed4:
+
+    # seraphina "Хм... Это огромная ответственность. Но я верю, что моя музыка не просто звуки."
+    seraphina "Hmm... It's a huge responsibility. But I believe my music isn't just sounds."
+

@@ -193,3 +193,19 @@ translate english_us strings:
     old "[mika_display_name!t]"
     new "[mika_display_name!t]"
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+translate english_us strings:
+
+    # game/modules/characters/characters.rpy:143
+    old "Абсолютная Тишина"
+    new "Absolute Silence"
+
+    # game/modules/characters/characters.rpy:247
+    old "Клара"
+    new "Clara"
+
+    # game/modules/characters/characters.rpy:258
+    old "СИВИЛЛА"
+    new "SIBYL"
+

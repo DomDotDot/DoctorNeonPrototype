@@ -1274,3 +1274,11 @@ translate english_us strings:
     old "While unpacking {}, unknown type {}."
     new "While unpacking {}, unknown type {}."
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+translate english_us strings:
+
+    # renpy/common/00sync.rpy:575
+    old "Sync Progress"
+    new "Sync Progress"
+

@@ -14,3 +14,15 @@ translate english_us strings:
     old "Конец первого тома"
     new "First Volume End"
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+translate english_us strings:
+
+    # game/script.rpy:57
+    old "Конец Первого Тома"
+    new "First Volume End"
+
+    # game/script.rpy:91
+    old "Конец Второго Тома"
+    new "Second Volume End"
+

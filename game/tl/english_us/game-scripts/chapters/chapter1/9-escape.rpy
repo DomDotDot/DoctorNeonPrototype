@@ -564,3 +564,11 @@ translate english_us chapter1_escape_sequence_start_bf38aa52:
     # narrator "А затем сознание, не выдержав этого невозможного, сюрреалистичного парадокса, милосердно провалился в густую, спасительную тьму."
     narrator "And then my mind, giving up on this impossible, surreal paradox, mercifully sank into dense, relieving darkness."
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:228
+translate english_us chapter1_escape_sequence_start_974e4f80:
+
+    # narrator "Моя машина вылетела из оврага и рухнула прямо на полотно нижнего скоростного шоссе."
+    narrator "My car flew out of the ravine and clattered directly onto the pavement of a lower expressway."
+

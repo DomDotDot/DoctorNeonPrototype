@@ -1533,3 +1533,11 @@ translate english_us chapter1_confrontation_path_2091b672:
     # narrator "Кровь ударила в голову. Ярость затопила сознание."
     narrator "Blood rushed to her head. And a rage flooded her consciousness."
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+# game/game-scripts/chapters/chapter1/7-confrontation.rpy:50
+translate english_us chapter1_confrontation_path_cb9c4324:
+
+    # narrator "Я посмотрела на свою руку. Искры были... синими. Обычно статика желтая или белая. Но рядом с Алекс она меняла цвет."
+    narrator "I looked at my hand. The sparks were... blue. Usually static is yellow or white. But next to Alex it changed color."
+

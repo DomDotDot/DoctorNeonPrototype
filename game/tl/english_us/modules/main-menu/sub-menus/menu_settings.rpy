@@ -21,3 +21,27 @@ translate english_us strings:
     old "Скорость текста: "
     new "Text Speed: "
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+translate english_us strings:
+
+    # game/modules/main-menu/sub-menus/menu_settings.rpy:114
+    old "Выкл"
+    new "Off"
+
+    # game/modules/main-menu/sub-menus/menu_settings.rpy:116
+    old "Скорость авточтения: "
+    new "Auto-Read Speed: "
+
+    # game/modules/main-menu/sub-menus/menu_settings.rpy:179
+    old "Громкость музыки: "
+    new "Music Volume: "
+
+    # game/modules/main-menu/sub-menus/menu_settings.rpy:193
+    old "Громкость звуков: "
+    new "Sound Volume: "
+
+    # game/modules/main-menu/sub-menus/menu_settings.rpy:208
+    old "Громкость голоса: "
+    new "Voice Volume: "
+

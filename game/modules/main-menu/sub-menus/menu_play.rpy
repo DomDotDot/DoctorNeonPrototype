@@ -100,7 +100,7 @@ init 1 python:
         SubchapterItem("station_server_room_entry", _("5. Серверная"), _("Огонь, тот что во мне"), _("Сюжет")),
         SubchapterItem("chapter5_timer_and_brig", _("6. Бриг"), _("Отдел Охраны"), _("Сюжет")),
         SubchapterItem("chapter5_breakout", _("7. Пермабриг"), _("Компания позаботиться о вас"), _("Сюжет")),
-        SubchapterItem("chapter5_ghost_ship", _("8. Эреб'"), _("Идеально ровный срез"), _("Сюжет")),
+        SubchapterItem("chapter5_ghost_ship", _("8. Эреб"), _("Идеально ровный срез"), _("Сюжет")),
         SubchapterItem("chapter5_bridge_and_katana", _("9. Мостик"), _("Бойня"), _("Сюжет")),
         SubchapterItem("chapter5_finale_sacrifice", _("10. Отец"), _("Жертвенное искупление"), _("Сюжет")),
         SubchapterItem("chapter5_epilogue_earth", _("11. Падение"), _("Второй ковчег пал."), _("Сюжет")),

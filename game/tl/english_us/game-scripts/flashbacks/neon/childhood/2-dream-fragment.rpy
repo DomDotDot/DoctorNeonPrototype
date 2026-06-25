@@ -332,3 +332,23 @@ translate english_us dream_sequence_japan_2_90fbb1f9:
     # akane "То, что природа отказала тебе в праве быть матерью, не дает тебе права играть в бога с моей дочерью!"
     akane "Just because nature denied you the right to be a mother doesn't give you the right to play God with my daughter!"
 
+# TODO: Translation updated at 2026-06-25 19:49
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:34
+translate english_us dream_sequence_japan_2_3a1d19f9:
+
+    # oganesson_young "'Помоги'. Хех. Какое трусливое слово, Аканэ. Ты предлагаешь запереть божество в клетку, потому что боишься её дара."
+    oganesson_young "'Help'. Heh. Such a cowardly word, Akane. You propose locking a deity in a cage because you fear her gift."
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:43
+translate english_us dream_sequence_japan_2_6ebacd2c:
+
+    # oganesson_young young_kimono neutral "Ты называешь это 'неправильным', просто потому что мыслишь категориями стен и границ. А я вижу свободу."
+    oganesson_young young_kimono neutral "You call it a 'wrong' simply because you think in categories of walls and borders. But I see freedom."
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:69
+translate english_us dream_sequence_japan_2_74e737c2:
+
+    # akane "Что?! Путь в небытие?! Это путь ответственности! Она моя дочь! Я не позволю тебе рисковать ее будущим ради своих амбиций!"
+    akane "What?! The path to oblivion?! This is the path of responsibility! I have a daughter! I won't let you risk her future for your ambitions!"
+
