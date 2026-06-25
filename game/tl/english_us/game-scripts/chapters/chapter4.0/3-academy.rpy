@@ -960,3 +960,11 @@ translate english_us chapter4_0_academy_97799150:
     # narrator "Это была старая новостная статья. Заголовок гласил: {size=+10}'Композитор Вашей Души' или просто Разбитое Сердце? Крах Селестии.{/size}"
     narrator "It was an old news article. The headline read: {size=+10}‘Composer of Your Soul’ or just a Broken Heart? The Fall of Celestia.{/size}"
 
+# TODO: Translation updated at 2026-06-25 22:09
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:288
+translate english_us chapter4_0_academy_55cf3b56:
+
+    # narrator "Вся моя жизнь, моя 'апатия', моя изоляция — всё это было ложью, навязанной мне 'Сверху', той тенью в том пустом зале."
+    narrator "My entire life, my 'apathy', my isolation — all of it was a lie, forced on me by the 'Higher Ups', that shadow in that empty hall."
+

@@ -174,3 +174,11 @@ translate english_us chapter2_act2_long_night_78681b7a:
     # narrator "Погруженная в холодное, липкое отчаяние, она провалилась в беспокойный, рваный сон."
     narrator "Consumed by a cold, sticky despair, she fell into a restless, fitful sleep."
 
+# TODO: Translation updated at 2026-06-25 22:09
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:33
+translate english_us chapter2_act2_long_night_f68fefd9:
+
+    # "Диктор" "...и к главным новостям этого часа."
+    "Диктор" ""
+

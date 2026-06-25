@@ -1372,3 +1372,11 @@ translate english_us chapter4_5_morning_after_c31879e3:
     # narrator "Она ничего не ответила. Просто отвернулась и долго смотрела в окно на пустую улицу. В машине была неловкая тишина, пока она обрабатывала эту информацию."
     narrator "She didn't answer. Just turned away and stared out the window at the empty street for a long time. A silent awkwardness filled the car as she processed the information."
 
+# TODO: Translation updated at 2026-06-25 22:09
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:196
+translate english_us chapter4_5_morning_after_52d44d03:
+
+    # narrator "Она на мгновение замирает, сглотнув ком в горле, а затем снова голос становится жестким"
+    narrator "She pauses for a moment, swallowing a lump in her throat, then her voice hardens again"
+

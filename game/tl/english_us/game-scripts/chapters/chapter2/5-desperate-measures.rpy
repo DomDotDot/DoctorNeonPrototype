@@ -536,3 +536,11 @@ translate english_us chapter2_act4_desperate_measures_c6ccec8f:
     # "Бармен" "Да что с тобой такое, кусок хлама?! Работай! Блин, зарядки мало что-ли...?"
     "Bartender" "What the hell is wrong with you, you piece of junk?! Work! Dammit, is the battery low or something??..."
 
+# TODO: Translation updated at 2026-06-25 22:09
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:170
+translate english_us chapter2_act4_desperate_measures_94d2569a:
+
+    # neon "Ау...? Есть кто-нибудь?"
+    neon "Hello...? Is anyone there?"
+

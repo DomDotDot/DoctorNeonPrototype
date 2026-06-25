@@ -578,3 +578,17 @@ translate english_us chapter2_act3_facing_reality_d41d8cd9:
     # nvl clear
     nvl clear
 
+# TODO: Translation updated at 2026-06-25 22:09
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:81
+translate english_us chapter2_act3_facing_reality_6573707e:
+
+    # "Диктор" "...повторяем, полиция кантона продолжает поиски доктора Неон, подозреваемой в жестоком нападении на коллегу в научном комплексе 'Гелиос'..."
+    "Диктор" ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:88
+translate english_us chapter2_act3_facing_reality_450a5821:
+
+    # "Диктор" "Последний раз ее видели, когда она... ...оказывала сопротивление службе безопасности."
+    "Диктор" "She was last seen... ...resisting security personnel."
+
