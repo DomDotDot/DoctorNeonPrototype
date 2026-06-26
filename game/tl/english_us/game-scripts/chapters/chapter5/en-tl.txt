@@ -1,0 +1,1488 @@
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:18
+translate english_us ch5_level3_main_hall_2ed121bd:
+
+    # narrator "Уровень 3. Стерильные белые коридоры, резкий медицинский свет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:18
+translate english_us ch5_level3_main_hall_d1ccad06:
+
+    # narrator "Сюда допускался только научный персонал уровня 'Бета' и выше."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:29
+translate english_us ch5_level3_main_hall_menu_885484db:
+
+    # narrator "Прямо по курсу – 'Отдел Исследований'. Огромные стеклянные двери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:29
+translate english_us ch5_level3_main_hall_menu_b7dc0eb6:
+
+    # narrator "Слева – Травматология."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:29
+translate english_us ch5_level3_main_hall_menu_41681478:
+
+    # narrator "Справа – Медицинский блок. Судя по указателям, из Медбея можно попасть в отделы Генетики и Вирусологии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:29
+translate english_us ch5_level3_main_hall_menu_f2910b3d:
+
+    # narrator "Где-то дальше по коридору, за Отделом Исследований, находятся серверная и лаборатория Робототехники."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:42
+translate english_us ch5_level3_main_hall_menu_8a6c3938:
+
+    # narrator "На стене мерцает жёлтый индикатор тревоги. Указатель к Монорельсу ведёт за Отдел Исследований, в противоположном направлении от серверной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:52
+translate english_us ch5_level3_main_hall_menu_a4c04cd6:
+
+    # neon "Дверь заблокирована изнутри. Судя по карте, есть обходной путь через Медицинский блок."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:74
+translate english_us ch5_level3_inner_hall_60d19d1c:
+
+    # narrator "Здесь освещение было приглушенным. В конце коридора виднелась гигантская укрепленная дверь Серверной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:87
+translate english_us ch5_level3_inner_hall_menu_63d4a119:
+
+    # neon "Раньше я не замечала швабру, валяющуюся на полу, но теперь, когда я на неё смотрю, она будет идеальной подпоркой для двери в лабораторию с синтезатором."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:89
+translate english_us ch5_level3_inner_hall_menu_e4717159:
+
+    # neon "О, эта швабра идеально подойдет для подпорки. Идеально."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:96
+translate english_us ch5_level3_inner_hall_menu_bb5220a3:
+
+    # narrator "Двери Серверной открыты. Жёлтый индикатор на раме сменился зелёным. Меня ждёт конечная цель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:105
+translate english_us ch5_level3_inner_hall_menu_63f87fbc:
+
+    # narrator "Тяжелая бронированная дверь. Я попыталась приложить свой ID к считывателю."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:109
+translate english_us ch5_level3_inner_hall_menu_d03dcbb1:
+
+    # narrator "Панель мигнула жёлтым. На экране появилось сообщение:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:109
+translate english_us ch5_level3_inner_hall_menu_be354452:
+
+    # narrator "'ВНИМАНИЕ. Станция находится в режиме ТИХОЙ ЖЁЛТОЙ ТРЕВОГИ (Код: Карантин-7)."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:109
+translate english_us ch5_level3_inner_hall_menu_a379e08a:
+
+    # narrator "Доступ к критическим системам заблокирован по протоколу безопасности."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:109
+translate english_us ch5_level3_inner_hall_menu_21fa1e92:
+
+    # narrator "Стыковка внешних кораблей запрещена до снятия тревоги."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:109
+translate english_us ch5_level3_inner_hall_menu_a61d56be:
+
+    # narrator "Для экстренного доступа обратитесь к Ядру Коммуникации ИИ.'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:123
+translate english_us ch5_level3_inner_hall_menu_2b285f03:
+
+    # neon "{=thoughts}Жёлтая тревога... Карантин. Вот почему 'Эреб' дрейфует снаружи и не может пристыковаться!"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:123
+translate english_us ch5_level3_inner_hall_menu_8cc46b6e:
+
+    # neon "{=thoughts}А серверная заблокирована на уровне бортового ИИ станции. Никакой мультитул это не вскроет."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:123
+translate english_us ch5_level3_inner_hall_menu_64728a93:
+
+    # neon "{=thoughts}'Ядро Коммуникации ИИ'... Это должно быть где-то на станции. Может, СИВИЛЛА в Отделе Исследований знает, где оно."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:132
+translate english_us ch5_level3_inner_hall_menu_5b963701:
+
+    # narrator "Дверь серверной по-прежнему заблокирована жёлтой тревогой. Мне нужно добраться до Ядра Коммуникации ИИ и снять блокировку."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:45
+    old "Пойти в Отдел Исследований"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:48
+    old "Зайти в Травматологию"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:55
+    old "Зайти в Медицинский блок"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:58
+    old "Зайти в Отдел Кадров"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:61
+    old "Пройти в дальний холл"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:82
+    old "Зайти в лабораторию Робототехники"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:85
+    old "Осмотреть швабру на полу"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:94
+    old "Подойти к дверям Серверной"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:98
+    old "Войти в Серверную"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:135
+    old "Вернуться в главный коридор 3 Уровня"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:5
+translate english_us ch5_level3_research_75e26b65:
+
+    # narrator "Отдел исследований был пуст. Но в центре комнаты была голографическая проекция дежурного ИИ."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:11
+translate english_us ch5_level3_research_d2161156:
+
+    # sibyl "Отказ. Угроза Код Желтый. Отсутствует чип Администратора. Запрос аннулирован."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:12
+translate english_us ch5_level3_research_06e01abb:
+
+    # neon "{=thoughts}Мне нужен Чип Администратора, чтобы эта штука вообще начала со мной говорить.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:13
+translate english_us ch5_level3_research_94e92368:
+
+    # neon "{=thoughts}Если бы я могла получить доступ к её интерфейсам, я могла бы узнать больше о том, что происходит на станции...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:14
+translate english_us ch5_level3_research_a66dccee:
+
+    # neon "{=thoughts}Возможно, я смогу узнать информацию о ситуации, если я смогу поговорить с ней лично.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:20
+translate english_us ch5_level3_research_ec8c0ff1:
+
+    # sibyl "Идентификация подтверждена. Ядро Обращений 'СИВИЛЛА' активно. Ожидаю прямой запрос, Администратор."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:34
+translate english_us ch5_level3_research_menu_07643bfa:
+
+    # sibyl "Статус: Код Карантин-7. Активирован 72 часа назад."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:34
+translate english_us ch5_level3_research_menu_e46f5728:
+
+    # sibyl "Инфо: Неопознанный биологический агент в грузовом отсеке."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:34
+translate english_us ch5_level3_research_menu_0cdc4b10:
+
+    # sibyl "Действие протокола: Блокировка серверной, шлюзов, коммуникаций."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:34
+translate english_us ch5_level3_research_menu_f59e742d:
+
+    # sibyl "Решение: Снятие протокола требует авторизации Ядра Решений. Обратитесь через прокси-интерфейс — Ядро Коммуникации."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:46
+translate english_us ch5_level3_research_menu_cbe041af:
+
+    # sibyl "Координаты: спутник-дереликт 'Нексус'. Изолированный физический узел."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:46
+translate english_us ch5_level3_research_menu_038e960f:
+
+    # sibyl "Логистика: Доступ через станционный Монорельс. Шлюз на текущем уровне, сектор B."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:46
+translate english_us ch5_level3_research_menu_a636aacd:
+
+    # sibyl "Требование: Допуск 'Омега'. Наличие чипа Администратора и ДНК руководителя отдела удовлетворяет условию допуска к транзиту."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:57
+translate english_us ch5_level3_research_menu_d67c4c65:
+
+    # sibyl "Тип объекта: 'Нексус'. Автономный изолированный модуль."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:57
+translate english_us ch5_level3_research_menu_781006eb:
+
+    # sibyl "Функция: Инкапсуляция Ядра Коммуникации для предотвращения прямого взлома из сети станции."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:57
+translate english_us ch5_level3_research_menu_625b651d:
+
+    # sibyl "Статус ТО: 387 дней с последней проверки. Вероятность сбоя систем: 42 процентов."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:57
+translate english_us ch5_level3_research_menu_a434121b:
+
+    # sibyl "На спутнике расположен ресепшен и сеть коридоров."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:57
+translate english_us ch5_level3_research_menu_ae6bd712:
+
+    # sibyl "Прямой доступ к Ядру заблокирован энергетическим барьером."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:57
+translate english_us ch5_level3_research_menu_9cfbc326:
+
+    # sibyl "Снятие барьера требует последовательной активации периферийных Серверов."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:70
+translate english_us ch5_level3_research_menu_a410f327:
+
+    # neon "{=thoughts}Сервера в коридорах... Решать загадки ручками.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:74
+translate english_us ch5_level3_research_menu_02d130be:
+
+    # sibyl "Анализ архитектуры 'Нексуса':"
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:74
+translate english_us ch5_level3_research_menu_ea88a012:
+
+    # sibyl "Сервера активируются строго последовательно: 1 -> 2 -> 3. Финальная активация снимает барьер Ядра."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:74
+translate english_us ch5_level3_research_menu_0519e461:
+
+    # sibyl "Предупреждение: цепь нестабильна. Активация сервера №1 инициирует системный таймер."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:74
+translate english_us ch5_level3_research_menu_c4f79267:
+
+    # sibyl "Если остальные сервера не будут активированы до истечения времени, цепь сбросится во избежание перегрузки."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:74
+translate english_us ch5_level3_research_menu_a43400cd:
+
+    # sibyl "Поиск инструкций невозможен. Обращайтесь к физическим пометкам инженерного персонала на месте."
+    sibyl ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:9
+    old "Поговорить с ИИ"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:23
+    old "Пойти к Монорельсу"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:26
+    old "Вернуться в коридор"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:33
+    old "Спросить про жёлтую тревогу"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:45
+    old "Где находится Ядро Коммуникации СИВИЛЛЫ?"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:56
+    old "Расскажи о спутнике 'Нексус'"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.1-research-department.rpy:73
+    old "Есть подсказки по серверам на спутнике?"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:5
+translate english_us ch5_level3_trauma_524b8458:
+
+    # narrator "Палаты Травматологии были пусты, но койки несли следы недавнего присутствия пациентов. Капельницы были сорваны в спешке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:8
+translate english_us ch5_level3_trauma_a2dea57c:
+
+    # narrator "Среди разбросанных медикаментов на полу лежал разбитый сервисный медробот. Его белый корпус был промят, будто кто-то ударил его чем-то тяжёлым в спешке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:9
+translate english_us ch5_level3_trauma_eb7424fa:
+
+    # narrator "Как только я подошла ближе, один из его разбитых окуляров тускло замигал, и механизмы внутри со скрипом провернулись."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:11
+translate english_us ch5_level3_trauma_7b3c66b4:
+
+    # "Медробот" "Пожалуйста... остановитесь... Проведение сканирования... на наличие травм..."
+    "Медробот" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:12
+translate english_us ch5_level3_trauma_2d4d9604:
+
+    # narrator "Из его глаза-камеры вырвался слабый, мерцающий синий луч, который быстро пробежался по моему телу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:13
+translate english_us ch5_level3_trauma_67b313c8:
+
+    # "Медробот" "Физические повреждения... отсутствуют. Обнаружен повышенный уровень... стресса. Рекомендация... отдых."
+    "Медробот" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:14
+translate english_us ch5_level3_trauma_e4152a1e:
+
+    # "Медробот" "Спасибо... за ваше содействие."
+    "Медробот" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:16
+translate english_us ch5_level3_trauma_cf3f252f:
+
+    # narrator "Его окуляр мигнул в последний раз, и робот издал тихий затихающий гул. Он навсегда замер, оставшись брошенным на этой пустой станции."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:18
+translate english_us ch5_level3_trauma_d035b11e:
+
+    # neon "{=thoughts}Какой ужас... даже машинам бывает одиноко в конце.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:19
+translate english_us ch5_level3_trauma_ffd2b910:
+
+    # neon "{=thoughts}Но... почему они эвакуировали 3-ий уровень, но оставили всё население на 2-ом? Кто принимал это решение?{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:20
+translate english_us ch5_level3_trauma_09801702:
+
+    # neon "{=thoughts}Лифт между уровнями был выключен намеренно. Они пытались изолировать сектора... или запереть кого-то внизу.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:21
+translate english_us ch5_level3_trauma_1c5c7e1d:
+
+    # neon "{=thoughts}И самое странное — почему никто не сообщил о тревоге по внутренним каналам? 'Код Жёлтый' активировали тихо...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:23
+translate english_us ch5_level3_trauma_476cf6b8:
+
+    # narrator "Я присела рядом с его корпусом. Из-под поврежденных бронепластин на пол натекла лужица светящейся зелёной жидкости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:24
+translate english_us ch5_level3_trauma_92089f2b:
+
+    # neon "{=thoughts}Это... промышленная охлаждающая жидкость. Медбею нужен такой же охладитель для реакции в синтезаторе.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:25
+translate english_us ch5_level3_trauma_2dddcc38:
+
+    # neon "{=thoughts}Но эта лужа уже вытекла, смешавшись с грязью на полу, собрать её невозможно. Придётся добывать свежую из другого работающего робота.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:33
+translate english_us ch5_level3_trauma_menu_a07120c7:
+
+    # narrator "Гермодверь с шипением разблокировалась. Теперь в Травматологию можно попасть напрямую из главного коридора Уровня 3."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:31
+    old "Разблокировать внешнюю гермодверь в холл"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:37
+    old "Выйти в главный холл Уровня 3"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.2-trauma.rpy:40
+    old "Вернуться в Медбей"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:26
+translate english_us ch5_level3_medbay_295bd828:
+
+    # narrator "Главный вход в Медицинский блок (Медбей)."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:26
+translate english_us ch5_level3_medbay_4adc9aa1:
+
+    # narrator "Я оказалась в заброшенном зале ожидания. Мягкие кресла покрыты тонким слоем пыли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:26
+translate english_us ch5_level3_medbay_4b82849e:
+
+    # narrator "Дверь, ведущая в глубину медицинского блока, мигает жёлтым карантинным светодиодом. Никаких замков. Внутренний шлюз гостеприимно приоткрыт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:34
+translate english_us ch5_level3_medbay_3b623a94:
+
+    # neon "{=thoughts}Странно... Панель мигает жёлтым, но сам замок отключен. Кто-то объявлял карантин?{/thoughts}"
+    neon ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:43
+    old "Пойти в Левое крыло"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:46
+    old "Пойти в Правое крыло"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:49
+    old "Пойти в Центральный проход"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:52
+    old "Выйти"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:5
+translate english_us ch5_level3_genetics_7b54e45b:
+
+    # narrator "Отдел Генетики. Ряды секвенаторов ДНК тихо гудели в темноте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:8
+translate english_us ch5_level3_genetics_cef8cb65:
+
+    # narrator "На одном из столов я заметила открытый кейс с химикатами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:12
+translate english_us ch5_level3_genetics_8901f449:
+
+    # neon "{=thoughts}Синяя жидкость в ампуле... Кажется, это 'Ген-Связь'. Но сейчас мне это не нужно.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:14
+translate english_us ch5_level3_genetics_421db466:
+
+    # narrator "Синяя жидкость в ампуле 'Ген-Связь'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:15
+translate english_us ch5_level3_genetics_aca3983e:
+
+    # neon "Протеиновый коннектор для ДНК. Беру."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:22
+translate english_us ch5_level3_genetics_d416eba7:
+
+    # narrator "Лаборатория уже обыскана."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.1-genetics.rpy:10
+    old "Осмотреть кейс"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:6
+translate english_us ch5_level3_medbay_left_corridor_f8d65011:
+
+    # narrator "Левый коридор. на стенах висят указатели к кабинету Главного Врача и Химлаборатории."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:14
+translate english_us ch5_level3_medbay_left_menu_7ed36fe3:
+
+    # narrator "Швабра прочно заклинила приоткрытую дверь лаборатории. Я могу войти внутрь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:21
+translate english_us ch5_level3_medbay_left_menu_fe69e70f:
+
+    # narrator "Через толстое герметичное смотровое стекло виден автоматический химический синтезатор. К сожалению, дотянуться до него отсюда невозможно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:21
+translate english_us ch5_level3_medbay_left_menu_64e6eb2c:
+
+    # narrator "Сама дверь лаборатории серьезно барахлит. Электронный замок сбоит: раз в несколько секунд зазор открывается на пару сантиметров и с резким хлопком закрывается обратно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:21
+translate english_us ch5_level3_medbay_left_menu_d494b267:
+
+    # narrator "Этого зазора и времени абсолютно недостаточно, чтобы человек мог протиснуться внутрь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:31
+translate english_us ch5_level3_medbay_left_menu_e6f46cc8:
+
+    # neon "{=thoughts}Мне нужно пробраться внутрь, чтобы синтезировать Биомаркер. Но дверь заклинило намертво. Если бы у меня было что-то длинное и прочное, чтобы подпереть ее в момент открытия...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:36
+translate english_us ch5_level3_medbay_left_menu_98e896f3:
+
+    # narrator "Я дождалась момента, когда дверь приоткрылась, и со всей силы вогнала металлическую ручку швабры в зазор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:40
+translate english_us ch5_level3_medbay_left_menu_bd644672:
+
+    # narrator "Дверь с оглушительным скрежетом захлопнулась, изогнув швабру, но механизм заклинило! Образовался устойчивый полуметровый проем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:43
+translate english_us ch5_level3_medbay_left_menu_dd5a20a7:
+
+    # neon "Сработало! Проход открыт. Теперь я могу попасть в лабораторию."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:48
+translate english_us ch5_level3_medbay_left_menu_dc5cfc5e:
+
+    # narrator "Я приложила Чип Администратора высшего доступа к считывателю. Замок сердито пискнул красным. Дверь продолжает лихорадочно и хаотично хлопать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:49
+translate english_us ch5_level3_medbay_left_menu_33c479a5:
+
+    # neon "На что я надеялась? Тут чисто механическая поломка, электроника не поможет."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:55
+translate english_us ch5_level3_medbay_left_menu_ba44122e:
+
+    # neon "{=thoughts}Дверь барахлит, но у меня сейчас нет причин пытаться пробраться внутрь. Лаборатория закрыта, а у меня полно других дел.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:64
+translate english_us ch5_level3_medbay_left_menu_643747ee:
+
+    # narrator "Большой автоматический диспенсер для выдачи медицинских ампул. На мерцающем жидкокристаллическом экране горит список различных реагентов, катализаторов и коннекторов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:67
+translate english_us ch5_level3_medbay_left_menu_e007c325:
+
+    # neon "{=thoughts}Диспенсер реагентов. Но мне это сейчас не нужно.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:70
+translate english_us ch5_level3_medbay_left_menu_643747ee_1:
+
+    # narrator "Большой автоматический диспенсер для выдачи медицинских ампул. На мерцающем жидкокристаллическом экране горит список различных реагентов, катализаторов и коннекторов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:70
+translate english_us ch5_level3_medbay_left_menu_179adc95:
+
+    # narrator "Для выдачи требуется авторизованная карта сотрудника с научным допуском."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:77
+translate english_us ch5_level3_medbay_left_menu_861c5430:
+
+    # neon "{=thoughts}Какой-то автомат выдачи реактивов... Моя техническая ID-карта подходит к слоту оплаты, но баланс на ней минимальный. Я не знаю, какую именно жидкость нужно брать. Денег мало, брать всё подряд — не вариант, тем более её всё равно надо будет мешать с другими компонентами. Не буду тратить средства впустую.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:81
+translate english_us ch5_level3_medbay_left_menu_4f1a3922:
+
+    # narrator "В лотке выдачи пусто. Необходимый реагент уже получен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:84
+translate english_us ch5_level3_medbay_left_menu_7b869db3:
+
+    # narrator "Согласно брошюре из МРТ, для стабильного синтеза мне жизненно необходим 'Реагент-D' — специальный катализатор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:88
+translate english_us ch5_level3_medbay_left_menu_0b003394:
+
+    # narrator "Автомат негромко загудел, списывая остатки моих средств с карты. С тихим стуком в лоток выдачи скатилась герметичная фиолетовая ампула."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:91
+translate english_us ch5_level3_medbay_left_menu_c4527e9f:
+
+    # neon "Прекрасно. Реагент-D у меня. На счету теперь ноль, но дело того стоило."
+    neon ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:11
+    old "Осмотреть окно химической лаборатории"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:16
+    old "Войти в Химлабораторию"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:18
+    old "Остаться в коридоре"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:34
+    old "Подпереть дверь найденной шваброй"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:46
+    old "Попробовать применить Чип Администратора"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:61
+    old "Осмотреть Диспенсер реагентов"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:86
+    old "Авторизовать карту и получить Реагент-D"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:96
+    old "Пройти дальше по коридору"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:99
+    old "Пройти направо по соединительному коридору"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2-medbay-left.rpy:103
+    old "Вернуться в Главный холл"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:6
+translate english_us ch5_level3_medbay_chemlab_45e3d272:
+
+    # narrator "Стерильный бокс Химической лаборатории. Вокруг разбросаны разбитые колбы, а в центре стола тихо гудит автоматический синтезатор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:13
+translate english_us ch5_level3_medbay_chemlab_menu_cc2917d4:
+
+    # narrator "Синтезатор уже завершил работу. Биомаркер получен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:24
+translate english_us ch5_level3_medbay_chemlab_menu_45b015f7:
+
+    # narrator "Аппарат пришел в движение. Колбы завращались, смешивая синюю и красную основы. Промышленный охладитель не дает смеси закипеть, а фиолетовый Реагент-D надежно скрепляет ДНК-коннекторы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:25
+translate english_us ch5_level3_medbay_chemlab_menu_3891e61d:
+
+    # narrator "Спустя несколько минут лоток выдачи открылся. Готовый биоактивный состав под давлением заправился в присоединенный медицинский распылитель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:27
+translate english_us ch5_level3_medbay_chemlab_menu_3b811416:
+
+    # neon "{=thoughts}Биомаркер готов! Он идеально имитирует ДНК Главврача. Теперь можно взломать его терминал!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:33
+translate english_us ch5_level3_medbay_chemlab_menu_4cc8d206:
+
+    # neon "{=thoughts}Синтезатор ожидает ввода четырех активных компонентов и пустой емкости для распыления. Мне нужны: биологическая основа, связующий ДНК-протеин, мощный охладитель для термостабилизации, специальный связующий катализатор и пустой баллончик-распылитель, чтобы заправить готовый состав...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:35
+translate english_us ch5_level3_medbay_chemlab_menu_fa3e60ec:
+
+    # neon "{=thoughts}Синтезатор ожидает ввода четырех активных компонентов. По схеме мне нужны: биологическая основа, связующий ДНК-протеин, мощный охладитель для термостабилизации и специальный связующий катализатор...{/thoughts}"
+    neon ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:10
+    old "Использовать химический Синтезатор"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:17
+    old "Синтезировать Биомаркер (Цито-В + Ген-Связь + Охладитель + Реагент-D -> Заправить распылитель)"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:38
+    old "Вернуться в Левый коридор"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:7
+translate english_us ch5_level3_medbay_chief_office_dece8c19:
+
+    # narrator "Конец левого коридора. Тяжелая дверь из прочного матового стекла преграждает путь в кабинет Главного Врача. На панели считывателя горит надпись: 'ТРЕБУЕТСЯ ДОСТУП ОМЕГА'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:8
+translate english_us ch5_level3_medbay_chief_office_60093acb:
+
+    # narrator "Но самое удивительное — прямо из паза считывателя торчит забытый кем-то белый пластиковый чип!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:15
+translate english_us ch5_medbay_chief_locked_menu_4738206b:
+
+    # narrator "Я аккуратно вытащила чип. Это пустой Сервисный Чип без какой-либо цифровой подписи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:16
+translate english_us ch5_medbay_chief_locked_menu_3c7f0229:
+
+    # neon "{=thoughts}Кто-то в панике пытался вскрыть дверь кабинета чипом без прав, застрял и бежал, бросив его... В любом случае, пустой чип мне пригодится.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:21
+translate english_us ch5_medbay_chief_locked_menu_078f0e54:
+
+    # narrator "Я приложила Чип Администратора высшего доступа, полученный в Отделе Кадров. Считыватель пискнул приятным зеленым тоном, и стеклянная дверь бесшумно уехала в стену."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:23
+translate english_us ch5_medbay_chief_locked_menu_3d8ec590:
+
+    # neon "Проход открыт. Посмотрим, что внутри."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:30
+translate english_us ch5_medbay_chief_locked_menu_75bb7df9:
+
+    # narrator "Кабинет Главного Врача. Внутри царил образцовый порядок, контрастирующий с хаосом снаружи. На массивном столе ровно светится большой терминал управления."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:38
+translate english_us ch5_medbay_chief_office_menu_361fed3c:
+
+    # narrator "Я забрала со стола пустой лабораторный распылитель. Он идеально подойдет для биоактивного состава."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:43
+translate english_us ch5_medbay_chief_office_menu_cdf3f5b3:
+
+    # narrator "Терминал уже выполнил свою роль. Капсула МРТ в кабинете радиологии разблокирована."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:53
+translate english_us ch5_medbay_chief_office_menu_23994fdf:
+
+    # narrator "Экран пискнул: 'АВАРИЙНЫЙ МАГНИТНЫЙ ЗАМОК ТОМОГРАФА ОТКЛЮЧЕН. Капсула готова к ручному открытию'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:54
+translate english_us ch5_medbay_chief_office_menu_ffb4a7fd:
+
+    # neon "Отлично! Капсула МРТ разблокирована. Теперь я смогу открыть её в Радиологии и осмотреть изнутри."
+    neon ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:12
+    old "Забрать чип из считывателя"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:19
+    old "Применить Чип Администратора"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:35
+    old "Забрать пустой распылитель со стола"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:41
+    old "Осмотреть терминал Главврача"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:47
+    old "Разблокирвать капсулу Магнитно-Резонансного Томографа"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:10
+translate english_us ch5_level3_medbay_right_corridor_7c7eef4a:
+
+    # neon "Я здесь уже была, я хожу кругами..."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:16
+translate english_us ch5_level3_medbay_right_corridor_c1ef5867:
+
+    # neon "Можно было попасть сюда с главного холла?"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:20
+translate english_us ch5_level3_medbay_right_corridor_8e296da2:
+
+    # narrator "Правый коридор Медбея. Отделение радиологии и внутренних болезней. Свет здесь тусклый, указатели ведут к кабинетам КТ, МРТ и УЗИ."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:35
+translate english_us ch5_level3_medbay_right_menu_8eab90eb:
+
+    # narrator "Кабинеты терапевтов и радиологов. Вокруг лишь ряды пустых столов, папки с историями болезней и старые чашки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:36
+translate english_us ch5_level3_medbay_right_menu_76ad7e72:
+
+    # narrator "Я тщательно осмотрела шкафы и ящики, но ничего полезного здесь нет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:49
+translate english_us ch5_level3_medbay_ct_room_aacc7d18:
+
+    # narrator "Кабинет компьютерной томографии. Внутри кабинки возвышается массивное кольцо томографа КТ."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:55
+translate english_us ch5_level3_medbay_ct_menu_3ad3274d:
+
+    # narrator "Кольцо томографа со свистом начало вращаться, ускоряясь. На экране управляющего компьютера побежали строки инициализации."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:56
+translate english_us ch5_level3_medbay_ct_menu_b8af1e28:
+
+    # narrator "Но через пару секунд вращение замедлилось, и на экране вспыхнула ошибка: 'ОШИБКА: ОБЪЕКТ СКАНИРОВАНИЯ ОТСУТСТВУЕТ. Съемка отменена'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:57
+translate english_us ch5_level3_medbay_ct_menu_a46c1660:
+
+    # neon "Ничего интересного. Пустой сканер просто крутится без дела."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:61
+translate english_us ch5_level3_medbay_ct_menu_219b350b:
+
+    # narrator "Крупное высокотехнологичное кольцо томографа. Платформа для пациента пуста и аккуратно задвинута. Внутри кольца ничего нет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:70
+translate english_us ch5_level3_medbay_ultrasound_room_f5f52690:
+
+    # narrator "Небольшой кабинет УЗИ. Здесь стоит портативный сканер и кушетка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:75
+translate english_us ch5_level3_medbay_ultrasound_menu_54a65d67:
+
+    # narrator "Экран аппарата УЗИ загорелся, но датчики выдают лишь мертвую рябь и белый шум."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:76
+translate english_us ch5_level3_medbay_ultrasound_menu_5545bc59:
+
+    # neon "Без живого пациента этот прибор бесполезен."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:85
+translate english_us ch5_level3_medbay_mri_room_1eb8c313:
+
+    # narrator "Кабинет МРТ. Огромный цилиндрический аппарат МРТ занимает всю стену."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:91
+translate english_us ch5_level3_medbay_mri_menu_51194868:
+
+    # narrator "Экран компьютера МРТ выдает предупреждение: 'ВНИМАНИЕ. Обнаружен посторонний металлический предмет в сканирующем контуре! Запуск заблокирован во избежание повреждения обмоток'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:92
+translate english_us ch5_level3_medbay_mri_menu_cefb4d6f:
+
+    # neon "Действительно, металлический биндер-зажим блокирует запуск прибора."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:95
+translate english_us ch5_level3_medbay_mri_menu_2479807f:
+
+    # narrator "Я нажала кнопку запуска на компьютере МРТ. Система пискнула и выдала ошибку:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:96
+translate english_us ch5_level3_medbay_mri_menu_fb1ac8ea:
+
+    # narrator "'ОШИБКА ИНИЦИАЛИЗАЦИИ: КАПСУЛА ЗАБЛОКИРОВАНА. Аварийный замок активен. Системное подтверждение требуется на терминале Главного Врача'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:97
+translate english_us ch5_level3_medbay_mri_menu_6878b46d:
+
+    # neon "{=thoughts}МРТ не запускается. Похоже, нужно либо как-то включить его, либо открыть саму капсулу. Но капсула заблокирована на программном уровне.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:102
+translate english_us ch5_level3_medbay_mri_menu_d877ff12:
+
+    # narrator "Круглая капсула томографа наглухо закрыта. Механический рычаг заблокирован электромагнитным фиксатором."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:103
+translate english_us ch5_level3_medbay_mri_menu_b5664328:
+
+    # neon "{=thoughts}Капсула заперта. Напрямую её не вскрыть. Нужно найти способ снять блокировку в терминале Главного Врача.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:108
+translate english_us ch5_level3_medbay_mri_menu_3a121e2f:
+
+    # narrator "Магнитный замок отключен. Я нажала кнопку открытия, и капсула с тяжелым шипением отъехала в сторону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:113
+translate english_us ch5_level3_medbay_mri_menu_e636f3c7:
+
+    # narrator "Внутри открытой капсулы МРТ лежали разбросанные вещи. Но моё внимание привлек кое-какой предмет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:116
+translate english_us ch5_level3_medbay_mri_menu_cddcb413:
+
+    # narrator "К мощному электромагниту томографа намертво, металлическим зажимом-биндером, прилипла папка с какими-то документами!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:117
+translate english_us ch5_level3_medbay_mri_menu_934e541c:
+
+    # narrator "Оторвать её руками невозможно. К счастью, папка раскрыта на странице, и я могу прочитать текст."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:118
+translate english_us ch5_level3_medbay_mri_menu_e2b8a369:
+
+    # narrator "Текст научной брошюры:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:118
+translate english_us ch5_level3_medbay_mri_menu_7e5f4d0f:
+
+    # narrator "'...ВНИМАНИЕ НАУЧНОМУ ПЕРСОНАЛУ. Для стабилизации соединений белка 'Ген-Связь' и сыворотки 'Цито-В' в автоматическом химическом синтезаторе КАТЕГОРИЧЕСКИ запрещено использовать стандартные соли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:118
+translate english_us ch5_level3_medbay_mri_menu_f671ef46:
+
+    # narrator "Единственным полностью совместимым связующим реагентом является Реагент-D, выдаваемый в автоматических настенных диспенсерах по коду допуска 04.'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:126
+translate english_us ch5_level3_medbay_mri_menu_9382cdd1:
+
+    # neon "{=thoughts}Так вот почему МРТ было заблокировано — этот зажим-биндер прилип намертво и вызвал сбой! Но благодаря этому я теперь вижу, какой реагент отвечает за стабилизацию. Мне нужен Реагент-D из автомата в левом коридоре!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:129
+translate english_us ch5_level3_medbay_mri_menu_1ff4f6b5:
+
+    # narrator "В открытой капсуле видна папка с брошюрой, намертво притянутая биндером к магниту."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:25
+    old "Зайти в кабинет КТ"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:28
+    old "Зайти в кабинет МРТ"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:31
+    old "Зайти в кабинет УЗИ"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:34
+    old "Зайти в кабинеты врачей"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:39
+    old "Пройти налево по соединительному коридору"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:53
+    old "Запустить сканирование КТ через компьютер"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:60
+    old "Осмотреть сканер КТ"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:64
+    old "Назад в коридор"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:74
+    old "Включить аппарат УЗИ"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:89
+    old "Попробовать запустить МРТ через компьютер"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.3-medbay-right.rpy:100
+    old "Осмотреть капсулу МРТ"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.4-medbay-forward.rpy:6
+translate english_us ch5_level3_medbay_fwd_corridor_9ccab4c4:
+
+    # narrator "Центральный проход. Здесь царит особенно гнетущее безмолвие. Указатели ведут к Операционным залам, Отделу Генетики и Травматологическому покою."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.4-medbay-forward.rpy:11
+translate english_us ch5_level3_medbay_fwd_menu_8a0564b3:
+
+    # narrator "Ряд просторных операционных залов за раздвижными дверями. Хирургические столы, выключенные бестеневые лампы, штативы для капельниц."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.4-medbay-forward.rpy:12
+translate english_us ch5_level3_medbay_fwd_menu_13907f5e:
+
+    # narrator "Всё оборудование обесточено и законсервировано. Здесь царит абсолютная тишина. Ничего полезного найти не удается, кроме гнетущего ощущения хирургической чистоты."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.4-medbay-forward.rpy:10
+    old "Осмотреть Операционные театры"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.3.4-medbay-forward.rpy:15
+    old "Пройти в Отдел Генетики"
+    new ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:237
+translate english_us ch5_level3_robotics_d63657db:
+
+    # narrator "Сборочный цех. На столах лежали недосообранные прототипы дронов охраны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:240
+translate english_us ch5_level3_robotics_9a404c2b:
+
+    # narrator "В дальней части комнаты огромный манипулятор завис над конвейером. В его железной хватке была зажата красная ампула — 'Цито-В'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:242
+translate english_us ch5_level3_robotics_dd5b5292:
+
+    # neon "{=thoughts}Химический реагент 'Цито-В'... Но сейчас мне это не нужно, да и доставать её оттуда слишком хлопотно.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:245
+translate english_us ch5_level3_robotics_ab49c19b:
+
+    # neon "Манипулятор заклинило на 'мертвой хватке'. Если я попытаюсь вырвать ампулу силой, она попросту лопнет."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:247
+translate english_us ch5_level3_robotics_2ee0ba7f:
+
+    # narrator "Я подошла к терминалу управления гидравликой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:263
+translate english_us ch5_robotics_check_calibration_06914123:
+
+    # narrator "С громким шипением система сбросила давление. Манипулятор медленно разжал стальные пальцы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:264
+translate english_us ch5_robotics_check_calibration_bd95028f:
+
+    # narrator "Ампула 'Цито-В' мягко упала на ленту конвейера."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:287
+translate english_us ch5_robotics_check_calibration_11f23e16:
+
+    # narrator "КРИТИЧЕСКИЙ СБОЙ: Давление в системе нестабильно. Терминал сбросил калибровку вентилей на случайные значения!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:297
+translate english_us ch5_robotics_abort_fae2a167:
+
+    # narrator "Манипулятор безвольно висит. Ампула 'Цито-В' уже у меня."
+    narrator ""
+
+# TODO: Translation updated at 2026-06-26 22:16
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:23
+translate english_us ch5_level3_coolant_receive_835a8694:
+
+    # neon "{=thoughts}Нет смысла ломать исправного автомата.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:26
+translate english_us ch5_level3_coolant_receive_51fff248:
+
+    # neon "{=thoughts}В автоматонах точно есть жидкость, которую я видела у сломанного медробота. Синтезатор в Медбее требует охладитель для реакции. Эта жидкость идеально подойдёт... И чтобы её забрать, мне не нужен талон.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:31
+translate english_us ch5_level3_coolant_receive_be4805cd:
+
+    # narrator "Я резким движением пробила стекло своей силой и вцепилась в его руку. Стекло разлетелось на куски, будто это были лепестки, а я с силой дернула руку на себя."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:33
+translate english_us ch5_level3_coolant_receive_ad29e41f:
+
+    # "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:36
+translate english_us ch5_level3_coolant_receive_d544183f:
+
+    # narrator "Но я рванула со всей силы. Рука с треском оборвалась. Автоматон задергался, заискрил и медленно осел на стул, издав протяжный механический писк."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:37
+translate english_us ch5_level3_coolant_receive_0800717b:
+
+    # narrator "Я быстро подставила пустую колбу под льющуюся зеленую жидкость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:44
+translate english_us ch5_level3_coolant_receive_33625c83:
+
+    # neon "Извини, приятель. Очередь была слишком длинная."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:46
+translate english_us ch5_level3_coolant_receive_765cf59d:
+
+    # neon "{=thoughts}Пока не буду его ломать.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:53
+translate english_us ch5_level3_hop_office_e44663fe:
+
+    # narrator "Отдел Кадров. Просторное помещение с рядами пустых кресел для ожидания. В дальнем конце, за пуленепробиваемым стеклом, неподвижно сидела фигура."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:64
+translate english_us ch5_level3_hop_office_de01a599:
+
+    # narrator "За стеклом валялся искрящийся Автоматон с вырванными трубками. Больше он никого не обслужит."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:68
+translate english_us ch5_level3_hop_office_5b154142:
+
+    # narrator "Я снова подошла к окну Автоматона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:74
+translate english_us ch5_hop_menu_3d9b68d5:
+
+    # narrator "Над окном висело электронное табло. Текущий талон: [store.ch5_hop_current_ticket]."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:79
+translate english_us ch5_hop_menu_8a4b2132:
+
+    # narrator "Он сломан."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:82
+translate english_us ch5_hop_menu_53b1b770:
+
+    # narrator "За стеклом сидел сервисный Автоматон устаревшей модели. Его стеклянный глаз пусто смотрели сквозь меня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:88
+translate english_us ch5_hop_menu_ab0a8173:
+
+    # "Автоматон" "Ваш запрос уже обработан. Следующий!"
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:90
+translate english_us ch5_hop_menu_29c6e346:
+
+    # "Автоматон" "Талон [store.ch5_hop_ticket]. Пройдите к окну. Тип обращения?"
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:91
+translate english_us ch5_hop_menu_ca212b9e:
+
+    # neon "Запрос на повышение уровня доступа до чипа Администратора."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:95
+translate english_us ch5_hop_menu_8164fc29:
+
+    # "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:96
+translate english_us ch5_hop_menu_5d7ba292:
+
+    # neon "Серьёзно?! Ты же просто железка без эмоций!"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:98
+translate english_us ch5_hop_menu_57c1b45f:
+
+    # "Автоматон" "Порядок есть порядок. Следующий!"
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:99
+translate english_us ch5_hop_menu_1db6d74b:
+
+    # narrator "Мне придется делать всё это заново..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:105
+translate english_us ch5_hop_menu_84055533:
+
+    # "Автоматон" "Обработка запроса... Подождите."
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:107
+translate english_us ch5_hop_menu_49e51029:
+
+    # narrator "Из щели под стеклом с тихим щелчком выскочил Чип Администратора с высшей сигнатурой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:110
+translate english_us ch5_hop_menu_be5d4acd:
+
+    # neon "{=thoughts}Отлично. Чип Администратора у меня. Теперь можно открыть кабинет главврача в Медбее!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:116
+translate english_us ch5_hop_menu_4ee45f01:
+
+    # "Автоматон" "Пожалуйста, возьмите талон в терминале и ожидайте своей очереди."
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:117
+translate english_us ch5_hop_menu_582052fa:
+
+    # neon "Но тут больше никого нет!"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:118
+translate english_us ch5_hop_menu_25aa12e2:
+
+    # "Автоматон" "Компания 'Гелиос' заботится о своих сотрудниках. Даже если сейчас никого нет, пожалуйста, следуйте процедурам."
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:119
+translate english_us ch5_hop_menu_caa48548:
+
+    # "Автоматон" "Сейчас обслуживается талон: [store.ch5_hop_current_ticket]."
+    "Автоматон" ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:124
+translate english_us ch5_hop_menu_697a8fc6:
+
+    # narrator "Мне больше не нужны талоны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:127
+translate english_us ch5_hop_menu_4d5b2a1d:
+
+    # narrator "Экран терминала выдал 5 вариантов темы запроса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:142
+translate english_us ch5_hop_menu_fe30294f:
+
+    # narrator "Терминал с жужжанием выдал мне талон."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:143
+translate english_us ch5_hop_menu_81fd1b37:
+
+    # narrator "На нём было напечатано: '[store.ch5_hop_ticket]'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:144
+translate english_us ch5_hop_menu_06da4dc9:
+
+    # neon "{=thoughts}Серьёзно? Если сейчас обслуживают другой талон, мне придётся ждать вечность!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:153
+translate english_us ch5_hop_menu_e304165f:
+
+    # narrator "Я подошла к управляющему терминалу табло. Экран заблокирован 4-значным PIN-кодом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:154
+translate english_us ch5_hop_menu_21e1ac7b:
+
+    # neon "{=thoughts}Система диагностики откликается. Я могу попытаться подобрать код перехватом сигналов.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:155
+translate english_us ch5_hop_menu_7398eb6b:
+
+    # narrator "Правила дешифровки: 4 уникальные цифры. 'Бык' — цифра угадана и на своём месте. 'Корова' — цифра угадана, но не на своём месте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:164
+translate english_us ch5_hop_minigame_07c907c2:
+
+    # narrator "Ошибка ввода. Требуется ровно 4 УНИКАЛЬНЫЕ цифры."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:171
+translate english_us ch5_hop_minigame_c896742d:
+
+    # narrator "Доступ разрешен. Режим администратора активирован."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:172
+translate english_us ch5_hop_minigame_3a3011c1:
+
+    # narrator "Я вручную ввела свой номер талона: [store.ch5_hop_ticket]."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:176
+translate english_us ch5_hop_minigame_1d4ad14d:
+
+    # narrator "Табло мигнуло и высветило мой номер. По всему залу раздался приятный женский голос: 'Талон [store.ch5_hop_ticket], пройдите к окну'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:180
+translate english_us ch5_hop_minigame_739a0054:
+
+    # narrator "Результат дешифровки: Быки: [b_count], Коровы: [c_count]."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:28
+    old "Вырвать охлаждение у Автоматона"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:45
+    old "Не трогать"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:77
+    old "Подойти к окну Автоматона"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:122
+    old "Взять талон в терминале"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:130
+    old "Оформление отпуска"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:132
+    old "Выдача дубликата пустого сервисного чипа"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:134
+    old "Жалоба на условия труда"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:136
+    old "Запрос на повышение уровня доступа"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:138
+    old "Увольнение по собственному желанию"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:149
+    old "Модифицировать электронное табло очереди"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:158
+    old "Введите 4 уникальные цифры (или 'exit' для выхода):"
+    new ""
+
+    # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:183
+    old "Отойти в коридор"
+    new ""
+
