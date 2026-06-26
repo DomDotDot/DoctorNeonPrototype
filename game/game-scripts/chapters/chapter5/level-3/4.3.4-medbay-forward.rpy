@@ -15,7 +15,7 @@ label ch5_level3_medbay_fwd_menu:
         "Пройти в Отдел Генетики":
             jump ch5_level3_genetics
             
-        "Зайти в Травматологию (Неотложка)":
+        "Зайти в Травматологию":
             jump ch5_level3_trauma
             
         "Вернуться в Главный холл":

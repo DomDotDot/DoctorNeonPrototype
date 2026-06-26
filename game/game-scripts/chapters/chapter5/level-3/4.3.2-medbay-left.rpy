@@ -58,7 +58,7 @@ label ch5_level3_medbay_left_menu:
         "Войти в Химлабораторию" if store.ch5_medbay_mop_propped:
             jump ch5_level3_medbay_chemlab
 
-        "Осмотреть Диспенсер реагентов (Химический автомат)":
+        "Осмотреть Диспенсер реагентов":
             scene ch05_cg41_v01 with dissolve
             if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
                 narrator """
@@ -93,10 +93,10 @@ label ch5_level3_medbay_left_menu:
                         "Отмена":
                             jump ch5_level3_medbay_left_menu
 
-        "Пройти дальше по коридору (Кабинет Главврача)":
+        "Пройти дальше по коридору":
             jump ch5_level3_medbay_chief_office
 
-        "Пройти направо по соединительному коридору (в крыло Радиологии)":
+        "Пройти направо по соединительному коридору":
             $ store.ch5_medbay_transition_used = True
             jump ch5_level3_medbay_right_corridor
 
