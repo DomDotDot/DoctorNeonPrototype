@@ -180,7 +180,7 @@ screen ch5_lever_puzzle_screen():
                 xalign 0.5
                 spacing 50
                 
-                textbutton "ДЁРНУТЬ ГЛАВНЫЙ РУБИЛЬНИК (ЗЕЛЁНЫЙ)" action Return("check_calibration") style "beta_cyber_green_button"
+                textbutton "ДЁРНУТЬ ГЛАВНЫЙ РУБИЛЬНИК" action Return("check_calibration") style "beta_cyber_green_button"
                 textbutton "ВЕРНУТЬСЯ В РЕСЕПШЕН" action Return("abort") style "beta_cyber_exit_button"
 
 
@@ -202,7 +202,7 @@ label ch5_corridor_beta:
     narrator """
         Схема на экране:
         
-        Три управляющих рычага (Красный, Синий, Жёлтый) и один главный рубильник (Зелёный).
+        Три управляющих рычага и один главный рубильник.
         
         Красный рычаг: переключает затворы I и III
         Синий рычаг: переключает затвор II
@@ -212,7 +212,7 @@ label ch5_corridor_beta:
         Текущий статус выводится только один раз при инициализации.
         
         Инициализация...
-        Рычаги: Красный (ВНИЗ), Синий (ВНИЗ), Жёлтый (ВНИЗ).
+        Рычаги: Красный, Синий, Жёлтый.
         Затворы: Все 3 затвора ЗАКРЫТЫ.
         
         Цель: ОТКРЫТЬ ВСЕ ТРИ ЗАТВОРА. 
