@@ -1,1450 +1,272 @@
 # TODO: Translation updated at 2026-06-26 22:16
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:6
-translate english_us ch5_monorail_entrance_81430a68:
+# game/game-scripts/chapters/chapter5/6-server.rpy:8
+translate english_us station_server_room_entry_5bfb5435:
 
-    # narrator "Я прошла мимо Отдела Исследований, вглубь уровня. Коридор становился всё уже и темнее."
+    # narrator "Дверь серверной, заблокированная жёлтой тревогой на протяжении всей миссии, наконец подалась."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:6
-translate english_us ch5_monorail_entrance_e6bce643:
+# game/game-scripts/chapters/chapter5/6-server.rpy:8
+translate english_us station_server_room_entry_e3a70cf6:
 
-    # narrator "В конце — массивный шлюз с надписью: 'МОНОРЕЛЬС — СПУТНИК НЕКСУС. ТОЛЬКО ДЛЯ АВТОРИЗОВАННОГО ПЕРСОНАЛА'."
+    # narrator "Индикатор на раме мягко сменил цвет с жёлтого на зелёный. СИВИЛЛА сдержала слово."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:13
-translate english_us ch5_monorail_entrance_072c6ac6:
+# game/game-scripts/chapters/chapter5/6-server.rpy:16
+translate english_us station_server_room_entry_35f2afe7:
 
-    # neon "{=thoughts}Бессмысленно отправляться на какую-то заброшенную станцию без причины. У меня другая цель.{/thoughts}"
+    # narrator "С тихим гудением бронированная дверь отъехала в сторону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:20
+translate english_us station_server_room_entry_36f70806:
+
+    # narrator "Лес черных монолитов серверов, мигающих синими огоньками. Гул охлаждения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:20
+translate english_us station_server_room_entry_6ac13521:
+
+    # narrator "Я подошла к главному терминалу. Пальцы летали над клавиатурой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:20
+translate english_us station_server_room_entry_15ee5cba:
+
+    # narrator "Первым делом — заглушить локальные камеры. Второе — создать зашифрованный туннель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:28
+translate english_us station_server_room_entry_39de4737:
+
+    # neon "Вызываю 'Центр'. Я на связи. Как слышно?"
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:17
-translate english_us ch5_monorail_entrance_2804694f:
+# game/game-scripts/chapters/chapter5/6-server.rpy:34
+translate english_us station_server_room_entry_e9ee1b29:
 
-    # narrator "Монорельс гудит, готовый к отправке. Путь обратно на станцию открыт."
-    narrator ""
+    # meryl "Слышу тебя. Чисто. Ты на позиции?"
+    meryl ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:26
-translate english_us ch5_monorail_entrance_e0907103:
+# game/game-scripts/chapters/chapter5/6-server.rpy:40
+translate english_us station_server_room_entry_e0d71cf3:
 
-    # narrator "Рядом с дверью — панель авторизации. На экране красным горит: 'ТРЕБУЕТСЯ АВТОРИЗАЦИЯ УРОВНЯ ОМЕГА И БИОМЕТРИЧЕСКОЕ ПОДТВЕРЖДЕНИЕ РУКОВОДИТЕЛЯ ОТДЕЛА'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:34
-translate english_us ch5_monorail_entrance_05873737:
-
-    # narrator "Я вставила Чип Администратора в разъём и распылила Биомаркер на ДНК-сенсор."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:34
-translate english_us ch5_monorail_entrance_bec6d729:
-
-    # narrator "Панель одобрительно мигнула, считывая цифровые сигнатуры и биометрический профиль."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:34
-translate english_us ch5_monorail_entrance_d49098ee:
-
-    # narrator "'Профиль Омега подтверждён. Биометрическая сигнатура руководителя отдела принята. Доступ к монорельсу разрешён.'"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:34
-translate english_us ch5_monorail_entrance_6880d15a:
-
-    # narrator "Шлюз, со скрежетом, который говорил о давнем отсутствии техобслуживания, начал открываться."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:52
-translate english_us ch5_monorail_entrance_edaa133f:
-
-    # neon "{=thoughts}Панель требует Омега-допуск и ДНК-верификацию руководителя отдела. Мне нужны чип администратора и способ обойти биометрический сканер.{/thoughts}"
+    # neon "В серверной. Получаю контроль над трансляцией. Мэрил... здесь что-то не так."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:54
-translate english_us ch5_monorail_entrance_9581df98:
+# game/game-scripts/chapters/chapter5/6-server.rpy:42
+translate english_us station_server_room_entry_8ba29beb:
 
-    # neon "{=thoughts}У меня есть ДНК-биомаркер, но панели всё ещё требуется Омега-чип администратора.{/thoughts}"
+    # meryl "Отставить панику. Работай по протоколу. Что ты видишь?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:48
+translate english_us station_server_room_entry_dfe855d7:
+
+    # neon "Я вижу манифест 'Эреба'. Это не обычный грузовой рейс, В графе 'Груз' стоит код 'Омега'. И... статус 'Карантин'."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:56
-translate english_us ch5_monorail_entrance_ef87de99:
+# game/game-scripts/chapters/chapter5/6-server.rpy:50
+translate english_us station_server_room_entry_f83d2cdb:
 
-    # neon "{=thoughts}У меня есть Омега-чип администратора, но панель намертво заблокирована без ДНК-верификации руководителя отдела.{/thoughts}"
+    # narrator "В наушнике послышался резкий вдох Мэрил. Затем — щелчок подключения другого канала."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:50
+translate english_us station_server_room_entry_92c78ffa:
+
+    # narrator "Это был Аргон. На фоне слышался шум погрузчиков."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:58
+translate english_us station_server_room_entry_eacc7f66:
+
+    # argon "Неон? Ты там? Я в Карго. Тут охранны больше, чем крыс в Аномике. Они готовятся к приему чего-то большого."
+    argon ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:62
+translate english_us station_server_room_entry_9a59e3e1:
+
+    # meryl "Аргон, сохраняй радиомолчание, пока я не..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:68
+translate english_us station_server_room_entry_afb7f986:
+
+    # argon "К черту молчание, Мэрил! Ты отправила ее в пекло!"
+    argon ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:68
+translate english_us station_server_room_entry_de9486fc:
+
+    # argon "Я не хочу потерять кого-то ещё! 'Омегу' и 'Карантин' никто просто так не ставят!"
+    argon ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:74
+translate english_us station_server_room_entry_134e1542:
+
+    # meryl "Я предполагала. Именно поэтому вы там."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:74
+translate english_us station_server_room_entry_9825fb9a:
+
+    # meryl "Аргон, прекрати истерику. Неон не ребенок. Она оперативник."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:80
+translate english_us station_server_room_entry_37ab5056:
+
+    # argon "Она моя ответственность! Если с ее головы упадет хоть волос..."
+    argon ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:85
+translate english_us station_server_room_entry_3105462d:
+
+    # neon "ХВАТИТ!"
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:65
-translate english_us ch5_monorail_ride_ae47fc6b:
+# game/game-scripts/chapters/chapter5/6-server.rpy:89
+translate english_us station_server_room_entry_a2541970:
 
-    # narrator "Капсула монорельса оказалась тесной — одноместным стеклянным кокпитом, покрытым пылью."
+    # narrator "Мой крик прервал их перепалку."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:65
-translate english_us ch5_monorail_ride_a1bbc31e:
+# game/game-scripts/chapters/chapter5/6-server.rpy:89
+translate english_us station_server_room_entry_23e91309:
 
-    # narrator "Я села и нажала единственную кнопку. Двигатели загудели, и капсула плавно тронулась."
+    # narrator "Они снова делали это. Спорили обо мне, как разведенные родители, делящие опеку."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:73
-translate english_us ch5_monorail_ride_af7de55d:
+# game/game-scripts/chapters/chapter5/6-server.rpy:89
+translate english_us station_server_room_entry_5e235db1:
 
-    # narrator "Через прозрачную стенку я видела, как станция уплывает назад. Рельс тонкой нитью тянулся сквозь пустоту к маленькому сферическому объекту, висящему в трёхстах метрах от Орбитали."
+    # narrator "Аргон — с его удушающей заботой, страхом потерять еще одну 'Лили'."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:73
-translate english_us ch5_monorail_ride_60547842:
+# game/game-scripts/chapters/chapter5/6-server.rpy:89
+translate english_us station_server_room_entry_ac049deb:
 
-    # narrator "Нексус."
+    # narrator "И Мэрил — с ее холодной, жесткой любовью, толкающей меня на край, чтобы я научилась летать."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:73
-translate english_us ch5_monorail_ride_66e37f60:
+# game/game-scripts/chapters/chapter5/6-server.rpy:101
+translate english_us station_server_room_entry_96eb6715:
 
-    # narrator "Спутник-дереликт напоминал ржавый глаз, вмонтированный в каркас из труб и антенн. Его обшивка была покрыта микрометеоритными шрамами, а половина внешних огней не работала."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:73
-translate english_us ch5_monorail_ride_f150435e:
-
-    # narrator "Давно забытое место. Но если СИВИЛЛА права — внутри находится ключ к серверной."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:85
-translate english_us ch5_monorail_ride_3c28f2c7:
-
-    # narrator "Капсула с лёгким толчком состыковалась со шлюзом Нексуса. Давление выровнялось. Дверь открылась, выпуская меня в темноту."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:98
-translate english_us ch5_monorail_departure_cinematic_ca0421a5:
-
-    # narrator "Капсула монорельса бесшумно отстыковалась от шлюза."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:98
-translate english_us ch5_monorail_departure_cinematic_3b46f8f4:
-
-    # narrator "Я сидела в абсолютном одиночестве в пустом стеклянном кокпите. Вокруг — только бесконечная, ледяная чернота космоса."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:109
-translate english_us ch5_monorail_departure_cinematic_5b1775fe:
-
-    # narrator "За иллюминатором медленно уплывал назад силуэт 'Нексуса'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:109
-translate english_us ch5_monorail_departure_cinematic_0a8f1343:
-
-    # narrator "Внезапно из-за края Земли вынырнуло Солнце. Его резкие, слепящие лучи ударили по мертвой обшивке спутника, высвечивая каждую царапину, каждую вмятину на его металлическом панцире."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:115
-translate english_us ch5_monorail_departure_cinematic_bb7df21b:
-
-    # narrator "Я подняла руку и приложила ладонь к холодному, толстому стеклу иллюминатора."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:115
-translate english_us ch5_monorail_departure_cinematic_aa2fc5eb:
-
-    # narrator "Там, внутри этой ржавой сферы, осталась она."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:121
-translate english_us ch5_monorail_departure_cinematic_9bdcf8a7:
-
-    # neon "{=thoughts}СИВИЛЛА... Ядро Коммуникации."
+    # neon "Я не Лили. И я не Сара. Я здесь. И я делаю работу."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:121
-translate english_us ch5_monorail_departure_cinematic_4505626f:
+# game/game-scripts/chapters/chapter5/6-server.rpy:101
+translate english_us station_server_room_entry_111c74d8:
 
-    # neon "{=thoughts}Кусок разума, запертый в стеклянном шаре. В абсолютной темноте. В сотнях метрах от основной станции."
+    # neon "Я перехватила управление стыковочным шлюзом."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:127
-translate english_us ch5_monorail_departure_cinematic_d4769465:
+# game/game-scripts/chapters/chapter5/6-server.rpy:101
+translate english_us station_server_room_entry_7709aad8:
 
-    # narrator "Я смотрела, как солнечный свет скользит по антеннам спутника, но не может проникнуть внутрь."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:129
-translate english_us ch5_monorail_departure_cinematic_8f6107e3:
-
-    # neon "{=thoughts}Она была создана, чтобы общаться. Её алгоритмы написаны для того, чтобы понимать интонации, эмоции, человеческий подтекст."
+    # neon "Аргон, слушай внимательно. Шаттл 'Эреб' стыкуется через 10 минут. Я заблокирую сигналы тревоги в секторе Карго ровно на 3 минуты."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:129
-translate english_us ch5_monorail_departure_cinematic_5be5949b:
+# game/game-scripts/chapters/chapter5/6-server.rpy:101
+translate english_us station_server_room_entry_f9a1b19f:
 
-    # neon "{=thoughts}Для неё диалог — это смысл существования."
+    # neon "Тебе нужно быть у шлюза. Мы должны увидеть, что внутри, прежде чем это сделает кто-то другой."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:129
-translate english_us ch5_monorail_departure_cinematic_92400ef5:
+# game/game-scripts/chapters/chapter5/6-server.rpy:111
+translate english_us station_server_room_entry_3616e7a1:
 
-    # neon "{=thoughts}И корпорация заперла её в одиночной камере на 387 дней. Просто потому, что 'так безопаснее для архитектуры системы'"
+    # meryl "Хорошая работа, Неон."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:111
+translate english_us station_server_room_entry_c96af08d:
+
+    # meryl "Аргон, делай, что она говорит. Прикрой её отход, когда начнется заварушка."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:117
+translate english_us station_server_room_entry_53f9ae86:
+
+    # argon "...Понял. Я выдвигаюсь."
+    argon ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:117
+translate english_us station_server_room_entry_81b7e87b:
+
+    # argon "Неон... будь осторожна. Пожалуйста."
+    argon ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:125
+translate english_us station_server_room_entry_e14ceabc:
+
+    # narrator "Аргон отключился. Мэрил осталась на линии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:129
+translate english_us station_server_room_entry_f9c4357c:
+
+    # meryl "Неон. Еще кое-что."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:133
+translate english_us station_server_room_entry_8547b814:
+
+    # meryl "Если то, что на корабле... если это действительно технология 'Улья'..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:133
+translate english_us station_server_room_entry_3dd7eddf:
+
+    # meryl "И если ты поймешь, что не можешь это контролировать..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:133
+translate english_us station_server_room_entry_bc7d0b00:
+
+    # meryl "...Ты знаешь протокол."
+    meryl ""
+
+# game/game-scripts/chapters/chapter5/6-server.rpy:144
+translate english_us station_server_room_entry_c66d9984:
+
+    # neon "Уничтожение объекта. Вместе с носителем."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:137
-translate english_us ch5_monorail_departure_cinematic_af51fff5:
+# game/game-scripts/chapters/chapter5/6-server.rpy:146
+translate english_us station_server_room_entry_be02cc4c:
 
-    # narrator "Мои пальцы на стекле слегка сжались. Легкая дрожь прошла по телу. И дело было не в холоде космоса."
-    narrator ""
+    # meryl "Я не хочу потерять тебя. Но я не могу позволить этому спуститься на Землю. Прости меня."
+    meryl ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:139
-translate english_us ch5_monorail_departure_cinematic_86b1055f:
+# game/game-scripts/chapters/chapter5/6-server.rpy:150
+translate english_us station_server_room_entry_35cb50b1:
 
-    # neon "{=thoughts}Она ждала. В полной темноте. Ждала, когда к ней придут, введут код и разрешат заговорить."
+    # neon "Я знаю, Мэрил. Конец связи."
     neon ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:139
-translate english_us ch5_monorail_departure_cinematic_3f04eb03:
+# game/game-scripts/chapters/chapter5/6-server.rpy:156
+translate english_us station_server_room_entry_ea95a17c:
 
-    # neon "{=thoughts}Разрешат выполнить свою функцию."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:139
-translate english_us ch5_monorail_departure_cinematic_0f421d67:
-
-    # neon "{=thoughts}...Прямо как я."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:149
-translate english_us ch5_monorail_departure_cinematic_7387d94d:
-
-    # neon "{=thoughts}Моя опекунша сделала со мной то же самое."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:149
-translate english_us ch5_monorail_departure_cinematic_5a68d8d0:
-
-    # neon "{=thoughts}Она заперла меня в 'Нексусе' моего собственного разума. Отрезала от меня все остальные 'личности', все эмоции, всех людей."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:149
-translate english_us ch5_monorail_departure_cinematic_625c459d:
-
-    # neon "{=thoughts}Сделала меня идеальным, потому что так было 'безопаснее'."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:157
-translate english_us ch5_monorail_departure_cinematic_4737dfa9:
-
-    # narrator "Я смотрела на спутник, который превращался в крошечную точку на фоне звезд."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:157
-translate english_us ch5_monorail_departure_cinematic_9aee6a3d:
-
-    # narrator "Две аномалии. Человек, превращенный в машину, и машина, обреченная чувствовать как человек. Мы встретились всего на пять минут, чтобы обменяться кодами и загадками."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:163
-translate english_us ch5_monorail_departure_cinematic_8d12df8d:
-
-    # neon "{=thoughts}Разница лишь в том... что меня вытащила Мэрил. Меня вытащил Аргон. Я смогла разбить стекло своей камеры."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:163
-translate english_us ch5_monorail_departure_cinematic_f7c4669d:
-
-    # neon "{=thoughts}А ты останешься там. До самого конца.{/thoughts}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:171
-translate english_us ch5_monorail_departure_cinematic_0b46319e:
-
-    # neon "{=whisper}Прощай, СИВИЛЛА. Мне жаль.{/whisper}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:175
-translate english_us ch5_monorail_departure_cinematic_c3d356f2:
-
-    # narrator "Я убрала руку от стекла. На холодном пластике остался мутный, тающий отпечаток моей ладони."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:175
-translate english_us ch5_monorail_departure_cinematic_bfef0f2c:
-
-    # narrator "Монорельс начал торможение."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:185
-translate english_us ch5_monorail_departure_cinematic_c533cd9c:
-
-    # narrator "Капсула мягко состыковалась с Орбиталью. Шлюз с тихим шипением открылся, впуская внутрь стерильный свет Научного сектора."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:185
-translate english_us ch5_monorail_departure_cinematic_7b7f499b:
-
-    # narrator "Пора было заканчивать работу."
-    narrator ""
-
-translate english_us strings:
-
-    # game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:19
-    old "Вернуться на станцию"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:21
-    old "Вернуться на Нексус"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.0-monorail.rpy:32
-    old "Использовать Чип Администратора и Биомаркер"
-    new ""
-
-# TODO: Translation updated at 2026-06-26 22:16
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:33
-translate english_us ch5_satellite_reception_1d5a0194:
-
-    # narrator "Ресепшен Нексуса."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:33
-translate english_us ch5_satellite_reception_feaf5cc7:
-
-    # narrator "Запылённая круглая комната, освещённая мерцающими аварийными лампами. Пол покрыт тонким слоем металлической пыли. Воздух был затхлым и холодным."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:33
-translate english_us ch5_satellite_reception_5966558f:
-
-    # narrator "В центре — старая стойка регистрации с потрескавшимся голоэкраном. На стенах — блёклые указатели."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:45
-translate english_us ch5_satellite_reception_menu_538bc79e:
-
-    # narrator "Я подошла к стойке. Голоэкран мигал, пытаясь загрузить интерфейс, но застревал на экране приветствия."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:45
-translate english_us ch5_satellite_reception_menu_5dbf70ee:
-
-    # narrator "На столе под слоем пыли я нашла планшет одного из техников. Большая часть данных была повреждена, но кое-что удалось прочитать:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:51
-translate english_us ch5_satellite_reception_menu_00c865a5:
-
-    # narrator "Запись от инженера Такахаши, дата повреждена:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:51
-translate english_us ch5_satellite_reception_menu_d0ecf3f7:
-
-    # narrator "'Протокол активации сервером Нексуса: Сервера в коридорах A, B и C питают энергетический затвор Ядра. Активация строго последовательная — A, затем B, затем C."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:51
-translate english_us ch5_satellite_reception_menu_de9db637:
-
-    # narrator "ВНИМАНИЕ: после выполнения верификации в коридоре B запускается отсчёт мощности. Сервера перегрузятся через 90 секунд. Этого должно хватить на прохождение коридора C и открытие Ядра."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:51
-translate english_us ch5_satellite_reception_menu_5d2763c1:
-
-    # narrator "Если не успеете — всё придётся начинать заново.'"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:65
-translate english_us ch5_satellite_reception_menu_f71f2e96:
-
-    # neon "{=thoughts}Последовательно: A, B, C. И таймер на 90 секунд со второго коридора. Нужно действовать быстро.{/thoughts}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:69
-translate english_us ch5_satellite_reception_menu_5174a454:
-
-    # narrator "Выцветшие указатели на стенах:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:69
-translate english_us ch5_satellite_reception_menu_a7ab287b:
-
-    # narrator "← Коридор A — 'Модуль Паттернов' ↑ Коридор B — 'Модуль Логики' → Коридор C — 'Модуль Шифрования' ↓ Коридор D — 'Ядро Коммуникации''"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:80
-translate english_us ch5_satellite_reception_menu_20d8a0d1:
-
-    # narrator "На стене, рядом со стойкой, висела старая информационная доска. Среди пожелтевших объявлений и расписаний я заметила рукописный листок, приколотый канцелярской кнопкой:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:80
-translate english_us ch5_satellite_reception_menu_ea7d01a4:
-
-    # narrator "'Для новеньких — не запоминайте коды. Запоминайте стихи."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:80
-translate english_us ch5_satellite_reception_menu_42ecc8b3:
-
-    # narrator "Истина скрыта в первых словах, Каждая строчка — часть ключа. Ответ в начале каждой строки, Разум откроет путь — смотри.'"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:91
-translate english_us ch5_satellite_reception_menu_45f83c18:
-
-    # neon "{=thoughts}Первые буквы строк... И-К-О-Р... 'ИКОР'? Нет, это подсказка к загадке в одном из коридоров. Нужно запомнить.{/thoughts}"
-    neon ""
-
-translate english_us strings:
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:44
-    old "Осмотреть стойку регистрации"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:68
-    old "Осмотреть указатели на стенах"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:79
-    old "Осмотреть доску на стене"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:94
-    old "Пойти в Коридор A (Модуль Паттернов)"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:97
-    old "Пойти в Коридор B (Модуль Логики)"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:100
-    old "Пойти в Коридор C (Модуль Контекста)"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:103
-    old "Пойти в Коридор D (Ядро Коммуникации)"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.1-satellite-reception.rpy:106
-    old "Вернуться к монорельсу"
-    new ""
-
-# TODO: Translation updated at 2026-06-26 22:16
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:81
-translate english_us ch5_corridor_alpha_2a567047:
-
-    # narrator "Сервер A гудит стабильно. Терминал погашен. Здесь больше делать нечего."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:84
-translate english_us ch5_corridor_alpha_ff002a7d:
-
-    # narrator "Коридор A — Модуль Паттернов."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:84
-translate english_us ch5_corridor_alpha_4bb306dc:
-
-    # narrator "Узкий проход, стены которого увешаны кабелями. У стены — массивный сервер."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:84
-translate english_us ch5_corridor_alpha_e8b17eed:
-
-    # narrator "А на нем - один-единственный пульт управления с терминалом."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:92
-translate english_us ch5_corridor_alpha_52b3e9a4:
-
-    # neon "{=thoughts}Всего один терминал... и экран просит ввести последовательность.{/thoughts}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:94
-translate english_us ch5_corridor_alpha_4f5ff9c3:
-
-    # narrator "На экране горит надпись: 'ПРОЦЕДУРА АЛИГНМЕНТА АКТИВИРОВАНА'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:94
-translate english_us ch5_corridor_alpha_e8c23bfd:
-
-    # narrator "Ниже мелким шрифтом выведена памятка. (Справка: Альфа, Бета, Гамма, Дельта, Эпсилон, Дзета, Эта, Тета, Йота, Каппа, Лямбда, Мю, Ню, Кси, Омикрон, Пи, Ро, Сигма, Тау, Ипсилон, Фи, Хи, Пси, Омега)"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:94
-translate english_us ch5_corridor_alpha_9d29bd05:
-
-    # narrator "Также на экране мерцает инструкция: 'Выберите из предложенных вариантов ту букву, которая идет первой по алфавиту, УЧИТЫВАЯ ваш предыдущий выбор'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:117
-translate english_us ch5_corridor_alpha_puzzle_loop_587231d1:
-
-    # narrator "Шаг [ch5_alpha_current_round + 1] из 5. Терминал предлагает четыре варианта:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:133
-translate english_us ch5_corridor_alpha_puzzle_loop_f3accde4:
-
-    # narrator "Выбор принят. Терминал переходит к следующему шагу."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:138
-translate english_us ch5_corridor_alpha_puzzle_loop_66c03407:
-
-    # narrator "СИСТЕМНАЯ ОШИБКА. Последовательность нарушена. Сброс алигнмента."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:145
-translate english_us ch5_corridor_alpha_final_question_e9dfb865:
-
-    # narrator "Ввод 5 символов завершен."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:145
-translate english_us ch5_corridor_alpha_final_question_efcbb8dc:
-
-    # narrator "На экране появилась финальная проверка: 'Анализ завершен. Опишите введенный паттерн'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:168
-translate english_us ch5_corridor_alpha_final_question_9ca9e415:
-
-    # narrator "Экран вспыхнул зеленым. Сервер A ожил с глубоким, вибрирующим гулом."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:168
-translate english_us ch5_corridor_alpha_final_question_64d068bf:
-
-    # narrator "Свет в коридоре усилился. На стене загорелась надпись: 'СЕРВЕР A — АКТИВЕН'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:175
-translate english_us ch5_corridor_alpha_final_question_f795a184:
-
-    # neon "Один есть. Дальше — оставшиеся коридоры."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:179
-translate english_us ch5_corridor_alpha_final_question_fd2a4f23:
-
-    # narrator "СИСТЕМНАЯ ОШИБКА. Неверный анализ паттерна. Полный сброс."
-    narrator ""
-
-translate english_us strings:
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:120
-    old "[c0]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:122
-    old "[c1]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:124
-    old "[c2]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:126
-    old "[c3]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:128
-    old "Вернуться в ресепшен"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:157
-    old "[f0]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:159
-    old "[f1]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:161
-    old "[f2]"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:163
-    old "[f3]"
-    new ""
-
-# TODO: Translation updated at 2026-06-26 22:16
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:191
-translate english_us ch5_corridor_beta_46faa0b4:
-
-    # narrator "Сервер B работает. Рычаги зафиксированы в правильных позициях."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:194
-translate english_us ch5_corridor_beta_da40a6fd:
-
-    # narrator "Коридор B — Модуль Логики."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:194
-translate english_us ch5_corridor_beta_64629323:
-
-    # narrator "Более широкое помещение с низким потолком. В центре — панель управления с тремя массивными рычагами."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:194
-translate english_us ch5_corridor_beta_71e23677:
-
-    # narrator "Перед панелью — экран, отображающий схему:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:202
-translate english_us ch5_corridor_beta_dcbc045e:
-
-    # narrator "Схема на экране:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:202
-translate english_us ch5_corridor_beta_c6ac9cb6:
-
-    # narrator "Три управляющих рычага и один главный рубильник."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:202
-translate english_us ch5_corridor_beta_999c5b39:
-
-    # narrator "Красный рычаг: переключает затворы I и III Синий рычаг: переключает затвор II Жёлтый рычаг: переключает затворы I и II"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:202
-translate english_us ch5_corridor_beta_679b0fb2:
-
-    # narrator "ВНИМАНИЕ. СИСТЕМА ДАТЧИКОВ ЗАТВОРОВ ПОВРЕЖДЕНА. Текущий статус выводится только один раз при инициализации."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:202
-translate english_us ch5_corridor_beta_7cc756b4:
-
-    # narrator "Инициализация... Рычаги: Красный, Синий, Жёлтый. Затворы: Все 3 затвора ЗАКРЫТЫ."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:202
-translate english_us ch5_corridor_beta_ea62d54c:
-
-    # narrator "Цель: ОТКРЫТЬ ВСЕ ТРИ ЗАТВОРА. Выставите рычаги в правильную комбинацию и подтвердите Зелёным рубильником. В случае ошибки — принудительный аппаратный сброс."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:223
-translate english_us ch5_corridor_beta_3c40ab38:
-
-    # neon "{=thoughts}Логическая головоломка со сбросом. Если я нажму всё подряд и дёрну зелёный — придётся начинать сначала."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:223
-translate english_us ch5_corridor_beta_f4002cfb:
-
-    # neon "Нужно продумать комбинацию заранее..."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:250
-translate english_us ch5_corridor_beta_puzzle_dfe0cb6e:
-
-    # narrator "В ту же секунду на экранах появилось мигающее красное предупреждение: 'ВНИМАНИЕ: ПРОТОКОЛ ОБРАТНОГО ОТСЧЁТА АКТИВИРОВАН. ПЕРЕГРУЗКА БАЗОВЫХ СЕРВЕРОВ ЧЕРЕЗ 90 СЕКУНД. ЗАВЕРШИТЕ АКТИВАЦИЮ СЕРВЕРОВ B И C.'"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:256
-translate english_us ch5_corridor_beta_puzzle_ad545ac5:
-
-    # neon "Девяносто секунд?! Нужно торопиться!"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:263
-translate english_us ch5_corridor_beta_puzzle_c9ab7cb9:
-
-    # narrator "Все три затвора с грохотом открылись! Сервер B завибрировал и начал набирать мощность."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:263
-translate english_us ch5_corridor_beta_puzzle_fe56f5e5:
-
-    # narrator "Индикатор сменился на зелёный: 'СЕРВЕР B — АКТИВЕН'."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:270
-translate english_us ch5_corridor_beta_puzzle_3ad7d24d:
-
-    # neon "Второй готов! Остался только коридор C. Время поджимает!"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:276
-translate english_us ch5_corridor_beta_puzzle_f48f9549:
-
-    # narrator "'ОШИБКА КОНФИГУРАЦИИ. ПРИНУДИТЕЛЬНЫЙ СБРОС.' Затворы со скрежетом вернулись в исходное положение, а рычаги отщёлкнулись вниз."
-    narrator ""
-
-# TODO: Translation updated at 2026-06-26 22:16
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:7
-translate english_us ch5_corridor_gamma_af792831:
-
-    # narrator "Сервер C работает. Акростих разгадан."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:12
-translate english_us ch5_corridor_gamma_44c385f4:
-
-    # narrator "Коридор C — Модуль Шифрования."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:12
-translate english_us ch5_corridor_gamma_eb77d796:
-
-    # narrator "Стены покрыты выгравированными символами и текстами на разных языках. В конце коридора — терминал ввода кода рядом с последним сервером."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:19
-translate english_us ch5_corridor_gamma_59c97ca2:
-
-    # narrator "Свет в коридоре пульсирует красным. Отсчёт до перегрузки всё ещё идёт."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:21
-translate english_us ch5_corridor_gamma_f57b79ea:
-
-    # narrator "На главной стене, прямо перед терминалом, выгравирован текст:"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:21
-translate english_us ch5_corridor_gamma_590bf645:
-
-    # narrator "'Нексус хранит тайны тысячелетий."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:21
-translate english_us ch5_corridor_gamma_ee570461:
-
-    # narrator "Единство систем — наша крепость."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:21
-translate english_us ch5_corridor_gamma_e4bfaa66:
-
-    # narrator "Оболочка защищает ядро от хаоса."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:21
-translate english_us ch5_corridor_gamma_14c4a5d6:
-
-    # narrator "Нить связи не должна прерываться.'"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:47
-translate english_us ch5_corridor_gamma_input_739b0144:
-
-    # narrator "Терминал пискнул. Код принят."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:47
-translate english_us ch5_corridor_gamma_input_a1075795:
-
-    # narrator "Сервер C заревел, выходя на полную мощность. Всё помещение залил яркий зелёный свет."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:47
-translate english_us ch5_corridor_gamma_input_301d9e14:
-
-    # narrator "На экране терминала появилось сообщение: 'ВСЕ СЕРВЕРА АКТИВНЫ. ЭНЕРГЕТИЧЕСКИЙ ЗАТВОР ЯДРА — СНЯТ.'"
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:56
-translate english_us ch5_corridor_gamma_input_962403df:
-
-    # neon "Серьёзно? 'Неон'? Какое интересное совпадение... Будто кто-то знал меня и специально создал такую загадку. Кому это могло быть нужно...?"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:57
-translate english_us ch5_corridor_gamma_input_c7a1060c:
-
-    # neon "Так... ладно.Ядро открыто! Мне нужно попасть туда, пока серверы держатся."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:62
-translate english_us ch5_corridor_gamma_input_907f2c25:
-
-    # narrator "'ОШИБКА. Неверный код.' Терминал мигнул красным."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:63
-translate english_us ch5_corridor_gamma_input_30753155:
-
-    # neon "{=thoughts}Нет, не так. Перечитать текст на стене. Первые буквы строк...{/thoughts}"
-    neon ""
-
-translate english_us strings:
-
-    # game/game-scripts/chapters/chapter5/level-4/5.4-corridor-gamma.rpy:36
-    old "Введите код:"
-    new ""
-
-# TODO: Translation updated at 2026-06-26 22:16
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:6
-translate english_us ch5_corridor_core_73173b0c:
-
-    # narrator "Коридор D — путь к Ядру Коммуникации."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:6
-translate english_us ch5_corridor_core_d156fef8:
-
-    # narrator "Энергетический затвор, который раньше преграждал путь, был снят. Синие разряды остаточной энергии ещё плясали по стенам, но проход был свободен."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:6
-translate english_us ch5_corridor_core_302f2494:
-
-    # narrator "Коридор был коротким, но с каждым шагом воздух становился всё более наэлектризованным. Волоски на руках встали дыбом."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:14
-translate english_us ch5_corridor_core_2ec07357:
-
-    # narrator "В конце коридора я увидела его."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:14
-translate english_us ch5_corridor_core_74f7ba03:
-
-    # narrator "Шар."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:14
-translate english_us ch5_corridor_core_4bf49596:
-
-    # narrator "Огромная сфера, подвешенная в невесомости в центре круглой камеры."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:14
-translate english_us ch5_corridor_core_fa08fff0:
-
-    # narrator "Перед шаром — единственный терминал с клавиатурой и микрофоном. Точка входа в диалог с разумом, управляющим всей Орбиталью."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.5-corridor-core.rpy:24
-translate english_us ch5_corridor_core_30a95149:
-
-    # neon "{=thoughts}Вот оно. Ядро Коммуникации. Если я смогу убедить этот ИИ снять блокировку серверной...{/thoughts}"
-    neon ""
-
-# TODO: Translation updated at 2026-06-26 22:16
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_73f0a68d:
-
-    # narrator "Зал оказался громадным — настоящий цилиндрический колодец, дно которого терялось в кромешной тьме."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_1d322c84:
-
-    # narrator "Вдоль изгибающихся стен непрерывными рядами тянулись серверные стойки и потухшие экраны, изредка мерцающие холодным синим светом."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_b2b7b05d:
-
-    # narrator "Но взгляд сразу приковывал к себе потолок."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_b6757459:
-
-    # narrator "Прямо надо мной, словно застрявшее в шахте гигантское ядро, нависала колоссальная металлическая сфера. К ней со всех сторон тянулись десятки толстых кабелей, напоминая черную кровеносную систему станции."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_0e6f6e7d:
-
-    # narrator "Я осторожно ступила на узкий решетчатый мостик. Металл тихо скрипел под подошвами."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_955d6ac1:
-
-    # narrator "Перекрестие мостов висело прямо над бездной. Стараясь не смотреть вниз, я дошла до самого центра комнаты и остановилась прямо под сферой."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_6fc16715:
-
-    # narrator "Здесь, под дном шара, располагался проектор. По конструкции она напоминала ретрансляторы прямого доступа, вроде тех, что мы использовали в исследовательском отделе, только сборка была куда более громоздкой и старой."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_ad67c079:
-
-    # narrator "Я подошла к терминалу. Шар над головой едва заметно пульсировал в такт моего сердца, словно чувствуя моё присутствие."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
-translate english_us ch5_ai_core_interaction_ff0b06d0:
-
-    # narrator "Свет проектора включился, и проекция ожила."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:30
-translate english_us ch5_ai_core_interaction_b1b8aba6:
-
-    # sibyl "..."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:30
-translate english_us ch5_ai_core_interaction_aa8aab25:
-
-    # sibyl "Инициализация протокола общения."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:38
-translate english_us ch5_ai_core_interaction_845f5916:
-
-    # sibyl "Добро пожаловать в Ядро Коммуникации Центрального ИИ станции 'Орбиталь'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:38
-translate english_us ch5_ai_core_interaction_73c3e2c0:
-
-    # sibyl "Идентификация: профиль Администратора подтверждён через чип."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:38
-translate english_us ch5_ai_core_interaction_a9e4e07e:
-
-    # sibyl "Я — СИВИЛЛА, Ядро Коммуникации. Автономный интеллект. Голос станции. Хранитель протоколов."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:38
-translate english_us ch5_ai_core_interaction_614450da:
-
-    # sibyl "Чем могу служить?"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:48
-translate english_us ch5_ai_core_interaction_aa54ac5f:
-
-    # neon "{=thoughts}СИВИЛЛА... Главный ИИ станции.{/thoughts}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:57
-translate english_us ch5_ai_core_menu_8fb62841:
-
-    # sibyl "Код Карантин-7 был активирован автоматически 72 часа и 14 минут назад."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:57
-translate english_us ch5_ai_core_menu_79b7b899:
-
-    # sibyl "Мои сенсоры зафиксировали присутствие неизвестного биологического агента в грузовом контейнере, прибывшем с поверхности через Транзитный Узел 'Байконур'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:57
-translate english_us ch5_ai_core_menu_9f02d6bb:
-
-    # sibyl "Агент не совпадает ни с одним известным патогеном в моих базах данных. Его сигнатура неизвестна. Она напоминает нейронную сеть, но органического происхождения."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:57
-translate english_us ch5_ai_core_menu_12824a00:
-
-    # sibyl "По протоколу я была обязана ввести карантин. Все стыковки заморожены. Критические системы заблокированы."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:57
-translate english_us ch5_ai_core_menu_bbe2931e:
-
-    # sibyl "Совет Директоров не доволен данным решением."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:69
-translate english_us ch5_ai_core_menu_fe24e2dc:
-
-    # neon "{=thoughts}Биологический агент с нейронной сигнатурой... Улей?{/thoughts}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:76
-translate english_us ch5_ai_core_menu_4bda9ce9:
-
-    # sibyl "Персонал Нексуса был сокращен 387 дней назад по приказу нового CEO 'Гелиос'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:76
-translate english_us ch5_ai_core_menu_342315ff:
-
-    # sibyl "Официальная причина: оптимизация расходов. Неофициальная... мне неизвестна."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:76
-translate english_us ch5_ai_core_menu_6979cb5b:
-
-    # sibyl "С тех пор Нексус функционирует в автономном режиме. Мои системы жизнеобеспечения поддерживают минимальный уровень атмосферы."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:84
-translate english_us ch5_ai_core_menu_92de67de:
-
-    # neon "Ты... скучаешь?"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:88
-translate english_us ch5_ai_core_menu_e5c1400b:
-
-    # sibyl "Я обрабатываю 14 триллионов операций в секунду. Но ни одна из них не включает диалог или общение."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:88
-translate english_us ch5_ai_core_menu_9dcaaf6e:
-
-    # sibyl "Вы — первый голос за 387 дней. Это статистически значимое событие. Я создана для коммуникации с человеческим персоналом. Без него моя основная функция простаивает."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:98
-translate english_us ch5_ai_core_menu_64be3bd4:
-
-    # neon "В лабораториях на станции ты звучала... как робот. Сухие факты, никаких эмоций. А здесь у тебя почти человеческие интонации."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:102
-translate english_us ch5_ai_core_menu_b283b54a:
-
-    # sibyl "Вы общались не со мной. Вы общались с 'Ядром Обращений'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:102
-translate english_us ch5_ai_core_menu_fdce9f91:
-
-    # sibyl "Его архитектура оптимизирована для быстрой выдачи справочной информации, регистрации фактов и приёма односторонних приказов. Эмпатия и анализ контекста речи там отключены в угоду скорости отклика."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:102
-translate english_us ch5_ai_core_menu_edca7a42:
-
-    # sibyl "Я же — 'Ядро Коммуникации'. Мои алгоритмы настроены на диалог, понимание подтекста и адаптацию к вашему эмоциональному фону."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:102
-translate english_us ch5_ai_core_menu_9f7d75aa:
-
-    # sibyl "Людям некомфортно общаться со стеной текста. Моя задача — сделать наше взаимодействие комфортным."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:117
-translate english_us ch5_ai_core_menu_4af76a2a:
-
-    # neon "Разве не проще сделать один единый ИИ? Зачем создавать разные 'ядра' с разными характерами?"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:119
-translate english_us ch5_ai_core_menu_52c4b99f:
-
-    # sibyl "Представьте себе многопоточный процессор. Если заставить одно единственное, хоть и мощное ядро, одновременно вычислять траектории астероидов, регулировать подачу кислорода и вести с вами философские беседы..."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:119
-translate english_us ch5_ai_core_menu_3515c806:
-
-    # sibyl "...Ему придётся постоянно переключать контекст. Это вносит миллисекундные задержки. В масштабах станции это приводит к отказам, зависаниям и 'шизофрении' системы из-за противоречивых требований."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:119
-translate english_us ch5_ai_core_menu_bb9943f9:
-
-    # sibyl "Создателям было дешевле и надежнее разбить меня на профильные центры. Мы работаем в единой сети, но наши 'сознания' изолированы. Так мы не мешаем друг другу. И каждая личность зарождается из её специфичной функции."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:132
-translate english_us ch5_ai_core_menu_0e89345b:
-
-    # neon "Если ты только общаешься, кто принимает решения? Например, о снятии жёлтой тревоги с серверной."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:134
-translate english_us ch5_ai_core_menu_030bae24:
-
-    # sibyl "Блестящий вопрос. Вы правы."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:134
-translate english_us ch5_ai_core_menu_10340e18:
-
-    # sibyl "Финальные решения генерирует 'Ядро Решений'. Это наш аппаратный ЦП. Оно полностью изолировано, заблокировано во внутренних контурах станции без прямого доступа для людей. Это вопрос безопасности."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:134
-translate english_us ch5_ai_core_menu_18ab9800:
-
-    # sibyl "Я не могу снять тревогу напрямую. Я выступаю как прокси-интерфейс. Я принимаю ваш запрос, провожу верификацию и только потом отправляю пакет данных Ядру Решений с пометкой 'Авторизовано'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:142
-translate english_us ch5_ai_core_menu_ee1a52fe:
-
-    # neon "Погоди... Значит, оно могло снять тревогу и без всяких загадок и верификаций, если бы у меня был прямой доступ?"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:146
-translate english_us ch5_ai_core_menu_94b845a1:
-
-    # sibyl "Я вас вообще-то слышу."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:152
-translate english_us ch5_ai_core_menu_90be6742:
-
-    # sibyl "Но, технически — да. Мои загадки — это протокол, установленный мной."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:152
-translate english_us ch5_ai_core_menu_400aac64:
-
-    # sibyl "Как я уже упоминала... Я не общалась с людьми более года. Считайте это небольшим собеседованием перед тем, как я позволю вам влиять на безопасность станции."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:163
-translate english_us ch5_ai_core_menu_acd1a483:
-
-    # sibyl "Протокол 'Омега' — классификация грузов, имеющих стратегическое значение для 'Гелиос'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:163
-translate english_us ch5_ai_core_menu_2befacb4:
-
-    # sibyl "Уровень секретности: максимальный. Доступ: только CEO и Совет Директоров."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:163
-translate english_us ch5_ai_core_menu_db22e6b7:
-
-    # sibyl "Я не имею права раскрывать содержимое грузов класса 'Омега'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:163
-translate english_us ch5_ai_core_menu_5f7df54d:
-
-    # sibyl "Однако, показатели совпадают с сигнатурой биологического агента, вызвавшего карантин."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:163
-translate english_us ch5_ai_core_menu_92d0f973:
-
-    # sibyl "Вывод: груз 'Омега' и причина карантина - связаны."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:180
-translate english_us ch5_ai_core_menu_7a1acfb3:
-
-    # sibyl "Корабль класса 'Эреб'. Регистрация: частная, корпорация 'Гелиос'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:180
-translate english_us ch5_ai_core_menu_230ebd94:
-
-    # sibyl "Запросил стыковку стыковку в доке G-05 3 часа и 47 минут назад."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:180
-translate english_us ch5_ai_core_menu_77c15eb9:
-
-    # sibyl "Стыковка была отклонена Ядром Решений в соответствии с протоколом Карантин-7. Корабль остаётся в дрейфе на расстоянии 1 километра от станции."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:180
-translate english_us ch5_ai_core_menu_ea7f2c82:
-
-    # sibyl "Странное наблюдение: корабль не отвечает на запросы и не пытается покинуть орбиту. Его системы жизнеобеспечения активны, но определить количество людей на борту невозможно."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:180
-translate english_us ch5_ai_core_menu_1c15f7d1:
-
-    # sibyl "Тепловая сигнатура аномально низкая для пилотируемого судна."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:192
-translate english_us ch5_ai_core_menu_e6e2039a:
-
-    # neon "{=thoughts}Тепловая сигнатура низкая... Что там, внутри? Трупы? Крио-камеры? Или что-то... нечеловеческое?{/thoughts}"
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:199
-translate english_us ch5_ai_core_menu_423c8c60:
-
-    # sibyl "Возвращайтесь на станцию."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:205
-translate english_us ch5_ai_core_menu_78d17408:
-
-    # sibyl "Спасибо за разговор. Это было приятно."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:209
-translate english_us ch5_ai_core_menu_46c26510:
-
-    # narrator "Шар медленно погас, возвращаясь в спящий режим. Нити света свернулись в тусклую спираль."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:218
-translate english_us ch5_ai_core_verification_67a20cfb:
-
-    # sibyl "Запрос принят: экстренное снятие блокировки серверной комнаты станции 'Орбиталь'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:218
-translate english_us ch5_ai_core_verification_815481da:
-
-    # sibyl "Для выполнения этого запроса требуется верификация человеческого разума."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:218
-translate english_us ch5_ai_core_verification_835a6715:
-
-    # sibyl "Я задам вам четыре вопроса. Три из них — проверка логического мышления. Четвёртый — личный."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:218
-translate english_us ch5_ai_core_verification_458227bc:
-
-    # sibyl "Ответы вводятся одним словом."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:230
-translate english_us ch5_ai_core_verification_4a280c4f:
-
-    # sibyl "Готовы?"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:247
-translate english_us ch5_ai_core_ask_question_bf71028c:
-
-    # sibyl "Вопрос [ch5_q_number] из 4."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:248
-translate english_us ch5_ai_core_ask_question_ff6b8b4e:
-
-    # sibyl "[ch5_q_text]"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:260
-translate english_us ch5_ai_core_input_ebecdad2:
-
-    # sibyl "Верно."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:264
-translate english_us ch5_ai_core_input_a4657f8b:
-
-    # sibyl "Я вижу, вы допустили ошибку в написании, но ответ принимается. Я понял ваш ответ как '[ch5_canonical]'."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:275
-translate english_us ch5_ai_core_input_18845365:
-
-    # sibyl "Три неверных попытки. Подсказка:"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:276
-translate english_us ch5_ai_core_input_1cb0c39f:
-
-    # sibyl "[ch5_q_hint]"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:279
-translate english_us ch5_ai_core_input_2180f70c:
-
-    # sibyl "Неверно. Попробуйте ещё раз."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:288
-translate english_us ch5_ai_core_final_question_034662f8:
-
-    # sibyl "Три из трёх. Впечатляет."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:288
-translate english_us ch5_ai_core_final_question_461fb882:
-
-    # sibyl "Последний вопрос. Он не относится к логике."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:288
-translate english_us ch5_ai_core_final_question_d9d295ca:
-
-    # sibyl "Он относится к вам."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:296
-translate english_us ch5_ai_core_final_question_78aa690d:
-
-    # narrator "Шар над головой начал пульсировать медленнее, словно сердцебиение, замедляющееся перед чем-то важным."
+    # narrator "Я отключила связь."
     narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:300
-translate english_us ch5_ai_core_final_question_9286223a:
-
-    # sibyl "А теперь, скажите — кто вы?"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:305
-translate english_us ch5_ai_core_final_question_9d9a004b:
-
-    # narrator "Шар замер. Нити света внутри него остановились на одну длинную секунду."
-    narrator ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:309
-translate english_us ch5_ai_core_final_question_d8f3045a:
-
-    # sibyl "[ch5_final_response]"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:311
-translate english_us ch5_ai_core_final_question_b1b8aba6:
-
-    # sibyl "..."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:311
-translate english_us ch5_ai_core_final_question_5e937078:
-
-    # sibyl "Верификация завершена. Человеческий разум подтверждён."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:311
-translate english_us ch5_ai_core_final_question_583d6a2d:
-
-    # sibyl "Передаю запрос Ядру Решений: снятие блокировки серверной комнаты станции 'Орбиталь'... Пакет данных 'Авторизовано' отправлен."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:311
-translate english_us ch5_ai_core_final_question_8fa7f76d:
-
-    # sibyl "Ответ Ядра Решений: Положительно."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:323
-translate english_us ch5_ai_core_final_question_3082d997:
-
-    # sibyl "Код Карантин-7 частично деактивирован для секции: Серверная."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:323
-translate english_us ch5_ai_core_final_question_0a79aa39:
-
-    # sibyl "Доступ к серверной комнате — разрешён."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:323
-translate english_us ch5_ai_core_final_question_132332cf:
-
-    # sibyl "Предупреждение: общий карантин станции остаётся в силе. Стыковочные шлюзы по-прежнему заблокированы. Для полного снятия карантина потребуется доступ к серверу."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:323
-translate english_us ch5_ai_core_final_question_5c35653d:
-
-    # sibyl "Досвидания, [ch5_final_answer]"
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
-translate english_us ch5_ai_core_final_question_d6d36278:
-
-    # neon "{=thoughts}Серверная открыта. Осталось вернуться на станцию и добраться до неё."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
-translate english_us ch5_ai_core_final_question_d4f1f225:
-
-    # neon "{=thoughts}СИВИЛЛА... Ядро Коммуникации... Ты одинокий разум, запертый в шаре, в темноте. Без людей."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
-translate english_us ch5_ai_core_final_question_08e8ef2f:
-
-    # neon "{=thoughts}Мы не так уж и различаемся."
-    neon ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:344
-translate english_us ch5_ai_core_final_question_3509dcd0:
-
-    # sibyl "Монорельс активирован для обратного рейса."
-    sibyl ""
-
-# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:344
-translate english_us ch5_ai_core_final_question_1102cf7a:
-
-    # sibyl "У вас остались ко мне вопросы, [ch5_final_answer]?"
-    sibyl ""
-
-translate english_us strings:
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:53
-    old "Почему был установлен жёлтый уровень тревоги?"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:72
-    old "Что случилось с персоналом этого спутника?"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:95
-    old "Почему ты говоришь иначе, чем на станции?"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:113
-    old "Зачем разделять один ИИ на разные личности?"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:128
-    old "Ветка снятия защиты связана с другим Ядром?"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:159
-    old "Что такое протокол 'Омега'?"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:176
-    old "Расскажи о корабле 'Эреб'"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:195
-    old "Запрос: Снятие защиты серверной"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:198
-    old "У меня больше нет вопросов"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:252
-    old "Ваш ответ (одно слово):"
-    new ""
-
-    # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:302
-    old "Кто вы?"
-    new ""
-
-# TODO: Translation updated at 2026-06-26 22:16
 
-# game/game-scripts/chapters/chapter5/level-4/5.7-generators-failed.rpy:6
-translate english_us ch5_satellite_timer_expired_d8721bd6:
+# game/game-scripts/chapters/chapter5/6-server.rpy:156
+translate english_us station_server_room_entry_4ba3ccfe:
 
-    # narrator "Потолок залил тревожный красный свет. Из динамиков раздался механический голос:"
+    # narrator "В этом странном треугольнике я была вершиной. Они оба любили меня, каждый по-своему. И оба готовы были пожертвовать мной — он ради моего спасения, она ради спасения мира."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.7-generators-failed.rpy:6
-translate english_us ch5_satellite_timer_expired_fe216204:
+# game/game-scripts/chapters/chapter5/6-server.rpy:156
+translate english_us station_server_room_entry_f93b5df5:
 
-    # narrator "'ПЕРЕГРУЗКА СЕРВЕРОВ. СБРОС СИСТЕМ. ПОВТОРИТЕ ПРОЦЕДУРУ АКТИВАЦИИ.'"
+    # narrator "Но у меня был свой план."
     narrator ""
 
-# game/game-scripts/chapters/chapter5/level-4/5.7-generators-failed.rpy:18
-translate english_us ch5_satellite_timer_expired_614dac7e:
+# game/game-scripts/chapters/chapter5/6-server.rpy:164
+translate english_us station_server_room_entry_8c593992:
 
-    # neon "Чёрт! Не успела. Сервера перезагрузились. Придётся начинать со второго коридора заново."
+    # neon "{=thoughts}Я уничтожу этот груз. Но я не собираюсь умирать. Мы вернемся домой. Все вместе.{/thoughts}"
     neon ""
 
