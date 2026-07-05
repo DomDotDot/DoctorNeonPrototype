@@ -4,7 +4,7 @@
 translate english_us ch5_level3_medbay_295bd828:
 
     # narrator "Главный вход в Медицинский блок (Медбей)."
-    narrator "The main entrance to the Medical Bay (Medbay)."
+    narrator "The main entrance to the Medical Bay."
 
 # game/game-scripts/chapters/chapter5/level-3/4.3.0-medbay.rpy:26
 translate english_us ch5_level3_medbay_4adc9aa1:

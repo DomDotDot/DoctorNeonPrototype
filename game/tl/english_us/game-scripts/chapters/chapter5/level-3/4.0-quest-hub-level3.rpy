@@ -140,7 +140,7 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:48
     old "Зайти в Травматологию"
-    new "Enter Trauma"
+    new "Enter Traumatology"
 
     # game/game-scripts/chapters/chapter5/level-3/4.0-quest-hub-level3.rpy:55
     old "Зайти в Медицинский блок"

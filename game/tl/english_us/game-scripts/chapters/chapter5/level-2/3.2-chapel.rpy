@@ -298,7 +298,7 @@ translate english_us ch5_station_chapel_menu_80c39798:
 translate english_us ch5_station_chapel_menu_2633dbc8:
 
     # "Священник" "Ты смеешься над моими словами, считая их бредом?! Тогда найди в терминале библиотеки оцифрованный фольклор. Введи артикул: tears!"
-    "Chaplain" "You laugh at my words, thinking they are nonsense?! Then go find the digitized folklore in the library terminal. Enter the article code: tears!"
+    "Chaplain" "You laugh at my words, thinking they are nonsense?! Then go find the digitized folklore in the library terminal. Enter the article code: 'tears'!"
 
 # game/game-scripts/chapters/chapter5/level-2/3.2-chapel.rpy:158
 translate english_us ch5_station_chapel_menu_a51dba1c:

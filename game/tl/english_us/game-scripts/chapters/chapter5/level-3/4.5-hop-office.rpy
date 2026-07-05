@@ -22,7 +22,7 @@ translate english_us ch5_level3_coolant_receive_be4805cd:
 translate english_us ch5_level3_coolant_receive_ad29e41f:
 
     # "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
-    "Автоматон" "WARNING. DAMAGE TO COMPANY PROPERTY DETECTED. DEFENSE PROTOCOL..."
+    "Automaton" "WARNING. DAMAGE TO COMPANY PROPERTY DETECTED. DEFENSE PROTOCOL..."
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:36
 translate english_us ch5_level3_coolant_receive_d544183f:
@@ -88,13 +88,13 @@ translate english_us ch5_hop_menu_53b1b770:
 translate english_us ch5_hop_menu_ab0a8173:
 
     # "Автоматон" "Ваш запрос уже обработан. Следующий!"
-    "Автоматон" "Your request has already been processed. Next!"
+    "Automaton" "Your request has already been processed. Next!"
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:90
 translate english_us ch5_hop_menu_29c6e346:
 
     # "Автоматон" "Талон [store.ch5_hop_ticket]. Пройдите к окну. Тип обращения?"
-    "Автоматон" "Ticket [store.ch5_hop_ticket]. Please approach the window. Nature of your inquiry?"
+    "Automaton" "Ticket [store.ch5_hop_ticket]. Please approach the window. Nature of your inquiry?"
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:91
 translate english_us ch5_hop_menu_ca212b9e:
@@ -106,7 +106,7 @@ translate english_us ch5_hop_menu_ca212b9e:
 translate english_us ch5_hop_menu_8164fc29:
 
     # "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
-    "Автоматон" "Warning. Your current request does not match the subject of the issued ticket. Service denied. Please take a new ticket."
+    "Automaton" "Warning. Your current request does not match the subject of the issued ticket. Service denied. Please take a new ticket."
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:96
 translate english_us ch5_hop_menu_5d7ba292:
@@ -118,7 +118,7 @@ translate english_us ch5_hop_menu_5d7ba292:
 translate english_us ch5_hop_menu_57c1b45f:
 
     # "Автоматон" "Порядок есть порядок. Следующий!"
-    "Автоматон" "Order is order. Next!"
+    "Automaton" "Order is order. Next!"
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:99
 translate english_us ch5_hop_menu_1db6d74b:
@@ -130,7 +130,7 @@ translate english_us ch5_hop_menu_1db6d74b:
 translate english_us ch5_hop_menu_84055533:
 
     # "Автоматон" "Обработка запроса... Подождите."
-    "Автоматон" "Processing request... Please wait."
+    "Automaton" "Processing request... Please wait."
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:107
 translate english_us ch5_hop_menu_49e51029:
@@ -148,7 +148,7 @@ translate english_us ch5_hop_menu_be5d4acd:
 translate english_us ch5_hop_menu_4ee45f01:
 
     # "Автоматон" "Пожалуйста, возьмите талон в терминале и ожидайте своей очереди."
-    "Автоматон" "Please take a ticket from the terminal and wait for your turn."
+    "Automaton" "Please take a ticket from the terminal and wait for your turn."
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:117
 translate english_us ch5_hop_menu_582052fa:
@@ -160,13 +160,13 @@ translate english_us ch5_hop_menu_582052fa:
 translate english_us ch5_hop_menu_25aa12e2:
 
     # "Автоматон" "Компания 'Гелиос' заботится о своих сотрудниках. Даже если сейчас никого нет, пожалуйста, следуйте процедурам."
-    "Автоматон" "'Helios' Corporation cares about its employees. Even if there is no one here right now, please follow the procedures."
+    "Automaton" "'Helios' Corporation cares about its employees. Even if there is no one here right now, please follow the procedures."
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:119
 translate english_us ch5_hop_menu_caa48548:
 
     # "Автоматон" "Сейчас обслуживается талон: [store.ch5_hop_current_ticket]."
-    "Автоматон" "Now serving ticket: [store.ch5_hop_current_ticket]."
+    "Automaton" "Now serving ticket: [store.ch5_hop_current_ticket]."
 
 # game/game-scripts/chapters/chapter5/level-3/4.5-hop-office.rpy:124
 translate english_us ch5_hop_menu_697a8fc6:

@@ -40,7 +40,7 @@ translate english_us ch5_ai_core_interaction_955d6ac1:
 translate english_us ch5_ai_core_interaction_6fc16715:
 
     # narrator "Здесь, под дном шара, располагался проектор. По конструкции она напоминала ретрансляторы прямого доступа, вроде тех, что мы использовали в исследовательском отделе, только сборка была куда более громоздкой и старой."
-    narrator "Here, beneath the bottom of the sphere, sat a projector. In design, it resembled the direct access relays like the ones we used in the research department, only the assembly was much bulkier and older."
+    narrator "Here, beneath the bottom of the sphere, sat a projector. In design, it resembled the direct access relays like the ones that were used in the research department, only the assembly was much bulkier and older."
 
 # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
 translate english_us ch5_ai_core_interaction_ad67c079:
