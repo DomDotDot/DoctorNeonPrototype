@@ -19,9 +19,9 @@ label chapter_9_rpy:
     hide text with Dissolve(3.0)
 
     # ВЫЗОВ ТИТРОВ ДЛЯ ТОМА 2
-    call credits_sequence(2)
+    call credits_sequence(2) from _call_credits_sequence_1
 
     if _return == "secret_scene":
-        call chapter9_epilogue
+        call chapter9_epilogue from _call_chapter9_epilogue
 
 return

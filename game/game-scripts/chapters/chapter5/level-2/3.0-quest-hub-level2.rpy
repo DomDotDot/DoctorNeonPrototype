@@ -69,7 +69,7 @@ label ch5_quest_init:
 # --- ГЛАВНЫЙ ХОЛЛ (УРОВЕНЬ 2) ---
 label ch5_level2_main_hall:
     scene ch05_bg01_v01 with fade
-    play music "music/BGM/Space_Station_Atmosphere.opus" loop volume 0.3
+    play music "music/BGM/ComatoseExtended.opus" loop volume 0.25
     
     narrator """
         Главный холл второго уровня. Транзитная зона и Паспортный контроль остались позади.

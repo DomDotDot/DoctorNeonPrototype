@@ -3,7 +3,7 @@ label station_server_room_entry:
     $ store.ch5_entered_server_room = True
     $ _rollback = True
     scene black with fade
-    play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop
+    play music "music/BGM/Repository.opus" fadein 2.0 loop
 
     narrator """
         Дверь серверной, заблокированная жёлтой тревогой на протяжении всей миссии, наконец подалась.

@@ -8,6 +8,8 @@ label ch5_monorail_entrance:
         
         В конце — массивный шлюз с надписью: 'МОНОРЕЛЬС — СПУТНИК НЕКСУС. ТОЛЬКО ДЛЯ АВТОРИЗОВАННОГО ПЕРСОНАЛА'.
     """
+
+    $ store.ch5_monorail_terminal_seen = True
     
     if not hasattr(store, 'ch5_satellite_clue_found') or not ch5_satellite_clue_found:
         neon "{=thoughts}Бессмысленно отправляться на какую-то заброшенную станцию без причины. У меня другая цель.{/thoughts}"
@@ -24,8 +26,6 @@ label ch5_monorail_entrance:
     
     if not ch5_monorail_access:
         narrator "Рядом с дверью — панель авторизации. На экране красным горит: 'ТРЕБУЕТСЯ АВТОРИЗАЦИЯ УРОВНЯ ОМЕГА И БИОМЕТРИЧЕСКОЕ ПОДТВЕРЖДЕНИЕ РУКОВОДИТЕЛЯ ОТДЕЛА'."
-
-        $ store.ch5_monorail_terminal_seen = True
         
         if has_item("admin_chip") and has_item("bio_spray"):
             menu:

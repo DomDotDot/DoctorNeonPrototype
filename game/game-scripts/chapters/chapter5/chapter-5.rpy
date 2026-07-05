@@ -18,7 +18,7 @@ label chapter_5_rpy:
         $ inventory_allowed = False
         $ _rollback = True
 
-        call station_server_room_entry
+        call station_server_room_entry from _call_station_server_room_entry
 
         call chapter5_timer_and_brig from _call_chapter5_timer_and_brig
         call chapter5_breakout from _call_chapter5_breakout

@@ -13,7 +13,7 @@ init python:
 
 label ch5_level3_main_hall:
     scene ch05_bg11_v01 with dissolve
-    play music "music/BGM/Heist_Tension_Low.opus" loop volume 0.3
+    play music "music/BGM/Caduceus.mp3" loop volume 0.25
     
     narrator """
         Уровень 3. Стерильные белые коридоры, резкий медицинский свет.
@@ -96,7 +96,7 @@ label ch5_level3_inner_hall_menu:
                 narrator "Двери Серверной открыты. Жёлтый индикатор на раме сменился зелёным. Меня ждёт конечная цель."
                 menu:
                     "Войти в Серверную":
-                        call chapter5_after_quest
+                        call chapter5_after_quest from _call_chapter5_after_quest
                     "Вернуться":
                         jump ch5_level3_inner_hall_menu
             else:
