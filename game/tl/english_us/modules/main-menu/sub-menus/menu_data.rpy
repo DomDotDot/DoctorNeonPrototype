@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-29 15:40
+# TODO: Translation updated at 2025-12-29 15:40
 
 translate english_us strings:
 
@@ -92,4 +92,17 @@ translate english_us strings:
     # game/modules/main-menu/sub-menus/menu_data.rpy:260
     old "Открыть всех персонажей в Глоссарий?"
     new "Unlock all characters in Glossary?"
+
+    # Toast Notifications
+    old "Сюжетный прогресс сброшен."
+    new "Story progress has been reset."
+
+    old "Все сохранения безвозвратно удалены."
+    new "All saves have been permanently deleted."
+
+    old "Весь контент разблокирован."
+    new "All content has been unlocked."
+
+    old "Настройки восстановлены по умолчанию."
+    new "Settings restored to defaults."
 

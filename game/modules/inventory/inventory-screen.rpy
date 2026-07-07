@@ -1,7 +1,7 @@
 # --- Слушатель клавиши M ---
 screen inventory_listener():
     # Работает всегда, но открывает инвентарь только если inventory_allowed == True
-    key "K_m" action If(inventory_allowed, ToggleScreen("inventory_screen"), Notify("Инвентарь недоступен"))
+    key "K_m" action If(inventory_allowed, ToggleScreen("inventory_screen"), Notify(_("Инвентарь недоступен")))
 
 # --- Основной экран Инвентаря ---
 screen inventory_screen():
@@ -17,7 +17,7 @@ screen inventory_screen():
         vbox:
             spacing 20
             
-            text "Инвентарь" size 40 align (0.5, 0.0)
+            text _("Инвентарь") size 40 align (0.5, 0.0)
 
             # Сетка предметов (Gridset)
             vpgrid:
@@ -43,7 +43,7 @@ screen inventory_screen():
                         background Solid("#333")
                         xysize (100, 100)
 
-            textbutton "Закрыть (M)" action [SetVariable("selected_item", None), Hide("inventory_screen")] align (0.5, 1.0)
+            textbutton _("Закрыть (M)") action [SetVariable("selected_item", None), Hide("inventory_screen")] align (0.5, 1.0)
     
     # Подгружаем контекстное меню, если выбран предмет
     if selected_item:
@@ -67,7 +67,7 @@ screen item_context_menu(item):
             align (0.5, 0.5)
             spacing 20
             
-            text item.name size 30 bold True xalign 0.5
+            text _(item.name) size 30 bold True xalign 0.5
             
             # Ячейка (контейнер) для зума картинки
             frame:
@@ -81,16 +81,16 @@ screen item_context_menu(item):
                 xalign 0.5
                 
                 # Кнопка ОСМОТРЕТЬ (показывает описание)
-                textbutton "Осмотреть" action Show("item_description", i=item)
+                textbutton _("Осмотреть") action Show("item_description", i=item)
                 
                 # Кнопка ИСПОЛЬЗОВАТЬ (если есть функция)
                 if item.use_func:
-                    textbutton "Использовать" action Function(use_current_item)
+                    textbutton _("Использовать") action Function(use_current_item)
                 else:
-                    textbutton "Использовать" action Notify("Это нельзя использовать здесь.") text_color "#888"
+                    textbutton _("Использовать") action Notify(_("Это нельзя использовать здесь.")) text_color "#888"
 
                 # Кнопка ЗАКРЫТЬ
-                textbutton "Отмена" action SetVariable("selected_item", None)
+                textbutton _("Отмена") action SetVariable("selected_item", None)
 
 # --- Экран описания (всплывает при "Осмотреть") ---
 screen item_description(i):
@@ -100,6 +100,6 @@ screen item_description(i):
         padding (30,30)
         vbox:
             spacing 20
-            text i.name size 30
-            text i.description
-            textbutton "OK" action Hide("item_description") xalign 0.5
+            text _(i.name) size 30
+            text _(i.description)
+            textbutton _("OK") action Hide("item_description") xalign 0.5

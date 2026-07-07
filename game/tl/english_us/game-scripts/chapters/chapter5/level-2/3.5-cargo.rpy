@@ -100,3 +100,11 @@ translate english_us strings:
     old "Осмотреться"
     new "Look around"
 
+# TODO: Translation updated at 2026-07-08 01:40
+
+# game/game-scripts/chapters/chapter5/level-2/3.5-cargo.rpy:19
+translate english_us ch5_level2_cargo_1cfc5d0b:
+
+    # narrator "Зона Карго. Горы ящиков, шум экзоскелетов и ругань грузчиков."
+    narrator ""
+

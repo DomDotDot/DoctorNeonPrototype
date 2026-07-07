@@ -18,7 +18,9 @@ init -1 python:
     def add_item(item):
         if item not in inventory_list:
             inventory_list.append(item)
-            renpy.notify(f"Получено: {item.name}")
+            prefix = renpy.translate_string(_("Получено: {}"))
+            item_name = renpy.translate_string(item.name)
+            renpy.notify(prefix.format(item_name))
 
     def remove_item(item_id):
         global inventory_list
@@ -41,7 +43,7 @@ init -1 python:
         for name, obj in globals().items():
             if isinstance(obj, Item):
                 add_item(obj)
-        renpy.notify("Получены все предметы!")
+        renpy.notify(_("Получены все предметы!"))
         
     # Функция использования предмета (из GUI инвентаря)
     def use_current_item():

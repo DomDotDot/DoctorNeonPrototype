@@ -54,7 +54,7 @@ init python:
         
         renpy.save_persistent()
         
-        renpy.notify("Сюжетный прогресс сброшен.")
+        renpy.notify(_("Сюжетный прогресс сброшен."))
         renpy.restart_interaction()
 
     # Функция удаления всех сохранений
@@ -111,7 +111,7 @@ init python:
         # Полный сброс кеша
         renpy.loadsave.save_cache = {} 
         
-        renpy.notify("Все сохранения безвозвратно удалены.")
+        renpy.notify(_("Все сохранения безвозвратно удалены."))
         renpy.restart_interaction()
 
     # Чит-код: Открыть всё.
@@ -157,7 +157,7 @@ init python:
 
         unlock_all_chars_full()
         
-        renpy.notify("Весь контент разблокирован.")
+        renpy.notify(_("Весь контент разблокирован."))
         renpy.restart_interaction()
         
 
@@ -182,7 +182,7 @@ init python:
         preferences.skip_unseen = False
         preferences.skip_after_choices = False
         
-        renpy.notify("Настройки восстановлены по умолчанию.")
+        renpy.notify(_("Настройки восстановлены по умолчанию."))
         renpy.restart_interaction()
 
 screen data_settings_screen():

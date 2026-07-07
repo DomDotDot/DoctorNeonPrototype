@@ -70,9 +70,12 @@ init python:
             target.extra_info_known = True  # Спойлерные теги (грехи) раскрыты
             target.desc_level = len(target.desc_stages) # Открываем все доступные абзацы
                 
-            renpy.notify(f"Данные {target.real_name} полностью расшифрованы.")
+            prefix = renpy.translate_string(_("Данные {real_name} полностью расшифрованы."))
+            real_name = renpy.translate_string(target.real_name)
+            renpy.notify(prefix.format(real_name=real_name))
         else:
-            renpy.notify(f"Ошибка: ID '{target_id}' не найден.")
+            prefix = renpy.translate_string(_("Ошибка: ID '{target_id}' не найден."))
+            renpy.notify(prefix.format(target_id=target_id))
 
     # 2. Функция открытия ВСЕХ персонажей (Режим Бога / Галерея открыта)
     def unlock_all_chars_full():
@@ -83,10 +86,10 @@ init python:
             char.extra_info_known = True
             char.desc_level = len(char.desc_stages)
                 
-        renpy.notify("Глоссарий: Все персонажи разблокированы")
+        renpy.notify(_("Глоссарий: Все персонажи разблокированы"))
             
     # 3. (Опционально) Просто "встретить" всех, но не спойлерить
     def meet_all_chars():
         for char in all_bios:
             char.seen = True
-        renpy.notify("Все профили персонажей добавлены в список.")
+        renpy.notify(_("Все профили персонажей добавлены в список."))

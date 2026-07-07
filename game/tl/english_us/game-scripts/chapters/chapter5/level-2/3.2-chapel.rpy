@@ -411,3 +411,11 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter5/level-2/3.2-chapel.rpy:178
     old "Вернуться в холл"
     new "Return to the hall"
+# TODO: Translation updated at 2026-07-08 01:40
+
+# game/game-scripts/chapters/chapter5/level-2/3.2-chapel.rpy:157
+translate english_us ch5_station_chapel_menu_cbf78633:
+
+    # "Священник" "Ты смеешься над моими словами, считая их бредом?! Тогда найди в терминале библиотеки оцифрованный фольклор. Введи артикул: 'tears'!"
+    "Священник" ""
+

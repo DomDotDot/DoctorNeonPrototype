@@ -313,3 +313,17 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter5/level-2/3.1-bar.rpy:108
     old "Подойти к шумной компашке за угловым столом"
     new "Approach the noisy group at the corner table"
+# TODO: Translation updated at 2026-07-08 01:40
+
+# game/game-scripts/chapters/chapter5/level-2/3.1-bar.rpy:76
+translate english_us ch5_station_bar_menu_2815d898:
+
+    # "Бармен" "Странный рейс. Он дрифует уже три часа..."
+    "Бармен" ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.1-bar.rpy:86
+translate english_us ch5_station_bar_menu_f1aae91b:
+
+    # "Бармен" "Держись от карго подальше, девочка."
+    "Бармен" ""
+

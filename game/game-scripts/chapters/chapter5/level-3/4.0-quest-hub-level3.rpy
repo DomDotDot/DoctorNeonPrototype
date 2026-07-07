@@ -1,15 +1,15 @@
 # --- ГЛАВА 5: КВЕСТ УРОВЕНЬ 3 ---
 
 init python:
-    Item_BlankChip = Item("blank_chip", "Сервисный Чип", "Пустой чип без цифровой подписи.", "images/items/chip_blank.png")
-    Item_ReagentA = Item("reagent_a", "Ампула 'Цито-В'", "Красная ампула с биологически активной основой.", "images/items/flask_red.png")
-    Item_ReagentB = Item("reagent_b", "Ампула 'Ген-Связь'", "Синяя жидкость, холодная на ощупь.", "images/items/flask_blue.png")
-    Item_Coolant = Item("coolant", "Охлаждающая жидкость", "Охладитель из медробота. Заменит третий компонент для синтеза.", "images/items/flask_green.png")
-    Item_BioSpray = Item("bio_spray", "Биомаркер", "Синтезированный аэрозоль. Обманет любой ДНК-сканер корпорации.", "images/items/spray.png")
-    Item_AdminChip = Item("admin_chip", "Чип Администратора", "Обладает высшим уровнем доступа 'Омега'.", "images/items/chip_admin.png")
-    Item_ReagentD = Item("reagent_d", "Реагент-D", "Био-связующий катализатор из диспенсера.", "images/items/flask_purple.png")
-    Item_Mop = Item("mop", "Швабра", "Прочная техническая швабра с металлической ручкой.", "images/items/mop.png")
-    Item_EmptySpray = Item("empty_spray", "Пустой распылитель", "Лабораторный баллончик-аэрозоль без содержимого.", "images/items/spray.png")
+    Item_BlankChip = Item("blank_chip", _("Сервисный Чип"), _("Пустой чип без цифровой подписи."), "images/items/chip_blank.png")
+    Item_ReagentA = Item("reagent_a", _("Ампула 'Цито-В'"), _("Красная ампула с биологически активной основой."), "images/items/flask_red.png")
+    Item_ReagentB = Item("reagent_b", _("Ампула 'Ген-Связь'"), _("Синяя жидкость, холодная на ощупь."), "images/items/flask_blue.png")
+    Item_Coolant = Item("coolant", _("Охлаждающая жидкость"), _("Охладитель из медробота. Заменит третий компонент для синтеза."), "images/items/flask_green.png")
+    Item_BioSpray = Item("bio_spray", _("Биомаркер"), _("Синтезированный аэрозоль. Обманет любой ДНК-сканер корпорации."), "images/items/spray.png")
+    Item_AdminChip = Item("admin_chip", _("Чип Администратора"), _("Обладает высшим уровнем доступа 'Омега'."), "images/items/chip_admin.png")
+    Item_ReagentD = Item("reagent_d", _("Реагент-D"), _("Био-связующий катализатор из диспенсера."), "images/items/flask_purple.png")
+    Item_Mop = Item("mop", _("Швабра"), _("Прочная техническая швабра с металлической ручкой."), "images/items/mop.png")
+    Item_EmptySpray = Item("empty_spray", _("Пустой распылитель"), _("Лабораторный баллончик-аэрозоль без содержимого."), "images/items/spray.png")
 
 label ch5_level3_main_hall:
     scene ch05_bg11_v01 with dissolve

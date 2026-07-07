@@ -799,3 +799,11 @@ translate english_us chapter5_introduction_035bb9d2:
     # narrator "Моя цель — Серверная в Научном секторе. Но у меня есть немного времени, чтобы осмотреться. Информация — это тоже оружие."
     narrator "My target is the Server Room in the Science sector. But I have a little time to look around. Information is a weapon too."
 
+# TODO: Translation updated at 2026-07-08 01:40
+
+# game/game-scripts/chapters/chapter5/level-1/1-arrival.rpy:199
+translate english_us chapter5_introduction_8aec7912:
+
+    # narrator "Голос Аргона вырвал меня из мыслей. Он смотрел на меня."
+    narrator ""
+
