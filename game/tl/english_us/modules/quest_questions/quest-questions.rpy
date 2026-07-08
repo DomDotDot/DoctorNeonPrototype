@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-25 22:32
+# TODO: Translation updated at 2026-06-25 22:32
 
 translate english_us strings:
 
@@ -373,4 +373,37 @@ translate english_us strings:
     # game/modules/quest_questions/quest-questions.rpy:205
     old "...Я не узнаю этого имени в своих базах. Но вы произнесли его с уверенностью. Этого достаточно."
     new "...I don't recognize this name in my databases. But you said it with confidence. That's enough."
+
+    old "никто"
+    new "nobody"
+
+    old "ничто"
+    new "nothing"
+
+    old "неизвестно"
+    new "unknown"
+
+    old "аноним"
+    new "anonymous"
+
+    old "гость"
+    new "guest"
+
+    old "админ"
+    new "admin"
+
+    old "игрок"
+    new "player"
+
+    old "пидор"
+    new "bastard"
+
+    old "хуй"
+    new "dick"
+
+    old "сука"
+    new "bitch"
+
+    old "шлюха"
+    new "whore"
 

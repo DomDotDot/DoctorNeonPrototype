@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-26 22:16
+# TODO: Translation updated at 2026-06-26 22:16
 
 # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:8
 translate english_us ch5_ai_core_interaction_73f0a68d:
@@ -590,7 +590,10 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:302
     old "Кто вы?"
-    new "Who are you?"# TODO: Translation updated at 2026-07-08 01:40
+    new "Who are you?"
+
+    old "Я не могу принять этот ответ. Пожалуйста, укажите имя, отличное от отрицания вашей идентичности."
+    new "I cannot accept this answer. Please specify a name other than the denial of your identity."
 
 # game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:7
 translate english_us ch5_ai_core_interaction_5f992fff:

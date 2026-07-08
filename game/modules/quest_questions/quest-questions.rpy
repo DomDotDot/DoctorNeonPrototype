@@ -240,6 +240,41 @@ init -1 python:
 
         return AI_FINAL_DEFAULT_RESPONSE
 
+    AI_FORBIDDEN_NAMES = [
+        _("никто"),
+        _("ничто"),
+        _("ничего"),
+        _("неизвестно"),
+        _("аноним"),
+        _("гость"),
+        _("админ"),
+        _("игрок"),
+        _("troll"),
+        _("nobody"),
+        _("nothing"),
+        _("none"),
+        _("unknown"),
+        _("anonymous"),
+        _("guest"),
+        _("admin"),
+        _("player"),
+        _("пидор"),
+        _("хуй"),
+        _("сука"),
+        _("шлюха"),
+    ]
+
+    def is_ai_name_forbidden(player_input):
+        cleaned = player_input.strip().lower()
+        if not cleaned:
+            return True
+        for name in AI_FORBIDDEN_NAMES:
+            translated = renpy.translate_string(name).lower()
+            raw = name.lower()
+            if cleaned == translated or cleaned == raw:
+                return True
+        return False
+
     def select_random_questions(count=3):
         """Выбирает count рандомных вопросов из пула без повторений."""
         pool = list(AI_QUESTION_POOL)

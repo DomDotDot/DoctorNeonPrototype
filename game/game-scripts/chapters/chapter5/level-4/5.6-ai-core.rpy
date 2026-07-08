@@ -298,7 +298,13 @@ label ch5_ai_core_final_question:
     
     sibyl "А теперь, скажите — кто вы?"
     
+label ch5_ai_core_final_input:
     $ ch5_final_answer = renpy.input(_("Кто вы?"), length=30)
+    if is_ai_name_forbidden(ch5_final_answer):
+        $ ch5_forbidden_name_error = _("Я не могу принять этот ответ. Пожалуйста, укажите имя, отличное от отрицания вашей идентичности.")
+        sibyl "[ch5_forbidden_name_error!t]"
+        jump ch5_ai_core_final_input
+        
     $ ch5_final_response = get_final_answer_response(ch5_final_answer)
     
     narrator "Шар замер. Нити света внутри него остановились на одну длинную секунду."

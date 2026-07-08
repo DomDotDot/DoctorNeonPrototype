@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-26 22:16
+# TODO: Translation updated at 2026-06-26 22:16
 
 # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:7
 translate english_us ch5_level3_medbay_chief_office_dece8c19:
@@ -87,3 +87,6 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:47
     old "Разблокирвать капсулу Магнитно-Резонансного Томографа"
     new "Unlock the MRI pod"
+
+    old "В считывателе пусто — я уже забрала отсюда белый пластиковый чип."
+    new "The reader slot is empty — I have already taken the white plastic chip."
