@@ -4,21 +4,21 @@ init -1 python:
     import random
 
     GREEK_ALPHABET = [
-        "Альфа", "Бета", "Гамма", "Дельта", "Эпсилон", "Дзета", 
-        "Эта", "Тета", "Йота", "Каппа", "Лямбда", "Мю", 
-        "Ню", "Кси", "Омикрон", "Пи", "Ро", "Сигма", 
-        "Тау", "Ипсилон", "Фи", "Хи", "Пси", "Омега"
+        _("Альфа"), _("Бета"), _("Гамма"), _("Дельта"), _("Эпсилон"), _("Дзета"), 
+        _("Эта"), _("Тета"), _("Йота"), _("Каппа"), _("Лямбда"), _("Мю"), 
+        _("Ню"), _("Кси"), _("Омикрон"), _("Пи"), _("Ро"), _("Сигма"), 
+        _("Тау"), _("Ипсилон"), _("Фи"), _("Хи"), _("Пси"), _("Омега")
     ]
 
     def ch5_generate_alpha_puzzle():
         patterns_db = [
-            {"id": "consecutive", "desc": "Выбор букв был последователен (по 1)", "func": lambda s: [s, s+1, s+2, s+3, s+4]},
-            {"id": "interval_3_2_3_2", "desc": "Интервал чередовался: 3-2-3-2", "func": lambda s: [s, s+3, s+5, s+8, s+10]},
-            {"id": "interval_5", "desc": "Интервал был 5 букв", "func": lambda s: [s, s+5, s+10, s+15, s+20]},
-            {"id": "fibonacci", "desc": "Интервал увеличивался по Фибоначчи: 1-2-3-5", "func": lambda s: [s, s+1, s+3, s+6, s+11]},
-            {"id": "primes", "desc": "Интервал следовал простым числам: 2-3-5-7", "func": lambda s: [s, s+2, s+5, s+10, s+17]},
-            {"id": "mirror", "desc": "Интервал был зеркальным: 4-2-2-4", "func": lambda s: [s, s+4, s+6, s+8, s+12]},
-            {"id": "decreasing", "desc": "Интервал убывал: 4-3-2-1", "func": lambda s: [s, s+4, s+7, s+9, s+10]},
+            {"id": "consecutive", "desc": _("Выбор букв был последователен (по 1)"), "func": lambda s: [s, s+1, s+2, s+3, s+4]},
+            {"id": "interval_3_2_3_2", "desc": _("Интервал чередовался: 3-2-3-2"), "func": lambda s: [s, s+3, s+5, s+8, s+10]},
+            {"id": "interval_5", "desc": _("Интервал был 5 букв"), "func": lambda s: [s, s+5, s+10, s+15, s+20]},
+            {"id": "fibonacci", "desc": _("Интервал увеличивался по Фибоначчи: 1-2-3-5"), "func": lambda s: [s, s+1, s+3, s+6, s+11]},
+            {"id": "primes", "desc": _("Интервал следовал простым числам: 2-3-5-7"), "func": lambda s: [s, s+2, s+5, s+10, s+17]},
+            {"id": "mirror", "desc": _("Интервал был зеркальным: 4-2-2-4"), "func": lambda s: [s, s+4, s+6, s+8, s+12]},
+            {"id": "decreasing", "desc": _("Интервал убывал: 4-3-2-1"), "func": lambda s: [s, s+4, s+7, s+9, s+10]},
         ]
         
         # 25% шанс на случайный паттерн без понятного интервала
@@ -42,9 +42,9 @@ init -1 python:
                 if diffs in diffs_to_avoid:
                     continue
                 break
-            desc_correct = "Не было определенного интервала"
+            desc_correct = _("Не было определенного интервала")
             
-        all_descriptions = [p["desc"] for p in patterns_db] + ["Не было определенного интервала"]
+        all_descriptions = [p["desc"] for p in patterns_db] + [_("Не было определенного интервала")]
         all_descriptions.remove(desc_correct)
         
         wrong_final_options = random.sample(all_descriptions, 3)
@@ -117,13 +117,13 @@ label ch5_corridor_alpha_puzzle_loop:
     narrator "Шаг [ch5_alpha_current_round + 1] из 5. Терминал предлагает четыре варианта:"
     
     menu:
-        "[c0]":
+        "[c0!t]":
             $ selected = c0
-        "[c1]":
+        "[c1!t]":
             $ selected = c1
-        "[c2]":
+        "[c2!t]":
             $ selected = c2
-        "[c3]":
+        "[c3!t]":
             $ selected = c3
         "Вернуться в ресепшен":
             jump ch5_satellite_reception_menu
@@ -154,13 +154,13 @@ label ch5_corridor_alpha_final_question:
     $ f3 = ch5_alpha_final_options[3]
     
     menu:
-        "[f0]":
+        "[f0!t]":
             $ selected_pattern = f0
-        "[f1]":
+        "[f1!t]":
             $ selected_pattern = f1
-        "[f2]":
+        "[f2!t]":
             $ selected_pattern = f2
-        "[f3]":
+        "[f3!t]":
             $ selected_pattern = f3
             
     if selected_pattern == ch5_alpha_correct_pattern:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-26 22:16
+# TODO: Translation updated at 2026-06-26 22:16
 
 # game/game-scripts/chapters/chapter5/level-4/5.3-corridor-beta.rpy:191
 translate english_us ch5_corridor_beta_46faa0b4:
@@ -107,3 +107,38 @@ translate english_us ch5_corridor_beta_puzzle_f48f9549:
 
     # narrator "'ОШИБКА КОНФИГУРАЦИИ. ПРИНУДИТЕЛЬНЫЙ СБРОС.' Затворы со скрежетом вернулись в исходное положение, а рычаги отщёлкнулись вниз."
     narrator "'CONFIGURATION ERROR. FORCED RESET.' The gates ground back to their original positions, and the levers snapped down."
+
+translate english_us strings:
+
+    old "РАСПРЕДЕЛИТЕЛЬНАЯ ПАНЕЛЬ: МОДУЛЬ ЛОГИКИ"
+    new "DISTRIBUTION PANEL: LOGIC MODULE"
+
+    old "СТАТУС: ТРЕБУЕТСЯ СИНХРОНИЗАЦИЯ ЗАТВОРОВ"
+    new "STATUS: GATES SYNCHRONIZATION REQUIRED"
+
+    old "СХЕМА СОЕДИНЕНИЙ ДАТЧИКОВ ЗАТВОРОВ:"
+    new "GATE SENSOR CONNECTION DIAGRAM:"
+
+    old "• КРАСНЫЙ РУБИЛЬНИК ────► Переключает затворы I и III"
+    new "• RED SWITCH ────► Toggles gates I and III"
+
+    old "• СИНИЙ РУБИЛЬНИК ──────► Переключает затвор II"
+    new "• BLUE SWITCH ──────► Toggles gate II"
+
+    old "• ЖЁЛТЫЙ РУБИЛЬНИК ─────► Переключает затворы I и II"
+    new "• YELLOW SWITCH ─────► Toggles gates I and II"
+
+    old "КРАСНЫЙ"
+    new "RED"
+
+    old "СИНИЙ"
+    new "BLUE"
+
+    old "ЖЁЛТЫЙ"
+    new "YELLOW"
+
+    old "ДЁРНУТЬ ГЛАВНЫЙ РУБИЛЬНИК"
+    new "PULL MAIN SWITCH"
+
+    old "ВЕРНУТЬСЯ В РЕСЕПШЕН"
+    new "RETURN TO RECEPTION"

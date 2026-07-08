@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-26 22:16
+# TODO: Translation updated at 2026-06-26 22:16
 
 # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:81
 translate english_us ch5_corridor_alpha_2a567047:
@@ -105,37 +105,135 @@ translate english_us ch5_corridor_alpha_final_question_fd2a4f23:
 translate english_us strings:
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:120
-    old "[c0]"
-    new "[c0]"
+    old "[c0!t]"
+    new "[c0!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:122
-    old "[c1]"
-    new "[c1]"
+    old "[c1!t]"
+    new "[c1!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:124
-    old "[c2]"
-    new "[c2]"
+    old "[c2!t]"
+    new "[c2!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:126
-    old "[c3]"
-    new "[c3]"
+    old "[c3!t]"
+    new "[c3!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:128
     old "Вернуться в ресепшен"
     new "Return to reception"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:157
-    old "[f0]"
-    new "[f0]"
+    old "[f0!t]"
+    new "[f0!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:159
-    old "[f1]"
-    new "[f1]"
+    old "[f1!t]"
+    new "[f1!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:161
-    old "[f2]"
-    new "[f2]"
+    old "[f2!t]"
+    new "[f2!t]"
 
     # game/game-scripts/chapters/chapter5/level-4/5.2-corridor-alpha.rpy:163
-    old "[f3]"
-    new "[f3]"
+    old "[f3!t]"
+    new "[f3!t]"
+
+    # Greek Alphabet
+    old "Альфа"
+    new "Alpha"
+
+    old "Бета"
+    new "Beta"
+
+    old "Гамма"
+    new "Gamma"
+
+    old "Дельта"
+    new "Delta"
+
+    old "Эпсилон"
+    new "Epsilon"
+
+    old "Дзета"
+    new "Zeta"
+
+    old "Эта"
+    new "Eta"
+
+    old "Тета"
+    new "Theta"
+
+    old "Йота"
+    new "Iota"
+
+    old "Каппа"
+    new "Kappa"
+
+    old "Лямбда"
+    new "Lambda"
+
+    old "Мю"
+    new "Mu"
+
+    old "Ню"
+    new "Nu"
+
+    old "Кси"
+    new "Xi"
+
+    old "Омикрон"
+    new "Omicron"
+
+    old "Пи"
+    new "Pi"
+
+    old "Ро"
+    new "Rho"
+
+    old "Сигма"
+    new "Sigma"
+
+    old "Тау"
+    new "Tau"
+
+    old "Ипсилон"
+    new "Upsilon"
+
+    old "Фи"
+    new "Phi"
+
+    old "Хи"
+    new "Chi"
+
+    old "Пси"
+    new "Psi"
+
+    old "Омега"
+    new "Omega"
+
+    # Patterns
+    old "Выбор букв был последователен (по 1)"
+    new "Selection of letters was consecutive (by 1)"
+
+    old "Интервал чередовался: 3-2-3-2"
+    new "Interval alternated: 3-2-3-2"
+
+    old "Интервал был 5 букв"
+    new "Interval was 5 letters"
+
+    old "Интервал увеличивался по Фибоначчи: 1-2-3-5"
+    new "Interval increased by Fibonacci: 1-2-3-5"
+
+    old "Интервал следовал простым числам: 2-3-5-7"
+    new "Interval followed prime numbers: 2-3-5-7"
+
+    old "Интервал был зеркальным: 4-2-2-4"
+    new "Interval was mirrored: 4-2-2-4"
+
+    old "Интервал убывал: 4-3-2-1"
+    new "Interval decreased: 4-3-2-1"
+
+    old "Не было определенного интервала"
+    new "There was no specific interval"

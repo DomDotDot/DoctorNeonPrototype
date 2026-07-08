@@ -102,8 +102,8 @@ screen ch5_hydraulic_puzzle_screen():
             vbox:
                 spacing 5
                 xalign 0.5
-                text "ГИДРАВЛИЧЕСКИЙ ТЕРМИНАЛ УПРАВЛЕНИЯ" color "#00f0ff" size 30 bold True xalign 0.5 outlines [(2, "#002b3d", 0, 0)]
-                text "СТАТУС: АВАРИЙНЫЙ ЗАЖИМ ГИДРАВЛИКИ" color "#ff3366" size 16 bold True xalign 0.5
+                text _("ГИДРАВЛИЧЕСКИЙ ТЕРМИНАЛ УПРАВЛЕНИЯ") color "#00f0ff" size 30 bold True xalign 0.5 outlines [(2, "#002b3d", 0, 0)]
+                text _("СТАТУС: АВАРИЙНЫЙ ЗАЖИМ ГИДРАВЛИКИ") color "#ff3366" size 16 bold True xalign 0.5
             
             # Разделительная линия
             add Solid("#00f0ff44") ysize 2 xalign 0.5 xsize 900
@@ -171,11 +171,11 @@ screen ch5_hydraulic_puzzle_screen():
                         spacing 5
                         xfill True
                         if getattr(store, 'ch5_robotics_reset_occurred', False):
-                            text "АВАРИЙНЫЙ СБРОС: ПРЕВЫШЕН ЛИМИТ КАЛИБРОВКИ!" color "#ff3366" size 16 bold True xalign 0.5
-                            text "Калибровка сброшена. Зарегистрированное перед сбросом давление: [store.ch5_robotics_last_attempt] PSI" color "#ff99b2" size 14 xalign 0.5
+                            text _("АВАРИЙНЫЙ СБРОС: ПРЕВЫШЕН ЛИМИТ КАЛИБРОВКИ!") color "#ff3366" size 16 bold True xalign 0.5
+                            text _("Калибровка сброшена. Зарегистрированное перед сбросом давление: [store.ch5_robotics_last_attempt] PSI") color "#ff99b2" size 14 xalign 0.5
                         else:
-                            text "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ ФАЗОВОГО ДАВЛЕНИЯ!" color "#ff3366" size 16 bold True xalign 0.5
-                            text "Зарегистрировано на датчиках: [store.ch5_robotics_last_attempt] PSI | Требуемый сдвиг: 314 PSI" color "#ff99b2" size 14 xalign 0.5
+                            text _("КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ ФАЗОВОГО ДАВЛЕНИЯ!") color "#ff3366" size 16 bold True xalign 0.5
+                            text _("Зарегистрировано на датчиках: [store.ch5_robotics_last_attempt] PSI | Требуемый сдвиг: 314 PSI") color "#ff99b2" size 14 xalign 0.5
             else:
                 frame:
                     background Solid("#00f0ff11")
@@ -185,8 +185,8 @@ screen ch5_hydraulic_puzzle_screen():
                     vbox:
                         spacing 5
                         xfill True
-                        text "СИСТЕМНЫЙ СТАТУС: ОЖИДАНИЕ СТАБИЛИЗАЦИИ" color "#00f0ff" size 15 bold True xalign 0.5
-                        text "Отрегулируйте механические вентили для балансировки давления по Пи-константе." color "#a3f0ff" size 13 xalign 0.5
+                        text _("СИСТЕМНЫЙ СТАТУС: ОЖИДАНИЕ СТАБИЛИЗАЦИИ") color "#00f0ff" size 15 bold True xalign 0.5
+                        text _("Отрегулируйте механические вентили для балансировки давления по Пи-константе.") color "#a3f0ff" size 13 xalign 0.5
             
             # УПРАВЛЕНИЕ ВЕНТИЛЯМИ
             hbox:
@@ -197,7 +197,7 @@ screen ch5_hydraulic_puzzle_screen():
                 vbox:
                     spacing 12
                     xsize 380
-                    text "Вентиль крупной калибровки\n(Коаксиальный сдвиг)" color "#00f0ff" size 15 bold True xalign 0.5 text_align 0.5
+                    text _("Вентиль крупной калибровки\n(Коаксиальный сдвиг)") color "#00f0ff" size 15 bold True xalign 0.5 text_align 0.5
                     
                     hbox:
                         xalign 0.5
@@ -209,7 +209,7 @@ screen ch5_hydraulic_puzzle_screen():
                 vbox:
                     spacing 12
                     xsize 380
-                    text "Вентиль точной калибровки\n(Микрофазовая подстройка)" color "#ff3399" size 15 bold True xalign 0.5 text_align 0.5
+                    text _("Вентиль точной калибровки\n(Микрофазовая подстройка)") color "#ff3399" size 15 bold True xalign 0.5 text_align 0.5
                     
                     hbox:
                         xalign 0.5
@@ -227,8 +227,8 @@ screen ch5_hydraulic_puzzle_screen():
                 xalign 0.5
                 spacing 40
                 
-                textbutton "ПРИМЕНИТЬ КАЛИБРОВКУ" action Jump("ch5_robotics_check_calibration") style "cyber_action_button"
-                textbutton "ОТОЙТИ ОТ ТЕРМИНАЛА" action Jump("ch5_robotics_abort") style "cyber_exit_button"
+                textbutton _("ПРИМЕНИТЬ КАЛИБРОВКУ") action Jump("ch5_robotics_check_calibration") style "cyber_action_button"
+                textbutton _("ОТОЙТИ ОТ ТЕРМИНАЛА") action Jump("ch5_robotics_abort") style "cyber_exit_button"
 
 
 label ch5_level3_robotics:

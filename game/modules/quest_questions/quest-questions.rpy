@@ -38,26 +38,27 @@ init -1 python:
 
         # Сначала проверяем точное совпадение
         for answer, canonical in accepted_answers:
-            if cleaned == answer.lower():
+            translated_answer = renpy.translate_string(answer)
+            if cleaned == translated_answer.lower() or cleaned == answer.lower():
                 return (True, canonical, True)
 
         # Затем проверяем fuzzy match с динамическим порогом
         for answer, canonical in accepted_answers:
-            target = answer.lower()
-            dist = levenshtein_distance(cleaned, target)
-            
-            target_len = len(target)
-            if target_len <= 2:
-                allowed_typos = 0
-            elif target_len <= 4:
-                allowed_typos = 1
-            elif target_len == 5:
-                allowed_typos = 2
-            else:
-                allowed_typos = 3
-                
-            if dist <= allowed_typos and allowed_typos > 0:
-                return (True, canonical, False)
+            translated_answer = renpy.translate_string(answer)
+            for target in set([translated_answer.lower(), answer.lower()]):
+                dist = levenshtein_distance(cleaned, target)
+                target_len = len(target)
+                if target_len <= 2:
+                    allowed_typos = 0
+                elif target_len <= 4:
+                    allowed_typos = 1
+                elif target_len == 5:
+                    allowed_typos = 2
+                else:
+                    allowed_typos = 3
+                    
+                if dist <= allowed_typos and allowed_typos > 0:
+                    return (True, canonical, False)
 
         return (False, None, False)
 
@@ -215,26 +216,27 @@ init -1 python:
 
         # Точное совпадение
         for key, response in AI_FINAL_ANSWERS.items():
-            if cleaned == key.lower():
+            translated_key = renpy.translate_string(key)
+            if cleaned == translated_key.lower() or cleaned == key.lower():
                 return response
 
         # Fuzzy match
         for key, response in AI_FINAL_ANSWERS.items():
-            target = key.lower()
-            dist = levenshtein_distance(cleaned, target)
-            
-            target_len = len(target)
-            if target_len <= 2:
-                allowed_typos = 0
-            elif target_len <= 4:
-                allowed_typos = 1
-            elif target_len == 5:
-                allowed_typos = 2
-            else:
-                allowed_typos = 3
-                
-            if dist <= allowed_typos and allowed_typos > 0:
-                return response
+            translated_key = renpy.translate_string(key)
+            for target in set([translated_key.lower(), key.lower()]):
+                dist = levenshtein_distance(cleaned, target)
+                target_len = len(target)
+                if target_len <= 2:
+                    allowed_typos = 0
+                elif target_len <= 4:
+                    allowed_typos = 1
+                elif target_len == 5:
+                    allowed_typos = 2
+                else:
+                    allowed_typos = 3
+                    
+                if dist <= allowed_typos and allowed_typos > 0:
+                    return response
 
         return AI_FINAL_DEFAULT_RESPONSE
 

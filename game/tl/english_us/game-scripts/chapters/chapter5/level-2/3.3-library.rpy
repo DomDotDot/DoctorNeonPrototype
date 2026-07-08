@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-26 00:15
+# TODO: Translation updated at 2026-06-26 00:15
 
 # game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:10
 translate english_us ch5_level2_library_9f8aad14:
@@ -485,3 +485,6 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:114
     old "Выйти из терминала"
     new "Exit the terminal"
+
+    old "Введите артикул контента (или оставьте поле пустым для отмены):"
+    new "Enter the content article code (or leave empty to cancel):"

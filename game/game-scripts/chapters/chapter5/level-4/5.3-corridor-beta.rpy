@@ -69,8 +69,8 @@ screen ch5_lever_puzzle_screen():
             vbox:
                 spacing 5
                 xalign 0.5
-                text "РАСПРЕДЕЛИТЕЛЬНАЯ ПАНЕЛЬ: МОДУЛЬ ЛОГИКИ" color "#00f0ff" size 30 bold True xalign 0.5 outlines [(2, "#002b3d", 0, 0)]
-                text "СТАТУС: ТРЕБУЕТСЯ СИНХРОНИЗАЦИЯ ЗАТВОРОВ" color "#ff9900" size 16 bold True xalign 0.5
+                text _("РАСПРЕДЕЛИТЕЛЬНАЯ ПАНЕЛЬ: МОДУЛЬ ЛОГИКИ") color "#00f0ff" size 30 bold True xalign 0.5 outlines [(2, "#002b3d", 0, 0)]
+                text _("СТАТУС: ТРЕБУЕТСЯ СИНХРОНИЗАЦИЯ ЗАТВОРОВ") color "#ff9900" size 16 bold True xalign 0.5
             
             # Разделитель
             add Solid("#00f0ff44") ysize 2 xalign 0.5 xsize 900
@@ -84,10 +84,10 @@ screen ch5_lever_puzzle_screen():
                 vbox:
                     spacing 6
                     xalign 0.5
-                    text "СХЕМА СОЕДИНЕНИЙ ДАТЧИКОВ ЗАТВОРОВ:" color "#00f0ff" size 14 bold True xalign 0.5
-                    text "• КРАСНЫЙ РУБИЛЬНИК ────► Переключает затворы I и III" color "#ff4d4d" size 13 xalign 0.5
-                    text "• СИНИЙ РУБИЛЬНИК ──────► Переключает затвор II" color "#3399ff" size 13 xalign 0.5
-                    text "• ЖЁЛТЫЙ РУБИЛЬНИК ─────► Переключает затворы I и II" color "#e6b800" size 13 xalign 0.5
+                    text _("СХЕМА СОЕДИНЕНИЙ ДАТЧИКОВ ЗАТВОРОВ:") color "#00f0ff" size 14 bold True xalign 0.5
+                    text _("• КРАСНЫЙ РУБИЛЬНИК ────► Переключает затворы I и III") color "#ff4d4d" size 13 xalign 0.5
+                    text _("• СИНИЙ РУБИЛЬНИК ──────► Переключает затвор II") color "#3399ff" size 13 xalign 0.5
+                    text _("• ЖЁЛТЫЙ РУБИЛЬНИК ─────► Переключает затворы I и II") color "#e6b800" size 13 xalign 0.5
             
             # РУКАВА РЫЧАГОВ
             hbox:
@@ -98,7 +98,7 @@ screen ch5_lever_puzzle_screen():
                 vbox:
                     spacing 15
                     xsize 200
-                    text "КРАСНЫЙ" color "#ff4d4d" size 16 bold True xalign 0.5
+                    text _("КРАСНЫЙ") color "#ff4d4d" size 16 bold True xalign 0.5
                     
                     button:
                         xysize (90, 250)
@@ -124,7 +124,7 @@ screen ch5_lever_puzzle_screen():
                 vbox:
                     spacing 15
                     xsize 200
-                    text "СИНИЙ" color "#3399ff" size 16 bold True xalign 0.5
+                    text _("СИНИЙ") color "#3399ff" size 16 bold True xalign 0.5
                     
                     button:
                         xysize (90, 250)
@@ -150,7 +150,7 @@ screen ch5_lever_puzzle_screen():
                 vbox:
                     spacing 15
                     xsize 200
-                    text "ЖЁЛТЫЙ" color "#e6b800" size 16 bold True xalign 0.5
+                    text _("ЖЁЛТЫЙ") color "#e6b800" size 16 bold True xalign 0.5
                     
                     button:
                         xysize (90, 250)
@@ -180,8 +180,8 @@ screen ch5_lever_puzzle_screen():
                 xalign 0.5
                 spacing 50
                 
-                textbutton "ДЁРНУТЬ ГЛАВНЫЙ РУБИЛЬНИК" action Return("check_calibration") style "beta_cyber_green_button"
-                textbutton "ВЕРНУТЬСЯ В РЕСЕПШЕН" action Return("abort") style "beta_cyber_exit_button"
+                textbutton _("ДЁРНУТЬ ГЛАВНЫЙ РУБИЛЬНИК") action Return("check_calibration") style "beta_cyber_green_button"
+                textbutton _("ВЕРНУТЬСЯ В РЕСЕПШЕН") action Return("abort") style "beta_cyber_exit_button"
 
 
 label ch5_corridor_beta:

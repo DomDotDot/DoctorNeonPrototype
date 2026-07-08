@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-06-26 22:16
+# TODO: Translation updated at 2026-06-26 22:16
 
 # game/game-scripts/chapters/chapter5/level-3/4.4-robotics.rpy:237
 translate english_us ch5_level3_robotics_d63657db:
@@ -53,3 +53,41 @@ translate english_us ch5_robotics_abort_fae2a167:
 
     # narrator "Манипулятор безвольно висит. Ампула 'Цито-В' уже у меня."
     narrator "The manipulator hangs limply. I already have the 'Cyto V' ampoule."
+
+translate english_us strings:
+
+    old "ГИДРАВЛИЧЕСКИЙ ТЕРМИНАЛ УПРАВЛЕНИЯ"
+    new "HYDRAULIC CONTROL TERMINAL"
+
+    old "СТАТУС: АВАРИЙНЫЙ ЗАЖИМ ГИДРАВЛИКИ"
+    new "STATUS: EMERGENCY HYDRAULIC CLAMP"
+
+    old "АВАРИЙНЫЙ СБРОС: ПРЕВЫШЕН ЛИМИТ КАЛИБРОВКИ!"
+    new "EMERGENCY RESET: CALIBRATION LIMIT EXCEEDED!"
+
+    old "Калибровка сброшена. Зарегистрированное перед сбросом давление: [store.ch5_robotics_last_attempt] PSI"
+    new "Calibration reset. Pressure recorded before reset: [store.ch5_robotics_last_attempt] PSI"
+
+    old "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ ФАЗОВОГО ДАВЛЕНИЯ!"
+    new "CRITICAL PHASE PRESSURE DEVIATION!"
+
+    old "Зарегистрировано на датчиках: [store.ch5_robotics_last_attempt] PSI | Требуемый сдвиг: 314 PSI"
+    new "Registered on sensors: [store.ch5_robotics_last_attempt] PSI | Required shift: 314 PSI"
+
+    old "СИСТЕМНЫЙ СТАТУС: ОЖИДАНИЕ СТАБИЛИЗАЦИИ"
+    new "SYSTEM STATUS: AWAITING STABILIZATION"
+
+    old "Отрегулируйте механические вентили для балансировки давления по Пи-константе."
+    new "Adjust mechanical valves to balance pressure according to Pi-constant."
+
+    old "Вентиль крупной калибровки\n(Коаксиальный сдвиг)"
+    new "Coarse Calibration Valve\n(Coaxial Shift)"
+
+    old "Вентиль точной калибровки\n(Микрофазовая подстройка)"
+    new "Fine Calibration Valve\n(Microphase Tuning)"
+
+    old "ПРИМЕНИТЬ КАЛИБРОВКУ"
+    new "APPLY CALIBRATION"
+
+    old "ОТОЙТИ ОТ ТЕРМИНАЛА"
+    new "LEAVE TERMINAL"

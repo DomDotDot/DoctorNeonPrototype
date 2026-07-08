@@ -72,7 +72,7 @@ label ch5_library_terminal_choice_menu:
     menu:
         "Поиск по артикулу контента":
             play sound "sfx/ui_click.opus"
-            $ search_code = renpy.input("Введите артикул контента (или оставьте поле пустым для отмены):", length=30)
+            $ search_code = renpy.input(_("Введите артикул контента (или оставьте поле пустым для отмены):"), length=30)
             $ search_code = search_code.strip().lower()
 
             if search_code == "":

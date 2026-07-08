@@ -244,7 +244,7 @@ label ch5_ai_core_ask_question:
     $ ch5_q_text = ch5_current_q["question"]
     
     sibyl "Вопрос [ch5_q_number] из 4."
-    sibyl "[ch5_q_text]"
+    sibyl "[ch5_q_text!t]"
     
 label ch5_ai_core_input:
     
@@ -260,7 +260,7 @@ label ch5_ai_core_input:
         else:
             # Fuzzy match — с опечаткой
             $ ch5_canonical = ch5_result[1]
-            sibyl "Я вижу, вы допустили ошибку в написании, но ответ принимается. Я понял ваш ответ как '[ch5_canonical]'."
+            sibyl "Я вижу, вы допустили ошибку в написании, но ответ принимается. Я понял ваш ответ как '[ch5_canonical!t]'."
         
         $ ch5_ai_current_question += 1
         $ ch5_ai_wrong_attempts = 0
@@ -272,7 +272,7 @@ label ch5_ai_core_input:
         if ch5_ai_wrong_attempts >= 3:
             $ ch5_q_hint = ch5_current_q["hint"]
             sibyl "Три неверных попытки. Подсказка:"
-            sibyl "[ch5_q_hint]"
+            sibyl "[ch5_q_hint!t]"
             $ ch5_ai_wrong_attempts = 0
         else:
             sibyl "Неверно. Попробуйте ещё раз."
@@ -305,7 +305,7 @@ label ch5_ai_core_final_question:
 
     scene ch05_cg52_v05 with dissolve
     
-    sibyl "[ch5_final_response]"
+    sibyl "[ch5_final_response!t]"
     
     sibyl """
         ...
