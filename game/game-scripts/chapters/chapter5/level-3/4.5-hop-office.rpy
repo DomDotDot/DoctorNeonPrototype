@@ -19,7 +19,7 @@ init python:
         return bulls, cows
 
 label ch5_level3_coolant_receive:
-    if not getattr(store, 'ch5_monorail_terminal_seen', False) or not getattr(store, 'ch5_medbay_empty_spray_taken', False):
+    if not ch5_is_biomarker_quest_active():
         neon "{=thoughts}Нет смысла ломать исправного автомата.{/thoughts}"
         return
 

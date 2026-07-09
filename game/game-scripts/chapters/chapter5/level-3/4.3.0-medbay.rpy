@@ -6,7 +6,7 @@ label ch5_level3_medbay:
         $ store.ch5_medbay_entered = True
         $ store.ch5_medbay_door_glitching_seen = False
         $ store.ch5_medbay_mop_propped = False
-        $ store.ch5_monorail_terminal_seen = False
+        $ store.ch5_monorail_terminal_seen = getattr(store, 'ch5_monorail_terminal_seen', False)
         
         $ store.ch5_medbay_mri_unlocked = False
         $ store.ch5_medbay_mri_opened = False

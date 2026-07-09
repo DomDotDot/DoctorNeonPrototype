@@ -11,6 +11,12 @@ init python:
     Item_Mop = Item("mop", _("Швабра"), _("Прочная техническая швабра с металлической ручкой."), "images/items/mop.png")
     Item_EmptySpray = Item("empty_spray", _("Пустой распылитель"), _("Лабораторный баллончик-аэрозоль без содержимого."), "images/items/spray.png")
 
+    def ch5_is_biomarker_quest_active():
+        return (getattr(store, 'ch5_monorail_terminal_seen', False) or getattr(store, 'ch5_satellite_clue_found', False)) and getattr(store, 'ch5_medbay_empty_spray_taken', False)
+
+    def ch5_knows_about_biomarker():
+        return getattr(store, 'ch5_monorail_terminal_seen', False) or getattr(store, 'ch5_satellite_clue_found', False)
+
 label ch5_level3_main_hall:
     scene ch05_bg11_v01 with dissolve
     play music "music/BGM/Caduceus.mp3" loop volume 0.25
