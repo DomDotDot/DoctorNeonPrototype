@@ -1,3 +1,5 @@
+label chapter5_rescue:
+
     # --- СЦЕНА 5: ПРОБУЖДЕНИЕ В РУКАХ АРГОНА ---
 
     # play sound "sfx/coughing_smoke_harsh.opus"
@@ -83,4 +85,4 @@
         Прямо на него.
     """
 
-    # Переход к финальной сцене жертвы (chapter5_finale_sacrifice)
+return

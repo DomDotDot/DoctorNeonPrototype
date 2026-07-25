@@ -281,3 +281,4 @@ label chapter5_bridge_overload:
     stop sound
 
     pause 3.0
+return

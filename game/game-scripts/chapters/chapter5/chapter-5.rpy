@@ -20,14 +20,15 @@ label chapter_5_rpy:
 
         call station_server_room_entry from _call_station_server_room_entry
 
-        call chapter5_timer_and_brig from _call_chapter5_timer_and_brig
-        call chapter5_breakout from _call_chapter5_breakout
-        call chapter5_ghost_ship from _call_chapter5_ghost_ship
+        call chapter5_cargo_dead_end
+        call chapter5_bridge_overload
 
         call dream_sequence_japan_6 from _call_dream_sequence_japan_6
 
-        call chapter5_bridge_and_katana from _call_chapter5_bridge_and_katana
-        call chapter5_finale_sacrifice from _call_chapter5_finale_sacrifice
+        call chapter5_rescue
+        call chapter5_finale_sacrifice
+
+        call dream_sequence_japan_5 from _call_dream_sequence_japan_5
 
         call chapter5_epilogue_earth from _call_chapter5_epilogue_earth
     return
