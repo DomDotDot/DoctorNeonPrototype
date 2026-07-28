@@ -30,6 +30,7 @@ label chapter_5_rpy:
 
         call dream_sequence_japan_5 from _call_dream_sequence_japan_5
 
-        call chapter5_epilogue_earth from _call_chapter5_epilogue_earth
+        call chapter5_wasteland
+        call chapter5_oganesson
     return
 return
