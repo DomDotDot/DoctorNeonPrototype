@@ -98,10 +98,6 @@ label chapter5_cargo_dead_end:
 
     # --- СЦЕНА 3: ИСПОВЕДЬ И ПРОЩЕНИЕ ---
 
-    neon "{=whisper}У нас нет времени. Гелиос, 'Эреб', Улей... Аргон, они привезли сюда её заразу.{/whisper}"
-
-    narrator "Мой голос сорвался. Вся та броня хладнокровного оперативника, которую я носила четыре года, вдруг показалась мне невыносимо тяжелой."
-
     stop music fadeout 2.0
     play music "music/BGM/Confession_Theme.opus" fadein 3.0 loop volume 0.5
 
@@ -113,7 +109,9 @@ label chapter5_cargo_dead_end:
 
     argon "{=whisper}Неон. Не хорони нас раньше времени.{/whisper}"
 
-    neon "{=whisper}НЕТ! Послушай меня! Пожалуйста...{/whisper}"
+    neon "НЕТ! Послушай меня!"
+    
+    neon "{=whisper}Пожалуйста...{/whisper}"
 
     narrator "Аргон замер, увидев в моих глазах настоящие слезы, которые я так долго прятала от него."
 
