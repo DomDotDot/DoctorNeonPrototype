@@ -484,7 +484,6 @@ label chapter7_decay:
         Её голос стал тихим, шелестящим, как пепел на ветру, впервые за 18 лет, стал... спокойными. Уставшими.
     """
 
-
     oganesson """
         Ты... так похожа на неё в юности...
         
@@ -569,5 +568,4 @@ label chapter7_decay:
     stop music fadeout 3.0
     stop sound fadeout 3.0
 
-    # КОНЕЦ 7 ГЛАВЫ
 return
