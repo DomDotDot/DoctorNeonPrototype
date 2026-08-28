@@ -1,3 +1,4 @@
+label chapter7_penance:
 # --- КОНЕЦ СЦЕНЫ С НЕОН И МЭРИЛ ---
     scene black with Fade(3.0, 1.0, 2.0)
     stop music fadeout 3.0
