@@ -259,7 +259,7 @@ define sibyl = Character(_('СИВИЛЛА'), kind=base, color=c_sibyl)
 
 
 # --- Системные и Неизвестные ---
-define narrator = Character(None, kind=base, what_size=27.5, cb_name=None)
+define narrator = Character(None, kind=base, what_size=27.5, cb_name="narrator")
 define narrator_nvl = Character(None, kind=nvl)
 
 define unknown = Character(_('Неизвестный'), kind=base, color=c_white)

@@ -14,7 +14,7 @@ init python:
         if not interact:
             return
         if event == "begin":
-            store.active_speaker = kwargs.get("name")
+            store.active_speaker = kwargs.get("name") or "narrator"
         elif event == "end":
             # Сбрасываем говорящего → между репликами все яркие
             # (анимации сцены не затемняют персонажей)
