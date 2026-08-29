@@ -7,4 +7,6 @@ label chapter_7_rpy:
     call chapter7_apartments from _call_chapter7_apartments
     call chapter7_decay from _call_chapter7_decay
 
+    call chapter7_penance
+
 return
