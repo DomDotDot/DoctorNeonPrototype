@@ -14,7 +14,7 @@ screen flashback_thumbnail_button(item, delay_time=0.05):
                 
             action Replay(item.label, locked=False)
             hover_foreground Solid("#ffffff22")
-            hovered Play("audio", "audio/sfx/cursor-hover.wav")
+            hovered Play("audio", "audio/sfx/cursor-hover.opus")
 
             # Label
             frame:

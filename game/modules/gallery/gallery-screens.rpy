@@ -24,7 +24,7 @@ screen gallery_thumbnail_button(item, delay_time=0.25):
                     
             action Show("gallery_view", item=item)
             hover_foreground Solid("#ffffff22")
-            hovered Play("audio", "audio/sfx/cursor-hover.wav")
+            hovered Play("audio", "audio/sfx/cursor-hover.opus")
             
             # Название и счетчик
             frame:
