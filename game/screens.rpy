@@ -122,8 +122,9 @@ screen say(who, what):
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
 
-    # Ачивка "Вдумчивый читатель": 3 минуты на диалоге
-    timer 180.0 action Function(grant_achievement, "thoughtful_reader")
+    # Ачивка "Вдумчивый читатель": 3 минуты на реплике Неон
+    if who is not None and (who == _("Неон") or who == "Неон" or who == "Neon" or who == neon.name):
+        timer 180.0 action Function(grant_achievement, "thoughtful_reader")
 
 
 ## Делает namebox доступным для стилизации через объект Character.

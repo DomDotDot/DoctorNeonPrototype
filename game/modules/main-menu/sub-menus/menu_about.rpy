@@ -89,12 +89,17 @@ screen license_screen():
             null height 20
             textbutton _("Назад") action ShowMenu("about_menu") style "modern_back_button"
 
+init python:
+    def open_dev_credits_url(url="https://dotprod.itch.io/"):
+        grant_achievement("behind_the_scenes")
+        renpy.open_url(url)
+        return None
+
 screen credits_screen():
     tag menu
     zorder 25
     modal True
     use main_menu_background
-    on "show" action Function(grant_achievement, "behind_the_scenes")
     key "game_menu" action ShowMenu("about_menu")
 
     frame:
@@ -116,7 +121,12 @@ screen credits_screen():
                     spacing 15
             
                     text _("Спасибо за игру в этот прототип. Это моя первая визуальная новелла, и я многому научился в процессе её создания. Я надеюсь, что вам понравится история и персонажи, и я с нетерпением жду возможности поделиться с вами остальной частью истории в будущем.\n")
-                    text _("Автор и Разработчик: {a=https://dotprod.itch.io/}Dot{/a}\n")
+                    hbox:
+                        text _("Автор и Разработчик: ")
+                        textbutton "{u}Dot (itch.io){/u}":
+                            action Function(open_dev_credits_url, "https://dotprod.itch.io/")
+                            text_color "#5dade2"
+                            text_hover_color "#2ecc71"
                     text _("Тестировщик и Вдохновитель: Overhappy_Avali\n")
 
             null height 20

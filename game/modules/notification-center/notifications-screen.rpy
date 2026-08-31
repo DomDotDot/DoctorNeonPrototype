@@ -2,6 +2,8 @@ screen notification_center():
     tag menu
     modal True
     use main_menu_background
+    on "show" action Function(check_notification_center_achievement)
+    on "replace" action Function(check_notification_center_achievement)
 
     frame:
         style "modern_panel"

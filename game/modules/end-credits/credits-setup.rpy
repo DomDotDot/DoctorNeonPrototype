@@ -97,8 +97,8 @@ label credits_sequence(volume_id):
     
     elif _return == "finished":
         python:
-            # Ачивка "Концерт в одиночестве" (дослушан финал Тома 1)
-            if volume_id == 1:
+            # Ачивка "Концерт в одиночестве" (дослушан финальный трек)
+            if volume_id == 2 or volume_id == 1:
                 grant_achievement("concert_in_solitude")
 
             # Ачивка "В этом нет ничего такого" (пройдено с включенной ИИ-чувствительностью)

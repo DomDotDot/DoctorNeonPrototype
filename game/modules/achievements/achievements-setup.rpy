@@ -8,14 +8,6 @@ init 1 python:
     # -------------------------------------------------------------------------
     
     register_achievement(Achievement(
-        id="criminalist",
-        name=_("Концептуализация: Cредне: Успех"),
-        description=_("Внимательно изучите любой предмет в инвентаре через кнопку 'Осмотреть'."),
-        icon=None,
-        ach_type=ACH_TYPE_NORMAL
-    ))
-
-    register_achievement(Achievement(
         id="novice",
         name=_("Куда жать, чтобы победить?"),
         description=_("Откройте экран помощи и ознакомьтесь с управлением в визуальной новелле."),
@@ -26,7 +18,7 @@ init 1 python:
     register_achievement(Achievement(
         id="mail_maniac",
         name=_("Почтовый маньяк"),
-        description=_("Откройте Центр уведомлений и ознакомьтесь со всеми входящими сообщениями."),
+        description=_("Откройте Центр уведомлений, когда в нём есть хотя бы одно входящее сообщение."),
         icon=None,
         ach_type=ACH_TYPE_NORMAL
     ))
@@ -34,7 +26,7 @@ init 1 python:
     register_achievement(Achievement(
         id="behind_the_scenes",
         name=_("Взгляд за кулисы"),
-        description=_("Загляните в раздел 'Об игре' и перейдите на страницу разработчиков."),
+        description=_("Перейдите по ссылке на страницу разработчика в разделе 'Титры'."),
         icon=None,
         ach_type=ACH_TYPE_NORMAL
     ))
@@ -109,7 +101,7 @@ init 1 python:
     register_achievement(Achievement(
         id="thoughtful_reader",
         name=_("Буквально Я"),
-        description=_("Остановитесь и проведите на одной реплике диалога более 3 минут без перелистывания и паузы."),
+        description=_("Остановитесь и проведите на реплике Неон более 3 минут без перелистывания и паузы."),
         icon=None,
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Вдумайтесь в глубину слов.")
@@ -266,6 +258,15 @@ init 1 python:
     # -------------------------------------------------------------------------
     # 3. ТРЕКИНГ / ПРОГРЕССИВНЫЕ ДОСТИЖЕНИЯ
     # -------------------------------------------------------------------------
+
+    register_achievement(Achievement(
+        id="criminalist",
+        name=_("Криминалист"),
+        description=_("Внимательно изучите все доступные предметы в игре хотя бы один раз."),
+        icon=None,
+        ach_type=ACH_TYPE_TRACKING,
+        max_progress=13
+    ))
 
     register_achievement(Achievement(
         id="deep_analysis",

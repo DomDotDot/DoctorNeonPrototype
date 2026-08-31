@@ -23,6 +23,8 @@ init -2 python:
             persistent.seen_gallery_cg_set = set()
         if getattr(persistent, "seen_glossary_chars_set", None) is None:
             persistent.seen_glossary_chars_set = set()
+        if getattr(persistent, "inspected_items_set", None) is None:
+            persistent.inspected_items_set = set()
         if getattr(persistent, "ai_mode_full_run_valid", None) is None:
             persistent.ai_mode_full_run_valid = False
 
@@ -335,6 +337,39 @@ init -2 python:
             persistent.seen_glossary_chars_set.add(char_id)
             renpy.save_persistent()
             add_achievement_progress("deep_analysis", 1)
+        return None
+
+    ALL_GAME_ITEMS = [
+        "maintenance_keycard",
+        "uncharged_battery",
+        "charged_battery",
+        "bartender_uniform",
+        "blank_chip",
+        "reagent_a",
+        "reagent_b",
+        "coolant",
+        "bio_spray",
+        "admin_chip",
+        "reagent_d",
+        "mop",
+        "empty_spray"
+    ]
+
+    def track_item_inspected(item_id):
+        _safe_init_achievements_persistent()
+        if item_id:
+            persistent.inspected_items_set.add(str(item_id))
+            renpy.save_persistent()
+            count = len([x for x in ALL_GAME_ITEMS if x in persistent.inspected_items_set])
+            set_achievement_progress("criminalist", count, notify=False)
+            if count >= len(ALL_GAME_ITEMS):
+                grant_achievement("criminalist")
+        return None
+
+    def check_notification_center_achievement():
+        _safe_init_achievements_persistent()
+        if getattr(persistent, "notifications", None) and len(persistent.notifications) >= 1:
+            grant_achievement("mail_maniac")
         return None
 
     def toggle_sensitive_mode_with_check():
