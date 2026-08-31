@@ -135,13 +135,16 @@ screen graphics_settings_screen():
                         label _("Доступность")
                         textbutton _("Включение Чувствительнного контента (18+)"):
                             action Function(toggle_sensitive_mode_with_check)
+                            selected persistent.sensitive_mode
                             tooltip _("Включает отображение откровенных сцен.")
                         
                         textbutton _("ИИ Чувствительность"):
                             action Function(toggle_ai_sensitive_with_check)
+                            selected persistent.ai_sensitive_mode
 
                         textbutton _("Крупный шрифт"):
                             action ToggleField(persistent, "font_size_large")
+                            tooltip _("")
 
                         textbutton _("Не отображать полученные достижения во время игры"):
                             action ToggleField(persistent, "hide_achievement_notifications")

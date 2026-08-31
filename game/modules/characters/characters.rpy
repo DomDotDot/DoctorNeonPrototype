@@ -259,7 +259,7 @@ define sibyl = Character(_('СИВИЛЛА'), kind=base, color=c_sibyl)
 
 
 # --- Системные и Неизвестные ---
-define narrator = Character(None, kind=base, what_size=27.5, cb_name="narrator")
+define narrator = Character(None, kind=base, what_size=28, cb_name="narrator")
 define narrator_nvl = Character(None, kind=nvl)
 
 define unknown = Character(_('Неизвестный'), kind=base, color=c_white)
@@ -268,6 +268,14 @@ define unknown_char = Character("???", kind=base, color=c_white)
 define fcs = Character(_('АБСУ'), color=c_fcs, voice_tag="fcs")
 
 init python:
+    def _dynamic_say_arguments_callback(who, *args, **kwargs):
+        if getattr(persistent, "font_size_large", False):
+            kwargs["what_size"] = 58
+            kwargs["what_line_spacing"] = 4
+        return args, kwargs
+
+    config.say_arguments_callback = _dynamic_say_arguments_callback
+
     def fix_chapter_names(chap_num):
         global argon_display_name, oganesson_display_name, mika_display_name
         
