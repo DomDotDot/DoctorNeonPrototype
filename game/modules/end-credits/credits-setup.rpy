@@ -96,4 +96,13 @@ label credits_sequence(volume_id):
         return # Возвращаемся, секретной сцены не будет (результат по умолчанию None)
     
     elif _return == "finished":
+        python:
+            # Ачивка "Концерт в одиночестве" (дослушан финал Тома 1)
+            if volume_id == 1:
+                grant_achievement("concert_in_solitude")
+
+            # Ачивка "В этом нет ничего такого" (пройдено с включенной ИИ-чувствительностью)
+            if getattr(persistent, "ai_mode_full_run_valid", False) and getattr(persistent, "ai_sensitive_mode", False):
+                grant_achievement("nothing_wrong_ai")
+
         return "secret_scene" # Возвращаем флаг секретной сцены

@@ -7,6 +7,8 @@ label ch5_level2_cargo:
         
     if ch5_cargo_first_visit:
         $ ch5_cargo_first_visit = False
+        if getattr(store, 'ch5_visited_bar', False) and getattr(store, 'ch5_visited_chapel', False) and getattr(store, 'ch5_visited_library', False):
+            $ grant_achievement("cultural_walk")
         play sound "sfx/footsteps_heavy_metal.opus"
         narrator "Только я ступила на территорию Карго, как мимо меня торопливо прошли двое рабочих в тяжелых погрузочных жилетах, бурно переговариваясь на ходу."
         "Рабочий 1" "Да я тебе говорю, почитай ты новый технический мануал по логистике! Его артикул — TL-15."

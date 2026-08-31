@@ -122,6 +122,9 @@ screen say(who, what):
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
 
+    # Ачивка "Вдумчивый читатель": 3 минуты на диалоге
+    timer 180.0 action Function(grant_achievement, "thoughtful_reader")
+
 
 ## Делает namebox доступным для стилизации через объект Character.
 init python:
@@ -1012,6 +1015,9 @@ screen help():
 
     tag menu
 
+    on "show" action Function(grant_achievement, "novice")
+    on "replace" action Function(grant_achievement, "novice")
+
     default device = "keyboard"
 
     add gui.main_menu_background
@@ -1053,7 +1059,8 @@ screen help():
                         use gamepad_help
 
             null height 40
-            textbutton _("Назад") action Return() style "modern_back_button"
+            textbutton _("Назад") action (ShowMenu("about_menu") if main_menu else Return()) style "modern_back_button"
+            key "game_menu" action (ShowMenu("about_menu") if main_menu else Return())
 
 
 screen keyboard_help():

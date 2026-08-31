@@ -39,6 +39,21 @@ label ch5_corridor_gamma_input:
     if gamma_code_input == "неон" or gamma_code_input == "neon":
         play sound "sfx/power_up.opus"
 
+        # Проверка ачивки "За секунду до Полночи"
+        python:
+            try:
+                if store.ch5_satellite_timer_active:
+                    elapsed = renpy.time.time() - store.ch5_satellite_timer_start
+                    remaining = store.ch5_satellite_timer_duration - elapsed
+                    if 0.0 < remaining <= 1.99:
+                        grant_achievement("second_before_midnight")
+            except:
+                pass
+
+        # Проверка ачивки "Я НЕ ДУРАК!" (ни одного сброса генераторов)
+        if not getattr(store, 'ch5_generators_failed_occurred', False):
+            $ grant_achievement("not_a_moron")
+
         $ ch5_corridor_gamma_solved = True
         $ ch5_core_corridor_open = True
         $ ch5_satellite_timer_active = False

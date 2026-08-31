@@ -10,7 +10,7 @@ screen bio_menu():
 
     # Кнопка выхода
     textbutton "Закрыть":
-        action Return()
+        action (ShowMenu("main_menu") if main_menu else Return())
         align (0.95, 0.05)
         text_color "#ffffff"
 
@@ -36,7 +36,7 @@ screen bio_menu():
                     for char in all_bios:
                         if char.seen:
                             textbutton char.name:
-                                action SetVariable("active_bio_char", char)
+                                action [SetVariable("active_bio_char", char), Function(track_bio_char, char.id)]
                                 text_size 30
                                 text_hover_color "#3498db"
                                 text_selected_color "#3498db"

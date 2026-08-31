@@ -19,8 +19,8 @@ init python:
 
 screen main_menu_background():
 
-    on "show" action Function(play_main_menu_music)
-    on "replace" action Function(play_main_menu_music)
+    on "show" action [Function(play_main_menu_music), Function(check_midnight_shift)]
+    on "replace" action [Function(play_main_menu_music), Function(check_midnight_shift)]
 
     # Фон с параллаксом
     add "main_menu_bg_dynamic":
@@ -33,8 +33,15 @@ screen main_menu_background():
     # Виньетка
     add "gui/main_menu/vignette.png" alpha 0.4
 
-    # Логотип
-    add "main_menu_logo" xalign 0.5 ypos 25
+    # Логотип (интерактивный с реакцией на клик)
+    imagebutton:
+        idle "main_menu_logo"
+        hover "main_menu_logo"
+        xalign 0.5
+        ypos 25
+        action Function(add_achievement_progress, "dont_touch_logo", 1)
+        hover_sound "audio/sfx/cursor-hover.opus"
+        activate_sound "audio/sfx/button-click.opus"
 
 screen main_menu():
     tag menu

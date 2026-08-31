@@ -23,6 +23,7 @@ label secret_scene_vol1:
     $ renpy.pause(3.0, hard=True)
 
     scene black with Dissolve(2.0)
+    $ grant_achievement("secret_cutscene_vol1")
     
     # Возвращаем интерфейс
     window show dissolve

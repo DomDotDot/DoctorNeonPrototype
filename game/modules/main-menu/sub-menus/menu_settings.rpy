@@ -132,11 +132,11 @@ screen graphics_settings_screen():
 
                         label _("Доступность")
                         textbutton _("Включение Чувствительнного контента (18+)"):
-                            action ToggleField(persistent, "sensitive_mode")
+                            action Function(toggle_sensitive_mode_with_check)
                             tooltip _("Включает отображение откровенных сцен.")
                         
                         textbutton _("ИИ Чувствительность"):
-                            action ToggleField(persistent, "ai_sensitive_mode")
+                            action Function(toggle_ai_sensitive_with_check)
 
                         textbutton _("Крупный шрифт"):
                             action ToggleField(persistent, "font_size_large")

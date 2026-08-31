@@ -1,4 +1,10 @@
 label chapter_1_rpy:
+    python:
+        if getattr(persistent, "ai_sensitive_mode", False):
+            persistent.ai_mode_full_run_valid = True
+        else:
+            persistent.ai_mode_full_run_valid = False
+
     play sound "sfx/next-chapter.opus"
     call screen chapter_screen(_("Глава 1"), _("Синяя Ворона"))
 
@@ -28,5 +34,7 @@ label chapter_1_rpy:
     call chapter1_marcus_attack_scene from _call_chapter1_marcus_attack_scene
 
     call chapter1_escape_sequence_start from _call_chapter1_escape_sequence_start
+
+    $ finish_chapter_tracking()
 
 return

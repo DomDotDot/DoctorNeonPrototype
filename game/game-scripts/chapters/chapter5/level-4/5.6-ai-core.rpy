@@ -232,6 +232,7 @@ label ch5_ai_core_verification:
     $ ch5_ai_questions = select_random_questions(3)
     $ ch5_ai_current_question = 0
     $ ch5_ai_wrong_attempts = 0
+    $ store.ch5_sibyl_hint_used = False
     
 label ch5_ai_core_ask_question:
     
@@ -270,6 +271,7 @@ label ch5_ai_core_input:
         $ ch5_ai_wrong_attempts += 1
         
         if ch5_ai_wrong_attempts >= 3:
+            $ store.ch5_sibyl_hint_used = True
             $ ch5_q_hint = ch5_current_q["hint"]
             sibyl "Три неверных попытки. Подсказка:"
             sibyl "[ch5_q_hint!t]"
@@ -281,6 +283,9 @@ label ch5_ai_core_input:
 
 # --- ФИНАЛЬНЫЙ ВОПРОС: КТО ВЫ? ---
 label ch5_ai_core_final_question:
+
+    if not getattr(store, 'ch5_sibyl_hint_used', False):
+        $ grant_achievement("sibyl_no_hints")
 
     scene ch05_cg52_v05 with dissolve
     
@@ -306,6 +311,8 @@ label ch5_ai_core_final_input:
         jump ch5_ai_core_final_input
         
     $ ch5_final_response = get_final_answer_response(ch5_final_answer)
+    if ch5_final_response != AI_FINAL_DEFAULT_RESPONSE:
+        $ grant_achievement("sibyl_lore_name")
     
     narrator "Шар замер. Нити света внутри него остановились на одну длинную секунду."
 

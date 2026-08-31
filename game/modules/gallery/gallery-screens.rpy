@@ -115,6 +115,9 @@ screen gallery():
 screen gallery_view(item):
     modal True
     tag menu
+
+    on "show" action Function(track_gallery_cg, item.name)
+
     $ unlocked_imgs = item.get_unlocked_list()
     default idx = 0
 

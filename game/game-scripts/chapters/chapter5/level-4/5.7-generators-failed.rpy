@@ -10,6 +10,7 @@ label ch5_satellite_timer_expired:
     """
     
     $ ch5_satellite_timer_active = False
+    $ store.ch5_generators_failed_occurred = True
     $ ch5_corridor_alpha_solved = False
     $ ch5_corridor_beta_solved = False
     $ ch5_corridor_gamma_solved = False

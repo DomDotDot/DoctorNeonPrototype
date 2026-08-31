@@ -21,7 +21,7 @@ style chapter_subtitle_style:
 screen chapter_screen(chapter_text, title_text, subtitle_text=None):
     modal True
 
-    #on "show":
+    on "show" action Function(start_chapter_tracking)
     timer 5.0 action [Hide('chapter_screen', transition=dissolve), Return()]
     
     frame:

@@ -1,6 +1,7 @@
 # --- ЛОКАЦИЯ 2: ЧАСОВНЯ (ЛОР: Туман и Тишина) ---
 label ch5_station_chapel_scene:
     $ visited_chapel = True
+    $ ch5_visited_chapel = True
     
     if ch5_read_folklore and not ch5_chapel_realization_triggered:
         jump ch5_station_chapel_menu
@@ -32,6 +33,7 @@ label ch5_station_chapel_menu:
         narrator "Я вошла в Часовню. Тихое гудение вентиляции и блеклый свет проекции Земли — здесь никого не было."
         
         if ch5_priest_reject_points >= 2:
+            $ grant_achievement("scared_the_grandpa")
             neon "{=thoughts}Священник... Его здесь нет.{/thoughts}"
             narrator """
                 Я медленно подошла к пустой скамье, на которой он сидел. 

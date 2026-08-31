@@ -48,6 +48,10 @@ label ch5_level2_dorms_room_menu:
 
     scene ch05_bg10_v01 with fade
     
+    # Проверка достижения "Миссия подождет" (10+ минут в дормах)
+    if ch5_dorms_time >= 10:
+        $ grant_achievement("mission_can_wait")
+
     # Проверка триггера времени (7 минут)
     if ch5_dorms_time >= 7 and not ch5_dorms_event_triggered:
         jump ch5_level2_dorms_eavesdrop

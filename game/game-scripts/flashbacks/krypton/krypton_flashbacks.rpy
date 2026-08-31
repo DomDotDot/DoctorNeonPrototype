@@ -151,6 +151,7 @@ label krypton_firstmeet_flashback:
         """
 
         scene featured_cg-8_2 with dissolve # CG: Неон и Криптон в парке вечером, они смеются, держась за руки.
+        $ _krypton_resonance_start_time = time.time()
 
         "???" "Неон! Ты слышала?! Им понравилось! Профессор сказал, что это было 'глубоко'! Глубоко!"
 
@@ -272,6 +273,14 @@ label krypton_firstmeet_flashback:
         stop music
         stop ambient
         stop sound
+
+        python:
+            try:
+                if '_krypton_resonance_start_time' in globals() or '_krypton_resonance_start_time' in locals():
+                    if time.time() - _krypton_resonance_start_time >= 420.0: # 7 минут
+                        grant_achievement("frequency_resonance")
+            except:
+                pass
         
         scene white with flash
         play sound "sfx/instant_static.opus" volume 0.125

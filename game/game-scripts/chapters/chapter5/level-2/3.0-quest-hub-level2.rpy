@@ -28,6 +28,9 @@ label ch5_quest_init:
     
     # Флаги нового саб-квеста
     $ ch5_cargo_first_visit = True
+    $ ch5_visited_bar = False
+    $ ch5_visited_chapel = False
+    $ ch5_visited_library = False
     $ ch5_dorms_article_found = False
     $ ch5_chapel_priest_state = 0
     $ ch5_read_folklore = False

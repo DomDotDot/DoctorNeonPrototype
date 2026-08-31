@@ -94,6 +94,7 @@ screen credits_screen():
     zorder 25
     modal True
     use main_menu_background
+    on "show" action Function(grant_achievement, "behind_the_scenes")
     key "game_menu" action ShowMenu("about_menu")
 
     frame:

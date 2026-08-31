@@ -8,6 +8,8 @@ screen pause_menu():
     tag menu
     modal True # Блокируем ввод в игру
 
+    on "show" action Function(mark_pause_opened)
+
     # Затемнение фона
     add Solid("#000000b3")
 

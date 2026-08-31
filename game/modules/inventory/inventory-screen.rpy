@@ -81,7 +81,7 @@ screen item_context_menu(item):
                 xalign 0.5
                 
                 # Кнопка ОСМОТРЕТЬ (показывает описание)
-                textbutton _("Осмотреть") action Show("item_description", i=item)
+                textbutton _("Осмотреть") action [Show("item_description", i=item), Function(grant_achievement, "criminalist")]
                 
                 # Кнопка ИСПОЛЬЗОВАТЬ (если есть функция)
                 if item.use_func:

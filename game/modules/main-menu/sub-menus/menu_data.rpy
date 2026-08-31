@@ -52,6 +52,12 @@ init python:
         if hasattr(persistent, "_seen_ever"):
             persistent._seen_ever.clear()
         
+        # Сброс достижений
+        try:
+            reset_all_achievements()
+        except:
+            pass
+
         renpy.save_persistent()
         
         renpy.notify(_("Сюжетный прогресс сброшен."))
@@ -157,6 +163,11 @@ init python:
 
         unlock_all_chars_full()
         
+        try:
+            unlock_all_achievements()
+        except:
+            pass
+
         renpy.notify(_("Весь контент разблокирован."))
         renpy.restart_interaction()
         
@@ -315,13 +326,31 @@ screen data_settings_screen():
                                 
                                 vbox:
                                     yalign 0.5
-                                    text _("Разблокировать всех пероснажей") style "danger_title_text" color "#aaffaa"
+                                    text _("Разблокировать всех персонажей") style "danger_title_text" color "#aaffaa"
                                     text _("Открывает всех персонажей из Глоссария") style "danger_desc_text"
 
                                 button:
                                     style "safe_button"
                                     text _("Открыть всё") style "danger_button_text" size 20
                                     action Confirm(_("Открыть всех персонажей в Глоссарий?"), yes=Function(unlock_all_chars_full))
+
+                        # Карточка: Unlock Achievements
+                        frame:
+                            style "danger_zone_frame_green"
+                            
+                            hbox:
+                                yalign 0.5
+                                xfill True 
+                                
+                                vbox:
+                                    yalign 0.5
+                                    text _("Разблокировать все достижения") style "danger_title_text" color "#aaffaa"
+                                    text _("Открывает все достижения (Чит/Тест)") style "danger_desc_text"
+
+                                button:
+                                    style "safe_button"
+                                    text _("Открыть всё") style "danger_button_text" size 20
+                                    action Confirm(_("Разблокировать все достижения?"), yes=Function(unlock_all_achievements))
 
             # Кнопка НАЗАД (внизу)
             null height 20

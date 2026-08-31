@@ -91,6 +91,7 @@ label ch5_hop_menu:
                 neon "Запрос на повышение уровня доступа до чипа Администратора."
                 
                 if not getattr(store, 'ch5_hop_ticket_correct', True):
+                    $ grant_achievement("bureaucracy")
                     scene ch05_cg46_v02 with dissolve
                     "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
                     neon "Серьёзно?! Ты же просто железка без эмоций!"
@@ -153,6 +154,7 @@ label ch5_hop_menu:
             narrator "Я подошла к управляющему терминалу табло. Экран заблокирован 4-значным PIN-кодом."
             neon "{=thoughts}Система диагностики откликается. Я могу попытаться подобрать код перехватом сигналов.{/thoughts}"
             narrator "Правила дешифровки: 4 уникальные цифры. 'Бык' — цифра угадана и на своём месте. 'Корова' — цифра угадана, но не на своём месте."
+            $ store.ch5_hop_guess_count = 0
             
             label ch5_hop_minigame:
                 $ player_guess = renpy.input(_("Введите 4 уникальные цифры (или 'exit' для выхода):"), length=4, allow="0123456789").strip()
@@ -164,9 +166,15 @@ label ch5_hop_menu:
                     narrator "Ошибка ввода. Требуется ровно 4 УНИКАЛЬНЫЕ цифры."
                     jump ch5_hop_minigame
                     
+                $ store.ch5_hop_guess_count += 1
+                if store.ch5_hop_guess_count >= 15:
+                    $ grant_achievement("fiasco_bro")
+
                 $ b_count, c_count = check_bulls_and_cows(store.ch5_hop_pin, player_guess)
                 
                 if b_count == 4:
+                    if store.ch5_hop_guess_count <= 7:
+                        $ grant_achievement("seven_seven_seven_bulls")
                     play sound "sfx/access_granted_chime.opus"
                     narrator "Доступ разрешен. Режим администратора активирован."
                     narrator "Я вручную ввела свой номер талона: [store.ch5_hop_ticket]."

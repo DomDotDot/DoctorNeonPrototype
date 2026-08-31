@@ -4,6 +4,7 @@ default ch5_unlocked_summary = False
 default ch5_unlocked_logistics = False
 
 label ch5_level2_library:
+    $ ch5_visited_library = True
     scene ch05_bg05_v01 with fade
     play sound "sfx/terminal_typing.opus"
 

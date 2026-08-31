@@ -20,4 +20,6 @@ label chapter_2_rpy:
         call dream_sequence_japan_1 from _call_dream_sequence_japan_1
 
         call chapter2_act5_anomic_arrival from _call_chapter2_act5_anomic_arrival
+
+        $ finish_chapter_tracking()
 return

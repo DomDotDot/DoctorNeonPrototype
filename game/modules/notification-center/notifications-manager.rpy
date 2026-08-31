@@ -79,6 +79,10 @@ init -999 python:
     def mark_all_read():
         for n in persistent.notifications:
             n.is_read = True
+        try:
+            grant_achievement("mail_maniac")
+        except:
+            pass
         renpy.restart_interaction()
         
     def delete_notification(notif_obj):
