@@ -2,7 +2,8 @@
   "build_update": false,
   "packages": [
     "win",
-    "linux"
+    "linux",
+    "mac"
   ],
   "add_from": true,
   "force_recompile": true,

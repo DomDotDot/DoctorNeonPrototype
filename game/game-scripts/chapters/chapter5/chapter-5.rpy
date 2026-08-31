@@ -20,17 +20,17 @@ label chapter_5_rpy:
 
         call station_server_room_entry from _call_station_server_room_entry
 
-        call chapter5_cargo_dead_end
-        call chapter5_bridge_overload
+        call chapter5_cargo_dead_end from _call_chapter5_cargo_dead_end
+        call chapter5_bridge_overload from _call_chapter5_bridge_overload
 
         call dream_sequence_japan_6 from _call_dream_sequence_japan_6
 
-        call chapter5_rescue
-        call chapter5_finale_sacrifice
+        call chapter5_rescue from _call_chapter5_rescue
+        call chapter5_finale_sacrifice from _call_chapter5_finale_sacrifice
 
         call dream_sequence_japan_5 from _call_dream_sequence_japan_5
 
-        call chapter5_wasteland
-        call chapter5_oganesson
+        call chapter5_wasteland from _call_chapter5_wasteland
+        call chapter5_oganesson from _call_chapter5_oganesson
     return
 return
