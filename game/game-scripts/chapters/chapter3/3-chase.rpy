@@ -72,6 +72,7 @@ label game_over_bouncer:
     stop music
     stop ambient
     scene black with dissolve
+    $ track_failure("bouncer_chase")
     
     if getattr(store, 'bouncer_provoked_by_daughter', False):
         $ grant_achievement("bouncer_daughter_game_over")

@@ -10,9 +10,14 @@ init -2 python:
     ACH_TYPE_TRACKING = "tracking"  # 3. Трекинг: пошаговый прогресс (0 / max_progress), авто-анлок.
 
     # =========================================================================
-    # БЕЗОПАСНАЯ ИНИЦИАЛИЗАЦИЯ PERSISTENT
+    # БЕЗОПАСНАЯ И БЫСТРАЯ ИНИЦИАЛИЗАЦИЯ PERSISTENT (КЭШИРОВАННАЯ)
     # =========================================================================
+    _persistent_initialized = False
+
     def _safe_init_achievements_persistent():
+        global _persistent_initialized
+        if _persistent_initialized:
+            return
         if getattr(persistent, "achievements", None) is None:
             persistent.achievements = {}
         if getattr(persistent, "achievements_progress", None) is None:
@@ -25,8 +30,17 @@ init -2 python:
             persistent.seen_glossary_chars_set = set()
         if getattr(persistent, "inspected_items_set", None) is None:
             persistent.inspected_items_set = set()
+        if getattr(persistent, "seen_books_set", None) is None:
+            persistent.seen_books_set = set()
+        if getattr(persistent, "seen_failures_set", None) is None:
+            persistent.seen_failures_set = set()
+        if getattr(persistent, "invalid_item_use_count", None) is None:
+            persistent.invalid_item_use_count = 0
+        if getattr(persistent, "hide_achievement_notifications", None) is None:
+            persistent.hide_achievement_notifications = True
         if getattr(persistent, "ai_mode_full_run_valid", None) is None:
             persistent.ai_mode_full_run_valid = False
+        _persistent_initialized = True
 
     _safe_init_achievements_persistent()
 
@@ -57,7 +71,7 @@ init -2 python:
 
         def get_progress(self):
             _safe_init_achievements_persistent()
-            if self.is_unlocked():
+            if self.id in persistent.achievements:
                 return self.max_progress
             val = persistent.achievements_progress.get(self.id, 0)
             return min(self.max_progress, max(0, val))
@@ -98,27 +112,31 @@ init -2 python:
         def unlock(self, notify=True):
             _safe_init_achievements_persistent()
 
-            if self.id not in persistent.achievements:
-                persistent.achievements[self.id] = {
-                    "unlocked": True,
-                    "timestamp": time.time()
-                }
-                persistent.achievements_progress[self.id] = self.max_progress
-                renpy.save_persistent()
+            # Быстрый выход, если достижение уже получено
+            if self.id in persistent.achievements:
+                return None
 
-                if notify:
-                    show_achievement_notification(self)
-                
-                _safe_restart_interaction()
+            persistent.achievements[self.id] = {
+                "unlocked": True,
+                "timestamp": time.time()
+            }
+            persistent.achievements_progress[self.id] = self.max_progress
+            renpy.save_persistent()
 
-                if self.id != "completionist_100":
-                    check_platinum_achievement()
+            if notify:
+                show_achievement_notification(self)
+            
+            _safe_restart_interaction()
+
+            if self.id != "completionist_100":
+                check_platinum_achievement()
             return None
 
         def add_progress(self, amount=1, notify=True):
             _safe_init_achievements_persistent()
 
-            if self.is_unlocked() or amount <= 0:
+            # Быстрый выход, если уже получено или amount <= 0
+            if self.id in persistent.achievements or amount <= 0:
                 return None
 
             current = persistent.achievements_progress.get(self.id, 0)
@@ -135,7 +153,8 @@ init -2 python:
         def set_progress(self, value, notify=True):
             _safe_init_achievements_persistent()
 
-            if self.is_unlocked():
+            # Быстрый выход, если уже получено
+            if self.id in persistent.achievements:
                 return None
 
             val = max(0, int(value))
@@ -170,32 +189,36 @@ init -2 python:
         return achievements_map.get(str(ach_id), None)
 
     def grant_achievement(ach_id, notify=True):
+        _safe_init_achievements_persistent()
+        # Мгновенный выход за O(1), если уже открыто
+        if str(ach_id) in persistent.achievements:
+            return None
         ach = get_achievement(ach_id)
         if ach:
             ach.unlock(notify=notify)
         else:
-            _safe_init_achievements_persistent()
-            if str(ach_id) not in persistent.achievements:
-                persistent.achievements[str(ach_id)] = {
-                    "unlocked": True,
-                    "timestamp": time.time()
-                }
-                renpy.save_persistent()
-                if notify:
-                    prefix = renpy.translate_string(_("Достижение получено: {}"))
-                    renpy.notify(prefix.format(ach_id))
-                _safe_restart_interaction()
+            persistent.achievements[str(ach_id)] = {
+                "unlocked": True,
+                "timestamp": time.time()
+            }
+            renpy.save_persistent()
+            if notify and not getattr(persistent, "hide_achievement_notifications", True):
+                prefix = renpy.translate_string(_("Достижение получено: {}"))
+                renpy.notify(prefix.format(ach_id))
+            _safe_restart_interaction()
         return None
 
     def unlock_achievement(ach_id, notify=True):
         return grant_achievement(ach_id, notify=notify)
 
     def add_achievement_progress(ach_id, amount=1, notify=True):
+        _safe_init_achievements_persistent()
+        if str(ach_id) in persistent.achievements or amount <= 0:
+            return None
         ach = get_achievement(ach_id)
         if ach:
             ach.add_progress(amount=amount, notify=notify)
         else:
-            _safe_init_achievements_persistent()
             current = persistent.achievements_progress.get(str(ach_id), 0)
             persistent.achievements_progress[str(ach_id)] = current + amount
             renpy.save_persistent()
@@ -203,11 +226,13 @@ init -2 python:
         return None
 
     def set_achievement_progress(ach_id, value, notify=True):
+        _safe_init_achievements_persistent()
+        if str(ach_id) in persistent.achievements:
+            return None
         ach = get_achievement(ach_id)
         if ach:
             ach.set_progress(value=value, notify=notify)
         else:
-            _safe_init_achievements_persistent()
             val = max(0, int(value))
             current = persistent.achievements_progress.get(str(ach_id), 0)
             if current != val:
@@ -217,9 +242,6 @@ init -2 python:
         return None
 
     def has_achievement(ach_id):
-        ach = get_achievement(ach_id)
-        if ach:
-            return ach.is_unlocked()
         _safe_init_achievements_persistent()
         return str(ach_id) in persistent.achievements
 
@@ -231,14 +253,18 @@ init -2 python:
         return (persistent.achievements_progress.get(str(ach_id), 0), 1)
 
     def get_achievements_stats():
+        _safe_init_achievements_persistent()
         total = len(achievements_list)
         if total == 0:
             return (0, 0, 0)
-        unlocked = sum(1 for a in achievements_list if a.is_unlocked())
+        unlocked = sum(1 for a in achievements_list if a.id in persistent.achievements)
         percent = int((float(unlocked) / float(total)) * 100)
         return (unlocked, total, percent)
 
     def show_achievement_notification(ach):
+        _safe_init_achievements_persistent()
+        if getattr(persistent, "hide_achievement_notifications", True):
+            return
         try:
             sound_path = "audio/sfx/keycard-accepted.opus"
             if renpy.loadable(sound_path):
@@ -248,10 +274,12 @@ init -2 python:
         renpy.show_screen("achievement_popup_toast", ach=ach)
 
     def check_platinum_achievement():
+        _safe_init_achievements_persistent()
+        if "completionist_100" in persistent.achievements:
+            return None
         plat_ach = get_achievement("completionist_100")
-        if plat_ach and not plat_ach.is_unlocked():
-            other_achs = [a for a in achievements_list if a.id != "completionist_100"]
-            if other_achs and all(a.is_unlocked() for a in other_achs):
+        if plat_ach:
+            if all(a.id in persistent.achievements for a in achievements_list if a.id != "completionist_100"):
                 plat_ach.unlock(notify=True)
 
     def unlock_all_achievements(notify=False):
@@ -263,12 +291,19 @@ init -2 python:
         return None
 
     def reset_all_achievements():
+        global _persistent_initialized
         persistent.achievements = {}
         persistent.achievements_progress = {}
         persistent.total_playtime_seconds = 0
         persistent.seen_gallery_cg_set = set()
         persistent.seen_glossary_chars_set = set()
+        persistent.inspected_items_set = set()
+        persistent.seen_books_set = set()
+        persistent.seen_failures_set = set()
+        persistent.invalid_item_use_count = 0
+        _persistent_initialized = False
         renpy.save_persistent()
+        _safe_init_achievements_persistent()
         renpy.notify(_("Прогресс достижений сброшен."))
         _safe_restart_interaction()
         return None
@@ -310,22 +345,25 @@ init -2 python:
         if _current_chapter_start_time is None:
             return None
         
+        _safe_init_achievements_persistent()
         elapsed = time.time() - _current_chapter_start_time
         _current_chapter_start_time = None
 
-        if elapsed > 5.0 and elapsed < 600.0:
+        if "dont_rush" not in persistent.achievements and 5.0 < elapsed < 600.0:
             grant_achievement("dont_rush")
 
-        if not _current_chapter_paused and elapsed >= 30.0:
+        if "without_blinking" not in persistent.achievements and not _current_chapter_paused and elapsed >= 30.0:
             grant_achievement("without_blinking")
 
-        if is_audio_muted():
+        if "absolute_silence" not in persistent.achievements and is_audio_muted():
             grant_achievement("absolute_silence")
         return None
 
     def track_gallery_cg(cg_name):
         _safe_init_achievements_persistent()
-        if cg_name and cg_name not in persistent.seen_gallery_cg_set:
+        if "nostalgia" in persistent.achievements or not cg_name:
+            return None
+        if cg_name not in persistent.seen_gallery_cg_set:
             persistent.seen_gallery_cg_set.add(cg_name)
             renpy.save_persistent()
             add_achievement_progress("nostalgia", 1)
@@ -333,7 +371,9 @@ init -2 python:
 
     def track_bio_char(char_id):
         _safe_init_achievements_persistent()
-        if char_id and char_id not in persistent.seen_glossary_chars_set:
+        if "deep_analysis" in persistent.achievements or not char_id:
+            return None
+        if char_id not in persistent.seen_glossary_chars_set:
             persistent.seen_glossary_chars_set.add(char_id)
             renpy.save_persistent()
             add_achievement_progress("deep_analysis", 1)
@@ -357,7 +397,9 @@ init -2 python:
 
     def track_item_inspected(item_id):
         _safe_init_achievements_persistent()
-        if item_id:
+        if "criminalist" in persistent.achievements or not item_id:
+            return None
+        if str(item_id) not in persistent.inspected_items_set:
             persistent.inspected_items_set.add(str(item_id))
             renpy.save_persistent()
             count = len([x for x in ALL_GAME_ITEMS if x in persistent.inspected_items_set])
@@ -368,12 +410,15 @@ init -2 python:
 
     def check_notification_center_achievement():
         _safe_init_achievements_persistent()
+        if "mail_maniac" in persistent.achievements:
+            return None
         if getattr(persistent, "notifications", None) and len(persistent.notifications) >= 1:
             grant_achievement("mail_maniac")
         return None
 
     def toggle_sensitive_mode_with_check():
-        if not persistent.sensitive_mode:
+        _safe_init_achievements_persistent()
+        if "pathological_interest" not in persistent.achievements and not persistent.sensitive_mode:
             if renpy.showing("cg-36-1") or renpy.showing("cg-36-1a") or renpy.showing("featured_cg-36-1b"):
                 grant_achievement("pathological_interest")
         persistent.sensitive_mode = not persistent.sensitive_mode
@@ -391,6 +436,9 @@ init -2 python:
 
     # Проверка полуночи (вызывается безопасно)
     def check_midnight_shift():
+        _safe_init_achievements_persistent()
+        if "midnight_shift" in persistent.achievements:
+            return None
         if datetime.datetime.now().hour in (1, 2, 3, 4):
             grant_achievement("midnight_shift")
         return None
@@ -409,12 +457,141 @@ init -2 python:
         if 0 < delta < 120:
             _safe_init_achievements_persistent()
             persistent.total_playtime_seconds += delta
-            hours = int(persistent.total_playtime_seconds // 3600)
-            current_hours = persistent.achievements_progress.get("play_16_hours", 0)
-            if hours != current_hours:
-                set_achievement_progress("play_16_hours", hours, notify=True)
+            if "play_16_hours" not in persistent.achievements:
+                hours = int(persistent.total_playtime_seconds // 3600)
+                current_hours = persistent.achievements_progress.get("play_16_hours", 0)
+                if hours != current_hours:
+                    set_achievement_progress("play_16_hours", hours, notify=True)
 
-    if hasattr(config, "periodic_callbacks"):
-        config.periodic_callbacks.append(_update_playtime_callback)
-    else:
-        config.interact_callbacks.append(_update_playtime_callback)
+    if getattr(renpy.config, "periodic_callbacks", None) is not None:
+        renpy.config.periodic_callbacks.append(_update_playtime_callback)
+    elif getattr(renpy.config, "interact_callbacks", None) is not None:
+        renpy.config.interact_callbacks.append(_update_playtime_callback)
+
+    # -------------------------------------------------------------------------
+    # НОВЫЕ ХУКИ И ТРЕКЕРЫ (С ОПТИМИЗИРОВАННЫМ РАННИМ ВЫХОДОМ)
+    # -------------------------------------------------------------------------
+
+    # 1. Трекинг книг в библиотеке ("Книжный Червь")
+    def track_library_book(book_id):
+        _safe_init_achievements_persistent()
+        if "bookworm" in persistent.achievements or not book_id:
+            return None
+        if str(book_id) not in persistent.seen_books_set:
+            persistent.seen_books_set.add(str(book_id))
+            renpy.save_persistent()
+            count = len(persistent.seen_books_set)
+            set_achievement_progress("bookworm", count, notify=True)
+        return None
+
+    # 2. Трекинг неудач / поражений ("Хроники неудач")
+    def track_failure(fail_id):
+        _safe_init_achievements_persistent()
+        if "failure_chronicles" in persistent.achievements or not fail_id:
+            return None
+        if str(fail_id) not in persistent.seen_failures_set:
+            persistent.seen_failures_set.add(str(fail_id))
+            renpy.save_persistent()
+            count = len(persistent.seen_failures_set)
+            set_achievement_progress("failure_chronicles", count, notify=True)
+        return None
+
+    # 3. Использование неподходящих предметов ("Запасной план")
+    def track_invalid_item_use():
+        _safe_init_achievements_persistent()
+        if "backup_plan" in persistent.achievements:
+            return None
+        persistent.invalid_item_use_count += 1
+        renpy.save_persistent()
+        if persistent.invalid_item_use_count >= 5:
+            grant_achievement("backup_plan")
+        return None
+
+    # 4. Тайминг выборов ("Интуиция детектива" и "Мучительные сомнения")
+    _choice_display_time = 0.0
+
+    def on_choice_menu_show():
+        global _choice_display_time
+        _safe_init_achievements_persistent()
+        if "detective_intuition" in persistent.achievements:
+            return None
+        _choice_display_time = time.time()
+        return None
+
+    def on_choice_menu_choice():
+        global _choice_display_time
+        _safe_init_achievements_persistent()
+        if "detective_intuition" in persistent.achievements:
+            return None
+        if _choice_display_time > 0:
+            elapsed = time.time() - _choice_display_time
+            if 0.05 <= elapsed <= 1.5:
+                grant_achievement("detective_intuition")
+            _choice_display_time = 0.0
+        return None
+
+    # 5. Сохранения игры ("Синдром Сохранения" - 50 сохранений)
+    def on_game_saved_callback():
+        _safe_init_achievements_persistent()
+        if "save_scummer" in persistent.achievements:
+            return None
+        add_achievement_progress("save_scummer", 1, notify=True)
+
+    _orig_renpy_save = getattr(renpy, "save", None)
+    if _orig_renpy_save is not None:
+        def _ach_wrapped_save(*args, **kwargs):
+            res = _orig_renpy_save(*args, **kwargs)
+            try:
+                on_game_saved_callback()
+            except:
+                pass
+            return res
+        renpy.save = _ach_wrapped_save
+
+    # 6. Режим кинотеатра (100 строк авточтения подряд без пропуска/ручных кликов)
+    _consecutive_afm_lines = 0
+
+    def check_afm_mode_callback(event, interact=True, **kwargs):
+        global _consecutive_afm_lines
+        _safe_init_achievements_persistent()
+        if "cinema_mode" in persistent.achievements:
+            return
+
+        if event in ("show", "begin"):
+            is_skipping = False
+            is_afm = False
+            try:
+                # Проверяем пропуск диалогов (CTRL / кнопка Пропуск)
+                if getattr(renpy, "is_skipping", None) and renpy.is_skipping():
+                    is_skipping = True
+                elif getattr(renpy.config, "skipping", None):
+                    is_skipping = True
+
+                # Проверяем исключительно Авточтение (Auto Forward)
+                if not is_skipping:
+                    if getattr(renpy, "is_auto_forwarding", None) and renpy.is_auto_forwarding():
+                        is_afm = True
+            except:
+                pass
+
+            if is_afm and not is_skipping:
+                _consecutive_afm_lines += 1
+                if _consecutive_afm_lines >= 100:
+                    grant_achievement("cinema_mode")
+            else:
+                _consecutive_afm_lines = 0
+
+    if getattr(renpy.config, "all_character_callbacks", None) is not None:
+        renpy.config.all_character_callbacks.append(check_afm_mode_callback)
+
+    # 7. Полиглот (смена языка в игре)
+    def check_polyglot_on_lang_change():
+        _safe_init_achievements_persistent()
+        if "polyglot" in persistent.achievements:
+            return None
+        try:
+            if not getattr(store, "main_menu", False):
+                grant_achievement("polyglot")
+        except:
+            pass
+        return None

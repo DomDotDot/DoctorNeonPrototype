@@ -119,6 +119,7 @@ label ch5_library_terminal_choice_menu:
 
 
 label ch5_library_summary_scene:
+    $ track_library_book("summary")
     narrator """
         Формат: Аналитическая статья из делового журнала 'Forbes: Новая Эра'.
         
@@ -153,6 +154,7 @@ label ch5_library_summary_scene:
 
 
 label ch5_library_social_scene:
+    $ track_library_book("social")
     narrator """
         Формат: Выдержка из социологического справочника. Тон сухой, канцелярский.
         
@@ -174,6 +176,7 @@ label ch5_library_social_scene:
 
 
 label ch5_library_logistics_scene:
+    $ track_library_book("logistics")
     narrator """
         Формат: Инструкция для пилотов корпорации.
         
@@ -195,6 +198,7 @@ label ch5_library_logistics_scene:
 
 
 label ch5_library_folklore_scene:
+    $ track_library_book("folklore")
     narrator "Формат: Оцифрованный текстовый файл. В аннотации указано, что это устное предание, записанное со слов старого беженца из восточного островного сектора незадолго до его смерти от легочной гнили."
 
     show ch05_cg17_v01 with { "master" : Dissolve(10.0) }

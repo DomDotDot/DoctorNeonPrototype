@@ -306,6 +306,7 @@ label ch5_ai_core_final_question:
 label ch5_ai_core_final_input:
     $ ch5_final_answer = renpy.input(_("Кто вы?"), length=30)
     if is_ai_name_forbidden(ch5_final_answer):
+        $ grant_achievement("protocol_error_profanity")
         $ ch5_forbidden_name_error = _("Я не могу принять этот ответ. Пожалуйста, укажите имя, отличное от отрицания вашей идентичности.")
         sibyl "[ch5_forbidden_name_error!t]"
         jump ch5_ai_core_final_input

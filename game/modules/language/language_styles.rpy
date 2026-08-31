@@ -35,7 +35,7 @@ screen language_selection_screen():
                         
                         button:
                             style "lang_button"
-                            action [Language(code), Return()]
+                            action [Language(code), Function(check_polyglot_on_lang_change), Return()]
                             
 
             

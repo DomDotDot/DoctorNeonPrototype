@@ -87,7 +87,7 @@ screen item_context_menu(item):
                 if item.use_func:
                     textbutton _("Использовать") action Function(use_current_item)
                 else:
-                    textbutton _("Использовать") action Notify(_("Это нельзя использовать здесь.")) text_color "#888"
+                    textbutton _("Использовать") action [Notify(_("Это нельзя использовать здесь.")), Function(track_invalid_item_use)] text_color "#888"
 
                 # Кнопка ЗАКРЫТЬ
                 textbutton _("Отмена") action SetVariable("selected_item", None)

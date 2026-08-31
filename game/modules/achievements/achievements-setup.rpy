@@ -255,9 +255,92 @@ init 1 python:
         hidden_desc=_("Скрытое достижение. Некоторые слова стоят слишком дорого.")
     ))
 
+    # --- НОВЫЕ СКРЫТЫЕ ДОСТИЖЕНИЯ ---
+
+    register_achievement(Achievement(
+        id="protocol_error_profanity",
+        name=_("Ошибка протокола: Нецензурная брань"),
+        description=_("При вопросе СИВИЛЛЫ 'Кто вы?' попытайтесь ввести запрещённое слово или оскорбление."),
+        icon=None,
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. Проверьте реакцию искусственного интеллекта на нарушение субординации.")
+    ))
+
+    register_achievement(Achievement(
+        id="backup_plan",
+        name=_("Запасной план"),
+        description=_("Попробуйте применить неподходящий или бесполезный предмет из инвентаря 5 раз."),
+        icon=None,
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. Попытайтесь применить неподходящий предмет из инвентаря несколько раз.")
+    ))
+
+    register_achievement(Achievement(
+        id="painful_doubts",
+        name=_("Мучительные сомнения"),
+        description=_("Проведите на экране выбора важного решения более 2 минут без действия."),
+        icon=None,
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. Не спешите делать судьбоносный выбор.")
+    ))
+
+    register_achievement(Achievement(
+        id="detective_intuition",
+        name=_("Интуиция детектива"),
+        description=_("Сделайте сюжетный выбор менее чем за 1.5 секунды после появления меню выборов."),
+        icon=None,
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. Доверьтесь первому порыву и молниеносной реакции.")
+    ))
+
+    register_achievement(Achievement(
+        id="polyglot",
+        name=_("Полиглот"),
+        description=_("Смените язык игры прямо во время прохождения истории."),
+        icon=None,
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. Опробуйте языковые настройки во время чтения.")
+    ))
+
+    register_achievement(Achievement(
+        id="cinema_mode",
+        name=_("Режим кинотеатра"),
+        description=_("Прочитайте 100 строк диалога подряд в режиме Авточтения (Auto Forward)."),
+        icon=None,
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. Откиньтесь на спинку кресла и наслаждайтесь историей.")
+    ))
+
     # -------------------------------------------------------------------------
     # 3. ТРЕКИНГ / ПРОГРЕССИВНЫЕ ДОСТИЖЕНИЯ
     # -------------------------------------------------------------------------
+
+    register_achievement(Achievement(
+        id="bookworm",
+        name=_("Книжный Червь"),
+        description=_("Изучите все 4 архивные статьи в терминале Библиотеки Орбитали."),
+        icon=None,
+        ach_type=ACH_TYPE_TRACKING,
+        max_progress=4
+    ))
+
+    register_achievement(Achievement(
+        id="failure_chronicles",
+        name=_("Хроники неудач"),
+        description=_("Столкнитесь с 3 различными ситуациями неудач, перезагрузок или гибели."),
+        icon=None,
+        ach_type=ACH_TYPE_TRACKING,
+        max_progress=3
+    ))
+
+    register_achievement(Achievement(
+        id="save_scummer",
+        name=_("Синдром Сохранения"),
+        description=_("Сделайте 50 ручных сохранений игры."),
+        icon=None,
+        ach_type=ACH_TYPE_TRACKING,
+        max_progress=50
+    ))
 
     register_achievement(Achievement(
         id="criminalist",

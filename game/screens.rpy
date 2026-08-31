@@ -218,9 +218,18 @@ style input:
 screen choice(items):
     style_prefix "choice"
 
+    if not has_achievement("detective_intuition"):
+        on "show" action Function(on_choice_menu_show)
+
+    if not has_achievement("painful_doubts"):
+        timer 120.0 action Function(grant_achievement, "painful_doubts")
+
     vbox:
         for i in items:
-            textbutton i.caption action i.action
+            if not has_achievement("detective_intuition"):
+                textbutton i.caption action [Function(on_choice_menu_choice), i.action]
+            else:
+                textbutton i.caption action i.action
 
 
 style choice_vbox is vbox
@@ -743,6 +752,8 @@ style slot_button_text:
 screen preferences():
 
     tag menu
+
+    use global_tooltip_display
 
     use game_menu(_("Настройки"), scroll="viewport"):
 

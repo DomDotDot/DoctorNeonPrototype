@@ -92,6 +92,7 @@ label ch5_hop_menu:
                 
                 if not getattr(store, 'ch5_hop_ticket_correct', True):
                     $ grant_achievement("bureaucracy")
+                    $ track_failure("bureaucracy_fail")
                     scene ch05_cg46_v02 with dissolve
                     "Автоматон" "Внимание. Ваш текущий запрос не совпадает с темой выданного талона. В обслуживании отказано. Пожалуйста, возьмите новый талон."
                     neon "Серьёзно?! Ты же просто железка без эмоций!"
