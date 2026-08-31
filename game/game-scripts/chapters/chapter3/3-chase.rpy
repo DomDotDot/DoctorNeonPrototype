@@ -73,6 +73,9 @@ label game_over_bouncer:
     stop ambient
     scene black with dissolve
     
+    if getattr(store, 'bouncer_provoked_by_daughter', False):
+        $ grant_achievement("bouncer_daughter_game_over")
+    
     "Вышибала" "Попалась." with vpunch
     pause(3.0)
     jump chapter_3_rpy

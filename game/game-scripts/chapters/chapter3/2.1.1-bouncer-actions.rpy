@@ -35,6 +35,7 @@ label ch3_bouncer_plead:
         neon pouty "Еще один раз прошу..."
         "Вышибала" "..."
         narrator "Он перестал реагировать. Просто смотрит в стену, игнорируя меня. Дальнейшие уговоры бесполезны."
+        $ grant_achievement("bouncer_plead_useless")
 
     $ bouncer_talk_count += 1
     jump ch3_bouncer_talk_menu
@@ -43,6 +44,7 @@ label ch3_bouncer_plead:
 
 label ch3_provoke_verbal:
 
+    $ store.bouncer_provoked_by_daughter = False
     "Вышибала" "Чего уставилась, умница?"
     neon smirk "Просто провожу наблюдение. Хочу проверить гипотезу: ваша мышечная масса обратно пропорциональна скорости нейронной реакции? Судя по вашему выражению лица, я на верном пути."
     "Вышибала" "Ч-Чего? Кончай умничать, а то я тебе твою гипотезу в глотку засуну."
@@ -52,6 +54,7 @@ label ch3_provoke_verbal:
 
 
 label ch3_provoke_secret:
+    $ store.bouncer_provoked_by_daughter = True
     show neon smirk with Dissolve(5.0)
     neon @ smirk "Ну как твоя дочь поживает? Я про то, что с ней сделал туман. В коме, да?"
     "Вышибала" "Что ты сказала?!"
