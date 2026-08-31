@@ -53,6 +53,8 @@ screen graphics_settings_screen():
         
     key "game_menu" action ShowMenu("settings_menu") 
 
+    use global_tooltip_display
+
     frame:
         style "modern_panel"
         vbox:
@@ -141,6 +143,10 @@ screen graphics_settings_screen():
                         textbutton _("Крупный шрифт"):
                             action ToggleField(persistent, "font_size_large")
 
+                        textbutton _("Не отображать полученные достижения во время игры"):
+                            action ToggleField(persistent, "hide_achievement_notifications")
+                            tooltip _("Отключает всплывающие уведомления о получении достижений во время игры.")
+
                     
 
             null yfill True
@@ -162,6 +168,8 @@ screen sound_settings_screen():
         add Solid("#000000b3")
         
     key "game_menu" action ShowMenu("settings_menu") 
+
+    use global_tooltip_display
 
     frame:
         style "modern_panel"

@@ -231,3 +231,36 @@ screen icon_button(icon, txt, action, btn_style="modern_button", txt_color=None)
                     if txt_color:
                         idle_color txt_color
 
+
+################################################################################
+## Global Tooltip Overlay Component
+################################################################################
+
+screen global_tooltip_display():
+    zorder 1000
+    $ tt = GetTooltip()
+    if tt:
+        nearrect:
+            focus "tooltip"
+            prefer_top True
+            frame:
+                style "modern_tooltip_frame"
+                text tt style "modern_tooltip_text"
+
+style modern_tooltip_frame is frame:
+    background Solid("#12151fdd")
+    padding (14, 8)
+    xminimum 60
+    xmaximum 450
+
+style modern_tooltip_text is text:
+    color "#e0e6ed"
+    size 16
+    outlines [ (1, "#000000ee", 0, 0) ]
+
+init python:
+    if "global_tooltip_display" not in config.overlay_screens:
+        config.overlay_screens.append("global_tooltip_display")
+    if hasattr(config, "always_shown_screens") and "global_tooltip_display" not in config.always_shown_screens:
+        config.always_shown_screens.append("global_tooltip_display")
+

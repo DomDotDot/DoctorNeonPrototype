@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-29 15:40
+# TODO: Translation updated at 2025-12-29 15:40
 
 translate english_us strings:
 
@@ -44,4 +44,10 @@ translate english_us strings:
     # game/modules/main-menu/sub-menus/menu_settings.rpy:208
     old "Громкость голоса: "
     new "Voice Volume: "
+
+    old "Не отображать полученные достижения во время игры"
+    new "Do not display unlocked achievements during gameplay"
+
+    old "Отключает всплывающие уведомления о получении достижений во время игры."
+    new "Disables pop-up notifications when achievements are unlocked in-game."
 
