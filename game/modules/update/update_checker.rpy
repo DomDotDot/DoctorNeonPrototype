@@ -17,8 +17,8 @@ init python:
 
     def _get_version_numbers(v_str):
         """
-        Превращает "v0.5.3-stable" -> [0, 5, 3]
-        Превращает "0.5.4-early"   -> [0, 5, 4]
+        Превращает "vx.y.z-stable" -> [x, y, z]
+        Превращает "x.y.z-early"   -> [x, y, z]
         """
         # 1. Убираем 'v' в начале
         v_clean = v_str.lower().lstrip('v')
