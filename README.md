@@ -10,7 +10,7 @@
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-125.4k-blue?style=flat-square&logo=gitbook&logoColor=white)
 ![Lines](https://img.shields.io/badge/Lines-5%20997-4c1?style=flat-square)
-![Chapters](https://img.shields.io/badge/Chapters-10%20(incl.%204.5)-8a2be2?style=flat-square)
+![Chapters](https://img.shields.io/badge/Chapters-10%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)

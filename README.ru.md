@@ -10,7 +10,7 @@
 <!-- STATS_BADGES:START -->
 ![Слов](https://img.shields.io/badge/Слов-125.4k-blue?style=flat-square&logo=gitbook&logoColor=white)
 ![Реплик](https://img.shields.io/badge/Реплик-5%20997-4c1?style=flat-square)
-![Глав](https://img.shields.io/badge/Глав-10%20(вкл.%204.5)-8a2be2?style=flat-square)
+![Глав](https://img.shields.io/badge/Глав-10%20-8a2be2?style=flat-square)
 ![Диалоги](https://img.shields.io/badge/Диалоги-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
