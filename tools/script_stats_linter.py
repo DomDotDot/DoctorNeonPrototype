@@ -35,12 +35,12 @@ CHARACTERS_DB = {
     "neon": {"ru": "Неон", "en": "Neon", "color": "1f4bc4", "role": "main"},
     "argon": {"ru": "Аргон", "en": "Argon", "color": "457632", "role": "main"},
     "oganesson": {"ru": "Оганессон (Опекунша)", "en": "Oganesson (Guardian)", "color": "663399", "role": "main"},
-    "oganesson_young": {"ru": "Оганессон (в молодости)", "en": "Young Oganesson", "color": "390482", "role": "supporting"},
+    "oganesson_young": {"ru": "Оганессон (в молодости)", "en": "Young Oganesson", "color": "390482", "role": "special"},
     "seraphina": {"ru": "Серафина", "en": "Seraphina", "color": "f2dbbb", "role": "main"},
     "lily": {"ru": "Лили", "en": "Lily", "color": "c16a19", "role": "main"},
     "alex": {"ru": "Алекс", "en": "Alex", "color": "b41f5d", "role": "main"},
     "celeste": {"ru": "Селестия", "en": "Celeste", "color": "7f9ae4", "role": "main"},
-    "celeste_ghost": {"ru": "Селестия (Призрак)", "en": "Celeste (Phantom)", "color": "7f9ae4", "role": "supporting"},
+    "celeste_ghost": {"ru": "Селестия (Призрак)", "en": "Celeste (Phantom)", "color": "7f9ae4", "role": "special"},
     "marcus": {"ru": "Маркус", "en": "Marcus", "color": "967230", "role": "supporting"},
     "nari": {"ru": "Нари", "en": "Nari", "color": "863b97", "role": "supporting"},
     "radon": {"ru": "Радон", "en": "Radon", "color": "c04547", "role": "supporting"},
@@ -49,42 +49,42 @@ CHARACTERS_DB = {
     "xenon": {"ru": "Ксенон", "en": "Xenon", "color": "1f90c4", "role": "supporting"},
     "absolute_silence": {"ru": "Абсолютная Тишина", "en": "Absolute Silence", "color": "5c6bc0", "role": "special"},
     "akane": {"ru": "Аканэ (Мама)", "en": "Akane (Mother)", "color": "e87a90", "role": "supporting"},
-    "father": {"ru": "Папа", "en": "Father", "color": "5a7a8d", "role": "supporting"},
-    "hans": {"ru": "Ханс", "en": "Hans", "color": "7a7a7a", "role": "supporting"},
+    "father": {"ru": "Папа", "en": "Father", "color": "5a7a8d", "role": "episodic"},
+    "hans": {"ru": "Ханс", "en": "Hans", "color": "7a7a7a", "role": "episodic"},
     "anna": {"ru": "Анна", "en": "Anna", "color": "d96411", "role": "supporting"},
     "sophie": {"ru": "Софи", "en": "Sophie", "color": "d1c682", "role": "supporting"},
-    "ceo": {"ru": "Г-н Бауманн (CEO)", "en": "Mr. Baumann (CEO)", "color": "305a96", "role": "supporting"},
-    "cro": {"ru": "Д-р Грубенманн (CRO)", "en": "Dr. Grubenmann (CRO)", "color": "753636", "role": "supporting"},
-    "headteacher": {"ru": "Завуч", "en": "Headteacher", "color": "808080", "role": "supporting"},
+    "ceo": {"ru": "Г-н Бауманн (CEO)", "en": "Mr. Baumann (CEO)", "color": "305a96", "role": "episodic"},
+    "cro": {"ru": "Д-р Грубенманн (CRO)", "en": "Dr. Grubenmann (CRO)", "color": "753636", "role": "episodic"},
+    "headteacher": {"ru": "Завуч", "en": "Headteacher", "color": "808080", "role": "episodic"},
     "meryl": {"ru": "Мэрил Кендрик", "en": "Meryl Kendrick", "color": "e87a90", "role": "supporting"},
     "akari": {"ru": "Учительница Акари", "en": "Teacher Akari", "color": "1885c8", "role": "supporting"},
-    "kai": {"ru": "Кай Ито", "en": "Kai Ito", "color": "5d19c9", "role": "supporting"},
-    "illusion": {"ru": "Сущность", "en": "Entity / Illusion", "color": "863b97", "role": "supporting"},
+    "kai": {"ru": "Кай Ито", "en": "Kai Ito", "color": "5d19c9", "role": "episodic"},
+    "illusion": {"ru": "Сущность", "en": "Entity / Illusion", "color": "863b97", "role": "episodic"},
     "student1": {"ru": "Студентка 1 (Эми)", "en": "Student 1 (Amy)", "color": "d4ad4b", "role": "episodic"},
     "amy": {"ru": "Эми", "en": "Amy", "color": "d4ad4b", "role": "episodic"},
     "student2": {"ru": "Студентка 2 (Кэрол)", "en": "Student 2 (Carol)", "color": "33dad4", "role": "episodic"},
     "carol": {"ru": "Кэрол", "en": "Carol", "color": "33dad4", "role": "episodic"},
     "clara": {"ru": "Клара", "en": "Clara", "color": "bc040d", "role": "episodic"},
-    "mika": {"ru": "Мика Китамура", "en": "Mika Kitamura", "color": "d1289e", "role": "supporting"},
-    "guts": {"ru": "Гатс", "en": "Guts", "color": "8b4513", "role": "supporting"},
-    "rico": {"ru": "Рико", "en": "Rico", "color": "a56a44", "role": "supporting"},
-    "boss": {"ru": "Босс", "en": "Boss", "color": "b22222", "role": "supporting"},
+    "mika": {"ru": "Мика Китамура", "en": "Mika Kitamura", "color": "d1289e", "role": "episodic"},
+    "guts": {"ru": "Гатс", "en": "Guts", "color": "8b4513", "role": "episodic"},
+    "rico": {"ru": "Рико", "en": "Rico", "color": "a56a44", "role": "episodic"},
+    "boss": {"ru": "Босс", "en": "Boss", "color": "b22222", "role": "episodic"},
     "sibyl": {"ru": "СИВИЛЛА", "en": "Sibyl", "color": "663399", "role": "supporting"},
-    "fcs": {"ru": "АБСУ", "en": "ABSU / FCS", "color": "a30e0e", "role": "supporting"},
+    "fcs": {"ru": "АБСУ", "en": "ABSU / FCS", "color": "a30e0e", "role": "special"},
     "narrator": {"ru": "Рассказчик (Описания)", "en": "Narrator / Description", "color": "708090", "role": "narrator"},
     "narrator_nvl": {"ru": "Рассказчик (NVL)", "en": "Narrator (NVL)", "color": "708090", "role": "narrator"},
-    "unknown": {"ru": "Неизвестный", "en": "Unknown", "color": "9e9e9e", "role": "episodic"},
-    "unknown_f": {"ru": "Неизвестная", "en": "Unknown Female", "color": "9e9e9e", "role": "episodic"},
-    "unknown_char": {"ru": "???", "en": "???", "color": "9e9e9e", "role": "episodic"},
-    "Девушка": {"ru": "Девушка (Неон)", "en": "Girl (Neon)", "color": "1f4bc4", "role": "main"},
-    "Голос": {"ru": "Голос", "en": "Voice", "color": "9e9e9e", "role": "episodic"},
-    "Мужчина": {"ru": "Мужчина", "en": "Man", "color": "9e9e9e", "role": "episodic"},
+    "unknown": {"ru": "Неизвестный", "en": "Unknown", "color": "9e9e9e", "role": "special"},
+    "unknown_f": {"ru": "Неизвестная", "en": "Unknown Female", "color": "9e9e9e", "role": "special"},
+    "unknown_char": {"ru": "???", "en": "???", "color": "9e9e9e", "role": "special"},
+    "Девушка": {"ru": "Девушка (Неон)", "en": "Girl (Neon)", "color": "1f4bc4", "role": "special"},
+    "Голос": {"ru": "Голос", "en": "Voice", "color": "9e9e9e", "role": "special"},
+    "Мужчина": {"ru": "Мужчина", "en": "Man", "color": "9e9e9e", "role": "special"},
     "Священник": {"ru": "Священник", "en": "Priest", "color": "9e9e9e", "role": "episodic"},
     "Сотрудник Сада": {"ru": "Сотрудник Сада", "en": "Garden Staff", "color": "9e9e9e", "role": "episodic"},
     "Охранник": {"ru": "Охранник", "en": "Guard", "color": "9e9e9e", "role": "episodic"},
     "Продавец": {"ru": "Продавец", "en": "Vendor", "color": "9e9e9e", "role": "episodic"},
-    "Толпа": {"ru": "Толпа", "en": "Crowd", "color": "9e9e9e", "role": "episodic"},
-    "Система": {"ru": "Система", "en": "System", "color": "9e9e9e", "role": "episodic"},
+    "Толпа": {"ru": "Толпа", "en": "Crowd", "color": "9e9e9e", "role": "special"},
+    "Система": {"ru": "Система", "en": "System", "color": "9e9e9e", "role": "special"},
 }
 
 # Chapter display names
@@ -388,10 +388,10 @@ def generate_statistics_section(data: dict, lang: str = "ru") -> str:
     characters = data["characters"]
 
     if lang == "ru":
-        title = "## 📊 Статистика сценария"
-        summary_title = "### 📈 Общие показатели"
-        chap_title = "### 📖 Детализация по главам"
-        char_title = "### 👥 Реплики персонажей"
+        title = "## Статистика сценария"
+        summary_title = "### Общие показатели"
+        chap_title = "### Детализация по главам"
+        char_title = "### Реплики персонажей"
         
         col_chapter = "Глава"
         col_files = "Файлов"
@@ -412,10 +412,10 @@ def generate_statistics_section(data: dict, lang: str = "ru") -> str:
         unit_l = "репл."
         extra_chars_title = "Дополнительные и эпизодические персонажи"
     else:
-        title = "## 📊 Story & Script Statistics"
-        summary_title = "### 📈 General Metrics"
-        chap_title = "### 📖 Chapter Breakdown"
-        char_title = "### 👥 Character Dialogue Distribution"
+        title = "## Story & Script Statistics"
+        summary_title = "### General Metrics"
+        chap_title = "### Chapter Breakdown"
+        char_title = "### Character Dialogue Distribution"
         
         col_chapter = "Chapter"
         col_files = "Files"
@@ -452,10 +452,10 @@ def generate_statistics_section(data: dict, lang: str = "ru") -> str:
 | :--- | :---: | :--- |
 | **{lbl_total_words}** | **{format_number(total_words)}** | `100%` |
 | **{lbl_total_lines}** | **{format_number(total_lines)}** | `100%` |
-| 📖 {lbl_narration} | {format_number(totals['narration_words'])} {unit_w} / {format_number(totals['narration_lines'])} {unit_l} | `{narr_pct:.1f}%` {generate_progress_bar(narr_pct)} |
-| 💬 {lbl_dialogue} | {format_number(totals['dialogue_words'])} {unit_w} / {format_number(totals['dialogue_lines'])} {unit_l} | `{dial_pct:.1f}%` {generate_progress_bar(dial_pct)} |
-| 🎭 {lbl_active_chars} | {spoken_chars_count} | — |
-| 📁 {lbl_script_files} | {totals['total_files']} | — |
+| {lbl_narration} | {format_number(totals['narration_words'])} {unit_w} / {format_number(totals['narration_lines'])} {unit_l} | `{narr_pct:.1f}%` {generate_progress_bar(narr_pct)} |
+| {lbl_dialogue} | {format_number(totals['dialogue_words'])} {unit_w} / {format_number(totals['dialogue_lines'])} {unit_l} | `{dial_pct:.1f}%` {generate_progress_bar(dial_pct)} |
+| {lbl_active_chars} | {spoken_chars_count} | — |
+| {lbl_script_files} | {totals['total_files']} | — |
 """
 
     # 2. Chapter Breakdown Table
@@ -519,7 +519,7 @@ def generate_statistics_section(data: dict, lang: str = "ru") -> str:
     if minor_char_rows:
         char_table_md += f"""
 <details>
-<summary><b>🔍 {extra_chars_title} ({len(minor_char_rows)})</b></summary>
+<summary><b>{extra_chars_title} ({len(minor_char_rows)})</b></summary>
 
 | {col_char_name} | {col_lines} | {col_words} | {col_share} |
 | :--- | :---: | :---: | :--- |
