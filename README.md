@@ -120,20 +120,20 @@ To create a distribution for players (Windows/Linux/Mac):
 ---
 
 <!-- SCRIPT_STATS:START -->
-## 📊 Story & Script Statistics
+## Story & Script Statistics
 
-### 📈 General Metrics
+### General Metrics
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
 | **Total Words** | **125 379** | `100%` |
 | **Total Script Lines** | **5 997** | `100%` |
-| 📖 Narration / Description | 83 825 words / 3 140 lines | `66.9%` ███████░░░ |
-| 💬 Spoken Dialogue (Characters) | 41 554 words / 2 857 lines | `33.1%` ███░░░░░░░ |
-| 🎭 Unique Speakers | 109 | — |
-| 📁 Script Files (.rpy) | 158 | — |
+| Narration / Description | 83 825 words / 3 140 lines | `66.9%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 554 words / 2 857 lines | `33.1%` ███░░░░░░░ |
+| Unique Speakers | 109 | — |
+| Script Files (.rpy) | 158 | — |
 
-### 📖 Chapter Breakdown
+### Chapter Breakdown
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
@@ -150,7 +150,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Flashbacks & Memory Fragments** | 13 | 321 | 8 331 | `25.5%` ██░░░░░░ |
 | **TOTAL** | **158** | **5 997** | **125 379** | `33.1%` |
 
-### 👥 Character Dialogue Distribution
+### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
@@ -209,7 +209,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Консьерж** | 5 | 58 | `0.1%` ░░░░░░░░ |
 
 <details>
-<summary><b>🔍 Additional and episodic characters (56)</b></summary>
+<summary><b>Additional and episodic characters (56)</b></summary>
 
 | Character | Lines | Words | Word Share |
 | :--- | :---: | :---: | :--- |
