@@ -85,6 +85,22 @@ CHARACTERS_DB = {
     "Продавец": {"ru": "Продавец", "en": "Vendor", "color": "9e9e9e", "role": "episodic"},
     "Толпа": {"ru": "Толпа", "en": "Crowd", "color": "9e9e9e", "role": "special"},
     "Система": {"ru": "Система", "en": "System", "color": "9e9e9e", "role": "special"},
+    "Консьерж": {"ru": "Консьерж", "en": "Concierge", "color": "9e9e9e", "role": "episodic"},
+    "ОФициантка": {"ru": "ОФициантка", "en": "Waitress", "color": "9e9e9e", "role": "episodic"},
+    "Бандит 2": {"ru": "Бандит 2", "en": "Bandit 2", "color": "9e9e9e", "role": "episodic"},
+    "Работник бара": {"ru": "Работник бара", "en": "Bartender", "color": "9e9e9e", "role": "episodic"},
+    "Маленькая Хошико": {"ru": "Маленькая Хошико", "en": "Young Hoshiko", "color": "9e9e9e", "role": "episodic"},
+    "Автоматон": {"ru": "Автоматон", "en": "Automaton", "color": "9e9e9e", "role": "episodic"},
+    "Старик": {"ru": "Старик", "en": "Old man", "color": "9e9e9e", "role": "episodic"},
+    "Вышибала": {"ru": "Вышибала", "en": "Bouncer", "color": "9e9e9e", "role": "episodic"},
+    "Бандит 1": {"ru": "Бандит 1", "en": "Bandit 1", "color": "9e9e9e", "role": "episodic"},
+    "Бармен": {"ru": "Бармен", "en": "Bartender", "color": "9e9e9e", "role": "episodic"},
+    "Диктор": {"ru": "Диктор", "en": "Anchorman", "color": "9e9e9e", "role": "episodic"},
+    "Физручка": {"ru": "Физручка", "en": "P.E. teacher", "color": "9e9e9e", "role": "episodic"},
+    "Мама Алекс": {"ru": "Мама Алекс", "en": "Alex's mom", "color": "9e9e9e", "role": "episodic"},
+    "Ода": {"ru": "Ода", "en": "Oda", "color": "9e9e9e", "role": "episodic"},
+    "Ведущая Новостей": {"ru": "Ведущая Новостей", "en": "Anchorman", "color": "9e9e9e", "role": "episodic"},
+    "Маленькая Алекс": {"ru": "Маленькая Алекс", "en": "Young Alex", "color": "9e9e9e", "role": "episodic"},
 }
 
 # Chapter display names
