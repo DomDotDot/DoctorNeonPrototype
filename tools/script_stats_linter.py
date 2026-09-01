@@ -89,16 +89,16 @@ CHARACTERS_DB = {
 
 # Chapter display names
 CHAPTERS_METADATA = {
-    "chapter1": {"ru": "Глава 1: Ночь в лаборатории", "en": "Chapter 1: Lab Night", "order": 1},
-    "chapter2": {"ru": "Глава 2: Ложные воспоминания", "en": "Chapter 2: False Memories", "order": 2},
-    "chapter3": {"ru": "Глава 3: Район Аномик", "en": "Chapter 3: Anomic District", "order": 3},
-    "chapter4.0": {"ru": "Глава 4.0: Академия Веритас", "en": "Chapter 4.0: Veritas Academy", "order": 4},
-    "chapter4.5": {"ru": "Глава 4.5: Фестиваль и Повседневность", "en": "Chapter 4.5: Festival & Everyday Life", "order": 5},
-    "chapter5": {"ru": "Глава 5: Станция Эреб", "en": "Chapter 5: Station Erebus", "order": 6},
-    "chapter6": {"ru": "Глава 6: Шпиль и Встреча", "en": "Chapter 6: The Spire & Encounter", "order": 7},
-    "chapter7": {"ru": "Глава 7: Библиотека и Распад", "en": "Chapter 7: Library & Decay", "order": 8},
-    "chapter8": {"ru": "Глава 8: Океан памяти", "en": "Chapter 8: Ocean of Memories", "order": 9},
-    "chapter9": {"ru": "Глава 9: Концертный зал и Финал", "en": "Chapter 9: Concert Hall & Finale", "order": 10},
+    "chapter1": {"ru": "Глава 1: Синяя Ворона", "en": "Chapter 1: The Blue Sheep", "order": 1},
+    "chapter2": {"ru": "Глава 2: В Поисках Подруги", "en": "Chapter 2: In Search of A Friend", "order": 2},
+    "chapter3": {"ru": "Глава 3: Эскапизм", "en": "Chapter 3: Escapism", "order": 3},
+    "chapter4.0": {"ru": "Глава 4.0: Ковчег на мели", "en": "Chapter 4.0: Ark Aground", "order": 4},
+    "chapter4.5": {"ru": "Глава 4.5: Из Изгнанницы в Созвездие", "en": "Chapter 4.5: From Exile to Constellation", "order": 5},
+    "chapter5": {"ru": "Глава 5: Предложение, от которого нельзя отказаться", "en": "Chapter 5: An Offer You Can’t Refuse", "order": 6},
+    "chapter6": {"ru": "Глава 6: Первый ряд, Пятое место", "en": "Chapter 6: First row. Fifth seat.", "order": 7},
+    "chapter7": {"ru": "Глава 7: Туман Войны", "en": "Chapter 7: Fog of War", "order": 8},
+    "chapter8": {"ru": "Глава 8: Школьные… дни?", "en": "Chapter 8: School Days...?", "order": 9},
+    "chapter9": {"ru": "Глава 9: Резонирующий Диссонанс", "en": "Chapter 9: Resonating Dissonance", "order": 10},
     "flashbacks": {"ru": "Воспоминания и Фрагменты", "en": "Flashbacks & Memory Fragments", "order": 11},
 }
 
