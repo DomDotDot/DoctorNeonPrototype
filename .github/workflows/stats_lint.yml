@@ -1,0 +1,55 @@
+name: Story Script Stats & Badges Linter
+
+on:
+  push:
+    paths:
+      - 'game/game-scripts/**'
+      - 'README.md'
+      - 'README.ru.md'
+      - 'tools/script_stats_linter.py'
+  pull_request:
+    paths:
+      - 'game/game-scripts/**'
+      - 'README.md'
+      - 'README.ru.md'
+      - 'tools/script_stats_linter.py'
+  workflow_dispatch:
+
+jobs:
+  lint-and-update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Script Stats Linter & Update READMEs
+        run: |
+          python tools/script_stats_linter.py
+
+      - name: Check for README changes
+        id: git_status
+        run: |
+          git diff --stat README.md README.ru.md
+          if [ -n "$(git status --porcelain README.md README.ru.md)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and Push Updated READMEs (on Push only)
+        if: github.event_name == 'push' && steps.git_status.outputs.changed == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md README.ru.md
+          git commit -m "docs: auto-update script dialogue stats and badges [skip ci]"
+          git push
