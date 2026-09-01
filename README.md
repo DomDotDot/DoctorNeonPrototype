@@ -8,8 +8,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-126.0k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-6%20005-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-125.4k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20997-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-10%20(incl.%204.5)-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **126 023** | `100%` |
-| **Total Script Lines** | **6 005** | `100%` |
-| 📖 Narration / Description | 84 496 words / 3 147 lines | `67.0%` ███████░░░ |
-| 💬 Spoken Dialogue (Characters) | 41 527 words / 2 858 lines | `33.0%` ███░░░░░░░ |
+| **Total Words** | **125 379** | `100%` |
+| **Total Script Lines** | **5 997** | `100%` |
+| 📖 Narration / Description | 83 825 words / 3 140 lines | `66.9%` ███████░░░ |
+| 💬 Spoken Dialogue (Characters) | 41 554 words / 2 857 lines | `33.1%` ███░░░░░░░ |
 | 🎭 Unique Speakers | 109 | — |
 | 📁 Script Files (.rpy) | 158 | — |
 
@@ -137,7 +137,7 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: Lab Night** | 12 | 412 | 8 960 | `31.1%` ██░░░░░░ |
+| **Chapter 1: Lab Night** | 12 | 404 | 8 316 | `33.9%` ███░░░░░ |
 | **Chapter 2: False Memories** | 8 | 164 | 5 870 | `13.9%` █░░░░░░░ |
 | **Chapter 3: Anomic District** | 18 | 361 | 7 357 | `29.4%` ██░░░░░░ |
 | **Chapter 4.0: Veritas Academy** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
@@ -148,22 +148,22 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 8: Ocean of Memories** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Concert Hall & Finale** | 7 | 182 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 321 | 8 331 | `25.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **6 005** | **126 023** | `33.0%` |
+| **TOTAL** | **158** | **5 997** | **125 379** | `33.1%` |
 
 ### 👥 Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 215 | 14 513 | `34.9%` ███░░░░░ |
+| **Neon** | 1 214 | 14 518 | `34.9%` ███░░░░░ |
 | **Seraphina** | 166 | 3 258 | `7.8%` █░░░░░░░ |
 | **Argon** | 185 | 3 252 | `7.8%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.0%` ░░░░░░░░ |
 | **Lily** | 141 | 2 117 | `5.1%` ░░░░░░░░ |
 | **Celeste** | 110 | 1 649 | `4.0%` ░░░░░░░░ |
-| **Alex** | 101 | 1 632 | `3.9%` ░░░░░░░░ |
+| **Alex** | 102 | 1 648 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 57 | 1 301 | `3.1%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.1%` ░░░░░░░░ |
-| **Marcus** | 49 | 823 | `2.0%` ░░░░░░░░ |
+| **Marcus** | 48 | 840 | `2.0%` ░░░░░░░░ |
 | **Nari** | 55 | 702 | `1.7%` ░░░░░░░░ |
 | **Sophie** | 41 | 527 | `1.3%` ░░░░░░░░ |
 | **Akane (Mother)** | 32 | 525 | `1.3%` ░░░░░░░░ |
@@ -173,7 +173,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Young Oganesson** | 26 | 485 | `1.2%` ░░░░░░░░ |
 | **Guts** | 11 | 325 | `0.8%` ░░░░░░░░ |
 | **Teacher Akari** | 18 | 313 | `0.8%` ░░░░░░░░ |
-| **Hans** | 14 | 273 | `0.7%` ░░░░░░░░ |
+| **Hans** | 14 | 301 | `0.7%` ░░░░░░░░ |
 | **Маленькая Алекс** | 18 | 246 | `0.6%` ░░░░░░░░ |
 | **Entity / Illusion** | 10 | 226 | `0.5%` ░░░░░░░░ |
 | **Garden Staff** | 18 | 213 | `0.5%` ░░░░░░░░ |
@@ -189,18 +189,18 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Мама Алекс** | 9 | 129 | `0.3%` ░░░░░░░░ |
 | **Физручка** | 14 | 123 | `0.3%` ░░░░░░░░ |
 | **Диктор** | 5 | 121 | `0.3%` ░░░░░░░░ |
-| **Dr. Grubenmann (CRO)** | 3 | 108 | `0.3%` ░░░░░░░░ |
 | **Бармен** | 6 | 108 | `0.3%` ░░░░░░░░ |
 | **Unknown** | 6 | 102 | `0.2%` ░░░░░░░░ |
 | **Бандит 1** | 5 | 97 | `0.2%` ░░░░░░░░ |
 | **ABSU / FCS** | 6 | 92 | `0.2%` ░░░░░░░░ |
 | **CEO** | 6 | 92 | `0.2%` ░░░░░░░░ |
 | **Вышибала** | 14 | 91 | `0.2%` ░░░░░░░░ |
-| **Mr. Baumann (CEO)** | 4 | 84 | `0.2%` ░░░░░░░░ |
+| **Dr. Grubenmann (CRO)** | 3 | 82 | `0.2%` ░░░░░░░░ |
 | **Старик** | 9 | 82 | `0.2%` ░░░░░░░░ |
 | **Headteacher** | 3 | 74 | `0.2%` ░░░░░░░░ |
 | **Автоматон** | 9 | 72 | `0.2%` ░░░░░░░░ |
 | **Маленькая Хошико** | 7 | 69 | `0.2%` ░░░░░░░░ |
+| **Mr. Baumann (CEO)** | 4 | 66 | `0.2%` ░░░░░░░░ |
 | **Kai Ito** | 4 | 66 | `0.2%` ░░░░░░░░ |
 | **Работник бара** | 4 | 63 | `0.2%` ░░░░░░░░ |
 | **Бандит 2** | 3 | 60 | `0.1%` ░░░░░░░░ |
@@ -229,12 +229,12 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Студентка В** | 1 | 24 | `0.1%` ░░░░░░░░ |
 | **Консьержка** | 3 | 24 | `0.1%` ░░░░░░░░ |
 | **Консультант** | 2 | 24 | `0.1%` ░░░░░░░░ |
+| **Guard** | 4 | 23 | `0.1%` ░░░░░░░░ |
 | **Рабочий 2** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **Навигатор** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **Водитель** | 1 | 22 | `0.1%` ░░░░░░░░ |
 | **Голос CEO** | 1 | 21 | `0.1%` ░░░░░░░░ |
 | **Медробот** | 3 | 20 | `0.0%` ░░░░░░░░ |
-| **Guard** | 4 | 18 | `0.0%` ░░░░░░░░ |
 | **Офицер СБ** | 2 | 17 | `0.0%` ░░░░░░░░ |
 | **Студентка Б** | 1 | 17 | `0.0%` ░░░░░░░░ |
 | **Командир Наемников** | 3 | 16 | `0.0%` ░░░░░░░░ |
