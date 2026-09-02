@@ -19,7 +19,7 @@ init 1 python:
         id="mail_maniac",
         name=_("Почтовый маньяк"),
         description=_("Откройте Центр уведомлений, когда в нём есть хотя бы одно входящее сообщение."),
-        icon=None,
+        icon="images/achievements/pipebomb.png",
         ach_type=ACH_TYPE_NORMAL
     ))
 
@@ -27,7 +27,7 @@ init 1 python:
         id="behind_the_scenes",
         name=_("Взгляд за кулисы"),
         description=_("Перейдите по ссылке на страницу разработчика в разделе 'Титры'."),
-        icon=None,
+        icon="images/achievements/backrooms.png",
         ach_type=ACH_TYPE_NORMAL
     ))
 
@@ -57,7 +57,7 @@ init 1 python:
         id="absolute_silence",
         name=_("Абсолютная Тишина"),
         description=_("Пройдите любую главу истории в режиме 'Без звука'."),
-        icon=None,
+        icon="images/achievements/absolutesilence.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Погрузитесь в истинную тишину.")
     ))
@@ -75,7 +75,7 @@ init 1 python:
         id="midnight_shift",
         name=_("Спишь? — Нет, читаю ВН"),
         description=_("Запустите игру глубокой ночью."),
-        icon=None,
+        icon="images/achievements/yousleeping.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Время для полуночных исследований.")
     ))
@@ -93,7 +93,7 @@ init 1 python:
         id="without_blinking",
         name=_("Не моргай"),
         description=_("Пройдите главу истории на одном дыхании, ни разу не открывая меню паузы."),
-        icon=None,
+        icon="images/achievements/dontblink.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Полная концентрация на происходящем.")
     ))
@@ -102,7 +102,7 @@ init 1 python:
         id="thoughtful_reader",
         name=_("Буквально Я"),
         description=_("Остановитесь и проведите на реплике Неон более 3 минут без перелистывания и паузы."),
-        icon=None,
+        icon="images/achievements/literallyme.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Вдумайтесь в глубину слов.")
     ))
@@ -129,7 +129,7 @@ init 1 python:
         id="nothing_wrong_ai",
         name=_("В этом нет ничего такого"),
         description=_("От начала до конца пройдите игру с включенным режимом ИИ-чувствительности (чёрный экран), ни разу его не выключая."),
-        icon=None,
+        icon="images/achievements/nothinghere.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Доверьтесь восприятию на слух.")
     ))
@@ -185,7 +185,7 @@ init 1 python:
         id="hal9000_sorry_neon",
         name=_("Мне жаль, Неон. Боюсь, я не могу этого сделать."),
         description=_("Попытаться запросить доступ у терминала СИВИЛЛЫ в Отделе исследований без чипа Администратора и получить отказ."),
-        icon=None,
+        icon="images/achievements/sorrydave.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Даже самый дружелюбный ИИ не пустит вас без надлежащего пропуска.")
     ))
@@ -221,7 +221,7 @@ init 1 python:
         id="scared_the_grandpa",
         name=_("Вы напугали деда"),
         description=_("Разозлите священника в Часовне, прочитайте книгу фольклора 'tears' в Библиотеке и вернитесь к пустой скамье."),
-        icon=None,
+        icon="images/achievements/warning.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Доведите спор о вере до конца и узнайте его последствия.")
     ))
@@ -230,7 +230,7 @@ init 1 python:
         id="sibyl_lore_name",
         name=_("Ты знаешь это имя"),
         description=_("При ответе на финальный вопрос СИВИЛЛЫ 'Кто вы?' введите одно из ключевых лорных имён вселенной."),
-        icon=None,
+        icon="images/achievements/yourname.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Назовите имя, заставившее автономный интеллект вспомнить прошлое.")
     ))
@@ -346,7 +346,7 @@ init 1 python:
         id="criminalist",
         name=_("Криминалист"),
         description=_("Внимательно изучите все доступные предметы в игре хотя бы один раз."),
-        icon=None,
+        icon="images/achievements/neondetective.png",
         ach_type=ACH_TYPE_TRACKING,
         max_progress=13
     ))
@@ -373,7 +373,7 @@ init 1 python:
         id="play_16_hours",
         name=_("Пора выйти на улицу"),
         description=_("Проведите в игре суммарно 16 часов."),
-        icon=None,
+        icon="images/achievements/16hours.png",
         ach_type=ACH_TYPE_TRACKING,
         max_progress=16
     ))
@@ -382,7 +382,7 @@ init 1 python:
         id="dont_touch_logo",
         name=_("Не трогай меня!"),
         description=_("Нажмите на логотип игры в главном меню 10 раз."),
-        icon=None,
+        icon="images/achievements/dontclick.png",
         ach_type=ACH_TYPE_TRACKING,
         max_progress=10,
         hidden_desc=_("Скрытое достижение. Попробуйте взаимодействовать с меню.")
