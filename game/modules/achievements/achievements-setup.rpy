@@ -149,7 +149,7 @@ init 1 python:
         id="cultural_walk",
         name=_("Прогулка окультуривания"),
         description=_("В Главе 5 посетите Бар, Часовню и Библиотеку до того, как впервые ступите в зону Карго."),
-        icon=None,
+        icon="images/achievements/culture.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Изучите все общественные места второго уровня станции.")
     ))
@@ -158,7 +158,7 @@ init 1 python:
         id="bureaucracy",
         name=_("Давай по новой, Миша..."),
         description=_("В Отделе кадров успешно взломайте электронное табло, но подойдите к окну Автоматона с неверно выбранным запросом в талоне."),
-        icon=None,
+        icon="images/achievements/againneon.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Прочувствуйте всю беспощадность космической бюрократии.")
     ))
@@ -319,7 +319,7 @@ init 1 python:
         id="bookworm",
         name=_("Книжный Червь"),
         description=_("Изучите все 4 архивные статьи в терминале Библиотеки Орбитали."),
-        icon=None,
+        icon="images/achievements/xenon.png",
         ach_type=ACH_TYPE_TRACKING,
         max_progress=4
     ))
