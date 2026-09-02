@@ -370,7 +370,7 @@
         С диким криком, вырвавшимся из самого нутра, я рванула металл на себя — анкерные болты с оглушительным скрежетом вырвало из раскрошившегося бетона!
         """
 
-        .music.set_volume(0.125, channel='ambient')
+        $ renpy.music.set_volume(0.125, channel='ambient')
         
         play music "music/BGM/DramaQueen.opus" fadein 10.0 volume 0.75
         # play sound "sounds/metal_scrape_loud.opus"
