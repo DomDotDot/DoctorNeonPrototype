@@ -12,12 +12,18 @@ init -999 python:
     # file: имя архива
     # folder: куда распаковать (относительно папки game/)
     # check_file: файл для проверки наличия (теперь используется manifest)
+    #
+    # ПРИМЕЧАНИЕ (M9 Архитектура версионирования):
+    # - config.version (в options.rpy) — версия текущего локального билда новеллы (напр. "0.8.2-early").
+    # - url_version — конкретный тег релиза на GitHub (напр. "v0.7.0r"), откуда загружаются zip-архивы ассетов.
+    #   Пакеты ресурсов не перезаливаются на каждый патч, поэтому url_version отвязана от config.version.
+    # - dlc_manifest.json — манифест для верификации целостности файлов на диске.
     dlc_catalog = [
         {
             "id": "assets",
             "file": "assets.zip",
-            "version": config.version, # Автоматически синхронизируем с версией игры
-            "url_version": "v0.7.0r", # Для GitHub Releases нужен тег с 'v'
+            "version": config.version, # Локальная версия билда игры
+            "url_version": "v0.7.0r", # Целевой тег GitHub Releases для загрузки архива
             "folder": ".", # Распаковываем в корень game/
             "manifest": "dlc_manifest.json",
             "title": _("Полный пакет ресурсов"),
