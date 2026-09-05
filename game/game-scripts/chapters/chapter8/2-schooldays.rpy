@@ -4,7 +4,7 @@ label chapter8_school_days:
 
     scene black with fade
     # Звук: Утренние птицы, отдаленный шум моря.
-    play ambient "ambient/morning_birds_ocean.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/morning_birds_ocean.opus" fadein 2.0 loop
 
     narrator """
         Утро. 
@@ -15,7 +15,7 @@ label chapter8_school_days:
     """
 
     scene bg neon_bedroom_morning with dissolve
-    play music "music/BGM/Slice_Of_Life_Morning.opus" fadein 2.0 volume 0.3
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Morning.opus" fadein 2.0 volume 0.3
 
     narrator "На тумбочке завибрировал телефон."
 
@@ -154,7 +154,7 @@ label chapter8_school_days:
 
     scene bg coastal_street_morning with fade
     stop music fadeout 2.0
-    play ambient "ambient/morning_street_cicadas.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/morning_street_cicadas.opus" fadein 2.0 loop
 
     narrator """
         Я вышла за ворота виллы. 
@@ -222,7 +222,7 @@ label chapter8_school_days:
     # --- СЦЕНА 4: КЛАССНАЯ КОМНАТА (Знакомые лица) ---
 
     scene bg school_classroom_morning with fade
-    play music "music/BGM/School_Life_Upbeat.opus" fadein 2.0 volume 0.3
+    # TODO: missing audio: play music "music/BGM/School_Life_Upbeat.opus" fadein 2.0 volume 0.3
 
     # play sound "sfx/school_bell_ring.opus"
 

@@ -2,8 +2,8 @@ label chapter6_krypton:
     # --- Сцена 4: Разделение ---
 
     scene bg street_crossroad_night with fade
-    play ambient "ambient/city_cold_wind_muffled.opus" loop volume 0.5
-    play ambient "ambient/apartment_dead_silence.opus" loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/city_cold_wind_muffled.opus" loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/apartment_dead_silence.opus" loop volume 0.3
 
     narrator """
     Мы вышли из огромного небоскреба обратно в город. Вечер стремительно перетекал в ночь.
@@ -121,7 +121,7 @@ label chapter6_krypton:
 
     # --- Сцена 6: Я тебя нашла ---
 
-    play ambient "ambient/apartment_dead_silence.opus" loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/apartment_dead_silence.opus" loop volume 0.3
 
     narrator """
     Квартира была пустой, холодной и темной. Я не стала включать свет, чтобы не привлекать внимание с улицы.
@@ -146,7 +146,7 @@ label chapter6_krypton:
     Я посмотрела на окно. Шторы были плотно задернуты, но я видела, как они... колышутся. Шевелятся, хотя балконная дверь была закрыта, а сквозняков в герметичном доме быть не могло.
     """
 
-    play music "music/BGM/Krypton_Manifestation_Horror.opus" fadein 2.0
+    # TODO: missing audio: play music "music/BGM/Krypton_Manifestation_Horror.opus" fadein 2.0
 
     narrator """
     Гул ветра за окном изменился. Он больше не выл. Он... напевал. 
@@ -467,7 +467,7 @@ label chapter6_krypton:
     """
 
     show celeste fog_calm at center with dissolve
-    play music "music/BGM/Tragic_Resolution.opus" fadein 2.0
+    # TODO: missing audio: play music "music/BGM/Tragic_Resolution.opus" fadein 2.0
 
     narrator "Коса в её руке слабо светилась. Лицо было абсолютно спокойным. Умиротворенным."
 

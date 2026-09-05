@@ -3,8 +3,8 @@ label chapter8_new_classmate:
     # --- СЦЕНА 1: ШКАФЧИКИ ДЛЯ ОБУВИ ---
 
     scene bg school_shoe_lockers_morning with fade
-    play ambient "ambient/school_morning_chatter.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/Slice_Of_Life_Morning.opus" fadein 2.0 volume 0.3
+    # TODO: missing audio: play ambient "ambient/school_morning_chatter.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Morning.opus" fadein 2.0 volume 0.3
 
     narrator """
         Мы с Лили зашли в просторный холл школы.
@@ -138,7 +138,7 @@ label chapter8_new_classmate:
     """
 
     scene bg school_classroom_wind with dissolve
-    play music "music/BGM/Celestia_Entrance_Tense.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Celestia_Entrance_Tense.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         В дверном проеме появился силуэт.
@@ -310,7 +310,7 @@ label chapter8_new_classmate:
     """
 
     scene bg school_classroom_day with dissolve
-    play music "music/BGM/School_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/School_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
 
     neon """
         {=thoughts}Она здесь. 

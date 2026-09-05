@@ -6,7 +6,7 @@ label chapter6_alley_valley:
     
     # Резкая смена обстановки после космоса. Холодный, гнетущий эмбиент.
     scene black with fade
-    play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
     
     narrator """
         Меня затянуло в черно-фиолетовую воронку. Пространство вывернулось наизнанку.
@@ -15,7 +15,7 @@ label chapter6_alley_valley:
     """
 
     scene bg alley_yellow_fog with Dissolve(2.0)
-    play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
     # Если есть возможность наложить слой тумана поверх фона:
     # show layer master:
     #     matrixcolor TintMatrix("#a0a000") * SaturationMatrix(0.5)
@@ -113,7 +113,7 @@ label chapter6_alley_valley:
 
     show oganesson serious at left with dissolve
     stop ambient fadeout 1.0
-    play music "music/BGM/Suspense_Low.opus" fadein 1.0 loop
+    # TODO: missing audio: play music "music/BGM/Suspense_Low.opus" fadein 1.0 loop
 
     oganesson "Что за..."
 
@@ -138,7 +138,7 @@ label chapter6_alley_valley:
     """
 
     # Внезапное нападение
-    play sound "sfx/zombie_roar_vibrating.opus"
+    # TODO: missing audio: play sound "sfx/zombie_roar_vibrating.opus"
     
     narrator """
     Из-за груды гнилых коробок в тени переулка раздался звук. Не рычание зверя, а жуткий, вибрирующий гул, похожий на испорченный динамик.

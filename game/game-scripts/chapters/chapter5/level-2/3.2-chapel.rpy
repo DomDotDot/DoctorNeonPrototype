@@ -8,7 +8,7 @@ label ch5_station_chapel_scene:
         
     scene ch05_bg03_v01 with fade
     stop music fadeout 2.0
-    play ambient "ambient/church_hum_choir.opus" fadein 2.0
+    # TODO: missing audio: play ambient "ambient/church_hum_choir.opus" fadein 2.0
 
     narrator """
         Маленькая, стерильная комната, отведенная под духовные нужды.
@@ -81,7 +81,7 @@ label ch5_station_chapel_menu:
                 menu:
                     "Поместить разряженную батарею в катушку":
                         $ remove_item("uncharged_battery")
-                        play sound "sfx/electric_zap.opus"
+                        # TODO: missing audio: play sound "sfx/electric_zap.opus"
                         narrator "Громкое гудение наполнило комнату. Синие молнии заскользили по корпусу батареи."
                         narrator "Процесс занял пару минут. Индикатор на батарее загорелся зеленым."
                         $ add_item(Item_ChargedBattery)

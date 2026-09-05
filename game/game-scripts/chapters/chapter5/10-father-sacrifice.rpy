@@ -135,7 +135,7 @@ label chapter5_finale_sacrifice:
     # CG: Вид изнутри капсулы через толстое стекло иллюминатора. Аргон лежит под балкой. Вокруг него ревет пламя, рушатся конструкции. Но он не смотрит на огонь. Он смотрит прямо на Неон. Он улыбается светлой, усталой улыбкой.
 
     stop music fadeout 3.0
-    play music "music/BGM/Goodbye_Father.opus" fadein 2.0 volume 0.7
+    # TODO: missing audio: play music "music/BGM/Goodbye_Father.opus" fadein 2.0 volume 0.7
 
     narrator """
         Я била кулаками в толстое стекло иллюминатора, срывая голос в беззвучном крике.
@@ -240,7 +240,7 @@ label chapter5_finale_sacrifice:
         Искусственная гравитация отключилась, сменившись тошнотворными центробежными перегрузками. Меня начало швырять в ремнях безопасности.
     """
 
-    play ambient "ambient/reentry_atmosphere_roar.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play ambient "ambient/reentry_atmosphere_roar.opus" fadein 2.0 loop volume 0.8
 
     # Визуальный эффект: жесткая тряска, имитация входа в плотные слои
     show layer master:
@@ -269,7 +269,7 @@ label chapter5_finale_sacrifice:
         Вместо того чтобы бороться... я приняла это. Я позволила себе не чувствовать.
     """
 
-    play sound "sfx/heartbeat_panic_fast.opus" loop volume 0.7
+    # TODO: missing audio: play sound "sfx/heartbeat_panic_fast.opus" loop volume 0.7
 
     neon """
         {=thoughts}Слишком больно.
@@ -287,7 +287,7 @@ label chapter5_finale_sacrifice:
         Я обрушила свой собственный 'Вакуум' внутрь своей головы.
     """
 
-    play music "music/BGM/Comatose.mp3" fadein 4.0 volume 0.5
+    # TODO: missing audio: play music "music/BGM/Comatose.mp3" fadein 4.0 volume 0.5
 
     # play sound "sfx/memory_erase_glitch_heavy.opus"
     scene white with flash

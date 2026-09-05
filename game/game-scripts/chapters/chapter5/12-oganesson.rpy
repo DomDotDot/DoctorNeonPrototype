@@ -16,7 +16,7 @@ label chapter5_oganesson:
     scene cg_oganesson_arrival_time_stop with fade
     # CG: Сцена застыла. Наемники стоят в позах для стрельбы. Пули висят в воздухе, окруженные легким фиолетовым искажением пространства (как стекло). У наемников... нет голов. Головы отделены от тел ровным срезом и висят в воздухе чуть выше шей. Крови нет.
 
-    play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 2.0 loop volume 0.7
+    # TODO: missing audio: play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 2.0 loop volume 0.7
 
     narrator """
         Я смотрела на пули, застывшие в сантиметрах от моего лица. 

@@ -2,7 +2,7 @@ label chapter6_ceo:
     # --- Сцена: Телепортация и Штаб-квартира Гелиос ---
 
     # play sound "sfx/teleport_magic_sound.opus"
-    play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop
 
     narrator """
         Снова тошнотворное чувство свернутого пространства. 
@@ -75,7 +75,7 @@ label chapter6_ceo:
     scene black with dissolve
     stop ambient fadeout 1.0
 
-    play music "music/BGM/Heist_Tension_High.opus" fadein 2.0 loop
+    # TODO: missing audio: play music "music/BGM/Heist_Tension_High.opus" fadein 2.0 loop
 
     # Звук приглушенных голосов за дверью
     "Голос Акционера 1" "...это катастрофа! Орбиталь потеряна! Вы понимаете, какие это убытки?!"
@@ -337,7 +337,7 @@ label chapter6_ceo:
         Медленные, издевательские аплодисменты раздались из коридора.
     """
 
-    play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 2.0 loop
+    # TODO: missing audio: play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 2.0 loop
 
     show oganesson purple_dress smirk at left with easeinleft
 
@@ -535,7 +535,7 @@ label chapter6_ceo:
         Но мои глаза были пусты, как стекло.
     """
 
-    play ambient "ambient/grandfather_clock_ticking.opus" loop volume 0.8
+    # TODO: missing audio: play ambient "ambient/grandfather_clock_ticking.opus" loop volume 0.8
     # Звук: Тяжелое, мерное тиканье больших напольных часов в конференц-зале. Тик... Так...
 
     narrator """

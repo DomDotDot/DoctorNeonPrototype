@@ -3,7 +3,7 @@ label chapter9_silence:
     # --- СЦЕНА 1: ПРОБУЖДЕНИЕ НЕНАВИСТИ ---
 
     scene bg gothic_belfry_dim with fade
-    play music "music/BGM/Celestia_Theme_Distorted.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Celestia_Theme_Distorted.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Она сидела на полу. Её красные глаза, горящие в полумраке, не мигая смотрели на меня.
@@ -205,7 +205,7 @@ label chapter9_silence:
 
     # --- СЦЕНА 5: ДИАЛОГ НА ЛЕСТНИЦЕ (Жестокая Правда) ---
 
-    play music "music/BGM/Boss_Battle_Celestia.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play music "music/BGM/Boss_Battle_Celestia.opus" fadein 2.0 loop volume 0.8
 
     narrator """
         Она медленно подняла голову. Её красные глаза нашли меня на лестнице.

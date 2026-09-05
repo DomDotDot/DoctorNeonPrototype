@@ -19,7 +19,7 @@ label ch5_level2_elevator:
                 "Установить Заряженную батарею":
                     $ remove_item("charged_battery")
                     $ ch5_elevator_powered = True
-                    play sound "sfx/power_up.opus"
+                    # TODO: missing audio: play sound "sfx/power_up.opus"
                     narrator "Я вставила тяжелую батарею в слот. Щелчок контактов, гул — и панель лифта ожила, засветившись мягким зеленым светом."
                     jump ch5_level2_elevator
                 "Вернуться в холл":

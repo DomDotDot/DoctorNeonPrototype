@@ -5,7 +5,7 @@ label chapter5_introduction:
     stop music fadeout 2.0
     
     # Звук: Гул двигателей шаттла, низкочастотная вибрация, статические помехи в наушниках.
-    play ambient "ambient/shuttle_flight_hum.opus" loop fadein 2.0
+    # TODO: missing audio: play ambient "ambient/shuttle_flight_hum.opus" loop fadein 2.0
     play music "music/BGM/LoneMission.mp3" volume 0.4
 
     narrator """
@@ -264,7 +264,7 @@ label chapter5_introduction:
     
     scene ch05_cg09_v01 with dissolve
     stop music fadeout 3.0
-    play ambient "ambient/station_crowd_announcements.opus" loop
+    # TODO: missing audio: play ambient "ambient/station_crowd_announcements.opus" loop
     
     narrator """
         Транзитная зона Орбитали напоминала аэропорт, раздутый до масштабов города и засунутый в консервную банку.

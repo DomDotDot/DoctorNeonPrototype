@@ -3,9 +3,9 @@ label chapter8_tide:
     # --- СЦЕНА 1: У ДВЕРИ (Отчаяние) ---
 
     scene bg nari_house_exterior_night with fade
-    play ambient "ambient/night_wind_empty_street.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/Chase_Desperate_Heartbeat.opus" fadein 1.0 loop volume 0.7
-    play ambient "ambient/night_street_crickets.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/night_wind_empty_street.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Chase_Desperate_Heartbeat.opus" fadein 1.0 loop volume 0.7
+    # TODO: missing audio: play ambient "ambient/night_street_crickets.opus" fadein 2.0 loop
 
     narrator """
         Я бежала по темным улицам. Ноги, и без того гудевшие от усталости, еле двигались, но страх подгонял меня лучше любого стимулятора.
@@ -70,7 +70,7 @@ label chapter8_tide:
     # --- СЦЕНА 2: ВАННАЯ И ПАРАНОЙЯ ---
 
     stop music fadeout 1.0
-    play ambient "ambient/apartment_dead_silence.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/apartment_dead_silence.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Внутри было темно и абсолютно тихо. Свет не горел ни в одной комнате.
@@ -114,7 +114,7 @@ label chapter8_tide:
 
     # play sound "sfx/light_switch_click.opus"
     scene bg nari_livingroom_bright with flash
-    play music "music/BGM/Tragedy_Piano_Solo.opus" fadein 1.0 volume 0.6
+    # TODO: missing audio: play music "music/BGM/Tragedy_Piano_Solo.opus" fadein 1.0 volume 0.6
 
     narrator "Резкий, безжалостный свет залил гостиную."
 
@@ -221,7 +221,7 @@ label chapter8_tide:
     """
 
     scene bg nari_livingroom_bright with vpunch
-    play music "music/BGM/Neon_Awakening_Blue_Fire.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play music "music/BGM/Neon_Awakening_Blue_Fire.opus" fadein 2.0 loop volume 0.8
 
     neon "{=yell}Я БОЛЬШЕ НИКОГО НЕ ХОЧУ ТЕРЯТЬ!!!{/yell}"
 
@@ -267,8 +267,8 @@ label chapter8_tide:
     # --- СЦЕНА 1: УГАСАНИЕ СИЛЫ ---
 
     scene bg night_street_empty with fade
-    play ambient "ambient/night_wind_empty_street.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/Running_Desperate_Theme.opus" fadein 1.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/night_wind_empty_street.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Running_Desperate_Theme.opus" fadein 1.0 loop volume 0.4
 
     narrator """
         Я несла её на руках по пустой, темной улице. 
@@ -324,7 +324,7 @@ label chapter8_tide:
         Девушка открыла глаза. Они были серо-зелеными. Спокойными. Знакомыми.
     """
 
-    play music "music/BGM/Celestia_Theme_Distorted.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Celestia_Theme_Distorted.opus" fadein 2.0 loop volume 0.6
     show celeste fog_calm at center with dissolve
 
     neon "{=thoughts}Селеста...{/thoughts}"
@@ -519,7 +519,7 @@ label chapter8_tide:
 
     # --- СЦЕНА 6: АБСОЛЮТНЫЙ РАЗРЫВ РЕАЛЬНОСТИ ---
 
-    play sound "sfx/heartbeat_panic_fast.opus" loop volume 0.8
+    # TODO: missing audio: play sound "sfx/heartbeat_panic_fast.opus" loop volume 0.8
     scene white with flash
     
     narrator """

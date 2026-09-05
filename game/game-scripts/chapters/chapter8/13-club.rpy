@@ -3,7 +3,7 @@ label chapter8_club:
     # --- СЦЕНА 1: ПЕРЕМЕНА И НАПРЯЖЕНИЕ ---
 
     scene bg school_classroom_day with fade
-    play ambient "ambient/school_chatter_indoor.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/school_chatter_indoor.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Прозвенел звонок. Учительница покинула класс, и аудитория мгновенно наполнилась гулом голосов.
@@ -101,7 +101,7 @@ label chapter8_club:
 
     scene bg school_club_room_empty with fade
     stop ambient fadeout 2.0
-    play music "music/BGM/Slice_Of_Life_Sunset.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Sunset.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Лили торжественно открыла дверь ключом, который явно выпросила у коменданта.
@@ -231,7 +231,7 @@ label chapter8_club:
     narrator "Дверь приоткрылась. На пороге стояла она."
 
     show celeste school_neutral at center with dissolve
-    play music "music/BGM/Celestia_Theme_Soft.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Celestia_Theme_Soft.opus" fadein 2.0 loop volume 0.5
 
     celeste "Эм... это ведь тут музыкальный кружок?"
 

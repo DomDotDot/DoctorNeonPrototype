@@ -3,8 +3,8 @@ label chapter8_infirmary:
     # --- СЦЕНА 1: ПУСТОЙ МЕДПУНКТ ---
 
     scene bg school_infirmary_day with fade
-    play ambient "ambient/school_empty_hallway.opus" fadein 2.0 loop volume 0.3
-    play music "music/BGM/Slice_Of_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/school_empty_hallway.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Медпункт встретил меня запахом спирта, чистых простыней и гулкой, звенящей пустотой.
@@ -85,7 +85,7 @@ label chapter8_infirmary:
 
     scene cg_nari_kiss_infirmary with flash
     stop ambient
-    play music "music/BGM/Entity_Awakening_Dark.opus" fadein 1.0 volume 0.6
+    # TODO: missing audio: play music "music/BGM/Entity_Awakening_Dark.opus" fadein 1.0 volume 0.6
 
     narrator """
         Её губы впились в мои.
@@ -224,7 +224,7 @@ label chapter8_infirmary:
     # --- СЦЕНА 4: КОРИДОР (Отказ Алекс) ---
 
     scene bg school_hallway_day with fade
-    play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Я выскочила в коридор. 

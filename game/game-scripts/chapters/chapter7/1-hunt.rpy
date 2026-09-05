@@ -4,8 +4,8 @@ label chapter6_oganesson_hunt:
 
     scene black with Fade(2.0, 1.0, 2.0)
     
-    play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop volume 0.6
-    play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 3.0 loop volume 0.4
 
     scene bg ruined_city_red_fog_dark with dissolve
     # Фон: Темные, обледенелые улицы Запределья. По земле стелется красная дымка.
@@ -217,7 +217,7 @@ label chapter6_oganesson_hunt:
 
     # --- СЦЕНА 6: ШЕПОТ БЕЗУМИЯ (Акт 2) ---
 
-    play ambient "ambient/red_fog_whispers_pan.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play ambient "ambient/red_fog_whispers_pan.opus" fadein 2.0 loop volume 0.8
     # Звук: Шепот, переливающийся из левого уха в правое. Смех, плач, крики.
 
     narrator """
@@ -462,7 +462,7 @@ label chapter6_oganesson_hunt:
     """
 
     stop music fadeout 2.0
-    play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/wind_cold_howling.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         ...никого не было.

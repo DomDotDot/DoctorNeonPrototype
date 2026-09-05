@@ -37,7 +37,7 @@ label ch5_corridor_gamma_input:
     $ gamma_code_input = gamma_code_input.strip().lower()
     
     if gamma_code_input == "неон" or gamma_code_input == "neon":
-        play sound "sfx/power_up.opus"
+        # TODO: missing audio: play sound "sfx/power_up.opus"
 
         # Проверка ачивки "За секунду до Полночи"
         python:
@@ -73,7 +73,7 @@ label ch5_corridor_gamma_input:
         
         jump ch5_satellite_reception_menu
     else:
-        play sound "sfx/alarm_klaxon_single.opus"
+        # TODO: missing audio: play sound "sfx/alarm_klaxon_single.opus"
         narrator "'ОШИБКА. Неверный код.' Терминал мигнул красным."
         neon "{=thoughts}Нет, не так. Перечитать текст на стене. Первые буквы строк...{/thoughts}"
         jump ch5_corridor_gamma_input

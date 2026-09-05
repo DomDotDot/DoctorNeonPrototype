@@ -2,7 +2,7 @@ label chapter5_bridge_overload:
 
     # --- СЦЕНА 1: МОСТИК И ПЕРЕГРУЗКА ---
     scene ch05_cg64_v01 with fade
-    play ambient "ambient/footsteps_metal_echo.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/footsteps_metal_echo.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Мы поднялись на техническом лифте на уровень Диспетчерской — Главного Мостика Карго.
@@ -14,7 +14,7 @@ label chapter5_bridge_overload:
 
     scene ch05_cg65_v01 with Dissolve(3.0)
     stop ambient fadeout 1.0
-    play music "music/BGM/Horror_Atmosphere_High.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Horror_Atmosphere_High.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Дверь на Мостик была не взломана. Она была вырезана.
@@ -90,8 +90,8 @@ label chapter5_bridge_overload:
     # --- СЦЕНА 2: БЕГ И ПЕРЕДЫШКА ---
 
     scene black with fade
-    play ambient "ambient/station_rumble_deep.opus" fadein 2.0 loop volume 0.8
-    play music "music/BGM/Action_Raid_High.opus" fadein 1.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/station_rumble_deep.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play music "music/BGM/Action_Raid_High.opus" fadein 1.0 loop volume 0.6
 
     narrator """
         Станция начала стонать. 
@@ -218,7 +218,7 @@ label chapter5_bridge_overload:
     stop music
     
     # Звук: Только биение сердца. Медленное. Глухое.
-    play sound "sfx/heartbeat_slow.opus" loop volume 0.8
+    # TODO: missing audio: play sound "sfx/heartbeat_slow.opus" loop volume 0.8
 
     narrator """
         Звук исчез мгновенно. 

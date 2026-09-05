@@ -50,8 +50,8 @@ label chapter8_dream:
 
     # --- СЦЕНА 2: УДУШЬЕ В БЕЗДНЕ ---
 
-    play ambient "ambient/underwater_struggle_bubbles.opus" fadein 1.0 loop volume 0.8
-    play music "music/BGM/Drowning_Despair.opus" fadein 1.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/underwater_struggle_bubbles.opus" fadein 1.0 loop volume 0.8
+    # TODO: missing audio: play music "music/BGM/Drowning_Despair.opus" fadein 1.0 loop volume 0.6
 
     narrator """
         Тьма и ледяной холод сомкнулись над нами.
@@ -243,7 +243,7 @@ label chapter8_dream:
         matrixcolor IdentityMatrix()
         blur 0.0
 
-    play ambient "ambient/water_dripping_hallway.opus" fadein 2.0 loop volume 0.7
+    # TODO: missing audio: play ambient "ambient/water_dripping_hallway.opus" fadein 2.0 loop volume 0.7
 
     narrator """
         Я резко села, выплевывая воду. Настоящую, грязную, техническую воду.
@@ -330,7 +330,7 @@ label chapter8_dream:
         Или... скорее, чтобы попрощаться.
     """
 
-    play music "music/BGM/Melancholy_Piano_Soft.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Melancholy_Piano_Soft.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Я медленно подтянула колени к груди, сидя прямо в грязной воде.

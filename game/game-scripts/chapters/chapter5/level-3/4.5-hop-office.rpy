@@ -27,11 +27,11 @@ label ch5_level3_coolant_receive:
     menu:
         "Вырвать охлаждение у Автоматона":
             scene black with Dissolve(0.125)
-            play sound "sfx/glass_shatter.opus"
+            # TODO: missing audio: play sound "sfx/glass_shatter.opus"
             narrator "Я резким движением пробила стекло своей силой и вцепилась в его руку. Стекло разлетелось на куски, будто это были лепестки, а я с силой дернула руку на себя."
             scene ch05_cg46_v02 with dissolve
             "Автоматон" "ВНИМАНИЕ. НАНЕСЕН УЩЕРБ ИМУЩЕСТВУ КОМПАНИИ. ПРОТОКОЛ ЗАЩИТЫ..."
-            play sound "sfx/hydraulic_release.opus"
+            # TODO: missing audio: play sound "sfx/hydraulic_release.opus"
             scene black with Dissolve(0.125)
             narrator "Но я рванула со всей силы. Рука с треском оборвалась. Автоматон задергался, заискрил и медленно осел на стул, издав протяжный механический писк."
             narrator "Я быстро подставила пустую колбу под льющуюся зеленую жидкость."
@@ -105,7 +105,7 @@ label ch5_hop_menu:
                     $ store.ch5_hop_pin = generate_unique_pin()
                 else:
                     "Автоматон" "Обработка запроса... Подождите."
-                    play sound "sfx/printer_buzz.opus"
+                    # TODO: missing audio: play sound "sfx/printer_buzz.opus"
                     narrator "Из щели под стеклом с тихим щелчком выскочил Чип Администратора с высшей сигнатурой."
                     $ add_item(Item_AdminChip)
                     $ store.ch5_hop_chip_received = True
@@ -140,7 +140,7 @@ label ch5_hop_menu:
                 "Увольнение по собственному желанию":
                     $ store.ch5_hop_ticket_correct = False
                     
-            play sound "sfx/ticket_print.opus"
+            # TODO: missing audio: play sound "sfx/ticket_print.opus"
             narrator "Терминал с жужжанием выдал мне талон."
             narrator "На нём было напечатано: '[store.ch5_hop_ticket]'."
             neon "{=thoughts}Серьёзно? Если сейчас обслуживают другой талон, мне придётся ждать вечность!{/thoughts}"
@@ -176,16 +176,16 @@ label ch5_hop_menu:
                 if b_count == 4:
                     if store.ch5_hop_guess_count <= 7:
                         $ grant_achievement("seven_seven_seven_bulls")
-                    play sound "sfx/access_granted_chime.opus"
+                    # TODO: missing audio: play sound "sfx/access_granted_chime.opus"
                     narrator "Доступ разрешен. Режим администратора активирован."
                     narrator "Я вручную ввела свой номер талона: [store.ch5_hop_ticket]."
-                    play sound "sfx/ding_ding.opus"
+                    # TODO: missing audio: play sound "sfx/ding_ding.opus"
                     $ store.ch5_hop_current_ticket = store.ch5_hop_ticket
                     $ store.ch5_hop_hacked = True
                     narrator "Табло мигнуло и высветило мой номер. По всему залу раздался приятный женский голос: 'Талон [store.ch5_hop_ticket], пройдите к окну'."
                     jump ch5_hop_menu
                 else:
-                    play sound "sfx/error_buzz.opus"
+                    # TODO: missing audio: play sound "sfx/error_buzz.opus"
                     narrator "Результат дешифровки: Быки: [b_count], Коровы: [c_count]."
                     jump ch5_hop_minigame
                     

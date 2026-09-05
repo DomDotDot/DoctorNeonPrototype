@@ -20,7 +20,7 @@ label ch5_level3_medbay_chemlab_menu:
                         $ remove_item("coolant")
                         $ remove_item("reagent_d")
                         $ remove_item("empty_spray")
-                        play sound "sfx/chemical_mix.opus"
+                        # TODO: missing audio: play sound "sfx/chemical_mix.opus"
                         narrator "Аппарат пришел в движение. Колбы завращались, смешивая синюю и красную основы. Промышленный охладитель не дает смеси закипеть, а фиолетовый Реагент-D надежно скрепляет ДНК-коннекторы."
                         narrator "Спустя несколько минут лоток выдачи открылся. Готовый биоактивный состав под давлением заправился в присоединенный медицинский распылитель."
                         $ add_item(Item_BioSpray)

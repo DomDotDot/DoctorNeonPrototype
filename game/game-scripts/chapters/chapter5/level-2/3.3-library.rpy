@@ -6,7 +6,7 @@ default ch5_unlocked_logistics = False
 label ch5_level2_library:
     $ ch5_visited_library = True
     scene ch05_bg05_v01 with fade
-    play sound "sfx/terminal_typing.opus"
+    # TODO: missing audio: play sound "sfx/terminal_typing.opus"
 
     narrator """
         Информационный центр. Ряды голографических терминалов мерцали в полумраке. 
@@ -26,7 +26,7 @@ label ch5_library_choices_menu:
                 if has_item("maintenance_keycard"):
                     menu:
                         "Использовать Сервисную карту":
-                            play sound "sfx/door_slide_tech.opus"
+                            # TODO: missing audio: play sound "sfx/door_slide_tech.opus"
                             narrator "Магнитный замок щелкнул, и я прошла в служебное помещение."
                             narrator "На столе админа лежал личный датапад."
                             neon "Посмотрим... Журнал смен. 'Бармен из Космического Ветра опять забыл код от своей подсобки. Я поставил ему год основания Веритаса, пусть попробует забыть это'."
@@ -72,7 +72,7 @@ label ch5_library_terminal_choice_menu:
 
     menu:
         "Поиск по артикулу контента":
-            play sound "sfx/ui_click.opus"
+            # TODO: missing audio: play sound "sfx/ui_click.opus"
             $ search_code = renpy.input(_("Введите артикул контента (или оставьте поле пустым для отмены):"), length=30)
             $ search_code = search_code.strip().lower()
 
@@ -92,28 +92,28 @@ label ch5_library_terminal_choice_menu:
                 jump ch5_library_folklore_scene
 
             else:
-                play sound "sfx/ui_error.opus"
+                # TODO: missing audio: play sound "sfx/ui_error.opus"
                 narrator "Система: Ошибка поиска. Артикул не найден в каталоге или доступ ограничен."
                 jump ch5_library_terminal_choice_menu
 
         "Папка: РЕКОМЕНДОВАННОЕ 'Социальное районирование', Документальный справочник":
-            play sound "sfx/ui_click.opus"
+            # TODO: missing audio: play sound "sfx/ui_click.opus"
             jump ch5_library_social_scene
 
         "Папка: 'Корпоративная сводка 2042-2046', Журнал" if ch5_unlocked_summary:
-            play sound "sfx/ui_click.opus"
+            # TODO: missing audio: play sound "sfx/ui_click.opus"
             jump ch5_library_summary_scene
 
         "Папка: 'Транзитная Логистика', Технический мануал" if ch5_unlocked_logistics:
-            play sound "sfx/ui_click.opus"
+            # TODO: missing audio: play sound "sfx/ui_click.opus"
             jump ch5_library_logistics_scene
 
         "Папка: 'Легенда о Слезах Вселенной', Фольклорный архив" if ch5_read_folklore:
-            play sound "sfx/ui_click.opus"
+            # TODO: missing audio: play sound "sfx/ui_click.opus"
             jump ch5_library_folklore_scene
 
         "Выйти из терминала":
-            play sound "sfx/ui_back.opus"
+            # TODO: missing audio: play sound "sfx/ui_back.opus"
             narrator "Я отключила экран и стерла логи поиска. Информации достаточно. Пора возвращаться к миссии."
             jump ch5_library_choices_menu
 
@@ -279,7 +279,7 @@ label ch5_library_folklore_scene:
 
     scene black with Dissolve(0.25)
     stop music fadeout 1.5
-    play sound "sfx/heartbeat_slow.opus" 
+    # TODO: missing audio: play sound "sfx/heartbeat_slow.opus"
 
     narrator """
         ...
@@ -312,7 +312,7 @@ label ch5_library_folklore_scene:
         Я смотрела на черный экран терминала. В отражении стекла виднелись мои собственные глаза. Глаза, похожие на 'Дитя Вселенной'.
     """
     
-    play music "music/BGM/Space_Station_Atmosphere.opus" fadein 3.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Space_Station_Atmosphere.opus" fadein 3.0 loop volume 0.3
 
     narrator """
         Я отключила терминал. Внутри меня образовалась новая, пугающая тяжесть. 

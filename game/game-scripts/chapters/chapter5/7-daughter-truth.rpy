@@ -13,7 +13,7 @@ label chapter5_cargo_dead_end:
     """
 
     scene ch05_cg55_v02 with dissolve
-    play ambient "ambient/cargo_bay_silence_creepy.opus" fadein 2.0 loop volume 0.7
+    # TODO: missing audio: play ambient "ambient/cargo_bay_silence_creepy.opus" fadein 2.0 loop volume 0.7
 
     narrator """
         Из-за груды контейнеров бесшумно выступила фигура. Аргон.
@@ -41,7 +41,7 @@ label chapter5_cargo_dead_end:
     # --- СЦЕНА 2: БЕССИЛИЕ И СТЕНА ---
 
     scene ch05_cg56_v01 with fade
-    play music "music/BGM/Tension_Drone_Soft.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Tension_Drone_Soft.opus" fadein 2.0 loop volume 0.3
 
     narrator "Мы подошли к створам шлюза. Толстая, полуметровая бронесталь."
 
@@ -94,7 +94,7 @@ label chapter5_cargo_dead_end:
 
     scene ch05_cg57_v03 with dissolve
     stop music fadeout 2.0
-    play music "music/BGM/Confession_Theme.opus" fadein 3.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Confession_Theme.opus" fadein 3.0 loop volume 0.5
 
     neon """
         Аргон... Мне нужно тебе кое-что сказать. Я не могу больше это нести.
@@ -178,7 +178,7 @@ label chapter5_cargo_dead_end:
     # --- СЦЕНА 4: АБСОЛЮТНАЯ ТИШИНА ---
 
     scene black with flash
-    play sound "sfx/heartbeat_calm_single.opus"
+    # TODO: missing audio: play sound "sfx/heartbeat_calm_single.opus"
     
     narrator """
         Слезы хлынули из моих глаз, смывая четыре года гнетущей, свинцовой вины.
@@ -238,7 +238,7 @@ label chapter5_cargo_dead_end:
     # --- СЦЕНА 5: КОРАБЛЬ-ПРИЗРАК И СЛЕДЫ КАТАНЫ ---
 
     scene black with fade
-    play music "music/BGM/Horror_Atmosphere_Low.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Horror_Atmosphere_Low.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Мы вошли.

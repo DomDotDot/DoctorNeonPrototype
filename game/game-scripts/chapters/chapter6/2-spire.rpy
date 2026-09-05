@@ -5,8 +5,8 @@ label chapter6_spire:
     narrator "Мы покинули грязные окраины и вышли на более широкие улицы. Город жил своей жалкой, замерзшей жизнью."
 
     scene bg city_square_cold with Dissolve(2.0)
-    play ambient "ambient/city_cold_wind_muffled.opus" loop volume 0.5
-    play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 3.0 volume 0.3
+    # TODO: missing audio: play ambient "ambient/city_cold_wind_muffled.opus" loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Oganesson_Theme_Dark_Majesty.opus" fadein 3.0 volume 0.3
 
     narrator """
     Редкие прохожие, закутанные в безразмерные куртки и шарфы, спешили по своим делам, глядя исключительно себе под ноги. 

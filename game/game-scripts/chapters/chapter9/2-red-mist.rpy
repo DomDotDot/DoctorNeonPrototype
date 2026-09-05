@@ -5,8 +5,8 @@ label chapter9_redmist:
     scene bg ruined_city_red_fog with fade
     # Фон: Улицы города, но теперь всё залито густым, светящимся красным туманом. Видимость падает. Цвета искажены.
 
-    play ambient "ambient/red_fog_low_hum.opus" fadein 3.0 loop volume 0.6
-    play music "music/BGM/Melancholy_Dissonance.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/red_fog_low_hum.opus" fadein 3.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Melancholy_Dissonance.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Чем ближе я подходила к центру, тем гуще становился красный туман.

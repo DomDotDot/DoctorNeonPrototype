@@ -259,7 +259,7 @@ label ch5_level3_robotics:
             $ current_pressure = store.ch5_clock_hours * 100 + store.ch5_clock_minutes
             if store.ch5_clock_hours == 3 and store.ch5_clock_minutes == 14:
                 hide screen ch5_hydraulic_puzzle_screen
-                play sound "sfx/hydraulic_release.opus"
+                # TODO: missing audio: play sound "sfx/hydraulic_release.opus"
                 narrator "С громким шипением система сбросила давление. Манипулятор медленно разжал стальные пальцы."
                 narrator "Ампула 'Цито-В' мягко упала на ленту конвейера."
                 $ add_item(Item_ReagentA)
@@ -275,7 +275,7 @@ label ch5_level3_robotics:
             else:
                 $ store.ch5_robotics_fail_count = getattr(store, 'ch5_robotics_fail_count', 0) + 1
                 $ store.ch5_robotics_last_attempt = current_pressure
-                play sound "sfx/error_buzz.opus"
+                # TODO: missing audio: play sound "sfx/error_buzz.opus"
                 
                 if store.ch5_robotics_fail_count % 2 == 0:
                     # Сброс на рандомные значения при каждой второй ошибке!

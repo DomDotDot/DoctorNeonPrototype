@@ -3,8 +3,8 @@ label chapter8_basketball:
     # --- СЦЕНА 1: СПОРТЗАЛ И ПРАВИЛА ---
 
     scene bg school_gym_day with fade
-    play ambient "ambient/gym_echos_sneakers.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/School_Sports_Upbeat.opus" fadein 2.0 volume 0.4
+    # TODO: missing audio: play ambient "ambient/gym_echos_sneakers.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/School_Sports_Upbeat.opus" fadein 2.0 volume 0.4
 
     narrator """
         Спортзал пах мастикой и пылью. Я ненавидела этот запах. 

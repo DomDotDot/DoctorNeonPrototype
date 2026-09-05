@@ -5,8 +5,8 @@ label chapter9_epilogue:
     scene bg ruined_city_sunrise with Fade(3.0, 1.0, 3.0)
     # CG или Фон: Панорама Запределья. Но теперь нет ни желтых туч, ни красного тумана. Ясное, нежно-голубое утреннее небо. На разрушенных улицах пробиваются первые лучи настоящего солнца.
     
-    play ambient "ambient/morning_birds_thaw.opus" fadein 4.0 loop volume 0.5
-    play music "music/BGM/Epilogue_A_New_Dawn_Acoustic.opus" fadein 3.0 volume 0.5
+    # TODO: missing audio: play ambient "ambient/morning_birds_thaw.opus" fadein 4.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Epilogue_A_New_Dawn_Acoustic.opus" fadein 3.0 volume 0.5
 
     narrator """
         Мир проснулся от долгого, удушливого кошмара.

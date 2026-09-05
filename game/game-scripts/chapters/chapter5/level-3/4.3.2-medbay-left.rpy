@@ -32,11 +32,11 @@ label ch5_level3_medbay_left_menu:
                     
                     menu:
                         "Подпереть дверь найденной шваброй" if has_item("mop"):
-                            play sound "sfx/hydraulic_release.opus"
+                            # TODO: missing audio: play sound "sfx/hydraulic_release.opus"
                             narrator "Я дождалась момента, когда дверь приоткрылась, и со всей силы вогнала металлическую ручку швабры в зазор."
 
                             scene ch05_cg49_v01 with hpunch
-                            play sound "sfx/glass_shatter.opus"
+                            # TODO: missing audio: play sound "sfx/glass_shatter.opus"
                             narrator "Дверь с оглушительным скрежетом захлопнулась, изогнув швабру, но механизм заклинило! Образовался устойчивый полуметровый проем."
                             $ remove_item("mop")
                             $ store.ch5_medbay_mop_propped = True
@@ -44,7 +44,7 @@ label ch5_level3_medbay_left_menu:
                             jump ch5_level3_medbay_left_menu
                             
                         "Попробовать применить Чип Администратора" if has_item("admin_chip"):
-                            play sound "sfx/error_buzz.opus"
+                            # TODO: missing audio: play sound "sfx/error_buzz.opus"
                             narrator "Я приложила Чип Администратора высшего доступа к считывателю. Замок сердито пискнул красным. Дверь продолжает лихорадочно и хаотично хлопать."
                             neon "На что я надеялась? Тут чисто механическая поломка, электроника не поможет."
                             jump ch5_level3_medbay_left_menu
@@ -84,7 +84,7 @@ label ch5_level3_medbay_left_menu:
                     narrator "Согласно брошюре из МРТ, для стабильного синтеза мне жизненно необходим 'Реагент-D' — специальный катализатор."
                     menu:
                         "Авторизовать карту и получить Реагент-D":
-                            play sound "sfx/ticket_print.opus"
+                            # TODO: missing audio: play sound "sfx/ticket_print.opus"
                             narrator "Автомат негромко загудел, списывая остатки моих средств с карты. С тихим стуком в лоток выдачи скатилась герметичная фиолетовая ампула."
                             $ add_item(Item_ReagentD)
                             $ store.ch5_medbay_reagent_d_dispensed = True

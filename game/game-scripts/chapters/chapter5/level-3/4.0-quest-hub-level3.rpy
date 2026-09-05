@@ -110,7 +110,7 @@ label ch5_level3_inner_hall_menu:
                     # Первый подход — узнаём о жёлтой тревоге
                     narrator "Тяжелая бронированная дверь. Я попыталась приложить свой ID к считывателю."
                     
-                    play sound "sfx/alarm_klaxon_single.opus"
+                    # TODO: missing audio: play sound "sfx/alarm_klaxon_single.opus"
                     
                     narrator """
                         Панель мигнула жёлтым. На экране появилось сообщение:

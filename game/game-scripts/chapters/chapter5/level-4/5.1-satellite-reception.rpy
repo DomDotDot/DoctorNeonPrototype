@@ -28,7 +28,7 @@ screen global_satellite_timer_screen():
 label ch5_satellite_reception:
     scene ch05_bg23_v01 with fade
     stop music fadeout 2.0
-    play ambient "ambient/derelict_hum_wind.opus" loop fadein 3.0
+    # TODO: missing audio: play ambient "ambient/derelict_hum_wind.opus" loop fadein 3.0
     
     narrator """
         Ресепшен Нексуса.

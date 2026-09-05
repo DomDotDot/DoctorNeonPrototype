@@ -3,7 +3,7 @@ label chapter8_memory_sea:
     # --- СЦЕНА 1: ЗАБЕГ И РЕФЛЕКСИЯ (Возвращение логики) ---
 
     scene bg island_mountain_road_grey with fade
-    play music "music/BGM/Exhaustion_Drone.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Exhaustion_Drone.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Я бежала по серой, пустой горной дороге. 
@@ -42,7 +42,7 @@ label chapter8_memory_sea:
     # --- СЦЕНА 2: ПОГРУЖЕНИЕ (Преодоление страха) ---
 
     scene bg rocky_shore_cave_entrance_grey with dissolve
-    play ambient "ambient/ocean_waves_grey_loud.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/ocean_waves_grey_loud.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Я добралась до того самого холма на побережье.
@@ -137,7 +137,7 @@ label chapter8_memory_sea:
     scene cg_alex_neon_helios_selfie with dissolve
     # CG: Фотография, но не из детства. Это селфи из лаборатории 'Гелиоса'. Взрослая Неон в белом халате, немного смущенная и недовольная. Её крепко обнимает за шею Алекс, одетая в свой фирменный розовый свитер, широко улыбаясь в камеру. На заднем плане — серверные стойки и графики.
 
-    play music "music/BGM/Truth_Unfolds_Piano.opus" fadein 2.0 volume 0.5
+    # TODO: missing audio: play music "music/BGM/Truth_Unfolds_Piano.opus" fadein 2.0 volume 0.5
 
     narrator "Я впилась взглядом в снимок."
 
@@ -247,7 +247,7 @@ label chapter8_memory_sea:
     """
 
     stop music fadeout 1.0
-    play music "music/BGM/Tragic_Resolution.opus" fadein 2.0 volume 0.5
+    # TODO: missing audio: play music "music/BGM/Tragic_Resolution.opus" fadein 2.0 volume 0.5
 
     celeste """
         Хошико... Кхм... Неон...

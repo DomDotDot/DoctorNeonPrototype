@@ -4,7 +4,7 @@ label chapter7_library:
 
     scene black with fade
     stop music fadeout 2.0
-    play ambient "ambient/library_silence_echo.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/library_silence_echo.opus" fadein 3.0 loop volume 0.4
 
     narrator """
         Холод.
@@ -138,7 +138,7 @@ label chapter7_library:
 
     # --- СЦЕНА 3: ЧАЕПИТИЕ И ИСТИНА ---
 
-    play music "music/BGM/Truth_Unfolds_Piano.opus" fadein 3.0 volume 0.4
+    # TODO: missing audio: play music "music/BGM/Truth_Unfolds_Piano.opus" fadein 3.0 volume 0.4
 
     narrator """
         Он жестом указал вглубь зала. Там, между стеллажами, стоял небольшой резной столик и два кресла. 
@@ -220,7 +220,7 @@ label chapter7_library:
     """
 
     scene cg_akane_mending_reality with fade
-    play ambient "ambient/night_crickets_japan.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/night_crickets_japan.opus" fadein 2.0 loop
     
     # Визуальный эффект: Картинка от первого лица (глазами Аканэ).
     # Мы видим двор традиционного японского дома ночью. Воздух искажен трещинами, из которых сочится Желтый Туман.
@@ -284,7 +284,7 @@ label chapter7_library:
     """
 
     scene bg xenons_library_vast with dissolve
-    play music "music/BGM/Truth_Unfolds_Piano.opus" fadein 2.0 volume 0.5
+    # TODO: missing audio: play music "music/BGM/Truth_Unfolds_Piano.opus" fadein 2.0 volume 0.5
     
     show neon operative_shocked at right
     show xenon librarian_calm at left
@@ -381,7 +381,7 @@ label chapter7_library:
     # --- СЦЕНА 1: ВОПРОСЫ О ПРОШЛОМ ---
 
     scene bg xenons_library_vast with fade
-    play music "music/BGM/Library_Whispers.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Library_Whispers.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Слезы иссякли. Я вытерла лицо рукавом черной водолазки. 
@@ -509,7 +509,7 @@ label chapter7_library:
 
     # --- СЦЕНА 4: ВОЗВРАЩЕНИЕ В ЗАПРЕДЕЛЬЕ (Срывание Плаща) ---
 
-    play ambient "ambient/city_cold_wind_muffled.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/city_cold_wind_muffled.opus" fadein 2.0 loop
     
     narrator """
         Мир снова вывернулся наизнанку. 
@@ -577,7 +577,7 @@ label chapter7_library:
 
     # --- СЦЕНА 5: РЕФЛЕКСИЯ ПО ПУТИ К МЭРИЛ ---
 
-    play music "music/BGM/Tension_Drone_Dark.opus" fadein 3.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Tension_Drone_Dark.opus" fadein 3.0 loop volume 0.3
 
     narrator """
         Я шла по замерзшим улицам Запределья, не обращая внимания на ветер.

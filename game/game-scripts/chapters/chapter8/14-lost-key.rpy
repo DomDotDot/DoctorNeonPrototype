@@ -3,8 +3,8 @@ label chapter8_lost_key:
     # --- СЦЕНА 1: КЛУБНАЯ ИДИЛЛИЯ (ФАЛЬШЬ) ---
 
     scene bg school_club_room_sunset with fade
-    play ambient "ambient/summer_cicadas_sunset.opus" fadein 2.0 loop volume 0.3
-    play music "music/BGM/Slice_Of_Life_Sunset.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/summer_cicadas_sunset.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Sunset.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Время шло. Солнце медленно садилось, заливая пустой кабинет теплым, оранжевым светом.
@@ -136,7 +136,7 @@ label chapter8_lost_key:
     # --- СЦЕНА 3: ПРОПАЖА КЛЮЧЕЙ И ЗАГОВОР ---
 
     scene bg school_shoe_lockers_sunset with fade
-    play ambient "ambient/school_empty_sunset.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/school_empty_sunset.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Мы с Селестой спустились в холл.
@@ -179,7 +179,7 @@ label chapter8_lost_key:
     # --- СЦЕНА 4: ИНТЕРВЕНЦИЯ ---
 
     stop music fadeout 0.5
-    play music "music/BGM/Tension_Rooftop.opus" fadein 1.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Tension_Rooftop.opus" fadein 1.0 loop volume 0.6
 
     narrator """
         Голос раздался из темноты коридора.
@@ -303,7 +303,7 @@ label chapter8_lost_key:
     "???" "И это то гостеприимство, о котором вы говорили?"
 
     stop music fadeout 0.5
-    play music "music/BGM/Celestia_Theme_Cold.opus" fadein 1.0 volume 0.5
+    # TODO: missing audio: play music "music/BGM/Celestia_Theme_Cold.opus" fadein 1.0 volume 0.5
 
     narrator "Из-за угла, плавно и бесшумно, вышла Селеста."
 

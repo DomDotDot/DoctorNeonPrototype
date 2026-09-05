@@ -6,7 +6,7 @@ label chapter5_start:
     default visited_library = False
 
     # --- СЦЕНА: РАЗДЕЛЕНИЕ ---
-    play music "music/BGM/Space_Station_Atmosphere.opus" fadein 2.0 loop volume 0.3
-    play ambient "ambient/station_hum_ventilation.opus" fadein 2.0 loop
+    # TODO: missing audio: play music "music/BGM/Space_Station_Atmosphere.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/station_hum_ventilation.opus" fadein 2.0 loop
 
 return

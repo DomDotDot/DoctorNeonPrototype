@@ -5,7 +5,7 @@ label chapter9_hall:
     scene bg gothic_belfry_interior with dissolve
     # Фон: Просторный первый этаж старой готической колокольни. Каменные стены, арки. 
     
-    play ambient "ambient/church_choir_heavenly.opus" fadein 3.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/church_choir_heavenly.opus" fadein 3.0 loop volume 0.5
 
     narrator """
         Тяжелые двери захлопнулись за моей спиной, отсекая красный туман и многоголосый гул улиц.
@@ -128,7 +128,7 @@ label chapter9_hall:
         Она лежала на каменном полу. Свернувшись калачиком. Без своей косы. Без красного тумана.
     """
 
-    play music "music/BGM/Melancholy_Piano_Dark.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Melancholy_Piano_Dark.opus" fadein 3.0 loop volume 0.4
 
     show celeste awakening at center with dissolve
     # Спрайт: Селеста медленно приподнимается на руках. Её белые волосы растрепаны. Она выглядит очень сонной, дезориентированной. Глаза еще закрыты.

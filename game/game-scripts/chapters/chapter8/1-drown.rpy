@@ -6,7 +6,7 @@ label chapter8_drown:
     stop music fadeout 2.0
     
     # Звук: Мягкий, ритмичный шум волн. Крик чаек вдалеке.
-    play ambient "ambient/ocean_waves_calm.opus" loop fadein 3.0 volume 0.6
+    # TODO: missing audio: play ambient "ambient/ocean_waves_calm.opus" loop fadein 3.0 volume 0.6
 
     neon """
         {=thoughts}Шум...
@@ -53,7 +53,7 @@ label chapter8_drown:
     scene cg_alex_beach_rescue with Dissolve(2.0)
     # CG: Алекс сидит на коленях на песке, придерживая Неон. Алекс в спортивной форме (например, волейбольные шорты и футболка). Неон в мокрой, классической японской школьной форме (сейлор-фуку). На заднем плане — спокойное вечернее море и золотой закат.
 
-    play music "music/BGM/Cozy_Sunset_Beach.opus" fadein 2.0 volume 0.4
+    # TODO: missing audio: play music "music/BGM/Cozy_Sunset_Beach.opus" fadein 2.0 volume 0.4
 
     neon "{=whisper}А-алекс...?{/whisper}"
 
@@ -224,7 +224,7 @@ label chapter8_drown:
     akane "Ох, Алекс-чан, спасибо тебе... Проходите скорее в дом!"
 
     scene black with fade
-    play sound "sfx/shower_running_echo.opus" loop fadein 2.0
+    # TODO: missing audio: play sound "sfx/shower_running_echo.opus" loop fadein 2.0
 
     narrator """
         Ванная комната была скромной, но современной. Белый кафель, густой, теплый пар.
@@ -347,7 +347,7 @@ label chapter8_drown:
     scene bg neon_bedroom_cozy_night with dissolve
     # Фон: Типичная, уютная комната японской школьницы. Книги, плакаты, разложенный на полу дорогой, мягкий футон.
     
-    play music "music/BGM/Cozy_Night_Chat.opus" fadein 2.0 volume 0.3
+    # TODO: missing audio: play music "music/BGM/Cozy_Night_Chat.opus" fadein 2.0 volume 0.3
 
     show alex casual_smiling at left with dissolve
     show neon school_shy at right with dissolve
@@ -437,7 +437,7 @@ label chapter8_drown:
     narrator "Она улыбнулась мне своей фирменной, широкой улыбкой. И все мои страхи окончательно растаяли в её свете."
 
     scene black with fade
-    play ambient "ambient/crickets_night_calm.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/crickets_night_calm.opus" fadein 2.0 loop
 
     narrator """
         Свет выключен. 

@@ -1,7 +1,7 @@
 # --- ТАЙМЕР ИСТЁК ---
 label ch5_satellite_timer_expired:
     hide screen global_satellite_timer_screen
-    play sound "sfx/alarm_klaxon_single.opus"
+    # TODO: missing audio: play sound "sfx/alarm_klaxon_single.opus"
     
     narrator """
         Потолок залил тревожный красный свет. Из динамиков раздался механический голос:
