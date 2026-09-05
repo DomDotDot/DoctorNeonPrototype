@@ -70,7 +70,7 @@ init python:
             headers = {'User-Agent': 'RenPy-Game-Client'}
 
             # Делаем запрос к API GitHub (таймаут 5 сек, чтобы не тупить)
-            response = requests.get(GITHUB_API_URL, headers=headers, timeout=5, verify=False)
+            response = requests.get(GITHUB_API_URL, headers=headers, timeout=5)
             
             if response.status_code == 200:
                 data = response.json()
