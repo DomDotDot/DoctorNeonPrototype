@@ -60,7 +60,7 @@ init python:
 image particles_winter = SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10)
 
 image particles_dust:
-    "gui/main_menu/particle.png"
+    "gui/particle.png"
     xalign 0.5 yalign 0.5
     block:
 
