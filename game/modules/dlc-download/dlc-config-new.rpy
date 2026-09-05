@@ -140,6 +140,12 @@ init -999 python:
             try:
                 dlc_state["phase"] = "unzipping"
                 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                    # Защита от Zip Slip (CWE-22)
+                    target_abs = os.path.abspath(target_dir)
+                    for member in zip_ref.namelist():
+                        dest_path = os.path.abspath(os.path.join(target_dir, member))
+                        if os.path.commonpath([target_abs, dest_path]) != target_abs:
+                            raise Exception("Небезопасный путь в архиве (Zip Slip): " + member)
                     zip_ref.extractall(target_dir)
                 
                 if os.path.exists(zip_path):
