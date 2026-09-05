@@ -45,6 +45,12 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Fail if README is out of date (on Pull Request)
+        if: github.event_name == 'pull_request' && steps.git_status.outputs.changed == 'true'
+        run: |
+          echo "::error::README.md or README.ru.md is out of date with story script statistics. Please run 'python tools/script_stats_linter.py' and commit the updated README files."
+          exit 1
+
       - name: Commit and Push Updated READMEs (on Push only)
         if: github.event_name == 'push' && steps.git_status.outputs.changed == 'true'
         run: |
