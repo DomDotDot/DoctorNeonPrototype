@@ -139,7 +139,7 @@ label chapter4_5_concert_start:
         А потом толпа взревела.
     """
     stop ambient fadeout 2.5
-    play sound "sfx/crowd-fan-excited.opus" fadein 1.5
+    # TODO: missing audio: play sound "sfx/crowd-fan-excited.opus" fadein 1.5
     scene featured_cg-31_2 with dissolve
 
 
@@ -304,7 +304,7 @@ label chapter4_5_concert_start:
     Помните, ваше присутствие — это ваша любовь! Люблю вас!
     """
     
-    play sound "sfx/crowd-fan-excited" fadein 1.5
+    # TODO: missing audio: play sound "sfx/crowd-fan-excited" fadein 1.5
     play ambient "sfx/crowd-fan-clap1.opus" noloop fadein 1.5
     narrator "Она подмигнула толпе, и скрылась за кулисами. В зале вспыхнул яркий свет, вырывая меня из полумрака."
 

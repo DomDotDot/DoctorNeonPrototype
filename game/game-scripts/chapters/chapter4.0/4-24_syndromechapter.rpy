@@ -193,7 +193,7 @@ label chapter4_0_24syndrome:
     
     scene bg chapter_4_24_syndrome-apartment-living with fade
     play music "music/BGM/OVERCAST-EYES.opus" fadein 5.0 fadeout 5.0 volume 0.25
-    play ambient "ambient/apartment_quiet_ticking_clock.opus" loop
+    # TODO: missing audio: play ambient "ambient/apartment_quiet_ticking_clock.opus" loop
 
     narrator """
     Я ожидала увидеть либо стерильный порядок, либо полный хаос. Но квартира была... другим. Она была похожа на музей.

@@ -184,7 +184,7 @@ label chapter4_5_lily_flashback:
     
     narrator "Ее голос был тихим, лишенным эмоций. Она сделала шаг ко мне. Ее рука внезапно метнулась вперед и схватила мою, сжав запястье до боли."
     
-    play music "music/BGM/Entity_Theme.opus" fadeout 5.0
+    # TODO: missing audio: play music "music/BGM/Entity_Theme.opus" fadeout 5.0
     
     nari possessed neutral1 "Тссс. Тихо. Там кто-то идет."
 

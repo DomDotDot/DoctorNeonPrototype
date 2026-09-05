@@ -229,7 +229,7 @@ label dream_sequence_japan_4:
     
     # Резкая вспышка синего света.
     scene white with flash
-    play sound "sfx/absolute_silence_awaken.opus"
+    # TODO: missing audio: play sound "sfx/absolute_silence_awaken.opus"
     
     $ persistent.flashback_dream_4_unlocked = True
     # (Переход к сцене пробуждения)

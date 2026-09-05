@@ -251,7 +251,7 @@
         Взгляд, который я знала наизусть, хотя память упорно твердила, что мы никогда не встречались.
         """
 
-        play sound "sfx/static_noise_burst.opus"
+        # TODO: missing audio: play sound "sfx/static_noise_burst.opus"
         scene ch01_cg11_v01 with vpunch
         
         narrator """

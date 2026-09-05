@@ -397,7 +397,7 @@ label chapter4_5_nari_flashback:
     """
 
     scene bg chapter_4_ark-aground-old-street-night with fade
-    play music "music/BGM/Entity_Theme.opus" loop
+    # TODO: missing audio: play music "music/BGM/Entity_Theme.opus" loop
     
     narrator """
     Я не знала, куда иду. Просто шла, ведомая этим колючим чувством потери.
