@@ -1,7 +1,7 @@
 label chapter5_bridge_overload:
 
     # --- СЦЕНА 1: МОСТИК И ПЕРЕГРУЗКА ---
-    scene black with fade
+    scene ch05_cg64_v01 with fade
     play ambient "ambient/footsteps_metal_echo.opus" fadein 2.0 loop volume 0.5
 
     narrator """
@@ -12,7 +12,7 @@ label chapter5_bridge_overload:
         Сейчас отсюда веяло смертью.
     """
 
-    scene bg space_station_bridge_ruined with Dissolve(2.0)
+    scene ch05_cg65_v01 with Dissolve(3.0)
     stop ambient fadeout 1.0
     play music "music/BGM/Horror_Atmosphere_High.opus" fadein 2.0 loop volume 0.4
 
@@ -23,9 +23,6 @@ label chapter5_bridge_overload:
         
         Мы перешагнули через вырезанный кусок металла и вошли внутрь.
     """
-
-    show argon operative_glasses at left with dissolve
-    show neon operative_neutral at right with dissolve
 
     neon "{=whisper}Здесь то же самое...{/whisper}"
 
@@ -42,6 +39,8 @@ label chapter5_bridge_overload:
     argon "Его здесь нет. Только персонал."
 
     neon "Тот, кто это сделал, явно искал не СЕО."
+
+    scene ch05_cg66_v01 with fade
 
     narrator """
         Я подошла к центральному терминалу. Экран был залит кровью, но система еще работала.
@@ -72,7 +71,7 @@ label chapter5_bridge_overload:
     """
 
     # play sound "sfx/station_alarm_critical.opus" loop
-    scene bg space_station_bridge_ruined with flash
+    scene ch05_cg65_v02 with flash
 
     fcs """
         ВНИМАНИЕ. КРИТИЧЕСКИЙ СБОЙ ЯДРА.
