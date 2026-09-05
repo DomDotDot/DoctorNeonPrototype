@@ -113,17 +113,6 @@ init python:
                             should_popup
                         )
 
-                    # ДОБАВЛЯЕМ В МЕНЕДЖЕР
-                    add_notification(
-                        notif_id=notif_id,
-                        title=title,
-                        message=message,
-                        link_itch=LINK_ITCH,
-                        link_github=LINK_GITHUB,
-                        version_tag=remote_tag,
-                        force_popup=should_popup # Покажем попап, только если не в игноре
-                    )
-
                 else:
                     print("UpdateCheck: Версия актуальна.")
             else:
