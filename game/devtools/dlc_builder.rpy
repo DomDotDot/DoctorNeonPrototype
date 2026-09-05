@@ -1,30 +1,24 @@
 init python:
     import zipfile
     import os
+    import threading
 
-    def build_all_dlc_packages():
-        """
-        Создает ZIP архивы для DLC из папок игры.
-        Архивы будут лежать в корне проекта (рядом с папкой game).
-        """
-        
-        # Базовая директория (папка проекта, где лежит папка game)
+    def _build_dlc_worker():
         base_dir = config.basedir 
         game_dir = config.gamedir
         
         print("\n--- НАЧАЛО СБОРКИ DLC (v{}) ---".format(config.version))
         
-        # Получаем каталог DLC (он определен в dlc-config-new.rpy)
-        # Так как это init python, dlc_catalog должен быть доступен в store
         catalog = getattr(store, "dlc_catalog", [])
-        
         if not catalog:
             print("!! ОШИБКА: dlc_catalog не найден или пуст.")
-            renpy.notify("Ошибка: dlc_catalog пуст!")
+            renpy.notify(_("Ошибка: dlc_catalog пуст!"))
             return
 
+        has_errors = False
+        built_count = 0
+
         for item in catalog:
-            # Проверяем, есть ли инструкции для сборки
             if "build_sources" not in item:
                 continue
                 
@@ -35,45 +29,52 @@ init python:
             
             print(f"\n[Обработка DLC: {dlc_id}]")
             
-            # 1. Генерируем манифест
-            print(f" -> Генерация манифеста: {manifest_name}")
-            # Вызываем функцию из files_manifest.rpy
-            file_list = generate_dlc_manifest(target_filename=manifest_name, source_folders=sources)
-            
-            # 2. Создаем архив
-            zip_filename = os.path.join(base_dir, zip_name)
-            print(f" -> Архивация в: {zip_filename}")
-            
             try:
+                # 1. Генерируем манифест
+                print(f" -> Генерация манифеста: {manifest_name}")
+                file_list = generate_dlc_manifest(target_filename=manifest_name, source_folders=sources)
+                
+                # 2. Создаем архив
+                zip_filename = os.path.join(base_dir, zip_name)
+                print(f" -> Архивация в: {zip_filename}")
+                
                 with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
-                    # Добавляем манифест в корень архива
                     manifest_path = os.path.join(game_dir, manifest_name)
                     if os.path.exists(manifest_path):
-                        zipf.write(manifest_path, manifest_name) # В архиве будет лежать как dlc_manifest.json
+                        zipf.write(manifest_path, manifest_name)
                     else:
                         print("!! ВНИМАНИЕ: Манифест не найден после генерации!")
 
-                    # Добавляем файлы из манифеста
                     for rel_path in file_list:
                         full_path = os.path.join(game_dir, rel_path)
                         if not os.path.exists(full_path):
                             print(f"!! Пропуск (не найден): {rel_path}")
                             continue
-                        
-                        # В архиве сохраняем структуру (например audio/music/track.opus)
-                        # Важно: файлы из game/ должны лежать в корне архива (или в game/?).
-                        # По логике распаковки в dlc_download: folder="." -> распаковка в game/
-                        # Значит, в архиве файлы должны лежать как audio/...
-                        # А манифест как dlc_manifest.json
                         zipf.write(full_path, rel_path)
                         
                 print(f" -> Готово: {zip_name}")
+                built_count += 1
 
             except Exception as e:
+                has_errors = True
                 print(f"!! ОШИБКА при сборке {zip_name}: {e}")
 
         print("\n--- СБОРКА ЗАВЕРШЕНА ---")
-        renpy.notify("DLC Архивы обновлены!")
+        if has_errors:
+            renpy.notify(_("Сборка DLC завершена с ошибками! См. консоль."))
+        elif built_count > 0:
+            renpy.notify(_("DLC Архивы успешно обновлены!"))
+        else:
+            renpy.notify(_("Нет пакетов DLC для сборки."))
+
+    def build_all_dlc_packages():
+        """
+        Создает ZIP архивы для DLC из папок игры в фоновом потоке.
+        Архивы будут лежать в корне проекта (рядом с папкой game).
+        """
+        renpy.notify(_("Сборка DLC запущена в фоновом режиме..."))
+        thread = threading.Thread(target=_build_dlc_worker, daemon=True)
+        thread.start()
 
 # Кнопка для вызова (добавь в screens.rpy в developer menu или просто временный экран)
 screen dlc_builder_tool():
