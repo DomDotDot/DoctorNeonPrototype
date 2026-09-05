@@ -12,30 +12,19 @@ label chapter5_cargo_dead_end:
         Но когда я спустилась на уровень Карго...
     """
 
-    scene chapter5-test-cargo with Dissolve(2.0)
+    scene ch05_cg55_v02 with dissolve
     play ambient "ambient/cargo_bay_silence_creepy.opus" fadein 2.0 loop volume 0.7
-
-    show neon operative_glasses at right with dissolve
-
-    neon "{=whisper}Что за...{/whisper}"
-
-    narrator """
-        Ангар был мертв.
-        
-        Огромное, гулкое помещение, где обычно кипела работа, погрузилось во мрак.
-
-        Дежурное освещение было выбито. Грузовые мехи застыли на полпути, словно марионетки, у которых обрезали нити.
-        
-        Никаких охранников. Никакого 'Кода Красного'. Только звенящая, давящая тишина и запах жженой проводки.
-    """
-
-    show argon operative_glasses at left with dissolve
 
     narrator """
         Из-за груды контейнеров бесшумно выступила фигура. Аргон.
         
         Его тазер был опущен. Он не целился. Он просто стоял и тяжело дышал, глядя вглубь ангара.
     """
+
+    scene ch05_cg55_v01 with dissolve
+
+    show argon technician neutral at left with moveinleft
+    show neon turtleneck neutral at right with dissolve
 
     argon "{=whisper}Ты это видишь, Неон?{/whisper}"
 
@@ -51,7 +40,7 @@ label chapter5_cargo_dead_end:
 
     # --- СЦЕНА 2: БЕССИЛИЕ И СТЕНА ---
 
-    scene bg space_station_heavy_blastdoor with fade
+    scene ch05_cg56_v01 with fade
     play music "music/BGM/Tension_Drone_Soft.opus" fadein 2.0 loop volume 0.3
 
     narrator "Мы подошли к створам шлюза. Толстая, полуметровая бронесталь."
@@ -59,6 +48,8 @@ label chapter5_cargo_dead_end:
     argon "Панель управления мертва. Физический блок. Они заварили её изнутри."
 
     neon "Отойди."
+
+    scene ch05_cg56_v02 with fade
 
     narrator """
         Я сняла перчатки. Приложила ладони к холодному металлу.
@@ -80,24 +71,28 @@ label chapter5_cargo_dead_end:
 
     # play sound "sfx/power_down_whine.opus"
 
+    scene ch05_cg56_v03 with dissolve
+
     narrator "Синяя искра слабо мигнула между моими пальцами и тут же погасла, не оставив на металле ни царапины."
 
-    show neon operative_pain at right with vpunch
+    scene ch05_cg56_v05 with dissolve
 
-    neon "(Задыхаясь) Агх! Не могу... Я не могу сфокусироваться. Слишком много... произошло... внутри."
-
-    show argon operative_bruised at left with dissolve
+    neon "Агх! Не могу... Я не могу сфокусироваться. Слишком много... произошло... внутри."
 
     narrator """
         Я бессильно ударила кулаком по бронедвери и сползла по ней вниз, осев на холодный пол.
         
         Аргон опустился на корточки рядом со мной. Он не упрекал. Он просто смотрел на меня своим тяжелым, уставшим взглядом.
     """
+    
+    scene ch05_cg57_v01 with dissolve
 
     argon "Успокойся. Мы найдем термический резак или вскроем щиток. Время еще есть."
 
     # --- СЦЕНА 3: ИСПОВЕДЬ И ПРОЩЕНИЕ ---
 
+
+    scene ch05_cg57_v03 with dissolve
     stop music fadeout 2.0
     play music "music/BGM/Confession_Theme.opus" fadein 3.0 loop volume 0.5
 
@@ -109,7 +104,11 @@ label chapter5_cargo_dead_end:
 
     argon "{=whisper}Неон. Не хорони нас раньше времени.{/whisper}"
 
+    scene ch05_cg57_v02 with vpunch
+
     neon "НЕТ! Послушай меня!"
+
+    scene ch05_cg57_v01 with dissolve
     
     neon "{=whisper}Пожалуйста...{/whisper}"
 
@@ -134,7 +133,12 @@ label chapter5_cargo_dead_end:
         
         Я оставила твою дочь сгорать заживо, потому что решила, что её уже не спасти. Я... я ужасный человек, Аргон.
     """
-
+    
+    scene black with dissolve
+    scene ch05_cg58_v01 at dizzy_sway169 with { "master" : Dissolve(25.0) }
+    with { "effect": dissolve }
+    
+    
     narrator """
         Я зажмурилась, вжав голову в плечи.
         
@@ -143,7 +147,11 @@ label chapter5_cargo_dead_end:
         А затем... я почувствовала тяжелую, мозолистую руку на своем плече.
     """
 
+    scene black with dissolve
+
     argon "{=whisper}Неон. Открой глаза и посмотри на меня.{/whisper}"
+
+    scene ch05_cg59_v01 with Fade(0.125, 0.5, 1)
 
     narrator "Я с трудом подняла веки. Лицо Аргона было в сантиметрах от моего. На нем не было ни капли злости. Только глубокая, выстраданная печаль."
 
@@ -169,7 +177,7 @@ label chapter5_cargo_dead_end:
 
     # --- СЦЕНА 4: АБСОЛЮТНАЯ ТИШИНА ---
 
-    scene white with flash
+    scene black with flash
     play sound "sfx/heartbeat_calm_single.opus"
     
     narrator """
@@ -186,7 +194,7 @@ label chapter5_cargo_dead_end:
 
     narrator "Я прошептала это слово так тихо, что сама едва услышала. Но Аргон услышал. Он грустно улыбнулся и крепко сжал мое плечо."
 
-    scene bg space_station_heavy_blastdoor with dissolve
+    scene ch05_cg56_v01 with dissolve
     stop music fadeout 2.0
     
     narrator """
@@ -199,33 +207,37 @@ label chapter5_cargo_dead_end:
         Внутри меня воцарилась Идеальная, Абсолютная Тишина.
     """
 
-    show neon operative_neutral at center with dissolve
-
     neon "Отойди на два шага, Аргон."
 
     narrator "Он посмотрел на мое лицо. Понял без слов. И молча отступил назад."
+
+    scene ch05_cg56_v02 with dissolve
 
     # play sound "sfx/neon_power_activate_bass_deep.opus"
 
     narrator """
         Я снова положила ладони на полуметровую бронесталь гермодвери.
-        
-        Никаких искр. Никакого напряжения. Это было так же просто, как стереть пыль со стекла.
     """
+
+    scene ch05_cg56_v04 with dissolve
 
     # play sound "sfx/metal_crunch_massive_silenced.opus" with hpunch
 
     narrator """
-        Броня под моими руками просто... исчезла. 
+        Броню окутывала яркий синий огонь.
         
-        Внутренние запорные механизмы, титановые балки, многослойный кевлар рассыпались в мельчайшую серую крошку. 
-        
+        Внутренние запорные механизмы, титановые балки, многослойный кевлар рассыпались в мельчайшую серую крошку.
+    """
+    
+    scene ch05_cg60_v01 with fade
+
+    narrator """
         Огромные створки, лишенные петель и креплений, с глухим, тяжелым гулом рухнули внутрь ангара.
     """
 
     # --- СЦЕНА 5: КОРАБЛЬ-ПРИЗРАК И СЛЕДЫ КАТАНЫ ---
 
-    scene bg spaceship_erebus_hold with fade
+    scene black with fade
     play music "music/BGM/Horror_Atmosphere_Low.opus" fadein 2.0 loop volume 0.5
 
     narrator """
@@ -238,7 +250,7 @@ label chapter5_cargo_dead_end:
         А на трапе... и вокруг него...
     """
 
-    scene cg_erebus_massacre_1 with dissolve
+    scene ch05_cg61_v01 with dissolve
 
     argon "Твою мать..."
 
@@ -268,7 +280,7 @@ label chapter5_cargo_dead_end:
 
     narrator "Мы перешагнули через тела и зашли в грузовой отсек 'Эреба'."
 
-    scene cg_erebus_cargo_destroyed with fade
+    scene ch05_cg63_v01 with fade
 
     neon "Груз 'Омега'..."
 
@@ -296,18 +308,22 @@ label chapter5_cargo_dead_end:
         Удар пробил стекло, и что-то острое уничтожило содержимое.
     """
 
-    argon """"
+    argon """
     Тот, кто это сделал, ненавидел этот груз так же сильно, как и мы.
 
     Неон... нам нужно на Мостик. Туда, откуда управляют полетами.
     """
+
+    scene ch05_cg63_v02 with dissolve
 
     neon "Зачем? Связи нет."
 
     argon """
         Затем, что они ввели этот идиотский карантин, и теперь, отсюда невозможно сбежать.
         
-        Нам нужно запустить перегрузку реактора с диспетчерского пульта на Мостике. Это единственный способ снять блокировку с эвакуационных шаттлов и разнести этот рассадник к чертовой матери. Вместе с тем, кто за этим стоит.
+        Нам нужно запустить перегрузку реактора с диспетчерского пульта на Мостике. Это единственный способ снять блокировку с эвакуационных шаттлов и разнести этот рассадник к чертовой матери.
+        
+        Вместе с тем, кто за этим стоит.
     """
 
     narrator "Аргон посмотрел на меня. В его глазах была абсолютная, холодная решимость человека, которому нечего терять."
