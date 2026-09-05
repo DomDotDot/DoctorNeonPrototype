@@ -227,9 +227,11 @@ init python:
     build.classify('README.ru.md', None)
     build.classify('LICENSE', None)
 
-    # Изображения
+    # Изображения и исходники
     build.classify('game/dev-images/**', 'dev') # Backup rule if move failed
     build.classify('source_assets/**', None)
+    build.classify('**.pdn', None)
+    build.classify('**.psd', None)
     build.classify('tools/**', None)
     build.classify('unused/**', None)
 
