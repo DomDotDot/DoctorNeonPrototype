@@ -79,11 +79,8 @@ define config.sample_sound = "audio/sfx/sound_sample.opus"
 define config.sample_voice = "audio/voice/voice_sample.ogg"
 
 
-## Раскомментируйте следующую строчку, чтобы настроить аудиофайл, который будет
-## проигрываться в главном меню. Этот файл продолжит проигрываться во время
-## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
-
-define config.main_menu_music = "audio/music/BGM/Depersonalization-Backstage.opus"
+## Музыка главного меню управляется динамически по уровням в main-menu_custom-new.rpy
+define config.main_menu_music = None
 
 
 ## Переходы ####################################################################
