@@ -2,8 +2,20 @@ init python:
     import re
 
     def slow_punctuation(str_to_test):
-        # Skip if text is empty or user set text speed to 'Instant' (CPS = 0)
+        # Пропуск, если текст пустой или скорость текста установлена на "Мгновенно" (CPS = 0)
         if not str_to_test or getattr(preferences, "text_cps", 1) == 0:
+            return str_to_test
+
+        # Не добавляем паузы при скипе текста, чтобы не блокировать быструю перемотку
+        if renpy.is_skipping():
+            return str_to_test
+
+        # Не добавляем паузы в кнопки меню выборов (screen choice)
+        if renpy.get_screen("choice") is not None:
+            return str_to_test
+
+        # Проверка пользовательского тумблера доступности
+        if getattr(persistent, "slow_punctuation", True) is False:
             return str_to_test
             
         # Try to translate the string first, so that the translation matches the unmodified string.
