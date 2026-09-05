@@ -8,8 +8,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-125.4k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20994-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-125.3k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20993-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-10%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **125 376** | `100%` |
-| **Total Script Lines** | **5 994** | `100%` |
-| Narration / Description | 83 825 words / 3 140 lines | `66.9%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 551 words / 2 854 lines | `33.1%` ███░░░░░░░ |
+| **Total Words** | **125 317** | `100%` |
+| **Total Script Lines** | **5 993** | `100%` |
+| Narration / Description | 83 769 words / 3 140 lines | `66.8%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 548 words / 2 853 lines | `33.2%` ███░░░░░░░ |
 | Unique Speakers | 102 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -142,19 +142,19 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 3: Escapism** | 18 | 361 | 7 357 | `29.4%` ██░░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 142 | 28 206 | `36.9%` ███░░░░░ |
-| **Chapter 5: An Offer You Can’t Refuse** | 37 | 947 | 15 110 | `38.7%` ███░░░░░ |
+| **Chapter 5: An Offer You Can’t Refuse** | 37 | 946 | 15 051 | `38.8%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 182 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 321 | 8 331 | `25.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 994** | **125 376** | `33.1%` |
+| **TOTAL** | **158** | **5 993** | **125 317** | `33.2%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 214 | 14 518 | `34.9%` ███░░░░░ |
+| **Neon** | 1 213 | 14 515 | `34.9%` ███░░░░░ |
 | **Seraphina** | 166 | 3 258 | `7.8%` █░░░░░░░ |
 | **Argon** | 185 | 3 252 | `7.8%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.0%` ░░░░░░░░ |
@@ -209,56 +209,56 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
 | **Kai Ito** | 4 | 66 | `0.2%` ░░░░░░░░ |
 | **Bartender Staff** | 4 | 63 | `0.2%` ░░░░░░░░ |
-| **Bandit 2** | 3 | 60 | `0.1%` ░░░░░░░░ |
 | **Waitress** | 5 | 60 | `0.1%` ░░░░░░░░ |
+| **Bandit 2** | 3 | 60 | `0.1%` ░░░░░░░░ |
 | **Mika Kitamura** | 4 | 58 | `0.1%` ░░░░░░░░ |
 | **Concierge** | 5 | 58 | `0.1%` ░░░░░░░░ |
 | **Worker 1** | 2 | 47 | `0.1%` ░░░░░░░░ |
 | **Academy Director** | 2 | 43 | `0.1%` ░░░░░░░░ |
 | **Rico** | 6 | 41 | `0.1%` ░░░░░░░░ |
-| **Ishikawa-sensei** | 2 | 36 | `0.1%` ░░░░░░░░ |
 | **Woman** | 5 | 36 | `0.1%` ░░░░░░░░ |
+| **Ishikawa-sensei** | 2 | 36 | `0.1%` ░░░░░░░░ |
 | **Security Captain** | 3 | 31 | `0.1%` ░░░░░░░░ |
-| **Student A** | 2 | 30 | `0.1%` ░░░░░░░░ |
 | **Fan 1** | 4 | 30 | `0.1%` ░░░░░░░░ |
+| **Student A** | 2 | 30 | `0.1%` ░░░░░░░░ |
 | **Girl (Neon)** | 5 | 29 | `0.1%` ░░░░░░░░ |
 | **Fan 2** | 3 | 29 | `0.1%` ░░░░░░░░ |
 | **Fan 3** | 3 | 29 | `0.1%` ░░░░░░░░ |
-| **Control Officer** | 4 | 24 | `0.1%` ░░░░░░░░ |
+| **Consultant** | 2 | 24 | `0.1%` ░░░░░░░░ |
 | **Student C** | 1 | 24 | `0.1%` ░░░░░░░░ |
 | **Concierge (Female)** | 3 | 24 | `0.1%` ░░░░░░░░ |
-| **Consultant** | 2 | 24 | `0.1%` ░░░░░░░░ |
+| **Control Officer** | 4 | 24 | `0.1%` ░░░░░░░░ |
 | **Guard** | 4 | 23 | `0.1%` ░░░░░░░░ |
 | **Worker 2** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **Navigator** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **Driver** | 1 | 22 | `0.1%` ░░░░░░░░ |
 | **CEO's Voice** | 1 | 21 | `0.1%` ░░░░░░░░ |
 | **Medrobot** | 3 | 20 | `0.0%` ░░░░░░░░ |
-| **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
 | **Student B** | 1 | 17 | `0.0%` ░░░░░░░░ |
-| **Mercenary Commander** | 3 | 16 | `0.0%` ░░░░░░░░ |
-| **Fan 4** | 2 | 16 | `0.0%` ░░░░░░░░ |
+| **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
 | **Shareholder 2's Voice** | 1 | 16 | `0.0%` ░░░░░░░░ |
+| **Fan 4** | 2 | 16 | `0.0%` ░░░░░░░░ |
+| **Mercenary Commander** | 3 | 16 | `0.0%` ░░░░░░░░ |
 | **Vendor** | 1 | 15 | `0.0%` ░░░░░░░░ |
 | **Commander** | 2 | 15 | `0.0%` ░░░░░░░░ |
 | **Student 1** | 1 | 13 | `0.0%` ░░░░░░░░ |
 | **Student 1 (Girl)** | 1 | 13 | `0.0%` ░░░░░░░░ |
-| **Passenger** | 1 | 11 | `0.0%` ░░░░░░░░ |
 | **Voice** | 3 | 11 | `0.0%` ░░░░░░░░ |
+| **Passenger** | 1 | 11 | `0.0%` ░░░░░░░░ |
 | **Father** | 1 | 9 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1's Voice** | 1 | 9 | `0.0%` ░░░░░░░░ |
-| **Fan 5** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Celeste (Phantom)** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1** | 1 | 8 | `0.0%` ░░░░░░░░ |
-| **Bully 2** | 1 | 7 | `0.0%` ░░░░░░░░ |
+| **Fan 5** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Boy** | 2 | 7 | `0.0%` ░░░░░░░░ |
+| **Bully 2** | 1 | 7 | `0.0%` ░░░░░░░░ |
 | **Bully 1** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
-| **Security Commander** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Passerby** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Bodyguard** | 2 | 5 | `0.0%` ░░░░░░░░ |
-| **Clara** | 3 | 4 | `0.0%` ░░░░░░░░ |
+| **Security Commander** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Students** | 1 | 4 | `0.0%` ░░░░░░░░ |
+| **Clara** | 3 | 4 | `0.0%` ░░░░░░░░ |
 | **Desk Neighbor** | 1 | 3 | `0.0%` ░░░░░░░░ |
 | **Courier** | 1 | 3 | `0.0%` ░░░░░░░░ |
 | **Absolute Silence** | 1 | 1 | `0.0%` ░░░░░░░░ |
