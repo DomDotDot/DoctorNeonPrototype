@@ -230,23 +230,89 @@ def scan_all_scripts():
     
     print(f"Сканирование завершено. Найдено меток (labels): {count}\n")
 
-def process_file(filepath, outfile, depth=0):
+def extract_label_lines(filepath, target_label):
     """
-    Читает файл строку за строкой.
-    Если находит call -> ищет файл -> вставляет его содержимое.
+    Извлекает из файла только строки указанной метки (от 'label target_label:' до 'return' или следующей метки).
+    Возвращает список строк или None, если метка не найдена.
     """
-    # Защита от бесконечной рекурсии
+    regex_label = re.compile(rf'^\s*label\s+{re.escape(target_label)}\s*(\(.*\))?\s*:')
+    regex_any_label = re.compile(r'^\s*label\s+[a-zA-Z0-9_]+\s*(\(.*\))?\s*:')
+    regex_return = re.compile(r'^\s*return\b')
+
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            all_lines = f.readlines()
+    except Exception:
+        return None
+
+    in_label = False
+    label_lines = []
+    base_indent = 0
+
+    for line in all_lines:
+        if not in_label:
+            if regex_label.search(line):
+                in_label = True
+                base_indent = len(line) - len(line.lstrip())
+                label_lines.append(line)
+        else:
+            cur_indent = len(line) - len(line.lstrip())
+            # Если встретили новую метку на том же или меньшем уровне отступа - конец текущей метки
+            if line.strip() and cur_indent <= base_indent and regex_any_label.search(line):
+                break
+            label_lines.append(line)
+            # Если встретили return на уровне метки
+            if regex_return.search(line) and cur_indent <= base_indent + 4:
+                break
+
+    return label_lines if in_label else None
+
+def process_lines(lines, filepath, outfile, depth=0):
+    """
+    Обрабатывает переданные строки файла.
+    Если находит call -> ищет метку -> рекурсивно вставляет ее тело до return.
+    """
     if depth > 10:
-        outfile.write(f"\n[!!! ПРЕДУПРЕЖДЕНИЕ: Слишком глубокая вложенность (LOOP?) !!!]\n")
+        outfile.write("\n[!!! ПРЕДУПРЕЖДЕНИЕ: Слишком глубокая вложенность (LOOP?) !!!]\n")
         return
 
+    regex_call = re.compile(r'^\s*call\s+(?!screen\b)([a-zA-Z0-9_]+)')
+    indent = "    " * depth
+    short_name = os.path.basename(filepath)
+
+    outfile.write(f"\n{indent}{'='*15} [{short_name}] {'='*15}\n")
+
+    for line in lines:
+        match_call = regex_call.search(line)
+        if match_call:
+            called_label = match_call.group(1)
+            if called_label in label_map:
+                target_file = label_map[called_label]
+                if os.path.abspath(target_file) == os.path.abspath(filepath):
+                    outfile.write(line)
+                else:
+                    outfile.write(f"\n{indent}>>> CALL: {called_label} (Файл: {os.path.basename(target_file)}) >>>\n")
+                    target_lines = extract_label_lines(target_file, called_label)
+                    if target_lines:
+                        process_lines(target_lines, target_file, outfile, depth + 1)
+                    else:
+                        process_file(target_file, outfile, depth + 1)
+                    outfile.write(f"{indent}<<< RETURN: {called_label} <<<\n\n")
+            else:
+                outfile.write(line)
+        else:
+            outfile.write(line)
+
+    outfile.write(f"\n{indent}{'='*15} [КОНЕЦ: {short_name}] {'='*15}\n")
+
+def process_file(filepath, outfile, depth=0):
+    """
+    Читает файл целиком и передает его строки в process_lines.
+    """
     if not os.path.exists(filepath):
         outfile.write(f"\n[!!! ОШИБКА: Файл не найден: {filepath} !!!]\n")
         print(f"Не найден: {filepath}")
         return
-
-    # Регулярка для call (исключая call screen)
-    regex_call = re.compile(r'^\s*call\s+(?!screen\b)([a-zA-Z0-9_]+)')
 
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -255,68 +321,68 @@ def process_file(filepath, outfile, depth=0):
         outfile.write(f"\n[!!! ОШИБКА ЧТЕНИЯ: {e} !!!]\n")
         return
 
-    indent = "    " * depth
-    short_name = os.path.basename(filepath)
-    
-    # Заголовок
-    outfile.write(f"\n{indent}{'='*15} [{short_name}] {'='*15}\n")
+    process_lines(lines, filepath, outfile, depth)
 
-    for line in lines:
-        match_call = regex_call.search(line)
-        
-        # Если нашли call
-        if match_call:
-            called_label = match_call.group(1)
-            
-            # Проверяем, есть ли такой лейбл в нашей базе
-            if called_label in label_map:
-                target_file = label_map[called_label]
-                
-                # ВАЖНО: Не вставлять файл в самого себя (рекурсия внутри файла)
-                if os.path.abspath(target_file) == os.path.abspath(filepath):
-                     outfile.write(line) # Просто пишем call как есть
-                else:
-                    outfile.write(f"\n{indent}>>> CALL: {called_label} (Файл: {os.path.basename(target_file)}) >>>\n")
-                    # РЕКУРСИЯ: вставляем содержимое вызываемого файла
-                    process_file(target_file, outfile, depth + 1)
-                    outfile.write(f"{indent}<<< RETURN: {called_label} <<<\n\n")
-            else:
-                # Лейбл не найден (возможно, системный или из движка)
-                outfile.write(line)
-        else:
-            # Обычная строка
-            outfile.write(line)
+def build_chapter(chapter_name, output_path=None):
+    """
+    Собирает указанную главу в текстовый файл.
+    """
+    if chapter_name not in CHAPTERS_DB:
+        print(f"[ОШИБКА] Глава '{chapter_name}' не найдена в базе.")
+        print(f"Доступные главы: {', '.join(CHAPTERS_DB.keys())}")
+        return False
 
-    outfile.write(f"\n{indent}{'='*15} [КОНЕЦ: {short_name}] {'='*15}\n")
+    file_list = CHAPTERS_DB[chapter_name]
+    if output_path is None:
+        filename = f"Full_{chapter_name}.txt"
+        output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
 
-def main():
-    # 1. Сканируем ВСЕ файлы проекта
-    scan_all_scripts()
-
-    # 2. Проверяем настройки
-    if TARGET_CHAPTER not in CHAPTERS_DB:
-        print(f"Глава '{TARGET_CHAPTER}' не найдена в настройках.")
-        return
-
-    file_list = CHAPTERS_DB[TARGET_CHAPTER]
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), OUTPUT_FILENAME)
-    
-    print(f"--- 2. Сборка главы {TARGET_CHAPTER} ---")
+    print(f"--- Сборка главы {chapter_name} -> {os.path.basename(output_path)} ---")
 
     try:
         with open(output_path, 'w', encoding='utf-8') as outfile:
-            outfile.write(f"СБОРКА: {TARGET_CHAPTER}\n\n")
-            
+            outfile.write(f"СБОРКА: {chapter_name}\n\n")
             for rel_path in file_list:
                 full_path = get_abs_path(rel_path)
-                print(f"Обработка корневого файла: {rel_path}")
+                print(f"  Обработка: {rel_path}")
                 process_file(full_path, outfile)
-                outfile.write("\n\n") 
-        
-        print(f"\nУСПЕШНО! Файл сохранен: {OUTPUT_FILENAME}")
-        
+                outfile.write("\n\n")
+        print(f"[УСПЕХ] Файл сохранен: {output_path}\n")
+        return True
     except Exception as e:
-        print(f"\nКритическая ошибка: {e}")
+        print(f"[Критическая ошибка]: {e}\n")
+        return False
+
+def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Ren'Py Script to Full Text Converter")
+    parser.add_argument(
+        "--chapter", "-c",
+        default="chapter8",
+        help="Chapter to convert (e.g. chapter1, chapter8, or 'all'). Default: chapter8"
+    )
+    parser.add_argument(
+        "--output", "-o",
+        default=None,
+        help="Custom output filename or directory"
+    )
+
+    args = parser.parse_args()
+
+    # 1. Сканируем все файлы проекта
+    scan_all_scripts()
+
+    # 2. Сборка выбранной главы или всех глав
+    if args.chapter.lower() == "all":
+        print("=== Пакетная сборка всех глав ===")
+        for ch in CHAPTERS_DB.keys():
+            out = None
+            if args.output and os.path.isdir(args.output):
+                out = os.path.join(args.output, f"Full_{ch}.txt")
+            build_chapter(ch, out)
+    else:
+        build_chapter(args.chapter, args.output)
 
 if __name__ == "__main__":
     main()
