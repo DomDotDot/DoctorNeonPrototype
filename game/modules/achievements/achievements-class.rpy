@@ -365,7 +365,6 @@ init -2 python:
             return None
         if cg_name not in persistent.seen_gallery_cg_set:
             persistent.seen_gallery_cg_set.add(cg_name)
-            renpy.save_persistent()
             add_achievement_progress("nostalgia", 1)
         return None
 
@@ -375,7 +374,6 @@ init -2 python:
             return None
         if char_id not in persistent.seen_glossary_chars_set:
             persistent.seen_glossary_chars_set.add(char_id)
-            renpy.save_persistent()
             add_achievement_progress("deep_analysis", 1)
         return None
 
