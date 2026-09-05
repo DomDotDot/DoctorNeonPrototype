@@ -1,18 +1,17 @@
+default inventory_list = [] # Список предметов
+default selected_item = None # Текущий выбранный предмет (для контекстного меню)
+default inventory_allowed = False # Глобальный переключатель (можно ли открывать инвентарь)
+
 init -1 python:
     # 1. Класс Предмета
-    class Item:
+    class Item(renpy.store.object):
         def __init__(self, id, name, description, icon, use_func=None):
             self.id = id
             self.name = name
             self.description = description
             self.icon = icon
             # use_func - это имя label или python-функции, вызываемой при использовании из инвентаря
-            self.use_func = use_func 
-
-    # 2. Переменные состояния
-    inventory_list = [] # Список предметов
-    selected_item = None # Текущий выбранный предмет (для контекстного меню)
-    inventory_allowed = False # Глобальный переключатель (можно ли открывать инвентарь)
+            self.use_func = use_func
 
     # 3. Методы управления
     def add_item(item):
