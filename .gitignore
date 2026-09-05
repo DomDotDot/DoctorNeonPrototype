@@ -33,6 +33,10 @@ disabled/
 
 # Бэкапы
 *.bak
+*.rpyc.bak
+*.rpy.bak
+*.rpym.bak
+*.rpymc.bak
 *.new
 *.zip
 backups/
