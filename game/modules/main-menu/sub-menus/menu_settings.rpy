@@ -214,6 +214,19 @@ screen sound_settings_screen():
                         if config.sample_sound:
                             textbutton _("Тест") action Play("sound", config.sample_sound) style "settings_test_button"
 
+                # Регулятор громкости фонового эмбиента
+                $ amb_vol = int(preferences.volumes.get("ambient", 1.0) * 100)
+                label _("Громкость эмбиента: ") + str(amb_vol) + "%"
+                hbox:
+                    spacing 10
+                    textbutton "↺":
+                        action Preference("ambient volume", 1.0)
+                        style "settings_test_button"
+                        xsize 45
+                        left_margin 0
+                        tooltip _("Сбросить")
+                    bar value Preference("ambient volume") xsize 345 yalign 0.5
+
                 if config.has_voice:
                     $ voi_vol = int(preferences.volumes["voice"] * 100)
                     label _("Громкость голоса: ") + str(voi_vol) + "%"
