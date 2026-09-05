@@ -14,7 +14,6 @@ init -990 python:
         "progress": 0.0,
         "mb_cur": 0.0,
         "mb_total": 0.0,
-        "mb_total": 0.0,
         "error_msg": None,
         "releases": {"stable": [], "early": []},
         "selected_track": "early",
