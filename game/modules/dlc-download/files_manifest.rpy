@@ -45,7 +45,7 @@ init python:
         files_list.sort()
         
         manifest_path = os.path.join(base_dir, target_filename)
-        with open(manifest_path, "w") as f:
+        with open(manifest_path, "w", encoding="utf-8") as f:
             json.dump(manifest, f, indent=4)
             
         print(f"Manifest Generated: {target_filename} ({len(files_list)} files)")
@@ -62,7 +62,7 @@ init python:
             return False
             
         try:
-            with open(manifest_path, "r") as f:
+            with open(manifest_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 
             files = data.get("files", [])
