@@ -171,12 +171,22 @@ transform glitch_effect:
             
         repeat
 
-# Комбинированный эффект: Глитч + Параллакс (от мыши)
-# Требует наличия функции mouse_parallax_func (из effects.rpy)
-transform scene_parallax(amount=20):
+# Эффект Параллакса (от мыши):
+# speed=0.0 — мгновенный 1:1 отклик без задержки и статтеров
+# speed=1.0 — плавная кинематографичная инерция (доводка)
+transform scene_parallax(amount=20, speed=0.0):
     align (0.5, 0.5)
-    xysize (int(config.screen_width * 1.05), int(config.screen_height * 1.05))
-    function mouse_parallax_func(amount)
+    subpixel True
+    zoom (1.0 + max(0.06, abs(amount) * 0.0012))
+    function mouse_parallax_func(amount, speed)
+
+# Чистый аппаратный GPU-шейдер параллакса (сдвигает UV в видеопамяти)
+# Без смещения матриц дисплейбла, без пересчетов лейаута
+transform gpu_parallax(amount=40, speed=0.0):
+    shader "custom.parallax"
+    u_parallax_zoom (1.0 - min(0.2, max(0.05, abs(amount) * 0.0015)))
+    u_parallax (0.0, 0.0)
+    function gpu_parallax_func(amount, speed)
 
 
 # Комбинированный эффект: Покачивание (dizzy_sway) + Мигание (blur_flicker)
@@ -217,3 +227,113 @@ transform sway_and_flicker:
                 alpha 1.0
                 pause 0.05
             repeat
+
+
+# Эффект турбулентности / порывов воздуха
+# Непрерывный эффект для сцен разгерметизации, открытого космоса, сильного ветра или бури.
+# Мягкие сглаженные кривые (easein/easeout) создают ощущение массы воздуха и аэродинамики,
+# без резкого дребезга и рывков.
+transform turbulence:
+    align (0.5, 0.5)
+    subpixel True
+    zoom 1.06
+
+    # Горизонтальные порывы ветра (неравномерные накаты и спады)
+    parallel:
+        easein 0.7 xoffset 28
+        easeout 0.5 xoffset 10
+        easein 0.4 xoffset 36
+        easeout 0.9 xoffset -8
+        easein 0.6 xoffset -24
+        easeout 0.7 xoffset 6
+        ease 0.9 xoffset 0
+        repeat
+
+    # Вертикальные потоки и провалы воздуха (аэродинамическая нестабильность)
+    parallel:
+        easein 0.8 yoffset -18
+        easeout 0.6 yoffset -6
+        easein 0.5 yoffset -26
+        easeout 1.0 yoffset 14
+        ease 0.8 yoffset -4
+        easeout 0.7 yoffset 0
+        repeat
+
+    # Легкий аэродинамический крен от ветра (roll / наклон)
+    parallel:
+        easein 0.9 rotate 1.2
+        easeout 0.7 rotate -0.6
+        easein 0.6 rotate 1.5
+        easeout 1.1 rotate -1.0
+        ease 0.9 rotate 0.0
+        repeat
+
+    # Пульсация воздушного давления (наплыв и откат зума)
+    parallel:
+        easein 1.1 zoom 1.08
+        easeout 0.8 zoom 1.055
+        easein 0.6 zoom 1.085
+        easeout 1.2 zoom 1.06
+        repeat
+
+# Синоним для соблюдения единого стиля именования 16:9 (по аналогии с dizzy_sway169)
+transform turbulence169:
+    turbulence
+
+# Одиночный порыв воздуха (плавный наплыв потока с последующим возвратом в исходное положение)
+# Подходит для разового броска взрывной волны или внезапного воздушного удара
+transform air_gust:
+    align (0.5, 0.5)
+    subpixel True
+    zoom 1.06
+
+    parallel:
+        easein_cubic 0.45 xoffset 38
+        easeout 0.35 xoffset 16
+        easein 0.25 xoffset 26
+        easeout_quad 0.95 xoffset 0
+
+    parallel:
+        easein_cubic 0.45 yoffset -20
+        easeout 0.4 yoffset -6
+        easeout_quad 0.85 yoffset 0
+
+    parallel:
+        easein_cubic 0.45 rotate 1.4 zoom 1.085
+        easeout 0.4 rotate -0.5 zoom 1.065
+        easeout_quad 0.85 rotate 0.0 zoom 1.06
+
+# Циклические порывы воздуха (спокойствие -> нарастающий порыв ветра -> спад -> повтор)
+transform air_gust_loop:
+    align (0.5, 0.5)
+    subpixel True
+    zoom 1.06
+
+    block:
+        # Относительное затишье с легким дыханием воздуха
+        parallel:
+            ease 1.4 xoffset 6 yoffset -4 rotate 0.3 zoom 1.06
+            ease 1.4 xoffset -4 yoffset 3 rotate -0.2 zoom 1.062
+
+        # Налетает порыв воздуха
+        parallel:
+            easein 0.5 xoffset 34
+            easeout 0.35 xoffset 14
+            easein 0.3 xoffset 24
+            easeout_quad 0.95 xoffset 0
+
+        parallel:
+            easein 0.5 yoffset -22
+            easeout 0.4 yoffset -6
+            easeout_quad 0.85 yoffset 0
+
+        parallel:
+            easein 0.5 rotate 1.4 zoom 1.085
+            easeout 0.4 rotate -0.6 zoom 1.065
+            easeout_quad 0.8 rotate 0.0 zoom 1.06
+
+        # Небольшая пауза между порывами
+        pause 0.6
+
+        repeat
+
