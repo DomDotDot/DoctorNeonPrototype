@@ -32,29 +32,139 @@ init python:
         return ParallaxUpdater(speed)
 
 
-transform mouse_parallax(amount=20):
+# --- GPU ШЕЙДЕР ПАРАЛЛАКСА ---
+# Сдвигает UV-координаты текстуры аппаратно на видеокарте (вершинный шейдер)
+# Без смещения матриц дисплейбла, без пересчетов лейаута, без статтеров.
+init 5 python:
+    renpy.register_shader("custom.parallax",
+        variables="""
+            uniform vec2 u_parallax;
+            uniform float u_parallax_zoom;
+            attribute vec2 a_tex_coord;
+            varying vec2 v_tex_coord;
+        """,
+        vertex_300="""
+            v_tex_coord = (a_tex_coord - vec2(0.5, 0.5)) * u_parallax_zoom + vec2(0.5, 0.5) + u_parallax;
+        """
+    )
 
-    align (0.5, 0.5)
-    xysize (int(config.screen_width * 1.05), int(config.screen_height * 1.05))
-    function mouse_parallax_func(amount)
+init -1 python:
+    import math
+    import time
 
-init python:
-    class MouseParallaxUpdater(object):
-        def __init__(self, amount):
-            self.amount = amount
+    class GPUParallaxUpdater(object):
+        def __init__(self, amount=40, speed=0.0):
+            self.amount = float(amount)
+            self.speed = float(speed)
+            self.current_x = None
+            self.current_y = None
+            self.last_time = None
 
         def __call__(self, trans, st, at):
-            x, y = renpy.get_mouse_pos()
+            raw_x, raw_y = renpy.get_mouse_pos()
+            sw = float(config.screen_width)
+            sh = float(config.screen_height)
 
-            norm_x = (x / float(config.screen_width)) - 0.5
-            norm_y = (y / float(config.screen_height)) - 0.5
-            
-            trans.xoffset = norm_x * self.amount * -1
-            trans.yoffset = norm_y * self.amount * -1
+            mx = max(0.0, min(float(raw_x), sw))
+            my = max(0.0, min(float(raw_y), sh))
+
+            nx = (mx / sw) - 0.5
+            ny = (my / sh) - 0.5
+
+            target_x = nx * (self.amount / sw) * -1.0
+            target_y = ny * (self.amount / sh) * -1.0
+
+            if self.speed <= 0.0:
+                # Мгновенный 1:1 трекинг на GPU
+                trans.u_parallax = (target_x, target_y)
+                return 0
+
+            # Плавная инерция через аппаратный таймер высокого разрешения
+            now = time.perf_counter()
+            if self.last_time is None or self.current_x is None:
+                self.current_x = target_x
+                self.current_y = target_y
+                dt = 0.016
+            else:
+                dt = max(0.001, min(now - self.last_time, 0.05))
+
+            self.last_time = now
+            factor = 1.0 - math.exp(-self.speed * 14.0 * dt)
+
+            self.current_x += (target_x - self.current_x) * factor
+            self.current_y += (target_y - self.current_y) * factor
+
+            trans.u_parallax = (self.current_x, self.current_y)
             return 0
 
-    def mouse_parallax_func(amount):
-        return MouseParallaxUpdater(amount)
+    def gpu_parallax_func(amount=40, speed=0.0):
+        return GPUParallaxUpdater(amount, speed)
+
+
+    class MouseParallaxUpdater(object):
+        def __init__(self, amount=20, speed=0.0):
+            self.amount = float(amount)
+            self.speed = float(speed)
+            self.current_x = None
+            self.current_y = None
+            self.last_time = None
+
+        def __call__(self, trans, st, at):
+            raw_x, raw_y = renpy.get_mouse_pos()
+            sw = float(config.screen_width)
+            sh = float(config.screen_height)
+
+            mx = max(0.0, min(float(raw_x), sw))
+            my = max(0.0, min(float(raw_y), sh))
+
+            norm_x = (mx / sw) - 0.5
+            norm_y = (my / sh) - 0.5
+
+            target_x = norm_x * self.amount * -1.0
+            target_y = norm_y * self.amount * -1.0
+
+            if self.speed <= 0.0:
+                # Мгновенный 1:1 отклик без задержек и смазывания
+                trans.xoffset = target_x
+                trans.yoffset = target_y
+                return 0
+
+            # Плавное сглаживание через таймер time.perf_counter (не зависит от Ren'Py st)
+            now = time.perf_counter()
+            if self.last_time is None or self.current_x is None:
+                self.current_x = target_x
+                self.current_y = target_y
+                dt = 0.016
+            else:
+                dt = max(0.001, min(now - self.last_time, 0.05))
+
+            self.last_time = now
+            factor = 1.0 - math.exp(-self.speed * 14.0 * dt)
+
+            self.current_x += (target_x - self.current_x) * factor
+            self.current_y += (target_y - self.current_y) * factor
+
+            trans.xoffset = self.current_x
+            trans.yoffset = self.current_y
+            return 0
+
+    def mouse_parallax_func(amount=20, speed=0.0):
+        return MouseParallaxUpdater(amount, speed)
+
+
+# Чистый GPU-шейдер параллакса
+transform gpu_parallax(amount=40, speed=0.0):
+    shader "custom.parallax"
+    u_parallax_zoom (1.0 - min(0.2, max(0.05, abs(amount) * 0.0015)))
+    u_parallax (0.0, 0.0)
+    function gpu_parallax_func(amount, speed)
+
+# Классический трансформ со сглаживанием / без статтеров
+transform mouse_parallax(amount=20, speed=0.0):
+    align (0.5, 0.5)
+    subpixel True
+    zoom (1.0 + max(0.06, abs(amount) * 0.0012))
+    function mouse_parallax_func(amount, speed)
 
 
 image particles_winter = SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10)
