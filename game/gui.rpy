@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Инициализация
 ################################################################################
 
@@ -97,50 +97,35 @@ define gui.game_menu_background = "gui/game_menu.png"
 ##
 ## Эти переменные контролируют, как диалог появляется на отдельной строчке.
 
-## Высота текстового окна, содержащего диалог.
-define gui.textbox_height = 278
+## Высота и ширина текстового окна, содержащего диалог.
+define gui.textbox_width = 1560
+define gui.textbox_height = 260
 
-## Местоположение текстового окна по вертикали экрана. 0.0 — верх, 0.5 — центр и
-## 1.0 — низ.
-define gui.textbox_yalign = 1.0
+## Местоположение текстового окна по вертикали экрана. 0.0 — верх, 0.5 — центр и 1.0 — низ.
+define gui.textbox_yalign = 0.92
 
 
 ## Местоположение имени говорящего персонажа по отношению к текстовому окну.
-## Это могут быть целые значения в пикселях слева и сверху от начала окна или
-## процентное отношение, например, 0.5 для центрирования.
-define gui.name_xpos = 380
-define gui.name_ypos = -10
+define gui.name_xpos = 0.5
+define gui.name_ypos = 0
 
-## Горизонтальное выравнивание имени персонажа. Это может быть 0.0 для
-## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
-## выравнивания.
-define gui.name_xalign = 0.0
-## Ширина, высота и границы окна, содержащего имя персонажа или None, для
-## автоматической размерки.
-define gui.namebox_width = 331
+## Горизонтальное выравнивание имени персонажа.
+define gui.name_xalign = 0.5
+## Ширина, высота и границы окна имени.
+define gui.namebox_width = None
 define gui.namebox_height = None
-
-## Границы окна, содержащего имя персонажа слева, сверху, справа и снизу по
-## порядку.
 define gui.namebox_borders = Borders(5, 5, 5, 5)
-
-## Если True, фон текстового окна будет моститься (расширяться по эффекту
-## плитки). Если False, фон текстового окна будет фиксированным.
 define gui.namebox_tile = False
 
 
-## Размещение диалога по отношению к текстовому окну. Это могут быть целые
-## значения в пикселях слева и сверху от текстового окна или процентное
-## отношение, например, 0.5 для центрирования.
-define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 100
+## Размещение диалога по отношению к текстовому окну.
+define gui.dialogue_xpos = 0.5
+define gui.dialogue_ypos = None
 
 ## Максимальная ширина текста диалога в пикселях.
-define gui.dialogue_width = 1104
+define gui.dialogue_width = 1420
 
-## Горизонтальное выравнивание текста диалога. Это может быть 0.0 для
-## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
-## выравнивания.
+## Горизонтальное выравнивание текста диалога.
 define gui.dialogue_text_xalign = 0.0
 
 
@@ -192,10 +177,13 @@ define gui.confirm_button_text_xalign = 0.5
 
 define gui.page_button_borders = Borders(15, 6, 15, 6)
 
-define gui.quick_button_borders = Borders(15, 6, 15, 0)
-define gui.quick_button_text_size = 21
-define gui.quick_button_text_idle_color = gui.idle_small_color
-define gui.quick_button_text_selected_color = gui.accent_color
+define gui.quick_button_borders = Borders(12, 6, 12, 6)
+define gui.quick_button_text_font = gui.text_font
+define gui.quick_button_text_size = 20
+define gui.quick_button_text_idle_color = '#a0b2c6'
+define gui.quick_button_text_hover_color = '#ffffff'
+define gui.quick_button_text_selected_color = '#00e5ff'
+define gui.quick_button_text_insensitive_color = '#48526277'
 
 ## Вы также можете добавить собственные настройки, добавляя правильно
 ## именованные переменные. Например, вы можете раскомментировать следующую

@@ -96,80 +96,9 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen say(who, what):
+## Реализация диалогового окна (say screen) вынесена в отдельный модуль:
+## game/modules/dialogue-ui/dialogue_screens.rpy
 
-    window:
-        id "window"
-
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "namebox"
-                $ _name_fx = get_name_effect(who)
-                if _name_fx is not None:
-                    add _name_fx xalign gui.name_xalign yalign 0.5
-                else:
-                    text who id "who"
-
-        text what id "what"
-
-
-    ## Если есть боковое изображение ("голова"), показывает её поверх текста.
-    ## По стандарту не показывается на варианте для мобильных устройств — мало
-    ## места.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
-
-    # Ачивка "Вдумчивый читатель": 3 минуты на реплике Неон
-    if who is not None and (who == _("Неон") or who == "Неон" or who == "Neon" or who == neon.name):
-        timer 180.0 action Function(grant_achievement, "thoughtful_reader")
-
-
-## Делает namebox доступным для стилизации через объект Character.
-init python:
-    config.character_id_prefixes.append('namebox')
-
-style window is default
-style say_label is default
-style say_dialogue is default
-style say_thought is say_dialogue
-
-style namebox is default
-style namebox_label is say_label
-
-
-style window:
-    xalign 0.5
-    xfill True
-    yalign gui.textbox_yalign
-    ysize gui.textbox_height
-
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
-
-style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
-
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
-
-style say_label:
-    properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
-    yalign 0.5
-
-style say_dialogue:
-    properties gui.text_properties("dialogue")
-
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-
-    adjust_spacing False
 
 ## Экран ввода #################################################################
 ##
@@ -187,10 +116,9 @@ screen input(prompt):
     window:
 
         vbox:
-            xanchor gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
+            xalign 0.5
+            yalign 0.5
             xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
 
             text prompt style "input_prompt"
             input id "input"
@@ -249,49 +177,9 @@ style choice_button_text is default:
     properties gui.text_properties("choice_button")
 
 
-## Экран быстрого меню #########################################################
-##
-## Быстрое меню показывается внутри игры, чтобы обеспечить лёгкий доступ к
-## внеигровым меню.
+## Реализация экрана быстрого меню (quick_menu) вынесена в отдельный модуль:
+## game/modules/dialogue-ui/dialogue_screens.rpy
 
-screen quick_menu():
-
-    ## Гарантирует, что оно появляется поверх других экранов.
-    zorder 100
-
-    if quick_menu:
-
-        hbox:
-            style_prefix "quick"
-
-            xalign 0.5
-            yalign 1.0
-
-            textbutton _("Назад") action Rollback()
-            textbutton _("История") action ShowMenu('history')
-            textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Авто") action Preference("auto-forward", "toggle")
-            textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Б.Сохр") action QuickSave()
-            textbutton _("Б.Загр") action QuickLoad()
-            textbutton _("Опции") action ShowMenu('settings_menu')
-
-
-## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
-## время, если только игрок не скроет интерфейс.
-init python:
-    config.overlay_screens.append("quick_menu")
-    
-default quick_menu = True
-
-style quick_button is default
-style quick_button_text is button_text
-
-style quick_button:
-    properties gui.button_properties("quick_button")
-
-style quick_button_text:
-    properties gui.text_properties("quick_button")
 
 
 ################################################################################
@@ -877,95 +765,8 @@ style slider_vbox:
     xsize 675
 
 
-## Экран истории ###############################################################
-##
-## Этот экран показывает игроку историю диалогов. Хотя в этом экране нет ничего
-## особенного, он имеет доступ к истории диалогов, хранимом в _history_list.
-##
-## https://www.renpy.org/doc/html/history.html
-
-screen history():
-
-    tag menu
-
-    ## Избегайте предсказывания этого экрана, так как он может быть очень
-    ## массивным.
-    predict False
-
-    use game_menu(_("История"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
-
-        style_prefix "history"
-
-        for h in _history_list:
-
-            window:
-
-                ## Это всё правильно уравняет, если history_height будет
-                ## установлен на None.
-                has fixed:
-                    yfit True
-
-                if h.who:
-
-                    label h.who:
-                        style "history_name"
-                        substitute False
-
-                        ## Берёт цвет из who параметра персонажа, если он
-                        ## установлен.
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
-
-                $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what:
-                    substitute False
-
-        if not _history_list:
-            label _("История диалогов пуста.")
-
-
-## Это определяет, какие теги могут отображаться на экране истории.
-
-define gui.history_allow_tags = { "alt", "noalt", "rt", "rb", "art" }
-
-
-style history_window is empty
-
-style history_name is gui_label
-style history_name_text is gui_label_text
-style history_text is gui_text
-
-style history_label is gui_label
-style history_label_text is gui_label_text
-
-style history_window:
-    xfill True
-    ysize gui.history_height
-
-style history_name:
-    xpos gui.history_name_xpos
-    xanchor gui.history_name_xalign
-    ypos gui.history_name_ypos
-    xsize gui.history_name_width
-
-style history_name_text:
-    min_width gui.history_name_width
-    textalign gui.history_name_xalign
-
-style history_text:
-    xpos gui.history_text_xpos
-    ypos gui.history_text_ypos
-    xanchor gui.history_text_xalign
-    xsize gui.history_text_width
-    min_width gui.history_text_width
-    textalign gui.history_text_xalign
-    layout ("subtitle" if gui.history_text_xalign else "tex")
-
-style history_label:
-    xfill True
-
-style history_label_text:
-    xalign 0.5
+## Реализация экрана истории диалогов (history screen) вынесена в отдельный модуль:
+## game/modules/dialogue-ui/history_screen.rpy
 
 
 ## Экран помощи ################################################################
