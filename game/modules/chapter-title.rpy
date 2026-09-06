@@ -110,7 +110,7 @@ screen chapter_screen(chapter_text, title_text, subtitle_text=None):
     modal True
     zorder 200
 
-    on "show" action Function(start_chapter_tracking)
+    on "show" action [Function(start_chapter_tracking), Function(update_chapter_save_info, chapter_text, title_text)]
 
     # Воспроизведение звука всплеска волны в момент её появления
     timer 0.0625 action Play("ui_sfx", "audio/sfx/next-chapter.opus")
