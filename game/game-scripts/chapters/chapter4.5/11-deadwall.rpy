@@ -714,7 +714,7 @@ label chapter4_5_finale:
         Почему зеркала всегда врали мне?
     """
 
-    scene featured_9cg-10-2 at scene_parallax(40), dizzy_sway169 with dissolve
+    scene featured_9cg-10-2 at scene_parallax(40, 1.0), dizzy_sway169 with dissolve
 
     $ renpy.music.set_volume(0.25, channel="ambient")
     $ renpy.music.set_audio_filter("ambient", None, replace=True)
