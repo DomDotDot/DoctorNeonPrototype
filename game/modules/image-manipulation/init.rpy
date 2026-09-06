@@ -29,7 +29,9 @@ return
 image white = "#FFFFFF"
 
 image ctc_blink:
-    xoffset 15
+    xoffset 12
+    yoffset 2
+    subpixel True
 
     "images/ctc/ctc_general.png"
     linear 0.75 alpha 1.0
@@ -37,7 +39,10 @@ image ctc_blink:
     repeat
 
 image ctc_neon:
-    xoffset 15
+    xoffset 12
+    yoffset 2
+    zoom 0.70
+    subpixel True
 
     "images/ctc/ctc_neon.png"
     alpha 0.0
