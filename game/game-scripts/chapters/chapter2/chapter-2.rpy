@@ -1,5 +1,5 @@
 label chapter_2_rpy:
-        play sound "sfx/next-chapter.opus"
+
         call screen chapter_screen(_("Глава 2"), _("В поисках подруги"))
 
         call krypton_firstmeet_flashback from _call_krypton_firstmeet_flashback

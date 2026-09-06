@@ -5,7 +5,6 @@ label chapter_1_rpy:
         else:
             persistent.ai_mode_full_run_valid = False
 
-    play sound "sfx/next-chapter.opus"
     call screen chapter_screen(_("Глава 1"), _("Синяя Ворона"))
 
 

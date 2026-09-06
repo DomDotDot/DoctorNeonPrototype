@@ -112,6 +112,10 @@ screen chapter_screen(chapter_text, title_text, subtitle_text=None):
 
     on "show" action Function(start_chapter_tracking)
 
+    # Воспроизведение звука всплеска волны в момент её появления
+    timer 0.0625 action Play("ui_sfx", "audio/sfx/next-chapter.opus")
+    timer 1.25 action Play("ui_sfx1", "audio/sfx/wave-splash.mp3")
+
     # Автоматическое завершение после полного прохода волны за пределы экрана
     timer 4.5 action [Hide('chapter_screen', transition=None), Return()]
 
@@ -137,7 +141,7 @@ screen chapter_screen(chapter_text, title_text, subtitle_text=None):
     # Центрированный блок заголовка и ветви (единая композиция)
     fixed:
         align (0.5, 0.5)
-        xsize 1100
+        xsize 700
         ysize 450
 
         # Анимированная растущая ветвь: расположена вплотную к заголовку справа с оверлапом

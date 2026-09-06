@@ -1,6 +1,6 @@
 label chapter_3_rpy:
     $ _rollback = False
-    play sound "sfx/next-chapter.opus"
+    
     call screen chapter_screen(_("Глава 3"), _("Эскапизм"))
     
     call chapter3_part1_start from _call_chapter3_part1_start
