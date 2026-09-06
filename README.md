@@ -9,7 +9,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-125.3k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20993-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20995-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,9 +126,9 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **125 317** | `100%` |
-| **Total Script Lines** | **5 993** | `100%` |
-| Narration / Description | 83 769 words / 3 140 lines | `66.8%` ███████░░░ |
+| **Total Words** | **125 283** | `100%` |
+| **Total Script Lines** | **5 995** | `100%` |
+| Narration / Description | 83 735 words / 3 142 lines | `66.8%` ███████░░░ |
 | Spoken Dialogue (Characters) | 41 548 words / 2 853 lines | `33.2%` ███░░░░░░░ |
 | Unique Speakers | 102 | — |
 | Script Files (.rpy) | 158 | — |
@@ -142,13 +142,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 3: Escapism** | 18 | 361 | 7 357 | `29.4%` ██░░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 142 | 28 206 | `36.9%` ███░░░░░ |
-| **Chapter 5: An Offer You Can’t Refuse** | 37 | 946 | 15 051 | `38.8%` ███░░░░░ |
+| **Chapter 5: An Offer You Can’t Refuse** | 37 | 948 | 15 033 | `38.9%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 182 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 321 | 8 331 | `25.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 993** | **125 317** | `33.2%` |
+| **Flashbacks & Memory Fragments** | 13 | 321 | 8 315 | `25.5%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 995** | **125 283** | `33.2%` |
 
 ### Character Dialogue Distribution
 
