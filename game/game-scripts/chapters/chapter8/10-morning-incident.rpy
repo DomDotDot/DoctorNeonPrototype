@@ -5,7 +5,7 @@ label chapter8_morning_incident:
     scene black with fade
     stop music fadeout 2.0
     
-    play ambient "ambient/morning_birds_ocean.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/morning_birds_ocean.opus" fadein 3.0 loop volume 0.4
 
     narrator """
         Мои глаза открылись вместе со звонком будильника.
@@ -43,7 +43,7 @@ label chapter8_morning_incident:
         Я боялась туда идти. Но то, что я услышала, заставило меня подойти ближе и прижаться ухом к щели.
     """
 
-    play music "music/BGM/Tension_Drone_Soft.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Tension_Drone_Soft.opus" fadein 2.0 loop volume 0.5
     scene bg kitchen_morning_dim with dissolve
     # CG или Фон: Кухня в утреннем свете. 
 
@@ -200,7 +200,7 @@ label chapter8_morning_incident:
 
     narrator "Она развела руками, театрально помахала нам и, не оглядываясь, ушла обратно в гостиную, оставив за собой шлейф неразрешенной угрозы."
 
-    play music "music/BGM/Melancholy_Piano_Soft.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Melancholy_Piano_Soft.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Я стояла, всё еще переваривая слова Софи. 

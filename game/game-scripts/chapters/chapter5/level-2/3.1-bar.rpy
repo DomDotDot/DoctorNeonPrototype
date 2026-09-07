@@ -3,7 +3,7 @@ label ch5_station_bar_scene:
     $ visited_bar = True
     $ ch5_visited_bar = True
     scene ch05_bg02_v01 with fade
-    play music "music/BGM/Bar_Jazz_Muffled.opus" fadein 2.0 volume 0.4
+    # TODO: missing audio: play music "music/BGM/Bar_Jazz_Muffled.opus" fadein 2.0 volume 0.4
 
     narrator """
         Бар 'Космический Ветер'. Место, где пилоты и инженеры пытаются смыть космическую радиацию дешевым синтетическим виски.
@@ -53,7 +53,7 @@ label ch5_station_bar_menu:
                         $ ch5_bar_unlocked = True
                         jump ch5_station_bar_menu
                     else:
-                        play sound "sfx/hacking_success_beep.opus"
+                        # TODO: missing audio: play sound "sfx/hacking_success_beep.opus"
                         narrator "Неправильный код."
                         jump ch5_station_bar_menu
                 else:

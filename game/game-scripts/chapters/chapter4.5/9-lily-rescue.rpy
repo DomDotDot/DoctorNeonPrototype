@@ -145,7 +145,7 @@ label chapter4_5_lily_cafe:
 
     narrator "Она с детской непосредственностью и жадностью схватила наши сцепленные руки своими ладонями."
 
-    play sound "sfx/static_shock_loud.opus"
+    # TODO: missing audio: play sound "sfx/static_shock_loud.opus"
     stop music fadeout 0.25
     scene white with flash
     
@@ -371,8 +371,8 @@ label chapter4_5_lily_studio:
     # --- Переход к студии ---
     
     scene bg chapter_4-5 old district alleys with fade
-    play music "music/BGM/Veritas_Night_Rain.opus" loop
-    play sound "sfx/light_rain.opus" loop fadein 4.0
+    # TODO: missing audio: play music "music/BGM/Veritas_Night_Rain.opus" loop
+    # TODO: missing audio: play sound "sfx/light_rain.opus" loop fadein 4.0
     play ambient "ambient/wind-howly-ear.opus"
     
     narrator """

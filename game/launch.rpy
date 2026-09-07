@@ -76,7 +76,7 @@ label splashscreen:
     # -----------------------------------------------------------
     
     if not launched_from_launcher:
-        if renpy.has_label("_call_dlc_check_sequence"):
+        if renpy.has_label("dlc_check_sequence"):
             call dlc_check_sequence from _call_dlc_check_sequence
 
     if hasattr(store, 'updater_state'):

@@ -5,7 +5,7 @@ label chapter5_wasteland:
     scene black with fade
     
     # Звук: Очень тихий, холодный ветер. Никакой музыки.
-    play ambient "ambient/wasteland_wind_cold.opus" fadein 3.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/wasteland_wind_cold.opus" fadein 3.0 loop volume 0.6
     
     pause 3.0
 
@@ -112,7 +112,7 @@ label chapter5_wasteland:
     scene cg_mercenaries_surround with dissolve
     # CG: Камера снизу (от лица Неон). Вокруг неё в кольцо встают тяжело бронированные наемники "Гелиоса". У них в руках штурмовые винтовки с лазерными целеуказателями, которые красными точками сходятся на груди Неон. На заднем плане слепит прожектор шаттла.
 
-    play music "music/BGM/Tension_Drone_Dark.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Tension_Drone_Dark.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Из нутра корабля посыпались черные фигуры. 

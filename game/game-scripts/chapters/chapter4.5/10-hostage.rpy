@@ -2,7 +2,7 @@ label chapter4_5_awakening_and_finale:
 
     scene black with Dissolve(2.0)
     # Звук: Резкий, оглушающий звук пробуждения силы Неон переходит в рев огня и треск горящего дерева.
-    play sound "sfx/absolute_silence_awaken.opus" fadeout 2.0
+    # TODO: missing audio: play sound "sfx/absolute_silence_awaken.opus" fadeout 2.0
     play ambient "ambient/house_burn.opus" volume 0.175 fadein 2.5
 
     narrator """

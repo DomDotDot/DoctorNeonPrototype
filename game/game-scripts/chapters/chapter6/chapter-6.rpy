@@ -1,5 +1,5 @@
 label chapter_6_rpy:
-    play sound "sfx/next-chapter.opus"
+
     call screen chapter_screen(_("Глава 6"), _("Первый ряд, Пятое место"))
     pause 2.0
     

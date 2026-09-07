@@ -3,7 +3,7 @@ label chapter8_search:
     # --- СЦЕНА 1: ШОК И СТОЛКНОВЕНИЕ С КЛАРОЙ ---
 
     scene bg school_hallway_day with dissolve
-    play ambient "ambient/school_empty_hallway.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/school_empty_hallway.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Я сидела на полу у шкафчиков, прижав колени к груди. 
@@ -136,7 +136,7 @@ label chapter8_search:
     # --- СЦЕНА 2: ДЕЖАВЮ (Бег сквозь время) ---
 
     scene bg school_gates_day with fade
-    play music "music/BGM/Running_Desperate_Theme.opus" fadein 1.0 loop volume 0.7
+    # TODO: missing audio: play music "music/BGM/Running_Desperate_Theme.opus" fadein 1.0 loop volume 0.7
 
     narrator """
         Я выбежала на улицу, миновав школьные ворота.
@@ -217,7 +217,7 @@ label chapter8_search:
 
     "Мама Алекс" "Вы же всегда не разлей вода ходите! Она разве не с тобой?"
 
-    play sound "sfx/heartbeat_single_loud.opus"
+    # TODO: missing audio: play sound "sfx/heartbeat_single_loud.opus"
     scene white with flash
     scene bg alex_house_exterior_day with vpunch
 
@@ -252,8 +252,8 @@ label chapter8_search:
     # --- СЦЕНА 4: НАБЕРЕЖНАЯ И СЛЕЗЫ ---
 
     scene bg coastal_embankment_day with fade
-    play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.5
-    play ambient "ambient/seagulls_waves_day.opus" fadein 2.0 loop
+    # TODO: missing audio: play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/seagulls_waves_day.opus" fadein 2.0 loop
 
     narrator """
         Набережная.
@@ -339,8 +339,8 @@ label chapter8_search:
     # --- СЦЕНА 5: ПУТЬ НА ПРЕДЕЛЕ ---
 
     scene bg island_mountain_road with fade
-    play ambient "ambient/summer_cicadas_heat.opus" fadein 2.0 loop volume 0.7
-    play music "music/BGM/Exhaustion_Drone.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/summer_cicadas_heat.opus" fadein 2.0 loop volume 0.7
+    # TODO: missing audio: play music "music/BGM/Exhaustion_Drone.opus" fadein 3.0 loop volume 0.4
 
     narrator """
         Мой дом — это остров. Маленький, изолированный участок Японии, окруженный морем.

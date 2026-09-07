@@ -5,7 +5,7 @@ label chapter8_dream_cave:
     scene black with fade
     stop music fadeout 2.0
     
-    play ambient "ambient/ocean_waves_calm.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/ocean_waves_calm.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Тьма была недолгой.
@@ -20,7 +20,7 @@ label chapter8_dream_cave:
     scene bg childhood_beach_day with Dissolve(2.0)
     # CG или Фон: Светлый, яркий пляж. Отлив. Вдали виднеется скалистый холм, поросший деревьями.
 
-    play music "music/BGM/Childhood_Memories_Piano.opus" fadein 2.0 volume 0.5
+    # TODO: missing audio: play music "music/BGM/Childhood_Memories_Piano.opus" fadein 2.0 volume 0.5
 
     narrator """
         Мне было десять.
@@ -105,7 +105,7 @@ label chapter8_dream_cave:
     # --- СЦЕНА 3: СОКРОВИЩНИЦА ---
 
     scene bg secret_cave_interior with fade
-    play ambient "ambient/cave_water_drops.opus" loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/cave_water_drops.opus" loop volume 0.4
 
     narrator """
         Тупик.

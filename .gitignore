@@ -2,6 +2,7 @@
 .vscode/
 .DS_Store
 Thumbs.db
+.agents
 
 # Логи и ошибки Ren'Py
 log.txt
@@ -32,6 +33,10 @@ disabled/
 
 # Бэкапы
 *.bak
+*.rpyc.bak
+*.rpy.bak
+*.rpym.bak
+*.rpymc.bak
 *.new
 *.zip
 backups/

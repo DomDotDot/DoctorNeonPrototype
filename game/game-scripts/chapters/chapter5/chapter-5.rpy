@@ -1,5 +1,5 @@
 label chapter_5_rpy:
-    play sound "sfx/next-chapter.opus"
+
     call screen chapter_screen(_("Глава 5"), _("Предложение, от которого нельзя отказаться"))
     pause 2.0
     
@@ -8,6 +8,7 @@ label chapter_5_rpy:
     call chapter5_introduction from _call_chapter5_introduction
 
     $ inventory_allowed = True
+    # Откат намеренно отключен на время квеста для предотвращения сейв-скама
     $ _rollback = False
 
     call chapter5_start from _call_chapter5_start
@@ -16,6 +17,7 @@ label chapter_5_rpy:
     label chapter5_after_quest:
 
         $ inventory_allowed = False
+        # Восстановление возможности отката после завершения квестовой части
         $ _rollback = True
 
         call station_server_room_entry from _call_station_server_room_entry
@@ -33,4 +35,3 @@ label chapter_5_rpy:
         call chapter5_wasteland from _call_chapter5_wasteland
         call chapter5_oganesson from _call_chapter5_oganesson
     return
-return

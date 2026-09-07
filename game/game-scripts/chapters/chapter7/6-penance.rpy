@@ -11,10 +11,10 @@ label chapter7_penance:
     # ПОСТ-СЦЕНА: АЛЛЕЯ ЗАПРЕДЕЛЬЯ (POV ОГАНЕССОН)
     # ==========================================
 
-    play ambient "ambient/WindOfOutskirts.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/WindOfOutskirts.opus" fadein 2.0 loop volume 0.6
     
     # Медленные, шаркающие, неровные шаги по мокрому асфальту
-    play sound "sfx/footsteps_dragging_wet.opus" loop volume 0.5
+    # TODO: missing audio: play sound "sfx/footsteps_dragging_wet.opus" loop volume 0.5
     
     narrator """
         ...
@@ -74,7 +74,7 @@ label chapter7_penance:
     """
 
     stop ambient fadeout 2.0
-    play ambient "ambient/house_burn_muffled.opus" fadein 3.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/house_burn_muffled.opus" fadein 3.0 loop volume 0.5
 
     oganesson "Знакомый запах...?"
 

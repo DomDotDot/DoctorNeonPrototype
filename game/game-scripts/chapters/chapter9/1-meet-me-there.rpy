@@ -6,7 +6,7 @@ label chapter9_requiem:
     stop music fadeout 3.0
     
     # Звук: Очень тихий, низкочастотный гул (не ветер, а именно вибрация пространства).
-    play ambient "ambient/apocalypse_low_drone.opus" fadein 4.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/apocalypse_low_drone.opus" fadein 4.0 loop volume 0.5
 
     narrator """
         Коридор, с которого я вышла, преследуя Гелий и квартира Мэрил осталась позади.
@@ -35,7 +35,7 @@ label chapter9_requiem:
     scene bg ruined_city_outskirts with Dissolve(3.0)
     # CG или Фон: Улица Запределья. Обычные серые здания. Но небо сверху затянуто плотными, черно-желтыми тучами, похожими на гнойники. А по земле, на уровне колен, стелется полупрозрачная, рваная дымка. Она красная.
 
-    play music "music/BGM/The_End_Approaches.opus" fadein 5.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/The_End_Approaches.opus" fadein 5.0 loop volume 0.4
 
     neon "{=whisper}Господи...{/whisper}"
 

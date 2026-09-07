@@ -3,8 +3,8 @@ label chapter9_bell_toll:
     # --- СЦЕНА 1: УДАР В КОЛОКОЛ ---
 
     scene bg gothic_belfry_rooftop with fade
-    play music "music/BGM/Boss_Battle_Celestia_Climax.opus" fadein 1.0 loop volume 0.8
-    play ambient "ambient/wind_rooftop_howl.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Boss_Battle_Celestia_Climax.opus" fadein 1.0 loop volume 0.8
+    # TODO: missing audio: play ambient "ambient/wind_rooftop_howl.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Мы оказались на открытой площадке самого верхнего яруса колокольни.
@@ -171,7 +171,7 @@ label chapter9_bell_toll:
 
     # --- СЦЕНА 4: РЕЗОНАНС КОНЦА СВЕТА ---
 
-    play music "music/BGM/Resonance_of_the_End.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play music "music/BGM/Resonance_of_the_End.opus" fadein 2.0 loop volume 0.8
     # play sound "sfx/earthquake_rumble_deep.opus" loop
 
     narrator """
@@ -258,7 +258,7 @@ label chapter9_bell_toll:
     # CG: Неон падает спиной вниз. Камера смотрит сверху. Сверху на неё смотрит Селеста, протягивая руку в крике.
 
     stop ambient
-    play music "music/BGM/Requiem_Final_Monologue.opus" fadein 1.0 volume 0.6
+    # TODO: missing audio: play music "music/BGM/Requiem_Final_Monologue.opus" fadein 1.0 volume 0.6
 
     narrator "Я начала падать. Ветер засвистел в ушах."
 

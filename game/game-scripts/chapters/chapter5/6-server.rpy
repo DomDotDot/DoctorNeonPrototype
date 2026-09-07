@@ -11,11 +11,11 @@ label station_server_room_entry:
         Индикатор на раме мягко сменил цвет с жёлтого на зелёный. СИВИЛЛА сдержала слово.
     """
     
-    play sound "sfx/door_slide_tech.opus"
+    # TODO: missing audio: play sound "sfx/door_slide_tech.opus"
     
     narrator "С тихим гудением бронированная дверь отъехала в сторону."
 
-    play ambient "ambient/server_room_hum.opus" loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/server_room_hum.opus" loop volume 0.5
 
     narrator """
         Лес черных монолитов серверов, мигающих синими огоньками. Гул охлаждения.

@@ -12,8 +12,8 @@ label chapter8_helium:
     """
 
     scene bg ocean_surface_surreal_grey with flash
-    play ambient "ambient/ocean_surface_wind_eerie.opus" fadein 1.0 loop volume 0.6
-    play music "music/BGM/Boss_Battle_Helium_Clash.opus" fadein 1.0 loop volume 0.8
+    # TODO: missing audio: play ambient "ambient/ocean_surface_wind_eerie.opus" fadein 1.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Boss_Battle_Helium_Clash.opus" fadein 1.0 loop volume 0.8
 
     narrator """
         Реальность мгновенно вернулась. 

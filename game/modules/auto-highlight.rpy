@@ -51,10 +51,10 @@ init python:
 
             # Если яркость уже правильная, проверка реже (оптимизация)
             if self.current_value == target:
-                return 0.1
+                return 0.2
 
-            # Ручной 'ease'
-            step = 0.05
+            # Плавный шаг интерполяции (~30 FPS)
+            step = 0.08
 
             if self.current_value < target:
                 self.current_value = min(target, self.current_value + step)
@@ -64,16 +64,14 @@ init python:
             v = self.current_value
             _dimmer_brightness[self.char_name] = v
 
-            # Матрицу масштабирования цвета
-            m = Matrix([
-                v, 0, 0, 0,
-                0, v, 0, 0,
-                0, 0, v, 0,
-                0, 0, 0, 1
+            # Матрица масштабирования цвета
+            trans.matrixcolor = Matrix([
+                v, 0.0, 0.0, 0.0,
+                0.0, v, 0.0, 0.0,
+                0.0, 0.0, v, 0.0,
+                0.0, 0.0, 0.0, 1.0
             ])
-
-            trans.matrixcolor = m
-            return 0.01
+            return 0.033
 
 
     # -----------------------------------------------------------

@@ -3,8 +3,8 @@ label chapter8_locker_room:
     # --- СЦЕНА 1: РАЗДЕВАЛКА (Ожидание) ---
 
     scene bg school_locker_room with fade
-    play ambient "ambient/school_chatter_girls.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/Slice_Of_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/school_chatter_girls.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Звонок с урока. Физкультура.

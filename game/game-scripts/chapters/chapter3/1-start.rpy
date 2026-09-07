@@ -1,3 +1,25 @@
+default hall_examined = False
+default locker_broken = False
+default has_motor_oil = False
+default factory_gate_open = False
+default inspected_gate_mechanism = False
+default tried_to_talk_to_thugs = False
+
+default provocation_count = 0
+default bouncer_talk_count = 0
+default thugs_listen_count = 0
+default knows_bouncer_secret = False
+default can_provoke = False
+
+default has_torn_sheet = False
+default has_keycard = False
+default inspected_keycard_barcode = False
+default found_code_clue = False
+default chemlab_door_unlocked = False
+default has_sugar = False
+default has_yeast = False
+default has_equipment_idea = False
+
 label chapter3_part1_start:
 
     python:
@@ -5,31 +27,6 @@ label chapter3_part1_start:
         s2 = _("К тому шкафчику, что баррикадой стоит у прохода")
         s3 = _("На лестницу, ведущую на второй этаж")
         s4 = _("Войти в Хим. лабораторию")
-
-
-    default hall_examined = False
-    default locker_broken = False
-    default has_motor_oil = False
-    default factory_gate_open = False
-    default inspected_gate_mechanism = False
-    default tried_to_talk_to_thugs = False
-
-    default provocation_count = 0
-    default bouncer_talk_count = 0
-    default thugs_listen_count = 0
-    default knows_bouncer_secret = False
-    default can_provoke = False
-
-    default has_torn_sheet = False
-    default has_keycard = False
-    default inspected_keycard_barcode = False
-    default found_code_clue = False
-    default chemlab_door_unlocked = False
-    default has_sugar = False
-    default has_yeast = False
-    default has_equipment_idea = False
-
-            
 
     $ hall_examined = False
     $ locker_broken = False

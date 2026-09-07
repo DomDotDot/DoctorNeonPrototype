@@ -45,6 +45,9 @@ translate english_us strings:
     old "Громкость голоса: "
     new "Voice Volume: "
 
+    old "Громкость эмбиента: "
+    new "Ambient Volume: "
+
     old "Не отображать полученные достижения во время игры"
     new "Do not display unlocked achievements during gameplay"
 

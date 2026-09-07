@@ -51,7 +51,7 @@ label ch5_level3_medbay_ct_room:
 label ch5_level3_medbay_ct_menu:
     menu:
         "Запустить сканирование КТ через компьютер":
-            play sound "sfx/hydraulic_release.opus"
+            # TODO: missing audio: play sound "sfx/hydraulic_release.opus"
             narrator "Кольцо томографа со свистом начало вращаться, ускоряясь. На экране управляющего компьютера побежали строки инициализации."
             narrator "Но через пару секунд вращение замедлилось, и на экране вспыхнула ошибка: 'ОШИБКА: ОБЪЕКТ СКАНИРОВАНИЯ ОТСУТСТВУЕТ. Съемка отменена'."
             neon "Ничего интересного. Пустой сканер просто крутится без дела."
@@ -104,7 +104,7 @@ label ch5_level3_medbay_mri_menu:
                 jump ch5_level3_medbay_mri_menu
             else:
                 if not store.ch5_medbay_mri_opened:
-                    play sound "sfx/hydraulic_release.opus"
+                    # TODO: missing audio: play sound "sfx/hydraulic_release.opus"
                     narrator "Магнитный замок отключен. Я нажала кнопку открытия, и капсула с тяжелым шипением отъехала в сторону."
                     $ store.ch5_medbay_mri_opened = True
                     jump ch5_level3_medbay_mri_menu

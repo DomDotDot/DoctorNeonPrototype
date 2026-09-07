@@ -13,8 +13,8 @@ label chapter5_rescue:
     """
 
     scene bg space_station_escape_pod_airlock with fade
-    play ambient "ambient/station_rumble_deep.opus" fadein 2.0 loop volume 0.7
-    play music "music/BGM/Tragedy_Piano_Solo.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/station_rumble_deep.opus" fadein 2.0 loop volume 0.7
+    # TODO: missing audio: play music "music/BGM/Tragedy_Piano_Solo.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Я больше не была в космосе. 

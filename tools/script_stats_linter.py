@@ -456,15 +456,17 @@ def generate_badges_md(data: dict, lang: str = "ru") -> str:
     
     dialogue_pct = (totals["dialogue_words"] / totals["total_words"] * 100) if totals["total_words"] else 0
 
+    num_chapters = len(data.get("chapters", {}))
+
     if lang == "ru":
         badge_words = f"![Слов](https://img.shields.io/badge/Слов-{words_k}-blue?style=flat-square&logo=gitbook&logoColor=white)"
         badge_lines = f"![Реплик](https://img.shields.io/badge/Реплик-{lines_formatted}-4c1?style=flat-square)"
-        badge_chapters = f"![Глав](https://img.shields.io/badge/Глав-10%20-8a2be2?style=flat-square)"
+        badge_chapters = f"![Глав](https://img.shields.io/badge/Глав-{num_chapters}%20-8a2be2?style=flat-square)"
         badge_ratio = f"![Диалоги](https://img.shields.io/badge/Диалоги-{dialogue_pct:.0f}%25-informational?style=flat-square)"
     else:
         badge_words = f"![Words](https://img.shields.io/badge/Words-{words_k}-blue?style=flat-square&logo=gitbook&logoColor=white)"
         badge_lines = f"![Lines](https://img.shields.io/badge/Lines-{lines_formatted}-4c1?style=flat-square)"
-        badge_chapters = f"![Chapters](https://img.shields.io/badge/Chapters-10%20-8a2be2?style=flat-square)"
+        badge_chapters = f"![Chapters](https://img.shields.io/badge/Chapters-{num_chapters}%20-8a2be2?style=flat-square)"
         badge_ratio = f"![Dialogue](https://img.shields.io/badge/Dialogue-{dialogue_pct:.0f}%25-informational?style=flat-square)"
 
     return f"{badge_words}\n{badge_lines}\n{badge_chapters}\n{badge_ratio}"

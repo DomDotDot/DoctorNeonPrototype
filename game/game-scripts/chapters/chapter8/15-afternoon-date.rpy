@@ -3,8 +3,8 @@ label chapter8_date:
     # --- СЦЕНА 1: ПРОГУЛКА ПО ОСТРОВУ ---
 
     scene bg coastal_street_afternoon with fade
-    play music "music/BGM/Slice_Of_Life_Sunset.opus" fadein 2.0 loop volume 0.4
-    play ambient "ambient/town_wind_distant_sea.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Sunset.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/town_wind_distant_sea.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Мы вышли за школьные ворота и пошли по улицам нашего городка.
@@ -39,7 +39,7 @@ label chapter8_date:
     # --- СЦЕНА 2: БАРАХОЛКА И ДЕД-КАССИР ---
 
     scene bg old_antique_shop_interior with fade
-    play ambient "ambient/shop_bell_dusty.opus" fadein 1.0
+    # TODO: missing audio: play ambient "ambient/shop_bell_dusty.opus" fadein 1.0
 
     narrator """
         Я привела её в старый квартал, к неприметной вывеске: 'Тысяча Мелочей Оды'.
@@ -179,7 +179,7 @@ label chapter8_date:
     # --- СЦЕНА 3: ВЫХОД ---
 
     scene bg coastal_street_afternoon with fade
-    play music "music/BGM/Cozy_Sunset_Beach.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Cozy_Sunset_Beach.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Мы вышли из пыльной лавки обратно на залитую закатным светом улицу.
@@ -205,7 +205,7 @@ label chapter8_date:
     # --- СЦЕНА 1: ПЛЯЖ И ВОСПОМИНАНИЯ ---
 
     scene bg coastal_street_afternoon with fade
-    play ambient "ambient/ocean_waves_calm.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/ocean_waves_calm.opus" fadein 2.0 loop volume 0.6
     
     narrator """
         Мы покинули старый квартал. Я хотела показать ей наш дом на склоне, но когда мы проходили мимо поворота к морю, Селеста остановилась.
@@ -224,7 +224,7 @@ label chapter8_date:
     """
 
     scene bg childhood_beach_sunset with fade
-    play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Мы вышли на песок. Солнце уже клонилось к закату, окрашивая облака в розовые и фиолетовые тона.

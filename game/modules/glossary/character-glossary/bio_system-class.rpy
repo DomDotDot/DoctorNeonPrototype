@@ -1,5 +1,5 @@
 init python:
-    class CharBio:
+    class CharBio(renpy.store.object):
         def __init__(self, id, name, real_name, gender, height, age, role, element="Нет", 
                     hair="-", eyes="-", clothes="-", personality="-", 
                     aliases=None, engages_in=None, 

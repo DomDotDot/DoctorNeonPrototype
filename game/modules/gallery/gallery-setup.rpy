@@ -43,12 +43,6 @@ init python:
                 if renpy.seen_image(img_name):
                     return True
             return False
-                
-            unlocked = []
-            for img_name, desc in self.images_data:
-                if renpy.seen_image(img_name):
-                    unlocked.append((img_name, desc))
-            return unlocked
 
         def is_visible(self):
             if persistent.unlock_gallery:

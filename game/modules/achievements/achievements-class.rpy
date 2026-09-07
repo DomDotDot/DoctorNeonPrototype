@@ -90,8 +90,14 @@ init -2 python:
             return renpy.translate_string(self.description)
 
         def get_icon_displayable(self):
-            if self.icon and (renpy.loadable(self.icon) or renpy.has_image(self.icon)):
-                return self.icon
+            if self.icon:
+                if renpy.loadable(self.icon) or renpy.has_image(self.icon):
+                    return self.icon
+                # Fallback для Linux/Android при различиях в регистре символов имени файла
+                if "absolutesilence.png" in self.icon.lower():
+                    for alt in ("images/achievements/absolutesIlence.png", "images/achievements/absolutesilence.png"):
+                        if renpy.loadable(alt) or renpy.has_image(alt):
+                            return alt
             if self.is_unlocked():
                 return "ach_default_icon_unlocked"
             return "ach_default_icon_locked"
@@ -365,7 +371,6 @@ init -2 python:
             return None
         if cg_name not in persistent.seen_gallery_cg_set:
             persistent.seen_gallery_cg_set.add(cg_name)
-            renpy.save_persistent()
             add_achievement_progress("nostalgia", 1)
         return None
 
@@ -375,7 +380,6 @@ init -2 python:
             return None
         if char_id not in persistent.seen_glossary_chars_set:
             persistent.seen_glossary_chars_set.add(char_id)
-            renpy.save_persistent()
             add_achievement_progress("deep_analysis", 1)
         return None
 

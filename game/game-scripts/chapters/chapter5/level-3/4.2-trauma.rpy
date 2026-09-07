@@ -29,7 +29,7 @@ label ch5_level3_trauma:
     label ch5_level3_trauma_menu:
         menu:
             "Разблокировать внешнюю гермодверь в холл" if not getattr(store, 'ch5_trauma_unlocked_from_inside', False):
-                play sound "sfx/access_granted_chime.opus"
+                # TODO: missing audio: play sound "sfx/access_granted_chime.opus"
                 narrator "Гермодверь с шипением разблокировалась. Теперь в Травматологию можно попасть напрямую из главного коридора Уровня 3."
                 $ store.ch5_trauma_unlocked_from_inside = True
                 jump ch5_level3_trauma_menu

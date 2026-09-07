@@ -246,7 +246,7 @@ label ch5_corridor_beta_puzzle:
     # Обрабатываем событие запуска таймера
     if getattr(store, 'ch5_corridor_beta_show_timer_dialogue', False):
         $ store.ch5_corridor_beta_show_timer_dialogue = False
-        play sound "sfx/alarm_klaxon_single.opus"
+        # TODO: missing audio: play sound "sfx/alarm_klaxon_single.opus"
         narrator """
             В ту же секунду на экранах появилось мигающее красное предупреждение:
             'ВНИМАНИЕ: ПРОТОКОЛ ОБРАТНОГО ОТСЧЁТА АКТИВИРОВАН. 
@@ -257,9 +257,9 @@ label ch5_corridor_beta_puzzle:
         
     # Обрабатываем действия кнопок экрана
     if res == "check_calibration":
-        play sound "sfx/heavy_switch.opus"
+        # TODO: missing audio: play sound "sfx/heavy_switch.opus"
         if beta_gate_I and beta_gate_II and beta_gate_III:
-            play sound "sfx/power_up.opus"
+            # TODO: missing audio: play sound "sfx/power_up.opus"
             narrator """
                 Все три затвора с грохотом открылись! Сервер B завибрировал и начал набирать мощность.
                 
@@ -270,7 +270,7 @@ label ch5_corridor_beta_puzzle:
             neon "Второй готов! Остался только коридор C. Время поджимает!"
             jump ch5_satellite_reception_menu
         else:
-            play sound "sfx/error_buzz.opus"
+            # TODO: missing audio: play sound "sfx/error_buzz.opus"
             # Физическая тряска экрана при сбое сброса!
             with vpunch
             narrator "'ОШИБКА КОНФИГУРАЦИИ. ПРИНУДИТЕЛЬНЫЙ СБРОС.' Затворы со скрежетом вернулись в исходное положение, а рычаги отщёлкнулись вниз."

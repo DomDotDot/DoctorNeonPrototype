@@ -48,7 +48,7 @@ init 1 python:
         id="concert_in_solitude",
         name=_("Концерт в одиночестве"),
         description=_("Дослушайте финальный трек в титрах 9-й главы до самой последней секунды без пропуска."),
-        icon=None,
+        icon="images/achievements/lastfeather.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Проявите терпение в финале истории.")
     ))
@@ -250,7 +250,7 @@ init 1 python:
         id="bouncer_daughter_game_over",
         name=_("Запретная тема"),
         description=_("В Главе 3 выведите вышибалу из себя упоминанием его дочери и сразу же попадитесь ему во время погони."),
-        icon=None,
+        icon="images/achievements/bodyshadow.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Некоторые слова стоят слишком дорого.")
     ))
@@ -270,7 +270,7 @@ init 1 python:
         id="backup_plan",
         name=_("Запасной план"),
         description=_("Попробуйте применить неподходящий или бесполезный предмет из инвентаря 5 раз."),
-        icon=None,
+        icon="images/achievements/neonthinking.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Попытайтесь применить неподходящий предмет из инвентаря несколько раз.")
     ))
@@ -279,7 +279,7 @@ init 1 python:
         id="painful_doubts",
         name=_("Мучительные сомнения"),
         description=_("Проведите на экране выбора важного решения более 2 минут без действия."),
-        icon=None,
+        icon="images/achievements/argondoubt.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Не спешите делать судьбоносный выбор.")
     ))
@@ -288,7 +288,7 @@ init 1 python:
         id="detective_intuition",
         name=_("Интуиция детектива"),
         description=_("Сделайте сюжетный выбор менее чем за 1.5 секунды после появления меню выборов."),
-        icon=None,
+        icon="images/achievements/fastdecision.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Доверьтесь первому порыву и молниеносной реакции.")
     ))
@@ -297,7 +297,7 @@ init 1 python:
         id="polyglot",
         name=_("Полиглот"),
         description=_("Смените язык игры прямо во время прохождения истории."),
-        icon=None,
+        icon="images/achievements/radon.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Опробуйте языковые настройки во время чтения.")
     ))
@@ -306,7 +306,7 @@ init 1 python:
         id="cinema_mode",
         name=_("Режим кинотеатра"),
         description=_("Прочитайте 100 строк диалога подряд в режиме Авточтения (Auto Forward)."),
-        icon=None,
+        icon="images/achievements/argontv.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Откиньтесь на спинку кресла и наслаждайтесь историей.")
     ))
@@ -328,7 +328,7 @@ init 1 python:
         id="failure_chronicles",
         name=_("Хроники неудач"),
         description=_("Столкнитесь с 3 различными ситуациями неудач, перезагрузок или гибели."),
-        icon=None,
+        icon="images/achievements/todo.png",
         ach_type=ACH_TYPE_TRACKING,
         max_progress=3
     ))

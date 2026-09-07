@@ -9,8 +9,8 @@ label chapter7_decay:
         matrixcolor TintMatrix("#ffffff") * SaturationMatrix(0.8)
         ease 5.0 blur 2.0
 
-    play sound "sfx/steam_hiss_loud.opus" loop volume 0.6
-    play music "music/BGM/Boss_Battle_Oganesson_Clash.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play sound "sfx/steam_hiss_loud.opus" loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Boss_Battle_Oganesson_Clash.opus" fadein 2.0 loop volume 0.8
 
     narrator """
         Кипяток с ревом вырывался из разорванного стояка отопления на стене.
@@ -544,7 +544,7 @@ label chapter7_decay:
         Я обняла её остывающее тело.
     """
 
-    play music "music/BGM/Melancholy_Echoes.opus" fadein 3.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Melancholy_Echoes.opus" fadein 3.0 loop volume 0.5
 
     neon "{=whisper}Простите меня. Аканэ, Мэрил. Обе.{/whisper}"
 

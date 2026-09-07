@@ -1,7 +1,7 @@
 # --- ЛОКАЦИЯ 6: ДОРМЫ (Жилые блоки персонала) ---
 label ch5_level2_dorms:
     scene ch05_bg09_v01 with fade
-    play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Heist_Tension_Low.opus" fadein 2.0 loop volume 0.3
     
     narrator """
         Жилые блоки персонала. Дормы.
@@ -87,7 +87,7 @@ label ch5_level2_dorms_room_menu:
                 $ ch5_dorms_searched = True
                 $ ch5_dorms_time += 4
                 
-                play sound "sfx/drawer_open_searched.opus"
+                # TODO: missing audio: play sound "sfx/drawer_open_searched.opus"
                 
                 narrator """
                     Я перерыла шкаф, заглянула под матрас и проверила все ящики стола.
@@ -126,7 +126,7 @@ label ch5_level2_dorms_eavesdrop:
     neon "{=thoughts}Ну всё. Пора ухо...{nw}"
 
     # Скрип двери из соседней комнаты
-    play sound "sfx/door_slide_tech.opus"
+    # TODO: missing audio: play sound "sfx/door_slide_tech.opus"
     
     narrator """
         Резкий звук из соседней каюты заставил меня замереть.
@@ -137,7 +137,7 @@ label ch5_level2_dorms_eavesdrop:
     scene ch05_cg30_v01 with dissolve
     
     # Шум вентиляции
-    play ambient "ambient/ventilation_hum.opus" loop volume 0.7
+    # TODO: missing audio: play ambient "ambient/ventilation_hum.opus" loop volume 0.7
     
     "???" """        
         ...Да пошли они к черту! Я сказал, пошли они оба!
@@ -155,7 +155,7 @@ label ch5_level2_dorms_eavesdrop:
         Что? Нет, не сейчас. Если я ему в баре вмажу, охрана меня скрутит на месте. 
     """
     
-    play sound "sfx/punch_locker.opus"
+    # TODO: missing audio: play sound "sfx/punch_locker.opus"
     
     narrator "Глухой удар кулака о металлическую мебель заставил решетку чуть задрожать."
     
@@ -201,7 +201,7 @@ label ch5_level2_dorms_fight:
     
     "Старик" "Эй, ублюдок! Выползай! Тут птичка напела, что ты смелый только за спиной!"
     
-    play sound "sfx/heavy_bang_door.opus"
+    # TODO: missing audio: play sound "sfx/heavy_bang_door.opus"
 
     scene black with hpunch
     
@@ -248,7 +248,7 @@ label ch5_level2_dorms_fight:
     
     "Старик" "Твой ночной кошмар, щенок!"
     
-    play sound "sfx/door_slide_tech_fast.opus"
+    # TODO: missing audio: play sound "sfx/door_slide_tech_fast.opus"
     
     "Работник бара" "Ты... Ты сам приперся? Чё, по беспределу наехать хочешь?!"
 
@@ -265,7 +265,7 @@ label ch5_level2_dorms_fight:
         Униформа бара — заляпанная каким-то напитком, но вполне узнаваемая — валялась на стуле.
     """
     
-    play sound "sfx/cloth_rustle.opus"
+    # TODO: missing audio: play sound "sfx/cloth_rustle.opus"
     
     $ add_item(Item_BartenderUniform)
     $ ch5_got_uniform = True

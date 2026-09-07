@@ -30,7 +30,7 @@ label ch5_monorail_entrance:
         if has_item("admin_chip") and has_item("bio_spray"):
             menu:
                 "Использовать Чип Администратора и Биомаркер":
-                    play sound "sfx/access_granted_chime.opus"
+                    # TODO: missing audio: play sound "sfx/access_granted_chime.opus"
                     narrator """
                         Я вставила Чип Администратора в разъём и распылила Биомаркер на ДНК-сенсор.
                         
@@ -60,7 +60,7 @@ label ch5_monorail_entrance:
 
 label ch5_monorail_ride:
     scene black with fade
-    play ambient "ambient/monorail_hum.opus" loop fadein 2.0
+    # TODO: missing audio: play ambient "ambient/monorail_hum.opus" loop fadein 2.0
     
     narrator """
         Капсула монорельса оказалась тесной — одноместным стеклянным кокпитом, покрытым пылью.
@@ -80,7 +80,7 @@ label ch5_monorail_ride:
         Давно забытое место. Но если СИВИЛЛА права — внутри находится ключ к серверной.
     """
     
-    play sound "sfx/docking_clamps_heavy.opus"
+    # TODO: missing audio: play sound "sfx/docking_clamps_heavy.opus"
     
     narrator """
         Капсула с лёгким толчком состыковалась со шлюзом Нексуса. Давление выровнялось. Дверь открылась, выпуская меня в темноту.
@@ -92,7 +92,7 @@ label ch5_monorail_ride:
 label ch5_monorail_departure_cinematic:
 
     scene black with fade
-    play ambient "ambient/monorail_hum_smooth.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play ambient "ambient/monorail_hum_smooth.opus" fadein 2.0 loop volume 0.5
     stop music fadeout 3.0
     
     narrator """
@@ -104,7 +104,7 @@ label ch5_monorail_departure_cinematic:
     scene ch05_cg53_v01 with Dissolve(3.0)
     # CG или Фон: Вид изнутри стеклянной капсулы монорельса. На фоне космоса и огромного диска Земли медленно отдаляется ржавый, угловатый спутник Нексус. 
     
-    play music "music/BGM/Melancholy_Piano_Space.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Melancholy_Piano_Space.opus" fadein 3.0 loop volume 0.4
 
     narrator """
         За иллюминатором медленно уплывал назад силуэт 'Нексуса'.

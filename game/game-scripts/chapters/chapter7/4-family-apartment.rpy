@@ -3,7 +3,7 @@ label chapter7_apartments:
     # --- СЦЕНА 1: АПАРТАМЕНТЫ МЭРИЛ (Ложная Надежда) ---
 
     scene bg dark_stairwell_running with fade
-    play ambient "ambient/footsteps_stairs_fast.opus" loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/footsteps_stairs_fast.opus" loop volume 0.6
 
     narrator """
         Я бежала.
@@ -25,7 +25,7 @@ label chapter7_apartments:
     """
 
     scene bg meryl_apartment_hallway with dissolve
-    play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 volume 0.4
+    # TODO: missing audio: play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 volume 0.4
 
     neon "{=whisper}Мэрил? Это я, Неон... Я... дома.{/whisper}"
 
@@ -184,7 +184,7 @@ label chapter7_apartments:
     """
 
     show neon operative_angry at right with dissolve
-    play music "music/BGM/Boss_Battle_Neon_Awakening.opus" fadein 2.0 loop
+    # TODO: missing audio: play music "music/BGM/Boss_Battle_Neon_Awakening.opus" fadein 2.0 loop
 
     neon "Я больше не твоя пешка."
 

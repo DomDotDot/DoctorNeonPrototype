@@ -295,7 +295,7 @@ screen data_settings_screen():
                     null height 20
 
                     # --- СЕКЦИЯ: ЧИТЫ / ТЕСТЫ ---
-                    if config.developer or True: #TODO True до релиза
+                    if config.developer:
                         label _("Разработка") text_size 24 text_color "#2ea043" xoffset 5
 
                         # Карточка: Unlock All

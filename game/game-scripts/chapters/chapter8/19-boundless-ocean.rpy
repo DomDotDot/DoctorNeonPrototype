@@ -3,8 +3,8 @@ label chapter8_boundless:
     # --- СЦЕНА 1: ФАЛЬШИВЫЙ РАЙ (Последняя иллюзия) ---
 
     scene bg childhood_beach_day with fade
-    play ambient "ambient/beach_summer_day_kids.opus" fadein 2.0 loop volume 0.6
-    play music "music/BGM/Slice_Of_Life_Summer.opus" fadein 2.0 volume 0.3
+    # TODO: missing audio: play ambient "ambient/beach_summer_day_kids.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Summer.opus" fadein 2.0 volume 0.3
 
     narrator """
         Когда я опустила руку, мир изменился.
@@ -73,8 +73,8 @@ label chapter8_boundless:
     # --- СЦЕНА 4: ПОВЕРХНОСТЬ ОКЕАНА (Сюрреализм) ---
 
     scene bg ocean_surface_surreal_grey with fade
-    play ambient "ambient/ocean_surface_wind_eerie.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/Melancholy_Piano_Dark.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/ocean_surface_wind_eerie.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Melancholy_Piano_Dark.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Слова оборвались. 
@@ -157,8 +157,8 @@ label chapter8_boundless:
     # --- СЦЕНА 1: УНИЧТОЖЕНИЕ РАЯ ---
 
     scene bg ocean_surface_surreal_grey with dissolve
-    play ambient "ambient/ocean_surface_wind_eerie.opus" fadein 2.0 loop volume 0.5
-    play music "music/BGM/Tension_Drone_Dark.opus" fadein 2.0 loop
+    # TODO: missing audio: play ambient "ambient/ocean_surface_wind_eerie.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Tension_Drone_Dark.opus" fadein 2.0 loop
 
     narrator """
         Девочка с белыми волосами продолжала идти. 
@@ -208,7 +208,7 @@ label chapter8_boundless:
     """
 
     # play sound "sfx/thunder_crash_rain.opus"
-    play ambient "ambient/storm_heavy_rain_ocean.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play ambient "ambient/storm_heavy_rain_ocean.opus" fadein 2.0 loop volume 0.8
 
     narrator """
         Океан содрогнулся. Небо, отреагировав на катаклизм, мгновенно почернело, и на нас обрушился ледяной, хлесткий ливень.
@@ -274,7 +274,7 @@ label chapter8_boundless:
 
     # --- СЦЕНА 3: ПАРАД ВОСПОМИНАНИЙ (Принятие боли) ---
 
-    play music "music/BGM/Neon_Awakening_Piano.opus" fadein 2.0
+    # TODO: missing audio: play music "music/BGM/Neon_Awakening_Piano.opus" fadein 2.0
 
     narrator """
         Темнота не принесла покоя. 

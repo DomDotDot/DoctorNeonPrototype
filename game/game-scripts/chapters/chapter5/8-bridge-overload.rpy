@@ -1,8 +1,8 @@
 label chapter5_bridge_overload:
 
     # --- СЦЕНА 1: МОСТИК И ПЕРЕГРУЗКА ---
-    scene black with fade
-    play ambient "ambient/footsteps_metal_echo.opus" fadein 2.0 loop volume 0.5
+    scene ch05_cg64_v01 with fade
+    # TODO: missing audio: play ambient "ambient/footsteps_metal_echo.opus" fadein 2.0 loop volume 0.5
 
     narrator """
         Мы поднялись на техническом лифте на уровень Диспетчерской — Главного Мостика Карго.
@@ -12,9 +12,9 @@ label chapter5_bridge_overload:
         Сейчас отсюда веяло смертью.
     """
 
-    scene bg space_station_bridge_ruined with Dissolve(2.0)
+    scene ch05_cg65_v01 with Dissolve(3.0)
     stop ambient fadeout 1.0
-    play music "music/BGM/Horror_Atmosphere_High.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Horror_Atmosphere_High.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Дверь на Мостик была не взломана. Она была вырезана.
@@ -23,9 +23,6 @@ label chapter5_bridge_overload:
         
         Мы перешагнули через вырезанный кусок металла и вошли внутрь.
     """
-
-    show argon operative_glasses at left with dissolve
-    show neon operative_neutral at right with dissolve
 
     neon "{=whisper}Здесь то же самое...{/whisper}"
 
@@ -42,6 +39,8 @@ label chapter5_bridge_overload:
     argon "Его здесь нет. Только персонал."
 
     neon "Тот, кто это сделал, явно искал не СЕО."
+
+    scene ch05_cg66_v01 with fade
 
     narrator """
         Я подошла к центральному терминалу. Экран был залит кровью, но система еще работала.
@@ -72,7 +71,7 @@ label chapter5_bridge_overload:
     """
 
     # play sound "sfx/station_alarm_critical.opus" loop
-    scene bg space_station_bridge_ruined with flash
+    scene ch05_cg65_v02 with flash
 
     fcs """
         ВНИМАНИЕ. КРИТИЧЕСКИЙ СБОЙ ЯДРА.
@@ -91,8 +90,8 @@ label chapter5_bridge_overload:
     # --- СЦЕНА 2: БЕГ И ПЕРЕДЫШКА ---
 
     scene black with fade
-    play ambient "ambient/station_rumble_deep.opus" fadein 2.0 loop volume 0.8
-    play music "music/BGM/Action_Raid_High.opus" fadein 1.0 loop volume 0.6
+    # TODO: missing audio: play ambient "ambient/station_rumble_deep.opus" fadein 2.0 loop volume 0.8
+    # TODO: missing audio: play music "music/BGM/Action_Raid_High.opus" fadein 1.0 loop volume 0.6
 
     narrator """
         Станция начала стонать. 
@@ -101,7 +100,8 @@ label chapter5_bridge_overload:
         Где-то в глубине рвались трубы с теплоносителем.
     """
 
-    scene bg space_station_corridor_fire with dissolve
+    scene ch05_cg67_v01 at dizzy_sway169 with { "master" : Dissolve(5.0) }
+    with { "effect": dissolve }
 
     narrator """
         Мы бежали по аварийным коридорам. 
@@ -121,7 +121,11 @@ label chapter5_bridge_overload:
 
     # play sound "sfx/heavy_breathing_exhausted.opus"
 
+    scene black with fade
+
     argon "Кхх... Погоди... Дай секунду..."
+
+    scene ch05_cg68_v01 with dissolve
 
     narrator """
         Он тяжело прислонился спиной к металлической стене, сползая чуть ниже. 
@@ -134,8 +138,14 @@ label chapter5_bridge_overload:
     neon "Мы почти у цели. Капсулы сразу за следующим отсеком. Отдышись."
 
     narrator """
-        Стена напротив нас была повреждена. Видимо, взрывная волна от реактора уже дошла сюда по внутренним коммуникациям. 
+        Стена напротив нас была повреждена. Видимо, взрывная волна от реактора уже дошла сюда по внутренним коммуникациям.
+    """
 
+    scene ch05_cg68_v02 with dissolve
+    pause 0.5
+    scene ch05_cg69_v01 at heat_haze with dissolve
+
+    narrator"""
         Я подняла голову, осматривая потолок.
         
         И тут произошло то, что мы знали заранее. Внутри. Но чему мы не предали значения ранее.
@@ -154,25 +164,26 @@ label chapter5_bridge_overload:
     # --- СЦЕНА 3: ВЗРЫВ И РАЗГЕРМЕТИЗАЦИЯ ---
 
     # play sound "sfx/explosion_huge_near.opus" with hpunch
-    scene white with flash
+    scene ch05_cg69_v02 at air_gust with { "master" : hpunch }
+    with { "effect": hpunch }
+    pause 0.125
+    scene white with Dissolve(0.0625)
 
     narrator """
         Взрыв был оглушительным. 
-        
+    """
+
+    scene black at air_gust with { "master" : Dissolve(10.0) }
+    with { "effect": dissolve }
+
+    narrator """ 
         Ударная волна швырнула меня вперед, отрывая от пола. 
         
         Но страшнее был не сам взрыв. Страшнее было то, что он вырвал кусок внешней обшивки коридора.
     """
 
-    scene bg space_orbit_debris with vpunch
+    show ch05_cg70_v01 at air_gust with vpunch
     
-    # Эффект: Картинка трясется и "уезжает", имитируя вытягивание в вакуум
-    show layer master:
-        ease 0.1 xoffset 15 yoffset -10
-        ease 0.1 xoffset -15 yoffset 10
-        ease 0.1 xoffset 0 yoffset 0
-        repeat 5
-
     # play sound "sfx/hull_breach_suck_massive.opus"
 
     narrator """
@@ -181,13 +192,20 @@ label chapter5_bridge_overload:
         Меня подхватило этим ураганом. Я летела спиной вперед, кувыркаясь в воздухе, прямо к зияющей дыре в обшивке.
     """
 
+    scene ch05_cg71_v01 at air_gust with { "master" : Dissolve(5.0) }
+    with { "effect": dissolve }
+
     argon "НЕОН!"
 
     narrator """
         Я увидела Аргона. Он успел вцепиться обеими руками в техническую скобу на стене. 
         
-        Его штаны болтались в воздухе, затягиваемые вакуумом, но он держался. 
-        
+        Его штаны болтались в воздухе, затягиваемые вакуумом, но он держался.
+    """
+
+    scene ch05_cg72_v01 at turbulence with dissolve
+    
+    narrator """
         Он протянул ко мне руку, крича что-то, что мгновенно тонуло в реве уходящего воздуха.
     """
 
@@ -199,8 +217,11 @@ label chapter5_bridge_overload:
         Не хватило миллиметра.
     """
 
+    scene ch05_cg72_v02 at air_gust with dissolve
+    pause 0.0625
+
     # play sound "sfx/airlock_slam_automatic.opus" with vpunch
-    scene black with Fade(0.0625)
+    scene black with Fade(0.0625, 1.0, 0.25)
 
     narrator """
         Система аварийной защиты станции сработала. 
@@ -214,12 +235,14 @@ label chapter5_bridge_overload:
 
     # --- СЦЕНА 4: КОСМОС И ОТМЕНА ---
 
-    scene black with fade
+    scene ch05_cg73_v01_a at scene_parallax(80, 1.0) with { "master" : Dissolve(5.0) }
+    with { "effect": dissolve }
+
     stop ambient
     stop music
     
     # Звук: Только биение сердца. Медленное. Глухое.
-    play sound "sfx/heartbeat_slow.opus" loop volume 0.8
+    # TODO: missing audio: play sound "sfx/heartbeat_slow.opus" loop volume 0.8
 
     narrator """
         Звук исчез мгновенно. 
@@ -228,8 +251,7 @@ label chapter5_bridge_overload:
         
         Земля была так близко. Огромный, равнодушный сине-серый диск, затянутый Желтым Туманом.
     """
-
-    scene cg_neon_space_floating with dissolve
+    
     # CG: Неон в открытом космосе на фоне Земли. Глаза полуприкрыты.
 
     narrator """
@@ -243,6 +265,10 @@ label chapter5_bridge_overload:
         Я закрыла глаза.
     """
 
+    scene ch05_cg73_v02_a at scene_parallax(80, 1.0) with dissolve
+
+    scene ch05_cg74_v01 with { "master" : Dissolve(10.0) }
+    with { "effect": dissolve }
     neon """
         {=thoughts}Я не хочу...
         
@@ -256,9 +282,10 @@ label chapter5_bridge_overload:
 
         И тогда, в глубине моего угасающего сознания, что-то щелкнуло.
         
-        Это было не усилие воли. Это был... первобытный рефлекс травмированного ребенка, который закрывает уши, чтобы не слышать крика.
+        Это был... первобытный рефлекс травмированного ребенка, который закрывает уши, чтобы не слышать крика.
     """
 
+    scene ch05_cg74_v02 at heat_haze with Dissolve(0.125)
     # play sound "sfx/neon_power_activate_bass_deep.opus"
 
     narrator """
@@ -269,16 +296,8 @@ label chapter5_bridge_overload:
         Я отказалась принимать отсутствие воздуха.
 
         Я отменила саму смерть.
-    """
 
-    scene cg_neon_space_bubble with flash
-    
-    narrator """
-        Вокруг меня вспыхнул бледно-голубой ареол. 
-       
-        Холод отступил. Боль исчезла. Время замерло.
-        
-        Внутри этого кокона я просто закрыла глаза и позволила себе уснуть.
+        И внутри этого кокона я просто позволила себе уснуть.
     """
 
     scene black with Fade(3.0, 1.0, 3.0)

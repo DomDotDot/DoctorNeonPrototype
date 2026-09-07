@@ -1,4 +1,4 @@
-﻿## Данный файл содержит настройки, способные изменить вашу игру.
+## Данный файл содержит настройки, способные изменить вашу игру.
 ##
 ## Строки, начинающиеся  с двух '#' — комментарии, и вы не должны их
 ## раскомментировать. Строки, начинающиеся с одной '#' — комментированный код,
@@ -79,11 +79,8 @@ define config.sample_sound = "audio/sfx/sound_sample.opus"
 define config.sample_voice = "audio/voice/voice_sample.ogg"
 
 
-## Раскомментируйте следующую строчку, чтобы настроить аудиофайл, который будет
-## проигрываться в главном меню. Этот файл продолжит проигрываться во время
-## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
-
-define config.main_menu_music = "audio/music/BGM/Depersonalization-Backstage.opus"
+## Музыка главного меню управляется динамически по уровням в main-menu_custom-new.rpy
+define config.main_menu_music = None
 
 
 ## Переходы ####################################################################
@@ -217,6 +214,8 @@ init python:
 
     build.classify('game/devtools/**', 'dev')
     build.classify('build-compilers/**', None)
+    build.classify('**/renpy_warp_*.rpe*', None)
+    build.classify('**/*.rpe.py', None)
 
     build.classify('**.7z', None)
     build.classify('**.zip', None)
@@ -225,9 +224,11 @@ init python:
     build.classify('README.ru.md', None)
     build.classify('LICENSE', None)
 
-    # Изображения
+    # Изображения и исходники
     build.classify('game/dev-images/**', 'dev') # Backup rule if move failed
     build.classify('source_assets/**', None)
+    build.classify('**.pdn', None)
+    build.classify('**.psd', None)
     build.classify('tools/**', None)
     build.classify('unused/**', None)
 

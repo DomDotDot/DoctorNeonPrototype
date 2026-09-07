@@ -60,7 +60,7 @@ if "%PY_EXEC%"=="" (
     echo [ERROR] Python not found on your system!
     echo Please install Python 3 or make sure Ren'Py SDK is installed.
     echo.
-    pause
+    if not defined CI if not "%1"=="--no-pause" pause
     exit /b 1
 )
 
@@ -73,4 +73,4 @@ echo.
 echo ======================================================
 echo Done!
 echo ======================================================
-pause
+if not defined CI if not "%1"=="--no-pause" pause

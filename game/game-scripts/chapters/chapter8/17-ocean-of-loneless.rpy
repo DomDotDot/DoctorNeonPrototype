@@ -20,7 +20,7 @@ label chapter8_loneless:
     """
 
     scene bg neon_bedroom_morning with dissolve
-    play ambient "ambient/apartment_dead_silence.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/apartment_dead_silence.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Потолок моей комнаты. Знакомый. Уютный.
@@ -137,7 +137,7 @@ label chapter8_loneless:
     # --- СЦЕНА 2: ЛИМИНАЛЬНЫЙ ГОРОД ---
 
     scene bg coastal_street_grey with fade
-    play music "music/BGM/Liminal_Space_Drone.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Liminal_Space_Drone.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Я шла по улицам в ускоренном темпе.
@@ -223,7 +223,7 @@ label chapter8_loneless:
 
     scene bg coastal_street_grey with fade
     stop music fadeout 2.0
-    play ambient "ambient/ocean_waves_grey.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/ocean_waves_grey.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Я вышла из школы. 
@@ -284,7 +284,7 @@ label chapter8_loneless:
     """
 
     scene cg_alex_letter_reading with fade
-    play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.5
+    # TODO: missing audio: play music "music/BGM/Melancholy_Echoes.opus" fadein 2.0 loop volume 0.5
 
     alex """
         'А помнишь, как мы в детстве построили шалаш на заднем дворе?

@@ -38,7 +38,7 @@ label chapter4_5_dorm_way:
 label chapter4_5_dorm_investigation:
 
     scene bg chapter_4-5_veritas-dorm-exterior with fade
-    play music "music/BGM/Veritas_Dorm_Suspense.opus" noloop
+    # TODO: missing audio: play music "music/BGM/Veritas_Dorm_Suspense.opus" noloop
 
     narrator """
         Территория Академии Веритас ночью была похожа на ухоженное, но безжизненное кладбище.

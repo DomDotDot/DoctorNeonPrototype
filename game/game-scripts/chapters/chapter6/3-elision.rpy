@@ -2,8 +2,8 @@ label chapter6_tradingcenter:
     # --- Сцена 3: Торговый Центр и Бутик ---
 
     scene bg shopping_mall_bright with fade
-    play ambient "ambient/mall_crowd_murmur.opus" loop volume 0.6
-    play music "music/BGM/Mall_Muzak_Upbeat.opus" fadein 2.0 volume 0.2
+    # TODO: missing audio: play ambient "ambient/mall_crowd_murmur.opus" loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Mall_Muzak_Upbeat.opus" fadein 2.0 volume 0.2
 
     narrator """
     Контраст был ошеломляющим.
@@ -22,8 +22,8 @@ label chapter6_tradingcenter:
     scene bg boutique_interior_lively with dissolve
     
     scene bg boutique_interior_lively with fade
-    play ambient "ambient/mall_crowd_murmur.opus" loop volume 0.3
-    play music "music/BGM/Boutique_Elevator_Music.opus" fadein 2.0 volume 0.2
+    # TODO: missing audio: play ambient "ambient/mall_crowd_murmur.opus" loop volume 0.3
+    # TODO: missing audio: play music "music/BGM/Boutique_Elevator_Music.opus" fadein 2.0 volume 0.2
 
     narrator """
     Мы зашли в дорогой бутик. Консультанты мгновенно обратили внимание на статусное пальто Оганессон, но она отмахнулась от них одним жестом.
@@ -138,7 +138,7 @@ label chapter6_tradingcenter:
     # --- Монтаж переодевания ---
     
     scene black with dissolve
-    play music "music/BGM/Upbeat_Fashion_Montage.opus" fadein 1.0 volume 0.4
+    # TODO: missing audio: play music "music/BGM/Upbeat_Fashion_Montage.opus" fadein 1.0 volume 0.4
 
     narrator """
     Спорить было бесполезно. Я быстро натянула на себя первую попавшуюся вещь из тех, что она бросила.

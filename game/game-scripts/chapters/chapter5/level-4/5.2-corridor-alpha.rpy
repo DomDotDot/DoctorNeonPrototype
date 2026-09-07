@@ -129,12 +129,12 @@ label ch5_corridor_alpha_puzzle_loop:
             jump ch5_satellite_reception_menu
             
     if selected == correct_answer:
-        play sound "sfx/ui_click.opus"
+        # TODO: missing audio: play sound "sfx/ui_click.opus"
         narrator "Выбор принят. Терминал переходит к следующему шагу."
         $ ch5_alpha_current_round += 1
         jump ch5_corridor_alpha_puzzle_loop
     else:
-        play sound "sfx/alarm_klaxon_single.opus"
+        # TODO: missing audio: play sound "sfx/alarm_klaxon_single.opus"
         narrator "СИСТЕМНАЯ ОШИБКА. Последовательность нарушена. Сброс алигнмента."
         # Генерация новой загадки при проигрыше, чтобы нельзя было подобрать перебором
         $ ch5_alpha_rounds, ch5_alpha_correct_pattern, ch5_alpha_final_options = ch5_generate_alpha_puzzle()
@@ -164,7 +164,7 @@ label ch5_corridor_alpha_final_question:
             $ selected_pattern = f3
             
     if selected_pattern == ch5_alpha_correct_pattern:
-        play sound "sfx/power_up.opus"
+        # TODO: missing audio: play sound "sfx/power_up.opus"
         narrator """
             Экран вспыхнул зеленым. Сервер A ожил с глубоким, вибрирующим гулом.
             
@@ -175,7 +175,7 @@ label ch5_corridor_alpha_final_question:
         neon "Один есть. Дальше — оставшиеся коридоры."
         jump ch5_satellite_reception_menu
     else:
-        play sound "sfx/alarm_klaxon_single.opus"
+        # TODO: missing audio: play sound "sfx/alarm_klaxon_single.opus"
         narrator "СИСТЕМНАЯ ОШИБКА. Неверный анализ паттерна. Полный сброс."
         $ ch5_alpha_rounds, ch5_alpha_correct_pattern, ch5_alpha_final_options = ch5_generate_alpha_puzzle()
         $ ch5_alpha_current_round = 0

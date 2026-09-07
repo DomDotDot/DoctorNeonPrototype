@@ -20,7 +20,7 @@ label ch5_level3_medbay_chief_office:
                     jump ch5_medbay_chief_locked_menu
                     
                 "Применить Чип Администратора" if has_item("admin_chip"):
-                    play sound "sfx/access_granted_chime.opus"
+                    # TODO: missing audio: play sound "sfx/access_granted_chime.opus"
                     narrator "Я приложила Чип Администратора высшего доступа, полученный в Отделе Кадров. Считыватель пискнул приятным зеленым тоном, и стеклянная дверь бесшумно уехала в стену."
                     $ store.ch5_medbay_chief_door_opened = True
                     neon "Проход открыт. Посмотрим, что внутри."
@@ -48,7 +48,7 @@ label ch5_level3_medbay_chief_office:
                     else:
                         menu:
                             "Разблокирвать капсулу Магнитно-Резонансного Томографа":
-                                play sound "sfx/access_granted_chime.opus"
+                                # TODO: missing audio: play sound "sfx/access_granted_chime.opus"
 
                                 $ remove_item("blank_chip")
                                 $ store.ch5_medbay_mri_unlocked = True

@@ -96,80 +96,9 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen say(who, what):
+## Реализация диалогового окна (say screen) вынесена в отдельный модуль:
+## game/modules/dialogue-ui/dialogue_screens.rpy
 
-    window:
-        id "window"
-
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "namebox"
-                $ _name_fx = get_name_effect(who)
-                if _name_fx is not None:
-                    add _name_fx xalign gui.name_xalign yalign 0.5
-                else:
-                    text who id "who"
-
-        text what id "what"
-
-
-    ## Если есть боковое изображение ("голова"), показывает её поверх текста.
-    ## По стандарту не показывается на варианте для мобильных устройств — мало
-    ## места.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
-
-    # Ачивка "Вдумчивый читатель": 3 минуты на реплике Неон
-    if who is not None and (who == _("Неон") or who == "Неон" or who == "Neon" or who == neon.name):
-        timer 180.0 action Function(grant_achievement, "thoughtful_reader")
-
-
-## Делает namebox доступным для стилизации через объект Character.
-init python:
-    config.character_id_prefixes.append('namebox')
-
-style window is default
-style say_label is default
-style say_dialogue is default
-style say_thought is say_dialogue
-
-style namebox is default
-style namebox_label is say_label
-
-
-style window:
-    xalign 0.5
-    xfill True
-    yalign gui.textbox_yalign
-    ysize gui.textbox_height
-
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
-
-style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
-
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
-
-style say_label:
-    properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
-    yalign 0.5
-
-style say_dialogue:
-    properties gui.text_properties("dialogue")
-
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-
-    adjust_spacing False
 
 ## Экран ввода #################################################################
 ##
@@ -187,10 +116,9 @@ screen input(prompt):
     window:
 
         vbox:
-            xanchor gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
+            xalign 0.5
+            yalign 0.5
             xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
 
             text prompt style "input_prompt"
             input id "input"
@@ -249,49 +177,9 @@ style choice_button_text is default:
     properties gui.text_properties("choice_button")
 
 
-## Экран быстрого меню #########################################################
-##
-## Быстрое меню показывается внутри игры, чтобы обеспечить лёгкий доступ к
-## внеигровым меню.
+## Реализация экрана быстрого меню (quick_menu) вынесена в отдельный модуль:
+## game/modules/dialogue-ui/dialogue_screens.rpy
 
-screen quick_menu():
-
-    ## Гарантирует, что оно появляется поверх других экранов.
-    zorder 100
-
-    if quick_menu:
-
-        hbox:
-            style_prefix "quick"
-
-            xalign 0.5
-            yalign 1.0
-
-            textbutton _("Назад") action Rollback()
-            textbutton _("История") action ShowMenu('history')
-            textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Авто") action Preference("auto-forward", "toggle")
-            textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Б.Сохр") action QuickSave()
-            textbutton _("Б.Загр") action QuickLoad()
-            textbutton _("Опции") action ShowMenu('settings_menu')
-
-
-## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
-## время, если только игрок не скроет интерфейс.
-init python:
-    config.overlay_screens.append("quick_menu")
-    
-default quick_menu = True
-
-style quick_button is default
-style quick_button_text is button_text
-
-style quick_button:
-    properties gui.button_properties("quick_button")
-
-style quick_button_text:
-    properties gui.text_properties("quick_button")
 
 
 ################################################################################
@@ -366,59 +254,11 @@ style navigation_button_text:
 
 ## Экран главного меню #########################################################
 ##
-## Используется, чтобы показать главное меню после запуска игры.
+## Реализация экрана главного меню вынесена в отдельный модуль:
+## game/modules/main-menu/main-menu_custom-new.rpy
+## Стили меню определены в game/modules/main-menu/main-menu_styles.rpy
 ##
-## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
-
-screen main_menu():
-
-    ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
-    ## заменять этот.
-    tag menu
-
-    add gui.main_menu_background
-
-    ## Эта пустая рамка затеняет главное меню.
-    frame:
-        style "main_menu_frame"
-
-    ## Оператор use включает отображение другого экрана в данном. Актуальное
-    ## содержание главного меню находится на экране навигации.
-    use navigation
-
-    if gui.show_name:
-
-        vbox:
-            style "main_menu_vbox"
-
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
-
-
-style main_menu_frame is empty
-style main_menu_vbox is vbox
-style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
-
-style main_menu_frame:
-    xsize 420
-    yfill True
-
-    background "gui/overlay/main_menu.png"
-
-style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
-
-style main_menu_title:
-    properties gui.text_properties("title")
-
-style main_menu_version:
-    properties gui.text_properties("version")
 
 
 ## Экран игрового меню #########################################################
@@ -598,116 +438,18 @@ style about_label_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#save 
 
-screen save():
-
-    tag menu
-
-    use file_slots(_("Сохранить"))
-
-
-screen load():
-
-    tag menu
-
-    use file_slots(_("Загрузить"))
-
-
-screen file_slots(title):
-
-    default page_name_value = FilePageNameInputValue(pattern=_("{} страница"), auto=_("Автосохранения"), quick=_("Быстрые сохранения"))
-
-    tag menu
-    add gui.main_menu_background
-
-    frame:
-        style "modern_panel_wide"
-
-        vbox:
-            style "modern_vbox"
-
-            label title style "modern_title_label"
-
-            ## Номер страницы, который может быть изменён посредством клика на
-            ## кнопку.
-            button:
-                style "page_label"
-
-                key_events True
-                xalign 0.5
-                action page_name_value.Toggle()
-
-                input:
-                    style "page_label_text"
-                    value page_name_value
-
-            ## Таблица слотов.
-            grid gui.file_slot_cols gui.file_slot_rows:
-                style_prefix "slot"
-
-                xalign 0.5
-                yalign 0.5
-
-                spacing gui.slot_spacing
-
-                for i in range(gui.file_slot_cols * gui.file_slot_rows):
-
-                    $ slot = i + 1
-
-                    button:
-                        action FileAction(slot)
-
-                        has vbox
-
-                        add FileScreenshot(slot) xalign 0.5
-
-                        text FileTime(slot, format=_("{#file_time}%A, %d %B %Y, %H:%M"), empty=_("Пустой слот")):
-                            style "slot_time_text"
-
-                        text FileSaveName(slot):
-                            style "slot_name_text"
-
-                        key "save_delete" action FileDelete(slot)
-
-            ## Кнопки для доступа к другим страницам.
-            vbox:
-                style_prefix "page"
-
-                xalign 0.5
-                yalign 1.0
-
-                hbox:
-                    xalign 0.5
-
-                    spacing gui.page_spacing
-
-                    textbutton _("<") action FilePagePrevious()
-                    key "save_page_prev" action FilePagePrevious()
-
-                    if config.has_autosave:
-                        textbutton _("{#auto_page}А") action FilePage("auto")
-
-                    if config.has_quicksave:
-                        textbutton _("{#quick_page}Б") action FilePage("quick")
-
-                    ## range(1, 10) задаёт диапазон значений от 1 до 9.
-                    for page in range(1, 10):
-                        textbutton "[page]" action FilePage(page)
-
-                    textbutton _(">") action FilePageNext()
-                    key "save_page_next" action FilePageNext()
-
-                if config.has_sync:
-                    if CurrentScreenName() == "save":
-                        textbutton _("Загрузить Sync"):
-                            action UploadSync()
-                            xalign 0.5
-                    else:
-                        textbutton _("Скачать Sync"):
-                            action DownloadSync()
-                            xalign 0.5
-
-            null height 40
-            textbutton _("Назад") action Return() style "modern_back_button"
+## Vanilla save/load screens are disabled in favor of modern rework:
+## game/modules/save-system/save_load_screens.rpy
+# screen save():
+#     tag menu
+#     use file_slots(_("Сохранить"))
+#
+# screen load():
+#     tag menu
+#     use file_slots(_("Загрузить"))
+#
+# screen file_slots(title):
+#     ...
 
 
 style page_label is gui_label
@@ -925,95 +667,8 @@ style slider_vbox:
     xsize 675
 
 
-## Экран истории ###############################################################
-##
-## Этот экран показывает игроку историю диалогов. Хотя в этом экране нет ничего
-## особенного, он имеет доступ к истории диалогов, хранимом в _history_list.
-##
-## https://www.renpy.org/doc/html/history.html
-
-screen history():
-
-    tag menu
-
-    ## Избегайте предсказывания этого экрана, так как он может быть очень
-    ## массивным.
-    predict False
-
-    use game_menu(_("История"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
-
-        style_prefix "history"
-
-        for h in _history_list:
-
-            window:
-
-                ## Это всё правильно уравняет, если history_height будет
-                ## установлен на None.
-                has fixed:
-                    yfit True
-
-                if h.who:
-
-                    label h.who:
-                        style "history_name"
-                        substitute False
-
-                        ## Берёт цвет из who параметра персонажа, если он
-                        ## установлен.
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
-
-                $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what:
-                    substitute False
-
-        if not _history_list:
-            label _("История диалогов пуста.")
-
-
-## Это определяет, какие теги могут отображаться на экране истории.
-
-define gui.history_allow_tags = { "alt", "noalt", "rt", "rb", "art" }
-
-
-style history_window is empty
-
-style history_name is gui_label
-style history_name_text is gui_label_text
-style history_text is gui_text
-
-style history_label is gui_label
-style history_label_text is gui_label_text
-
-style history_window:
-    xfill True
-    ysize gui.history_height
-
-style history_name:
-    xpos gui.history_name_xpos
-    xanchor gui.history_name_xalign
-    ypos gui.history_name_ypos
-    xsize gui.history_name_width
-
-style history_name_text:
-    min_width gui.history_name_width
-    textalign gui.history_name_xalign
-
-style history_text:
-    xpos gui.history_text_xpos
-    ypos gui.history_text_ypos
-    xanchor gui.history_text_xalign
-    xsize gui.history_text_width
-    min_width gui.history_text_width
-    textalign gui.history_text_xalign
-    layout ("subtitle" if gui.history_text_xalign else "tex")
-
-style history_label:
-    xfill True
-
-style history_label_text:
-    xalign 0.5
+## Реализация экрана истории диалогов (history screen) вынесена в отдельный модуль:
+## game/modules/dialogue-ui/history_screen.rpy
 
 
 ## Экран помощи ################################################################

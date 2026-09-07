@@ -331,7 +331,7 @@ label ch5_ai_core_final_input:
         Ответ Ядра Решений: Положительно.
     """
     
-    play sound "sfx/access_granted_chime.opus"
+    # TODO: missing audio: play sound "sfx/access_granted_chime.opus"
     
     sibyl """
         Код Карантин-7 частично деактивирован для секции: Серверная.

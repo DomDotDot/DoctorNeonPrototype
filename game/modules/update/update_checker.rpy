@@ -70,7 +70,7 @@ init python:
             headers = {'User-Agent': 'RenPy-Game-Client'}
 
             # Делаем запрос к API GitHub (таймаут 5 сек, чтобы не тупить)
-            response = requests.get(GITHUB_API_URL, headers=headers, timeout=5, verify=False)
+            response = requests.get(GITHUB_API_URL, headers=headers, timeout=5)
             
             if response.status_code == 200:
                 data = response.json()
@@ -112,17 +112,6 @@ init python:
                             remote_tag,
                             should_popup
                         )
-
-                    # ДОБАВЛЯЕМ В МЕНЕДЖЕР
-                    add_notification(
-                        notif_id=notif_id,
-                        title=title,
-                        message=message,
-                        link_itch=LINK_ITCH,
-                        link_github=LINK_GITHUB,
-                        version_tag=remote_tag,
-                        force_popup=should_popup # Покажем попап, только если не в игноре
-                    )
 
                 else:
                     print("UpdateCheck: Версия актуальна.")

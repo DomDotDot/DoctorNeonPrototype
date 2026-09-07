@@ -3,7 +3,7 @@ label chapter8_mismatch:
     # --- СЦЕНА 1: НОЧЬ И ТРЕВОГА ---
 
     scene bg alex_bedroom_dark with fade
-    play ambient "ambient/apartment_night_fridge_hum.opus" loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/apartment_night_fridge_hum.opus" loop volume 0.4
 
     narrator """
         Сон был рваным, неглубоким. Я проваливалась в липкую дремоту и снова выныривала из неё, вздрагивая.
@@ -105,7 +105,7 @@ label chapter8_mismatch:
         Чья-то рука мертвой хваткой вцепилась мне в плечо, крутанула вокруг своей оси и с силой впечатала спиной в стену.
     """
 
-    play music "music/BGM/Nari_Despair_Theme.opus" fadein 2.0 loop volume 0.6
+    # TODO: missing audio: play music "music/BGM/Nari_Despair_Theme.opus" fadein 2.0 loop volume 0.6
 
     narrator """
         Затылок больно ударился об обои. 

@@ -3,8 +3,8 @@ label chapter8_invitation:
     # --- СЦЕНА 1: ДОРОГА В ШКОЛУ (Странная стая) ---
 
     scene bg coastal_street_morning with fade
-    play ambient "ambient/morning_street_chatter.opus" fadein 2.0 loop volume 0.4
-    play music "music/BGM/Slice_Of_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/morning_street_chatter.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Uneasy.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Мы шли в школу целой толпой. 
@@ -130,7 +130,7 @@ label chapter8_invitation:
 
     # --- СЦЕНА 4: ПРЕДЛОЖЕНИЕ И КАРМА ---
 
-    play music "music/BGM/Tension_Rooftop.opus" fadein 2.0 loop volume 0.4
+    # TODO: missing audio: play music "music/BGM/Tension_Rooftop.opus" fadein 2.0 loop volume 0.4
 
     narrator """
         Лили смотрела на меня. Лицо всё еще было серьезным, но я видела, как она теребит ремешок своей сумки. 

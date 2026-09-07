@@ -5,7 +5,7 @@ label chapter8_letter:
     scene black with fade
     stop music fadeout 2.0
     
-    play ambient "ambient/suburban_night_crickets.opus" fadein 3.0 loop volume 0.4
+    # TODO: missing audio: play ambient "ambient/suburban_night_crickets.opus" fadein 3.0 loop volume 0.4
 
     narrator """
         Сознание возвращалось медленно, словно всплывая со дна глубокого колодца.
@@ -28,7 +28,7 @@ label chapter8_letter:
     scene cg_lily_lap_pillow with Dissolve(2.0)
     # CG: Неон лежит головой на коленях Лили на диване. Лили смотрит на неё сверху вниз с бесконечной, почти болезненной заботой. На заднем плане размыто видны Софи и Клара.
 
-    play music "music/BGM/Slice_Of_Life_Melancholy.opus" fadein 2.0 volume 0.3
+    # TODO: missing audio: play music "music/BGM/Slice_Of_Life_Melancholy.opus" fadein 2.0 volume 0.3
 
     lily "Она... она очнулась!"
 
@@ -347,7 +347,7 @@ label chapter8_letter:
     # --- СЦЕНА 5: ТЕМНЫЙ КОРИДОР ---
 
     scene black with fade
-    play ambient "ambient/apartment_dead_silence.opus" fadein 2.0 loop volume 0.3
+    # TODO: missing audio: play ambient "ambient/apartment_dead_silence.opus" fadein 2.0 loop volume 0.3
 
     narrator """
         Спорить было бесполезно. Мое тело меня предавало. Кашель стих, но слабость была абсолютной.

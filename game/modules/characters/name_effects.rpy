@@ -11,12 +11,53 @@ init python:
     import time as _time
 
     # =========================================================
-    # Лавовая лампа / Дымка — анимированный градиент по буквам
+    # Регистрация GPU-шейдеров для имен персонажей
+    # =========================================================
+    renpy.register_shader("custom.lavalamp_name",
+        variables="""
+            uniform float u_time;
+            uniform float u_speed;
+            uniform vec4 u_c1;
+            uniform vec4 u_c2;
+            varying vec2 v_tex_coord;
+            attribute vec2 a_tex_coord;
+        """,
+        vertex_300="""
+            v_tex_coord = a_tex_coord;
+        """,
+        fragment_300="""
+            float phase = u_time * u_speed;
+            float wave1 = sin(v_tex_coord.x * 3.14159 * 3.0 + phase * 1.2);
+            float wave2 = sin(v_tex_coord.x * 3.14159 * 5.0 + phase * 0.7 + 0.5);
+            float factor = clamp((wave1 + wave2 * 0.5) / 3.0 + 0.5, 0.0, 1.0);
+            vec4 col = mix(u_c1, u_c2, factor);
+            gl_FragColor = vec4(col.rgb * gl_FragColor.a, gl_FragColor.a);
+        """
+    )
+
+    renpy.register_shader("custom.gradient_name",
+        variables="""
+            uniform vec4 u_c1;
+            uniform vec4 u_c2;
+            varying vec2 v_tex_coord;
+            attribute vec2 a_tex_coord;
+        """,
+        vertex_300="""
+            v_tex_coord = a_tex_coord;
+        """,
+        fragment_300="""
+            vec4 col = mix(u_c1, u_c2, clamp(v_tex_coord.x, 0.0, 1.0));
+            gl_FragColor = vec4(col.rgb * gl_FragColor.a, gl_FragColor.a);
+        """
+    )
+
+    # =========================================================
+    # Лавовая лампа / Дымка — аппаратный GPU-шейдер
     # =========================================================
     class LavaLampName(renpy.Displayable):
         """
         Каждая буква имени плавно меняет цвет между color1 и color2.
-        Фаза зависит от позиции буквы → волна цвета 'течёт' по имени.
+        Выполняется на GPU через кастомный шейдер без нагрузки на CPU.
         """
 
         def __init__(self, name, color1, color2, speed=1.0, **kwargs):
@@ -26,63 +67,23 @@ init python:
             self.color2 = color2
             self.speed = speed
 
+            c1 = renpy.color.Color(color1).rgba
+            c2 = renpy.color.Color(color2).rgba
+            text_d = Text(name, font=gui.name_text_font, size=gui.name_text_size, color="#ffffff")
+            self.child = At(text_d, animated_lavalamp_tf(speed, c1, c2))
+
         def render(self, width, height, st, at):
-            chars = list(self.name)
-            if not chars:
-                return renpy.Render(1, 1)
-
-            renders = []
-            max_h = 0
-
-            for i, ch in enumerate(chars):
-                # Нормализованная позиция буквы [0..1]
-                t = float(i) / max(1.0, len(chars) - 1.0)
-                # Абсолютное время — анимация не сбрасывается при {w} и обновлении экрана
-                phase = (_time.time() % 10000.0) * self.speed
-
-                # Несколько синусоид для органичного 'лавового' движения
-                wave1 = math.sin(t * math.pi * 3.0 + phase * 1.2)
-                wave2 = math.sin(t * math.pi * 5.0 + phase * 0.7 + 0.5)
-                factor = (wave1 + wave2 * 0.5) / 3.0 + 0.5
-                factor = max(0.0, min(1.0, factor))
-
-                c1 = renpy.color.Color(self.color1)
-                c2 = renpy.color.Color(self.color2)
-                blended = c1.interpolate(c2, factor)
-
-                text_d = Text(
-                    ch,
-                    color=blended.hexcode,
-                    font=gui.name_text_font,
-                    size=gui.name_text_size
-                )
-                r = renpy.render(text_d, width, height, st, at)
-                rw, rh = r.get_size()
-                renders.append((r, rw, rh))
-                if rh > max_h:
-                    max_h = rh
-
-            total_w = sum(rw for _, rw, _ in renders)
-            result = renpy.Render(int(total_w), int(max_h))
-
-            x = 0
-            for r, rw, rh in renders:
-                result.blit(r, (int(x), 0))
-                x += rw
-
-            renpy.redraw(self, 0.04)  # ~25 fps
-            return result
+            return renpy.render(self.child, width, height, st, at)
 
         def visit(self):
-            return []
+            return [self.child]
 
     # =========================================================
-    # Градиент — плавный переход цвета слева направо
+    # Градиент — плавный переход цвета слева направо (GPU)
     # =========================================================
     class GradientName(renpy.Displayable):
         """
-        Имя плавно меняет цвет от color1 (слева) к color2 (справа).
-        Каждая буква получает интерполированный цвет по позиции.
+        Имя плавно меняет цвет от color1 (слева) к color2 (справа) на GPU.
         """
 
         def __init__(self, name, color1, color2, **kwargs):
@@ -91,45 +92,33 @@ init python:
             self.color1 = color1
             self.color2 = color2
 
+            c1 = renpy.color.Color(color1).rgba
+            c2 = renpy.color.Color(color2).rgba
+            text_d = Text(name, font=gui.name_text_font, size=gui.name_text_size, color="#ffffff")
+            self.child = At(text_d, gradient_static_tf(c1, c2))
+
         def render(self, width, height, st, at):
-            chars = list(self.name)
-            if not chars:
-                return renpy.Render(1, 1)
-
-            renders = []
-            max_h = 0
-
-            c1 = renpy.color.Color(self.color1)
-            c2 = renpy.color.Color(self.color2)
-
-            for i, ch in enumerate(chars):
-                t = float(i) / max(1.0, len(chars) - 1.0)
-                blended = c1.interpolate(c2, t)
-
-                text_d = Text(
-                    ch,
-                    color=blended.hexcode,
-                    font=gui.name_text_font,
-                    size=gui.name_text_size
-                )
-                r = renpy.render(text_d, width, height, st, at)
-                rw, rh = r.get_size()
-                renders.append((r, rw, rh))
-                if rh > max_h:
-                    max_h = rh
-
-            total_w = sum(rw for _, rw, _ in renders)
-            result = renpy.Render(int(total_w), int(max_h))
-
-            x = 0
-            for r, rw, rh in renders:
-                result.blit(r, (int(x), 0))
-                x += rw
-
-            return result
+            return renpy.render(self.child, width, height, st, at)
 
         def visit(self):
-            return []
+            return [self.child]
+
+transform animated_lavalamp_tf(speed, c1, c2):
+    mesh True
+    shader "custom.lavalamp_name"
+    u_speed speed
+    u_c1 c1
+    u_c2 c2
+    pause 0
+    repeat
+
+transform gradient_static_tf(c1, c2):
+    mesh True
+    shader "custom.gradient_name"
+    u_c1 c1
+    u_c2 c2
+
+init python:
 
     # =========================================================
     # Маппинг: active_speaker → эффект (с кешированием)
