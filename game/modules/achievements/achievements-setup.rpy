@@ -39,7 +39,7 @@ init 1 python:
         id="completionist_100",
         name=_("Комплеционист"),
         description=_("Получите абсолютно все остальные достижения в игре."),
-        icon=None,
+        icon="images/achievements/100.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Откройте все секреты игры.")
     ))
@@ -66,7 +66,7 @@ init 1 python:
         id="frequency_resonance",
         name=_("Частота резонанса"),
         description=_("Проведите в воспоминании с Криптон более 7 минут до момента вспышки резонанса."),
-        icon=None,
+        icon="images/achievements/grossmunster.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Не спешите покидать дорогой сердцу момент.")
     ))
@@ -111,7 +111,7 @@ init 1 python:
         id="secret_cutscene_vol1",
         name=_("Страшно Вырубай"),
         description=_("Станьте свидетелем секретной кат-сцены в катакомбах города."),
-        icon=None,
+        icon="images/achievements/redscarf.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Откройте скрытый финал первого тома.")
     ))
@@ -120,7 +120,7 @@ init 1 python:
         id="pathological_interest",
         name=_("Патологический интерес"),
         description=_("Будучи с выключенным 18+ фильтром, включите его прямо во время сцены с ульем в комнате 404."),
-        icon=None,
+        icon="images/achievements/scaredeye.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Проявите любопытство в самый неподходящий момент.")
     ))
@@ -167,7 +167,7 @@ init 1 python:
         id="seven_seven_seven_bulls",
         name=_("Три топора, три коровы, три быка"),
         description=_("В мини-игре 'Быки и Коровы' в Отделе кадров подберите 4-значный PIN-код за 7 ходов или меньше."),
-        icon=None,
+        icon="images/achievements/777.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Проявите исключительную логику при взломе.")
     ))
