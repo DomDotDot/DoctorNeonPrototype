@@ -9,10 +9,13 @@ label chapter_9_rpy:
     call chapter9_silence from _call_chapter9_silence
     call chapter9_bell_toll from _call_chapter9_bell_toll
 
+    # Завершение игры: навсегда меняем иконку окна на gui/window_icon-finished.png
+    $ mark_game_as_finished()
+
     $ renpy.pause(5.0, hard=True)
 
     # TODO: missing audio: play music "music/BGM/Celestia_Piano_Theme_Slow.opus" fadein 2.0
-
+    
     show text "{size=40}The Brightest Neon - Semitone Resonance{/size}" at truecenter with dissolve
     $ renpy.pause(3.0, hard=True)
 
@@ -23,5 +26,7 @@ label chapter_9_rpy:
 
     if _return == "secret_scene":
         call chapter9_epilogue from _call_chapter9_epilogue
+    else:
+        return
 
 return

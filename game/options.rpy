@@ -174,7 +174,32 @@ define config.save_directory = "DoctorNeonPrototype-1744495698"
 ##
 ## Иконка, показываемая на панели задач или на dock.
 
-define config.window_icon = "gui/window_icon.png"
+default persistent.game_finished = False
+
+init -1 python:
+    def is_game_finished():
+        return bool(getattr(persistent, "game_finished", False) or getattr(persistent, "end_unlocked", False))
+
+    def update_window_icon():
+        if is_game_finished():
+            config.window_icon = "gui/window_icon-finished.png"
+        else:
+            config.window_icon = "gui/window_icon.png"
+
+        interface = getattr(renpy.display, "interface", None) or getattr(renpy.game, "interface", None)
+        if interface is not None:
+            try:
+                interface.set_icon()
+            except Exception:
+                pass
+
+    def mark_game_as_finished():
+        persistent.game_finished = True
+        persistent.end_unlocked = True
+        renpy.save_persistent()
+        update_window_icon()
+
+define config.window_icon = "gui/window_icon-finished.png" if (getattr(persistent, "game_finished", False) or getattr(persistent, "end_unlocked", False)) else "gui/window_icon.png"
 
 
 ## Настройка Дистрибутива ######################################################

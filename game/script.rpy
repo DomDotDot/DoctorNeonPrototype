@@ -1,4 +1,4 @@
-﻿label start:
+label start:
 
         stop music fadeout 1.0
         stop sound fadeout 1.0
@@ -86,6 +86,7 @@
                 call chapter_9_rpy from _call_chapter_9_rpy
 
                 $ persistent.end_unlocked = True
+                $ mark_game_as_finished()
 
         label volume_2_end:
                 call screen chapter_screen(_("Конец Второго Тома"), _("Спасибо за игру!"))

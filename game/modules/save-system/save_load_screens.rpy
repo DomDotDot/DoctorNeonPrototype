@@ -698,7 +698,7 @@ screen save_inspector_content(slot, info, mode):
                     hover_sound "audio/sfx/cursor-hover.opus"
                     activate_sound "audio/sfx/button-click.opus"
                     action SmartFileLoad(slot)
-                    text _("🚀 ЗАГРУЗИТЬ СОХРАНЕНИЕ") style "save_inspector_action_text"
+                    text _("ЗАГРУЗИТЬ СОХРАНЕНИЕ") style "save_inspector_action_text"
 
                 if not is_empty and slot is not None:
                     button:
@@ -716,7 +716,7 @@ screen save_inspector_content(slot, info, mode):
                     hover_sound "audio/sfx/cursor-hover.opus"
                     activate_sound "audio/sfx/button-click.opus"
                     action SmartFileSave(slot)
-                    text (_("💾 СОХРАНИТЬ В ЭТОТ СЛОТ") if is_empty else _("🔄 ПЕРЕЗАПИСАТЬ СОХРАНЕНИЕ")) style "save_inspector_action_text"
+                    text (_("СОХРАНИТЬ В ЭТОТ СЛОТ") if is_empty else _("🔄 ПЕРЕЗАПИСАТЬ СОХРАНЕНИЕ")) style "save_inspector_action_text"
 
                 if not is_empty and slot is not None:
                     button:
