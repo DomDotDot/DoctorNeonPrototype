@@ -194,7 +194,7 @@ init 1 python:
         id="not_a_moron",
         name=_("Я НЕ ДУРАК!"),
         description=_("В Главе 5 пройдите все коридоры спутника Нексус (Alpha, Beta, Gamma) без единого сброса таймера перегрузки."),
-        icon=None,
+        icon="images/achievements/moron.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Докажите, что вы способны справиться с генераторами с первой попытки.")
     ))
@@ -212,7 +212,7 @@ init 1 python:
         id="sibyl_no_hints",
         name=_("Загадки Жака Фреско"),
         description=_("Ответьте на все 3 логические загадки СИВИЛЛЫ в Ядре ИИ, ни разу не допустив 3 ошибок и не активировав подсказку."),
-        icon=None,
+        icon="images/achievements/sibyl.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Решите загадки автономного интеллекта без чьей-либо помощи.")
     ))
