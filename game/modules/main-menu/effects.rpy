@@ -163,7 +163,7 @@ transform gpu_parallax(amount=40, speed=0.0):
 transform mouse_parallax(amount=20, speed=0.0):
     align (0.5, 0.5)
     subpixel True
-    zoom (1.0 + max(0.06, abs(amount) * 0.0012))
+    zoom (0.75 + max(0.06, abs(amount) * 0.0012))
     function mouse_parallax_func(amount, speed)
 
 
