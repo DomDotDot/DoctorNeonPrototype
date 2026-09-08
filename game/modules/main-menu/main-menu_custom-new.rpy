@@ -26,8 +26,14 @@ screen main_menu_background():
     add "main_menu_bg_dynamic":
         at mouse_parallax(30)
 
-    # Частицы
-    if datetime.datetime.now().month in (12, 1, 2):
+    # Динамическая анимация сакуры (схема волны и лепестков по аналогии с chapter-title.rpy)
+    if persistent.main_menu_level == 3:
+        use sakura_menu_breeze
+    elif persistent.main_menu_level == 4:
+        use sakura_menu_storm
+
+    # Частицы (для зимнего сезона на других фонах)
+    if datetime.datetime.now().month in (12, 1, 2) and persistent.main_menu_level not in (3, 4):
         add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10) id "main_menu_effect"
 
     # Виньетка
