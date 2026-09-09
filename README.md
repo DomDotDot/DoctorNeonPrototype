@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **122 230** | `100%` |
+| **Total Words** | **122 209** | `100%` |
 | **Total Script Lines** | **5 918** | `100%` |
-| Narration / Description | 81 055 words / 3 086 lines | `66.3%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 175 words / 2 832 lines | `33.7%` ███░░░░░░░ |
+| Narration / Description | 81 046 words / 3 086 lines | `66.3%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 163 words / 2 832 lines | `33.7%` ███░░░░░░░ |
 | Unique Speakers | 100 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -138,7 +138,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
 | **Chapter 1: The Blue Sheep** | 12 | 404 | 8 316 | `33.9%` ███░░░░░ |
-| **Chapter 2: In Search of A Friend** | 8 | 97 | 2 983 | `16.0%` █░░░░░░░ |
+| **Chapter 2: In Search of A Friend** | 8 | 97 | 2 962 | `15.7%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 361 | 7 357 | `29.4%` ██░░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 142 | 28 206 | `36.9%` ███░░░░░ |
@@ -148,13 +148,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 310 | 8 149 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 918** | **122 230** | `33.7%` |
+| **TOTAL** | **158** | **5 918** | **122 209** | `33.7%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 210 | 14 554 | `35.3%` ███░░░░░ |
+| **Neon** | 1 210 | 14 554 | `35.4%` ███░░░░░ |
 | **Seraphina** | 166 | 3 258 | `7.9%` █░░░░░░░ |
 | **Argon** | 185 | 3 252 | `7.9%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.1%` ░░░░░░░░ |
@@ -181,7 +181,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
 | **Young Oganesson** | 25 | 484 | `1.2%` ░░░░░░░░ |
 | **Hans** | 14 | 301 | `0.7%` ░░░░░░░░ |
-| **Guts** | 14 | 262 | `0.6%` ░░░░░░░░ |
+| **Guts** | 14 | 250 | `0.6%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
 | **News Anchor** | 6 | 235 | `0.6%` ░░░░░░░░ |
 | **Entity / Illusion** | 10 | 226 | `0.5%` ░░░░░░░░ |
