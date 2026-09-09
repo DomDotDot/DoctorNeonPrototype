@@ -8,7 +8,9 @@ label ch5_level3_research:
         "Поговорить с ИИ":
 
             if not has_item("admin_chip"):
-                $ grant_achievement("hal9000_sorry_neon")
+                $ store.ch5_research_ai_plead_count = getattr(store, "ch5_research_ai_plead_count", 0) + 1
+                if store.ch5_research_ai_plead_count >= 3:
+                    $ grant_achievement("hal9000_sorry_neon")
                 sibyl "Отказ. Угроза Код Желтый. Отсутствует чип Администратора. Запрос аннулирован."
                 neon "{=thoughts}Мне нужен Чип Администратора, чтобы эта штука вообще начала со мной говорить.{/thoughts}"
                 neon "{=thoughts}Если бы я могла получить доступ к её интерфейсам, я могла бы узнать больше о том, что происходит на станции...{/thoughts}"
