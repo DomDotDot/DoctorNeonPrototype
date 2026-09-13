@@ -1,0 +1,19 @@
+{
+  "id": "mod_toki_pona",
+  "name": "Toki Pona (lipu lili)",
+  "version": "1.0.0",
+  "author": "DomDot",
+  "type": "translation",
+  "description": "lipu toki pona pi ilo Doctor Neon. Базовый коммьюнити-перевод интерфейса и системных экранов игры на язык Токи Пона.",
+  "target_version": "0.8.x",
+  "priority": 20,
+  "icon": "icon.png",
+  "has_settings": false,
+  "translation_data": {
+    "name": "Toki Pona (lipu lili)",
+    "lang_code": "toki_pona",
+    "font": "DejaVuSans.ttf",
+    "flag": "mod_toki_pona/icon.png",
+    "progress": 85
+  }
+}
