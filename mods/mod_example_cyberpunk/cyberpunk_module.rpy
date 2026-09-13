@@ -86,31 +86,58 @@ screen cyberpunk_hud_overlay():
     # Защита: виджет отображается только если коммьюнити контент включен и данный мод активен
     if getattr(persistent, "community_content_enabled", False) and is_mod_enabled("mod_example_cyberpunk"):
 
-        # Динамическое чтение настроек из settings.json
-        $ cur_callsign = str(get_mod_setting("mod_example_cyberpunk", "operator_callsign", "NEON-77"))
-        $ cur_palette = str(get_mod_setting("mod_example_cyberpunk", "hud_color_palette", "cyan"))
-        $ cur_bass = bool(get_mod_setting("mod_example_cyberpunk", "enable_bass_boost", True))
-        $ cur_glitch = bool(get_mod_setting("mod_example_cyberpunk", "enable_screen_glitch", False))
-        $ cur_vol = str(get_mod_setting("mod_example_cyberpunk", "sfx_volume_multiplier", 80))
-
-        # Выбор акцентных цветов палитры
+        # Динамическое чтение настроек из settings.json с защитой от структур словарей
         python:
-            if cur_palette == "magenta":
+            raw_callsign = get_mod_setting("mod_example_cyberpunk", "operator_callsign", "NEON-77")
+            if isinstance(raw_callsign, dict):
+                cur_callsign = str(raw_callsign.get("value", raw_callsign.get("label", "NEON-77")))
+            else:
+                cur_callsign = str(raw_callsign)
+
+            raw_palette = get_mod_setting("mod_example_cyberpunk", "hud_color_palette", "cyan")
+            if isinstance(raw_palette, dict):
+                cur_palette = str(raw_palette.get("value", raw_palette.get("label", "cyan")))
+            else:
+                cur_palette = str(raw_palette)
+                if cur_palette.startswith("{") and ("value" in cur_palette or "label" in cur_palette):
+                    import ast
+                    try:
+                        parsed = ast.literal_eval(cur_palette)
+                        if isinstance(parsed, dict):
+                            cur_palette = str(parsed.get("value", "cyan"))
+                    except:
+                        cur_palette = "cyan"
+
+            cur_bass = bool(get_mod_setting("mod_example_cyberpunk", "enable_bass_boost", True))
+            cur_glitch = bool(get_mod_setting("mod_example_cyberpunk", "enable_screen_glitch", False))
+            cur_vol = str(get_mod_setting("mod_example_cyberpunk", "sfx_volume_multiplier", 80))
+
+            # Безопасные строки для текста в Ren'Py (экранирование тегов)
+            safe_callsign = cur_callsign.replace("{", "{{").replace("}", "}}").replace("[", "[[").replace("]", "]]")
+            safe_vol = cur_vol.replace("{", "{{").replace("}", "}}").replace("[", "[[").replace("]", "]]")
+
+            # Выбор цветов палитры и безопасного имени
+            p_lower = str(cur_palette).lower()
+            if "magenta" in p_lower:
                 accent_color = "#ff007f"
                 border_color = "#99004d"
                 bg_color = "#150510dd"
-            elif cur_palette == "matrix":
+                palette_name = "MAGENTA"
+            elif "matrix" in p_lower:
                 accent_color = "#00ff66"
                 border_color = "#008833"
                 bg_color = "#05150add"
-            elif cur_palette == "amber":
+                palette_name = "MATRIX"
+            elif "amber" in p_lower:
                 accent_color = "#ffaa00"
                 border_color = "#996600"
                 bg_color = "#151005dd"
+                palette_name = "AMBER"
             else: # "cyan" default
                 accent_color = "#00f0ff"
                 border_color = "#0088aa"
                 bg_color = "#05121cdd"
+                palette_name = "CYAN"
 
         frame:
             xalign 0.985
@@ -128,7 +155,7 @@ screen cyberpunk_hud_overlay():
                     spacing 8
                     yalign 0.5
                     text "⚡" size 16 color accent_color yalign 0.5
-                    text _("CYBER-NET LINK: ONLINE") size 13 bold True color accent_color yalign 0.5
+                    text _("CYBER-NET LINK: ONLINE") substitute False size 13 bold True color accent_color yalign 0.5
                     null width 5
                     text "●" size 11 color "#39ff14" yalign 0.5
 
@@ -141,32 +168,32 @@ screen cyberpunk_hud_overlay():
                 # Информация об операторе и теме
                 hbox:
                     xfill True
-                    text (_("ОПЕРАТОР: ") + cur_callsign) size 14 bold True color "#ffffff"
-                    text (cur_palette.upper()) size 12 color accent_color xalign 1.0 yalign 0.5
+                    text (_("ОПЕРАТОР: ") + safe_callsign) substitute False size 14 bold True color "#ffffff"
+                    text palette_name substitute False size 12 color accent_color xalign 1.0 yalign 0.5
 
                 # Статус настроек (бейджы Bass Boost и Glitch)
                 hbox:
                     spacing 6
                     yalign 0.5
 
-                    text ("VOL: " + cur_vol + "%") size 12 color "#aaaaaa" yalign 0.5
+                    text ("VOL: " + safe_vol + "%") substitute False size 12 color "#aaaaaa" yalign 0.5
 
                     if cur_bass:
                         frame:
                             background Solid("#00aa4444")
                             padding (5, 2)
-                            text "BASS+" size 11 bold True color "#39ff14"
+                            text "BASS+" substitute False size 11 bold True color "#39ff14"
                     else:
                         frame:
                             background Solid("#33333344")
                             padding (5, 2)
-                            text "BASS" size 11 color "#666666"
+                            text "BASS" substitute False size 11 color "#666666"
 
                     if cur_glitch:
                         frame:
                             background Solid("#aa004444")
                             padding (5, 2)
-                            text "GLITCH" size 11 bold True color "#ff5599"
+                            text "GLITCH" substitute False size 11 bold True color "#ff5599"
 
                 # Кнопка тестирования SFX и вызова хука
                 textbutton _("🔊 ТЕСТ КИБЕР-ИМПУЛЬСА"):
