@@ -13,6 +13,7 @@ default persistent.main_menu_level = 0
 default persistent.sensitive_mode = False
 default persistent.ai_sensitive_mode = False
 default persistent.font_size_large = False
+default persistent.main_menu_music_enabled = True
 
   
 
@@ -35,4 +36,4 @@ image main_menu_bg_dynamic = ConditionSwitch(
 "True", "gui/main_menu/background-1.jpeg"
 )
 
-image main_menu_logo = "gui/main_menu/logo2.avif"
+image main_menu_logo = "gui/main_menu/logo3.png"
