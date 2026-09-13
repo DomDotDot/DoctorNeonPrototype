@@ -28,7 +28,8 @@ screen language_selection_screen():
                     spacing 30
                     xalign 0.5
                     
-                    for lang in LANGUAGE_LIST:
+                    $ current_active_langs = get_active_languages()
+                    for lang in current_active_langs:
                         $ code = lang['code']
                         $ percent = get_lang_progress(code)
                         $ is_active = (_preferences.language == code)
@@ -37,14 +38,9 @@ screen language_selection_screen():
                             style "lang_button"
                             action [Language(code), Function(check_polyglot_on_lang_change), Return()]
                             
-
-            
                             if is_active:
-
                                 background Frame("gui/button/choice_hover_background.png", 10, 10)
-                            
                             else:
-                            
                                 background Frame("gui/button/choice_idle_background.png", 10, 10)
                             
                             hbox:
@@ -57,12 +53,16 @@ screen language_selection_screen():
                                     add lang['flag'] yalign 0.5 xsize 64 ysize 64 fit "contain"
                                 else:
                                     # Заглушка, если флага нет
-                                    text "?" size 40 bold True yalign 0.5 xsize 64 xalign 0.5
+                                    text ("🌐" if not lang.get("official", True) else "?") size 36 bold True yalign 0.5 xsize 64 xalign 0.5
 
                                 # 2. Инфо
                                 vbox:
                                     yalign 0.5
-                                    text lang['name'] size 30 bold True color ("#ffaa00" if is_active else "#fff")
+                                    hbox:
+                                        spacing 10
+                                        text lang['name'] size 26 bold True color ("#ffaa00" if is_active else "#fff")
+                                        if not lang.get("official", True):
+                                            text _("[[МОД]]") substitute False size 16 color "#39ff14" yalign 0.5
                                     
                                     # Полоска прогресса (если не 100%)
                                     if percent < 100:
@@ -78,7 +78,13 @@ screen language_selection_screen():
                                             
                                             text f"{percent}%" size 16 color "#aaa" yalign 0.5
                                     else:
-                                        text "Готово / Ready" size 16 color "#8f8"
+                                        text _("Готово / Ready") size 16 color "#8f8"
+
+            null height 10
+            if not getattr(persistent, "community_content_enabled", False):
+                text _("💡 Сторонние коммьюнити-переводы можно включить в: Настройки -> Коммьюнити Контент") size 16 color "#888" xalign 0.5
+            else:
+                text _("🧩 Режим коммьюнити-контента активен") size 16 color "#39ff14" xalign 0.5
 
 # --- СТИЛИ ---
 
