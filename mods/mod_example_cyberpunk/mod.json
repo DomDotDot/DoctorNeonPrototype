@@ -1,0 +1,13 @@
+{
+  "id": "mod_example_cyberpunk",
+  "name": "Cyber-Neon Audio & Theme (Пример)",
+  "version": "1.0.0",
+  "author": "DomDot",
+  "type": "modular",
+  "description": "Демонстрационный модульный мод: хукается в /modules/mods/, использует Mod API (хуки, оверлеи), выводит кибер-HUD и реагирует на настройки в реальном времени.",
+  "target_version": "0.8.x",
+  "priority": 15,
+  "icon": "icon.png",
+  "has_settings": true,
+  "settings_file": "settings.json"
+}

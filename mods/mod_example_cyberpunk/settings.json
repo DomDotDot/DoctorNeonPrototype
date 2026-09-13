@@ -1,0 +1,50 @@
+{
+  "title": "Настройки Cyber-Neon Pack",
+  "description": "Параметры аудио-эффектов, визуальных искажений и оформления интерфейса мода.",
+  "options": [
+    {
+      "id": "enable_bass_boost",
+      "name": "Усиление басов (Bass Boost)",
+      "type": "toggle",
+      "default": true,
+      "description": "Включает повышенную отдачу низких частот в звуковых эффектах интерфейса."
+    },
+    {
+      "id": "enable_screen_glitch",
+      "name": "Эффект глитча при клике",
+      "type": "toggle",
+      "default": false,
+      "description": "Кратковременный визуальный сбой интерфейса при активации кнопок."
+    },
+    {
+      "id": "sfx_volume_multiplier",
+      "name": "Громкость звуков мода",
+      "type": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 80,
+      "description": "Регулировка относительной громкости кастомных звуков в процентах."
+    },
+    {
+      "id": "operator_callsign",
+      "name": "Позывной оператора",
+      "type": "input",
+      "default": "NEON-77",
+      "description": "Кастомный идентификатор пользователя, используемый в HUD мода."
+    },
+    {
+      "id": "hud_color_palette",
+      "name": "Цветовая гамма темы",
+      "type": "choice",
+      "default": "cyan",
+      "description": "Выбор цветового акцента для графических элементов модификации.",
+      "choices": [
+        {"label": "Cyber-Cyan (Бирюзовый)", "value": "cyan"},
+        {"label": "Neon-Magenta (Пурпурный)", "value": "magenta"},
+        {"label": "Matrix-Green (Изумрудный)", "value": "matrix"},
+        {"label": "Amber-Gold (Янтарный)", "value": "amber"}
+      ]
+    }
+  ]
+}
