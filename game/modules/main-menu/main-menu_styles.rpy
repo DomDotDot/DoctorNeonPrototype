@@ -116,12 +116,12 @@ style settings_slider_label_text is settings_check_label_text:
 
 style settings_slider_bar is bar:
     xfill True 
-    ysize 12
-    left_bar Solid("#08608f")
-    right_bar Solid("#333333")
-    thumb Solid("#0f63c9")
+    ysize 10
+    left_bar Solid("#00d4ff")
+    right_bar Solid("#1e2235")
+    thumb Solid("#38bdf8")
     thumb_shadow None
-    thumb_offset 6
+    thumb_offset 5
 
 style settings_test_button is button:
     xsize 100
@@ -129,11 +129,52 @@ style settings_test_button is button:
     left_margin 15
     background Solid("#ffffff10")
     hover_background Solid("#ffffff30")
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
     
 style settings_test_button_text is button_text:
     size 20
     xalign 0.5
     yalign 0.5
+
+#
+# Cyber-Glassmorphic Settings Component Styles
+#
+style settings_card is frame:
+    background Solid("#141420cc")
+    xfill True
+    padding (18, 14)
+
+style settings_chip_btn is button:
+    background Solid("#1a1a2acc")
+    hover_background Solid("#25253bcc")
+    selected_idle_background Solid("#00ffcc22")
+    selected_hover_background Solid("#00ffcc3a")
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
+    padding (12, 10)
+
+style settings_chip_text is text:
+    size 15
+    bold True
+    color "#cbd5e1"
+    hover_color "#ffffff"
+    selected_color "#39ff14"
+    align (0.5, 0.5)
+
+style settings_mini_btn is button:
+    background Solid("#1e2235")
+    hover_background Solid("#2d334d")
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
+    padding (10, 5)
+
+style settings_mini_btn_text is text:
+    size 13
+    bold True
+    color "#94a3b8"
+    hover_color "#00e5ff"
+    align (0.5, 0.5)
 
 #
 # Chapter Buttons

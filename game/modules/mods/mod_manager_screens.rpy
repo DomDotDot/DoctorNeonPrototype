@@ -372,7 +372,7 @@ screen mod_manager_screen():
                     ysize 55
                     text_size 19
 
-                textbutton _("🔄 Обновить список"):
+                textbutton _("🔄 Обновить"):
                     action Function(rescan_mods)
                     style "modern_button"
                     xsize 230
