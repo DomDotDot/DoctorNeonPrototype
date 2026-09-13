@@ -9,7 +9,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-122.9k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20933-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20930-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,11 +126,11 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **122 906** | `100%` |
-| **Total Script Lines** | **5 933** | `100%` |
-| Narration / Description | 81 632 words / 3 097 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 274 words / 2 836 lines | `33.6%` ███░░░░░░░ |
-| Unique Speakers | 101 | — |
+| **Total Words** | **122 862** | `100%` |
+| **Total Script Lines** | **5 930** | `100%` |
+| Narration / Description | 81 576 words / 3 094 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 286 words / 2 836 lines | `33.6%` ███░░░░░░░ |
+| Unique Speakers | 100 | — |
 | Script Files (.rpy) | 158 | — |
 
 ### Chapter Breakdown
@@ -139,7 +139,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | :--- | :---: | :---: | :---: | :--- |
 | **Chapter 1: The Blue Sheep** | 12 | 404 | 8 316 | `33.9%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 944 | `15.2%` █░░░░░░░ |
-| **Chapter 3: Escapism** | 18 | 375 | 8 072 | `28.4%` ██░░░░░░ |
+| **Chapter 3: Escapism** | 18 | 372 | 8 028 | `28.7%` ██░░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 142 | 28 206 | `36.9%` ███░░░░░ |
 | **Chapter 5: An Offer You Can’t Refuse** | 37 | 948 | 15 033 | `38.9%` ███░░░░░ |
@@ -148,13 +148,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 310 | 8 149 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 933** | **122 906** | `33.6%` |
+| **TOTAL** | **158** | **5 930** | **122 862** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 215 | 14 625 | `35.4%` ███░░░░░ |
+| **Neon** | 1 215 | 14 636 | `35.5%` ███░░░░░ |
 | **Seraphina** | 166 | 3 258 | `7.9%` █░░░░░░░ |
 | **Argon** | 185 | 3 252 | `7.9%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.1%` ░░░░░░░░ |
@@ -173,7 +173,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Helium** | 1 | 1 | `0.0%` ░░░░░░░░ |
 
 <details>
-<summary><b>Additional and episodic characters (84)</b></summary>
+<summary><b>Additional and episodic characters (83)</b></summary>
 
 | Character | Lines | Words | Word Share |
 | :--- | :---: | :---: | :--- |
@@ -195,13 +195,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Amy** | 11 | 156 | `0.4%` ░░░░░░░░ |
 | **Alex's Mom** | 9 | 129 | `0.3%` ░░░░░░░░ |
 | **P.E. Teacher** | 14 | 123 | `0.3%` ░░░░░░░░ |
+| **Часовой** | 14 | 96 | `0.2%` ░░░░░░░░ |
 | **ABSU / FCS** | 6 | 92 | `0.2%` ░░░░░░░░ |
 | **Bartender** | 4 | 91 | `0.2%` ░░░░░░░░ |
 | **Dr. Grubenmann (CRO)** | 3 | 82 | `0.2%` ░░░░░░░░ |
 | **Old Man** | 9 | 82 | `0.2%` ░░░░░░░░ |
 | **Bandit 1** | 4 | 75 | `0.2%` ░░░░░░░░ |
 | **Headteacher** | 3 | 74 | `0.2%` ░░░░░░░░ |
-| **Часовой** | 12 | 74 | `0.2%` ░░░░░░░░ |
 | **Automaton** | 9 | 72 | `0.2%` ░░░░░░░░ |
 | **Bandit 2** | 3 | 72 | `0.2%` ░░░░░░░░ |
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
@@ -230,7 +230,6 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Guard** | 4 | 23 | `0.1%` ░░░░░░░░ |
 | **Worker 2** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **CEO's Voice** | 1 | 21 | `0.1%` ░░░░░░░░ |
-| **Bouncer** | 2 | 21 | `0.1%` ░░░░░░░░ |
 | **Medrobot** | 3 | 20 | `0.0%` ░░░░░░░░ |
 | **Student B** | 1 | 17 | `0.0%` ░░░░░░░░ |
 | **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
