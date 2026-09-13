@@ -6,7 +6,9 @@ init -1 python:
     # Базовые официальные языки игры
     BASE_LANGUAGE_LIST = [
         {
-            "name": "Русский 🇷🇺", 
+            "name": "Русский",
+            "native_name": "Русский",
+            "sub_name": "Russian (Оригинал)",
             "code": None, 
             "flag": "gui/flags/ru.png", 
             "font": "fonts/WDXLLubrifontTC-Regular.ttf",
@@ -14,7 +16,9 @@ init -1 python:
             "progress": 100
         },
         {
-            "name": "English 🇺🇸", 
+            "name": "English", 
+            "native_name": "English",
+            "sub_name": "English (US)",
             "code": "english_us", 
             "flag": "gui/flags/us.png",
             "font": "DejaVuSans.ttf",
@@ -27,6 +31,16 @@ init -1 python:
         None: 100,
         "english_us": 95,
     }
+
+    def select_game_language(code):
+        """Переключает язык игры, вызывает проверку достижений и обновляет экран."""
+        renpy.change_language(code)
+        if hasattr(store, "check_polyglot_on_lang_change"):
+            try:
+                check_polyglot_on_lang_change()
+            except Exception as e:
+                print(f"[LanguageSetup] Ошибка check_polyglot_on_lang_change: {e}")
+        renpy.restart_interaction()
 
     def get_active_languages():
         """Возвращает список доступных языков с учетом активных коммьюнити-переводов."""
