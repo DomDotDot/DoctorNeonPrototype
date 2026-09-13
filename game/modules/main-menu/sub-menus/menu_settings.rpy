@@ -27,7 +27,7 @@ screen settings_menu():
             use icon_button("🌐", _("Язык"), action=ShowMenu("language_selection_screen"), btn_style="modern_button")
             
             if not renpy.variant("web"):
-                use icon_button("📦", _("DLC Контент"), action=Function(renpy.call_in_new_context, "dlc_manager_main", is_in_game=not main_menu), btn_style="modern_button")
+                use icon_button("📦", _("DLC Контент"), action=Function(renpy.call_in_new_context, "dlc_manager_main", is_in_game=not main_menu), btn_style="modern_button", txt_color="#b87107")
             else:
                 use icon_button("📦", _("DLC Контент (Только ПК)"), action=None, btn_style="modern_button", txt_color="#888")
 
