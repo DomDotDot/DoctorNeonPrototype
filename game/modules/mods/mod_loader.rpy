@@ -119,12 +119,15 @@ init -995 python:
                 if code:
                     active_tls.append({
                         "name": tl_data.get("name", mod.get("name")),
+                        "native_name": tl_data.get("native_name", tl_data.get("name", mod.get("name"))),
+                        "sub_name": tl_data.get("sub_name", f"Мод: {mod.get('name')}"),
                         "code": code,
                         "flag": tl_data.get("flag") or mod.get("icon_rel_path") or "gui/flags/unknown.png",
                         "font": tl_data.get("font", "DejaVuSans.ttf"),
                         "progress": tl_data.get("progress", 100),
                         "official": False,
-                        "mod_id": mod.get("id")
+                        "mod_id": mod.get("id"),
+                        "author": mod.get("author", "")
                     })
         return active_tls
 
