@@ -55,6 +55,10 @@ screen main_menu():
     
     use main_menu_background 
 
+    # Модульные оверлеи модов (Mod API Hooks)
+    if renpy.has_screen("mod_main_menu_overlays"):
+        use mod_main_menu_overlays
+
     # Основной блок навигации
     vbox:
         style "main_menu_vbox"

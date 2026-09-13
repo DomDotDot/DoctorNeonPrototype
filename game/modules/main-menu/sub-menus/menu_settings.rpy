@@ -31,6 +31,14 @@ screen settings_menu():
             else:
                 use icon_button("📦", _("DLC Контент (Только ПК)"), action=None, btn_style="modern_button", txt_color="#888")
 
+            # Коммьюнити Контент (по умолчанию выключен)
+            if not renpy.variant("web"):
+                $ comm_status = _("") if persistent.community_content_enabled else _("")
+                $ comm_color = "#39ff14" if persistent.community_content_enabled else "#888888"
+                use icon_button("🧩", _("Коммьюнити Контент") + comm_status, action=ShowMenu("mod_manager_screen"), btn_style="modern_button", txt_color=comm_color)
+            else:
+                use icon_button("🧩", _("Коммьюнити Контент (Только ПК)"), action=None, btn_style="modern_button", txt_color="#888")
+
             use icon_button("💾", _("Управление данными"), action=ShowMenu("data_settings_screen"), btn_style="modern_button", txt_color="#a11919")
 
             null height 30
