@@ -133,6 +133,7 @@ init -995 python:
         Безопасно сканирует папку mods/ и собирает манифесты mod.json и settings.json.
         """
         global _discovered_mods, _discovered_translations
+        sanitize_mod_settings()
         _discovered_mods = []
         _discovered_translations = []
 
@@ -277,9 +278,42 @@ init -995 python:
         renpy.save_persistent()
         renpy.restart_interaction()
 
-    # ==========================================================================
-    # Настройки модов (Mod Settings API)
-    # ==========================================================================
+    import ast
+
+    def _unwrap_setting_value(val):
+        """Гарантирует, что значение является скаляром, а не словарем или его строковым представлением."""
+        if val is None:
+            return val
+        if isinstance(val, dict):
+            return val.get("value", val.get("label", str(val)))
+        if isinstance(val, str):
+            s = val.strip()
+            if s.startswith("{") and ("value" in s or "label" in s):
+                try:
+                    parsed = ast.literal_eval(s)
+                    if isinstance(parsed, dict):
+                        return parsed.get("value", parsed.get("label", s))
+                except:
+                    pass
+        return val
+
+    def sanitize_mod_settings():
+        """Очищает сохраненные настройки от устаревших структур-словарей."""
+        if not hasattr(persistent, "mod_settings") or not isinstance(persistent.mod_settings, dict):
+            return
+        changed = False
+        for mod_id, settings in persistent.mod_settings.items():
+            if isinstance(settings, dict):
+                for k, v in list(settings.items()):
+                    unwrapped = _unwrap_setting_value(v)
+                    if unwrapped != v:
+                        settings[k] = unwrapped
+                        changed = True
+        if changed:
+            try:
+                renpy.save_persistent()
+            except:
+                pass
 
     def get_mod_setting(mod_id, key, default=None):
         """
@@ -291,15 +325,16 @@ init -995 python:
         
         mod_vals = persistent.mod_settings.get(mod_id, {})
         if key in mod_vals:
-            return mod_vals[key]
+            return _unwrap_setting_value(mod_vals[key])
 
         # Ищем дефолт в схеме
         for m in _discovered_mods:
             if m["id"] == mod_id and m.get("settings_schema"):
                 for opt in m["settings_schema"].get("options", []):
                     if opt.get("id") == key:
-                        return opt.get("default", default)
-        return default
+                        val = opt.get("default", default)
+                        return _unwrap_setting_value(val)
+        return _unwrap_setting_value(default)
 
     def set_mod_setting(mod_id, key, value):
         """Сохраняет значение настройки мода."""
@@ -307,7 +342,7 @@ init -995 python:
             persistent.mod_settings = {}
         if mod_id not in persistent.mod_settings:
             persistent.mod_settings[mod_id] = {}
-        persistent.mod_settings[mod_id][key] = value
+        persistent.mod_settings[mod_id][key] = _unwrap_setting_value(value)
         renpy.save_persistent()
         renpy.restart_interaction()
 
@@ -331,6 +366,8 @@ init -995 python:
         if not choices:
             return
         cur = get_mod_setting(mod_id, key, None)
+        if isinstance(cur, dict):
+            cur = cur.get("value", cur.get("label", str(cur)))
         values = [c.get("value", c) if isinstance(c, dict) else c for c in choices]
         if cur in values:
             idx = (values.index(cur) + 1) % len(values)

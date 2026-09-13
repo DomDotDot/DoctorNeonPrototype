@@ -508,14 +508,20 @@ screen mod_settings_screen(mod):
 
                                         elif opt_type == "choice":
                                             $ choices_list = opt.get("choices", [])
-                                            $ display_label = cur_val
                                             python:
+                                                choice_val = cur_val.get("value", cur_val.get("label")) if isinstance(cur_val, dict) else cur_val
+                                                display_label = choice_val
                                                 for c in choices_list:
-                                                    if isinstance(c, dict) and c.get("value") == cur_val:
-                                                        display_label = c.get("label", cur_val)
+                                                    if isinstance(c, dict):
+                                                        if c.get("value") == choice_val:
+                                                            display_label = c.get("label", choice_val)
+                                                            break
+                                                    elif c == choice_val:
+                                                        display_label = c
                                                         break
+                                                safe_choice_text = str(display_label).replace("{", "{{").replace("}", "}}").replace("[", "[[").replace("]", "]]")
 
-                                            textbutton (str(display_label) + " 🔁"):
+                                            textbutton (safe_choice_text + " 🔁"):
                                                 action Function(cycle_choice_setting, mod["id"], opt_id, choices_list)
                                                 text_size 15
                                                 text_color "#00d4ff"
@@ -524,7 +530,8 @@ screen mod_settings_screen(mod):
                                                 padding (12, 6)
 
                                         elif opt_type == "input":
-                                            textbutton ("« " + str(cur_val) + " » ✏️"):
+                                            $ safe_input_val = str(cur_val).replace("{", "{{").replace("}", "}}").replace("[", "[[").replace("]", "]]")
+                                            textbutton ("« " + safe_input_val + " » ✏️"):
                                                 action Show("mod_text_input_modal", title=_("Изменить: ") + opt_name, current_val=str(cur_val), mod_id=mod["id"], opt_id=opt_id)
                                                 text_size 15
                                                 text_color "#39ff14"
