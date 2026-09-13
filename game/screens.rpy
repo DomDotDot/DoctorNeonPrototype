@@ -875,27 +875,107 @@ screen confirm(message, yes_action, no_action):
 
     zorder 200
 
-    style_prefix "confirm"
+    $ is_quit = is_quit_confirmation(message)
+    $ final_yes_action = StartExitBurn() if is_quit else yes_action
 
-    add "gui/overlay/confirm.png"
+    # Глубокое полупрозрачное затемнение заднего плана
+    add Solid("#020617d9")
 
+    # Внешняя рамка с кибер-свечением контура
     frame:
+        align (0.5, 0.5)
+        xsize 720
+        padding (2, 2)
+        background Solid("#00e5ff33")
 
-        vbox:
-            xalign .5
-            yalign .5
-            spacing 45
+        # Внутренняя панель из темного стекла
+        frame:
+            xfill True
+            padding (36, 26)
+            background Solid("#080f22f8")
 
-            label _(message):
-                style "confirm_prompt"
-                xalign 0.5
+            vbox:
+                spacing 20
+                xfill True
 
-            hbox:
-                xalign 0.5
-                spacing 150
+                # Декоративная неоновая акцентная линия сверху
+                frame:
+                    xfill True
+                    ysize 3
+                    background Solid("#00e5ff")
 
-                textbutton _("Да") action yes_action
-                textbutton _("Нет") action no_action
+                # Шапка диалога с иконкой
+                hbox:
+                    spacing 14
+                    xalign 0.5
+                    yalign 0.5
+
+                    if is_quit:
+                        text "⏻" size 28 bold True color "#00e5ff" yalign 0.5
+                        text _("ВЫХОД ИЗ ИГРЫ") size 24 bold True color "#ffffff" yalign 0.5
+                    else:
+                        text "⚠️" size 26 bold True color "#f59e0b" yalign 0.5
+                        text _("ПОДТВЕРЖДЕНИЕ") size 24 bold True color "#ffffff" yalign 0.5
+
+                # Разделитель
+                frame:
+                    xfill True
+                    ysize 1
+                    background Solid("#1e293b")
+
+                # Текст сообщения
+                vbox:
+                    spacing 8
+                    xalign 0.5
+
+                    text _(message):
+                        size 20
+                        color "#f1f5f9"
+                        text_align 0.5
+                        xalign 0.5
+                        bold True
+
+                    if is_quit:
+                        text _("Любой несохранённый игровой прогресс будет утерян."):
+                            size 14
+                            color "#94a3b8"
+                            text_align 0.5
+                            xalign 0.5
+
+                # Отступ перед кнопками
+                null height 4
+
+                # Кнопки действий
+                hbox:
+                    spacing 24
+                    xalign 0.5
+
+                    # Кнопка подтверждения
+                    button:
+                        style "confirm_cyber_yes_button"
+                        action final_yes_action
+
+                        hbox:
+                            spacing 10
+                            align (0.5, 0.5)
+
+                            if is_quit:
+                                text "⏻" size 18 bold True color "#00e5ff"
+                                text _("Да, выйти") size 17 bold True color "#ffffff"
+                            else:
+                                text "✓" size 18 bold True color "#4ade80"
+                                text _("Да") size 17 bold True color "#ffffff"
+
+                    # Кнопка отмены
+                    button:
+                        style "confirm_cyber_no_button"
+                        action no_action
+
+                        hbox:
+                            spacing 10
+                            align (0.5, 0.5)
+                            text "✕" size 16 bold True color "#94a3b8"
+                            text (_("Отмена") if is_quit else _("Нет")) size 17 bold True color "#cbd5e1"
 
     ## Правый клик и esc, как ответ "Нет".
     key "game_menu" action no_action
@@ -922,6 +1002,25 @@ style confirm_button:
 
 style confirm_button_text:
     properties gui.text_properties("confirm_button")
+
+style confirm_cyber_yes_button is button:
+    xsize 260
+    ysize 52
+    background Solid("#0f2b48cc")
+    hover_background Solid("#0284c7dd")
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
+    padding (16, 12)
+
+style confirm_cyber_no_button is button:
+    xsize 260
+    ysize 52
+    background Solid("#1e293b88")
+    hover_background Solid("#334155bb")
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
+    padding (16, 12)
+
 
 
 ## Экран индикатора пропуска ###################################################
