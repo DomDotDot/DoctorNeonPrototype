@@ -1,6 +1,9 @@
 init python:
     import datetime
     def play_main_menu_music():
+        if not getattr(persistent, "main_menu_music_enabled", True):
+            renpy.music.stop(channel="music", fadeout=0.5)
+            return
 
         music_map = {
             0: main_menu_music_default,

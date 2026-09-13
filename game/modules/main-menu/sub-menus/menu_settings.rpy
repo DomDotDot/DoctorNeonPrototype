@@ -165,6 +165,35 @@ init -1 python:
 
         renpy.restart_interaction()
 
+    def get_playing_track_info():
+        track = renpy.music.get_playing(channel="music")
+        if not track:
+            return None, None
+
+        clean = str(track)
+        if clean.startswith("<"):
+            idx = clean.find(">")
+            if idx != -1:
+                clean = clean[idx+1:]
+
+        import os
+        filename = os.path.basename(clean.replace("\\", "/"))
+        return filename, clean
+
+    def toggle_main_menu_music():
+        cur = getattr(persistent, "main_menu_music_enabled", True)
+        new_val = not cur
+        persistent.main_menu_music_enabled = new_val
+        renpy.save_persistent()
+
+        if getattr(store, "main_menu", False):
+            if not new_val:
+                renpy.music.stop(channel="music", fadeout=0.8)
+            else:
+                if hasattr(store, "play_main_menu_music"):
+                    store.play_main_menu_music()
+        renpy.restart_interaction()
+
 
 ################################################################################
 ## Экран настроек Текста и Графики (Cyber-Glassmorphism Redesign)
@@ -615,11 +644,15 @@ screen sound_settings_screen():
 
     use global_tooltip_display
 
+    timer 0.8 action NullAction() repeat True
+
     $ is_all_muted = bool(_preferences.get_mute("music") and _preferences.get_mute("sfx"))
     $ mus_vol = int(preferences.volumes["music"] * 100) if config.has_music else 0
     $ sfx_vol = int(preferences.volumes["sfx"] * 100) if config.has_sound else 0
     $ amb_vol = int(preferences.volumes.get("ambient", 1.0) * 100)
     $ voi_vol = int(preferences.volumes["voice"] * 100) if config.has_voice else 0
+    $ menu_music_on = getattr(persistent, "main_menu_music_enabled", True)
+    $ cur_track_filename, cur_track_path = get_playing_track_info()
 
     frame:
         style "modern_panel_wide"
@@ -706,7 +739,7 @@ screen sound_settings_screen():
 
                                 hbox:
                                     xalign 1.0
-                                    spacing 10
+                                    spacing 8
                                     button:
                                         style "settings_mini_btn"
                                         action Preference("music volume", 1.0)
@@ -717,7 +750,14 @@ screen sound_settings_screen():
                                         style "settings_mini_btn"
                                         action Play("music", sample_music)
                                         tooltip _("Воспроизвести образец музыки")
-                                        text _("▶ Тест музыки") style "settings_mini_btn_text"
+                                        text _("▶ Тест") style "settings_mini_btn_text"
+
+                                    if cur_track_filename:
+                                        button:
+                                            style "settings_mini_btn"
+                                            action Stop("music", fadeout=0.5)
+                                            tooltip _("Остановить воспроизведение музыки")
+                                            text _("⏹ Стоп") style "settings_mini_btn_text"
 
                     # Канал 2: SFX
                     if config.has_sound:
@@ -848,40 +888,162 @@ screen sound_settings_screen():
                                             tooltip _("Воспроизвести образец голоса")
                                             text _("▶ Тест голоса") style "settings_mini_btn_text"
 
-            # Общее отключение звука (Master Mute Card)
-            frame:
-                style "settings_card"
-                xfill True
-                padding (18, 12)
-                hbox:
-                    xfill True
-                    yalign 0.5
+            # Нижняя сетка дополнительных настроек аудио (2 колонки по 535px)
+            hbox:
+                spacing 20
+                xalign 0.5
 
-                    hbox:
-                        spacing 12
-                        yalign 0.5
-                        text ("🔇" if is_all_muted else "🔊") size 24 yalign 0.5
-                        vbox:
-                            text _("Мастер-переключатель звука (Mute All)") size 15 bold True color "#ffffff"
-                            text _("Мгновенно приглушает все каналы без сброса настроек громкости.") size 13 color "#888888"
+                # Карточка 5: Музыка главного меню и статус текущего трека (535px)
+                frame:
+                    style "settings_card"
+                    xsize 535
+                    vbox:
+                        spacing 8
+                        xfill True
 
-                    button:
-                        xalign 1.0
-                        yalign 0.5
-                        xsize 220
-                        ysize 40
-                        style "settings_chip_btn"
-                        selected is_all_muted
-                        action Preference("all mute", "toggle")
                         hbox:
-                            align (0.5, 0.5)
-                            spacing 8
-                            if is_all_muted:
-                                text "🔊" size 16 yalign 0.5
-                                text _("ВКЛЮЧИТЬ ЗВУК") size 13 bold True color "#39ff14" yalign 0.5
+                            xfill True
+                            yalign 0.5
+                            text _("МУЗЫКА ГЛАВНОГО МЕНЮ") size 15 bold True color "#00d4ff"
+                            if menu_music_on:
+                                text _("● Музыка включена") size 12 bold True color "#39ff14" yalign 0.5
                             else:
-                                text "🔇" size 16 yalign 0.5
-                                text _("БЕЗ ЗВУКА") size 13 bold True color "#ef4444" yalign 0.5
+                                text _("○ Музыка отключена") size 12 color "#ef4444" yalign 0.5
+
+                        # Тумблер: Музыка главного меню
+                        button:
+                            xfill True
+                            ysize 38
+                            style "settings_chip_btn"
+                            selected menu_music_on
+                            action Function(toggle_main_menu_music)
+                            tooltip _("Включает или отключает воспроизведение музыки на экранах главного меню.")
+                            hbox:
+                                xfill True
+                                yalign 0.5
+                                hbox:
+                                    spacing 8
+                                    yalign 0.5
+                                    text "🏛️" size 15 yalign 0.5
+                                    text _("Музыка в главном меню:"):
+                                        style "settings_chip_text"
+                                        size 13
+                                        color ("#39ff14" if menu_music_on else "#cbd5e1")
+                                frame:
+                                    xalign 1.0
+                                    yalign 0.5
+                                    background (Solid("#39ff14") if menu_music_on else Solid("#222230"))
+                                    padding (8, 3)
+                                    text (_("✓ ВКЛЮЧЕНА") if menu_music_on else _("✕ ОТКЛЮЧЕНА")):
+                                        size 11
+                                        bold True
+                                        color ("#000000" if menu_music_on else "#94a3b8")
+
+                        # Информационный блок «Сейчас играет (наименование файла)»
+                        frame:
+                            xfill True
+                            background Solid("#0d0d16")
+                            padding (10, 8)
+                            vbox:
+                                spacing 3
+                                hbox:
+                                    xfill True
+                                    yalign 0.5
+                                    text _("СЕЙЧАС ИГРАЕТ:") size 10 bold True color "#64748b" yalign 0.5
+                                    if cur_track_filename:
+                                        text _("МУЗЫКАЛЬНЫЙ КАНАЛ") size 10 bold True color "#00d4ff" yalign 0.5
+                                    else:
+                                        text _("ТИШИНА") size 10 bold True color "#64748b" yalign 0.5
+
+                                hbox:
+                                    spacing 6
+                                    yalign 0.5
+                                    text ("🎶" if cur_track_filename else "⏹️") size 13 yalign 0.5
+                                    if cur_track_filename:
+                                        text cur_track_filename:
+                                            size 12
+                                            bold True
+                                            color "#38bdf8"
+                                            yalign 0.5
+                                    else:
+                                        text _("Фоновая музыка не воспроизводится"):
+                                            size 12
+                                            color "#64748b"
+                                            yalign 0.5
+
+                                if cur_track_path:
+                                    text cur_track_path size 10 color "#475569"
+
+                # Карточка 6: Мастер-переключатель звука и сброс каналов (535px)
+                frame:
+                    style "settings_card"
+                    xsize 535
+                    vbox:
+                        spacing 8
+                        xfill True
+
+                        hbox:
+                            xfill True
+                            yalign 0.5
+                            text _("ОБЩИЙ РЕЖИМ АУДИО") size 15 bold True color "#00d4ff"
+                            if is_all_muted:
+                                text _("● Без звука") size 12 bold True color "#ef4444" yalign 0.5
+                            else:
+                                text _("● Звук активен") size 12 bold True color "#39ff14" yalign 0.5
+
+                        # Мастер-тумблер
+                        button:
+                            xfill True
+                            ysize 38
+                            style "settings_chip_btn"
+                            selected is_all_muted
+                            action Preference("all mute", "toggle")
+                            tooltip _("Мгновенно приглушает все аудиоканалы без сброса настроек громкости.")
+                            hbox:
+                                xfill True
+                                yalign 0.5
+                                hbox:
+                                    spacing 8
+                                    yalign 0.5
+                                    text ("🔇" if is_all_muted else "🔊") size 15 yalign 0.5
+                                    text _("Мастер-звук (Mute All):"):
+                                        style "settings_chip_text"
+                                        size 13
+                                        color ("#ef4444" if is_all_muted else "#cbd5e1")
+                                frame:
+                                    xalign 1.0
+                                    yalign 0.5
+                                    background (Solid("#ef4444") if is_all_muted else Solid("#16a34a"))
+                                    padding (8, 3)
+                                    text (_("🔇 БЕЗ ЗВУКА") if is_all_muted else _("🔊 ВКЛЮЧЕН")):
+                                        size 11
+                                        bold True
+                                        color "#ffffff"
+
+                        # Кнопка сброса всех каналов микшера
+                        button:
+                            xfill True
+                            ysize 38
+                            style "settings_mini_btn"
+                            action [
+                                Preference("music volume", 1.0),
+                                Preference("sound volume", 1.0),
+                                Preference("ambient volume", 1.0),
+                                Preference("voice volume", 1.0)
+                            ]
+                            tooltip _("Сбросить все каналы микшера на 100% громкости")
+                            hbox:
+                                align (0.5, 0.5)
+                                spacing 8
+                                text "↺" style "settings_mini_btn_text" size 14 yalign 0.5
+                                text _("Сбросить все каналы микшера на 100%") style "settings_mini_btn_text" size 12 yalign 0.5
+
+                        # Дополнительная информационная строка
+                        hbox:
+                            xfill True
+                            yalign 0.5
+                            text _("Статус аудиоподсистемы:") size 10 color "#64748b"
+                            text _("OK • 4 канала") size 10 bold True color "#39ff14" xalign 1.0
 
             null height 6
 
