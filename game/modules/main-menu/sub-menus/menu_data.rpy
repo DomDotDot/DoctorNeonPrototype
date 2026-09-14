@@ -39,6 +39,7 @@ init python:
         persistent.prestory_seraphina_unlocked = False
 
         persistent.cutcene_vol_1_end_unlocked = False
+        persistent.first_game_warning_seen = False
         
         # Сброс галереи
         if hasattr(persistent, "_seen_images"):

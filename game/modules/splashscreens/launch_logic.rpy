@@ -14,6 +14,7 @@ image game_title_logo = "gui/main_menu/logo3.png"
 default persistent.firstlaunch = True
 default persistent.last_run_version = None 
 default persistent.seen_splash = False
+default persistent.first_game_warning_seen = False
 
 
 # ------------------------------------------------------------------------------
@@ -153,4 +154,32 @@ label _intro_splash_sequence:
     show game_title_logo at splash_logo_fixed_top
 
     $ persistent.seen_splash = True
+    return
+
+
+# ------------------------------------------------------------------------------
+# 5. Последовательность предупреждений при первом запуске Новой Игры
+# ------------------------------------------------------------------------------
+label new_game_warning_flow:
+    $ _warning_step = 1
+    while _warning_step <= 2:
+        if _warning_step == 1:
+            call screen content_warning_screen with dissolve
+            $ _res = _return
+            if _res == "cancel":
+                $ MainMenu(confirm=False)()
+            else:
+                $ _warning_step = 2
+        elif _warning_step == 2:
+            call screen content_warning with dissolve
+            $ _res = _return
+            if _res == "back":
+                $ _warning_step = 1
+            else:
+                $ _warning_step = 3
+
+    $ persistent.first_game_warning_seen = True
+    $ renpy.save_persistent()
+    if renpy.has_screen("content_warning") and hasattr(store, "save_ai_disclaimer_notification"):
+        $ save_ai_disclaimer_notification()
     return
