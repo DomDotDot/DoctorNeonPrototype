@@ -876,7 +876,8 @@ screen confirm(message, yes_action, no_action):
     zorder 200
 
     $ is_quit = is_quit_confirmation(message)
-    $ final_yes_action = StartExitBurn() if is_quit else yes_action
+    $ is_main_menu = is_main_menu_confirmation(message)
+    $ final_yes_action = StartExitBurn() if is_quit else (StartSakuraMainMenuTransition() if is_main_menu else yes_action)
 
     # Глубокое полупрозрачное затемнение заднего плана
     add Solid("#020617d9")
@@ -902,7 +903,7 @@ screen confirm(message, yes_action, no_action):
                 frame:
                     xfill True
                     ysize 3
-                    background Solid("#00e5ff")
+                    background (Solid("#f472b6") if is_main_menu else Solid("#00e5ff"))
 
                 # Шапка диалога с иконкой
                 hbox:
@@ -913,6 +914,9 @@ screen confirm(message, yes_action, no_action):
                     if is_quit:
                         text "⏻" size 28 bold True color "#00e5ff" yalign 0.5
                         text _("ВЫХОД ИЗ ИГРЫ") size 24 bold True color "#ffffff" yalign 0.5
+                    elif is_main_menu:
+                        text "🌸" size 28 bold True color "#f472b6" yalign 0.5
+                        text _("ГЛАВНОЕ МЕНЮ") size 24 bold True color "#ffffff" yalign 0.5
                     else:
                         text "⚠️" size 26 bold True color "#f59e0b" yalign 0.5
                         text _("ПОДТВЕРЖДЕНИЕ") size 24 bold True color "#ffffff" yalign 0.5
@@ -935,7 +939,7 @@ screen confirm(message, yes_action, no_action):
                         xalign 0.5
                         bold True
 
-                    if is_quit:
+                    if is_quit or is_main_menu:
                         text _("Любой несохранённый игровой прогресс будет утерян."):
                             size 14
                             color "#94a3b8"
@@ -962,6 +966,9 @@ screen confirm(message, yes_action, no_action):
                             if is_quit:
                                 text "⏻" size 18 bold True color "#00e5ff"
                                 text _("Да, выйти") size 17 bold True color "#ffffff"
+                            elif is_main_menu:
+                                text "🌸" size 18 bold True color "#f472b6"
+                                text _("Да, в меню") size 17 bold True color "#ffffff"
                             else:
                                 text "✓" size 18 bold True color "#4ade80"
                                 text _("Да") size 17 bold True color "#ffffff"

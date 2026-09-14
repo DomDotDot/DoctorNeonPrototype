@@ -58,6 +58,11 @@ screen main_menu():
     
     use main_menu_background 
 
+    # Анимация раскрытия главного меню через улетающий вихрь сакуры
+    if getattr(persistent, "_sakura_wipe_active", False):
+        $ persistent._sakura_wipe_active = False
+        use sakura_wipe_out_screen
+
     # Модульные оверлеи модов (Mod API Hooks)
     if renpy.has_screen("mod_main_menu_overlays"):
         use mod_main_menu_overlays
