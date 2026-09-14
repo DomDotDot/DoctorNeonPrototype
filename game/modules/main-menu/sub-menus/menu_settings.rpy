@@ -1561,61 +1561,61 @@ screen settings_tab_data():
                         text _("Сбросить") style "danger_button_text" size 15
                         action Confirm(_("Обнулить все открытые достижения?"), yes=Function(reset_all_achievements))
 
-            null height 4
-
             # --- СЕКЦИЯ: РАЗБЛОКИРОВКА КОНТЕНТА (ЧИТЫ / ТЕСТЫ) ---
-            label _("Разблокировка контента (Чит-коды / Тестирование)") text_size 16 text_color "#22c55e" xoffset 5
+            if config.developer or getattr(persistent, "cheats_unlocked", False):
+                null height 4
+                label _("Разблокировка контента (Чит-коды / Тестирование)") text_size 16 text_color "#22c55e" xoffset 5
 
-            # Unlock All
-            frame:
-                style "danger_zone_frame_green"
-                hbox:
-                    yalign 0.5
-                    xfill True
-
-                    vbox:
+                # Unlock All
+                frame:
+                    style "danger_zone_frame_green"
+                    hbox:
                         yalign 0.5
-                        text _("Разблокировать сюжетный контент") style "danger_title_text" size 16 color "#aaffaa"
-                        text _("Открывает все главы, музыку, воспоминания и фоны меню.") style "danger_desc_text" size 12
+                        xfill True
 
-                    button:
-                        style "safe_button"
-                        text _("Открыть всё") style "danger_button_text" size 15
-                        action Confirm(_("Открыть весь сюжетный контент и главы?"), yes=Function(unlock_everything))
+                        vbox:
+                            yalign 0.5
+                            text _("Разблокировать сюжетный контент") style "danger_title_text" size 16 color "#aaffaa"
+                            text _("Открывает все главы, музыку, воспоминания и фоны меню.") style "danger_desc_text" size 12
 
-            # Unlock Characters
-            frame:
-                style "danger_zone_frame_green"
-                hbox:
-                    yalign 0.5
-                    xfill True
+                        button:
+                            style "safe_button"
+                            text _("Открыть всё") style "danger_button_text" size 15
+                            action Confirm(_("Открыть весь сюжетный контент и главы?"), yes=Function(unlock_everything))
 
-                    vbox:
+                # Unlock Characters
+                frame:
+                    style "danger_zone_frame_green"
+                    hbox:
                         yalign 0.5
-                        text _("Разблокировать всех персонажей") style "danger_title_text" size 16 color "#aaffaa"
-                        text _("Открывает полные досье всех персонажей в Глоссарии.") style "danger_desc_text" size 12
+                        xfill True
 
-                    button:
-                        style "safe_button"
-                        text _("Открыть всех") style "danger_button_text" size 15
-                        action Confirm(_("Открыть всех персонажей в Глоссарии?"), yes=Function(unlock_all_chars_full))
+                        vbox:
+                            yalign 0.5
+                            text _("Разблокировать всех персонажей") style "danger_title_text" size 16 color "#aaffaa"
+                            text _("Открывает полные досье всех персонажей в Глоссарии.") style "danger_desc_text" size 12
 
-            # Unlock Achievements
-            frame:
-                style "danger_zone_frame_green"
-                hbox:
-                    yalign 0.5
-                    xfill True
+                        button:
+                            style "safe_button"
+                            text _("Открыть всех") style "danger_button_text" size 15
+                            action Confirm(_("Открыть всех персонажей в Глоссарии?"), yes=Function(unlock_all_chars_full))
 
-                    vbox:
+                # Unlock Achievements
+                frame:
+                    style "danger_zone_frame_green"
+                    hbox:
                         yalign 0.5
-                        text _("Разблокировать все достижения") style "danger_title_text" size 16 color "#aaffaa"
-                        text _("Мгновенно выдает все достижения новеллы.") style "danger_desc_text" size 12
+                        xfill True
 
-                    button:
-                        style "safe_button"
-                        text _("Открыть все ачивки") style "danger_button_text" size 15
-                        action Confirm(_("Разблокировать все достижения?"), yes=Function(unlock_all_achievements))
+                        vbox:
+                            yalign 0.5
+                            text _("Разблокировать все достижения") style "danger_title_text" size 16 color "#aaffaa"
+                            text _("Мгновенно выдает все достижения новеллы.") style "danger_desc_text" size 12
+
+                        button:
+                            style "safe_button"
+                            text _("Открыть все ачивки") style "danger_button_text" size 15
+                            action Confirm(_("Разблокировать все достижения?"), yes=Function(unlock_all_achievements))
 
 
 ################################################################################

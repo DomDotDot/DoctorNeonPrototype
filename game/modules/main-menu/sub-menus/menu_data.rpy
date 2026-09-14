@@ -296,7 +296,7 @@ screen data_settings_screen():
                     null height 20
 
                     # --- СЕКЦИЯ: ЧИТЫ / ТЕСТЫ ---
-                    if config.developer:
+                    if config.developer or getattr(persistent, "cheats_unlocked", False):
                         label _("Разработка") text_size 24 text_color "#2ea043" xoffset 5
 
                         # Карточка: Unlock All

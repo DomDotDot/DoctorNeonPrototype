@@ -40,6 +40,8 @@ init -2 python:
             persistent.hide_achievement_notifications = True
         if getattr(persistent, "ai_mode_full_run_valid", None) is None:
             persistent.ai_mode_full_run_valid = False
+        if getattr(persistent, "cheats_unlocked", None) is None:
+            persistent.cheats_unlocked = False
         _persistent_initialized = True
 
     _safe_init_achievements_persistent()
