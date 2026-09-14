@@ -88,7 +88,7 @@ screen main_menu():
                     style "main_menu_button"
                     xsize 75
                     ysize 75
-                    xpos 465
+                    xpos 500
                     yalign 0.5
                     action ShowMenu("mod_manager_screen")
                     tooltip _("Менеджер модов")

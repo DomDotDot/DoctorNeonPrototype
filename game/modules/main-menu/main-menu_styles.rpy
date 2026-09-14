@@ -176,6 +176,41 @@ style settings_mini_btn_text is text:
     hover_color "#00e5ff"
     align (0.5, 0.5)
 
+style settings_tab_btn is button:
+    background Solid("#121726cc")
+    hover_background Solid("#1e293bcc")
+    selected_idle_background Solid("#0284c7")
+    selected_hover_background Solid("#0369a1")
+    xsize 200
+    ysize 42
+    padding (10, 6)
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
+
+style settings_tab_text is text:
+    size 14
+    bold True
+    color "#94a3b8"
+    hover_color "#ffffff"
+    selected_color "#ffffff"
+    align (0.5, 0.5)
+
+style settings_tab_nav_arrow is button:
+    background Solid("#0f172a99")
+    hover_background Solid("#1e293bcc")
+    xsize 48
+    ysize 42
+    padding (6, 6)
+    hover_sound "audio/sfx/cursor-hover.opus"
+    activate_sound "audio/sfx/button-click.opus"
+
+style settings_tab_nav_arrow_text is text:
+    size 14
+    bold True
+    color "#38bdf8"
+    hover_color "#ffffff"
+    align (0.5, 0.5)
+
 #
 # Chapter Buttons
 #
