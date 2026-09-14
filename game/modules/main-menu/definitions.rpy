@@ -14,6 +14,7 @@ default persistent.sensitive_mode = False
 default persistent.ai_sensitive_mode = False
 default persistent.font_size_large = False
 default persistent.main_menu_music_enabled = True
+default persistent.disable_gpu_animations = False
 
   
 
