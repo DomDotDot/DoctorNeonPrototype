@@ -1,4 +1,7 @@
 label start:
+    # Проверка первого запуска: предупреждение о контенте 18+ и использовании ИИ
+    if not getattr(persistent, "first_game_warning_seen", False):
+        call new_game_warning_flow from _call_new_game_warning_flow
 
         stop music fadeout 1.0
         stop sound fadeout 1.0

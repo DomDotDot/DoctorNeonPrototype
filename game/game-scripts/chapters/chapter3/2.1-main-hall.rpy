@@ -22,7 +22,7 @@ label ch3_hall_explore:
             """
             $ hall_examined = True
             jump ch3_hall_explore
-            
+        
         "Осмотреть стойку регистрации." (id="chk_keycard_opt") if hall_examined and not has_keycard:
             narrator """
             Я бесшумно приблизилась к разбитой конторке диспетчера.
@@ -51,7 +51,7 @@ label ch3_hall_explore:
             $ inspected_keycard_barcode = True
             $ found_code_clue = True
             jump ch3_hall_explore
-            
+        
         "Поговорить с верзилой у ворот.":
             jump ch3_bouncer_talk_menu
 
@@ -60,7 +60,7 @@ label ch3_hall_explore:
 
         "Подойти к решетке в центре." if hall_examined:
             jump ch3_gate_menu
-            
+        
         "Подойти к забаррикадированной двери." if hall_examined:
             jump ch3_cabinet_door
 

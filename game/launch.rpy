@@ -63,11 +63,8 @@ label splashscreen:
                     call screen language_selection_screen
                 $ persistent.firstlaunch = False
 
-            # Предупреждение о контенте (показываем при каждом обновлении версии или первом запуске)
-            call screen content_warning_screen with dissolve
-            call screen content_warning with dissolve
-            
-            #TODO Настройки доступности (размер текста и т.д)
+            # Предупреждения о контенте и ИИ перенесены на первое нажатие «Новая игра»
+            # TODO: Настройки доступности (размер текста и т.д)
             # call screen accessibility_settings 
         else:
             # Если запущено из лаунчера, пропускаем экраны, но сбрасываем флаг,
