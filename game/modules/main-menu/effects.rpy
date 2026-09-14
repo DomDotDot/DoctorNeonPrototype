@@ -61,6 +61,10 @@ init -1 python:
             self.last_time = None
 
         def __call__(self, trans, st, at):
+            if getattr(persistent, "disable_gpu_animations", False):
+                trans.u_parallax = (0.0, 0.0)
+                return 0.1
+
             raw_x, raw_y = renpy.get_mouse_pos()
             sw = float(config.screen_width)
             sh = float(config.screen_height)
@@ -110,6 +114,11 @@ init -1 python:
             self.last_time = None
 
         def __call__(self, trans, st, at):
+            if getattr(persistent, "disable_gpu_animations", False):
+                trans.xoffset = 0.0
+                trans.yoffset = 0.0
+                return 0.1
+
             raw_x, raw_y = renpy.get_mouse_pos()
             sw = float(config.screen_width)
             sh = float(config.screen_height)

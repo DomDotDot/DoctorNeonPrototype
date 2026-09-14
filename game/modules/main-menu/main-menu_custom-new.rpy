@@ -26,18 +26,22 @@ screen main_menu_background():
     on "replace" action [Function(play_main_menu_music), Function(check_midnight_shift)]
 
     # Фон с параллаксом
-    add "main_menu_bg_dynamic":
-        at mouse_parallax(30)
+    if persistent.disable_gpu_animations:
+        add "main_menu_bg_dynamic"
+    else:
+        add "main_menu_bg_dynamic":
+            at mouse_parallax(30)
 
     # Динамическая анимация сакуры (схема волны и лепестков по аналогии с chapter-title.rpy)
-    if persistent.main_menu_level == 3:
-        use sakura_menu_breeze
-    elif persistent.main_menu_level == 4:
-        use sakura_menu_storm
+    if not persistent.disable_gpu_animations:
+        if persistent.main_menu_level == 3:
+            use sakura_menu_breeze
+        elif persistent.main_menu_level == 4:
+            use sakura_menu_storm
 
-    # Частицы (для зимнего сезона на других фонах)
-    if datetime.datetime.now().month in (12, 1, 2) and persistent.main_menu_level not in (3, 4):
-        add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10) id "main_menu_effect"
+        # Частицы (для зимнего сезона на других фонах)
+        if datetime.datetime.now().month in (12, 1, 2) and persistent.main_menu_level not in (3, 4):
+            add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10) id "main_menu_effect"
 
     # Виньетка
     add "gui/main_menu/vignette.png" alpha 0.4
@@ -72,7 +76,23 @@ screen main_menu():
         style "main_menu_vbox"
 
         use icon_button("▶️", _("Играть"), action=ShowMenu("play_menu"), btn_style="main_menu_button")
-        use icon_button("⚙️", _("Настройки"), action=ShowMenu("settings_menu"), btn_style="main_menu_button")
+        fixed:
+            xsize 450
+            ysize 75
+            xalign 0.5
+
+            use icon_button("⚙️", _("Настройки"), action=ShowMenu("settings_menu"), btn_style="main_menu_button")
+
+            if getattr(persistent, "community_content_enabled", False):
+                button:
+                    style "main_menu_button"
+                    xsize 75
+                    ysize 75
+                    xpos 465
+                    yalign 0.5
+                    action ShowMenu("mod_manager_screen")
+                    tooltip _("Менеджер модов")
+                    text "🧩" size 30 align (0.5, 0.5)
         
         if renpy.has_screen("memory_recollection"):
             use icon_button("💡", _("Воспоминания"), action=ShowMenu("memory_recollection"), btn_style="main_menu_button")

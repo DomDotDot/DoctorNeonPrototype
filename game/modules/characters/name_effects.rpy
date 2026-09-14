@@ -132,6 +132,9 @@ init python:
         Кеширует экземпляр, чтобы при обновлении экрана ({w}, и т.д.)
         возвращался тот же объект без мерцаний.
         """
+        if getattr(persistent, "disable_gpu_animations", False):
+            return None
+
         speaker = store.active_speaker
         cache_key = (speaker, who_text)
 

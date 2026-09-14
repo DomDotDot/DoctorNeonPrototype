@@ -125,6 +125,10 @@ init -1 python:
             # 1. Закрываем окно подтверждения
             renpy.hide_screen("confirm")
 
+            if getattr(persistent, "disable_gpu_animations", False):
+                renpy.quit()
+                return
+
             # 2. Плавно затухаем музыку
             try:
                 renpy.music.stop(channel="music", fadeout=1.5)
