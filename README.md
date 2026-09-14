@@ -8,8 +8,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-122.9k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20930-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-121.6k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20889-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **122 862** | `100%` |
-| **Total Script Lines** | **5 930** | `100%` |
-| Narration / Description | 81 576 words / 3 094 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 286 words / 2 836 lines | `33.6%` ███░░░░░░░ |
+| **Total Words** | **121 635** | `100%` |
+| **Total Script Lines** | **5 889** | `100%` |
+| Narration / Description | 80 497 words / 3 074 lines | `66.2%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 138 words / 2 815 lines | `33.8%` ███░░░░░░░ |
 | Unique Speakers | 100 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -139,7 +139,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | :--- | :---: | :---: | :---: | :--- |
 | **Chapter 1: The Blue Sheep** | 12 | 404 | 8 316 | `33.9%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 944 | `15.2%` █░░░░░░░ |
-| **Chapter 3: Escapism** | 18 | 372 | 8 028 | `28.7%` ██░░░░░░ |
+| **Chapter 3: Escapism** | 18 | 331 | 6 801 | `31.7%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 142 | 28 206 | `36.9%` ███░░░░░ |
 | **Chapter 5: An Offer You Can’t Refuse** | 37 | 948 | 15 033 | `38.9%` ███░░░░░ |
@@ -148,15 +148,15 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 310 | 8 149 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 930** | **122 862** | `33.6%` |
+| **TOTAL** | **158** | **5 889** | **121 635** | `33.8%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 215 | 14 636 | `35.5%` ███░░░░░ |
+| **Neon** | 1 203 | 14 560 | `35.4%` ███░░░░░ |
 | **Seraphina** | 166 | 3 258 | `7.9%` █░░░░░░░ |
-| **Argon** | 185 | 3 252 | `7.9%` █░░░░░░░ |
+| **Argon** | 177 | 3 186 | `7.7%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.1%` ░░░░░░░░ |
 | **Lily** | 141 | 2 117 | `5.1%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
@@ -190,7 +190,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Student 1 (Amy)** | 7 | 199 | `0.5%` ░░░░░░░░ |
 | **Carol** | 15 | 186 | `0.5%` ░░░░░░░░ |
 | **Oda** | 9 | 165 | `0.4%` ░░░░░░░░ |
-| **Boss** | 8 | 162 | `0.4%` ░░░░░░░░ |
+| **Boss** | 7 | 162 | `0.4%` ░░░░░░░░ |
 | **Mr. Baumann (CEO)** | 10 | 158 | `0.4%` ░░░░░░░░ |
 | **Amy** | 11 | 156 | `0.4%` ░░░░░░░░ |
 | **Alex's Mom** | 9 | 129 | `0.3%` ░░░░░░░░ |
@@ -213,15 +213,15 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Concierge** | 5 | 58 | `0.1%` ░░░░░░░░ |
 | **Worker 1** | 2 | 47 | `0.1%` ░░░░░░░░ |
 | **Academy Director** | 2 | 43 | `0.1%` ░░░░░░░░ |
-| **Rico** | 6 | 41 | `0.1%` ░░░░░░░░ |
+| **Rico** | 6 | 38 | `0.1%` ░░░░░░░░ |
 | **Woman** | 5 | 36 | `0.1%` ░░░░░░░░ |
 | **Ishikawa-sensei** | 2 | 36 | `0.1%` ░░░░░░░░ |
-| **Security Captain** | 3 | 31 | `0.1%` ░░░░░░░░ |
 | **Fan 1** | 4 | 30 | `0.1%` ░░░░░░░░ |
 | **Student A** | 2 | 30 | `0.1%` ░░░░░░░░ |
 | **Girl (Neon)** | 5 | 29 | `0.1%` ░░░░░░░░ |
 | **Fan 2** | 3 | 29 | `0.1%` ░░░░░░░░ |
 | **Fan 3** | 3 | 29 | `0.1%` ░░░░░░░░ |
+| **Security Captain** | 3 | 25 | `0.1%` ░░░░░░░░ |
 | **Consultant** | 2 | 24 | `0.1%` ░░░░░░░░ |
 | **Student C** | 1 | 24 | `0.1%` ░░░░░░░░ |
 | **Concierge (Female)** | 3 | 24 | `0.1%` ░░░░░░░░ |
@@ -248,13 +248,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Shareholder 1** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Fan 5** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Парень** | 1 | 8 | `0.0%` ░░░░░░░░ |
+| **Security Commander** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Boy** | 2 | 7 | `0.0%` ░░░░░░░░ |
 | **Bully 2** | 1 | 7 | `0.0%` ░░░░░░░░ |
 | **Bully 1** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Passerby** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Bodyguard** | 2 | 5 | `0.0%` ░░░░░░░░ |
-| **Security Commander** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Students** | 1 | 4 | `0.0%` ░░░░░░░░ |
 | **Clara** | 3 | 4 | `0.0%` ░░░░░░░░ |
 | **Desk Neighbor** | 1 | 3 | `0.0%` ░░░░░░░░ |
