@@ -31,6 +31,10 @@ init python:
             renpy.hide_screen("confirm")
             renpy.hide_screen("pause_menu")
             
+            if getattr(persistent, "disable_gpu_animations", False):
+                renpy.full_restart(transition=dissolve, save=False)
+                return
+
             persistent._sakura_wipe_active = True
             
             renpy.show_screen("sakura_wipe_in_screen")
