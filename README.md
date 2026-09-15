@@ -9,7 +9,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-121.6k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20889-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20890-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,9 +126,9 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **121 635** | `100%` |
-| **Total Script Lines** | **5 889** | `100%` |
-| Narration / Description | 80 497 words / 3 074 lines | `66.2%` ███████░░░ |
+| **Total Words** | **121 634** | `100%` |
+| **Total Script Lines** | **5 890** | `100%` |
+| Narration / Description | 80 496 words / 3 075 lines | `66.2%` ███████░░░ |
 | Spoken Dialogue (Characters) | 41 138 words / 2 815 lines | `33.8%` ███░░░░░░░ |
 | Unique Speakers | 100 | — |
 | Script Files (.rpy) | 158 | — |
@@ -147,8 +147,8 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 310 | 8 149 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 889** | **121 635** | `33.8%` |
+| **Flashbacks & Memory Fragments** | 13 | 311 | 8 148 | `25.7%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 890** | **121 634** | `33.8%` |
 
 ### Character Dialogue Distribution
 
