@@ -146,15 +146,28 @@ screen main_menu_background():
         add "main_menu_bg_dynamic":
             at mouse_parallax(30)
 
-    # Динамическая анимация сакуры (схема волны и лепестков по аналогии с chapter-title.rpy)
+        # Мерцание голубого свечения у корней и глади воды (background-1)
+        if getattr(persistent, "main_menu_level", 0) <= 0:
+            add "gui/main_menu/bg1_blue_glow.png":
+                at mouse_parallax(30), bg1_blue_glow_pulse
+
+    # Динамическая анимация сакуры и атмосферные эффекты
     if not persistent.disable_gpu_animations:
+        # Динамический солнечный блик (Solar Flare) для фонов 2-5 (уровни 1-4)
+        if getattr(persistent, "main_menu_level", 0) in (1, 2, 3, 4):
+            use main_menu_solar_flare
+
         if persistent.main_menu_level == 3:
             use sakura_menu_breeze
         elif persistent.main_menu_level == 4:
             use sakura_menu_storm
 
+        # Тлеющие искры и пепел для горящего замка (фон 7, уровень 6)
+        if persistent.main_menu_level == 6:
+            add "fire_embers_particles"
+
         # Частицы (для зимнего сезона на других фонах)
-        if datetime.datetime.now().month in (12, 1, 2) and persistent.main_menu_level not in (3, 4):
+        if datetime.datetime.now().month in (12, 1, 2) and persistent.main_menu_level not in (3, 4, 6):
             add SnowBlossom("gui/particle.png", count=120, border=50, xspeed=(20, 50), yspeed=(20, 50), start=10) id "main_menu_effect"
 
     # Виньетка
