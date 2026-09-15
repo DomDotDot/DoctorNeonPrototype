@@ -284,21 +284,21 @@ init 1 python:
     ))
 
     register_achievement(Achievement(
-        id="detective_intuition",
-        name=_("Хан стрелял первым"),
-        description=_("Сделайте сюжетный выбор менее чем за 1.5 секунды после появления меню выборов."),
-        icon="images/achievements/fastdecision.png",
-        ach_type=ACH_TYPE_HIDDEN,
-        hidden_desc=_("Скрытое достижение. В неоновых переулках секунда промедления стоит жизни. Доверьтесь рефлексам.)
-    ))
-
-    register_achievement(Achievement(
         id="polyglot",
         name=_("Вавилонская рыбка"),
         description=_("Смените язык игры прямо во время прохождения истории."),
         icon="images/achievements/radon.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Чтобы понимать чужую речь, Артур Дент использовал маленькую рыбку. А вам достаточно заглянуть в системные настройки прямо посреди диалога.")
+    ))
+
+    register_achievement(Achievement(
+        id="detective_intuition",
+        name=_("Хан стрелял первым"),
+        description=_("Сделайте сюжетный выбор менее чем за 1.5 секунды после появления меню выборов."),
+        icon="images/achievements/fastdecision.png",
+        ach_type=ACH_TYPE_HIDDEN,
+        hidden_desc=_("Скрытое достижение. В неоновых переулках секунда промедления стоит жизни. Доверьтесь рефлексам.")
     ))
 
     register_achievement(Achievement(
