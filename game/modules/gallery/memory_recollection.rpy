@@ -24,10 +24,9 @@ screen memory_recollection():
                     action ShowMenu("flashback_gallery")
                     style "modern_button"
 
-                if renpy.has_screen("achievements_screen"):
-                    textbutton _("Достижения"):
-                        action ShowMenu("achievements_screen")
-                        style "modern_button"
+                #textbutton _("Персонажи"):
+                    #action ShowMenu("bio_menu")
+                    #style "modern_button"
 
             null height 30
             textbutton _("Назад") action (ShowMenu("main_menu") if main_menu else Return()) style "modern_back_button"

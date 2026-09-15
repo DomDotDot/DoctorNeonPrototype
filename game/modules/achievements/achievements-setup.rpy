@@ -359,14 +359,14 @@ init 1 python:
         max_progress=13
     ))
 
-    register_achievement(Achievement(
-        id="deep_analysis",
-        name=_("Глубокий Анализ"),
-        description=_("Изучите досье 10 персонажей в Глоссарии."),
-        icon=None,
-        ach_type=ACH_TYPE_TRACKING,
-        max_progress=10
-    ))
+    #register_achievement(Achievement(
+        #id="deep_analysis",
+        #name=_("Глубокий Анализ"),
+        #description=_("Изучите досье 10 персонажей в Глоссарии."),
+        #icon=None,
+        #ach_type=ACH_TYPE_TRACKING,
+        #max_progress=10
+    #))
 
     register_achievement(Achievement(
         id="nostalgia",

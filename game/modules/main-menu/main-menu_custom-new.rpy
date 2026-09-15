@@ -210,11 +210,25 @@ screen main_menu():
                     action ShowMenu("mod_manager_screen")
                     tooltip _("Менеджер модов")
                     text "🧩" size 30 align (0.5, 0.5)
+
+        fixed:
+            xsize 450
+            ysize 75
+            xalign 0.5
         
-        if renpy.has_screen("memory_recollection"):
-            use icon_button("💡", _("Воспоминания"), action=ShowMenu("memory_recollection"), btn_style="main_menu_button")
-        
-        #textbutton _("Персонажи") action ShowMenu("bio_menu") style "main_menu_button"
+            if renpy.has_screen("memory_recollection"):
+                use icon_button("💡", _("Воспоминания"), action=ShowMenu("memory_recollection"), btn_style="main_menu_button")
+
+                button:
+                    style "main_menu_button"
+                    xsize 75
+                    ysize 75
+                    xpos 500
+                    yalign 0.5
+                    action ShowMenu("achievements_screen")
+                    tooltip _("Достижения")
+                    text "🏆" size 30 align (0.5, 0.5)
+
 
         python:
             try:
