@@ -8,8 +8,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-121.6k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20890-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-121.2k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20887-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **121 634** | `100%` |
-| **Total Script Lines** | **5 890** | `100%` |
-| Narration / Description | 80 496 words / 3 075 lines | `66.2%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 138 words / 2 815 lines | `33.8%` ███░░░░░░░ |
+| **Total Words** | **121 199** | `100%` |
+| **Total Script Lines** | **5 887** | `100%` |
+| Narration / Description | 80 093 words / 3 074 lines | `66.1%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 106 words / 2 813 lines | `33.9%` ███░░░░░░░ |
 | Unique Speakers | 100 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -139,36 +139,36 @@ To create a distribution for players (Windows/Linux/Mac):
 | :--- | :---: | :---: | :---: | :--- |
 | **Chapter 1: The Blue Sheep** | 12 | 404 | 8 316 | `33.9%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 944 | `15.2%` █░░░░░░░ |
-| **Chapter 3: Escapism** | 18 | 331 | 6 801 | `31.7%` ███░░░░░ |
+| **Chapter 3: Escapism** | 18 | 331 | 6 840 | `32.0%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
-| **Chapter 4.5: From Exile to Constellation** | 22 | 1 142 | 28 206 | `36.9%` ███░░░░░ |
+| **Chapter 4.5: From Exile to Constellation** | 22 | 1 141 | 27 721 | `37.5%` ███░░░░░ |
 | **Chapter 5: An Offer You Can’t Refuse** | 37 | 948 | 15 033 | `38.9%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 311 | 8 148 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 890** | **121 634** | `33.8%` |
+| **Flashbacks & Memory Fragments** | 13 | 309 | 8 159 | `24.9%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 887** | **121 199** | `33.9%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 203 | 14 560 | `35.4%` ███░░░░░ |
-| **Seraphina** | 166 | 3 258 | `7.9%` █░░░░░░░ |
-| **Argon** | 177 | 3 186 | `7.7%` █░░░░░░░ |
+| **Neon** | 1 203 | 14 558 | `35.4%` ███░░░░░ |
+| **Seraphina** | 166 | 3 257 | `7.9%` █░░░░░░░ |
+| **Argon** | 177 | 3 209 | `7.8%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.1%` ░░░░░░░░ |
-| **Lily** | 141 | 2 117 | `5.1%` ░░░░░░░░ |
+| **Lily** | 141 | 2 123 | `5.2%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
 | **Alex** | 100 | 1 634 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 57 | 1 301 | `3.2%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.1%` ░░░░░░░░ |
 | **Marcus** | 48 | 840 | `2.0%` ░░░░░░░░ |
-| **Nari** | 56 | 705 | `1.7%` ░░░░░░░░ |
+| **Nari** | 56 | 715 | `1.7%` ░░░░░░░░ |
 | **Sophie** | 41 | 527 | `1.3%` ░░░░░░░░ |
-| **Akane (Mother)** | 32 | 521 | `1.3%` ░░░░░░░░ |
 | **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
-| **Teacher Akari** | 18 | 313 | `0.8%` ░░░░░░░░ |
+| **Akane (Mother)** | 31 | 494 | `1.2%` ░░░░░░░░ |
+| **Teacher Akari** | 18 | 307 | `0.7%` ░░░░░░░░ |
 | **Anna** | 14 | 136 | `0.3%` ░░░░░░░░ |
 | **Helium** | 1 | 1 | `0.0%` ░░░░░░░░ |
 
@@ -179,12 +179,12 @@ To create a distribution for players (Windows/Linux/Mac):
 | :--- | :---: | :---: | :--- |
 | **???** | 42 | 502 | `1.2%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
-| **Young Oganesson** | 25 | 484 | `1.2%` ░░░░░░░░ |
+| **Young Oganesson** | 24 | 452 | `1.1%` ░░░░░░░░ |
 | **Hans** | 14 | 301 | `0.7%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
 | **News Anchor** | 6 | 235 | `0.6%` ░░░░░░░░ |
-| **Entity / Illusion** | 10 | 226 | `0.5%` ░░░░░░░░ |
+| **Entity / Illusion** | 10 | 224 | `0.5%` ░░░░░░░░ |
 | **Garden Staff** | 18 | 213 | `0.5%` ░░░░░░░░ |
 | **Student 2 (Carol)** | 18 | 206 | `0.5%` ░░░░░░░░ |
 | **Student 1 (Amy)** | 7 | 199 | `0.5%` ░░░░░░░░ |
@@ -205,8 +205,8 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Automaton** | 9 | 72 | `0.2%` ░░░░░░░░ |
 | **Bandit 2** | 3 | 72 | `0.2%` ░░░░░░░░ |
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
-| **Kai Ito** | 4 | 66 | `0.2%` ░░░░░░░░ |
 | **Unknown Female** | 2 | 65 | `0.2%` ░░░░░░░░ |
+| **Kai Ito** | 4 | 65 | `0.2%` ░░░░░░░░ |
 | **Bartender Staff** | 4 | 63 | `0.2%` ░░░░░░░░ |
 | **Waitress** | 5 | 60 | `0.1%` ░░░░░░░░ |
 | **Mika Kitamura** | 4 | 58 | `0.1%` ░░░░░░░░ |
