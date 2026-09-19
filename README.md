@@ -8,8 +8,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-121.2k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20887-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-121.6k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20886-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **121 199** | `100%` |
-| **Total Script Lines** | **5 887** | `100%` |
-| Narration / Description | 80 093 words / 3 074 lines | `66.1%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 106 words / 2 813 lines | `33.9%` ███░░░░░░░ |
+| **Total Words** | **121 572** | `100%` |
+| **Total Script Lines** | **5 886** | `100%` |
+| Narration / Description | 80 282 words / 3 073 lines | `66.0%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 290 words / 2 813 lines | `34.0%` ███░░░░░░░ |
 | Unique Speakers | 100 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -141,24 +141,24 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 944 | `15.2%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 840 | `32.0%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 329 | 6 819 | `49.0%` ████░░░░ |
-| **Chapter 4.5: From Exile to Constellation** | 22 | 1 141 | 27 721 | `37.5%` ███░░░░░ |
+| **Chapter 4.5: From Exile to Constellation** | 22 | 1 140 | 28 094 | `37.7%` ███░░░░░ |
 | **Chapter 5: An Offer You Can’t Refuse** | 37 | 948 | 15 033 | `38.9%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 309 | 8 159 | `24.9%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 887** | **121 199** | `33.9%` |
+| **TOTAL** | **158** | **5 886** | **121 572** | `34.0%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 203 | 14 558 | `35.4%` ███░░░░░ |
-| **Seraphina** | 166 | 3 257 | `7.9%` █░░░░░░░ |
+| **Neon** | 1 203 | 14 553 | `35.2%` ███░░░░░ |
+| **Seraphina** | 166 | 3 442 | `8.3%` █░░░░░░░ |
 | **Argon** | 177 | 3 209 | `7.8%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.1%` ░░░░░░░░ |
-| **Lily** | 141 | 2 123 | `5.2%` ░░░░░░░░ |
+| **Lily** | 141 | 2 123 | `5.1%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
 | **Alex** | 100 | 1 634 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 57 | 1 301 | `3.2%` ░░░░░░░░ |
@@ -231,13 +231,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Worker 2** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **CEO's Voice** | 1 | 21 | `0.1%` ░░░░░░░░ |
 | **Medrobot** | 3 | 20 | `0.0%` ░░░░░░░░ |
+| **Commander** | 2 | 19 | `0.0%` ░░░░░░░░ |
 | **Student B** | 1 | 17 | `0.0%` ░░░░░░░░ |
 | **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
 | **Shareholder 2's Voice** | 1 | 16 | `0.0%` ░░░░░░░░ |
 | **Fan 4** | 2 | 16 | `0.0%` ░░░░░░░░ |
 | **Mercenary Commander** | 3 | 16 | `0.0%` ░░░░░░░░ |
 | **Vendor** | 1 | 15 | `0.0%` ░░░░░░░░ |
-| **Commander** | 2 | 15 | `0.0%` ░░░░░░░░ |
 | **Student 1** | 1 | 13 | `0.0%` ░░░░░░░░ |
 | **Student 1 (Girl)** | 1 | 13 | `0.0%` ░░░░░░░░ |
 | **Voice** | 3 | 11 | `0.0%` ░░░░░░░░ |
