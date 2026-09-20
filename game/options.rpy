@@ -241,6 +241,7 @@ init python:
     build.classify('build-compilers/**', None)
     build.classify('**/renpy_warp_*.rpe*', None)
     build.classify('**/*.rpe.py', None)
+    build.classify('game/cache/**', None)
 
     build.classify('**.7z', None)
     build.classify('**.zip', None)
