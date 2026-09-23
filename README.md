@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **119 577** | `100%` |
+| **Total Words** | **119 561** | `100%` |
 | **Total Script Lines** | **5 783** | `100%` |
-| Narration / Description | 79 272 words / 3 035 lines | `66.3%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 305 words / 2 748 lines | `33.7%` ███░░░░░░░ |
+| Narration / Description | 79 262 words / 3 035 lines | `66.3%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 299 words / 2 748 lines | `33.7%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -147,8 +147,8 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 309 | 8 159 | `24.9%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 783** | **119 577** | `33.7%` |
+| **Flashbacks & Memory Fragments** | 13 | 309 | 8 143 | `24.9%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 783** | **119 561** | `33.7%` |
 
 ### Character Dialogue Distribution
 
@@ -179,7 +179,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | :--- | :---: | :---: | :--- |
 | **???** | 42 | 502 | `1.2%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
-| **Young Oganesson** | 24 | 452 | `1.1%` ░░░░░░░░ |
+| **Young Oganesson** | 24 | 446 | `1.1%` ░░░░░░░░ |
 | **Hans** | 14 | 301 | `0.7%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
