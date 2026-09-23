@@ -30,6 +30,10 @@ init python:
         def __call__(self):
             renpy.hide_screen("confirm")
             renpy.hide_screen("pause_menu")
+            try:
+                exit_pause_audio()
+            except Exception:
+                pass
             
             if getattr(persistent, "disable_gpu_animations", False):
                 renpy.full_restart(transition=dissolve, save=False)

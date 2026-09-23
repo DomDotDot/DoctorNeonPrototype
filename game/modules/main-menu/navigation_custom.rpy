@@ -149,12 +149,13 @@ screen pause_menu():
     tag menu
     modal True
 
-    # Воспроизведение звука колокола паузы и учёт достижения
-    on "show" action [Function(mark_pause_opened), Play("sound", "audio/sfx/bell-ring.mp3")]
-    on "replace" action [Function(mark_pause_opened), Play("sound", "audio/sfx/bell-ring.mp3")]
+    # Воспроизведение звука колокола паузы, учёт достижения и запуск аудио паузы
+    on "show" action [Function(mark_pause_opened), Function(enter_pause_audio), Play("sound", "audio/sfx/bell-ring.mp3")]
+    on "replace" action [Function(mark_pause_opened), Function(enter_pause_audio), Play("sound", "audio/sfx/bell-ring.mp3")]
+    on "hide" action Function(exit_pause_audio)
 
     # Горячая клавиша ESC для снятия паузы
-    key "game_menu" action Return()
+    key "game_menu" action [Function(exit_pause_audio), Return()]
 
     # 1. Захваченный кадр игры со срывом кассетного видео (VHS Tape Glitch)
     add FileCurrentScreenshot(empty=Solid("#070d1a")):
@@ -179,12 +180,11 @@ screen pause_menu():
             hbox:
                 spacing 10
                 yalign 0.5
-                text "●" size 13 color "#f59e0b" at (pause_badge_pulse if not getattr(persistent, "disable_gpu_animations", False) else None) yalign 0.5
-                text _("ПАУЗА  •  [[ ТРЕКИНГ ЗАФИКСИРОВАН ]]") substitute False size 12 bold True color "#94a3b8" yalign 0.5
+                text "●" size 13 color "#1347a8" at (pause_badge_pulse if not getattr(persistent, "disable_gpu_animations", False) else None) yalign 0.5
             hbox:
                 xalign 1.0
                 yalign 0.5
-                text _("TAPE PLAYBACK // FROZEN") size 11 bold True color "#38bdf8" yalign 0.5
+                text _("[config.version!t]") size 11 bold True color "#475569" yalign 0.5
 
     # 4. Нижняя информационная плашка
     frame:
@@ -200,7 +200,7 @@ screen pause_menu():
             hbox:
                 xalign 1.0
                 yalign 0.5
-                text _("DOCTOR NEON // MEMORY ARCHIVE") size 11 bold True color "#475569" yalign 0.5
+                text _("RESONANCE // MEMORY ARCHIVE") size 11 bold True color "#475569" yalign 0.5
 
     # 5. Центральная модальная панель управления
     frame:
@@ -220,7 +220,6 @@ screen pause_menu():
                     spacing 10
                     text "⏸" size 26 bold True color "#38bdf8" yalign 0.5
                     text _("ПАУЗА") size 24 bold True color "#f8fafc" yalign 0.5
-                text _("КАДР ЗАФИКСИРОВАН • ВРЕМЯ ОСТАНОВЛЕНО") size 11 bold True color "#64748b" xalign 0.5
 
             # Разделитель
             frame:
@@ -232,7 +231,7 @@ screen pause_menu():
 
             # Меню действий
             textbutton _("▶  Продолжить"):
-                action Return()
+                action [Function(exit_pause_audio), Return()]
                 style "pause_action_button"
 
             textbutton _("💾  Сохранить"):
@@ -248,7 +247,7 @@ screen pause_menu():
                 style "pause_action_button"
 
             textbutton _("🌸  Главное меню"):
-                action MainMenu()
+                action [Function(exit_pause_audio), MainMenu()]
                 style "pause_action_button"
 
             textbutton _("🚪  Выход"):
