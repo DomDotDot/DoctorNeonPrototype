@@ -31,7 +31,7 @@ init -1 python:
 
     def text_preview_dynamic(st, at):
         cps = int(getattr(preferences, "text_cps", 0))
-        sample = str(_("«Доктор Неон: сканирование нейросети завершено. Все протоколы стабильны.»"))
+        sample = str(_("Пример текста для предпросмотра. Скорость печати регулируется в настройках."))
 
         last_cps = getattr(store, "preview_text_last_cps", -1)
         if cps != last_cps:
@@ -200,7 +200,7 @@ screen settings_menu(current_tab="display"):
     if main_menu:
         use main_menu_background
     else:
-        add Solid("#000000b3")
+        use pause_background
 
     # Горячие клавиши навигации: Q / E переключение разделов (с поддержкой русской раскладки), ESC возврат
     key "K_q" action SetScreenVariable("active_tab", get_prev_settings_tab(active_tab))

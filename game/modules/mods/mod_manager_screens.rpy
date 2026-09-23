@@ -10,7 +10,7 @@ screen mod_manager_screen():
     if main_menu:
         use main_menu_background
     else:
-        add Solid("#000000b3")
+        use pause_background
         
     key "game_menu" action ShowMenu("settings_menu")
 

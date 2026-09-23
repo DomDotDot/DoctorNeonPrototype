@@ -370,7 +370,7 @@ screen help():
     if main_menu:
         use main_menu_background
     else:
-        add Solid("#000000cc")
+        use pause_background
 
     key "game_menu" action (ShowMenu("about_menu") if main_menu else Return())
 

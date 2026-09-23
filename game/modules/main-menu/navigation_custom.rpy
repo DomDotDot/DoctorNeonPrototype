@@ -142,6 +142,22 @@ style pause_action_button_text is button_text:
 
 
 # =============================================================================
+# Фоновый экран паузы с эффектом CRT / VHS Tape Glitch
+# =============================================================================
+
+screen pause_background():
+    # 1. Захваченный кадр игры со срывом кассетного видео (VHS Tape Glitch)
+    add FileCurrentScreenshot(empty=Solid("#070d1a")):
+        xsize config.screen_width
+        ysize config.screen_height
+        if not getattr(persistent, "disable_gpu_animations", False):
+            at vhs_tape_glitch_tf
+
+    # 2. Мягкое полупрозрачное затемнение поверх рвущегося кадра для читаемости меню
+    add Solid("#03071288")
+
+
+# =============================================================================
 # Экран паузы (ESC во время игры)
 # =============================================================================
 
@@ -157,15 +173,8 @@ screen pause_menu():
     # Горячая клавиша ESC для снятия паузы
     key "game_menu" action [Function(exit_pause_audio), Return()]
 
-    # 1. Захваченный кадр игры со срывом кассетного видео (VHS Tape Glitch)
-    add FileCurrentScreenshot(empty=Solid("#070d1a")):
-        xsize config.screen_width
-        ysize config.screen_height
-        if not getattr(persistent, "disable_gpu_animations", False):
-            at vhs_tape_glitch_tf
-
-    # 2. Мягкое полупрозрачное затемнение поверх рвущегося кадра для читаемости меню
-    add Solid("#03071288") at pause_backdrop_fade
+    # Фон паузы с CRT / VHS эффектом
+    use pause_background
 
     # 3. Верхняя статусная панель HUD
     frame:
@@ -244,6 +253,10 @@ screen pause_menu():
 
             textbutton _("⚙️  Настройки"):
                 action ShowMenu("settings_menu")
+                style "pause_action_button"
+
+            textbutton _("🏆  Достижения"):
+                action ShowMenu("achievements_screen")
                 style "pause_action_button"
 
             textbutton _("🌸  Главное меню"):
