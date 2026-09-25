@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "0.8.4-early"
+define config.version = "0.8.7-early"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
@@ -241,6 +241,7 @@ init python:
     build.classify('build-compilers/**', None)
     build.classify('**/renpy_warp_*.rpe*', None)
     build.classify('**/*.rpe.py', None)
+    build.classify('game/cache/**', None)
 
     build.classify('**.7z', None)
     build.classify('**.zip', None)

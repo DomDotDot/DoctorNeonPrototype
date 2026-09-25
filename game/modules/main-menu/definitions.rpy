@@ -27,14 +27,22 @@ define main_menu_music_unlocked_4 = "audio/music/BGM/BuzzingGoodbye.opus"
 
 # --- ФОНЫ ---
 image main_menu_bg_dynamic = ConditionSwitch(
-"persistent.main_menu_level >= 7", "gui/main_menu/background-8.jpeg",
-"persistent.main_menu_level == 6", "gui/main_menu/background-7.jpeg",
-"persistent.main_menu_level == 5", "gui/main_menu/background-6.jpeg",
-"persistent.main_menu_level == 4", "gui/main_menu/background-5.jpeg",
-"persistent.main_menu_level == 3", "gui/main_menu/background-4.jpeg",
-"persistent.main_menu_level == 2", "gui/main_menu/background-3.jpeg",
-"persistent.main_menu_level == 1", "gui/main_menu/background-2.jpeg",
-"True", "gui/main_menu/background-1.jpeg"
+    "persistent.disable_gpu_animations and persistent.main_menu_level >= 7", "gui/main_menu/background-8.jpeg",
+    "persistent.disable_gpu_animations and persistent.main_menu_level == 6", "gui/main_menu/background-7.jpeg",
+    "persistent.disable_gpu_animations and persistent.main_menu_level == 5", "gui/main_menu/background-6.jpeg",
+    "persistent.disable_gpu_animations and persistent.main_menu_level == 4", "gui/main_menu/background-5.jpeg",
+    "persistent.disable_gpu_animations and persistent.main_menu_level == 3", "gui/main_menu/background-4.jpeg",
+    "persistent.disable_gpu_animations and persistent.main_menu_level == 2", "gui/main_menu/background-3.jpeg",
+    "persistent.disable_gpu_animations and persistent.main_menu_level == 1", "gui/main_menu/background-2.jpeg",
+    "persistent.disable_gpu_animations", "gui/main_menu/background-1.jpeg",
+    "persistent.main_menu_level >= 7", "gui/main_menu/background-8.jpeg",
+    "persistent.main_menu_level == 6", "bg_main_menu_7_animated",
+    "persistent.main_menu_level == 5", "gui/main_menu/background-6.jpeg",
+    "persistent.main_menu_level == 4", "gui/main_menu/background-5.jpeg",
+    "persistent.main_menu_level == 3", "gui/main_menu/background-4.jpeg",
+    "persistent.main_menu_level == 2", "gui/main_menu/background-3.jpeg",
+    "persistent.main_menu_level == 1", "gui/main_menu/background-2.jpeg",
+    "True", "bg_main_menu_1_animated"
 )
 
 image main_menu_logo = "gui/main_menu/logo3.png"

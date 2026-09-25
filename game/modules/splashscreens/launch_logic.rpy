@@ -1,5 +1,5 @@
 # ==============================================================================
-# Кинематографичная заставка при запуске (Library of Ruina / Project Moon Style)
+# Кинематографичная заставка при запуске
 # ==============================================================================
 
 define config.end_splash_transition = Dissolve(1.2)
@@ -33,7 +33,7 @@ transform splash_studio_fade:
 # ------------------------------------------------------------------------------
 # 2. Трансформация логотипа игры (Расширение по центру -> Скольжение наверх)
 # ------------------------------------------------------------------------------
-transform splash_logo_ruina_full:
+transform splash_logo_full:
     xalign 0.5
     ypos 0.5
     yanchor 0.5
@@ -60,13 +60,13 @@ transform splash_logo_fixed_top:
 
 
 # ------------------------------------------------------------------------------
-# 3. Индикатор загрузки и инициализации в стиле Library of Ruina
+# 3. Индикатор загрузки и инициализации
 # ------------------------------------------------------------------------------
 init python:
-    def ruina_loader_status(st, at):
+    def loader_status(st, at):
         t = max(0.0, st - 0.2)
         if t < 0.5:
-            msg = "SYNCHRONIZING NEURAL PROTOCOLS • 18%"
+            msg = "SYNCHRONIZING RESONANCE • 18%"
         elif t < 1.1:
             msg = "MOUNTING GAME ARCHIVES & CACHE • 56%"
         elif t < 1.6:
@@ -90,7 +90,7 @@ transform splash_bar_progress:
     ease 0.4 xsize 380
     easeout 0.3 xsize 440
 
-screen ruina_splash_loader():
+screen splash_loader():
     zorder 105
     frame at splash_loader_container:
         background None
@@ -104,7 +104,7 @@ screen ruina_splash_loader():
                 align (0.5, 0.5)
                 spacing 10
                 text "SYS.INIT //" size 11 bold True color "#00d4ff" font gui.text_font
-                add DynamicDisplayable(ruina_loader_status)
+                add DynamicDisplayable(loader_status)
 
             # Тонкая неоновая полоска прогресса
             frame:
@@ -142,15 +142,15 @@ label _intro_splash_sequence:
     # Сцена 3: Скольжение логотипа наверх к позиции главного меню
     # --------------------------------------------------------------------------
     play sound "audio/sfx/logo-reveal.mp3" volume 0.5
-    show game_title_logo at splash_logo_ruina_full
-    show screen ruina_splash_loader
+    show game_title_logo at splash_logo_full
+    show screen splash_loader
 
     if persistent.seen_splash:
         $ renpy.pause(3.35, hard=False)
     else:
         $ renpy.pause(3.35, hard=True)
 
-    hide screen ruina_splash_loader
+    hide screen splash_loader
     show game_title_logo at splash_logo_fixed_top
 
     $ persistent.seen_splash = True
