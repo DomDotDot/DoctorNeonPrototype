@@ -111,8 +111,8 @@ translate english_us ch5_library_summary_scene_2d88bcf8:
 # game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:121
 translate english_us ch5_library_summary_scene_3a23b850:
 
-    # narrator "Основанный в 2041-ом году, он должен был стать символом возрождения человечества после падения старых мировых держав. Праздновав своё первое однолетие, город уже столкнулся с первыми проблемами."
-    narrator "Founded in the year 2041, it was supposed to become a symbol of humanity's rebirth after the fall of the old world powers. Celebrating its first anniversary, the city already faced its first problems."
+    # narrator "Заложенный в конце тридцатых и официально открытый в 2041-ом году, он должен был стать символом возрождения человечества после падения старых мировых держав. Отпраздновав своё первое однолетие, город уже столкнулся с первыми проблемами."
+    narrator "Planned in the late thirties and officially opened in the year 2041, it was supposed to become a symbol of humanity's rebirth after the fall of the old world powers. Celebrating its first anniversary, the city already faced its first problems."
 
 # game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:121
 translate english_us ch5_library_summary_scene_8ffdf682:
@@ -469,6 +469,9 @@ translate english_us strings:
     # game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:98
     old "Папка: РЕКОМЕНДОВАННОЕ 'Социальное районирование', Документальный справочник"
     new "Folder: RECOMMENDED 'Social Zoning', Documentary Reference"
+
+    old "Папка: 'Парадокс Инертности', Монография по когнитивной психологии"
+    new "Folder: 'The Inertia Paradox', Monograph on Cognitive Psychology"
 
     # game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:102
     old "Папка: 'Корпоративная сводка 2042-2046', Журнал"

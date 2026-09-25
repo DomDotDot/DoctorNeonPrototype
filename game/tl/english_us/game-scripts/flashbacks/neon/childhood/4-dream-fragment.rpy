@@ -129,8 +129,8 @@ translate english_us dream_sequence_japan_4_517793cb:
 # game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:85
 translate english_us dream_sequence_japan_4_c4364fcb:
 
-    # narrator "Я вижу её лицо. Лицо 19-летней девушки. И на нем — не сочувствие. И не облегчение спасителя."
-    narrator "I see her face. The face of a 19-year-old girl. And on it—not sympathy. And not the relief of a savior."
+    # narrator "Я вижу её лицо. Лицо 17-летней девушки. И на нем — не сочувствие. И не облегчение спасителя."
+    narrator "I see her face. The face of a 17-year-old girl. And on it—not sympathy. And not the relief of a savior."
 
 # game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:85
 translate english_us dream_sequence_japan_4_84046eaa:

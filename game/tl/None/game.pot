@@ -18717,7 +18717,7 @@ msgid "Но на этот раз что-то изменилось. Я — не �
 msgstr ""
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:72
-msgid "Я вижу её лицо. Лицо 19-летней девушки. И на нем — не сочувствие. И не облегчение спасителя."
+msgid "Я вижу её лицо. Лицо 17-летней девушки. И на нем — не сочувствие. И не облегчение спасителя."
 msgstr ""
 
 #: game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:72
