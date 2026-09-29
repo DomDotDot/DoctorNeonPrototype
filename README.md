@@ -9,7 +9,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-119.9k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20786-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20784-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **119 913** | `100%` |
-| **Total Script Lines** | **5 786** | `100%` |
-| Narration / Description | 79 587 words / 3 037 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 326 words / 2 749 lines | `33.6%` ███░░░░░░░ |
+| **Total Words** | **119 875** | `100%` |
+| **Total Script Lines** | **5 784** | `100%` |
+| Narration / Description | 79 559 words / 3 036 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 316 words / 2 748 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -147,15 +147,15 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 309 | 8 143 | `24.9%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 786** | **119 913** | `33.6%` |
+| **Flashbacks & Memory Fragments** | 13 | 307 | 8 105 | `24.9%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 784** | **119 875** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
 | **Neon** | 1 169 | 13 766 | `34.1%` ███░░░░░ |
-| **Seraphina** | 164 | 3 488 | `8.6%` █░░░░░░░ |
+| **Seraphina** | 164 | 3 488 | `8.7%` █░░░░░░░ |
 | **Argon** | 164 | 3 072 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
@@ -179,7 +179,7 @@ To create a distribution for players (Windows/Linux/Mac):
 | :--- | :---: | :---: | :--- |
 | **???** | 42 | 502 | `1.2%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
-| **Young Oganesson** | 24 | 446 | `1.1%` ░░░░░░░░ |
+| **Young Oganesson** | 23 | 436 | `1.1%` ░░░░░░░░ |
 | **Hans** | 14 | 301 | `0.7%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
