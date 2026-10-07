@@ -349,7 +349,7 @@ label dream_sequence_japan_6:
         А для неё... это была просто... возможность.
     """
 
-    scene black with fade
+    scene black with flame_burn
     stop music fadeout 3.0
 
     $ persistent.flashback_dream_6_unlocked = True
