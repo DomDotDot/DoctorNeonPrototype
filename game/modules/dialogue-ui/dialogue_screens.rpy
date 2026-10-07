@@ -11,6 +11,23 @@
 
 screen say(who, what):
 
+    # -------------------------------------------------------------------------
+    # Гипнотический эффект Серафины (при репликах с тильдой '~')
+    # -------------------------------------------------------------------------
+    $ seraphina_hypnosis_update_state(who, what)
+
+    if is_seraphina_hypnosis(who, what):
+        if not getattr(persistent, "disable_gpu_animations", False):
+            add Solid("#050811"):
+                xsize config.screen_width
+                ysize config.screen_height
+                at seraphina_hypnosis_screen_tf
+        else:
+            add Solid("#050811"):
+                xsize config.screen_width
+                ysize config.screen_height
+                at seraphina_hypnosis_static_tf
+
     window:
         id "window"
 
@@ -33,6 +50,7 @@ screen say(who, what):
             ypos (74 if who is not None else 36)
             xsize gui.dialogue_width
             text_align gui.dialogue_text_xalign
+            at (seraphina_hypnosis_text_flicker if is_seraphina_hypnosis(who, what) else default_dialogue_tf)
 
     ## Боковое изображение ("голова"), если используется
     if not renpy.variant("small"):
@@ -41,6 +59,8 @@ screen say(who, what):
     # Ачивка "Вдумчивый читатель": 3 минуты на реплике Неон
     if who is not None and (who == _("Неон") or who == "Неон" or who == "Neon" or who == neon.name):
         timer 180.0 action Function(grant_achievement, "thoughtful_reader")
+
+    on "hide" action Function(restore_hypnosis_audio)
 
 
 init python:
