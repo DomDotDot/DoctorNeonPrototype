@@ -9,7 +9,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-119.8k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20779-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20782-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **119 793** | `100%` |
-| **Total Script Lines** | **5 779** | `100%` |
-| Narration / Description | 79 525 words / 3 035 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 268 words / 2 744 lines | `33.6%` ███░░░░░░░ |
+| **Total Words** | **119 838** | `100%` |
+| **Total Script Lines** | **5 782** | `100%` |
+| Narration / Description | 79 539 words / 3 037 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 299 words / 2 745 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -137,25 +137,25 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 404 | 8 316 | `33.9%` ███░░░░░ |
-| **Chapter 2: In Search of A Friend** | 8 | 98 | 2 944 | `15.2%` █░░░░░░░ |
-| **Chapter 3: Escapism** | 18 | 331 | 6 840 | `32.0%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 404 | 8 315 | `33.9%` ███░░░░░ |
+| **Chapter 2: In Search of A Friend** | 8 | 98 | 2 942 | `15.2%` █░░░░░░░ |
+| **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 952 | `47.7%` ████░░░░ |
-| **Chapter 4.5: From Exile to Constellation** | 22 | 1 120 | 26 965 | `37.5%` ███░░░░░ |
-| **Chapter 5: An Offer You Can’t Refuse** | 37 | 951 | 15 385 | `38.2%` ███░░░░░ |
+| **Chapter 4.5: From Exile to Constellation** | 22 | 1 120 | 26 972 | `37.6%` ███░░░░░ |
+| **Chapter 5: An Offer You Can’t Refuse** | 37 | 951 | 15 384 | `38.2%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
-| **Chapter 7: Fog of War** | 6 | 305 | 6 309 | `32.0%` ███░░░░░ |
-| **Chapter 8: School Days...?** | 22 | 1 484 | 27 689 | `31.6%` ███░░░░░ |
+| **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
+| **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 302 | 8 024 | `24.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 779** | **119 793** | `33.6%` |
+| **Flashbacks & Memory Fragments** | 13 | 302 | 8 023 | `24.5%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 782** | **119 838** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 167 | 13 746 | `34.1%` ███░░░░░ |
-| **Seraphina** | 164 | 3 488 | `8.7%` █░░░░░░░ |
+| **Neon** | 1 168 | 13 749 | `34.1%` ███░░░░░ |
+| **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
 | **Argon** | 164 | 3 072 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |

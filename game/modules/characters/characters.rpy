@@ -297,6 +297,8 @@ init python:
 # Fix names on loading old saves
 label after_load:
     python:
+        if getattr(store, "restore_hypnosis_audio", None):
+            store.restore_hypnosis_audio()
         ret_stack = renpy.get_return_stack()
         if "_call_chapter_5_rpy" in ret_stack:
             fix_chapter_names(5)

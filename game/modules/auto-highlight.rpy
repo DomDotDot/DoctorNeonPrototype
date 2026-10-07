@@ -19,6 +19,8 @@ init python:
             # Сбрасываем говорящего → между репликами все яркие
             # (анимации сцены не затемняют персонажей)
             store.active_speaker = None
+            if getattr(store, "seraphina_hypnosis_on_say_end", None):
+                store.seraphina_hypnosis_on_say_end()
 
 
     class Dimmer:

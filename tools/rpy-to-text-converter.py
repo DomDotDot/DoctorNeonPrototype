@@ -4,10 +4,18 @@ import re
 # ================= НАСТРОЙКИ =================
 
 # 1. Какую главу собираем?
-TARGET_CHAPTER = "chapter8" 
+# Можно указать конкретную главу (например, "chapter1", "chapter8")
+# или "all" для последовательной сборки всех глав из таблицы CHAPTERS_DB.
+TARGET_CHAPTER = "all"
 
-# 2. Имя выходного файла
-OUTPUT_FILENAME = f"Full_{TARGET_CHAPTER}.txt"
+# 2. Папка для сохранения результатов.
+# По умолчанию: папка "Downloads" (Загрузки) текущего пользователя.
+OUTPUT_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
+
+# 3. Объединять ли все главы дополнительно в один общий файл при выборе "all"?
+# False -> создает только отдельные файлы для каждой главы (Full_chapter1.txt, Full_chapter2.txt и т.д.)
+# True  -> дополнительно создает объединенный файл Full_all.txt
+COMBINE_ALL = False
 
 # 3. Список "Корневых" файлов главы.
 # ВАЖНО: Сюда пишем только те файлы, которые идут ПО ПОРЯДКУ в основной линии.
@@ -108,6 +116,11 @@ CHAPTERS_DB = {
         "chapters/chapter5/level-3/4.2-trauma.rpy",
         "chapters/chapter5/level-3/4.3.0-medbay.rpy",
         "chapters/chapter5/level-3/4.3.1-genetics.rpy",
+        "chapters/chapter5/level-3/4.3.2-medbay-left.rpy",
+        "chapters/chapter5/level-3/4.3.2.1-chemlab.rpy",
+        "chapters/chapter5/level-3/4.3.2.2-chief-office.rpy",
+        "chapters/chapter5/level-3/4.3.3-medbay-right.rpy",
+        "chapters/chapter5/level-3/4.3.4-medbay-forward.rpy",
         "chapters/chapter5/level-3/4.4-robotics.rpy",
         "chapters/chapter5/level-3/4.5-hop-office.rpy",
         "chapters/chapter5/level-4/5.0-monorail.rpy",
@@ -119,12 +132,14 @@ CHAPTERS_DB = {
         "chapters/chapter5/level-4/5.6-ai-core.rpy",
         "chapters/chapter5/level-4/5.7-generators-failed.rpy",
         "chapters/chapter5/6-server.rpy",
-        "chapters/chapter5/7-brig.rpy",
-        "chapters/chapter5/8-permabrig.rpy",
-        "chapters/chapter5/9-erebus.rpy",
-        "chapters/chapter5/10-bridge.rpy",
-        "chapters/chapter5/11-father.rpy",
-        "chapters/chapter5/12-epilogue.rpy",
+        "chapters/chapter5/7-daughter-truth.rpy",
+        "chapters/chapter5/8-bridge-overload.rpy",
+        "flashbacks/neon/childhood/6-dream-fragment.rpy",
+        "chapters/chapter5/9-rescue.rpy",
+        "chapters/chapter5/10-father-sacrifice.rpy",
+        "flashbacks/neon/childhood/5-dream-fragment.rpy",
+        "chapters/chapter5/11-wasteland.rpy",
+        "chapters/chapter5/12-oganesson.rpy",
     ],
 
     "chapter6": [
@@ -137,9 +152,11 @@ CHAPTERS_DB = {
     ],
 
     "chapter7": [
-        "chapters/chapter7/1-library.rpy",
-        "chapters/chapter7/2-family-apartment.rpy",
-        "chapters/chapter7/3-decay.rpy",
+        "chapters/chapter7/1-hunt.rpy",
+        "chapters/chapter7/2-library.rpy",
+        "chapters/chapter7/3-family-apartment.rpy",
+        "chapters/chapter7/4-decay.rpy",
+        "chapters/chapter7/5-penance.rpy",
     ],
 
     "chapter8": [
@@ -176,15 +193,7 @@ CHAPTERS_DB = {
     ],
 }
 
-# Путь к папке со всеми скриптами (относительно devtools)
-PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
-
-# ================= ЛОГИКА =================
-
-# Словарь: "label_name" -> "full_path_to_file"
-
-
-# Путь к папке со всеми скриптами (относительно devtools)
+# Путь к папке со всеми скриптами (относительно папки tools)
 PATH_TO_GAME_SCRIPTS = os.path.join("..", "game/game-scripts")
 
 # ================= ЛОГИКА =================
@@ -323,34 +332,84 @@ def process_file(filepath, outfile, depth=0):
 
     process_lines(lines, filepath, outfile, depth)
 
+def resolve_output_path(chapter_name, output_destination=None):
+    """
+    Определяет абсолютный путь к выходному файлу.
+    Если output_destination не указан, используется OUTPUT_DIR (по умолчанию Downloads).
+    """
+    filename = f"Full_{chapter_name}.txt"
+    if not output_destination:
+        out_dir = os.path.abspath(OUTPUT_DIR)
+        os.makedirs(out_dir, exist_ok=True)
+        return os.path.join(out_dir, filename)
+
+    dest = os.path.abspath(output_destination)
+    if os.path.isdir(dest) or output_destination.endswith(('/', '\\')):
+        os.makedirs(dest, exist_ok=True)
+        return os.path.join(dest, filename)
+
+    _, ext = os.path.splitext(dest)
+    if not ext:
+        os.makedirs(dest, exist_ok=True)
+        return os.path.join(dest, filename)
+
+    parent_dir = os.path.dirname(dest)
+    if parent_dir:
+        os.makedirs(parent_dir, exist_ok=True)
+    return dest
+
 def build_chapter(chapter_name, output_path=None):
     """
     Собирает указанную главу в текстовый файл.
     """
-    if chapter_name not in CHAPTERS_DB:
+    matched_key = None
+    for key in CHAPTERS_DB.keys():
+        if key.lower() == chapter_name.strip().lower():
+            matched_key = key
+            break
+
+    if not matched_key:
         print(f"[ОШИБКА] Глава '{chapter_name}' не найдена в базе.")
         print(f"Доступные главы: {', '.join(CHAPTERS_DB.keys())}")
         return False
 
-    file_list = CHAPTERS_DB[chapter_name]
-    if output_path is None:
-        filename = f"Full_{chapter_name}.txt"
-        output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
+    file_list = CHAPTERS_DB[matched_key]
+    resolved_path = resolve_output_path(matched_key, output_path)
 
-    print(f"--- Сборка главы {chapter_name} -> {os.path.basename(output_path)} ---")
+    print(f"--- Сборка главы {matched_key} -> {os.path.basename(resolved_path)} ---")
 
     try:
-        with open(output_path, 'w', encoding='utf-8') as outfile:
-            outfile.write(f"СБОРКА: {chapter_name}\n\n")
+        with open(resolved_path, 'w', encoding='utf-8') as outfile:
+            outfile.write(f"СБОРКА: {matched_key}\n\n")
             for rel_path in file_list:
                 full_path = get_abs_path(rel_path)
                 print(f"  Обработка: {rel_path}")
                 process_file(full_path, outfile)
                 outfile.write("\n\n")
-        print(f"[УСПЕХ] Файл сохранен: {output_path}\n")
+        print(f"[УСПЕХ] Файл сохранен: {resolved_path}\n")
         return True
     except Exception as e:
         print(f"[Критическая ошибка]: {e}\n")
+        return False
+
+def build_combined_all(output_dir):
+    """
+    Объединяет все сгенерированные файлы глав в один общий файл Full_all.txt в порядке таблицы.
+    """
+    combined_path = os.path.join(output_dir, "Full_all.txt")
+    print(f"--- Сборка общего файла всех глав -> {os.path.basename(combined_path)} ---")
+    try:
+        with open(combined_path, 'w', encoding='utf-8') as outfile:
+            for ch in CHAPTERS_DB.keys():
+                ch_path = os.path.join(output_dir, f"Full_{ch}.txt")
+                if os.path.exists(ch_path):
+                    with open(ch_path, 'r', encoding='utf-8') as infile:
+                        outfile.write(infile.read())
+                        outfile.write("\n\n" + "="*50 + "\n\n")
+        print(f"[УСПЕХ] Общий файл сохранен: {combined_path}\n")
+        return True
+    except Exception as e:
+        print(f"[Критическая ошибка при объединении]: {e}\n")
         return False
 
 def main():
@@ -359,30 +418,57 @@ def main():
     parser = argparse.ArgumentParser(description="Ren'Py Script to Full Text Converter")
     parser.add_argument(
         "--chapter", "-c",
-        default="chapter8",
-        help="Chapter to convert (e.g. chapter1, chapter8, or 'all'). Default: chapter8"
+        default=None,
+        help=f"Chapter to convert (e.g. chapter1, chapter8, or 'all'). Default from settings: '{TARGET_CHAPTER}'"
     )
     parser.add_argument(
         "--output", "-o",
         default=None,
-        help="Custom output filename or directory"
+        help=f"Custom output directory or filename. Default: '{OUTPUT_DIR}'"
+    )
+    parser.add_argument(
+        "--combine",
+        action="store_true",
+        default=COMBINE_ALL,
+        help="Also create a single combined Full_all.txt containing all chapters"
     )
 
     args = parser.parse_args()
+
+    # Берем значения из аргументов CLI, если переданы, иначе из настроек вверху скрипта
+    selected_chapter = (args.chapter if args.chapter is not None else TARGET_CHAPTER).strip()
+    output_destination = (args.output if args.output is not None else OUTPUT_DIR).strip()
+    should_combine = args.combine
 
     # 1. Сканируем все файлы проекта
     scan_all_scripts()
 
     # 2. Сборка выбранной главы или всех глав
-    if args.chapter.lower() == "all":
-        print("=== Пакетная сборка всех глав ===")
-        for ch in CHAPTERS_DB.keys():
-            out = None
-            if args.output and os.path.isdir(args.output):
-                out = os.path.join(args.output, f"Full_{ch}.txt")
-            build_chapter(ch, out)
+    if selected_chapter.lower() == "all":
+        # Если передан путь к файлу, берем его родительскую папку
+        if os.path.isfile(output_destination) or (os.path.splitext(output_destination)[1] and not os.path.isdir(output_destination)):
+            target_dir = os.path.dirname(os.path.abspath(output_destination))
+        else:
+            target_dir = os.path.abspath(output_destination)
+        os.makedirs(target_dir, exist_ok=True)
+
+        print("=== Пакетная сборка всех глав по порядку из таблицы ===")
+        print(f"Каталог сохранения (Downloads): {target_dir}\n")
+
+        total_chapters = len(CHAPTERS_DB)
+        success_count = 0
+        for idx, ch in enumerate(CHAPTERS_DB.keys(), 1):
+            print(f"[{idx}/{total_chapters}] Запуск сборки главы: {ch}")
+            out_file = os.path.join(target_dir, f"Full_{ch}.txt")
+            if build_chapter(ch, out_file):
+                success_count += 1
+
+        if should_combine:
+            build_combined_all(target_dir)
+
+        print(f"=== ИТОГ: Успешно собрано {success_count} из {total_chapters} глав в '{target_dir}' ===")
     else:
-        build_chapter(args.chapter, args.output)
+        build_chapter(selected_chapter, output_destination)
 
 if __name__ == "__main__":
     main()
