@@ -126,9 +126,9 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **119 838** | `100%` |
+| **Total Words** | **119 842** | `100%` |
 | **Total Script Lines** | **5 782** | `100%` |
-| Narration / Description | 79 539 words / 3 037 lines | `66.4%` ███████░░░ |
+| Narration / Description | 79 543 words / 3 037 lines | `66.4%` ███████░░░ |
 | Spoken Dialogue (Characters) | 40 299 words / 2 745 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
@@ -147,8 +147,8 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 302 | 8 023 | `24.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 782** | **119 838** | `33.6%` |
+| **Flashbacks & Memory Fragments** | 13 | 302 | 8 027 | `24.5%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 782** | **119 842** | `33.6%` |
 
 ### Character Dialogue Distribution
 
