@@ -60,7 +60,7 @@ screen say(who, what):
     if who is not None and (who == _("Неон") or who == "Неон" or who == "Neon" or who == neon.name):
         timer 180.0 action Function(grant_achievement, "thoughtful_reader")
 
-    on "hide" action Function(restore_hypnosis_audio)
+    on "hide" action Function(restore_hypnosis)
 
 
 init python:
