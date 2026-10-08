@@ -31,7 +31,7 @@ init -1 python:
 
     def text_preview_dynamic(st, at):
         cps = int(getattr(preferences, "text_cps", 0))
-        sample = str(_("«Доктор Неон: сканирование нейросети завершено. Все протоколы стабильны.»"))
+        sample = str(_("Привет. Это Доктор Неон и вы играете в Semitone Resonance - игру от DomDot."))
 
         last_cps = getattr(store, "preview_text_last_cps", -1)
         if cps != last_cps:
