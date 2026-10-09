@@ -31,7 +31,7 @@ init -1 python:
 
     def text_preview_dynamic(st, at):
         cps = int(getattr(preferences, "text_cps", 0))
-        sample = str(_("«Доктор Неон: сканирование нейросети завершено. Все протоколы стабильны.»"))
+        sample = str(_("Привет, это Доктор Неон. Это тестовое сообщение"))
 
         last_cps = getattr(store, "preview_text_last_cps", -1)
         if cps != last_cps:
@@ -303,7 +303,7 @@ screen settings_menu(current_tab="display"):
                 xfill True
                 yalign 0.5
 
-                text _("[[ Q / E ]] — Переключение разделов  •  [[ ESC ]] — Назад") substitute False size 12 color "#64748b" yalign 0.5
+                text _("[[ ESC ]] — Выйти") substitute False size 12 color "#64748b" yalign 0.5
 
                 textbutton _("← Назад"):
                     action Return()

@@ -232,8 +232,13 @@ init -1 python:
     # Категории для каталога действий
     KB_CATEGORIES = [
         (_("💬 Диалог и сюжет"), ["enter", "space", "ctrl", "tab", "pgup", "pgdown"]),
-        (_("🧭 Интерфейс и навигация"), ["arrows", "esc", "h", "lmb", "rmb", "mmb", "wheelup", "wheeldown"]),
+        (_("🧭 Интерфейс и навигация"), ["arrows", "esc", "h"]),
         (_("⚙️ Система и доступность"), ["s", "v", "shift_a"])
+    ]
+
+    MOUSE_CATEGORIES = [
+        (_("🖱 Основные действия"), ["lmb", "rmb"]),
+        (_("⚙️ Колёсико мыши"), ["mmb", "wheelup", "wheeldown"])
     ]
 
     GP_CATEGORIES = [
@@ -309,18 +314,18 @@ style controls_main_panel is frame:
     modal True
 
 style controls_tab_btn is button:
-    xsize 300
-    ysize 52
+    xsize 210
+    ysize 50
     background Solid("#101726cc")
     hover_background Solid("#1e293bcc")
     selected_idle_background Solid("#005599cc")
     selected_hover_background Solid("#0077bccc")
     hover_sound "audio/sfx/cursor-hover.opus"
     activate_sound "audio/sfx/button-click.opus"
-    padding (12, 8)
+    padding (10, 8)
 
 style controls_tab_btn_text is text:
-    size 18
+    size 16
     bold True
     color "#94a3b8"
     hover_color "#ffffff"
@@ -406,13 +411,19 @@ screen help():
                         style "controls_tab_btn"
                         selected (active_controls_device == "keyboard")
                         action [SetVariable("active_controls_device", "keyboard"), SetVariable("selected_control_key", "enter"), SetVariable("hovered_control_key", "")]
-                        text _("⌨️ Клавиатура и Мышь") style "controls_tab_btn_text"
+                        text _("⌨️ Клавиатура") style "controls_tab_btn_text"
+
+                    button:
+                        style "controls_tab_btn"
+                        selected (active_controls_device == "mouse")
+                        action [SetVariable("active_controls_device", "mouse"), SetVariable("selected_control_key", "lmb"), SetVariable("hovered_control_key", "")]
+                        text _("🖱 Мышь") style "controls_tab_btn_text"
 
                     button:
                         style "controls_tab_btn"
                         selected (active_controls_device == "gamepad")
                         action [SetVariable("active_controls_device", "gamepad"), SetVariable("selected_control_key", "gp_a"), SetVariable("hovered_control_key", "")]
-                        text _("🎮 Геймпад / Джойстик") style "controls_tab_btn_text"
+                        text _("🎮 Геймпад") style "controls_tab_btn_text"
 
             # Разделительная неоновая линия
             frame:
@@ -435,7 +446,9 @@ screen help():
                     spacing 12
 
                     if active_controls_device == "keyboard":
-                        use keyboard_mouse_visual(cur_active_key)
+                        use keyboard_visual(cur_active_key)
+                    elif active_controls_device == "mouse":
+                        use mouse_visual(cur_active_key)
                     else:
                         use gamepad_visual(cur_active_key)
 
@@ -481,7 +494,7 @@ screen help():
                                     spacing 14
                                     xfill True
 
-                                    $ categories = KB_CATEGORIES if active_controls_device == "keyboard" else GP_CATEGORIES
+                                    $ categories = KB_CATEGORIES if active_controls_device == "keyboard" else (MOUSE_CATEGORIES if active_controls_device == "mouse" else GP_CATEGORIES)
                                     for cat_title, key_ids in categories:
                                         vbox:
                                             spacing 5
@@ -546,17 +559,17 @@ screen help():
 
 
 ################################################################################
-## Визуализатор клавиатуры и мыши
+## Визуализатор клавиатуры
 ################################################################################
 
-screen keyboard_mouse_visual(cur_key):
+screen keyboard_visual(cur_key):
     frame:
         style "controls_device_frame"
         xfill True
         ysize 560
 
         vbox:
-            spacing 8
+            spacing 14
             xfill True
 
             # Заголовок секции клавиатуры
@@ -644,111 +657,123 @@ screen keyboard_mouse_visual(cur_key):
                         use keycap_button("arrows", "▼", 46, 34, cur_key, True)
                         use keycap_button("arrows", "►", 46, 34, cur_key, True)
 
-            # Разделитель между клавиатурой и мышью
+            # Разделительная линия
             frame:
                 background Solid("#1e293b88")
                 xfill True
                 ysize 1
 
-            # -----------------------------------------------------------------
-            # Блок мыши
-            # -----------------------------------------------------------------
-            vbox:
-                spacing 6
+            # Информационная панель быстрых горячих клавиш
+            frame:
+                background Solid("#080f1e88")
                 xfill True
+                padding (16, 12)
+                vbox:
+                    spacing 8
+                    text _("⚡ БЫСТРЫЕ КОМБИНАЦИИ И ГОРЯЧИЕ КЛАВИШИ") size 12 bold True color "#38bdf8"
+                    hbox:
+                        spacing 14
+                        xfill True
 
-                text _("УПРАВЛЕНИЕ МЫШЬЮ") size 12 bold True color "#64748b"
+                        frame:
+                            background Solid("#0f172a")
+                            xsize 225
+                            padding (10, 8)
+                            vbox:
+                                spacing 2
+                                text "F5 / F6" size 12 bold True color "#00d4ff"
+                                text _("Быстрое сохранение / загрузка") size 10 color "#94a3b8"
 
-                hbox:
-                    spacing 12
-                    xalign 0.5
+                        frame:
+                            background Solid("#0f172a")
+                            xsize 225
+                            padding (10, 8)
+                            vbox:
+                                spacing 2
+                                text "F11 / Alt+Enter" size 12 bold True color "#00d4ff"
+                                text _("Полноэкранный режим игры") size 10 color "#94a3b8"
 
-                    # Левая кнопка мыши (ЛКМ)
-                    $ is_lmb = (cur_key == "lmb")
-                    button:
-                        xsize 290
-                        ysize 74
-                        background (Solid("#00a8ff") if is_lmb else Solid("#141d2f"))
-                        hover_background Solid("#00bfff")
-                        hover_sound "audio/sfx/cursor-hover.opus"
-                        activate_sound "audio/sfx/button-click.opus"
-                        action [SetVariable("selected_control_key", "lmb"), SetVariable("hovered_control_key", "lmb")]
-                        hovered SetVariable("hovered_control_key", "lmb")
-                        unhovered SetVariable("hovered_control_key", "")
-                        vbox:
-                            align (0.5, 0.5)
-                            spacing 2
-                            text "🖱 ЛКМ (Левый клик)" size 13 bold True color ("#001122" if is_lmb else "#38bdf8") xalign 0.5
-                            text _("Диалог / Выбор / Меню") size 11 color ("#002244" if is_lmb else "#94a3b8") xalign 0.5
+                        frame:
+                            background Solid("#0f172a")
+                            xsize 225
+                            padding (10, 8)
+                            vbox:
+                                spacing 2
+                                text "Space ␣" size 12 bold True color "#00d4ff"
+                                text _("Листание без случайного выбора") size 10 color "#94a3b8"
 
-                    # Колёсико мыши (СКМ + Прокрутка)
-                    vbox:
-                        spacing 3
-                        xsize 340
-
-                        # Прокрутка вверх
-                        $ is_wup = (cur_key == "wheelup")
-                        button:
-                            xfill True
-                            ysize 26
-                            background (Solid("#00a8ff") if is_wup else Solid("#162238"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "wheelup"), SetVariable("hovered_control_key", "wheelup")]
-                            hovered SetVariable("hovered_control_key", "wheelup")
-                            unhovered SetVariable("hovered_control_key", "")
-                            text "▲ Прокрутка вверх — Откат назад" size 11 bold True color ("#001122" if is_wup else "#7dd3fc") align (0.5, 0.5)
-
-                        # Клик колёсиком (СКМ)
-                        $ is_mmb = (cur_key == "mmb")
-                        button:
-                            xfill True
-                            ysize 26
-                            background (Solid("#00a8ff") if is_mmb else Solid("#131d2f"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "mmb"), SetVariable("hovered_control_key", "mmb")]
-                            hovered SetVariable("hovered_control_key", "mmb")
-                            unhovered SetVariable("hovered_control_key", "")
-                            text "⏺ Клик колёсиком (СКМ) — Скрыть UI" size 11 bold True color ("#001122" if is_mmb else "#94a3b8") align (0.5, 0.5)
-
-                        # Прокрутка вниз
-                        $ is_wdown = (cur_key == "wheeldown")
-                        button:
-                            xfill True
-                            ysize 26
-                            background (Solid("#00a8ff") if is_wdown else Solid("#162238"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "wheeldown"), SetVariable("hovered_control_key", "wheeldown")]
-                            hovered SetVariable("hovered_control_key", "wheeldown")
-                            unhovered SetVariable("hovered_control_key", "")
-                            text "▼ Прокрутка вниз — Вперёд по сюжету" size 11 bold True color ("#001122" if is_wdown else "#7dd3fc") align (0.5, 0.5)
-
-                    # Правая кнопка мыши (ПКМ)
-                    $ is_rmb = (cur_key == "rmb")
-                    button:
-                        xsize 290
-                        ysize 74
-                        background (Solid("#00a8ff") if is_rmb else Solid("#141d2f"))
-                        hover_background Solid("#00bfff")
-                        hover_sound "audio/sfx/cursor-hover.opus"
-                        activate_sound "audio/sfx/button-click.opus"
-                        action [SetVariable("selected_control_key", "rmb"), SetVariable("hovered_control_key", "rmb")]
-                        hovered SetVariable("hovered_control_key", "rmb")
-                        unhovered SetVariable("hovered_control_key", "")
-                        vbox:
-                            align (0.5, 0.5)
-                            spacing 2
-                            text "🖱 ПКМ (Правый клик)" size 13 bold True color ("#001122" if is_rmb else "#38bdf8") xalign 0.5
-                            text _("Игровое меню / Назад") size 11 color ("#002244" if is_rmb else "#94a3b8") xalign 0.5
+                        frame:
+                            background Solid("#0f172a")
+                            xsize 225
+                            padding (10, 8)
+                            vbox:
+                                spacing 2
+                                text "Tab ↹ / Ctrl" size 12 bold True color "#00d4ff"
+                                text _("Авто-пропуск / Ускорение") size 10 color "#94a3b8"
 
 
 ################################################################################
-## Визуализатор геймпада
+## Визуализатор мыши (HUD Cyberpunk)
+################################################################################
+
+screen mouse_visual(cur_key):
+    frame:
+        style "controls_device_frame"
+        xfill True
+        ysize 560
+
+        vbox:
+            spacing 6
+            xfill True
+
+            # Заголовок секции мыши
+            hbox:
+                xfill True
+                yalign 0.5
+                text _("ИНТЕРАКТИВНАЯ СХЕМА МЫШИ") size 12 bold True color "#64748b"
+                text _("Наведите на элементы мыши или выносные плашки") size 11 color "#475569"
+
+            # Графический HUD мыши (980 x 480)
+            fixed:
+                xsize 980
+                ysize 480
+                xalign 0.5
+
+                # 1. Базовый чертёж мыши с линиями-выносками
+                add "gui/controls/mouse_base.png"
+
+                # 2. Неоновый оверлей активной клавиши
+                if cur_key == "lmb":
+                    add "gui/controls/mouse_glow_lmb.png"
+                elif cur_key == "rmb":
+                    add "gui/controls/mouse_glow_rmb.png"
+                elif cur_key == "mmb":
+                    add "gui/controls/mouse_glow_mmb.png"
+                elif cur_key == "wheelup":
+                    add "gui/controls/mouse_glow_wheelup.png"
+                elif cur_key == "wheeldown":
+                    add "gui/controls/mouse_glow_wheeldown.png"
+
+                # 3. Интерактивные выносные плашки (Callout Chips)
+                # Левая сторона
+                use controls_callout_chip("lmb", "🖱 ЛКМ (Левый клик)", _("Диалог / Выбор"), 20, 86, 250, 38, cur_key)
+                use controls_callout_chip("wheelup", "▲ Колёсико вверх", _("Откат назад"), 20, 206, 250, 38, cur_key)
+
+                # Правая сторона
+                use controls_callout_chip("rmb", "🖱 ПКМ (Правый клик)", _("Меню / Назад"), 710, 86, 250, 38, cur_key)
+                use controls_callout_chip("mmb", "⏺ СКМ (Клик колёсиком)", _("Скрыть интерфейс"), 710, 186, 250, 38, cur_key)
+                use controls_callout_chip("wheeldown", "▼ Колёсико вниз", _("Вперёд по сюжету"), 710, 276, 250, 38, cur_key)
+
+                # 4. Физические интерактивные зоны на самом корпусе мыши
+                use controls_hotspot("lmb", 400, 80, 75, 120)
+                use controls_hotspot("rmb", 505, 80, 75, 120)
+                use controls_hotspot("wheelup", 480, 95, 20, 32)
+                use controls_hotspot("mmb", 480, 127, 20, 26)
+                use controls_hotspot("wheeldown", 480, 153, 20, 32)
+
+
+################################################################################
+## Визуализатор геймпада (HUD Cyberpunk)
 ################################################################################
 
 screen gamepad_visual(cur_key):
@@ -758,194 +783,94 @@ screen gamepad_visual(cur_key):
         ysize 560
 
         vbox:
-            spacing 14
+            spacing 6
             xfill True
 
-            # Верхняя полоса: Триггеры и Бамперы
-            vbox:
-                spacing 4
-                xfill True
-                text _("ВЕРХНИЕ ТРИГГЕРЫ И БАМПЕРЫ") size 12 bold True color "#64748b" xalign 0.5
-
-                hbox:
-                    spacing 10
-                    xalign 0.5
-
-                    # Левый триггер LT
-                    use gamepad_btn_card("gp_lt", "LT / L2", _("Откат назад"), 210, 48, cur_key)
-                    # Левый бампер LB
-                    use gamepad_btn_card("gp_lb", "LB / L1", _("Откат назад"), 210, 48, cur_key)
-
-                    # Центр - Индикатор
-                    frame:
-                        background Solid("#0a0f1c")
-                        xsize 80
-                        ysize 48
-                        text "🎮" size 24 align (0.5, 0.5)
-
-                    # Правый бампер RB
-                    use gamepad_btn_card("gp_rb", "RB / R1", _("Откат вперёд"), 210, 48, cur_key)
-                    # Правый триггер RT
-                    use gamepad_btn_card("gp_rt", "RT / R2", _("Диалог"), 210, 48, cur_key)
-
-            # Основное тело геймпада
-            frame:
-                background Solid("#090e1aee")
-                padding (24, 18)
-                xfill True
-
-                hbox:
-                    xfill True
-                    yalign 0.5
-
-                    # ЛЕВОЕ КРЫЛО: Крестовина (D-Pad) + Левый стик
-                    vbox:
-                        xsize 340
-                        spacing 12
-                        xalign 0.5
-
-                        text _("КРЕСТОВИНА (D-PAD)") size 12 bold True color "#64748b" xalign 0.5
-
-                        # Схема крестовины
-                        $ is_dpad = (cur_key == "gp_dpad")
-                        button:
-                            xsize 220
-                            ysize 72
-                            xalign 0.5
-                            background (Solid("#00a8ff") if is_dpad else Solid("#131e33"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "gp_dpad"), SetVariable("hovered_control_key", "gp_dpad")]
-                            hovered SetVariable("hovered_control_key", "gp_dpad")
-                            unhovered SetVariable("hovered_control_key", "")
-                            vbox:
-                                align (0.5, 0.5)
-                                spacing 2
-                                text "▲ ◄ 🞤 ► ▼" size 16 bold True color ("#001122" if is_dpad else "#38bdf8") xalign 0.5
-                                text _("Навигация по меню") size 11 color ("#002244" if is_dpad else "#94a3b8") xalign 0.5
-
-                        # Левый стик
-                        $ is_ls = (cur_key == "gp_lstick")
-                        button:
-                            xsize 220
-                            ysize 52
-                            xalign 0.5
-                            background (Solid("#00a8ff") if is_ls else Solid("#131e33"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "gp_lstick"), SetVariable("hovered_control_key", "gp_lstick")]
-                            hovered SetVariable("hovered_control_key", "gp_lstick")
-                            unhovered SetVariable("hovered_control_key", "")
-                            hbox:
-                                align (0.5, 0.5)
-                                spacing 8
-                                text "🕹" size 18 yalign 0.5
-                                vbox:
-                                    yalign 0.5
-                                    spacing 1
-                                    text "L-Stick (Левый стик)" size 12 bold True color ("#001122" if is_ls else "#cbd5e1")
-                                    text _("Плавная навигация") size 10 color ("#002244" if is_ls else "#64748b")
-
-                    # ЦЕНТР: Системные кнопки (Back / Start)
-                    vbox:
-                        xsize 220
-                        spacing 14
-                        xalign 0.5
-                        yalign 0.5
-
-                        text _("СИСТЕМА") size 12 bold True color "#64748b" xalign 0.5
-
-                        $ is_back = (cur_key == "gp_back")
-                        button:
-                            xsize 180
-                            ysize 44
-                            xalign 0.5
-                            background (Solid("#00a8ff") if is_back else Solid("#152033"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "gp_back"), SetVariable("hovered_control_key", "gp_back")]
-                            hovered SetVariable("hovered_control_key", "gp_back")
-                            unhovered SetVariable("hovered_control_key", "")
-                            text "⧉ Back / Guide" size 12 bold True color ("#001122" if is_back else "#94a3b8") align (0.5, 0.5)
-
-                        $ is_start = (cur_key == "gp_start")
-                        button:
-                            xsize 180
-                            ysize 44
-                            xalign 0.5
-                            background (Solid("#00a8ff") if is_start else Solid("#152033"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "gp_start"), SetVariable("hovered_control_key", "gp_start")]
-                            hovered SetVariable("hovered_control_key", "gp_start")
-                            unhovered SetVariable("hovered_control_key", "")
-                            text "☰ Start / Menu" size 12 bold True color ("#001122" if is_start else "#94a3b8") align (0.5, 0.5)
-
-                    # ПРАВОЕ КРЫЛО: Кнопки действий (A/B/X/Y) + Правый стик
-                    vbox:
-                        xsize 340
-                        spacing 8
-                        xalign 0.5
-
-                        text _("КНОПКИ ДЕЙСТВИЙ") size 12 bold True color "#64748b" xalign 0.5
-
-                        # Ромб кнопок A/B/X/Y
-                        grid 2 2:
-                            xalign 0.5
-                            spacing 6
-
-                            # X / ◻
-                            use gamepad_action_btn("gp_x", "🆇 / ◻", _("Пропуск"), "#38bdf8", cur_key)
-                            # Y / △
-                            use gamepad_action_btn("gp_y", "🆈 / △", _("Скрыть UI"), "#facc15", cur_key)
-                            # A / ✕
-                            use gamepad_action_btn("gp_a", "🅰 / ✕", _("Выбор / Диалог"), "#4ade80", cur_key)
-                            # B / ⭘
-                            use gamepad_action_btn("gp_b", "🅱 / ⭘", _("Назад / Меню"), "#f87171", cur_key)
-
-                        null height 2
-
-                        # Правый стик
-                        $ is_rs = (cur_key == "gp_rstick")
-                        button:
-                            xsize 240
-                            ysize 52
-                            xalign 0.5
-                            background (Solid("#00a8ff") if is_rs else Solid("#131e33"))
-                            hover_background Solid("#00bfff")
-                            hover_sound "audio/sfx/cursor-hover.opus"
-                            activate_sound "audio/sfx/button-click.opus"
-                            action [SetVariable("selected_control_key", "gp_rstick"), SetVariable("hovered_control_key", "gp_rstick")]
-                            hovered SetVariable("hovered_control_key", "gp_rstick")
-                            unhovered SetVariable("hovered_control_key", "")
-                            hbox:
-                                align (0.5, 0.5)
-                                spacing 8
-                                text "🕹" size 18 yalign 0.5
-                                vbox:
-                                    yalign 0.5
-                                    spacing 1
-                                    text "R-Stick (Правый стик)" size 12 bold True color ("#001122" if is_rs else "#cbd5e1")
-                                    text _("Прокрутка списков") size 10 color ("#002244" if is_rs else "#64748b")
-
-            # Нижняя полоса геймпада: Калибровка и статус подключения
+            # Заголовок секции геймпада
             hbox:
                 xfill True
                 yalign 0.5
-
+                text _("ИНТЕРАКТИВНАЯ СХЕМА ГЕЙМПАДА") size 12 bold True color "#64748b"
                 if GamepadExists():
-                    text _("● Геймпад подключён и активен") size 12 bold True color "#39ff14" yalign 0.5
+                    text _("● Геймпад подключён и готов") size 11 bold True color "#39ff14"
                 else:
-                    text _("○ Геймпад не обнаружен (поддерживаются Xbox, PlayStation, Switch и DirectInput)") size 12 color "#64748b" yalign 0.5
+                    text _("○ Геймпад не обнаружен (Xbox, PlayStation, Switch)") size 11 color "#64748b"
 
+            # Графический HUD геймпада (980 x 480)
+            fixed:
+                xsize 980
+                ysize 480
+                xalign 0.5
+
+                # 1. Базовый чертёж геймпада с выносными линиями
+                add "gui/controls/gamepad_base.png"
+
+                # 2. Неоновый оверлей активной кнопки
+                if cur_key == "gp_lt":
+                    add "gui/controls/gp_glow_lt.png"
+                elif cur_key == "gp_rt":
+                    add "gui/controls/gp_glow_rt.png"
+                elif cur_key == "gp_lb":
+                    add "gui/controls/gp_glow_lb.png"
+                elif cur_key == "gp_rb":
+                    add "gui/controls/gp_glow_rb.png"
+                elif cur_key == "gp_dpad":
+                    add "gui/controls/gp_glow_dpad.png"
+                elif cur_key == "gp_lstick":
+                    add "gui/controls/gp_glow_lstick.png"
+                elif cur_key == "gp_rstick":
+                    add "gui/controls/gp_glow_rstick.png"
+                elif cur_key == "gp_back":
+                    add "gui/controls/gp_glow_back.png"
+                elif cur_key == "gp_start":
+                    add "gui/controls/gp_glow_start.png"
+                elif cur_key == "gp_a":
+                    add "gui/controls/gp_glow_a.png"
+                elif cur_key == "gp_b":
+                    add "gui/controls/gp_glow_b.png"
+                elif cur_key == "gp_x":
+                    add "gui/controls/gp_glow_x.png"
+                elif cur_key == "gp_y":
+                    add "gui/controls/gp_glow_y.png"
+
+                # 3. Интерактивные выносные плашки (Callout Chips)
+                # Левая сторона
+                use controls_callout_chip("gp_lt", "LT / L2", _("Откат назад"), 10, 22, 220, 36, cur_key)
+                use controls_callout_chip("gp_lb", "LB / L1", _("Откат назад"), 10, 77, 220, 36, cur_key)
+                use controls_callout_chip("gp_back", "⧉ Back", _("Гид / Настройки"), 10, 128, 220, 34, cur_key)
+                use controls_callout_chip("gp_dpad", "🞤 D-Pad", _("Навигация"), 10, 172, 220, 36, cur_key)
+                use controls_callout_chip("gp_lstick", "🕹 L-Stick", _("Курсор / Выбор"), 10, 287, 220, 36, cur_key)
+
+                # Правая сторона
+                use controls_callout_chip("gp_rt", "RT / R2", _("Листание диалога"), 750, 23, 220, 34, cur_key)
+                use controls_callout_chip("gp_rb", "RB / R1", _("Вперёд по сюжету"), 750, 78, 220, 34, cur_key)
+                use controls_callout_chip("gp_start", "☰ Start", _("Игровое меню"), 750, 114, 220, 32, cur_key)
+                use controls_callout_chip("gp_y", "🆈 / △", _("Скрыть интерфейс"), 750, 144, 220, 32, cur_key)
+                use controls_callout_chip("gp_x", "🆇 / ◻", _("Пропуск текста"), 750, 184, 220, 32, cur_key)
+                use controls_callout_chip("gp_b", "🅱 / ⭘", _("Назад / Меню"), 750, 224, 220, 32, cur_key)
+                use controls_callout_chip("gp_a", "🅰 / ✕", _("Выбор / Диалог"), 750, 264, 220, 32, cur_key)
+                use controls_callout_chip("gp_rstick", "🕹 R-Stick", _("Прокрутка списков"), 750, 308, 220, 34, cur_key)
+
+                # 4. Физические интерактивные зоны на самом корпусе геймпада
+                use controls_hotspot("gp_lt", 345, 55, 48, 42)
+                use controls_hotspot("gp_rt", 588, 55, 48, 42)
+                use controls_hotspot("gp_lb", 315, 92, 70, 28)
+                use controls_hotspot("gp_rb", 595, 92, 70, 28)
+                use controls_hotspot("gp_dpad", 305, 175, 70, 70)
+                use controls_hotspot("gp_lstick", 385, 275, 60, 60)
+                use controls_hotspot("gp_rstick", 535, 275, 60, 60)
+                use controls_hotspot("gp_back", 395, 138, 22, 22)
+                use controls_hotspot("gp_start", 565, 138, 22, 22)
+                use controls_hotspot("gp_y", 627, 172, 26, 26)
+                use controls_hotspot("gp_b", 652, 197, 26, 26)
+                use controls_hotspot("gp_a", 627, 222, 26, 26)
+                use controls_hotspot("gp_x", 602, 197, 26, 26)
+
+                # Кнопка калибровки геймпада
                 textbutton _("⚙️ Калибровать геймпад"):
                     action GamepadCalibrate()
-                    xalign 1.0
-                    yalign 0.5
+                    xalign 0.5
+                    ypos 440
                     style "settings_chip_btn"
 
 
@@ -1091,3 +1016,49 @@ screen gamepad_action_btn(kid, badge_text, desc_text, tag_color, cur_key):
                 size 10
                 color ("#002244" if is_sel else "#94a3b8")
                 xalign 0.5
+
+
+# Выносная интерактивная плашка (Callout Chip) для схем мыши и геймпада
+screen controls_callout_chip(kid, badge_text, desc_text, x_pos, y_pos, w, h, cur_key):
+    $ is_sel = (cur_key == kid)
+    button:
+        pos (x_pos, y_pos)
+        xsize w
+        ysize h
+        background (Solid("#00a8ff") if is_sel else Solid("#101a2bdd"))
+        hover_background Solid("#00c3ff")
+        hover_sound "audio/sfx/cursor-hover.opus"
+        activate_sound "audio/sfx/button-click.opus"
+        action [SetVariable("selected_control_key", kid), SetVariable("hovered_control_key", kid)]
+        hovered SetVariable("hovered_control_key", kid)
+        unhovered SetVariable("hovered_control_key", "")
+        padding (10, 4)
+
+        hbox:
+            align (0.5, 0.5)
+            spacing 6
+            text badge_text substitute False:
+                size 11
+                bold True
+                color ("#001122" if is_sel else "#38bdf8")
+                yalign 0.5
+            text desc_text substitute False:
+                size 10
+                color ("#002244" if is_sel else "#94a3b8")
+                yalign 0.5
+
+
+# Невидимый кликабельный хотспот на теле мыши / геймпада
+screen controls_hotspot(kid, x_pos, y_pos, w, h):
+    button:
+        pos (x_pos, y_pos)
+        xsize w
+        ysize h
+        background None
+        hover_background Solid("#00d4ff22")
+        hover_sound "audio/sfx/cursor-hover.opus"
+        activate_sound "audio/sfx/button-click.opus"
+        action [SetVariable("selected_control_key", kid), SetVariable("hovered_control_key", kid)]
+        hovered SetVariable("hovered_control_key", kid)
+        unhovered SetVariable("hovered_control_key", "")
+
