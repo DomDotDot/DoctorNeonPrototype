@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 075** | `100%` |
+| **Total Words** | **120 068** | `100%` |
 | **Total Script Lines** | **5 790** | `100%` |
-| Narration / Description | 79 783 words / 3 044 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 292 words / 2 746 lines | `33.6%` ███░░░░░░░ |
+| Narration / Description | 79 756 words / 3 044 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 312 words / 2 746 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -142,21 +142,21 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 120 | 26 972 | `37.6%` ███░░░░░ |
-| **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 627 | `37.5%` ███░░░░░ |
+| **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 620 | `37.7%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 302 | 8 027 | `24.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 790** | **120 075** | `33.6%` |
+| **TOTAL** | **158** | **5 790** | **120 068** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 168 | 13 765 | `34.2%` ███░░░░░ |
+| **Neon** | 1 168 | 13 765 | `34.1%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
-| **Argon** | 164 | 3 043 | `7.6%` █░░░░░░░ |
+| **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
