@@ -155,7 +155,11 @@ init 1 python:
     ]
 
 
-    # add_chapter("chapter_0", _("Глава 0"), _("Пролог"), "images/bg_prologue.avif", "chapter_0_unlocked")
+    ch0_subchapters = [
+        SubchapterItem("chapter_0", _("1. Первая встреча"), _("Воспоминание о знакомстве с Криптон"), _("Сюжет")),
+    ]
+
+    add_chapter("chapter_0", _("Пролог"), _("Первая встреча"), "images/cg/vol1/chapter2/featured_cg-8_2.avif", "chapter_0_unlocked", ch0_subchapters)
     add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/cg/vol1/chapter1/ch01_cg23_v01.avif", "chapter_1_unlocked", ch1_subchapters)
     add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/cg/vol1/chapter2/featured_cg-8_2.avif", "chapter_2_unlocked", ch2_subchapters)
     add_chapter("chapter_3", _("Глава 3"), _("Эскапизм"), "images/backgrounds/bg chapter_3_sorting-station-start.avif", "chapter_3_unlocked", ch3_subchapters)
@@ -168,6 +172,7 @@ init 1 python:
     add_chapter("chapter_8", _("Глава 8"), _("Школьные… дни?"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_8_unlocked", ch8_subchapters)
     add_chapter("chapter_9", _("Глава 9"), _("Резонирующий Диссонанс"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_9_unlocked", ch9_subchapters)
 
+default persistent.chapter_0_unlocked = True
 default persistent.chapter_1_unlocked = True
 
 ################################################################################

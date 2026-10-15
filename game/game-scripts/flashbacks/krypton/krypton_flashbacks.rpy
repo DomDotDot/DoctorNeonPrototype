@@ -1,4 +1,4 @@
-﻿label krypton_firstmeet_flashback:
+label krypton_firstmeet_flashback:
 
         scene bg chapter_1_rural_flashback with fade # Фон: Унылая дорога в деревне, возможно, осень или ранняя весна
         play music "music/BGM/FadeToSorrow.opus" fadein 1.0 # Меланхоличная музыка
@@ -259,4 +259,16 @@
         scene white with flash
         play sound "sfx/instant_static.opus" volume 0.125
         $ persistent.flashback_krypton_3_unlocked = True
-return
+        $ persistent.prologue_completed = True
+
+        if getattr(persistent, "prologue_first_run", False):
+            $ persistent.prologue_first_run = False
+            play sound "audio/sfx/logo-reveal.mp3" volume 0.5
+            show game_title_logo at splash_logo_full
+            $ renpy.pause(3.35, hard=True)
+            show game_title_logo at splash_logo_fixed_top
+            $ config.end_splash_transition = Dissolve(1.8)
+            $ quick_menu = True
+            return
+
+        return

@@ -5,6 +5,8 @@ init python:
         
         # Сброс открытых глав
         # (Лучше пройтись циклом, если у тебя их много, или перечислить вручную)
+        persistent.chapter_0_unlocked = True
+        persistent.prologue_completed = False
         persistent.chapter_2_unlocked = False
         persistent.chapter_3_unlocked = False
         persistent.chapter_4_unlocked = False
@@ -124,6 +126,8 @@ init python:
     # Чит-код: Открыть всё.
     def unlock_everything():
         persistent.main_menu_level = 4
+        persistent.prologue_completed = True
+        persistent.chapter_0_unlocked = True
         persistent.chapter_1_unlocked = True
         persistent.chapter_2_unlocked = True
         persistent.chapter_3_unlocked = True

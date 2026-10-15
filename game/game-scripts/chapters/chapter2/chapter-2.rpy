@@ -2,9 +2,6 @@ label chapter_2_rpy:
 
         call screen chapter_screen(_("Глава 2"), _("В поисках подруги"))
 
-        call krypton_firstmeet_flashback from _call_krypton_firstmeet_flashback
-
-
         call chapter2_act1_false_memories from _call_chapter2_act1_false_memories
         call chapter2_act2_long_night from _call_chapter2_act2_long_night
 

@@ -15,6 +15,8 @@ default persistent.firstlaunch = True
 default persistent.last_run_version = None 
 default persistent.seen_splash = False
 default persistent.first_game_warning_seen = False
+default persistent.prologue_completed = False
+default persistent.prologue_first_run = False
 
 
 # ------------------------------------------------------------------------------
@@ -153,6 +155,7 @@ label _intro_splash_sequence:
     hide screen splash_loader
     show game_title_logo at splash_logo_fixed_top
 
+    $ config.end_splash_transition = Dissolve(1.2)
     $ persistent.seen_splash = True
     return
 

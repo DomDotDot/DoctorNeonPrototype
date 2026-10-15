@@ -17,6 +17,20 @@ label splashscreen:
         $ renpy.load(save_name)
 
     # -----------------------------------------------------------
+    # 0. ПЕРВЫЙ ЗАПУСК: КИНЕМАТОГРАФИЧНЫЙ ПРОЛОГ
+    # -----------------------------------------------------------
+    if not getattr(persistent, "prologue_completed", False):
+        $ persistent.prologue_first_run = True
+        $ quick_menu = False
+        call krypton_firstmeet_flashback from _call_krypton_firstmeet_flashback_prologue
+        
+        # Фиксация параметров после завершения пролога
+        $ persistent.seen_splash = True
+        $ persistent.firstlaunch = False
+        $ persistent.last_run_version = config.version
+        return
+
+    # -----------------------------------------------------------
     # 1. ТЕХНИЧЕСКИЕ ПРОВЕРКИ (На черном фоне)
     # -----------------------------------------------------------
     scene black

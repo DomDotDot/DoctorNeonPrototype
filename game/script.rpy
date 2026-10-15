@@ -8,10 +8,14 @@ label start:
     stop ambient fadeout 1.0
     stop voice fadeout 1.0
 
-    #label chapter_0_prologue:
-    #        call chapter_0_prologue_rpy from _call_chapter_0_prologue_rpy
-
+    $ persistent.chapter_0_unlocked = True
     $ persistent.chapter_1_unlocked = True
+    jump chapter_1
+
+label chapter_0:
+    $ fix_chapter_names(0)
+    call krypton_firstmeet_flashback from _call_krypton_firstmeet_flashback_ch0
+    return
 
 label chapter_1:
     $ fix_chapter_names(1)
