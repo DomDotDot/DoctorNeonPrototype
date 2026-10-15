@@ -8,8 +8,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-119.8k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20782-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-120.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20790-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -126,10 +126,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **119 832** | `100%` |
-| **Total Script Lines** | **5 782** | `100%` |
-| Narration / Description | 79 533 words / 3 037 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 299 words / 2 745 lines | `33.6%` ███░░░░░░░ |
+| **Total Words** | **120 068** | `100%` |
+| **Total Script Lines** | **5 790** | `100%` |
+| Narration / Description | 79 756 words / 3 044 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 312 words / 2 746 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -142,21 +142,21 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 120 | 26 972 | `37.6%` ███░░░░░ |
-| **Chapter 5: An Offer You Can’t Refuse** | 37 | 951 | 15 384 | `38.2%` ███░░░░░ |
+| **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 620 | `37.7%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 302 | 8 027 | `24.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 782** | **119 832** | `33.6%` |
+| **TOTAL** | **158** | **5 790** | **120 068** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 168 | 13 749 | `34.1%` ███░░░░░ |
+| **Neon** | 1 168 | 13 765 | `34.1%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
-| **Argon** | 164 | 3 072 | `7.6%` █░░░░░░░ |
+| **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 501 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
@@ -195,8 +195,8 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Alex's Mom** | 9 | 129 | `0.3%` ░░░░░░░░ |
 | **Диктор Новостей** | 3 | 128 | `0.3%` ░░░░░░░░ |
 | **P.E. Teacher** | 14 | 123 | `0.3%` ░░░░░░░░ |
+| **ABSU / FCS** | 7 | 98 | `0.2%` ░░░░░░░░ |
 | **Часовой** | 14 | 96 | `0.2%` ░░░░░░░░ |
-| **ABSU / FCS** | 6 | 92 | `0.2%` ░░░░░░░░ |
 | **Bartender** | 4 | 91 | `0.2%` ░░░░░░░░ |
 | **Dr. Grubenmann (CRO)** | 3 | 82 | `0.2%` ░░░░░░░░ |
 | **Old Man** | 9 | 82 | `0.2%` ░░░░░░░░ |
