@@ -63,7 +63,7 @@ label splashscreen:
                     call screen language_selection_screen
                 $ persistent.firstlaunch = False
 
-            # Предупреждения о контенте и ИИ перенесены на первое нажатие «Новая игра»
+            # Предупреждения о контенте и ИИ перенесены на первое нажатие "Новая игра"
             # TODO: Настройки доступности (размер текста и т.д)
             # call screen accessibility_settings 
         else:
