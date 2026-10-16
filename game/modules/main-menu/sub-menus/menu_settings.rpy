@@ -303,7 +303,7 @@ screen settings_menu(current_tab="display"):
                 xfill True
                 yalign 0.5
 
-                text _("[[ Q / E ]] — Переключение разделов  •  [[ ESC ]] — Назад") substitute False size 12 color "#64748b" yalign 0.5
+                text _("[[ ESC ]] — Выйти") substitute False size 12 color "#64748b" yalign 0.5
 
                 textbutton _("← Назад"):
                     action Return()

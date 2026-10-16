@@ -176,15 +176,6 @@ screen pause_menu():
         hbox:
             xfill True
             yalign 0.5
-            hbox:
-                spacing 10
-                yalign 0.5
-                text "●" size 13 color "#f59e0b" at (pause_badge_pulse if not getattr(persistent, "disable_gpu_animations", False) else None) yalign 0.5
-                text _("ПАУЗА  •  [[ ТРЕКИНГ ЗАФИКСИРОВАН ]]") substitute False size 12 bold True color "#94a3b8" yalign 0.5
-            hbox:
-                xalign 1.0
-                yalign 0.5
-                text _("TAPE PLAYBACK // FROZEN") size 11 bold True color "#38bdf8" yalign 0.5
 
     # 4. Нижняя информационная плашка
     frame:
@@ -196,11 +187,11 @@ screen pause_menu():
         hbox:
             xfill True
             yalign 0.5
-            text _("[[ESC]] — ВОЗОБНОВИТЬ ИГРУ  •  АВТОСОХРАНЕНИЕ ДОСТУПНО В МЕНЮ") substitute False size 11 color "#64748b" yalign 0.5
+            text _("SEMITONE RESONANCE") substitute False size 11 color "#64748b" yalign 0.5
             hbox:
                 xalign 1.0
                 yalign 0.5
-                text _("DOCTOR NEON // MEMORY ARCHIVE") size 11 bold True color "#475569" yalign 0.5
+                text _("") size 11 bold True color "#475569" yalign 0.5
 
     # 5. Центральная модальная панель управления
     frame:
@@ -220,7 +211,7 @@ screen pause_menu():
                     spacing 10
                     text "⏸" size 26 bold True color "#38bdf8" yalign 0.5
                     text _("ПАУЗА") size 24 bold True color "#f8fafc" yalign 0.5
-                text _("КАДР ЗАФИКСИРОВАН • ВРЕМЯ ОСТАНОВЛЕНО") size 11 bold True color "#64748b" xalign 0.5
+                text _("[[ESC] - ВОЗОБНОВИТЬ ИГРУ") size 11 bold True color "#64748b" xalign 0.5
 
             # Разделитель
             frame:
