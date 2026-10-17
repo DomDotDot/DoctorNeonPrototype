@@ -126,9 +126,9 @@ To create a distribution for players (Windows/Linux/Mac):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 068** | `100%` |
+| **Total Words** | **120 070** | `100%` |
 | **Total Script Lines** | **5 790** | `100%` |
-| Narration / Description | 79 756 words / 3 044 lines | `66.4%` ███████░░░ |
+| Narration / Description | 79 758 words / 3 044 lines | `66.4%` ███████░░░ |
 | Spoken Dialogue (Characters) | 40 312 words / 2 746 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
@@ -142,13 +142,13 @@ To create a distribution for players (Windows/Linux/Mac):
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
 | **Chapter 4.5: From Exile to Constellation** | 22 | 1 120 | 26 972 | `37.6%` ███░░░░░ |
-| **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 620 | `37.7%` ███░░░░░ |
+| **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 622 | `37.7%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 302 | 8 027 | `24.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 790** | **120 068** | `33.6%` |
+| **TOTAL** | **158** | **5 790** | **120 070** | `33.6%` |
 
 ### Character Dialogue Distribution
 
