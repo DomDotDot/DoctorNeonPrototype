@@ -249,6 +249,15 @@ init python:
     build.classify('README.md', None)
     build.classify('README.ru.md', None)
     build.classify('LICENSE', None)
+    build.classify('*.md', None)
+    build.classify('errors.txt', None)
+    build.classify('traceback.txt', None)
+    build.classify('log.txt', None)
+    build.classify('audio_errors.txt', None)
+    build.classify('image_errors.txt', None)
+    build.classify('project.json', None)
+    build.classify('progressive_download.txt', None)
+    build.classify('game/modules/characters/characters-old.txt', None)
 
     # Изображения и исходники
     build.classify('game/dev-images/**', 'dev') # Backup rule if move failed

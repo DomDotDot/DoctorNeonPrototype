@@ -2,7 +2,7 @@
 # Экран предупреждения о контенте 18+ (Cyber-Glassmorphism Redesign)
 # ==============================================================================
 
-screen content_warning_screen():
+screen age_warning():
     tag menu
     modal True
     zorder 100

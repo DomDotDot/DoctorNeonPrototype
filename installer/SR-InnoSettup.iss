@@ -4,7 +4,7 @@
 
 #define MyAppName "The Brightest Neon - Semitone Resonance"
 #define MyProjectName "DoctorNeonPrototype"
-#define MyAppVersion "0.7.3-stable"
+#define MyAppVersion "0.8.8-early"
 #define MyAppPublisher "DomDot"
 #define MyAppURL ""
 #define MyAppExeName MyProjectName + ".exe"

@@ -17,9 +17,6 @@ init python:
         featured_images.sort()
 
         return featured_images, all_images
-        
-        img_list.sort()
-        return img_list
 
     def create_slideshow(images, slide_time, fade_time):
 

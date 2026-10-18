@@ -278,5 +278,5 @@ init -1 python:
     def select_random_questions(count=3):
         """Выбирает count рандомных вопросов из пула без повторений."""
         pool = list(AI_QUESTION_POOL)
-        random.shuffle(pool)
+        renpy.random.shuffle(pool)
         return pool[:count]

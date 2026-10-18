@@ -95,11 +95,6 @@ init -2 python:
             if self.icon:
                 if renpy.loadable(self.icon) or renpy.has_image(self.icon):
                     return self.icon
-                # Fallback для Linux/Android при различиях в регистре символов имени файла
-                if "absolutesilence.png" in self.icon.lower():
-                    for alt in ("images/achievements/absolutesIlence.png", "images/achievements/absolutesilence.png"):
-                        if renpy.loadable(alt) or renpy.has_image(alt):
-                            return alt
             if self.is_unlocked():
                 return "ach_default_icon_unlocked"
             return "ach_default_icon_locked"

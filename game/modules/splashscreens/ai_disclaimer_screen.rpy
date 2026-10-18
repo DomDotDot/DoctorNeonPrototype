@@ -15,7 +15,7 @@ init python:
         if hasattr(store, "add_notification"):
             add_notification("ai_disclaimer", title, msg)
 
-screen content_warning():
+screen ai_disclaimer():
     tag menu
     modal True
     zorder 100
