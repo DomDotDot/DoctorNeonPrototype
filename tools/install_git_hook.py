@@ -18,13 +18,13 @@ HOOK_SCRIPT_CONTENT = """#!/bin/sh
 # Auto-update story stats badges and tables in README files before commit
 echo "[Git Hook] Updating script dialogue stats in READMEs..."
 
-# Try Python
-if command -v python3 >/dev/null 2>&1; then
-    PYTHON_CMD="python3"
-elif command -v python >/dev/null 2>&1; then
+# Try Python (prioritize working command over Windows Store alias)
+if python --version >/dev/null 2>&1; then
     PYTHON_CMD="python"
-elif command -v py >/dev/null 2>&1; then
-    PYTHON_CMD="py"
+elif py -3 --version >/dev/null 2>&1; then
+    PYTHON_CMD="py -3"
+elif python3 --version >/dev/null 2>&1; then
+    PYTHON_CMD="python3"
 fi
 
 if [ -n "$PYTHON_CMD" ]; then
