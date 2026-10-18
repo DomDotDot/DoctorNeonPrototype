@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-03-12 00:20
+# TODO: Translation updated at 2026-03-12 00:20
 
 translate english_us strings:
 
@@ -73,4 +73,22 @@ translate english_us strings:
     # game/modules/updater/updater-screens.rpy:150
     old "Установить"
     new "Install"
+
+translate english_us strings:
+
+    old "Доступно обновление!"
+    new "Update Available!"
+
+    old "Текущая версия: [config.version!t]"
+    new "Current version: [config.version!t]"
+
+    old "Новая версия доступна в центре уведомлений."
+    new "New version is available in Notifications Center"
+
+    old "Подробнее"
+    new "More"
+
+    old "Позже"
+    new "Later"
+
 

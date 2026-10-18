@@ -1,3 +1,42 @@
+################################################################################
+## Базовые позиционные экранные трансформации персонажей и переходы
+################################################################################
+
+init:
+    transform flip:
+        xzoom -1.0
+        yalign 1.0
+
+    transform restore_flip:
+        xzoom 1.0
+        yalign 1.0
+
+    transform midright:
+        xalign 0.75
+        yalign 1.0
+
+    transform midleft:
+        xalign 0.25
+        yalign 1.0
+
+    transform enter_from_left(target_pos):
+        xalign -1.0
+        yalign 1.0
+        linear 0.7
+
+    transform enter_from_right(target_pos):
+        xalign -1.0
+        yalign 1.0
+        linear 0.25
+
+    $ flash = Fade(0.5, 0, 0.5, color="#FFFFFF")
+
+image white = "#FFFFFF"
+
+################################################################################
+## Кинематографичные эффекты движения, камеры и покачивания сцены
+################################################################################
+
 # Эффект легкого покачивания
 transform dizzy_sway:
     anchor (0.125, 0.125)

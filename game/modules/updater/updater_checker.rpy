@@ -1,4 +1,4 @@
-init python:
+init -995 python:
     if not renpy.variant("web"):
         import requests
     import threading
