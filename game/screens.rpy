@@ -226,8 +226,7 @@ screen navigation():
 
             textbutton _("Главное меню") action MainMenu()
 
-        textbutton _("Об игре") action ShowMenu("about")
-        textbutton _("Воспоминания") action ShowMenu("memory_recollection")
+        textbutton _("Об игре") action ShowMenu("about_menu")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
@@ -404,22 +403,7 @@ screen about():
 
     tag menu
 
-    ## Этот оператор включает игровое меню внутрь этого экрана. Дочерний vbox
-    ## включён в порт просмотра внутри экрана игрового меню.
-    use game_menu(_("Об игре"), scroll="viewport"):
-
-        style_prefix "about"
-
-        vbox:
-
-            label "[config.name!t]"
-            text _("Версия [config.version!t]\n")
-
-            ## gui.about обычно установлено в options.rpy.
-            if gui.about:
-                text "[gui.about!t]\n"
-
-            text _("Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+    use about_menu
 
 
 style about_label is gui_label
@@ -494,106 +478,7 @@ screen preferences():
 
     tag menu
 
-    use global_tooltip_display
-
-    use game_menu(_("Настройки"), scroll="viewport"):
-
-        vbox:
-
-            hbox:
-                box_wrap True
-
-                if renpy.variant("pc") or renpy.variant("web"):
-
-                    vbox:
-                        style_prefix "radio"
-                        label _("Режим экрана")
-                        textbutton _("Оконный") action Preference("display", "window")
-                        textbutton _("Полный") action Preference("display", "fullscreen")
-
-                vbox:
-                    style_prefix "check"
-                    label _("Пропуск")
-                    textbutton _("Всего текста") action Preference("skip", "toggle")
-                    textbutton _("После выборов") action Preference("after choices", "toggle")
-                    textbutton _("Переходов") action InvertSelected(Preference("transitions", "toggle"))
-
-                ## Дополнительные vbox'ы типа "radio_pref" или "check_pref"
-                ## могут быть добавлены сюда для добавления новых настроек.
-
-                vbox:
-                    style_prefix "radio"
-                    label _("✍️📜")
-                    textbutton "Русский" action Language(None)
-                    textbutton "English (US)" action Language("english_us")
-                vbox:
-                    style_prefix "check"
-                    textbutton _("Включение Чувствительнного контента (18+)"):
-                        action ToggleField(persistent, "sensitive_mode")
-                        tooltip _("Включает отображение откровенных сцен.")
-                    textbutton _("ИИ Чувствительность"):
-                        action ToggleField(persistent, "ai_sensitive_mode")
-
-            null height (4 * gui.pref_spacing)
-
-            hbox:
-                style_prefix "slider"
-                box_wrap True
-
-                #vbox:
-
-                    #label _("Скорость текста")
-
-                    #bar value Preference("text speed")
-
-                    #label _("Скорость авточтения")
-
-                    #bar value Preference("auto-forward time")
-
-                vbox:
-
-                    if config.has_music:
-                        label _("Громкость музыки")
-
-                        hbox:
-                            bar value Preference("music volume")
-
-                    if config.has_sound:
-
-                        label _("Громкость звуков")
-
-                        hbox:
-                            bar value Preference("sound volume")
-
-                            if config.sample_sound:
-                                textbutton _("Тест") action Play("sound", config.sample_sound)
-
-
-                    if config.has_voice:
-                        label _("Громкость голоса")
-
-                        hbox:
-                            bar value Preference("voice volume")
-
-                            if config.sample_voice:
-                                textbutton _("Тест") action Play("voice", config.sample_voice)
-
-                        label _("Громкость фоновых звуков")
-
-                        hbox:
-                            bar value Preference("ambient volume")
-
-                            if config.sample_voice:
-                                textbutton _("Тест") action Play("sound", config.sample_voice)
-
-                    if config.has_music or config.has_sound or config.has_voice:
-                        null height gui.pref_spacing
-
-                        textbutton _("Без звука"):
-                            action Preference("all mute", "toggle")
-                            style "mute_all_button"
-
-                    
+    use settings_menu
 
 
 style pref_label is gui_label
