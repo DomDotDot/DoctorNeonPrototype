@@ -1,4 +1,4 @@
-﻿## Данный файл содержит настройки, способные изменить вашу игру.
+## Данный файл содержит настройки, способные изменить вашу игру.
 ##
 ## Строки, начинающиеся  с двух '#' — комментарии, и вы не должны их
 ## раскомментировать. Строки, начинающиеся с одной '#' — комментированный код,
@@ -238,7 +238,7 @@ init python:
     build.classify('**/*.disabled', 'dev')
 
     build.classify('game/devtools/**', 'dev')
-    build.classify('build-compilers/**', None)
+    build.classify('installer/**', None)
     build.classify('**/renpy_warp_*.rpe*', None)
     build.classify('**/*.rpe.py', None)
     build.classify('game/cache/**', None)

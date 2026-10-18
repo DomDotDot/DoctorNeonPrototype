@@ -34,15 +34,21 @@ saves/
 #Disabled папка (director cut)
 disabled/
 
-# Бэкапы
+# Бэкапы и архивы
 *.bak
 *.rpyc.bak
 *.rpy.bak
 *.rpym.bak
 *.rpymc.bak
 *.new
+*.pdn
+*.7z
 *.zip
+*.save
 backups/
+unused/
+old-game/
+**/.vscode/
 
 # devtools
 game/dlc_manifest.json
