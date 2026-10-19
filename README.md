@@ -1,10 +1,19 @@
-# The Brightest Neon - Semitone Resonance
+<div align="center">
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.md)
-[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.ru.md)
+<h1>The Brightest Neon - Semitone Resonance</h1>
 
-![BannerVolume1](source_assets/promo/promoassets/BNSR-Poster-vol1.jpg)
-![BannerVolume2](source_assets/promo/promoassets/BNSR-Poster-vol2.png)
+<p align="center">
+  <img src="source_assets/promo/logos/window_icon600-600.png" alt="Project Logo" width="150">
+</p>
+
+<img src="source_assets/promo/promoassets/certified-ai-slop.png" alt="Certificated AI Slop" width="480">
+
+<p><strong>A Sci-Fi Mystery Kinetic Novel</strong></p>
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/releases)
+[![RenPy](https://img.shields.io/badge/Ren'Py-8.5.x-faa61a?style=flat-square&logo=renpy)](https://www.renpy.org/)
+[![GitHub Release](https://img.shields.io/github/v/release/Masterain98/discord-quest-helper?label=latest%20release&color=41b883)](https://github.com/DomDotDot/DomDotDot/DoctorNeonPrototype/releases/latest)
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
@@ -13,10 +22,17 @@
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
-![RenPy](https://img.shields.io/badge/Ren'Py-8.x-faa61a?style=flat-square&logo=renpy)
-[![License](https://img.shields.io/github/license/DomDotDot/DoctorNeonPrototype?style=flat-square)](LICENSE)
-> A Sci-Fi Mystery Kinetic Novel.
+<br>
+
+![BannerVolume1](source_assets/promo/promoassets/BNSR-Poster-vol1.jpg)
+
+![BannerVolume2](source_assets/promo/promoassets/BNSR-Poster-vol2.png)
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.md)
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/blob/main/README.ru.md)
+
+</div>
+
 
 ## Project Structure
 
