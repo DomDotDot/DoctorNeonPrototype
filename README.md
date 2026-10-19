@@ -6,14 +6,14 @@
   <img src="source_assets/promo/logos/window_icon600-600.png" alt="Project Logo" width="150">
 </p>
 
-<img src="source_assets/promo/promoassets/certified-ai-slop.png" alt="Certificated AI Slop" width="480">
+<img src="source_assets/promo/promoassets/certified-ai-slop.png" alt="Certified AI Slop" width="480">
 
-<p><strong>A Sci-Fi Mystery Kinetic Novel</strong></p>
+<p><strong>A Sci-Fi Mystery Kinetic Novel powered by Ren'Py</strong></p>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](https://github.com/DomDotDot/DoctorNeonPrototype/releases)
 [![RenPy](https://img.shields.io/badge/Ren'Py-8.5.x-faa61a?style=flat-square&logo=renpy)](https://www.renpy.org/)
-[![GitHub Release](https://img.shields.io/github/v/release/Masterain98/discord-quest-helper?label=latest%20release&color=41b883)](https://github.com/DomDotDot/DomDotDot/DoctorNeonPrototype/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/DomDotDot/DoctorNeonPrototype?style=flat-square&color=41b883)](https://github.com/DomDotDot/DoctorNeonPrototype/releases/latest)
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
@@ -33,107 +33,209 @@
 
 </div>
 
+---
 
-## Project Structure
+## About the Project
 
-This repository contains the **source code** of the project (Developer View).
-Folder layout:
+**The Brightest Neon - Semitone Resonance** is a story-rich, atmosphere-heavy sci-fi kinetic visual novel. The game features deep narrative branching, a distinct futuristic neon noir aesthetic, rich audio design, and custom GLSL shader visual effects.
+
+---
+
+## Repository Structure
 
 ```text
 .
-├── game/                   #   MAIN GAME FOLDER
-│   ├── audio/              # Music and SFX
-│   ├── devtools/           # Tools for game development
-│   ├── fonts/              # Game fonts
-│   ├── game-scripts/       # Game scripts (rpy)
-│   ├── gui/                # Ren'Py GUI elements
-│   ├── images/             # Sprites, BGs, and CGs (included in the build)
-│   ├── libs/               # 3rd Party libraries
-│   ├── modules/            # Game modules
-│   ├── tl/                 # Translation folder
-│   ├── launch.rpy          # Pre-menu workflow
-│   ├── script.rpy          # Main script
-│   ├── options.rpy         # Build config and settings
+├── game/                   # CORE GAME ASSETS & CODE
+│   ├── audio/                # In-game music and sound effects (SFX)
+│   ├── devtools/             # Developer debug utilities and cheats
+│   ├── fonts/                # Custom typography and font subsets
+│   ├── game-scripts/         # Story dialogue scripts (.rpy) organized by chapters & flashbacks
+│   ├── gui/                  # Ren'Py GUI themes, frames, and widgets
+│   ├── images/               # In-game sprites, backgrounds (BG), and event CGs
+│   ├── libs/                 # Third-party Python libraries & helper modules
+│   ├── modules/              # Modular subsystems (audio, gallery, glossary, save/load, shaders)
+│   ├── tl/                   # Official translations (Russian, English)
+│   ├── launch.rpy            # Initialization workflow & boot sequence
+│   ├── script.rpy            # Script entry point
+│   ├── options.rpy           # Build configuration, window title, and archive rules
+│   └── screens.rpy           # UI screen definitions
 │
-├── source_assets/          #   PROMO & SOURCE FILES
-│   ├── images/             # Source images for game assets
-│   ├── legacy/             # Legacy assets (no longer used)
-│   ├── pdn-sketches/       # Paint.NET Source files
-│   ├── promo/              # Steam/Itch.io assets
-│   └── ...                 # (These files are NOT included in the final build)
+├── mods/                   # NATIVE COMMUNITY MODS DIRECTORY
+│   ├── mod_example_cyberpunk/# Reference modular mod demonstrating Mod API
+│   ├── mod_toki_pona/        # Community translation pack example
+│   └── <your_mod>/           # Place community mods and language packs here
 │
-├── .gitignore              # Git ignore list (cache, saves)
-└── README.md               # Project documentation
+├── source_assets/          # RAW SOURCE ASSETS (TRACKED VIA GIT LFS)
+│   ├── audio/                # Uncompressed/raw soundtracks and stems
+│   ├── images/               # Master character art, layered cutouts, PSD/PDN sketches
+│   └── promo/                # High-res posters, banners, and store media
+│                             # (Excluded from production game builds automatically)
+│
+├── tools/                  # DEVELOPER TOOLS & AUTOMATION
+│   ├── script_stats_linter.py # Dialogue & word counter / README updater
+│   └── install_git_hook.py    # Pre-commit hook installer
+│
+├── .gitattributes          # Git LFS filter rules for binary source assets
+├── .gitignore              # Ignored build caches, saves, and binaries
+└── README.md               # English project documentation
 ```
 
 ---
 
-## How to Run (For Developers)
+## Getting Started (For Developers)
 
-1.  Install the **[Ren'Py SDK](https://www.renpy.org/latest/)** (Version 8.x+ recommended).
-2.  Clone this repository or download the ZIP.
-3.  Open the Ren'Py Launcher.
-4.  Go to **"Preferences"** -> **"Projects Directory"** and select the folder where this repo is located.
-5.  Click **"Refresh"**. The project should appear in the list.
-6.  Click **"Launch Project"** to start the game.
+### Prerequisites
 
----
+1. **[Ren'Py SDK](https://www.renpy.org/latest/)**: Version **8.2+** (8.5.x recommended).
+2. **[Git](https://git-scm.com/)** and **[Git LFS](https://git-lfs.com/)**: Required for pulling large source artwork and audio.
+3. **[Python 3.10+](https://www.python.org/)**: For running developer tools and linters.
 
-## Development Process (Git Flow)
+### Setup Steps
 
-We use a simple branching structure:
-
-*   🔴 **`main`** — Stable version. Only tested code goes here. This branch must always run without errors.
-*   🟡 **`dev`** — Main development branch. All active work and new ideas happen here.
-*   🔵 **`feature/name`** — Temporary branches for major mechanics (e.g., `feature/inventory` or `feature/minigame`). Once finished, they are merged into `dev` and deleted.
-
-### How to contribute:
-1.  Switch to the `dev` branch.
-2.  Make your changes to the code/script.
-3.  Verify that it runs correctly in Ren'Py.
-4.  Commit your changes (`git commit`).
-5.  When the update is ready for release, merge `dev` into `main`.
-
----
-
-## Contributing & Modding
-
-This is an **Open Source** project. I encourage mods, fan translations, and community code improvements.
-You **do not need** to unpack `.rpa` archives or decompile the game. The entire source code is available right here.
-
-### How to submit changes (Pull Requests)
-
-Follow the standard GitHub flow:
-1.  **Fork** this repository.
-2.  Make changes in your fork.
-3.  Create a **Pull Request (PR)** to the `dev` branch (or `main` for critical hotfixes).
-4.  Once reviewed, I will merge your changes into the game.
+1. **Clone the repository and pull LFS objects:**
+   ```bash
+   git clone https://github.com/DomDotDot/DoctorNeonPrototype.git
+   cd DoctorNeonPrototype
+   git lfs install
+   git lfs pull
+   ```
+2. **Install pre-commit hook (recommended):**
+   ```bash
+   python tools/install_git_hook.py
+   ```
+   *This hook automatically recalculates script word counts, badge metrics, and dialogue tables in `README.md` and `README.ru.md` before each commit.*
+3. **Configure Git Rebase (prevents merge clutter across multiple machines):**
+   ```bash
+   git config pull.rebase true
+   git config rebase.autoStash true
+   ```
+4. **Launch with Ren'Py:**
+   * Open the **Ren'Py Launcher**.
+   * In **Preferences** -> **Projects Directory**, select the directory containing this repo.
+   * Refresh the list, select **DoctorNeonPrototype**, and click **Launch Project**.
 
 ---
 
-### For Coders & Modders
+## Native Modding System & Community Content
 
-If you want to add a feature or fix a bug:
-*   Try not to modify existing files (`script.rpy`) unless it's a bug fix.
-*   It's better to create a new file (e.g., `game/modules/module/my_feature.rpy`) — Ren'Py will detect it automatically. This reduces merge conflicts.
-*   Use `init python` blocks or separate `labels` so your logic doesn't break the main plot flow.
+The game features a **full built-in native mod loader and manager**. You do **not** need to decompile files, extract `.rpa` archives, or touch core source files to create or install mods.
 
-### Developer Tools & Script Linter
+### For Players: Installing & Managing Mods
 
-*   **Story & Dialogue Stats Linter**: Run `tools/update_stats.bat` (or `python tools/script_stats_linter.py`) to automatically analyze dialogue, word counts, and refresh the badges and statistics in the README.
+1. In the game's **Main Menu** or **Settings**, open **"Community Content & Mods"** (`Коммьюнити Контент и Моды`).
+2. Toggle the master switch to **🟢 ENABLED** (accepting the community content notice).
+3. Click **"Open Mods Folder"** to open your local `mods/` directory, and paste any downloaded mod folder there.
+4. From the in-game Mod Manager, you can:
+   * **Toggle mods on/off** individually without restarting the game.
+   * **Adjust load priorities** for mods that override similar assets.
+   * **Filter and search** mods by category (*Translation*, *Asset Replacement*, *Script*, *Modular*).
+   * **Configure custom mod settings** via in-game sliders, toggles, and selectors.
+
+---
+
+### For Mod Creators: Creating a Mod
+
+Every mod is an isolated folder located in the root `mods/` directory:
+```text
+mods/
+└── my_cool_mod/
+    ├── mod.json            # Required: Mod manifest metadata
+    ├── icon.png            # Optional: 128x128 preview icon
+    ├── settings.json       # Optional: Custom in-game settings schema
+    └── my_script.rpy       # Custom Ren'Py code, screens, or hooks
+```
+
+#### 1. The Mod Manifest (`mod.json`)
+Create a `mod.json` inside your mod directory:
+
+```json
+{
+  "id": "my_cool_mod",
+  "name": "My Neon Overhaul",
+  "version": "1.0.0",
+  "author": "YourName",
+  "type": "modular",
+  "description": "Adds custom shaders, dialogue scenes, and a HUD overlay.",
+  "target_version": "0.8.x",
+  "priority": 10,
+  "icon": "icon.png",
+  "has_settings": true,
+  "settings_file": "settings.json"
+}
+```
+
+#### Supported Mod Types (`type`)
+* **`modular`**: Full-fledged code mods injecting custom Python logic, shaders, screens, and audio.
+* **`translation`**: Community language translations. Automatically mounted into Ren'Py's translation search paths.
+* **`asset_replacement`**: Overrides existing sprites, backgrounds, GUI textures, or music seamlessly without modifying core files.
+* **`script`**: Adds new story branches, side-stories, or bonus chapters.
+
+#### 2. Mod API: Hooks & Screen Overlays
+The engine provides clean APIs for hooking into core gameplay without causing code conflicts:
+
+```python
+init python:
+    # 1. Register an event hook
+    def on_game_pulse(*args, **kwargs):
+        print("Mod hook received game pulse event!")
+    register_mod_hook("game_pulse", on_game_pulse)
+
+    # 2. Register an overlay screen (category: "main_menu", "ingame", or "all")
+    register_mod_overlay("my_custom_hud_screen", mod_id="my_cool_mod", category="ingame", order=10)
+
+    # 3. Read interactive mod settings configured by the player
+    custom_volume = get_mod_setting("my_cool_mod", "neon_intensity", default=100)
+```
+
+#### 3. Interactive Settings (`settings.json`)
+If `"has_settings": true`, the Mod Manager dynamically builds an in-game options menu for your mod:
+```json
+{
+  "neon_intensity": {
+    "type": "slider",
+    "title": "Neon Glow Intensity",
+    "default": 80,
+    "min": 0,
+    "max": 100,
+    "step": 5
+  },
+  "enable_cyber_sfx": {
+    "type": "toggle",
+    "title": "Enable Cybernetic Audio Filter",
+    "default": true
+  }
+}
+```
+
+> **Reference Example:** Check out [`mods/mod_example_cyberpunk/`](mods/mod_example_cyberpunk/) for a complete working implementation of scripts, hooks, overlays, and custom settings.
 
 ---
 
-## Building
+## Contributing & Pull Requests
 
-To create a distribution for players (Windows/Linux/Mac):
-1. Open the Ren'Py Launcher.
-2. Select the project.
-3. Click **"Build Distributions"**.
-4. Files from `source_assets` and Git system files are **automatically excluded** from the build (configured in `options.rpy`).
+Contributions and fan improvements are always welcome!
 
+1. **Fork** the repository and clone your fork.
+2. Create a feature branch: `git checkout -b feature/awesome-feature`.
+3. Keep changes focused and test thoroughly in Ren'Py.
+4. Run the stats linter if story scripts were edited:
+   ```bash
+   python tools/script_stats_linter.py
+   ```
+5. Commit and open a **Pull Request** against the **`dev`** branch.
 
 ---
+
+## Building Distributions
+
+To package a standalone release for players (Windows, Linux, macOS):
+1. Open the project in the **Ren'Py Launcher**.
+2. Click **"Build Distributions"**.
+3. Select your desired formats (e.g. PC: Windows + Linux, Mac).
+4. Build rules in `game/options.rpy` ensure `source_assets/`, Git metadata, and developer scratch files are automatically stripped from release archives.
+
+---
+
 
 <!-- SCRIPT_STATS:START -->
 ## Story & Script Statistics
@@ -214,15 +316,15 @@ To create a distribution for players (Windows/Linux/Mac):
 | **ABSU / FCS** | 7 | 98 | `0.2%` ░░░░░░░░ |
 | **Часовой** | 14 | 96 | `0.2%` ░░░░░░░░ |
 | **Bartender** | 4 | 91 | `0.2%` ░░░░░░░░ |
-| **Dr. Grubenmann (CRO)** | 3 | 82 | `0.2%` ░░░░░░░░ |
 | **Old Man** | 9 | 82 | `0.2%` ░░░░░░░░ |
+| **Dr. Grubenmann (CRO)** | 3 | 82 | `0.2%` ░░░░░░░░ |
 | **Bandit 1** | 4 | 75 | `0.2%` ░░░░░░░░ |
 | **Headteacher** | 3 | 74 | `0.2%` ░░░░░░░░ |
-| **Bandit 2** | 3 | 72 | `0.2%` ░░░░░░░░ |
 | **Automaton** | 9 | 72 | `0.2%` ░░░░░░░░ |
+| **Bandit 2** | 3 | 72 | `0.2%` ░░░░░░░░ |
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
-| **Unknown Female** | 2 | 65 | `0.2%` ░░░░░░░░ |
 | **Kai Ito** | 4 | 65 | `0.2%` ░░░░░░░░ |
+| **Unknown Female** | 2 | 65 | `0.2%` ░░░░░░░░ |
 | **Bartender Staff** | 4 | 63 | `0.2%` ░░░░░░░░ |
 | **Concierge** | 4 | 62 | `0.2%` ░░░░░░░░ |
 | **Mika Kitamura** | 4 | 58 | `0.1%` ░░░░░░░░ |
@@ -241,38 +343,38 @@ To create a distribution for players (Windows/Linux/Mac):
 | **News Anchor** | 1 | 27 | `0.1%` ░░░░░░░░ |
 | **Security Captain** | 3 | 25 | `0.1%` ░░░░░░░░ |
 | **Student C** | 1 | 25 | `0.1%` ░░░░░░░░ |
-| **Consultant** | 2 | 24 | `0.1%` ░░░░░░░░ |
-| **Guard** | 4 | 24 | `0.1%` ░░░░░░░░ |
 | **Control Officer** | 4 | 24 | `0.1%` ░░░░░░░░ |
-| **Рико** | 1 | 24 | `0.1%` ░░░░░░░░ |
+| **Guard** | 4 | 24 | `0.1%` ░░░░░░░░ |
 | **Concierge (Female)** | 3 | 24 | `0.1%` ░░░░░░░░ |
+| **Consultant** | 2 | 24 | `0.1%` ░░░░░░░░ |
+| **Рико** | 1 | 24 | `0.1%` ░░░░░░░░ |
 | **Worker 2** | 2 | 23 | `0.1%` ░░░░░░░░ |
 | **Отец** | 1 | 22 | `0.1%` ░░░░░░░░ |
 | **CEO's Voice** | 1 | 21 | `0.1%` ░░░░░░░░ |
 | **Medrobot** | 3 | 20 | `0.0%` ░░░░░░░░ |
 | **Commander** | 2 | 19 | `0.0%` ░░░░░░░░ |
 | **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
-| **Shareholder 2's Voice** | 1 | 16 | `0.0%` ░░░░░░░░ |
 | **Mercenary Commander** | 3 | 16 | `0.0%` ░░░░░░░░ |
 | **Fan 4** | 2 | 16 | `0.0%` ░░░░░░░░ |
-| **Vendor** | 1 | 15 | `0.0%` ░░░░░░░░ |
+| **Shareholder 2's Voice** | 1 | 16 | `0.0%` ░░░░░░░░ |
 | **Student B** | 1 | 15 | `0.0%` ░░░░░░░░ |
+| **Vendor** | 1 | 15 | `0.0%` ░░░░░░░░ |
 | **Student 1** | 1 | 13 | `0.0%` ░░░░░░░░ |
 | **Student 1 (Girl)** | 1 | 13 | `0.0%` ░░░░░░░░ |
-| **Passenger** | 1 | 11 | `0.0%` ░░░░░░░░ |
 | **Voice** | 3 | 11 | `0.0%` ░░░░░░░░ |
+| **Passenger** | 1 | 11 | `0.0%` ░░░░░░░░ |
 | **Father** | 1 | 9 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1's Voice** | 1 | 9 | `0.0%` ░░░░░░░░ |
+| **Celeste (Phantom)** | 1 | 8 | `0.0%` ░░░░░░░░ |
+| **Fan 5** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Security Commander** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Парень** | 1 | 8 | `0.0%` ░░░░░░░░ |
-| **Fan 5** | 1 | 8 | `0.0%` ░░░░░░░░ |
-| **Celeste (Phantom)** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Boy** | 2 | 7 | `0.0%` ░░░░░░░░ |
 | **Bully 2** | 1 | 7 | `0.0%` ░░░░░░░░ |
 | **Bully 1** | 1 | 6 | `0.0%` ░░░░░░░░ |
-| **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Courier** | 1 | 6 | `0.0%` ░░░░░░░░ |
+| **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Bodyguard** | 2 | 5 | `0.0%` ░░░░░░░░ |
 | **Passerby** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Clara** | 3 | 4 | `0.0%` ░░░░░░░░ |
@@ -288,10 +390,10 @@ To create a distribution for players (Windows/Linux/Mac):
 
 This project uses a hybrid license to encourage learning and modding while protecting proprietary content.
 
-*   💻 **Source Code** (Logic, Mechanics, GUI) is licensed under **MIT**.
+*   **Source Code** (Logic, Mechanics, GUI) is licensed under **MIT**.
     *   *You are free to use the code in your own projects, even commercial ones.*
-*   🎨 **Story & Assets** (Script, Graphics, Music, Characters) are licensed under **CC BY-NC-SA 4.0**.
+*   **Story & Assets** (Script, Graphics, Music, Characters) are licensed under **CC BY-NC-SA 4.0**.
     *   *You are free to create mods, translations, and fan art.*
-    *   *⛔ **Commercial use is prohibited.** You cannot sell the game or its assets.*
+    *   ***Commercial use is prohibited.** You cannot sell the game or its assets.*
 
 See [LICENSE](LICENSE) for the full text.

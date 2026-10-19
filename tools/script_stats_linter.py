@@ -583,7 +583,7 @@ def generate_statistics_section(data: dict, lang: str = "ru") -> str:
         role = get_character_role(spk)
         char_list.append((disp_name, sdata["lines"], sdata["words"], role))
 
-    char_list.sort(key=lambda x: x[2], reverse=True)
+    char_list.sort(key=lambda x: (-x[2], -x[1], x[0]))
 
     main_char_rows = []
     minor_char_rows = []
