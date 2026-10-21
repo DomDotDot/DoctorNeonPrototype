@@ -1916,3 +1916,413 @@ translate english_us chapter4_5_finale_ade8edae:
     # neon "{=thoughts}Она как газ, который поднимается из разломов земли. Тяжелый, красный, убивающий все живое. Она уже не человек."
     neon "{=thoughts}She's like a gas rising from the earth's fissures. Heavy, red, killing everything alive. She's no longer human."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:176
+translate english_us chapter4_5_finale_967921e3:
+
+    # narrator "Она царапалась, толкала, висла на руках, кусалась — безумная марионетка, чьи нити дергала невидимая рука. Живой щит и живое оружие."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:176
+translate english_us chapter4_5_finale_3090ebf7:
+
+    # narrator "Но Аргон не стал стрелять. Он даже не поднял кулака."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:176
+translate english_us chapter4_5_finale_f2faa6fe:
+
+    # narrator "С глухим стоном он перехватил ее запястья, прижимая к себе, блокируя удары собственным телом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:176
+translate english_us chapter4_5_finale_f88f8663:
+
+    # narrator "Шаг за шагом, оступаясь на мокрых досках, он потащил бьющуюся в истерике дочь назад — в глубину горящей студии, к пожарному выходу и лестнице, подальше от улицы и смертоносного голоса Серафины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:176
+translate english_us chapter4_5_finale_3157c525:
+
+    # narrator "Они скрылись в клубах дыма."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:176
+translate english_us chapter4_5_finale_e3ee973d:
+
+    # narrator "И я осталась одна. Под хлещущим ливнем. Наедине с ней."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_ee2e42b4:
+
+    # narrator "Серафина посмотрела вслед Аргону. Потом медленно перевела взгляд на меня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_6de1a48c:
+
+    # narrator "Бежать было некуда — со стороны проспекта уже доносился нарастающий вой сирен, а переулок упирался в глухую стену."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_f51ce1f1:
+
+    # narrator "Но главное... бежать было бессмысленно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_89e773d0:
+
+    # narrator "Ее фасад рухнул. Тонкая фарфоровая маска непорочного айдола раскололась на куски прямо на моих глазах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_3742275b:
+
+    # narrator "Она видела, как я смотрю на нее. В моем взгляде не было ни следа обожания. Ни капли той слепой веры, которой питался ее аватар. Только ледяная пустота и брезгливость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_2f0a0bc6:
+
+    # narrator "Для той, чье существование держалось лишь на чужом поклонении, этот взгляд был страшнее выстрела в упор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_e7956436:
+
+    # narrator "Ее дрожащие пальцы потянулись к волосам. Там, среди мокрых золотистых прядей, все еще держалась дешевая стеклянная заколка — два розовых сердца."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:192
+translate english_us chapter4_5_finale_26b37e66:
+
+    # narrator "Серафина глухо, надсадно зарычала."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:210
+translate english_us chapter4_5_finale_6a795160:
+
+    # seraphina "Я просто хотела, чтобы смотрели на меня! Но она сбежала! Она бросила этот трон, и я... Просто подобрала его!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:210
+translate english_us chapter4_5_finale_4a75baef:
+
+    # seraphina "Если вы видите во мне чудовище... тогда я буду чудовищем!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:228
+translate english_us chapter4_5_finale_005e471d:
+
+    # narrator "Она с силой рванула заколку из волос, выдирая светлые пряди с корнем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:228
+translate english_us chapter4_5_finale_243417a1:
+
+    # narrator "И с диким, ненавидящим оскалом швырнула ее об асфальт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:228
+translate english_us chapter4_5_finale_5b7958e1:
+
+    # narrator "Розовое стекло разлетелось в мелкую крошку, потонув в грязной луже."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:228
+translate english_us chapter4_5_finale_6a46afad:
+
+    # narrator "Она отреклась от последнего напоминания о человеке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:228
+translate english_us chapter4_5_finale_2ec91bd8:
+
+    # narrator "И в следующую секунду, с хищным визгом, бросилась на меня. Ее пальцы удлинились, превращаясь в черные зазубренные когти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:228
+translate english_us chapter4_5_finale_69d513db:
+
+    # narrator "Я попыталась увернуться, но ноги поехали по скользкой жиже."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:327
+translate english_us chapter4_5_finale_23370c0b:
+
+    # narrator "Она судорожно вцепилась в подол платья, пытаясь призвать рой, обрушить на меня ту самую ядовитую мошкару из своего улья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:327
+translate english_us chapter4_5_finale_ac00bd50:
+
+    # narrator "Но из-под белой ткани не вылетело ни единого живого существа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:327
+translate english_us chapter4_5_finale_c8ff50de:
+
+    # narrator "Ни жужжания, ни крыльев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:327
+translate english_us chapter4_5_finale_ec2b4ec3:
+
+    # narrator "Лишь тяжелый, черный дым лениво клубился вокруг ее подола. Ее власть развеялась — разбитая вера не могла удержать форму роя."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:337
+translate english_us chapter4_5_finale_3aeeefc9:
+
+    # neon "{=thoughts}Она слабеет! Нужно сбросить ее!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:362
+translate english_us chapter4_5_finale_59f6852b:
+
+    # narrator "Она снова оказалась сверху. Ее когти впились мне в плечи. Она тяжело, прерывисто дышала, глядя на меня с ядовитой, застарелой обидой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:364
+translate english_us chapter4_5_finale_2784ca88:
+
+    # seraphina "Я хотела тебя... искренне! Я предлагала тебе всё!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:364
+translate english_us chapter4_5_finale_74bf2d47:
+
+    # seraphina "Что может быть лучше, чем быть со мной?! Первой! Лучшей! Любимой!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:364
+translate english_us chapter4_5_finale_23f0eb4e:
+
+    # seraphina "А ты... ты снова смотришь на меня, как на грязь под ногтями!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:364
+translate english_us chapter4_5_finale_34f95f4c:
+
+    # seraphina "Строишь из себя святую? Невинную жертву обстоятельств?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:364
+translate english_us chapter4_5_finale_03d93e52:
+
+    # seraphina "Я ведь заглянула тебе в душу."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:364
+translate english_us chapter4_5_finale_bb73d87b:
+
+    # seraphina "Думаешь, я не видела, ЧТО там за стеной твоего холода?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_9aa80446:
+
+    # seraphina envious3 "Тебе ведь всё преподнесли на блюдечке, да?!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_20fb3be8:
+
+    # seraphina envious3 "Твоя драгоценная тетка... эта всемогущая тварь!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_4815b0c7:
+
+    # seraphina envious3 "Она выскоблила тебе память, как гнилую мякоть! Вырезала всё под корень — твое детство, золотые нити, ту чудовищную силу, от которой тебя берегла мать!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_8d0f9a84:
+
+    # seraphina envious3 "Тебе просто стёрли боль! Подарили чистое, спокойное небытие, чтобы спасти от распада! Чтобы ты ходила по улицам с незапятнанной совестью!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_2e6ca008:
+
+    # seraphina envious3 "А меня..."
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_5159d57a:
+
+    # seraphina envious3 "Когда я захлебывалась чужими голосами... когда меня разрывало от зависти и страха... кто пришел спасти меня?! А?!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_73ceb476:
+
+    # seraphina envious3 "Никто! Меня просто вышвырнули вон! Назвали чудовищем, воровкой, ничтожеством!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_5e2eb24c:
+
+    # seraphina envious3 "Я ХОТЕЛА СДОХНУТЬ!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_d95ff3b4:
+
+    # seraphina envious3 "Почему тебе можно быть сломанной, пустотелой куклой — и тебя все защищают?! Почему ради тебя этот старик лезет под пули?!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:380
+translate english_us chapter4_5_finale_02e1a1e6:
+
+    # seraphina envious3 "А мне... мне нельзя даже взять чужое лицо, чтобы меня хоть кто-то полюбил?!"
+    seraphina envious3 ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:402
+translate english_us chapter4_5_finale_0061fa25:
+
+    # neon "{=thoughts}Тетя?.."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:402
+translate english_us chapter4_5_finale_00cadc1c:
+
+    # neon "{=thoughts}Нити душ... Мама?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:402
+translate english_us chapter4_5_finale_4e85d2c2:
+
+    # neon "{=thoughts}О чем она говорит? В моей памяти лишь глухой, серый туман... Но почему от ее слов в груди разливается такой ледяной, раздирающий ужас?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:414
+translate english_us chapter4_5_finale_486c866a:
+
+    # narrator "Увидев растерянность в моих глазах, Серафина оскалилась, пытаясь нащупать другую болевую точку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:414
+translate english_us chapter4_5_finale_6a182475:
+
+    # narrator "Она с силой вцепилась в воротник моей блузки, притягивая к себе, и шумно втянула носом воздух."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:420
+translate english_us chapter4_5_finale_c5f6c08f:
+
+    # seraphina "Да посмотри на себя! Ты ведь даже одета в чужие тряпки!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:420
+translate english_us chapter4_5_finale_914718d8:
+
+    # seraphina "Думаешь, я не узнаю? Запах Сары..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:420
+translate english_us chapter4_5_finale_fb6c7272:
+
+    # seraphina "Ты стащила чужую одежду, чтобы прикинуться прилежной девочкой из академии!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:420
+translate english_us chapter4_5_finale_f7cec1be:
+
+    # seraphina "Ты такая же воровка, Неон! Ты точно так же паразитируешь на чужой жизни, чтобы выжить! Ах-Ха-ха! Ты такая же, как я!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:420
+translate english_us chapter4_5_finale_a4ea9c0b:
+
+    # seraphina "Так почему ты смотришь на меня свысока?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:432
+translate english_us chapter4_5_finale_f2931a78:
+
+    # seraphina "{=yell}ОТВЕЧАЙ!{/yell}" with vpunch
+    seraphina "" with vpunch
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:434
+translate english_us chapter4_5_finale_cea93b9c:
+
+    # narrator "Она выкрикнула это прямо мне в лицо, ожидая увидеть стыд. Ожидая, что я расплачусь, начну оправдываться, сломаюсь под тяжестью ее обвинений."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:434
+translate english_us chapter4_5_finale_acf37fcd:
+
+    # narrator "Но внутри меня не было стыда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:434
+translate english_us chapter4_5_finale_2472dee6:
+
+    # narrator "Слова о тете и маме ранили глубоко, но там, где Серафина искала вину за одежду Сары, она наткнулась на глухую стену."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:434
+translate english_us chapter4_5_finale_2047073d:
+
+    # narrator "Форма была лишь утилитарным ресурсом. Способом пройти через турникет, чтобы раскрыть правду. Я не забирала душу Сары. Я не выжигала ее личность, чтобы примерить ее лицо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:434
+translate english_us chapter4_5_finale_210d7559:
+
+    # narrator "Мой взгляд стал абсолютно, пугающе неподвижным."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:434
+translate english_us chapter4_5_finale_c9aba67e:
+
+    # narrator "Серафина почувствовала этот ледяной вакуум. Ее триумф мгновенно рассыпался, сменившись растерянной паникой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:450
+translate english_us chapter4_5_finale_cd52e5ce:
+
+    # narrator "Она отшатнулась, ее пальцы на моем воротнике разжались."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:450
+translate english_us chapter4_5_finale_cb137738:
+
+    # narrator "Перед ней был не человек, которого можно было сломать обвинениями. Перед ней была бездна, поглощающая любой звук."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:450
+translate english_us chapter4_5_finale_fd31456f:
+
+    # narrator "И от этого глухого бессилия она сорвалась на жалкий, детский, обиженный вопль:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:458
+translate english_us chapter4_5_finale_d0bb1c78:
+
+    # seraphina "Ты... Ты... твердолобая... высокомерная... крашеная сука!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:464
+translate english_us chapter4_5_finale_9f0423b4:
+
+    # narrator "'Крашеная сука'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:488
+translate english_us chapter4_5_finale_f3102cdb:
+
+    # narrator "Я почувствовала прилив силы. Той самой, что спасла меня у поездов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/11-deadwall.rpy:558
+translate english_us chapter4_5_finale_4983af0a:
+
+    # seraphina "Она... она зажила!"
+    seraphina ""
+

@@ -632,3 +632,491 @@ translate english_us chapter1_meeting_start_63c0a3e3:
     # narrator "Она снова почувствовала себя той девочкой. Маленькой, другой, неправильной."
     narrator "She felt like that little girl again. Small, different, wrong."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
+translate english_us chapter1_meeting_start_af41a0f8:
+
+    # narrator "Административный ярус встретил меня чужой, лощеной роскошью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
+translate english_us chapter1_meeting_start_b3cad7b7:
+
+    # narrator "Здесь отсутствовал привычный запах машинного масла и кабельной изоляции. Вместо линолеума под ногами пружинили глухие ковровые дорожки, стены были обшиты полированным орехом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
+translate english_us chapter1_meeting_start_81a7e520:
+
+    # narrator "Здесь царило густое, давящее безмолвие власти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
+translate english_us chapter1_meeting_start_0efddd7c:
+
+    # narrator "За тонированными стеклами мелькали таблички: \n 'Финансовый департамент' \n 'Дирекция стратегического развития' \n 'Служба правового контроля'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:6
+translate english_us chapter1_meeting_start_9bc0bf24:
+
+    # narrator "Люди в безупречных двойках скользили мимо, не удостаивая меня взглядом. Для них я оставалась расходным персоналом в помятом халате."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:23
+translate english_us chapter1_meeting_start_40997a90:
+
+    # narrator "Конференц-зал номер один."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:23
+translate english_us chapter1_meeting_start_ef479fef:
+
+    # narrator "Обычно здесь принимали правительственные делегации и зарубежных инвесторов. С какой стати рядовой ученый совет созвали в главном зале дирекции?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:23
+translate english_us chapter1_meeting_start_46b19d76:
+
+    # narrator "Тяжелая дубовая створка с медной гравировкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:23
+translate english_us chapter1_meeting_start_8624148d:
+
+    # narrator "Я замерла на пороге, судорожно сжимая в пальцах рукописные черновики. В горле пересохло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:23
+translate english_us chapter1_meeting_start_368a15cc:
+
+    # narrator "Решающий момент. Сейчас решится всё."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:35
+translate english_us chapter1_meeting_start_db305d94:
+
+    # narrator "Я толкнула массивную дверь и шагнула внутрь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_51ac9306:
+
+    # narrator "Вместо привычной аудитории со скрипучими стульями передо мной предстал парадный зал заседаний."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_feb1cb08:
+
+    # narrator "Огромный овальный стол темного дерева, кожаные кресла. Панорамные окна наглухо занавешены тяжелым бархатом, проекционный экран в торце пока темен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_9ce8baf1:
+
+    # narrator "За столом уже сидели члены правления. Во главе — генеральный директор Эрих Бауманн, холодный прагматик с тяжелым взглядом хищника."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_09ff03d9:
+
+    # narrator "Рядом с ним — мой прямой начальник, доктор Ульрих Грубенманн, насупленный и желчный, как старый коршун."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_33e70569:
+
+    # narrator "Но больше всего меня ошарашило присутствие посторонних: лощеные господа с золотыми запонками, совет директоров в полном составе, и несколько статусных академиков, никогда не снисходивших до рядовых семинаров."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_07da72f3:
+
+    # narrator "Алекс среди них не было. Обстановка напоминала закрытый трибунал или правительственный прием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_399e460f:
+
+    # narrator "Взгляд сам упал на мои мятые листки с каракулями от руки. Меня обдало ледяным потом: зачитывать наспех набросанные формулы перед этим ареопагом было равносильно публичной казни."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:42
+translate english_us chapter1_meeting_start_d4a0fac5:
+
+    # narrator "Бауманн заметил меня и скупо, снисходительно кивнул."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:60
+translate english_us chapter1_meeting_start_96746cd9:
+
+    # ceo "А, доктор Неон. Проходите, присаживайтесь. Мы как раз собирались начинать."
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:60
+translate english_us chapter1_meeting_start_d9c15f31:
+
+    # ceo "Господин Вютрих любезно оставил для вас место."
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:66
+translate english_us chapter1_meeting_start_e4485db5:
+
+    # narrator "Вютрих? Я на секунду растерялась, перебирая в памяти фамилии руководства."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:66
+translate english_us chapter1_meeting_start_13b58421:
+
+    # narrator "И тут человек, сидевший спиной к двери, вальяжно обернулся."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:66
+translate english_us chapter1_meeting_start_aeccd074:
+
+    # narrator "Маркус."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:76
+translate english_us chapter1_meeting_start_96803329:
+
+    # narrator "Вместо привычного халата на нем красовался дорогой костюм-тройка индиго, шелковый галстук и идеальная укладка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:76
+translate english_us chapter1_meeting_start_7db4d342:
+
+    # narrator "На губах играла самодовольная, скользкая усмешка триумфатора."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:76
+translate english_us chapter1_meeting_start_f01c5d37:
+
+    # narrator "Он небрежно похлопал ладонью по кожаному сиденью рядом с собой, словно подзывая дворовую собаку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:76
+translate english_us chapter1_meeting_start_7a24b3d1:
+
+    # narrator "Я на ватных ногах дошла до стола и опустилась на край кресла, прижимая черновики к груди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:89
+translate english_us chapter1_meeting_start_897f7fbb:
+
+    # cro "Кхм! Господа, объявляю внеочередное совместное заседание совета директоров и научного комитета открытым."
+    cro ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:89
+translate english_us chapter1_meeting_start_0fb1f8c2:
+
+    # cro "На повестке дня — эпохальный фундаментальный прорыв в области радиоастрономии и поиска внеземных цивилизаций."
+    cro ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:97
+translate english_us chapter1_meeting_start_a436ef56:
+
+    # narrator "Маркус слегка склонился ко мне и вкрадчиво зашептал прямо в ухо, стараясь перекрыть сухой голос председателя:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:99
+translate english_us chapter1_meeting_start_37e7c902:
+
+    # marcus "{=whisper}Доктор Неон, вы ведь не будете против, если я возьму слово первым?"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:99
+translate english_us chapter1_meeting_start_66707adb:
+
+    # marcus "{=whisper}У меня полностью упакованный материал, а после заседания ждут неотложные дела в министерстве."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:104
+translate english_us chapter1_meeting_start_2e1fb51f:
+
+    # narrator "В голове звенело. Его костюм, тон, это нелепое барство — пазл упорно отказывался складываться."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:106
+translate english_us chapter1_meeting_start_10e9b59d:
+
+    # neon shy "Твое выступление? Марк, с каких пор ты ведешь независимые разработки такого масштаба?"
+    neon shy ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:107
+translate english_us chapter1_meeting_start_fb71ae18:
+
+    # neon "Впрочем... говори, если готов. Я послушаю."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:109
+translate english_us chapter1_meeting_start_2ba28d11:
+
+    # neon neutral "Но почему Бауманн собрал совет? Это же не плановое обсуждение..."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:111
+translate english_us chapter1_meeting_start_7cec7223:
+
+    # cro "...слово для доклада предоставляется ведущему специалисту проекта, господину Маркусу Вютриху."
+    cro ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:113
+translate english_us chapter1_meeting_start_3dc1e6c5:
+
+    # narrator "Маркус даже не дослушал мой вопрос. Он победоносно встал, расправил лацканы пиджака и вышел к трибуне."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:117
+translate english_us chapter1_meeting_start_2b6e8f89:
+
+    # marcus suit_smug "Благодарю, господин председатель. Господа директора."
+    marcus suit_smug ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:121
+translate english_us chapter1_meeting_start_d598be13:
+
+    # narrator "В душе шевельнулась странная тревога."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:121
+translate english_us chapter1_meeting_start_ce936d0f:
+
+    # narrator "Мой скромный лаборант внезапно выступает перед верхушкой концерна? Что он мог открыть в ночную смену за моей спиной?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:121
+translate english_us chapter1_meeting_start_b3a6a0a5:
+
+    # narrator "Но стоило щелкнуть пульту проектора, как свет в зале погас."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:131
+translate english_us chapter1_meeting_start_4ddf8e99:
+
+    # marcus "Уважаемые члены совета! Коллеги!"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:131
+translate english_us chapter1_meeting_start_7fb97a56:
+
+    # marcus "Для меня величайшая честь представить вам результаты моей закрытой исследовательской программы."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:131
+translate english_us chapter1_meeting_start_8f6cc807:
+
+    # marcus "Мне удалось не только зафиксировать аномалию в секторе Дельта-4..."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:131
+translate english_us chapter1_meeting_start_559ba1b2:
+
+    # marcus "...но и впервые в мировой истории полностью дешифровать когерентный сигнал внеземного происхождения!"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:142
+translate english_us chapter1_meeting_start_96bfaa9b:
+
+    # narrator "Воздух мгновенно выбило из моих легких."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:142
+translate english_us chapter1_meeting_start_053135e1:
+
+    # narrator "На гигантском экране развернулись мои графики. Мои спектрограммы. Мои дешифрованные матрицы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:142
+translate english_us chapter1_meeting_start_cfc25866:
+
+    # narrator "Каждая цифра, каждый интеграл, над которыми я корпела сорок восемь бессонных часов, сжигая остатки рассудка!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:142
+translate english_us chapter1_meeting_start_ffce6e7f:
+
+    # narrator "Он украл всё. До последнего байта."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:152
+translate english_us chapter1_meeting_start_002ab2be:
+
+    # neon "Но... постойте... это же..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:154
+translate english_us chapter1_meeting_start_ae16d54b:
+
+    # narrator "Мой голос сорвался на хриплый шепот, но в гробовой тишине зала он прозвучал как выстрел. Все лица разом повернулись в мою сторону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:156
+translate english_us chapter1_meeting_start_f561d876:
+
+    # ceo "Доктор Неон? Вы хотите сделать ремарку?"
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:164
+translate english_us chapter1_meeting_start_1a2f38c8:
+
+    # narrator "Я подскочила на ноги; тяжелое кресло с визгом отлетело назад. Пальцы яростно ткнули в светящийся экран."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:166
+translate english_us chapter1_meeting_start_c24ea4f2:
+
+    # neon frustration "Это моя работа! Это мой сигнал! Мои уравнения и мои спектры! Какого черта эти данные на его слайдах?!"
+    neon frustration ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:168
+translate english_us chapter1_meeting_start_adfce8cc:
+
+    # marcus "Доктор Неон, я понимаю ваш нервный срыв. Возможно, вы параллельно вели схожие расчеты..."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:168
+translate english_us chapter1_meeting_start_c6a17243:
+
+    # marcus "Однако представленные результаты — итог исключительно моих бессонных ночей и персонального алгоритма."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:168
+translate english_us chapter1_meeting_start_32ac6bba:
+
+    # marcus "Сегодня утром я лично ознакомил доктора Грубенманна с исходными логами. Он проверил весь массив данных и полностью подтвердил мое авторство."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:168
+translate english_us chapter1_meeting_start_b59cc78d:
+
+    # marcus "Наука жестока, доктор. Но списывать собственную нерасторопность на чужой плагиат — просто недостойно."
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:178
+translate english_us chapter1_meeting_start_c16e9dbe:
+
+    # ceo "Доктор Неон, вы выдвигаете тягчайшие обвинения. У вас есть протоколы верификации? Нотариально заверенные логи с серверов?"
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:180
+translate english_us chapter1_meeting_start_311df36d:
+
+    # neon shy "Я... я принесла доклад! Вот, я готова зачитать выкладки прямо сейчас!"
+    neon shy ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:182
+translate english_us chapter1_meeting_start_d84bb271:
+
+    # narrator "Я судорожно взмахнула рукописными листами, но в глазах директоров отразилась лишь брезгливая насмешка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:184
+translate english_us chapter1_meeting_start_7185afc3:
+
+    # neon "Формат изменили без предупреждения... Я рассчитывала на рабочий семинар..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:186
+translate english_us chapter1_meeting_start_000598aa:
+
+    # cro "Доктор Неон! Довольно позориться!"
+    cro ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:186
+translate english_us chapter1_meeting_start_8a2bcb66:
+
+    # cro "Где ваши квартальные отчеты, которые вы обязаны были сдать мне на подпись до полудня? Их нет! Официально вы не вели никакой полезной деятельности!"
+    cro ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:186
+translate english_us chapter1_meeting_start_e4f2bec1:
+
+    # cro "И вы смеете являться на высокое заседание правления с какими-то мятыми черновиками, устраивая истерику?! Вы отдаете себе отчет, где находитесь?!"
+    cro ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:194
+translate english_us chapter1_meeting_start_1c18a824:
+
+    # narrator "Кровь бросилась мне в лицо от невыносимого, жгучего стыда. Слова Грубенманна хлестали наотмашь, как мокрые плети."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:196
+translate english_us chapter1_meeting_start_91ab8ebc:
+
+    # ceo "Ульрих, довольно. Сохраняйте профессиональный тон."
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:196
+translate english_us chapter1_meeting_start_8e901bf3:
+
+    # ceo "Господин Вютрих действительно уведомил меня сегодня на рассвете. Продемонстрированные им предварительные результаты настолько грандиозны, что промедление было недопустимо."
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:196
+translate english_us chapter1_meeting_start_0d7fc8ac:
+
+    # ceo "Продолжайте презентацию, господин Вютрих."
+    ceo ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_289466be:
+
+    # narrator "Всё встало на свои места."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_b11cbce3:
+
+    # narrator "Кофе. Снотворное. Утренняя спешка. Личные договоренности с верхушкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_b4ba868d:
+
+    # narrator "Он хладнокровно вырезал мое имя из истории науки, а совет директоров с готовностью проглотил наживку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_3357e1b2:
+
+    # narrator "Остальное выступление Маркуса доносилось до меня словно сквозь толщу мутной воды."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_1d6599fe:
+
+    # narrator "Слова, аплодисменты директоров, восторженный шепот — всё это превратилось в один удушающий, липкий шум."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_27cd8053:
+
+    # narrator "Я не помню, как вышла из зала. Просто встала и побрела прочь, оставив свои бесполезные рукописи на столе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_0879d160:
+
+    # narrator "Я рухнула на кожаный диван в пустом коридоре напротив дверей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_4a2d74ff:
+
+    # narrator "Ледяная, вымороженная пустота. Мои годы, мои бессонные ночи, моя мечта — всё обращено в пыль."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_66782d39:
+
+    # narrator "И снова — этот ядовитый привкус унижения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/4-meeting-start.rpy:209
+translate english_us chapter1_meeting_start_1be64809:
+
+    # narrator "Шум в ушах начал сгущаться, возвращая меня в кошмар школьного класса, где каждый взгляд сверлил спину..."
+    narrator ""
+

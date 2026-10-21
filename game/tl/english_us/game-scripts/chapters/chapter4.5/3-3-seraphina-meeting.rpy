@@ -1216,3 +1216,1145 @@ translate english_us chapter4_5_concert_end_6c00f015:
     # neon "А… И еще... твои фанатки. Они... ...странные..."
     neon "Ah.. And also... your fans. They are... um... weird..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:4
+translate english_us chapter4_5_concert_end_83b81a52:
+
+    # narrator "Серафина увлекла меня за собой, цепко держа за запястье. Ее тонкие пальцы были пугающе холодными, точно мрамор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:4
+translate english_us chapter4_5_concert_end_5cc12f12:
+
+    # narrator "Мы углублялись в чрево выставочного комплекса. Вокруг расстилались сумеречные, покинутые толпой павильоны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:4
+translate english_us chapter4_5_concert_end_56bf905b:
+
+    # narrator "Цоканье ее каблуков гулким эхом металось под высокими фермами потолка. Она шла торопливо, почти тащила меня, словно опасаясь, что я вырвусь и растворюсь в переходах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:4
+translate english_us chapter4_5_concert_end_4ec179cb:
+
+    # narrator "Миновав стеклянные витрины, мы свернули в глухой технический коридор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:18
+translate english_us chapter4_5_concert_end_bf3b6d3f:
+
+    # narrator "Она притормозила у глухой металлической двери без таблички. Короткое касание магнитной карты к считывателю — зуммер тихо пискнул."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:18
+translate english_us chapter4_5_concert_end_15ee5bd7:
+
+    # narrator "Замок щелкнул, створка подалась внутрь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:24
+translate english_us chapter4_5_concert_end_9df0d2a2:
+
+    # seraphina "Сюда! Прошу, заходи скорее!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:28
+translate english_us chapter4_5_concert_end_21d4a469:
+
+    # narrator "Я переступила порог."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:30
+translate english_us chapter4_5_concert_end_1748169b:
+
+    # narrator "Серафина юркнула следом, и за нашими спинами тут же захлопнулась тяжелая звукоизолирующая дверь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:35
+translate english_us chapter4_5_concert_end_4998ffcd:
+
+    # narrator "Тяжелый засов встал на место. Серафина прижалась спиной к полотну и прерывисто, с облегчением выдохнула."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:47
+translate english_us chapter4_5_concert_end_24cbca05:
+
+    # narrator "Она прикрыла глаза тыльной стороной ладони."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:47
+translate english_us chapter4_5_concert_end_35ea868c:
+
+    # narrator "Глянцевая, выверенная до миллиметра маска национального кумира осыпалась, уступив место капризной, преувеличенной усталости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:47
+translate english_us chapter4_5_concert_end_f812fbb7:
+
+    # narrator "В следующую секунду она уже подскочила ко мне, бесцеремонно перехватила мои ладони и заглянула снизу вверх с виноватой улыбкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_e9d0a3eb:
+
+    # seraphina "Я такая дура перед тобой!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_c9bece15:
+
+    # seraphina "Я сразу заметила тебя у ограждения, но не могла даже подмигнуть! Пришлось стоять с каменным лицом!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_f9762ee1:
+
+    # seraphina "Контракт обязывает держать дистанцию..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_abccf5b7:
+
+    # seraphina "Эта чертова автограф-сессия... вспышки, давка... все это часть гребаной витрины."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_b8a81790:
+
+    # seraphina "Ты даже не представляешь, как тошно изо дня в день соответствовать этим... человеческим ожиданиям."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_4eaa03c7:
+
+    # seraphina "Когда на тебя пялятся тысячи голодных глаз, и ты обязана быть святой, желанной и недосягаемой одновременно..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:55
+translate english_us chapter4_5_concert_end_2c279bf7:
+
+    # seraphina "Меня от этого просто выворачивает..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:75
+translate english_us chapter4_5_concert_end_e54d6d3e:
+
+    # narrator "Она отпустила мои руки и плавной походкой направилась к угловому мини-бару, расправляя пышные белые оборки на подоле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:75
+translate english_us chapter4_5_concert_end_5277a116:
+
+    # narrator "Офис выглядел подчеркнуто стерильно. Панорамная стена с видом на неоновые шпили центра, глубокий кожаный диван, пара кресел и кофейный столик с электрическим чайником. Все безликое, дорогое, снятое на пару часов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:81
+translate english_us chapter4_5_concert_end_aef30118:
+
+    # seraphina "Хотя... ладно. Извини меня. Я слишком много болтаю."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:81
+translate english_us chapter4_5_concert_end_f412070c:
+
+    # seraphina "Может, Чаю~?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:81
+translate english_us chapter4_5_concert_end_30c7dab5:
+
+    # seraphina "Я заварю что-нибудь с травами."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:81
+translate english_us chapter4_5_concert_end_905e632c:
+
+    # seraphina "Нам обеим нужно сбросить это напряжение~"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:91
+translate english_us chapter4_5_concert_end_06986155:
+
+    # narrator "Ее голос звучал мягко, с приторной, обволакивающей заботой. Но внутри этой сладости чудилось странное, давящее покалывание."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:91
+translate english_us chapter4_5_concert_end_d19bf106:
+
+    # narrator "Легкий, зудящий звон на границе слуха, словно кто-то нашептывал прямо под череп: 'Согласись... выпей... присядь...'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:97
+translate english_us chapter4_5_concert_end_d7043641:
+
+    # neon "{=thoughts}Нервы шалят после бессонной ночи в низине."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:97
+translate english_us chapter4_5_concert_end_b1314a89:
+
+    # neon "Да, спасибо. Не откажусь."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:105
+translate english_us chapter4_5_concert_end_fe68f49b:
+
+    # narrator "Я согласилась не из-за этого навязчивого морока, а чтобы не тянуть время и поскорее перейти к сути."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:105
+translate english_us chapter4_5_concert_end_1b433330:
+
+    # narrator "Серафина оживилась и зашуршала фарфоровыми чашками у столика."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:105
+translate english_us chapter4_5_concert_end_7b2e6afa:
+
+    # narrator "Я опустилась в низкое кресло, пытаясь стряхнуть липкую тревогу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:105
+translate english_us chapter4_5_concert_end_f6106b99:
+
+    # narrator "Ее сетования на тяжелую долю звезды звучали эмоционально, но в них сквозила заученная театральность. Будто передо мной разыгрывали сценку 'девочка без друзей ищет понимания', чтобы выбить кредит доверия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:114
+translate english_us chapter4_5_concert_end_596a45ca:
+
+    # narrator "Она с улыбкой поставила передо мной блюдце. Я сделала осторожный глоток. Сладковатый цветочный настой с ярким жасмином, под которым пряталась едва различимая лекарственная горечь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:118
+translate english_us chapter4_5_concert_end_d23d47a0:
+
+    # neon "Спасибо. Серафина, теперь о Селестии..."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:122
+translate english_us chapter4_5_concert_end_523ede47:
+
+    # narrator "Она тут же взмахнула рукой, перебивая меня, и грациозно опустилась в кресло напротив, тяжело вздохнув."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_13853622:
+
+    # seraphina looking-down "Пожалуйста... я умоляю тебя."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_83469255:
+
+    # seraphina looking-down "Давай хотя бы пять минут без вопросов и допросов!"
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_16bde8c4:
+
+    # seraphina looking-down "У меня голова раскалывается..."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_19e7cffb:
+
+    # seraphina looking-down "Только рядом с тобой я могу наконец выдохнуть и быть..."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_233d992d:
+
+    # seraphina looking-down "...настоящей."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_a755ea26:
+
+    # seraphina looking-down "Не куклой с постеров, а просто собой."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_d6256a2a:
+
+    # seraphina looking-down "Обычной девчонкой, которая хочет спокойно посидеть в тишине. Но мне не дают..."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:124
+translate english_us chapter4_5_concert_end_51862d39:
+
+    # seraphina looking-down "Пожалуйста...?"
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:144
+translate english_us chapter4_5_concert_end_6a67e90b:
+
+    # narrator "Она уставилась на меня с такой неприкрытой мольбой, что на мгновение мне стало не по себе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:144
+translate english_us chapter4_5_concert_end_9beb2be9:
+
+    # narrator "Но я сидела неподвижно, ожидая, когда эта прелюдия закончится."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:150
+translate english_us chapter4_5_concert_end_d87368b4:
+
+    # seraphina looking-away "Каждая минута на людях — это цирк."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:150
+translate english_us chapter4_5_concert_end_b97a9153:
+
+    # seraphina looking-away "Ты скалишься в объективы, когда внутри все сжимается от злости."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:150
+translate english_us chapter4_5_concert_end_9c946b26:
+
+    # seraphina looking-away "Машешь ручкой толпе, а чувствуешь себя брошенной на помойке."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:150
+translate english_us chapter4_5_concert_end_ed33897b:
+
+    # seraphina looking-away "Эти так называемые 'фанаты'... они ведь любят не меня. Я чувствую. Они... смотрят на 'картинку', которую сами себе намалевали."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:150
+translate english_us chapter4_5_concert_end_a710f7ea:
+
+    # seraphina looking-away "Тащат подарки, шлют слюнявые признания, но оступись ты хоть на миллиметр..."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:150
+translate english_us chapter4_5_concert_end_297af5be:
+
+    # seraphina looking-away "И та же самая свора, что орала твое имя, с наслаждением втопчет тебя в грязь."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:164
+translate english_us chapter4_5_concert_end_18992099:
+
+    # narrator "Она явно тянула резину. Каждое слово, каждая театральная пауза были рассчитаны на то, чтобы отодвинуть разговор о Селестии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:164
+translate english_us chapter4_5_concert_end_8e84a92f:
+
+    # narrator "Она жадно выпрашивала жалость, пытаясь привязать меня к себе чувством вины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:171
+translate english_us chapter4_5_concert_end_1e92a430:
+
+    # neon "Звучит безрадостно."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:173
+translate english_us chapter4_5_concert_end_fde71d93:
+
+    # seraphina looking-away "'Безрадостно' — это мягко сказано."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:173
+translate english_us chapter4_5_concert_end_43f9faef:
+
+    # seraphina looking-away "Это душная золотая клетка."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:173
+translate english_us chapter4_5_concert_end_694a20dd:
+
+    # seraphina looking-away "Он был чертовски прав..."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:181
+translate english_us chapter4_5_concert_end_57ed6bf6:
+
+    # seraphina thankful "Впрочем, к чему эти сопли?"
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:181
+translate english_us chapter4_5_concert_end_0b8a687d:
+
+    # seraphina thankful "Я безумно рада, что ты пришла, Неон."
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:181
+translate english_us chapter4_5_concert_end_c32a282b:
+
+    # seraphina thankful "Ты не такая, как они. Ты смотришь не на сценический макияж. Ты сверлишь меня взглядом насквозь."
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:181
+translate english_us chapter4_5_concert_end_97607fde:
+
+    # seraphina thankful "Ты ищешь правду."
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:181
+translate english_us chapter4_5_concert_end_edff8927:
+
+    # seraphina thankful "Ты ведь тоже знаешь, каково это — быть белой вороной? Чужой среди нормальных людей?"
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:193
+translate english_us chapter4_5_concert_end_8ad424e8:
+
+    # narrator "Она подалась вперед через столик, понизив голос до интимного шепота. Ее глаза блестели слишком жадно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:195
+translate english_us chapter4_5_concert_end_b76d6a78:
+
+    # seraphina surprised "Кстати, расскажи честно! Как тебе шоу? Голос, свет? Понравилось?"
+    seraphina surprised ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:197
+translate english_us chapter4_5_concert_end_57aa565e:
+
+    # neon "Вокал чистый. Такой же сильный, как в оранжерее."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:197
+translate english_us chapter4_5_concert_end_ba542e95:
+
+    # neon "Но в динамиках стоял посторонний фон. Низкий, монотонный гул. Возможно, наводка в звуковом тракте?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:203
+translate english_us chapter4_5_concert_end_b77fb20e:
+
+    # narrator "Серафина на долю секунды оцепенела, уголок ее рта нервно дернулся."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:205
+translate english_us chapter4_5_concert_end_c51f4523:
+
+    # seraphina thinking "Фон? Странно... Ни один звукарь не пикнул. Видимо, у тебя слишком чувствительные ушки, Неон."
+    seraphina thinking ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:206
+translate english_us chapter4_5_concert_end_695671bc:
+
+    # seraphina unhappy "Но я непременно устрою разнос технической группе!"
+    seraphina unhappy ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:207
+translate english_us chapter4_5_concert_end_fefd9e56:
+
+    # seraphina neutral "Спасибо за наблюдательность, милая!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:209
+translate english_us chapter4_5_concert_end_50ee829c:
+
+    # neon "И... твоя публика в первых рядах. Они вели себя... странно."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:212
+translate english_us chapter4_5_concert_end_a806d65d:
+
+    # neon "Слишком отрешенно. Как будто их накачали транквилизаторами."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:216
+translate english_us chapter4_5_concert_end_ae2f64b0:
+
+    # neon "Одна девушка рядом со мной вообще не реагировала на слова. Стояла как завороженная."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:222
+translate english_us chapter4_5_concert_end_0647c051:
+
+    # narrator "В этот момент возле моего правого виска раздался тонкий, назойливый зуд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:222
+translate english_us chapter4_5_concert_end_08d64822:
+
+    # narrator "Комар или мелкая мошка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:222
+translate english_us chapter4_5_concert_end_24c2c058:
+
+    # narrator "Я поморщилась и дернула головой, отгоняя насекомое."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:222
+translate english_us chapter4_5_concert_end_3113eb84:
+
+    # narrator "Но звук не пропал. Он завис прямо у ушной раковины — ровный, противный, вибрирующий писк."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:233
+translate english_us chapter4_5_concert_end_bd0cd6db:
+
+    # seraphina neutral "Ой, брось!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:233
+translate english_us chapter4_5_concert_end_51312085:
+
+    # seraphina neutral "Фанаты на концертах всегда не в себе. Эмоциональный перегруз, духота в зале и так далее."
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:233
+translate english_us chapter4_5_concert_end_ac6ea31d:
+
+    # seraphina neutral "Это... просто чистая любовь!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:241
+translate english_us chapter4_5_concert_end_989f569e:
+
+    # seraphina shocked "Ах, кстати, совсем забыла!"
+    seraphina shocked ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:241
+translate english_us chapter4_5_concert_end_b5b8903d:
+
+    # seraphina shocked "Как твоя ладонь?"
+    seraphina shocked ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:241
+translate english_us chapter4_5_concert_end_688d3eb9:
+
+    # seraphina shocked "Ранка затянулась?"
+    seraphina shocked ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:249
+translate english_us chapter4_5_concert_end_a5313fcf:
+
+    # neon "Да. К утру все прошло. Ни следа."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:251
+translate english_us chapter4_5_concert_end_afb79679:
+
+    # seraphina neutral "Вот видишь! Мой пластырь сотворил чудо! Ну? Неужели я не заслужила? Скажи... ну же?"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:255
+translate english_us chapter4_5_concert_end_8a44164f:
+
+    # neon "За что?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:257
+translate english_us chapter4_5_concert_end_305f8597:
+
+    # seraphina @ wink "Ну скажи, что я молодец! Тебе жалко, что ли?"
+    seraphina @ wink ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:259
+translate english_us chapter4_5_concert_end_4fbe647a:
+
+    # neon "Спасибо. Ты молодец."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:261
+translate english_us chapter4_5_concert_end_882488c0:
+
+    # neon "{=thoughts}Она напрашивается на одобрение, как избалованный ребенок. Что за неестественная манера? Ей определенно нужна постоянная фиксация внимания на себе.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:264
+translate english_us chapter4_5_concert_end_cc00f926:
+
+    # narrator "Зуд повторился с удвоенной силой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:264
+translate english_us chapter4_5_concert_end_1f93262e:
+
+    # narrator "Тонкий, сверлящий писк прямо у самого слухового прохода. Я резко махнула рукой, рассекая воздух, но жужжание даже не сбилось с ритма."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:264
+translate english_us chapter4_5_concert_end_a8166ca2:
+
+    # narrator "Этот звук стремился забраться внутрь, под барабанную перепонку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:264
+translate english_us chapter4_5_concert_end_73a1417c:
+
+    # narrator "Серафина продолжала щебетать, но ее слова начали тонуть в этой монотонной вибрации."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:274
+translate english_us chapter4_5_concert_end_a03bcbb5:
+
+    # narrator "Краем глаза я заметила крошечную черную точку. Мошка летела не хаотично, а по прямой, упрямо целясь мне прямо в ухо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:280
+translate english_us chapter4_5_concert_end_e180ee30:
+
+    # narrator "Серафина поднесла чашку к губам, глядя на меня поверх фарфорового края с пристальным, ледяным выжиданием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:284
+translate english_us chapter4_5_concert_end_a881744d:
+
+    # seraphina "А знаешь, Неон... Мы ведь идеально подходим друг другу."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:284
+translate english_us chapter4_5_concert_end_0022138f:
+
+    # seraphina "Мне так безумно хочется твоего т- {nw}"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:294
+translate english_us chapter4_5_concert_end_9cba07d7:
+
+    # narrator "Инстинкт сработал раньше размышлений. Я резко, со всей силы влепила ладонью себе по уху, захлопывая доступ назойливой твари."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:299
+translate english_us chapter4_5_concert_end_4b75ffc5:
+
+    # narrator "Я отняла ладонь и посмотрела на кожу. Ничего. Ни раздавленного тельца, ни темного пятна, ни следа влаги. Словно я ударила по пустоте. Но мерзкий писк оборвался."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:300
+translate english_us chapter4_5_concert_end_28063499:
+
+    # neon "{=thoughts}Странно... Я же точно ее прихлопнула... Ни следа.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:302
+translate english_us chapter4_5_concert_end_e451d593:
+
+    # narrator "И тут тишину разорвал звук напротив — жуткий, нечеловеческий хрип."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:304
+translate english_us chapter4_5_concert_end_706aa7e4:
+
+    # narrator "Серафина, секунду назад изящно сидевшая нога на ногу, судорожно выгнулась дугой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:304
+translate english_us chapter4_5_concert_end_8d32be6e:
+
+    # narrator "Ее зрачки закатились под веки. Она захлебнулась чаем, темная струя брызнула на белоснежный лиф платья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:304
+translate english_us chapter4_5_concert_end_6008fc75:
+
+    # narrator "Тонкая фарфоровая чашка выскользнула из сведенных судорогой пальцев и вдребезги разлетелась об пол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:304
+translate english_us chapter4_5_concert_end_12ace18c:
+
+    # narrator "Айдол свалилась с кресла на ковер, вцепившись обеими руками в собственные уши. Ее тело забилось в тяжелых, немых конвульсиях, точно от удара высоковольтным разрядом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:317
+translate english_us chapter4_5_concert_end_948a75ce:
+
+    # narrator "Ее голос сорвался в утробный, шипящий рык, переполненный ядовитой злобой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:317
+translate english_us chapter4_5_concert_end_6ba0d9e8:
+
+    # narrator "Но наваждение длилось долю секунды."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:317
+translate english_us chapter4_5_concert_end_e6c27093:
+
+    # narrator "Она судорожно втянула воздух сквозь зубы и замахала руками, натягивая привычную мину испуганной дурочки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:331
+translate english_us chapter4_5_concert_end_6478464a:
+
+    # seraphina "Ой... боже... прости! Я просто... зачем ты так внезапно хлопаешь?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:331
+translate english_us chapter4_5_concert_end_74409549:
+
+    # seraphina "У меня перепонки чуть не лопнули!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:331
+translate english_us chapter4_5_concert_end_82ee3b34:
+
+    # seraphina "Ну то есть... напугала до смерти! Нельзя же так резко!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:341
+translate english_us chapter4_5_concert_end_5927844a:
+
+    # neon "Я... извини. Тут летала какая-то мошка, прямо в ухо лезла."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:343
+translate english_us chapter4_5_concert_end_83b600b8:
+
+    # narrator "Серафина торопливо поднялась на ноги, брезгливо обходя лужу пролитого чая и осколки. Ее плечи все еще подрагивали, но тон вновь стал поучительно-приторным."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:345
+translate english_us chapter4_5_concert_end_b6233226:
+
+    # seraphina shocked "Ну... ну нельзя же так же-сто-ко!"
+    seraphina shocked ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:345
+translate english_us chapter4_5_concert_end_bea67c3f:
+
+    # seraphina shocked "Каким бы крошечным ни было создание, как бы тускло оно ни мерцало... нельзя просто брать и давить его!"
+    seraphina shocked ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:351
+translate english_us chapter4_5_concert_end_65f52157:
+
+    # seraphina looking-down "Я... я не выношу жестокости в своем мире. Не выношу разделения на высших и низших."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:351
+translate english_us chapter4_5_concert_end_9fad84b2:
+
+    # seraphina looking-down "Я хочу поднимать тех, кто упал на дно, давать им место рядом со мной!"
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:351
+translate english_us chapter4_5_concert_end_f6b87082:
+
+    # seraphina looking-down "Чтобы их таланты служили... то есть общему благу. Под моей заботой, под моим светом."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:359
+translate english_us chapter4_5_concert_end_d7cc14dc:
+
+    # seraphina thankful "Понимаешь меня?"
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:361
+translate english_us chapter4_5_concert_end_809c88fc:
+
+    # narrator "Она говорила о раздавленном насекомом, но я чувствовала, что речь совсем о другом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:363
+translate english_us chapter4_5_concert_end_cf7f0f89:
+
+    # narrator "Поймав мой настороженный взгляд, она осеклась и вымученно улыбнулась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:365
+translate english_us chapter4_5_concert_end_d2720856:
+
+    # seraphina looking-away "Кхм... ладно, проехали. Я сегодня сама не своя. Ты ведь хотела узнать о Селестии."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:365
+translate english_us chapter4_5_concert_end_71f3d10f:
+
+    # seraphina looking-away "В общем, была скандальная история. Говорили, у нее поехала крыша после тяжелого разрыва с парнем."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:365
+translate english_us chapter4_5_concert_end_a5336eb9:
+
+    # seraphina looking-away "Сорвала отчетный концерт, разнесла инструмент в щепки... а потом сбежала в неизвестном направлении."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:365
+translate english_us chapter4_5_concert_end_3b90e571:
+
+    # seraphina looking-away "Глупая, банальная драма, правда? Обладать таким божьим даром — и все спустить в унитаз из-за какой-то дурацкой влюбленности."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:375
+translate english_us chapter4_5_concert_end_4265f256:
+
+    # narrator "Она пересказала официальную сводку из таблоидов, которую я давно знала наизусть. Тратить здесь время было бессмысленно. Я поднялась с кресла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:377
+translate english_us chapter4_5_concert_end_7fa1c359:
+
+    # seraphina looking-down "Хотя... нет. Погоди. Я не могу тебе врать."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:380
+translate english_us chapter4_5_concert_end_ec6b0d88:
+
+    # narrator "Она нервно комкала кружевной край подола, глядя в пол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:382
+translate english_us chapter4_5_concert_end_3bcbdea7:
+
+    # seraphina "Это газетная жвачка. Ты и без меня ее читала."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:382
+translate english_us chapter4_5_concert_end_95b92775:
+
+    # seraphina "Глупо было надеяться, что ты купишься на эту чушь. Прости меня."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:388
+translate english_us chapter4_5_concert_end_5de37c87:
+
+    # narrator "Она вскинула на меня глаза, в которых не осталось ни капли сценического кокетства — лишь вязкая, тоскливая глубина."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_7c436590:
+
+    # seraphina "Никто в городе понятия не имеет, куда она делась. Даже я."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_e22ec1d7:
+
+    # seraphina "Я видела по твоим глазам в саду, как ты цепляешься за ее имя..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_026b0427:
+
+    # seraphina "И я подло воспользовалась этим..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_8cdd797a:
+
+    # seraphina "Поманила тебя секретом, чтобы затащить в этот офис."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_273281be:
+
+    # seraphina "Прости меня, Неон... Это мерзко, я знаю. Играть на чужой боли."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_244a7583:
+
+    # seraphina "Но я так отчаянно хотела, чтобы ты осталась со мной ещё чуть-чуть. По-настоящему."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:390
+translate english_us chapter4_5_concert_end_e70b2cf7:
+
+    # seraphina "Понимаю, мне нет права на твое доверие. Но я так хочу, чтобы ты меня поняла."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:406
+translate english_us chapter4_5_concert_end_36b9c422:
+
+    # narrator "Ее голос задрожал от слезливого надрыва."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:408
+translate english_us chapter4_5_concert_end_e6b3ae62:
+
+    # seraphina looking-away "Меня окружают миллионы людей. Контракты, овации, толпа... Но это пустой склеп."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:408
+translate english_us chapter4_5_concert_end_80ddf164:
+
+    # seraphina looking-away "Каждый хочет урвать от меня кусок. Шоу, улыбку, частичку 'святой Серафины'."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:408
+translate english_us chapter4_5_concert_end_8d875e41:
+
+    # seraphina looking-away "А ты... ты единственная, кто не пускает слюни при виде моего лица."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:408
+translate english_us chapter4_5_concert_end_e268255c:
+
+    # seraphina looking-away "Ты смотришь на меня как на живую. И ты единственная, кто не побоялся сказать мне правду в глаза."
+    seraphina looking-away ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:418
+translate english_us chapter4_5_concert_end_ea8e0cff:
+
+    # seraphina thankful "Ты раскритиковала мой звук! Прямо здесь, без страха!"
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:418
+translate english_us chapter4_5_concert_end_c1374709:
+
+    # seraphina thankful "Это было как ледяной душ среди бесконечной патоки и лизоблюдства."
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:418
+translate english_us chapter4_5_concert_end_75f3051b:
+
+    # seraphina thankful "Мне так нужна именно ты, Неон. Только ты способна меня понять."
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:426
+translate english_us chapter4_5_concert_end_10771f82:
+
+    # narrator "Ее напор становился невыносимо удушающим. Незнакомая девушка с плакатов вываливала на меня свои экзистенциальные бездны так, словно я была ее последним шансом на спасение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:431
+translate english_us chapter4_5_concert_end_0f41a029:
+
+    # neon "Спасибо за откровенность. Но мне пора идти."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:433
+translate english_us chapter4_5_concert_end_bd967db4:
+
+    # seraphina shocked "Уже?! Но мы ведь только-только начали говорить! Посиди со мной еще немного, умоляю! Не уходи~!"
+    seraphina shocked ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:435
+translate english_us chapter4_5_concert_end_bc556f45:
+
+    # neon "У меня дела. Спасибо за чай."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:437
+translate english_us chapter4_5_concert_end_496174dc:
+
+    # narrator "Я сделала шаг к двери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:439
+translate english_us chapter4_5_concert_end_70fac527:
+
+    # seraphina "Дела? Устала? Тогда поехали ко мне домой~!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:439
+translate english_us chapter4_5_concert_end_b8dd8a5f:
+
+    # seraphina "Полежишь на диване в гримерке..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:439
+translate english_us chapter4_5_concert_end_4f9e793d:
+
+    # seraphina "А потом мы поедем в мой пентхаус на вершине башни! Там тихо, там никто нас не достанет..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:447
+translate english_us chapter4_5_concert_end_cf4706db:
+
+    # neon neutral "{=thoughts}Боже..."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:447
+translate english_us chapter4_5_concert_end_fcecb324:
+
+    # neon neutral "Я не любительница роскоши. Всего хорошего."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:453
+translate english_us chapter4_5_concert_end_8f0268cd:
+
+    # seraphina thankful "Стой, не уходи!"
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:453
+translate english_us chapter4_5_concert_end_54b51d53:
+
+    # seraphina thankful "Ладно, Неон... давай встретимся завтра? Без камер, без толпы, просто вдвоем где-нибудь в тихом месте?"
+    seraphina thankful ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:459
+translate english_us chapter4_5_concert_end_59c50b42:
+
+    # neon "Не выйдет. Завтра я занята со своим партнером. У нас общее расследование."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:461
+translate english_us chapter4_5_concert_end_7944d564:
+
+    # narrator "Слово 'партнер' подействовало как пощечина. Вся напускная нежность мгновенно слетела с ее лица, сменившись искаженной гримасой ядовитого собственничества."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:463
+translate english_us chapter4_5_concert_end_ffd029c0:
+
+    # seraphina looking-down "Партнер...? Ах вот как... дела у нее..."
+    seraphina looking-down ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:464
+translate english_us chapter4_5_concert_end_0925bb73:
+
+    # seraphina envious5 "Это мужик... да?!"
+    seraphina envious5 ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:465
+translate english_us chapter4_5_concert_end_ad232cc9:
+
+    # seraphina "Ты спуталась с каким-то кобелем?! Он тебе нравится, да?! Поэтому ты воротишь от меня нос?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:466
+translate english_us chapter4_5_concert_end_8c81d93d:
+
+    # seraphina envious1 "Вечно они... грязные свиньи... лезут и все портят..."
+    seraphina envious1 ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:467
+translate english_us chapter4_5_concert_end_9c5c8688:
+
+    # seraphina envious6 "Ты хочешь закончить как Селестия?! Сгнить на обочине из-за очередного ублюдка?!"
+    seraphina envious6 ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:467
+translate english_us chapter4_5_concert_end_31de87f6:
+
+    # seraphina envious6 "У тебя же такой редкий, драгоценный дар!"
+    seraphina envious6 ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:472
+translate english_us chapter4_5_concert_end_34f8c8b5:
+
+    # seraphina envious5 "Ответь мне! Не смей молчать!"
+    seraphina envious5 ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:474
+translate english_us chapter4_5_concert_end_dbcb6a81:
+
+    # neon irritated "Замолчи."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:474
+translate english_us chapter4_5_concert_end_1bcba159:
+
+    # neon irritated "Не смей полоскать ее имя своим языком."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:474
+translate english_us chapter4_5_concert_end_966e66df:
+
+    # neon irritated "Я почти поверила тебе в саду. Думала, ты правда хочешь протянуть руку."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:474
+translate english_us chapter4_5_concert_end_a65ed63b:
+
+    # neon irritated "А ты просто искала себе очередную куклу для капризов, чтобы поплакаться в жилетку и потешить самолюбие."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:474
+translate english_us chapter4_5_concert_end_d196de8b:
+
+    # neon irritated "Если тебе тошно одной — так и скажи, а не строй из себя благодетельницу с фальшивыми секретами. Прощай."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:486
+translate english_us chapter4_5_concert_end_66334305:
+
+    # narrator "Я развернулась и взялась за ручку замка. И тогда она сделала последний, отчаянный выпад. Ее интонации резко переменились, став бархатными, густыми и приказными."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:493
+translate english_us chapter4_5_concert_end_5d1f9979:
+
+    # narrator "В затылок вновь толкнулся чужой ментальный импульс — вязкий, как патока: 'Остановись... останься... послушай ее...'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:493
+translate english_us chapter4_5_concert_end_efc0c3c1:
+
+    # narrator "Но глухой внутренний холод моего Вакуума мгновенно погасил эту волну, не дав ей зацепиться за мысли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:493
+translate english_us chapter4_5_concert_end_dd40d466:
+
+    # narrator "Я с силой нажала на ручку, распахнула дверь и шагнула наружу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:501
+translate english_us chapter4_5_concert_end_7d907ddf:
+
+    # seraphina worried "Ах... Что за...?!"
+    seraphina worried ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:501
+translate english_us chapter4_5_concert_end_01ffd375:
+
+    # seraphina worried "Стой! Куда ты...?!"
+    seraphina worried ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:507
+translate english_us chapter4_5_concert_end_60bab8a4:
+
+    # narrator "Ее панический, растерянный визг остался за спиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:515
+translate english_us chapter4_5_concert_end_0740d87d:
+
+    # narrator "Я шла по застекленному висячему переходу обратно к выходу. К Аргону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:515
+translate english_us chapter4_5_concert_end_27310598:
+
+    # narrator "За окнами догорал 'золотой час' — закатное солнце заливало Веритас янтарным, душным светом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:515
+translate english_us chapter4_5_concert_end_f8bdc19d:
+
+    # narrator "В огромной стеклянной галерее не было ни души."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:515
+translate english_us chapter4_5_concert_end_9e49e918:
+
+    # narrator "И тут в висках резко пульсировало. В глазах потемнело, пол под ногами качнулся, словно палуба в шторм. Ноги налились чугунной тяжестью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:515
+translate english_us chapter4_5_concert_end_a7aedff9:
+
+    # narrator "Я ухватилась за перила, судорожно глотая воздух. Внизу, в аллеях парка, неспешно гуляли пары."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:528
+translate english_us chapter4_5_concert_end_23ab8360:
+
+    # narrator "Зрение окончательно поплыло, распадаясь на мутные цветные пятна."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:537
+translate english_us chapter4_5_concert_end_4ccaf4fa:
+
+    # narrator "Руки скользнули по стеклу, и я осела на холодный кафельный пол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:537
+translate english_us chapter4_5_concert_end_d36b4bbf:
+
+    # narrator "Сознание проваливалось в темную воронку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-3-seraphina-meeting.rpy:537
+translate english_us chapter4_5_concert_end_63f1e14d:
+
+    # narrator "Последним звуком, донесшимся до затухающего слуха, был неспешный, размеренный перестук женских каблучков по плитке, приближавшийся из конца перехода."
+    narrator ""
+

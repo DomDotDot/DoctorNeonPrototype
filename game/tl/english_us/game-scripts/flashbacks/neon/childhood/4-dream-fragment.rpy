@@ -452,3 +452,23 @@ translate english_us dream_sequence_japan_4_b9dc6327:
     # narrator "'Твоя мать... она пользуется тобой неправильно...', — с фанатичным блеском в глазах сказала Тетя."
     narrator "'Your mother... she is using you incorrectly...', Aunt said with a fanatical glint in her eyes."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:26
+translate english_us dream_sequence_japan_4_e605d458:
+
+    # narrator "Я — маленькая, восьмилетняя — плачу, забившись в угол комнаты. ...И мир вокруг сжимается до едкого, темного облака, в котором нет воздуха..."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:26
+translate english_us dream_sequence_japan_4_7816b3ed:
+
+    # narrator "Я чувствую, как её железная хватка возносит меня над удушливым дымом."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/4-dream-fragment.rpy:85
+translate english_us dream_sequence_japan_4_d8f69406:
+
+    # narrator "Я вижу её лицо. Лицо 17-летней девушки. И на нем — не сочувствие. И не облегчение спасителя."
+    narrator ""
+

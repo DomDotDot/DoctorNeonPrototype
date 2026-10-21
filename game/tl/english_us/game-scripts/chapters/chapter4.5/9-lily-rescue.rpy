@@ -1769,3 +1769,365 @@ translate english_us chapter4_5_lily_studio_2338c850:
     # lily "Почему...? Почему холодно?!"
     lily "Why...? Why is it so cold?!"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:6
+translate english_us chapter4_5_lily_cafe_1b6c6c15:
+
+    # narrator "Мы шли по вечерним улицам. В мокром асфальте двоились неоновые вывески закрывающихся лавок."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:6
+translate english_us chapter4_5_lily_cafe_bd29bdb2:
+
+    # narrator "Лили шла рядом, вцепившись в мою ладонь. Ее пальцы сначала подрагивали, но с каждым шагом сжимались все крепче, переплетаясь с моими."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:6
+translate english_us chapter4_5_lily_cafe_2596952f:
+
+    # narrator "Между нашими ладонями возникло странное, почти физически ощутимое притяжение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:14
+translate english_us chapter4_5_lily_cafe_2b3c3cf2:
+
+    # neon "{=thoughts}Это ощущение...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:18
+translate english_us chapter4_5_lily_cafe_339faff3:
+
+    # narrator "Внутри меня всегда жила холодная, звенящая пустота. Абсолютный вакуум, в котором тонули любые внешние волны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:18
+translate english_us chapter4_5_lily_cafe_c602c11f:
+
+    # narrator "Но для Лили этот вакуум оказался спасением."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:18
+translate english_us chapter4_5_lily_cafe_2f8a5f5b:
+
+    # narrator "Я чувствовала, как под ее кожей утихает бешеная, болезненная дрожь. Словно буря в ее висках натыкалась на мою глухую тишину и бессильно захлебывалась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:18
+translate english_us chapter4_5_lily_cafe_e0a3ff4d:
+
+    # narrator "Ее пальцы расслабились, натяжение в плечах спало."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:18
+translate english_us chapter4_5_lily_cafe_8d39a2f9:
+
+    # narrator "Она посмотрела на меня снизу вверх — с замутненным, жадным облегчением человека, которому после долгих пыток вкололи мощный анальгетик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:32
+translate english_us chapter4_5_lily_cafe_7696e5cd:
+
+    # lily "Знаешь, Неон... Я забыла, когда в последний раз просто шла по городу. Без оглядки. Без этого вечного скрежета в ушах..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:34
+translate english_us chapter4_5_lily_cafe_4a555215:
+
+    # lily "{=whisper}С тобой... так тихо...{/whisper}"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:36
+translate english_us chapter4_5_lily_cafe_c8e2b3fd:
+
+    # narrator "Ее голос звучал сонно, почти заплетающимся языком. Она привалилась к моему плечу, не размыкая пальцев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:38
+translate english_us chapter4_5_lily_cafe_8e679b5c:
+
+    # lily "{=whisper}Все эти крики... они просто замолчали. Наконец-то...{/whisper}"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:40
+translate english_us chapter4_5_lily_cafe_c69a9421:
+
+    # narrator "Но этот контакт работал в обе стороны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:40
+translate english_us chapter4_5_lily_cafe_c5215f28:
+
+    # narrator "Пока моя тишина гасила ее внутренний ад, в мою кровь просачивалась вязкая, сладковатая истома."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:40
+translate english_us chapter4_5_lily_cafe_aad02d87:
+
+    # narrator "Мысли замедлялись, словно застревая в патоке. Острая память о Саре, долг перед Аргоном, настороженность — все это теряло четкость, отступая на задний план."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:40
+translate english_us chapter4_5_lily_cafe_3f4bb7a1:
+
+    # narrator "Оставалось лишь монотонное биение пульса в соединенных ладонях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:50
+translate english_us chapter4_5_lily_cafe_ea4685f0:
+
+    # neon "Тебе... легче?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:52
+translate english_us chapter4_5_lily_cafe_8a9ebf22:
+
+    # narrator "Слова давались с трудом. Язык казался чужим и тяжелым."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:52
+translate english_us chapter4_5_lily_cafe_5b9cad86:
+
+    # narrator "Лили слабо улыбнулась уголками губ."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:58
+translate english_us chapter4_5_lily_cafe_60fe5f91:
+
+    # lily "Мне спокойно. Ты... ты как стена от всего мира. Не отпускай меня."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:60
+translate english_us chapter4_5_lily_cafe_b3dee034:
+
+    # neon "Не отпущу..."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:62
+translate english_us chapter4_5_lily_cafe_c0123798:
+
+    # narrator "Мы брели вперед на автопилоте. Мой привычный анализ, подозрительность, логика — все растворялось в густом наркотическом оцепенении."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:647
+translate english_us chapter4_5_lily_studio_9a88e685:
+
+    # narrator "Она перешагнула через меня и опустилась на мои бедра, прижимая всем своим весом к дощатому полу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:647
+translate english_us chapter4_5_lily_studio_310464a2:
+
+    # narrator "В ее движениях не было ни капли человеческого тепла — лишь жесткая, властная хватка хищника, завладевшего добычей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:647
+translate english_us chapter4_5_lily_studio_597c2103:
+
+    # narrator "Она с силой переплела свои пальцы с моими, вжимая мои запястья в дерево."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:655
+translate english_us chapter4_5_lily_studio_02098858:
+
+    # lily "Не дергайся... Ты даже не представляешь, что сотворила."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:655
+translate english_us chapter4_5_lily_studio_4e9891a1:
+
+    # lily "Там, на улице... Впервые за столько месяцев черная дыра в моей голове заткнулась."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:655
+translate english_us chapter4_5_lily_studio_6c1a737a:
+
+    # lily "Оно перестало орать. Ты заглушила этот вой!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:663
+translate english_us chapter4_5_lily_studio_07d6dd9d:
+
+    # lily "Ты думаешь, я выпущу тебя отсюда? После того, как я узнала, каково это — не сходить с ума от боли?"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:663
+translate english_us chapter4_5_lily_studio_aa2b3991:
+
+    # lily "Ты — мой анестетик. Мой персональный наркоз."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:663
+translate english_us chapter4_5_lily_studio_192d29e6:
+
+    # lily "И я заберу его себе."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:671
+translate english_us chapter4_5_lily_studio_83cfe330:
+
+    # lily "{=whisper}Давай... Ну же... Сделай мне тихо! Заткни их снова!{/whisper}"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:675
+translate english_us chapter4_5_lily_studio_92a26c7c:
+
+    # narrator "Она зажмурилась, судорожно втягивая носом воздух и ожидая той спасительной пустоты, что накрыла нас на бульваре."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:675
+translate english_us chapter4_5_lily_studio_25137288:
+
+    # narrator "Ее пальцы побелели, сжимая мои руки до треска в суставах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:675
+translate english_us chapter4_5_lily_studio_533866c7:
+
+    # narrator "Я чувствовала лишь глухую пульсацию скованного параличом тела и ледяную, непримиримую ярость. Мой внутренний вакуум не открывался ей — он превратился в глухую каменную стену."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:687
+translate english_us chapter4_5_lily_studio_d080e7b3:
+
+    # lily "Почему...? Почему так холодно?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:689
+translate english_us chapter4_5_lily_studio_5ed14de4:
+
+    # narrator "Она распахнула веки. В ее красных зрачках забилась слепая, бешеная паника."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:689
+translate english_us chapter4_5_lily_studio_8c9f5997:
+
+    # narrator "Она вдавила меня в пол еще сильнее, тряся за руки, срываясь на визгливый крик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:695
+translate english_us chapter4_5_lily_studio_1466932b:
+
+    # lily "Ну почему это не работает?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:695
+translate english_us chapter4_5_lily_studio_086dbb38:
+
+    # lily "Мне нужно, чтобы всё замолчало! Они опять скребутся... Они вопят в ушах! Заткни их!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:703
+translate english_us chapter4_5_lily_studio_9defe71e:
+
+    # lily "ПОЧЕМУ ТЫ НЕ ПУСКАЕШЬ МЕНЯ?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:705
+translate english_us chapter4_5_lily_studio_bc18fdd8:
+
+    # narrator "Она смотрела на меня с яростью капризного чудовища, чья единственная игрушка внезапно отказалась подчиняться."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:705
+translate english_us chapter4_5_lily_studio_2863a88c:
+
+    # narrator "И в следующую секунду паника в ее чертах сменилась мертвой, расчетливой жестокостью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:713
+translate english_us chapter4_5_lily_studio_3fd745f7:
+
+    # lily "Не хочешь делиться по доброй воле?"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:713
+translate english_us chapter4_5_lily_studio_bae3f00a:
+
+    # lily "Ладно."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:713
+translate english_us chapter4_5_lily_studio_9d5efd5c:
+
+    # lily "Паралитик уже сковал твои связки. Ты не сможешь захлопнуть дверь, когда я взломаю ее силой."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:713
+translate english_us chapter4_5_lily_studio_5cb05a02:
+
+    # lily "Я выпью твою тишину до капли. Я выжгу тебя изнутри и займу это пустое место."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:723
+translate english_us chapter4_5_lily_studio_8e95c25e:
+
+    # narrator "Она наклонилась к самому моему лицу. Ее горячее, ядовитое дыхание обожгло губы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:727
+translate english_us chapter4_5_lily_studio_1b8d3cb7:
+
+    # lily "Открой ротик~ Ах, да. Ты не можешь..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_8c92ebe5:
+
+    # narrator "Ее губы с силой врезались в мои."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_2da89184:
+
+    # narrator "Это не было поцелуем. Это было грубое, ядовитое вторжение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_8d8aeadd:
+
+    # narrator "Сквозь сомкнутые зубы в меня хлынул густой, удушливый мрак — тяжелый, радиоактивный туман."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_86f58202:
+
+    # narrator "Чужая память ударила по моему сознанию, как молот:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_74781aad:
+
+    # narrator "Темный сырой переулок под дождем... Отчаянный девичий крик... Удар камнем... Раздавленный на мостовой телефон, по которому чей-то голос кричал: 'Лили, дочка, ты где?!'..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_a1b96abb:
+
+    # narrator "Это были чужие воспоминания. Память о настоящей Лили, чью жизнь только что пытались заставить меня забыть."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_817fd6a3:
+
+    # narrator "Но в этот же миг я почувствовала, как чужая хищная воля заглянула глубже — туда, куда не могла заглянуть даже я сама."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_251d764f:
+
+    # narrator "Сквозь мой паралич, сквозь ледяной вакуум... Нари впилась в запертые, ампутированные пласты моей памяти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_ddbf6b96:
+
+    # narrator "Она увидела то, что было будто вырезано из её сознания: далекий дом в Японии, мерцающие золотые нити душ в руках матери, оборванные связи и пустоту, оставленную распадом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/9-lily-rescue.rpy:732
+translate english_us chapter4_5_lily_studio_868e3b56:
+
+    # narrator "На долю секунды в глазах Нари вспыхнул нечеловеческий шок — осознание бездны, которую она потревожила."
+    narrator ""
+

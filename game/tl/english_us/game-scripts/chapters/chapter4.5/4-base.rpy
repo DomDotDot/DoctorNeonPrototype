@@ -480,3 +480,101 @@ translate english_us chapter4_5_argon_rescue_8660cecf:
     # narrator "Апатия в глазах Аргона начала сменяться знакомой, стальной решимостью. Его боль никуда не делась. Но теперь у нее была цель."
     narrator "The apathy in Argon's eyes began to be replaced by a familiar, steely determination. His pain hadn't gone anywhere. But now it had a purpose."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:122
+translate english_us chapter4_5_argon_rescue_77303cc7:
+
+    # argon "Я совершил одну и ту же ошибку дважды. Сначала с ней, потом с тобой. Сначала не уберег ее, теперь чуть не потерял тебя."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:122
+translate english_us chapter4_5_argon_rescue_cecea258:
+
+    # argon "Я ни на что не годен."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:142
+translate english_us chapter4_5_argon_rescue_3963dd1c:
+
+    # narrator "Аргон опустил голову, пряча лицо в ладонях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:142
+translate english_us chapter4_5_argon_rescue_416f748a:
+
+    # narrator "Я подошла ближе и опустилась на ящик рядом с ним."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:150
+translate english_us chapter4_5_argon_rescue_bd5e13dd:
+
+    # neon shy "Ты вытащил меня, Аргон. Ты не сбежал."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:152
+translate english_us chapter4_5_argon_rescue_02d6df7e:
+
+    # narrator "Он медленно поднял воспаленные глаза."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:154
+translate english_us chapter4_5_argon_rescue_e9e671a5:
+
+    # neon neutral "Хватит заниматься самобичеванием. У нас есть факты, и они складываются в четкую цепочку."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:154
+translate english_us chapter4_5_argon_rescue_15dabb93:
+
+    # neon neutral "Все следы ведут в Академию Веритас."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:154
+translate english_us chapter4_5_argon_rescue_995de7c5:
+
+    # neon neutral "Эми, которая 'заболела' прямо перед концертом. Кэрол с ее остекленевшим взглядом во время выступления. Клара, вернувшаяся в общежитие чужой и пустой."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:154
+translate english_us chapter4_5_argon_rescue_cfb27e16:
+
+    # neon neutral "И Сара Кендрик, чей телефон лежит у меня в кармане."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:154
+translate english_us chapter4_5_argon_rescue_98c8367b:
+
+    # neon neutral "Они все из одного кампуса."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:166
+translate english_us chapter4_5_argon_rescue_5c0f0950:
+
+    # argon "Это могут быть просто совпадения... Город перемалывает людей сотнями."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:168
+translate english_us chapter4_5_argon_rescue_6a94a275:
+
+    # neon "Четыре студентки из одной группы за считанные дни — это не совпадение. Это система."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:168
+translate english_us chapter4_5_argon_rescue_06778e52:
+
+    # neon "Мать Сары дала мне адрес студенческого корпуса. Там жила Сара, там крутились остальные."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:168
+translate english_us chapter4_5_argon_rescue_b6c52ed6:
+
+    # neon "Мы пойдем туда сегодня ночью."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/4-base.rpy:176
+translate english_us chapter4_5_argon_rescue_cf63db34:
+
+    # narrator "Аргон тяжело вздохнул, вытер лицо рукавом и кивнул. В его взгляде проступила глухая, упрямая злость."
+    narrator ""
+

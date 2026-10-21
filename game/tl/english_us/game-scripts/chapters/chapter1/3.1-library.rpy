@@ -152,3 +152,101 @@ translate english_us chapter1_lab_noon_library_8df8d8bf:
     # narrator "Запах дешевых чернил смешался с запахом мела и старых аудиторий."
     narrator "The smell of cheap ink mingled with the scent of chalk and old lecture halls."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:6
+translate english_us chapter1_lab_noon_library_1d85dc7a:
+
+    # narrator "Библиотека 'Гелиоса' встретила меня прохладой и глубокой, гулкой тишиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:6
+translate english_us chapter1_lab_noon_library_c47a593d:
+
+    # narrator "Настоящий храм покоя посреди вечного, низкочастотного скрежета комплекса — того самого назойливого гула, который выкручивал мне нервы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:6
+translate english_us chapter1_lab_noon_library_677c9865:
+
+    # narrator "Я выбрала широкий дубовый стол в дальнем пролете."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:6
+translate english_us chapter1_lab_noon_library_a51d704d:
+
+    # narrator "Положила перед собой пачку бумаги, личные заметки и копеечную ручку — скромный арсенал против царящего вокруг энтропийного хаоса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:6
+translate english_us chapter1_lab_noon_library_72a2deac:
+
+    # narrator "Глубокий вдох. Сердце всё еще колотилось от безумной смеси спешки и утреннего кофеина."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:6
+translate english_us chapter1_lab_noon_library_16fbec12:
+
+    # narrator "Чистый белый лист. Белый, как ледники на горных перевалах за панорамным стеклом. Белый, как безмолвная целина, которую мне предстояло засеять строгими символами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:25
+translate english_us chapter1_lab_noon_library_06e19716:
+
+    # narrator "Я сняла колпачок с ручки. Чернила на кончике блестели тускло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:27
+translate english_us chapter1_lab_noon_library_4e245ec6:
+
+    # neon "{=thoughts}С чего начать? 'Доклад об обнаружении аномального сигнала...' Нет. Слишком сухо.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_3e4a3b07:
+
+    # narrator "Я на секунду прикрыла веки, пытаясь вновь воскресить в памяти его структуру."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_3f1bb1a5:
+
+    # narrator "Этот сигнал не походил ни на один природный феномен. Вселенная говорит на языке мертвой статики: ледяной треск пульсаров, монотонный шорох реликтового фона, бессмысленное радиационное шипение. Предсказуемый, застывший хаос."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_330e8e12:
+
+    # narrator "Но в этой записи пульсировала... жизнь. Мелодия, пробившаяся сквозь миллионы световых лет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_25b4429d:
+
+    # narrator "Словно кто-то отчаянно пытался заговорить со мной через бездну, оставляя в эфире четкие ритмические интервалы. Паузы, полные смысла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_4e609970:
+
+    # narrator "Это перестало быть просто работой. Это превратилось в наваждение — в попытку вспомнить, почему при каждом повторении этой темы в груди щемит так, будто я слышала ее еще до своего рождения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_ab62e63d:
+
+    # narrator "Я тряхнула головой, отгоняя лишние эмоции. К черту поэзию. Совету директоров нужны сухие цифры."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_a48ec5b4:
+
+    # narrator "Кончик пера коснулся бумаги, выводя первые формулы. Дешевый ребристый пластик ручки неприятно врезался в пальцы — точно такой же я грызла на парах в университете..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.1-library.rpy:29
+translate english_us chapter1_lab_noon_library_59fd6756:
+
+    # narrator "Запах чернил мгновенно смешался с фантомным ароматом меловой пыли и старых цейлонских аудиторий."
+    narrator ""
+

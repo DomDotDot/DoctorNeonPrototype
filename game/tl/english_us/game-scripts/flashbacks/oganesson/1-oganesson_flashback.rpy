@@ -349,3 +349,311 @@ translate english_us oganesson_school_flashback_1_ae9acab6:
     # narrator "Все уставились на нас."
     narrator "We were the center of attention."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:7
+translate english_us oganesson_school_flashback_1_10e4431a:
+
+    # narrator "Мне пятнадцать. Я сижу за своей партой у холодного окна."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:7
+translate english_us oganesson_school_flashback_1_eac5c23e:
+
+    # narrator "Волосы тогда были еще натуральными — густой, смоляной черный цвет, лишь на солнце отливавший неестественным, тяжелым индиго."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:7
+translate english_us oganesson_school_flashback_1_382db62d:
+
+    # narrator "Меня не травили, не обзывали, не прятали мои вещи по углам."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:7
+translate english_us oganesson_school_flashback_1_51b8ed34:
+
+    # narrator "Ко мне применяли закон карантина. Вокруг моей парты всегда держался невидимый радиус абсолютной пустоты."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:7
+translate english_us oganesson_school_flashback_1_8ea3ee7f:
+
+    # narrator "Одноклассники инстинктивно чувствовали: подходить ко мне физически неуютно."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:19
+translate english_us oganesson_school_flashback_1_3679f7aa:
+
+    # narrator "Они смеялись, толкались, перекидывались записками."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:19
+translate english_us oganesson_school_flashback_1_2b5171c6:
+
+    # narrator "Но стоило кому-то случайно пересечь невидимую границу моего стола, как смех обрывался. Человек ежился, словно от ледяного сквозняка, отводил взгляд и торопился отойти."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:19
+translate english_us oganesson_school_flashback_1_ce756dcc:
+
+    # narrator "Мое присутствие выкачивало из них жизнь, как черная губка. Я ощущала себя гравитационной воронкой в центре их шумного мира."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:30
+translate english_us oganesson_school_flashback_1_a3973c00:
+
+    # narrator "Учителя тоже чуяли неладное. Раз в четверть нас с опекуншей вызывали на ковер к завучу."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:38
+translate english_us oganesson_school_flashback_1_3a4705cb:
+
+    # headteacher "Поймите нас правильно, фрау. Неон... она не хулиганит. Она идеально решает задачи. Но ее отрешенность пугает класс. Дети боятся ее."
+    headteacher ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:38
+translate english_us oganesson_school_flashback_1_4d9ecdd9:
+
+    # headteacher "Она сидит неподвижно, как мраморное изваяние, не смеется над шутками, не реагирует на окрики. От нее буквально веет могильным холодом!"
+    headteacher ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:38
+translate english_us oganesson_school_flashback_1_5ca9b504:
+
+    # headteacher "Девочке нужна социализация! Вы обязаны помочь ей влиться в коллектив!"
+    headteacher ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:46
+translate english_us oganesson_school_flashback_1_0f5072b2:
+
+    # narrator "Я сидела рядом, уставившись в вытертый линолеум. Рядом — она. Моя опекунша. Идеальная осанка, точеные черты лица, ни единой складки на строгом пальто."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:46
+translate english_us oganesson_school_flashback_1_59e76fba:
+
+    # narrator "Я сжалась, ожидая упреков, обещаний отвести меня к психиатру или хотя бы дежурного стыда."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:46
+translate english_us oganesson_school_flashback_1_2dbf3506:
+
+    # narrator "Но ее голос прозвучал гладко и смертоносно холодно."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:54
+translate english_us oganesson_school_flashback_1_a4ff8c35:
+
+    # oganesson shadowed "Вы всерьез предлагаете мне сломать совершенный, точный хронометр, чтобы он скрипел и грохотал в такт вашему бестолковому стаду?"
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:60
+translate english_us oganesson_school_flashback_1_733716b0:
+
+    # headteacher "Что?! Я говорю о душевном здоровье ребенка! Подростки безжалостны, они ее просто растерзают!"
+    headteacher ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:62
+translate english_us oganesson_school_flashback_1_b7dc7e6f:
+
+    # oganesson shadowed "Ей комфортно. Это вас парализует ее тишина."
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:62
+translate english_us oganesson_school_flashback_1_eb66c77d:
+
+    # oganesson shadowed "Если она позволит воронью клевать себя — значит, она слаба и заслуживает этой участи."
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:62
+translate english_us oganesson_school_flashback_1_284e5c38:
+
+    # oganesson shadowed "Если ее ранит чужой визг — это ее личная уязвимость, а не повод для реформы вашей школы."
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:62
+translate english_us oganesson_school_flashback_1_cc4eb06a:
+
+    # oganesson shadowed "Она обязана научиться заставлять их замолчать."
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:72
+translate english_us oganesson_school_flashback_1_0c60bab8:
+
+    # headteacher "Но это чудовищно! Ей нужны сверстники! Она словно призрак среди живых!"
+    headteacher ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:74
+translate english_us oganesson_school_flashback_1_8a88413f:
+
+    # oganesson shadowed "Моя воспитанница не станет прогибаться под хаотичный бред вашей так называемой нормы."
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:74
+translate english_us oganesson_school_flashback_1_85f4c17e:
+
+    # oganesson shadowed "Такова ее природа."
+    oganesson shadowed ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:85
+translate english_us oganesson_school_flashback_1_b04aa9e5:
+
+    # narrator "Природа. Словно речь шла о диком, опасном звере на коротком поводке."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:85
+translate english_us oganesson_school_flashback_1_b2b6e849:
+
+    # narrator "Ее слова звучали как холодный приговор."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:85
+translate english_us oganesson_school_flashback_1_d792a96a:
+
+    # narrator "Костлявые пальцы стальными тисками сжали мое плечо, вдавливая в кресло: 'Хватит быть жалкой. Стань монолитом'."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:85
+translate english_us oganesson_school_flashback_1_29e00506:
+
+    # narrator "И я подчинилась. Я натянула на себя эту ледяную тишину, как саван..."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:98
+translate english_us oganesson_school_flashback_1_77841dd2:
+
+    # narrator "Я пыталась быть этой стеной. Но внешний мир порой таранил мою оборону без всякого предупреждения."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:98
+translate english_us oganesson_school_flashback_1_f60cc4f3:
+
+    # narrator "Большая перемена. Школьная столовая."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:98
+translate english_us oganesson_school_flashback_1_0e314f94:
+
+    # narrator "Грохот сотен подносов, визг, гвалт, запах пережаренного жира. Звуки впивались в виски, царапали кору мозга. Я сидела в самом углу, зажмурившись, мечтая лишь об одном — оглохнуть."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:109
+translate english_us oganesson_school_flashback_1_d38e31e1:
+
+    # narrator "И тут сквозь толпу ко мне направился он — парень из параллельного класса."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:109
+translate english_us oganesson_school_flashback_1_0214980f:
+
+    # narrator "На его лице сияла широкая, хвастливая улыбка: он решил выпендриться перед дружками и привлечь внимание странной тихони."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:115
+translate english_us oganesson_school_flashback_1_3f3bcaab:
+
+    # "Мальчик" "Эй, Неон! Гляди, какой трюк умею!"
+    "Мальчик" ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:119
+translate english_us oganesson_school_flashback_1_0e5e89c0:
+
+    # narrator "Он шагал прямо на меня, удерживая металлический поднос на одном указательном пальце. На подносе дрожала глубокая тарелка с супом и открытый пакет молока."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:119
+translate english_us oganesson_school_flashback_1_6d1c2ea9:
+
+    # narrator "Шутливая, развязная походка, громкий гогот за его спиной."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:119
+translate english_us oganesson_school_flashback_1_bf6383bd:
+
+    # narrator "Его навязчивая, душная самоуверенность надвигалась, как бульдозер. Меня замутило от паники."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:129
+translate english_us oganesson_school_flashback_1_09113113:
+
+    # neon "{=thoughts}Уйди... Пожалуйста, уйди... Слишком шумно... Оставь меня в покое!{/thoughts}"
+    neon ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:131
+translate english_us oganesson_school_flashback_1_ccf6bc24:
+
+    # narrator "Мое подсознание взмолилось о защите личного пространства."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:131
+translate english_us oganesson_school_flashback_1_6d87c25d:
+
+    # narrator "И в ту секунду, когда он шагнул в мой радиус... законы природы дали сбой."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:139
+translate english_us oganesson_school_flashback_1_09931a88:
+
+    # narrator "Я не прикасалась к нему."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:139
+translate english_us oganesson_school_flashback_1_a7c43fb9:
+
+    # narrator "Вектор притяжения под его ногами просто исчез."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:139
+translate english_us oganesson_school_flashback_1_50748ac5:
+
+    # narrator "Ожидая привычного сопротивления опоры, мальчишка внезапно провалился в невесомость. Центр тяжести подноса испарился."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:149
+translate english_us oganesson_school_flashback_1_76b908a6:
+
+    # narrator "Его нога соскользнула в пустоту. В панике взмахнув руками, он с оглушительным треском рухнул навзничь на кафельный пол."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:149
+translate english_us oganesson_school_flashback_1_f420ca54:
+
+    # narrator "Поднос взмыл вверх; пакет молока взорвался фонтаном белых брызг, залив его лицо, волосы и форменную рубашку."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:149
+translate english_us oganesson_school_flashback_1_18f40aee:
+
+    # narrator "Вся столовая мгновенно смолкла."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:160
+translate english_us oganesson_school_flashback_1_63ba5663:
+
+    # narrator "Он сидел в луже молока, весь в белых потеках."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:160
+translate english_us oganesson_school_flashback_1_e60abfcd:
+
+    # narrator "Он уставился на меня снизу вверх."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:160
+translate english_us oganesson_school_flashback_1_55133cc5:
+
+    # narrator "И в его расширенных зрачках читался первобытный, леденящий ужас перед неведомой аномалией. Он понял, что упал не сам."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:172
+translate english_us oganesson_school_flashback_1_ebbdb5e0:
+
+    # narrator "Его искаженное ужасом лицо начало растворяться в клубящейся тьме, пока сквозь морок не пробился встревоженный голос..."
+    narrator ""
+
+# game/game-scripts/flashbacks/oganesson/1-oganesson_flashback.rpy:177
+translate english_us oganesson_school_flashback_1_2996e2ef:
+
+    # unknown_f "Неон? Неон, ты слышишь меня?! Очнись!"
+    unknown_f ""
+

@@ -592,3 +592,281 @@ translate english_us chapter2_act3_facing_reality_450a5821:
     # "Диктор" "Последний раз ее видели, когда она... ...оказывала сопротивление службе безопасности."
     "Диктор" "She was last seen... ...resisting security personnel."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:7
+translate english_us chapter2_act3_facing_reality_b855397c:
+
+    # narrator "Слепящая белизна туннеля мягко схлынула, уступая место холодному дневному свету."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:7
+translate english_us chapter2_act3_facing_reality_72f27317:
+
+    # narrator "Я прищурилась, привыкая к внезапной яркости, и застыла на месте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:7
+translate english_us chapter2_act3_facing_reality_0b9b62b7:
+
+    # narrator "Под ногами исчезли скользкие шпалы. Скальный массив растворился, словно его стерли ластиком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:7
+translate english_us chapter2_act3_facing_reality_efd8a21f:
+
+    # narrator "Вокруг раскинулся гигантский, серый грузовой порт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:17
+translate english_us chapter2_act3_facing_reality_96586a1d:
+
+    # narrator "Вдоль береговой линии тянулись ряды бесконечных металлических складов, потемневшие от соленой сырости бетонные пирсы и замершие стрелы циклопических портовых кранов, вонзающиеся в низкое небо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:17
+translate english_us chapter2_act3_facing_reality_c60ba965:
+
+    # narrator "Сквозь муть слоистых облаков едва проглядывал бледный диск холодного светила."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:17
+translate english_us chapter2_act3_facing_reality_2487df0d:
+
+    # narrator "Но главным было другое."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:17
+translate english_us chapter2_act3_facing_reality_8d46bec3:
+
+    # narrator "Воздух. Он пах йодом, подгнившими бурыми водорослями, сырой ржавчиной и мазутной пленкой. Сверху донесся пронзительный, скрипучий крик кружащей чайки, а снизу, тяжело ворочаясь меж замшелых свай, дышала большая вода."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:27
+translate english_us chapter2_act3_facing_reality_7d99e42a:
+
+    # neon "{=thoughts}Порт...? Морской порт посреди Альп?! Этого не может существовать... Это бред, географический абсурд!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:29
+translate english_us chapter2_act3_facing_reality_b9dd130f:
+
+    # narrator "Вся моя научная логика восставала против увиденного. Швейцария заперта в центре материка, со всех сторон отгорожена хребтами и сотнями километров суши. Здесь вообще не могло быть прибоя."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:29
+translate english_us chapter2_act3_facing_reality_2bbf82db:
+
+    # narrator "Однако волны с тяжелым, гулким шлепком разбивались о гранитный парапет прямо у моих подошв."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:29
+translate english_us chapter2_act3_facing_reality_0f415ab6:
+
+    # narrator "Я медленно ступила на широкий дощатый настил пирса. Мокрые, скользкие от тины доски глухо пружинили под шагами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:29
+translate english_us chapter2_act3_facing_reality_84b33275:
+
+    # narrator "У дальнего края причала покачивался старый баркас, ударяясь бортом о свисающие резиновые скаты."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:39
+translate english_us chapter2_act3_facing_reality_b43bc5ca:
+
+    # narrator "А у самого края пирса, спиной ко мне, стоял человек."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:39
+translate english_us chapter2_act3_facing_reality_93620fd3:
+
+    # narrator "Она смотрела в серую даль открытой воды, глубоко засунув ладони в карманы куртки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:39
+translate english_us chapter2_act3_facing_reality_56a8060e:
+
+    # narrator "Знакомая чуть сутулая осанка, упрямый наклон головы, золотистые светлые завитки волос, которые трепал влажный бриз..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:39
+translate english_us chapter2_act3_facing_reality_9a425451:
+
+    # narrator "Она"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:49
+translate english_us chapter2_act3_facing_reality_bc6ba38e:
+
+    # neon "Алекс?!{nw}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:51
+translate english_us chapter2_act3_facing_reality_2e68df60:
+
+    # narrator "В груди оборвалась тугая струна. На глаза навернулись жгучие слезы ошеломления."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:51
+translate english_us chapter2_act3_facing_reality_0b56ffe2:
+
+    # narrator "Она здесь! Вырвалась, спаслась, обогнала облаву!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:57
+translate english_us chapter2_act3_facing_reality_b6f92e54:
+
+    # neon "Алекс! Это я! Посмотри на меня!"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:59
+translate english_us chapter2_act3_facing_reality_1eccda44:
+
+    # narrator "Фигура оставалась неподвижной. Даже не вздрогнула, будто шум волн начисто поглощал мой крик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:59
+translate english_us chapter2_act3_facing_reality_4d95b1b9:
+
+    # narrator "Я сорвалась на бег. Мокрые деревянные плахи гулко стучали под ногами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:59
+translate english_us chapter2_act3_facing_reality_d1bdbd6a:
+
+    # narrator "Три шага. Два шага."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:59
+translate english_us chapter2_act3_facing_reality_f4a14a1f:
+
+    # narrator "Я выбросила руку вперед и изо всех сил ухватилась за ее плечо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:72
+translate english_us chapter2_act3_facing_reality_39c3c071:
+
+    # narrator "ЦК!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:74
+translate english_us chapter2_act3_facing_reality_d7d11b94:
+
+    # neon "{=yell}Ай! Больно же!..{/yell}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:76
+translate english_us chapter2_act3_facing_reality_ca9518b2:
+
+    # narrator "Колючая, злая синяя искра с сухим щелчком ударила прямо в подушечки пальцев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:76
+translate english_us chapter2_act3_facing_reality_00c81449:
+
+    # narrator "Острая электрическая боль прошила нервы до самого локтевого сустава, заставив меня вскрикнуть и резко отдернуть кисть."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:76
+translate english_us chapter2_act3_facing_reality_8431c088:
+
+    # narrator "Я зажмурилась, судорожно прижимая пульсирующую ладонь к ребрам..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:90
+translate english_us chapter2_act3_facing_reality_0467ede6:
+
+    # narrator "И наваждение лопнуло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:90
+translate english_us chapter2_act3_facing_reality_b7a85ba1:
+
+    # narrator "Растворились седые волны, крики чаек, соленый бриз и дощатый причал. Исчезла светлая макушка Алекс."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:90
+translate english_us chapter2_act3_facing_reality_9eda21e0:
+
+    # narrator "Я стояла в мертвом, промерзшем полумраке заброшенного заводского ангара. Мои содранные костяшки упирались в пыльный лист ржавого профнастила — глухую техническую переборку в тупике цеха."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:98
+translate english_us chapter2_act3_facing_reality_63a59e10:
+
+    # narrator "Реальность ударила в лицо запахом мышиного помета, лежалого цемента и холодной металлической окалины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:98
+translate english_us chapter2_act3_facing_reality_ee832814:
+
+    # narrator "Сквозь пробоины в высокой кровле просачивались унылые сумерки раннего рассвета. Ветер шевелил свисающие клочья рубероида."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:98
+translate english_us chapter2_act3_facing_reality_d43064f9:
+
+    # narrator "Никого. Пустая бетонная коробка, продуваемая всеми ветрами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:106
+translate english_us chapter2_act3_facing_reality_87fa9e28:
+
+    # neon "{=thoughts}Я... окончательно схожу с ума?{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:108
+translate english_us chapter2_act3_facing_reality_66c988c0:
+
+    # narrator "В ногах появилась ватная слабость. Желудок свело дурнотой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:108
+translate english_us chapter2_act3_facing_reality_b40f68ae:
+
+    # narrator "Провалы в памяти случались со мной и прежде. Бывало, я обнаруживала себя за столом глубокой ночью с раскрытой монографией, начисто забыв, как выключила свет в спальне и спустилась вниз."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:108
+translate english_us chapter2_act3_facing_reality_d7531544:
+
+    # narrator "Но галлюцинация такой силы... С соленым привкусом на губах, с запахом морской воды, с осязаемой текстурой древесины..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:108
+translate english_us chapter2_act3_facing_reality_71e6a131:
+
+    # narrator "Это распад личности? Сомнамбулизм? Шизофрения?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:118
+translate english_us chapter2_act3_facing_reality_fa8ce02f:
+
+    # neon "{=thoughts}Вот почему она так смотрела на меня... Вот почему мать без колебаний отдала меня ей...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:120
+translate english_us chapter2_act3_facing_reality_26e5a872:
+
+    # narrator "Детские годы в памяти всегда казались выцветшим, изорванным негативом. Ни родных улыбок, ни домашнего уюта — лишь силуэт высокой, строгой родственницы, оформившей опекунство."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:120
+translate english_us chapter2_act3_facing_reality_caf4f61f:
+
+    # narrator "Она никогда не позволяла называть себя по имени. Для меня она была просто 'тётей' — безупречной, ледяной надзирательницей, словно приставленной следить за бракованным биологическим экспериментом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:120
+translate english_us chapter2_act3_facing_reality_c4a48209:
+
+    # narrator "Я не помнила истоков собственной жизни и не владела собственным восприятием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/4-facing-reality.rpy:120
+translate english_us chapter2_act3_facing_reality_89242d19:
+
+    # narrator "И сейчас, в пыльном мертвом ангаре, животный ужас перед собственным мозгом пугал куда сильнее вооруженных патрулей службы безопасности."
+    narrator ""
+

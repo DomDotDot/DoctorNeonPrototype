@@ -738,3 +738,221 @@ translate english_us chapter4_5_dorm_investigation_3cc910e1:
     # narrator "Он медленно обернулся. Он не смотрел на тело. Он смотрел на меня. В его глазах была не жалость. А ужас. Он ужасался не тому, что я сделала. А тому, что я смогла это сделать."
     narrator "He turned slowly. He didn't look at the body. He looked at me. In his eyes was not pity. But horror. He wasn't horrified by what I did. But by the fact that I could do it."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:149
+translate english_us chapter4_5_dorm_investigation_92e9ef24:
+
+    # narrator "Я щелкнула фонариком на телефоне. Тонкий белый луч рассек пыльный полумрак комнаты."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:153
+translate english_us chapter4_5_dorm_investigation_5756b53d:
+
+    # narrator "На диване, запрокинув голову на мягкую спинку, сидела девушка. Сара Кендрик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:153
+translate english_us chapter4_5_dorm_investigation_3ea74bc9:
+
+    # narrator "Ее поза казалась неестественно безмятежной, словно она просто присела перевести дух между парами и задремала."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:153
+translate english_us chapter4_5_dorm_investigation_0876051e:
+
+    # narrator "Но сухая кожа на ее лице обтягивала скулы с желтизной старого парафина. Широко распахнутые глаза тускло отражали свет моего фонаря, глядя в побелку потолка. Никаких следов борьбы. Ни капли крови. Ни единой раны на запястьях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:153
+translate english_us chapter4_5_dorm_investigation_21b4862b:
+
+    # narrator "Она не дышала. Она просто высохла изнутри."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:165
+translate english_us chapter4_5_dorm_investigation_20610625:
+
+    # narrator "И тут тишину разорвал звук. Не снаружи — внутри моего собственного черепа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:167
+translate english_us chapter4_5_dorm_investigation_bf4577dc:
+
+    # narrator "Тот самый тонкий, вибрирующий комариный писк, от которого сводило челюсть в кабинете Серафины. Только теперь он звучал не в отдалении, а набатом, усиленный в тысячи раз. Невидимый, безжалостный гул сверлил барабанные перепонки, отдаваясь тягучей тошнотой под ребрами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:169
+translate english_us chapter4_5_dorm_investigation_f86878cc:
+
+    # narrator "Я стиснула зубы, невольно прижав ладонь к уху."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:171
+translate english_us chapter4_5_dorm_investigation_cfcea056:
+
+    # argon "Что... что это вокруг нее...?!"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:171
+translate english_us chapter4_5_dorm_investigation_a3e638b4:
+
+    # argon "Белые крылья с черной каймой... Бабочки... Они... они роятся прямо над ней, Неон..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:177
+translate english_us chapter4_5_dorm_investigation_c670e64d:
+
+    # narrator "Я резко повернула луч фонаря к лицу и плечам Сары. Но воздух над ней был совершенно пуст. Никаких бабочек. Ни пчел. Ни единой живой тени в луче."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:179
+translate english_us chapter4_5_dorm_investigation_f1e923c7:
+
+    # narrator "Лишь этот невыносимый звон мошкары, ввинчивающийся в мозг, пока Аргон в ужасе отступал к дверному проему, закрывая рот ладонью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:181
+translate english_us chapter4_5_dorm_investigation_2bd35b50:
+
+    # argon "Господи... Кто... кто мог сотворить такое с девчонкой?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:181
+translate english_us chapter4_5_dorm_investigation_a265533f:
+
+    # argon "С ней... с Лили могли сделать то же самое..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:189
+translate english_us chapter4_5_dorm_investigation_08ab0218:
+
+    # neon "Окно открыто настежь. Запах уличной сырости и пыльцы перебивал все остальное... Никто не почувствовал."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:191
+translate english_us chapter4_5_dorm_investigation_6a4bacc5:
+
+    # narrator "Я заставила себя сделать вдох через рот и подошла к дивану. Меня бил внутренний озноб, но пальцы действовали быстрее мыслей. Телефон Сары лежал у меня в кармане."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:193
+translate english_us chapter4_5_dorm_investigation_fa71a53d:
+
+    # narrator "Банковское приложение на экране мигнуло запросом отпечатка пальца."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:193
+translate english_us chapter4_5_dorm_investigation_ea03c43b:
+
+    # narrator "Я присела рядом с диваном, стараясь не смотреть в пустые остекленевшие глаза девушки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:193
+translate english_us chapter4_5_dorm_investigation_e2656c3b:
+
+    # narrator "Ее запястье было жестким и ледяным, как дерево. Я осторожно взяла кончик ее указательного пальца и прижала к стеклу сенсора на корпусе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:193
+translate english_us chapter4_5_dorm_investigation_d309daea:
+
+    # narrator "Тихий щелчок разблокировки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:203
+translate english_us chapter4_5_dorm_investigation_7a8862e6:
+
+    # neon "Аргон, смотри. Транзакции. С самого дня ее исчезновения."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:203
+translate english_us chapter4_5_dorm_investigation_7c932209:
+
+    # neon "Десятки списаний. И все — кондитерские. 'Сахарная Комета', 'Клубничная Галактика'... Чеки на огромные суммы. Словно кто-то заказывал горы десертов на целую компанию."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:203
+translate english_us chapter4_5_dorm_investigation_53f308b7:
+
+    # neon "И последняя строчка... Двадцать пять минут назад. Снова выпечка и сиропы. Оплата прошла в павильоне на Бульваре Мечтателей."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:211
+translate english_us chapter4_5_dorm_investigation_2b9f765f:
+
+    # argon "Кто-то тратит ее сбережения прямо сейчас? Но ее нового смартфона, про который говорила мать, здесь нет?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:213
+translate english_us chapter4_5_dorm_investigation_fcb1fafc:
+
+    # neon "В комнате чисто. Тот, кто забрал телефон, сейчас там, среди ярмарочных рядов."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:215
+translate english_us chapter4_5_dorm_investigation_03c266bb:
+
+    # argon "Значит, нам нужно на этот бульвар. Немедленно."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:217
+translate english_us chapter4_5_dorm_investigation_70eea75c:
+
+    # narrator "Луч фонарика соскользнул с дивана на пол. И там, возле ножки журнального столика, я увидела ее."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:219
+translate english_us chapter4_5_dorm_investigation_91292ee3:
+
+    # narrator "Светло-голубая сумка с лаконичным тиснением Академии Веритас. Плотная экокожа, серебристая фурнитура. Точно такую же сумочку я видела у Кэрол у ограды стадиона. И точно такую же на рассвете несла в руке Серафина в Ботаническом саду."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:221
+translate english_us chapter4_5_dorm_investigation_7980dcfd:
+
+    # narrator "Я шагнула к столику, подняла сумку и потянула застежку-молнию."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:223
+translate english_us chapter4_5_dorm_investigation_468131ef:
+
+    # narrator "Внутри не было мусора или личных записей. Там лежал аккуратно сложенный, нетронутый запасной комплект формы Академии: темный форменный пиджак с шевроном, плиссированная юбка, чистая белая рубашка и галстук. Ткань еще сохраняла фабричную гладкость и запах прачечной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:225
+translate english_us chapter4_5_dorm_investigation_777bd73c:
+
+    # neon "У нас есть прикрытие. В Академию и к павильонам бульвара так просто не пройти — патрули не пропустят чужих."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:227
+translate english_us chapter4_5_dorm_investigation_c259a70c:
+
+    # argon "{=whisper}Ты... возьмешь форму?{/whisper}"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:229
+translate english_us chapter4_5_dorm_investigation_4e559f3f:
+
+    # neon "Она чистая, сменная. Лежала в сумке. Это единственный способ не привлекать внимания охраны."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:231
+translate english_us chapter4_5_dorm_investigation_c2e3387e:
+
+    # narrator "Аргон тяжело вздохнул, но спорить не стал. Я перекинула ремень голубой сумки через плечо, спрятав в нее телефон Сары."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:235
+translate english_us chapter4_5_dorm_investigation_47080e48:
+
+    # neon "Пора. Бульвар Мечтателей."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/5-dormitory-nest.rpy:239
+translate english_us chapter4_5_dorm_investigation_593d5888:
+
+    # narrator "Мы выскользнули из общежития обратно в холодную тьму веритасовских переулков, оставив за спиной пустую комнату и немой призрак Сары."
+    narrator ""
+

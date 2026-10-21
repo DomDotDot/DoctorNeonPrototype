@@ -1190,3 +1190,137 @@ translate english_us chapter4_5_nari_flashback_0e88fbf9:
     # narrator "Я думала, это мир говорит мне: 'Твое место в тени'."
     narrator "I thought it was the world telling me: 'Your place is in the shadows'."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:426
+translate english_us chapter4_5_nari_flashback_634cba4d:
+
+    # narrator "Я стояла на краю глубокого строительного котлована на окраине Старого района."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:426
+translate english_us chapter4_5_nari_flashback_bc114437:
+
+    # narrator "Внизу, в сырой низине, клубился плотный, тяжелый туман. Он не рассеивался ветром, а лежал на дне ямы неподвижным пластом, пахнущим сыростью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:426
+translate english_us chapter4_5_nari_flashback_7eb3073b:
+
+    # narrator "Холодный воздух жег легкие. Но внутри, под слоем тоски, клокотало нечто уродливое и жадное."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:426
+translate english_us chapter4_5_nari_flashback_b6adda29:
+
+    # narrator "Я не хотела просто разбиться. Я хотела стереть саму себя — и вернуться кем-то, кого Серафина больше никогда не сможет променять на чужой талант."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:426
+translate english_us chapter4_5_nari_flashback_a6bc9ea2:
+
+    # narrator "В тумане внизу замерцали два белесых блика, а затем из мглы проступили светящиеся багровые огоньки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:426
+translate english_us chapter4_5_nari_flashback_ae133108:
+
+    # narrator "Фигура, сотканная из клубящейся серой дымки, поднялась навстречу. Словно сам туман, впитавший мое отчаяние, обрел форму и голос. Мой собственный голос, вывернутый наизнанку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:444
+translate english_us chapter4_5_nari_flashback_4554ebf0:
+
+    # nari "Надоело."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:454
+translate english_us chapter4_5_nari_flashback_5e4654cc:
+
+    # illusion "Ты хочешь, чтобы она наконец посмотрела на тебя? По-настоящему?"
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:454
+translate english_us chapter4_5_nari_flashback_7424f3a5:
+
+    # illusion "Я знаю, каково это. Я могу дать тебе то, чего ты так жаждешь."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:460
+translate english_us chapter4_5_nari_flashback_23989393:
+
+    # nari "Что нужно отдать?"
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:462
+translate english_us chapter4_5_nari_flashback_d58e5de9:
+
+    # illusion "Всего лишь... себя прежнюю."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:466
+translate english_us chapter4_5_nari_flashback_84c4aaf3:
+
+    # narrator "Тень качнулась ко мне, но замерла, будто уперлась в невидимое силовое поле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:468
+translate english_us chapter4_5_nari_flashback_7e03d238:
+
+    # illusion "Ого... Какая глухая стена..."
+    illusion ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:470
+translate english_us chapter4_5_nari_flashback_3d8f5297:
+
+    # nari "О чем ты?"
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:474
+translate english_us chapter4_5_nari_flashback_2d53a4ed:
+
+    # illusion thinking "Тень, в которую ты себя замуровала."
+    illusion thinking ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:474
+translate english_us chapter4_5_nari_flashback_8154be4a:
+
+    # illusion thinking "Ты так неистово желала исчезнуть, что сама отрезала себя от мира. Ты почти стерла свое существование без посторонней помощи."
+    illusion thinking ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:474
+translate english_us chapter4_5_nari_flashback_59d49b4c:
+
+    # illusion thinking "Так впусти меня до конца."
+    illusion thinking ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:482
+translate english_us chapter4_5_nari_flashback_02b266db:
+
+    # narrator "Я не пыталась спорить. Страха не было — было лишь ледяное оцепенение и жажда сбросить с себя имя неудачницы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:486
+translate english_us chapter4_5_nari_flashback_4cc09e47:
+
+    # illusion normal "Отдай мне ту часть, которую все равно никто не замечает. Разве тебе ее жаль?"
+    illusion normal ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:488
+translate english_us chapter4_5_nari_flashback_301fa03f:
+
+    # narrator "Я вспомнила приоткрытую дверь балкона. Руки Серафины на плечах Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:488
+translate english_us chapter4_5_nari_flashback_390c178f:
+
+    # narrator "Мне не было жаль Нари."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/1-nari.rpy:494
+translate english_us chapter4_5_nari_flashback_70f1297a:
+
+    # nari "...Забирай."
+    nari ""
+

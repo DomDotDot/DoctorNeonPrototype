@@ -132,3 +132,121 @@ translate english_us strings:
     old "Вернуться в Холл"
     new "Return to the Hall"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:4
+translate english_us ch3_long_corridor_32b6b252:
+
+    # narrator "Коридор за сдвинутой решеткой делал пологий изгиб и уходил вглубь заброшенного лабораторного корпуса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:4
+translate english_us ch3_long_corridor_2a17ce61:
+
+    # narrator "Здесь царило мертвое безмолвие. Слой пыли поглощал шорох моих шагов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:4
+translate english_us ch3_long_corridor_329bf0b6:
+
+    # narrator "Вдоль стен выстроились шеренги пустых металлических бочек из-под реактивов. Справа темнела тяжелая бронированная дверь со светящейся панелью кодового замка — вход в центральную химическую лабораторию."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:4
+translate english_us ch3_long_corridor_cb55ab42:
+
+    # narrator "Дальше тянулись пустые помещения бывших диспетчерских, раздевалок и архивов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:4
+translate english_us ch3_long_corridor_413bf236:
+
+    # narrator "А из-под самой дальней двери в конце крыла пробивалась такая тонкая, теплая полоска света и пахло маслами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:4
+translate english_us ch3_long_corridor_eadbeaae:
+
+    # narrator "Там явно кто-то был."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:20
+translate english_us ch3_explore_long_corridor_6ddbc046:
+
+    # narrator "Я подошла к приоткрытой створке и тихо толкнула ее рукой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:25
+translate english_us ch3_explore_long_corridor_9bee7ae5:
+
+    # narrator "На косяке тускло светится мембранная клавиатура электронного замка. Требуется четырехзначный код доступа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:32
+translate english_us ch3_explore_long_corridor_7e70cce6:
+
+    # narrator "Замок отозвался сухим щелчком, диод сменился на зеленый. Пароль Петрова подошел."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:36
+translate english_us ch3_explore_long_corridor_3d7f0af2:
+
+    # narrator "Индикатор мигнул красным, выдав протяжный зуммер ошибки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:39
+translate english_us ch3_explore_long_corridor_1044362c:
+
+    # neon "{=thoughts}Подбирать наугад бессмысленно. Где-то на объекте должна быть подсказка или пропуск персонала.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:45
+translate english_us ch3_explore_long_corridor_b8770894:
+
+    # narrator "Замок деактивирован. Дверь в химлабораторию разблокирована."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:52
+translate english_us ch3_explore_long_corridor_dbdc9d3b:
+
+    # narrator "Сначала нужно выяснить, какие именно приборы и компоненты мне понадобятся."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:19
+    old "Подойти к дальней двери, откуда тянет растворителем."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:23
+    old "Осмотреть бронированную дверь химлаборатории."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:27
+    old "Ввести код."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:29
+    old "Введите четырехзначный код:"
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:42
+    old "Отойти от панели."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:55
+    old "Направиться в южное крыло (Пищевой цех)."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:58
+    old "Спуститься в административный корпус (Медпункт)."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:61
+    old "Вернуться в мастерскую к Художнику."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.6-long-hall.rpy:64
+    old "Вернуться к решетке главного холла."
+    new ""
+

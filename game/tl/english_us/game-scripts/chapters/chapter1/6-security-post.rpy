@@ -208,3 +208,191 @@ translate english_us chapter1_security_post_scene_3ed7544b:
     # hans "Эх, Ладно. Официально я вам ничего показывать не могу. И копировать – тем более."
     hans "Eh, Fine. Officially, I can't show you anything. And I certainly can't make a copy."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:3
+translate english_us chapter1_security_post_scene_69c3f4f3:
+
+    # narrator "Пост службы безопасности находился на стыке первого яруса и служебного выхода."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:3
+translate english_us chapter1_security_post_scene_f8a2263f:
+
+    # narrator "Стена из кинескопных и жидкокристаллических мониторов заливала полутемную каморку тусклым зеленоватым светом. Ханс сидел за пультом управления, неторопливо листая журнал обходов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:11
+translate english_us chapter1_security_post_scene_ee1dd18d:
+
+    # hans "О, доктор Неон! Александра... Вы уже с заседания? Ну что, поздравить можно?"
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:13
+translate english_us chapter1_security_post_scene_7800c0a6:
+
+    # neon "Ханс, нам срочно нужна ваша помощь. Это вопрос жизни и смерти. Почти буквально."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:14
+translate english_us chapter1_security_post_scene_1af744e1:
+
+    # alex "Дело дрянь, Ханс. У Неон внаглую украли результаты важнейшего исследования."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:15
+translate english_us chapter1_security_post_scene_e0702a65:
+
+    # hans "Украли? В нашем комплексе? Да полно вам, барышни, у нас же тут мышь без пропуска не проскочит."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:16
+translate english_us chapter1_security_post_scene_c1645880:
+
+    # neon "Ханс, пожалуйста! Нам нужны записи с камеры перед моей лабораторией. За сегодняшнюю ночь, между полуночью и четырьмя утра."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:18
+translate english_us chapter1_security_post_scene_6eb0c95d:
+
+    # narrator "Ханс тяжело вздохнул и сокрушенно покачал головой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:19
+translate english_us chapter1_security_post_scene_9804b3d8:
+
+    # hans "Ох, девочки... Вы же знаете инструкцию. Не могу я."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:19
+translate english_us chapter1_security_post_scene_4bf1891f:
+
+    # hans "Доступ к видеоархиву — строго по служебной записке за подписью начальника караула или директора. Без резолюции я под трибунал пойду."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:24
+translate english_us chapter1_security_post_scene_5fcceca5:
+
+    # neon surprised "У нас нет времени на их бюрократию! К вечеру Маркус оформит патентные заявки, и доказать что-либо будет невозможно! Поймите, он проник в мой кабинет, пока я была без сознания!"
+    neon surprised ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:25
+translate english_us chapter1_security_post_scene_3143dac0:
+
+    # alex @ serious "Ханс, ну проявите человечность! Неон двое суток не спала ради этого прорыва! Вы же знаете, она не станет устраивать бурю на ровном месте."
+    alex @ serious ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:27
+translate english_us chapter1_security_post_scene_2b985294:
+
+    # narrator "Ханс помолчал, разглядывая наши взмыленные, отчаянные лица. Пальцы ветерана задумчиво забарабанили по металлической панели пульта."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:31
+translate english_us chapter1_security_post_scene_8a5280ce:
+
+    # hans "Знаю я тебя, Неон... Девчонка ты со странностями, но честная до мозга костей. А Маркус этот... всегда мне казался скользким, как намыленный уж."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:31
+translate english_us chapter1_security_post_scene_6ab930fa:
+
+    # hans "Ладно. Сделаем так: официально я вам ничего не открывал и копий не выдавал."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:31
+translate english_us chapter1_security_post_scene_2c2efe89:
+
+    # hans "Но если я прямо сейчас 'случайно' выведу нужный сегмент на правый монитор..."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:31
+translate english_us chapter1_security_post_scene_03579534:
+
+    # hans "А Александра 'случайно' включит камеру на своем смартфоне и снимет экран... Я сделаю вид, что страшно увлечен изучением графика дезинфекции."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:41
+translate english_us chapter1_security_post_scene_eb21db1e:
+
+    # narrator "Он выразительно постучал ногтем по раскрытому журналу, демонстративно отворачиваясь к стене."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:43
+translate english_us chapter1_security_post_scene_9660b73a:
+
+    # neon pleasant "Ханс... вы просто наш спаситель!"
+    neon pleasant ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:44
+translate english_us chapter1_security_post_scene_bee3b877:
+
+    # alex happy "Огромное вам спасибо!"
+    alex happy ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:45
+translate english_us chapter1_security_post_scene_0fc2e548:
+
+    # hans "Цыц! Быстро и тихо. Чтобы я потом ничего не знал."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:47
+translate english_us chapter1_security_post_scene_887d8601:
+
+    # narrator "Клавиши пульта дробно защелкали под пальцами охранника."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:47
+translate english_us chapter1_security_post_scene_89be937a:
+
+    # narrator "На правом экране ожил черно-белый таймлапс ночного коридора: тусклый свет аварийных ламп, бесшумный проезд сервисного робота, вот я вхожу в лабораторию около полуночи..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:47
+translate english_us chapter1_security_post_scene_2ca48003:
+
+    # narrator "Алекс вскинула телефон, наводя объектив на экран."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:47
+translate english_us chapter1_security_post_scene_56f14101:
+
+    # narrator "Два часа тридцать минут ночи. Из бокового шлюза выныривает силуэт Маркуса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:47
+translate english_us chapter1_security_post_scene_eed233a8:
+
+    # narrator "Он воровато оглядывается по сторонам, прижимает карту к считывателю моей двери и исчезает внутри."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:47
+translate english_us chapter1_security_post_scene_481b932a:
+
+    # narrator "А спустя сорок минут выходит обратно, сжимая в кулаке ту самую синюю флешку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:60
+translate english_us chapter1_security_post_scene_ab930913:
+
+    # neon "Есть! Вот он, мерзавец! Прямое проникновение!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:61
+translate english_us chapter1_security_post_scene_f3333412:
+
+    # alex "Всё записала! В идеальном фокусе, с таймкодом!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:63
+translate english_us chapter1_security_post_scene_8cd48e0e:
+
+    # narrator "Ханс громко кашлянул в кулак и нажал комбинацию клавиш, мгновенно гася архивную сетку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/6-security-post.rpy:64
+translate english_us chapter1_security_post_scene_cda88502:
+
+    # hans "Всё, барышни. Сеанс окончен. Экран чист, журнал закрыт. Я вас сегодня в глаза не видел."
+    hans ""
+

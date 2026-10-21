@@ -390,3 +390,287 @@ translate english_us ch3_part2_the_cage_b5eeb1c6:
     # narrator "В его глазах впервые за все время разговора появилась живая эмоция. Надежда? Нет — желание. Это был мой крючок."
     narrator "For the first time in our conversation, a real emotion appeared in his eyes. Hope? No—desire. That was my hook."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:5
+translate english_us ch3_part2_the_cage_7cd90cb1:
+
+    # narrator "Комната напоминала берлогу отшельника, добровольно замуровавшего себя заживо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:5
+translate english_us ch3_part2_the_cage_f06ff720:
+
+    # narrator "У стены лежал продавленный матрас, заваленный истрепанными томами по истории искусств, чертежными альбомами и техническими справочниками. В углу грудилась гора пустой стеклотары из-под технической бормотухи и денатурата."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:5
+translate english_us ch3_part2_the_cage_e77da21d:
+
+    # narrator "Но центром этого убежища был массивный деревянный мольберт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:5
+translate english_us ch3_part2_the_cage_8a53fcb3:
+
+    # narrator "На холсте застыл мрачный, давящий пейзаж Аномика: ржавые трубы химкомбината под небом, окутанные ядовито-желтой взвесью. Мазки мастихина выдавали виртуозную технику, пропитанную болезненной, выстраданной глубиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:5
+translate english_us ch3_part2_the_cage_d5fad220:
+
+    # narrator "Человек, живущий здесь, не просто прятался от мира — он маниакально фиксировал его агонию."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:19
+translate english_us ch3_part2_the_cage_c2ae41ab:
+
+    # narrator "В дальнем темном углу шевельнулась тень."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:19
+translate english_us ch3_part2_the_cage_f46a2641:
+
+    # narrator "Мужчина стоял у верстака, не оборачиваясь, словно заранее знал о моем появлении."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:25
+translate english_us ch3_part2_the_cage_992dae74:
+
+    # argon "Шумишь в коридоре, как испуганная крыса в пустой бочке. Чего тебе здесь надо?"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:29
+translate english_us ch3_part2_the_cage_3c70582b:
+
+    # narrator "Он медленно повернулся на свет керосиновой лампы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:29
+translate english_us ch3_part2_the_cage_9316f19f:
+
+    # narrator "Широкие плечи безнадежно ссутулились под весом невидимого ярма. Это было мощное, кряжистое тело созидателя — скульптора или кузнеца, привыкшего ворочать тяжелый гранит и металл."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:29
+translate english_us ch3_part2_the_cage_995bf540:
+
+    # narrator "Но сейчас в его осанке сквозила лишь въевшаяся в суставы, многолетняя апатия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:29
+translate english_us ch3_part2_the_cage_8176b1e1:
+
+    # narrator "Старый свитер пестрел въевшимися пятнами масляной краски и растворителя. Лицо заросло жесткой седеющей щетиной, а серые, словно шлаковая пыль, глаза смотрели сквозь меня с ледяным безразличием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:29
+translate english_us ch3_part2_the_cage_edc1a9dd:
+
+    # narrator "Особенно выделялись его руки: широкие ладони с длинными чуткими пальцами, покрытые сеткой мелких шрамов от резцов и следами химических ожогов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:41
+translate english_us ch3_part2_the_cage_5d41d9b1:
+
+    # neon "Я искала того, кто знает этот завод. Того, кто живет здесь сам по себе, а не шестерит на Гатса."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:43
+translate english_us ch3_part2_the_cage_038c5ddc:
+
+    # narrator "Он криво усмехнулся потрескавшимися губами, вертя в пальцах обломок сухой кисти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:47
+translate english_us ch3_part2_the_cage_80bf5f18:
+
+    # argon "'Шестерит'... Громкие слова для беглянки из стеклянной башни."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:47
+translate english_us ch3_part2_the_cage_6183f84e:
+
+    # argon "У нас с Гатсом нейтралитет. Он не лезет ко мне с глупостями, я не мешаю его ублюдкам таскать железо."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:47
+translate english_us ch3_part2_the_cage_0d83846b:
+
+    # argon "Ты зря пришла сюда, ученая. Твои метания по коридорам бессмысленны."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:55
+translate english_us ch3_part2_the_cage_515ebae0:
+
+    # neon "Мне нужен выход с территории. Ищу тайный проход к внешним путям в обход охраны у ворот."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:57
+translate english_us ch3_part2_the_cage_b90abdb9:
+
+    # argon "Выход?"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:59
+translate english_us ch3_part2_the_cage_1875ad3b:
+
+    # narrator "Он поднял кисть и постучал деревянным кончиком по собственному виску."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:61
+translate english_us ch3_part2_the_cage_6d2aa907:
+
+    # argon "Отсюда выхода нет."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:61
+translate english_us ch3_part2_the_cage_077f42cb:
+
+    # argon "За забором комбината простирается точно такой же Аномик. Те же ржавые переборки, тот же ядовитый пар в оврагах, те же бандиты, только в чистых мундирах."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:61
+translate english_us ch3_part2_the_cage_61087c2a:
+
+    # argon "Какая разница, где сидеть взаперти? Я выбрал свою нору. Мне здесь спокойно."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:69
+translate english_us ch3_part2_the_cage_eff78163:
+
+    # neon irritated "Спокойно?! Ты заперся в сырой дыре среди пустых бутылок и малюешь труп мертвого города! Это не спокойствие, это капитуляция!"
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:73
+translate english_us ch3_part2_the_cage_b4645ca8:
+
+    # argon "Называй как хочешь. Это мой выбор."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:73
+translate english_us ch3_part2_the_cage_1814f881:
+
+    # argon "Я сижу здесь, потому что не хочу участвовать в вашей суете. Мир сгнил, ученая. Смирись и ложись на матрас. Завтра Гатс найдет тебе работу по плечу."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:79
+translate english_us ch3_part2_the_cage_8e810374:
+
+    # narrator "В его хриплом, надтреснутом голосе звенела такая отчаянная, застарелая тоска, что мороз продирал по коже."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:79
+translate english_us ch3_part2_the_cage_e2219bc3:
+
+    # narrator "Он находился здесь не месяц и не два. Он провел в этих руинах долгие годы. Он знал каждую балку, каждый дренажный коллектор и каждый тупик на километры вокруг."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:79
+translate english_us ch3_part2_the_cage_47949984:
+
+    # narrator "И он был живым воплощением абсолютного, безнадежного застоя. Пассивного эскапизма, разъедающего человека страшнее любого кислотного тумана."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:79
+translate english_us ch3_part2_the_cage_fb96c5e4:
+
+    # narrator "Уговаривать его идеалами или просить о сострадании было бесполезно — в нем выгорело всё живое."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:79
+translate english_us ch3_part2_the_cage_1feb82ab:
+
+    # narrator "Но у каждого затворника есть уязвимое место. Тот самый крючок, на котором держится его иллюзорное бегство от реальности."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:79
+translate english_us ch3_part2_the_cage_55d6325f:
+
+    # narrator "Я перевела взгляд на гору бутылок в углу. Мутная кустарная брага, вонючий технический денатурат с сивушными маслами, разрушающими печень и нервы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:93
+translate english_us ch3_part2_the_cage_216be6d9:
+
+    # neon "Тебе плевать на жизнь, но не плевать на то, чем ты заливаешь свою память."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:97
+translate english_us ch3_part2_the_cage_e1395d3f:
+
+    # narrator "Он слегка прищурился, впервые сфокусировав на мне прямой взгляд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:99
+translate english_us ch3_part2_the_cage_d7934195:
+
+    # neon "Ты пьешь суррогат. Яд, от которого слепнут и дрожат пальцы. Запасы у тебя на донышке, а следующую подачку от Гатса придется вымаливать неделями."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:99
+translate english_us ch3_part2_the_cage_4e6f3313:
+
+    # neon "Я химик. Я умею работать с ректификацией и молекулярной очисткой."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:99
+translate english_us ch3_part2_the_cage_41d7551c:
+
+    # neon "Если ты проведешь меня наружу и покажешь безопасный ход к путям — я соберу в заброшенной лаборатории перегонный аппарат и сделаю для тебя чистейший медицинский спирт."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:99
+translate english_us ch3_part2_the_cage_2f65510b:
+
+    # neon "Никаких сивушных альдегидов. Идеальный ректификат."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:109
+translate english_us ch3_part2_the_cage_fad398fa:
+
+    # narrator "В его потухших глазах вспыхнул острый, голодный блеск."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:109
+translate english_us ch3_part2_the_cage_659d1288:
+
+    # narrator "Он молчал добрых полминуты, разглядывая мои разбитые руки и грязь на халате."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:115
+translate english_us ch3_part2_the_cage_d8f04bb5:
+
+    # argon "Чистый этанол...? Без метиловых хвостов и ацетона?"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:115
+translate english_us ch3_part2_the_cage_7311a8d8:
+
+    # argon "Ты смелая девочка, раз решила сыграть на моей слабости."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:115
+translate english_us ch3_part2_the_cage_8a70e42a:
+
+    # argon "Но если ты блефуешь или спалишь аппаратуру... Гатс покажется тебе ангелом-хранителем."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:123
+translate english_us ch3_part2_the_cage_8ba2f564:
+
+    # neon "Я не блефую. Дай мне координаты, где искать компоненты для аппарата и сырье для сбраживания."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:125
+translate english_us ch3_part2_the_cage_70ffd571:
+
+    # argon "...Ладно, ученая. Уговорила."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/4-argon.rpy:125
+translate english_us ch3_part2_the_cage_2e739c07:
+
+    # argon "Слушай внимательно, повторять не стану."
+    argon ""
+

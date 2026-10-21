@@ -278,3 +278,173 @@ translate english_us chapter1_lab_noon_library_desk_d97e1780:
     # narrator "Послание. Память. Не хаос. Это было ключевое слово. Ее оправдание."
     narrator "Message. Memory. Not chaos. This was the key word. Her vindication."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:7
+translate english_us chapter1_lab_noon_library_desk_83b78356:
+
+    # narrator "Горькая полуулыбка коснулась моих губ и тут же растаяла в книжной прохладе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:7
+translate english_us chapter1_lab_noon_library_desk_88372ba7:
+
+    # narrator "Я постучала ребром ручки по полированному дубу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:7
+translate english_us chapter1_lab_noon_library_desk_91d0195e:
+
+    # narrator "Кто же ты? Чей голос звучит в моей голове с такой невыносимой, щемящей нежностью? И почему чужое воспоминание кажется роднее собственной жизни?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:15
+translate english_us chapter1_lab_noon_library_desk_08a32bf5:
+
+    # neon "{=thoughts}Анна... Софи... Знали бы вы, куда завели меня мои звезды.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:17
+translate english_us chapter1_lab_noon_library_desk_d1f66d76:
+
+    # narrator "Я сжала пальцы и вернулась к черновикам. Кончик пера вывел на белом листе первый заголовок: \n 'Анализ аномальной ритмики в секторе Дельта-4'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:17
+translate english_us chapter1_lab_noon_library_desk_b429363d:
+
+    # narrator "Слова ложились быстро, плотно — формулы словно годами копились внутри, ожидая прорыва на волю."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:24
+translate english_us chapter1_lab_noon_library_desk_dcbcc7c0:
+
+    # neon "{=thoughts}'...периодичность гармоник исключает стохастическую природу. Мы наблюдаем архитектуру — музыкальную мысль, закодированную в гравитационном спектре...' {/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_4c884bf8:
+
+    # narrator "Строгая закономерность."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_da4ba1e9:
+
+    # narrator "Вся моя жизнь до этой минуты порой казалась мне чередой серых случайностей: детство в глухом горном поселке, холодные стены интерната, Цюрих..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_d56a903b:
+
+    # narrator "Откуда во мне родилась эта слепая, фанатичная тяга к черному небу?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_68caec38:
+
+    # narrator "Память подсовывала лишь разрозненные осколки — вспышки света, немое ощущение падения, ледяной ужас в чужих глазах... Но сложить их в единый витраж не удавалось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_612af30b:
+
+    # narrator "Я глубоко вдохнула разреженный воздух библиотеки, отгоняя зыбкие тени."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:26
+translate english_us chapter1_lab_noon_library_desk_b6c06859:
+
+    # narrator "Прошлое мертво. Важно лишь то, что лежит передо мной на столе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:42
+translate english_us chapter1_lab_noon_library_desk_2813c764:
+
+    # narrator "Мне предстояло убедить совет директоров: за кажущимся космическим хаосом скрывается осмысленная гармония."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:42
+translate english_us chapter1_lab_noon_library_desk_b715ad78:
+
+    # narrator "Сквозь какофонию пульсаров пробивался разумный голос. Живая мысль."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:42
+translate english_us chapter1_lab_noon_library_desk_a0c9f94e:
+
+    # narrator "Сигнал из сектора Дельта-4 был моим щитом и знаменем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:42
+translate english_us chapter1_lab_noon_library_desk_03445d78:
+
+    # narrator "Рука обрела твердость. Я выводила строки с лихорадочной строгостью. Каждое уравнение, каждая спектрограмма становились неопровержимым свидетельством."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:42
+translate english_us chapter1_lab_noon_library_desk_dabd1888:
+
+    # narrator "Взгляд на наручные часы: стрелки безжалостно подползали к трем часам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:54
+translate english_us chapter1_lab_noon_library_desk_0fd9f6bf:
+
+    # neon "{=thoughts}'...гармонический ряд строго повторяется — перед нами искусственная модуляция...' {/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:56
+translate english_us chapter1_lab_noon_library_desk_eb0e5b18:
+
+    # neon "{=thoughts}'...создатель этой структуры знал законы акустической симметрии...' {/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:58
+translate english_us chapter1_lab_noon_library_desk_e504ab22:
+
+    # neon "{=thoughts}'...высокая вероятность прямого разумного послания либо цифрового слепка сознания...' {/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_01d6a149:
+
+    # narrator "Послание. Память. Разум."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_b43fe696:
+
+    # narrator "Я жирно подчеркнула ключевой вывод двумя резкими чертами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_21a0b0a0:
+
+    # narrator "В голове на мгновение всплыла странная спешка Маркуса с папкой под мышкой и Алекс, печатающая мои служебные ведомости. Что-то во всем этом звенело фальшью, но я отмахнулась: на сомнения не оставалось времени."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_367eb831:
+
+    # narrator "Последняя жирная точка на листе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_fadf86c1:
+
+    # narrator "Я отложила ручку. Пальцы затекли, в висках гудело от напряжения, но в эту секунду весь посторонний шум мира исчез."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_bd0fe6e0:
+
+    # narrator "Остались только эти исписанные страницы. Абсолютная тишина триумфа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3.2-library-desk.rpy:60
+translate english_us chapter1_lab_noon_library_desk_cd10f324:
+
+    # narrator "Я собрала листы, поправила халат и зашагала к скоростным лифтам — на верхний ярус, в зал заседаний ученого совета."
+    narrator ""
+

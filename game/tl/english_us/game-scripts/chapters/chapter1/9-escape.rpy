@@ -572,3 +572,539 @@ translate english_us chapter1_escape_sequence_start_974e4f80:
     # narrator "Моя машина вылетела из оврага и рухнула прямо на полотно нижнего скоростного шоссе."
     narrator "My car flew out of the ravine and clattered directly onto the pavement of a lower expressway."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:5
+translate english_us chapter1_escape_sequence_start_b85522eb:
+
+    # narrator "Я смотрела на распластанного на полу Маркуса, на свои сведенные судорогой пальцы. В ушах звенело, как после разрыва гранаты."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:5
+translate english_us chapter1_escape_sequence_start_b723a860:
+
+    # narrator "Слепая ярость схлынула, оставив после себя лишь ледяной, тошнотворный кошмар."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:5
+translate english_us chapter1_escape_sequence_start_3898c6c0:
+
+    # narrator "Яростные крики Ханса из-за поворота приближались с каждой секундой. Загремела связка ключей в тяжелом замке коридорного шлюза."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:14
+translate english_us chapter1_escape_sequence_start_4a0fdb90:
+
+    # narrator "Алекс вскочила на ноги. В ее глазах горела бешеная, отчаянная решимость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:16
+translate english_us chapter1_escape_sequence_start_3b9e61d5:
+
+    # alex "Неон! Очнись! Нам нужно бежать! Сию же секунду!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:18
+translate english_us chapter1_escape_sequence_start_e3a22020:
+
+    # narrator "Ее крик с трудом пробивал плотную вату контузии. Бежать? Куда? Я только что покалечила человека на глазах у всех."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:20
+translate english_us chapter1_escape_sequence_start_a36e7f66:
+
+    # neon surprised "Я... я убила его... Алекс..."
+    neon surprised ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:22
+translate english_us chapter1_escape_sequence_start_7753371b:
+
+    # alex "Потом! Обо всем подумаем потом! Если тебя здесь схватят — живой не выпустят! Бежим!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:24
+translate english_us chapter1_escape_sequence_start_f9a3a3eb:
+
+    # narrator "Ее горячая ладонь намертво вцепилась в мои заледеневшие пальцы, выдергивая меня из ступора. Я побежала за ней."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:27
+translate english_us chapter1_escape_sequence_start_69bc8f04:
+
+    # hans "Что здесь происходит?! Группу захвата на первый ярус! Врача к лифтам! Живо!"
+    hans ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:29
+translate english_us chapter1_escape_sequence_start_661a90d5:
+
+    # narrator "Громовой рык Ханса за нашими спинами подстегнул нас лучше любого кнута. Мы нырнули в пожарный створ."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:34
+translate english_us chapter1_escape_sequence_start_3efb02e5:
+
+    # narrator "Узкая, сырая шахта аварийной лестницы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:34
+translate english_us chapter1_escape_sequence_start_6caad972:
+
+    # narrator "Сверху гулким эхом уже катился дробный топот кованых сапог службы безопасности. Нас настигали."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:34
+translate english_us chapter1_escape_sequence_start_ce17e6b2:
+
+    # narrator "Мы летели вниз, перепрыгивая через три ступени, сдирая ладони о шершавый бетон. Сердце колотилось в горле, разрывая ребра."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:42
+translate english_us chapter1_escape_sequence_start_7e5baf81:
+
+    # alex "В подземку! К сектору Р2! Мой пропуск откроет нижний грузовой шлюз!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:43
+translate english_us chapter1_escape_sequence_start_da2fd781:
+
+    # neon "Моя машина... на нижнем ярусе..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:45
+translate english_us chapter1_escape_sequence_start_bbf12943:
+
+    # narrator "Мы вывалились на технический горизонт. Холодный полумрак, запах машинного масла и надсадный вой магистральных труб."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:45
+translate english_us chapter1_escape_sequence_start_ce2281d3:
+
+    # narrator "В конце бетонного тупика виднелась гермодверь с горящей рубиновой надписью 'ВЫХОД — Р2'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:53
+translate english_us chapter1_escape_sequence_start_c96a0d8a:
+
+    # narrator "Но стоило нам выскочить на финишную прямую, как из бокового коридора вынырнули двое бойцов в бронежилетах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:57
+translate english_us chapter1_escape_sequence_start_fc955717:
+
+    # "Охранник" "Стоять на месте! Руки на затылок, лицом к стене!"
+    "Охранник" ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:59
+translate english_us chapter1_escape_sequence_start_099e70c9:
+
+    # narrator "Они перекрыли проход к шлюзу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:59
+translate english_us chapter1_escape_sequence_start_ac548bc6:
+
+    # narrator "Я оглянулась назад: с лестничной площадки уже высыпали еще трое оперативников с электрошокерами наготове."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:59
+translate english_us chapter1_escape_sequence_start_bac70286:
+
+    # narrator "Капкан."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:59
+translate english_us chapter1_escape_sequence_start_eec3ed60:
+
+    # narrator "Бетонный мешок без окон. Охрана впереди, охрана сзади. А тяжелая дверь на парковку — всего в двух шагах, запертая электронным замком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:69
+translate english_us chapter1_escape_sequence_start_de8b3121:
+
+    # neon "{=thoughts}Всё. Конец. Нас зажали.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:71
+translate english_us chapter1_escape_sequence_start_7836f1dd:
+
+    # narrator "Я прижалась лопатками к холодной стене, готовая опустить руки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:71
+translate english_us chapter1_escape_sequence_start_25773238:
+
+    # narrator "Но Алекс сдаваться не собиралась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:71
+translate english_us chapter1_escape_sequence_start_ac12f334:
+
+    # narrator "Она рывком впечатала меня в нишу за своей спиной, заслоняя от нацеленных стволов. Ее лицо оказалось в считанных миллиметрах от моего."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:81
+translate english_us chapter1_escape_sequence_start_8112d3f7:
+
+    # narrator "Она задыхалась от бега, золотистые кудри прилипли к взмокшему лбу. И посреди этого кошмара она вдруг... улыбнулась. Той самой своей беззаботной, солнечной улыбкой, от которой на сердце становилось тепло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:87
+translate english_us chapter1_escape_sequence_start_120e5c05:
+
+    # neon "{=whisper}Алекс, нет... их слишком много... брось меня...{/whisper}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:89
+translate english_us chapter1_escape_sequence_start_da7f2539:
+
+    # narrator "Она накрыла мои щеки своими обжигающе горячими ладонями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:89
+translate english_us chapter1_escape_sequence_start_3131152e:
+
+    # narrator "Ее взгляд прожег меня насквозь, отсекая весь вой сирен и топот сапог."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:95
+translate english_us chapter1_escape_sequence_start_f46beece:
+
+    # alex "{=whisper}Там, за шлюзом — твоя машина."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:95
+translate english_us chapter1_escape_sequence_start_46e90019:
+
+    # alex "{=whisper}Ты не имеешь права сгнить в их изоляторе. Тебя ждут твои звезды. Помнишь?"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:101
+translate english_us chapter1_escape_sequence_start_e922f2ae:
+
+    # neon "{=whisper}Алекс... о чем ты говоришь?! Я тебя не оставлю! Я же обещала!{/whisper}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:103
+translate english_us chapter1_escape_sequence_start_1dc230e9:
+
+    # narrator "Ее губы дрогнули, в уголках глаз блеснули слезы, но она лишь упрямо качнула головой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:107
+translate english_us chapter1_escape_sequence_start_3a33e2d0:
+
+    # alex "{=whisper}Знаю. Поэтому я ухожу первой."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:107
+translate english_us chapter1_escape_sequence_start_24c1f574:
+
+    # alex "{=whisper}Я люблю тебя, Неон. Живи."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:107
+translate english_us chapter1_escape_sequence_start_8780b177:
+
+    # alex "{=whisper}Найди свой сигнал... И, пожалуйста, пей нормальный кофе, ладно?"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:115
+translate english_us chapter1_escape_sequence_start_a6a9e18c:
+
+    # narrator "Она с размаху прижала свой служебный бейдж к магнитному считывателю."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:119
+translate english_us chapter1_escape_sequence_start_4bec2696:
+
+    # narrator "Гермозамок лязгнул, и тяжелая бронированная створка поползла в сторону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:121
+translate english_us chapter1_escape_sequence_start_016929ce:
+
+    # alex "А ТЕПЕРЬ — ГОНИ!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:125
+translate english_us chapter1_escape_sequence_start_77402f80:
+
+    # narrator "С чудовищной силой она вытолкнула меня в проем шлюза. Я кубарем влетела в полумрак подземного паркинга, ободрав колени об асфальт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:125
+translate english_us chapter1_escape_sequence_start_f4328f8e:
+
+    # narrator "Обернувшись, я увидела, как Алекс с яростным криком бросилась наперерез охране, сбивая с ног первого бойца и намертво блокируя проход своим телом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:125
+translate english_us chapter1_escape_sequence_start_077cb3b0:
+
+    # narrator "Тяжелая створка с глухим лязгом встала на защелку, отрезая ее от меня навсегда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:137
+translate english_us chapter1_escape_sequence_start_84cb3ab8:
+
+    # narrator "Я бросилась к бронированному смотровому окошку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:137
+translate english_us chapter1_escape_sequence_start_5135d7bc:
+
+    # narrator "По ту сторону стекла двое громил силой оттаскивали ее от ручки. Она яростно брыкалась, вцепляясь в металл и выигрывая для меня драгоценные секунды."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:137
+translate english_us chapter1_escape_sequence_start_dc1fd058:
+
+    # narrator "Она подняла заплаканное лицо. Посмотрела сквозь стекло прямо на меня. И одними губами прошептала: 'Гони'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:145
+translate english_us chapter1_escape_sequence_start_e3bacbbc:
+
+    # neon "{=thoughts}Я оставила ее там... Я предала ее...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:147
+translate english_us chapter1_escape_sequence_start_78b8128a:
+
+    # narrator "Черный, удушающий пепел вины захлестнул горло. Но слепой инстинкт выживания погнал меня вперед — в гулкую темноту подземных рядов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:153
+translate english_us chapter1_escape_sequence_start_c5059334:
+
+    # narrator "Моя старенькая красная Mazda 323 сиротливо стояла в дальнем техническом кармане."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:153
+translate english_us chapter1_escape_sequence_start_10c129e7:
+
+    # narrator "Дрожащие, окровавленные пальцы с трудом нащупали брелок."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:164
+translate english_us chapter1_escape_sequence_start_9d33cf75:
+
+    # narrator "Я ввалилась на продавленное сиденье. Знакомый запах старых книг и лавандового освежителя — мой крошечный островок безопасности."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:164
+translate english_us chapter1_escape_sequence_start_4479f8f2:
+
+    # narrator "Но со стороны шлюза уже загремели выстрелы по замку. Они пробивались на парковку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:172
+translate english_us chapter1_escape_sequence_start_10c734b9:
+
+    # narrator "Ключ в замок зажигания. Стартер надсадно взвизгнул, и старый двигатель отозвался глухим рокотом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:174
+translate english_us chapter1_escape_sequence_start_15cbd8c3:
+
+    # neon "Прости меня, Алекс... умоляю, прости..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:178
+translate english_us chapter1_escape_sequence_start_866ea18a:
+
+    # narrator "Педаль газа вжалась в пол. Резина с визгом взвыла по гладкому бетону, и машина сорвалась с места."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:178
+translate english_us chapter1_escape_sequence_start_ac3fae0a:
+
+    # narrator "Я вихрем взлетела по винтовому серпантину на поверхность."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:187
+translate english_us chapter1_escape_sequence_start_56946226:
+
+    # narrator "Главный контрольно-пропускной пункт комплекса 'Гелиос' вырос впереди белой стеной. Шлагбаум наглухо опущен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:187
+translate english_us chapter1_escape_sequence_start_1e1d0537:
+
+    # narrator "Я даже не коснулась тормоза. Лишь намертво вцепилась в руль, пригнув голову."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:195
+translate english_us chapter1_escape_sequence_start_ecc3b859:
+
+    # narrator "Сокрушительный удар! Треск разлетающегося стеклопластика и скрежет металла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:195
+translate english_us chapter1_escape_sequence_start_f7d44cd9:
+
+    # narrator "Снеся заграждение, Mazda вылетела на крутой ночной серпантин, петляющий над бездонной пропастью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:195
+translate english_us chapter1_escape_sequence_start_6d85c2d6:
+
+    # narrator "Но погоня висела на хвосте: в зеркале заднего вида вспыхнули слепящие ксеноновые прожекторы тяжелого ведомственного джипа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:205
+translate english_us chapter1_escape_sequence_start_3e39d7d2:
+
+    # narrator "Сухие, резкие щелчки. Они вели прицельный огонь по колесам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:207
+translate english_us chapter1_escape_sequence_start_aeeb912b:
+
+    # narrator "Асфальт был мокрым от ледяной мороси. Скорость зашкаливала за сотню."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:207
+translate english_us chapter1_escape_sequence_start_f396c5de:
+
+    # narrator "Очередная шпилька поворота. Корму резко сорвало в занос. Руль мгновенно стал невесомым и пустым."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:217
+translate english_us chapter1_escape_sequence_start_942e6af4:
+
+    # narrator "Машина протаранила хлипкий металлический отбойник."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:217
+translate english_us chapter1_escape_sequence_start_adce2974:
+
+    # narrator "Секунда жуткой, невесомой тишины свободного падения — и Mazda рухнула вниз по крутому скальному склону, с треском ломая сосны и сбивая валуны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:228
+translate english_us chapter1_escape_sequence_start_649c61fc:
+
+    # narrator "Грохот сминаемого железа. Взрыв триплекса. Мир закружился в бешеной, кровавой центрифуге."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:228
+translate english_us chapter1_escape_sequence_start_985b1938:
+
+    # narrator "А затем — чудовищный, зубодробительный удар оземь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:228
+translate english_us chapter1_escape_sequence_start_7571c639:
+
+    # narrator "Искореженный остов машины пробил кустарник и боком вылетел на мокрый асфальт нижнего скоростного шоссе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:244
+translate english_us chapter1_escape_sequence_start_c98504be:
+
+    # narrator "Я повисла на ремнях безопасности, оглушенная и разбитая. Горячая кровь заливала веки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:244
+translate english_us chapter1_escape_sequence_start_bc5bb31a:
+
+    # narrator "Сквозь треснутое лобовое стекло я с трудом подняла взгляд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:244
+translate english_us chapter1_escape_sequence_start_382a4fdd:
+
+    # narrator "Прямо на меня из ночной тьмы на полной скорости летела многотонная фура."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:252
+translate english_us chapter1_escape_sequence_start_2a96debd:
+
+    # narrator "Пневматический гудок грузовика взревел, разрывая барабанные перепонки. Слишком поздно для торможения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:252
+translate english_us chapter1_escape_sequence_start_52cc8266:
+
+    # narrator "Два слепящих, безжалостных прожектора в упор выжигали сетчатку, сковывая тело параличом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:258
+translate english_us chapter1_escape_sequence_start_326df6aa:
+
+    # neon "{=thoughts}Ослепительно яркие... как ее золотые кудри...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:267
+translate english_us chapter1_escape_sequence_start_d2ec7b85:
+
+    # narrator "Время сгустилось в неподвижную, вязкую смолу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:267
+translate english_us chapter1_escape_sequence_start_c25954fc:
+
+    # narrator "Глядя на надвигающуюся стену стали, меня затопило ледяное, фундаментальное отторжение этой реальности."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:276
+translate english_us chapter1_escape_sequence_start_6591c4ae:
+
+    # neon "{=thoughts}Я хочу повернуть стрелки назад...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:276
+translate english_us chapter1_escape_sequence_start_d6999f45:
+
+    # neon "{=thoughts}Снова увидеть Алекс... живой и смеющейся...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:276
+translate english_us chapter1_escape_sequence_start_b1af695c:
+
+    # neon "{=thoughts}Я не хочу, чтобы этот проклятый день существовал.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:276
+translate english_us chapter1_escape_sequence_start_a8c84462:
+
+    # neon "Я хочу... его... стереть..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:306
+translate english_us chapter1_escape_sequence_start_5d7d35f2:
+
+    # narrator "И мгновенная, неестественная, вакуумная тишина. Ревущий гудок фуры просто стерло из мироздания."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:315
+translate english_us chapter1_escape_sequence_start_5388b7fa:
+
+    # narrator "А в следующее мгновение..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:315
+translate english_us chapter1_escape_sequence_start_ab7090fc:
+
+    # narrator "Раздался титанический грохот сминаемой стали — будто многотонный левиафан на полном ходу налетел на монолитную гранитную скалу. Земля содрогнулась от колоссальной инерции."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:315
+translate english_us chapter1_escape_sequence_start_085aa65d:
+
+    # narrator "Грузовик прямо передо мной смяло в гармошку, осыпая асфальт градом искр и осколков."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:315
+translate english_us chapter1_escape_sequence_start_9585bed2:
+
+    # narrator "Но мою машину не задело ни единой щепкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/9-escape.rpy:315
+translate english_us chapter1_escape_sequence_start_42c83f68:
+
+    # narrator "А затем сознание, не выдержав чудовищного парадокса, милосердно провалилось в спасительную бездну."
+    narrator ""
+

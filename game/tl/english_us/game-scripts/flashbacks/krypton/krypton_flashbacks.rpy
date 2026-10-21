@@ -1008,3 +1008,527 @@ translate english_us krypton_firstmeet_flashback_05b17de1:
     # narrator "Прикосновение."
     narrator "A touch."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:6
+translate english_us krypton_firstmeet_flashback_b5564a31:
+
+    # narrator "Я плелась домой после уроков. Тесный поселковый класс, где каждый жест был на виду, а мои синие волосы вызывали у одноклассников бесконечные насмешки."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:8
+translate english_us krypton_firstmeet_flashback_e5fca800:
+
+    # "Задира 1" "Эй, Мальвина! Опять в чернильницу ныряла?"
+    "Задира 1" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:9
+translate english_us krypton_firstmeet_flashback_81baeef0:
+
+    # "Задира 2" "Да это токсичные отходы с полигона! Ха-ха-ха!"
+    "Задира 2" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
+translate english_us krypton_firstmeet_flashback_1d6e8a45:
+
+    # narrator "Я не оборачивалась. Лишь плотнее вжимала лямку рюкзака в плечо. Привычная рутина. Их голоса оставались для меня лишь назойливым фоновым гулом."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
+translate english_us krypton_firstmeet_flashback_4cb8bf8d:
+
+    # narrator "Под подошвами чавкала жирная весенняя грязь с талым снегом. Небо давило на макушку. Горы на горизонте прятались за серой пеленой."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
+translate english_us krypton_firstmeet_flashback_cde8770e:
+
+    # narrator "В сумке лежали потрепанный учебник квантовой механики и томик научной фантастики — единственная отдушина."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
+translate english_us krypton_firstmeet_flashback_5832b57c:
+
+    # narrator "А дома царила мертвая тишина."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:11
+translate english_us krypton_firstmeet_flashback_9a9d90bb:
+
+    # narrator "Я толкнула входную дверь. Опекунша сидела в кресле спиной ко мне, мерно перебирая вязальные спицы. Сухой щелкающий ритм: цок, цок, цок."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:23
+translate english_us krypton_firstmeet_flashback_2058388c:
+
+    # neon "Я пришла."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:25
+translate english_us krypton_firstmeet_flashback_a6bfcbec:
+
+    # oganesson "Поужинай. Потом садись за формулы."
+    oganesson ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:27
+translate english_us krypton_firstmeet_flashback_71a18beb:
+
+    # narrator "Никаких расспросов о школе. Никакого душевного тепла. Абсолютная, стерильная отстраненность."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:27
+translate english_us krypton_firstmeet_flashback_72b0866c:
+
+    # narrator "Я чувствовала себя экспериментальным объектом, который методично взращивали в изолированной лаборатории."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:27
+translate english_us krypton_firstmeet_flashback_4b298303:
+
+    # narrator "Она конструировала безупречную воспитанницу, не имея понятия о человеческих чувствах."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:27
+translate english_us krypton_firstmeet_flashback_4f9a016c:
+
+    # narrator "Я не знала ее прошлого и того, кем была до встречи с ней."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:43
+translate english_us krypton_firstmeet_flashback_bfd7012c:
+
+    # narrator "Маленькая девочка с иссиня-черными волосами сидит на подоконнике в ночной тишине. Рядом — чей-то теплый, родной силуэт. Черты лица стерлись из памяти, осталось лишь ощущение нежного, убаюкивающего голоса..."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:47
+translate english_us krypton_firstmeet_flashback_c4ffbc58:
+
+    # unknown_f "Взгляни на небо, моя звездочка..."
+    unknown_f ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:47
+translate english_us krypton_firstmeet_flashback_ecccf8e7:
+
+    # unknown_f "Там, в бездне, сияют миллиарды солнц, и каждое держит на орбите свои миры."
+    unknown_f ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:47
+translate english_us krypton_firstmeet_flashback_e7474437:
+
+    # unknown_f "Быть может, кто-то далекий сейчас тоже вглядывается в наше светило, тоскуя от космического одиночества."
+    unknown_f ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:47
+translate english_us krypton_firstmeet_flashback_ef9c0c7e:
+
+    # unknown_f "Их безмолвие полно смысла — это затаенное ожидание первой ноты во вселенской симфонии. Возможно, этой первой нотой суждено стать тебе."
+    unknown_f ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:47
+translate english_us krypton_firstmeet_flashback_51d4b08b:
+
+    # unknown_f "И когда они отзовутся, вы обретете друг друга."
+    unknown_f ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:62
+translate english_us krypton_firstmeet_flashback_f90f41cd:
+
+    # narrator "'Обретете друг друга'... Откуда эти слова?"
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:62
+translate english_us krypton_firstmeet_flashback_388623c0:
+
+    # narrator "В памяти всплыли строгие коридоры Цюрихского университета. Чужой каменный город, глухая изоляция. И рождение Музыки."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:68
+translate english_us krypton_firstmeet_flashback_4c337121:
+
+    # narrator "Шум внешнего мира лишь нарастал, но одиночество оставалось верным спутником."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:68
+translate english_us krypton_firstmeet_flashback_79b1ad40:
+
+    # narrator "Пока однажды я не замерла у приоткрытой двери старого репетиционного класса в цоколе консерватории."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:68
+translate english_us krypton_firstmeet_flashback_a1a89838:
+
+    # narrator "Кто-то напевал у рояля щемящую, кристально чистую тему. Знакомую до боли в сердце. Я осторожно заглянула внутрь."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:78
+translate english_us krypton_firstmeet_flashback_74ff6615:
+
+    # narrator "За инструментом сидела девушка с шелковыми волосами цвета метели и полночи."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:78
+translate english_us krypton_firstmeet_flashback_6ecf4a09:
+
+    # narrator "Она играла вдохновенно, но внезапно запнулась, со скрежетом ударила ладонями по клавишам и опустила голову."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:86
+translate english_us krypton_firstmeet_flashback_74bed42f:
+
+    # "???" "Опять сбилась... Почему пассаж рассыпается? Он же кристально прост..."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:88
+translate english_us krypton_firstmeet_flashback_775a8112:
+
+    # neon "Ты комкаешь паузы. Словно боишься тишины между тактами."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:92
+translate english_us krypton_firstmeet_flashback_c5496880:
+
+    # narrator "Она испуганно вздрогнула и резко обернулась. В ее огромных серо-зеленых глазах тревога мгновенно уступила место живому удивлению."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:94
+translate english_us krypton_firstmeet_flashback_950e3eb0:
+
+    # "???" "Ой... Простите, я думала, зал пуст. Наверное, я ужасно фальшивлю."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:96
+translate english_us krypton_firstmeet_flashback_3ea1ccb3:
+
+    # neon "Твоя техника безупречна. Но ты проглатываешь паузы перед кульминацией, словно торопишься вдохнуть воздух. А ведь пауза — это полноценный звук."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:100
+translate english_us krypton_firstmeet_flashback_0f6f505c:
+
+    # "???" "Разве пауза — это не отсутствие звука? Пустота?"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:100
+translate english_us krypton_firstmeet_flashback_9a7b1394:
+
+    # "???" "Мой профессор всегда требовал звонкой атаки ноты."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:108
+translate english_us krypton_firstmeet_flashback_f5151b5f:
+
+    # neon "Звук рождается из тишины, как звезды зажигаются во тьме космоса."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:108
+translate english_us krypton_firstmeet_flashback_9021b5c9:
+
+    # neon "Тишина придает мелодии глубину и вес. Твое исполнение задыхается, потому что ты боишься дать звуку замереть."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:114
+translate english_us krypton_firstmeet_flashback_288d84e1:
+
+    # narrator "Она слушала меня, затаив дыхание. Я говорила о музыке языком астрофизики."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:116
+translate english_us krypton_firstmeet_flashback_62717f56:
+
+    # "???" "Мне никто прежде об этом не говорил... Все слышат лишь нотный текст."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:116
+translate english_us krypton_firstmeet_flashback_3163ce08:
+
+    # "???" "А ты... ты слышишь пространство между струнами."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:116
+translate english_us krypton_firstmeet_flashback_06924fe6:
+
+    # "???" "Как тебя зов...— {nw}"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:124
+translate english_us krypton_firstmeet_flashback_65e324e6:
+
+    # neon "Я — Неон."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:126
+translate english_us krypton_firstmeet_flashback_bba77602:
+
+    # narrator "Я назвала имя первой, словно знала ее вопрос наперед. На губах незнакомки расцвела теплая улыбка."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:128
+translate english_us krypton_firstmeet_flashback_3f72c7ed:
+
+    # "???" "Неон... Звучит как сияние. А я... я...— {nw}"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
+translate english_us krypton_firstmeet_flashback_729cd7a9:
+
+    # narrator "Ее имя... Память подернулась зыбкой рябью, скрывая звучание в тумане."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
+translate english_us krypton_firstmeet_flashback_3a776d55:
+
+    # narrator "С того дня мой серый мир наполнился живыми красками."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
+translate english_us krypton_firstmeet_flashback_e835b739:
+
+    # narrator "Я помню теплый вечер в университетском сквере спустя неделю после ее победы на престижном конкурсе."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
+translate english_us krypton_firstmeet_flashback_0d639f5b:
+
+    # narrator "Закатные лучи заливали дорожки золотом, в лужах дрожали отражения фонарей."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:130
+translate english_us krypton_firstmeet_flashback_31a3c8cc:
+
+    # narrator "Она буквально порхала по аллее, то и дело забегая вперед и кружась передо мной."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:145
+translate english_us krypton_firstmeet_flashback_51cb3126:
+
+    # "???" "Неон! Ты слышала жюри?! Они назвали мою интерпретацию 'космически глубокой'!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:147
+translate english_us krypton_firstmeet_flashback_65f7e62f:
+
+    # neon shy "Я же говорила. Твой дар уникален. Нужно было лишь впустить в музыку тишину."
+    neon shy ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:149
+translate english_us krypton_firstmeet_flashback_9e6c2b4c:
+
+    # narrator "Она порывисто схватила меня за руку. Прежде чужие прикосновения вызывали у меня спазм, но ее ладонь дарила невероятный покой."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:151
+translate english_us krypton_firstmeet_flashback_8b606f09:
+
+    # "???" "Это твоя заслуга! В тот миг, держа финальную паузу... я представила твой взгляд."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:151
+translate english_us krypton_firstmeet_flashback_d836966f:
+
+    # "???" "Как ты вглядываешься в бездну ночного неба. И паника отступила."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:151
+translate english_us krypton_firstmeet_flashback_6f20a55b:
+
+    # "???" "Рядом с тобой я чувствую непоколебимую опору, твердый берег посреди бури."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:159
+translate english_us krypton_firstmeet_flashback_85766752:
+
+    # narrator "Она вдруг замерла, опустив ресницы. На лицо легла легкая, трогательная грусть."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:161
+translate english_us krypton_firstmeet_flashback_37263cde:
+
+    # "???" "Только... мне было тяжело в зале."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:163
+translate english_us krypton_firstmeet_flashback_ea1f453d:
+
+    # neon surprised "Тяжело? Ты сорвала овации."
+    neon surprised ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:165
+translate english_us krypton_firstmeet_flashback_b9e31656:
+
+    # "???" "Софиты слепили, партер рукоплескал..."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:165
+translate english_us krypton_firstmeet_flashback_d810cd99:
+
+    # "???" "Но внутри всё сжималось от холода: в первом ряду пустовало твое кресло."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:165
+translate english_us krypton_firstmeet_flashback_7b146a25:
+
+    # "???" "Я хотела разделить этот миг с тобой, а не с нарядной толпой. Без тебя этот триумф казался мне бессмысленным."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:173
+translate english_us krypton_firstmeet_flashback_75566936:
+
+    # narrator "У меня перехватило дыхание от мысли, что я могу быть кому-то настолько необходима."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:175
+translate english_us krypton_firstmeet_flashback_295aedc8:
+
+    # neon "Я не выношу скоплений людей. Ты же знаешь."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:177
+translate english_us krypton_firstmeet_flashback_9e80a1f4:
+
+    # "???" "Знаю! Но на мой большой дебют ты обязана прийти! Отказы не принимаются!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:179
+translate english_us krypton_firstmeet_flashback_37545a55:
+
+    # narrator "Она заглянула мне прямо в глаза, сияя чистым восторгом."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:181
+translate english_us krypton_firstmeet_flashback_1ce96ffc:
+
+    # "???" "В следующем месяце мой концерт в городском Филармоническом холле."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:181
+translate english_us krypton_firstmeet_flashback_23209277:
+
+    # "???" "Я забронирую для тебя пятое место в первом ряду."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:181
+translate english_us krypton_firstmeet_flashback_10200452:
+
+    # "???" "Я покажу всем, кто вдохнул жизнь в мою музыку!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:189
+translate english_us krypton_firstmeet_flashback_6b4d2e77:
+
+    # neon "Но я..."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:191
+translate english_us krypton_firstmeet_flashback_d331ff57:
+
+    # "???" "Никаких отговорок! Ты будешь там."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:191
+translate english_us krypton_firstmeet_flashback_10b535d1:
+
+    # "???" "А после финала мы сбежим в Планетарий! Вдвоем!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:199
+translate english_us krypton_firstmeet_flashback_90739a7e:
+
+    # "???" "Да! Ты учила меня слушать тишину звезд, теперь покажи мне их вблизи!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:199
+translate english_us krypton_firstmeet_flashback_94a89b27:
+
+    # "???" "Только ты, я и бесконечный космос. Без толпы и шума. Обещаешь?"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:205
+translate english_us krypton_firstmeet_flashback_5dd1edd9:
+
+    # narrator "В ее глазах полыхала такая искренняя вера, что я впервые в жизни улыбнулась открыто и легко."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:209
+translate english_us krypton_firstmeet_flashback_8c23502c:
+
+    # neon "Обещаю. Первый ряд, пятое место. А потом — Планетарий."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:213
+translate english_us krypton_firstmeet_flashback_a2845ee6:
+
+    # narrator "Она счастливо рассмеялась и крепко сжала мои пальцы."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:213
+translate english_us krypton_firstmeet_flashback_24fec4f0:
+
+    # narrator "И в этот миг случилось невероятное."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:213
+translate english_us krypton_firstmeet_flashback_e3d1f8bc:
+
+    # narrator "Ее ладони пылали жизнью, мои оставались прохладными."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:213
+translate english_us krypton_firstmeet_flashback_d2116187:
+
+    # narrator "Вибрация ее эмоций соприкоснулась с моей внутренней тишиной. Воздух между нами задрожал."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:225
+translate english_us krypton_firstmeet_flashback_07020721:
+
+    # narrator "Электрический импульс прошил наши тела. Вселенная вокруг замерла, настраиваясь на единую частоту."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:225
+translate english_us krypton_firstmeet_flashback_87558f36:
+
+    # narrator "Пространство между сцепленными пальцами озарилось лазурным свечением."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:225
+translate english_us krypton_firstmeet_flashback_49b03f30:
+
+    # narrator "Шелест крон, плеск реки, гул вечернего города — всё растворилось."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:225
+translate english_us krypton_firstmeet_flashback_c7eb08ba:
+
+    # narrator "Осталась лишь абсолютная, сияющая Гармония. Две души сплелись в идеальный резонанс, превратившись в зримую физическую аномалию."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:225
+translate english_us krypton_firstmeet_flashback_3b8c0fb2:
+
+    # narrator "Она смотрела на наши светящиеся руки с благоговейным трепетом."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:237
+translate english_us krypton_firstmeet_flashback_02aa2d45:
+
+    # "???" "{=whisper}Неон... что происходит...? Это... неземная красота..."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:239
+translate english_us krypton_firstmeet_flashback_e35486c3:
+
+    # neon "Я... не знаю..."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:241
+translate english_us krypton_firstmeet_flashback_d51bb967:
+
+    # narrator "Ощущение абсолютной целостности: словно разрозненные осколки мира соединились в совершенный кристалл."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:241
+translate english_us krypton_firstmeet_flashback_485eb60c:
+
+    # narrator "Энергия резонанса нарастала, готовая затопить всё вокруг."
+    narrator ""
+

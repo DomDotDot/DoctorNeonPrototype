@@ -793,3 +793,113 @@ translate english_us chapter4_5_concert_mid_70809ed4:
     # seraphina "Хм... Это огромная ответственность. Но я верю, что моя музыка не просто звуки."
     seraphina "Hmm... It's a huge responsibility. But I believe my music isn't just sounds."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:45
+translate english_us chapter4_5_concert_mid_86dadeaa:
+
+    # narrator "Охранник отступил в сторону, разблокируя створку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:45
+translate english_us chapter4_5_concert_mid_6e08a5f0:
+
+    # narrator "Он назвал мое имя. Откуда ему было знать, как меня зовут? Серафина предупредила службу безопасности заранее. Меня ждали."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:55
+translate english_us chapter4_5_concert_mid_24da42e1:
+
+    # narrator "За дверью открылся многоярусный стеклянный атриум выставочного комплекса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:55
+translate english_us chapter4_5_concert_mid_feb372e7:
+
+    # narrator "Снизу, из центрального зала первого этажа, доносился звонкий девичий смех. Я подошла к хромированным перилам галереи и заглянула вниз."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:55
+translate english_us chapter4_5_concert_mid_e5df5b18:
+
+    # narrator "На невысоком круглом подиуме стояли кресла. Вокруг них сгрудились полтора десятка девушек с подарочными пакетами и блокнотами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:55
+translate english_us chapter4_5_concert_mid_b928b204:
+
+    # narrator "В центре сидела Серафина."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:67
+translate english_us chapter4_5_concert_mid_2a31248b:
+
+    # narrator "Я спустилась по неподвижным ступеням эскалатора и остановилась в нескольких метрах позади толпы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:67
+translate english_us chapter4_5_concert_mid_a392a3a4:
+
+    # narrator "Серафина заметила меня почти сразу. Сквозь кольцо поклонниц наши взгляды пересеклись. На ее безупречном лице не дрогнул ни один мускул: никакой открытой реакции, только тяжелое, пристальное внимание, скользнувшее по мне сверху вниз."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:287
+translate english_us chapter4_5_concert_mid_13926970:
+
+    # narrator "Она остановилась в полушаге от меня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:287
+translate english_us chapter4_5_concert_mid_b3f6c906:
+
+    # narrator "Слишком гладкая кожа, безупречно уложенные светлые пряди. В ее рубиновых зрачках не осталось ни следа экранной веселости — лишь расчетливый, холодный фокус."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:287
+translate english_us chapter4_5_concert_mid_840ec603:
+
+    # narrator "Воздух вокруг нее был пропитан тяжелым, густым запахом орхидей. Тот же аромат, что душил меня ночью на скамье в Ботаническом саду."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:296
+translate english_us chapter4_5_concert_mid_b829c89c:
+
+    # narrator "Серафина протянула руки и накрыла мои ладони своими. Пальцы у нее были ледяными, негнущимися."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:296
+translate english_us chapter4_5_concert_mid_39c4d976:
+
+    # narrator "Взгляд айдола скользнул к белой лилии, которую я сжимала в кулаке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:304
+translate english_us chapter4_5_concert_mid_d2ab06f0:
+
+    # narrator "Сухой хруст надломленного стебля."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:304
+translate english_us chapter4_5_concert_mid_51483deb:
+
+    # narrator "Ее пальцы сжались жестко, методично ломая цветок прямо в моей руке. Смятые белые лепестки сорвались вниз и рассыпались по полированному мрамору."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:304
+translate english_us chapter4_5_concert_mid_52b2c0c0:
+
+    # narrator "Она не отводила от меня глаз ни на секунду."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:312
+translate english_us chapter4_5_concert_mid_e94826d3:
+
+    # seraphina "Пойдем."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/3-2-fan-meeting.rpy:312
+translate english_us chapter4_5_concert_mid_c24c872b:
+
+    # seraphina "Я сняла здесь отдельный кабинет. Нам нужно поговорить без лишних глаз."
+    seraphina ""
+

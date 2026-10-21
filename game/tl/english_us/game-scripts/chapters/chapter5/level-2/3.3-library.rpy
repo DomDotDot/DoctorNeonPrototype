@@ -490,4 +490,107 @@ translate english_us strings:
     new "Exit the terminal"
 
     old "Введите артикул контента (или оставьте поле пустым для отмены):"
-    new "Enter the content article code (or leave empty to cancel):"
+    new "Enter the content article code (or leave empty to cancel):"# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:130
+translate english_us ch5_library_summary_scene_7dd0e324:
+
+    # narrator "Заложенный в конце тридцатых и официально открытый в 2041-ом году, он должен был стать символом возрождения человечества после падения старых мировых держав. Отпраздновав своё первое однолетие, город уже столкнулся с первыми проблемами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_ab3c73a1:
+
+    # narrator "Формат: Научная статья из вестника когнитивной психологии (Архив Цюрихского института / Университет Веритаса, 2039 г.)."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_01f83b67:
+
+    # narrator "Тема: «Парадокс Инертных Личностей: Гипотеза межличностного резонанса и аномалии эмоциональной валентности»."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_202e2dce:
+
+    # narrator "«...В современной дифференциальной психологии особый интерес представляет так называемый 'Феномен Инертного Психотипа'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_708f2b79:
+
+    # narrator "В отличие от классической социопатии или аутистического спектра, эти редкие субъекты обладают феноменально устойчивой, замкнутой структурой психики — метафорически определяемой как 'заполненная валентная оболочка'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_c8cf7088:
+
+    # narrator "Они органически не нуждаются во внешнем социальном одобрении. В любом коллективе вокруг такой личности непроизвольно формируется зона отчуждения: обычные люди без видимой причины ощущают подсознательный холодок и тревогу, словно в помещении резко падает барометрическое давление. Подавляющее большинство из них проводят жизнь в роли невидимых, отстраненных наблюдателей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_fdfaed1d:
+
+    # narrator "Однако ключевой теоретический парадокс заключается в другом: что происходит, когда два таких 'инертных' человека случайно оказываются рядом?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_b75882e5:
+
+    # narrator "Казалось бы, две абсолютные замкнутые автономии должны пройти мимо друг друга, не вступив во взаимодействие. Но полевые наблюдения фиксируют обратное — феномен, получивший рабочее название 'Межличностный Резонанс'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_97de13cc:
+
+    # narrator "Характер этого резонанса абсолютно непредсказуем и всегда бинарен:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_04f0dd20:
+
+    # narrator "1. Симбиотическая гармония (Сверхпроводимость): Внутренние паттерны двух субъектов идеально смыкаются. Возникает привязанность колоссальной, почти патологической силы — когда один человек становится для другого единственной точкой опоры, воздухом или звуком в абсолютной тишине. Разрыв подобной связи неизбежно влечет мгновенный психический коллапс обоих."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_e6ced910:
+
+    # narrator "2. Деструктивный антагонизм (Взаимный разрыв): Если их структуры диссонируют, сближение вызывает не бытовой спор, а первобытный ужас и непреодолимый импульс уничтожить или вытеснить чужое присутствие. Пространство между ними словно натягивается до предела."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_5dd128e9:
+
+    # narrator "3. Физиологические и средовые аномалии: В отчётах отдельных исследователей упоминаются труднообъяснимые сопутствующие эффекты: в моменты эмоционального контакта таких пар фиксировались локальные скачки температуры, сбои в аудиотехнике и микровибрации стёкол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_9103ecf9:
+
+    # narrator "Разумеется, официальная наука рассматривает подобные свидетельства скептически, списывая их на психосоматику, эффект плацебо или случайные совпадения темпераментов. Обыватели и вовсе объясняют это поэтическими клише вроде 'роковой любви' или 'непреодолимой неприязни'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:187
+translate english_us ch5_library_inert_scene_697a0ffa:
+
+    # narrator "Тем не менее исследователи сходятся в одном: природа этих людей остаётся неразгаданной тайной, лежащей на самой границе между психологией разума и фундаментальными законами мироздания...»"
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:215
+translate english_us ch5_library_inert_scene_e3b636b2:
+
+    # neon "{=thoughts}Они назвали это 'психологией'..."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:215
+translate english_us ch5_library_inert_scene_5ce42079:
+
+    # neon "{=thoughts}Селестия... когда мы встретились, этот резонанс перевернул всю мою жизнь."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-2/3.3-library.rpy:215
+translate english_us ch5_library_inert_scene_acc050fa:
+
+    # neon "{=thoughts}А обычные люди... Они просто чувствовали холод. И думали, что я странная тихоня."
+    neon ""
+

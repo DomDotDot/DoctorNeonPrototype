@@ -818,3 +818,197 @@ translate english_us chapter4_5_concert_start_289c2eb0:
     # narrator "Больше напоминало гигантский, светящийся метроном. Или маятник, отсчитывающий время гипноза."
     narrator "It looked more like a giant, glowing metronome. Or a pendulum counting down the time of hypnosis."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:6
+translate english_us chapter4_5_concert_start_41529e50:
+
+    # narrator "Дневные улицы Веритаса гудели монотонным шумом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:6
+translate english_us chapter4_5_concert_start_2861622b:
+
+    # narrator "Горький осадок эспрессо все еще держался на языке. Я шла по широкому тротуару, прижимая локтем сумку и чувствуя жесткий край электронного пропуска в кармане куртки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:6
+translate english_us chapter4_5_concert_start_86fd2a89:
+
+    # narrator "Мысли об Алекс не отпускали. Каждый раз, когда я пыталась выбросить ее имя из головы, внутри словно затягивался тугой холодный узел. Жива ли она? Добралась ли до безопасного места или осталась под обломками перевернутой машины на горном серпантине?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:6
+translate english_us chapter4_5_concert_start_8f074209:
+
+    # narrator "Я не знала. Но отступать было некуда. Сначала нужно найти Лили, разобраться с тем, что происходит в этом городе, а потом... потом я найду Алекс. Обязательно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:16
+translate english_us chapter4_5_concert_start_50e25e96:
+
+    # narrator "Потоки горожан уплотнялись, стекаясь к широкой эспланаде Центрального Стадиона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:16
+translate english_us chapter4_5_concert_start_1845446d:
+
+    # narrator "Среди серых деловых пальто и строгих плащей то и дело мелькали фанатские шарфы с неоновыми надписями и значки с силуэтом Серафины. Город жил этим событием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:26
+translate english_us chapter4_5_concert_start_b6746b55:
+
+    # narrator "Перед арочными входами на арену выстроились длинные очереди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:26
+translate english_us chapter4_5_concert_start_51de3e5b:
+
+    # narrator "Огромные голографические панели транслировали улыбающееся лицо Серафины под сводами стеклянного фасада. По периметру дежурили сотрудники службы безопасности в темно-синих комбинезонах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:32
+translate english_us chapter4_5_concert_start_0f4fd3af:
+
+    # "Охранник" "Билеты и идентификаторы к валидаторам. Личные вещи в лоток."
+    "Охранник" ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:34
+translate english_us chapter4_5_concert_start_2a377c75:
+
+    # narrator "Я подошла к свободному терминалу и опустила на сканер билет, полученный ночью в саду. Вспыхнул зеленый диод допуска."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:34
+translate english_us chapter4_5_concert_start_b20e50e3:
+
+    # narrator "Телефон Сары проехал через ленту рентгена без задержек. Дежурный контролер равнодушно махнул рукой, пропуская меня за турникет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:41
+translate english_us chapter4_5_concert_start_97e38d3d:
+
+    # narrator "Я пошла по широкому бетонному пандусу, следуя за толпой к секторам трибун."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:310
+translate english_us chapter4_5_concert_start_7c33901d:
+
+    # student2 "Ладно, давайте сюда."
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:314
+translate english_us chapter4_5_concert_start_c5c11825:
+
+    # narrator "Кэрол наклонилась и расстегнула стоявшую у кресла светло-голубую сумку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:314
+translate english_us chapter4_5_concert_start_ef583e38:
+
+    # narrator "Я сразу обратила внимание на эту вещь: плотный фактурный нейлон, аккуратный серебристый шеврон Академии у плечевого ремня. Стандартная студенческая сумка Веритаса — такие выдавались всем учащимся вместе с зачетной карточкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:314
+translate english_us chapter4_5_concert_start_33d934fe:
+
+    # narrator "И в памяти мгновенно всплыл ночной Ботанический сад."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:314
+translate english_us chapter4_5_concert_start_a3a9e784:
+
+    # narrator "У Серафины на плече висела в точности такая же светло-голубая форменная сумка. Дорогая дизайнерская одежда, свита охраны — и дешевый нейлоновый баул студентки. Странная, нелепая деталь, которая тогда показалась случайностью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:314
+translate english_us chapter4_5_concert_start_cf850e53:
+
+    # narrator "Кэрол вытащила свой смартфон, приложила его к корпусу телефона Сары, и между терминалами тихо щелкнул протокол сопряжения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:326
+translate english_us chapter4_5_concert_start_69993290:
+
+    # student2 "Готово! Добавила вас в наш общий канал Академия Live."
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:326
+translate english_us chapter4_5_concert_start_f2a2f288:
+
+    # student2 "Я там записана как Каролина, но все зовут просто Кэрол."
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:332
+translate english_us chapter4_5_concert_start_e9baaaae:
+
+    # narrator "Она опустила глаза на экран, смахнула всплывшее уведомление и вдруг нахмурилась, вглядываясь в строчку профиля."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:336
+translate english_us chapter4_5_concert_start_746460de:
+
+    # carol "Постойте... А почему ваш аккаунт подписан как 'Сара К.'?"
+    carol ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:338
+translate english_us chapter4_5_concert_start_1fb03288:
+
+    # neon irritated "А что не так?"
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:340
+translate english_us chapter4_5_concert_start_bb27200e:
+
+    # carol thinking "Да нет, просто... У нас на курсе есть Сара Кендрик. Подруга Клары."
+    carol thinking ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:340
+translate english_us chapter4_5_concert_start_4b9d786f:
+
+    # carol thinking "Она уже два дня не появляется на парах. Мы спрашивали Клару, а та только глаза отводит и молчит. Подумали, поссорились..."
+    carol thinking ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:346
+translate english_us chapter4_5_concert_start_ac81b687:
+
+    # narrator "Кэрол говорила об этом легко, между делом, словно о забытой тетради. А я сжимала в кармане телефон той самой Сары."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:350
+translate english_us chapter4_5_concert_start_ba7e242d:
+
+    # carol neutral1 "Ладно, не берите в голову! Напишу вам вечером в чате. До встречи!"
+    carol neutral1 ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:354
+translate english_us chapter4_5_concert_start_08ac69e3:
+
+    # narrator "Она подхватила с пола свою голубую сумку, закинула ремень на плечо и торопливо зашагала к выходу между рядами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:360
+translate english_us chapter4_5_concert_start_f39beee4:
+
+    # narrator "Зал стремительно пустел."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:360
+translate english_us chapter4_5_concert_start_4826d1f7:
+
+    # narrator "Сара Кендрик, не вернувшаяся на занятия. Ее телефон у меня в руках. И одинаковые голубые сумки..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:360
+translate english_us chapter4_5_concert_start_bb8c23f0:
+
+    # narrator "Слишком много нестыковок для одного дня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/3-1-concert.rpy:360
+translate english_us chapter4_5_concert_start_c5f9321e:
+
+    # narrator "Я встала с пластикового кресла. Концерт окончен, впереди был пропуск за кулисы."
+    narrator ""
+

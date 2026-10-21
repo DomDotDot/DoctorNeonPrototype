@@ -343,3 +343,635 @@ translate english_us chapter4_5_epilogue_d6254776:
     # meryl "Не хотите... поработать на нас? Найти остальные элементы?"
     meryl "Would you... like to work for us? Find the other elements?"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:9
+translate english_us chapter4_5_epilogue_d7f08299:
+
+    # narrator "Вой пожарной сирены угас за поворотом проспекта."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:9
+translate english_us chapter4_5_epilogue_ff4ba3aa:
+
+    # narrator "Я брела обратно по темным закоулкам. Дождь почти сошел на нет, с крыш лениво срывались тяжелые холодные капли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:9
+translate english_us chapter4_5_epilogue_13ade688:
+
+    # narrator "В воздухе еще висел запах паленой резины и мокрого пепла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:9
+translate english_us chapter4_5_epilogue_58322864:
+
+    # narrator "Я свернула в узкий проход за студией."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:21
+translate english_us chapter4_5_epilogue_ddf6a6ae:
+
+    # narrator "У подножия пожарной лестницы, в грязной луже, темнела фигура Аргона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:21
+translate english_us chapter4_5_epilogue_e1be3d86:
+
+    # narrator "Он стоял на коленях, сгорбившись, не обращая внимания на ледяную воду, пропитавшую брюки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:21
+translate english_us chapter4_5_epilogue_e3d15bb2:
+
+    # narrator "На его руках лежала Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:21
+translate english_us chapter4_5_epilogue_a5a2d1e0:
+
+    # narrator "Когда оборвалась связь и фальшивая оболочка айдола рассыпалась под колесами машины, кукла лишилась нитей. Лили рухнула с железных мостков верхнего яруса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:21
+translate english_us chapter4_5_epilogue_d575ee47:
+
+    # narrator "Ее лицо отмыло дождем от копоти. Стеклянный, деревянный оцепенелый взгляд пропал — веки сомкнулись, губы чуть приоткрылись. Черты лица расслабились, вернув себе мягкость девятнадцатилетней девочки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:21
+translate english_us chapter4_5_epilogue_24d1a9db:
+
+    # narrator "Словно она просто уснула после бессонной ночи над нотами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:35
+translate english_us chapter4_5_epilogue_9516534c:
+
+    # narrator "Аргон сжимал ее холодные тонкие пальцы в своих заскорузлых ладонях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:35
+translate english_us chapter4_5_epilogue_1ad4fb57:
+
+    # narrator "Его плечи мелко вздрагивали. А затем из его горла вырвался звук."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:35
+translate english_us chapter4_5_epilogue_7acdd708:
+
+    # narrator "Глухой, утробный, сдавленный стон перерос в отчаянный хриплый вой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:45
+translate english_us chapter4_5_epilogue_33dab0fb:
+
+    # narrator "Он выл в мокрое небо, прижимая лоб к бездыханной груди дочери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:45
+translate english_us chapter4_5_epilogue_11f8ba5b:
+
+    # narrator "Человек, который годами искал своего ребенка по притонам и подвалам, нашел ее лишь для того, чтобы подержать ее остывающую руку в помойной канаве."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:45
+translate english_us chapter4_5_epilogue_d555b7e6:
+
+    # narrator "Этот крик метался между сырыми кирпичными стенами мертвого квартала, но город оставался глух."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:58
+translate english_us chapter4_5_epilogue_c3163ab4:
+
+    # narrator "Прошло несколько часов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:58
+translate english_us chapter4_5_epilogue_7799fd0c:
+
+    # narrator "Свет раннего утра сочился сквозь закопченное окно, высвечивая летающие в воздухе пылинки и пятна сажи на стенах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:58
+translate english_us chapter4_5_epilogue_b664b1c4:
+
+    # narrator "Аргон сидел в дальнем углу на полу, прислонившись спиной к потухшей буржуйке. Взгляд застыл в одной точке на исцарапанных досках."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:58
+translate english_us chapter4_5_epilogue_fba14d2a:
+
+    # narrator "Он не произнес ни слова с тех пор, как мы вернулись. Горе выжгло в нем все остатки рассудка и голоса, оставив лишь пустую оболочку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:58
+translate english_us chapter4_5_epilogue_68767c6c:
+
+    # narrator "Тишина давила на виски. Не выдержав, я протянула руку и щелкнула тумблером старого кинескопного телевизора на полке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:70
+translate english_us chapter4_5_epilogue_876f55ad:
+
+    # "Диктор Новостей" "...экстренный выпуск Веритас-Медиа. Ночь потрясений сменилась чередой необъяснимых инцидентов по всей территории центрального сектора."
+    "Диктор Новостей" ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:70
+translate english_us chapter4_5_epilogue_68a070f0:
+
+    # "Диктор Новостей" "Городской Департамент Здравоохранения сообщает о массовом наплыве пациенток в приемные отделения клиник. По меньшей мере восемьдесят студенток Академии доставлены в стационары в состоянии глубокой когнитивной дезориентации."
+    "Диктор Новостей" ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:76
+translate english_us chapter4_5_epilogue_7c0f5745:
+
+    # narrator "На экране замелькали смазанные репортажные кадры из холла центральной клиники."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:76
+translate english_us chapter4_5_epilogue_07cbedfb:
+
+    # narrator "Десятки девушек в форменных пиджаках Академии — среди них я заметила знакомые плачущие лица Эми и Кэрол — сидели на каталках, хватаясь за головы и судорожно обнимая растерянных матерей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:76
+translate english_us chapter4_5_epilogue_c517bd40:
+
+    # narrator "Они рыдали, точно вынырнув из многонедельного кошмара, не в силах объяснить, что делали все это время."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:84
+translate english_us chapter4_5_epilogue_a4585594:
+
+    # "Диктор Новостей" "Врачи говорят о редкой форме коллективного психогенного транса, спровоцированного токсичными испарениями и переутомлением."
+    "Диктор Новостей" ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:84
+translate english_us chapter4_5_epilogue_ed0a39f2:
+
+    # "Диктор Новостей" "Следственный комитет официально подтвердил факт обнаружения погибшей студентки Сары Кендрик в жилом блоке кампуса, а также гибель студентки Лили Волковой в результате пожара и обрушения конструкций в промышленной зоне Старого Квартала."
+    "Диктор Новостей" ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:84
+translate english_us chapter4_5_epilogue_64d77f52:
+
+    # "Диктор Новостей" "Преподаватель Академии Акари Сано задержана Службой Безопасности. При обыске ее лаборатории изъяты образцы незарегистрированных психоактивных нейротоксинов. Подозреваемая дает признательные показания."
+    "Диктор Новостей" ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:92
+translate english_us chapter4_5_epilogue_26410c2a:
+
+    # narrator "На секунду показали Акари. Без безупречного лабораторного халата, в серой арестантской робе, с опущенной головой и дрожащими в стальных наручниках запястьями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:92
+translate english_us chapter4_5_epilogue_14f33f5b:
+
+    # narrator "Но затем заставка новостей сменилась тревожным алым титром 'Срочная Сенсация'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:98
+translate english_us chapter4_5_epilogue_0ca5c19a:
+
+    # "Диктор Новостей" "И главное событие сегодняшнего утра. Час назад патрульной группой в полузатопленном техническом коллекторе под старой насосной станцией была обнаружена пропавшая национальная звезда, вокалистка Серафина!"
+    "Диктор Новостей" ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_a034deb3:
+
+    # narrator "Камера дернулась, переключившись на коридор реанимационного отделения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_4bb1a81d:
+
+    # narrator "Я подошла вплотную к экрану. Дыхание перехватило."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_858ea4d1:
+
+    # narrator "На больничной койке, укутанная в колючее казенное одеяло, сидела Аяме. Ее лицо было бледным, взгляд блуждал по сторонам, она растерянно моргала от вспышек фотовспышек."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_1414b998:
+
+    # narrator "А рядом, на соседней кровати..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_9f15a251:
+
+    # narrator "Это была Серафина. Настоящая."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_2a52b270:
+
+    # narrator "Не фарфоровый, лоснящийся идол с рекламных плакатов и сцены."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_411ae47d:
+
+    # narrator "Перед камерой сидела изможденная, высохшая девушка. Ключицы выступали из-под выреза просторной сорочки, запястья были покрыты темными кровоподтеками от веревок, пальцы перебинтованы. Светлые волосы свалялись в тусклые космы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_6bb9daba:
+
+    # narrator "Она не улыбалась. Она смотрела прямо в объектив тяжелым, мертвым взглядом человека, прошедшего через ад голода и одиночества в подземной яме."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:102
+translate english_us chapter4_5_epilogue_893ca54f:
+
+    # narrator "Она молчала, пока репортеры наперебой кричали о 'чудесном спасении'. В ее глазах не было благодарности — только глухое понимание того, что кто-то украл ее жизнь, ее песни и ее облик, пока она была в темноте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:122
+translate english_us chapter4_5_epilogue_8cf4e388:
+
+    # narrator "Я нажала на кнопку. Экран с тихим щелчком схлопнулся в светящуюся белую точку и погас."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:124
+translate english_us chapter4_5_epilogue_074979e0:
+
+    # argon "{=whisper}Они нашли ее... Настоящую..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:126
+translate english_us chapter4_5_epilogue_76651719:
+
+    # neon "Да."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:126
+translate english_us chapter4_5_epilogue_c86e6c4c:
+
+    # neon "Та, что пела на стадионе, была лишь воровкой из дыма и чужой зависти. Она сгорела."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:126
+translate english_us chapter4_5_epilogue_a9f57af2:
+
+    # neon "А настоящая девочка теперь будет жить с этой пустотой."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:126
+translate english_us chapter4_5_epilogue_3f91ebc1:
+
+    # neon "Но, думаю, что это хороший конец для нее. И для нас."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:140
+translate english_us chapter4_5_epilogue_368bd006:
+
+    # narrator "Внезапно снизу, со стороны улицы, донесся приглушенный рокот моторов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:140
+translate english_us chapter4_5_epilogue_2aa45965:
+
+    # narrator "Затем — тяжелые, размеренные шаги по внешней металлической лестнице."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:140
+translate english_us chapter4_5_epilogue_b888336e:
+
+    # narrator "Три коротких, властных удара в дощатую дверь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:148
+translate english_us chapter4_5_epilogue_7093f8a9:
+
+    # narrator "Аргон даже не шевельнулся."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:148
+translate english_us chapter4_5_epilogue_58bd1273:
+
+    # narrator "Я подошла к двери и приподняла край засаленной шторы на смотровом окошке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:148
+translate english_us chapter4_5_epilogue_0d5db900:
+
+    # narrator "Внизу, перекрыв въезд в переулок, стояли два черных ведомственных седана с включенными габаритами. Возле капотов застыли оперативники в бронежилетах, держа руки на кобурах. Периметр был перекрыт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:156
+translate english_us chapter4_5_epilogue_b61369f8:
+
+    # narrator "Дверная ручка повернулась. Дверь со скрипом отворилась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:156
+translate english_us chapter4_5_epilogue_694bc58e:
+
+    # narrator "На пороге стояла Мэрил Кендрик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:164
+translate english_us chapter4_5_epilogue_0dcbf3bc:
+
+    # narrator "На ней был строгий темно-серый плащ Департамента с застегнутым под горло воротником. В руке — увесистая кожаная папка с золотым тиснением архива."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:168
+translate english_us chapter4_5_epilogue_938458ad:
+
+    # meryl "Не дергайся, Неон. Конвой останется внизу. Они здесь для того, чтобы ни один лишний глаз не сунулся в этот переулок."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:170
+translate english_us chapter4_5_epilogue_4dbd4384:
+
+    # narrator "Она перешагнула порог и плотно притворила за собой дверь, отрезая уличный шум."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:170
+translate english_us chapter4_5_epilogue_111257ad:
+
+    # narrator "Ее взгляд скользнул по пепелищу в комнате, задержался на съежившемся в углу Аргоне, и строгое лицо следователя дрогнуло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:178
+translate english_us chapter4_5_epilogue_ef7284a9:
+
+    # meryl "Соболезную, Аргон."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:178
+translate english_us chapter4_5_epilogue_2ce79bcb:
+
+    # meryl "Я знаю, каково это — хоронить тех, ради кого ты жил. Моя дочь Сара... теперь тоже в отчетах судмедэкспертов."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:184
+translate english_us chapter4_5_epilogue_313bb21b:
+
+    # narrator "Аргон не ответил, лишь глубже вжал голову в плечи. Мэрил тихо вздохнула и повернулась ко мне."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:186
+translate english_us chapter4_5_epilogue_7c457927:
+
+    # meryl "Сядем, Неон. Нам нужно закрыть это дело."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:190
+translate english_us chapter4_5_epilogue_30e2238f:
+
+    # narrator "Она подошла к шаткому столу, отодвинула табурет и села, положив папку перед собой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:194
+translate english_us chapter4_5_epilogue_634f17ac:
+
+    # meryl "Официальная часть коротка. Я лично подписала постановление о закрытии производства по инциденту в Старом Квартале."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:194
+translate english_us chapter4_5_epilogue_515b1b17:
+
+    # meryl "Причина — аварийная утечка газа и воспламенение технических коммуникаций."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:194
+translate english_us chapter4_5_epilogue_46a4aa1c:
+
+    # meryl "Никаких упоминаний о резонансных аномалиях. Никаких следов паразитических проекций. Ваших имен в открытом досье нет."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:194
+translate english_us chapter4_5_epilogue_8bdf5bc9:
+
+    # meryl "Служба Безопасности получила свою виновницу в лице Сано, пресса занята триумфальным возвращением Серафины. О вас никто не вспомнит."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:204
+translate english_us chapter4_5_epilogue_b912b037:
+
+    # neon "Ты замяла расследование ради системы?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:206
+translate english_us chapter4_5_epilogue_b1842e7e:
+
+    # meryl "Я спасла ваши шкуры от ликвидационной команды, Неон. Будь благодарна."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:206
+translate english_us chapter4_5_epilogue_f45abd2e:
+
+    # meryl "Если бы Совет узнал, что здесь разгуливала сущность, способная подчинять сознание целого кампуса, этот квартал залили бы бетоном вместе с живыми людьми."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:206
+translate english_us chapter4_5_epilogue_35eb5abb:
+
+    # meryl "В наших архивах это называют 'Нестабильными Элементами'. Паразиты, питающиеся вытесненной человеческой гнилью — завистью, виной, страхом."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:206
+translate english_us chapter4_5_epilogue_8cd89f53:
+
+    # meryl "Ты вычистила этот нарыв своими руками. И сделала то, на что у моего ведомства не хватило духа."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:216
+translate english_us chapter4_5_epilogue_afe31c83:
+
+    # narrator "Она положила ладонь на кожаную папку и придвинула ее ко мне."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:218
+translate english_us chapter4_5_epilogue_aa5ceb98:
+
+    # meryl "Я помню наш уговор. Я не остаюсь в долгу перед теми, кто помог раскрыть правду о Саре."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:222
+translate english_us chapter4_5_epilogue_a0c4fa76:
+
+    # neon "Это...?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:226
+translate english_us chapter4_5_epilogue_b7ffa007:
+
+    # meryl "Это Селестия."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:226
+translate english_us chapter4_5_epilogue_6bc919c2:
+
+    # meryl "Все, что мне удалось вытащить из закрытых терминалов Транспортного Узла за последние трое суток, рискуя собственным погонами."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:232
+translate english_us chapter4_5_epilogue_28c184a5:
+
+    # narrator "Мое сердце глухо толкнулось в ребра. Я протянула руку и коснулась шероховатой обложки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:232
+translate english_us chapter4_5_epilogue_76fdd6ef:
+
+    # narrator "На грифе стояла синяя печать: 'Специальный надзор. Литер Зет'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:238
+translate english_us chapter4_5_epilogue_e9dad003:
+
+    # meryl "Она не растворилась в трущобах, Неон. Ее не убили при зачистке."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:238
+translate english_us chapter4_5_epilogue_6b0f90f9:
+
+    # meryl "Две недели назад Селестию провели через Северный карантинный шлюз под конвоем Департамента Внутренней Безопасности."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:238
+translate english_us chapter4_5_epilogue_a4c10a1e:
+
+    # meryl "Ее везли спецтранспортом в закрытом контейнере с изолирующим контуром. Маршрут ведет за пределы юрисдикции нашего города — на северные испытательные полигоны корпоративного сектора."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:238
+translate english_us chapter4_5_epilogue_9a938f76:
+
+    # meryl "Она жива. По крайней мере, была жива, когда ее увозили из Веритаса."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:248
+translate english_us chapter4_5_epilogue_79e69467:
+
+    # neon "{=thoughts}Жива... Селестия жива...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:252
+translate english_us chapter4_5_epilogue_a037d877:
+
+    # meryl "Но ты должна понимать, во что ввязываешься."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:252
+translate english_us chapter4_5_epilogue_9d53f8da:
+
+    # meryl "Внутри этой папки — точки маршрута, коды доступа к железнодорожным разъездам и схема пограничных блокпостов."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:252
+translate english_us chapter4_5_epilogue_6d2f6255:
+
+    # meryl "Если ты откроешь ее и пойдешь по этому следу — пути назад в тихую жизнь уже не будет. За периметром города нет законов, защищающих гражданских. Там правят те, кто ставит эксперименты над такими как ты."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:252
+translate english_us chapter4_5_epilogue_85ee3a22:
+
+    # meryl "Ты готова идти до конца?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:262
+translate english_us chapter4_5_epilogue_0d1efb7e:
+
+    # neon "У меня никогда не было 'тихой жизни', Мэрил."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:262
+translate english_us chapter4_5_epilogue_4e7bc1ff:
+
+    # neon "И я не остановлюсь, пока не вытащу ее."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:268
+translate english_us chapter4_5_epilogue_29511cb9:
+
+    # narrator "Мэрил внимательно посмотрела мне в глаза. В ее строгом взгляде мелькнуло что-то похожее на уважение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:268
+translate english_us chapter4_5_epilogue_bde79a07:
+
+    # narrator "Она медленно поднялась из-за стола и поправила воротник плаща."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:274
+translate english_us chapter4_5_epilogue_871918a8:
+
+    # meryl "Тогда забирай документы и уходи до того, как сменится начальник городского караула."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:274
+translate english_us chapter4_5_epilogue_a5cda3a7:
+
+    # meryl "Позаботься об Аргоне. Если он останется здесь — он сгниет от тоски."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:274
+translate english_us chapter4_5_epilogue_eb0f2992:
+
+    # meryl "Прощай, Неон. Надеюсь, мы больше не встретимся по долгу моей службы."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:284
+translate english_us chapter4_5_epilogue_a1b850ed:
+
+    # narrator "Она развернулась и вышла, тихо прикрыв за собой тяжелую дверь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:284
+translate english_us chapter4_5_epilogue_7dbf721f:
+
+    # narrator "Через минуту в переулке взревели моторы, и звуки патрульных машин растаяли в утреннем шуме просыпающегося города."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:294
+translate english_us chapter4_5_epilogue_7c905f9e:
+
+    # narrator "Я подошла к окну."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:294
+translate english_us chapter4_5_epilogue_5c6464c4:
+
+    # narrator "Солнце наконец пробило серую толщу смога, протянув по крышам Веритаса узкие, золотисто-холодные лучи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:294
+translate english_us chapter4_5_epilogue_79df484a:
+
+    # narrator "На столе лежала распечатанная папка. На первой странице — нечеткий снимок с камеры наблюдения на пограничном терминале. Знакомый силуэт, темные волосы, гордая осанка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:294
+translate english_us chapter4_5_epilogue_903a93f0:
+
+    # narrator "Кошмар с фальшивым созвездием Серафины закончился. Куклы очнулись, воровка развеялась прахом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:294
+translate english_us chapter4_5_epilogue_7053a4ec:
+
+    # narrator "Но мой собственный путь только начинался."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:306
+translate english_us chapter4_5_epilogue_cf3d9faf:
+
+    # neon "{=thoughts}Держись, Селестия."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/12-epilogue.rpy:306
+translate english_us chapter4_5_epilogue_3bc6f341:
+
+    # neon "{=thoughts}Я иду за тобой."
+    neon ""
+

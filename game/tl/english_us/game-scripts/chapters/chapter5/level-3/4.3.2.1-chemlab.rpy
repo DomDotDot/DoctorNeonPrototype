@@ -54,4 +54,11 @@ translate english_us strings:
 
     # game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:38
     old "Вернуться в Левый коридор"
-    new "Return to the Left Corridor"
+    new "Return to the Left Corridor"# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.1-chemlab.rpy:27
+translate english_us ch5_level3_medbay_chemlab_menu_9f5670ad:
+
+    # neon "{=thoughts}Биомаркер готов! Он идеально имитирует ДНК Главврача.{/thoughts}"
+    neon ""
+

@@ -184,3 +184,167 @@ translate english_us chapter1_meeting_aftermath_hallway_578344e9:
     # neon "Разнесли? Меня ограбили! Марк... этот ублюдок... он украл мое открытие! Все, до последней цифры! И представил как свое!"
     neon "Tear me apart? I was robbed! Mark... that bastard... he stole my discovery! Everything, down to the last digit! And presented it as his own!"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:5
+translate english_us chapter1_meeting_aftermath_hallway_3a3722d3:
+
+    # alex "Эй! Неон! Ты чего здесь сидишь? Всё в порядке?!"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:7
+translate english_us chapter1_meeting_aftermath_hallway_e2c56d40:
+
+    # narrator "Я вздрогнула, выныривая из липкого кошмара на мягкий диван пустого коридора. Сердце всё еще колотилось в горле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:9
+translate english_us chapter1_meeting_aftermath_hallway_b81cb121:
+
+    # neon frustration "В порядке?! Ты надо мной издеваешься, Алекс?!"
+    neon frustration ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:10
+translate english_us chapter1_meeting_aftermath_hallway_2f58439e:
+
+    # alex @ serious "Эй, ну чего ты сразу взъелась... Что там произошло? Тебя шеф разнес?"
+    alex @ serious ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:12
+translate english_us chapter1_meeting_aftermath_hallway_f392e055:
+
+    # neon "Разнес?! Меня обокрали! Маркус... этот лицемерный ублюдок... он выкачал всё мое исследование! Каждую формулу! И выдал за свой триумф!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:14
+translate english_us chapter1_meeting_aftermath_hallway_cce0557e:
+
+    # alex "Маркус?! Да ну... Он же тише воды, ниже травы... Ты уверена?"
+    alex ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:16
+translate english_us chapter1_meeting_aftermath_hallway_2d2e8462:
+
+    # neon "Уверена ли я?! Я что, ослепла, по-твоему?!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:16
+translate english_us chapter1_meeting_aftermath_hallway_f7fbb1c1:
+
+    # neon "Мои матрицы сияли на проекторе! Он читал мои выводы слово в слово!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:22
+translate english_us chapter1_meeting_aftermath_hallway_b7f02888:
+
+    # narrator "Алекс замерла передо мной, сжимая стопку свежераспечатанных бланков — тех самых служебных отчетов, над которыми она хлопотала всё утро."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:22
+translate english_us chapter1_meeting_aftermath_hallway_8926a54c:
+
+    # narrator "При взгляде на эти казенные бумажки внутри всё перевернулось. Мышиная возня. Всё бессмысленно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:29
+translate english_us chapter1_meeting_aftermath_hallway_833168b5:
+
+    # narrator "Двойные двери зала заседаний с глухим щелчком распахнулись."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:29
+translate english_us chapter1_meeting_aftermath_hallway_1890eba8:
+
+    # narrator "В коридор высыпали члены правления и академики, оживленно переговариваясь на ходу. В самом центре свиты, сияя начищенными туфлями, шествовал Маркус."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:29
+translate english_us chapter1_meeting_aftermath_hallway_3f79c8b7:
+
+    # narrator "Его хлопали по плечам, пожимали руки, наперебой сулили министерские гранты и кафедры."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:29
+translate english_us chapter1_meeting_aftermath_hallway_8bc570e2:
+
+    # narrator "Каждая их фальшивая улыбка, каждый поздравляющий кивок впивались в меня раскаленными иглами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:29
+translate english_us chapter1_meeting_aftermath_hallway_64ada234:
+
+    # narrator "Когда эта процессия скрылась за поворотом к лифтам, я уткнулась лицом в ладони, сдерживая сухие спазмы в горле. Сил не осталось даже на слезы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:44
+translate english_us chapter1_meeting_aftermath_hallway_a7d3b43f:
+
+    # neon "И эти чванливые индюки из дирекции ему поверили! А Грубенманн... мой собственный наставник... растоптал меня перед всеми!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:46
+translate english_us chapter1_meeting_aftermath_hallway_197e8d46:
+
+    # alex "Но... как он вообще взломал твою консоль? Там же пароли..."
+    alex ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:47
+translate english_us chapter1_meeting_aftermath_hallway_f32650e7:
+
+    # neon "Не знаю! Понятия не имею! Но он забрал всё! Мою работу, мое будущее... всё псу под хвост!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:48
+translate english_us chapter1_meeting_aftermath_hallway_f05e65b6:
+
+    # neon "А ты... ты с этими дурацкими ведомостями! Зачем они теперь?!"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:50
+translate english_us chapter1_meeting_aftermath_hallway_b17f961f:
+
+    # narrator "Алекс не отвела глаз. В ее взгляде не было обиды — только острая, сострадательная боль."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:52
+translate english_us chapter1_meeting_aftermath_hallway_5addae86:
+
+    # alex serious "Неон... я знаю, что тебе сейчас невыносимо. Но я же просто хотела помочь."
+    alex serious ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:53
+translate english_us chapter1_meeting_aftermath_hallway_2834fc9c:
+
+    # neon shy "Знаю... Прости меня, Алекс. Сорвалась."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:54
+translate english_us chapter1_meeting_aftermath_hallway_63b7bbb0:
+
+    # neon "Внутри всё клокочет от ярости и бессилия, а ты просто под руку попалась..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:55
+translate english_us chapter1_meeting_aftermath_hallway_183b6339:
+
+    # neon "Мне нужны улики. Неопровержимые доказательства, что он залез в мой терминал ночью."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:56
+translate english_us chapter1_meeting_aftermath_hallway_bea6aad0:
+
+    # alex concerned "Улики... Постой! Камеры! В нашем лабораторном крыле же висит обзорная камера прямо над твоей дверью!"
+    alex concerned ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:57
+translate english_us chapter1_meeting_aftermath_hallway_f4d19978:
+
+    # neon surprised "Камеры! Ханс! Он сегодня на пульте охраны!"
+    neon surprised ""
+
+# game/game-scripts/chapters/chapter1/5-meeting-end.rpy:59
+translate english_us chapter1_meeting_aftermath_hallway_1b3aadd7:
+
+    # alex "Бежим. Ханс мужик справедливый, мы уговорим его поднять архивы!"
+    alex ""
+

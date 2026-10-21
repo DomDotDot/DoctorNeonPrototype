@@ -598,3 +598,65 @@ translate english_us chapter4_5_seraphina_flashback_c6777ee6:
     # illusion "Ты и есть - Серафина."
     illusion "You are - Seraphina."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:16
+translate english_us chapter4_5_seraphina_flashback_e6276812:
+
+    # narrator "Я переступила порог нашей студии. Место, где мы провели сотни бессонных ночей, перебирая струны и мечтая о большой сцене."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:16
+translate english_us chapter4_5_seraphina_flashback_67ed24e7:
+
+    # narrator "Я вернулась... другой. Я натянула на себя чужое лицо, чужой звонкий голос. Теперь я была Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:16
+translate english_us chapter4_5_seraphina_flashback_390038dc:
+
+    # narrator "Мое сердце колотилось в горле. Я так долго ждала этой минуты: войти сюда совершенной, безупречной, той, от кого невозможно отвести взгляд. Теперь она обязательно полюбит меня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:27
+translate english_us chapter4_5_seraphina_flashback_70f40e3b:
+
+    # narrator "Серафина сидела на ящике у барабанов, настраивая микрофонную стойку. Услышав скрип двери, она подняла голову — и на ее лице застыло чистое недоумение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:31
+translate english_us chapter4_5_seraphina_flashback_a7ec65f5:
+
+    # seraphina "...Лили? А где... где Нари? Вы разве не вместе ушли?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:33
+translate english_us chapter4_5_seraphina_flashback_239fdd11:
+
+    # narrator "Она смотрела прямо в мои новые зеленые глаза, но видела лишь чужую сбежавшую девчонку. И настойчиво искала ту неуклюжую, бледную Нари, которую я только что стерла в подворотне."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:33
+translate english_us chapter4_5_seraphina_flashback_d5fb61f4:
+
+    # narrator "Я натянула на губы заученную, сияющую улыбку Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:41
+translate english_us chapter4_5_seraphina_flashback_17ad33bd:
+
+    # lily "Нари... ах, она задержалась в магазине! Сказала, что скоро придет."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:41
+translate english_us chapter4_5_seraphina_flashback_3fc917f5:
+
+    # lily "Но посмотри на меня, Серафина! Смотри, как я научилась играть твою любимую партию!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/5-seraphina.rpy:41
+translate english_us chapter4_5_seraphina_flashback_c175c167:
+
+    # lily "Послушай, ну же!"
+    lily ""
+

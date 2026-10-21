@@ -352,3 +352,221 @@ translate english_us dream_sequence_japan_2_74e737c2:
     # akane "Что?! Путь в небытие?! Это путь ответственности! Она моя дочь! Я не позволю тебе рисковать ее будущим ради своих амбиций!"
     akane "What?! The path to oblivion?! This is the path of responsibility! I have a daughter! I won't let you risk her future for your ambitions!"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_6d318ff4:
+
+    # narrator "Я сижу на гладких досках коридора, прижав колени к груди."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_b3f9b403:
+
+    # narrator "Мама и тётя-гостья ушли во внутренние покои — в дальнюю комнату, куда мне запрещено заходить без спроса. Бумажная створка сёдзи прикрыта не плотно, оставляя тонкую полосу теплого полумрака."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_4934deab:
+
+    # narrator "Сквозь щель виден мамин силуэт. Ее пальцы плавно двигаются в воздухе, словно перебирая невидимые струны или распутывая тончайшую сияющую пряжу."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_bfd496c1:
+
+    # narrator "Там, где касаются ее пальцы, на мгновение вспыхивают золотистые нити. Они вьются, сплетаются в мягкие живые узоры, дышат тихим светом. Но стоит половице под моим весом едва слышно скрипнуть, как мама мгновенно сжимает ладонь — и сияние гаснет, рассыпаясь без следа."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_0f4acd00:
+
+    # narrator "Она всегда так делает."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_a6a6cf3b:
+
+    # narrator "Тётя-гостья стоит у низкого столика, скрестив руки на широких рукавах темного кимоно. Ее спина прямая и жесткая, как лезвие клинка."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:6
+translate english_us dream_sequence_japan_2_22a031f2:
+
+    # narrator "Я прижимаю ухо к деревянной раме, прислушиваясь к глухим голосам."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:23
+translate english_us dream_sequence_japan_2_a62e9a34:
+
+    # akane "Барьеры истончаются. За эту неделю трещины на границах поместья расширились вдвое."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:23
+translate english_us dream_sequence_japan_2_04c2b6cf:
+
+    # akane "Печати не выдерживают. Если это выплеснется за пределы сада... мы не удержим последствия."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:23
+translate english_us dream_sequence_japan_2_a161315c:
+
+    # akane "Помоги мне их укрепить."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:31
+translate english_us dream_sequence_japan_2_50a94cb8:
+
+    # narrator "Мама говорит ровно, но в ее интонациях сквозит глухое, сдавленное напряжение."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:34
+translate english_us dream_sequence_japan_2_a68295c5:
+
+    # oganesson_young "'Помоги'. Какое жалкое, трусливое слово, Аканэ."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:34
+translate english_us dream_sequence_japan_2_8f3c1be7:
+
+    # oganesson_young "Ты тратишь всю свою жизнь на возведение плотин против прилива. Пытаешься запереть первозданную стихию в бумажный ящик только потому, что боишься ее масштаба."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:40
+translate english_us dream_sequence_japan_2_5dd26d8a:
+
+    # akane "Это не стихия. Это разрушение ткани бытия!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:40
+translate english_us dream_sequence_japan_2_d4220b87:
+
+    # akane "Один неверный шаг — и пространство распадется на лоскуты. За этими разломами нет жизни, там лишь слепая энтропия. Ты называешь это даром?!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:46
+translate english_us dream_sequence_japan_2_96a9c651:
+
+    # oganesson_young young_kimono neutral "Я называю это горизонтом."
+    oganesson_young young_kimono neutral ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:46
+translate english_us dream_sequence_japan_2_e5f36711:
+
+    # oganesson_young young_kimono neutral "Ты привыкла мерить мир пределами своего сада, запретами и страхом перед неизвестным. А я видела, что лежит за чертой. То, что ты зовешь трещинами, для меня — чистый, необузданный потенциал."
+    oganesson_young young_kimono neutral ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:52
+translate english_us dream_sequence_japan_2_f579d2cb:
+
+    # akane "Потенциал к уничтожению всего, что нас окружает?"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:52
+translate english_us dream_sequence_japan_2_62c3769e:
+
+    # akane "Мой род веками оберегал равновесие от подобных прорывов. Мы хранили мир, а не поджигали его ради праздного любопытства!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:52
+translate english_us dream_sequence_japan_2_222cd765:
+
+    # akane "Она... это дверь, которую нельзя распахивать. Я же тебе объясняла, что произойдет если они сойдутся... если этот резонанс замкнется — мир расколется надвое."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:61
+translate english_us dream_sequence_japan_2_a40ca062:
+
+    # oganesson_young young_kimono resentment "Твой род лишь сторожил чужие тени. Мой клан брал клинок и шел вперед."
+    oganesson_young young_kimono resentment ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:61
+translate english_us dream_sequence_japan_2_509115f9:
+
+    # oganesson_young young_kimono resentment "Мы платили кровью за каждый дюйм понимания этой силы. Мои предки сгорали дотла, пытаясь подчинить то, перед чем вы малодушно падали на колени."
+    oganesson_young young_kimono resentment ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:61
+translate english_us dream_sequence_japan_2_1ef7d64a:
+
+    # oganesson_young young_kimono resentment "И теперь, когда перед нами ключ к абсолютной силе, ты требуешь выбросить его в колодец? Отступить... в небытие?"
+    oganesson_young young_kimono resentment ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:69
+translate english_us dream_sequence_japan_2_fddb02f8:
+
+    # akane "Это не отступление! Это ответственность матери! Она — моя дочь! Я не позволю тебе превратить ее жизнь в топливо для твоих амбиций!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:72
+translate english_us dream_sequence_japan_2_f783d7ff:
+
+    # oganesson_young young_kimono smirk "Ах, Аканэ. Ты прикрываешься ребенком, как щитом, пряча за ней собственный первобытный страх."
+    oganesson_young young_kimono smirk ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:72
+translate english_us dream_sequence_japan_2_e1224940:
+
+    # oganesson_young young_kimono smirk "Чему ты ее научишь? Быть такой же затворницей, вздрагивающей от каждого порыва ветра?"
+    oganesson_young young_kimono smirk ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:72
+translate english_us dream_sequence_japan_2_430f7db4:
+
+    # oganesson_young young_kimono smirk "Отдай ее мне. Я закалю ее характер. Я выращу ее той, перед кем преклонится сама реальность."
+    oganesson_young young_kimono smirk ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:83
+translate english_us dream_sequence_japan_2_c41ea34a:
+
+    # akane "Закалить?! Ты хочешь сломать ее так же, как сломала себя!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:83
+translate english_us dream_sequence_japan_2_b3af924d:
+
+    # akane "Ты говоришь о власти, но в твоих руках все обращается в лед и пепел!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:83
+translate english_us dream_sequence_japan_2_fa9191ac:
+
+    # akane "То, что природа лишила тебя возможности стать матерью, не дает тебе права играть в бога с моей дочерью!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:83
+translate english_us dream_sequence_japan_2_c708bc46:
+
+    # akane "Мне есть что защищать. В отличие от тебя!"
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:98
+translate english_us dream_sequence_japan_2_e48d552f:
+
+    # narrator "В комнате воцарился глухой, леденящий холод."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:98
+translate english_us dream_sequence_japan_2_ac132efd:
+
+    # narrator "Спесивая усмешка Тёти треснула и осыпалась. В ее неподвижном взгляде отразилась такая острая, обнаженная боль, словно невидимый клинок вонзился ей прямо под ребра."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:98
+translate english_us dream_sequence_japan_2_5e4707fa:
+
+    # narrator "Мамины слова ударили без пощады. Туда, где не было брони."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:106
+translate english_us dream_sequence_japan_2_2bddeddd:
+
+    # oganesson_young young_kimono hurt "Ты... не смела этого говорить."
+    oganesson_young young_kimono hurt ""
+
+# game/game-scripts/flashbacks/neon/childhood/2-dream-fragment.rpy:108
+translate english_us dream_sequence_japan_2_c547c8f2:
+
+    # narrator "Она резко развернулась, взметнув тяжелый шелк рукавов, и широкими шагами вышла прочь."
+    narrator ""
+

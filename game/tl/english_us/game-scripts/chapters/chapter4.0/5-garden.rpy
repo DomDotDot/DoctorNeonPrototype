@@ -726,3 +726,617 @@ translate english_us chapter4_0_garden_dialogue_7503c8aa:
     # neon neutral "{=thoughts}Это единственный путь. Я докажу тебе, что была права."
     neon neutral "{=thoughts}This is the only way. I'll prove to you that I was right."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:6
+translate english_us chapter4_0_garden_a1758d37:
+
+    # narrator "Смартфон Сары лежал в кармане куртки тяжелым пластиковым бруском. На улице меня встретила ночь — стеклянный, вымороженный воздух верхних террас. В этих кварталах темнота не спускалась с неба, ее вытесняли рекламные экраны и прожекторы высоток, но от этого пустота на гранитных тротуарах казалась только глубже."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:6
+translate english_us chapter4_0_garden_4050c1b1:
+
+    # narrator "Ноги гудели. После бесконечных переходов, чужих взглядов и тяжелого разговора в квартире 1703 тело требовало передышки. Куда идти? Назад, в сырую низину к Аргону?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:12
+translate english_us chapter4_0_garden_21e95017:
+
+    # neon "{=thoughts}Я вспомнила его сгорбленную спину у панорамного щита и свой собственный голос, сорвавшийся на упрек. Я бросила его там одного, ухватившись за имя Селестии. А что в итоге?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:12
+translate english_us chapter4_0_garden_859ae6e0:
+
+    # neon "{=thoughts}Семнадцатый этаж. Облезлые стены. Старый рояль, на котором некому играть, и испуганная женщина, потерявшая дочь. Синдром двадцати четырех часов... За последние двое суток в Веритасе растворились две студентки. Сара и Клара. Обе нити упирались в Академию и музыку."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:12
+translate english_us chapter4_0_garden_eea30ce9:
+
+    # neon "{=thoughts}Но Селестия... Мэрил даже не знала ее имени. Просто безымянная квартирантка, исчезнувшая полгода назад. Музыка в пустых комнатах — фантом материнского горя."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:20
+translate english_us chapter4_0_garden_9a643219:
+
+    # narrator "Я брела наугад, пока гранитные плиты тротуара не сменились широкой круглой площадью. Впереди, среди холодных стальных граней офисных башен, возвышался огромный стеклянный купол. Сквозь мутноватые грани пробивалось мягкое зеленоватое свечение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:20
+translate english_us chapter4_0_garden_66f665d7:
+
+    # narrator "'Ботанический сад Веритаса'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:20
+translate english_us chapter4_0_garden_060eaec4:
+
+    # narrator "У тяжелых стеклянных створок висела латунная табличка: 'Круглосуточно. Посторонним полив растений строго воспрещен'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:20
+translate english_us chapter4_0_garden_ee71bdf5:
+
+    # narrator "Странный запрет для ночной оранжереи, но вникать не было сил. Возвращаться в заброшенный цех Аргона прямо сейчас я не могла. Мне нужно было перевести дыхание и собрать мысли воедино."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:33
+translate english_us chapter4_0_garden_1ff6b68e:
+
+    # narrator "Внутри воздух мгновенно изменился. После уличного холода на лицо опустилась плотная, влажная теплица. Пахло прелой листвой, сырой землей и тропической зеленью. Где-то под папоротниками негромко журчала вода — тонкий искусственный ручей огибал каменные дорожки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:33
+translate english_us chapter4_0_garden_d4f6d261:
+
+    # narrator "Здесь не было резких корпоративных линий. Живые ветви сплетались под куполом, заслоняя городские башни."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:33
+translate english_us chapter4_0_garden_87a511c3:
+
+    # narrator "Я набрела на деревянную скамью в глубине аллеи, укрытую тяжелыми лапами фикуса. Рядом пышно цвели синие гортензии. В полутьме их шапки казались почти чернильными."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:33
+translate english_us chapter4_0_garden_55659f3e:
+
+    # narrator "Я опустилась на доски, пристроив телефон Сары рядом. Веки отяжелели так резко, будто меня накрыло толстым войлоком. Городской гул за стеклом угас. Я закрыла глаза и провалилась в темноту."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:53
+translate english_us chapter4_0_garden_277be412:
+
+    # narrator "Резкая, колющая боль в правой руке выдернула меня из сна. Я вскрикнула и инстинктивно прижала ладонь к груди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:57
+translate english_us chapter4_0_garden_413eb838:
+
+    # narrator "Я все еще сидела на скамейке в оранжерее. Пальцы свесившейся руки сжимали изломанный стебель синей гортензии. Той самой, из сна."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:57
+translate english_us chapter4_0_garden_24be728e:
+
+    # narrator "Но дело было не в стебле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:57
+translate english_us chapter4_0_garden_e0f0aeab:
+
+    # narrator "Поперек ладони, прямо по кожным бороздкам, протянулись тонкие белесые трещины. Они не кровили. Кожа на ощупь казалась одеревеневшей, хрупкой, как треснувшее стекло или тонкий фарфор под резким перепадом температур. Из глубин ладони тянуло тупым, ледяным онемением — точно таким же, как во сне, когда цветок рассыпался в пустоту перед тетей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:65
+translate english_us chapter4_0_garden_31b4d50d:
+
+    # neon "{=thoughts}Это не порез от стебля. У гортензий нет шипов. И кожа не трескается, как сухое стекло... Сон пробился наружу?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:67
+translate english_us chapter4_0_garden_f3379cdd:
+
+    # narrator "В этот момент тишину сада нарушил тихий, чистый напев. Мелодия без слов, легкая и беззаботная. Следом послышался сухой стук каблуков по мокрой каменной дорожке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:73
+translate english_us chapter4_0_garden_dialogue_2747c351:
+
+    # neon "{=thoughts}Среди ночи? Кому придет в голову гулять здесь в такой час?.."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:78
+translate english_us chapter4_0_garden_dialogue_afb86133:
+
+    # narrator "Я выглянула из-за широких листьев фикуса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:78
+translate english_us chapter4_0_garden_dialogue_f4515663:
+
+    # narrator "Прямо по центру дендрария, в широком луче света, пробивавшемся сквозь стеклянный свод, стояла девушка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:78
+translate english_us chapter4_0_garden_dialogue_8de65d73:
+
+    # narrator "Белоснежное, чуть пышное сценическое платье, светлые локоны, уложенные в аккуратную прическу. Она держала в руках серебристую лейку и бережно, с детской сосредоточенностью поливала клумбу белоснежных лилий."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:78
+translate english_us chapter4_0_garden_dialogue_71facf5d:
+
+    # narrator "Точь-в-точь как на тех сияющих голографических плакатах у стадиона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:88
+translate english_us chapter4_0_garden_dialogue_cd7d0fbb:
+
+    # neon "Эй... Ты кто?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:89
+translate english_us chapter4_0_garden_dialogue_85886912:
+
+    # narrator "Голос прозвучал хрипло и неожиданно громко под стеклянным куполом. Я сделала шаг вперед, баюкая онемевшую ладонь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:94
+translate english_us chapter4_0_garden_dialogue_55444bbe:
+
+    # "Девушка" "Ой-й! Кто тут?! Напугали же!"
+    "Девушка" ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:95
+translate english_us chapter4_0_garden_dialogue_1b10c500:
+
+    # narrator "Лейка с глухим звоном выскользнула из ее пальцев и покатилась по влажной земле, расплескивая воду. Девушка отшатнулась назад, прижав тонкие ладони к груди. В полумраке ее рубиновые глаза округлились от неподдельного испуга."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:97
+translate english_us chapter4_0_garden_dialogue_d5da70bd:
+
+    # neon "Прости. Я не хотела тебя пугать. Просто... уснула на скамейке."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:97
+translate english_us chapter4_0_garden_dialogue_62ce3bde:
+
+    # neon "Я Неон. А ты..."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:103
+translate english_us chapter4_0_garden_dialogue_aa0869d0:
+
+    # narrator "Она моргнула раз, другой, склонила голову набок и смерила меня озадаченным взглядом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:106
+translate english_us chapter4_0_garden_dialogue_aab5aef9:
+
+    # "Девушка" "Погоди... Ты серьезно? Ты меня не узнаешь?! Я же Серафина!"
+    "Девушка" ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:108
+translate english_us chapter4_0_garden_dialogue_5b420970:
+
+    # seraphina "Серафина! Главный голос этого города, между прочим!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:111
+translate english_us chapter4_0_garden_dialogue_23f1e48c:
+
+    # seraphina "Странно... Мое лицо сейчас разве что на упаковках с печеньем не печатают."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:111
+translate english_us chapter4_0_garden_dialogue_0d1ba05a:
+
+    # seraphina "Ты что, с Луны свалилась? Или новенькая?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:117
+translate english_us chapter4_0_garden_dialogue_d4ea5c89:
+
+    # narrator "Голос у нее звенел звонко, с театральной надутостью, но без капли злости — скорее с искренним любопытством."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:119
+translate english_us chapter4_0_garden_dialogue_146868bf:
+
+    # neon "Я недавно приехала. Но напев у тебя был красивый... Правда."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:122
+translate english_us chapter4_0_garden_dialogue_ebf80142:
+
+    # narrator "Серафина мгновенно вспыхнула, щеки залил густой румянец, и она торопливо зажала рот обеими ладонями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:124
+translate english_us chapter4_0_garden_dialogue_5aff7aa3:
+
+    # seraphina "Ты... ты слышала?! Какой кошмар! Умоляю, забудь! Никому ни слова!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:124
+translate english_us chapter4_0_garden_dialogue_5aac414b:
+
+    # seraphina "Эту партию еще даже звукорежиссеры не слышали! Я тайком сбежала из отеля, чтобы распеться перед завтрашним выступлением..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:130
+translate english_us chapter4_0_garden_dialogue_2aaac49a:
+
+    # narrator "Она затараторила так быстро, что едва успевала переводить дыхание, виновато косясь на валяющуюся лейку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:132
+translate english_us chapter4_0_garden_dialogue_aec8f92e:
+
+    # neon neutral "{=thoughts}Она выложила все секреты первому встречному за тридцать секунд. Наивность? Или просто привыкла, что вокруг нее все свои?"
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:132
+translate english_us chapter4_0_garden_dialogue_7e1c580e:
+
+    # neon neutral "Не переживай, никому не скажу. Могила. Тем более у меня свои заботы... Я ищу человека. Ее зовут Селестия. Она была тут и играла на рояле."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:139
+translate english_us chapter4_0_garden_dialogue_18f71033:
+
+    # narrator "При этом имени вся ее спесь слетела в одно мгновение. Глаза распахнулись еще шире, губы дрогнули."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:141
+translate english_us chapter4_0_garden_dialogue_5206a8b0:
+
+    # seraphina "Селестия?! Та самая... с черно-белыми волосами?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:143
+translate english_us chapter4_0_garden_dialogue_98551e3d:
+
+    # neon "Да. Именно она. Мы были знакомы... раньше."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:143
+translate english_us chapter4_0_garden_dialogue_3b79ddf1:
+
+    # neon "Я надеялась найти хоть какой-то ее след здесь, в центре."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:150
+translate english_us chapter4_0_garden_dialogue_1a5c66ed:
+
+    # narrator "Серафина сделала шаг ко мне, пристально вглядываясь в мое лицо. Ее губы растянулись в широкой, теплой улыбке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:152
+translate english_us chapter4_0_garden_dialogue_a2aa5950:
+
+    # seraphina "Неон, значит... А ты мне нравишься!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:152
+translate english_us chapter4_0_garden_dialogue_f9a90755:
+
+    # seraphina "Подойди-ка поближе."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:160
+translate english_us chapter4_0_garden_dialogue_efed1611:
+
+    # narrator "Она тут же спохватилась, замахав руками:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:162
+translate english_us chapter4_0_garden_dialogue_b817b95f:
+
+    # seraphina "Ой! В смысле, не так! Ха-ха..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:162
+translate english_us chapter4_0_garden_dialogue_1c172af4:
+
+    # seraphina "Я имела в виду — сразу видно хорошего человека! Мне кажется, у нас много общего!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:168
+translate english_us chapter4_0_garden_dialogue_8b9d12d4:
+
+    # neon "{=thoughts}В ней столько неуемной, фонтанирующей энергии... Словно яркая искра посреди этой стерильной стеклянной клетки."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:170
+translate english_us chapter4_0_garden_dialogue_859aa3fa:
+
+    # narrator "На долю секунды перед глазами мелькнул знакомый силуэт из старых воспоминаний — светлая улыбка, тепло, которое невозможно удержать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:172
+translate english_us chapter4_0_garden_dialogue_8c89af29:
+
+    # neon "{=thoughts}Почему я пытаюсь разглядеть знакомые черты в каждом, кто проявляет ко мне каплю тепла?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:172
+translate english_us chapter4_0_garden_dialogue_f38f39de:
+
+    # neon "{=thoughts}Надо держать дистанцию. Она осталась в прошлом. Я иду дальше."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:178
+translate english_us chapter4_0_garden_dialogue_716a2418:
+
+    # seraphina neutral "Да не стой ты столбом, иди сюда!"
+    seraphina neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:180
+translate english_us chapter4_0_garden_dialogue_698101ba:
+
+    # narrator "Я подошла ближе. Серафина без тени сомнений перехватила мою руку, но тут же замерла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:183
+translate english_us chapter4_0_garden_dialogue_220958e0:
+
+    # seraphina "Ой... А это что такое?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:185
+translate english_us chapter4_0_garden_dialogue_cb44294b:
+
+    # narrator "Ее пальцы коснулись моей ладони. Она осторожно провела кончиком ногтя по белесым бороздкам-трещинам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:187
+translate english_us chapter4_0_garden_dialogue_7c724b0b:
+
+    # neon shy "Сама толком не поняла. Проснулась — и вот."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:190
+translate english_us chapter4_0_garden_dialogue_287f616c:
+
+    # seraphina "Странная штука... Кожа словно ледышка."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:190
+translate english_us chapter4_0_garden_dialogue_3d9774a5:
+
+    # seraphina "И покалывает... будто тянет куда-то изнутри."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:197
+translate english_us chapter4_0_garden_dialogue_c7ddebdb:
+
+    # seraphina "Ой, да что я стою! Стой здесь, никуда не уходи!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:200
+translate english_us chapter4_0_garden_dialogue_77613035:
+
+    # narrator "Она метнулась к скамейке, на ходу подхватив брошенную прямо в траву голубую сумку. Не обращая внимания на то, что подол ее роскошного платья мажется о влажную землю, она принялась торопливо рыться в вещах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:203
+translate english_us chapter4_0_garden_dialogue_9c44a68f:
+
+    # seraphina "Нашла! Держи!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:205
+translate english_us chapter4_0_garden_dialogue_86d10bbb:
+
+    # narrator "Она подбежала обратно и с торжествующим видом развернула розовый пластырь с нарисованной кошачьей мордочкой. Прежде чем я успела что-либо возразить, она аккуратно прилепила его прямо поверх трещин на ладони."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:208
+translate english_us chapter4_0_garden_dialogue_91f5bffa:
+
+    # seraphina "Вот! До свадьбы заживет!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:208
+translate english_us chapter4_0_garden_dialogue_4a4c4ad4:
+
+    # seraphina "Скажи, я молодец? Хи-хи!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:214
+translate english_us chapter4_0_garden_dialogue_e2912e1a:
+
+    # neon "{=thoughts}Детский пластырь и я... Это было бы смешно, если бы не было так трогательно."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:216
+translate english_us chapter4_0_garden_dialogue_fe581ac4:
+
+    # narrator "Но Серафина не убрала руки. Она накрыла мою ладонь обеими своими, и улыбка на ее лице медленно растаяла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:219
+translate english_us chapter4_0_garden_dialogue_c439a195:
+
+    # seraphina "Ты... правда знала Селестию?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:223
+translate english_us chapter4_0_garden_dialogue_8ba2288a:
+
+    # seraphina "Она была... настоящей. Я смотрела каждую трансляцию ее концертов. Каждую запись."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:223
+translate english_us chapter4_0_garden_dialogue_86c13cd4:
+
+    # seraphina "Она доказала, что даже если ты никто... если ты из серого, мертвого захолустья, где нет ничего, кроме ржавчины и пыли... ты все равно можешь взлететь к звездам."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:223
+translate english_us chapter4_0_garden_dialogue_58cba43d:
+
+    # seraphina "Она подарила мне веру. А потом... взяла и пропала. Из-за каких-то сплетен, зависти и грязи."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:223
+translate english_us chapter4_0_garden_dialogue_ba72dcae:
+
+    # seraphina "И тогда я пообещала себе, что встану на ее место. Что стану еще ярче. Ради нее."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:233
+translate english_us chapter4_0_garden_dialogue_ab0af144:
+
+    # narrator "Пальцы девушки судорожно сжались на моей руке. Ее голос опустился до свистящего, ледяного полушепота."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:235
+translate english_us chapter4_0_garden_dialogue_11afac9c:
+
+    # seraphina "Тот, кто сломал ее и выбросил..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:235
+translate english_us chapter4_0_garden_dialogue_d655b7e9:
+
+    # seraphina "Когда я доберусь до него..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:243
+translate english_us chapter4_0_garden_dialogue_f2599f84:
+
+    # seraphina envious2 "...он горько пожалеет."
+    seraphina envious2 ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:247
+translate english_us chapter4_0_garden_dialogue_4162ec4d:
+
+    # seraphina "Ой... Прости! Боже, что я несу... Я имела в виду того парня, из-за которого она ушла!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:247
+translate english_us chapter4_0_garden_dialogue_994a6f53:
+
+    # seraphina "У меня сегодня просто голова кругом. Нервы перед завтрашним шоу... Будто мысли не мои, каша какая-то."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:254
+translate english_us chapter4_0_garden_dialogue_c1c647a0:
+
+    # seraphina "Ладно, проехали..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:257
+translate english_us chapter4_0_garden_dialogue_8bd5d4b8:
+
+    # seraphina "Слушай, Неон. Я не знаю, где она сейчас. Но у меня завтра сольный концерт на Главной Арене!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:257
+translate english_us chapter4_0_garden_dialogue_15be9664:
+
+    # seraphina "Я достану тебе билет. И пропуск за кулисы!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:257
+translate english_us chapter4_0_garden_dialogue_bbac139a:
+
+    # seraphina "После выступления там будет закрытая встреча для випов. Мы сможем спокойно сесть и поговорить. Я расскажу все, что знаю про ту историю с Селестией."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:265
+translate english_us chapter4_0_garden_dialogue_7a9920db:
+
+    # neon @ shy "Но я даже не знаю..."
+    neon @ shy ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:268
+translate english_us chapter4_0_garden_dialogue_6806b781:
+
+    # seraphina "Никаких 'но'! Договорились?"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:270
+translate english_us chapter4_0_garden_dialogue_bf8432a0:
+
+    # narrator "Она полезла в кармашек сумки, выудила глянцевый билет и вложила мне в пальцы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:273
+translate english_us chapter4_0_garden_dialogue_5336c896:
+
+    # seraphina "Охрану у служебного входа я предупрежу лично. А чтобы они тебя точно пропустили..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:275
+translate english_us chapter4_0_garden_dialogue_680def8f:
+
+    # narrator "Она повернулась к клумбе, легко перегнулась через бордюр и сорвала крупную белую лилию на длинном влажном стебле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:277
+translate english_us chapter4_0_garden_dialogue_3bc3b8c8:
+
+    # seraphina "Вот твой пароль. Покажешь цветок на входе — и тебя проведут прямо ко мне в гримерку."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:277
+translate english_us chapter4_0_garden_dialogue_7a9b1fa2:
+
+    # seraphina "Мне пора бежать, пока мои не начали меня искать. До завтра, Неон!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:287
+translate english_us chapter4_0_garden_dialogue_aa7c1dac:
+
+    # narrator "Она подхватила сумку и легко, словно порыв ветра, упорхнула по каменной дорожке к выходу, оставив после себя лишь опрокинутую лейку да тонкий цветочный аромат."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_88644c5f:
+
+    # narrator "Я осталась одна под стеклянным куполом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_ec01198f:
+
+    # narrator "В одной руке — гладкий билет на концерт, в другой — тяжелый, влажный цветок белой лилии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:291
+translate english_us chapter4_0_garden_dialogue_d1dbfabe:
+
+    # narrator "Я подняла глаза к прозрачному своду. Сквозь стекло были видны редкие бледные звезды, едва пробивавшиеся сквозь световой смог мегаполиса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:299
+translate english_us chapter4_0_garden_dialogue_69244eac:
+
+    # neon neutral "{=thoughts}Селестия... Если ты действительно здесь, если ты слышишь эту музыку — подай мне знак."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:299
+translate english_us chapter4_0_garden_dialogue_ba929346:
+
+    # neon neutral "{=thoughts}Прости меня, Аргон. Я знаю, со стороны это выглядит как побег. Но я не бросаю тебя."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:299
+translate english_us chapter4_0_garden_dialogue_0fdeec0f:
+
+    # neon neutral "{=thoughts}Сара, Клара, Лили... Все они вели сюда, к этой сияющей сцене. Синдром двадцати четырех часов, исчезновения, запретная музыка... Эпицентр здесь. Селестия — ключ ко всему."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/5-garden.rpy:299
+translate english_us chapter4_0_garden_dialogue_519dbd48:
+
+    # neon neutral "{=thoughts}Я найду ответы на Главной Арене. Чего бы мне это ни стоило."
+    neon neutral ""
+

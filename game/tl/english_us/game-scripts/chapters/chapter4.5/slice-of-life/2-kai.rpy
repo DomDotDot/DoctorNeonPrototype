@@ -362,3 +362,113 @@ translate english_us chapter4_5_kai_ito_interlude_833625b3:
     # narrator "В классе была неловкая тишина. Даже Акари-сенсей удивленно моргнула. Она не ожидала такого точного ответа. Она смотрела на меня с новым интересом."
     narrator "Silence hung over the class. Even Akari-sensei blinked in surprise. She hadn't expected such a precise answer. She looked at me with new interest."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:107
+translate english_us chapter4_5_kai_ito_interlude_0102825c:
+
+    # narrator "В аудитории повисла заминка. Акари-сенсей медленно опустила ладонь на кафедру, пристально разглядывая меня сквозь тонкие стекла очков."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:107
+translate english_us chapter4_5_kai_ito_interlude_1a9f82ae:
+
+    # narrator "Она не ожидала от тихони с задней парты связного ответа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:115
+translate english_us chapter4_5_kai_ito_interlude_2767b918:
+
+    # narrator "Когда прозвучал сигнал окончания пары и студенты гурьбой повалили к выходу, преподавательница окликнула меня по фамилии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:124
+translate english_us chapter4_5_kai_ito_interlude_c106aeb9:
+
+    # narrator "Она подошла к моей парте с доброжелательной, мягкой улыбкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:126
+translate english_us chapter4_5_kai_ito_interlude_ca4c5e77:
+
+    # akari @ excited "Я впечатлена твоим ответом, Кай. Правда."
+    akari @ excited ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:126
+translate english_us chapter4_5_kai_ito_interlude_4b735885:
+
+    # akari @ excited "Не думала, что ты настолько глубоко погружен в тему энтомологии."
+    akari @ excited ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:126
+translate english_us chapter4_5_kai_ito_interlude_4b74cdc9:
+
+    # akari @ excited "Я бы хотела предложить тебе индивидуальный исследовательский проект. Это поможет подтянуть текущий балл перед экзаменационной сессией."
+    akari @ excited ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:134
+translate english_us chapter4_5_kai_ito_interlude_1ce6fd40:
+
+    # narrator "Она обратилась ко мне по имени. Заметила. Выделила из всей этой серой массы зубрил."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:138
+translate english_us chapter4_5_kai_ito_interlude_a217e0ba:
+
+    # akari "Тема довольно специфическая..."
+    akari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:138
+translate english_us chapter4_5_kai_ito_interlude_db5df9ec:
+
+    # akari "Я могла бы заглянуть к тебе сегодня вечером, чтобы передать вводные материалы и методичку. Заодно наметим план работы."
+    akari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:144
+translate english_us chapter4_5_kai_ito_interlude_6d6098fc:
+
+    # narrator "Ко мне? Домой? Преподавательница Академии? Кровь ударила в виски от гордости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:146
+translate english_us chapter4_5_kai_ito_interlude_a35f8d06:
+
+    # kai "Д-да! Конечно, сенсей! Я подготовлю рабочее место!"
+    kai ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:148
+translate english_us chapter4_5_kai_ito_interlude_184d49be:
+
+    # akari "Вот и договорились. Жди после восьми, Кай."
+    akari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:150
+translate english_us chapter4_5_kai_ito_interlude_68db6892:
+
+    # kai "{=thoughts}Наконец-то... Они поняли, кто я такой на самом деле.{/thoughts}"
+    kai ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:154
+translate english_us chapter4_5_kai_ito_interlude_e5a4e95e:
+
+    # narrator "Она вышла из аудитории, а я остался стоять у окна, сжимая в кулаке лямку рюкзака."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:160
+translate english_us chapter4_5_kai_ito_interlude_a8e5da98:
+
+    # narrator "Восемь вечера."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:160
+translate english_us chapter4_5_kai_ito_interlude_3e205245:
+
+    # narrator "Резкий двойной звонок в прихожей. Я бросился к двери, торопливо поправил воротник рубашки и повернул защелку замка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/2-kai.rpy:168
+translate english_us chapter4_5_kai_ito_interlude_29d118f5:
+
+    # kai "Сенсей! Проходите, я как раз-"
+    kai ""
+

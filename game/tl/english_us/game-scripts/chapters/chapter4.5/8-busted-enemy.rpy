@@ -530,3 +530,185 @@ translate english_us chapter4_5_akari_arrest_bdc29758:
     # neon "{=thoughts}Зависть... Она сказала 'зависть'. У неё, как и у Аргона..."
     neon "{=thoughts}Envy... She said 'envy'. Just like Argon..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:152
+translate english_us chapter4_5_akari_arrest_f4befed8:
+
+    # narrator "В этот момент кто-то робко потянул меня за край форменного жакета."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:156
+translate english_us chapter4_5_akari_arrest_b38a6b58:
+
+    # lily "Неон... пожалуйста, пойдем отсюда."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:156
+translate english_us chapter4_5_akari_arrest_38e0e346:
+
+    # lily "Мне душно в этих стенах... Здесь пахнет этой дрянью из банок. Я не могу здесь оставаться."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:162
+translate english_us chapter4_5_akari_arrest_431cfe87:
+
+    # neon "Сейчас, Лили. Мы уходим."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:166
+translate english_us chapter4_5_akari_arrest_8e2cbf17:
+
+    # narrator "Она крепко прижалась ко мне, словно цепляясь за единственную опору. Ее пальцы судорожно комкали ткань моей рубашки. Я осторожно положила ладонь ей на плечо, чувствуя мелкую дрожь во всем ее теле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:168
+translate english_us chapter4_5_akari_arrest_308007cc:
+
+    # lily "Я... я должна попросить прощения. За вчерашнее. На бульваре."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:168
+translate english_us chapter4_5_akari_arrest_52c7aa31:
+
+    # lily "Я поступила отвратительно... Я так злилась на отца, что была готова выместить злость на ком угодно."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:168
+translate english_us chapter4_5_akari_arrest_ba6b42a2:
+
+    # lily "Мне казалось, что здесь, среди огней и подруг, я построила новую жизнь... А потом Сара перестала выходить на связь. Клара стала чужой."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:168
+translate english_us chapter4_5_akari_arrest_b5be36ac:
+
+    # lily "А сегодня Акари-сенсей закрыла дверь и достала эту колбу..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:178
+translate english_us chapter4_5_akari_arrest_21018b81:
+
+    # neon "Все позади, Лили. Акари арестована. Ты в безопасности."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:182
+translate english_us chapter4_5_akari_arrest_148161e0:
+
+    # lily "Ты ведь... пришла за мной вместе с ним? С отцом? Я видела его силуэт на ярмарке..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:182
+translate english_us chapter4_5_akari_arrest_e120ba92:
+
+    # lily "Неон, я хочу увидеть его. Я хочу сказать ему, что была не права."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:188
+translate english_us chapter4_5_akari_arrest_f0975aca:
+
+    # narrator "Огромная тяжесть, давившая на плечи последние сутки, наконец отпустила."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:188
+translate english_us chapter4_5_akari_arrest_f6bfdc31:
+
+    # narrator "Дело закрыто. Ученицы отомщены, Лили жива и невредима."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:188
+translate english_us chapter4_5_akari_arrest_950e6a3f:
+
+    # narrator "Я автоматически сунула руку в карман форменной юбки, доставая телефон, чтобы набрать номер и крикнуть Аргону, что его дочь спасена."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:196
+translate english_us chapter4_5_akari_arrest_a60a0a15:
+
+    # narrator "Палец замер над темным стеклом экрана."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:196
+translate english_us chapter4_5_akari_arrest_b385665c:
+
+    # narrator "Какая глупость. Кому я собиралась звонить?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:196
+translate english_us chapter4_5_akari_arrest_ede00eef:
+
+    # narrator "У Аргона не было мобильника. Ни смартфона, ни старой кнопочной трубки. В полуразрушенном ангаре Старого района не водилось связи, а сам он годами жил отшельником среди пустых холстов и запаха ацетона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:204
+translate english_us chapter4_5_akari_arrest_d4b697ef:
+
+    # neon "У него нет телефона. Мы пойдем к нему прямо сейчас, пешком. Он сидит в мастерской и не находит себе места."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:206
+translate english_us chapter4_5_akari_arrest_518ffebf:
+
+    # narrator "Лили испуганно отшатнулась, ее пальцы судорожно вцепились в мои запястья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:208
+translate english_us chapter4_5_akari_arrest_2e0ef3e8:
+
+    # lily "Стой! Нет, не сейчас... Я не могу показаться ему в таком виде!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:208
+translate english_us chapter4_5_akari_arrest_fe5d8771:
+
+    # lily "Посмотри на меня — я вся в слезах, форма измята, меня колотит... После того, как я ударила его при всех на бульваре..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:208
+translate english_us chapter4_5_akari_arrest_1f93cac1:
+
+    # lily "Я... я просто провалюсь сквозь землю, если он встретит меня такой."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:216
+translate english_us chapter4_5_akari_arrest_30bf823b:
+
+    # narrator "В ее глазах плескался неподдельный стыд и паника. Она выглядела как загнанный, измученный ребенок, который только что вырвался из рук чудовища."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:218
+translate english_us chapter4_5_akari_arrest_a7ac97bc:
+
+    # lily "Пожалуйста, Неон... Давай зайдем в какое-нибудь тихое кафе по дороге. Буквально на двадцать минут."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:218
+translate english_us chapter4_5_akari_arrest_10283b67:
+
+    # lily "Я умою лицо, выпью горячего чая, переведу дыхание..."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:218
+translate english_us chapter4_5_akari_arrest_f1e3b7f8:
+
+    # lily "Тут неподалеку есть уютная кофейня. Мы просто посидим немного, а потом пойдем к папе. Обещаю!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:226
+translate english_us chapter4_5_akari_arrest_fbefb616:
+
+    # neon "{=thoughts}Она на грани нервного срыва. Если привести ее к Аргону в таком состоянии, они оба снова сломаются.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:228
+translate english_us chapter4_5_akari_arrest_a7b8041a:
+
+    # neon "Хорошо. Двадцать минут на чай. И потом сразу в мастерскую."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/8-busted-enemy.rpy:230
+translate english_us chapter4_5_akari_arrest_0592ae82:
+
+    # narrator "Она с облегчением выдохнула и крепко сжала мою ладонь. В ее взгляде блеснула слабая, благодарная улыбка."
+    narrator ""
+

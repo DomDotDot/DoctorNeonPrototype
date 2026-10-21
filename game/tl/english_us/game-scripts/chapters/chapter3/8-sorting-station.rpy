@@ -486,3 +486,479 @@ translate english_us chapter3_revelation_55d27b17:
     # argon "Сейчас — идем. Я знаю место, где мы можем перевести дух."
     argon "Right now—we go. I know a place where we can catch our breath."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:3
+translate english_us chapter3_the_heist_start_6b05f82a:
+
+    # narrator "Мы двигались тенями сквозь лабиринт ржавых составов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:3
+translate english_us chapter3_the_heist_start_be77eda8:
+
+    # narrator "Аргон ориентировался безошибочно: он знал каждый поворот стрелок, обходя контрольные вышки по слепым зонам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:3
+translate english_us chapter3_the_heist_start_ea428443:
+
+    # narrator "Рико с боевиками скользили следом, сжимая автоматы побелевшими пальцами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:3
+translate english_us chapter3_the_heist_start_19ef322b:
+
+    # narrator "Наконец Аргон присел за колесной тележкой рефрижератора и указал на длинный тупиковый товарный вагон с глухими стенками."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:13
+translate english_us chapter3_the_heist_start_8f50afa6:
+
+    # argon "Семь-три-четыре. Наш."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:15
+translate english_us chapter3_the_heist_start_87b8c98f:
+
+    # rico "Двое на стрелку, стерегите фланги. Остальные — к створке. Эксперты, внутрь."
+    rico ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:17
+translate english_us chapter3_the_heist_start_7e80d0aa:
+
+    # narrator "Один из боевиков зажал ломом навесной замок. Сухой хруст металла — и тяжелая стальная дверь со стоном отъехала в сторону, обдав нас запахом сухого мела, пыли и резкой органической щелочи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:23
+translate english_us chapter3_the_heist_start_2a66ce57:
+
+    # narrator "Луч тактического фонаря Рико вспорол темноту вагона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:23
+translate english_us chapter3_the_heist_start_11597237:
+
+    # narrator "Вдоль стен рядами стояли опломбированные контейнеры из оцинкованной жести с заводской маркировкой восточных химкомбинатов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:29
+translate english_us chapter3_the_heist_start_dbb7e3f1:
+
+    # rico "Давай, 'доктор', твой выход. У тебя четыре минуты."
+    rico ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:31
+translate english_us chapter3_the_heist_start_2889f749:
+
+    # narrator "Я опустила кейс на деревянный настил и защелкнула тумблер портативного инфракрасного спектрометра. Пальцы двигались четко, подчиняясь въевшимся рефлексам лабораторных лет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:31
+translate english_us chapter3_the_heist_start_5f065f41:
+
+    # narrator "Боевик сорвал свинцовую пломбу с ближайшего бака. Внутри лежали многослойные полиэтиленовые мешки с белым кристаллическим порошком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:31
+translate english_us chapter3_the_heist_start_c6b41d8f:
+
+    # narrator "Я набрала пробу стеклянным шпателем, растворила крупицы в контрольном буфере и поместила кювету в измерительную камеру прибора."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:39
+translate english_us chapter3_the_heist_start_90341859:
+
+    # neon "Не светите в оптический блок. Отойдите на шаг."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:41
+translate english_us chapter3_the_heist_start_0f19747c:
+
+    # narrator "На монохромном экране побежали пики спектрограммы: полосы поглощения аминогрупп и ароматических колец."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:41
+translate english_us chapter3_the_heist_start_6158a316:
+
+    # narrator "Чистота основного вещества превышала девяносто один процент. Концентрированный полуфабрикат нейротоксина колоссальной убойной силы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:47
+translate english_us chapter3_the_heist_start_83663c59:
+
+    # neon "Сырье чистое. Примеси балластных солей в пределах нормы. Товар соответствует заявке."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:49
+translate english_us chapter3_the_heist_start_b9e9c4ad:
+
+    # rico "Отлично. Хватай поддоны! Пошевеливайтесь!"
+    rico ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:51
+translate english_us chapter3_the_heist_start_c8a041fb:
+
+    # narrator "Боевики начали торопливо вытаскивать тяжелые ящики к распахнутой двери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:51
+translate english_us chapter3_the_heist_start_e457e695:
+
+    # narrator "Мы с Аргоном отошли к противоположной стене вагона. Свою задачу мы выполнили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:51
+translate english_us chapter3_the_heist_start_344a50f7:
+
+    # narrator "И в этот миг темнота снаружи взорвалась ослепительно-белым огнем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:62
+translate english_us chapter3_the_heist_start_331c43a9:
+
+    # narrator "Мощные прожекторы на вышках вспыхнули синхронно, заливая пути безжалостным светом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:62
+translate english_us chapter3_the_heist_start_3fccf049:
+
+    # narrator "По путям хлестнули частые автоматные очереди. Пули с оглушительным звоном застучали по обшивке вагона, выбивая фонтаны искр из стальных ребер."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:68
+translate english_us chapter3_the_heist_start_f65f0403:
+
+    # "Командир Охраны" "Охрана станции! Оружие на грунт! Мордой в щебень!"
+    "Командир Охраны" ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:70
+translate english_us chapter3_the_heist_start_0dfe8c18:
+
+    # rico "Засада! Сваливаем по путям!"
+    rico ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:72
+translate english_us chapter3_the_heist_start_92388a8a:
+
+    # narrator "Рико и его бойцы мгновенно побросали ящики. Они бросились врассыпную под колеса соседних составов, растворяясь в ночи и даже не оглянувшись на нас."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:72
+translate english_us chapter3_the_heist_start_e12750ff:
+
+    # narrator "Нас оставили в роли идеальных мишеней, запертых в стальной коробке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:78
+translate english_us chapter3_the_heist_start_04c38154:
+
+    # neon "Они срежут нас прямо здесь! Надо уходить!"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:80
+translate english_us chapter3_the_heist_start_d5aaa1b6:
+
+    # narrator "Аргон опустился на колено, укрываясь за мешками, и указал на аварийную створку с противоположной стороны вагона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:82
+translate english_us chapter3_the_heist_start_783e58c3:
+
+    # argon "На ту сторону! Толкай!"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:84
+translate english_us chapter3_the_heist_start_5611ce6e:
+
+    # narrator "Мы налегли на ручку вдвоем. Створка сдвинулась, и мы выскользнули в тень между путями, прямо на мерзлый гравий."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:90
+translate english_us chapter3_the_heist_start_d8c773de:
+
+    # narrator "Мы бежали вдоль путей, петляя между платформами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:90
+translate english_us chapter3_the_heist_start_cd9f7a91:
+
+    # narrator "Сзади гремели выстрелы, по гравию метались конусы поисковых прожекторов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:90
+translate english_us chapter3_the_heist_start_beb791cf:
+
+    # narrator "Аргон бежал тяжело, грузно. Годы добровольного заточения давали о себе знать: его дыхание сбилось на хриплый свист, шаг становился неровным."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:90
+translate english_us chapter3_the_heist_start_bb56337e:
+
+    # narrator "Внезапно его нога зацепилась за торчащую стрелочную тягу. Он споткнулся и со всего размаха рухнул на рельсы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:102
+translate english_us chapter3_the_heist_start_1ac5d468:
+
+    # narrator "Лучи фонарей преследователей заплясали по шпалам совсем рядом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:104
+translate english_us chapter3_the_heist_start_815e1b5e:
+
+    # argon "Уходи, Неон! Беги к складам! Брось меня!"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:106
+translate english_us chapter3_the_heist_start_5746be59:
+
+    # narrator "Я замерла посреди путей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:106
+translate english_us chapter3_the_heist_start_2f530337:
+
+    # narrator "Инстинкт требовал спасать собственную жизнь. Но перед глазами вспыхнул темнеющий коридор Гелиоса, спины убегающих охранников и Алекс, оставшаяся за гермодверью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:106
+translate english_us chapter3_the_heist_start_0152b2a1:
+
+    # narrator "Я не могла допустить этого снова. Предать и сбежать значило сломаться навсегда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:106
+translate english_us chapter3_the_heist_start_17ea8da3:
+
+    # narrator "Я развернулась и бросилась назад к Аргону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:116
+translate english_us chapter3_the_heist_start_e9334751:
+
+    # narrator "Я схватила его под мышки, пытаясь поднять на ноги. Бесполезно: два центнера веса, подвернутая лодыжка подламывалась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:116
+translate english_us chapter3_the_heist_start_b92c68b0:
+
+    # narrator "Фонари охраны вынырнули из-за цистерны в тридцати метрах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:116
+translate english_us chapter3_the_heist_start_d46a9b6e:
+
+    # narrator "В груди закипела бешеная, глухая ярость на эту бесконечную травлю. Внутри что-то щелкнуло — глубоко, на уровне костей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:129
+translate english_us chapter3_the_heist_start_27f96797:
+
+    # narrator "Звуки погони словно отдалились сквозь толщу воды. По мышцам предплечий прокатилась ледяная, гудящая волна аномального импульса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:129
+translate english_us chapter3_the_heist_start_186026c2:
+
+    # narrator "Одним слитным, мощным движением я вздернула Аргона с насыпи. Его массивное тело взлетело вверх легко, точно невесомая кукла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:135
+translate english_us chapter3_the_heist_start_c16e0747:
+
+    # narrator "Подхватив его под плечо, я потащила его вперед, свернув на стрелку тупика."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:135
+translate english_us chapter3_the_heist_start_5ada9070:
+
+    # narrator "Но впереди поперек колеи стояла сгоревшая цистерна. Проход был завален."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:144
+translate english_us chapter3_the_heist_start_eba279b9:
+
+    # narrator "Тупик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:148
+translate english_us chapter3_the_heist_start_0888404b:
+
+    # narrator "Аномальная сила испарилась так же внезапно, как и пришла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:148
+translate english_us chapter3_the_heist_start_ba2714c7:
+
+    # narrator "Мышцы сковало слабостью, колени подогнулись, и я осела на щебень, судорожно удерживая рукав Аргона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:148
+translate english_us chapter3_the_heist_start_f2646f54:
+
+    # narrator "Из тумана вышли шестеро вооруженных бойцов военизированной охраны станции с автоматами на изготовку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:156
+translate english_us chapter3_the_heist_start_c08eb779:
+
+    # "Капитан Охраны" "Руки на затылок! На колени, твари, стреляю без предупреждения!"
+    "Капитан Охраны" ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:158
+translate english_us chapter3_the_heist_start_c99a009b:
+
+    # narrator "Слепящие лучи подствольных фонарей уперлись прямо мне в лицо. Это был финал."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:158
+translate english_us chapter3_the_heist_start_63a35407:
+
+    # narrator "Я взглянула на Аргона. На его обветренном лице не было ужаса — лишь глубокая, сосредоточенная тишина."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:168
+translate english_us chapter3_the_heist_start_72f65959:
+
+    # argon "Девчонка... ты вернулась за мной под пули. Ради чужого калеки..."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:172
+translate english_us chapter3_the_heist_start_3eb9d149:
+
+    # narrator "Аргон медленно высвободил руку из моих пальцев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:172
+translate english_us chapter3_the_heist_start_dd479427:
+
+    # narrator "Он выпрямился во весь свой двухметровый рост, сделав шаг вперед — прямо под стволы оружия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:172
+translate english_us chapter3_the_heist_start_22e4bb08:
+
+    # narrator "Его серые глаза потемнели, налившись густым, почти черным магнетизмом. Когда он заговорил, его голос зазвучал с низкой, давящей вибрацией, заставившей зазвенеть рельсы под подошвами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:180
+translate english_us chapter3_the_heist_start_4617c94a:
+
+    # argon "Вы нас не видите."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:184
+translate english_us chapter3_the_heist_start_911a135a:
+
+    # narrator "Капитан охраны вздрогнул. Его палец соскользнул со спускового крючка, взгляд расфокусировался."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:186
+translate english_us chapter3_the_heist_start_9331cbd5:
+
+    # "Капитан Охраны" "Что за...?"
+    "Капитан Охраны" ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:188
+translate english_us chapter3_the_heist_start_23f87615:
+
+    # argon "Это не те, за кем вы гнались."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:188
+translate english_us chapter3_the_heist_start_32364083:
+
+    # argon "Нарушители в черных куртках ушли в сторону северного пакгауза."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:188
+translate english_us chapter3_the_heist_start_6d089642:
+
+    # argon "Вы видели их своими глазами."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:188
+translate english_us chapter3_the_heist_start_34471e15:
+
+    # argon "Вы обязаны перехватить их немедленно. Это ваш прямой приказ."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:198
+translate english_us chapter3_the_heist_start_4108486e:
+
+    # narrator "В осанке командира и конвоиров что-то надломилось. Напряжение мгновенно смыло с их лиц, сменившись деревянной, сомнамбулической пустотой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:198
+translate english_us chapter3_the_heist_start_4f5babe0:
+
+    # narrator "Они опустили оружие к бедру."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:204
+translate english_us chapter3_the_heist_start_18ee5e7b:
+
+    # "Капитан Охраны" "Это не они..."
+    "Капитан Охраны" ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:204
+translate english_us chapter3_the_heist_start_ec368369:
+
+    # "Капитан Охраны" "Группа ушла к северным пакгаузам! Всем за мной! Перехватить на путях!"
+    "Капитан Охраны" ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:212
+translate english_us chapter3_the_heist_start_bd0f6ec1:
+
+    # narrator "Охранники развернулись и бегом промчались мимо нас буквально в метре, устремляясь в глубь станции, словно на нашем месте стояла пустая ржавая бочка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:212
+translate english_us chapter3_the_heist_start_2f535274:
+
+    # narrator "Шум сапог и выкрики растаяли в тумане."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:212
+translate english_us chapter3_the_heist_start_e25c0d63:
+
+    # narrator "Мы остались одни в мертвом безмолвии путей. Я смотрела на Аргона в ошеломленном шоке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:212
+translate english_us chapter3_the_heist_start_f9ba85a7:
+
+    # narrator "Он тяжело покачнулся, опершись рукой о борт вагона. По его вискам катился крупный пот: внушение стоило ему чудовищного истощения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:222
+translate english_us chapter3_the_heist_start_089ac4d0:
+
+    # neon "Что... что ты с ними сделал? Как?!"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:224
+translate english_us chapter3_the_heist_start_712e506a:
+
+    # narrator "Он перевел дыхание и протянул мне шершавую ладонь, помогая подняться."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:226
+translate english_us chapter3_the_heist_start_69b96c97:
+
+    # argon "Потом..."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:226
+translate english_us chapter3_the_heist_start_5b5f13b8:
+
+    # argon "Все расспросы потом."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/8-sorting-station.rpy:226
+translate english_us chapter3_the_heist_start_96acacc9:
+
+    # argon "Уходим, пока морок держит их головы. Я знаю дом, где можно перевести дух."
+    argon ""
+

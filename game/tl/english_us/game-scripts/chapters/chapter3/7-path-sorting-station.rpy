@@ -324,3 +324,245 @@ translate english_us ch3_path_to_station_3d2ba130:
     # narrator "Может быть, он видел во мне не просто 'упорство', а отголосок чего-то, что он сам давно потерял. Надежды? Или, может, кого-то, кто тоже так отчаянно боролся..."
     narrator "Maybe he saw in me not just 'persistence,' but an echo of something he himself had long since lost. Hope? Or maybe someone who had also fought so desperately..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:5
+translate english_us ch3_path_to_station_064113c3:
+
+    # narrator "Мы покинули территорию главного комбината глубокой промозглой ночью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:5
+translate english_us ch3_path_to_station_3fb68bd9:
+
+    # narrator "Небо затянуло плотными слоистыми облаками, сквозь которые не просачивался даже слабый отблеск звезд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:5
+translate english_us ch3_path_to_station_a334133d:
+
+    # narrator "Редкие фонари на мачтах выхватывали из темноты щербатый асфальт и искореженные фермы перегрузочных эстакад."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:5
+translate english_us ch3_path_to_station_4f4f9ed9:
+
+    # narrator "Вдоль шпал стелился Пожирающий Туман. Ночью он остывал, оседая на гравий тяжелой влажной дымкой, пахнущей прелым железом и сернистым шлаком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:5
+translate english_us ch3_path_to_station_54ef0020:
+
+    # narrator "Рико шел во главе отряда, держа карабин на изготовку. Боевики растянулись полукругом по флангам, зажав нас с Художником в середину строя."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:5
+translate english_us ch3_path_to_station_9a1f5766:
+
+    # narrator "Мы двигались к путям молча, стараясь не звенеть антабками и не сбивать щебень под подошвами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:19
+translate english_us ch3_path_to_station_86397d38:
+
+    # neon "{=whisper}Почему ты всё-таки пошел со мной? {=whisper}Сделка по спирту сорвалась, ты мне ничем не обязан."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:24
+translate english_us ch3_path_to_station_5faa52ee:
+
+    # argon "{=whisper}Сорвалась? Нет. Она отложена."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:28
+translate english_us ch3_path_to_station_7382b296:
+
+    # narrator "Он тихо шагал рядом, не поворачивая головы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:30
+translate english_us ch3_path_to_station_64d240db:
+
+    # argon "Считай, что аванс выдан."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:30
+translate english_us ch3_path_to_station_8b2dd73a:
+
+    # argon "Когда выберемся из этой мясорубки... если выберемся... долг придется вернуть. Чистый лабораторный этанол. Без обмана."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:36
+translate english_us ch3_path_to_station_8661665b:
+
+    # neon "{=whisper}Дело ведь не только в спирте. Зачем тебе рисковать шеей ради чужой девчонки?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:38
+translate english_us ch3_path_to_station_4197b245:
+
+    # argon "...Ты не сбежала под койку, когда я послал тебя к черту. Ты пошла по цехам и достала то, что нужно."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:38
+translate english_us ch3_path_to_station_16d236f5:
+
+    # argon "В тебе есть злость. Упрямство, которое давно вымерло в этих проклятых низинах."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:38
+translate english_us ch3_path_to_station_2053c760:
+
+    # argon "А теперь молчи и береги дыхание. Впереди фургон."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:48
+translate english_us ch3_path_to_station_94ef5c74:
+
+    # narrator "У тупиковых ворот нас втолкнули в кузов потрепанного фургона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:48
+translate english_us ch3_path_to_station_f5800a85:
+
+    # narrator "Машина тронулась без включенных фар, медленно переваливаясь через разбитые стрелочные переводы служебной ветки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:48
+translate english_us ch3_path_to_station_2c8f3f7b:
+
+    # narrator "В темноте кузова едва угадывались очертания инструментальных ящиков."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:59
+translate english_us ch3_path_to_station_d131a178:
+
+    # neon "Я назвала тебе свое имя и откуда бегу. А ты так и не представился."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:61
+translate english_us ch3_path_to_station_9883ca4b:
+
+    # argon "...Имена здесь ничего не стоят."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:63
+translate english_us ch3_path_to_station_fa3ff369:
+
+    # neon "Мы идем на дело, где в нас будут стрелять. Назовись."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:65
+translate english_us ch3_path_to_station_d0edc02e:
+
+    # argon "...Аргон. Зови меня Аргон."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:71
+translate english_us ch3_path_to_station_d534fef3:
+
+    # argon "Думаешь, в твоем Гелиосе признают правоту, если ты предоставишь доказательства кражи?"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:73
+translate english_us ch3_path_to_station_ad4bcf42:
+
+    # neon shy "Маркус Вютрих — вор и карьерист. Он подделал подписи на отчетах..."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:75
+translate english_us ch3_path_to_station_69396776:
+
+    # argon "Грубенманну нужна власть и отчеты для инвесторов."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:75
+translate english_us ch3_path_to_station_b20b483e:
+
+    # argon "Директорату нужна тишина и гранты."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:75
+translate english_us ch3_path_to_station_9599327a:
+
+    # argon "Ты для них — вышедшая из строя деталь. Сломанные датчики выбрасывают на свалку, а не чинят."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:75
+translate english_us ch3_path_to_station_05f91918:
+
+    # argon "Забудь о справедливости, ученая. В мире есть только баланс силы и чужой выгоды."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:85
+translate english_us ch3_path_to_station_db7a968f:
+
+    # narrator "Его слова звучали трезво и беспощадно, срывая последние наивные иллюзии академического воспитания."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:90
+translate english_us ch3_path_to_station_31a40ba2:
+
+    # rico "Глуши мотор. Приехали."
+    rico ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:92
+translate english_us ch3_path_to_station_30324f13:
+
+    # narrator "Фургон мягко осел на тормозах. Мы высадились на краю циклопической сортировочной станции."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:94
+translate english_us ch3_path_to_station_b16098b8:
+
+    # rico "Выгружаемся. Быстро, без фонарей. Аргон, веди группу к тупику."
+    rico ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:98
+translate english_us ch3_path_to_station_f6e0c255:
+
+    # narrator "Вокруг раскинулся лабиринт запасных путей: бесконечные эшелоны цистерн, товарных платформ и ослепших семафоров."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:98
+translate english_us ch3_path_to_station_f3567f11:
+
+    # narrator "Желтоватая дымка висела над рельсами, смазывая очертания дальних прожекторных вышек."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:98
+translate english_us ch3_path_to_station_a3ee67e8:
+
+    # narrator "Аргон двигался впереди уверенной, тяжелой походкой, используя тени стоящих составов и безошибочно обходя открытые стрелочные горловины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:106
+translate english_us ch3_path_to_station_6dfe0937:
+
+    # neon "{=whisper}Ты жил здесь до того, как город умер?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:108
+translate english_us ch3_path_to_station_94a570fa:
+
+    # narrator "Аргон на мгновение замер у колесной пары полувагона. В полумраке его лицо казалось изрезанным глубокими траншеями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:110
+translate english_us ch3_path_to_station_06832ec1:
+
+    # argon "Когда годами наблюдаешь, как вокруг гниет металл и распадаются люди..."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:110
+translate english_us ch3_path_to_station_5e89ad42:
+
+    # argon "Начинаешь ценить тех, кто еще пытается огрызаться. Даже если эта драка обречена."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/7-path-sorting-station.rpy:110
+translate english_us ch3_path_to_station_c0342f17:
+
+    # argon "Тихо. Вагон в следующем ряду."
+    argon ""
+

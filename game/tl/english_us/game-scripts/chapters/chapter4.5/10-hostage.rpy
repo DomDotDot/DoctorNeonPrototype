@@ -1119,3 +1119,881 @@ translate english_us chapter4_5_awakening_and_finale_45bf63cb:
     # seraphina "Я... я помогу тебе!"
     seraphina "I... I'll help you!"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:8
+translate english_us chapter4_5_awakening_and_finale_9f01f4dc:
+
+    # narrator "Я открыла глаза от удушья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:8
+translate english_us chapter4_5_awakening_and_finale_cf8f4240:
+
+    # narrator "В горло словно плеснули горячей смолы. Ноздри забило гарью, перед глазами плыл багровый чад."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:8
+translate english_us chapter4_5_awakening_and_finale_80b3eb40:
+
+    # narrator "Студия Аргона полыхала."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:8
+translate english_us chapter4_5_awakening_and_finale_0cc8abfb:
+
+    # narrator "Огонь уже жадно чавкал сухой звукоизоляцией, облизывал рассохшиеся стропила под потолком. Дверной проем еще чернел проходом наружу, но это ненадолго — балки над ним уже обуглились."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:20
+translate english_us chapter4_5_awakening_and_finale_0890a0a6:
+
+    # narrator "Я перевалилась на четвереньки, судорожно кашляя. Взгляд метнулся в дальний угол у звукорежиссерского пульта."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:20
+translate english_us chapter4_5_awakening_and_finale_6266a982:
+
+    # narrator "Там, прижавшись плечом к плечу, неподвижно сидели Эми и Кэрол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:20
+translate english_us chapter4_5_awakening_and_finale_5091504c:
+
+    # narrator "Лица перемазаны сажей, по щекам бежали грязные дорожки от слез. Их колотило крупной дрожью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:20
+translate english_us chapter4_5_awakening_and_finale_97126356:
+
+    # narrator "Но они не пытались встать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:30
+translate english_us chapter4_5_awakening_and_finale_49763e31:
+
+    # neon "{=thoughts}Почему они не бегут? Огонь в трех шагах от их подолов. Любой нормальный человек орал бы, крушил стекла стульями, рвался наружу."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:30
+translate english_us chapter4_5_awakening_and_finale_902e2f6f:
+
+    # neon "{=thoughts}А они просто... сидят и смотрят в стену."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:36
+translate english_us chapter4_5_awakening_and_finale_593c4bdc:
+
+    # narrator "Я пригляделась к их остекленевшим глазам. В них не было страха смерти. Только глухой, стеклянный паралич."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:36
+translate english_us chapter4_5_awakening_and_finale_c457f432:
+
+    # narrator "Я вспомнила, как эти пальцы впивались мне в плечи, прижимая к полу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:36
+translate english_us chapter4_5_awakening_and_finale_0f44396b:
+
+    # narrator "Вспомнила их заученные, сладкие улыбки в кофейне у бульвара, когда они переглядывались за моей спиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:44
+translate english_us chapter4_5_awakening_and_finale_c3feb583:
+
+    # neon "{=thoughts}Я ведь почти поверила, что они обычные девчонки из престижного кампуса. Взбалмошные, завистливые, шумные."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:44
+translate english_us chapter4_5_awakening_and_finale_028327ed:
+
+    # neon "{=thoughts}Но тех первокурсниц в синих юбках больше не существует."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:44
+translate english_us chapter4_5_awakening_and_finale_0c0b4307:
+
+    # neon "{=thoughts}Здесь сидят лишь полые сосуды. Куклы с перерезанными нитками."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:44
+translate english_us chapter4_5_awakening_and_finale_ea6c4c4a:
+
+    # neon "{=thoughts}Они замерли в ожидании импульса. Голос Нари оборвался в резонансе — и марионетки забыли, как дышать без чужой указки."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:56
+translate english_us chapter4_5_awakening_and_finale_31f2d694:
+
+    # narrator "Я перевела взгляд на продавленный матрас. Посреди треска лопающейся обивки спала Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:56
+translate english_us chapter4_5_awakening_and_finale_e5fa83d6:
+
+    # narrator "Она свернулась калачиком, подложив ладони под щеку, точно ребенок в постели после долгой прогулки. Лицо спокойное, дыхание ровное."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:56
+translate english_us chapter4_5_awakening_and_finale_7f34513d:
+
+    # narrator "Существо, которое только что пыталось выскоблить мою душу изнутри, выглядело беззащитнее полевого цветка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:65
+translate english_us chapter4_5_awakening_and_finale_bbfba3e5:
+
+    # neon "{=thoughts}Я должна... вытащить её... их всех...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:68
+translate english_us chapter4_5_awakening_and_finale_846d8574:
+
+    # narrator "Но холодный осадок от недавнего вторжения встал поперек горла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:68
+translate english_us chapter4_5_awakening_and_finale_3178934a:
+
+    # narrator "Липкий холод чужой воли. Ощущение черного болота, пытавшегося залить мои мысли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:73
+translate english_us chapter4_5_awakening_and_finale_e706d2b4:
+
+    # neon "{=thoughts}Нет. Я физически не дотащу троих."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:73
+translate english_us chapter4_5_awakening_and_finale_f94b46d9:
+
+    # neon "{=thoughts}Я сама едва держу равновесие, кровь стучит в висках от остатков яда."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:73
+translate english_us chapter4_5_awakening_and_finale_5c41f493:
+
+    # neon "{=thoughts}Если я трону Эми и Кэрол... если Лили очнется до того, как мы выберемся..."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:73
+translate english_us chapter4_5_awakening_and_finale_808a75ad:
+
+    # neon "{=thoughts}Один щелчок чужой воли — и эти куклы вцепятся мне в горло прямо в горящем коридоре. Они не выпустят меня, даже если сгорят заживо."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:83
+translate english_us chapter4_5_awakening_and_finale_c010b71b:
+
+    # narrator "Я посмотрела на Кэрол еще раз. Зрачки расширены, веки даже не щурятся от летящих искр."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:83
+translate english_us chapter4_5_awakening_and_finale_c2e0c840:
+
+    # narrator "Они уже за чертой. Чужая зависть выжгла их изнутри задолго до этого пожара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:89
+translate english_us chapter4_5_awakening_and_finale_24e285f9:
+
+    # neon "{=thoughts}Простите. Но спасать здесь... некого."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:93
+translate english_us chapter4_5_awakening_and_finale_9dc14e31:
+
+    # narrator "Опираясь о стену, я заставила себя подняться. Тело ныло, во рту стоял металлический привкус."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:93
+translate english_us chapter4_5_awakening_and_finale_716ce7a7:
+
+    # narrator "Я отвела глаза от матраса и пошаркала к дверному проему, прикрывая лицо опаленным рукавом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:103
+translate english_us chapter4_5_awakening_and_finale_e30da4b9:
+
+    # narrator "В лицо ударил хлесткий ледяной ливень. Капли смешивались с пеплом, стекая по шее черными ручьями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:103
+translate english_us chapter4_5_awakening_and_finale_ab1fda79:
+
+    # narrator "Я ухватилась за мокрые металлические перила, пытаясь наполнить легкие воздухом. В глазах рябило от кислородного голодания."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:103
+translate english_us chapter4_5_awakening_and_finale_882271b8:
+
+    # narrator "Гул резонанса еще отзывался в ушах тонким звоном, точно лопнувшая струна."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:113
+translate english_us chapter4_5_awakening_and_finale_b06af9a9:
+
+    # narrator "Я заставила себя выпрямиться."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:113
+translate english_us chapter4_5_awakening_and_finale_facd0f87:
+
+    # narrator "Стена дождя смазывала очертания переулка в рваные мазки грязи и неона. Желтые конусы фонарей дрожали в лужах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:121
+translate english_us chapter4_5_awakening_and_finale_9131d5dc:
+
+    # narrator "В десяти шагах, в перекрестье уличных лучей, стояла фигура."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:121
+translate english_us chapter4_5_awakening_and_finale_bf190f89:
+
+    # narrator "Неподвижная. Окутанная белесым паром от асфальта."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:121
+translate english_us chapter4_5_awakening_and_finale_78b9ede7:
+
+    # narrator "На мгновение, сквозь пелену чада и ливня, мне померещилась тень из котлована — хищный оскал, багровые угли в глазницах, жадный звериный прищур."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:132
+translate english_us chapter4_5_awakening_and_finale_c67a2934:
+
+    # narrator "Я с силой провела мокрым рукавом по лицу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:132
+translate english_us chapter4_5_awakening_and_finale_e9c9aacd:
+
+    # narrator "Морок схлынул. Под фонарем стояла Серафина."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:132
+translate english_us chapter4_5_awakening_and_finale_02482fa4:
+
+    # narrator "Белое кружево платья облепило колени, светлые волосы потемнели от воды и висели тяжелыми плетями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:132
+translate english_us chapter4_5_awakening_and_finale_a9539bca:
+
+    # narrator "Она мелко вздрагивала. Голубые глаза округлились от паники, брови дрожали. Образцовая фарфоровая куколка, застигнутая бурей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:142
+translate english_us chapter4_5_awakening_and_finale_1a4ca3a7:
+
+    # seraphina "Боже, ты жива?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:142
+translate english_us chapter4_5_awakening_and_finale_a01b2fa9:
+
+    # seraphina "Там... там грохнуло внутри! Я увидела дым и бросилась сюда!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:150
+translate english_us chapter4_5_awakening_and_finale_af39a6bd:
+
+    # narrator "Она шагнула ко мне по лужам, пряча одну руку за подолом платья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:152
+translate english_us chapter4_5_awakening_and_finale_20d39958:
+
+    # seraphina "Неон, обопрись на меня!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:152
+translate english_us chapter4_5_awakening_and_finale_39a90e17:
+
+    # seraphina "Ты едва дышишь!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:152
+translate english_us chapter4_5_awakening_and_finale_7132a17d:
+
+    # seraphina "Я доведу тебя до скорой!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:160
+translate english_us chapter4_5_awakening_and_finale_d477bbf3:
+
+    # narrator "Она перешла на бег, поднимая сапожками фонтанчики брызг."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:162
+translate english_us chapter4_5_awakening_and_finale_e2384d53:
+
+    # neon "Стой на месте."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:164
+translate english_us chapter4_5_awakening_and_finale_47a76885:
+
+    # narrator "Серафина замерла как вкопанная. На ее лице застыло испуганное недоумение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:166
+translate english_us chapter4_5_awakening_and_finale_4c9539da:
+
+    # neon "Я знаю, кто ты."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:166
+translate english_us chapter4_5_awakening_and_finale_dd6eb58e:
+
+    # neon "Хватит ломать комедию. Хватит врать."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:166
+translate english_us chapter4_5_awakening_and_finale_0c7eedef:
+
+    # neon "От твоей лжи меня тошнит сильнее, чем от дыма."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:174
+translate english_us chapter4_5_awakening_and_finale_6cda3803:
+
+    # seraphina "Н-неон, о чем ты говоришь?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:174
+translate english_us chapter4_5_awakening_and_finale_2b6d0dc2:
+
+    # seraphina "У тебя шок! Ты наглоталась угара!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:174
+translate english_us chapter4_5_awakening_and_finale_165ccdea:
+
+    # seraphina "Посмотри на себя — ты вся в саже!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:192
+translate english_us chapter4_5_awakening_and_finale_b0af1de2:
+
+    # narrator "Она вновь двинулась вперед, вытянув раскрытую ладонь, словно успокаивая укушенную собаку. Взгляд лучился приторной тревогой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:192
+translate english_us chapter4_5_awakening_and_finale_a895c77b:
+
+    # narrator "Ноги подкашивались, в легких клокотал кашель. Каждый вдох давался с болью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:192
+translate english_us chapter4_5_awakening_and_finale_f17da178:
+
+    # narrator "Но я впилась ногтями в ладони, заставляя себя стоять прямо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:200
+translate english_us chapter4_5_awakening_and_finale_4cf29ee2:
+
+    # seraphina "Не глупи! Тебе нужен врач, немедленно! Я помогу, слышишь?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:202
+translate english_us chapter4_5_awakening_and_finale_16261089:
+
+    # narrator "Ее шаг внезапно сорвался в низкий, хищный выпад."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:202
+translate english_us chapter4_5_awakening_and_finale_ebd8eb16:
+
+    # narrator "Притворная суета испарилась — осталась только пружина, распрямляющаяся для удара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:202
+translate english_us chapter4_5_awakening_and_finale_9036a4a1:
+
+    # narrator "Из-за спины блеснула граненая сталь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:212
+translate english_us chapter4_5_awakening_and_finale_e198e4cb:
+
+    # narrator "В свете фонаря сверкнула длинная заколка для волос, заточенная в жало стилета."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:212
+translate english_us chapter4_5_awakening_and_finale_146345fa:
+
+    # narrator "Лицо Серафины перекосило судорогой оскала — ядовитого, торжествующего, лишенного всякого человеческого тепла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:221
+translate english_us chapter4_5_awakening_and_finale_8c4b1af0:
+
+    # narrator "Громыхнуло сухо и оглушительно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:221
+translate english_us chapter4_5_awakening_and_finale_ab46b872:
+
+    # narrator "Эхо выстрела хлестнуло по мокрым кирпичным стенам, заглушив шум ливня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:229
+translate english_us chapter4_5_awakening_and_finale_2bc0b72e:
+
+    # narrator "Серафину мотнуло в сторону. Белая ткань на бедре мгновенно потемнела от хлестнувшей струи крови."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:229
+translate english_us chapter4_5_awakening_and_finale_7341fa33:
+
+    # narrator "Она надсадно взвизгнула и рухнула в лужу, подмяв под себя подол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:229
+translate english_us chapter4_5_awakening_and_finale_5e4d189c:
+
+    # narrator "Стальная заколка со звоном отскочила от булыжников и заскользила в водосток."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:239
+translate english_us chapter4_5_awakening_and_finale_b180a889:
+
+    # narrator "Из глухой тени под аркой вышел Аргон. Вороненый ствол старого револьвера в его руке не дрожал, от дула тянулась серая струйка порохового дыма."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:241
+translate english_us chapter4_5_awakening_and_finale_0f2fad9c:
+
+    # argon "Я чуял ее след, Неон. С той самой секунды, как увел тебя со Стадиона."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:246
+translate english_us chapter4_5_awakening_and_finale_06cc1fea:
+
+    # narrator "Он встал рядом со мной, не спуская прицела с корчащейся на асфальте девушки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:248
+translate english_us chapter4_5_awakening_and_finale_111afe6e:
+
+    # argon "Ты цела? Держись."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:250
+translate english_us chapter4_5_awakening_and_finale_a321d6ca:
+
+    # narrator "Его тяжелая шершавая ладонь легла мне на плечо. Единственная твердая опора посреди этого кошмара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:252
+translate english_us chapter4_5_awakening_and_finale_64e0442e:
+
+    # argon "Не дергайся, тварь. Следующая пуля ляжет тебе между глаз. Мне терять больше нечего."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:254
+translate english_us chapter4_5_awakening_and_finale_640c94eb:
+
+    # narrator "Опираясь на расцарапанные ладони, Серафина сдавленно зашипела и приподнялась на локтях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:254
+translate english_us chapter4_5_awakening_and_finale_36aa7339:
+
+    # narrator "Белое платье промокло насквозь в грязи и крови."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:254
+translate english_us chapter4_5_awakening_and_finale_0f980252:
+
+    # narrator "Ее губы расползлись в кривой, безумной ухмылке. Капли дождя стекали по подбородку, смывая остатки румян."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:262
+translate english_us chapter4_5_awakening_and_finale_a30aa7da:
+
+    # seraphina "'Терять'?! Что ты вообще смыслишь в потерях, старая рухлядь?!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:262
+translate english_us chapter4_5_awakening_and_finale_dd42b26b:
+
+    # seraphina "Вы... самодовольные 'гении'... вы ни черта не понимаете!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:268
+translate english_us chapter4_5_awakening_and_finale_982a85fe:
+
+    # narrator "Она смотрела мимо Аргона. Ее налитые кровью зрачки впились в меня."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:268
+translate english_us chapter4_5_awakening_and_finale_73fa32cf:
+
+    # narrator "В этом взгляде клокотала та же ядовитая, выжигающая нутро горечь, которой пахло в воспоминаниях Нари у котлована."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:276
+translate english_us chapter4_5_awakening_and_finale_5504582f:
+
+    # seraphina "Каково это — вечно оставаться второй?! А?! Всю чертову жизнь!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:276
+translate english_us chapter4_5_awakening_and_finale_c64c5add:
+
+    # seraphina "Пахать до кровавых мозолей, таскать усилители, подметать этот подвал, любить до судорог... а потом появляется 'она'!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:276
+translate english_us chapter4_5_awakening_and_finale_e7c33489:
+
+    # seraphina "Покупать на свои копейки инструменты, чтобы на них сияла чужая любимица!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:276
+translate english_us chapter4_5_awakening_and_finale_2a14ca4b:
+
+    # seraphina "'Ой, Лили такая одаренная! У Лили такая искра!'"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:276
+translate english_us chapter4_5_awakening_and_finale_a8428aea:
+
+    # seraphina "И человек, ради которого ты дышала, вычеркивает тебя из памяти за один вечер! Словно тебя никогда не было! Словно ты просто коврик у входа!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:288
+translate english_us chapter4_5_awakening_and_finale_c594272f:
+
+    # seraphina "Я не стала терпеть. Я взяла свое!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:288
+translate english_us chapter4_5_awakening_and_finale_c7b2a60e:
+
+    # seraphina "Ее пальцы, ее ноты, ее голос, ее лицо! Все, что заставляло толпу открывать рты!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:288
+translate english_us chapter4_5_awakening_and_finale_6c5b879b:
+
+    # seraphina "Ха-ха-ха!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:288
+translate english_us chapter4_5_awakening_and_finale_95f85543:
+
+    # seraphina "Я сделала себя идеальной! Я стала созвездием, на которое они молятся!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:288
+translate english_us chapter4_5_awakening_and_finale_d7c351b9:
+
+    # seraphina "И всё это принадлжит мне! Мне! Мне!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:302
+translate english_us chapter4_5_awakening_and_finale_7146f4e9:
+
+    # seraphina "Пока не приперлась... ты-ы-ы!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:304
+translate english_us chapter4_5_awakening_and_finale_a103db95:
+
+    # narrator "Она ткнула в меня дрожащим пальцем. Ее ногти неестественно удлинились, заострившись в темные когти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:306
+translate english_us chapter4_5_awakening_and_finale_61be4a4e:
+
+    # seraphina "Опять то же самое!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:306
+translate english_us chapter4_5_awakening_and_finale_a4852228:
+
+    # seraphina "Ты никто! Приблудная девка без гроша за душой!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:306
+translate english_us chapter4_5_awakening_and_finale_0364b864:
+
+    # seraphina "Но внутри тебя — эта невыносимая, глухая тишина! Тот самый вакуум, который я не смогла скопировать!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:306
+translate english_us chapter4_5_awakening_and_finale_70db0d3a:
+
+    # seraphina "То, на что клюнула Лили! То, ради чего этот свихнувшийся старик закрывает тебя спиной!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:306
+translate english_us chapter4_5_awakening_and_finale_9781ad13:
+
+    # seraphina "Почему вы все проходите мимо меня?! Я ярче! Я совершеннее! Я — Королева!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:320
+translate english_us chapter4_5_awakening_and_finale_0deae070:
+
+    # seraphina "Я просто хотела забрать твою тишину... сожрать ее..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:320
+translate english_us chapter4_5_awakening_and_finale_edc64571:
+
+    # seraphina "Чтобы эта черная дыра в груди наконец заткнулась!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:320
+translate english_us chapter4_5_awakening_and_finale_3adb5c5c:
+
+    # seraphina "АГРХ!"
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:328
+translate english_us chapter4_5_awakening_and_finale_3c6fc97a:
+
+    # neon "{=whisper}Серафина... я знаю, каково это — когда твой труд крадут и стирают твое имя."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:328
+translate english_us chapter4_5_awakening_and_finale_5747256a:
+
+    # neon "{=whisper}У меня отняли всё, над чем я работала годами."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:334
+translate english_us chapter4_5_awakening_and_finale_4c006174:
+
+    # argon "Не слушай эту падаль, Неон. Она морочит тебе голову."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:336
+translate english_us chapter4_5_awakening_and_finale_eeb2ebda:
+
+    # neon "Но... разница в том... что я не стала вором в ответ, чтобы прикрыть собственную пустоту."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:336
+translate english_us chapter4_5_awakening_and_finale_90c0d198:
+
+    # neon "Ты отдала свою душу зависти. И осталась просто воровкой, дрожащей в луже."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:344
+translate english_us chapter4_5_awakening_and_finale_7e433066:
+
+    # narrator "Ее лицо дернулось, точно от пощечины. Горло свело беззвучным рычанием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:344
+translate english_us chapter4_5_awakening_and_finale_237de6dd:
+
+    # narrator "И в этот миг из дымного проема студии, спотыкаясь о порог, вывалилась фигура."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:354
+translate english_us chapter4_5_awakening_and_finale_b4b3ab6a:
+
+    # lily "Что... где мы? Нари?.. Мы ведь шли... почему все горит?.."
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:356
+translate english_us chapter4_5_awakening_and_finale_c2253f04:
+
+    # narrator "Она шаталась, прижимая ладонь к виску, глаза слезились от едкого дыма."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:356
+translate english_us chapter4_5_awakening_and_finale_b00e4716:
+
+    # narrator "Затем ее блуждающий взгляд наткнулся на распластанную Серафину, кровь на асфальте и Аргона со вскинутым стволом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:362
+translate english_us chapter4_5_awakening_and_finale_603feb97:
+
+    # lily "Серафина! О господи, Серафина!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:364
+translate english_us chapter4_5_awakening_and_finale_966db07e:
+
+    # narrator "Не помня себя, она бросилась вперед через лужи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:368
+translate english_us chapter4_5_awakening_and_finale_ea5713ea:
+
+    # narrator "Рука Аргона дрогнула. Дуло револьвера опустилось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:368
+translate english_us chapter4_5_awakening_and_finale_db742884:
+
+    # narrator "Перед ним была его дочь. Живая, из плоти и крови, бегущая под ледяным дождем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:376
+translate english_us chapter4_5_awakening_and_finale_7ac0a55b:
+
+    # lily "Серафина, ты ранена?! Кто это сделал?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:378
+translate english_us chapter4_5_awakening_and_finale_1c487669:
+
+    # argon "Лили! Назад! Отойди от нее!"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:382
+translate english_us chapter4_5_awakening_and_finale_698010ca:
+
+    # narrator "Лили вздрогнула от знакомого, хриплого крика. Медленно подняла голову на оборванного человека перед собой — и в ее глазах вспыхнул дикий ужас узнавания."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:384
+translate english_us chapter4_5_awakening_and_finale_c8f0242e:
+
+    # lily "Папа, что ты творишь?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:384
+translate english_us chapter4_5_awakening_and_finale_1c2b390f:
+
+    # lily "Она моя подруга! Зачем ты в нее стрелял?!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:392
+translate english_us chapter4_5_awakening_and_finale_eed3d47f:
+
+    # argon "Она не человек, Лили! Она паразит! Отойди от нее немедленно!"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:394
+translate english_us chapter4_5_awakening_and_finale_ee4a4496:
+
+    # narrator "Крик Аргона потонул в шуме водостока."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:394
+translate english_us chapter4_5_awakening_and_finale_a07c16eb:
+
+    # narrator "Отец смотрел на дочь с отчаянием утопающего. На долю секунды показалось, что Лили услышит."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:394
+translate english_us chapter4_5_awakening_and_finale_88fe176b:
+
+    # narrator "Но Серафина уже подняла окровавленное лицо, опершись подбородком на плечо подруги. В ее глазах вспыхнул тяжелый багровый огонь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:402
+translate english_us chapter4_5_awakening_and_finale_a7c4480a:
+
+    # seraphina "Лили. Как раз вовремя."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:404
+translate english_us chapter4_5_awakening_and_finale_47e80d1f:
+
+    # narrator "В воздухе вновь завибрировал низкий, удушливый резонанс. Ментальная удавка захлестнула шею Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:406
+translate english_us chapter4_5_awakening_and_finale_ff0773f3:
+
+    # seraphina "А теперь..."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:421
+translate english_us chapter4_5_awakening_and_finale_234460c7:
+
+    # narrator "И живой человек перестал существовать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:421
+translate english_us chapter4_5_awakening_and_finale_bbf9f765:
+
+    # narrator "Я видела, как в глазах Лили угасла последняя искра тепла. Изумрудный блеск сменился мутной, остекленевшей белизной. Паника, боль, узнавание отца — все схлынуло, словно стертое мокрой тряпкой с доски."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:421
+translate english_us chapter4_5_awakening_and_finale_32bd8ab5:
+
+    # narrator "Губы застыли в неподвижной, безразличной черте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:421
+translate english_us chapter4_5_awakening_and_finale_3134be2f:
+
+    # narrator "Движения стали пугающе выверенными, механическими. Лили поднялась на ноги с противоестественной легкостью, загораживая раненую Серафину собственным телом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:421
+translate english_us chapter4_5_awakening_and_finale_cf135a83:
+
+    # narrator "Она не моргала под хлещущим ливнем. Ни единого вздоха протеста."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:421
+translate english_us chapter4_5_awakening_and_finale_acc8d3a1:
+
+    # narrator "Живая девушка обратилась в глухую баррикаду из плоти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:437
+translate english_us chapter4_5_awakening_and_finale_741464bb:
+
+    # narrator "Серафина с глухим стоном поднялась сзади, опираясь на застывшую Лили, как на деревянную подпорку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:437
+translate english_us chapter4_5_awakening_and_finale_c40a4e8f:
+
+    # narrator "Она обвила ее шею рукой в подобии ласкового, удушающего объятия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:437
+translate english_us chapter4_5_awakening_and_finale_660894d3:
+
+    # narrator "Пальцы второй руки вжались в бледную кожу у сонной артерии. Длинные игловидные ногти хищно поблескивали кармином, пуская по девичьей шее тонкую алую струйку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:437
+translate english_us chapter4_5_awakening_and_finale_1fc16e6f:
+
+    # narrator "Лили даже не шелохнулась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:437
+translate english_us chapter4_5_awakening_and_finale_b638204c:
+
+    # narrator "Серафина оскалилась, глядя Аргону прямо в расширенные от ужаса глаза."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:449
+translate english_us chapter4_5_awakening_and_finale_6558670b:
+
+    # seraphina "Ну же, папочка. Стреляй."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:449
+translate english_us chapter4_5_awakening_and_finale_50b3f2f7:
+
+    # seraphina "Одно резкое движение — и мои когти разорвут ей горло до позвонков."
+    seraphina ""
+
+# game/game-scripts/chapters/chapter4.5/10-hostage.rpy:449
+translate english_us chapter4_5_awakening_and_finale_c7e35d26:
+
+    # seraphina "Проверим, сколько секунд она проживет без воздуха? Или вы смирно стоите и даете нам уйти?"
+    seraphina ""
+

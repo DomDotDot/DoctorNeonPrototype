@@ -544,3 +544,293 @@ translate english_us chapter2_act4_desperate_measures_94d2569a:
     # neon "Ау...? Есть кто-нибудь?"
     neon "Hello...? Is anyone there?"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:6
+translate english_us chapter2_act4_desperate_measures_bf0c44f0:
+
+    # narrator "Я заставила себя оторвать взгляд от глухой перегородки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:6
+translate english_us chapter2_act4_desperate_measures_57c02b93:
+
+    # narrator "Рукавом халата стерла со лба холодный пот и побрела прочь из полутьмы ангара к широкому проему ворот."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:6
+translate english_us chapter2_act4_desperate_measures_37ff71c7:
+
+    # narrator "Снаружи раскинулась заброшенная строительная площадка: щербатые плиты фундамента, заросшие бурьяном, груды битого силикатного кирпича и почерневшие штабеля поддонов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:6
+translate english_us chapter2_act4_desperate_measures_03f51899:
+
+    # narrator "Сырое утро медленно выбеливало горизонт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:16
+translate english_us chapter2_act4_desperate_measures_a2ac502b:
+
+    # narrator "Внезапно со стороны въездных ворот донесся глухой лязг железа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:16
+translate english_us chapter2_act4_desperate_measures_7e837107:
+
+    # narrator "Я мгновенно присела, укрывшись за ржавым барабаном старой бетономешалки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:16
+translate english_us chapter2_act4_desperate_measures_dd33dd54:
+
+    # narrator "У съезда на дорогу стоял потрепанный цельнометаллический фургон с распахнутыми задними дверями. Рядом возились двое рабочих."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:24
+translate english_us chapter2_act4_desperate_measures_fe2f02b7:
+
+    # narrator "Один — щуплый, вертлявый парень в засаленной кепке, с тонкими жилистыми запястьями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:24
+translate english_us chapter2_act4_desperate_measures_a0f87155:
+
+    # narrator "Второй — настоящий кряжистый великан под два метра ростом, в вытертой штормовке, расходившейся на широченной спине."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:24
+translate english_us chapter2_act4_desperate_measures_d980735a:
+
+    # narrator "Они волокли к фургону массивные уличные скамьи и тяжелые стулья из цельного чугунного литья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:34
+translate english_us chapter2_act4_desperate_measures_af7c51cd:
+
+    # narrator "Очередной стул они тащили вдвоем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:34
+translate english_us chapter2_act4_desperate_measures_1fcf5965:
+
+    # narrator "Щуплый хрипел от натуги, его шейные жилы вздулись темными жгутами, а подошвы кроссовок скользили по бетонной крошке. Здоровяк хмуро сопел, с перехватом сжимая литую ножку; толстый металл с глухим стуком соскользнул на пару дюймов, едва не раздробив им пальцы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:34
+translate english_us chapter2_act4_desperate_measures_22e43a33:
+
+    # narrator "Они с трудом оторвали этот кусок чугуна от земли и, тяжело выдохнув, забросили на дощатый настил кузова."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:42
+translate english_us chapter2_act4_desperate_measures_a6fcb215:
+
+    # neon "{=thoughts}Литой чугун... Не меньше семидесяти килограммов...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_83a97f9e:
+
+    # narrator "Холодный озноб пробежал по затылку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_1e6a3f19:
+
+    # narrator "Я посмотрела на свои тонкие, перепачканные гарью ладони с обломанными ногтями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_2ff16fd3:
+
+    # narrator "Несколько часов назад в лифтовом холле лаборатории..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_d7a58d0c:
+
+    # narrator "Я схватила точно такой же стул. Одним рывком вырвала анкерные болты из армированного бетона, играючи вскинула эту неподъемную громадину над головой и швырнула в Маркуса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_fac2e154:
+
+    # narrator "Вот отчего начальник безопасности орал с таким диким, животным остекленением в глазах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_4342456b:
+
+    # narrator "Ни один человек, ни один тренированный тяжелоатлет не способен вырвать стальные анкеры из плиты голыми руками. Для этого требовался гидравлический домкрат или строительная лебедка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:44
+translate english_us chapter2_act4_desperate_measures_7f86f62c:
+
+    # narrator "В моих мышцах на мгновение проснулась сокрушительная, противоестественная мощь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:60
+translate english_us chapter2_act4_desperate_measures_95988381:
+
+    # neon "{=thoughts}Но откуда? И куда она делась...? Сейчас я едва могу удержать равновесие.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:62
+translate english_us chapter2_act4_desperate_measures_f7f1efa9:
+
+    # narrator "Мышцы предплечий мелко дрожали, пальцы онемели от холода, а в теле осталась лишь звенящая, чугунная усталость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:62
+translate english_us chapter2_act4_desperate_measures_d7420e85:
+
+    # narrator "Громкий лязг захлопнувшейся створки заставил меня вздрогнуть: рабочие задвинули стул вглубь и собирались закрывать фургон."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:62
+translate english_us chapter2_act4_desperate_measures_3544b41e:
+
+    # narrator "Они уезжали."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:62
+translate english_us chapter2_act4_desperate_measures_729424d1:
+
+    # narrator "Если этот фургон скроется за поворотом, я останусь одна на промерзшем серпантине — босиком, в окровавленном халате, прямо на пути поисковых групп Бауманна."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:72
+translate english_us chapter2_act4_desperate_measures_6e2ebc43:
+
+    # narrator "Выбирать не приходилось. Я поднялась из-за бетономешалки и шагнула к машине."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:75
+translate english_us chapter2_act4_desperate_measures_76fd101b:
+
+    # neon "Подождите! Стойте, пожалуйста!"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:77
+translate english_us chapter2_act4_desperate_measures_202cfc66:
+
+    # narrator "Щуплый парень дернулся всем телом и схватился за монтировку, прислоненную к бамперу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:79
+translate english_us chapter2_act4_desperate_measures_41fc10e5:
+
+    # "Парень" "Твою мать! Гатс, гляди! Ты откуда тут взялась?!"
+    "Парень" ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:81
+translate english_us chapter2_act4_desperate_measures_1d2ebb2a:
+
+    # narrator "Великан медленно повернулся."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:81
+translate english_us chapter2_act4_desperate_measures_d0ab3e0f:
+
+    # narrator "Его массивная фигура заслонила свет, нависнув надо мной тяжелой каменной глыбой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:89
+translate english_us chapter2_act4_desperate_measures_73b52799:
+
+    # narrator "Широкое, обветренное лицо с глубокими заломами у переносицы выражало лишь глухую, привычную настороженность."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:89
+translate english_us chapter2_act4_desperate_measures_900709c2:
+
+    # narrator "Тяжелый взгляд скользнул по моим спутанным синим прядям, разбитым коленям и задержался на изорванном подоле лабораторного халата."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:95
+translate english_us chapter2_act4_desperate_measures_9e7d727a:
+
+    # guts "Ученая?"
+    guts ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:97
+translate english_us chapter2_act4_desperate_measures_fa938f2a:
+
+    # neon "Да. Работала на исследовательской станции в горах."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:99
+translate english_us chapter2_act4_desperate_measures_cac5029f:
+
+    # narrator "Я говорила тихо, стараясь сдержать стук зубов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:101
+translate english_us chapter2_act4_desperate_measures_a9124d8b:
+
+    # neon "Мне нужно выбраться из этого района. Как можно дальше на восток. Пожалуйста, возьмите с собой."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:103
+translate english_us chapter2_act4_desperate_measures_7a1f6d5e:
+
+    # guts "Хвост за тобой длинный?"
+    guts ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:105
+translate english_us chapter2_act4_desperate_measures_edff9d5f:
+
+    # narrator "Его тон был тяжелым и деловым. Ни удивления, ни лишних расспросов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:107
+translate english_us chapter2_act4_desperate_measures_6d336426:
+
+    # guts "Беглые из верхов — плохой груз на постах."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:107
+translate english_us chapter2_act4_desperate_measures_0f6d787c:
+
+    # guts "Но мозги и лишние руки в низинах кормят надежнее любого металла."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:107
+translate english_us chapter2_act4_desperate_measures_4bd66553:
+
+    # guts "Довезем, если будешь работать на нас. Условия простые: отработаешь проезд и место у печки. Детали обсудим в дороге."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:115
+translate english_us chapter2_act4_desperate_measures_74186ac4:
+
+    # narrator "Я понимала, чем пахнет подобная сделка. Но альтернативой была тюрьма."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:119
+translate english_us chapter2_act4_desperate_measures_3fb1de1a:
+
+    # neon "Я согласна. Сделаю всё, что скажете."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:121
+translate english_us chapter2_act4_desperate_measures_a3d37a13:
+
+    # guts "Тогда шевели ногами. Рико, заводи колымагу."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:123
+translate english_us chapter2_act4_desperate_measures_ea1a821f:
+
+    # narrator "Он толкнул оставшуюся створку, открывая темный проем кузова."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/5-desperate-measures.rpy:125
+translate english_us chapter2_act4_desperate_measures_ec46fd74:
+
+    # guts "Забирайся. И не высовывайся, пока колеса крутятся."
+    guts ""
+

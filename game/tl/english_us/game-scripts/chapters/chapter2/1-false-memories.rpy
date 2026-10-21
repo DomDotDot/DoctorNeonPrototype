@@ -374,3 +374,167 @@ translate english_us chapter2_act1_false_memories_d41d8cd9:
     # nvl clear
     nvl clear
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:10
+translate english_us chapter2_act1_false_memories_c3fae35a:
+
+    # narrator "В ушах стоял тонкий, сверлящий ультразвук — так лопаются барабанные перепонки от запредельного перепада давления."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:10
+translate english_us chapter2_act1_false_memories_5985b541:
+
+    # narrator "Зрение возвращалось рывками, сквозь мутную алую пленку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:10
+translate english_us chapter2_act1_false_memories_3205a365:
+
+    # narrator "Я висела вниз головой. Ремень врезался в ребра, выдавливая остатки воздуха; горячая кровь заливала правый глаз, пахла медью и ржавчиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:10
+translate english_us chapter2_act1_false_memories_26a3744d:
+
+    # narrator "Снизу, на перевернутом потолке салона, рассыпался стеклянный град. Тянуло едким чадом перегретого антифриза и паленого сцепления."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:20
+translate english_us chapter2_act1_false_memories_0044fb95:
+
+    # neon "{=whisper}Жива...?{/whisper}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:22
+translate english_us chapter2_act1_false_memories_51e48d5e:
+
+    # narrator "Я сморгнула кровь с ресниц."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:22
+translate english_us chapter2_act1_false_memories_2d42f188:
+
+    # narrator "В метре перед лобовым стеклом возвышалась бесформенная стена чужого искореженного железа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:22
+translate english_us chapter2_act1_false_memories_d75e9032:
+
+    # narrator "Тяжелый магистральный тягач смял собственный моторный отсек в гармошку. Радиатор вдавило в блок цилиндров, раму скрутило штопором, а капот ошметками облепил морду моей Мазды."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:22
+translate english_us chapter2_act1_false_memories_bb6fd168:
+
+    # narrator "Удар невероятной мощи должен был расплющить тонкостенный японский хэтчбек, превратив салон в братскую могилу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:22
+translate english_us chapter2_act1_false_memories_86319d34:
+
+    # narrator "Но кузов вокруг меня остался нерушим. Ни одна стойка крыши не прогнулась даже на полсантиметра. Металл словно окаменел, приняв удар сорока тонн и не дрогнув."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:36
+translate english_us chapter2_act1_false_memories_2b6d8ca1:
+
+    # narrator "Пальцы нащупали защелку замка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:36
+translate english_us chapter2_act1_false_memories_c3508c34:
+
+    # narrator "Сухой щелчок — тело рухнуло на осколки лобового стекла. Боль в ушибленном плече отозвалась глухим спазмом, но я заставила себя ползти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:36
+translate english_us chapter2_act1_false_memories_bdf12668:
+
+    # narrator "Вытолкнув остатки бокового окна, я вывалилась на мокрый асфальт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:47
+translate english_us chapter2_act1_false_memories_8165c532:
+
+    # narrator "Сырой альпийский ветер хлестнул по влажной коже."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:47
+translate english_us chapter2_act1_false_memories_600f76ff:
+
+    # narrator "Огромная фура перегородила полотно шоссе. Ее габариты мертво висели во тьме, из пробитого радиатора с шипением стравливался пар."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:47
+translate english_us chapter2_act1_false_memories_c10aa8d2:
+
+    # narrator "В высокой кабине никого не было видно. Ни криков, ни распахнутых дверей. Лишь капли дождя стучали по мертвому металлу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:55
+translate english_us chapter2_act1_false_memories_a430a9f9:
+
+    # neon "{=thoughts}Закон сохранения импульса... Куда делась кинетическая энергия сорока тонн?{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:57
+translate english_us chapter2_act1_false_memories_9e929c00:
+
+    # narrator "Рассудок ученого цеплялся за формулы, пытаясь защититься от нарастающего морока."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:57
+translate english_us chapter2_act1_false_memories_9cc23b08:
+
+    # narrator "Масса, ускорение, предел текучести листовой стали... Легковушка обязана была стать лепешкой. Любой расчет в лаборатории показал бы гарантированную гибель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:57
+translate english_us chapter2_act1_false_memories_ae1a9cef:
+
+    # narrator "В памяти эхом всплыли последние секунды перед катастрофой: мой сорванный крик в пустоту, мольба стереть этот день, отменить случившееся..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:65
+translate english_us chapter2_act1_false_memories_e1d25edf:
+
+    # neon "{=thoughts}Глупости. Эмоциональный срыв не искривляет пространство. Просто рама фуры лопнула по сварному шву... Должно быть рациональное объяснение.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:67
+translate english_us chapter2_act1_false_memories_11ddf7a0:
+
+    # narrator "Я лихорадочно искала оправдания физике, но руки продолжали мелко дрожать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:67
+translate english_us chapter2_act1_false_memories_f200b89e:
+
+    # narrator "Чудо не отменяло фактов: я стояла посреди чужих обломков на собственных ногах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:75
+translate english_us chapter2_act1_false_memories_f5913c3d:
+
+    # narrator "С верхних ярусов серпантина донесся нарастающий рокот форсированного мотора."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:75
+translate english_us chapter2_act1_false_memories_64cb124c:
+
+    # narrator "Двойной ксеноновый свет разрезал ночную морось на верхних витках дороги."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:75
+translate english_us chapter2_act1_false_memories_97d46590:
+
+    # narrator "Охрана Гелиоса. Они шли по моему следу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/1-false-memories.rpy:83
+translate english_us chapter2_act1_false_memories_32c5412b:
+
+    # narrator "Я перемахнула через смятый отбойник и соскользнула вниз по крутой глиняной насыпи, растворяясь в сырой тьме подступающих сосен."
+    narrator ""
+

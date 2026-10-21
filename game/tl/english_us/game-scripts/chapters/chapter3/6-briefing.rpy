@@ -198,3 +198,203 @@ translate english_us ch3_briefing_scene_71910c7c:
     # narrator "Мы шли не в логово льва. Мы шли в клетку, полную голодных гиен, и лев ждал снаружи."
     narrator "We weren't walking into the lion's den. We were walking into a cage full of hungry hyenas, and the lion was waiting outside."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:5
+translate english_us ch3_briefing_scene_d045b0f5:
+
+    # narrator "Двое подручных Гатса уже ждали нас у выхода из лаборатории. Коротко кивнув на стволы карабинов, они молча погнали нас по переходам обратно в центральный холл."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:14
+translate english_us ch3_briefing_scene_015e1010:
+
+    # narrator "Холл гудел, как потревоженное осиное гнездо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:14
+translate english_us ch3_briefing_scene_26b418ab:
+
+    # narrator "Дюжина боевиков в брезентовых штормовках и армейских разгрузках снаряжали магазины, проверяли рации и перебрасывались короткими отрывистыми фразами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:14
+translate english_us ch3_briefing_scene_409b9006:
+
+    # narrator "В центре зала, у импровизированного стола из деревянных кабельных катушек, стоял сам Босс."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:22
+translate english_us ch3_briefing_scene_a33c55e8:
+
+    # narrator "Это был коренастый, подтянутый мужчина лет сорока пяти в помятом, но добротном шерстяном пальто поверх полевой формы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:22
+translate english_us ch3_briefing_scene_5e47f1a2:
+
+    # narrator "Его колючий, цепкий взгляд скользил по людям с расчетливым холодом хищника. Справа от него, заложив руки за спину, неподвижной скалой возвышался Гатс."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:28
+translate english_us ch3_briefing_scene_35bc733f:
+
+    # narrator "Нас с Художником подтолкнули вперед. Босс медленно оглядел нас с ног до головы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:30
+translate english_us ch3_briefing_scene_afc93c21:
+
+    # boss "А вот и наши интеллектуальные силы. Беглянка с гор и местный затворник."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:30
+translate english_us ch3_briefing_scene_c10810ba:
+
+    # boss "Времени на знакомство нет, повторять вводную не стану."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:30
+translate english_us ch3_briefing_scene_67afa74c:
+
+    # boss "На сортировочную станцию Аномик-3 десять минут назад встал товарный эшелон с востока."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:30
+translate english_us ch3_briefing_scene_914494e0:
+
+    # boss "Вагон номер семь-три-четыре. Внутри — сырье для следующей партии 'Сна'."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:40
+translate english_us ch3_briefing_scene_2b392a6f:
+
+    # narrator "Он обвел взглядом окруживших стол бандитов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:42
+translate english_us ch3_briefing_scene_0d6f9db7:
+
+    # boss "Основная группа держит внешний периметр путей и грузит поддоны в фургоны."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:42
+translate english_us ch3_briefing_scene_3a3c7c1f:
+
+    # boss "Но вы двое идете первыми."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:48
+translate english_us ch3_briefing_scene_70be445a:
+
+    # narrator "Его палец указал на Аргона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:50
+translate english_us ch3_briefing_scene_881d40a8:
+
+    # boss "Ты чертил схемы этих путей еще до того, как город накрыло дрянью. Проведешь штурмовую пятерку к вагону в обход постов ведомственной охраны станции. Тихо и без сюрпризов."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:54
+translate english_us ch3_briefing_scene_fd50ece4:
+
+    # narrator "Художник сдержанно кивнул. Лицо его оставалось застывшей гранитной маской."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:56
+translate english_us ch3_briefing_scene_1abf1823:
+
+    # boss "А ты, 'доктор'. Твоя задача — вскрыть контрольную емкость и провести экспресс-тест на чистоту сырья."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:56
+translate english_us ch3_briefing_scene_cedd3daa:
+
+    # boss "У тебя ровно пять минут на замер. Мне нужно подтверждение, что поставщики не всучили нам техническую известь вместо концентрата."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:56
+translate english_us ch3_briefing_scene_95159eb8:
+
+    # boss "Справишься?"
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:64
+translate english_us ch3_briefing_scene_22acab62:
+
+    # narrator "Вопрос звучал приговором. Отказаться значило расписаться в собственной бесполезности, а лишних свидетелей здесь списывали в расход без колебаний."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:68
+translate english_us ch3_briefing_scene_5d9a66f4:
+
+    # neon "Справлюсь. Если аппаратура откалибрована."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:70
+translate english_us ch3_briefing_scene_f60e432b:
+
+    # boss "Гатс, выдай приборы."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:72
+translate english_us ch3_briefing_scene_cd83dcc2:
+
+    # narrator "Великан поставил передо мной тяжелый металлический кейс с поролоновыми гнездами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:72
+translate english_us ch3_briefing_scene_ad2cfcd4:
+
+    # narrator "Внутри лежали капилляры, реактивы, контрольные тест-полоски и компактный полевой инфракрасный спектрометр с автономным питанием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:78
+translate english_us ch3_briefing_scene_9185cf0d:
+
+    # boss "Выдвижение через пять минут. Группу ведет Рико."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:78
+translate english_us ch3_briefing_scene_7d4e37f2:
+
+    # boss "И помните: одно лишнее движение, попытка дернуться в сторону — останетесь на путях кормить бродячих псов."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:78
+translate english_us ch3_briefing_scene_f432304c:
+
+    # boss "По местам."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:86
+translate english_us ch3_briefing_scene_e0da825a:
+
+    # narrator "Бандиты дружно разобрали сумки с боеприпасами. Нас втолкнули в пятерку Рико."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:86
+translate english_us ch3_briefing_scene_38a72e5c:
+
+    # narrator "Пока мы двигались к грузовым воротам, Аргон поравнялся со мной и едва слышно шепнул сквозь зубы:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:92
+translate english_us ch3_briefing_scene_00236a95:
+
+    # argon "{=whisper}Не дергайся. Делай свою работу в вагоне."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:92
+translate english_us ch3_briefing_scene_4052c0e6:
+
+    # argon "{=whisper}И жди. Когда начнется заваруха — держись за мной. Шанс будет только один."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/6-briefing.rpy:98
+translate english_us ch3_briefing_scene_ee34a1a9:
+
+    # narrator "Я понимала его без слов. Сортировочная станция не сулила легкой прогулки: мы шли прямо в зубы капкана."
+    narrator ""
+

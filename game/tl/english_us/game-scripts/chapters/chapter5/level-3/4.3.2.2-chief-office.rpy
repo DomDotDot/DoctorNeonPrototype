@@ -90,3 +90,11 @@ translate english_us strings:
 
     old "В считывателе пусто — я уже забрала отсюда белый пластиковый чип."
     new "The reader slot is empty — I have already taken the white plastic chip."
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter5/level-3/4.3.2.2-chief-office.rpy:11
+translate english_us ch5_level3_medbay_chief_office_827e28ac:
+
+    # narrator "В считывателе пусто — я уже забрала отсюда белый пластиковый чип."
+    narrator ""
+

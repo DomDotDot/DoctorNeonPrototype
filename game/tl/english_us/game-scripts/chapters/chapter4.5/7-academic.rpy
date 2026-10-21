@@ -1380,3 +1380,557 @@ translate english_us chapter4_5_morning_after_52d44d03:
     # narrator "Она на мгновение замирает, сглотнув ком в горле, а затем снова голос становится жестким"
     narrator "She pauses for a moment, swallowing a lump in her throat, then her voice hardens again"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:5
+translate english_us chapter4_5_morning_after_b5524b3a:
+
+    # narrator "Резкий звук будильника на телефоне выдернул меня из тяжелого сна без сновидений. Шесть тридцать утра."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:5
+translate english_us chapter4_5_morning_after_f2d3ced9:
+
+    # narrator "Я поднялась на матрасе. В сыром полумраке студии силуэт Аргона оставался прежним."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:5
+translate english_us chapter4_5_morning_after_b07187f0:
+
+    # narrator "Он сидел у стены в той же позе, что и ночью. Неподвижный, ссутулившийся, уставившийся в дощатый пол между пустых бутылок."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:13
+translate english_us chapter4_5_morning_after_dd158fd4:
+
+    # narrator "Я встала и подошла к светло-голубой сумке Академии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:13
+translate english_us chapter4_5_morning_after_3a38a0a6:
+
+    # narrator "Внутри лежал чистый сменный комплект Сары: накрахмаленная белая рубашка, темный форменный жакет и плиссированная юбка. Одежда села почти идеально — мы были одного роста."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:13
+translate english_us chapter4_5_morning_after_159321b2:
+
+    # narrator "Пока я застегивала пуговицы, за спиной раздался глухой, осипший голос Аргона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:21
+translate english_us chapter4_5_morning_after_5176f0e0:
+
+    # argon "Я был прав с самого начала."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:21
+translate english_us chapter4_5_morning_after_d744f7b5:
+
+    # argon "Пытаться что-то исправить бессмысленно. Лили потеряна. И все мы потеряны."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:29
+translate english_us chapter4_5_morning_after_64cc0d8e:
+
+    # neon "Мы пока ничего толком не знаем."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:31
+translate english_us chapter4_5_morning_after_d36b1cef:
+
+    # argon "Я видел ее глаза, Неон. В них никого не было. Лед."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:31
+translate english_us chapter4_5_morning_after_65e8691b:
+
+    # argon "Я сам ее такой сделал. Моя желчь, моя беспомощность... Я вытолкнул ее на эту улицу."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:31
+translate english_us chapter4_5_morning_after_c29bcf8c:
+
+    # argon "Зачем ты снова лезешь туда? В этот террариум?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:39
+translate english_us chapter4_5_morning_after_c9914db6:
+
+    # neon "Дело уже касается не только Лили."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:39
+translate english_us chapter4_5_morning_after_1f77b53f:
+
+    # neon "В общежитии осталась мертвая Сара."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:39
+translate english_us chapter4_5_morning_after_d8a890fb:
+
+    # neon "Клара бродит по ярмарке с пустым взглядом."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:39
+translate english_us chapter4_5_morning_after_68402b0f:
+
+    # neon "Эми и Кэрол кричат по свистку, как куклы на шарнирах."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:39
+translate english_us chapter4_5_morning_after_f5c342d6:
+
+    # neon "И где-то в этой же паутине исчезла Селестия."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:39
+translate english_us chapter4_5_morning_after_91c16c62:
+
+    # neon "Это единый механизм. И пока я не пойму, кто дергает за нити, я не остановлюсь."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:53
+translate english_us chapter4_5_morning_after_c725d138:
+
+    # argon "Бессмысленное упрямство. Брось все. Давай просто уедем отсюда."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:55
+translate english_us chapter4_5_morning_after_93a2e2df:
+
+    # neon "Я больше не собираюсь бежать."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:57
+translate english_us chapter4_5_morning_after_1d1ba3e7:
+
+    # narrator "Я перекинула ремень голубой сумки через плечо. Аргон скользнул взглядом по шеврону на моем плече — и в его глазах блеснула привычная боль. В этой форме я стала неотличима от тех девушек, что проходили мимо его мастерской в лучший мир."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:57
+translate english_us chapter4_5_morning_after_bac0707f:
+
+    # narrator "Он ничего не ответил, лишь снова потянулся к стеклянному горлышку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:57
+translate english_us chapter4_5_morning_after_bf54ca20:
+
+    # narrator "В этот поход мне придется идти одной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:57
+translate english_us chapter4_5_morning_after_c3cf658a:
+
+    # narrator "Я толкнула скрипучую дверь и вышла на сырой утренний воздух."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:70
+translate english_us chapter4_5_morning_after_4133b558:
+
+    # narrator "Улицы нижнего яруса Веритаса были пусты. Низкие серые облака цеплялись за верхушки монорельсовых эстакад."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:70
+translate english_us chapter4_5_morning_after_bbeb132b:
+
+    # narrator "Я остановилась у фонарного столба и достала телефон Сары. В списке контактов нашла номер Мэрил и нажала вызов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:78
+translate english_us chapter4_5_morning_after_e708ae8e:
+
+    # narrator "Длинные, монотонные гудки. На пятом щелчке связь наконец включилась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:82
+translate english_us chapter4_5_morning_after_53069695:
+
+    # neon "Мэрил? Это Неон. Извините за ранний звонок."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:84
+translate english_us chapter4_5_morning_after_243e474e:
+
+    # meryl "Неон... Вы... вы нашли что-то?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:86
+translate english_us chapter4_5_morning_after_79a779d3:
+
+    # narrator "В ее сухом тоне пробивалась хрупкая, натянутая как струна надежда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:88
+translate english_us chapter4_5_morning_after_c8ac35b1:
+
+    # neon "Да. Мэрил... Ваша дочь... Я нашла Сару."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:90
+translate english_us chapter4_5_morning_after_91e3dd15:
+
+    # narrator "В динамике повисла тишина. Лишь тяжелое, прерывистое дыхание матери."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:92
+translate english_us chapter4_5_morning_after_4cd9a176:
+
+    # meryl "Она... жива?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:94
+translate english_us chapter4_5_morning_after_b2fbdb3f:
+
+    # narrator "Я прикрыла глаза, на миг вспомнив сухие парафиновые пальцы Сары на диване."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:96
+translate english_us chapter4_5_morning_after_d2ea36e5:
+
+    # neon "Мне жаль, Мэрил. Мне правда жаль."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:98
+translate english_us chapter4_5_morning_after_4c35e477:
+
+    # narrator "Из трубки донесся короткий, придушенный стон. Женщина попыталась сдержать себя, заглушая рыдание ладонью. Я выждала несколько секунд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:100
+translate english_us chapter4_5_morning_after_bdc71595:
+
+    # neon "Тело оставили в ее комнате в общежитии."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:100
+translate english_us chapter4_5_morning_after_07187690:
+
+    # neon "Подробности я говорить не стану. Но это не бытовой несчастный случай."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:100
+translate english_us chapter4_5_morning_after_398e7f6c:
+
+    # neon "В Академии действует кто-то, кто systematically забирает студенток. И этот кто-то прямо сейчас пользуется счетами Сары."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:100
+translate english_us chapter4_5_morning_after_c5787ddb:
+
+    # neon "Мне нужно попасть в корпус. Нужна ваша помощь."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:110
+translate english_us chapter4_5_morning_after_d11f4efb:
+
+    # meryl "Что от меня требуется?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:112
+translate english_us chapter4_5_morning_after_30d74cdc:
+
+    # neon "Мне нужен пропуск и легенда переводной ученицы. Не гостя, а полноправной студентки, чтобы подобраться к окружению Сары и ее преподавателям."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:116
+translate english_us chapter4_5_morning_after_d6056aef:
+
+    # narrator "В трубке слышался шорох бумаги и резкий щелчок зажигалки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:118
+translate english_us chapter4_5_morning_after_92dac2c0:
+
+    # meryl "...Вы идете на такой риск ради чужой девочки?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:122
+translate english_us chapter4_5_morning_after_4cf03807:
+
+    # neon "Не только ради нее. Это должно прекратиться."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:124
+translate english_us chapter4_5_morning_after_ab2183b2:
+
+    # meryl "...Хорошо."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:124
+translate english_us chapter4_5_morning_after_12ebd721:
+
+    # meryl "Я служу в Департаменте Коррекции Поведения. У меня есть прямой доступ к закрытым базам образовательного сектора."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:124
+translate english_us chapter4_5_morning_after_fe68076e:
+
+    # meryl "Формально это преступление. Но протоколы мне дочь не вернут."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:124
+translate english_us chapter4_5_morning_after_73a7a989:
+
+    # meryl "Я сделаю документы. Ждите меня через сорок минут на южной парковке возле кампуса."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:136
+translate english_us chapter4_5_morning_after_a7c41b3a:
+
+    # narrator "Тяжелый черный седан без опознавательных знаков въехал на парковку точно в срок. Заднее тонированное стекло плавно опустилось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:136
+translate english_us chapter4_5_morning_after_147ae47e:
+
+    # narrator "За рулем сидела Мэрил в строгом сером костюме. Сухое, собранное лицо человека, загнавшего горе глубоко внутрь ради холодной работы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:142
+translate english_us chapter4_5_morning_after_8071aeb4:
+
+    # meryl "Садись быстрее. Ни слова, пока не выедем из зоны камер."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:144
+translate english_us chapter4_5_morning_after_fc42ad81:
+
+    # narrator "Я скользнула на переднее сиденье, и машина плавно покатила вдоль ограды парка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:148
+translate english_us chapter4_5_morning_after_b17594e0:
+
+    # meryl "Твое имя в базе — Неон Судзуки. Перевод из Третьего сектора по направлению инспекции. Формулировка — 'нетипичное социальное поведение'."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:148
+translate english_us chapter4_5_morning_after_ed273566:
+
+    # meryl "Директору передали распоряжение сверху. Он считает тебя моим подопечным проектом реабилитации и лишних вопросов задавать не станет."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:154
+translate english_us chapter4_5_morning_after_df456aef:
+
+    # neon "Спасибо, Мэрил."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:158
+translate english_us chapter4_5_morning_after_54f9a779:
+
+    # meryl "Обойдемся без благодарностей. Это сделка: прикрытие в обмен на имя того, кто сгубил Сару."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:158
+translate english_us chapter4_5_morning_after_7bc7a103:
+
+    # meryl "Но сначала волосы. В ориентировках муниципалов ты проходишь по ориентировке на синий цвет."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:166
+translate english_us chapter4_5_morning_after_cc91d262:
+
+    # narrator "Она свернула в боковой тупик, заглушила мотор и достала гребень с широкими заколками."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:166
+translate english_us chapter4_5_morning_after_b8fc9322:
+
+    # narrator "Ее пальцы действовали жестко и ловко, собирая мои пряди в тугой пучок и убирая яркие пряди под темные заколки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:166
+translate english_us chapter4_5_morning_after_f8d7acc6:
+
+    # narrator "Лишь на миг ее рука едва заметно дрогнула."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:176
+translate english_us chapter4_5_morning_after_3940aa00:
+
+    # meryl "Не вертись... Я каждое утро укладывала Саре волосы перед школой."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:176
+translate english_us chapter4_5_morning_after_b54f0fc3:
+
+    # meryl "Она вечно ворчала, говорила, что уже взрослая..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:181
+translate english_us chapter4_5_morning_after_09edc5c2:
+
+    # narrator "Она резко сомкнула губы, обрывая воспоминание, и отстранилась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:183
+translate english_us chapter4_5_morning_after_97f2634a:
+
+    # meryl "Все. Так ты не привлечешь внимания на КПП."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:187
+translate english_us chapter4_5_morning_after_dcc2772a:
+
+    # narrator "Ее взгляд скользнул по моему пиджаку и голубой сумке, лежавшей на коленях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:189
+translate english_us chapter4_5_morning_after_9f65a604:
+
+    # meryl "Эта форма... и сумка... Это вещи Сары?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:191
+translate english_us chapter4_5_morning_after_683be7da:
+
+    # neon "Запасной комплект из ее шкафа. Мне нужно было прикрытие, чтобы не вызывать подозрений."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:193
+translate english_us chapter4_5_morning_after_a2c753ab:
+
+    # narrator "Мэрил медленно перевела взгляд на лобовое стекло. Пальцы на руле сжались так, что побелели костяшки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:195
+translate english_us chapter4_5_morning_after_86d3fa25:
+
+    # meryl "Она тебе в пору. Вы... почти одинакового роста."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:195
+translate english_us chapter4_5_morning_after_cee46c47:
+
+    # meryl "Выходи. Директор встретит тебя в холле главного корпуса."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:195
+translate english_us chapter4_5_morning_after_ee82acdb:
+
+    # meryl "Найди ту тварь, Неон. И дай мне знать."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:527
+translate english_us chapter4_5_classroom_intro_b6e2344c:
+
+    # neon "{=thoughts}Значит, Акари лжет. Она заманила Кая точно так же, как сейчас ведет за собой Лили."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:527
+translate english_us chapter4_5_classroom_intro_7efc9487:
+
+    # neon "{=thoughts}Поведение Лили на ярмарке... этот резкий, стеклянный срыв на отца... Она ведь под сильнейшим давлением или внушением. Акари ломает студенток одну за другой."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:527
+translate english_us chapter4_5_classroom_intro_00d9d914:
+
+    # neon "{=thoughts}Если Лили сейчас пойдет с ней, она закончит как Сара. Времени почти нет."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:535
+translate english_us chapter4_5_classroom_intro_8ad35213:
+
+    # narrator "Коридор за дверью снова отозвался дробными шагами каблуков. Голос Акари прозвучал совсем рядом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:537
+translate english_us chapter4_5_classroom_intro_0be84486:
+
+    # akari "Подожди здесь минутку, милая. Я только заберу одну вещь."
+    akari ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:539
+translate english_us chapter4_5_classroom_intro_71af3757:
+
+    # narrator "Я бесшумно скользнула под массивный преподавательский стол за секунду до того, как ручка двери повернулась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:543
+translate english_us chapter4_5_classroom_intro_ccbc1988:
+
+    # narrator "Сквозь щель между досками стола я видела ее туфли. Акари подошла к металлическому шкафу в углу и быстро набрала код на цифровой панели."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:543
+translate english_us chapter4_5_classroom_intro_4e880625:
+
+    # narrator "Замок щелкнул."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:543
+translate english_us chapter4_5_classroom_intro_cab69be9:
+
+    # narrator "Из глубины сейфа донеслось густое, агрессивное гудение. Акари вытащила толстую стеклянную колбу. Внутри нее о стенки яростно билось массивное темное насекомое."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:551
+translate english_us chapter4_5_classroom_intro_0697aa08:
+
+    # narrator "Дверь кабинета тихо прикрылась. Шаги Акари затихли в сторону лестницы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:553
+translate english_us chapter4_5_classroom_intro_b31fe067:
+
+    # neon "{=thoughts}Она несет эту тварь к Лили. Нужно остановить ее, пока не поздно.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:555
+translate english_us chapter4_5_classroom_intro_e2873c6e:
+
+    # narrator "Я выбралась из-под стола и вытащила телефон. Набрала номер Мэрил."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:555
+translate english_us chapter4_5_classroom_intro_843ca39c:
+
+    # narrator "Учительница биологии, закрытые сейфы с особями, исчезнувшие ученицы. Все сошлось воедино."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:563
+translate english_us chapter4_5_classroom_intro_8ba17165:
+
+    # neon "{=whisper}Мэрил? Это Неон."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:563
+translate english_us chapter4_5_classroom_intro_48ee4947:
+
+    # neon "Я нашла ее. Куратор класса, Акари."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:563
+translate english_us chapter4_5_classroom_intro_b336f28a:
+
+    # neon "У нее в кабинете живые образцы в сейфе. Она только что увела Лили — скорее всего, к себе."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:563
+translate english_us chapter4_5_classroom_intro_ec307559:
+
+    # neon "Ее нужно перехватить немедленно.{/whisper}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:573
+translate english_us chapter4_5_classroom_intro_69199a1e:
+
+    # meryl "{=whisper}Поняла. Вычисляю ее домашний адрес по ведомственной базе. Неон, оставайся на месте и не лезь в одиночку. Я поднимаю оперативную группу.{/whisper}"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:575
+translate english_us chapter4_5_classroom_intro_24d143da:
+
+    # narrator "Короткие гудки. Ждать было мучительно, но идти против неизвестной угрозы вслепую — верная гибель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/7-academic.rpy:575
+translate english_us chapter4_5_classroom_intro_d34b1dc9:
+
+    # narrator "Я затаилась в полумраке опустевшего корпуса, сжимая в кармане телефон Сары."
+    narrator ""
+

@@ -1169,3 +1169,659 @@ translate english_us chapter4_0_24syndrome_c15f5acb:
     # narrator "Она сделала глоток своего чая, глядя на меня уже по-другому. Как на равную. Или как на инструмент."
     narrator "She took a sip of her tea, looking at me differently now. Like an equal. Or like a tool."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:6
+translate english_us chapter4_0_24syndrome_071e4aae:
+
+    # narrator "Подъем в верхний сектор занял больше двух часов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:6
+translate english_us chapter4_0_24syndrome_736c474d:
+
+    # narrator "Ночной Веритас дышал другим ритмом. Широкие проспекты, днем залитые слепящим светом и шелестом сотен шин, теперь казались гулкими гранитными каньонами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:6
+translate english_us chapter4_0_24syndrome_b2d78f81:
+
+    # narrator "Лишь изредка по мостовой проносились бесшумные автономные капсулы с тонированными стеклами да по тротуарам мерно вышагивали патрульные в тяжелых шлемах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:6
+translate english_us chapter4_0_24syndrome_a01275ef:
+
+    # narrator "Мой помятый лабораторный халат привлекал слишком много взглядов. На двух перекрестках дежурные офицеры прикладывали сканеры к моим лацканам. Видимо, подготовка к завтрашнему концерту."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:6
+translate english_us chapter4_0_24syndrome_feb60e9d:
+
+    # narrator "Наконец за поворотом проспекта выросла доминанта района — The Celeste Plaza."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:6
+translate english_us chapter4_0_24syndrome_c304cf68:
+
+    # narrator "Циклопическая игла из черненого титана и темно-синего стекла вспарывала ночное небо. На высоте десятого этажа мягким кобальтовым светом пульсировали монолитные буквы логотипа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:22
+translate english_us chapter4_0_24syndrome_060b54a7:
+
+    # narrator "Элитный жилой комплекс. Обитель высшей номенклатуры, директоров исследовательских департаментов и признанных звезд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:22
+translate english_us chapter4_0_24syndrome_aa11e09f:
+
+    # narrator "Широкое крыльцо из полированного черного мрамора, панорамные раздвижные двери, строгий вестибюль, залитый рассеянным молочным светом. За высокой гранитной стойкой дежурил консьерж в строгом мундире."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:22
+translate english_us chapter4_0_24syndrome_ab7ded40:
+
+    # narrator "Камеры на фасаде отслеживали каждый метр подходов. Пройти мимо охраны наугад было безумием."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:30
+translate english_us chapter4_0_24syndrome_93d2488f:
+
+    # neon "{=thoughts}План в лоб: официальный запрос. Посмотрим, насколько жестко работает регламент.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:32
+translate english_us chapter4_0_24syndrome_2d422f0a:
+
+    # narrator "Я расправила плечи, поправила узел галстука и шагнула к автоматическим дверям."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:38
+translate english_us chapter4_0_24syndrome_d4f855c0:
+
+    # narrator "Створки мягко разъехались, впустив меня в кондиционированную прохладу лобби."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:38
+translate english_us chapter4_0_24syndrome_7385ff5a:
+
+    # narrator "Консьерж — седеющий мужчина с выправкой отставного офицера службы безопасности — медленно поднял глаза от планшета."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:44
+translate english_us chapter4_0_24syndrome_9102a4bd:
+
+    # "Консьерж" "Добрый вечер. Слушаю вас."
+    "Консьерж" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:46
+translate english_us chapter4_0_24syndrome_0024b91b:
+
+    # neon "Добрый вечер. Я разыскиваю Селестию. Она проживает в этом корпусе?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:48
+translate english_us chapter4_0_24syndrome_8f7f534d:
+
+    # narrator "Вежливая полуулыбка мгновенно сползла с его лица, сменившись ледяной, непроницаемой маской."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:52
+translate english_us chapter4_0_24syndrome_f2bb98f5:
+
+    # "Консьерж" "Списки резидентов являются закрытой служебной тайной высшей категории."
+    "Консьерж" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:52
+translate english_us chapter4_0_24syndrome_96a541bd:
+
+    # "Консьерж" "Немедленно покиньте вестибюль, иначе я вызову службу быстрого реагирования сектора."
+    "Консьерж" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:58
+translate english_us chapter4_0_24syndrome_b53384db:
+
+    # narrator "Он не повышал голоса, но в его тоне звенел отработанный протокол: для него я была бродячим сором, нарушившим стерильность охраняемого периметра."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:64
+translate english_us chapter4_0_24syndrome_49dd0ef6:
+
+    # narrator "Двери сомкнулись за моей спиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:64
+translate english_us chapter4_0_24syndrome_b8aef383:
+
+    # narrator "Прямой контакт провалился, но реакция консьержа была показательной: он не удивился фамилии, не переспросил. Он защищал конкретный сектор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:64
+translate english_us chapter4_0_24syndrome_fdb03609:
+
+    # narrator "Мне нужен был номер квартиры."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:72
+translate english_us chapter4_0_24syndrome_c6c9f2f1:
+
+    # neon "{=thoughts}Любая система безопасности опирается на внешние службы обеспечения. Доставка, курьеры, протоколы снабжения.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:76
+translate english_us chapter4_0_24syndrome_38c87098:
+
+    # narrator "Я отошла в тень рекламной стелы напротив входа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:76
+translate english_us chapter4_0_24syndrome_39b8654e:
+
+    # narrator "Через пять минут к служебному пандусу подкатил электроскутер ночной доставки. Курьер подошел к внешнему терминалу переговорного устройства."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:76
+translate english_us chapter4_0_24syndrome_833a3db1:
+
+    # narrator "В голове сложилась простая комбинация."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:76
+translate english_us chapter4_0_24syndrome_eaa06486:
+
+    # narrator "Я дошла до ближайшего общественного инфо-киоска на углу, открыла вкладку экспресс-доставки питания и выбрала базовый пакет из круглосуточного кафе за углом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:76
+translate english_us chapter4_0_24syndrome_d9d545fe:
+
+    # narrator "В графе получателя твердой рукой ввела: 'Селестия'. Оплата наличным чеком через терминал."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:76
+translate english_us chapter4_0_24syndrome_4f5651dd:
+
+    # narrator "Спустя двадцать минут к дверям Celeste Plaza подъехал курьер с термосумкой. Он нажал вызов на внешней панели консьержа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:90
+translate english_us chapter4_0_24syndrome_d46e52c0:
+
+    # "Курьер" "Служба экспресс-доставки. Заказ на имя Селестии."
+    "Курьер" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:92
+translate english_us chapter4_0_24syndrome_f4a45c8f:
+
+    # narrator "Из внешнего динамика раздался раздраженный, резкий голос консьержа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:94
+translate english_us chapter4_0_24syndrome_4d667109:
+
+    # "Консьерж" "Опять дурацкие розыгрыши?! Сколько раз предупреждать диспетчерскую — блокируйте заказы на этот псевдоним!"
+    "Консьерж" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:94
+translate english_us chapter4_0_24syndrome_bc9d86e8:
+
+    # "Консьерж" "Семнадцатый этаж, квартира 1703! Оставьте коробку в шлюзе служебного приема, я отправлю в утиль!"
+    "Консьерж" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:100
+translate english_us chapter4_0_24syndrome_e8ce945b:
+
+    # narrator "Семнадцатый этаж. Квартира 1703."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:100
+translate english_us chapter4_0_24syndrome_65fb3fd4:
+
+    # narrator "Я выждала, пока курьер уедет, и скользнула к главному входу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:108
+translate english_us chapter4_0_24syndrome_d4ec3e69:
+
+    # narrator "Консьерж стоял у терминала внутренней связи, повернувшись спиной к холлу и раздраженно отчитывая оператора службы доставки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:108
+translate english_us chapter4_0_24syndrome_2ebc3506:
+
+    # narrator "Я неслышно пересекла мраморный пол и прошмыгнула в стеклянную галерею скоростных лифтов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:114
+translate english_us chapter4_0_24syndrome_4b0fee72:
+
+    # "Консьерж" "Если еще раз пропустите заказ без персонального ID-кода владельца, я аннулирую лицензию вашей конторы..."
+    "Консьерж" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:116
+translate english_us chapter4_0_24syndrome_89e87b6f:
+
+    # narrator "Его слова растаяли за захлопнувшимися створками кабины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:116
+translate english_us chapter4_0_24syndrome_4eb9226d:
+
+    # narrator "Панель вызова. Сенсорная кнопка семнадцатого этажа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:125
+translate english_us chapter4_0_24syndrome_59a00d94:
+
+    # narrator "Лифт взмыл вверх с мягким ускорением. В ушах заложило от перепада давления."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:125
+translate english_us chapter4_0_24syndrome_f9342659:
+
+    # narrator "Мысли путались. Селестия... Была ли она там? Вспомнит ли меня? Или годы изоляции стерли всё, как стерли мою собственную память?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:135
+translate english_us chapter4_0_24syndrome_c5e863c3:
+
+    # narrator "Лифт замер. Двери бесшумно разъехались, открывая коридор, застеленный толстым графитовым ковром."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:135
+translate english_us chapter4_0_24syndrome_c75bbade:
+
+    # narrator "Ни звука. Приглушенные настенные бра, идеальная отделка шпоном темного ореха."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:135
+translate english_us chapter4_0_24syndrome_e6e9840b:
+
+    # narrator "В конце галереи мерцала матовая табличка: '1703'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:135
+translate english_us chapter4_0_24syndrome_d5207f64:
+
+    # narrator "Я подошла и нажала сенсор звонка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:145
+translate english_us chapter4_0_24syndrome_04301a28:
+
+    # narrator "Прошла минута. Внутри царило мертвое безмолвие."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:145
+translate english_us chapter4_0_24syndrome_11628587:
+
+    # narrator "Я нажала повторно. За полотном двери послышались торопливые, тяжелые шаги. Замок щелкнул, и створка приоткрылась на цепочку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:151
+translate english_us chapter4_0_24syndrome_d64b10c7:
+
+    # neon happy "Селестия! Это я, Неон, ты помнишь..."
+    neon happy ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:156
+translate english_us chapter4_0_24syndrome_272694f5:
+
+    # narrator "Слова застряли в гортани."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:156
+translate english_us chapter4_0_24syndrome_f33aa538:
+
+    # narrator "На пороге стояла не Селестия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:156
+translate english_us chapter4_0_24syndrome_2cb18531:
+
+    # narrator "Передо мной была женщина лет сорока пяти в помятом домашнем кардигане. Волосы собраны в небрежный узел, глаза воспалены от бессонницы и слез, на лице читалось предельное нервное истощение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:164
+translate english_us chapter4_0_24syndrome_5a8e400b:
+
+    # "Женщина" "Селестия?! Опять репортеры?! Сколько можно ходить сюда?!"
+    "Женщина" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:164
+translate english_us chapter4_0_24syndrome_4ff821f5:
+
+    # "Женщина" "Ее здесь нет! Ее нет здесь уже два года! Убирайтесь вон, иначе я вызову службу безопасности!"
+    "Женщина" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:170
+translate english_us chapter4_0_24syndrome_bbe6676b:
+
+    # narrator "Она с силой толкнула дверь, но я успела подставить плечо в проем."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:174
+translate english_us chapter4_0_24syndrome_89b8aed4:
+
+    # neon despair "Пожалуйста, постойте! Я не журналист!"
+    neon despair ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:174
+translate english_us chapter4_0_24syndrome_98cf66a8:
+
+    # neon despair "Я знала ее... много лет назад. До того, как она исчезла. Я не знала, что она съехала. Прошу вас, выслушайте меня!"
+    neon despair ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:180
+translate english_us chapter4_0_24syndrome_6a721408:
+
+    # narrator "Женщина замерла. Она вгляделась в мое лицо, и ярость в ее глазах медленно уступила место горькому, вымученному узнаванию — узнаванию той же боли, что носила она сама."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:186
+translate english_us chapter4_0_24syndrome_99500e05:
+
+    # "Женщина" "Вы... действительно ее знали?"
+    "Женщина" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:188
+translate english_us chapter4_0_24syndrome_010d400b:
+
+    # narrator "Она медленно сняла цепочку и отступила вглубь прихожей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:190
+translate english_us chapter4_0_24syndrome_561f4d04:
+
+    # "Женщина" "Заходите. Только тихо."
+    "Женщина" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:195
+translate english_us chapter4_0_24syndrome_9f324dd4:
+
+    # narrator "Квартира поражала странным, музейным оцепенением."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:195
+translate english_us chapter4_0_24syndrome_4b5dc8da:
+
+    # narrator "Панорамные окна от пола до потолка открывали вид на пылающие неоном небоскребы центра. Дорогая мебель стояла в строгом порядке, но на полированных поверхностях лежал тонкий слой нетронутой пыли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:195
+translate english_us chapter4_0_24syndrome_2e5dbc3f:
+
+    # narrator "А в эркере у самого стекла высился концертный черный рояль с лакированной декой. Массивный, благородный, словно замерший монумент посреди чужого интерьера."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:203
+translate english_us chapter4_0_24syndrome_34e2a4d1:
+
+    # "Женщина" "Не обращайте внимания на пыль. Мне... в последнее время не до уборки. Пройдемте на кухню."
+    "Женщина" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:210
+translate english_us chapter4_0_24syndrome_0b52f632:
+
+    # "Женщина" "Меня зовут Мэрил Кендрик."
+    "Женщина" ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:217
+translate english_us chapter4_0_24syndrome_c1336711:
+
+    # narrator "Мэрил, потянувшаяся за банкой с заваркой, на секунду замерла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:217
+translate english_us chapter4_0_24syndrome_226f6e97:
+
+    # narrator "Ее пальцы дрогнули. Она бросила на меня странный, проницательный взгляд, словно мое имя вызвало в ее памяти какую-то служебную ассоциацию."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:223
+translate english_us chapter4_0_24syndrome_d6f66e6e:
+
+    # meryl "Неон... Необычное имя для исследовательского корпуса."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:225
+translate english_us chapter4_0_24syndrome_a1bf46eb:
+
+    # neon "Скорее старый позывной, заменивший документы."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:227
+translate english_us chapter4_0_24syndrome_540f404a:
+
+    # narrator "Мэрил поставила чайник на плиту и снова повернулась ко мне, внимательно разглядывая мои волосы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:233
+translate english_us chapter4_0_24syndrome_ea30ab5c:
+
+    # meryl "У вас интересный цвет волос. Глубокий кобальт у корней. Это генетическая модификация? В Академии сейчас многие увлекаются цветовой маркировкой."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:235
+translate english_us chapter4_0_24syndrome_55165b86:
+
+    # neon shy "Нет. Это началось само... еще в юности. Корни потемнели, приобрели синеву, а потом цвет пошел по всей длине. В школе меня за это травили."
+    neon shy ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:237
+translate english_us chapter4_0_24syndrome_5aaf5d34:
+
+    # narrator "Мэрил слушала с пугающим, почти профессиональным вниманием, словно сопоставляя услышанное с внутренними таблицами данных."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:241
+translate english_us chapter4_0_24syndrome_6c08e81b:
+
+    # meryl "Естественная смена пигментации в период взросления... Да. Такое фиксировали в закрытых отчетах."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:243
+translate english_us chapter4_0_24syndrome_460d4491:
+
+    # narrator "Она осеклась, словно сболтнув лишнее, и торопливо разлила кипяток по фарфоровым чашкам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:247
+translate english_us chapter4_0_24syndrome_422df692:
+
+    # meryl "Простите мою резкость на пороге. Фанаты и хроникеры до сих пор иногда осаждают этот адрес, подсовывают записки."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:247
+translate english_us chapter4_0_24syndrome_0ffb0462:
+
+    # meryl "Селестия бросила эту квартиру два года назад, сразу после скандального финала конкурса. Жилье выставили на закрытый аукцион, и я купила его по льготной программе Академии."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:247
+translate english_us chapter4_0_24syndrome_07bf52ef:
+
+    # meryl "Все твердили, что квартира дурная. Что здесь давит тишина. Но мне нужно было место рядом с кампусом... Ради дочери."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:255
+translate english_us chapter4_0_24syndrome_f36e598d:
+
+    # neon "Ваша дочь тоже учится музыке?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:257
+translate english_us chapter4_0_24syndrome_a0d5c56b:
+
+    # meryl "Училась. Ее зовут Сара."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:257
+translate english_us chapter4_0_24syndrome_57dd06d0:
+
+    # meryl "Она играла на виолончели. Любила сидеть в гостиной у рояля, говорила, что инструмент хранит живое тепло прежней хозяйки."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:257
+translate english_us chapter4_0_24syndrome_9df2d7f0:
+
+    # meryl "А два дня назад... Сара не вернулась из учебного корпуса."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:265
+translate english_us chapter4_0_24syndrome_5a1c0fc6:
+
+    # narrator "Слова Мэрил отозвались во мне тяжелым толчком. Двое суток. Тот же срок, о котором говорили студентки у ворот."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:269
+translate english_us chapter4_0_24syndrome_5eaa29e2:
+
+    # meryl "Я звонила в ректорат, обращалась в секторную полицию!"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:269
+translate english_us chapter4_0_24syndrome_d3411715:
+
+    # meryl "Мне ответили дежурным тоном: 'Ждите истечения сорока восьми часов, совершеннолетняя студентка имеет право на академический отпуск'."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:269
+translate english_us chapter4_0_24syndrome_8fbe3307:
+
+    # meryl "Но Сара никогда не пропускала репетиции! Ее подруга, Клара... с ней неделю назад произошло то же самое! Пропала на двое суток, а вернулась чужой, опустошенной, со стеклянным взглядом!"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:269
+translate english_us chapter4_0_24syndrome_7e35656f:
+
+    # meryl "Сара боялась ее! Говорила, что из Клары словно вынули душу! А теперь пропала сама Сара..."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:279
+translate english_us chapter4_0_24syndrome_d5ccc6d9:
+
+    # narrator "Женщина закрыла лицо ладонями, ее плечи сотрясала беззвучная дрожь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:283
+translate english_us chapter4_0_24syndrome_e12131a5:
+
+    # neon "{=thoughts}Исчезновение на сорок восемь часов. Возвращение в состоянии эмоционального выгорания или апатии. Это не побег. Это технологический или аномальный цикл.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:283
+translate english_us chapter4_0_24syndrome_fda3d44d:
+
+    # neon "Мэрил... Вы слышали что-то необычное в этой квартире до исчезновения Сары?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:289
+translate english_us chapter4_0_24syndrome_0c92ff76:
+
+    # meryl "Иногда... по ночам. Когда город засыпает."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:289
+translate english_us chapter4_0_24syndrome_518effdb:
+
+    # meryl "Словно клавиши рояля в гостиной нажимались сами собой. Едва слышные аккорды... мелодия, которую играла Селестия перед своим уходом."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:289
+translate english_us chapter4_0_24syndrome_7a3b5f6e:
+
+    # meryl "Я думала, у меня галлюцинации от переутомления. Но теперь... теперь я не знаю, во что верить."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:297
+translate english_us chapter4_0_24syndrome_e4930f41:
+
+    # neon "Мэрил, я приехала в Веритас, чтобы разобраться в происходящем."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:297
+translate english_us chapter4_0_24syndrome_2e2d0b96:
+
+    # neon "Пропажа вашей дочери, уход Селестии, аномальные изменения — всё это связано. Я найду Сару."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:303
+translate english_us chapter4_0_24syndrome_20b147b5:
+
+    # narrator "Мэрил подняла мокрое от слез лицо, в ее глазах вспыхнула слабая, отчаянная надежда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:305
+translate english_us chapter4_0_24syndrome_a5406f9f:
+
+    # meryl "Вы... правда можете помочь? Кто вы на самом деле, Неон?"
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:307
+translate english_us chapter4_0_24syndrome_ffc275bd:
+
+    # neon "Человек, который не имеет права отступать."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:309
+translate english_us chapter4_0_24syndrome_efe8d40b:
+
+    # neon "Сара жила в академическом общежитии?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:311
+translate english_us chapter4_0_24syndrome_9341b736:
+
+    # meryl "Да, по правилам третьего курса проживание в кампусе обязательно."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:311
+translate english_us chapter4_0_24syndrome_86b5f99c:
+
+    # meryl "Вот... корпус 'Б', комната 412."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:317
+translate english_us chapter4_0_24syndrome_424f3f7b:
+
+    # narrator "Она торопливо набросала адрес на листке блокнота и положила на стол. Затем выдвинула ящик комода и достала тонкий серебристый терминал."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:321
+translate english_us chapter4_0_24syndrome_3c74847d:
+
+    # meryl "Возьмите старый коммуникатор Сары. Она сменила модель на прошлой неделе, но этот рабочий, с академическим доступом к внутренним сетям кампуса."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:321
+translate english_us chapter4_0_24syndrome_567be0a6:
+
+    # meryl "Пожалуйста... если вы узнаете хоть что-то... дайте мне знать."
+    meryl ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:327
+translate english_us chapter4_0_24syndrome_f451ad1a:
+
+    # neon "Обещаю."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:329
+translate english_us chapter4_0_24syndrome_e176576f:
+
+    # narrator "Я взяла смартфон и листок с адресом, убрав их во внутренний карман халата."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:329
+translate english_us chapter4_0_24syndrome_e4f5a6bc:
+
+    # narrator "Мы простились у порога. Дверь захлопнулась, оставив меня в пустом коридоре семнадцатого этажа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/4-24_syndromechapter.rpy:329
+translate english_us chapter4_0_24syndrome_ec91b1c6:
+
+    # narrator "В руках у меня была первая реальная нить: адрес общежития и подтверждение того, что в Веритасе разворачивается скрытая эпидемия эмоционального стирания."
+    narrator ""
+

@@ -556,3 +556,509 @@ translate english_us chapter4_0_arkaground_c9681a5e:
     # narrator "Он посмотрел меня и закончил."
     narrator "He looked at me and have finished talking."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:5
+translate english_us chapter4_0_arkaground_bf26aba2:
+
+    # narrator "Скрежет колесных пар перешел в протяжный, натужный вой. Состав вползал на стрелочный узел с глухим, ленивым рокотом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:9
+translate english_us chapter4_0_arkaground_d88d5c02:
+
+    # argon "Пора. Прыгай по моей команде, ноги держи вместе, перекатом на бок."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:11
+translate english_us chapter4_0_arkaground_6d0aa405:
+
+    # narrator "Мир за распахнутой створкой тонул в густой, молочно-белой взвеси."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:11
+translate english_us chapter4_0_arkaground_1701de4a:
+
+    # narrator "Здесь туман не отдавал серной гарью и едкой химической гарью Аномика. Этот воздух был чистым, но стылым и плотным, оседающим на коже липкой холодной росой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:19
+translate english_us chapter4_0_arkaground_4acba5f0:
+
+    # narrator "Мы спрыгнули на крупный базальтовый щебень."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:19
+translate english_us chapter4_0_arkaground_cf817731:
+
+    # narrator "Товарный эшелон, даже не заметив потери пассажиров, глухо прогрохотал мимо и растворился во мгле, оставив нас в вязкой, призрачной тишине."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:28
+translate english_us chapter4_0_arkaground_94411260:
+
+    # narrator "Мы шли через Старый Район."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:28
+translate english_us chapter4_0_arkaground_72dc9e7e:
+
+    # narrator "Это была колоссальная стройка, заброшенная на полпути в прошлое. По обе стороны растрескавшегося асфальта высились остовы четырехэтажных кирпичных зданий, строительные леса, поросшие серым мхом, и ржавые стрелы кранов, застывшие в пустоте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:28
+translate english_us chapter4_0_arkaground_3ddc88cd:
+
+    # narrator "Район располагался в естественной котловине. Утренний туман медленно сползал по оврагам вниз, скапливаясь на дне низины, словно стоячая мутная вода."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:38
+translate english_us chapter4_0_arkaground_fd918c0b:
+
+    # narrator "Аргон двигался вперед без малейших колебаний — не как беглец на враждебной земле, а как хозяин, вернувшийся на старое пепелище."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:38
+translate english_us chapter4_0_arkaground_0a266aaf:
+
+    # narrator "Он свернул в узкий заваленный битым кирпичом переулок и остановился у тяжелой двери из рифленого железа. Над входом висела потемневшая от сырости вывеска:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:38
+translate english_us chapter4_0_arkaground_87e4e729:
+
+    # narrator "'Экспериментальная мастерская монументального искусства'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:48
+translate english_us chapter4_0_arkaground_3c07f888:
+
+    # narrator "Аргон не ответил сразу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:48
+translate english_us chapter4_0_arkaground_e7f7912c:
+
+    # narrator "Он полез во внутренний карман старого пальто и вытащил массивный бронзовый ключ сложной формы — покрытый темной патиной, но смазанный и целый."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:54
+translate english_us chapter4_0_arkaground_a619cd2c:
+
+    # argon "Не случайный схрон. Моя старая мастерская."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:56
+translate english_us chapter4_0_arkaground_3295b042:
+
+    # narrator "Замок провернулся с сухим, тяжелым лязгом. Створка со скрипом поддалась, открывая зев полутемного коридора."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:63
+translate english_us chapter4_0_arkaground_c0ace0c1:
+
+    # narrator "Мы вошли. Высокие, пятиметровые потолки, северные световые фонари под крышей, сквозь которые сочился рассеянный утренний свет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:63
+translate english_us chapter4_0_arkaground_eaf935c9:
+
+    # narrator "В воздухе стоял стойкий, законсервированный запах льняного масла, пинена, сухого мела и многолетней пыли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:63
+translate english_us chapter4_0_arkaground_bcf36432:
+
+    # narrator "Вдоль стен рядами стояли трехметровые подрамники, укрытые пожелтевшей парусиной, массивные дубовые мольберты и ящики с засохшей темперой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:77
+translate english_us chapter4_0_arkaground_bf6f79a4:
+
+    # neon "Ты достал ключ из кармана. Ты знаешь каждый поворот в этом мертвом квартале."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:77
+translate english_us chapter4_0_arkaground_f55310bc:
+
+    # neon "Ты говорил, что гнил на химкомбинате в Аномике всю сознательную жизнь."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:77
+translate english_us chapter4_0_arkaground_8e3132a5:
+
+    # neon "Откуда у тебя мастерская в черте Веритаса, Аргон?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:85
+translate english_us chapter4_0_arkaground_5707e399:
+
+    # narrator "Он вздрогнул от моего тона, но не поднял глаз. Его пальцы нервно сжали связку ключей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:89
+translate english_us chapter4_0_arkaground_36461c07:
+
+    # argon suit_apathy "Я жил здесь, Неон. Давно."
+    argon suit_apathy ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:89
+translate english_us chapter4_0_arkaground_7d743dff:
+
+    # argon suit_apathy "Когда этот проклятый город только закладывали в котловане."
+    argon suit_apathy ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:95
+translate english_us chapter4_0_arkaground_d698d8f3:
+
+    # neon "Ты строил Веритас?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:97
+translate english_us chapter4_0_arkaground_f330531a:
+
+    # argon "Я рисовал его фасад."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:97
+translate english_us chapter4_0_arkaground_803cec1d:
+
+    # argon "Тогда Веритас выкачивал из Аномика всё живое: сырье, инженеров, ученых... и художников. Им нужны были плакаты. Монументальные агитки. Пятиметровые полотна о светлом будущем, о чистоте расы созидателей, о победе над хаосом."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:97
+translate english_us chapter4_0_arkaground_b906561c:
+
+    # argon "В Аномике меня знали. Предложили контракт, подъемные, просторную мастерскую в первом жилом секторе."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:97
+translate english_us chapter4_0_arkaground_0da26309:
+
+    # argon "Я приехал сюда молодым, полным спеси и уверенности, что вытащил счастливый билет."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:97
+translate english_us chapter4_0_arkaground_0d552678:
+
+    # argon "Приехал не один. С семьей. С маленькой Лили — ей тогда едва исполнилось два года."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:109
+translate english_us chapter4_0_arkaground_582619c1:
+
+    # narrator "Он тяжело опустился на деревянный ящик, глядя в темноту угла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:111
+translate english_us chapter4_0_arkaground_53684799:
+
+    # neon "А дом? Если ты сбежал отсюда, почему мастерскую не отобрали?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
+translate english_us chapter4_0_arkaground_53ce307e:
+
+    # argon "Потому что этот район — брак архитекторов."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
+translate english_us chapter4_0_arkaground_a9b382af:
+
+    # argon "Когда город проектировали, никто не просчитал розу ветров и поведение тумана. Оказалось, что весь холодный конденсат и первые аномальные испарения стекают сюда, в эту низину, как помои в канаву."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
+translate english_us chapter4_0_arkaground_2f7ced31:
+
+    # argon "Власти быстро поняли ошибку. Стройку бросили, окружили квартал ограждениями и начали поднимать новый Веритас выше — на скальные террасы, подальше от сырости."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:113
+translate english_us chapter4_0_arkaground_4f5c838e:
+
+    # argon "Район списали в аварийный резерв. Здесь нет адресов, нет кадастра, нет налогов на имущество. Государство просто забыло про этот склеп, а вместе с ним — и про мои квадратные метры."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:123
+translate english_us chapter4_0_arkaground_9423fb41:
+
+    # narrator "Аргон замолчал. Его взгляд остекленел, устремившись в пустой дверной проем, ведущий в смежную кухню."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:123
+translate english_us chapter4_0_arkaground_1f3e3d7b:
+
+    # narrator "Он застыл, уставившись в полумрак так, словно старые воспоминания сорвали ржавые пломбы и хлынули наружу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:132
+translate english_us chapter4_0_arkaground_5bd083ff:
+
+    # narrator "{i}Память ребенка сохраняет не слова, а запахи, резкие тени и звон бьющегося стекла.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:138
+translate english_us chapter4_0_arkaground_6231aa9f:
+
+    # narrator "{i}В той мастерской пахло лимонным чаем, свежим грунтом и утренним солнцем, заливавшим огромные окна.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:138
+translate english_us chapter4_0_arkaground_11d1ffcc:
+
+    # narrator "{i}Мама тогда смеялась. Она кружилась по гладкому деревянному полу, поправляя ситцевые занавески, и говорила, что здесь Лили никогда не узнает, что такое кашель от угольной копоти.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:138
+translate english_us chapter4_0_arkaground_b3e95a5b:
+
+    # narrator "{i}Но отец не смеялся.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:138
+translate english_us chapter4_0_arkaground_3eeb3da4:
+
+    # narrator "{i}Он неделями стоял перед гигантским подрамником, на котором застыли безупречные лица рабочих в белых комбинезонах. Его кисть двигалась все медленнее, пока однажды он со всей силы не швырнул мастихин в стену.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:149
+translate english_us chapter4_0_arkaground_29de77ef:
+
+    # "Отец" "{i}'Здесь нет воздуха! Это не искусство, это стерильный пластик для витрин! Они выхолащивают души, превращают людей в шестеренки! Мы возвращаемся в Аномик!'{/i}"
+    "Отец" ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:153
+translate english_us chapter4_0_arkaground_79d7bbcf:
+
+    # "Мать" "{i}'Возвращаемся?! В ту ржавую душегубку, где люди сгорают к сорока годам?! Ты сошел с ума, Борис! Здесь чистое небо, здесь наша дочь пойдет в нормальную школу! Я никуда отсюда не уеду!'{/i}"
+    "Мать" ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:157
+translate english_us chapter4_0_arkaground_f1a55aa5:
+
+    # narrator "{i}Скандал разразился на крошечной кухне. Крики, грохот распахнутых шкафов, испуганный плач маленькой девочки, прижавшейся к ножке массивного стола.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:157
+translate english_us chapter4_0_arkaground_6c3f1514:
+
+    # narrator "{i}Мать умоляла. Хватала его за рукава куртки, кричала, чтобы он оставил Лили ей, если сам хочет гнить в заводских трущобах.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:157
+translate english_us chapter4_0_arkaground_c1aed583:
+
+    # narrator "{i}Но отец не слушал.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:157
+translate english_us chapter4_0_arkaground_f27b2c1c:
+
+    # narrator "{i}Ослепленный диким упрямством, ревностью и собственническим бешенством, он силой вырвал девочку из рук плачущей женщины, завернул в тяжелое шерстяное пальто и зашагал к выходу, грохнув тяжелой дверью.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:157
+translate english_us chapter4_0_arkaground_3adf9c44:
+
+    # narrator "{i}В ушах Лили навсегда остался этот надрывный, захлебывающийся крик матери, оставшейся на коленях посреди залитой чаем кухни.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:171
+translate english_us chapter4_0_arkaground_be54480b:
+
+    # narrator "{i}Потом были годы в сером бараке Аномика.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:171
+translate english_us chapter4_0_arkaground_de5739fa:
+
+    # narrator "{i}Вопросы, на которые никогда не было ответа: 'Папа, а где мама? Почему мы уехали из того дома с высокими окнами?'{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:171
+translate english_us chapter4_0_arkaground_226ccf71:
+
+    # narrator "{i}И его тяжелый, пугающий ответ: 'Забудь. Ее нет. Твой дом здесь. Никогда больше не смей произносить это слово'.{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:182
+translate english_us chapter4_0_arkaground_de2eb1be:
+
+    # narrator "В мастерской царила мертвая тишина."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:182
+translate english_us chapter4_0_arkaground_b4e4dec9:
+
+    # narrator "Аргон сидел, ссутулившись, обхватив голову ладонями. Его пальцы дрожали мелкой, неуправляемой дрожью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:191
+translate english_us chapter4_0_arkaground_6796d9d8:
+
+    # argon "Я... я думал, что поступаю правильно."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:191
+translate english_us chapter4_0_arkaground_cef5cfbf:
+
+    # argon "Думал, что защищаю. Увез ее отсюда назад, на завод... силой увез, не слушая ничьих слез. Запер в Аномике, окружил запретами, натянул глухой забор."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:191
+translate english_us chapter4_0_arkaground_8693aa8d:
+
+    # argon "А сам просто сломал ее детство."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:199
+translate english_us chapter4_0_arkaground_4f07630b:
+
+    # narrator "В его сбивчивой фразе проскользнуло нечто большее, чем просто ссора отца с дочерью. Он упорно обходил имя женщины, не называл мать Лили, но боль в его голосе обнажала старую, незаживающую рану."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:203
+translate english_us chapter4_0_arkaground_50dc4a85:
+
+    # neon "Лили помнила этот город?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_9cb81395:
+
+    # argon "Смутно. Обрывками. Но эта тоска въелась в нее намертво."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_cbd6606f:
+
+    # argon "Когда она подросла, эта боль нашла выход в звуках. Она взяла гитару, заперлась в комнате и сутками напролет смотрела записи столичных концертов."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_981d84b3:
+
+    # argon "Особенно одну девчонку... ту пианистку с роялем. Селестию."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_c067252c:
+
+    # argon "Лили твердила мне: 'Она играет так, будто в городе снова есть сердце. Я поеду туда, найду ее, поступлю в Академию'."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_bacd0d6d:
+
+    # argon "А я... я снова начал орать. Глушить ее голос. Боялся, что этот город окончательно отнимет ее у меня."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:207
+translate english_us chapter4_0_arkaground_78f258ba:
+
+    # argon "И она сбежала."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:221
+translate english_us chapter4_0_arkaground_c7d613ee:
+
+    # neon "А твоя аномалия? То, что ты сделал на станции с конвоем?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:223
+translate english_us chapter4_0_arkaground_988d5ba3:
+
+    # argon "Это вылезло позже."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:223
+translate english_us chapter4_0_arkaground_e3bebc5a:
+
+    # argon "Когда Лили исчезла в тумане, меня словно выпотрошили. Я остался один в пустой коробке."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:223
+translate english_us chapter4_0_arkaground_68c47cf3:
+
+    # argon "Я смотрел на людей вокруг — на тех, у кого семьи были целы, у кого дети бегали по двору... И внутри поднималась черная, удушливая желчь. Зависть. Ненависть к себе за собственную слепоту."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:223
+translate english_us chapter4_0_arkaground_ae44232f:
+
+    # argon "Я хотел стать кем угодно, лишь бы не оставаться Борисом — самодовольным идиотом, разрушившим всё."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:223
+translate english_us chapter4_0_arkaground_d13ee6d4:
+
+    # argon "И однажды... это сработало. Я посмотрел в глаза бригадиру на заводе, пожелал, чтобы он ослеп, чтобы забыл про меня... и он отступил. Посмотрел сквозь меня, как сквозь пустое место."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:223
+translate english_us chapter4_0_arkaground_a6bebd31:
+
+    # argon "Это мерзкая, навязанная дрянь. Искажение чужого взгляда. Я не горжусь этим."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:237
+translate english_us chapter4_0_arkaground_9ca2dd9f:
+
+    # narrator "Я смотрела на него. В моем сознании выстраивалась жесткая цепочка фактов: сломанная семья, побег дочери, чувство вины, переродившееся в искривление восприятия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:241
+translate english_us chapter4_0_arkaground_73af47ca:
+
+    # neon neutral "Селестия. Ты сказал, Лили стремилась к ней?"
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:245
+translate english_us chapter4_0_arkaground_e1081783:
+
+    # argon suit_determination "Да. Она бредила ее выступлениями."
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:247
+translate english_us chapter4_0_arkaground_cf02bcf2:
+
+    # neon "Значит, искать нужно не на вокзалах и не в заводских бараках."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:247
+translate english_us chapter4_0_arkaground_10ccdc84:
+
+    # neon "В Веритасе музыкальное образование сосредоточено в одном месте. Академия."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:247
+translate english_us chapter4_0_arkaground_b5c97dd0:
+
+    # neon "Если Лили добралась до города, ее следы вели туда. Это наш первый шаг."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:255
+translate english_us chapter4_0_arkaground_97b2d5fe:
+
+    # argon "Академия — закрытый объект. Верхние ярусы давно живут по законам кастовой сегрегации. Нас не пустят даже на порог."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:259
+translate english_us chapter4_0_arkaground_c3b38428:
+
+    # neon "Посмотрим. Сначала нужно увидеть их периметр своими глазами."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:261
+translate english_us chapter4_0_arkaground_5b619ea0:
+
+    # narrator "Аргон тяжело поднялся, поправил воротник пальто и кивнул."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/2-ark-aground.rpy:261
+translate english_us chapter4_0_arkaground_ed0ee178:
+
+    # narrator "Мы вышли из законсервированной мастерской, оставив тени прошлого за спиной, и направились к подъемам на верхние террасы Веритаса."
+    narrator ""
+

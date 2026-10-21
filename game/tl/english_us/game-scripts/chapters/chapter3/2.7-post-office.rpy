@@ -118,3 +118,101 @@ translate english_us strings:
     old "Уйти."
     new "Leave."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:3
+translate english_us ch3_guts_office_door_b39e6b74:
+
+    # narrator "Бронированная дверь заперта. На накладной панели матово горит красный диод электронного считывателя. Нужен заводской допуск."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:7
+translate english_us ch3_guts_office_door_f8a7b4a9:
+
+    # narrator "Я поднесла найденную ключ-карту к считывателю. Замок тихо щелкнул."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:7
+translate english_us ch3_guts_office_door_5a804101:
+
+    # narrator "Я приоткрыла дверь на пару миллиметров. Внутри, спиной ко мне за освещенным столом, сидел Гатс, сосредоточенно изучая данные на мерцающем мониторе видеонаблюдения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:7
+translate english_us ch3_guts_office_door_02420179:
+
+    # narrator "Заходить сейчас — чистое самоубийство."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:14
+translate english_us ch3_guts_office_door_553ba212:
+
+    # neon "{=thoughts}Он на месте. Нужно заставить его отвлечься и выйти из диспетчерской.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:15
+translate english_us ch3_guts_office_door_93d345a0:
+
+    # narrator "Я осторожно прикрыла дверь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:18
+translate english_us ch3_guts_office_door_a5639c1d:
+
+    # narrator "Электронный замок отозвался зеленым сигналом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:18
+translate english_us ch3_guts_office_door_2bcfa426:
+
+    # narrator "Я заглянула внутрь. Диспетчерская пустовала: Гатс ушел во внешний периметр разбираться с шумом, который поднялся в холле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:18
+translate english_us ch3_guts_office_door_a1fe466f:
+
+    # narrator "Путь свободен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:28
+translate english_us ch3_guts_office_inside_6a617491:
+
+    # narrator "На пульте тускло светились мониторы, а рядом с микрофонной стойкой лежала панель громкоговорителя цехового интеркома."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:34
+translate english_us ch3_guts_office_inside_94df6e53:
+
+    # neon "Внимание посту номер один. Твоя дочь знает, чем ты здесь занимаешься. Ей было бы стыдно за отца, торгующего отравой ради иллюзий."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:35
+translate english_us ch3_guts_office_inside_7f58a1d4:
+
+    # narrator "Голос, усиленный динамиками под куполом холла, прогремел раскатистым эхом. Из зала донесся яростный вой разъяренного зверя."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:37
+translate english_us ch3_guts_office_inside_419380f6:
+
+    # neon "Внимание первому посту. Гатс передает, что ты снимешься со смены в расход, если не наведешь порядок у ворот."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:38
+translate english_us ch3_guts_office_inside_2e273e72:
+
+    # narrator "Из холла донесся глухой рев и грохот опрокинутого стеллажа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.7-post-office.rpy:40
+translate english_us ch3_guts_office_inside_c43ecf03:
+
+    # neon "{=thoughts}Он сорвался с цепи! Пора бежать!{/thoughts}"
+    neon ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.7-post-office.rpy:44
+    old "Выйти в холл."
+    new ""
+

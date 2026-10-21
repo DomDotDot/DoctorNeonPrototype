@@ -182,3 +182,137 @@ translate english_us chapter2_act2_long_night_f68fefd9:
     # "Диктор" "...и к главным новостям этого часа."
     "Диктор" ""
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:7
+translate english_us chapter2_act2_long_night_78e3e1dd:
+
+    # narrator "Влажные ветви хлестали по щекам, пахло прелой хвоей и стылой смолой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:7
+translate english_us chapter2_act2_long_night_a9eea565:
+
+    # narrator "Тропы под ногами не было — только скользкие замшелые валуны и крутые осыпи, уходящие вниз под углом сорок пять градусов. Я цеплялась за стволы лиственниц, сдирая кожу с ладоней и оставляя на коре клочья белой ткани."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:7
+translate english_us chapter2_act2_long_night_ae19aeb5:
+
+    # narrator "Каждый шаг вниз отдавался ноющей тупой болью в ушибленных ребрах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:15
+translate english_us chapter2_act2_long_night_6eb14d09:
+
+    # neon "{=thoughts}Телефон остался в кабине... Даже фонарика нет.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:17
+translate english_us chapter2_act2_long_night_76b766e2:
+
+    # narrator "Ни карты, ни компаса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:17
+translate english_us chapter2_act2_long_night_76a275be:
+
+    # narrator "Вековые швейцарские ели нависали со всех сторон тяжелым черным шатром. Мокрая синтетика халата мгновенно вытянула из тела тепло; озноб бил мелкой, судорожной волной, сковывая дыхание."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:17
+translate english_us chapter2_act2_long_night_23415b55:
+
+    # narrator "Я задыхалась, перепрыгивая через поваленные гниющие стволы. На дне оврага бурлил невидимый ледниковый ручей — шум бурлящей воды неприятно резонировал в моих травмированных ушах, превращаясь в сверлящий визг."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:25
+translate english_us chapter2_act2_long_night_4af9fdc1:
+
+    # narrator "Я замерла на узком выступе скалы, чтобы перевести дух, и подняла глаза."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:25
+translate english_us chapter2_act2_long_night_05714a82:
+
+    # narrator "Кроны вековых сосен расступились над головой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:25
+translate english_us chapter2_act2_long_night_a7e883e4:
+
+    # narrator "Вдали от огней лабораторий высокое горное небо дышало хрустальной, космической чистотой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:35
+translate english_us chapter2_act2_long_night_50c13440:
+
+    # narrator "Ясная бездна. Холодный свет звезд нулевой и первой величины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:35
+translate english_us chapter2_act2_long_night_b0e96013:
+
+    # narrator "Здесь не нужны были приборы. Глаза сами выхватывали знакомую геометрическую сетку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:41
+translate english_us chapter2_act2_long_night_ac7e0dc9:
+
+    # neon "{=thoughts}Ковш Большой Медведицы... Мерак, Дубхе. Проводим прямую линию через крайние звезды, отмеряем пять расстояний...{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:43
+translate english_us chapter2_act2_long_night_cd62bf3a:
+
+    # narrator "Полярная звезда горела ровной бледно-желтой точкой, пригвожденная к северному полюсу мира."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:43
+translate english_us chapter2_act2_long_night_bbc91bbc:
+
+    # narrator "Правее раскинулась ломаная линия Кассиопеи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:43
+translate english_us chapter2_act2_long_night_bab326c7:
+
+    # narrator "Координаты перевала мне были известны со студенческих практик. Если взять азимут двести двадцать градусов — строго на юго-запад, оставляя Полярную за правым плечом, тропа неминуемо выведет в долину Лиммата, к пригородам Цюриха."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:51
+translate english_us chapter2_act2_long_night_71d23e0b:
+
+    # neon "{=thoughts}Там железнодорожные ветки, склады, люди. Главное — спуститься с хребта до рассвета.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:55
+translate english_us chapter2_act2_long_night_70c1420c:
+
+    # narrator "Оперевшись плечом о сырой гранит, я наметила курс по дальнему гребню горы и двинулась вперед."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:55
+translate english_us chapter2_act2_long_night_099b57d5:
+
+    # narrator "Кеды промокли насквозь, пальцы ног задеревенели от ледяной жижи, но геометрия звезд удерживала мысли от паники. Я шла, отсчитывая шаги и контролируя дыхание."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:55
+translate english_us chapter2_act2_long_night_eab94eeb:
+
+    # narrator "Спустя два часа тяжелого спуска сосновый массив начал редеть."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:66
+translate english_us chapter2_act2_long_night_2bf9eaa3:
+
+    # narrator "Деревья расступились."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/2-long-night.rpy:66
+translate english_us chapter2_act2_long_night_9810f6f8:
+
+    # narrator "В чаше долины, скрытые сизыми клубами утренней мглы, проступили островерхие крыши сонного предгорного поселка."
+    narrator ""
+

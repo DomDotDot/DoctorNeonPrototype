@@ -963,3 +963,653 @@ translate english_us chapter4_0_academy_55cf3b56:
     # narrator "Вся моя жизнь, моя 'апатия', моя изоляция — всё это было ложью, навязанной мне 'Сверху', той тенью в том пустом зале."
     narrator "My entire life, my 'apathy', my isolation — all of it was a lie, forced on me by the 'Higher Ups', that shadow in that empty hall."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:6
+translate english_us chapter4_0_academy_d64b6ce6:
+
+    # narrator "Мы поднялись из серой сырости низины на верхние скальные террасы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:6
+translate english_us chapter4_0_academy_e2f07f10:
+
+    # narrator "Контраст ударил по глазам, как вспышка магния."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:6
+translate english_us chapter4_0_academy_75664c1c:
+
+    # narrator "Центральный Веритас слепил белизной. Монолитные фасады из нанобетона и зеркального композита уходили прямо в ясное, искусственно профильтрованное небо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:6
+translate english_us chapter4_0_academy_b63a92dc:
+
+    # narrator "По широким, вымытым до скрипа магистралям бесшумно скользили обтекаемые электрокары."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:6
+translate english_us chapter4_0_academy_e4dec6b9:
+
+    # narrator "По тротуарам текли плотные людские потоки. Мужчины и женщины — все в одинаково строгих, темно-серых и графитовых костюмах, с безупречно выглаженными воротниками и ровными, отрешенными лицами, на которых не читалось ни усталости, ни раздражения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:18
+translate english_us chapter4_0_academy_31accbe7:
+
+    # neon "{=thoughts}Алекс... В лаборатории она всегда подшучивала над моими мятыми рукавами и вечным пятном от реактивов на манжете. Твердила, что порядок на столе упорядочивает мысли.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:18
+translate english_us chapter4_0_academy_8864d2a2:
+
+    # neon "{=thoughts}Она осталась там, за закрытыми шлюзами Гелиоса. Жива ли она? Добралась ли до безопасных уровней?{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:24
+translate english_us chapter4_0_academy_b17b7e0c:
+
+    # narrator "Вина сдавила горло привычным стальным кольцом. Здесь, посреди вылизанной до стерильности столицы, эта тишина казалась особенно удушливой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:31
+translate english_us chapter4_0_academy_9585f7b7:
+
+    # neon "Это не город. Это заводской конвейер. Только вместо деталей по нему движутся люди."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:33
+translate english_us chapter4_0_academy_ee395ce3:
+
+    # narrator "Аргон шел рядом, нервно озираясь по сторонам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:33
+translate english_us chapter4_0_academy_1dd36bed:
+
+    # narrator "Его тяжелая фигура в помятом старомодном пиджаке и стоптанных ботинках резко выбивалась из ритма толпы. Он то и дело задирал голову к подвесным мостам и многоуровневым эстакадам, на лице его застыло угрюмое недоумение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:39
+translate english_us chapter4_0_academy_cf2c5c5a:
+
+    # argon "Они подняли город на десять ярусов..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:39
+translate english_us chapter4_0_academy_10f0f268:
+
+    # argon "В мое время здесь были только скальные раскопы да котлованы под фундаменты. Всё перекроили. Закатали камень в стекло, возвели эту стеклянную клетку до самых облаков."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:45
+translate english_us chapter4_0_academy_a6678c78:
+
+    # narrator "На пешеходном переходе парень в свободной потертой куртке и спортивных брюках случайно оступился на стыке гранитных плит и упал на колени, уронив планшет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:45
+translate english_us chapter4_0_academy_1de79cdd:
+
+    # narrator "Толпа в деловых костюмах даже не замедлила шаг. Людской поток плавно обогнул его с обеих сторон, точно препятствие на мостовой. Ни один человек не протянул руки, ни один взгляд не опустился вниз — лишь брезгливое, автоматическое отстранение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:53
+translate english_us chapter4_0_academy_4ede42c7:
+
+    # neon "Они даже не повернулись к нему. Что это за место?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:55
+translate english_us chapter4_0_academy_30361e9e:
+
+    # argon "Кастовый фильтр."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:55
+translate english_us chapter4_0_academy_c50ef85c:
+
+    # argon "В Веритасе статус вшит в ткань на плечах. Нет костюма корпоративного или академического образца — значит, ты сор, посторонний элемент, брак учета."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:55
+translate english_us chapter4_0_academy_4e7b1271:
+
+    # argon "К тебе не прикоснутся даже взглядом, чтобы не испачкать индекс благонадежности."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:63
+translate english_us chapter4_0_academy_412360b1:
+
+    # narrator "Я опустила глаза на свои лацканы: белый лабораторный халат с серебристой строчкой института, строгая рубашка и галстук. В этом холодном мире моя рабочая форма неожиданно служила охранной грамотой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:67
+translate english_us chapter4_0_academy_97fa4790:
+
+    # argon "Ладно, нам нужен сектор высшего образования. Академия должна быть за следующим транспортным узлом."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:74
+translate english_us chapter4_0_academy_13a08ec8:
+
+    # narrator "Академия Веритас больше напоминала правительственную цитадель, чем учебное заведение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:74
+translate english_us chapter4_0_academy_39e649a6:
+
+    # narrator "Широкая гранитная эспланада упиралась в массивные кованые ворота с биометрическими турникетами. По обе стороны стояли охранники в глухих бронежилетах и зеркальных шлемах, проверяя персональные ID-карты входящих."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:82
+translate english_us chapter4_0_academy_1ed66dd8:
+
+    # narrator "Пока мы стояли в тени платанов у парапета, из боковой калитки вышли две студентки в темно-синей форменной одежде Академии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:82
+translate english_us chapter4_0_academy_8cbd0307:
+
+    # narrator "Они звонко переговаривались, сжимая в руках электронные папки с конспектами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:90
+translate english_us chapter4_0_academy_b4debffd:
+
+    # student1 "Ты успела урвать места на завтрашнее шоу Серафины? На центральном стадионе уже к полудню все секторы забронировали!"
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:92
+translate english_us chapter4_0_academy_5a89c5af:
+
+    # student2 "Конечно! Такое событие нельзя пропускать! Говорят, она презентует новый гимн чистого неба!"
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:94
+translate english_us chapter4_0_academy_fed09d92:
+
+    # narrator "Их беззаботный, чистый смех резанул по нервам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:94
+translate english_us chapter4_0_academy_7410af7f:
+
+    # narrator "В их движениях не было страха, не было ожидания сирены или хлопка ядовитого выброса. Они жили в герметичной капсуле, отделенные от остального мира сотнями километров фильтрационных станций."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:100
+translate english_us chapter4_0_academy_76e29c6b:
+
+    # neon "{=thoughts}Они могут знать о новеньких. В таких закрытых институтах любое появление извне должно было стать событием.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:109
+translate english_us chapter4_0_academy_f4091560:
+
+    # narrator "Я сделала шаг вперед, постаравшись придать лицу максимально спокойное, университетское выражение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:111
+translate english_us chapter4_0_academy_608a77be:
+
+    # neon "Прошу прощения, коллеги. Мы с напарником только прибыли в центральный сектор по исследовательской квоте."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:111
+translate english_us chapter4_0_academy_d11fb60b:
+
+    # neon "Вы упомянули концерт на стадионе? Мы как раз искали ориентиры в этом районе."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:117
+translate english_us chapter4_0_academy_0c62780c:
+
+    # narrator "Девушки бегло осмотрели мой халат и старомодный костюм Аргона. Академическая форма сделала свое дело — напряжение в их позах растаяло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:121
+translate english_us chapter4_0_academy_54e72994:
+
+    # student1 "А, новенькие по распределению? Добро пожаловать на верхние ярусы!"
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:121
+translate english_us chapter4_0_academy_923c3e79:
+
+    # student1 "Конечно, мы про Серафину! Она главный айдол всего Веритаса. Концерт на Центральной Арене, мы как раз идем в ту сторону сверять пропускные списки. Пойдемте, покажем дорогу!"
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:127
+translate english_us chapter4_0_academy_9752ba19:
+
+    # narrator "Мы пошли вдоль широкого бульвара. Я старалась удерживать ровный, нейтральный тон светской беседы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:129
+translate english_us chapter4_0_academy_c23c3581:
+
+    # neon neutral "У вас образцовый порядок на улицах. Ни патрульных сирен, ни суеты. Словно здесь вообще не бывает происшествий."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:131
+translate english_us chapter4_0_academy_c2f54775:
+
+    # student2 "Само собой! Индекс безопасности — высшая категория. Что у нас вообще может случиться?"
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:133
+translate english_us chapter4_0_academy_7b5e3a27:
+
+    # student1 "Ну... если не считать странной истории с Кларой на прошлой неделе."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:133
+translate english_us chapter4_0_academy_b218c5ef:
+
+    # student1 "Она вдруг пропала на два дня прямо перед контрольным срезом по теории гармонии. Телефон вне зоны, в общежитии кровать не тронута. Мы уже думали, дисциплинарный комитет поднимет тревогу..."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:139
+translate english_us chapter4_0_academy_3e5a0c01:
+
+    # neon "И что произошло?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:141
+translate english_us chapter4_0_academy_83bd5c82:
+
+    # student1 "А потом она просто пришла на пару."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:141
+translate english_us chapter4_0_academy_d01c53dc:
+
+    # student1 "Села за парту, открыла терминал... Лицо серое, взгляд остекленевший, говорит медленно, будто через силу. Сказала: 'Я просто переутомилась в читальном зале'."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:141
+translate english_us chapter4_0_academy_e90344d9:
+
+    # student1 "С тех пор ходит сама не своя. Ни улыбки, ни эмоций. Будто из нее стерли всё живое."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:151
+translate english_us chapter4_0_academy_66aec72b:
+
+    # argon "Девушки... Мы ищем одну студентку. Ее зовут Лили. Рыжие волосы, зеленые глаза, играет на гитаре. Она должна была приехать в Академию... из Аномика."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:155
+translate english_us chapter4_0_academy_8d8b4706:
+
+    # narrator "Слово прозвучало, как выстрел в закрытой комнате."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:155
+translate english_us chapter4_0_academy_1dd513e4:
+
+    # narrator "Студентки мгновенно замолчали и резко отшатнулись от Аргона, словно он занес над ними открытую склянку с чумным штаммом. Лицо Эми перекосило от неподдельного ужаса и брезгливости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:161
+translate english_us chapter4_0_academy_169a81e7:
+
+    # student1 "Из... из Аномика?! Вы... вы серьезно произносите это слово вслух?!"
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:165
+translate english_us chapter4_0_academy_bf52d784:
+
+    # student2 "То есть... из Загрязненных Зон? Из внешних низин?!"
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:165
+translate english_us chapter4_0_academy_a2f59e61:
+
+    # student2 "Господи, у нас даже по внутренним каналам запрещено упоминать те секторы! Там же сплошная зараза, мутации и бандиты! Туда даже санитарные дроны не спускаются!"
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:171
+translate english_us chapter4_0_academy_6751b6d4:
+
+    # student1 "В Академию Веритас принимают только с подтвержденным гражданским статусом и безупречной родословной!"
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:171
+translate english_us chapter4_0_academy_d35512c5:
+
+    # student1 "Никаких беженцев из тех ядовитых пустошей здесь быть не может в принципе! Не знаю, кто вам такое сказал, но вашей знакомой здесь точно нет. Если она вообще жива..."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:177
+translate english_us chapter4_0_academy_2169c5da:
+
+    # narrator "Я положила руку на плечо Аргона, чувствуя, как под грубой тканью его пиджака каменеют мышцы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:181
+translate english_us chapter4_0_academy_7ae670e5:
+
+    # neon neutral "Спасибо за разъяснение. Видимо, нам передали ошибочные данные по архивам."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:187
+translate english_us chapter4_0_academy_fd5bcf81:
+
+    # narrator "Мы вышли на колоссальную площадь перед Центральным Стадионом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:187
+translate english_us chapter4_0_academy_060df419:
+
+    # narrator "Над монолитной чашей арены парили гигантские голографические проекции. С экранов сияла ослепительная улыбка белокурой девушки в переливающемся серебром сценическом наряде — Серафины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:193
+translate english_us chapter4_0_academy_9c8f5058:
+
+    # neon "А раньше... года два назад... здесь выступала другая исполнительница. Пианистка. Селестия. Вы помните ее?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:195
+translate english_us chapter4_0_academy_4d718eb3:
+
+    # narrator "При этом имени студентки переглянулись, но на этот раз с выражением снисходительного сарказма."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:199
+translate english_us chapter4_0_academy_a0f4126a:
+
+    # student1 "Селестия? Ну да, гремела когда-то. 'Мелодии чистого разума', 'музыка высших сфер'..."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:199
+translate english_us chapter4_0_academy_5cc2c096:
+
+    # student1 "А потом устроила публичный скандал. Сорвала финал международного конкурса, разбила инструмент и сбежала прямо с генерального прогона."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:199
+translate english_us chapter4_0_academy_bb57069b:
+
+    # student1 "В прессе писали — нервный срыв на почве мании величия. Говорили, у нее окончательно поехала крыша."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:207
+translate english_us chapter4_0_academy_6f659d39:
+
+    # neon "Об этом сохранились статьи?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:209
+translate english_us chapter4_0_academy_d2017806:
+
+    # student2 "Сейчас найду в архиве новостей, это секундное дело."
+    student2 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:211
+translate english_us chapter4_0_academy_8105831b:
+
+    # narrator "Она быстро провела пальцем по экрану портативного терминала и развернула его ко мне."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:217
+translate english_us chapter4_0_academy_09d9aeea:
+
+    # narrator "На экране высветился старый архивный материал двухлетней давности:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:217
+translate english_us chapter4_0_academy_11b032b1:
+
+    # narrator "{size=+6}'Крах Селестии: гений эмоций или нервный срыв на глазах у публики?'»'{/size}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:217
+translate english_us chapter4_0_academy_9babe481:
+
+    # narrator "Под заголовком была фотография."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:217
+translate english_us chapter4_0_academy_6e8d893b:
+
+    # narrator "Девушка за роялем. Волосы редкого, контрастного оттенка — цвета снега и воронова крыла. Тонкие, напряженные пальцы на клавишах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:217
+translate english_us chapter4_0_academy_bd01911c:
+
+    # narrator "Взгляд, устремленный в пустоту зала."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:234
+translate english_us chapter4_0_academy_d00b4507:
+
+    # narrator "В висках взорвался раскаленный импульс."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:234
+translate english_us chapter4_0_academy_8e1be453:
+
+    # narrator "Картинка с экрана телефона рассыпалась на миллионы искр, затягивая меня в ледяной водоворот памяти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:246
+translate english_us chapter4_0_academy_69bd7f02:
+
+    # narrator "Сознание возвращалось толчками, оставляя во рту горький привкус железа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:246
+translate english_us chapter4_0_academy_1699e024:
+
+    # narrator "Селестия. Та самая девушка из моих кошмаров. Она существовала наяву. Она жила в этом городе. И я знала ее."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:252
+translate english_us chapter4_0_academy_2d701f9f:
+
+    # neon "{=whisper}Это правда... Она была настоящей...{/whisper}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:254
+translate english_us chapter4_0_academy_47397d4f:
+
+    # narrator "Я вернула терминал студентке. Мои пальцы мелко дрожали."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:258
+translate english_us chapter4_0_academy_315837ae:
+
+    # student1 "Вам плохо? Вы совсем побелели."
+    student1 ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:260
+translate english_us chapter4_0_academy_d081fcf6:
+
+    # neon "Все в порядке. Спасибо за помощь."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:262
+translate english_us chapter4_0_academy_e60d14b5:
+
+    # narrator "Студентки попрощались и поспешили к кассам арены."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:262
+translate english_us chapter4_0_academy_100bf7cb:
+
+    # narrator "Мы остались одни у парапета площади."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:274
+translate english_us chapter4_0_academy_a7da15b7:
+
+    # argon "Неон? Что с тобой произошло? Ты стоишь как мертвец."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:276
+translate english_us chapter4_0_academy_b9c63bfc:
+
+    # neon "Аргон... Селестия. Она — ключ ко всему."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:276
+translate english_us chapter4_0_academy_9c24eb33:
+
+    # neon "Она не плод воображения. Она училась здесь. Лили стремилась сюда именно ради нее. Их судьбы переплетены!"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:282
+translate english_us chapter4_0_academy_a54ee138:
+
+    # argon suit_determination "Снова твои видения?!"
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:282
+translate english_us chapter4_0_academy_25ab40cc:
+
+    # argon suit_determination "Неон, ты в своем уме?! Мы пришли искать мою дочь! Живую девочку из плоти и крови!"
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:282
+translate english_us chapter4_0_academy_f1030984:
+
+    # argon suit_determination "А ты застываешь перед афишами и таскаешь меня по городу ради пианистки из своих галлюцинаций! Ты просто используешь меня, чтобы копаться в собственных травмах!"
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:290
+translate english_us chapter4_0_academy_f49db33f:
+
+    # neon irritated "Я не использую тебя!"
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:290
+translate english_us chapter4_0_academy_2f3916cd:
+
+    # neon irritated "Ты сам сказал: Лили бредила ее музыкой! Девушка Клара исчезает на два дня и возвращается выпотрошенной куклой! Селестия исчезает после срыва! Это звенья одной цепи!"
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:290
+translate english_us chapter4_0_academy_ba84bcb6:
+
+    # neon irritated "Если мы найдем, куда делась Селестия, мы найдем Лили!"
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:298
+translate english_us chapter4_0_academy_cb999564:
+
+    # argon "Хватит!"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:298
+translate english_us chapter4_0_academy_2e112c60:
+
+    # argon "Я доверился тебе на путях. Думал, у тебя ясный, холодный научный ум. А ты одержима призраками."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:298
+translate english_us chapter4_0_academy_11570819:
+
+    # argon "Я не стану тратить время на твои миражи. Лили могла затеряться на нижних строительных ярусах, в фильтрационных лагерях, на складах. Я найду ее сам."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:306
+translate english_us chapter4_0_academy_586c1e3b:
+
+    # neon "Аргон, стой! В одиночку тебя схватит первый же патруль!"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:308
+translate english_us chapter4_0_academy_a6a22c07:
+
+    # argon "Пусть попробуют."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:308
+translate english_us chapter4_0_academy_f329d4f6:
+
+    # argon "Удачи со своими снами, доктор Неон. Дальше я иду один."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:316
+translate english_us chapter4_0_academy_6bf8f1b1:
+
+    # narrator "Он развернулся и тяжелым, широким шагом направился вниз по эстакаде, растворяясь в сером потоке толпы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:316
+translate english_us chapter4_0_academy_a77e241e:
+
+    # narrator "Я осталась одна на ослепительно белой площади перед гигантской громадой стадиона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:324
+translate english_us chapter4_0_academy_8d68456c:
+
+    # narrator "Голова раскалывалась. Аргон был несправедлив, но в его ярости была правда: у меня не было формальных доказательств, только вспышки чужой памяти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:324
+translate english_us chapter4_0_academy_d8e65cda:
+
+    # narrator "Но отступать было некуда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:324
+translate english_us chapter4_0_academy_f6c59b9a:
+
+    # narrator "Я снова вызвала в памяти снимок статьи на экране планшета."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:324
+translate english_us chapter4_0_academy_0a3b592f:
+
+    # narrator "Там, под текстом о скандале... мелькал рекламный блок элитной недвижимости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:324
+translate english_us chapter4_0_academy_ad46729c:
+
+    # narrator "Панорамный фасад из тонированного сапфирового стекла. Сверкающие буквы логотипа:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:324
+translate english_us chapter4_0_academy_e3a2d15f:
+
+    # narrator "'The Celeste Plaza — живите среди звезд'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:338
+translate english_us chapter4_0_academy_8f72c3e8:
+
+    # neon "{=thoughts}Комплекс назван в ее честь. В период пика ее славы корпорации покупали ее имя для брендов.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:338
+translate english_us chapter4_0_academy_0b029006:
+
+    # neon "{=thoughts}По контрактам таких масштабов ведущим артистам всегда выделяли апартаменты в самом комплексе. Это стандартная практика девелоперов.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:344
+translate english_us chapter4_0_academy_ca51db32:
+
+    # narrator "Я подняла глаза к горизонту."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:344
+translate english_us chapter4_0_academy_a5bd8c9e:
+
+    # narrator "В северной части террас, пронзая небо, высились самые роскошные шпили центра. Среди них отчетливо выделялась башня из темного сапфирового стекла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/3-academy.rpy:344
+translate english_us chapter4_0_academy_910fefad:
+
+    # narrator "Я поправила халат и зашагала к сверкающим вершинам Веритаса."
+    narrator ""
+

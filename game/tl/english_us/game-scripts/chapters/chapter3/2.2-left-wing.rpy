@@ -122,3 +122,101 @@ translate english_us strings:
     old "Вернуться в главный холл."
     new "Return to the main hall."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:5
+translate english_us ch3_left_wing_68b2b1f4:
+
+    # narrator "Я бесшумно скользнула в боковой коридор левого крыла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:8
+translate english_us ch3_left_wing_685ea25b:
+
+    # narrator "Из-за угла доносилось гудение открытого пламени и хриплые голоса. Трое бандитов в телогрейках грели руки над пылающей железной бочкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:15
+translate english_us ch3_left_wing_thug_talk_6f6b8bfd:
+
+    # narrator "Они продолжали спорить о какой-то карточной игре и дележке консервов. Ничего полезного."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:18
+translate english_us ch3_left_wing_thug_talk_abc39703:
+
+    # narrator "Голоса у огня стали тише, тон сменился на хриплый шепот."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:20
+translate english_us ch3_left_wing_thug_talk_00164ac6:
+
+    # "Бандит 1" "...да жалко мужика, чего там. Зверь зверюгой, а с малой его вон как вышло."
+    "Бандит 1" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:21
+translate english_us ch3_left_wing_thug_talk_7ed83eed:
+
+    # "Бандит 2" "Туман никого не выбирает. Говорят, лежит овощем, дышит через раз. Он всю свою долю до копейки спускает на 'Сон', чтобы продлить ей койку."
+    "Бандит 2" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:22
+translate english_us ch3_left_wing_thug_talk_9c93eba2:
+
+    # "Бандит 1" "Вот и горбатится у ворот на Гатса. Верит, будто накопит и вывезет ее наверх, к чистым городам. Пустые надежды."
+    "Бандит 1" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:23
+translate english_us ch3_left_wing_thug_talk_63adbc8a:
+
+    # narrator "Дочь часового... поражение легких Туманом, кома, выкачивание денег через наркотический 'Сон'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:23
+translate english_us ch3_left_wing_thug_talk_c8200432:
+
+    # narrator "Вот его уязвимая точка. Жестоко, но на кону стояло мое собственное выживание."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:31
+translate english_us ch3_left_wing_thug_talk_1e579e46:
+
+    # narrator "У костра снова заговорили о мелочах. Больше важного здесь не услышать."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:35
+translate english_us ch3_left_wing_thug_talk_6ef93cfc:
+
+    # narrator "Я сделала шаг к проему, но фразы у огня заставили меня затаиться за бетонным выступом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:37
+translate english_us ch3_left_wing_thug_talk_fddb47bc:
+
+    # "Бандит 1" "...к полудню на улицу даже носа не высовывайте. Гатс предупреждал: к обеду туман станет злым. Ветер с восточных низин поднимет со дна оврагов всю тяжелую взвесь."
+    "Бандит 1" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:38
+translate english_us ch3_left_wing_thug_talk_2a5b2a34:
+
+    # "Бандит 2" "Знаю я. В прошлый месяц хлебнул этой желтизны, потом неделю харкал сукровицей... А ведь я на крыше стоял, вон там, на балке. а он все равно в легкие лезет."
+    "Бандит 2" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:39
+translate english_us ch3_left_wing_thug_talk_1f5c092b:
+
+    # "Бандит 1" "Вот бы пробиться в Веритас-Сити... Говорят, что он спроектирован так, что воздух чистый, как в операционной."
+    "Бандит 1" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:40
+translate english_us ch3_left_wing_thug_talk_a3564cdf:
+
+    # "Бандит 2" "В Веритас? Размечтался. Там за лишний шаг мимо разметки сразу на рудники спишут. Закрытая академия не для бродяг вроде нас."
+    "Бандит 2" ""
+
+# game/game-scripts/chapters/chapter3/2.2-left-wing.rpy:43
+translate english_us ch3_left_wing_thug_talk_e910f52f:
+
+    # neon "{=thoughts}Значит, мое предположение верно: туман активизируется от прогрева и ветра к полудню. Утром он пассивен. А разговор с этими головорезами бесполезен.{/thoughts}"
+    neon ""
+

@@ -176,3 +176,161 @@ translate english_us dream_sequence_japan_3_a39ac8ca:
     # oganesson_young "Она... пользуется тобой неправильно..."
     oganesson_young ""
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:4
+translate english_us dream_sequence_japan_3_e9540535:
+
+    # narrator "Мама сказала что-то невыносимо жестокое. Тёте больно."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:4
+translate english_us dream_sequence_japan_3_709ab315:
+
+    # narrator "Эта мысль жжет изнутри простой детской виной. Взрослые поссорились, но я должна все исправить. Должна утешить."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:4
+translate english_us dream_sequence_japan_3_2e9d6d71:
+
+    # narrator "Я выбегаю на мокрую траву сада. Холодные капли утренней росы обжигают босые ступни."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:4
+translate english_us dream_sequence_japan_3_bc3d2a5f:
+
+    # narrator "Возле бамбуковой изгороди тяжело клонятся к земле синие гортензии. Их пышные шапки, умытые утренним туманом, кажутся вылитыми из синего фарфора."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:4
+translate english_us dream_sequence_japan_3_c3a568c0:
+
+    # narrator "Я выбираю самый большой, самый красивый цветок, с трудом надламываю сочный стебель и бегу к Тёте."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:17
+translate english_us dream_sequence_japan_3_f56b96f1:
+
+    # neon "Тётя, не грусти. Это тебе."
+    neon ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:19
+translate english_us dream_sequence_japan_3_17d9609b:
+
+    # narrator "Она медленно опускает взгляд. Ее лицо застыло белой, бесстрастной маской."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:19
+translate english_us dream_sequence_japan_3_89e1c183:
+
+    # narrator "Помедлив несколько секунд, она неохотно протягивает ладонь навстречу стеблю. Ее пальцы приближаются к лепесткам."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_1e86e577:
+
+    # narrator "И в ту долю секунды, когда кончики ее ногтей почти касаются цветка, пространство вокруг дает трещину."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_a629522d:
+
+    # narrator "Синева лепестков на глазах блекнет, мгновенно вымываясь в мертвенно-пепельный оттенок."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_36da820d:
+
+    # narrator "Следом за цветом исчезают все звуки."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_f2eeab92:
+
+    # narrator "Утренний ветерок, шелест бамбука, крик птицы над крышей — все схлопывается в плотный, звенящий вакуум. В ушах остается лишь глухой, низкий гул."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_00500f56:
+
+    # narrator "Стебель и соцветие в моих пальцах теряют плотность. Цветок не осыпается хлопьями и не ломается — он просто растворяется в воздухе, исчезая без следа, будто материю стерли ластиком."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_b22f06e6:
+
+    # narrator "В открытую ладонь ударяет жестокий, леденящий мороз. Пальцы сводит глухим онемением."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:27
+translate english_us dream_sequence_japan_3_523a478e:
+
+    # narrator "Мы замираем друг напротив друга: я — с пустой застывшей рукой, и она — с пальцами, замершими в пустоте."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:45
+translate english_us dream_sequence_japan_3_23c5fe08:
+
+    # narrator "Тётя отшатывается назад, словно от невидимого удара."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:45
+translate english_us dream_sequence_japan_3_39e57c28:
+
+    # narrator "Она смотрит на свои дрожащие пальцы, затем переводит ошеломленный взгляд на мою пустую, побелевшую ладонь."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:45
+translate english_us dream_sequence_japan_3_76fc4823:
+
+    # narrator "Вся ее надменность и холодность рассыпаются в прах. В ее расширенных зрачках плещется первобытный шок, на смену которому приходит леденящее, хищное прозрение."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:45
+translate english_us dream_sequence_japan_3_79d1be9c:
+
+    # narrator "Она делает медленный шаг ко мне, но смотрит не на мои слезы, а на мою неподвижную руку."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:45
+translate english_us dream_sequence_japan_3_ca0c5819:
+
+    # narrator "Ее губы беззвучно шевелятся, а голос звучит глухо и прерывисто, словно она произносит слова в бреду:"
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:59
+translate english_us dream_sequence_japan_3_23417ccb:
+
+    # oganesson_young "Всё-же... я была права насчёт разломов..."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:59
+translate english_us dream_sequence_japan_3_501b4eb1:
+
+    # oganesson_young "А твоя мать... Она знала."
+    oganesson_young ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_3_70a763d5:
+
+    # narrator "Я не понимаю значения этих слов. Я слышу лишь чужой, пугающий холод в ее голосе."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_3_f4258f03:
+
+    # narrator "Я вижу, что Тётя отдернула руку и испугалась."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_3_27ee9e7b:
+
+    # narrator "Наверное, я выбрала плохой, ядовитый цветок. Или уколола ее несуществующим шипом."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/3-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_3_3703d156:
+
+    # narrator "Слезы застилают глаза, и я начинаю плакать от беспомощности и накатившего страха."
+    narrator ""
+

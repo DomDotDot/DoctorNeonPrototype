@@ -391,3 +391,311 @@ translate english_us chapter1_lab_noon_48877e24:
     # narrator "Она снова погрузилась в лабиринт коридоров. Она зашла в лобби. Этот комплекс был огромен."
     narrator "She dove back into the labyrinth of corridors. She entered the lobby. This complex was immense."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:7
+translate english_us chapter1_lab_noon_383070c0:
+
+    # narrator "Дверь за Алекс закрылась, оставив после себя шлейф цветочных духов и звенящую, кристальную тишину."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:7
+translate english_us chapter1_lab_noon_298de4f2:
+
+    # narrator "Я с тоской посмотрела на онемевшую клавиатуру, затем на разрозненные черновики — ключи к новой эре радиоастрономии, набросанные на случайных листках."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:7
+translate english_us chapter1_lab_noon_21076fda:
+
+    # narrator "Собрание через пару часов. И мое единственное оружие — копеечная шариковая ручка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:14
+translate english_us chapter1_lab_noon_5e3a627e:
+
+    # neon irritated "Писать от руки... В двадцать первом веке..."
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:16
+translate english_us chapter1_lab_noon_1c1878f9:
+
+    # narrator "Горькая ирония: в недрах одного из самых засекреченных и передовых комплексов планеты, спрятанного среди ледяных альпийских пиков, я собиралась докладывать о контакте с внеземным разумом, как средневековый монах-переписчик."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:16
+translate english_us chapter1_lab_noon_7da128d2:
+
+    # narrator "Здесь, где каждый атом был на строгом электронном учете, а оптоволокно передавало терабайты за наносекунды!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:16
+translate english_us chapter1_lab_noon_a9184535:
+
+    # narrator "Я подошла к панорамному окну. Ослепительно белые гребни гор вспарывали лазурное небо. Гигантские тарелки радиоантенн казались тонкими серебряными иглами, устремленными в зенит."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:16
+translate english_us chapter1_lab_noon_7c331335:
+
+    # narrator "Величественная, безразличная панорама, которая лишь подчеркивала мою глухую изоляцию."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:16
+translate english_us chapter1_lab_noon_124db80e:
+
+    # narrator "Я перерыла ящики стола — привычное царство хаоса из выгоревших распечаток, радиодеталей и засохших чайных пакетиков."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:16
+translate english_us chapter1_lab_noon_43134d16:
+
+    # narrator "Добычей стала полупустая пачка офисной бумаги и рекламная ручка с давным-давно минувшего симпозиума. Стержень царапал бумагу бледно и неохотно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:30
+translate english_us chapter1_lab_noon_a8d034d6:
+
+    # neon "Шедевр... Для исторического документа лучше не придумаешь."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:32
+translate english_us chapter1_lab_noon_131f6e9a:
+
+    # neon "{=thoughts}Нужно найти Маркуса. Пусть притащит запасную периферию. И вообще, куда он запропастился посреди смены?{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:36
+translate english_us chapter1_lab_noon_abbdcd10:
+
+    # narrator "Собрав листы и злополучную ручку, я решительно вышла в коридор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:36
+translate english_us chapter1_lab_noon_16761b38:
+
+    # narrator "Первым делом заглянула в препараторскую в конце крыла, где обычно крутился Маркус."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:36
+translate english_us chapter1_lab_noon_9ded9f4c:
+
+    # narrator "Дверь была не заперта. Внутри — выставочный порядок: стерильно вымытые колбы в штативах, обесточенные приборы, идеально ровные стопки справочников. Ни души."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:36
+translate english_us chapter1_lab_noon_031551e9:
+
+    # narrator "Придется спуститься на нижний ярус. Может, он в столовой заливает в себя очередной эспрессо?"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:47
+translate english_us chapter1_lab_noon_8bb26613:
+
+    # narrator "Лифт бесшумно скользнул вниз."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:47
+translate english_us chapter1_lab_noon_1651b9b4:
+
+    # narrator "На настенном экране бежала нейтральная корпоративная строка: \n 'Плановая санитарная обработка в гидропонном секторе' \n 'Инструктаж по пожарной безопасности: завтра в 14:00' \n 'Напоминаем сотрудникам о строгом соблюдении квартальных дедлайнов'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:47
+translate english_us chapter1_lab_noon_0212615b:
+
+    # narrator "Я нажала клавишу: \n 'Уровень 1: Кафетерий / Рекреационная зона'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:47
+translate english_us chapter1_lab_noon_0489232d:
+
+    # narrator "Целый замкнутый полис, высеченный в базальтовой толще горы. Мир, призванный служить чистому знанию."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:65
+translate english_us chapter1_lab_noon_089aa713:
+
+    # narrator "Кафетерий первого уровня заливал мягкий рассеянный свет из широких световых колодцев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:65
+translate english_us chapter1_lab_noon_b36917c3:
+
+    # narrator "Тянуло пережаренным кофе, свежей сдобой и пресным паром служебной столовой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:65
+translate english_us chapter1_lab_noon_4875a2a5:
+
+    # narrator "Народу было непривычно много: инженеры, дежурные техники, лаборанты на пересменке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:65
+translate english_us chapter1_lab_noon_3d6b644c:
+
+    # narrator "За крайним столиком у окна я сразу приметила массивную фигуру Ханса — бессменного ветерана службы безопасности, дежурившего здесь еще со времен закладки первого шлюза."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:65
+translate english_us chapter1_lab_noon_db944096:
+
+    # narrator "Я подошла к автомату, который с натужным хрипом выдал порцию черного кофе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:79
+translate english_us chapter1_lab_noon_984096c3:
+
+    # hans "О, доктор Неон! Какими судьбами среди простых смертных? Думал, вы из своей башни из слоновой кости годами не вылезаете."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:80
+translate english_us chapter1_lab_noon_5375f93f:
+
+    # neon shy "Добрый день, Ханс. Науке тоже требуется подзарядка. Да и... ассистента своего ищу. Не пробегал мимо?"
+    neon shy ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:81
+translate english_us chapter1_lab_noon_40ab7cc3:
+
+    # hans "Маркус, что ли? Шустрый такой мальчишка в халате с иголочки? Видел, с час назад."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:82
+translate english_us chapter1_lab_noon_1442c872:
+
+    # neon surprised "Здесь, в столовой?"
+    neon surprised ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:83
+translate english_us chapter1_lab_noon_88fa4d65:
+
+    # hans "Не-а. Он не сюда шел."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:83
+translate english_us chapter1_lab_noon_97288b26:
+
+    # hans "К скоростным лифтам в административный блок чесал. С пухлой кожаной папкой под мышкой."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:83
+translate english_us chapter1_lab_noon_e988b9c8:
+
+    # hans "И вид такой, будто под ним земля горит — глаза шальные, ни с кем даже не поздоровался."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:91
+translate english_us chapter1_lab_noon_7867b158:
+
+    # neon suspicious "В дирекцию? Странно... У нас не было запланированных встреч с правлением."
+    neon suspicious ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:92
+translate english_us chapter1_lab_noon_de524c70:
+
+    # hans "Может, за прибавкой побежал? Или на ковер за какую оплошность вызвали. У них там, наверху, своя погода."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:92
+translate english_us chapter1_lab_noon_f1b0c60c:
+
+    # hans "А у вас-то как? Всё космический эфир слушаете?"
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:97
+translate english_us chapter1_lab_noon_433bcf30:
+
+    # neon neutral "Вроде того. Сегодня в три часа как раз итоговый отчет."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:98
+translate english_us chapter1_lab_noon_99489a03:
+
+    # hans "О, ученый совет! Держитесь там, доктор."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:98
+translate english_us chapter1_lab_noon_bed434dd:
+
+    # hans "Эти пиджаки любят кровь пускать, но вы девчонка с головой, прорветесь."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:98
+translate english_us chapter1_lab_noon_52e1f2b3:
+
+    # hans "Я еще помню, как они старого профессора Циглера на чистую воду выводили с его гравитационными волнами... Ничего, выстоял старик."
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:106
+translate english_us chapter1_lab_noon_c205ec39:
+
+    # neon pleasant "Спасибо за добрые слова, Ханс. Пойду готовить тезисы."
+    neon pleasant ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:107
+translate english_us chapter1_lab_noon_f37a6cea:
+
+    # hans "Ни пуха!"
+    hans ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:108
+translate english_us chapter1_lab_noon_33650993:
+
+    # neon "К черту..."
+    neon ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:110
+translate english_us chapter1_lab_noon_b580f834:
+
+    # narrator "Очень странно."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:110
+translate english_us chapter1_lab_noon_62040164:
+
+    # narrator "Я медленно отошла от стойки, еще раз обведя кафетерий взглядом. Маркуса не было."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_4d91b4a5:
+
+    # narrator "Тревога, до этого скребшаяся где-то на самом краю сознания, зазвучала набатом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_3f0775c7:
+
+    # narrator "Маркус. Административное крыло. Закрытая папка. За два часа до моего триумфа."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_56aa5b41:
+
+    # narrator "Мой ум, натренированный на поиске неочевидных аномалий в сырых массивах данных, мгновенно связал точки воедино. И полученный график мне категорически не нравился."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_c98bc06e:
+
+    # narrator "Я свернула в галерею северного блока."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_24ccbfa5:
+
+    # narrator "Комплекс 'Гелиос' был колоссален. Заложенный еще во времена холодной войны как подземный стратегический бункер, он постепенно оброс лабораториями, вычислительными центрами и жилыми ячейками."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_f073c819:
+
+    # narrator "Служебные доступы разделяли сотрудников жестче кастовой системы: моя карта открывала лабораторию, жилой отсек и архив. Административный же ярус оставался за семью замками."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/3-lab-noon.rpy:119
+translate english_us chapter1_lab_noon_d39580fd:
+
+    # narrator "Я ускорила шаг, направляясь в библиотечный зал — единственное место в комплексе, где царила абсолютная тишина."
+    narrator ""
+

@@ -180,3 +180,191 @@ translate english_us chapter4_0_train_dream_6bda763e:
     # neon "Да. Давай собираться."
     neon "Yeah. Let's get ready."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:6
+translate english_us chapter4_0_train_dream_db05f5e6:
+
+    # narrator "Эхо захлопнувшейся двери ударило по вискам тупой болью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:6
+translate english_us chapter4_0_train_dream_16256f41:
+
+    # narrator "Я резко дернулась, вырываясь из сна. Запах кедра и тепло бумажных ширм сменились ледяным сквозняком, гарью дизеля и въевшейся в железо солярочной сыростью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:6
+translate english_us chapter4_0_train_dream_9f05f4ee:
+
+    # narrator "Под затылком вибрировал ребристый пол вагона. Монотонный, тяжелый перестук колес по стрелочным переводам отсчитывал версты прочь от мертвого Аномика."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:18
+translate english_us chapter4_0_train_dream_37551502:
+
+    # narrator "В узкую щель приоткрытой створки пробивался сизый рассвет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:18
+translate english_us chapter4_0_train_dream_9a134761:
+
+    # narrator "Напротив, привалившись плечом к стальной стойке каркаса, сидел Аргон. В полумраке его лицо казалось вырубленным из окаменевшего шлака: глубокие тени под скулами, застывший, бодрствующий взгляд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:27
+translate english_us chapter4_0_train_dream_9955bacb:
+
+    # argon "Очнулась?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:29
+translate english_us chapter4_0_train_dream_29bcd218:
+
+    # narrator "Его голос — глухой, шершавый от ночного холода — окончательно развеял остатки наваждения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:33
+translate english_us chapter4_0_train_dream_0a0572f2:
+
+    # neon "Да... Проснулась."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:33
+translate english_us chapter4_0_train_dream_db0f0d1b:
+
+    # neon "{=thoughts}Опять этот дом. Голос матери... и той чужой женщины в кимоно. Почему эти обрывки всплывают сейчас, когда всё рушится?{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:33
+translate english_us chapter4_0_train_dream_92a0f082:
+
+    # neon "Странный морок. Будто кто-то выдернул чужое воспоминание и вшил мне под веки."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:41
+translate english_us chapter4_0_train_dream_d65f71f4:
+
+    # argon "Перед грозой и перевалами в голове всегда шумит. Тело вымотано, нервы натянуты в струну — вот память и сбоит, подсовывая картинки почище бреда."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:45
+translate english_us chapter4_0_train_dream_e305266f:
+
+    # narrator "Он бросил на меня короткий, внимательный взгляд из-под бровей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:47
+translate english_us chapter4_0_train_dream_35e0ebcc:
+
+    # neon "Обычная усталость так не режет по живому. Я никогда не бывала в тех комнатах наяву, никогда не знала этих людей... Но внутри все выворачивает тоской, будто меня вышвырнули на мороз из собственного дома."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:51
+translate english_us chapter4_0_train_dream_f12ccd7a:
+
+    # argon "В мозгу полно чужих следов, если копаешься в чужой грязи."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:51
+translate english_us chapter4_0_train_dream_8e317f6d:
+
+    # argon "Если этот морок давит на виски... я могу вмешаться. Отодвинуть шум. Снять давление."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:57
+translate english_us chapter4_0_train_dream_faefb999:
+
+    # narrator "В его предложении не было угрозы — лишь тяжелая, сдержанная готовность помочь. Но память о том, как на перроне застыли вооруженные конвоиры с остекленевшими глазами, обожгла шею холодом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:61
+translate english_us chapter4_0_train_dream_3d8b122c:
+
+    # neon "Нет. Не прикасайся."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:61
+translate english_us chapter4_0_train_dream_527b7d50:
+
+    # neon "{=thoughts}Моя память — это всё, что отделяет меня от пустоты. Если я пущу кого-то внутрь, от меня самой не останется ничего.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:61
+translate english_us chapter4_0_train_dream_cdb15bd7:
+
+    # neon "Я справлюсь сама."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:69
+translate english_us chapter4_0_train_dream_d5dc792a:
+
+    # argon "Дело твое."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:71
+translate english_us chapter4_0_train_dream_9440ceaa:
+
+    # narrator "Он без возражений отвел взгляд, проверяя массивную цепочку дверного фиксатора."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:73
+translate english_us chapter4_0_train_dream_d90a13da:
+
+    # argon "Правильно делаешь. Чужим рукам в голове делать нечего — даже если эти руки предлагают помощь. Лишний повод держать спину прямо."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:80
+translate english_us chapter4_0_train_dream_86470385:
+
+    # narrator "Под днищем протяжно, с металлическим визгом взвыли тормозные колодки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:80
+translate english_us chapter4_0_train_dream_51d48747:
+
+    # narrator "Вагон ощутимо качнуло. За смотровой щелью серые полосы насыпи начали замедлять бег, сгущаясь в сплошную мглу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:88
+translate english_us chapter4_0_train_dream_05aa7149:
+
+    # argon "Приехали. Состав сбрасывает ход перед входными стрелками."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:88
+translate english_us chapter4_0_train_dream_4df63312:
+
+    # argon "Мы в низине. Здесь ветка делает петлю вдоль старых промышленных отвалов, прежде чем уйти на охраняемый терминал центра."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:88
+translate english_us chapter4_0_train_dream_f812719d:
+
+    # argon "Через минуту состав поползет по стрелочному узлу. Это единственный слепой сектор, где нет вышек с оптикой."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:88
+translate english_us chapter4_0_train_dream_e5c742a5:
+
+    # argon "Прыгаем на насыпь на ходу. Группируйся и береги ноги. Готова?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:98
+translate english_us chapter4_0_train_dream_85e43c86:
+
+    # narrator "Я посмотрела сквозь щель: внизу клубилась промозглая белесая взвесь, в которой тонули бетонные шпалы и остовы брошенных конструкций."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:98
+translate english_us chapter4_0_train_dream_0d114ae0:
+
+    # narrator "Назад дороги не было."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.0/1-train-dream.rpy:104
+translate english_us chapter4_0_train_dream_7578398d:
+
+    # neon "Готова. Пошли."
+    neon ""
+

@@ -342,3 +342,281 @@ translate english_us chapter3_breather_7ee5d856:
     # narrator "Выбора не было. Неон кивнула."
     narrator "There was no choice. Neon nodded."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:5
+translate english_us chapter3_breather_2f8bfda3:
+
+    # narrator "Мы пробирались сквозь спальные кварталы Аномика."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:5
+translate english_us chapter3_breather_f7f15309:
+
+    # narrator "Мертвые железобетонные многоэтажки стояли слепыми монолитами, глядя на нас черными провалами разбитых балконов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:5
+translate english_us chapter3_breather_8214ec9c:
+
+    # narrator "Желтоватая дымка висела над растрескавшимся асфальтом, приглушая звон битого стекла под ногами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:13
+translate english_us chapter3_breather_b157b6d0:
+
+    # argon "Сюда. Во двор."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:17
+translate english_us chapter3_breather_bb150e82:
+
+    # narrator "Аргон свернул между двумя пятиэтажками в заросший бурьяном двор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:17
+translate english_us chapter3_breather_4f7ec564:
+
+    # narrator "Среди жухлой серой травы торчали ржавые, покосившиеся стойки качелей. Детская площадка давно превратилась в железный скелет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:17
+translate english_us chapter3_breather_5281dbc2:
+
+    # narrator "Аргон на секунду замедлил шаг, скользнув взглядом по скрипящей на ветру цепи. Его челюсти сжались, плечи окаменели от немой, застарелой боли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:17
+translate english_us chapter3_breather_ba63515d:
+
+    # narrator "Мы вошли в темный проем третьего подъезда. Дверь сорвана, на ступенях валялись комья цемента и обрывки обоев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:17
+translate english_us chapter3_breather_5c62a715:
+
+    # narrator "На четвертом этаже он достал из кармана связку ключей. Старый стальной ключ с усилием провернулся в заклинившей личинке замка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:32
+translate english_us chapter3_breather_f512bfb8:
+
+    # argon "Заходи. Обувь можешь не снимать — чистоту здесь беречь некому."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:34
+translate english_us chapter3_breather_b53e193d:
+
+    # narrator "Я перешагнула порог. Типовая двухкомнатная хрущевка, застывшая в мертвом оцепенении."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:34
+translate english_us chapter3_breather_18eeda6e:
+
+    # narrator "Тонкий, ровный слой желтоватой взвеси покрывал шкафы, журнальный столик и поблекший диван. В углу гостиной стоял мольберт, затянутый белой простыней, словно памятник не случившейся жизни."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:34
+translate english_us chapter3_breather_3257b06c:
+
+    # narrator "Слева виднелась приоткрытая дверь во вторую комнату."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:44
+translate english_us chapter3_breather_44f1e729:
+
+    # narrator "Я заглянула внутрь — и замерла на пороге."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:44
+translate english_us chapter3_breather_89dc9de9:
+
+    # narrator "Здесь всё дышало отголосками юности: стены пестрели яркими плакатами рок-групп, на стойке у окна дремала электрогитара сочного вишневого цвета, на столе стопками лежали исписанные нотные тетради."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:44
+translate english_us chapter3_breather_1b887054:
+
+    # narrator "Эта комната была убрана с почти благоговейной, бережной тщательностью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:44
+translate english_us chapter3_breather_178f5650:
+
+    # narrator "На полированной столешнице стояла цифровая фоторамка. Единственная вещь во всей квартире, с которой регулярно стирали пыль."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:44
+translate english_us chapter3_breather_732cdb8f:
+
+    # narrator "Я коснулась сенсорной кнопки. Экран моргнул и вспыхнул мягким светом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:58
+translate english_us chapter3_breather_83b626a9:
+
+    # narrator "На снимке смеялась рыжеволосая девчонка-подросток с озорным знаком V из пальцев."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:58
+translate english_us chapter3_breather_a117d209:
+
+    # narrator "А рядом с ней стоял мужчина, в котором с трудом угадывался нынешний затворник: коротко стриженый, без бороды, с открытой, обезоруживающе нежной отцовской улыбкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:58
+translate english_us chapter3_breather_d97404a1:
+
+    # narrator "Я перевернула корпус рамки. На пластиковой крышке тонким гвоздем была аккуратно выцарапана надпись:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:58
+translate english_us chapter3_breather_c46050e1:
+
+    # narrator "{i}'Я и мой папа Борис!'{/i}"
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:68
+translate english_us chapter3_breather_442101b2:
+
+    # narrator "Борис."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:68
+translate english_us chapter3_breather_7789d21d:
+
+    # narrator "Его настоящее имя — Борис."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:68
+translate english_us chapter3_breather_1d557239:
+
+    # narrator "Человек, стоящий за стеной, назвался мне Аргоном. Чужой, мертвой заводской кличкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:76
+translate english_us chapter3_breather_f36e0c5f:
+
+    # neon "{=thoughts}Опять ложь. Маркус в лаборатории, Гатс на стройке... теперь он. Даже собственное имя спрятал за фальшивкой.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:78
+translate english_us chapter3_breather_d34da38d:
+
+    # narrator "Я осторожно поставила рамку обратно на стол и вышла в гостиную."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:87
+translate english_us chapter3_breather_3b63e942:
+
+    # narrator "Он стоял у темного окна, глядя на далекие заводские огни."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:91
+translate english_us chapter3_breather_6707c413:
+
+    # argon "В кухонном ящике нашлась банка консервированных персиков и литр фильтрованной воды. Это наш ужин."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:91
+translate english_us chapter3_breather_63c29de9:
+
+    # argon "Нашла что-то полезное?"
+    argon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:97
+translate english_us chapter3_breather_e925b37e:
+
+    # neon irritated "Зачем ты врал мне про имя? Кто такой Борис?"
+    neon irritated ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:99
+translate english_us chapter3_breather_1dd59b99:
+
+    # narrator "Он вздрогнул всем корпусом и медленно обернулся. В его выцветших глазах плеснула беспросветная, глухая усталость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:101
+translate english_us chapter3_breather_69f84ba2:
+
+    # neon "Сколько еще лжи в твоих словах, если ты прячешь даже то, как тебя звала собственная дочь?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:103
+translate english_us chapter3_breather_f657d7de:
+
+    # narrator "Он опустил голову. Голос его прозвучал глухо, почти шепотом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:105
+translate english_us chapter3_breather_67a1174e:
+
+    # argon suit_apathy "Сейчас не время бередить покойников."
+    argon suit_apathy ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:105
+translate english_us chapter3_breather_cd3d684d:
+
+    # argon suit_apathy "Я расскажу всё. Даю слово. Когда сядем в вагон и колеса тронутся."
+    argon suit_apathy ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:105
+translate english_us chapter3_breather_2f9ab6bc:
+
+    # argon suit_apathy "Сейчас главное — выбраться живыми."
+    argon suit_apathy ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:113
+translate english_us chapter3_breather_b19fdfb9:
+
+    # narrator "Он не пытался оправдываться — он просил о пощаде. Я видела его лицо на фотографии и понимала, какую бездну он носит в себе. Сводить счеты посреди осажденного города было глупо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:117
+translate english_us chapter3_breather_f43cde11:
+
+    # neon "Ну? Слушаю. Рассказывай план."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:119
+translate english_us chapter3_breather_3d1a3771:
+
+    # argon suit_determination "Эшелон на станции. Его готовят к отправке на восток, в сторону внешних перевалочных баз. Это единственный путь отсюда."
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:119
+translate english_us chapter3_breather_c457e786:
+
+    # argon suit_determination "Люди Гатса разбиты и разбежались, охрана перегружена проверкой периметра."
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:119
+translate english_us chapter3_breather_b453c923:
+
+    # argon suit_determination "Перед самым отправлением у тупиков возникнет окно. Мы вернемся на пути и проникнем в порожний товарный вагон."
+    argon suit_determination ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:127
+translate english_us chapter3_breather_16ac782d:
+
+    # neon "А если нас перехватят на стрелке?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:129
+translate english_us chapter3_breather_1c58dc98:
+
+    # argon "Тогда примем бой на рельсах."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:129
+translate english_us chapter3_breather_9ec9541b:
+
+    # argon "Это честнее, чем сидеть в пыльной норе и ждать, пока Туман дожрет остатки легких. Решай, ученая."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/9-argon-apartment-old.rpy:135
+translate english_us chapter3_breather_476b0237:
+
+    # narrator "Я молча кивнула. Выбор был очевиден: движение вперед."
+    narrator ""
+

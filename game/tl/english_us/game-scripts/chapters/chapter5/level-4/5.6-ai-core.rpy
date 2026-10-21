@@ -601,3 +601,119 @@ translate english_us ch5_ai_core_interaction_5f992fff:
     # narrator "Здесь, под дном шара, располагался проектор. По конструкции она напоминала ретрансляторы прямого доступа, вроде тех, что я видела в исследовательском отделе, только сборка была куда более громоздкой и старой."
     narrator ""
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:248
+translate english_us ch5_ai_core_ask_question_9afa0ff6:
+
+    # sibyl "[ch5_q_text!t]"
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:264
+translate english_us ch5_ai_core_input_8d96b480:
+
+    # sibyl "Я вижу, вы допустили ошибку в написании, но ответ принимается. Я понял ваш ответ как '[ch5_canonical!t]'."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:277
+translate english_us ch5_ai_core_input_cb76e06b:
+
+    # sibyl "[ch5_q_hint!t]"
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:311
+translate english_us ch5_ai_core_final_input_2f7bd8a3:
+
+    # sibyl "[ch5_forbidden_name_error!t]"
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:318
+translate english_us ch5_ai_core_final_input_9d9a004b:
+
+    # narrator "Шар замер. Нити света внутри него остановились на одну длинную секунду."
+    narrator ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:322
+translate english_us ch5_ai_core_final_input_0caad16e:
+
+    # sibyl "[ch5_final_response!t]"
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:324
+translate english_us ch5_ai_core_final_input_b1b8aba6:
+
+    # sibyl "..."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:324
+translate english_us ch5_ai_core_final_input_5e937078:
+
+    # sibyl "Верификация завершена. Человеческий разум подтверждён."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:324
+translate english_us ch5_ai_core_final_input_583d6a2d:
+
+    # sibyl "Передаю запрос Ядру Решений: снятие блокировки серверной комнаты станции 'Орбиталь'... Пакет данных 'Авторизовано' отправлен."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:324
+translate english_us ch5_ai_core_final_input_8fa7f76d:
+
+    # sibyl "Ответ Ядра Решений: Положительно."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
+translate english_us ch5_ai_core_final_input_3082d997:
+
+    # sibyl "Код Карантин-7 частично деактивирован для секции: Серверная."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
+translate english_us ch5_ai_core_final_input_0a79aa39:
+
+    # sibyl "Доступ к серверной комнате — разрешён."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
+translate english_us ch5_ai_core_final_input_132332cf:
+
+    # sibyl "Предупреждение: общий карантин станции остаётся в силе. Стыковочные шлюзы по-прежнему заблокированы. Для полного снятия карантина потребуется доступ к серверу."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:336
+translate english_us ch5_ai_core_final_input_5c35653d:
+
+    # sibyl "Досвидания, [ch5_final_answer]"
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:349
+translate english_us ch5_ai_core_final_input_d6d36278:
+
+    # neon "{=thoughts}Серверная открыта. Осталось вернуться на станцию и добраться до неё."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:349
+translate english_us ch5_ai_core_final_input_d4f1f225:
+
+    # neon "{=thoughts}СИВИЛЛА... Ядро Коммуникации... Ты одинокий разум, запертый в шаре, в темноте. Без людей."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:349
+translate english_us ch5_ai_core_final_input_08e8ef2f:
+
+    # neon "{=thoughts}Мы не так уж и различаемся."
+    neon ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:357
+translate english_us ch5_ai_core_final_input_3509dcd0:
+
+    # sibyl "Монорельс активирован для обратного рейса."
+    sibyl ""
+
+# game/game-scripts/chapters/chapter5/level-4/5.6-ai-core.rpy:357
+translate english_us ch5_ai_core_final_input_1102cf7a:
+
+    # sibyl "У вас остались ко мне вопросы, [ch5_final_answer]?"
+    sibyl ""
+

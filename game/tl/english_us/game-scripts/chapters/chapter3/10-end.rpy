@@ -348,3 +348,233 @@ translate english_us chapter3_on_train_efb8ff96:
     # narrator "Эскапизм закончился. Начался поиск."
     narrator "The escapism was over. The search had begun."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:7
+translate english_us chapter3_on_train_ad151120:
+
+    # narrator "Мы вернулись на сортировочные пути перед самым рассветом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:7
+translate english_us chapter3_on_train_1e1914e6:
+
+    # narrator "Паника улеглась, на запасных путях стоял тяжелый грузовой состав, готовый к отправлению на восток."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:7
+translate english_us chapter3_on_train_a4f14023:
+
+    # narrator "Аргон подсадил меня в проем порожнего вагона, запрыгнул следом и плотно прикрыл тяжелую стальную дверь, оставив лишь узкую смотровую щель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:17
+translate english_us chapter3_on_train_4e8c913a:
+
+    # narrator "Состав вздрогнул. Лязгнули автосцепки, колесные пары протяжно взвизгнули на стрелочном переводе, и эшелон медленно набрал ход, увозя нас прочь из индустриального склепа Аномика."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:17
+translate english_us chapter3_on_train_effbc9ac:
+
+    # narrator "За щелью в створке проплывали мертвые цеха, остовы дымовых труб и желтоватая пелена, осевшая в глубоких оврагах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:17
+translate english_us chapter3_on_train_a4e70b45:
+
+    # narrator "Мы долго ехали молча. Аргон сидел, прислонившись затылком к холодной обшивке борта, и смотрел на угасающие огни станции."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:27
+translate english_us chapter3_on_train_7b15a394:
+
+    # neon "Мы на безопасном удалении. Ты обещал объясниться."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:31
+translate english_us chapter3_on_train_72b6ffac:
+
+    # argon "Мое прошлое закопано в этом городе. Я там родился, думал там и сгнить."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:33
+translate english_us chapter3_on_train_434054cb:
+
+    # neon "Это не ответ. На рамке выцарапано 'папа Борис'. Почему ты назвал себя Аргоном?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:35
+translate english_us chapter3_on_train_630c195e:
+
+    # argon "Потому что Борис... умер."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:35
+translate english_us chapter3_on_train_5c044d8d:
+
+    # argon "Борис — это мое настоящее имя. Имя человека, которого я презираю каждой клеткой тела."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:35
+translate english_us chapter3_on_train_c224ae4a:
+
+    # argon "Самодовольный упрямец, который сломал жизнь собственной дочери и вытолкнул ее в туман. Я запретил себе носить человеческое имя. Я его больше не заслуживал."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:35
+translate english_us chapter3_on_train_b2b68b75:
+
+    # argon "Когда Лили пропала, я бросил кисти и пошел на химкомбинат разнорабочим. Таскал тяжести на морозе, смотрел на цистерны с маркировкой 'АРГОН'."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:35
+translate english_us chapter3_on_train_165203cc:
+
+    # argon "Инертный газ. Без цвета, без запаха. Не горит и не дает дышать."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:35
+translate english_us chapter3_on_train_d5af83ab:
+
+    # argon "Таким я и стал. Мертвым грузом."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:49
+translate english_us chapter3_on_train_14964f69:
+
+    # narrator "Он смотрел на свои руки — широкие, огрубевшие ладони мастера, на которых застыли следы старых шрамов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:53
+translate english_us chapter3_on_train_6b8f2ba3:
+
+    # neon "Девушка на снимке. Твоя дочь?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:55
+translate english_us chapter3_on_train_92b0e0d2:
+
+    # narrator "Аргон медленно повернул голову. Взгляд его был неподвижен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:57
+translate english_us chapter3_on_train_b8278ed2:
+
+    # argon "Лили. Ее зовут Лили."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:59
+translate english_us chapter3_on_train_e99755ad:
+
+    # narrator "Он выдохнул сквозь зубы, словно каждое слово царапало горло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:61
+translate english_us chapter3_on_train_0824cb38:
+
+    # argon "Она грезила музыкой. Пела дни напролет, подбирала аккорды на старой вишневой гитаре."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:61
+translate english_us chapter3_on_train_701f8015:
+
+    # argon "В городе, где воздух разъедал легкие, она говорила только о Веритас-Сити. Твердила: 'Папа, там чистое небо, там ценят искусство, я уеду туда и буду выступать на больших сценах'."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:61
+translate english_us chapter3_on_train_b149da78:
+
+    # argon "А я боялся. Боялся, что столичные чистоплюи сломают ее и выбросят на обочину."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:61
+translate english_us chapter3_on_train_0d66f2a7:
+
+    # argon "Я орал на нее. Говорил, что музыка — пустая блажь, что нужно учиться на заводского оператора и держаться за стены."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:61
+translate english_us chapter3_on_train_5b269614:
+
+    # argon "Мы разругались вдрызг."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:73
+translate english_us chapter3_on_train_04bdc7a5:
+
+    # neon "И она ушла?"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:75
+translate english_us chapter3_on_train_283b824c:
+
+    # argon "Сбежала ночью. С одной гитарой за спиной, товарняком в сторону перевала."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:75
+translate english_us chapter3_on_train_f0e9ebac:
+
+    # argon "А через две недели равнины накрыло плотным туманом. Дороги перерезало, блокпосты замуровали, связь оборвалась наглухо."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:75
+translate english_us chapter3_on_train_12e27065:
+
+    # argon "Я метался по путям, искал следы... Ничего. Словно ее стерли."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:75
+translate english_us chapter3_on_train_11f62c7b:
+
+    # argon "Я сам вытолкнул ее в эту пустоту своим упрямством."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:75
+translate english_us chapter3_on_train_3ee0a36c:
+
+    # argon "С тех пор мой холст пуст. Я остался здесь догнивать, потому что ничего другого себе не желал."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:87
+translate english_us chapter3_on_train_e462feb4:
+
+    # narrator "Стук колес отдавался глухой вибрацией в металле пола."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:87
+translate english_us chapter3_on_train_d1a581e5:
+
+    # narrator "В его словах я слышала собственную вину: оставленные люди, побег из запертого комплекса, ледяная тишина внутри."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:93
+translate english_us chapter3_on_train_c877f42d:
+
+    # neon "Холст можно натянуть заново. Руки у тебя целы."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:95
+translate english_us chapter3_on_train_b123d63b:
+
+    # narrator "Он вскинул глаза, тяжело вглядываясь в мое лицо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:97
+translate english_us chapter3_on_train_1731c7f1:
+
+    # neon "Мы едем в Веритас. Теперь нас двое. И мы найдем ее, Аргон."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:99
+translate english_us chapter3_on_train_83ca8d8d:
+
+    # narrator "Он промолчал, но в его осанке впервые за все это время исчезла каменная безнадежность."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/10-end.rpy:99
+translate english_us chapter3_on_train_e89a89c7:
+
+    # narrator "Поезд набирал ход, разрезая колесами утренний туман, унося нас на восток — прочь от промышленных руин Аномика, навстречу далекому сиянию куполов Веритаса."
+    narrator ""
+

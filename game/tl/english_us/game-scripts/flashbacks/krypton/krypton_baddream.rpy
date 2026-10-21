@@ -86,3 +86,71 @@ translate english_us chapter1_krypton_baddream_26c57e1d:
     # narrator "Неон потянулась в ответ, чувствуя, как тепло чужой ладони касается её пальцев..."
     narrator "And i reached out in response, feeling the warmth of a stranger's palm touching my fingers..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:6
+translate english_us chapter1_krypton_baddream_f99dfc45:
+
+    # narrator "Тьма под сомкнутыми веками дышала весенней оттепелью: сырой землей, первыми цветами, нагретым солнцем гранитом."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:6
+translate english_us chapter1_krypton_baddream_a5a0f0ac:
+
+    # narrator "Сквозь темноту проступили мягкие акварельные пятна, собираясь в до боли знакомый силуэт."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:6
+translate english_us chapter1_krypton_baddream_f8729335:
+
+    # narrator "Пышные пряди — черные и ослепительно белые, переплетенные, словно клавиши рояля. Снег и полночь."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:6
+translate english_us chapter1_krypton_baddream_b4b1ac50:
+
+    # narrator "Она обернулась ко мне."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:19
+translate english_us chapter1_krypton_baddream_ff520b95:
+
+    # "???" "Неон! Ну где ты ходишь?"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:21
+translate english_us chapter1_krypton_baddream_eef06ce9:
+
+    # narrator "Ее голос звучал кристально чисто, без единой помехи."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:23
+translate english_us chapter1_krypton_baddream_2b735d51:
+
+    # "???" "Слышишь колокола? Лекции закончились! Идем в парк, пожалуйста?"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:25
+translate english_us chapter1_krypton_baddream_862f595c:
+
+    # neon "{=thoughts}В парк... С тобой — хоть на край света.{/thoughts}"
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:29
+translate english_us chapter1_krypton_baddream_3abf5ade:
+
+    # "???" "На улице такое солнце... Я так тебя ждала."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:31
+translate english_us chapter1_krypton_baddream_d3d634d2:
+
+    # narrator "Она протянула мне раскрытую ладонь."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/krypton_baddream.rpy:31
+translate english_us chapter1_krypton_baddream_e64b9ee8:
+
+    # narrator "Я подалась вперед, пальцы почти коснулись её тепла..."
+    narrator ""
+

@@ -294,3 +294,173 @@ translate english_us nightmare_sequence_0280aab9:
     # narrator "А меня выбрасывает из сна, как пробку из бутылки. Вспышка синего света..."
     narrator "And I'm thrown out of the dream like a cork from a bottle. A flash of blue light..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:7
+translate english_us nightmare_sequence_594613d2:
+
+    # narrator "Горная деревушка встретила меня глухой, могильной тишиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:7
+translate english_us nightmare_sequence_9980166f:
+
+    # narrator "Узкие кривые улочки жались к склону, зажатые между трехэтажными домами из темного грубого камня. Оконные ставни везде были заколочены или плотно пригнаны на ночь, отсекая промозглый сквозняк ущелья."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:7
+translate english_us nightmare_sequence_475f34a0:
+
+    # narrator "Ни огонька в мансардах, ни лая дворовых псов, ни шороха шин по мокрому гравию. Лишь монотонный перестук дождевых капель, срывающихся с медных водосточных желобов на щербатый булыжник под ногами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:17
+translate english_us nightmare_sequence_d832104a:
+
+    # narrator "На перекрестках тускло гудели круглые плафоны уличных фонарей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:17
+translate english_us nightmare_sequence_b7892a82:
+
+    # narrator "Старые натриевые лампы заливали переулки резким, болезненным янтарным светом, выхватывая из темноты слоистую влажную взвесь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:17
+translate english_us nightmare_sequence_050871ed:
+
+    # narrator "В этих конусах искусственного свечения белесая пелена казалась тяжелой, густой и ядовито-желтой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:25
+translate english_us nightmare_sequence_aa437623:
+
+    # neon "{=thoughts}Желтый... туман?!{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:27
+translate english_us nightmare_sequence_cac51d43:
+
+    # narrator "Легкие сдавило судорогой. Пальцы сами собой взметнулись к лицу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:27
+translate english_us nightmare_sequence_223340bc:
+
+    # narrator "В ушах набатом зазвучал сорванный, дрожащий голос Алекс из коридора лаборатории: \n 'Желтый Туман подобрался к границам кантона... Он разъедает фильтры... Эвакуация...'"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:27
+translate english_us nightmare_sequence_bc3295a3:
+
+    # narrator "Неужели токсин прорвался сюда?! Прямо в жилые долины?!"
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:27
+translate english_us nightmare_sequence_92d8c8b5:
+
+    # narrator "Я вжалась лопатками в ледяную шершавую кладку стены, натянула мокрый ворот халата до самых глаз и зажмурилась, панически удерживая остатки воздуха в груди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:38
+translate english_us nightmare_sequence_c7cbff73:
+
+    # narrator "Секунды падали медленно, как стылые капли с крыши. В висках стучала кровь, кислородное голодание жгло трахею."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:38
+translate english_us nightmare_sequence_c6e644b9:
+
+    # narrator "Не выдержав, я сделала крошечный, осторожный вдох через плотную ткань."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:38
+translate english_us nightmare_sequence_d7a556c1:
+
+    # narrator "Обоняние не уловило ни едкой серы, ни кислотного привкуса, ни запаха щелочи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:38
+translate english_us nightmare_sequence_4e4da428:
+
+    # narrator "Обычная влажная прохлада альпийской ночи. Прелые листья, сырой известняк и остывающий асфальт."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:48
+translate english_us nightmare_sequence_ee106798:
+
+    # neon "{=thoughts}Натрий... Лампы высокого давления... Спектральная линия дублета на пятистах восьмидесяти девяти нанометрах... Банальное рассеяние Рэлея на водяных микрокаплях.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:50
+translate english_us nightmare_sequence_01b033df:
+
+    # narrator "Я опустила руку и шумно перевела дыхание, чувствуя, как по шее сбегает холодная струйка пота."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:50
+translate english_us nightmare_sequence_ff505e33:
+
+    # narrator "Фух. Обычный оптический обман. Физика атмосферы, не более."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:50
+translate english_us nightmare_sequence_99ee8e96:
+
+    # narrator "Алекс, как всегда, поддалась стадному психозу. Начиталась панических анонимных сливов на форумах и приняла сезонный застойный смог из низинных долин за конец света."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:50
+translate english_us nightmare_sequence_b8171cf5:
+
+    # narrator "Людям свойственно плодить апокалиптические мифы вокруг любого редкого атмосферного явления, стоит им забыть школьный курс спектроскопии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:60
+translate english_us nightmare_sequence_e94d4d69:
+
+    # narrator "Впрочем, моя физическая реальность от этого не стала легче."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:60
+translate english_us nightmare_sequence_316ebae1:
+
+    # narrator "Одежда промокла насквозь, холод добрался до самых костей, а челюсти сводило мелкой судорогой. Стучаться в чужие дома беглянке в изодранном лабораторном халате и босиком было чистым безумием: добропорядочные швейцарцы первым делом нажали бы кнопку вызова полиции."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:60
+translate english_us nightmare_sequence_fdd92818:
+
+    # narrator "Прижимаясь к заборам, я брела вдоль центрального переулка вверх по подъему, пока плотная застройка не оборвалась у самого подножия отвесной скалы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:70
+translate english_us nightmare_sequence_051b8fb2:
+
+    # narrator "Прямо в массиве чернел арочный створ старого штольного прохода."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:70
+translate english_us nightmare_sequence_c4f2c954:
+
+    # narrator "Я шагнула под свод, спасаясь от ледяной мороси. Десяток шагов в темноту по скользким шпалам — и вдруг гранитные стены туннеля мягко озарились впереди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:70
+translate english_us nightmare_sequence_6a1a44d3:
+
+    # narrator "Глубина проема не тонула во тьме."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:70
+translate english_us nightmare_sequence_f35f9ff1:
+
+    # narrator "Напротив: скопившийся там плотный пар светился ровным, мягким молочным сиянием, словно за каменной толщей наступил ясный солнечный полдень."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/3-nightmare.rpy:70
+translate english_us nightmare_sequence_aff24919:
+
+    # narrator "Сбитая с толку этим невозможным теплым заревом, я прибавила шаг, торопясь выйти навстречу свету."
+    narrator ""
+

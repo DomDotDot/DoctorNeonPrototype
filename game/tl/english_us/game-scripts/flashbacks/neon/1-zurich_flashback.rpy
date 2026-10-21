@@ -239,3 +239,227 @@ translate english_us zurich_university_flashback_1_a38aee71:
 
     # narrator "Голоса Анны и Софи растворились в тишине библиотеки комплекса Гелиос. Запах коридора сменился запахом старых отчетов и кофе."
     narrator "The voices of Anna and Sophie dissolved into the silence of the Helios complex library. The scent of the hallway was replaced by the smell of old reports and coffee."
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_c3458761:
+
+    # narrator "Пять лет назад. Цюрихский университет."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_5a1c215e:
+
+    # narrator "Старинная полукруглая аудитория, пахнущая меловой пылью, вековым дубом и сыростью осеннего дождя за стрельчатыми окнами."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_c84f282a:
+
+    # narrator "Профессор Штайнер — сухой старик с профилем альпийского утеса — выводил на доске гигантские тензорные матрицы. Математика оставалась моим единственным надежным языком."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_a9c9c677:
+
+    # narrator "Мои волосы тогда отливали густым темным индиго."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_d51ef2bf:
+
+    # narrator "Я до боли сжимала зубами кончик копеечной ручки, ловя ускользающую мысль в потоке уравнений. А вокруг кипела студенческая жизнь: шелест тетрадей, чужой шепот, смешки, скрип подошв..."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_f4c57df0:
+
+    # narrator "Я укрывалась за стеной формул, оберегая свой персональный вакуум."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_45188da6:
+
+    # narrator "Казалось, страшнее приближающейся сессии нет ничего на свете. Наивные времена..."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_dd1ff0e1:
+
+    # narrator "И все же иногда, в полумраке лекционного зала, сквозь гул аудитории до меня доносилось странное ощущение тепла."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:6
+translate english_us zurich_university_flashback_1_6c00b73a:
+
+    # narrator "Словно кто-то напевал нежную, кристально чистую тему, предназначенную мне одной."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:31
+translate english_us zurich_university_flashback_1_77a36f09:
+
+    # narrator "Порой эта хрупкая броня рушилась под напором чужих жизней."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:31
+translate english_us zurich_university_flashback_1_5e67cc9a:
+
+    # narrator "Вечер. Душный, пропахший жареным луком коридор университетского общежития. Я только ввалилась с пар: плечи ломило от тяжелого рюкзака с фолиантами по квантовой механике."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:31
+translate english_us zurich_university_flashback_1_3b8112fa:
+
+    # narrator "Я нагнулась, пытаясь распутать мокрый узел на старом кеде. Окоченевшие пальцы с трудом слушались."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:31
+translate english_us zurich_university_flashback_1_4635dc2d:
+
+    # narrator "И тут соседняя дверь с грохотом распахнулась. На пороге возникли Анна и Софи."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:44
+translate english_us zurich_university_flashback_1_e1ab2c35:
+
+    # narrator "Анна — вихрастая, рыжая фурия в безразмерной футболке панк-группы — буквально фонтанировала энергией."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:46
+translate english_us zurich_university_flashback_1_6e28de9e:
+
+    # anna "Неон! Ну наконец-то! Мы тебя битый час под дверью караулим!"
+    anna ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:50
+translate english_us zurich_university_flashback_1_487fc158:
+
+    # narrator "Не успела я выпрямиться, как ее цепкие пальцы впились мне в плечи."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:54
+translate english_us zurich_university_flashback_1_79d32c37:
+
+    # anna "Хватит плесневеть над конспектами! Сегодня у биологов грандиозная тусовка! Там будет Юлик с параллельного потока, он весь день про тебя выспрашивал!"
+    anna ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:54
+translate english_us zurich_university_flashback_1_2a4c234d:
+
+    # anna "Короче: ты идешь с нами. Возражения не принимаются!"
+    anna ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:60
+translate english_us zurich_university_flashback_1_8c39d668:
+
+    # neon "Анна, я же просила... не хватай меня так внезапно...{nw}"
+    neon ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:62
+translate english_us zurich_university_flashback_1_6e1cb278:
+
+    # sophie "Да брось, Неон! Ты всю неделю безвылазно торчишь у своих телескопов. Тебе на свежий воздух пора!"
+    sophie ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:62
+translate english_us zurich_university_flashback_1_f7287033:
+
+    # sophie "В зеркало на себя глянь — бледная как смерть! Если не выберешься к людям, так и засохнешь в обнимку со штативом!"
+    sophie ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:68
+translate english_us zurich_university_flashback_1_24c8fed4:
+
+    # narrator "Они тараторили наперебой, захлебываясь собственным восторгом."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:68
+translate english_us zurich_university_flashback_1_00b67596:
+
+    # narrator "Для них это было искренней дружеской заботой."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:68
+translate english_us zurich_university_flashback_1_b8d3d35c:
+
+    # narrator "Но для меня, вжатой в угол узкого коридора, их голоса гремели артиллерийской канонадой. Слишком шумно. Слишком напористо. Слишком много чужого дыхания и требований."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:68
+translate english_us zurich_university_flashback_1_3b5912d3:
+
+    # narrator "Мне хотелось раствориться в воздухе, стать невидимкой, укрыться за надежным плечом того, кто мог бы отвести эту лавину..."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:78
+translate english_us zurich_university_flashback_1_8e52c34e:
+
+    # neon "{=whisper}Девочки... пожалуйста... я не могу сегодня. Мне нужно досчитать..."
+    neon ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:80
+translate english_us zurich_university_flashback_1_83775754:
+
+    # anna "Да брось ты свои расчеты! Звезды твои миллион лет висели и еще повисят, а молодость проходит прямо сейчас!"
+    anna ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:82
+translate english_us zurich_university_flashback_1_476cf02d:
+
+    # sophie "Вот именно! Мы же добра тебе желаем! Пошли, будет весело!"
+    sophie ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:84
+translate english_us zurich_university_flashback_1_6d08710c:
+
+    # narrator "Анна потянула меня за рукав куртки, пытаясь силой вытащить наружу."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:84
+translate english_us zurich_university_flashback_1_d667ec04:
+
+    # narrator "Горло перехватило спазмом, к вискам подкатила дурнота."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:84
+translate english_us zurich_university_flashback_1_afcbac01:
+
+    # narrator "'Толпа'. 'Танцы'. 'Орущая колонка'. Каждое слово отдавалось физической тошнотой."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:92
+translate english_us zurich_university_flashback_1_6ab5ec8c:
+
+    # neon "{=thoughts}Нет... пустите... там слишком душно... я задохнусь..."
+    neon ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:96
+translate english_us zurich_university_flashback_1_6d4cbf92:
+
+    # narrator "И вдруг сквозь эту суматоху и назойливый гам подруг... внутри щелкнул невидимый тумблер."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:96
+translate english_us zurich_university_flashback_1_8ef67d24:
+
+    # narrator "Словно кто-то нажал клавишу воспроизведения на старом магнитофоне."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:105
+translate english_us zurich_university_flashback_1_d8bc36e6:
+
+    # narrator "Тихий, невероятно чистый шепот прорезал гам, донесясь из солнечного прошлого."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:109
+translate english_us zurich_university_flashback_1_5cd8db61:
+
+    # neon "{=thoughts}Что...?"
+    neon ""
+
+# game/game-scripts/flashbacks/neon/1-zurich_flashback.rpy:119
+translate english_us zurich_university_flashback_1_995c5986:
+
+    # narrator "Голоса Анны и Софи растаяли без следа, уступив место строгой прохладе библиотеки 'Гелиоса'. Аромат общежития сменился сухим духом книжного переплета."
+    narrator ""
+

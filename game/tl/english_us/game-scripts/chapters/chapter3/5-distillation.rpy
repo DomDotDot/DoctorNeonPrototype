@@ -374,3 +374,347 @@ translate english_us ch3_part3_chemistry_and_cooperation_118e2685:
     # neon "Не магия, а химия. Мне нужны три вещи: источник сахара, дрожжи и что-то, из чего можно собрать перегонный аппарат. Если они есть на этом заводе, у вас будет ваш напиток."
     neon "Magic? That's chemistry. I need three things: a source of sugar, yeast, and something to build a still from. If they're in this factory, you'll have your drink."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:3
+translate english_us ch3_part3_chemistry_and_cooperation_51e93129:
+
+    # narrator "Художник отложил кисть на заляпанную маслом табуретку и скрестил руки на груди."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:7
+translate english_us ch3_part3_chemistry_and_cooperation_7735b4d8:
+
+    # neon "Мне нужны три вещи: сбраживаемое углеводное сырье, жизнеспособные дрожжи и лабораторное стекло для сборщика дистилляционной колонны."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:7
+translate english_us ch3_part3_chemistry_and_cooperation_3232d48d:
+
+    # neon "Если на комбинате уцелели запасы, к вечеру я выдам чистый медицинский этанол."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:13
+translate english_us ch3_part3_chemistry_and_cooperation_8ec3aab8:
+
+    # argon "Размах солидный."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:13
+translate english_us ch3_part3_chemistry_and_cooperation_2384dbb7:
+
+    # argon "Только этот комбинат мародерят уже пятый год. Всё, что можно было проглотить или утащить, выгребли в первые месяцы."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:13
+translate english_us ch3_part3_chemistry_and_cooperation_8894c5fe:
+
+    # argon "Нянчиться с тобой я не собираюсь. Но пальцем ткнуть могу."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:13
+translate english_us ch3_part3_chemistry_and_cooperation_228ce9d5:
+
+    # argon "Спрашивай, если память еще держит планировку."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:29
+translate english_us ch3_ingredient_hunt_0142cfe5:
+
+    # argon "Сахар... В южном крыле находился цех фабрикатов и сухих пайков."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:29
+translate english_us ch3_ingredient_hunt_62973d9a:
+
+    # argon "Там стояли фасовочные бункеры для заводских столовых. После закрытия цех разнесли подчистую, но в завалах нижнего яруса мародеры могли что-то пропустить."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:34
+translate english_us ch3_ingredient_hunt_13701f60:
+
+    # narrator "Южное крыло, фасовочный цех. Первая точка на карте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:38
+translate english_us ch3_ingredient_hunt_403f205b:
+
+    # argon "Пекарских здесь отродясь не водилось."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:38
+translate english_us ch3_ingredient_hunt_2b387cef:
+
+    # argon "Разве что в административном корпусе, на первом этаже... Там работал медицинский изолятор и аптечный склад."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:38
+translate english_us ch3_ingredient_hunt_167434be:
+
+    # argon "Рабочим для поддержки иммунитета выдавали витаминные препараты на сухих пивных культурах. Пошарь по шкафам в процедурной."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:45
+translate english_us ch3_ingredient_hunt_25454ad9:
+
+    # narrator "Медицинский изолятор в административном крыле. Вторая цель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:49
+translate english_us ch3_ingredient_hunt_ea5b03c8:
+
+    # argon "С этим проще всего."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:49
+translate english_us ch3_ingredient_hunt_738a0592:
+
+    # argon "В центральном крыле за бронедверью законсервирована аналитическая лаборатория входного контроля. Бандиты туда не лезли — химикатов боятся, как огня."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:49
+translate english_us ch3_ingredient_hunt_f269de25:
+
+    # argon "Там найдешь термостойкие колбы, змеевики, шлифы и спиртовки. Если руки помнят ремесло — соберешь аппарат за двадцать минут."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:56
+translate english_us ch3_ingredient_hunt_1d960904:
+
+    # narrator "Лаборатория входного контроля. Идеальная технологическая база."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:70
+translate english_us ch3_explore_food_wing_639270c6:
+
+    # neon "Здесь больше нечего искать. Сырье у меня."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_35cf795c:
+
+    # narrator "Южный корпус встретил меня запахом кислого брожения, мокрого картона и ржавчины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_3fb83298:
+
+    # narrator "Конвейерные линии были выворочены с корнем, на полу хрустели горы сплющенных жестяных банок и битый шифер."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_d1dcb69e:
+
+    # narrator "На облупленной несущей балке висел лозунг: 'Аномик — индустриальный щит Востока! Вся выработка — передовому сектору Веритас-Сити!'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_113807b7:
+
+    # narrator "Горькая ирония: этот умирающий гигант когда-то строил сытое благополучие чистых куполов, а теперь брошен гнить в канаве."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_f07aee23:
+
+    # narrator "Я долго пробиралась через завалы, пока в дальнем тупике под рухнувшим металлическим стеллажом не наткнулась на просмоленный мешок. Ткань окаменела от сырости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_430daf66:
+
+    # narrator "Осколком тяжелого стекла я вспорола плотную мешковину."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:74
+translate english_us ch3_explore_food_wing_6763ce77:
+
+    # narrator "Внутри лежал монолит неочищенного тростникового сахара. От влаги он сплавился в единую глыбу, именно поэтому мародеры не стали тащить этот неподъемный ком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:90
+translate english_us ch3_explore_food_wing_6587561f:
+
+    # narrator "Тяжелым обломком трубы я отколола несколько увесистых кусков и бережно завернула их в найденный кусок чистого брезента."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:98
+translate english_us ch3_explore_admin_wing_3a99000f:
+
+    # neon "Культура дрожжей уже найдена."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_f73d3698:
+
+    # narrator "Административный корпус выглядел памятником внезапной панике."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_a60c0794:
+
+    # narrator "Служебные формуляры устилали пол серой прелой кашей. В кабинетах чернели пустые глазницы выбитых оконных рам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_217fd6bf:
+
+    # narrator "Я нашла медицинский отсек. Дверь висела на одной петле."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_561b485c:
+
+    # narrator "На стене уцелела пожелтевшая инструкция ГО: '...при признаках запыления взвесью немедленно герметизировать дыхательные пути, избегать физической активности...'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_ec7415c5:
+
+    # narrator "Люди прекрасно понимали, что приближается их конец."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_cbc28018:
+
+    # narrator "Я методично вскрывала настенные шкафчики. В одном из них, завалившемся за смотровую кушетку, обнаружилась запечатанная металлическая банка с армейской пломбой:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:102
+translate english_us ch3_explore_admin_wing_304bfae3:
+
+    # narrator "'Сухая витаминизированная дрожжевая культура для рабочих горячих цехов'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:118
+translate english_us ch3_explore_admin_wing_8f646da7:
+
+    # narrator "Контейнер сохранил герметичность. Дрожжевой субстрат готов к активации."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:124
+translate english_us ch3_explore_chem_lab_d97d7842:
+
+    # neon "Я пока не сформировала перечень необходимых приборов."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:131
+translate english_us ch3_explore_chem_lab_f15220ff:
+
+    # narrator "Лаборатория на третьем этаже словно застыла во времени."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:131
+translate english_us ch3_explore_chem_lab_62324911:
+
+    # narrator "На столах из кислотоупорной плитки рядами стояли штативы, пустые бюретки и колбы с засохшим кристаллическим осадком. На графитовой доске сохранились недописанные химические уравнения."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:131
+translate english_us ch3_explore_chem_lab_80ed873a:
+
+    # narrator "Здесь царил привычный дух настоящей науки. На мгновение меня захлестнула щемящая тоска по обсерватории Гелиоса."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:131
+translate english_us ch3_explore_chem_lab_2744fae2:
+
+    # narrator "Я быстро отобрала нужные элементы: двухгорлую круглодонную колбу из термостойкого боросиликатного стекла, змеевиковый холодильник Либиха, соединительные шлифы и спиртовую горелку с запасом сухого горючего."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:131
+translate english_us ch3_explore_chem_lab_53e9034b:
+
+    # narrator "Простейший ректификатор был почти готов к сборке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:144
+translate english_us ch3_explore_chem_lab_78d38677:
+
+    # narrator "Все исходные компоненты собраны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:147
+translate english_us ch3_explore_chem_lab_496ed524:
+
+    # narrator "Не хватает оставшихся ингредиентов. Нужно вернуться в коридор и завершить поиск."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:154
+translate english_us ch3_distillation_start_52874929:
+
+    # narrator "Внезапно со стороны главного входа донесся глухой рев дизельных моторов. Скрипнули тормоза тяжелых грузовиков, в переходах послышались командные выкрики."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:154
+translate english_us ch3_distillation_start_bca007f5:
+
+    # narrator "Динамик интеркома под потолком лаборатории с треском ожил."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:154
+translate english_us ch3_distillation_start_939f67ed:
+
+    # narrator "Из сетки полился резкий, властный голос с железными интонациями человека, привыкшего распоряжаться чужими жизнями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:162
+translate english_us ch3_distillation_start_5f713fa5:
+
+    # boss "Внимание всей смене. Товар прибыл на запасные пути. Всему личному составу — общий сбор в главном холле. Живо."
+    boss ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:164
+translate english_us ch3_distillation_start_8905106c:
+
+    # narrator "В дверном проеме лаборатории бесшумно выросла фигура Художника. Его лицо оставалось непроницаемым."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:170
+translate english_us ch3_distillation_start_cbe0e82c:
+
+    # argon "Похоже, наш чистый спирт придется отложить. Босс вернулся раньше времени."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:172
+translate english_us ch3_distillation_start_f6e5062f:
+
+    # neon "Но мы же договорились... Я нашла все реактивы!"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:174
+translate english_us ch3_distillation_start_da9bf751:
+
+    # argon "У Босса свои планы, и спорить с ними здесь не принято."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:174
+translate english_us ch3_distillation_start_b597654d:
+
+    # argon "Шевелись, ученая. Кажется, сегодня мы оба понадобимся ему живыми."
+    argon ""
+
+# game/game-scripts/chapters/chapter3/5-distillation.rpy:180
+translate english_us ch3_distillation_start_8fcb6a9a:
+
+    # narrator "План тайной перегонки сорвался, не успев начаться. Нас тянуло в самый эпицентр бандитской операции."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/5-distillation.rpy:28
+    old "Спросить про САХАР."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/5-distillation.rpy:37
+    old "Спросить про ДРОЖЖИ."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/5-distillation.rpy:48
+    old "Спросить про ОБОРУДОВАНИЕ ДЛЯ ДИСТИЛЛЯЦИИ."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/5-distillation.rpy:60
+    old "Отправиться на поиски компонентов."
+    new ""
+

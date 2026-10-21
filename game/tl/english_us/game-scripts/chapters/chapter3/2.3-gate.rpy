@@ -146,3 +146,131 @@ translate english_us strings:
     old "Вернуться в холл."
     new "Return to the hall."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:2
+translate english_us ch3_gate_menu_88f02a4f:
+
+    # narrator "Массивная железная решетка перегораживала проход вглубь производственного корпуса. Из темноты за ней тянуло сыростью и сквозняком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:5
+translate english_us ch3_gate_menu_7b0fb4ce:
+
+    # narrator "Я ухватилась за край истлевшей ткани и резко дернула на себя."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:5
+translate english_us ch3_gate_menu_ec57824a:
+
+    # narrator "С сухим треском брезент оторвался от проволочных скруток, подняв клубы рыжей пыли. Плотное, тяжелое полотнище — в моих руках это вполне подходящий инструмент, чтобы ослепить часового."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:11
+translate english_us ch3_gate_menu_dc40d6ea:
+
+    # "Вы получили {b}Тяжелый брезент{/b}."
+    ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:15
+translate english_us ch3_gate_menu_157d0bff:
+
+    # narrator "Я отодвинула свисающую ткань."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:15
+translate english_us ch3_gate_menu_1df42986:
+
+    # narrator "Под ней обнаружился массивный реечный механизм: толстые зубчатые колеса и направляющие ролики, намертво схваченные толстой коркой рыжей окалины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:15
+translate english_us ch3_gate_menu_35edfa20:
+
+    # narrator "Решетка вела во внутренние лабораторные и служебные сектора комбината."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:26
+translate english_us ch3_gate_menu_057e6e67:
+
+    # narrator "Я уперлась ладонями в стальные прутья и налегла всем телом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:26
+translate english_us ch3_gate_menu_922833c3:
+
+    # narrator "Металл протестующе скрипнул, створка сдвинулась на пару сантиметров и намертво заклинила в пазах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:26
+translate english_us ch3_gate_menu_fc9ed594:
+
+    # narrator "Замка на ней не было — ролики просто намертво пригорели к направляющей от ржавчины. Механизму отчаянно требовалась жидкая техническая смазка."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:36
+translate english_us ch3_gate_menu_1249d0ce:
+
+    # narrator "Верхний направляющий рельс находился высоко."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:36
+translate english_us ch3_gate_menu_0e9e2b2a:
+
+    # narrator "Используя поперечные прутья как ступени, я взобралась на полметра от пола и дотянулась до зубчатой передачи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:36
+translate english_us ch3_gate_menu_1614b8ee:
+
+    # narrator "Откупорив канистру, я щедро залила густое темное масло на шестерни, ролики и заклинивший ползун."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:36
+translate english_us ch3_gate_menu_d2e0640f:
+
+    # narrator "Смазка медленно заполнила сухие зазоры."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:36
+translate english_us ch3_gate_menu_eb434d00:
+
+    # narrator "Спрыгнув на кафель, я снова навалилась плечом на решетку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:47
+translate english_us ch3_gate_menu_9013a49a:
+
+    # narrator "С тяжелым, глухим скрежетом металл тронулся с места."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:47
+translate english_us ch3_gate_menu_f620c2cc:
+
+    # narrator "Створка медленно отъехала ровно настолько, чтобы сквозь образовавшийся проем можно было протиснуться внутрь темного коридора."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.3-gate.rpy:52
+translate english_us ch3_gate_menu_e91537b3:
+
+    # neon "{=thoughts}Есть проход. Теперь нужно найти того, что здесь так сильно хотят спрятать.{/thoughts}"
+    neon ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.3-gate.rpy:4
+    old "Сорвать пыльный брезент."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.3-gate.rpy:14
+    old "Осмотреть запорный механизм."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.3-gate.rpy:25
+    old "Попытаться сдвинуть решетку."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.3-gate.rpy:59
+    old "Отойти в главный холл."
+    new ""
+

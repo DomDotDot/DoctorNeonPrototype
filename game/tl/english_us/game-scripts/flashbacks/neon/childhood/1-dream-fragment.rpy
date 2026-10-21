@@ -138,3 +138,113 @@ translate english_us dream_sequence_japan_1_51bd816e:
     # neon "{=whisper}Обещаю, мама."
     neon "{=whisper}I promise, Mom."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:7
+translate english_us dream_sequence_japan_1_db33465f:
+
+    # narrator "Сон утянул меня в глубину — прочь от железного дребезжания рессор, прочь от сырого бензинового чада. Туда, где память была стерта добела, но чувства безошибочно узнавали каждый шорох."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:13
+translate english_us dream_sequence_japan_1_fd050824:
+
+    # narrator "Я сижу на нагретых досках веранды энгава, свесив босые ноги к мягкой траве сада."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:13
+translate english_us dream_sequence_japan_1_37daa881:
+
+    # narrator "В пальцах — деревянная расписная куколка кокеси. В воздухе плывет тонкий, смолистый аромат прогретого кедра и цветущих деревьев, а в кронах сосен не смолкает ленивый стрекот цикад."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:13
+translate english_us dream_sequence_japan_1_66da5e65:
+
+    # narrator "Рядом на циновке сидит мама. Тонкие лучики морщинок у ее глаз лучатся тихим, безмятежным теплом. Она протягивает мне широкую пиалу с темным ячменным чаем."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:22
+translate english_us dream_sequence_japan_1_07e653c7:
+
+    # akane "Выпей, ■■■■■■. Чай холодный, а день сегодня такой знойный."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:24
+translate english_us dream_sequence_japan_1_d35b2d36:
+
+    # narrator "Я принимаю глиняную чашу. Мамины пальцы мягкие, живые и надежные. Рядом с ней мир кажется прочным и нерушимым."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:26
+translate english_us dream_sequence_japan_1_94ad87a6:
+
+    # akane "Осторожно, ■■■■■■, не расплескай."
+    akane ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:28
+translate english_us dream_sequence_japan_1_709c4254:
+
+    # narrator "Чуть поодаль, в тени бамбуковой рощицы, отец неторопливо подправляет плетень. Он отрывается от работы, ловит мой взгляд и молча, ободряюще кивает."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:32
+translate english_us dream_sequence_japan_1_96568acc:
+
+    # narrator "По дорожке из белого гравия неслышно ступает гостья."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:32
+translate english_us dream_sequence_japan_1_0216d099:
+
+    # narrator "Высокая, прямая женщина в строгом темном кимоно с неброским узором на рукаве. Мама зовет ее давней подругой дома, а для меня она — просто немногословная, строгая тетя, приезжавшая в гости редкими летними вечерами."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:41
+translate english_us dream_sequence_japan_1_e61d8c01:
+
+    # narrator "Она держится с безупречной осанкой, не позволяет себе лишней улыбки, но в том, как аккуратно она принимает пиалу двумя пальцами, чувствуется глубинное, невысказанное внимание."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:41
+translate english_us dream_sequence_japan_1_f801784e:
+
+    # narrator "Мы сидим вчетвером на краю веранды. Пьем чай мелкими глотками и смотрим, как легкий сквозняк кружит опавшие лепестки."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:52
+translate english_us dream_sequence_japan_1_d6d3231a:
+
+    # narrator "Покой обрывается внезапно."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:52
+translate english_us dream_sequence_japan_1_e191244b:
+
+    # narrator "В бамбуковую калитку без стука входят чужие люди в глухих черных одеждах. Их шаги звучат тяжело и безжалостно по гравию. Тетя медленно отставляет чашу, встает и делает шаг к ним навстречу."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:52
+translate english_us dream_sequence_japan_1_ecf73465:
+
+    # narrator "Воздух словно вымораживает изнутри. Я вцепляюсь в плотный шелк маминого рукава; дыхание сбивается на судорожный хрип."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:61
+translate english_us dream_sequence_japan_1_8432f2b1:
+
+    # akane worried "{=whisper}Не бойся, ■■■■■■. Это соратники тети. Они пришли по неотложному делу."
+    akane worried ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:63
+translate english_us dream_sequence_japan_1_c68e8d02:
+
+    # narrator "Отец опускает инструмент; его руки замирают по швам, спина выпрямляется в натянутую тетиву. Мама решительно закрывает меня собой, оттесняя к раздвижным дверям дома."
+    narrator ""
+
+# game/game-scripts/flashbacks/neon/childhood/1-dream-fragment.rpy:65
+translate english_us dream_sequence_japan_1_5489a96d:
+
+    # akane "{=whisper}Всё образуется, слышишь? Будь сильной. Пообещай мне."
+    akane ""
+

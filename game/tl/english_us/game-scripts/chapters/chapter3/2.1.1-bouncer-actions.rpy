@@ -208,3 +208,179 @@ translate english_us strings:
     old "Вернуться."
     new "Go back."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:24
+translate english_us ch3_bouncer_plead_c44617d5:
+
+    # "Часовой" "Гатс велел сидеть на месте. Значит, будешь сидеть."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:26
+translate english_us ch3_bouncer_plead_8eafee27:
+
+    # neon neutral "Я не собираюсь устраивать проблем. Просто откройте калитку."
+    neon neutral ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:27
+translate english_us ch3_bouncer_plead_06fdd3f6:
+
+    # "Часовой" "Проблемы у тебя начнутся прямо сейчас, если не закроешь рот. Назад."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:29
+translate english_us ch3_bouncer_plead_6c145c3c:
+
+    # neon pouty "Мы можем договориться. Я ученый, я могу быть полезной..."
+    neon pouty ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:30
+translate english_us ch3_bouncer_plead_f65ea065:
+
+    # "Часовой" "Проваливай, пока я считаю до трех."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:32
+translate english_us ch3_bouncer_plead_1edd4fd2:
+
+    # neon pouty "Еще раз прошу..."
+    neon pouty ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:33
+translate english_us ch3_bouncer_plead_91b15b07:
+
+    # "Часовой" "..."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:34
+translate english_us ch3_bouncer_plead_43a05dad:
+
+    # narrator "Он даже не повернул головы. Тяжелый каменный взгляд уперся в противоположную стену. Уговоры здесь бессильны."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:42
+translate english_us ch3_provoke_verbal_ca3b97ca:
+
+    # "Часовой" "Чего уставилась, умница?"
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:44
+translate english_us ch3_provoke_verbal_05c890cf:
+
+    # "Часовой" "Ч-чего? Кончай умничать, а то я тебе твою гипотезу в глотку засуну."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:45
+translate english_us ch3_provoke_verbal_11d9005c:
+
+    # narrator "Жвачка в его челюстях замерла, кулаки сжались. Первый укол попал в цель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:52
+translate english_us ch3_provoke_secret_8434ee7f:
+
+    # neon @ smirk "Как там твоя дочь? Туман уже выжег легкие, или она всё еще лежит в коме?"
+    neon @ smirk ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:53
+translate english_us ch3_provoke_secret_aa662e52:
+
+    # "Часовой" "Что ты вякнула?!"
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:54
+translate english_us ch3_provoke_secret_4ad3ac1e:
+
+    # neon "Думаешь, Гатс спасет ее на свои копейки? Он платит тебе крохами 'Сна', чтобы держать на коротком поводке. Ты сгниешь здесь раньше, чем накопишь на лекарство."
+    neon ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:55
+translate english_us ch3_provoke_secret_5b1756e6:
+
+    # narrator "Удар пришелся точно в незащищенное место. Обветренное лицо перекосило от ярости."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:56
+translate english_us ch3_provoke_secret_b5ee302c:
+
+    # "Часовой" "ЗАТКНИСЬ, ТВАРЬ!"
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:61
+translate english_us ch3_provoke_sheet_a14076d0:
+
+    # narrator "Я подошла к нему вплотную, пряча тяжелый пыльный брезент за спиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:64
+translate english_us ch3_provoke_sheet_92026f8c:
+
+    # narrator "Резким движением я вскинула руки и набросила грубую ткань прямо ему на голову."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:65
+translate english_us ch3_provoke_sheet_3911d896:
+
+    # "Часовой" "Какого черта?!"
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:66
+translate english_us ch3_provoke_sheet_b6ad7833:
+
+    # narrator "Великан взревел, вслепую размахивая ручищами и сдирая с лица запутавшуюся дерюгу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:67
+translate english_us ch3_provoke_sheet_c5edca2b:
+
+    # narrator "Я рванула к боковому выходу, но тяжелая ладонь вцепилась в ворот моего халата. Меня с рывком оторвало от бетонного пола."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:70
+translate english_us ch3_provoke_sheet_fed05215:
+
+    # "Часовой" "СЛУШАЙ СЮДА. ЕЩЕ РАЗ ДЕРНЕШЬСЯ — ВЫБРОШУ В ОКНО ПРЯМО В ТУМАН. БОСС ДАЖЕ НЕ СПРОСИТ."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:71
+translate english_us ch3_provoke_sheet_629822f6:
+
+    # "Часовой" "УЯСНИЛА?!" with vpunch
+    "Часовой" "" with vpunch
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:72
+translate english_us ch3_provoke_sheet_af087946:
+
+    # narrator "Он с размаху опустил меня на ноги. В глазах потемнело от удара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:73
+translate english_us ch3_provoke_sheet_25a79a77:
+
+    # "Часовой" "...тебе повезло, что глаза у тебя такие же, как у нее..."
+    "Часовой" ""
+
+# game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:74
+translate english_us ch3_provoke_sheet_80838034:
+
+    # narrator "Он сплюнул под ноги и вернулся на позицию у створки. Он был на взводе. Еще одно усилие — и он окончательно потеряет самообладание."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:9
+    old "Прощупать слабые места верзилы."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:12
+    old "Набросить брезент на часового."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:15
+    old "Сказать о его дочери."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1.1-bouncer-actions.rpy:18
+    old "Отойти назад в тень."
+    new ""
+

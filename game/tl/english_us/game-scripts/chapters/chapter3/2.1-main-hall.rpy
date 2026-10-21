@@ -148,3 +148,129 @@ translate english_us ch3_hall_explore_a509d8ca:
     # neon "{=thoughts}Жирные линии находятся над цифрами {b}1{/b}, {b}9{/b}, {b}8{/b} и {b}4{/b}. Остальные линии тонкие. Это похоже на шифр. Евгений Петров, старший химик..."
     neon "{=thoughts}The thick lines are above the numbers {b}1{/b}, {b}9{/b}, {b}8{/b}, and {b}4{/b}. The rest of the lines are thin. It's a cipher. Evgeny Petrov, senior chemist..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_c10c4374:
+
+    # narrator "Я замерла в тени несущей колонны, оценивая пространство."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_65ca8e8f:
+
+    # narrator "Высокий центральный холл напоминал полуразрушенный вокзал. Бетонные перекрытия потемнели от въевшейся сажи, с балок свисали обрывки кабельных трасс, а сквозь мутные зенитные фонари сочился серый рассвет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_92042e92:
+
+    # narrator "По полу тянулись грязные масляные колеи от колес погрузчиков. На облупленных колоннах виднелись старые надписи краской: 'Аномик не сдается', 'Туман съел наши легкие'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_62f93c10:
+
+    # narrator "Слева, в глубине бокового прохода, мерцал рыжий отблеск пламени: там стояла железная бочка, у которой грелись дежурные бандиты."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_29a54028:
+
+    # narrator "Прямо по центру коридор перегораживала тяжелая сдвижная решетка из прутьев, занавешенная истлевшей брезентовой тканью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_3e76095b:
+
+    # narrator "Правее решетки темнел дверной проем, наглухо заваленный массивным металлическим шкафом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_642b0789:
+
+    # narrator "Еще дальше вверх уходила щербатая железобетонная лестница с оторванными перилами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:6
+translate english_us ch3_hall_explore_1c2b1905:
+
+    # narrator "А у главных двустворчатых ворот за моей спиной неподвижной глыбой стоял часовой — тот самый угрюмый верзила."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:27
+translate english_us ch3_hall_explore_99231d84:
+
+    # narrator "Я бесшумно приблизилась к разбитой конторке диспетчера."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:27
+translate english_us ch3_hall_explore_83950711:
+
+    # narrator "Под ногами шуршали обрывки накладных и стеклянная крошка. Под слоем серой цементной пыли что-то тускло блеснуло."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:27
+translate english_us ch3_hall_explore_76f1f418:
+
+    # narrator "Я присела и смахнула грязь. Пластиковый прямоугольник пропуска на витом шнурке. Кто-то обронил его в суматохе эвакуации."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:39
+translate english_us ch3_hall_explore_2ad9f653:
+
+    # narrator "Я поднесла карту ближе к глазам."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:39
+translate english_us ch3_hall_explore_ce3adddc:
+
+    # narrator "Имя: {b}Евгений Петров{/b}. Должность: {b}Ведущий инженер-химик{/b}."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:39
+translate english_us ch3_hall_explore_992b346a:
+
+    # narrator "На тыльной стороне чернела гребенка типографского штрихкода. Несколько вертикальных полос были нарочито утолщены шариковой ручкой — явная ручная пометка владельца."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:39
+translate english_us ch3_hall_explore_3dc107fc:
+
+    # narrator "Толстые линии строго указывали на четыре цифры в нижнем числовом ряду: {b}1{/b}, {b}9{/b}, {b}8{/b}, {b}4{/b}."
+    narrator ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:49
+translate english_us ch3_hall_explore_a0cb6a5a:
+
+    # neon "{=thoughts}1984... Забавно.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:50
+translate english_us ch3_hall_explore_7a774781:
+
+    # narrator "Я спрятала пластик во внутренний карман халата."
+    narrator ""
+
+translate english_us strings:
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:5
+    old "Осмотреться в холле."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:55
+    old "Поговорить с верзилой у ворот."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:58
+    old "Пройти в левое крыло к костру."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:67
+    old "Подойти к двери караульного поста."
+    new ""
+
+    # game/game-scripts/chapters/chapter3/2.1-main-hall.rpy:70
+    old "Подняться по лестнице."
+    new ""
+

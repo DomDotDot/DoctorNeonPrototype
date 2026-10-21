@@ -324,3 +324,239 @@ translate english_us chapter4_5_cafe_scene_d8383301:
     # narrator "Наконец-то..."
     narrator "Finally..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:5
+translate english_us chapter4_5_cafe_scene_44d97679:
+
+    # narrator "Я не оборачивалась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:5
+translate english_us chapter4_5_cafe_scene_abb2ae97:
+
+    # narrator "Холодный утренний ветер бил в лицо. Подошвы стучали по мокрому асфальту узких технических проездов между стерильными фасадами. Через два квартала крики садовника растворились в шуме просыпающегося города."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:5
+translate english_us chapter4_5_cafe_scene_7688b8de:
+
+    # narrator "Нужно было уйти с открытых улиц."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:5
+translate english_us chapter4_5_cafe_scene_d26b3be5:
+
+    # narrator "Пальцы в кармане сжали смартфон Сары. Слова садовника об учетной записи и привязанном счете не выходили из головы. Если этот аппарат принадлежал студентке Академии, ее профиль в городской сети все еще активен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:5
+translate english_us chapter4_5_cafe_scene_6397220b:
+
+    # narrator "Риск был огромным, но желудок скрутило голодной судорогой после бессонной ночи в оранжерее."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:17
+translate english_us chapter4_5_cafe_scene_733b1ead:
+
+    # narrator "На углу жилого сектора я приметила стеклянную вывеску кофейни — 'Сахарная Комета'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:17
+translate english_us chapter4_5_cafe_scene_c66b0022:
+
+    # narrator "Сквозь витрину виднелись ряды мягких диванов, ровный желтый свет и редкие посетители в строгих деловых костюмах. Заведение выглядело достаточно оживленным, чтобы раствориться среди чужих лиц."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:17
+translate english_us chapter4_5_cafe_scene_523d3a9d:
+
+    # narrator "Я толкнула стеклянную дверь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:28
+translate english_us chapter4_5_cafe_scene_ae2dcbf6:
+
+    # narrator "Я выбрала угловой столик у стены, откуда просматривался вход."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:28
+translate english_us chapter4_5_cafe_scene_68629dd9:
+
+    # narrator "Девушка в пастельно-розовом фартуке подошла почти сразу, приветливо улыбаясь дежурной улыбкой сферы услуг."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:34
+translate english_us chapter4_5_cafe_scene_072a820e:
+
+    # "Официантка" "Доброе утро! Готовы сделать заказ?"
+    "Официантка" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:36
+translate english_us chapter4_5_cafe_scene_25266547:
+
+    # neon "Двойной эспрессо. И стандартный утренний сет — что-нибудь горячее."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:40
+translate english_us chapter4_5_cafe_scene_ad66ff4c:
+
+    # "Официантка" "'Галактический завтрак' отлично подойдет. Оплата по ID через панель на столе."
+    "Официантка" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:42
+translate english_us chapter4_5_cafe_scene_312af94a:
+
+    # narrator "Официантка указала на матовый черный квадрат сканера, вмонтированный в лакированную столешницу, и отошла к стойке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:42
+translate english_us chapter4_5_cafe_scene_f5c7921a:
+
+    # narrator "Я вытащила смартфон Сары, открыла вкладку городского идентификатора и опустила экран на сенсор."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:48
+translate english_us chapter4_5_cafe_scene_60b7f6f8:
+
+    # narrator "Короткий щелчок подтверждения. По зеленой рамке панели побежала строка: 'Заказ принят. Сара Кендрик, ID 774-АЕ-9'."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:48
+translate english_us chapter4_5_cafe_scene_a60e60e3:
+
+    # narrator "Сработало. Для цифровой системы города я на этот час стала Сарой Кендрик — послушной учащейся, начавшей день с кофе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:54
+translate english_us chapter4_5_cafe_scene_b0316c3d:
+
+    # narrator "За соседним столиком у окна щебетали три девушки в темно-зеленых жакетах Академии Веритас."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:58
+translate english_us chapter4_5_cafe_scene_97f277e1:
+
+    # "Студентка А" "Вы видели утреннее обновление в ленте? Новый десерт — 'Розовая Небула'! Серафина сама выложила фото с репетиции!"
+    "Студентка А" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:60
+translate english_us chapter4_5_cafe_scene_720c5b5e:
+
+    # "Студентка Б" "Да! Пишут, что рецепт составляли под ее личным кураторством. Она такая же сладкоежка, как мы..."
+    "Студентка Б" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:62
+translate english_us chapter4_5_cafe_scene_c04786c0:
+
+    # "Студентка В" "В общежитии вчера только о нем и говорили. Клара взяла сразу три штуки в автомате на этаже. Сказала, от него голова становится легкой-легкой перед зачетами."
+    "Студентка В" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:66
+translate english_us chapter4_5_cafe_scene_77c8bcea:
+
+    # "Студентка А" "Ну еще бы! Кто откажется от фирменного вкуса перед главным концертом года?"
+    "Студентка А" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:68
+translate english_us chapter4_5_cafe_scene_78e66f79:
+
+    # narrator "Они негромко засмеялись, листая экраны планшетов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:68
+translate english_us chapter4_5_cafe_scene_846f1be4:
+
+    # narrator "Клара. Та самая девушка, о которой Аргон говорил с глухой ненавистью — вернувшаяся с пустыми, выцветшими глазами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:68
+translate english_us chapter4_5_cafe_scene_12c3ef7f:
+
+    # narrator "Сладости, повальное увлечение вкусом, фанатский экстаз... В воздухе висело ощущение искусственного, приторного угара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:80
+translate english_us chapter4_5_cafe_scene_2a56ff57:
+
+    # narrator "Передо мной опустилась тарелка с плотным омлетом и чашка крепкого кофе. Официантка не спешила уходить — во второй руке она держала широкое керамическое блюдо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:84
+translate english_us chapter4_5_cafe_scene_d1cec72a:
+
+    # "Официантка" "Терминал показал, что вы заходите к нам почти каждое утро! От заведения — наш комплимент постоянной гостье: свежий 'Медовый Астероид'."
+    "Официантка" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:88
+translate english_us chapter4_5_cafe_scene_ea69741b:
+
+    # narrator "Она опустила блюдо на стол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:88
+translate english_us chapter4_5_cafe_scene_0abe9af8:
+
+    # narrator "Высокая стопка толстых оладий утопала в густом янтарном сиропе. Запах меда был плотным, липким, тяжело виснущим в воздухе."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:88
+translate english_us chapter4_5_cafe_scene_cf02167e:
+
+    # narrator "Сара бывала здесь постоянно. Заказывала эту патоку, сидела за похожим столиком... Пока не исчезла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:96
+translate english_us chapter4_5_cafe_scene_83f77a6e:
+
+    # neon "{=thoughts}Она питалась этим сиропом. День за днем.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:98
+translate english_us chapter4_5_cafe_scene_82bc0a13:
+
+    # "Официантка" "Что-то не так? Наш кондитер только что снял их с плиты."
+    "Официантка" ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:100
+translate english_us chapter4_5_cafe_scene_6afb8911:
+
+    # neon "Все в порядке. Спасибо за угощение."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:104
+translate english_us chapter4_5_cafe_scene_4a4e5e3b:
+
+    # narrator "Официантка кивнула и вернулась к стойке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:104
+translate english_us chapter4_5_cafe_scene_ba527048:
+
+    # narrator "Я сделала глоток эспрессо. Острая, почти вяжущая горечь обожгла язык, вымывая приторный цветочный запах. Я съела омлет, но к медовым оладьям так и не прикоснулась."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:104
+translate english_us chapter4_5_cafe_scene_bdc72542:
+
+    # narrator "В памяти невольно всплыл стерильный стол нашей лаборатории. Алекс, жующая сухой пончик из автомата, ее язвительный смех над моими графиками..."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:112
+translate english_us chapter4_5_cafe_scene_a0c27580:
+
+    # neon "{=thoughts}Где ты сейчас, Алекс?.. Жива ли?..{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:114
+translate english_us chapter4_5_cafe_scene_aa00058b:
+
+    # narrator "Я заставила себя допить остывающий кофе и посмотрела на электронные часы на панели стола."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/2-cafe.rpy:114
+translate english_us chapter4_5_cafe_scene_762aefe6:
+
+    # narrator "Время подходило. Пора двигаться к Центральному Стадиону. Навстречу Серафине."
+    narrator ""
+

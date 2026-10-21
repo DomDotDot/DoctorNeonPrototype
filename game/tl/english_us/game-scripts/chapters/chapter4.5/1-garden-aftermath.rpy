@@ -598,3 +598,263 @@ translate english_us chapter4_5_garden_aftermath_2897db1a:
     # neon "Да... неловко… хе-хе..."
     neon "Yeah... awkward... he-he..."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_3ca2000c:
+
+    # narrator "Стеклянный свод над головой побелел."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_e845cef0:
+
+    # narrator "Я не знала точно, сколько просидела на деревянной скамье — четыре часа или пять. В оранжерее не было часов, только влажное тепло, сырой запах прелых листьев и навязчивый дух орхидей."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_5e89d1cb:
+
+    # narrator "Пальцы правой руки затекли. Я пошевелила ими — кожу стянуло холодом, словно тонкие кристаллические трещины, оставшиеся после сна о синей гортензии, никуда не исчезли. Они пульсировали под кожей глухой тупой болью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_d79c4278:
+
+    # narrator "Селестия."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_36723a0e:
+
+    # narrator "Мысли о ней впивались в виски с каждым ударом пульса. Аргон остался где-то позади, в грязном полумраке своей конуры, а здесь, под искусственным куполом, оставалось только эхо чужих слов и билет на концерт в кармане."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:6
+translate english_us chapter4_5_garden_aftermath_4e6380ee:
+
+    # narrator "Шаги на гравии прозвучали слишком близко."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:20
+translate english_us chapter4_5_garden_aftermath_e66a561a:
+
+    # narrator "Тяжелая ладонь в рабочей перчатке опустилась мне на плечо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:22
+translate english_us chapter4_5_garden_aftermath_bc8d7715:
+
+    # "Сотрудник Сада" "Эй, девушка? Вы в порядке? Ответьте."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:24
+translate english_us chapter4_5_garden_aftermath_1cd6ab1d:
+
+    # narrator "Я вздрогнула и подняла голову. Передо мной стоял мужчина в зеленой спецовке парковой службы, держа в руке пластиковые грабли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:28
+translate english_us chapter4_5_garden_aftermath_eeb5fbd9:
+
+    # neon "Да... Простите. Я задремала. Воздух здесь слишком тяжелый."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:32
+translate english_us chapter4_5_garden_aftermath_9cf299e4:
+
+    # "Сотрудник Сада" "Задремала? Вы сидите здесь ни жива ни мертва, бледная как мел. Я уже собирался вызывать дежурный патруль."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:34
+translate english_us chapter4_5_garden_aftermath_8e1f7d40:
+
+    # narrator "Я торопливо опустила ладонь на скамью, нащупав жесткий корпус телефона Сары, который отдала мне Мэрил. Аппарат лежал на месте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:38
+translate english_us chapter4_5_garden_aftermath_239a8854:
+
+    # neon "Не нужно патруль. Со мной все нормально, просто не рассчитала силы."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:42
+translate english_us chapter4_5_garden_aftermath_958a9c40:
+
+    # "Сотрудник Сада" "Точно? Воды бы вам. На нижнем ярусе у выхода стоит автомат. Идемте, провожу, а то еще свалитесь на ступеньках."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:44
+translate english_us chapter4_5_garden_aftermath_ebdcd95b:
+
+    # neon "Спасибо. К выходу я и сама не откажусь выйти... Немного запуталась в переходах."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:50
+translate english_us chapter4_5_garden_aftermath_3f2c6bd1:
+
+    # narrator "Мы спустились по винтовым металлическим лестницам мимо террас с пальмами. Четвертый ярус оранжереи остался вверху, затянутый утренней испариной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:50
+translate english_us chapter4_5_garden_aftermath_1ca1c324:
+
+    # narrator "У массивных стеклянных дверей выхода тускло светились индикаторы турникетов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:59
+translate english_us chapter4_5_garden_aftermath_74e4a131:
+
+    # "Сотрудник Сада" "Постойте-ка. А вода?"
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:61
+translate english_us chapter4_5_garden_aftermath_3f12c141:
+
+    # narrator "Я уже взялась за хромированную дугу вертушки, когда садовник окликнул меня снова."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:63
+translate english_us chapter4_5_garden_aftermath_8f8bee72:
+
+    # neon "Обойдусь, спасибо. У меня все равно нет с собой наличных."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:67
+translate english_us chapter4_5_garden_aftermath_a1dd9d96:
+
+    # "Сотрудник Сада" "Наличных? Вы из какой глуши вылезли? Телефон к сканеру приложите. Приложение госуслуг само спишет по социальному идентификатору."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:69
+translate english_us chapter4_5_garden_aftermath_e67db9b7:
+
+    # neon "У меня нет счета в Веритасе."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:71
+translate english_us chapter4_5_garden_aftermath_2201d9ce:
+
+    # "Сотрудник Сада" "Как это нет счета? Рабочий аккаунт оформляется автоматически при распределении. Вам куратор не объяснял базовые правила?"
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:75
+translate english_us chapter4_5_garden_aftermath_91793489:
+
+    # narrator "Куратор. Идентификатор. Чистая, вылизанная сетка, в которой у каждого есть номер ячейки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:75
+translate english_us chapter4_5_garden_aftermath_3d8cef29:
+
+    # narrator "Я сделала шаг назад, готовясь проскользнуть в приоткрытую створку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:81
+translate english_us chapter4_5_garden_aftermath_b6251418:
+
+    # neon "Я не работаю здесь. И я не студентка. Мне пора."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:83
+translate english_us chapter4_5_garden_aftermath_d735de7c:
+
+    # "Сотрудник Сада" "Стоять!"
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:85
+translate english_us chapter4_5_garden_aftermath_26c15c35:
+
+    # narrator "Мужчина шагнул вперед и перехватил мое запястье. Пальцы сжались жестко, по-хозяйски."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:87
+translate english_us chapter4_5_garden_aftermath_d181bf24:
+
+    # "Сотрудник Сада" "Не работаешь и не учишься? Откуда тогда терминал последней модели? Украла?"
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:89
+translate english_us chapter4_5_garden_aftermath_b37744bb:
+
+    # neon "Мне его отдали! Отпустите руку!"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:93
+translate english_us chapter4_5_garden_aftermath_c387d085:
+
+    # "Сотрудник Сада" "Имя. Назови свое имя для протокола."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:95
+translate english_us chapter4_5_garden_aftermath_74515c56:
+
+    # neon "Неон! Отпустите сейчас же!"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:99
+translate english_us chapter4_5_garden_aftermath_0c3a065e:
+
+    # "Сотрудник Сада" "Неучтенная бродяжка. Ночует в общественном саду, пользуется чужим устройством... Я задерживаю тебя до приезда муниципальной службы. Посидишь в изоляторе, живо научат регламенту."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:103
+translate english_us chapter4_5_garden_aftermath_b3675b55:
+
+    # narrator "Он вытащил из кармана рацию и начал нажимать кнопки вызова."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:105
+translate english_us chapter4_5_garden_aftermath_d2442af5:
+
+    # "Сотрудник Сада" "Центральный пульт? На контрольно-пропускном пункте оранжереи обнаружен неучтенный субъект. Признаки хищения имущества... Девушка, синие волосы..."
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:109
+translate english_us chapter4_5_garden_aftermath_4439a14f:
+
+    # narrator "Снова. Чужие ярлыки, чужие приказы. Тот же тон, каким в школе отчитывали за цвет волос и непокорный взгляд."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:113
+translate english_us chapter4_5_garden_aftermath_d875a0a4:
+
+    # neon "{=thoughts}Хватит с меня изоляторов и чужих протоколов.{/thoughts}"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:115
+translate english_us chapter4_5_garden_aftermath_7f50a472:
+
+    # "Сотрудник Сада" "Да, удерживаю до прибытия группы-"
+    "Сотрудник Сада" ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:117
+translate english_us chapter4_5_garden_aftermath_6efb6898:
+
+    # narrator "Я не стала слушать дальше."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:117
+translate english_us chapter4_5_garden_aftermath_90037cdc:
+
+    # narrator "Короткий, резкий удар носком тяжелого ботинка пришелся ему точно в пах."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:117
+translate english_us chapter4_5_garden_aftermath_455ab45f:
+
+    # narrator "Мужчина захлебнулся собственным вдохом, согнулся пополам и рухнул на кафель. Рация выскользнула из его разжавшихся пальцев и затрещала помехами об пол."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:125
+translate english_us chapter4_5_garden_aftermath_4b7ea826:
+
+    # narrator "Я рванула стеклянную дверь на себя и выскочила на холодный утренний воздух."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/1-garden-aftermath.rpy:125
+translate english_us chapter4_5_garden_aftermath_2258160e:
+
+    # narrator "В этом городе ты либо подчиняешься конвейеру, либо тебя вычеркивают из списков живых."
+    narrator ""
+

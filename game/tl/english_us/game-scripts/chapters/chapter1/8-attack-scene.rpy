@@ -390,3 +390,179 @@ translate english_us chapter1_marcus_attack_scene_dcdceb49:
     # narrator "В коридоре нависнула оглушительная тишина, прерываясь дыханием Неон и тихими всхлипами Алекс, которая все еще сидела у стены."
     narrator "A deafening silence hung in the corridor, interrupted only by Neon's breathing and quiet sobs from Alex, who was still slumped against the wall."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:5
+translate english_us chapter1_marcus_attack_scene_4d7048d7:
+
+    # narrator "В моих глазах стояла багровая пелена. Всё тело вибрировало от дикого, запредельного перенапряжения — казалось, синие волосы трещат от высоковольтного заряда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:5
+translate english_us chapter1_marcus_attack_scene_60bc38be:
+
+    # narrator "Маркус, увидев этот оскал, дернулся назад. Но колени его предали — он запнулся о собственные туфли и неуклюже повалился на спину. В его расширенных зрачках плескался неприкрытый, животный ужас."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:11
+translate english_us chapter1_marcus_attack_scene_47bc7bb3:
+
+    # marcus "Н-неон... Стой! Подожди! Стой, я всё исправлю!"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:12
+translate english_us chapter1_marcus_attack_scene_4f06512b:
+
+    # marcus "Это недоразумение! Я... это была просто проверка! Шутка! Неон, одумайся!"
+    marcus ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:14
+translate english_us chapter1_marcus_attack_scene_96be46d7:
+
+    # narrator "Слова потеряли всякий смысл. Из моей груди вырвался глухой, сдавленный рык."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:19
+translate english_us chapter1_marcus_attack_scene_c10728a8:
+
+    # narrator "Я обрушила тяжелый металлический остов вниз."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:19
+translate english_us chapter1_marcus_attack_scene_11bd2576:
+
+    # narrator "Первый удар от слепой ярости смазался: стальные ножки со скрежетом вспороли бетонную стену в сантиметре от виска Маркуса, выбив сноп искр и крошку штукатурки."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:25
+translate english_us chapter1_marcus_attack_scene_e41cce78:
+
+    # narrator "Маркус истошно взвизгнул, пытаясь отползти по полу на четвереньках и выставляя дрожащие ладони."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:29
+translate english_us chapter1_marcus_attack_scene_e0005fa2:
+
+    # narrator "Он забился в угол у лифта, скуля и закрывая лицо."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:29
+translate english_us chapter1_marcus_attack_scene_28c600e0:
+
+    # narrator "Я снова вскинула стул."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:29
+translate english_us chapter1_marcus_attack_scene_6ab633e5:
+
+    # narrator "Теперь во мне проснулась ледяная, хирургическая беспощадность: я уничтожала источник всей ядовитой лжи, душившей меня годами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:45
+translate english_us chapter1_marcus_attack_scene_9c63d199:
+
+    # narrator "Второй удар. Тяжелый, сокрушительный."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:45
+translate english_us chapter1_marcus_attack_scene_e069edf9:
+
+    # narrator "Литой металл со всего маха врезался ему в лопатку и ребра."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:45
+translate english_us chapter1_marcus_attack_scene_71944497:
+
+    # narrator "Раздался глухой хруст, и Маркус захлебнулся собственным криком, рухнув лицом в кафель."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:54
+translate english_us chapter1_marcus_attack_scene_d3a4b606:
+
+    # narrator "Он распластался на полу, судорожно хватая ртом воздух и тихо подвывая от боли. Дорогой костюм был изодран, на полированных плитках темнели капли крови."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:54
+translate english_us chapter1_marcus_attack_scene_d551f4cf:
+
+    # narrator "Алекс, зажав рот ладонями, в ужасе прижалась к противоположной стене, боясь шелохнуться."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:54
+translate english_us chapter1_marcus_attack_scene_05488fc8:
+
+    # narrator "Но меня было не остановить."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:54
+translate english_us chapter1_marcus_attack_scene_1f80376f:
+
+    # narrator "Грудь тяжело ходила ходуном. Я перешагнула через неподвижные ноги Маркуса, нависая над ним, как карающий монолит."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:64
+translate english_us chapter1_marcus_attack_scene_6d2decd8:
+
+    # narrator "Я медленно подняла искореженный стул в третий раз — прямо над его затылком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:64
+translate english_us chapter1_marcus_attack_scene_1a4974f7:
+
+    # narrator "Финальная точка. Чтобы навсегда выключить этот шум."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:64
+translate english_us chapter1_marcus_attack_scene_32e561ae:
+
+    # narrator "Маркус с трудом повернул окровавленное лицо. В его угасающем, мутном взгляде застыло покорное ожидание смерти."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:64
+translate english_us chapter1_marcus_attack_scene_d884e876:
+
+    # narrator "И в эту долю секунды морок спал."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:64
+translate english_us chapter1_marcus_attack_scene_61d6e1a6:
+
+    # narrator "Я посмотрела на свои пальцы, сведенные судорогой, на искалеченного человека у моих ног... и меня прошиб ледяной озноб."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:80
+translate english_us chapter1_marcus_attack_scene_524c44e1:
+
+    # narrator "Руки мгновенно ослабли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:80
+translate english_us chapter1_marcus_attack_scene_6de75e53:
+
+    # narrator "Тяжелый стул со страшным грохотом вывалился из моих пальцев и покатился по полу за мою спину."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:86
+translate english_us chapter1_marcus_attack_scene_3f29fff8:
+
+    # narrator "Багровая пелена схлынула, оставив после себя тошнотворный, липкий кошмар осознания содеянного."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:86
+translate english_us chapter1_marcus_attack_scene_1f4ed90b:
+
+    # narrator "Я стояла посреди разгромленного холла, дрожа всем телом и жадно глотая воздух."
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:86
+translate english_us chapter1_marcus_attack_scene_adebcc05:
+
+    # narrator "А из глубины коридора уже доносился тяжелый топот кованых сапог и зычный окрик Ханса:"
+    narrator ""
+
+# game/game-scripts/chapters/chapter1/8-attack-scene.rpy:94
+translate english_us chapter1_marcus_attack_scene_5dc63f58:
+
+    # hans "Эй! Что за грохот?! Всем оставаться на своих местах!"
+    hans ""
+

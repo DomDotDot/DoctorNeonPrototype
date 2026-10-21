@@ -598,4 +598,119 @@ translate english_us chapter4_5_lily_flashback_bdb04eb4:
 translate english_us chapter4_5_lily_flashback_92fc3504:
 
     # lily "{=thoughts}Спасите... кто-нибудь... папа... Я не хочу..."
-    lily "{=thoughts}Help... somebody... Daddy... I don't want to..."
+    lily "{=thoughts}Help... somebody... Daddy... I don't want to..."# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:219
+translate english_us chapter4_5_lily_flashback_3333c70b:
+
+    # narrator "Она навалилась на меня всем телом, впечатывая в кирпичи так, что ребра сдавило спазмом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:219
+translate english_us chapter4_5_lily_flashback_95370e3a:
+
+    # narrator "Я задыхалась. Ее колено жестко уперлось в стену, блокируя любое мое движение. Пальцы на моем затылке натянулись, вдавливая лицо в шершавый камень."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:219
+translate english_us chapter4_5_lily_flashback_7c8297f0:
+
+    # narrator "Я скосила глаза, пытаясь разглядеть ее в свете далекого фонаря — и меня прошил ледяной ужас."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:219
+translate english_us chapter4_5_lily_flashback_a3e695d2:
+
+    # narrator "На лице Нари не было прежней растерянности или застенчивости. Там застыл оскал торжествующей, хищной зависти. А белки глаз заливала наливающаяся багровым краснота."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:229
+translate english_us chapter4_5_lily_flashback_20b11499:
+
+    # nari "Уезжаешь?.."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:229
+translate english_us chapter4_5_lily_flashback_a8e397c2:
+
+    # nari "Думаешь, сядешь на поезд, вернешься к своему доброму папочке, а Серафина будет тосковать по твоим чистым аккордам?"
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:229
+translate english_us chapter4_5_lily_flashback_3fe7bcb5:
+
+    # nari "Нет. Ты больше никуда не поедешь."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:229
+translate english_us chapter4_5_lily_flashback_b47167dc:
+
+    # nari "Твое лицо... твой голос... твоя чистая совесть. Все это теперь нужно мне."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:229
+translate english_us chapter4_5_lily_flashback_525795fd:
+
+    # nari "Она будет смотреть на меня твоими глазами."
+    nari ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:241
+translate english_us chapter4_5_lily_flashback_5fd7e3bc:
+
+    # narrator "Ее пальцы с жестокой силой сдавили мои щеки, заставляя разомкнуть сведенные судорогой губы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:241
+translate english_us chapter4_5_lily_flashback_fe14bc43:
+
+    # narrator "Ее лицо приблизилось вплотную."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:241
+translate english_us chapter4_5_lily_flashback_ed9c7a7f:
+
+    # narrator "И ее рот накрыл мой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:241
+translate english_us chapter4_5_lily_flashback_0a9301d2:
+
+    # narrator "Это не было поцелуем — это было удушение. Вторжение чужой, черной воли в самую глубину моего естества."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:241
+translate english_us chapter4_5_lily_flashback_082f9a81:
+
+    # narrator "Из ее горла в меня хлынул густой, ледяной дым — тяжелый, как сталь, с привкусом сырой земли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:241
+translate english_us chapter4_5_lily_flashback_efdb77c8:
+
+    # narrator "Он заполнял легкие, обжигал гортань, вытесняя каждую мою мысль, каждое воспоминание о доме, о музыке, об отце."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:257
+translate english_us chapter4_5_lily_flashback_810a2b41:
+
+    # narrator "Свет уличного фонаря над крышами начал дробиться и гаснуть."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:257
+translate english_us chapter4_5_lily_flashback_9e1ebfd8:
+
+    # narrator "Я проваливалась в глухую, темную воду. Мои пальцы, еще мгновение назад сжимавшие асфальт, бессильно разжались."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:257
+translate english_us chapter4_5_lily_flashback_4eb4ba0d:
+
+    # narrator "Я тонула в чужой пустоте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/slice-of-life/3-lily.rpy:265
+translate english_us chapter4_5_lily_flashback_e960fe4c:
+
+    # lily "{=thoughts}Папа... прости... помоги мне... я не хочу исчезать...{/thoughts}"
+    lily ""
+

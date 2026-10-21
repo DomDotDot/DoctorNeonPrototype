@@ -603,3 +603,491 @@ translate english_us chapter4_5_boulevard_night_bcdd4a5d:
     # narrator "Аргон смотрел по сторонам и видела его лицо. Шок. Растерянность. Ужас. И всепоглощающий, убийственный стыд."
     narrator "Argon looked around, and I saw his face. Shock. Confusion. Horror. And overwhelming, deadly shame."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:7
+translate english_us chapter4_5_boulevard_night_e2e13438:
+
+    # narrator "Бульвар Мечтателей. Ночью торговые ряды утопали в огнях гирлянд и пестром чаду уличных жаровен."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:7
+translate english_us chapter4_5_boulevard_night_03364a7a:
+
+    # narrator "Запах карамели, горелого теста и сладких сиропов висел над толпой густым туманом. Людской поток двигался между павильонами с ленивой праздностью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:7
+translate english_us chapter4_5_boulevard_night_0aa89bd9:
+
+    # narrator "Среди этой ярмарочной суматохи легко затеряться. И еще проще — спустить чужие деньги на горы десертов."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:15
+translate english_us chapter4_5_boulevard_night_c0b11910:
+
+    # neon "Искать отдельный ларек бессмысленно — их здесь десятки. Нужно смотреть на покупателей."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:17
+translate english_us chapter4_5_boulevard_night_f39e6e7e:
+
+    # argon "Искать того, кто скупает сахар ящиками..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:19
+translate english_us chapter4_5_boulevard_night_25236eed:
+
+    # narrator "Мы протискивались сквозь толчею. Аргон шел впереди, молча рассекая плечами встречные волны зевак."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:19
+translate english_us chapter4_5_boulevard_night_d4f45800:
+
+    # narrator "Я держалась за ним в шаге, вглядываясь в яркие витрины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:19
+translate english_us chapter4_5_boulevard_night_953830af:
+
+    # narrator "Возле одного из светящихся прилавков Аргон внезапно застыл на месте."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:27
+translate english_us chapter4_5_boulevard_night_85977395:
+
+    # argon "Вон там. У витрины с джелато."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:31
+translate english_us chapter4_5_boulevard_night_7b10eeab:
+
+    # narrator "Я посмотрела в указанную точку. Девушка в темной форменной юбке Академии, но поверх воротника намотан объемный красный шарф, закрывающий подбородок до самых губ."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:31
+translate english_us chapter4_5_boulevard_night_db0ce7a5:
+
+    # narrator "Она приложила телефон к платежному терминалу. Продавец за стойкой протянул ей не пару рожков, а объемный бумажный пакет, доверху набитый коробками с мороженым."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:31
+translate english_us chapter4_5_boulevard_night_8414b293:
+
+    # narrator "Девушка нервно подпрыгнула, прижала пакет к груди и зашагала вглубь бульвара, петляя между павильонами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:39
+translate english_us chapter4_5_boulevard_night_fe382d44:
+
+    # neon "Аргон... это ведь Клара? Та самая, с аватарки в чате?"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:41
+translate english_us chapter4_5_boulevard_night_7b25b22b:
+
+    # argon "Уверена?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:43
+translate english_us chapter4_5_boulevard_night_7b6b1c35:
+
+    # neon "Этот шарф трудно спутать. Она сворачивает к скверу. Быстрее!"
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:47
+translate english_us chapter4_5_boulevard_night_ae7bbcff:
+
+    # narrator "Мы двинулись следом. Пакет с мороженым и алый шарф мелькали между плечами прохожих, уводя нас в сторону от центральной аллеи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:47
+translate english_us chapter4_5_boulevard_night_878ef56e:
+
+    # narrator "Шум музыки постепенно отдалялся. Мы свернули в тупиковую аллею, освещенную редкими фонарями."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:47
+translate english_us chapter4_5_boulevard_night_33a450d7:
+
+    # narrator "Внезапно Аргон замер так резко, что я едва не налетела на него."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:55
+translate english_us chapter4_5_boulevard_night_743146f9:
+
+    # argon "Куда... куда она делась...?"
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:60
+translate english_us chapter4_5_boulevard_night_8e9f29bd:
+
+    # narrator "Он закрутил головой по сторонам, и вдруг его дыхание оборвалось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:60
+translate english_us chapter4_5_boulevard_night_d65e49ac:
+
+    # narrator "Вся его фигура одеревенела. Пальцы, сжимавшие край куртки, побелели. Он смотрел не на дорогу и не на Клару с ее пакетом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:60
+translate english_us chapter4_5_boulevard_night_d148650a:
+
+    # narrator "В глубине площадки, за декоративной живой изгородью, горел круглый фонарь."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:68
+translate english_us chapter4_5_boulevard_night_135acb50:
+
+    # argon "ЛИЛИ..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:72
+translate english_us chapter4_5_boulevard_night_65c708ef:
+
+    # narrator "Он сорвался с места, даже не глядя мне под ноги."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_93051eef:
+
+    # narrator "Небольшая каменная площадка была отрезана кустарником от ярмарочного шума."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_c68a97a6:
+
+    # narrator "Клара уже стояла у спинки скамейки, деловито доставая пластиковые стаканчики из пакета."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_c808dd7d:
+
+    # narrator "Рядом крутились остальные. Кэрол, стоявшая за скамьей, опиралась на деревянную перекладину с застывшей, широкой улыбкой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_eb133ae9:
+
+    # narrator "Эми, которая утром якобы слегла с тяжелой простудой, сидела на широком подлокотнике, болтая ногами. Ни кашля, ни бледности."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_49bf7807:
+
+    # narrator "А в самом центре скамьи сидела Лили."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_a1a9d995:
+
+    # narrator "Она закинула ногу на ногу, держа в тонких пальцах десертную ложечку. Ее зеленые глаза были полуприкрыты."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_2a6740f9:
+
+    # narrator "Она отправляла в рот холодные розовые капли с нарочитой, выставленной напоказ истомой. Ложка блестела в свете фонаря, движения были выверены до миллиметра, будто перед ней стояла объектив камеры."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_dd409101:
+
+    # narrator "Те же медно-рыжие волосы, тот же силуэт с фотографии Аргона. Но в каждом повороте головы сквозила холодная, стеклянная чуждость."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:77
+translate english_us chapter4_5_boulevard_night_ea48899c:
+
+    # narrator "Аргон остановился в двух шагах от нее, не в силах перевести дух."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:99
+translate english_us chapter4_5_boulevard_night_ba81637f:
+
+    # narrator "Она медленно вскинула ресницы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:99
+translate english_us chapter4_5_boulevard_night_80ea1845:
+
+    # narrator "В первый миг ее взгляд полоснул по мне."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:105
+translate english_us chapter4_5_boulevard_night_6ac466a6:
+
+    # narrator "Ее зрачки сузились. В глубине радужки мелькнуло острое, цепкое узнавание — будто она увидела того, кого меньше всего ожидала встретить на ярмарке."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:105
+translate english_us chapter4_5_boulevard_night_fea8012f:
+
+    # narrator "Но уже через долю секунды она перевела глаза на Аргона."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:111
+translate english_us chapter4_5_boulevard_night_c69b57cd:
+
+    # narrator "И выражение лица мгновенно переломилось."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:111
+translate english_us chapter4_5_boulevard_night_2cff1f4d:
+
+    # narrator "Брови сошлись к переносице в гримасе откровенного отвращения. Она лениво закатила глаза, показательно отвернулась к Кэрол и зачерпнула ложкой очередную порцию джелато."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:117
+translate english_us chapter4_5_boulevard_night_120d278f:
+
+    # narrator "Эми соскочила с подлокотника, заслоняя Лили от Аргона. Ее лицо скривилось в озлобленный оскал."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:119
+translate english_us chapter4_5_boulevard_night_eda008f3:
+
+    # amy "Эй, бродяга! Чего вылупился? Проваливай отсюда, не порти нам вечер!"
+    amy ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:121
+translate english_us chapter4_5_boulevard_night_b6dbce90:
+
+    # narrator "Аргон даже не посмотрел в ее сторону. Он шагнул вперед, оттесняя Эми плечом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:121
+translate english_us chapter4_5_boulevard_night_2a42da90:
+
+    # narrator "Кэрол тут же выпрямилась за спинкой скамьи. Ее улыбка сползла, сменившись неподвижным, мертвым взглядом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:127
+translate english_us chapter4_5_boulevard_night_7d84a679:
+
+    # carol "Русским языком сказано: пошел вон."
+    carol ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:129
+translate english_us chapter4_5_boulevard_night_e929c7a7:
+
+    # narrator "Я замерла в тени кустов. Меня пробрал холод: эти две девушки двигались синхронно, как заводные куклы по одной команде. Ни тени сомнения, ни капли естественного любопытства."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:133
+translate english_us chapter4_5_boulevard_night_eac2509c:
+
+    # argon "Лили... посмотри на меня. Это я..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:135
+translate english_us chapter4_5_boulevard_night_915c6bc4:
+
+    # narrator "В ответ — лишь звук ложечки, скребущей по дну пластикового стаканчика."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:137
+translate english_us chapter4_5_boulevard_night_da882228:
+
+    # argon "Лили... прошу тебя..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:139
+translate english_us chapter4_5_boulevard_night_23ea086b:
+
+    # narrator "Он протянул дрожащую руку и коснулся ткани ее плаща на плече."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:141
+translate english_us chapter4_5_boulevard_night_d1b96dac:
+
+    # narrator "В ту же секунду Лили взвилась со скамьи."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:146
+translate english_us chapter4_5_boulevard_night_f5e7c7e1:
+
+    # narrator "Хлесткий, оглушительный звук удара разрезал тишину сквера. Ее ладонь наотмашь врезалась Аргону в щеку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:148
+translate english_us chapter4_5_boulevard_night_13a74588:
+
+    # lily "А-А-А! ОТОЙДИ ОТ МЕНЯ, ИЗВРАЩЕНЕЦ!"
+    lily ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:150
+translate english_us chapter4_5_boulevard_night_17687f33:
+
+    # narrator "Крик взлетел над деревьями. В нем не было детской растерянности или испуга."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:150
+translate english_us chapter4_5_boulevard_night_f826a566:
+
+    # narrator "Он звучал идеально звонко, на максимальной громкости профессионально поставленного вокала, разносясь на сотни метров вокруг."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:150
+translate english_us chapter4_5_boulevard_night_5b319fdf:
+
+    # narrator "Аргон пошатнулся, прижимая пальцы к пылающей щеке, но все еще пытался схватить ее за запястье."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:158
+translate english_us chapter4_5_boulevard_night_fed457b7:
+
+    # argon "Лили, это я! Папа! Ты же звонила... ты обещала сесть на утренний поезд..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:160
+translate english_us chapter4_5_boulevard_night_244fb350:
+
+    # narrator "Она с силой выдернула руку. На ее губах на мгновение мелькнула злая, сытая ухмылка. Спектакль набирал обороты."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:160
+translate english_us chapter4_5_boulevard_night_24ccc81a:
+
+    # narrator "Она набрала полную грудь воздуха."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:168
+translate english_us chapter4_5_boulevard_night_62a7f5ca:
+
+    # narrator "Голос звенел, как сирена тревоги. С центральной аллеи уже оборачивались люди. Послышались возмущенные возгласы, топот шагов — к площадке бежали несколько парней из толпы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:168
+translate english_us chapter4_5_boulevard_night_90cf63e8:
+
+    # narrator "В ту же секунду Кэрол и Эми заголосили хором, тыча пальцами в лицо Аргону."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:174
+translate english_us chapter4_5_boulevard_night_8f118767:
+
+    # amy "Держите его! Он лапал ее!"
+    amy ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:175
+translate english_us chapter4_5_boulevard_night_57cdafc6:
+
+    # carol "Парни! Сюда, быстрее!"
+    carol ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:177
+translate english_us chapter4_5_boulevard_night_8aabf6f4:
+
+    # narrator "Аргон огляделся вокруг. В его взгляде не осталось ничего, кроме бездны растерянности и жгучего, парализующего стыда."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:177
+translate english_us chapter4_5_boulevard_night_63d732f0:
+
+    # narrator "Он разжал пальцы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:177
+translate english_us chapter4_5_boulevard_night_93ff2dff:
+
+    # narrator "Схватив меня за запястье, он дернул меня в глубину переулка, уводя прочь от света фонарей и собирающейся толпы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:188
+translate english_us chapter4_5_boulevard_night_195329d1:
+
+    # narrator "Мы петляли по темным подворотням, пока гул бульвара окончательно не растворился за спиной."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:188
+translate english_us chapter4_5_boulevard_night_f49e7db3:
+
+    # narrator "Аргон брел молча, сгорбившись, словно каждый шаг давался ему с физической болью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:188
+translate english_us chapter4_5_boulevard_night_807e01d7:
+
+    # narrator "У глухой кирпичной стены он наконец остановился и бессильно привалился к холодным камням."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:196
+translate english_us chapter4_5_boulevard_night_f994b81a:
+
+    # argon "Она не помнит... Или помнит, но не хочет знать."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:196
+translate english_us chapter4_5_boulevard_night_c32b1a43:
+
+    # argon "Я сломал ее мечту тогда, а теперь... я набросился на нее при всех, как зверь."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:196
+translate english_us chapter4_5_boulevard_night_17e4edc0:
+
+    # argon "Она возненавидела меня окончательно. Я все уничтожил своими руками."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:204
+translate english_us chapter4_5_boulevard_night_23e1f0cd:
+
+    # neon "Аргон, она играла на публику. Этот крик... тон был слишком выверенным, неестественным. Она специально созвала толпу."
+    neon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:206
+translate english_us chapter4_5_boulevard_night_9fdf5d92:
+
+    # argon "Какая разница?! Она не захотела меня видеть! Я сам все растоптал... снова..."
+    argon ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:208
+translate english_us chapter4_5_boulevard_night_9038474f:
+
+    # narrator "Я замолчала. Любые слова сейчас разбивались о глухую стену его самобичевания. Он снова заперся внутри своей вины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_2ed82828:
+
+    # narrator "В студию мы вернулись глубокой ночью."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_23ae62de:
+
+    # narrator "Аргон, не снимая куртки, прошел в угол, опустился на пол возле мольберта и спрятал лицо в коленях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_6b186305:
+
+    # narrator "Я подошла к нему и молча накинула на его плечи старое одеяло. Он даже не шелохнулся."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_92ec9a5b:
+
+    # narrator "Потом опустилась на матрас в противоположном углу."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_216e6a93:
+
+    # narrator "Рядом со мной стояла светло-голубая сумка Академии, внутри которой лежал аккуратно сложенный комплект формы Сары."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_131b639f:
+
+    # narrator "Мы нашли Сару. Мы увидели Лили. Но легких ответов этот город не давал."
+    narrator ""
+
+# game/game-scripts/chapters/chapter4.5/6-boulevard-fair.rpy:214
+translate english_us chapter4_5_boulevard_night_bca6b7ec:
+
+    # narrator "Утром мне предстоит войти в Академию."
+    narrator ""
+

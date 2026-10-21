@@ -427,3 +427,341 @@ translate english_us krypton_concert_flashback_d9917d12:
     # "???" "{=whisper}Неон?"
     "???" "{=whisper}Neon?"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:8
+translate english_us krypton_concert_flashback_3eeb7ade:
+
+    # narrator "Изображение тонуло в тяжелой зернистости и косых полосах помех — сигнал словно пробивался сквозь миллионы световых лет космической пыли."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_7d142ecc:
+
+    # narrator "Архивная видеозапись."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_8678e6df:
+
+    # narrator "Академический зал подавлял величием: резные своды уходили в бархатный полумрак, партер и ложи заполнили тысячи слушателей в вечерних нарядах."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_a6be1583:
+
+    # narrator "В луче прожектора посреди сцены застыл черный рояль. За клавиатурой сидела хрупкая девушка, вцепившись пальцами в подол платья."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_a9efa002:
+
+    # narrator "Шелковые белые волосы сияли в свете софита, подчеркивая ее беззащитность посреди безбрежного океана кресел."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_d2631759:
+
+    # narrator "Зал замер в благоговейном ожидании: приглушенный шепот, отблески объективов, затаенное дыхание толпы."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_009c3441:
+
+    # narrator "Она была признанным виртуозом, но сейчас выглядела ребенком, застигнутым грозой на открытом поле."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:13
+translate english_us krypton_concert_flashback_1e452e79:
+
+    # narrator "Она смотрела сквозь публику, воспринимая нарядный зал лишь как бессмысленную серую стену."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:32
+translate english_us krypton_concert_flashback_779ae2ac:
+
+    # narrator "Ее взгляд лихорадочно метался по первому ряду партера."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:32
+translate english_us krypton_concert_flashback_c20a2db6:
+
+    # narrator "Среди критиков и почетных гостей зияло пустое кресло с темно-бордовой бархатной обивкой — единственное свободное место во всем огромном зале."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:38
+translate english_us krypton_concert_flashback_eb544066:
+
+    # "???" "{=whisper}Ну где же ты... Ты же клялась, что придешь."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:40
+translate english_us krypton_concert_flashback_248c9b46:
+
+    # narrator "Она прерывисто вздохнула; узкие плечи мелко дрожали. Пальцы опустились на клавиши с тихой обреченностью узника."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:42
+translate english_us krypton_concert_flashback_62045be7:
+
+    # neon "{=thoughts}Она окружена тысячами людей... но от нее веет космическим, леденящим холодом."
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:42
+translate english_us krypton_concert_flashback_a9cffe80:
+
+    # neon "{=thoughts}И почему у меня так сжимается сердце при взгляде на нее...?{/thoughts}"
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:50
+translate english_us krypton_concert_flashback_c82a2e3b:
+
+    # narrator "Она коснулась клавиш — полилась та самая мелодия, что звучала в моих наушниках."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:50
+translate english_us krypton_concert_flashback_31b82088:
+
+    # narrator "Хрустальный, чистый звук заставил зал благоговейно онеметь."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:50
+translate english_us krypton_concert_flashback_66df5fd5:
+
+    # narrator "Каждый пассаж был безмолвной мольбой, обращенной исключительно к пустому бархатному креслу в первом ряду."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:50
+translate english_us krypton_concert_flashback_321f891e:
+
+    # narrator "Интимная исповедь, брошенная на растерзание тысячеголовой толпе."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:50
+translate english_us krypton_concert_flashback_439a480c:
+
+    # narrator "С каждым тактом музыка становилась пронзительнее: пианистка вкладывала в звук последние крохи дыхания, заставляя струны кровоточить."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:50
+translate english_us krypton_concert_flashback_37dcfea3:
+
+    # narrator "Совершенное мастерство, сплетенное с черным отчаянием — у меня перехватило горло."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:66
+translate english_us krypton_concert_flashback_a185fbcf:
+
+    # "???" "{=thoughts}Услышь меня... Умоляю, переступи порог... Я держу этот ритм только ради тебя... ради той, кто верил мне..."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:66
+translate english_us krypton_concert_flashback_cc0835a4:
+
+    # "???" "{=thoughts}Без твоего взгляда чужой гул разорвет меня на части...{/thoughts}"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:73
+translate english_us krypton_concert_flashback_b46a944f:
+
+    # narrator "Темп лихорадочно ускорялся. По виску девушки скользнула капля пота."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:73
+translate english_us krypton_concert_flashback_f8ac32b6:
+
+    # narrator "Она отчаянно усложняла гармонии, рассыпала вариации, цепляясь за призрачную надежду увидеть в дверях знакомый силуэт."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:82
+translate english_us krypton_concert_flashback_28724632:
+
+    # narrator "Короткий взгляд на первый ряд — бархат кресла всё так же пуст."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:82
+translate english_us krypton_concert_flashback_5717a74b:
+
+    # narrator "Пальцы дрогнули. Ритм сломался."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:82
+translate english_us krypton_concert_flashback_fa40524b:
+
+    # narrator "Смазанный полутон, режущий диссонанс ударил по нервам. Девушка дернулась, словно от удара хлыстом."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:99
+translate english_us krypton_concert_flashback_fd1a0590:
+
+    # narrator "Она с яростью обрушила тяжелую лакированную крышку инструмента. Громоподобный грохот эхом раскатился под сводами, заставив публику вздрогнуть."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:99
+translate english_us krypton_concert_flashback_a5269804:
+
+    # narrator "Нотные листы вихрем взметнулись в воздух и осыпались на паркет."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:99
+translate english_us krypton_concert_flashback_10d38c9c:
+
+    # narrator "Зал онемел, а затем наполнился испуганным ропотом. Пианистка слышала лишь звенящую тишину на месте той, которую звала."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:99
+translate english_us krypton_concert_flashback_dcf6c7ca:
+
+    # narrator "Она вцепилась в белые пряди, с силой зажимая уши ладонями — звук собственного срыва вонзился в мозг осколком стекла."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:112
+translate english_us krypton_concert_flashback_fcfe2e30:
+
+    # "???" "{=thoughts}Нет... умоляю, прекратите!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:112
+translate english_us krypton_concert_flashback_2543f518:
+
+    # "???" "{=thoughts}Они смотрят... они дышат... их шепот, их взгляды впиваются в кожу! Это невыносимо громко!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:112
+translate english_us krypton_concert_flashback_3c52ffd8:
+
+    # "???" "{=thoughts}Всё прахом... Всё рухнуло..."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:112
+translate english_us krypton_concert_flashback_1180c4c9:
+
+    # "???" "{=thoughts}Где же ты?! Зачем бросила меня в этом аду?! Ты обещала!{/thoughts}"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:122
+translate english_us krypton_concert_flashback_e53d3435:
+
+    # narrator "Я кожей ощутила этот леденящий ужас. Ощущение человека, выставленного на мороз с обнаженными нервами."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:122
+translate english_us krypton_concert_flashback_d5aca8cf:
+
+    # narrator "Знакомая агония: я каждое утро видела в зеркале ту же неспособность выдерживать скрежет окружающего мира без щита."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:122
+translate english_us krypton_concert_flashback_0f5a2deb:
+
+    # narrator "Виски сдавило, в ушах зазвенело."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:122
+translate english_us krypton_concert_flashback_a95bd9e1:
+
+    # narrator "Скрип мела по доске, монотонный вой ламп, белый шум на пределе громкости — одно проклятие на двоих, общая гиперчувствительность."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:122
+translate english_us krypton_concert_flashback_51110839:
+
+    # narrator "Девушка сжалась в комок посреди сцены под перекрестным огнем чужих глаз, корчась от физической боли."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:136
+translate english_us krypton_concert_flashback_dd838640:
+
+    # "???" "{=whisper}Я сломалась..."
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:136
+translate english_us krypton_concert_flashback_fdcfafdb:
+
+    # "???" "ХВАТИТ С МЕНЯ!"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:142
+translate english_us krypton_concert_flashback_65d84e56:
+
+    # narrator "Она сорвалась с места и в слезах бросилась прочь со сцены, не кланяясь залу и спотыкаясь на ступенях. Прочь от рояля и музыки."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:142
+translate english_us krypton_concert_flashback_2cbecc9b:
+
+    # narrator "Концерт обратился в пепел: единственный слушатель, ради которого стоило жить, так и остался по ту сторону дверей."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:148
+translate english_us krypton_concert_flashback_ddb18836:
+
+    # "???" "{=thoughts}Почему ты опоздала?! Я играла только для тебя! Слышишь, только для тебя!{/thoughts}"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:153
+translate english_us krypton_concert_flashback_463d0049:
+
+    # narrator "У самого входа в кулисы она на мгновение замерла."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:153
+translate english_us krypton_concert_flashback_6ff8025a:
+
+    # narrator "Тяжелая створка пожарного выхода с грохотом распахнулась. Сбивчивое дыхание, дробный топот бегущих шагов человека, несшегося изо всех сил и застывшего на пороге катастрофы."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:153
+translate english_us krypton_concert_flashback_b0293238:
+
+    # narrator "Она пришла."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:161
+translate english_us krypton_concert_flashback_828dd808:
+
+    # neon "{=thoughts}Я помню этот слепящий прямоугольник света у бокового яруса... Я помню, как задыхалась от бега, врываясь в этот проем.{/thoughts}"
+    neon ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:163
+translate english_us krypton_concert_flashback_01b8cb17:
+
+    # "???" "{=whisper}Неон...?{/whisper}"
+    "???" ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:167
+translate english_us krypton_concert_flashback_af23d763:
+
+    # narrator "Девушка впилась взглядом в силуэт в дверном проеме."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:167
+translate english_us krypton_concert_flashback_e04abf4d:
+
+    # narrator "Помощь подоспела слишком поздно — когда мелодия уже захлебнулась кровью, а спасительный якорь потерял всякий смысл."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:175
+translate english_us krypton_concert_flashback_cb38e602:
+
+    # narrator "Заплаканные глаза полыхали вымороженной болью."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:175
+translate english_us krypton_concert_flashback_d0d720c2:
+
+    # narrator "Слезы текли по бледным щекам; ее горящий взгляд смотрел прямо в объектив камеры — прямо в мою душу."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:175
+translate english_us krypton_concert_flashback_f1550487:
+
+    # narrator "Губы беззвучно разомкнулись. Одно-единственное слово обожгло меня каленым железом."
+    narrator ""
+
+# game/game-scripts/flashbacks/krypton/celeste_concert.rpy:185
+translate english_us krypton_concert_flashback_1471a3a5:
+
+    # "???" "{=whisper}Обманщица...{/whisper}"
+    "???" ""
+

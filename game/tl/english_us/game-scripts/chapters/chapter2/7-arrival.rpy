@@ -66,3 +66,113 @@ translate english_us chapter2_act5_anomic_arrival_5aacd0b6:
     # narrator "Неон обвела взглядом завод. Лобби, стойка регистрации — это теперь Её новый мир."
     narrator "Neon surveyed the factory. The lobby, the reception desk. This was now Her new world."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:7
+translate english_us chapter2_act5_anomic_arrival_0ca683f7:
+
+    # neon "{=whisper}Я... обещаю..."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:9
+translate english_us chapter2_act5_anomic_arrival_4e629d7d:
+
+    # narrator "Грубый толчок швырнул меня виском о стальной шпангоут."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:9
+translate english_us chapter2_act5_anomic_arrival_6aae6d50:
+
+    # narrator "Тормозные колодки взвизгнули так, что заломило в зубах. Фургон клюнул носом, тяжело качнулся на просевших рессорах и замер."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:9
+translate english_us chapter2_act5_anomic_arrival_cd46b461:
+
+    # narrator "Сдвижная дверь с оглушительным скрежетом сорвалась с фиксатора. В застоялый, прокуренный воздух кузова ворвался ледяной сквозняк с резким запахом горелого шлака, кислоты и влажной ржавой окалины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:17
+translate english_us chapter2_act5_anomic_arrival_02358a1b:
+
+    # guts "Конечная. Выгружайся, ученая."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:21
+translate english_us chapter2_act5_anomic_arrival_3a34f398:
+
+    # narrator "Я с трудом распрямила онемевшие ноги и сползла на растрескавшийся бетон."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:21
+translate english_us chapter2_act5_anomic_arrival_3a7f37b5:
+
+    # narrator "Острый щебень и стеклянное крошево впились в подошвы. Я задрала голову — и застыла, подавленная масштабом увиденного."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:21
+translate english_us chapter2_act5_anomic_arrival_dc3b8c21:
+
+    # narrator "Вокруг простиралась мертвая индустриальная панорама чудовищных размеров."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:21
+translate english_us chapter2_act5_anomic_arrival_86d9e00e:
+
+    # narrator "Остовы доменных цехов и химических комбинатов вздымались к небу, теряясь верхушками в ползучем грязно-желтом смоге. Огромные эстакады трубопроводов провисли над проездами, перекрученные временем, а по серым бетонным фасадам стекали бурые потеки коррозии."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:21
+translate english_us chapter2_act5_anomic_arrival_c73b37c4:
+
+    # narrator "Аномик. Брошенный промышленный узел долин."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:33
+translate english_us chapter2_act5_anomic_arrival_b61ceedc:
+
+    # guts "Привыкай к пейзажу. Здесь теперь твоя лаборатория."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:35
+translate english_us chapter2_act5_anomic_arrival_98b6b0b8:
+
+    # narrator "Гатс зашагал вперед, не оглядываясь. Тяжелые подошвы его ботинок с хрустом дробили битый кирпич и ржавую стружку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:35
+translate english_us chapter2_act5_anomic_arrival_9dc92cfb:
+
+    # narrator "Я поплелась следом, втягивая голову в плечи и судорожно кутаясь в остатки лабораторного халата."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:45
+translate english_us chapter2_act5_anomic_arrival_6967165b:
+
+    # narrator "Мы вошли внутрь цеха."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:45
+translate english_us chapter2_act5_anomic_arrival_38e92354:
+
+    # narrator "Тяжелая бронированная створка шлюза с протяжным стоном захлопнулась за нашими спинами."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:45
+translate english_us chapter2_act5_anomic_arrival_dea5cde5:
+
+    # narrator "Глухо лязгнули массивные запорные ригели."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:45
+translate english_us chapter2_act5_anomic_arrival_08664745:
+
+    # narrator "Внешний свет отрезало наглухо. Под высоким сводом с низким гулом зажглись пыльные плафоны аварийного освещения, заливая сырой бетон мертвенным ртутным светом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/7-arrival.rpy:45
+translate english_us chapter2_act5_anomic_arrival_1bf5a969:
+
+    # narrator "Дорога назад перестала существовать."
+    narrator ""
+

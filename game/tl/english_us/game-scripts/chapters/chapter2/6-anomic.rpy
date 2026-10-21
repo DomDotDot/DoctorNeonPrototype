@@ -390,3 +390,239 @@ translate english_us chapter2_act5_journey_to_anomic_ce2dc5c6:
     # narrator "Под покачивание фургона, глядя на зловещие клубы тумана за окном, она снова провалилась в сон."
     narrator "Lulled by the rocking of the van, gazing at the sinister plumes of fog outside the window, she fell asleep again."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:7
+translate english_us chapter2_act5_journey_to_anomic_d00e4f16:
+
+    # narrator "Сдвижная дверь со скрежетом встала в паз, отрезая утренний свет."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:7
+translate english_us chapter2_act5_journey_to_anomic_a2d494a9:
+
+    # narrator "В кузове воцарился душный полумрак. Пахло сырой ржавчиной, пролитой соляркой, горелым маслом и застарелым махорочным табаком."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:7
+translate english_us chapter2_act5_journey_to_anomic_f38fcd9e:
+
+    # narrator "Я опустилась на грубый деревянный ящик, прижавшись затылком к дрожащему ребру кузова. Напротив меня, уперев тяжелые кулаки в колени, неподвижно сидел Гатс."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:15
+translate english_us chapter2_act5_journey_to_anomic_8e7df110:
+
+    # narrator "В пыльном смотровом стекле перегородки то и дело мелькало худое лицо Рико."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:15
+translate english_us chapter2_act5_journey_to_anomic_028bc2db:
+
+    # narrator "Он нервно дергал баранку, то и дело скашивая глаза на зеркало заднего вида."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:21
+translate english_us chapter2_act5_journey_to_anomic_d7e53bc4:
+
+    # "Рико" "Шеф! Ты на подол ее посмотри! У нее халат бурый от засохшей крови! На первом же посту ДПС нас к стенке поставят за укрывательство!"
+    "Рико" ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:23
+translate english_us chapter2_act5_journey_to_anomic_7c9ec730:
+
+    # guts "Заткнись, Рико. Держись гравийных грунтовок и не суйся на автобаны."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:25
+translate english_us chapter2_act5_journey_to_anomic_a0d324a1:
+
+    # narrator "Голос великана прозвучал глухо и веско, словно удар кувалды по свинцовой плите."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:25
+translate english_us chapter2_act5_journey_to_anomic_d7d4db9d:
+
+    # narrator "Рико огрызнулся сквозь зубы, но перечить не посмел. Двигатель натужно взревел, подвеска жалобно заскрипела на ухабах, и машина тронулась, увозя меня прочь от предгорий."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:33
+translate english_us chapter2_act5_journey_to_anomic_1bbaac1c:
+
+    # narrator "Время потеряло четкие границы, превратившись в изнурительную череду дорожных рывков и остановок."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:33
+translate english_us chapter2_act5_journey_to_anomic_77559090:
+
+    # narrator "Мы уходили всё дальше на восток."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:33
+translate english_us chapter2_act5_journey_to_anomic_628cdf73:
+
+    # narrator "За узкими щелями кузовных панелей мелькали увядающие ландшафты: пустые бензоколонки с разбитыми стеклами, бесконечные заброшенные поля, фермы и серые бетонки, поросшие чертополохом."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:33
+translate english_us chapter2_act5_journey_to_anomic_d8512f6a:
+
+    # narrator "Благополучная, стерильная альпийская сказка осталась далеко позади. Мы углублялись в бескрайние, разоренные просторы Европы."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:33
+translate english_us chapter2_act5_journey_to_anomic_c31347ff:
+
+    # narrator "Я то проваливалась в липкий, тревожный бред, то вздрагивала от глухих ударов подвески о выбоины, кутаясь в остывающий халат."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:47
+translate english_us chapter2_act5_journey_to_anomic_1d623e0a:
+
+    # narrator "Спустя двое суток монотонной тряски мир за бортом окончательно утратил признаки нормальной жизни."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:47
+translate english_us chapter2_act5_journey_to_anomic_3b86755b:
+
+    # narrator "Окружающая равнина казалась мертвой."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:47
+translate english_us chapter2_act5_journey_to_anomic_5a688047:
+
+    # narrator "Поля заросли уродливым рыжим бурьяном, перелески стояли голыми — сухие, почерневшие стволы напоминали обугленные кости после массированного пожара."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:47
+translate english_us chapter2_act5_journey_to_anomic_6862ef88:
+
+    # narrator "А в оврагах, канавах и низинах тяжело колыхалась плотная серо-желтая мгла."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:47
+translate english_us chapter2_act5_journey_to_anomic_daa2ef82:
+
+    # narrator "Она поднималась прямо из трещин сухого грунта. Ветер не рассеивал эту взвесь; она медленно ползла по земле, облепляя остовы ржавых тракторов и обрушенные пролеты мостов, покрывая железо хлопьями едкой пунцовой ржавчины."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:59
+translate english_us chapter2_act5_journey_to_anomic_0d6c5e7e:
+
+    # neon "Что это с землей...? Она словно гниет заживо."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:61
+translate english_us chapter2_act5_journey_to_anomic_24263c19:
+
+    # narrator "Гатс медленно поднял на меня тяжелые веки. В его обветренном лице сквозило угрюмое недоумение."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:65
+translate english_us chapter2_act5_journey_to_anomic_ca79f00a:
+
+    # guts "Ты взаправду не видела? Чем вы там занимались в своих стеклянных башнях?"
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:67
+translate english_us chapter2_act5_journey_to_anomic_3443ab68:
+
+    # neon "Я вела астрофизические наблюдения. Радиоспектры пульсаров, глубокий космос... Мы никогда не работали с почвами предгорий."
+    neon ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:69
+translate english_us chapter2_act5_journey_to_anomic_9f331cfa:
+
+    # guts "Высотники..."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:69
+translate english_us chapter2_act5_journey_to_anomic_c550477e:
+
+    # guts "Заперлись на ледниках выше всех, дышите чистым кислородом и делаете вид, будто внизу ничего не происходит."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:69
+translate english_us chapter2_act5_journey_to_anomic_19030b03:
+
+    # guts "То, что коптит за бортом — Пожирающий Туман."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:69
+translate english_us chapter2_act5_journey_to_anomic_4eb5d450:
+
+    # guts "Он пришел с востока и сожрал всю равнину. Бетон крошит в песок, стальные балки жрет в труху, а человеческие легкие за два сезона забивает слизью и кровью."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:79
+translate english_us chapter2_act5_journey_to_anomic_99de2107:
+
+    # narrator "Он говорил об этом спокойно, как говорят о затяжных осенних дождях."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:81
+translate english_us chapter2_act5_journey_to_anomic_644a8a7f:
+
+    # guts "Поначалу власти возводили дамбы, ставили ионизаторы... Всё прахом пошло. Туман проедает любые мембраны."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:81
+translate english_us chapter2_act5_journey_to_anomic_1a9efb88:
+
+    # guts "Тогда толстосумы бросили равнину. Замуровались на скалах вроде твоей лаборатории. А низины оставили нам — догнивать."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:81
+translate english_us chapter2_act5_journey_to_anomic_ae73c78f:
+
+    # guts "Привыкай, ученая. Твоя чистая жизнь осталась на верхушке горы. Здесь дно."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:89
+translate english_us chapter2_act5_journey_to_anomic_322dfe26:
+
+    # neon "Но куда вы меня везете? Разве можно жить посреди этого яда?"
+    neon ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:91
+translate english_us chapter2_act5_journey_to_anomic_7c8091ca:
+
+    # guts "В Аномик."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:91
+translate english_us chapter2_act5_journey_to_anomic_ceca5d80:
+
+    # guts "Старый закрытый промышленный узел. Туман накрыл его недавно, поэтому туда не сунутся ни корпоративные штурмовики, ни пограничный контроль."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:91
+translate english_us chapter2_act5_journey_to_anomic_c61f5fe1:
+
+    # guts "Там наши ангары и мастерские. Работы хватит, если голова на плечах варит."
+    guts ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:101
+translate english_us chapter2_act5_journey_to_anomic_08d591ac:
+
+    # narrator "Я откинулась затылком на железную обшивку."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:101
+translate english_us chapter2_act5_journey_to_anomic_fca96bc6:
+
+    # narrator "Слова Алекс... Только сейчас до меня доходил весь чудовищный масштаб ее страха. Пока я чертила траектории далеких галактик в стерильном покое обсерватории, цивилизация под нашими ногами тихо умирала."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:101
+translate english_us chapter2_act5_journey_to_anomic_e5ceaef8:
+
+    # narrator "Гул мотора и глухой стук колес о выбоины постепенно заглушили мысли."
+    narrator ""
+
+# game/game-scripts/chapters/chapter2/6-anomic.rpy:101
+translate english_us chapter2_act5_journey_to_anomic_2c0a85cf:
+
+    # narrator "Усталость взяла свое, увлекая меня в глубокое, тяжелое забытье."
+    narrator ""
+
