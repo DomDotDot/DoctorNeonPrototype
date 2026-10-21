@@ -407,3 +407,43 @@ translate english_us strings:
     old "шлюха"
     new "whore"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+translate english_us strings:
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "troll"
+    new "troll"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "nobody"
+    new "nobody"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "nothing"
+    new "nothing"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "none"
+    new "none  "
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "unknown"
+    new "unknown"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "anonymous"
+    new "anonymous"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "guest"
+    new "guest"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "admin"
+    new "admin"
+
+    # game/modules/quest_questions/quest-questions.rpy:243
+    old "player"
+    new "player"
+

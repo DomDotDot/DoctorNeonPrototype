@@ -682,3 +682,23 @@ translate english_us strings:
     old "Конец для Элементов, Начало для Человечества"
     new ""
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+translate english_us strings:
+
+    # game/modules/main-menu/sub-menus/menu_play.rpy:158
+    old "1. Первая встреча"
+    new "1. First Meeting"
+
+    # game/modules/main-menu/sub-menus/menu_play.rpy:158
+    old "Воспоминание о знакомстве"
+    new "Memory of Meeting"
+
+    # game/modules/main-menu/sub-menus/menu_play.rpy:162
+    old "Пролог"
+    new "Prologue"
+
+    # game/modules/main-menu/sub-menus/menu_play.rpy:162
+    old "Первая встреча"
+    new "First Meeting"
+

@@ -106,3 +106,22 @@ translate english_us strings:
     old "Настройки восстановлены по умолчанию."
     new "Settings restored to defaults."
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+translate english_us strings:
+
+    # game/modules/main-menu/sub-menus/menu_data.rpy:334
+    old "Разблокировать всех персонажей"
+    new "Unlock all characters"
+
+    # game/modules/main-menu/sub-menus/menu_data.rpy:352
+    old "Разблокировать все достижения"
+    new "Unlock all achievements"
+
+    # game/modules/main-menu/sub-menus/menu_data.rpy:353
+    old "Открывает все достижения (Чит/Тест)"
+    new "Unlocks all achievements (Cheat/Test)"
+    # game/modules/main-menu/sub-menus/menu_data.rpy:358
+    old "Разблокировать все достижения?"
+    new "Unlock all achievements?"
+

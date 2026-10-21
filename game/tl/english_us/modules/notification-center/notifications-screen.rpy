@@ -54,3 +54,15 @@ translate english_us strings:
     old "Не напоминать"
     new "Do not remind"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+translate english_us strings:
+
+    # game/modules/notification-center/notifications-screen.rpy:78
+    old "Itch.io"
+    new "Itch.io"
+
+    # game/modules/notification-center/notifications-screen.rpy:80
+    old "GitHub"
+    new "GitHub"
+

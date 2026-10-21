@@ -362,3 +362,31 @@ translate english_us strings:
     old "Воспоминания"
     new "Recollection"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+translate english_us strings:
+
+    # game/screens.rpy:625
+    old "ВЫХОД ИЗ ИГРЫ"
+    new "EXIT TO DESKTOP"
+
+    # game/screens.rpy:628
+    old "ГЛАВНОЕ МЕНЮ"
+    new "MAIN MENU"
+
+    # game/screens.rpy:631
+    old "ПОДТВЕРЖДЕНИЕ"
+    new "CONFIRMATION"
+
+    # game/screens.rpy:652
+    old "Любой несохранённый игровой прогресс будет утерян."
+    new "Any unsaved progress will be lost."
+
+    # game/screens.rpy:677
+    old "Да, выйти"
+    new "Yes, Confirm"
+
+    # game/screens.rpy:680
+    old "Да, в меню"
+    new "Yes, to Confirm"
+

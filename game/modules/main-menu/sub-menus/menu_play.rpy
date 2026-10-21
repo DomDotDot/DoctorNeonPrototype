@@ -156,7 +156,7 @@ init 1 python:
 
 
     ch0_subchapters = [
-        SubchapterItem("chapter_0", _("1. Первая встреча"), _("Воспоминание о знакомстве с Криптон"), _("Сюжет")),
+        SubchapterItem("chapter_0", _("1. Первая встреча"), _("Воспоминание о знакомстве"), _("Сюжет")),
     ]
 
     add_chapter("chapter_0", _("Пролог"), _("Первая встреча"), "images/cg/vol1/chapter2/featured_cg-8_2.avif", "chapter_0_unlocked", ch0_subchapters)

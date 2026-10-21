@@ -22,3 +22,11 @@ translate english_us strings:
     old "Тестировщик и Вдохновитель: Overhappy_Avali\n"
     new "Tester and Inspirer: Overhappy_Avali\n"
 
+# TODO: Translation updated at 2026-10-21 01:27
+
+translate english_us strings:
+
+    # game/modules/main-menu/sub-menus/menu_about.rpy:125
+    old "Автор и Разработчик: "
+    new "Author and Developer: "
+
