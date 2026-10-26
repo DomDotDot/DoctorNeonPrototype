@@ -17,7 +17,7 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-120.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Words](https://img.shields.io/badge/Words-120.2k-blue?style=flat-square&logo=gitbook&logoColor=white)
 ![Lines](https://img.shields.io/badge/Lines-5%20796-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 144** | `100%` |
+| **Total Words** | **120 151** | `100%` |
 | **Total Script Lines** | **5 796** | `100%` |
-| Narration / Description | 79 781 words / 3 046 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 363 words / 2 750 lines | `33.6%` ███░░░░░░░ |
+| Narration / Description | 79 790 words / 3 046 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 361 words / 2 750 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -265,18 +265,18 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 308 | 8 195 | `25.8%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 796** | **120 144** | `33.6%` |
+| **Flashbacks & Memory Fragments** | 13 | 308 | 8 202 | `25.7%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 796** | **120 151** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 169 | 13 779 | `34.1%` ███░░░░░ |
+| **Neon** | 1 169 | 13 780 | `34.1%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 499 | `6.2%` ░░░░░░░░ |
-| **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
+| **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
 | **Alex** | 100 | 1 634 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.2%` ░░░░░░░░ |
@@ -295,7 +295,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Character | Lines | Words | Word Share |
 | :--- | :---: | :---: | :--- |
-| **???** | 42 | 564 | `1.4%` ░░░░░░░░ |
+| **???** | 42 | 561 | `1.4%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
 | **Young Oganesson** | 23 | 447 | `1.1%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
