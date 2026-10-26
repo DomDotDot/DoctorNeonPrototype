@@ -1,4 +1,4 @@
-﻿label krypton_concert_flashback:
+label krypton_concert_flashback:
         $ renpy.music.set_audio_filter("music", None, replace=True)
         scene black with Dissolve(2.0)
         play music "music/BGM/A-Niente.opus" fadein 10.0 fadeout 15.0
@@ -66,7 +66,7 @@
         "???" """
         {=thoughts}Услышь меня... Умоляю, переступи порог... Я держу этот ритм только ради тебя... ради той, кто верил мне...
         
-        {=thoughts}Без твоего взгляда чужой гул разорвет меня на части...{/thoughts}
+        {=thoughts}Без твоего взгляда они все разорвут меня на части!{/thoughts}
         """
 
         # Нарастание напряжения
@@ -114,7 +114,7 @@
         
         {=thoughts}Они смотрят... они дышат... их шепот, их взгляды впиваются в кожу! Это невыносимо громко!
 
-        {=thoughts}Всё прахом... Всё рухнуло...
+        {=thoughts}Всё зря... Всё зря...{/thoughts}
         
         {=thoughts}Где же ты?! Зачем бросила меня в этом аду?! Ты обещала!{/thoughts}
         """
@@ -134,9 +134,9 @@
         scene ch01_cg08_v01 with dissolve
 
         "???" """
-        {=whisper}Я сломалась...
+        {=whisper}Я больше так не могу...{/whisper}
         
-        ХВАТИТ С МЕНЯ!
+        Я БОЛЬШЕ ТАК НЕ МОГУ!
         """
 
         narrator """
@@ -161,7 +161,7 @@
         neon "{=thoughts}Я помню этот слепящий прямоугольник света у бокового яруса... Я помню, как задыхалась от бега, врываясь в этот проем.{/thoughts}"
 
         "???" "{=whisper}Неон...?{/whisper}"
-
+        
         scene ch01_cg09_v01 with fade
 
         narrator """
