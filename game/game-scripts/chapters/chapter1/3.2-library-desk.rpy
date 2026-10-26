@@ -1,4 +1,4 @@
-﻿label chapter1_lab_noon_library_desk:
+label chapter1_lab_noon_library_desk:
 
         scene ch01_cg16_v01 with dissolve
         play music "music/BGM/Lamenter.opus" fadein 5.0
