@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 188** | `100%` |
+| **Total Words** | **120 184** | `100%` |
 | **Total Script Lines** | **5 798** | `100%` |
 | Narration / Description | 79 781 words / 3 046 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 407 words / 2 752 lines | `33.6%` ███░░░░░░░ |
+| Spoken Dialogue (Characters) | 40 403 words / 2 752 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 406 | 8 264 | `33.5%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 406 | 8 260 | `33.4%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 942 | `15.2%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,19 +266,19 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 308 | 8 196 | `25.8%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 798** | **120 188** | `33.6%` |
+| **TOTAL** | **158** | **5 798** | **120 184** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 170 | 13 786 | `34.1%` ███░░░░░ |
+| **Neon** | 1 170 | 13 785 | `34.1%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 499 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
-| **Alex** | 100 | 1 629 | `4.0%` ░░░░░░░░ |
+| **Alex** | 100 | 1 626 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.2%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.2%` ░░░░░░░░ |
 | **Marcus** | 49 | 783 | `1.9%` ░░░░░░░░ |
