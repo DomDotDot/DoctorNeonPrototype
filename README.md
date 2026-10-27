@@ -17,8 +17,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-120.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20787-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-121.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20803-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 086** | `100%` |
-| **Total Script Lines** | **5 787** | `100%` |
-| Narration / Description | 79 736 words / 3 043 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 350 words / 2 744 lines | `33.6%` ███░░░░░░░ |
+| **Total Words** | **121 077** | `100%` |
+| **Total Script Lines** | **5 803** | `100%` |
+| Narration / Description | 80 408 words / 3 060 lines | `66.4%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 669 words / 2 743 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 402 | 8 228 | `33.2%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 418 | 9 219 | `33.1%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 942 | `15.2%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,26 +266,26 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 301 | 8 130 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 787** | **120 086** | `33.6%` |
+| **TOTAL** | **158** | **5 803** | **121 077** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 168 | 13 791 | `34.2%` ███░░░░░ |
-| **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
-| **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
-| **Oganesson (Guardian)** | 140 | 2 499 | `6.2%` ░░░░░░░░ |
-| **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
+| **Neon** | 1 170 | 14 074 | `34.6%` ███░░░░░ |
+| **Seraphina** | 164 | 3 516 | `8.6%` █░░░░░░░ |
+| **Argon** | 164 | 3 063 | `7.5%` █░░░░░░░ |
+| **Oganesson (Guardian)** | 140 | 2 499 | `6.1%` ░░░░░░░░ |
+| **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
-| **Alex** | 99 | 1 605 | `4.0%` ░░░░░░░░ |
+| **Alex** | 95 | 1 591 | `3.9%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.2%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.2%` ░░░░░░░░ |
-| **Marcus** | 48 | 792 | `2.0%` ░░░░░░░░ |
+| **Marcus** | 48 | 792 | `1.9%` ░░░░░░░░ |
 | **Nari** | 56 | 715 | `1.8%` ░░░░░░░░ |
 | **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
 | **Akane (Mother)** | 30 | 509 | `1.3%` ░░░░░░░░ |
-| **Xenon** | 21 | 506 | `1.3%` ░░░░░░░░ |
+| **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
 | **Teacher Akari** | 18 | 308 | `0.8%` ░░░░░░░░ |
 | **Anna** | 14 | 123 | `0.3%` ░░░░░░░░ |
 | **Helium** | 1 | 1 | `0.0%` ░░░░░░░░ |
@@ -298,8 +298,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **???** | 42 | 561 | `1.4%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
 | **Young Oganesson** | 22 | 445 | `1.1%` ░░░░░░░░ |
+| **Hans** | 14 | 323 | `0.8%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
-| **Hans** | 13 | 273 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
 | **Student 1 (Amy)** | 8 | 234 | `0.6%` ░░░░░░░░ |
 | **Entity / Illusion** | 10 | 224 | `0.6%` ░░░░░░░░ |
