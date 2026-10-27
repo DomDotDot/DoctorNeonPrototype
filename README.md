@@ -18,7 +18,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-120.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20789-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20787-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 081** | `100%` |
-| **Total Script Lines** | **5 789** | `100%` |
+| **Total Words** | **120 084** | `100%` |
+| **Total Script Lines** | **5 787** | `100%` |
 | Narration / Description | 79 736 words / 3 043 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 345 words / 2 746 lines | `33.6%` ███░░░░░░░ |
+| Spoken Dialogue (Characters) | 40 348 words / 2 744 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 404 | 8 223 | `33.1%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 402 | 8 226 | `33.2%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 942 | `15.2%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,22 +266,22 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 301 | 8 130 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 789** | **120 081** | `33.6%` |
+| **TOTAL** | **158** | **5 787** | **120 084** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 168 | 13 783 | `34.2%` ███░░░░░ |
+| **Neon** | 1 168 | 13 785 | `34.2%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 499 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
-| **Alex** | 100 | 1 637 | `4.1%` ░░░░░░░░ |
+| **Alex** | 99 | 1 614 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.2%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.2%` ░░░░░░░░ |
-| **Marcus** | 49 | 771 | `1.9%` ░░░░░░░░ |
+| **Marcus** | 48 | 795 | `2.0%` ░░░░░░░░ |
 | **Nari** | 56 | 715 | `1.8%` ░░░░░░░░ |
 | **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
 | **Akane (Mother)** | 30 | 509 | `1.3%` ░░░░░░░░ |
