@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 081** | `100%` |
+| **Total Words** | **120 086** | `100%` |
 | **Total Script Lines** | **5 787** | `100%` |
 | Narration / Description | 79 736 words / 3 043 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 345 words / 2 744 lines | `33.6%` ███░░░░░░░ |
+| Spoken Dialogue (Characters) | 40 350 words / 2 744 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 402 | 8 223 | `33.1%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 402 | 8 228 | `33.2%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 942 | `15.2%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,19 +266,19 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 301 | 8 130 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 787** | **120 081** | `33.6%` |
+| **TOTAL** | **158** | **5 787** | **120 086** | `33.6%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 168 | 13 785 | `34.2%` ███░░░░░ |
+| **Neon** | 1 168 | 13 791 | `34.2%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.7%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.6%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 140 | 2 499 | `6.2%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.3%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.1%` ░░░░░░░░ |
-| **Alex** | 99 | 1 614 | `4.0%` ░░░░░░░░ |
+| **Alex** | 99 | 1 605 | `4.0%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.2%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.2%` ░░░░░░░░ |
 | **Marcus** | 48 | 792 | `2.0%` ░░░░░░░░ |
@@ -299,7 +299,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
 | **Young Oganesson** | 22 | 445 | `1.1%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
-| **Hans** | 13 | 270 | `0.7%` ░░░░░░░░ |
+| **Hans** | 13 | 273 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
 | **Student 1 (Amy)** | 8 | 234 | `0.6%` ░░░░░░░░ |
 | **Entity / Illusion** | 10 | 224 | `0.6%` ░░░░░░░░ |
@@ -344,6 +344,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Security Captain** | 3 | 25 | `0.1%` ░░░░░░░░ |
 | **Student C** | 1 | 25 | `0.1%` ░░░░░░░░ |
 | **Control Officer** | 4 | 24 | `0.1%` ░░░░░░░░ |
+| **Guard** | 4 | 24 | `0.1%` ░░░░░░░░ |
 | **Concierge (Female)** | 3 | 24 | `0.1%` ░░░░░░░░ |
 | **Consultant** | 2 | 24 | `0.1%` ░░░░░░░░ |
 | **Рико** | 1 | 24 | `0.1%` ░░░░░░░░ |
@@ -351,7 +352,6 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Отец** | 1 | 22 | `0.1%` ░░░░░░░░ |
 | **CEO's Voice** | 1 | 21 | `0.1%` ░░░░░░░░ |
 | **Medrobot** | 3 | 20 | `0.0%` ░░░░░░░░ |
-| **Guard** | 4 | 19 | `0.0%` ░░░░░░░░ |
 | **Commander** | 2 | 19 | `0.0%` ░░░░░░░░ |
 | **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
 | **Mercenary Commander** | 3 | 16 | `0.0%` ░░░░░░░░ |
