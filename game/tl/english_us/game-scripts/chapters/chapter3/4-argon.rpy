@@ -183,8 +183,8 @@ translate english_us ch3_part2_the_cage_b2048e7f:
 # game/game-scripts/chapters/chapter3/4-argon.rpy:78
 translate english_us ch3_part2_the_cage_fcf46456:
 
-    # neon disargeement "С этого завода! Меня здесь держат силой!"
-    neon disargeement "From this factory! I'm being held here by force!"
+    # neon disagreement "С этого завода! Меня здесь держат силой!"
+    neon disagreement "From this factory! I'm being held here by force!"
 
 # game/game-scripts/chapters/chapter3/4-argon.rpy:79
 translate english_us ch3_part2_the_cage_c7cd9231:
@@ -309,8 +309,8 @@ translate english_us ch3_part2_the_cage_e0bcc40b:
 # game/game-scripts/chapters/chapter3/4-argon.rpy:122
 translate english_us ch3_part2_the_cage_8631f723:
 
-    # neon disargeement "Но вы не можете просто... сидеть здесь и гнить!"
-    neon disargeement "But you can't just... sit here and rot!"
+    # neon disagreement "Но вы не можете просто... сидеть здесь и гнить!"
+    neon disagreement "But you can't just... sit here and rot!"
 
 # game/game-scripts/chapters/chapter3/4-argon.rpy:123
 translate english_us ch3_part2_the_cage_2263badb:
