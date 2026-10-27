@@ -244,9 +244,9 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **120 904** | `100%` |
+| **Total Words** | **120 899** | `100%` |
 | **Total Script Lines** | **5 801** | `100%` |
-| Narration / Description | 80 369 words / 3 060 lines | `66.5%` ███████░░░ |
+| Narration / Description | 80 364 words / 3 060 lines | `66.5%` ███████░░░ |
 | Spoken Dialogue (Characters) | 40 535 words / 2 741 lines | `33.5%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 418 | 9 179 | `33.2%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 418 | 9 174 | `33.2%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 942 | `15.2%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,7 +266,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 484 | 27 701 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 299 | 7 997 | `24.5%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 801** | **120 904** | `33.5%` |
+| **TOTAL** | **158** | **5 801** | **120 899** | `33.5%` |
 
 ### Character Dialogue Distribution
 
