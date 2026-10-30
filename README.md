@@ -17,7 +17,7 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-123.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Words](https://img.shields.io/badge/Words-123.0k-blue?style=flat-square&logo=gitbook&logoColor=white)
 ![Lines](https://img.shields.io/badge/Lines-5%20822-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **123 064** | `100%` |
+| **Total Words** | **123 019** | `100%` |
 | **Total Script Lines** | **5 822** | `100%` |
-| Narration / Description | 82 026 words / 3 074 lines | `66.7%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 038 words / 2 748 lines | `33.3%` ███░░░░░░░ |
+| Narration / Description | 81 981 words / 3 074 lines | `66.6%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 038 words / 2 748 lines | `33.4%` ███░░░░░░░ |
 | Unique Speakers | 101 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 415 | 9 501 | `33.2%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 415 | 9 456 | `33.4%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 971 | `15.0%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,7 +266,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 883 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 320 | 9 624 | `23.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 822** | **123 064** | `33.3%` |
+| **TOTAL** | **158** | **5 822** | **123 019** | `33.4%` |
 
 ### Character Dialogue Distribution
 
