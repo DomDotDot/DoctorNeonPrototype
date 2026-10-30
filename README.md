@@ -17,10 +17,10 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-121.6k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20803-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-123.1k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20822-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
-![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
+![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
 <br>
 
@@ -244,11 +244,11 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **121 573** | `100%` |
-| **Total Script Lines** | **5 803** | `100%` |
-| Narration / Description | 80 720 words / 3 060 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 853 words / 2 743 lines | `33.6%` ███░░░░░░░ |
-| Unique Speakers | 103 | — |
+| **Total Words** | **123 064** | `100%` |
+| **Total Script Lines** | **5 822** | `100%` |
+| Narration / Description | 82 026 words / 3 074 lines | `66.7%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 038 words / 2 748 lines | `33.3%` ███░░░░░░░ |
+| Unique Speakers | 101 | — |
 | Script Files (.rpy) | 158 | — |
 
 ### Chapter Breakdown
@@ -265,24 +265,24 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 883 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 301 | 8 133 | `25.8%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 803** | **121 573** | `33.6%` |
+| **Flashbacks & Memory Fragments** | 13 | 320 | 9 624 | `23.7%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 822** | **123 064** | `33.3%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 175 | 14 252 | `34.9%` ███░░░░░ |
+| **Neon** | 1 181 | 14 477 | `35.3%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.6%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.5%` █░░░░░░░ |
-| **Oganesson (Guardian)** | 140 | 2 499 | `6.1%` ░░░░░░░░ |
+| **Oganesson (Guardian)** | 139 | 2 492 | `6.1%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
 | **Alex** | 90 | 1 555 | `3.8%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.1%` ░░░░░░░░ |
-| **Sibyl** | 36 | 880 | `2.2%` ░░░░░░░░ |
+| **Sibyl** | 36 | 880 | `2.1%` ░░░░░░░░ |
 | **Marcus** | 48 | 831 | `2.0%` ░░░░░░░░ |
-| **Nari** | 56 | 715 | `1.8%` ░░░░░░░░ |
+| **Nari** | 56 | 715 | `1.7%` ░░░░░░░░ |
 | **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
 | **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
 | **Akane (Mother)** | 30 | 478 | `1.2%` ░░░░░░░░ |
@@ -291,11 +291,11 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Helium** | 1 | 1 | `0.0%` ░░░░░░░░ |
 
 <details>
-<summary><b>Additional and episodic characters (86)</b></summary>
+<summary><b>Additional and episodic characters (84)</b></summary>
 
 | Character | Lines | Words | Word Share |
 | :--- | :---: | :---: | :--- |
-| **???** | 42 | 561 | `1.4%` ░░░░░░░░ |
+| **???** | 45 | 607 | `1.5%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
 | **Young Oganesson** | 22 | 479 | `1.2%` ░░░░░░░░ |
 | **Hans** | 14 | 323 | `0.8%` ░░░░░░░░ |
@@ -323,7 +323,6 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Automaton** | 9 | 72 | `0.2%` ░░░░░░░░ |
 | **Bandit 2** | 3 | 72 | `0.2%` ░░░░░░░░ |
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
-| **Unknown Female** | 2 | 67 | `0.2%` ░░░░░░░░ |
 | **Kai Ito** | 4 | 65 | `0.2%` ░░░░░░░░ |
 | **Bartender Staff** | 4 | 63 | `0.2%` ░░░░░░░░ |
 | **Concierge** | 4 | 62 | `0.2%` ░░░░░░░░ |
@@ -362,7 +361,6 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Student 1** | 1 | 13 | `0.0%` ░░░░░░░░ |
 | **Student 1 (Girl)** | 1 | 13 | `0.0%` ░░░░░░░░ |
 | **Voice** | 3 | 11 | `0.0%` ░░░░░░░░ |
-| **Bully 2** | 1 | 11 | `0.0%` ░░░░░░░░ |
 | **Passenger** | 1 | 11 | `0.0%` ░░░░░░░░ |
 | **Father** | 1 | 9 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1's Voice** | 1 | 9 | `0.0%` ░░░░░░░░ |
@@ -371,10 +369,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Security Commander** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Парень** | 1 | 8 | `0.0%` ░░░░░░░░ |
-| **Bully 1** | 1 | 7 | `0.0%` ░░░░░░░░ |
 | **Boy** | 2 | 6 | `0.0%` ░░░░░░░░ |
 | **Courier** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
+| **Unknown Female** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Bodyguard** | 2 | 5 | `0.0%` ░░░░░░░░ |
 | **Passerby** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Clara** | 3 | 4 | `0.0%` ░░░░░░░░ |
