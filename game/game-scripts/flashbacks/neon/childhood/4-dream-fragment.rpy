@@ -147,8 +147,6 @@ label dream_sequence_japan_4:
     
     narrator """
     ...
-
-    Я слышу колыбель, я слышу как цокают две спицы.
     """
     
     narrator "Я вижу окно, но в нем нет звезд."
@@ -159,7 +157,7 @@ label dream_sequence_japan_4:
 
     scene bg chapter_1_rural_flashback with flash
 
-    narrator "'Мальвина'. Белая Ворона, что окунулось в синеву."
+    narrator "..."
 
     scene 7a-cg-4 with dissolve
 
