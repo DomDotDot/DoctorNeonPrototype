@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **121 570** | `100%` |
+| **Total Words** | **121 573** | `100%` |
 | **Total Script Lines** | **5 803** | `100%` |
 | Narration / Description | 80 720 words / 3 060 lines | `66.4%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 850 words / 2 743 lines | `33.6%` ███░░░░░░░ |
+| Spoken Dialogue (Characters) | 40 853 words / 2 743 lines | `33.6%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -265,8 +265,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 883 | `31.6%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 301 | 8 130 | `25.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 803** | **121 570** | `33.6%` |
+| **Flashbacks & Memory Fragments** | 13 | 301 | 8 133 | `25.8%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 803** | **121 573** | `33.6%` |
 
 ### Character Dialogue Distribution
 
@@ -284,8 +284,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Marcus** | 48 | 831 | `2.0%` ░░░░░░░░ |
 | **Nari** | 56 | 715 | `1.8%` ░░░░░░░░ |
 | **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
-| **Akane (Mother)** | 30 | 509 | `1.2%` ░░░░░░░░ |
 | **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
+| **Akane (Mother)** | 30 | 478 | `1.2%` ░░░░░░░░ |
 | **Teacher Akari** | 18 | 308 | `0.8%` ░░░░░░░░ |
 | **Anna** | 14 | 123 | `0.3%` ░░░░░░░░ |
 | **Helium** | 1 | 1 | `0.0%` ░░░░░░░░ |
@@ -297,7 +297,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | :--- | :---: | :---: | :--- |
 | **???** | 42 | 561 | `1.4%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
-| **Young Oganesson** | 22 | 445 | `1.1%` ░░░░░░░░ |
+| **Young Oganesson** | 22 | 479 | `1.2%` ░░░░░░░░ |
 | **Hans** | 14 | 323 | `0.8%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
