@@ -34,7 +34,7 @@ screen say(who, what):
         if who is not None:
             vbox:
                 xalign 0.5
-                ypos 16
+                ypos 42
                 spacing 4
 
                 $ _name_fx = get_name_effect(who)
@@ -47,7 +47,7 @@ screen say(who, what):
 
         text what id "what":
             xalign 0.5
-            ypos (74 if who is not None else 36)
+            ypos (98 if who is not None else 58)
             xsize gui.dialogue_width
             text_align gui.dialogue_text_xalign
             at (seraphina_hypnosis_text_flicker if is_seraphina_hypnosis(who, what) else default_dialogue_tf)
@@ -80,9 +80,9 @@ style window:
     xsize gui.textbox_width
     ysize gui.textbox_height
     yalign gui.textbox_yalign
-    padding (40, 0, 40, 0)
+    padding (0, 0, 0, 0)
 
-    background Frame("gui/textbox.png", 20, 20)
+    background "gui/textbox.png"
 
 style namebox:
     xalign 0.5

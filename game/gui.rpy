@@ -107,7 +107,7 @@ define gui.textbox_yalign = 0.92
 
 ## Местоположение имени говорящего персонажа по отношению к текстовому окну.
 define gui.name_xpos = 0.5
-define gui.name_ypos = 0
+define gui.name_ypos = 42
 
 ## Горизонтальное выравнивание имени персонажа.
 define gui.name_xalign = 0.5
@@ -120,10 +120,10 @@ define gui.namebox_tile = False
 
 ## Размещение диалога по отношению к текстовому окну.
 define gui.dialogue_xpos = 0.5
-define gui.dialogue_ypos = None
+define gui.dialogue_ypos = 98
 
 ## Максимальная ширина текста диалога в пикселях.
-define gui.dialogue_width = 1420
+define gui.dialogue_width = 1200
 
 ## Горизонтальное выравнивание текста диалога.
 define gui.dialogue_text_xalign = 0.0
