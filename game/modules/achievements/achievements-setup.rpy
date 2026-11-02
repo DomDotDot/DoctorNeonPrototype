@@ -11,7 +11,7 @@ init 1 python:
         id="novice",
         name=_("Куда жать, чтобы победить?"),
         description=_("Откройте экран помощи и ознакомьтесь с управлением в визуальной новелле."),
-        icon=None,
+        icon="images/achievements/cirno.png",
         ach_type=ACH_TYPE_NORMAL
     ))
 
@@ -83,7 +83,7 @@ init 1 python:
         id="dont_rush",
         name=_("Куда ты спешишь?"),
         description=_("Пройдите главу истории быстрее чем за 10 минут, пропуская строки текста."),
-        icon=None,
+        icon="images/achievements/andone.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Зачем читать сюжет новеллы, если можно вдавить клавишу пропуска в пол?")
     ))
@@ -260,7 +260,7 @@ init 1 python:
         id="protocol_error_profanity",
         name=_("Штраф за нарушение морального кодекса"),
         description=_("При вопросе СИВИЛЛЫ 'Кто вы?' попытайтесь ввести запрещённое слово или оскорбление."),
-        icon=None,
+        icon="images/achievements/censored.png",
         ach_type=ACH_TYPE_HIDDEN,
         hidden_desc=_("Скрытое достижение. Искусственный интеллект обучен миллионам страниц вежливости. А вот ваш словарный запас при знакомстве оставляет желать лучшего.")
     ))
@@ -372,7 +372,7 @@ init 1 python:
         id="nostalgia",
         name=_("Ностальгия"),
         description=_("Просмотрите 25 уникальных иллюстраций в Галерее CG."),
-        icon=None,
+        icon="images/achievements/chibi-celestia.png",
         ach_type=ACH_TYPE_TRACKING,
         max_progress=25
     ))
