@@ -17,8 +17,8 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-122.7k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20828-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-122.9k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20822-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **122 697** | `100%` |
-| **Total Script Lines** | **5 828** | `100%` |
-| Narration / Description | 81 792 words / 3 076 lines | `66.7%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 905 words / 2 752 lines | `33.3%` ███░░░░░░░ |
+| **Total Words** | **122 935** | `100%` |
+| **Total Script Lines** | **5 822** | `100%` |
+| Narration / Description | 81 949 words / 3 074 lines | `66.7%` ███████░░░ |
+| Spoken Dialogue (Characters) | 40 986 words / 2 748 lines | `33.3%` ███░░░░░░░ |
 | Unique Speakers | 101 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -255,7 +255,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 421 | 9 218 | `33.4%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 415 | 9 456 | `33.4%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 971 | `15.0%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
@@ -266,22 +266,22 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 799 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 320 | 9 624 | `23.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 828** | **122 697** | `33.3%` |
+| **TOTAL** | **158** | **5 822** | **122 935** | `33.3%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 179 | 14 323 | `35.0%` ███░░░░░ |
+| **Neon** | 1 181 | 14 425 | `35.2%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.6%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.5%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 139 | 2 496 | `6.1%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
-| **Alex** | 96 | 1 615 | `3.9%` ░░░░░░░░ |
+| **Alex** | 90 | 1 555 | `3.8%` ░░░░░░░░ |
 | **Meryl Kendrick** | 52 | 1 284 | `3.1%` ░░░░░░░░ |
-| **Sibyl** | 36 | 880 | `2.2%` ░░░░░░░░ |
-| **Marcus** | 48 | 792 | `1.9%` ░░░░░░░░ |
+| **Sibyl** | 36 | 880 | `2.1%` ░░░░░░░░ |
+| **Marcus** | 48 | 831 | `2.0%` ░░░░░░░░ |
 | **Nari** | 56 | 715 | `1.7%` ░░░░░░░░ |
 | **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
 | **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
