@@ -18,7 +18,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-122.9k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20822-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20823-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -245,9 +245,9 @@ To package a standalone release for players (Windows, Linux, macOS):
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
 | **Total Words** | **122 935** | `100%` |
-| **Total Script Lines** | **5 822** | `100%` |
+| **Total Script Lines** | **5 823** | `100%` |
 | Narration / Description | 81 949 words / 3 074 lines | `66.7%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 986 words / 2 748 lines | `33.3%` ███░░░░░░░ |
+| Spoken Dialogue (Characters) | 40 986 words / 2 749 lines | `33.3%` ███░░░░░░░ |
 | Unique Speakers | 101 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -265,8 +265,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 799 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 320 | 9 624 | `23.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 822** | **122 935** | `33.3%` |
+| **Flashbacks & Memory Fragments** | 13 | 321 | 9 624 | `23.7%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 823** | **122 935** | `33.3%` |
 
 ### Character Dialogue Distribution
 
@@ -295,7 +295,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Character | Lines | Words | Word Share |
 | :--- | :---: | :---: | :--- |
-| **???** | 45 | 607 | `1.5%` ░░░░░░░░ |
+| **???** | 46 | 607 | `1.5%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
 | **Young Oganesson** | 22 | 479 | `1.2%` ░░░░░░░░ |
 | **Hans** | 14 | 323 | `0.8%` ░░░░░░░░ |
