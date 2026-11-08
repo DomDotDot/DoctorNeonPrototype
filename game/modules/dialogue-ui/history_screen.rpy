@@ -66,7 +66,7 @@ screen history():
                     outlines [ (1, "#002851aa", 0, 0) ]
                     yalign 0.5
 
-                textbutton _("✕ Закрыть") action Return():
+                textbutton _("X Закрыть") action Return():
                     style "history_close_button"
 
             # Тонкая неоновая разделительная линия

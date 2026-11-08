@@ -690,7 +690,7 @@ screen confirm(message, yes_action, no_action):
                         hbox:
                             spacing 10
                             align (0.5, 0.5)
-                            text "✕" size 16 bold True color "#94a3b8"
+                            text "X" size 16 bold True color "#94a3b8"
                             text (_("Отмена") if is_quit else _("Нет")) size 17 bold True color "#cbd5e1"
 
     ## Правый клик и esc, как ответ "Нет".
