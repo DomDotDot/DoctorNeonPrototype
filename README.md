@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **122 934** | `100%` |
+| **Total Words** | **122 935** | `100%` |
 | **Total Script Lines** | **5 822** | `100%` |
 | Narration / Description | 81 949 words / 3 074 lines | `66.7%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 985 words / 2 748 lines | `33.3%` ███░░░░░░░ |
+| Spoken Dialogue (Characters) | 40 986 words / 2 748 lines | `33.3%` ███░░░░░░░ |
 | Unique Speakers | 101 | — |
 | Script Files (.rpy) | 158 | — |
 
@@ -265,17 +265,17 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 799 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 320 | 9 623 | `23.7%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 822** | **122 934** | `33.3%` |
+| **Flashbacks & Memory Fragments** | 13 | 320 | 9 624 | `23.7%` ██░░░░░░ |
+| **TOTAL** | **158** | **5 822** | **122 935** | `33.3%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 181 | 14 424 | `35.2%` ███░░░░░ |
+| **Neon** | 1 181 | 14 425 | `35.2%` ███░░░░░ |
 | **Seraphina** | 164 | 3 516 | `8.6%` █░░░░░░░ |
 | **Argon** | 164 | 3 063 | `7.5%` █░░░░░░░ |
-| **Oganesson (Guardian)** | 139 | 2 492 | `6.1%` ░░░░░░░░ |
+| **Oganesson (Guardian)** | 139 | 2 496 | `6.1%` ░░░░░░░░ |
 | **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
 | **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
 | **Alex** | 90 | 1 555 | `3.8%` ░░░░░░░░ |
@@ -318,8 +318,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Bartender** | 4 | 91 | `0.2%` ░░░░░░░░ |
 | **Old Man** | 9 | 82 | `0.2%` ░░░░░░░░ |
 | **Dr. Grubenmann (CRO)** | 3 | 82 | `0.2%` ░░░░░░░░ |
-| **Headteacher** | 3 | 78 | `0.2%` ░░░░░░░░ |
 | **Bandit 1** | 4 | 75 | `0.2%` ░░░░░░░░ |
+| **Headteacher** | 3 | 73 | `0.2%` ░░░░░░░░ |
 | **Automaton** | 9 | 72 | `0.2%` ░░░░░░░░ |
 | **Bandit 2** | 3 | 72 | `0.2%` ░░░░░░░░ |
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
@@ -369,7 +369,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Security Commander** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Shareholder 1** | 1 | 8 | `0.0%` ░░░░░░░░ |
 | **Парень** | 1 | 8 | `0.0%` ░░░░░░░░ |
-| **Boy** | 2 | 6 | `0.0%` ░░░░░░░░ |
+| **Boy** | 2 | 7 | `0.0%` ░░░░░░░░ |
 | **Courier** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Unknown Female** | 1 | 6 | `0.0%` ░░░░░░░░ |
