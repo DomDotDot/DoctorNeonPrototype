@@ -53,6 +53,7 @@ CHARACTERS_DB = {
     "sophie": {"ru": "Софи", "en": "Sophie", "color": "d1c682", "role": "supporting"},
     "meryl": {"ru": "Мэрил Кендрик", "en": "Meryl Kendrick", "color": "e87a90", "role": "supporting"},
     "akari": {"ru": "Учительница Акари", "en": "Teacher Akari", "color": "1885c8", "role": "supporting"},
+    "ayame": {"ru": "Аяме", "en": "Ayame", "color": "5fb3b3", "role": "supporting"},
     "sibyl": {"ru": "СИВИЛЛА", "en": "Sibyl", "color": "663399", "role": "supporting"},
 
     # Special / System Cast

@@ -19,6 +19,7 @@ default persistent.prestory_kai_unlocked = False
 default persistent.prestory_lily_unlocked = False
 default persistent.prestory_penthouse_unlocked = False
 default persistent.prestory_seraphina_unlocked = False
+default persistent.prestory_ayame_unlocked = False
 
 default persistent.cutcene_vol_1_end_unlocked = False
 
@@ -175,6 +176,13 @@ init python:
         "chapter4_5_seraphina_flashback", 
         thumb="10cg-3-3",
         condition="prestory_seraphina_unlocked"
+    ),
+
+    add_flashback(
+        _("Предыстория Настоящей Серафины"), 
+        "chapter4_5_ayame_rehab", 
+        thumb="10cg-3-3",
+        condition="prestory_ayame_unlocked"
     ),
 
     add_flashback(

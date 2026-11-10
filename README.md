@@ -17,10 +17,10 @@
 
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
-![Words](https://img.shields.io/badge/Words-122.9k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20834-4c1?style=flat-square)
+![Words](https://img.shields.io/badge/Words-125.0k-blue?style=flat-square&logo=gitbook&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines-5%20880-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
-![Dialogue](https://img.shields.io/badge/Dialogue-33%25-informational?style=flat-square)
+![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
 <br>
 
@@ -244,60 +244,61 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **122 916** | `100%` |
-| **Total Script Lines** | **5 834** | `100%` |
-| Narration / Description | 81 948 words / 3 079 lines | `66.7%` ███████░░░ |
-| Spoken Dialogue (Characters) | 40 968 words / 2 755 lines | `33.3%` ███░░░░░░░ |
-| Unique Speakers | 101 | — |
-| Script Files (.rpy) | 158 | — |
+| **Total Words** | **124 992** | `100%` |
+| **Total Script Lines** | **5 880** | `100%` |
+| Narration / Description | 83 072 words / 3 101 lines | `66.5%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 920 words / 2 779 lines | `33.5%` ███░░░░░░░ |
+| Unique Speakers | 103 | — |
+| Script Files (.rpy) | 159 | — |
 
 ### Chapter Breakdown
 
 | Chapter | Files | Lines | Words | Dialogue Share |
 | :--- | :---: | :---: | :---: | :--- |
-| **Chapter 1: The Blue Sheep** | 12 | 421 | 9 218 | `33.4%` ███░░░░░ |
+| **Chapter 1: The Blue Sheep** | 12 | 415 | 9 456 | `33.4%` ███░░░░░ |
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 971 | `15.0%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
-| **Chapter 4.5: From Exile to Constellation** | 22 | 1 120 | 26 972 | `37.6%` ███░░░░░ |
+| **Chapter 4.5: From Exile to Constellation** | 23 | 1 170 | 28 633 | `38.4%` ███░░░░░ |
 | **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 622 | `37.7%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 799 | `31.5%` ███░░░░░ |
-| **Chapter 9: Resonating Dissonance** | 7 | 183 | 4 155 | `26.1%` ██░░░░░░ |
+| **Chapter 9: Resonating Dissonance** | 7 | 185 | 4 332 | `25.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 326 | 9 843 | `23.8%` ██░░░░░░ |
-| **TOTAL** | **158** | **5 834** | **122 916** | `33.3%` |
+| **TOTAL** | **159** | **5 880** | **124 992** | `33.5%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 180 | 14 330 | `35.0%` ███░░░░░ |
-| **Seraphina** | 164 | 3 516 | `8.6%` █░░░░░░░ |
-| **Argon** | 164 | 3 063 | `7.5%` █░░░░░░░ |
-| **Oganesson (Guardian)** | 139 | 2 496 | `6.1%` ░░░░░░░░ |
-| **Lily** | 141 | 2 119 | `5.2%` ░░░░░░░░ |
-| **Celeste** | 111 | 1 650 | `4.0%` ░░░░░░░░ |
-| **Alex** | 96 | 1 615 | `3.9%` ░░░░░░░░ |
-| **Meryl Kendrick** | 52 | 1 284 | `3.1%` ░░░░░░░░ |
+| **Neon** | 1 181 | 14 396 | `34.3%` ███░░░░░ |
+| **Seraphina** | 175 | 3 771 | `9.0%` █░░░░░░░ |
+| **Argon** | 163 | 3 059 | `7.3%` █░░░░░░░ |
+| **Oganesson (Guardian)** | 139 | 2 496 | `6.0%` ░░░░░░░░ |
+| **Lily** | 141 | 2 119 | `5.1%` ░░░░░░░░ |
+| **Celeste** | 111 | 1 650 | `3.9%` ░░░░░░░░ |
+| **Alex** | 90 | 1 555 | `3.7%` ░░░░░░░░ |
+| **Meryl Kendrick** | 52 | 1 253 | `3.0%` ░░░░░░░░ |
 | **Sibyl** | 36 | 880 | `2.1%` ░░░░░░░░ |
-| **Marcus** | 48 | 792 | `1.9%` ░░░░░░░░ |
+| **Marcus** | 48 | 831 | `2.0%` ░░░░░░░░ |
 | **Nari** | 56 | 715 | `1.7%` ░░░░░░░░ |
-| **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
+| **Ayame** | 11 | 648 | `1.5%` ░░░░░░░░ |
+| **Sophie** | 41 | 524 | `1.2%` ░░░░░░░░ |
 | **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
-| **Akane (Mother)** | 30 | 478 | `1.2%` ░░░░░░░░ |
-| **Teacher Akari** | 18 | 308 | `0.8%` ░░░░░░░░ |
+| **Akane (Mother)** | 30 | 478 | `1.1%` ░░░░░░░░ |
+| **Teacher Akari** | 18 | 308 | `0.7%` ░░░░░░░░ |
 | **Anna** | 14 | 123 | `0.3%` ░░░░░░░░ |
 | **Helium** | 1 | 1 | `0.0%` ░░░░░░░░ |
 
 <details>
-<summary><b>Additional and episodic characters (84)</b></summary>
+<summary><b>Additional and episodic characters (85)</b></summary>
 
 | Character | Lines | Words | Word Share |
 | :--- | :---: | :---: | :--- |
 | **???** | 47 | 663 | `1.6%` ░░░░░░░░ |
 | **Priest** | 22 | 492 | `1.2%` ░░░░░░░░ |
-| **Young Oganesson** | 22 | 479 | `1.2%` ░░░░░░░░ |
+| **Young Oganesson** | 22 | 479 | `1.1%` ░░░░░░░░ |
 | **Hans** | 14 | 323 | `0.8%` ░░░░░░░░ |
 | **Guts** | 14 | 296 | `0.7%` ░░░░░░░░ |
 | **Young Alex** | 18 | 246 | `0.6%` ░░░░░░░░ |
@@ -311,8 +312,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Amy** | 11 | 154 | `0.4%` ░░░░░░░░ |
 | **Garden Staff** | 12 | 138 | `0.3%` ░░░░░░░░ |
 | **Alex's Mom** | 9 | 129 | `0.3%` ░░░░░░░░ |
-| **Диктор Новостей** | 3 | 128 | `0.3%` ░░░░░░░░ |
 | **P.E. Teacher** | 14 | 123 | `0.3%` ░░░░░░░░ |
+| **Диктор Новостей** | 2 | 104 | `0.2%` ░░░░░░░░ |
 | **ABSU / FCS** | 7 | 98 | `0.2%` ░░░░░░░░ |
 | **Часовой** | 14 | 96 | `0.2%` ░░░░░░░░ |
 | **Bartender** | 4 | 91 | `0.2%` ░░░░░░░░ |
@@ -325,9 +326,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Young Hoshiko** | 7 | 69 | `0.2%` ░░░░░░░░ |
 | **Kai Ito** | 4 | 65 | `0.2%` ░░░░░░░░ |
 | **Bartender Staff** | 4 | 63 | `0.2%` ░░░░░░░░ |
-| **Concierge** | 4 | 62 | `0.2%` ░░░░░░░░ |
+| **Concierge** | 4 | 62 | `0.1%` ░░░░░░░░ |
 | **Mika Kitamura** | 4 | 58 | `0.1%` ░░░░░░░░ |
 | **Waitress** | 5 | 52 | `0.1%` ░░░░░░░░ |
+| **Unknown** | 4 | 51 | `0.1%` ░░░░░░░░ |
 | **Woman** | 5 | 49 | `0.1%` ░░░░░░░░ |
 | **Worker 1** | 2 | 47 | `0.1%` ░░░░░░░░ |
 | **Academy Director** | 2 | 43 | `0.1%` ░░░░░░░░ |
@@ -352,6 +354,7 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **CEO's Voice** | 1 | 21 | `0.1%` ░░░░░░░░ |
 | **Medrobot** | 3 | 20 | `0.0%` ░░░░░░░░ |
 | **Commander** | 2 | 19 | `0.0%` ░░░░░░░░ |
+| **Unknown Female** | 6 | 18 | `0.0%` ░░░░░░░░ |
 | **Security Officer** | 2 | 17 | `0.0%` ░░░░░░░░ |
 | **Mercenary Commander** | 3 | 16 | `0.0%` ░░░░░░░░ |
 | **Fan 4** | 2 | 16 | `0.0%` ░░░░░░░░ |
@@ -372,7 +375,6 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Boy** | 2 | 7 | `0.0%` ░░░░░░░░ |
 | **Courier** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Guard's Voice** | 1 | 6 | `0.0%` ░░░░░░░░ |
-| **Unknown Female** | 1 | 6 | `0.0%` ░░░░░░░░ |
 | **Bodyguard** | 2 | 5 | `0.0%` ░░░░░░░░ |
 | **Passerby** | 1 | 5 | `0.0%` ░░░░░░░░ |
 | **Clara** | 3 | 4 | `0.0%` ░░░░░░░░ |

@@ -39,6 +39,7 @@ init python:
         persistent.prestory_lily_unlocked = False
         persistent.prestory_penthouse_unlocked = False
         persistent.prestory_seraphina_unlocked = False
+        persistent.prestory_ayame_unlocked = False
 
         persistent.cutcene_vol_1_end_unlocked = False
         persistent.first_game_warning_seen = False
@@ -163,6 +164,7 @@ init python:
         persistent.prestory_lily_unlocked = True
         persistent.prestory_penthouse_unlocked = True
         persistent.prestory_seraphina_unlocked = True
+        persistent.prestory_ayame_unlocked = True
 
         persistent.cutcene_vol_1_end_unlocked = True
 

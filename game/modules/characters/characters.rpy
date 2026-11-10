@@ -47,6 +47,7 @@ init python:
     c_akari     = "#1885c8" # Убрал 'fd' на конце, hex д.б. 6 или 8 символов
     c_kai       = "#5d19c9" # Кай Ито
     c_nari      = "#863b97"
+    c_ayame     = "#5fb3b3" # Аяме
     
     # Интерфейс / Неизвестные
     c_white     = "#ffffff"
@@ -211,6 +212,13 @@ define nari = Character(_('Нари'),
     color=c_nari,
     ctc="ctc_nari",
     cb_name="nari"
+)
+
+define ayame = Character(_('Аяме'),
+    kind=base,
+    image="ayame",
+    color=c_ayame,
+    cb_name="ayame"
 )
 
 
