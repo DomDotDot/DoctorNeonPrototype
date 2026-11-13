@@ -81,7 +81,7 @@ define credits_vol2 = [
     (_("Вдохновление"), ""),
     ("", "Voices of the Void"),
     ("", "Rewrite"),
-    ("", "Higurashi"),
+    ("", "Higurashi no Naku Koro ni"),
     ("", "Date a Live"),
     ("", "ROBLOX - Anomic"),
     ("", "Ever 17"),
@@ -94,6 +94,7 @@ define credits_vol2 = [
     ("", "Kimi no Na wa"),
     ("", "Mahou Shoujo Madoka Magica"),
     ("", "Happy Sugar Life"),
+    ("", "Re:Creators"),
 ]
 
 
