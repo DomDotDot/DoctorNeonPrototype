@@ -24,6 +24,10 @@ screen memory_recollection():
                     action ShowMenu("flashback_gallery")
                     style "modern_button"
 
+                textbutton _("Титры"):
+                    action ShowMenu("credits_recollection_menu")
+                    style "modern_button"
+
                 #textbutton _("Персонажи"):
                     #action ShowMenu("bio_menu")
                     #style "modern_button"
