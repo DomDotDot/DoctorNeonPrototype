@@ -16,7 +16,7 @@ label chapter4_5_epilogue:
         Я свернула в узкий проход за студией.
     """
     
-    scene featured_11cg-1 with fade
+    scene 11cg-1_featured with fade
     
     narrator """
         У подножия пожарной лестницы, в грязной луже, темнела фигура Аргона.
@@ -40,7 +40,7 @@ label chapter4_5_epilogue:
         Глухой, утробный, сдавленный стон перерос в отчаянный хриплый вой.
     """
 
-    scene featured_11cg-2 with fade
+    scene 11cg-2_featured with fade
 
     narrator """
         Он выл в мокрое небо, прижимая лоб к бездыханной груди дочери.

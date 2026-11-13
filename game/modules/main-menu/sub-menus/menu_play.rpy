@@ -159,13 +159,13 @@ init 1 python:
         SubchapterItem("chapter_0", _("1. Первая встреча"), _("Воспоминание о знакомстве"), _("Сюжет")),
     ]
 
-    add_chapter("chapter_0", _("Пролог"), _("Первая встреча"), "images/cg/vol1/chapter2/featured_cg-8_2.avif", "chapter_0_unlocked", ch0_subchapters)
+    add_chapter("chapter_0", _("Пролог"), _("Первая встреча"), "images/cg/vol1/chapter2/cg-8_2_featured.avif", "chapter_0_unlocked", ch0_subchapters)
     add_chapter("chapter_1", _("Глава 1"), _("Синяя Ворона"), "images/cg/vol1/chapter1/ch01_cg23_v01.avif", "chapter_1_unlocked", ch1_subchapters)
-    add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/cg/vol1/chapter2/featured_cg-8_2.avif", "chapter_2_unlocked", ch2_subchapters)
+    add_chapter("chapter_2", _("Глава 2"), _("В поисках подруги"), "images/cg/vol1/chapter2/cg-8_2_featured.avif", "chapter_2_unlocked", ch2_subchapters)
     add_chapter("chapter_3", _("Глава 3"), _("Эскапизм"), "images/backgrounds/bg chapter_3_sorting-station-start.avif", "chapter_3_unlocked", ch3_subchapters)
-    add_chapter("chapter_4", _("Глава 4.0"), _("Ковчег на мели"), "images/cg/vol1/chapter4-0/featured_cg-29.avif", "chapter_4_unlocked", ch4_subchapters)
-    add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5a/featured_cg-31_2.avif", "chapter_4_5a_unlocked", ch4_5a_subchapters)
-    add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5b/featured_7a-cg-2.avif", "chapter_4_5b_unlocked", ch4_5b_subchapters)
+    add_chapter("chapter_4", _("Глава 4.0"), _("Ковчег на мели"), "images/cg/vol1/chapter4-0/cg-29_featured.avif", "chapter_4_unlocked", ch4_subchapters)
+    add_chapter("chapter_4_5a", _("Глава 4.5 - Акт I"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5a/cg-31_2_featured.avif", "chapter_4_5a_unlocked", ch4_5a_subchapters)
+    add_chapter("chapter_4_5b", _("Глава 4.5 - Акт II"), _("Из Изгнанницы В Созвездие"), "images/cg/vol1/chapter4-5b/7a-cg-2_featured.avif", "chapter_4_5b_unlocked", ch4_5b_subchapters)
     add_chapter("chapter_5", _("Глава 5"), _("Предложение, от которого нельзя отказаться"), "images/cg/vol2/chapter5/ch05_cg01_v01.png", "chapter_5_unlocked", ch5_subchapters)
     add_chapter("chapter_6", _("Глава 6"), _("Первый ряд, Пятое место"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_6_unlocked", ch6_subchapters)
     add_chapter("chapter_7", _("Глава 7"), _("Туман Войны"), "images/cg/vol1/chapter4-5b/7a-cg-5.avif", "chapter_7_unlocked", ch7_subchapters)

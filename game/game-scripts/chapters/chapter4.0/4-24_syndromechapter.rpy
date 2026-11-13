@@ -119,7 +119,7 @@ label chapter4_0_24syndrome:
     Панель вызова. Сенсорная кнопка семнадцатого этажа.
     """
 
-    scene featured_cg-26_5 with fade
+    scene cg-26_5_featured with fade
     play music "music/BGM/OneWayTrip.opus" fadein 1.0 volume 0.35 noloop
 
     narrator """

@@ -80,7 +80,7 @@ label dream_sequence_japan_4:
         В моем детском воспоминании я цеплялась за нее, как за единственное спасение. Я верила ей.
     """
 
-    scene featured_7a-cg-2 with Dissolve(2.0)
+    scene 7a-cg-2_featured with Dissolve(2.0)
 
     narrator"""
         Но на этот раз что-то изменилось. Я — не просто участник. Я — зритель. И я вижу то, чего не видела раньше.
@@ -163,11 +163,11 @@ label dream_sequence_japan_4:
 
     narrator "'Таковая её природа', — говорила моя опекунша."
 
-    scene featured_cg-11_3-1 with dissolve
+    scene cg-11_3-1_featured with dissolve
     
     narrator "'Стань снова послушной и пустой.', — скомандовал тиран из моих снов."
 
-    scene featured_cg-28_3 with dissolve
+    scene cg-28_3_featured with dissolve
 
     narrator "'Твоя мать... она пользуется тобой неправильно...', — с фанатичным блеском в глазах сказала Тетя."
 

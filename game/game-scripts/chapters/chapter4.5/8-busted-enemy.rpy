@@ -27,7 +27,7 @@ label chapter4_5_akari_arrest:
 
     queue music "music/BGM/StrangeDisappearances.opus" fadein 3.0 noloop 
     
-    scene featured_4cg-2 with fade
+    scene 4cg-2_featured with fade
     
     narrator """
         В центре роскошной гостиной стояли они. Акари и Лили.
@@ -69,7 +69,7 @@ label chapter4_5_akari_arrest:
     
     neon "Лили? Все в порядке. Теперь ты в безопасности."
 
-    scene featured_4cg-4 with fade
+    scene 4cg-4_featured with fade
     
     narrator "Она подняла на меня заплаканные глаза. И вдруг бросилась ко мне, обвив руками и уткнувшись лицом мне в живот. Ее тело сотрясалось от рыданий."
     
@@ -177,7 +177,7 @@ label chapter4_5_akari_arrest:
     
     neon "Все позади, Лили. Акари арестована. Ты в безопасности."
 
-    scene featured_4cg-4 with dissolve
+    scene 4cg-4_featured with dissolve
     
     lily """
         Ты ведь... пришла за мной вместе с ним? С отцом? Я видела его силуэт на ярмарке...

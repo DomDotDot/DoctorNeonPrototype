@@ -125,7 +125,7 @@ init python:
     add_flashback(
         _("Фрагмент 4"), 
         "dream_sequence_japan_4", 
-        thumb="featured_7a-cg-2",
+        thumb="7a-cg-2_featured",
         condition="flashback_dream_4_unlocked"
     ),
 
@@ -146,7 +146,7 @@ init python:
     add_flashback(
         _("Предыстория Нари"), 
         "chapter4_5_nari_flashback", 
-        thumb="featured_cg-34",
+        thumb="cg-34_featured",
         condition="prestory_nari_unlocked"
     ),
 
@@ -160,14 +160,14 @@ init python:
     add_flashback(
         _("Предыстория Лили"), 
         "chapter4_5_lily_flashback", 
-        thumb="featured_10cg-1-1",
+        thumb="10cg-1-1_featured",
         condition="prestory_lily_unlocked"
     ),
 
     add_flashback(
         _("Пентхаус"), 
         "chapter4_5_seraphina_penthouse", 
-        thumb="featured_5cg-3",
+        thumb="5cg-3_featured",
         condition="prestory_penthouse_unlocked"
     ),
 

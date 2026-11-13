@@ -46,7 +46,7 @@ label chapter4_5_seraphina_flashback:
         Послушай, ну же!
     """
 
-    scene featured_10cg-1-1 with fade
+    scene 10cg-1-1_featured with fade
     
     narrator """
     Я начала играть. Ту самую мелодию, которую мы сочиняли вместе, когда я была ещё другой. Эту песню знала только она и я.
@@ -64,13 +64,13 @@ label chapter4_5_seraphina_flashback:
         Она отшатнулась, отступала на шаг назад. Я обернулась и перестала играть.
     """
 
-    scene featured_10cg-1-2 with dissolve
+    scene 10cg-1-2_featured with dissolve
 
     lily "Серафина? Что-то не так?"
 
     seraphina "Ты... ты не Лили. И... и твои глаза..."
 
-    scene featured_10cg-2 with dissolve
+    scene 10cg-2_featured with dissolve
     
     seraphina """
     Что ты сделала с Нари? С Лили? Где моя подруга?!
@@ -92,7 +92,7 @@ label chapter4_5_seraphina_flashback:
         Ноги подкосились и меня не держали. Я сползла по стене, обхватив голову руками.
     """
 
-    scene featured_10cg-3-1 with fade
+    scene 10cg-3-1_featured with fade
 
     lily """
         Нет... нет... Серафина... подожди...
@@ -149,7 +149,7 @@ label chapter4_5_seraphina_flashback:
         И сквозь этот жалкий стон, в моей расколотой голове, раздался знакомый, ехидный шепот.
     """
 
-    scene featured_10cg-3-2 with dissolve
+    scene 10cg-3-2_featured with dissolve
     play music "ambient/Seraphina.opus" fadein 5.0 fadeout 5.0 volume 0.35 noloop
 
     illusion """
@@ -176,7 +176,7 @@ label chapter4_5_seraphina_flashback:
     В тот вечер я поняла одну простую вещь. Люди — это просто сменные детали.
     """
 
-    scene featured_10cg-3-1 with dissolve
+    scene 10cg-3-1_featured with dissolve
 
     nari """
     Люди слишком непредсказуемы. У них есть свобода воли, а значит — у них всегда есть выбор уйти.

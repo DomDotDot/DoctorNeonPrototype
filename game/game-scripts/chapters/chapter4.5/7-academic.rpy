@@ -153,7 +153,7 @@ label chapter4_5_morning_after:
     
     neon "Спасибо, Мэрил."
 
-    scene featured_2cg-2 with Dissolve(0.25)
+    scene 2cg-2_featured with Dissolve(0.25)
     
     meryl """
         Обойдемся без благодарностей. Это сделка: прикрытие в обмен на имя того, кто сгубил Сару.
@@ -171,7 +171,7 @@ label chapter4_5_morning_after:
         Лишь на миг ее рука едва заметно дрогнула.
     """
 
-    scene featured_2cg-3 with fade
+    scene 2cg-3_featured with fade
     
     meryl """
         Не вертись... Я каждое утро укладывала Саре волосы перед школой.
@@ -306,7 +306,7 @@ label chapter4_5_classroom_intro:
         Я шла между рядами, чувствуя на себе взгляды. Когда я проходила мимо Лили, она тихо прошептала, так, чтобы слышала только я:
     """
 
-    scene featured_cg-36_3 with dissolve
+    scene cg-36_3_featured with dissolve
     
     $ renpy.music.set_audio_filter("music", [renpy.audio.filter.Reverb(0.5), renpy.audio.filter.Lowpass(100)], replace=True)
 
@@ -451,7 +451,7 @@ label chapter4_5_classroom_intro:
         Я уже подходила к нужному коридору, когда из-за угла донеслись голоса. Я замерла, прижавшись к стене.
     """
 
-    scene featured_3cg_2b with fade
+    scene 3cg_2b_featured with fade
     
     akari "Ну что, Лили-чан, ты готова увидеть мой маленький секрет? То, что я тебе обещала. Это тебе точно понравится."
     
@@ -538,7 +538,7 @@ label chapter4_5_classroom_intro:
     
     narrator "Я бесшумно скользнула под массивный преподавательский стол за секунду до того, как ручка двери повернулась."
 
-    scene featured_3cg-3 with fade
+    scene 3cg-3_featured with fade
     
     narrator """
         Сквозь щель между досками стола я видела ее туфли. Акари подошла к металлическому шкафу в углу и быстро набрала код на цифровой панели.
@@ -567,7 +567,7 @@ label chapter4_5_classroom_intro:
     
     У нее в кабинете живые образцы в сейфе. Она только что увела Лили — скорее всего, к себе.
     
-    Ее нужно перехватить немедленно.{/whisper}
+    Ее нужно перехватить немедленно.
     """
     
     meryl "{=whisper}Поняла. Вычисляю ее домашний адрес по ведомственной базе. Неон, оставайся на месте и не лезь в одиночку. Я поднимаю оперативную группу.{/whisper}"

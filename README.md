@@ -18,7 +18,7 @@
 <!-- BADGES -->
 <!-- STATS_BADGES:START -->
 ![Words](https://img.shields.io/badge/Words-125.0k-blue?style=flat-square&logo=gitbook&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines-5%20880-4c1?style=flat-square)
+![Lines](https://img.shields.io/badge/Lines-5%20886-4c1?style=flat-square)
 ![Chapters](https://img.shields.io/badge/Chapters-11%20-8a2be2?style=flat-square)
 ![Dialogue](https://img.shields.io/badge/Dialogue-34%25-informational?style=flat-square)
 <!-- STATS_BADGES:END -->
@@ -244,9 +244,9 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **124 992** | `100%` |
-| **Total Script Lines** | **5 880** | `100%` |
-| Narration / Description | 83 072 words / 3 101 lines | `66.5%` ███████░░░ |
+| **Total Words** | **124 993** | `100%` |
+| **Total Script Lines** | **5 886** | `100%` |
+| Narration / Description | 83 073 words / 3 107 lines | `66.5%` ███████░░░ |
 | Spoken Dialogue (Characters) | 41 920 words / 2 779 lines | `33.5%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 159 | — |
@@ -265,8 +265,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 799 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 185 | 4 332 | `25.1%` ██░░░░░░ |
-| **Flashbacks & Memory Fragments** | 13 | 326 | 9 843 | `23.8%` ██░░░░░░ |
-| **TOTAL** | **159** | **5 880** | **124 992** | `33.5%` |
+| **Flashbacks & Memory Fragments** | 13 | 332 | 9 844 | `23.8%` ██░░░░░░ |
+| **TOTAL** | **159** | **5 886** | **124 993** | `33.5%` |
 
 ### Character Dialogue Distribution
 

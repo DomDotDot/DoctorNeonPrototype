@@ -27,7 +27,7 @@ label chapter4_5_lily_cafe:
         Она посмотрела на меня снизу вверх — с замутненным, жадным облегчением человека, которому после долгих пыток вкололи мощный анальгетик.
     """
 
-    scene featured_6cg-1b with dissolve
+    scene 6cg-1b_featured with dissolve
 
     lily "Знаешь, Неон... Я забыла, когда в последний раз просто шла по городу. Без оглядки. Без этого вечного скрежета в ушах..."
 
@@ -68,7 +68,7 @@ label chapter4_5_lily_cafe:
     
     narrator "Мы оказались в 'Сахарной Комете'. Я даже не помню, как мы зашли."
 
-    scene featured_6cg-2 with dissolve
+    scene 6cg-2_featured with dissolve
 
     narrator """    
         Мы сели за столик в углу.
@@ -502,7 +502,7 @@ label chapter4_5_lily_studio:
         Но я стараюсь. Я работаю над собой. И я хочу отплатить тем, кто в меня поверил и верит. Сполна.
     """
     
-    scene featured_6cg-4 with dissolve
+    scene 6cg-4_featured with dissolve
 
     narrator """
         Она подошла к углу и взяла гитару.
@@ -626,8 +626,8 @@ label chapter4_5_lily_studio:
     
     neon "{=thoughts}Серафина...{/thoughts}"
 
-    scene featured_6cg-5 with fade
-    scene featured_6cg-5 with vpunch
+    scene 6cg-5_featured with fade
+    scene 6cg-5_featured with vpunch
     
     narrator "Эми и Кэрол, больше не притворяясь, рывком опрокинули меня, а затем грубо прижали к полу. Я не могла сопротивляться — мое тело плавилось в истоме."
     
@@ -642,7 +642,7 @@ label chapter4_5_lily_studio:
     Дыра исчезла. Ты заполнила её. И Оно замолчало.
     """
     
-    scene featured_6cg-6 with fade
+    scene 6cg-6_featured with fade
 
     narrator """
         Она перешагнула через меня и опустилась на мои бедра, прижимая всем своим весом к дощатому полу.
@@ -698,7 +698,7 @@ label chapter4_5_lily_studio:
         Мне нужно, чтобы всё замолчало! Они опять скребутся... Они вопят в ушах! Заткни их!
     """
 
-    scene featured_6cg-9 with dissolve
+    scene 6cg-9_featured with dissolve
 
     lily "ПОЧЕМУ ТЫ НЕ ПУСКАЕШЬ МЕНЯ?!"
 
@@ -722,7 +722,7 @@ label chapter4_5_lily_studio:
     
     narrator "Она наклонилась к самому моему лицу. Ее горячее, ядовитое дыхание обожгло губы."
     
-    scene featured_6cg-6 with dissolve
+    scene 6cg-6_featured with dissolve
 
     lily "Открой ротик~ Ах, да. Ты не можешь..."
 

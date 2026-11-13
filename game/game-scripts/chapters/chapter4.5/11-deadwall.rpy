@@ -76,7 +76,7 @@ label chapter4_5_finale:
     Голос её был ровный, монотонный, как у автоответчика
     """
 
-    scene featured_8cg-12 with dissolve
+    scene 8cg-12_featured with dissolve
     
     lily """  
         Ты жалок. Ты всегда был ничтожеством.
@@ -106,7 +106,7 @@ label chapter4_5_finale:
     
     neon "Но... Аргон! Мы не можем..."
 
-    scene featured_9cg-2 with fade
+    scene 9cg-2_featured with fade
     
     argon "Я СКАЗАЛ. МЫ ПРОСТО УХОДИМ!"
     
@@ -171,7 +171,7 @@ label chapter4_5_finale:
     
     argon "Лили, нет! Это я! Очнись!"
 
-    scene featured_9cg-3 with dissolve
+    scene 9cg-3_featured with dissolve
     
     narrator """
         Она врезалась в него, сбивая с ног, не давая уйти.
@@ -223,7 +223,7 @@ label chapter4_5_finale:
         Если вы видите во мне чудовище... тогда я буду чудовищем!
     """
 
-    scene featured_9cg-4 with dissolve
+    scene 9cg-4_featured with dissolve
     
     narrator """
         Она с силой рванула заколку из волос, выдирая светлые пряди с корнем.
@@ -241,7 +241,7 @@ label chapter4_5_finale:
 
     # play sound "sfx/body_thud_wet.opus"
 
-    scene featured_9cg-5b with fade
+    scene 9cg-5b_featured with fade
     play ambient1 "ambient/firetruck-siren-ambience.opus" fadein 2.5 fadeout 1.5 volume 0.3
     
     narrator """
@@ -346,7 +346,7 @@ label chapter4_5_finale:
         Я оказалась сверху.
     """
 
-    scene featured_9cg-6 with dissolve
+    scene 9cg-6_featured with dissolve
     $ renpy.music.set_volume(0.5, delay=0.25, channel="ambient1")
     
     neon "Прекрати! Ты убиваешь себя! Ты убиваешь нас обеих!"
@@ -495,7 +495,7 @@ label chapter4_5_finale:
 
     $ renpy.music.set_audio_filter("ambient", None, replace=True)
     $ renpy.music.set_audio_filter("ambient1", None, replace=True)
-    scene featured_9cg-7b with fade
+    scene 9cg-7b_featured with fade
     
     narrator """
         Ни белья. Ни кожи. Ни ног.
@@ -513,7 +513,7 @@ label chapter4_5_finale:
     
     narrator "Она упала на спину. И тут же, рефлекторно, попыталась прикрыться, издав милое, наигранное, совершенно неуместное здесь:"
 
-    scene featured_9cg-8-1 with fade
+    scene 9cg-8-1_featured with fade
     
     seraphina "Ай!.."
     
@@ -648,7 +648,7 @@ label chapter4_5_finale:
     """
 
     play sound "sfx/firetruck-siren-passby.opus" fadein 1.0 volume 0.5
-    scene featured_9cg-9 with dissolve
+    scene 9cg-9_featured with dissolve
 
     stop music fadeout 10.0
     $ renpy.music.set_volume(0.75, delay=0.125, channel="ambient")
@@ -687,7 +687,7 @@ label chapter4_5_finale:
         Но сейчас, я осознаю свою ошибку. Ошибку, которая стоила мне дружбы.
     """
 
-    scene featured_9cg-10-1 at scene_parallax(40), dizzy_sway169 with dissolve
+    scene 9cg-10-1_featured at scene_parallax(40), dizzy_sway169 with dissolve
 
     narrator """
         Ведь в отражении мокрого асфальта я уже вижу не Лили и не Серафину.
@@ -713,7 +713,7 @@ label chapter4_5_finale:
         Почему зеркала всегда врали мне?
     """
 
-    scene featured_9cg-10-2 at scene_parallax(40, 1.0), dizzy_sway169 with dissolve
+    scene 9cg-10-2_featured at scene_parallax(40, 1.0), dizzy_sway169 with dissolve
 
     $ renpy.music.set_volume(0.25, channel="ambient")
     $ renpy.music.set_audio_filter("ambient", None, replace=True)
@@ -782,7 +782,7 @@ label chapter4_5_finale:
         А на асфальте, в безжалостном утреннем свете я увидела не тело поверженного врага. Я увидела мусор.
     """
 
-    scene featured_9cg-11 with dissolve
+    scene 9cg-11_featured with dissolve
 
     narrator """
         В грязной луже, смешанной с бензином и дождевой водой, лежало пустое, скомканное белое платье. Ткань намокла и посерела, потеряв свой блеск.

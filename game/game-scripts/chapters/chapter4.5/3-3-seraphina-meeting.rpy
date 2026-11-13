@@ -1,6 +1,6 @@
 label chapter4_5_concert_end:
 
-    scene featured_cg-33_1 with fade
+    scene cg-33_1_featured with fade
     narrator """
         Серафина увлекла меня за собой, цепко держа за запястье. Ее тонкие пальцы были пугающе холодными, точно мрамор.
         
@@ -34,7 +34,7 @@ label chapter4_5_concert_end:
 
     narrator "Тяжелый засов встал на место. Серафина прижалась спиной к полотну и прерывисто, с облегчением выдохнула."
 
-    scene featured_cg-33_2 with fade
+    scene cg-33_2_featured with fade
 
     seraphina flustered """ 
     Фух... Наконец-то!
@@ -509,8 +509,8 @@ label chapter4_5_concert_end:
     play sound "sfx/door-slam1.opus"
     scene black with Dissolve(0.125)
     
-    scene featured_cg-33_4 at dizzy_sway with dissolve
-    show featured_cg-33_4 as ghost_cg at dizzy_ghost_anim_light
+    scene cg-33_4_featured at dizzy_sway with dissolve
+    show cg-33_4_featured as ghost_cg at dizzy_ghost_anim_light
 
     narrator """
         Я шла по застекленному висячему переходу обратно к выходу. К Аргону.
@@ -523,7 +523,7 @@ label chapter4_5_concert_end:
         
         Я ухватилась за перила, судорожно глотая воздух. Внизу, в аллеях парка, неспешно гуляли пары.
     """
-    show featured_cg-33_4 as ghost_cg at dizzy_ghost_anim
+    show cg-33_4_featured as ghost_cg at dizzy_ghost_anim
 
     narrator "Зрение окончательно поплыло, распадаясь на мутные цветные пятна."
 

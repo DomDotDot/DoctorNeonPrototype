@@ -97,7 +97,7 @@ label chapter3_the_heist_start:
     Внезапно его нога зацепилась за торчащую стрелочную тягу. Он споткнулся и со всего размаха рухнул на рельсы.
     """
 
-    scene featured_cg-20_2 with dissolve
+    scene cg-20_2_featured with dissolve
 
     narrator "Лучи фонарей преследователей заплясали по шпалам совсем рядом."
 
@@ -143,7 +143,7 @@ label chapter3_the_heist_start:
 
     narrator "Тупик."
 
-    scene featured_cg-20_3 with fade
+    scene cg-20_3_featured with fade
 
     narrator """
     Аномальная сила испарилась так же внезапно, как и пришла.

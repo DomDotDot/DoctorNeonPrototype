@@ -198,7 +198,7 @@ label chapter4_5_lily_flashback:
     
     lily "Ай! Нари, мне боль-{nw}"
 
-    scene featured_7b-cg-1 with dissolve
+    scene 7b-cg-1_featured with dissolve
 
     narrator """
         Я не успела договорить.
@@ -252,7 +252,7 @@ label chapter4_5_lily_flashback:
         Он заполнял легкие, обжигал гортань, вытесняя каждую мою мысль, каждое воспоминание о доме, о музыке, об отце.
     """
 
-    scene featured_7b-cg-1 at heat_haze
+    scene 7b-cg-1_featured at heat_haze
 
     narrator """
         Свет уличного фонаря над крышами начал дробиться и гаснуть.

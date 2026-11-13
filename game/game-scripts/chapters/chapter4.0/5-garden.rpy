@@ -73,7 +73,7 @@ label chapter4_0_garden_dialogue:
     neon "{=thoughts}Среди ночи? Кому придет в голову гулять здесь в такой час?.."
     hide neon
 
-    scene featured_cg-27_3 with Fade(2.5, 0.5, 1.0)
+    scene cg-27_3_featured with Fade(2.5, 0.5, 1.0)
 
     narrator """
     Я выглянула из-за широких листьев фикуса.
@@ -286,7 +286,7 @@ label chapter4_0_garden_dialogue:
 
     narrator "Она подхватила сумку и легко, словно порыв ветра, упорхнула по каменной дорожке к выходу, оставив после себя лишь опрокинутую лейку да тонкий цветочный аромат."
 
-    scene featured_cg-29 with fade
+    scene cg-29_featured with fade
 
     narrator """
     Я осталась одна под стеклянным куполом.

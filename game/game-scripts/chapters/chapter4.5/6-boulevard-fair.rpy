@@ -26,7 +26,7 @@ label chapter4_5_boulevard_night:
 
     argon "Вон там. У витрины с джелато."
 
-    scene featured_1cg-1 with dissolve
+    scene 1cg-1_featured with dissolve
 
     narrator """
         Я посмотрела в указанную точку. Девушка в темной форменной юбке Академии, но поверх воротника намотан объемный красный шарф, закрывающий подбородок до самых губ.
@@ -71,7 +71,7 @@ label chapter4_5_boulevard_night:
 
     narrator "Он сорвался с места, даже не глядя мне под ноги."
 
-    scene featured_1cg-2b with dissolve
+    scene 1cg-2b_featured with dissolve
     play music "music/BGM/WitheredLily.opus" fadein 2.0
     
     narrator """

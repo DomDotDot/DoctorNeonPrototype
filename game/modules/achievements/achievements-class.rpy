@@ -420,7 +420,7 @@ init -2 python:
     def toggle_sensitive_mode_with_check():
         _safe_init_achievements_persistent()
         if "pathological_interest" not in persistent.achievements and not persistent.sensitive_mode:
-            if renpy.showing("cg-36-1") or renpy.showing("cg-36-1a") or renpy.showing("featured_cg-36-1b"):
+            if renpy.showing("cg-36-1") or renpy.showing("cg-36-1a") or renpy.showing("cg-36-1b_featured"):
                 grant_achievement("pathological_interest")
         persistent.sensitive_mode = not persistent.sensitive_mode
         renpy.save_persistent()

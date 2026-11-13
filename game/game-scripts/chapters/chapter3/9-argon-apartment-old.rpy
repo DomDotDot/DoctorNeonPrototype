@@ -53,7 +53,7 @@ label chapter3_breather:
     Я коснулась сенсорной кнопки. Экран моргнул и вспыхнул мягким светом.
     """
 
-    scene featured_cg-23 with fade
+    scene cg-23_featured with fade
 
     narrator """
     На снимке смеялась рыжеволосая девчонка-подросток с озорным знаком V из пальцев.

@@ -15,7 +15,7 @@ label chapter4_5_awakening_and_finale:
         Огонь уже жадно чавкал сухой звукоизоляцией, облизывал рассохшиеся стропила под потолком. Дверной проем еще чернел проходом наружу, но это ненадолго — балки над ним уже обуглились.
     """
 
-    scene featured_8cg-1 with dissolve
+    scene 8cg-1_featured with dissolve
     
     narrator """
         Я перевалилась на четвереньки, судорожно кашляя. Взгляд метнулся в дальний угол у звукорежиссерского пульта.
@@ -51,7 +51,7 @@ label chapter4_5_awakening_and_finale:
         {=thoughts}Они замерли в ожидании импульса. Голос Нари оборвался в резонансе — и марионетки забыли, как дышать без чужой указки.
     """
        
-    scene featured_8cg-2 with dissolve
+    scene 8cg-2_featured with dissolve
 
     narrator """
         Я перевела взгляд на продавленный матрас. Посреди треска лопающейся обивки спала Лили.
@@ -127,7 +127,7 @@ label chapter4_5_awakening_and_finale:
     """
 
     scene black with Fade(0.5, 1.0, 0.5)
-    scene featured_8cg-5 with dissolve
+    scene 8cg-5_featured with dissolve
 
     narrator """
         Я с силой провела мокрым рукавом по лицу.
@@ -224,7 +224,7 @@ label chapter4_5_awakening_and_finale:
         Эхо выстрела хлестнуло по мокрым кирпичным стенам, заглушив шум ливня.
     """
 
-    scene featured_8cg-6 with dissolve
+    scene 8cg-6_featured with dissolve
     
     narrator """
         Серафину мотнуло в сторону. Белая ткань на бедре мгновенно потемнела от хлестнувшей струи крови.
@@ -234,14 +234,14 @@ label chapter4_5_awakening_and_finale:
         Стальная заколка со звоном отскочила от булыжников и заскользила в водосток.
     """
 
-    scene featured_8cg-7 with dissolve
+    scene 8cg-7_featured with dissolve
 
     narrator "Из глухой тени под аркой вышел Аргон. Вороненый ствол старого револьвера в его руке не дрожал, от дула тянулась серая струйка порохового дыма."
     
     argon """
     Я чуял ее след, Неон. С той самой секунды, как увел тебя со Стадиона."""
 
-    scene featured_8cg-8e-1 with dissolve
+    scene 8cg-8e-1_featured with dissolve
 
     narrator "Он встал рядом со мной, не спуская прицела с корчащейся на асфальте девушки."
     
@@ -297,7 +297,7 @@ label chapter4_5_awakening_and_finale:
         И всё это принадлжит мне! Мне! Мне!
     """
     
-    scene featured_8cg-8e-3 with dissolve
+    scene 8cg-8e-3_featured with dissolve
 
     seraphina "Пока не приперлась... ты-ы-ы!"
 
@@ -349,7 +349,7 @@ label chapter4_5_awakening_and_finale:
         Лили.
     """
     
-    scene featured_8cg-9 with fade
+    scene 8cg-9_featured with fade
     
     lily "Что... где мы? Нари?.. Мы ведь шли... почему все горит?.."
     
@@ -371,13 +371,13 @@ label chapter4_5_awakening_and_finale:
         Перед ним была его дочь. Живая, из плоти и крови, бегущая под ледяным дождем.
     """
 
-    scene featured_8cg-10-1 with dissolve
+    scene 8cg-10-1_featured with dissolve
     
     lily "Серафина, ты ранена?! Кто это сделал?!"
     
     argon "Лили! Назад! Отойди от нее!"
 
-    scene featured_8cg-10-2 with dissolve
+    scene 8cg-10-2_featured with dissolve
     
     narrator "Лили вздрогнула от знакомого, хриплого крика. Медленно подняла голову на оборванного человека перед собой — и в ее глазах вспыхнул дикий ужас узнавания."
     

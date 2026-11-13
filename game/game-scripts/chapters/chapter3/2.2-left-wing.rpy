@@ -6,7 +6,7 @@ label ch3_left_wing:
 
     if not tried_to_talk_to_thugs:
         narrator "Из-за угла доносилось гудение открытого пламени и хриплые голоса. Трое бандитов в телогрейках грели руки над пылающей железной бочкой."
-    scene featured_cg-18 with dissolve
+    scene cg-18_featured with dissolve
     menu ch3_left_wing_thug_talk:
 
         "Подслушать разговор." if tried_to_talk_to_thugs:
@@ -43,7 +43,7 @@ label ch3_left_wing:
             neon "{=thoughts}Значит, мое предположение верно: туман активизируется от прогрева и ветра к полудню. Утром он пассивен. А разговор с этими головорезами бесполезен.{/thoughts}"
             $ tried_to_talk_to_thugs = True
 
-            hide featured_cg-18 with fade
+            hide cg-18_featured with fade
             jump ch3_hall_explore
 
         "Вернуться в главный холл.":

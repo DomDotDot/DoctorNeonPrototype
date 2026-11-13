@@ -14,7 +14,7 @@ label chapter4_5_seraphina_penthouse:
         Она смотрела в бездну ночного проспекта, но взгляд ее был расфокусирован. Она вслушивалась во внутренний гул, недоступный человеческому уху.
     """
 
-    scene featured_5cg-1 with fade
+    scene 5cg-1_featured with fade
 
     seraphina "Ее взяли...?"
     
@@ -54,7 +54,7 @@ label chapter4_5_seraphina_penthouse:
         Неон не просто вырвалась из павильона. Она нанесла удар. Она натравила Чистильщиков прямо на инкубатор.
     """
     
-    scene featured_5cg-2 with fade
+    scene 5cg-2_featured with fade
 
     seraphina envious2 """
         Опять она! Опять эта... невыносимая, тошнотворная... и... великолепная дрянь!
@@ -111,7 +111,7 @@ label chapter4_5_seraphina_penthouse:
         Серафина медленно провела пальцем по 'щеке', зашептав с жуткой, ядовитой нежностью.
     """
 
-    scene featured_5cg-3 with fade
+    scene 5cg-3_featured with fade
     play music "music/BGM/Hater.opus" fadein 5.0 fadeout 5.0
 
     seraphina """
@@ -231,9 +231,9 @@ label chapter4_5_seraphina_penthouse:
     """
 
     stop music fadeout 6.0
-    scene featured_5cg-5 with Dissolve(2.0)
+    scene 5cg-5_featured with Dissolve(2.0)
 
-    scene featured_5cg-5:
+    scene 5cg-5_featured:
         parallel:
             easein_quint 0.2 xoffset 1 yoffset -1
             easein_quint 0.2 xoffset -1 yoffset 1
