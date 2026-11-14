@@ -2556,3 +2556,11 @@ translate english_us krypton_firstmeet_flashback_41186b7e:
     # narrator "Из темнных карнизов и крон вдоль берега с суматошным, глухим хлопаньем крыльев разом сорвались в черное небо десятки птиц."
     narrator "Dozens of birds burst up all at once from the dark eaves and treetops along the bank, beating frantic, muffled wings into the black sky."
 
+# TODO: Translation updated at 2026-11-14 12:52
+
+# game/game-scripts/flashbacks/krypton/krypton_flashbacks.rpy:525
+translate english_us krypton_firstmeet_flashback_047fe7e1:
+
+    # narrator "Будто он уже тронулся с места и медленно, неумолимо начал переворачиваться вместе с нами двумя в черную воду неба, а в голове загудело всё сильнее и—{nw}"
+    narrator "As if it had already slipped out of place and begun to capsize, slowly and inexorably carrying the two of us into the black water of the sky while the roaring inside my head grew louder and...{nw}"
+
