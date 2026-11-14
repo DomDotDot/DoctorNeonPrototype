@@ -1,7 +1,9 @@
 # Системные файлы
 .vscode/
+.idea/
 .DS_Store
 Thumbs.db
+desktop.ini
 .agents
 ORIGINAL_REQUEST.md
 PROJECT_AUDIT_REPORT.md
@@ -21,8 +23,16 @@ image_errors.txt
 *.rpyc
 *.rpymc
 *.rpyb
+*.rpa
 *.pyc
+*.pyo
+*.pyd
 __pycache__/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 *.disabled
 
 # Папки кэша и сохранений
@@ -45,6 +55,10 @@ disabled/
 *.pdn
 *.7z
 *.zip
+*.tar.bz2
+*.tar.gz
+*.tgz
+*.rar
 *.save
 backups/
 unused/
@@ -53,13 +67,33 @@ old-game/
 
 # devtools
 game/dlc_manifest.json
+stats.json
 
 # Билды и дистрибутивы (сборки игры)
 *-dists/
 *-market/
 *-dest/
 release/
+installer/Output/
+*.exe
+*.msi
+*.dmg
+*.apk
+*.aab
 
-# Ключи и сертификаты (безопасность)
+# Секреты, токены, ключи и сертификаты (безопасность)
+.env
+.env.*
+!.env.example
+*.env
+.github_token
 android.keystore
 bundle.keystore
+*.keystore
+*.jks
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*secret*.json
