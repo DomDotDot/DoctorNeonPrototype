@@ -244,10 +244,10 @@ To package a standalone release for players (Windows, Linux, macOS):
 
 | Metric | Value | Ratio |
 | :--- | :---: | :--- |
-| **Total Words** | **124 993** | `100%` |
+| **Total Words** | **124 955** | `100%` |
 | **Total Script Lines** | **5 889** | `100%` |
-| Narration / Description | 83 073 words / 3 110 lines | `66.5%` ███████░░░ |
-| Spoken Dialogue (Characters) | 41 920 words / 2 779 lines | `33.5%` ███░░░░░░░ |
+| Narration / Description | 83 050 words / 3 110 lines | `66.5%` ███████░░░ |
+| Spoken Dialogue (Characters) | 41 905 words / 2 779 lines | `33.5%` ███░░░░░░░ |
 | Unique Speakers | 103 | — |
 | Script Files (.rpy) | 159 | — |
 
@@ -259,20 +259,20 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Chapter 2: In Search of A Friend** | 8 | 98 | 2 971 | `15.0%` █░░░░░░░ |
 | **Chapter 3: Escapism** | 18 | 331 | 6 836 | `32.1%` ███░░░░░ |
 | **Chapter 4.0: Ark Aground** | 6 | 246 | 5 942 | `47.8%` ████░░░░ |
-| **Chapter 4.5: From Exile to Constellation** | 23 | 1 170 | 28 633 | `38.4%` ███░░░░░ |
+| **Chapter 4.5: From Exile to Constellation** | 23 | 1 170 | 28 595 | `38.4%` ███░░░░░ |
 | **Chapter 5: An Offer You Can’t Refuse** | 37 | 959 | 15 622 | `37.7%` ███░░░░░ |
 | **Chapter 6: First row. Fifth seat.** | 7 | 355 | 7 214 | `30.3%` ██░░░░░░ |
 | **Chapter 7: Fog of War** | 6 | 308 | 6 344 | `31.8%` ███░░░░░ |
 | **Chapter 8: School Days...?** | 22 | 1 487 | 27 799 | `31.5%` ███░░░░░ |
 | **Chapter 9: Resonating Dissonance** | 7 | 185 | 4 332 | `25.1%` ██░░░░░░ |
 | **Flashbacks & Memory Fragments** | 13 | 335 | 9 844 | `23.8%` ██░░░░░░ |
-| **TOTAL** | **159** | **5 889** | **124 993** | `33.5%` |
+| **TOTAL** | **159** | **5 889** | **124 955** | `33.5%` |
 
 ### Character Dialogue Distribution
 
 | Character | Lines | Words | Word Share (of dialogue) |
 | :--- | :---: | :---: | :--- |
-| **Neon** | 1 181 | 14 396 | `34.3%` ███░░░░░ |
+| **Neon** | 1 181 | 14 396 | `34.4%` ███░░░░░ |
 | **Seraphina** | 175 | 3 771 | `9.0%` █░░░░░░░ |
 | **Argon** | 163 | 3 059 | `7.3%` █░░░░░░░ |
 | **Oganesson (Guardian)** | 139 | 2 496 | `6.0%` ░░░░░░░░ |
@@ -283,8 +283,8 @@ To package a standalone release for players (Windows, Linux, macOS):
 | **Sibyl** | 36 | 880 | `2.1%` ░░░░░░░░ |
 | **Marcus** | 48 | 831 | `2.0%` ░░░░░░░░ |
 | **Nari** | 56 | 715 | `1.7%` ░░░░░░░░ |
-| **Ayame** | 11 | 648 | `1.5%` ░░░░░░░░ |
-| **Sophie** | 41 | 524 | `1.2%` ░░░░░░░░ |
+| **Ayame** | 11 | 633 | `1.5%` ░░░░░░░░ |
+| **Sophie** | 41 | 524 | `1.3%` ░░░░░░░░ |
 | **Xenon** | 21 | 506 | `1.2%` ░░░░░░░░ |
 | **Akane (Mother)** | 30 | 478 | `1.1%` ░░░░░░░░ |
 | **Teacher Akari** | 18 | 308 | `0.7%` ░░░░░░░░ |
