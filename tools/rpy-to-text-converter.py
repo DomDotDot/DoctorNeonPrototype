@@ -15,13 +15,17 @@ OUTPUT_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
 # 3. Объединять ли все главы дополнительно в один общий файл при выборе "all"?
 # False -> создает только отдельные файлы для каждой главы (Full_chapter1.txt, Full_chapter2.txt и т.д.)
 # True  -> дополнительно создает объединенный файл Full_all.txt
-COMBINE_ALL = False
+COMBINE_ALL = True
 
 # 3. Список "Корневых" файлов главы.
 # ВАЖНО: Сюда пишем только те файлы, которые идут ПО ПОРЯДКУ в основной линии.
 # Если файлы типа "slice-of-life" вызываются через call внутри других файлов, 
 # их СЮДА ПИСАТЬ НЕ НАДО (скрипт сам их найдет и вставит).
 CHAPTERS_DB = {
+    "chapter0": [
+        "flashbacks/krypton/krypton_flashbacks.rpy",
+    ],
+
     "chapter1": [
         "chapters/chapter1/1-lab-night.rpy",
         "flashbacks/krypton/krypton_baddream.rpy",
@@ -40,7 +44,6 @@ CHAPTERS_DB = {
     ],
 
     "chapter2": [
-        "flashbacks/krypton/krypton_flashbacks.rpy",
         "chapters/chapter2/1-false-memories.rpy",
         "chapters/chapter2/2-long-night.rpy",
         "chapters/chapter2/3-nightmare.rpy",
@@ -98,6 +101,7 @@ CHAPTERS_DB = {
         "flashbacks/neon/childhood/4-dream-fragment.rpy",
         "chapters/chapter4.5/10-hostage.rpy",
         "chapters/chapter4.5/11-deadwall.rpy",
+        "chapters/chapter4.5/slice-of-life/6-ayame.rpy",
         "chapters/chapter4.5/12-epilogue.rpy",
     ],
 
